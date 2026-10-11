@@ -18,7 +18,11 @@ Odds are category-level per-pack values by fat pack, hobby and value box. No spe
 
 All paths are relative and work on a project subpath, including GitHub Pages. For a prototype, publish the repository root from a branch in Settings → Pages. No backend is needed.
 
-GitHub states Pages is not allowed as free hosting to run an online business. Since the intended site is ad supported, review https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits before using it commercially. The same files can be deployed to another static host without code changes. No repository, remote or production deployment has been created.
+GitHub states Pages is not allowed as free hosting to run an online business. Since the intended site is ad supported, review https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits before using it commercially. The same files can be deployed to another static host without code changes. Repository: https://github.com/pfrederiksen/paulschecklists
+
+Live site: https://pfrederiksen.github.io/paulschecklists/
+
+GitHub Pages publishes the `docs/` directory on `main`. Run `node scripts/build_site.mjs`, commit the source and generated `docs/` files, then push to publish changes.
 
 ## Advertising
 
@@ -33,3 +37,9 @@ Search names, numbers, teams and sections; accent-insensitive search; team/subse
 `python3 scripts/verify_data.py` checks record grouping, source-page ranges, odds associations and key published values. Browser verification should cover searching, filter combinations, expanding details, switching pack format, pagination and CSV download.
 
 `node scripts/verify_ui.mjs` exercises the application using lightweight DOM stubs. This verifies logic, not browser rendering. Browser automation was unavailable in the initial development session.
+
+## AdSense activation
+
+`ads-config.js` contains public publisher configuration. The integration is disabled and contains no invented publisher IDs. Before activation, configure the actual publisher and display-ad slot IDs, add this site to AdSense for review, publish the required privacy disclosures, and configure Google's certified consent message or another certified CMP. See https://support.google.com/adsense/answer/7584263 and https://support.google.com/adsense/answer/13554116.
+
+The build generates `docs/ads.txt` only when a real publisher ID is present. For the current project URL, that file is below the domain root; it must also be deployed at https://pfrederiksen.github.io/ads.txt (through the root-site repository) or served at the root of a custom domain assigned to this project. No root-site changes have been made.
