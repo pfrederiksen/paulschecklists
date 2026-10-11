@@ -88,7 +88,9 @@ function exportCsv(){const f=readFilters();const rows=view==='cards'?[['Number',
  // Neutralize spreadsheet formula prefixes in downloaded text fields.
  const csv=rows.map(r=>r.map(v=>`"${String(v).replace(/^[=+@-]/,"'$&").replace(/"/g,'""')}"`).join(',')).join('\r\n');const url=URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=`${setSlug}-${view}.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 try{
- const res=await fetch(`./data/${setSlug}.json`);if(!res.ok)throw Error(`HTTP ${res.status}`);data=await res.json();oddsGroups=buildOddsGroups();
+ const res=await fetch(`./data/${setSlug}.json`);if(!res.ok)throw Error(`HTTP ${res.status}`);data=await res.json();
+ if(setSlug==='bowman-football-2026'&&!data.title.includes('Bowman Football'))throw Error('Checklist dataset does not match this page');
+ oddsGroups=buildOddsGroups();
  if(data.formats){$('format').innerHTML='';data.formats.forEach(f=>$('format').add(new Option(f.name,f.id)));$('format').value='hobby';}
  $('official').href=data.source.product;$('checklist-source').href=data.source.checklist;$('odds-source').href=data.source.odds;
  $('card-total').textContent=data.sections.reduce((n,s)=>n+s.cards.length,0).toLocaleString();

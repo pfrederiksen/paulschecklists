@@ -1,2 +1,12 @@
-const filter=document.getElementById('sport-filter');
-filter.addEventListener('change',()=>document.querySelectorAll('[data-sport]').forEach(tile=>tile.hidden=Boolean(filter.value&&tile.dataset.sport!==filter.value)));
+const get=id=>document.getElementById(id);
+const rows=[...document.querySelectorAll('.catalog-row')];
+function filterSets(){
+ const query=get('set-search').value.toLowerCase().trim(),sport=get('sport-filter').value,year=get('year-filter').value;
+ let count=0;
+ rows.forEach(row=>{row.hidden=Boolean((query&&!row.dataset.search.includes(query))||(sport&&row.dataset.sport!==sport)||(year&&row.dataset.year!==year));if(!row.hidden)count++;});
+ get('catalog-count').textContent=`${count} ${count===1?'set':'sets'}`;
+ get('catalog-empty').hidden=count>0;
+}
+get('set-search').addEventListener('input',filterSets);
+['sport-filter','year-filter'].forEach(id=>get(id).addEventListener('change',filterSets));
+get('catalog-reset').addEventListener('click',()=>{['set-search','sport-filter','year-filter'].forEach(id=>get(id).value='');filterSets();});
