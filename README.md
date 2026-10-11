@@ -50,4 +50,6 @@ Auto ads settings are controlled in AdSense → Ads → site settings. Turn on A
 
 The canonical checklist address is https://paulfrederiksen.com/checklists/. The domain is served by the separate `pfrederiksen/paulfrederiksen.com` Astro repository. After building, run `node scripts/sync_domain_site.mjs /path/to/domain-repository` to copy generated assets to its `public/checklists/` directory and merge the real publisher record into `public/ads.txt`. Commit and push that repository to publish the domain version. Its photography homepage is preserved. The original project Pages URL remains available.
 
-Publisher ID: `ca-pub-6005669570779380`. Verification metadata and the ads.txt seller record are configured. Auto ads serving remains disabled until site approval and consent setup are confirmed. No ad-slot ID is needed.
+Publisher ID: `ca-pub-6005669570779380`. Verification metadata and the ads.txt seller record are configured. Auto ads serving is enabled following user confirmation of approval and consent setup. No ad-slot ID is needed.
+
+Auto ads enabled October 11, 2026. Google controls placement and whether an ad is served. No reserved ad block or manual ad units remain.

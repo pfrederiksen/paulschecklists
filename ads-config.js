@@ -2,6 +2,6 @@
 export default {
   provider: 'adsense',
   mode: 'auto',
-  enabled: false,
+  enabled: true,
   publisherId: 'ca-pub-6005669570779380',
 };
