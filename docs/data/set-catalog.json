@@ -13,8 +13,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-chrome-football",
       "page": "sets/topps-bowman-2025-topps-chrome-football.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 505,
+      "formats": 14,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Football_Odds.pdf?v=1776193199",
+      "oddsImportIssues": 0,
+      "rowCount": 2390,
+      "tableData": "data/imports/topps-bowman-2025-topps-chrome-football.json",
+      "sections": 40,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Chrome® Football Sapphire",
@@ -28,8 +38,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-chrome-football-sapphire",
       "page": "sets/topps-bowman-2025-topps-chrome-football-sapphire.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 741,
+      "tableData": "data/imports/topps-bowman-2025-topps-chrome-football-sapphire.json",
+      "sections": 13,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Chrome® Formula 1 - Sapphire Edition",
@@ -43,8 +59,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-chrome-formula-1-sapphire-edition",
       "page": "sets/topps-bowman-2025-topps-chrome-formula-1-sapphire-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 261,
+      "formats": 7,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Formula_1_Sapphire_Edition_Odds.pdf?v=1770648860",
+      "oddsImportIssues": 0,
+      "rowCount": 372,
+      "tableData": "data/imports/topps-bowman-2025-topps-chrome-formula-1-sapphire-edition.json",
+      "sections": 3,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "Topps Chrome® Major League Soccer 2026",
@@ -58,8 +84,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-topps-chrome-major-league-soccer-2026",
       "page": "sets/topps-bowman-topps-chrome-major-league-soccer-2026.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 139,
+      "formats": 3,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_MLS_Chrome_Odds_bfbe76ad-f5f8-448d-8d8a-7a61ca01a257.pdf?v=1789050564",
+      "oddsImportIssues": 0,
+      "rowCount": 565,
+      "tableData": "data/imports/topps-bowman-topps-chrome-major-league-soccer-2026.json",
+      "sections": 11,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Chrome® McDonald's All-American Basketball",
@@ -73,8 +109,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball",
       "page": "sets/topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 73,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Odds.pdf?v=1775071299",
+      "oddsImportIssues": 0,
+      "rowCount": 400,
+      "tableData": "data/imports/topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball.json",
+      "sections": 12,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Chrome® Platinum Baseball",
@@ -88,8 +134,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-chrome-platinum-baseball",
       "page": "sets/topps-bowman-2025-topps-chrome-platinum-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 246,
+      "formats": 3,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Platinum55_Baseball_Odds.pdf?v=1781723903",
+      "oddsImportIssues": 0,
+      "rowCount": 997,
+      "tableData": "data/imports/topps-bowman-2025-topps-chrome-platinum-baseball.json",
+      "sections": 4,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Chrome® U.S. Winter Olympics & Paralympic Team Hopefuls",
@@ -103,8 +159,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-chrome-u-s-winter-olympics-paralympic-team-hopefuls",
       "page": "sets/topps-bowman-2026-topps-chrome-u-s-winter-olympics-paralympic-team-hopefuls.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 85,
+      "formats": 3,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_US_Olympics_Odds.pdf?v=1787595621",
+      "oddsImportIssues": 0,
+      "rowCount": 709,
+      "tableData": "data/imports/topps-bowman-2026-topps-chrome-u-s-winter-olympics-paralympic-team-hopefuls.json",
+      "sections": 16,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "Topps Chrome® UEFA Club Competitions 2025-26",
@@ -118,8 +184,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-topps-chrome-uefa-club-competitions-2025-26",
       "page": "sets/topps-bowman-topps-chrome-uefa-club-competitions-2025-26.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 910,
+      "tableData": "data/imports/topps-bowman-topps-chrome-uefa-club-competitions-2025-26.json",
+      "sections": 34,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Finest Baseball",
@@ -133,8 +205,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-finest-baseball",
       "page": "sets/topps-bowman-2026-topps-finest-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 272,
+      "formats": 4,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Baseball_Odds.pdf?v=1783437319",
+      "oddsImportIssues": 0,
+      "rowCount": 1071,
+      "tableData": "data/imports/topps-bowman-2026-topps-finest-baseball.json",
+      "sections": 26,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps Finest Basketball",
@@ -148,8 +230,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-finest-basketball",
       "page": "sets/topps-bowman-2025-26-topps-finest-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 217,
+      "formats": 2,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Odds.pdf?v=1771360733",
+      "oddsImportIssues": 0,
+      "rowCount": 764,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-finest-basketball.json",
+      "sections": 17,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Finest Football",
@@ -163,8 +255,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-finest-football",
       "page": "sets/topps-bowman-2025-topps-finest-football.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 228,
+      "formats": 2,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0871/8916/0120/files/2025_Topps_Finest_Football_Odds.pdf?v=1782311781",
+      "oddsImportIssues": 0,
+      "rowCount": 789,
+      "tableData": "data/imports/topps-bowman-2025-topps-finest-football.json",
+      "sections": 23,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "Topps® Finest Premier League 2026",
@@ -178,8 +280,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-topps-finest-premier-league-2026",
       "page": "sets/topps-bowman-topps-finest-premier-league-2026.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 115,
+      "formats": 3,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/PL_FINEST_ODDS_Official.pdf?v=1774262754",
+      "oddsImportIssues": 0,
+      "rowCount": 752,
+      "tableData": "data/imports/topps-bowman-topps-finest-premier-league-2026.json",
+      "sections": 23,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Flagship Football",
@@ -193,8 +305,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-flagship-football",
       "page": "sets/topps-bowman-2026-topps-flagship-football.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 2054,
+      "tableData": "data/imports/topps-bowman-2026-topps-flagship-football.json",
+      "sections": 57,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "odds": 983,
+      "formats": 20,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Football_Odds.pdf?v=1789491381",
+      "oddsImportIssues": 0,
+      "parallelData": true
     },
     {
       "title": "2026 Topps Heritage Baseball",
@@ -208,8 +330,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-heritage-baseball",
       "page": "sets/topps-bowman-2026-topps-heritage-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 230,
+      "formats": 12,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Baseball_Odds.pdf?v=1773779345",
+      "oddsImportIssues": 0,
+      "rowCount": 1543,
+      "tableData": "data/imports/topps-bowman-2026-topps-heritage-baseball.json",
+      "sections": 42,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Heritage Football",
@@ -223,8 +355,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-heritage-football",
       "page": "sets/topps-bowman-2026-topps-heritage-football.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 1487,
+      "tableData": "data/imports/topps-bowman-2026-topps-heritage-football.json",
+      "sections": 30,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Holiday Baseball",
@@ -238,8 +376,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-holiday-baseball",
       "page": "sets/topps-bowman-2026-topps-holiday-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 640,
+      "tableData": "data/imports/topps-bowman-2026-topps-holiday-baseball.json",
+      "sections": 12,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps Hopps Basketball",
@@ -253,8 +397,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-hopps-basketball",
       "page": "sets/topps-bowman-2025-26-topps-hopps-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 193,
+      "formats": 5,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Odds.pdf?v=1777298833",
+      "oddsImportIssues": 0,
+      "rowCount": 1087,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-hopps-basketball.json",
+      "sections": 29,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Inception Baseball",
@@ -268,8 +422,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-inception-baseball",
       "page": "sets/topps-bowman-2025-topps-inception-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 108,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Inception_Baseball_Odds.pdf?v=1783625098",
+      "oddsImportIssues": 0,
+      "rowCount": 702,
+      "tableData": "data/imports/topps-bowman-2025-topps-inception-baseball.json",
+      "sections": 20,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Tribute Baseball",
@@ -283,8 +447,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-tribute-baseball",
       "page": "sets/topps-bowman-2026-topps-tribute-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 143,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tirbute_Baseball_Odds.pdf?v=1785343913",
+      "oddsImportIssues": 0,
+      "rowCount": 786,
+      "tableData": "data/imports/topps-bowman-2026-topps-tribute-baseball.json",
+      "sections": 22,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Universe WWE",
@@ -298,8 +472,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-universe-wwe",
       "page": "sets/topps-bowman-2025-topps-universe-wwe.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 846,
+      "tableData": "data/imports/topps-bowman-2025-topps-universe-wwe.json",
+      "sections": 32,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Update Series Baseball",
@@ -313,8 +493,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-update-series-baseball",
       "page": "sets/topps-bowman-2026-topps-update-series-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 281,
+      "formats": 9,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Updates_Series_Odds.pdf?v=1790610141",
+      "oddsImportIssues": 0,
+      "rowCount": 3284,
+      "tableData": "data/imports/topps-bowman-2026-topps-update-series-baseball.json",
+      "sections": 84,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Royalty UFC",
@@ -328,8 +518,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-royalty-ufc",
       "page": "sets/topps-bowman-2025-topps-royalty-ufc.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 861,
+      "tableData": "data/imports/topps-bowman-2025-topps-royalty-ufc.json",
+      "sections": 28,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": false
     },
     {
       "title": "2025 Topps Royalty WWE",
@@ -343,8 +539,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-royalty-wwe",
       "page": "sets/topps-bowman-2025-topps-royalty-wwe.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 118,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_WWE_Royalty_Odds.pdf?v=1777649182",
+      "oddsImportIssues": 0,
+      "rowCount": 640,
+      "tableData": "data/imports/topps-bowman-2025-topps-royalty-wwe.json",
+      "sections": 32,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Series 1 Baseball",
@@ -358,8 +564,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-series-1-baseball",
       "page": "sets/topps-bowman-2026-topps-series-1-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 348,
+      "formats": 26,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Series_1_Odds.pdf?v=1771951813",
+      "oddsImportIssues": 0,
+      "rowCount": 3258,
+      "tableData": "data/imports/topps-bowman-2026-topps-series-1-baseball.json",
+      "sections": 55,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Series 2 Baseball",
@@ -373,8 +589,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-series-2-baseball",
       "page": "sets/topps-bowman-2026-topps-series-2-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 348,
+      "formats": 23,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Series_2_Odds.pdf?v=1781724617",
+      "oddsImportIssues": 0,
+      "rowCount": 3461,
+      "tableData": "data/imports/topps-bowman-2026-topps-series-2-baseball.json",
+      "sections": 57,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps Signature Class Basketball",
@@ -388,8 +614,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-signature-class-basketball",
       "page": "sets/topps-bowman-2025-26-topps-signature-class-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 199,
+      "formats": 4,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Odds.pdf?v=1777313248",
+      "oddsImportIssues": 0,
+      "rowCount": 1097,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-signature-class-basketball.json",
+      "sections": 31,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Signature Class Football",
@@ -403,8 +639,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-signature-class-football",
       "page": "sets/topps-bowman-2025-topps-signature-class-football.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 322,
+      "formats": 9,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Signature_Class_Football_Odds.pdf?v=1781876271",
+      "oddsImportIssues": 0,
+      "rowCount": 1531,
+      "tableData": "data/imports/topps-bowman-2025-topps-signature-class-football.json",
+      "sections": 39,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Stadium Club Baseball",
@@ -418,8 +664,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-stadium-club-baseball",
       "page": "sets/topps-bowman-2025-topps-stadium-club-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 80,
+      "formats": 7,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Stadium_Club_Baseball_Odds.pdf?v=1769442573",
+      "oddsImportIssues": 0,
+      "rowCount": 649,
+      "tableData": "data/imports/topps-bowman-2025-topps-stadium-club-baseball.json",
+      "sections": 14,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps Three Basketball",
@@ -433,8 +689,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-three-basketball",
       "page": "sets/topps-bowman-2025-26-topps-three-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 154,
+      "formats": 2,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Odds.pdf?v=1771339442",
+      "oddsImportIssues": 0,
+      "rowCount": 1172,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-three-basketball.json",
+      "sections": 27,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Tier One Baseball",
@@ -448,8 +714,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-tier-one-baseball",
       "page": "sets/topps-bowman-2026-topps-tier-one-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 205,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Tier_One_Baseball_Odds.pdf?v=1783625109",
+      "oddsImportIssues": 0,
+      "rowCount": 1749,
+      "tableData": "data/imports/topps-bowman-2026-topps-tier-one-baseball.json",
+      "sections": 46,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Transcendent Collection Baseball",
@@ -463,8 +739,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-transcendent-collection-baseball",
       "page": "sets/topps-bowman-2025-topps-transcendent-collection-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 1384,
+      "tableData": "data/imports/topps-bowman-2025-topps-transcendent-collection-baseball.json",
+      "sections": 29,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps Chrome® Updates Basketball",
@@ -478,8 +760,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-chrome-updates-basketball",
       "page": "sets/topps-bowman-2025-26-topps-chrome-updates-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 390,
+      "formats": 12,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Updates_Basketball_odds.pdf?v=1786020446",
+      "oddsImportIssues": 0,
+      "rowCount": 1300,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-chrome-updates-basketball.json",
+      "sections": 33,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps Chrome® Updates Basketball Sapphire Edition",
@@ -493,8 +785,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-chrome-updates-basketball-sapphire-edition",
       "page": "sets/topps-bowman-2025-26-topps-chrome-updates-basketball-sapphire-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 34,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25_26_Topps_Chrome_Updates_Basketball_Sapphire_Odds.pdf?v=1788294895",
+      "oddsImportIssues": 0,
+      "rowCount": 398,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-chrome-updates-basketball-sapphire-edition.json",
+      "sections": 6,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Chrome® WWE",
@@ -508,8 +810,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-chrome-wwe",
       "page": "sets/topps-bowman-2026-topps-chrome-wwe.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 1114,
+      "tableData": "data/imports/topps-bowman-2026-topps-chrome-wwe.json",
+      "sections": 49,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "odds": 410,
+      "formats": 11,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_WWE_Odds.pdf?v=1775834666",
+      "oddsImportIssues": 0,
+      "parallelData": true
     },
     {
       "title": "2026 Topps Cosmic Chrome® Baseball",
@@ -523,8 +835,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-cosmic-chrome-baseball",
       "page": "sets/topps-bowman-2026-topps-cosmic-chrome-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 138,
+      "formats": 2,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-28_2026-Topps-Cosmic-Chrome-Baseball_Odds.pdf?v=1790610132",
+      "oddsImportIssues": 0,
+      "rowCount": 922,
+      "tableData": "data/imports/topps-bowman-2026-topps-cosmic-chrome-baseball.json",
+      "sections": 23,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps Cosmic Chrome® Basketball",
@@ -538,8 +860,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-cosmic-chrome-basketball",
       "page": "sets/topps-bowman-2025-26-topps-cosmic-chrome-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 126,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Odds.pdf?v=1774987789",
+      "oddsImportIssues": 0,
+      "rowCount": 777,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-cosmic-chrome-basketball.json",
+      "sections": 19,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Cosmic Chrome® Football",
@@ -553,8 +885,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-cosmic-chrome-football",
       "page": "sets/topps-bowman-2025-topps-cosmic-chrome-football.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 113,
+      "formats": 2,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Cosmic_Chrome_Football_Odds.pdf?v=1781722934",
+      "oddsImportIssues": 0,
+      "rowCount": 878,
+      "tableData": "data/imports/topps-bowman-2025-topps-cosmic-chrome-football.json",
+      "sections": 18,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Definitive Baseball",
@@ -568,8 +910,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-definitive-baseball",
       "page": "sets/topps-bowman-2025-topps-definitive-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 96,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Definitive_Baseball_Odds.pdf?v=1777493204",
+      "oddsImportIssues": 0,
+      "rowCount": 1485,
+      "tableData": "data/imports/topps-bowman-2025-topps-definitive-baseball.json",
+      "sections": 32,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Dynamic Duals Baseball",
@@ -583,8 +935,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-dynamic-duals-baseball",
       "page": "sets/topps-bowman-2026-topps-dynamic-duals-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 37,
+      "formats": 2,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Dynamic_Duals_Odds.pdf?v=1781536733",
+      "oddsImportIssues": 0,
+      "rowCount": 131,
+      "tableData": "data/imports/topps-bowman-2026-topps-dynamic-duals-baseball.json",
+      "sections": 1,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Dynasty Baseball",
@@ -598,8 +960,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-dynasty-baseball",
       "page": "sets/topps-bowman-2025-topps-dynasty-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 32,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Dynasty_Baseball_Odds.pdf?v=1783625122",
+      "oddsImportIssues": 0,
+      "rowCount": 1545,
+      "tableData": "data/imports/topps-bowman-2025-topps-dynasty-baseball.json",
+      "sections": 18,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Exalted WWE",
@@ -613,8 +985,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-exalted-wwe",
       "page": "sets/topps-bowman-2025-topps-exalted-wwe.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 100,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_WWE_Exalted_Odds.pdf?v=1775050238",
+      "oddsImportIssues": 0,
+      "rowCount": 425,
+      "tableData": "data/imports/topps-bowman-2025-topps-exalted-wwe.json",
+      "sections": 20,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Bowman Baseball",
@@ -628,8 +1010,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-bowman-baseball",
       "page": "sets/topps-bowman-2026-bowman-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 343,
+      "formats": 9,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Odds.pdf?v=1776345050",
+      "oddsImportIssues": 0,
+      "rowCount": 1166,
+      "tableData": "data/imports/topps-bowman-2026-bowman-baseball.json",
+      "sections": 24,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Bowman Basketball",
@@ -643,8 +1035,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-bowman-basketball",
       "page": "sets/topps-bowman-2025-26-bowman-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 453,
+      "formats": 6,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Odds.pdf?v=1776281698",
+      "oddsImportIssues": 0,
+      "rowCount": 891,
+      "tableData": "data/imports/topps-bowman-2025-26-bowman-basketball.json",
+      "sections": 9,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Bowman Chrome® Baseball",
@@ -658,8 +1060,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-bowman-chrome-baseball",
       "page": "sets/topps-bowman-2026-bowman-chrome-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 304,
+      "formats": 5,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Odds.pdf?v=1791472292",
+      "oddsImportIssues": 0,
+      "rowCount": 1206,
+      "tableData": "data/imports/topps-bowman-2026-bowman-chrome-baseball.json",
+      "sections": 30,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Bowman Chrome® Baseball Mega Box",
@@ -673,8 +1085,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-bowman-chrome-baseball-mega-box",
       "page": "sets/topps-bowman-2026-bowman-chrome-baseball-mega-box.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 410,
+      "tableData": "data/imports/topps-bowman-2026-bowman-chrome-baseball-mega-box.json",
+      "sections": 15,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Bowman Chrome® Baseball Sapphire Edition",
@@ -688,8 +1106,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-bowman-chrome-baseball-sapphire-edition",
       "page": "sets/topps-bowman-2026-bowman-chrome-baseball-sapphire-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 271,
+      "tableData": "data/imports/topps-bowman-2026-bowman-chrome-baseball-sapphire-edition.json",
+      "sections": 7,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Bowman Draft Baseball Sapphire Edition",
@@ -703,8 +1127,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-bowman-draft-baseball-sapphire-edition",
       "page": "sets/topps-bowman-2025-bowman-draft-baseball-sapphire-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 234,
+      "formats": 5,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_Draft_Baseball_Odds.pdf?v=1770925127",
+      "oddsImportIssues": 0,
+      "rowCount": 264,
+      "tableData": "data/imports/topps-bowman-2025-bowman-draft-baseball-sapphire-edition.json",
+      "sections": 5,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Bowman's Best Baseball",
@@ -718,8 +1152,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-bowman-s-best-baseball",
       "page": "sets/topps-bowman-2025-bowman-s-best-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 107,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Baseball_Odds.pdf?v=1773183175",
+      "oddsImportIssues": 0,
+      "rowCount": 697,
+      "tableData": "data/imports/topps-bowman-2025-bowman-s-best-baseball.json",
+      "sections": 20,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Bowman University Best Basketball",
@@ -733,8 +1177,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-bowman-university-best-basketball",
       "page": "sets/topps-bowman-2025-26-bowman-university-best-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 133,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25_26_Bowman_U_Best_Basketball_Odds.pdf?v=1778857649",
+      "oddsImportIssues": 0,
+      "rowCount": 617,
+      "tableData": "data/imports/topps-bowman-2025-26-bowman-university-best-basketball.json",
+      "sections": 17,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Bowman Football",
@@ -766,8 +1220,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-national-sports-collectors-convention",
       "page": "sets/topps-bowman-2026-national-sports-collectors-convention.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 559,
+      "tableData": "data/imports/topps-bowman-2026-national-sports-collectors-convention.json",
+      "sections": 17,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps Inception Basketball",
@@ -781,8 +1241,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-inception-basketball",
       "page": "sets/topps-bowman-2025-26-topps-inception-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 91,
+      "formats": 2,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Odds.pdf?v=1783522877",
+      "oddsImportIssues": 0,
+      "rowCount": 488,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-inception-basketball.json",
+      "sections": 17,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Inception Football",
@@ -796,8 +1266,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-inception-football",
       "page": "sets/topps-bowman-2026-topps-inception-football.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 538,
+      "tableData": "data/imports/topps-bowman-2026-topps-inception-football.json",
+      "sections": 17,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025/26 Topps Manchester United Collector Tin",
@@ -811,8 +1287,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-manchester-united-collector-tin",
       "page": "sets/topps-bowman-2025-26-topps-manchester-united-collector-tin.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 56,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-manchester-united-collector-tin.json",
+      "sections": 4,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "Topps® Manchester United 2025/26 Team Set",
@@ -826,8 +1308,14 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-topps-manchester-united-2025-26-team-set",
       "page": "sets/topps-bowman-topps-manchester-united-2025-26-team-set.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 119,
+      "tableData": "data/imports/topps-bowman-topps-manchester-united-2025-26-team-set.json",
+      "sections": 8,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Midnight UFC",
@@ -841,8 +1329,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-midnight-ufc",
       "page": "sets/topps-bowman-2026-topps-midnight-ufc.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 91,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_UFC_Midnight_Odds.pdf?v=1776194785",
+      "oddsImportIssues": 0,
+      "rowCount": 384,
+      "tableData": "data/imports/topps-bowman-2026-topps-midnight-ufc.json",
+      "sections": 14,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Museum Collection Baseball",
@@ -856,8 +1354,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-museum-collection-baseball",
       "page": "sets/topps-bowman-2025-topps-museum-collection-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 147,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Museum_Collection_Baseball_Odds.pdf?v=1770050312",
+      "oddsImportIssues": 0,
+      "rowCount": 1527,
+      "tableData": "data/imports/topps-bowman-2025-topps-museum-collection-baseball.json",
+      "sections": 30,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Museum Collection Baseball",
@@ -871,8 +1379,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-museum-collection-baseball",
       "page": "sets/topps-bowman-2026-topps-museum-collection-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 180,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Museum_Baseball_Odds.pdf?v=1789484095",
+      "oddsImportIssues": 0,
+      "rowCount": 1439,
+      "tableData": "data/imports/topps-bowman-2026-topps-museum-collection-baseball.json",
+      "sections": 30,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps NBL Basketball",
@@ -886,8 +1404,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-nbl-basketball",
       "page": "sets/topps-bowman-2025-26-topps-nbl-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 48,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/NBL_ODDS.pdf?v=1782336693",
+      "oddsImportIssues": 0,
+      "rowCount": 323,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-nbl-basketball.json",
+      "sections": 12,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Pristine Baseball",
@@ -901,8 +1429,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-pristine-baseball",
       "page": "sets/topps-bowman-2025-topps-pristine-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 89,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025ToppsPristineBaseballOdds.pdf?v=1770915274",
+      "oddsImportIssues": 0,
+      "rowCount": 814,
+      "tableData": "data/imports/topps-bowman-2025-topps-pristine-baseball.json",
+      "sections": 18,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Resurgence Football",
@@ -916,8 +1454,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-resurgence-football",
       "page": "sets/topps-bowman-2025-topps-resurgence-football.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 249,
+      "formats": 4,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Resurgence_Football_Odds_1.pdf?v=1785355384",
+      "oddsImportIssues": 0,
+      "rowCount": 749,
+      "tableData": "data/imports/topps-bowman-2025-topps-resurgence-football.json",
+      "sections": 18,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps Definitive Basketball",
@@ -931,8 +1479,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-definitive-basketball",
       "page": "sets/topps-bowman-2025-26-topps-definitive-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 141,
+      "formats": 2,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-16_2025-26-Topps-Definitive-Basketball_Odds_1.pdf?v=1789650301",
+      "oddsImportIssues": 0,
+      "rowCount": 1025,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-definitive-basketball.json",
+      "sections": 28,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Allen & Ginter Baseball",
@@ -964,8 +1522,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-chrome-baseball",
       "page": "sets/topps-bowman-2026-topps-chrome-baseball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 343,
+      "formats": 6,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Baseball_Odds.pdf?v=1784729528",
+      "oddsImportIssues": 0,
+      "rowCount": 1619,
+      "tableData": "data/imports/topps-bowman-2026-topps-chrome-baseball.json",
+      "sections": 48,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Chrome® Baseball Logofractor Edition",
@@ -979,8 +1547,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-chrome-baseball-logofractor-edition",
       "page": "sets/topps-bowman-2026-topps-chrome-baseball-logofractor-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 66,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Logofractor_Odds.pdf?v=1787676101",
+      "oddsImportIssues": 0,
+      "rowCount": 496,
+      "tableData": "data/imports/topps-bowman-2026-topps-chrome-baseball-logofractor-edition.json",
+      "sections": 7,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Chrome® Baseball Sapphire Edition",
@@ -994,8 +1572,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-chrome-baseball-sapphire-edition",
       "page": "sets/topps-bowman-2026-topps-chrome-baseball-sapphire-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 25,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Sapphire_Odds.pdf?v=1787676129",
+      "oddsImportIssues": 0,
+      "rowCount": 402,
+      "tableData": "data/imports/topps-bowman-2026-topps-chrome-baseball-sapphire-edition.json",
+      "sections": 5,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Chrome® Baseball – Team Samurai Japan Collection",
@@ -1009,8 +1597,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection",
       "page": "sets/topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 42,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Samurai_Japan_Baseball_Odds.pdf?v=1787603458",
+      "oddsImportIssues": 0,
+      "rowCount": 118,
+      "tableData": "data/imports/topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection.json",
+      "sections": 1,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps Chrome® Basketball Sapphire",
@@ -1024,8 +1622,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-chrome-basketball-sapphire",
       "page": "sets/topps-bowman-2025-26-topps-chrome-basketball-sapphire.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 43,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Basketball_Sapphire_Odds.pdf?v=1768338554",
+      "oddsImportIssues": 0,
+      "rowCount": 540,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-chrome-basketball-sapphire.json",
+      "sections": 13,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026 Topps Chrome® Black Basketball",
@@ -1039,8 +1647,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-chrome-black-basketball",
       "page": "sets/topps-bowman-2026-topps-chrome-black-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 111,
+      "formats": 2,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Odds.pdf?v=1788295188",
+      "oddsImportIssues": 0,
+      "rowCount": 377,
+      "tableData": "data/imports/topps-bowman-2026-topps-chrome-black-basketball.json",
+      "sections": 14,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025 Topps Chrome® Black Football",
@@ -1054,8 +1672,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-chrome-black-football",
       "page": "sets/topps-bowman-2025-topps-chrome-black-football.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 84,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Odds.pdf?v=1783543006",
+      "oddsImportIssues": 0,
+      "rowCount": 475,
+      "tableData": "data/imports/topps-bowman-2025-topps-chrome-black-football.json",
+      "sections": 12,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2025-26 Topps Chrome® Cactus Jack Basketball",
@@ -1069,8 +1697,18 @@
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-chrome-cactus-jack-basketball",
       "page": "sets/topps-bowman-2025-26-topps-chrome-cactus-jack-basketball.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "odds": 60,
+      "formats": 1,
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Cactus_Jack_Basketball_Odds.pdf?v=1777925174",
+      "oddsImportIssues": 0,
+      "rowCount": 338,
+      "tableData": "data/imports/topps-bowman-2025-26-topps-chrome-cactus-jack-basketball.json",
+      "sections": 8,
+      "importKind": "pdf",
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "parallelData": true
     },
     {
       "title": "2026-27 Tim Horton’s",
@@ -1088,7 +1726,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 293,
-      "tableData": "data/imports/upper-deck-2026-27-tim-horton-s.json"
+      "tableData": "data/imports/upper-deck-2026-27-tim-horton-s.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 27,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Metal Universe SE",
@@ -1106,7 +1749,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 3329,
-      "tableData": "data/imports/upper-deck-2026-metal-universe-se.json"
+      "tableData": "data/imports/upper-deck-2026-metal-universe-se.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 98,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026-27 Upper Deck Series 1",
@@ -1124,7 +1772,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 4714,
-      "tableData": "data/imports/upper-deck-2026-27-upper-deck-series-1.json"
+      "tableData": "data/imports/upper-deck-2026-27-upper-deck-series-1.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 83,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 Splendor",
@@ -1142,7 +1795,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 1489,
-      "tableData": "data/imports/upper-deck-2025-26-splendor.json"
+      "tableData": "data/imports/upper-deck-2025-26-splendor.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 96,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 USA Hockey Jrs",
@@ -1160,7 +1818,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2324,
-      "tableData": "data/imports/upper-deck-2026-usa-hockey-jrs.json"
+      "tableData": "data/imports/upper-deck-2026-usa-hockey-jrs.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 56,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-2026 Upper Deck Ice Hockey",
@@ -1178,7 +1841,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2300,
-      "tableData": "data/imports/upper-deck-2025-2026-upper-deck-ice-hockey.json"
+      "tableData": "data/imports/upper-deck-2025-2026-upper-deck-ice-hockey.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 89,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026-27 Artifacts",
@@ -1196,7 +1864,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 5140,
-      "tableData": "data/imports/upper-deck-2026-27-artifacts.json"
+      "tableData": "data/imports/upper-deck-2026-27-artifacts.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 164,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 Premier",
@@ -1214,7 +1887,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 3014,
-      "tableData": "data/imports/upper-deck-2025-26-premier.json"
+      "tableData": "data/imports/upper-deck-2025-26-premier.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 162,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Team Canada Juniors",
@@ -1232,7 +1910,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2387,
-      "tableData": "data/imports/upper-deck-2026-team-canada-juniors.json"
+      "tableData": "data/imports/upper-deck-2026-team-canada-juniors.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 56,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 Fleer Ultra PWHL",
@@ -1250,7 +1933,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 1979,
-      "tableData": "data/imports/upper-deck-2025-26-fleer-ultra-pwhl.json"
+      "tableData": "data/imports/upper-deck-2025-26-fleer-ultra-pwhl.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 61,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 Clear Cut",
@@ -1268,7 +1956,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 1323,
-      "tableData": "data/imports/upper-deck-2025-26-clear-cut.json"
+      "tableData": "data/imports/upper-deck-2025-26-clear-cut.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 186,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 UD CFL",
@@ -1286,7 +1979,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 677,
-      "tableData": "data/imports/upper-deck-2026-ud-cfl.json"
+      "tableData": "data/imports/upper-deck-2026-ud-cfl.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 14,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 AEW",
@@ -1304,7 +2002,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2284,
-      "tableData": "data/imports/upper-deck-2026-aew.json"
+      "tableData": "data/imports/upper-deck-2026-aew.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 84,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Upper Deck NSCC",
@@ -1322,7 +2025,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 206,
-      "tableData": "data/imports/upper-deck-2026-upper-deck-nscc.json"
+      "tableData": "data/imports/upper-deck-2026-upper-deck-nscc.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 18,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026-27 MVP",
@@ -1340,7 +2048,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2122,
-      "tableData": "data/imports/upper-deck-2026-27-mvp.json"
+      "tableData": "data/imports/upper-deck-2026-27-mvp.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 50,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 NHL Ultimate Collection",
@@ -1358,7 +2071,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 3325,
-      "tableData": "data/imports/upper-deck-2025-26-nhl-ultimate-collection.json"
+      "tableData": "data/imports/upper-deck-2025-26-nhl-ultimate-collection.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 195,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 UD PWHL",
@@ -1376,7 +2094,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 1059,
-      "tableData": "data/imports/upper-deck-2025-26-ud-pwhl.json"
+      "tableData": "data/imports/upper-deck-2025-26-ud-pwhl.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 44,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Artifacts Golf",
@@ -1394,7 +2117,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 1151,
-      "tableData": "data/imports/upper-deck-2026-artifacts-golf.json"
+      "tableData": "data/imports/upper-deck-2026-artifacts-golf.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 65,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Team Canada",
@@ -1412,7 +2140,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2385,
-      "tableData": "data/imports/upper-deck-2026-team-canada.json"
+      "tableData": "data/imports/upper-deck-2026-team-canada.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 62,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Goodwin Champions",
@@ -1430,7 +2163,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 4268,
-      "tableData": "data/imports/upper-deck-2026-goodwin-champions.json"
+      "tableData": "data/imports/upper-deck-2026-goodwin-champions.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 131,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 CHL",
@@ -1448,7 +2186,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2707,
-      "tableData": "data/imports/upper-deck-2025-26-chl.json"
+      "tableData": "data/imports/upper-deck-2025-26-chl.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 48,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 Parkhurst",
@@ -1466,7 +2209,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 3283,
-      "tableData": "data/imports/upper-deck-2025-26-parkhurst.json"
+      "tableData": "data/imports/upper-deck-2025-26-parkhurst.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 89,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 SP Authentic",
@@ -1484,7 +2232,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 3176,
-      "tableData": "data/imports/upper-deck-2025-26-sp-authentic.json"
+      "tableData": "data/imports/upper-deck-2025-26-sp-authentic.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 134,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 CHL Game Used",
@@ -1502,7 +2255,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 826,
-      "tableData": "data/imports/upper-deck-2025-26-chl-game-used.json"
+      "tableData": "data/imports/upper-deck-2025-26-chl-game-used.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 17,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 AHL",
@@ -1520,7 +2278,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 584,
-      "tableData": "data/imports/upper-deck-2025-26-ahl.json"
+      "tableData": "data/imports/upper-deck-2025-26-ahl.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 15,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 UD Extended Series",
@@ -1538,7 +2301,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 4344,
-      "tableData": "data/imports/upper-deck-2025-26-ud-extended-series.json"
+      "tableData": "data/imports/upper-deck-2025-26-ud-extended-series.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 104,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Fleer Ultra Golf",
@@ -1556,7 +2324,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 1881,
-      "tableData": "data/imports/upper-deck-2026-fleer-ultra-golf.json"
+      "tableData": "data/imports/upper-deck-2026-fleer-ultra-golf.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 81,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-2026 O-Pee-Chee Platinum",
@@ -1574,7 +2347,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 6322,
-      "tableData": "data/imports/upper-deck-2025-2026-o-pee-chee-platinum.json"
+      "tableData": "data/imports/upper-deck-2025-2026-o-pee-chee-platinum.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 112,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Spring Expo",
@@ -1592,7 +2370,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 102,
-      "tableData": "data/imports/upper-deck-2026-spring-expo.json"
+      "tableData": "data/imports/upper-deck-2026-spring-expo.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": false,
+      "sections": 100,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-2026 SPx",
@@ -1610,7 +2393,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 3058,
-      "tableData": "data/imports/upper-deck-2025-2026-spx.json"
+      "tableData": "data/imports/upper-deck-2025-2026-spx.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 141,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-2026 Credentials",
@@ -1628,7 +2416,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2513,
-      "tableData": "data/imports/upper-deck-2025-2026-credentials.json"
+      "tableData": "data/imports/upper-deck-2025-2026-credentials.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 97,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-2026 Skybox Metal Universe Hockey",
@@ -1646,7 +2439,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2744,
-      "tableData": "data/imports/upper-deck-2025-2026-skybox-metal-universe-hockey.json"
+      "tableData": "data/imports/upper-deck-2025-2026-skybox-metal-universe-hockey.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 69,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 AEW Allure",
@@ -1661,8 +2459,15 @@
       "fetchError": "HTTP Error 403: Forbidden",
       "slug": "upper-deck-2026-aew-allure",
       "page": "sets/upper-deck-2026-aew-allure.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "tableData": "data/imports/upper-deck-2026-aew-allure.json",
+      "rowCount": 2251,
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 70,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Allure Golf",
@@ -1680,7 +2485,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2206,
-      "tableData": "data/imports/upper-deck-2026-allure-golf.json"
+      "tableData": "data/imports/upper-deck-2026-allure-golf.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 110,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 Flair Hockey",
@@ -1698,7 +2508,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2398,
-      "tableData": "data/imports/upper-deck-2025-26-flair-hockey.json"
+      "tableData": "data/imports/upper-deck-2025-26-flair-hockey.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 48,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "Upper Deck World of Sports Volume II",
@@ -1716,7 +2531,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2195,
-      "tableData": "data/imports/upper-deck-upper-deck-world-of-sports-volume-ii.json"
+      "tableData": "data/imports/upper-deck-upper-deck-world-of-sports-volume-ii.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 40,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 NHL New York Rangers Centennial Hobby",
@@ -1734,7 +2554,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 1391,
-      "tableData": "data/imports/upper-deck-2025-26-nhl-new-york-rangers-centennial-hobby.json"
+      "tableData": "data/imports/upper-deck-2025-26-nhl-new-york-rangers-centennial-hobby.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 55,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 Upper Deck Series 2",
@@ -1752,7 +2577,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 4961,
-      "tableData": "data/imports/upper-deck-2025-26-upper-deck-series-2.json"
+      "tableData": "data/imports/upper-deck-2025-26-upper-deck-series-2.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 104,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-2026 NHL Star Rookies Box Set",
@@ -1770,7 +2600,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 248,
-      "tableData": "data/imports/upper-deck-2025-2026-nhl-star-rookies-box-set.json"
+      "tableData": "data/imports/upper-deck-2025-2026-nhl-star-rookies-box-set.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 10,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-2026 SP Hockey",
@@ -1788,7 +2623,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 793,
-      "tableData": "data/imports/upper-deck-2025-2026-sp-hockey.json"
+      "tableData": "data/imports/upper-deck-2025-2026-sp-hockey.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 22,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Upper Deck Golf",
@@ -1806,7 +2646,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 1990,
-      "tableData": "data/imports/upper-deck-2026-upper-deck-golf.json"
+      "tableData": "data/imports/upper-deck-2026-upper-deck-golf.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 82,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-2026 Fleer Ultra",
@@ -1824,7 +2669,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 3139,
-      "tableData": "data/imports/upper-deck-2025-2026-fleer-ultra.json"
+      "tableData": "data/imports/upper-deck-2025-2026-fleer-ultra.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 72,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-2026 Artifacts Rookies",
@@ -1842,7 +2692,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 181,
-      "tableData": "data/imports/upper-deck-2025-2026-artifacts-rookies.json"
+      "tableData": "data/imports/upper-deck-2025-2026-artifacts-rookies.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": false,
+      "sections": 4,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 SP Game Used Hockey",
@@ -1860,7 +2715,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 4849,
-      "tableData": "data/imports/upper-deck-2025-26-sp-game-used-hockey.json"
+      "tableData": "data/imports/upper-deck-2025-26-sp-game-used-hockey.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 132,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 National Hockey Card Day",
@@ -1878,7 +2738,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 62,
-      "tableData": "data/imports/upper-deck-2026-national-hockey-card-day.json"
+      "tableData": "data/imports/upper-deck-2026-national-hockey-card-day.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": false,
+      "sections": 4,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-2026 Detroit Red Wings Centennial Set Checklist Hobby",
@@ -1896,7 +2761,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 1312,
-      "tableData": "data/imports/upper-deck-2025-2026-detroit-red-wings-centennial-set-checklist-hobby.json"
+      "tableData": "data/imports/upper-deck-2025-2026-detroit-red-wings-centennial-set-checklist-hobby.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 48,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 O-Pee-Chee",
@@ -1914,7 +2784,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 7491,
-      "tableData": "data/imports/upper-deck-2025-26-o-pee-chee.json"
+      "tableData": "data/imports/upper-deck-2025-26-o-pee-chee.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 71,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 MVP Silver Collection Hockey",
@@ -1932,7 +2807,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 350,
-      "tableData": "data/imports/upper-deck-2025-26-mvp-silver-collection-hockey.json"
+      "tableData": "data/imports/upper-deck-2025-26-mvp-silver-collection-hockey.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 1,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "Chicago Blackhawks 100th Anniversary Set Checklist – HOBBY",
@@ -1950,7 +2830,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 1415,
-      "tableData": "data/imports/upper-deck-chicago-blackhawks-100th-anniversary-set-checklist-hobby.json"
+      "tableData": "data/imports/upper-deck-chicago-blackhawks-100th-anniversary-set-checklist-hobby.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 51,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025 AEW SP Signature Edition",
@@ -1968,7 +2853,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 1264,
-      "tableData": "data/imports/upper-deck-2025-aew-sp-signature-edition.json"
+      "tableData": "data/imports/upper-deck-2025-aew-sp-signature-edition.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 19,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-2026 Allure Hockey",
@@ -1986,7 +2876,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 2900,
-      "tableData": "data/imports/upper-deck-2025-2026-allure-hockey.json"
+      "tableData": "data/imports/upper-deck-2025-2026-allure-hockey.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 93,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2025-26 NHL New York Rangers Centennial",
@@ -2004,7 +2899,12 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "rowCount": 377,
-      "tableData": "data/imports/upper-deck-2025-26-nhl-new-york-rangers-centennial.json"
+      "tableData": "data/imports/upper-deck-2025-26-nhl-new-york-rangers-centennial.json",
+      "importKind": "html",
+      "parallelData": true,
+      "publishedOdds": true,
+      "sections": 5,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card 5 Card Draw™ Stacked Deck Football Breakers Brick Black Tie Edition",
@@ -2018,8 +2918,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-5-card-draw-stacked-deck-football-breakers-brick-black-tie-edition",
       "page": "sets/wild-card-2026-wild-card-5-card-draw-stacked-deck-football-breakers-brick-black-tie-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 117,
+      "tableData": "data/imports/wild-card-2026-wild-card-5-card-draw-stacked-deck-football-breakers-brick-black-tie-edition.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 12,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card 5 Card Draw™ Stacked Deck Football Hobby Jumbo",
@@ -2033,8 +2939,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-5-card-draw-stacked-deck-football-hobby-jumbo",
       "page": "sets/wild-card-2026-wild-card-5-card-draw-stacked-deck-football-hobby-jumbo.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 91,
+      "tableData": "data/imports/wild-card-2026-wild-card-5-card-draw-stacked-deck-football-hobby-jumbo.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 26,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card 7 Card Studs™ Football Promo",
@@ -2048,8 +2960,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-7-card-studs-football-promo",
       "page": "sets/wild-card-2026-wild-card-7-card-studs-football-promo.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 114,
+      "tableData": "data/imports/wild-card-2026-wild-card-7-card-studs-football-promo.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 8,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "Wild Card Dino-Might Football",
@@ -2063,8 +2981,14 @@
       "catalogEvidence": "Manufacturer catalog month: April. Exact release date has not been verified.",
       "slug": "wild-card-wild-card-dino-might-football",
       "page": "sets/wild-card-wild-card-dino-might-football.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 91,
+      "tableData": "data/imports/wild-card-wild-card-dino-might-football.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 8,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "Dino Might Mammoth America 250th Edition",
@@ -2078,8 +3002,14 @@
       "catalogEvidence": "Manufacturer catalog month: April. Exact release date has not been verified.",
       "slug": "wild-card-dino-might-mammoth-america-250th-edition",
       "page": "sets/wild-card-dino-might-mammoth-america-250th-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 50,
+      "tableData": "data/imports/wild-card-dino-might-mammoth-america-250th-edition.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 3,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "Alumination · Just The Hits Football",
@@ -2093,8 +3023,14 @@
       "catalogEvidence": "Manufacturer catalog month: not specified. Exact release date has not been verified.",
       "slug": "wild-card-alumination-just-the-hits-football",
       "page": "sets/wild-card-alumination-just-the-hits-football.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 145,
+      "tableData": "data/imports/wild-card-alumination-just-the-hits-football.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 20,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Alumination Just The Hits Football 250th",
@@ -2108,8 +3044,14 @@
       "catalogEvidence": "Manufacturer catalog month: not specified. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-alumination-just-the-hits-football-250th",
       "page": "sets/wild-card-2026-wild-card-alumination-just-the-hits-football-250th.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 84,
+      "tableData": "data/imports/wild-card-2026-wild-card-alumination-just-the-hits-football-250th.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 10,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Fantasy Football Atompunk Edition",
@@ -2123,8 +3065,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-fantasy-football-atompunk-edition",
       "page": "sets/wild-card-2026-wild-card-fantasy-football-atompunk-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 156,
+      "tableData": "data/imports/wild-card-2026-wild-card-fantasy-football-atompunk-edition.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 5,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Fantasy Football Atompunk Mammoth Edition",
@@ -2138,8 +3086,14 @@
       "catalogEvidence": "Manufacturer catalog month: March. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-fantasy-football-atompunk-mammoth-edition",
       "page": "sets/wild-card-2026-wild-card-fantasy-football-atompunk-mammoth-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 180,
+      "tableData": "data/imports/wild-card-2026-wild-card-fantasy-football-atompunk-mammoth-edition.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 4,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Fantasy Football Manga Edition",
@@ -2153,8 +3107,14 @@
       "catalogEvidence": "Manufacturer catalog month: April. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-fantasy-football-manga-edition",
       "page": "sets/wild-card-2026-wild-card-fantasy-football-manga-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 101,
+      "tableData": "data/imports/wild-card-2026-wild-card-fantasy-football-manga-edition.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 5,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Fantasy Football Steampunk Edition",
@@ -2168,8 +3128,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-fantasy-football-steampunk-edition",
       "page": "sets/wild-card-2026-wild-card-fantasy-football-steampunk-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 99,
+      "tableData": "data/imports/wild-card-2026-wild-card-fantasy-football-steampunk-edition.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 7,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Fantasy Football Steampunk Mammoth Edition",
@@ -2183,8 +3149,14 @@
       "catalogEvidence": "Manufacturer catalog month: March. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-fantasy-football-steampunk-mammoth-edition",
       "page": "sets/wild-card-2026-wild-card-fantasy-football-steampunk-mammoth-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 483,
+      "tableData": "data/imports/wild-card-2026-wild-card-fantasy-football-steampunk-mammoth-edition.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 5,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Matte Rookies",
@@ -2198,8 +3170,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-matte-rookies",
       "page": "sets/wild-card-2026-wild-card-matte-rookies.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 17,
+      "tableData": "data/imports/wild-card-2026-wild-card-matte-rookies.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 7,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Matte Metal · Multi-Sport",
@@ -2213,8 +3191,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-matte-metal-multi-sport",
       "page": "sets/wild-card-2026-matte-metal-multi-sport.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 251,
+      "tableData": "data/imports/wild-card-2026-matte-metal-multi-sport.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 9,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "Wild Card Pop.1 · National Exclusive",
@@ -2228,8 +3212,15 @@
       "catalogEvidence": "Manufacturer catalog month: July. Exact release date has not been verified.",
       "slug": "wild-card-wild-card-pop-1-national-exclusive",
       "page": "sets/wild-card-wild-card-pop-1-national-exclusive.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rosterPublished": false,
+      "rowCount": 3,
+      "tableData": "data/imports/wild-card-wild-card-pop-1-national-exclusive.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 3,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Mega Mix Mendoza",
@@ -2243,8 +3234,14 @@
       "catalogEvidence": "Manufacturer catalog month: April. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-mega-mix-mendoza",
       "page": "sets/wild-card-2026-wild-card-mega-mix-mendoza.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 17,
+      "tableData": "data/imports/wild-card-2026-wild-card-mega-mix-mendoza.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 16,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card QB1 Breakers Brick",
@@ -2258,8 +3255,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-qb1-breakers-brick",
       "page": "sets/wild-card-2026-wild-card-qb1-breakers-brick.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 122,
+      "tableData": "data/imports/wild-card-2026-wild-card-qb1-breakers-brick.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 15,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Sweet",
@@ -2273,8 +3276,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-sweet",
       "page": "sets/wild-card-2026-wild-card-sweet.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 50,
+      "tableData": "data/imports/wild-card-2026-wild-card-sweet.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 8,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "Wild Card Wild Art Valentines Edition (2026)",
@@ -2288,8 +3297,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-wild-card-wild-art-valentines-edition-2026",
       "page": "sets/wild-card-wild-card-wild-art-valentines-edition-2026.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 65,
+      "tableData": "data/imports/wild-card-wild-card-wild-art-valentines-edition-2026.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 4,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Wild Chrome",
@@ -2303,8 +3318,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-wild-chrome",
       "page": "sets/wild-card-2026-wild-card-wild-chrome.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 4,
+      "tableData": "data/imports/wild-card-2026-wild-card-wild-chrome.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 6,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Splat Mendoza",
@@ -2318,8 +3339,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-splat-mendoza",
       "page": "sets/wild-card-2026-wild-card-splat-mendoza.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 15,
+      "tableData": "data/imports/wild-card-2026-wild-card-splat-mendoza.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 12,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Splat™ Lucky Strike Multi-Sport",
@@ -2333,8 +3360,14 @@
       "catalogEvidence": "Manufacturer catalog month: February. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-splat-lucky-strike-multi-sport",
       "page": "sets/wild-card-2026-wild-card-splat-lucky-strike-multi-sport.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 140,
+      "tableData": "data/imports/wild-card-2026-wild-card-splat-lucky-strike-multi-sport.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 7,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Dino-Might Lamine Yamal",
@@ -2348,8 +3381,14 @@
       "catalogEvidence": "Manufacturer catalog month: June. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-dino-might-lamine-yamal",
       "page": "sets/wild-card-2026-wild-card-dino-might-lamine-yamal.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 13,
+      "tableData": "data/imports/wild-card-2026-wild-card-dino-might-lamine-yamal.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 2,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card ESPN National Exclusive Promo",
@@ -2363,8 +3402,14 @@
       "catalogEvidence": "Manufacturer catalog month: July. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-espn-national-exclusive-promo",
       "page": "sets/wild-card-2026-wild-card-espn-national-exclusive-promo.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 31,
+      "tableData": "data/imports/wild-card-2026-wild-card-espn-national-exclusive-promo.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 7,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Haunted Hits Lights Out Mammoth Hobby National Exclusive",
@@ -2378,8 +3423,14 @@
       "catalogEvidence": "Manufacturer catalog month: July. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-haunted-hits-lights-out-mammoth-hobby-national-exclusive",
       "page": "sets/wild-card-2026-wild-card-haunted-hits-lights-out-mammoth-hobby-national-exclusive.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 60,
+      "tableData": "data/imports/wild-card-2026-wild-card-haunted-hits-lights-out-mammoth-hobby-national-exclusive.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 3,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Day of the Dead Mammoth National Exclusive",
@@ -2393,8 +3444,14 @@
       "catalogEvidence": "Manufacturer catalog month: July. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-day-of-the-dead-mammoth-national-exclusive",
       "page": "sets/wild-card-2026-wild-card-day-of-the-dead-mammoth-national-exclusive.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 61,
+      "tableData": "data/imports/wild-card-2026-wild-card-day-of-the-dead-mammoth-national-exclusive.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 3,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Comix Soccer",
@@ -2408,8 +3465,14 @@
       "catalogEvidence": "Manufacturer catalog month: June. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-comix-soccer",
       "page": "sets/wild-card-2026-wild-card-comix-soccer.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 495,
+      "tableData": "data/imports/wild-card-2026-wild-card-comix-soccer.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 4,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Super Chrome Soccer",
@@ -2423,8 +3486,14 @@
       "catalogEvidence": "Manufacturer catalog month: June. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-super-chrome-soccer",
       "page": "sets/wild-card-2026-wild-card-super-chrome-soccer.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 337,
+      "tableData": "data/imports/wild-card-2026-wild-card-super-chrome-soccer.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 6,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Matte Metal Soccer",
@@ -2438,8 +3507,14 @@
       "catalogEvidence": "Manufacturer catalog month: June. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-matte-metal-soccer",
       "page": "sets/wild-card-2026-wild-card-matte-metal-soccer.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 889,
+      "tableData": "data/imports/wild-card-2026-wild-card-matte-metal-soccer.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 6,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Matte Metal Graffiti Multi-Sport Hobby",
@@ -2453,8 +3528,14 @@
       "catalogEvidence": "Manufacturer catalog month: July. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-matte-metal-graffiti-multi-sport-hobby",
       "page": "sets/wild-card-2026-wild-card-matte-metal-graffiti-multi-sport-hobby.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 143,
+      "tableData": "data/imports/wild-card-2026-wild-card-matte-metal-graffiti-multi-sport-hobby.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 7,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Johnny Bench National Exclusive",
@@ -2468,8 +3549,14 @@
       "catalogEvidence": "Manufacturer catalog month: July. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-johnny-bench-national-exclusive",
       "page": "sets/wild-card-2026-wild-card-johnny-bench-national-exclusive.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 2,
+      "tableData": "data/imports/wild-card-2026-wild-card-johnny-bench-national-exclusive.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 5,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Summer Splat",
@@ -2483,8 +3570,14 @@
       "catalogEvidence": "Manufacturer catalog month: June. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-summer-splat",
       "page": "sets/wild-card-2026-wild-card-summer-splat.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 351,
+      "tableData": "data/imports/wild-card-2026-wild-card-summer-splat.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 6,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Fantasy Baseball Atompunk Edition",
@@ -2498,8 +3591,14 @@
       "catalogEvidence": "Manufacturer catalog month: July. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-fantasy-baseball-atompunk-edition",
       "page": "sets/wild-card-2026-wild-card-fantasy-baseball-atompunk-edition.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 112,
+      "tableData": "data/imports/wild-card-2026-wild-card-fantasy-baseball-atompunk-edition.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 4,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Haunted Hits Lights Out Mammoth National Exclusive",
@@ -2513,8 +3612,14 @@
       "catalogEvidence": "Manufacturer catalog month: July. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-haunted-hits-lights-out-mammoth-national-exclusive",
       "page": "sets/wild-card-2026-wild-card-haunted-hits-lights-out-mammoth-national-exclusive.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 60,
+      "tableData": "data/imports/wild-card-2026-wild-card-haunted-hits-lights-out-mammoth-national-exclusive.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 3,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Matte Metal Graffiti National",
@@ -2528,8 +3633,14 @@
       "catalogEvidence": "Manufacturer catalog month: not specified. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-matte-metal-graffiti-national",
       "page": "sets/wild-card-2026-wild-card-matte-metal-graffiti-national.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 126,
+      "tableData": "data/imports/wild-card-2026-wild-card-matte-metal-graffiti-national.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 5,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card SlimGem National Variety Pack",
@@ -2543,8 +3654,14 @@
       "catalogEvidence": "Manufacturer catalog month: not specified. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-slimgem-national-variety-pack",
       "page": "sets/wild-card-2026-wild-card-slimgem-national-variety-pack.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 90,
+      "tableData": "data/imports/wild-card-2026-wild-card-slimgem-national-variety-pack.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 12,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Haunted Hits Breakers Brick",
@@ -2558,8 +3675,14 @@
       "catalogEvidence": "Manufacturer catalog month: September. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-haunted-hits-breakers-brick",
       "page": "sets/wild-card-2026-wild-card-haunted-hits-breakers-brick.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 80,
+      "tableData": "data/imports/wild-card-2026-wild-card-haunted-hits-breakers-brick.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 11,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Haunted Hits Hobby Jumbo",
@@ -2573,8 +3696,14 @@
       "catalogEvidence": "Manufacturer catalog month: October. Exact release date has not been verified.",
       "slug": "wild-card-2026-haunted-hits-hobby-jumbo",
       "page": "sets/wild-card-2026-haunted-hits-hobby-jumbo.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 85,
+      "tableData": "data/imports/wild-card-2026-haunted-hits-hobby-jumbo.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 8,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Day of the Dead Mammoth Hobby Multi-Sport",
@@ -2588,8 +3717,14 @@
       "catalogEvidence": "Manufacturer catalog month: October. Exact release date has not been verified.",
       "slug": "wild-card-2026-wild-card-day-of-the-dead-mammoth-hobby-multi-sport",
       "page": "sets/wild-card-2026-wild-card-day-of-the-dead-mammoth-hobby-multi-sport.html",
-      "status": "Official source",
-      "verified": "2026-10-11"
+      "status": "Source table",
+      "verified": "2026-10-11",
+      "rowCount": 114,
+      "tableData": "data/imports/wild-card-2026-wild-card-day-of-the-dead-mammoth-hobby-multi-sport.json",
+      "importKind": "wildcard",
+      "parallelData": true,
+      "sections": 6,
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
     },
     {
       "title": "2026 Wild Card Haunted Holidays Slim Gem",
@@ -2604,7 +3739,9 @@
       "slug": "wild-card-2026-wild-card-haunted-holidays-slim-gem",
       "page": "sets/wild-card-2026-wild-card-haunted-holidays-slim-gem.html",
       "status": "Official source",
-      "verified": "2026-10-11"
+      "verified": "2026-10-11",
+      "importIssue": "Official catalog link returns a missing page",
+      "sourceUnavailable": true
     },
     {
       "title": "FIFA World Cup 2026 Adrenalyn XL",
@@ -2618,7 +3755,8 @@
       "slug": "panini-fifa-world-cup-2026-adrenalyn-xl",
       "page": "sets/panini-fifa-world-cup-2026-adrenalyn-xl.html",
       "status": "Official source",
-      "verified": "2026-10-11"
+      "verified": "2026-10-11",
+      "importIssue": "PDF layout needs dedicated parser; insufficient recognized card rows"
     }
   ],
   "coverage": {

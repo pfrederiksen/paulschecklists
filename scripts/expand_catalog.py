@@ -3,6 +3,7 @@ import json,re,html,subprocess,concurrent.futures,hashlib
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 slug=lambda t:re.sub('[^a-z0-9]+','-',t.lower()).strip('-')
+previous={r['slug']:r for r in json.loads((root/'data/set-catalog.json').read_text())['sets']} if (root/'data/set-catalog.json').exists() else {}
 records=[]
 for r in json.loads((root/'data/topps-official-catalog.json').read_text()):
  title=r['title'];sport=next((s for term,s in [('Baseball','baseball'),('Basketball','basketball'),('Football','football'),('UFC','ufc'),('WWE','wrestling'),('Formula','racing'),('Olympic','olympics'),('Soccer','soccer'),('UEFA','soccer'),('Premier League','soccer'),('Manchester','soccer')] if term in title),'multi-sport')
@@ -18,6 +19,9 @@ for r in records:
  if r['title']=='2026 Bowman Football':r.update(page='bowman-football-2026.html',status='Searchable',sections=47,odds=521,formats=6,releaseStatus='Released')
 (root/'data/imports').mkdir(exist_ok=True)
 def import_table(r):
+ if r['slug'] in previous and previous[r['slug']].get('tableData'):
+  old=previous[r['slug']]
+  if old['checklistUrl']==r['checklistUrl']:return {**r,**old}
  if r['manufacturer'] not in ['Upper Deck','Wild Card']:return r
  try:
   result=subprocess.run(['curl','-sLf','--max-time','20',r['checklistUrl']],capture_output=True,check=True);source=result.stdout.decode()
