@@ -6,11 +6,11 @@ const code=await readFile('source-page.js','utf8');
 for(const kind of ['pdf','html','wildcard']){
  const set=catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds));
  const data=JSON.parse(await readFile(set.tableData,'utf8'));
- const map=new Map(),get=id=>{if(!map.has(id))map.set(id,{value:'',options:[],add(option){this.options.push(option);}});return map.get(id);};
+ const map=new Map(),get=id=>{if(!map.has(id))map.set(id,{value:'',options:[],setAttribute(k,v){this[k]=v;},focus(){},add(option){this.options.push(option);}});return map.get(id);};
  const context=vm.createContext({document:{body:{dataset:{table:set.tableData}},getElementById:get},console,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>data})});
  await new vm.Script('(async()=>{'+code+'})()').runInContext(context);
- assert(get('source-results').innerHTML.includes('<table>'));
- assert(get('source-specifications').innerHTML.includes('<details>'));
+ assert(get('source-results').innerHTML.includes('<table>'));get('source-odds-tab').onclick();assert.equal(get('source-cards-panel').hidden,true);assert.equal(get('source-specifications').hidden,false);get('source-cards-tab').onclick();assert.equal(get('source-specifications').hidden,true);
+ assert(get('source-specifications').innerHTML.includes('odds-group'));
  get('source-search').value='no-matching-source-row-ever';get('source-search').oninput();assert(get('source-results').innerHTML.includes('No matching'));
  get('source-search').value='';get('source-section').value=data.rows[0][data.sectionColumn??0];get('source-section').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>r[data.sectionColumn??0]===data.rows[0][data.sectionColumn??0]).length.toLocaleString()} official source rows`);
  if(data.odds?.length){assert(get('source-transcript').innerHTML.includes('Odds document text'));const second=data.formats[1];if(second){get('source-format').value=second;get('source-format').onchange();assert(get('source-specifications').innerHTML.includes(second.replaceAll('&','&amp;')));}}
