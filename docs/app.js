@@ -102,5 +102,5 @@ try{
  $('previous').onclick=()=>{page--;render();};$('next').onclick=()=>{page++;render();};$('export').onclick=exportCsv;
  $('results').onclick=e=>{const b=e.target.closest('[data-key]');if(!b)return;expanded.has(b.dataset.key)?expanded.delete(b.dataset.key):expanded.add(b.dataset.key);render();};
  document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('search').focus();}if(e.target.matches('[role=tab]')&&['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();switchView(view==='cards'?'odds':'cards');$(view==='cards'?'cards-tab':'odds-tab').focus();}});
- renderInsights();render();
+ $('search').value=typeof location!=='undefined'?new URLSearchParams(location.search).get('q')||'':'';renderInsights();render();
 }catch(e){$('result-count').textContent='Could not load the checklist.';$('results').innerHTML='<div class="error">Serve this folder through an HTTP server to load the data. Reload to retry.</div>';console.error(e);}

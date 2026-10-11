@@ -1,0 +1,3352 @@
+{
+  "topps-bowman-2025-topps-chrome-football": {
+    "state": {
+      "checklistHash": "590ad763a6695b43db60dd1395a271c47b262f8084a40b2ef3511cd8001b9ae5",
+      "oddsHash": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
+      "rows": 2390,
+      "odds": 505,
+      "specificationRows": 0
+    },
+    "fingerprint": "3a81e6d00ffaf9eb924796b309ebd4a47b1df15ce25df1c66e026dc6b0142cc4",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:31.933Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Checklist_040826.pdf?v=1775678965"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-chrome-football-sapphire": {
+    "state": {
+      "checklistHash": "b90ab799ca671a04e302d220f73cc5c0f40de3fab2cce4ae23b29aba9fb8eb18",
+      "oddsHash": null,
+      "rows": 741,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "79d279ae44dc1d5869a88dfef3c9140ba345a6ec54a5965d8477d9cbc98d167c",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:31.939Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Sapphire_Checklist_042926.pdf?v=1778615660"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-chrome-formula-1-sapphire-edition": {
+    "state": {
+      "checklistHash": "ab4a63032c53738e9ccd9bb7e16168694c26a6ebc19e9427dc0afcdc723eb068",
+      "oddsHash": "decac0f134a90d3f86a2705ed9b6402a64e70450ba3fd4d078651b1576e00a7e",
+      "rows": 372,
+      "odds": 261,
+      "specificationRows": 0
+    },
+    "fingerprint": "445e3465fb728fded45944885336513ec6fd65be18fdd8caac42f3644ddf24d1",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:31.943Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Formula_1_Sapphire_Edition_Checklist.pdf?v=1770648860"
+      }
+    ]
+  },
+  "topps-bowman-topps-chrome-major-league-soccer-2026": {
+    "state": {
+      "checklistHash": "e6f980058de10adee1ced6279e1d44c9ef0a2b59b07e0d6a75fc5caad3fb0754",
+      "oddsHash": "b91685bb9b1ff4382c2d182414b80dd7ea0c1449a293382cebf03752fe179d62",
+      "rows": 565,
+      "odds": 139,
+      "specificationRows": 0
+    },
+    "fingerprint": "db2c4f4066ac230902afd6b53bdfd6dd9666edb0063db0958048aea73637d404",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:31.947Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_Subject_to_Change_3ac890e7-2e2f-4550-89d8-59689322cd5c.pdf?v=1789050559"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball": {
+    "state": {
+      "checklistHash": "2175670434849c8a8d58c7068130ec9d035ebfc51edca70610b78051643ee8a4",
+      "oddsHash": "bd1cc7ba86e1dc19bbb029da3cd2efbb5c6fb2d590496cd3cdad6afc77bfe9ff",
+      "rows": 400,
+      "odds": 73,
+      "specificationRows": 0
+    },
+    "fingerprint": "cb63d256be83acbe6ca65e82c0497b179e4a27260249abc4e02e6030ae8be580",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:31.949Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Checklist.pdf?v=1770740329"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-chrome-platinum-baseball": {
+    "state": {
+      "checklistHash": "ee15344bdbfe64744ffc6a60ba06c7400a02a7379051ad6fe26e85a7308b5b13",
+      "oddsHash": "b71707e1d4450b141d1cec57194c1292625af060444970bab41183e76167fbab",
+      "rows": 997,
+      "odds": 246,
+      "specificationRows": 0
+    },
+    "fingerprint": "83d27693801843b939ab8227304e9808751c0ed23c9f27953a41b900e73319b0",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:31.961Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Platinum_Baseball_Checklist.pdf?v=1777494180"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-u-s-winter-olympics-paralympic-team-hopefuls": {
+    "state": {
+      "checklistHash": "7c856af7f10f4ea6d0aaf6012abcd63596a36a5c70c9c26bab768d01ea5f3cd4",
+      "oddsHash": "36b1f88969ecb1ae0caddb69db2f6db72c2e557af055c41e3b6cc253bde0de77",
+      "rows": 709,
+      "odds": 85,
+      "specificationRows": 0
+    },
+    "fingerprint": "90b4b5c30c795b55b7f6b1aef0875eed5f054188584fe2886374008e9da103e1",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:31.966Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_U.S._Winter_Olympics_Paralympic_Team_Hopefuls_-_Checklist.pdf?v=1767731038"
+      }
+    ]
+  },
+  "topps-bowman-topps-chrome-uefa-club-competitions-2025-26": {
+    "state": {
+      "checklistHash": "e799f58f7d5ce5e5bb5ca68f713da04cbc3436059dbb1df20100e99ac47ce734",
+      "oddsHash": null,
+      "rows": 910,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "8c2bbea8393cdde4f42fb4b8de45fa84870d269954d4ccbb0cb5298d956c41bd",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:31.968Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TUCC_ChromeChecklist_FINAL.pdf?v=1775059905"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-finest-baseball": {
+    "state": {
+      "checklistHash": "963b9f79bc7ed57ae97b0151cad2a1cddc07551cc2588b657d72c0996f5c1092",
+      "oddsHash": "5773f0acb8dadc45b379f1a860739053c516003ab162739f99536a61881c1541",
+      "rows": 1071,
+      "odds": 272,
+      "specificationRows": 0
+    },
+    "fingerprint": "bff994f1e8f498decb406a219ca1f451b33e15358ea90019d147e101d5539ba6",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:31.982Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Finest_Baseball_FDI_Checklist.pdf?v=1780433969"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-finest-basketball": {
+    "state": {
+      "checklistHash": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "oddsHash": "4724d47e53cb58ed800057b4be345b121f923b1e39edeab804f03b1043bbb8f6",
+      "rows": 764,
+      "odds": 217,
+      "specificationRows": 0
+    },
+    "fingerprint": "0d08590e2fcfd3ba27da782943282e5b581f369b33befb640969aeb6fe772642",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:31.990Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-finest-football": {
+    "state": {
+      "checklistHash": "d5273ca214cfc2b4e864041fa20f0a67200d5f05b31489e30c9d7df31c9ff82e",
+      "oddsHash": "15e0b719e4c67c5d2b7b0844ad8492afe6cf7f59c300214d986ccb0fe118507d",
+      "rows": 789,
+      "odds": 228,
+      "specificationRows": 0
+    },
+    "fingerprint": "55518d0d2ed249e81f140f5b51075eedaf0b0a4aee0e16cdeb9047843cf5ebb3",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:31.998Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Finest_Checklist_042326.pdf?v=1776986521"
+      }
+    ]
+  },
+  "topps-bowman-topps-finest-premier-league-2026": {
+    "state": {
+      "checklistHash": "c1f073945ae930fbed41f3c740f526908c52d586d79c54139c10aaeaf60b9592",
+      "oddsHash": "348c236cd217734635e1c7a85356ecc925e9ec770dbfeffa0dea664283b89d5c",
+      "rows": 752,
+      "odds": 115,
+      "specificationRows": 0
+    },
+    "fingerprint": "27697635faf166bd53f837fee437565a072e75b5f0918af025b6e9367881f617",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.001Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Finest_Premier_League_Checklist.pdf?v=1774359572"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-flagship-football": {
+    "state": {
+      "checklistHash": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "oddsHash": "0c59cf1159b88e59a12bea8c7a8982d50f3f154156e9312d302addab6e378925",
+      "rows": 2054,
+      "odds": 983,
+      "specificationRows": 0
+    },
+    "fingerprint": "982226412e0a041f75d9773055f70ccd98e77d297eb667a33cbe75dc25e09bbd",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.082Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-heritage-baseball": {
+    "state": {
+      "checklistHash": "4ad60fa68d1429519f9ceeee11188663d9b3c64b2a5e387112f1bb857d967c8a",
+      "oddsHash": "9cb3f9053d3f335dc74e26c1378b5a9dcbe61e1cfde11d561c27760b3f906b96",
+      "rows": 1543,
+      "odds": 230,
+      "specificationRows": 0
+    },
+    "fingerprint": "7116eb66be4097118e2fd2da977e6f11462b33f80f9d4c42b26b187c0c18cd34",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.099Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Checklist_26THBB_3.20.pdf?v=1774362662"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-heritage-football": {
+    "state": {
+      "checklistHash": "2dc486d62a6623c189b60b47a5317f71a5e936d3f572ec19b359ade37b79a5f5",
+      "oddsHash": null,
+      "rows": 1487,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "a9248e917738eab50c5e0acdb17a095ee165a6ad1d713f68b34070c27d9a57a8",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.100Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Football_Checklist.pdf?v=1790800436"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-holiday-baseball": {
+    "state": {
+      "checklistHash": "b1620c82da3e511fec6e000537d12ee0824ef51529f4e30fbc5427bc3c467f20",
+      "oddsHash": null,
+      "rows": 640,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "2fe27622874f8b60782a94ef9f8c6a9fbcc847f6b2e236afd0ae4da890ed14b0",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.101Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Holiday_Baseball_26THBW_-_Checklist.pdf?v=1789566977"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-hopps-basketball": {
+    "state": {
+      "checklistHash": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "oddsHash": "453416fa10c8c1b2e17076e5d890c35bb5ccf88191024f84f88c5439d03eed1a",
+      "rows": 1087,
+      "odds": 193,
+      "specificationRows": 0
+    },
+    "fingerprint": "11cda66931a60b66e11db6a0a64ead69b82d9f0de4a910d1b0da21bf21a8d233",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.110Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-inception-baseball": {
+    "state": {
+      "checklistHash": "668584ba47bdc772b82c3593bcd93d10c4059e245ce8c5ee6da94e81051c2465",
+      "oddsHash": "5fc4b2037b1ef435d10c513ac71e86c75e673063139e36c367238fb837632fbf",
+      "rows": 702,
+      "odds": 108,
+      "specificationRows": 0
+    },
+    "fingerprint": "7954067c43a09e97254ca5d3b7ada8d2046d7409077e03a6c6e61da72ebe0ffb",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.114Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Inception_Baseball_25TIBB_-_Checklist_5.18.pdf?v=1779116690"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-tribute-baseball": {
+    "state": {
+      "checklistHash": "9b2d215dd334f868e7b0ae7f4bb0c70e511ac4674a652346f8f9ef216a1a735b",
+      "oddsHash": "e7e9db3e81f8abab52d23beba1a343da56532f87d57325fcef1f47efda620055",
+      "rows": 786,
+      "odds": 143,
+      "specificationRows": 0
+    },
+    "fingerprint": "15ae2236ffcc79077944e6b044683a114715e5d04f75e95562ed3c02c979965b",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.120Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tribute_Baseball_Checklist_1.pdf?v=1782740369"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-universe-wwe": {
+    "state": {
+      "checklistHash": "ea4d0c9c0060fefd3ba351abe92e7006d3c2bcc7cd4dc138bebb04575a319d12",
+      "oddsHash": null,
+      "rows": 846,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "c1bb20b1fcd0db1f3eb06e93918a067a31834f88d2c2fcae8fa3da5f3424d689",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.122Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Universe_WWE_-_CheckList_25UWWE.pdf?v=1771878230"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-update-series-baseball": {
+    "state": {
+      "checklistHash": "6c734888ab92ea613fa783b53c559d1b8d7592520986de70c2163f65f4e46a5c",
+      "oddsHash": "7b360b3df10d29698488d3e8aea5713e0e91aefe2e0491a2b039ad7183ab61b2",
+      "rows": 3284,
+      "odds": 281,
+      "specificationRows": 0
+    },
+    "fingerprint": "200e6bd3cd1e9353b3de11092afbacfef0360f1f2331f40f2ecf8ce0c70126e4",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.159Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Update_Series_Baseball_Checklist_9-4.pdf?v=1789146002"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-royalty-ufc": {
+    "state": {
+      "checklistHash": "c0dea275922e8d932d5a5de7010a3ad68ad0859e191c060e0bac328baadd2d84",
+      "oddsHash": null,
+      "rows": 861,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "1b125fe05e872e000cd6dcedfeb6e7fa4aebb204cecd25bd1cfaef2645b3197f",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.160Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25RUFC_2025_Topps_Royalty_UFC.pdf?v=1770129272"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-royalty-wwe": {
+    "state": {
+      "checklistHash": "41e0b69b736673d7b0e692a6ba09ae7b7a1505136d0042b777432d49d44fc5e5",
+      "oddsHash": "cd5c1390520bae547a59e136999a086d6d32df5699f5cdb1cad88515129466ae",
+      "rows": 640,
+      "odds": 118,
+      "specificationRows": 0
+    },
+    "fingerprint": "fe850db187bbd654235bdf6e8a38ae80413472596adab4dcd2e3ad184b5c95fa",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.163Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25RWWE_f1866dc1-a96b-4573-9ba9-780a73093535.pdf?v=1777641349"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-series-1-baseball": {
+    "state": {
+      "checklistHash": "03e93e14977de6ca253f27e1d94f36c754033b2c6c03beaa15871890513f07a1",
+      "oddsHash": "e2be54403aed5a5404b6434986278f798d1ee178fca3b1e4da5c3821d1e933f8",
+      "rows": 3258,
+      "odds": 348,
+      "specificationRows": 0
+    },
+    "fingerprint": "3a0f8bb7822b9ac368a111ddc64fef804c70c75870d0a544e5a8638271f8bf5c",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.209Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_1_Baseball_Checklist_2-23.pdf?v=1772557808"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-series-2-baseball": {
+    "state": {
+      "checklistHash": "051d3f6885bd85feccdb9a451983d4a2467101426d8851c6bbca177ab9cc5560",
+      "oddsHash": "d3f924a9eb9835488ff68e28645a7c1baf7814114f2b14b7823fdaf880e18f6e",
+      "rows": 3461,
+      "odds": 348,
+      "specificationRows": 0
+    },
+    "fingerprint": "718a0c69af186688be19b630cd97e11eaec1dde9d7be752b902306189e64af6e",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.267Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_2_Baseball_Checklist_5-11.pdf?v=1778521905"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-signature-class-basketball": {
+    "state": {
+      "checklistHash": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "oddsHash": "bcaf92c47bae5fa7a1f0b14a9711946e106eb6a27a8a7aecec5af807a9b61b82",
+      "rows": 1097,
+      "odds": 199,
+      "specificationRows": 0
+    },
+    "fingerprint": "620477d7e2213f9d5b794305af5cdb65c9e332de70b031248553c4d3fdd58f2b",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.281Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-signature-class-football": {
+    "state": {
+      "checklistHash": "123e84d39eb87c3e6a3a3f2e78cc45faf3bfdc2ec3e6543a14487f7b62586787",
+      "oddsHash": "3b3321e28520dc7104a9a5f80a95513cf73c21ceca6d6770ade37e20564dac65",
+      "rows": 1531,
+      "odds": 322,
+      "specificationRows": 0
+    },
+    "fingerprint": "37c5672755c7de8a6fde6fc345ef48e3fd519c4c46a0c0131ed569e746cb615c",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.304Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Checklist_25CSFB_VERSION2.pdf?v=1777921828"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-stadium-club-baseball": {
+    "state": {
+      "checklistHash": "10719b2f1638e91dbf3489044ef5b500871fc9460381e680cf34ac467b6eae95",
+      "oddsHash": "a5101be6c79a7276c918d88e44b6930041503f3dd777741534b1e63b196c4034",
+      "rows": 649,
+      "odds": 80,
+      "specificationRows": 0
+    },
+    "fingerprint": "21bb9483166e87acb1a047f2fbeaeb17aa75df1ec8d0cb3b4bc757fb848ba4a0",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.307Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Stadium_Club_Baseball_Checklist.pdf?v=1769109095"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-three-basketball": {
+    "state": {
+      "checklistHash": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "oddsHash": "1e27450fe3bb36c0434255c6e0607292f078a5a6d4e309ff50d4ef5a52cf38ba",
+      "rows": 1172,
+      "odds": 154,
+      "specificationRows": 0
+    },
+    "fingerprint": "5265b513d081753cd83ffd344cc101824f654141495cc630dc7f47fe47a928ef",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.315Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-tier-one-baseball": {
+    "state": {
+      "checklistHash": "e8faa4fb604cffa20858f1ef206cd0d93a36a6e5ff2c4e4d5ff38744c9aee6e6",
+      "oddsHash": "b8db55e7a37e174f57b8ec0a014c87d43287b3dae17e8cf4a096aa36575200ab",
+      "rows": 1749,
+      "odds": 205,
+      "specificationRows": 0
+    },
+    "fingerprint": "7bd3247d0e0f36447742dd20a5a5bdbf6ae7618e93001a8440db4445d3c4ebd2",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.331Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26T1BB.pdf?v=1779804529"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-transcendent-collection-baseball": {
+    "state": {
+      "checklistHash": "b2e5866c943e54d89dbff38b25285af3cd5c45395ae77f5502f9847d53e18bcc",
+      "oddsHash": null,
+      "rows": 1384,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "4e2c682c45e51c538c11704f462953921c1c92d492ef2a574e46eec9aa82c202",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.333Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Transcendent_Collection_Checklist_-_9_15_26.pdf?v=1789485749"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-chrome-updates-basketball": {
+    "state": {
+      "checklistHash": "7010b390246c9297ab213abf22fdef2408ce76d7d54b21966d0c63ba8e9e4fc2",
+      "oddsHash": "b4f08a7b42a432d762d2bf9c8f34d252a47b61477c84e66549649d70158fb817",
+      "rows": 1300,
+      "odds": 390,
+      "specificationRows": 0
+    },
+    "fingerprint": "41a98939dda0688790ede4e74bf89f50c418bda5aca5a22a8b9ebe54dc2dc0cb",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.353Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Final_CheckList_26CUBK.pdf?v=1783360479"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-chrome-updates-basketball-sapphire-edition": {
+    "state": {
+      "checklistHash": "c420c4185435d5d7b223c4801bc2875105348608ab5a0e472dda2ea12f1daf7f",
+      "oddsHash": "7dd858f348c2f0579222e4f9c9b2447e915ae54f6dc589bc228e519e971afd6a",
+      "rows": 398,
+      "odds": 34,
+      "specificationRows": 0
+    },
+    "fingerprint": "ec0b2e816e2bedc5e6d99d3e947e7d055deacc0304a4e3af2bc690de119ad30b",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.354Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26CUBK_SAPPHIRE_FINAL.pdf?v=1787941231"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-wwe": {
+    "state": {
+      "checklistHash": "324210889dbe0dae22582720a58dccd4eda9a62d7dfcab9de95d21ca38661dd9",
+      "oddsHash": "21683f175f079808e5f21c49d4b48c37f7bb949dc32f4ab179c9cfccea3ca0f9",
+      "rows": 1114,
+      "odds": 410,
+      "specificationRows": 0
+    },
+    "fingerprint": "d21a496e9622036a887bdff6c0067f48cede90591d3d9914518f2e4f2853f4cb",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.373Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_26CWWE_ChromeWWE.pdf?v=1775658305"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-cosmic-chrome-baseball": {
+    "state": {
+      "checklistHash": "16c0ecb860ab0fc413e3a727b73c55dcc87dc27ef769b08a50a7f62963c3e93e",
+      "oddsHash": "e891b61a1075f175b14fb82211de359ebadafb93619d9cfe379e87ee70b12e68",
+      "rows": 922,
+      "odds": 138,
+      "specificationRows": 0
+    },
+    "fingerprint": "a96804e30ac7f36576209db4bca4a1637cadb3c73ae87187037f3c3767ac93e4",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.379Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Cosmic_Chrome_Baseball_-_Checklist.pdf?v=1790609925"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-cosmic-chrome-basketball": {
+    "state": {
+      "checklistHash": "62528803b6b0c4f4f29adbba407c32adc4c8e7764e1198e917cea96b1b021734",
+      "oddsHash": "27deb6b2a8ce4896f5b2cbbfa39671429b6559c360fca05261562f5078940d9a",
+      "rows": 777,
+      "odds": 126,
+      "specificationRows": 0
+    },
+    "fingerprint": "68c0ddd16b92667b0925c6616a121cf55021b413e35bb3f3a54c140ece60c920",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.384Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Checklist.pdf?v=1774549583"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-cosmic-chrome-football": {
+    "state": {
+      "checklistHash": "2536b9096c2bfca0a8f57ed46cda951d94d1536e5d31e47ebace4dba71beea84",
+      "oddsHash": "c21866224c88d0ade01c0e6ae04b48e82b1a3145f46813e10c4315e3d36caa8b",
+      "rows": 878,
+      "odds": 113,
+      "specificationRows": 0
+    },
+    "fingerprint": "0fc1f87e8e4f85ad63b9ed3278bac434457e153a05891f9941aeff376e64bc9e",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.389Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Cosmic_Chrome_Checklist_051826.pdf?v=1779115984"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-definitive-baseball": {
+    "state": {
+      "checklistHash": "2d1a4889a10b192852d7f3aa3024ecbe35eb91f208e2e8e8b6311e7e9a39a012",
+      "oddsHash": "1a5388e2907d1b23adb9cfbe06d91ab39ec9f1e65956b90a27473404a1f74300",
+      "rows": 1485,
+      "odds": 96,
+      "specificationRows": 0
+    },
+    "fingerprint": "622eba21d3a043520afb1951f46bd53ecc9d9ab8b7e43df7fae6577417436d9f",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.397Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBB_VERSION1.pdf?v=1775567097"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-dynamic-duals-baseball": {
+    "state": {
+      "checklistHash": "888f5143354f080e73c69f4fa30303de8924b7e10382a4d573b1805c1758ce3f",
+      "oddsHash": "3df67d572561b79f9104d4bd79c9f34f651186028889df601c6a439065765d01",
+      "rows": 131,
+      "odds": 37,
+      "specificationRows": 0
+    },
+    "fingerprint": "0c5ac43daaf72c124bc703287b0c7803d7d570b30e2d13a9d3f809a3809f4063",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.397Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Dynamic_Duals_Baseball_Checklist.pdf?v=1781536739"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-dynasty-baseball": {
+    "state": {
+      "checklistHash": "879fe52a1e68f74db26bf8086845e4b4fc281ee25f8b9d0e6b7d6a5ba3ea00a8",
+      "oddsHash": "78853052b6e2e3251c8bc4443d6e189b54f73ec165b909731ab8c7ab3cd01c3f",
+      "rows": 1545,
+      "odds": 32,
+      "specificationRows": 0
+    },
+    "fingerprint": "ae80da9a1cfc73ccead0fe6b7580dbc8230721683f55e3f3eed414c38048a9eb",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.401Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25TDBB.pdf?v=1779119079"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-exalted-wwe": {
+    "state": {
+      "checklistHash": "310c2090d0cc60153364431ea53103e54118b1768e410217a247f5da994f184b",
+      "oddsHash": "f719cd18cf613cbda82a03738cedf60988fb493d12ebe4261548c7cd99d849ca",
+      "rows": 425,
+      "odds": 100,
+      "specificationRows": 0
+    },
+    "fingerprint": "96c426140e371229f4f79430068b5c2c8e476ffe22494d711db37890a4b28da5",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.404Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CHECKLIST_2025EXALTEDWWE.pdf?v=1774986961"
+      }
+    ]
+  },
+  "topps-bowman-2026-bowman-baseball": {
+    "state": {
+      "checklistHash": "07b758501b766aa6bc55c14f9fc024097c0bb4cff5d754c2f9c6984455e8a06d",
+      "oddsHash": "5bd1cf7d59aba1856b3af7390726d4f5086b6c7d72d4f81b4f07412886997056",
+      "rows": 1166,
+      "odds": 343,
+      "specificationRows": 0
+    },
+    "fingerprint": "921c8f175b138d973ae7a94214c1af1c24052fb708333e1520ce2c95843b0cfd",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.422Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Checklist.pdf?v=1775743176"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-bowman-basketball": {
+    "state": {
+      "checklistHash": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+      "oddsHash": "3b67cfcaa2f44afba3b287abbd2b6ce77cb24dd6a13e1806e20caf4dec9a1758",
+      "rows": 891,
+      "odds": 453,
+      "specificationRows": 0
+    },
+    "fingerprint": "ec6e2c7820fa6e6df947f50a0ec194c3d8611caf3d2b675f3ccab9d7266da86c",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.440Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767"
+      }
+    ]
+  },
+  "topps-bowman-2026-bowman-chrome-baseball": {
+    "state": {
+      "checklistHash": "3197399f57e3cb63d9d76aaa5a284d72725ca5ea16d0f8fc40acb7e75e19291b",
+      "oddsHash": "1b6a354462ed7f42c84a6f3ec06dea294667a09115d89fbb5b547d5c8cbd1eb4",
+      "rows": 1206,
+      "odds": 304,
+      "specificationRows": 0
+    },
+    "fingerprint": "68f44905275746a2be51887bb312325f1a6a5896af94ed88f8d3db9335cc3a38",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.458Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Checklist_1.pdf?v=1786458901"
+      }
+    ]
+  },
+  "topps-bowman-2026-bowman-chrome-baseball-mega-box": {
+    "state": {
+      "checklistHash": "bf23ee12196c0190c0868da37e300757e7fd3aac098b7f62e01b0fcdabd285c6",
+      "oddsHash": null,
+      "rows": 410,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "e92c82fe9f65a4b54aacb4cf51b227a0236ce73cfc3f95bc7a84114d90a17eae",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.462Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Mega_Box_Checklist_1.pdf?v=1786458909"
+      }
+    ]
+  },
+  "topps-bowman-2026-bowman-chrome-baseball-sapphire-edition": {
+    "state": {
+      "checklistHash": "45be2acc2da76c2a64a4768e44b5a045830f35c614a86f2cb97c4a006cef630a",
+      "oddsHash": null,
+      "rows": 271,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "2b9b4b3194905af0b67ad2c2f5bedebd29351bb6b33f743a314ed37b5f3e6bf7",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.463Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Sapphire_Edition_Checklist.pdf?v=1790956155"
+      }
+    ]
+  },
+  "topps-bowman-2025-bowman-draft-baseball-sapphire-edition": {
+    "state": {
+      "checklistHash": "9697eb5e720454a4927d5cf911e12aeda79bf1a40e73f80146ffc0cf59544eb5",
+      "oddsHash": "7edc272048de72dc8e6b3f3a09e0b812dd74e1a4958cb9f24ca2e8841e4c36b3",
+      "rows": 264,
+      "odds": 234,
+      "specificationRows": 0
+    },
+    "fingerprint": "db4d3484788a177e1e28d22368a3022d2719949003d6537aa26bd7dbf44d0cce",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.467Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_Draft_Baseball_Checklist_-_Sapphire_Edition_1.pdf?v=1770914875"
+      }
+    ]
+  },
+  "topps-bowman-2025-bowman-s-best-baseball": {
+    "state": {
+      "checklistHash": "6415c21127d8d80e2d400c3d9e526698056f24306e6e498a42361670ecb05de6",
+      "oddsHash": "092d74e474f05d67da1be0924b8ae727280c67e05a922b55174faad98a074c03",
+      "rows": 697,
+      "odds": 107,
+      "specificationRows": 0
+    },
+    "fingerprint": "4c349d2ada13a596549e73572177cd6c76e5a9109413292d72a428804b431028",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.472Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Checklist.pdf?v=1772217092"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-bowman-university-best-basketball": {
+    "state": {
+      "checklistHash": "b50a72d4e164388cf0da7decbf535607cdc90bfb6487f668c94bf058665db266",
+      "oddsHash": "85c6cc5964056973f000dab43d996dd5dfd93e62c0a9dd3cc7fc1f1bd28522d2",
+      "rows": 617,
+      "odds": 133,
+      "specificationRows": 0
+    },
+    "fingerprint": "29a609937f58e81d0381177f86f1c72442b89f295f071a683c3d51b6c076538c",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.476Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26BUBB_VERSION2.pdf?v=1776781082"
+      }
+    ]
+  },
+  "topps-bowman-2026-bowman-football": {
+    "state": {
+      "checklistHash": {
+        "checklist.pdf": "acc2dadf884b603f889445367671b6817eebb1f51a0101d7c014a946cd1a1b6b",
+        "odds.pdf": "be655670066b1c9533721288929bb22949bcd2383aa973cb919db0f638c9c775"
+      },
+      "oddsHash": null,
+      "rows": 2122,
+      "odds": 521,
+      "specificationRows": 0
+    },
+    "fingerprint": "bba99990501aacedf426c4b2bf3bd1c66d38c32e7ba58bad6e68a4bdbfb2f1fa",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.483Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Football_Checklist.pdf?v=1790867994"
+      }
+    ]
+  },
+  "topps-bowman-2026-national-sports-collectors-convention": {
+    "state": {
+      "checklistHash": "550a590840eb9bcfb0775970a9043148ff12845030c832109c5f6ceadeabb7ef",
+      "oddsHash": null,
+      "rows": 559,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "b09adbdd107411be7decfd6082a1f070f1b72b56aa5f28b3aa99b5204d906ffc",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.484Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_National_Sports_Collectors_Convention_26NSCC_-_Checklist_1.pdf?v=1785264843"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-inception-basketball": {
+    "state": {
+      "checklistHash": "1bbac417f95546b5cef88eba0694daca7cea5272f829878582061b8a8a83a6af",
+      "oddsHash": "83fee7e2f00b750cac8c22a47c1da28a158cbc70150da921f59fcf60ada99d0c",
+      "rows": 488,
+      "odds": 91,
+      "specificationRows": 0
+    },
+    "fingerprint": "b02a2437f4016eafd245706df134a6bcf89164dd353064afafd514210a3f3621",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.486Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Checklist.pdf?v=1781789274"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-inception-football": {
+    "state": {
+      "checklistHash": "e913ed2cc504976f4ec1b3e58165f74cc15547d60e90544c95f79e0f4c8746fa",
+      "oddsHash": null,
+      "rows": 538,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "59db79a96657a3f6d2c47ac76b5f6cc1e15353079fe1bb5b4e9849787dbb6c19",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.487Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Inception_Football_CheckList_26TIFB_VERSION.pdf?v=1790715925"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-manchester-united-collector-tin": {
+    "state": {
+      "checklistHash": "148605e28436b5f664e81a2a5a3c247f52c3d2d1708d0e57ab5cdc8e891b046d",
+      "oddsHash": null,
+      "rows": 56,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "f64f2fa1e223d28c4f0a6ac4060855965d7134d5e0bedf064fca17b2f6d0e4c6",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.487Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025-26_Manchester_United_Collector_Tin_Checklist.pdf?v=1758044356"
+      }
+    ]
+  },
+  "topps-bowman-topps-manchester-united-2025-26-team-set": {
+    "state": {
+      "checklistHash": "8ee87ca83e94f99816ba95fddf88895319832485ac13c38182a09493ab0e0b10",
+      "oddsHash": null,
+      "rows": 119,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "ea0a7fc9480bc7b3f830d5c97fefeba286804f039a6a6727a4a16a9ce192416a",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.488Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Manchester_United_Team_Set_2025-26_Checklist.pdf?v=1770828538"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-midnight-ufc": {
+    "state": {
+      "checklistHash": "e1d60232c671a9cd8288d493541f19a32799a2319d4202d7df8162095677d002",
+      "oddsHash": "eb6ddc70419fc2e3d5ff067880e0ffbf69366181249ef31f34d3612a93a73e08",
+      "rows": 384,
+      "odds": 91,
+      "specificationRows": 0
+    },
+    "fingerprint": "28c70897f7cd47dde90ff971ea086613879b7b18e71c7bb80820ddd857eb2bdb",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.490Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MidnightUFC_Checklist_Final.pdf?v=1776702978"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-museum-collection-baseball": {
+    "state": {
+      "checklistHash": "8f3db4ac0660d7a58d5036374afefd53233976a3b15c7d159dabf7bdf8fd67f1",
+      "oddsHash": "b80561158762b88b2d45de29bef65b6d5db0ed7d42d0c21621e33805e246619f",
+      "rows": 1527,
+      "odds": 147,
+      "specificationRows": 0
+    },
+    "fingerprint": "4a714a13a670e4f92b5deb489e68cf290797b805f598c59e5a6d0435a339dfc5",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.501Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Museum_Collection_Baseball_Checklist.pdf?v=1770050312"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-museum-collection-baseball": {
+    "state": {
+      "checklistHash": "0f2cdb7496ae528747f572e576400e9d9364f61549fc7677cfc74b2d8acbe196",
+      "oddsHash": "b3112527140a36a8da58f84e73e370432dd9e3430353cd318fb1195a9d86d177",
+      "rows": 1439,
+      "odds": 180,
+      "specificationRows": 0
+    },
+    "fingerprint": "bd1d36a5cf854b99d8b035d7ad63f473b6f39cfa598c5543406eec3d202b4ad9",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.513Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Museum_Baseball_Checklist.pdf?v=1788204579"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-nbl-basketball": {
+    "state": {
+      "checklistHash": "42f587cfbdfcf24ec467d69c6108b299ea7f0fbb2a2fb10bf59459b020476695",
+      "oddsHash": "3787336a9e0e4f44eab4b2704448f2d15583d7abd984ee964c3be47a71968b8c",
+      "rows": 323,
+      "odds": 48,
+      "specificationRows": 0
+    },
+    "fingerprint": "25f46114b09f58a38efea6f68161c95ab0c33a817d31763115686a534268d5b2",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.515Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26NBLC_Checklist_Final.pdf?v=1780091079"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-pristine-baseball": {
+    "state": {
+      "checklistHash": "01e0efe5d1a50828a02f365c9e768b26d6b7d2c5f09ccb730511ec0eea50515c",
+      "oddsHash": "48dc1db53097029aa38e907eb5c248438d54ea8234c1fec8e357e5e5ecc05893",
+      "rows": 814,
+      "odds": 89,
+      "specificationRows": 0
+    },
+    "fingerprint": "205eb6da880fb7a23a7ba8bcad23a1ee970815a5278edcbc09c18e06cebab604",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.519Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Pristine_Checklist.pdf?v=1767627098"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-resurgence-football": {
+    "state": {
+      "checklistHash": "1a3cd494e4f678a1c19c297281f14e04cc8d557c6de1bbf176f0f8dff8b6448e",
+      "oddsHash": "93bbbe1d3338e78bde0aaecd4f4b261ff7d5f1a0df78ead38d49050ce7063707",
+      "rows": 749,
+      "odds": 249,
+      "specificationRows": 0
+    },
+    "fingerprint": "2764c62a69a865419401cc62030c10baf3d5a4e40b92e66645db24fb5dda9eff",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.526Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Resurgence_Football_Checklist.pdf?v=1782407891"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-definitive-basketball": {
+    "state": {
+      "checklistHash": "0c7897c4f773221bc7f0a0537e4b4d394760a288c6f0cd3f65f32d9bca0a1ff2",
+      "oddsHash": "8d19b092aa1f9c9ef742e284ac2679f088e6c65ee0047231d80a7edd5c06d319",
+      "rows": 1025,
+      "odds": 141,
+      "specificationRows": 0
+    },
+    "fingerprint": "08f8adbf5d83899e412069471ed42fb3978879fbce6353b64b43b6f4067d24b0",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.535Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBK_VERSION4_1.pdf?v=1786549562"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-allen-ginter-baseball": {
+    "state": {
+      "checklistHash": {
+        "checklist.pdf": "a856119076f1b5093acd73117159a5d6c6ee7cdc57e4865cf2c4508d357a61ad",
+        "odds.pdf": "65a721d07e8530e5cf40fd0d483c1b4aec289e5a86afe6858e6b925f201b7dd4"
+      },
+      "oddsHash": null,
+      "rows": 2915,
+      "odds": 97,
+      "specificationRows": 0
+    },
+    "fingerprint": "3dde854d72ef96606abee3de4d7012b5cac622c473ebd425d9cb3fc1a7a6dc57",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.542Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Allen_and_Ginter.pdf?v=1788875550"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-baseball": {
+    "state": {
+      "checklistHash": "55bf1f46983c20bf23e8331c6da87e627020ddf02296ecf989f07afe98d17f10",
+      "oddsHash": "5d8ef198e8c34179b2641ea2a49718f07e17198bd40bd33f06e4af67f51bcf49",
+      "rows": 1619,
+      "odds": 343,
+      "specificationRows": 0
+    },
+    "fingerprint": "5aee204257e098cf3e7c1250126fda74246c212781bc638c231b9b1923096efd",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.567Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Baseball_Checklist_Final_7.22.pdf?v=1785169183"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-baseball-logofractor-edition": {
+    "state": {
+      "checklistHash": "01746306c96f50ae6473d9fd7f8f719e0780ac33c213a0265bfb36755c304d68",
+      "oddsHash": "2994a508286bb2e6a0523d1d819eb65039f0044e07966cd05d6a7332f6207fc4",
+      "rows": 496,
+      "odds": 66,
+      "specificationRows": 0
+    },
+    "fingerprint": "3fa687c29840efd3d6015d865fb64657f344146f860b85dc2026c1a8202258cb",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.570Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Logofractor_Checklist.pdf?v=1786996133"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-baseball-sapphire-edition": {
+    "state": {
+      "checklistHash": "1e2dbcb26be3a07b9d5eab384828fec4eab14c3cad41cc54c12b0714ad78391e",
+      "oddsHash": "b5ae5ea9afbe482977dc6eda0a316722fbab438c3424c1daa5eb78befa581171",
+      "rows": 402,
+      "odds": 25,
+      "specificationRows": 0
+    },
+    "fingerprint": "9578f35b9057e1905f45e488784735abc7d53ff385e62b66825903dbcc9041fc",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.571Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Sapphire_Checklist.pdf?v=1786996122"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection": {
+    "state": {
+      "checklistHash": "dc380e38333069ad72e3bb4f5a103f8cf01d33e87d98df457d6a5f0788aa4546",
+      "oddsHash": "4883af3bc2b32c6d83e2e8ff496681f8c75c0091637de648e71539ad7fc1afdc",
+      "rows": 118,
+      "odds": 42,
+      "specificationRows": 0
+    },
+    "fingerprint": "458e27ba0a72fddf932b8618ecfbfcd138d7beb14315f87b0d78c06a72d29c00",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.572Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Samurai_Japan_Checklist_update_8.26_1.pdf?v=1787762012"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-chrome-basketball-sapphire": {
+    "state": {
+      "checklistHash": "6f3377c09b44c43734953cc111d8f9b9452a807e135f53bda551f383e05e8d2c",
+      "oddsHash": "7f52ed7968ed6845955ce3747ff1c395ba780a8a6175d577e2222442ce9b7009",
+      "rows": 540,
+      "odds": 43,
+      "specificationRows": 0
+    },
+    "fingerprint": "4491a465af8aa31da25b14a709cec42968f65961cfe750395693e368b1d57a7f",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.573Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Basketball_Sapphire_Checklist.pdf?v=1768338554"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-black-basketball": {
+    "state": {
+      "checklistHash": "50e690e09a0f022fb09479bb0020f4683283e1e852fd0f28f3a4d7e23e922730",
+      "oddsHash": "c13233a6be8ce3b2f1000295306e235a4d5326b1f35a2fb14784082e3695008b",
+      "rows": 377,
+      "odds": 111,
+      "specificationRows": 0
+    },
+    "fingerprint": "2a99aef735d6e93866b03f17b2296039f260ee06675a23979f1a1e4e51703914",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.576Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Cheklist_chrome_black.pdf?v=1785244468"
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-chrome-black-football": {
+    "state": {
+      "checklistHash": "12f1b80a28d8870af48d683ca17ecd2cae441bb4d30407fc1f9a1e9d44ac50fd",
+      "oddsHash": "5cef4154ced54a9c5da22cf4605ac4f702ffbe1435b147f44403d87233522e37",
+      "rows": 475,
+      "odds": 84,
+      "specificationRows": 0
+    },
+    "fingerprint": "0cb1cf939d306ace94a004374ccf658efde299822e606cab267e285b48bfadf1",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.578Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Checklist.pdf?v=1780925886"
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-chrome-cactus-jack-basketball": {
+    "state": {
+      "checklistHash": "85441058b917bf023b733d8234a8aa4542cad12971f1ec75b1df643a5002887d",
+      "oddsHash": "32d873f739be55dbab954fdf1ee26720ad21e9e98f76dde0978ddea9008dc9fa",
+      "rows": 338,
+      "odds": 60,
+      "specificationRows": 0
+    },
+    "fingerprint": "47358c1e24ae1bf05de59ccb7dd8a35b083ea8e31b43552d0efb8e42d7ec5cd7",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.580Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Cactus_Jack_Basketball_Checklist.pdf?v=1777925174"
+      }
+    ]
+  },
+  "upper-deck-2026-27-tim-horton-s": {
+    "state": {
+      "checklistHash": "89a091b7cd31e08563b9cea9521332eeead82d081c84bff883a2f67802c571af",
+      "oddsHash": null,
+      "rows": 293,
+      "odds": 30,
+      "specificationRows": 0
+    },
+    "fingerprint": "335394597b5a9fe394f1c11a63b447e4aeed042ccd4014aa51234658cdd398fc",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.581Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-27-tim-hortons-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-metal-universe-se": {
+    "state": {
+      "checklistHash": "9176a7eab0f6faa6723c78e3547c567ef5025bd58f31e6b9b1a645dc50534eee",
+      "oddsHash": null,
+      "rows": 3329,
+      "odds": 98,
+      "specificationRows": 2370
+    },
+    "fingerprint": "1f9e66ea017f7d4b2b77e5a2e6a5ac694c39af2ecfa91f2a19b13e81caa5bda7",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.584Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-metal-universe-se/"
+      }
+    ]
+  },
+  "upper-deck-2026-27-upper-deck-series-1": {
+    "state": {
+      "checklistHash": "ecf263cd85181c4485418c242464ffb2af5d4029dc0171171529e7ed1ba8747d",
+      "oddsHash": null,
+      "rows": 4714,
+      "odds": 83,
+      "specificationRows": 1998
+    },
+    "fingerprint": "547b64d2eec118290a5372c0a4d16e3b78119b1f90f0c583aa7cfe8ea0935899",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.588Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-27-upper-deck-series-1-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-splendor": {
+    "state": {
+      "checklistHash": "645a31c5882ee177603d53b996a0ebf918a921d34ed743fd22e5a290987a6481",
+      "oddsHash": null,
+      "rows": 1489,
+      "odds": 96,
+      "specificationRows": 1489
+    },
+    "fingerprint": "ebdc59fe6147f7b4126992de0f39ea222730f1057ed121cf1719ddb2c66f408f",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.589Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-splendor-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-usa-hockey-jrs": {
+    "state": {
+      "checklistHash": "73ec21d5a675751e2ff28e407e997e84d83dacc2b493e4747a44305615c1ecc1",
+      "oddsHash": null,
+      "rows": 2324,
+      "odds": 56,
+      "specificationRows": 1218
+    },
+    "fingerprint": "32a0d927d379c365f617700a9db219509a135083e3dc3495962382f8fd16bbbd",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.591Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-usa-hockey-jrs-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-2026-upper-deck-ice-hockey": {
+    "state": {
+      "checklistHash": "ebc91885903db3d68c3be311ef1e31e26006ced1404e4f56fb2f3a9cdc978bf4",
+      "oddsHash": null,
+      "rows": 2300,
+      "odds": 89,
+      "specificationRows": 1633
+    },
+    "fingerprint": "8ca46688a22eb6f9be177110bfb1414e4e19aa61092bd9ba838aa10561739717",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.593Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-2026-upper-deck-ice-hockey-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-27-artifacts": {
+    "state": {
+      "checklistHash": "cac187d2fbf719c4bbff98778ba9d28c24bd98465bd866d8f901be5236c0d6bc",
+      "oddsHash": null,
+      "rows": 5140,
+      "odds": 166,
+      "specificationRows": 4120
+    },
+    "fingerprint": "a16f2149cc6894e7bfbd7384ce473f0bcc180391a31af3d69bd1f19f670c04ac",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.597Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-27-artifacts-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-premier": {
+    "state": {
+      "checklistHash": "7d4a8e716c07008def72873a2cf10cdad5d667918f5b40a00762ce4dd8d59919",
+      "oddsHash": null,
+      "rows": 3014,
+      "odds": 162,
+      "specificationRows": 2660
+    },
+    "fingerprint": "c57e186fb050046a50c73e575bacb96278ce400b2c4f1afa75c3dc0682eda1eb",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.600Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-premier-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-team-canada-juniors": {
+    "state": {
+      "checklistHash": "d67ef48c3e2771c23df73d5bcf9f2a305c6c7722ec49d250390d0684df81abf3",
+      "oddsHash": null,
+      "rows": 2387,
+      "odds": 56,
+      "specificationRows": 1250
+    },
+    "fingerprint": "3565b3e47a52c8af9539d6447ecfda7d04c06100f9eb582f82cdefa22f130ed1",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.602Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-team-canada-juniors-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-fleer-ultra-pwhl": {
+    "state": {
+      "checklistHash": "2279a5d9c0bef6e779776562d824ee42856e23ed3e37837779a453a48eddf1cc",
+      "oddsHash": null,
+      "rows": 1979,
+      "odds": 61,
+      "specificationRows": 1312
+    },
+    "fingerprint": "fb2f847b64ed609d411603b7e386cd0080a58b1aa903b310bc131ca1b30115b0",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.603Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-fleer-ultra-pwhl-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-clear-cut": {
+    "state": {
+      "checklistHash": "f4a7579c932bca32f93e6256394b4e70ea819202d3f69db6c3cabb960af7e24d",
+      "oddsHash": null,
+      "rows": 1323,
+      "odds": 186,
+      "specificationRows": 877
+    },
+    "fingerprint": "2a12b3d480943cc9f75a9fff723525ef76cf68611d29aec8b017d543e6cf0ee1",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.605Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-clear-cut-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-ud-cfl": {
+    "state": {
+      "checklistHash": "8513a76ce925681b48b53e7bdc22609acecbcff9f670ce533333dec5045b71b7",
+      "oddsHash": null,
+      "rows": 677,
+      "odds": 14,
+      "specificationRows": 400
+    },
+    "fingerprint": "d7c5b3a2fd21d19971270df12e15ef05292857aa16afa33b9cc3cc3315c28033",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.606Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-ud-cfl-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-aew": {
+    "state": {
+      "checklistHash": "bf7438f3f0ac8d49271b9e35e901d99aad507905330203013fa59074ca7199d5",
+      "oddsHash": null,
+      "rows": 2284,
+      "odds": 84,
+      "specificationRows": 1346
+    },
+    "fingerprint": "9afcae6a5f89293e61fc4eac54757b5241d3c82a6d05403f3c0555eb11a63aed",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.608Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-aew-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-upper-deck-nscc": {
+    "state": {
+      "checklistHash": "146bd1d49e2709aee4542bb196de107cce87d539cd12b72b96da5a924c75413c",
+      "oddsHash": null,
+      "rows": 206,
+      "odds": 18,
+      "specificationRows": 146
+    },
+    "fingerprint": "688a5b5cc16aca11d4ae9b4ab120e00eb9ccf7f4b23cf281ff9982aac79761f8",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.608Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-upper-deck-nscc-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-27-mvp": {
+    "state": {
+      "checklistHash": "adc034b798894a09dd8aada26a171dd8d32787058d85a09c3935f2f882be1df7",
+      "oddsHash": null,
+      "rows": 2122,
+      "odds": 52,
+      "specificationRows": 1150
+    },
+    "fingerprint": "2ca65e2522a45beca6da49f15ff874ae7c689304c255ae9488204cfe032142ab",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.610Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-27-mvp-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-nhl-ultimate-collection": {
+    "state": {
+      "checklistHash": "63caaeacd967b74471b44ca1ba07af15958b336b1e08897301f759b799880916",
+      "oddsHash": null,
+      "rows": 3325,
+      "odds": 195,
+      "specificationRows": 2801
+    },
+    "fingerprint": "99d537392c9a30f2d2b89fd6b935aca661ba02e18c8257c27363810c91fe74ea",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.614Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-nhl-ultimate-collection-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-ud-pwhl": {
+    "state": {
+      "checklistHash": "e0ba9c1694e457905583966e20960c5eb91d9ec117f042ec953b66faf572f1dd",
+      "oddsHash": null,
+      "rows": 1059,
+      "odds": 44,
+      "specificationRows": 640
+    },
+    "fingerprint": "56f82a5b6c99f2ed9383e8aa1e071cfdb6da574aefaab5cf3fa176b1a4bbecf6",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.616Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-ud-pwhl-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-artifacts-golf": {
+    "state": {
+      "checklistHash": "bb6bdacc396eca67d7f0f1887b8714f4c5fd9e699a7c501e3d7fbe440b871f7b",
+      "oddsHash": null,
+      "rows": 1151,
+      "odds": 65,
+      "specificationRows": 780
+    },
+    "fingerprint": "7c1f07068f46b3fb804b103c1083e9ac5adf75db6cff25cf56c8cf1637e7dc9c",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.617Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-artifacts-golf-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-team-canada": {
+    "state": {
+      "checklistHash": "9b68b3011344c56a55ac3d04cb5ca87c810cbe12fff43118d589a4b9f5b04c12",
+      "oddsHash": null,
+      "rows": 2385,
+      "odds": 63,
+      "specificationRows": 1279
+    },
+    "fingerprint": "fbe9ed48a19ef7e307c3dd2732ce70264bc86346e3e9aac0c0691299c83726d0",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.618Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-team-canada-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-goodwin-champions": {
+    "state": {
+      "checklistHash": "9452c10c2d64d5b19114b9745d211fa0fe7557661df08eb278829c929c152278",
+      "oddsHash": null,
+      "rows": 4268,
+      "odds": 140,
+      "specificationRows": 1791
+    },
+    "fingerprint": "a2e3c2f49628b6d8f43390cfdc03d0c2ed656394433a6e5b17865616c7d327d3",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.622Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-goodwin-champions-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-chl": {
+    "state": {
+      "checklistHash": "c1a7ea94e36718b9646040a92223d10f3e03ba43e30fd817c61cff6e68dff5e4",
+      "oddsHash": null,
+      "rows": 2707,
+      "odds": 48,
+      "specificationRows": 1288
+    },
+    "fingerprint": "7f7e1b38f167218fe9657138d056d79e27e638755db0ec1c161de22702fcce96",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.625Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-chl-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-parkhurst": {
+    "state": {
+      "checklistHash": "0eb9351b383a6760e03a5cd3322094bc5084d476adfab9efbd2c5f6d8e4442ae",
+      "oddsHash": null,
+      "rows": 3283,
+      "odds": 89,
+      "specificationRows": 1932
+    },
+    "fingerprint": "580d7d5e3c396a91546d3a94703895f08fd39381d193d31af1223db681410cf6",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.629Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-parkhurst-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-sp-authentic": {
+    "state": {
+      "checklistHash": "20e244989e2e1852c1b1b9e3ec0eafdc87309ce76bf9be15474505ec8083469b",
+      "oddsHash": null,
+      "rows": 3176,
+      "odds": 134,
+      "specificationRows": 1624
+    },
+    "fingerprint": "1e6c3c861c1d6ed2be32923dbcdf2a4c50b5253872a75e24ce0b5959b52f06ca",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.632Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-sp-authentic-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-chl-game-used": {
+    "state": {
+      "checklistHash": "45a8a49eab817d1d5f7bac2750b7bc919c4de2e471b71798a9ce0141d8bbd992",
+      "oddsHash": null,
+      "rows": 826,
+      "odds": 17,
+      "specificationRows": 561
+    },
+    "fingerprint": "fdb5751f657aab9b9488b43133b32d43bfcaacaf1038015821268baff65452c6",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.634Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-chl-game-used-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-ahl": {
+    "state": {
+      "checklistHash": "e7636b344185bac00fd11605b39390a367f9b3a272e18842a3b1c27d4be409ea",
+      "oddsHash": null,
+      "rows": 584,
+      "odds": 15,
+      "specificationRows": 150
+    },
+    "fingerprint": "8ea21faf0db21378a0600c6409e0c8eb61fdf343a7e2888203462f248d8c9405",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.636Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-ahl-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-ud-extended-series": {
+    "state": {
+      "checklistHash": "f64e4f68125feb50942dd65f55a3539aa784bc470b5809e34436704f43607703",
+      "oddsHash": null,
+      "rows": 4344,
+      "odds": 104,
+      "specificationRows": 2167
+    },
+    "fingerprint": "68ea097d1e1fc105e2a163596ea0288c30e092a04cf6871e943a8e2c8add6087",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.642Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-ud-extended-series-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-fleer-ultra-golf": {
+    "state": {
+      "checklistHash": "37338e1bfd71cf6b3c9ea9170ebccebce1f96562e889969b26d79ab782ea934c",
+      "oddsHash": null,
+      "rows": 1881,
+      "odds": 81,
+      "specificationRows": 969
+    },
+    "fingerprint": "68d66fab4641d0cb4572d8956bc88c860c3ac7467eb93e37e67ded41b6f818f7",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.644Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-fleer-ultra-golf/"
+      }
+    ]
+  },
+  "upper-deck-2025-2026-o-pee-chee-platinum": {
+    "state": {
+      "checklistHash": "022e50b2d2dcb672ec6169157d64cc6819368bdd624e918368431e3483558d4e",
+      "oddsHash": null,
+      "rows": 6322,
+      "odds": 112,
+      "specificationRows": 3921
+    },
+    "fingerprint": "d65188fe900bc31056cded8f4bd272433b1db7a950d7e1005515479c890f5492",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.649Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-2026-o-pee-chee-platinum-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-spring-expo": {
+    "state": {
+      "checklistHash": "db5a0f5a4894ef3d0c09130dadbad397a013be15d7978d13b6607adc3da2691e",
+      "oddsHash": null,
+      "rows": 102,
+      "odds": 0,
+      "specificationRows": 56
+    },
+    "fingerprint": "fa318f538a94df594d753ca4528a83ea8a651b8d288fbf4ec7d2f78afe2c4cfb",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.650Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-spring-expo-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-2026-spx": {
+    "state": {
+      "checklistHash": "f2c4e3db4cc6259577b8e37574993d4c0ccbc9ed264d1ff3305ff09236582bcb",
+      "oddsHash": null,
+      "rows": 3058,
+      "odds": 141,
+      "specificationRows": 2250
+    },
+    "fingerprint": "26133e2e30333c8a77047bfff0e1a3239f6751844468ca8b28735919701696f4",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.655Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-2026-spx-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-2026-credentials": {
+    "state": {
+      "checklistHash": "05230e1eb1144b82f418f7ac725a3d67d74820e0415057d591a175b2b3414142",
+      "oddsHash": null,
+      "rows": 2513,
+      "odds": 97,
+      "specificationRows": 1983
+    },
+    "fingerprint": "1ad4a0d9085f23a0279e99b7baa390fc4fca035c86da8eab16fea87b3b9dd405",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.667Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-2026-credentials-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-2026-skybox-metal-universe-hockey": {
+    "state": {
+      "checklistHash": "32baa731c03e2fb4547441eb0d5a234913545c373e6bd0415308f4f873e00682",
+      "oddsHash": null,
+      "rows": 2744,
+      "odds": 69,
+      "specificationRows": 1771
+    },
+    "fingerprint": "d38dda553b43b6d89ae72c4a5f33c489efe7f3ce561f73e02beaa43328b398b6",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.674Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-2026-skybox-metal-universe-hockey-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-aew-allure": {
+    "state": {
+      "checklistHash": "411c55162de3d6f231dc100c6c143c3f915151c6910617709fe0ff7ce0b72b37",
+      "oddsHash": null,
+      "rows": 2251,
+      "odds": 70,
+      "specificationRows": 1280
+    },
+    "fingerprint": "7e7a8962051a7e479806f52b83d94769710645535cc8377abc1563229258d126",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.679Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-aew-allure-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-allure-golf": {
+    "state": {
+      "checklistHash": "8f8f4051a0062028b299f45a3fdf5df6d2f80faccf0263b6c22af9b8ad64c5d9",
+      "oddsHash": null,
+      "rows": 2206,
+      "odds": 110,
+      "specificationRows": 1129
+    },
+    "fingerprint": "99c3a69f81671a43634b4ef982df2320add01bc9a52d08089d7ec4b02506d0b9",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.683Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-allure-golf-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-flair-hockey": {
+    "state": {
+      "checklistHash": "3b2c80c11ded3590b6c704e6b90965e8dbc6e3ced312098b1b0df8da46ab10dc",
+      "oddsHash": null,
+      "rows": 2398,
+      "odds": 48,
+      "specificationRows": 1772
+    },
+    "fingerprint": "46a8bf67c8dbdb94a5bd72348fc4cb5bbaed55389ae9658117f13d8903252f16",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.687Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-flair-hockey-checklist/"
+      }
+    ]
+  },
+  "upper-deck-upper-deck-world-of-sports-volume-ii": {
+    "state": {
+      "checklistHash": "e31d29231aa96643c2baded41bb7dc2f054a7e49e481813a85117063943c9f86",
+      "oddsHash": null,
+      "rows": 2195,
+      "odds": 41,
+      "specificationRows": 1209
+    },
+    "fingerprint": "05eaf9a11b8587e1febb0d7956de48149d934fcd0135dfbf93cdad02f78dde98",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.690Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/upper-deck-world-of-sports-volume-ii-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-nhl-new-york-rangers-centennial-hobby": {
+    "state": {
+      "checklistHash": "a277d53df16edb450a9c3f058c118e615389b3f9306a86c304b522ae7e26c898",
+      "oddsHash": null,
+      "rows": 1391,
+      "odds": 55,
+      "specificationRows": 793
+    },
+    "fingerprint": "e2b5968640be9706fd37c827894b238c4bbdec403fb331088c4b7148c08a1f38",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.692Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-nhl-new-york-rangers-centennial-hobby-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-upper-deck-series-2": {
+    "state": {
+      "checklistHash": "b244ec6069e698dd79a8552167b767022a5ae77c95439aaf22c2455f3c96cc22",
+      "oddsHash": null,
+      "rows": 4961,
+      "odds": 104,
+      "specificationRows": 2671
+    },
+    "fingerprint": "d7671772d104edf60d6f2b41b7a89cd78f7e5cb84fef672292934cffdd50c6ab",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.698Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-upper-deck-series-2-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-2026-nhl-star-rookies-box-set": {
+    "state": {
+      "checklistHash": "7fc882235d6f08776e4fab31404c457321b600468ab6b340684ac06f03e45581",
+      "oddsHash": null,
+      "rows": 248,
+      "odds": 10,
+      "specificationRows": 175
+    },
+    "fingerprint": "963f1a4cfd08f188d2721cbaa376c6a9a07e7d6b8e35f052660e7f0f6ef19c35",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.699Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-2026-nhl-star-rookies-box-set-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-2026-sp-hockey": {
+    "state": {
+      "checklistHash": "d081b23d42758bd181a4646db290704f6e6e8170e201072ea17ed80466e31231",
+      "oddsHash": null,
+      "rows": 793,
+      "odds": 22,
+      "specificationRows": 277
+    },
+    "fingerprint": "ca8401a6018ee440c7dc3b703acb18d7c0c2945d81ae066a0d27a309f7ab66b7",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.700Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-2026-sp-hockey-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-upper-deck-golf": {
+    "state": {
+      "checklistHash": "a8cbf4d0a72f0df1a2d5e34608bc8b4094c02d29c584bfc3b7dc2f6ffa218f5e",
+      "oddsHash": null,
+      "rows": 1990,
+      "odds": 82,
+      "specificationRows": 979
+    },
+    "fingerprint": "9daa724f6db84b72cd44e9c9a1eafb74acccd2d5e2a1f2f38a35bd79d0874b44",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.702Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-upper-deck-golf-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-2026-fleer-ultra": {
+    "state": {
+      "checklistHash": "faf27c84b4518177c8a83bb076975bead956c6e1b345f00e9150c2c9df2874a2",
+      "oddsHash": null,
+      "rows": 3139,
+      "odds": 72,
+      "specificationRows": 2234
+    },
+    "fingerprint": "542e2999484dfcfb2c8b55f2d08092d86d4cb65d2914c05ba8948993d0b96bab",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.705Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-2026-fleer-ultra-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-2026-artifacts-rookies": {
+    "state": {
+      "checklistHash": "208ec05081c224d7e4b118b758699183575264d4fda8ba35d30e4b1581717b97",
+      "oddsHash": null,
+      "rows": 181,
+      "odds": 0,
+      "specificationRows": 163
+    },
+    "fingerprint": "8a7635e2ed844ff50b18e543497c759904af9a622310f71e05bf2f2504231d97",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.705Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-2026-artifacts-rookies-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-sp-game-used-hockey": {
+    "state": {
+      "checklistHash": "20be3dd1659ba80aa45a281bec9b505bfe44e8d3bb5959aaf5a0a73f9f8caf80",
+      "oddsHash": null,
+      "rows": 4849,
+      "odds": 132,
+      "specificationRows": 3407
+    },
+    "fingerprint": "18714c2e79bfa1091d2903c77ba94032eb5186a74a70f58339bd0d95c5b0ae07",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.712Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-sp-game-used-hockey-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2026-national-hockey-card-day": {
+    "state": {
+      "checklistHash": "5c9881e4b947083bb76f7565f4b41a22f073604bf77b043273e03e230f56f79c",
+      "oddsHash": null,
+      "rows": 62,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "7766e5fa4a588df399e088e568058699637d1e28d77027b36505b934ef82e66d",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.714Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-national-hockey-card-day-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-2026-detroit-red-wings-centennial-set-checklist-hobby": {
+    "state": {
+      "checklistHash": "1346181517eb40f7255bac30b80b4bfea6f74121020c86f9fd9c313e9a8acadc",
+      "oddsHash": null,
+      "rows": 1312,
+      "odds": 49,
+      "specificationRows": 693
+    },
+    "fingerprint": "ac36b5378b014b0c343b06c44a8534a4528ab65c15fe3a32fe90a146066b22c9",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.715Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-2026-detroit-red-wings-centennial-set-checklist-hobby/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-o-pee-chee": {
+    "state": {
+      "checklistHash": "f2ac488dce4ab07063436ef6a4d89c4977b3bd4f1d231500337baf0719d801a8",
+      "oddsHash": null,
+      "rows": 7491,
+      "odds": 75,
+      "specificationRows": 3565
+    },
+    "fingerprint": "26edf6daf353bdfe672a20df2c2fa4c72f75ecbbe53f891aebd367664fd5aefb",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.723Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-o-pee-chee-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-mvp-silver-collection-hockey": {
+    "state": {
+      "checklistHash": "902c01443a36f6c3ec7b2f5d2e823bee891a5c191c8f32e753dc610930867b66",
+      "oddsHash": null,
+      "rows": 350,
+      "odds": 6,
+      "specificationRows": 25
+    },
+    "fingerprint": "2c79df26e4afc45d5c91b040eec29b5022fe808acef3f1c66268c1b54df99dbc",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.726Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-mvp-silver-collection-hockey-checklist/"
+      }
+    ]
+  },
+  "upper-deck-chicago-blackhawks-100th-anniversary-set-checklist-hobby": {
+    "state": {
+      "checklistHash": "92a63c1be005e0db83e55044f9a087a05dfde4130de2d1774734b15c0634059e",
+      "oddsHash": null,
+      "rows": 1415,
+      "odds": 51,
+      "specificationRows": 745
+    },
+    "fingerprint": "fd7f2e63c183abbf9715f5647a722f98010215369a9fc630ae0b66f68a92c4fe",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.728Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/chicago-blackhawks-100th-anniversary-set-checklist-hobby/"
+      }
+    ]
+  },
+  "upper-deck-2025-aew-sp-signature-edition": {
+    "state": {
+      "checklistHash": "b3e9a21a42a94af389fa321b90b643bd180f5197f59ee622c7086de032bbe643",
+      "oddsHash": null,
+      "rows": 1264,
+      "odds": 19,
+      "specificationRows": 1079
+    },
+    "fingerprint": "340db1988722939db3768c2fc913e70b977eebeaca53fcec2c8c4737560e25ec",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.730Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-aew-sp-signature-edition-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-2026-allure-hockey": {
+    "state": {
+      "checklistHash": "80466247087f9778450c7bbc9af922d9cd0d1043d24cce0237630a01881f4a6e",
+      "oddsHash": null,
+      "rows": 2900,
+      "odds": 93,
+      "specificationRows": 1547
+    },
+    "fingerprint": "edd0e35d681de624d0e1096332cb8e83957070ff38d3382d28d179d14006e35f",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.732Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-2026-allure-hockey-checklist/"
+      }
+    ]
+  },
+  "upper-deck-2025-26-nhl-new-york-rangers-centennial": {
+    "state": {
+      "checklistHash": "2b80b9b77ea3b58ea5d6c2edf9585463717a227fd8baa7fb942c0d6210c50d97",
+      "oddsHash": null,
+      "rows": 377,
+      "odds": 5,
+      "specificationRows": 0
+    },
+    "fingerprint": "73ca2aa24423a78d86c3b26934094936b0a2fa6af82dc4269082b4c63059f1b5",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.733Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-nhl-new-york-rangers-centennial-checklist/"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-5-card-draw-stacked-deck-football-breakers-brick-black-tie-edition": {
+    "state": {
+      "checklistHash": "b62cd21209df35876882a491021770efae9d1a9865d949c856f854c81fc545ba",
+      "oddsHash": null,
+      "rows": 117,
+      "odds": 0,
+      "specificationRows": 749
+    },
+    "fingerprint": "ed68d6977d784cbdf4c9a10f30b8cb7fa9d95b21fdde386f46f5f01fa2606091",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.734Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/5-card-draw__2026-wild-card-5-card-draw-stacked-deck-football-breakers-brick-black-tie.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-5-card-draw-stacked-deck-football-hobby-jumbo": {
+    "state": {
+      "checklistHash": "944fbbd65e259a94cd0487c46cbac32f104622b5550160591e0a3b2c21567a41",
+      "oddsHash": null,
+      "rows": 91,
+      "odds": 0,
+      "specificationRows": 2164
+    },
+    "fingerprint": "89488b4a66fae2b06bebbae5ea4f8d46e3f87c0dd3d0a223084ad56b707f9343",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.737Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/5-card-draw__2026-wild-card-5-card-draw-stacked-deck-football-hobby-jumbo.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-7-card-studs-football-promo": {
+    "state": {
+      "checklistHash": "863b87d80d0ea374b202d4a617fae3ae70dd779671561fff87c0bb2050c522ab",
+      "oddsHash": null,
+      "rows": 114,
+      "odds": 0,
+      "specificationRows": 330
+    },
+    "fingerprint": "7399d2eb5c4ab717d98d6282002251eaede0cbd9335f8bc82a8c0e5c1a949a5f",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.740Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/7-card-studs-tm__2026-wild-card-7-card-studs-football-promo.html"
+      }
+    ]
+  },
+  "wild-card-wild-card-dino-might-football": {
+    "state": {
+      "checklistHash": "b98555e69ad1ec0864ea2cb3a0d0972892431a77bcee1811d99a48cb58144b29",
+      "oddsHash": null,
+      "rows": 91,
+      "odds": 0,
+      "specificationRows": 507
+    },
+    "fingerprint": "3ab282b3b0012075b7fc3c9fdf139d1e58f99d522c95e8dc60264fe5d958e14d",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.742Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/alumination__2026-dino-might-football.html"
+      }
+    ]
+  },
+  "wild-card-dino-might-mammoth-america-250th-edition": {
+    "state": {
+      "checklistHash": "f21d8765153a3423c45ea7f639e4f188bf72857eb14ee71afe2a96aa0f23dc62",
+      "oddsHash": null,
+      "rows": 50,
+      "odds": 0,
+      "specificationRows": 171
+    },
+    "fingerprint": "411bf2801f07174523630bfa9c99daedc6f1239239b4f2ed848f3e2bb41d1799",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.742Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/alumination__2026-dino-might-mammoth-america-250th-edition.html"
+      }
+    ]
+  },
+  "wild-card-alumination-just-the-hits-football": {
+    "state": {
+      "checklistHash": "6506fc58b7fbf5b1a20ae5fc7bea13630d08a4f7187d141b344859d4a25769fa",
+      "oddsHash": null,
+      "rows": 145,
+      "odds": 0,
+      "specificationRows": 336
+    },
+    "fingerprint": "a868256d4aa3483cf033266be8d6ae735e28214b07f1748a9e599d6209252405",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.743Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/alumination__2026-wild-card-alumination-just-the-hits-football.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-alumination-just-the-hits-football-250th": {
+    "state": {
+      "checklistHash": "103224a4240c847df8e1aaf0ee0af83d05393320c947955f216e8edc3eb4785f",
+      "oddsHash": null,
+      "rows": 84,
+      "odds": 0,
+      "specificationRows": 892
+    },
+    "fingerprint": "a32dec86b489c3e4b164effcf64a4764b22602d9477d1f4515996ee453d48ead",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.744Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/alumination__wild-card-2026-just-the-hits-football-250th.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-fantasy-football-atompunk-edition": {
+    "state": {
+      "checklistHash": "fb6176ab28d28c115d1ea2d4edcb8b1c5ad64f46d89f8dc19babd6310c05858e",
+      "oddsHash": null,
+      "rows": 156,
+      "odds": 0,
+      "specificationRows": 230
+    },
+    "fingerprint": "150f4bfd7fc8994c76670ac44f54013f56b64323ad9b52b4311060ef2229ffed",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.746Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/fantasy-football__2026-wild-card-fantasy-football-atompunk-edition.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-fantasy-football-atompunk-mammoth-edition": {
+    "state": {
+      "checklistHash": "d5acffab57bfb2b20c3d42b70c950897ede547b6c0b18493244ce9ac31e1b69c",
+      "oddsHash": null,
+      "rows": 180,
+      "odds": 0,
+      "specificationRows": 20
+    },
+    "fingerprint": "dd776b06bf9cc8ff2dabb21f95a1d49f70792de4958b3303e5ef743bc2eff9fb",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.747Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/fantasy-football__2026-wild-card-fantasy-football-atompunk-mammoth-edition.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-fantasy-football-manga-edition": {
+    "state": {
+      "checklistHash": "1f5d95b55e568c51949f4e34dc80f0372e3d6361ded04d12127452e3ab37d10b",
+      "oddsHash": null,
+      "rows": 101,
+      "odds": 0,
+      "specificationRows": 133
+    },
+    "fingerprint": "b37fa2b1c49a5f594b033d42ec2ffdd8d18cc9f40064bf388faa7960c0561dbe",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.747Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/fantasy-football__2026-wild-card-fantasy-football-manga-checklist.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-fantasy-football-steampunk-edition": {
+    "state": {
+      "checklistHash": "7bb4b383db4f33dac04852a02f103366fb6335bd8642eb13c0466d2ccbcc790d",
+      "oddsHash": null,
+      "rows": 99,
+      "odds": 0,
+      "specificationRows": 120
+    },
+    "fingerprint": "572804f9623cbdafab73cd8f007087c79b11e8717aa6bf0ea647564ed3fe0303",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.748Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/fantasy-football__2026-wild-card-fantasy-football-steampunk-edition.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-fantasy-football-steampunk-mammoth-edition": {
+    "state": {
+      "checklistHash": "da4a81b086b79dbb1d6d8b3e4555ebc7824d3b6572a5694471993787d4ac8257",
+      "oddsHash": null,
+      "rows": 483,
+      "odds": 0,
+      "specificationRows": 164
+    },
+    "fingerprint": "d9d0b0ff8d58a350b568a254aad3fc95e08de4262b8e56d74e94da7b842e9494",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.749Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/fantasy-football__steampunk-mammoth.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-matte-rookies": {
+    "state": {
+      "checklistHash": "02e00fb4dfea4c2d918342a1a79fb3ab822ad5a735ed696d688686c14139baaa",
+      "oddsHash": null,
+      "rows": 17,
+      "odds": 0,
+      "specificationRows": 366
+    },
+    "fingerprint": "c75765a9aafb3cd8ab112b78104196579a7be27c542c5b8415d54e61efd1a7ef",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.749Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/matte__2026-wild-card-matte-rookies.html"
+      }
+    ]
+  },
+  "wild-card-2026-matte-metal-multi-sport": {
+    "state": {
+      "checklistHash": "0f7f3dc306f4c3846fa730e1aeb47642cdcfce2a527eb943fe2a4183ec95df9a",
+      "oddsHash": null,
+      "rows": 251,
+      "odds": 0,
+      "specificationRows": 49
+    },
+    "fingerprint": "001b1d00e0800aab2d7123f202a0d7e3ca7b860405a82717905acfe9e967ba62",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.750Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/matte__matte-metal-multi-sport.html"
+      }
+    ]
+  },
+  "wild-card-wild-card-pop-1-national-exclusive": {
+    "state": {
+      "checklistHash": "dec76215efdf79ee49e30c413f210779c2891ca94293183e0b0dfe0d38c09f5c",
+      "oddsHash": null,
+      "rows": 3,
+      "odds": 0,
+      "specificationRows": 3
+    },
+    "fingerprint": "359ec6bfcbcb2f4216766b980db2d77f55be0c28af21b72c09cd349f360364fb",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.750Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/pop1__2026-wild-card-pop1-national-exclusive.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-mega-mix-mendoza": {
+    "state": {
+      "checklistHash": "7ffcd6b6b3ee6bbf1dee9ce931b0b79d2a86deade46a54206bf08d141bc100d1",
+      "oddsHash": null,
+      "rows": 17,
+      "odds": 0,
+      "specificationRows": 111
+    },
+    "fingerprint": "2bcafb976f6b671a52de466a1f3ac5d630a1a952f99d2597123f067c303a83e3",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.752Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-wild-card-mega-mix-mendoza.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-qb1-breakers-brick": {
+    "state": {
+      "checklistHash": "3962b6d8c70eda0df19b4f728247a820eb5cac2be0657570d476e8dbf410e7e0",
+      "oddsHash": null,
+      "rows": 122,
+      "odds": 0,
+      "specificationRows": 3132
+    },
+    "fingerprint": "3a13beb4d75199cb534a581b5f3b3373f09fb9986abd80ba5388eeacf5a04ff4",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.755Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-wild-card-qb1-brick.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-sweet": {
+    "state": {
+      "checklistHash": "236f8beb42a2e4c6201fad5f41b1edd4380cc14f12b4002ef686c2132b8d10dd",
+      "oddsHash": null,
+      "rows": 50,
+      "odds": 0,
+      "specificationRows": 230
+    },
+    "fingerprint": "08fcf08a68b00d36bbc20c369407dfae8bea01656c42de581435f8292c04d843",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.756Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-wild-card-sweet-checklist.html"
+      }
+    ]
+  },
+  "wild-card-wild-card-wild-art-valentines-edition-2026": {
+    "state": {
+      "checklistHash": "69b0326a80029ce7bfa8f59c6e33069f4acd9dcacd2036488b865defea7e0464",
+      "oddsHash": null,
+      "rows": 65,
+      "odds": 0,
+      "specificationRows": 7
+    },
+    "fingerprint": "4be5e1ad677a32a0fbd86bc6d55fac5610634d06c03595ab17a5406ad3125246",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.757Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-wild-card-wild-art-valentines.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-wild-chrome": {
+    "state": {
+      "checklistHash": "5646f770a0ec54f19ff5e5721535a431e8b16df22228759c1fb5009fb9420404",
+      "oddsHash": null,
+      "rows": 4,
+      "odds": 0,
+      "specificationRows": 2814
+    },
+    "fingerprint": "0d727034fbd165db35a3f121312a47549a3e1adf67a24356adfeaac9c5375e9e",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.758Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-wild-chrome.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-splat-mendoza": {
+    "state": {
+      "checklistHash": "f6b599a35d2c708dfbb165651cee60613b41c3303a77dda2ce7d433ad4df34f9",
+      "oddsHash": null,
+      "rows": 15,
+      "odds": 0,
+      "specificationRows": 153
+    },
+    "fingerprint": "33a321cf133bb8095692a79157b36f3b15645ad9331c404a6fb6980ac5998e37",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.760Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/splat__2026-splat-mendoza.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-splat-lucky-strike-multi-sport": {
+    "state": {
+      "checklistHash": "e943adbf2bc6ee8e7480582d2a8cbef71b8189996e1ed2a4956b06f4aab87288",
+      "oddsHash": null,
+      "rows": 140,
+      "odds": 0,
+      "specificationRows": 30
+    },
+    "fingerprint": "a9e2b73c2b3ea1f15fd95680cb902d108a6ac40d8d5513bc4c33ebd12966dd90",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.761Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/splat__lucky-strike.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-dino-might-lamine-yamal": {
+    "state": {
+      "checklistHash": "c447662f16e6d3e49ec72d29d9ddba67e478ede43500f2bcd951aa2b5c15c2a8",
+      "oddsHash": null,
+      "rows": 13,
+      "odds": 0,
+      "specificationRows": 41
+    },
+    "fingerprint": "c097df97a224860c815c0250a3ce108c30351fd77de83e18bf6aadd1747e9916",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.762Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/alumination__2024-dino-might-lamine-yamal.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-espn-national-exclusive-promo": {
+    "state": {
+      "checklistHash": "ad198ab27b64c345e8c8f36e176270a2c14690eb2f2efc8e5f8cad328319e6ac",
+      "oddsHash": null,
+      "rows": 31,
+      "odds": 0,
+      "specificationRows": 142
+    },
+    "fingerprint": "780e02a8e9b82880209caf8477d7d73651aac599843aa42d199a78c20d01ee52",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.763Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-espn-national-exclusive.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-haunted-hits-lights-out-mammoth-hobby-national-exclusive": {
+    "state": {
+      "checklistHash": "8b0bf1e384a98bca6045ec82c638079f5653577cac423200621910ee05e2ac5f",
+      "oddsHash": null,
+      "rows": 60,
+      "odds": 0,
+      "specificationRows": 292
+    },
+    "fingerprint": "4fb58023be438f44b9e980430acaabe71d4d13b45415d519a51b40f9a7871263",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.764Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-haunted-hits-lights-out-mammoth-hobby-national-exclusive.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-day-of-the-dead-mammoth-national-exclusive": {
+    "state": {
+      "checklistHash": "819736bc6220f0c14519c7e6b236c8d19c8d7ae7df8fd8968284ce9b455a08e1",
+      "oddsHash": null,
+      "rows": 61,
+      "odds": 0,
+      "specificationRows": 44
+    },
+    "fingerprint": "ad3b34888d12b8e3dc994caf66048dff8b05b96a6161be3d06de58f25b804a65",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.765Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-day-of-the-dead-mammoth-ntl-exclusive.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-comix-soccer": {
+    "state": {
+      "checklistHash": "e64865958b6b85e7a2a0e2b4a96537c99dd0966b6132ed795776d9b120ab178a",
+      "oddsHash": null,
+      "rows": 495,
+      "odds": 0,
+      "specificationRows": 130
+    },
+    "fingerprint": "eaee707678b449eac7396c8fc6815f8ff1c4d06a34a5adce8aae4bafdae1e672",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.766Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/alumination__2026-comix-soccer.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-super-chrome-soccer": {
+    "state": {
+      "checklistHash": "a4d96b4cc10f61fcb5734eea41ad139e8706dbd40b5b04cadfbb425be6f62024",
+      "oddsHash": null,
+      "rows": 337,
+      "odds": 0,
+      "specificationRows": 149
+    },
+    "fingerprint": "a04f0abad12365b363c7793f3e5fa71e65293fa8b63da1bc7fa455ad466827e9",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.767Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-super-chrome-soccer.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-matte-metal-soccer": {
+    "state": {
+      "checklistHash": "566132135b81ffcb0bfd842ca38ebee2e805864069a3463c2f728dff867c3b89",
+      "oddsHash": null,
+      "rows": 889,
+      "odds": 0,
+      "specificationRows": 57
+    },
+    "fingerprint": "38ed77ece06bef0c681d5791fae54a1166b631843c18cc8378d9ab975fe953a7",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.768Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/matte__2026-matte-metal-soccer.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-matte-metal-graffiti-multi-sport-hobby": {
+    "state": {
+      "checklistHash": "cd7865ea7686c8b1b675465c5703f475bebbb454c8c3eb7bdcfedf58b76e1132",
+      "oddsHash": null,
+      "rows": 143,
+      "odds": 0,
+      "specificationRows": 125
+    },
+    "fingerprint": "2bc2aaeceb32fa1bbfdf12b314c60038561f13ec440d041a69f377c784477739",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.769Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/matte__2026-matte-metal-graffiti-multi-sport-hobby.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-johnny-bench-national-exclusive": {
+    "state": {
+      "checklistHash": "0804123889357dd4a49c5eca1db1d9ebe38ee5eafc006647c87d4da9a45d71fe",
+      "oddsHash": null,
+      "rows": 2,
+      "odds": 0,
+      "specificationRows": 23
+    },
+    "fingerprint": "c527aff69718f5f6aaba48032190a4b1e86854a481eced14bd71d6e35f26182e",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.770Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-johnny-bench-national-exclusive.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-summer-splat": {
+    "state": {
+      "checklistHash": "f8ea96cefe4e1b081ade4d8b19f845935d9d54b74a85edd7be53e560e9b676d0",
+      "oddsHash": null,
+      "rows": 351,
+      "odds": 0,
+      "specificationRows": 116
+    },
+    "fingerprint": "f26b4f2e9f60aa5813d0bd6e89399d3181b4d87038bc376db6be00036dd2d167",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.771Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/splat__2026-summer-splat.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-fantasy-baseball-atompunk-edition": {
+    "state": {
+      "checklistHash": "eab075b87f4d4c6a2a3e174c15243fb97590e6a5885bc162bc7bbebbe7acd268",
+      "oddsHash": null,
+      "rows": 112,
+      "odds": 0,
+      "specificationRows": 91
+    },
+    "fingerprint": "081ade17652447169f3950067ad675031e056dea8175701cfa84662fc7a90d01",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.771Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/fantasy-football__2026-fantasy-baseball-atompunk-edition.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-haunted-hits-lights-out-mammoth-national-exclusive": {
+    "state": {
+      "checklistHash": "887c729661786f7d5c13e47b4ef9b7226d9837d5518595aafb33f0f99ccfec0c",
+      "oddsHash": null,
+      "rows": 60,
+      "odds": 0,
+      "specificationRows": 221
+    },
+    "fingerprint": "bfcfbd36f11f5fc27177c399f836f9f30548930259351d5861dbca8ae5761257",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.772Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-haunted-hits-lights-out-mammoth-ntl-exclusive.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-matte-metal-graffiti-national": {
+    "state": {
+      "checklistHash": "289054ec0a1c1fa9d447f751fe16fba76088391ac06b6004762cd55b232ef8e7",
+      "oddsHash": null,
+      "rows": 126,
+      "odds": 0,
+      "specificationRows": 70
+    },
+    "fingerprint": "448e99b4e559fc2906b0381cd9284d8de5773095c74c9d595d8b2eb3450d1af8",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.773Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-matte-metal-graffiti-national.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-slimgem-national-variety-pack": {
+    "state": {
+      "checklistHash": "ccfb9298ee8f5b62230ae2fa8a11a2036a6225b69dbfb1a74517e1e9c3bddb32",
+      "oddsHash": null,
+      "rows": 90,
+      "odds": 0,
+      "specificationRows": 108
+    },
+    "fingerprint": "f203b0645b5b475996dc912ada22d2417bcafa3d27bfe11685b361ef45db47bc",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.774Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-slimgem-ntl-variety-pack.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-haunted-hits-breakers-brick": {
+    "state": {
+      "checklistHash": "8710699b5e4fe7d364468bc146ca504e41becc74d6d1a6a90af217f93e2ac84a",
+      "oddsHash": null,
+      "rows": 80,
+      "odds": 0,
+      "specificationRows": 157
+    },
+    "fingerprint": "34df4f78fa1969647701ef9a101b83ec085b595462d99f5d13eba1c8262718de",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.775Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-wild-card-haunted-hits-breakers-brick.html"
+      }
+    ]
+  },
+  "wild-card-2026-haunted-hits-hobby-jumbo": {
+    "state": {
+      "checklistHash": "f282faccf0131466a02aac56a5cef8a44ee26f15fef5a7f848d9d81faac41cea",
+      "oddsHash": null,
+      "rows": 85,
+      "odds": 0,
+      "specificationRows": 271
+    },
+    "fingerprint": "3f01a18ba9fb792b49bf1f06ccc1a2c4efde8ead3f66cc20439e12f904433e5d",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.775Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-wild-card-haunted-hits-hobby-jumbo.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-day-of-the-dead-mammoth-hobby-multi-sport": {
+    "state": {
+      "checklistHash": "e6a8c130f58be2b3290d87ca7ef1df283b221c09771c7aa1c5ce8355d4120d75",
+      "oddsHash": null,
+      "rows": 114,
+      "odds": 0,
+      "specificationRows": 44
+    },
+    "fingerprint": "20b9270b7d520a506ccfa31171b3580d1c9a4a4f8fa5a7cd56a0f4397f2f30d7",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.776Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-day-of-the-dead-mammoth-hobby-multi-sport.html"
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-haunted-holidays-slim-gem": {
+    "state": {
+      "checklistHash": null,
+      "oddsHash": null,
+      "rows": 0,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.777Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-haunted-holidays-slim-gem.html"
+      }
+    ]
+  },
+  "panini-fifa-world-cup-2026-adrenalyn-xl": {
+    "state": {
+      "checklistHash": null,
+      "oddsHash": null,
+      "rows": 0,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.777Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.panini.fr/media/paniniFiles/005461-checklist.pdf"
+      }
+    ]
+  },
+  "leaf-2026-leaf-sports-heroes": {
+    "state": {
+      "checklistHash": "6e60c66ad57460dd8f15268ae324d5483bcf5157ef84fce36f9687b2cde50c07",
+      "oddsHash": null,
+      "rows": 1971,
+      "odds": 0,
+      "specificationRows": 53
+    },
+    "fingerprint": "f5d57049defc3c75c61008829414212176a2460ee112a940a8998908ab1f89ba",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.780Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69710719f2eda73284051440_2026_Leaf_Sport_Heroes_CL_Final.xlsx"
+      }
+    ]
+  },
+  "leaf-2026-leaf-paydirt-football": {
+    "state": {
+      "checklistHash": "6e37e52b59961a051f1fd03eb0173708090660411f0ce6ba3d48629a7a4d358a",
+      "oddsHash": null,
+      "rows": 1499,
+      "odds": 0,
+      "specificationRows": 41
+    },
+    "fingerprint": "dbe55d27de081d7e6025998e2b7ab3d34b98800dd7f12bcdfe76709d63474b1e",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.782Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/698cc15bb6764277bdb56f56_2026_Leaf_PayDirt_Football_CL_Final.xlsx"
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-st-patrick-s-day": {
+    "state": {
+      "checklistHash": "73a0c3bc5ebf0803b3952c549127c48ddde989973519d52be81a1a07765b982f",
+      "oddsHash": null,
+      "rows": 1178,
+      "odds": 0,
+      "specificationRows": 50
+    },
+    "fingerprint": "9185f203d4d6267dcf5d931b25dab0b309d243d6d2d443e5fdc275c501555aaf",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.784Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6994eee350006bd4e98d39f5_2026_Leaf_Metal_St._Patrick%27s_Day_CL_F.xlsx"
+      }
+    ]
+  },
+  "leaf-2025-leaf-electrum-multi-sport": {
+    "state": {
+      "checklistHash": "c13ad3c998950053167cffd45572c08a1592baa0ae10d8231a730acf34104d85",
+      "oddsHash": null,
+      "rows": 845,
+      "odds": 0,
+      "specificationRows": 42
+    },
+    "fingerprint": "b7078d8d12f955f03a21e89ca9817396b5c7e7e6ded045437537b1897050697c",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.785Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6961269cc03f1bfbeb77f6e2_2025_Leaf_Electrum_Multi-Sport_CL_F.xlsx"
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-football": {
+    "state": {
+      "checklistHash": "37d70039b1cd282d5d56dc635d5ad9f2252f007e66d6b660110850d6363ff86e",
+      "oddsHash": null,
+      "rows": 6634,
+      "odds": 0,
+      "specificationRows": 122
+    },
+    "fingerprint": "c86214b0d8611665db28b0f456c8cea657c49f00d368a2924e3fe84ec674aafd",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.792Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69c3ef26953b763f1879a6ae_2026_Leaf_Metal_Football_CL_F.xlsx"
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-presidents-day": {
+    "state": {
+      "checklistHash": "ff6861efad3e9499bd20c7075f7304dab237470d9463bf5641e4c37426e25f0b",
+      "oddsHash": null,
+      "rows": 2810,
+      "odds": 0,
+      "specificationRows": 54
+    },
+    "fingerprint": "1001bf5deaa2f3208eecfe3e4bdf46fc11e30935e5bbbb1209acb406795b8efe",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.797Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6984fedfe685edaaade3ae25_2026_Leaf_Presidents%27_Day_CL_Final.xlsx"
+      }
+    ]
+  },
+  "leaf-2026-leaf-sold-on-the-web": {
+    "state": {
+      "checklistHash": "6b04b9e00e0672c3ebb0f6b01048444e7513aed29755ec5fe85058518375ee86",
+      "oddsHash": null,
+      "rows": 17,
+      "odds": 0,
+      "specificationRows": 13
+    },
+    "fingerprint": "e383b6725a352f222754d95eb4de942e775ea607a21937d8eea652a95800d85c",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.800Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/699898fbc90d04104d74709a_2026_Leaf_Sold_on_the_Web_CL_Working.xlsx"
+      }
+    ]
+  },
+  "leaf-2025-26-leaf-boozer-twins": {
+    "state": {
+      "checklistHash": "6445ed240349769df80ca398b26ce96ebb9cf0ba407d1329e2e7e75377a8d1c7",
+      "oddsHash": null,
+      "rows": 48,
+      "odds": 0,
+      "specificationRows": 26
+    },
+    "fingerprint": "544afe24d565a7284108115ae8f725f7cf773000017ec63a5558c92184a35a48",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.801Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69989d19a6f67ee8b7f8396c_2025-26_Leaf_Boozer_Twins_CL_Working.xlsx"
+      }
+    ]
+  },
+  "leaf-2025-leaf-in-the-game-used-sports": {
+    "state": {
+      "checklistHash": "d26a8f4de39064f40c485f1d8b209f43b4f369a37a8ada332a7e925453a75877",
+      "oddsHash": null,
+      "rows": 781,
+      "odds": 0,
+      "specificationRows": 226
+    },
+    "fingerprint": "07ac84e12e66116d9778c45f97a35e5d0c2d78339e01d41a88b146b446fd4f2e",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.802Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/698ce978ba4ec33c73ec8882_2025_Leaf_In_The_Game_Used_Sports_CL_Final.xlsx"
+      }
+    ]
+  },
+  "leaf-2025-leaf-optichrome-baseball": {
+    "state": {
+      "checklistHash": "bc85e7a4834c45bfe1503eaa4dc307599b3f28d76ecaa27a59990f60f2072c56",
+      "oddsHash": null,
+      "rows": 7286,
+      "odds": 0,
+      "specificationRows": 179
+    },
+    "fingerprint": "492b3b661898e5f2c7587d3b085f1e5ea6685186903458d873ad95149706f3b6",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.812Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69a20059d32ea88b8fd5c956_2025_Leaf_Optichrome_Baseball_CL_Final.xlsx"
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-collector-kit-wave-2": {
+    "state": {
+      "checklistHash": "f2bbac0a48cfdcc62e70e0df293413ca3b3061616853fbc8c0536ffcf6b0b184",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "e289579560014ad92d8117693d46285edc5fb993a46e39c39a803111b76dfd5c",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.813Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Collector_Kit_Wave_2_Checklist.pdf?v=1790604076"
+      }
+    ]
+  },
+  "panini-2026-panini-national-silver-packs": {
+    "state": {
+      "checklistHash": "f673af3ea213d55e7f524b85e335f10ca069b5b72f156b844008eebb25472ca0",
+      "oddsHash": null,
+      "rows": 113,
+      "odds": 0,
+      "specificationRows": 16
+    },
+    "fingerprint": "d4e29bcdb47dd564592b657d073a637ed985c0dd4aa44e47d9c1a81209735833",
+    "events": [
+      {
+        "at": "2026-10-11T21:53:32.814Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://blog.paniniamerica.net/wp-content/uploads/2026/07/National-checklist26.pdf"
+      }
+    ]
+  }
+}

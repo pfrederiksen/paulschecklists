@@ -13,3 +13,7 @@ Keep metadata and crawlable checklist content in `templates/seo.mjs`, applied th
 # Dedicated official imports
 
 Refresh the Panini National Silver Packs PDF with `scripts/import_panini_national.py` using the bundled pdfplumber Python runtime. Its physical-column parser preserves every printed card number and numbering specification. The generic catalog importer must preserve `panini-pdf` imports; do not replace them with generic PDF text extraction. Run this dedicated refresh when checking official source revisions.
+
+# Shared research views
+
+Generate research data and revision snapshots through `scripts/build_research.mjs`, invoked by the shared page generator. Preserve `data/revision-history.json`; unchanged source fingerprints must not create revision events. Never reconstruct unobserved historical changes. Keep global name search, pack-format comparisons and parallel ladders in `research.js` and the shared template. Preserve source units and numbering qualifiers. Run `node scripts/verify_research.mjs` alongside the existing checks before publishing research changes.
