@@ -17,6 +17,8 @@ const context=vm.createContext({document,console,Option:function(text,value){ret
 await new vm.Script('(async()=>{'+await readFile('directory.js','utf8')+'})()').runInContext(context);
 assert.equal(get('catalog-total').textContent,catalog.sets.length);assert.equal((output.match(/class="catalog-row"/g)||[]).length,40);
 get('coverage-filter').value='released';get('coverage-filter').change();assert.equal(get('catalog-count').textContent,'2 sets');assert(output.includes('bowman-football-2026.html'));assert(output.includes('allen-ginter-2026.html'));
-get('catalog-reset').onclick();get('catalog-next').onclick();assert.equal(get('catalog-page').textContent,'Page 2 of 5');
+get('catalog-reset').onclick();get('catalog-next').onclick();assert.equal(get('catalog-page').textContent,'Page 2 of 2');
 get('set-search').value='this-does-not-exist';get('set-search').input();assert.equal(get('catalog-count').textContent,'0 sets');assert(get('catalog-empty').hidden===false);
 console.log(`Verified ${catalog.sets.length} unique official-source pages, ${tables} preserved tables, shared tracking/ads, and directory filters/pagination.`);
+
+get('catalog-reset').onclick();assert.equal(get('coverage-filter').value,'searchable');assert(output.indexOf('allen-ginter-2026.html')<output.indexOf('upper-deck-'));get('coverage-filter').value='full';get('coverage-filter').change();assert.equal(get('catalog-count').textContent,'2 sets');get('coverage-filter').value='source';get('coverage-filter').change();assert.equal(get('catalog-count').textContent,'111 sets');get('sort-filter').value='name';get('sort-filter').change();console.log('Verified data-first default and full/table/source availability filters.');
