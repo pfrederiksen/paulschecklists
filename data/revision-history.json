@@ -3348,5 +3348,32 @@
         "source": "https://blog.paniniamerica.net/wp-content/uploads/2026/07/National-checklist26.pdf"
       }
     ]
+  },
+  "panini-2026-panini-soccer-player-of-the-day": {
+    "state": {
+      "checklistHash": "88a677d68024097aa9787d4f476e461a3f068888c2333e74e152ce95bbb73848",
+      "oddsHash": null,
+      "rows": 136,
+      "odds": 0,
+      "specificationRows": 14
+    },
+    "fingerprint": "821976b7fe08bb8bb18226330fbedfbff10cdb0dbc28ed608b06431ef19c2a18",
+    "events": [
+      {
+        "at": "2026-10-11T23:36:57.678Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://paninipod.com/wp-content/uploads/2026/04/2026-SOCCER-POD-checklist.pdf",
+        "snapshot": {
+          "checklistHash": "88a677d68024097aa9787d4f476e461a3f068888c2333e74e152ce95bbb73848",
+          "oddsHash": null,
+          "rows": 136,
+          "odds": 0,
+          "specificationRows": 14
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

@@ -21,5 +21,28 @@
     "importKind": "panini-pdf",
     "sha256": "f673af3ea213d55e7f524b85e335f10ca069b5b72f156b844008eebb25472ca0",
     "dataAudit": "All 113 printed numbered cards and 16 published numbering specifications imported from the official PDF."
+  },
+  {
+    "title": "2026 Panini Soccer Player of the Day",
+    "manufacturer": "Panini",
+    "sport": "soccer",
+    "year": "2026",
+    "slug": "panini-2026-panini-soccer-player-of-the-day",
+    "page": "sets/panini-2026-panini-soccer-player-of-the-day.html",
+    "checklistUrl": "https://paninipod.com/wp-content/uploads/2026/04/2026-SOCCER-POD-checklist.pdf",
+    "sourcePage": "https://paninipod.com/",
+    "releaseStatus": "Released",
+    "releaseDate": null,
+    "catalogEvidence": "Official Player of the Day program update says Soccer promotional kits began shipping May 4, 2026. This is a hobby-shop promotional set. The GREATS section prints parallel labels beginning Rookies; labels and spelling are preserved without inferring rookie status. Marketing code CP is printed for both Cole Palmer and Christian Pulisic; both rows remain present. Pack odds are not published.",
+    "verified": "2026-10-11",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2026-panini-soccer-player-of-the-day.json",
+    "rowCount": 136,
+    "sections": 4,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-pdf",
+    "sha256": "88a677d68024097aa9787d4f476e461a3f068888c2333e74e152ce95bbb73848",
+    "dataAudit": "All 136 printed rows and 14 published parallel/numbering entries imported using physical column alignment."
   }
 ]

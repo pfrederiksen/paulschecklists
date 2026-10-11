@@ -12,7 +12,7 @@ Keep metadata and crawlable checklist content in `templates/seo.mjs`, applied th
 
 # Dedicated official imports
 
-Refresh the Panini National Silver Packs PDF with `scripts/import_panini_national.py` using the bundled pdfplumber Python runtime. Its physical-column parser preserves every printed card number and numbering specification. The generic catalog importer must preserve `panini-pdf` imports; do not replace them with generic PDF text extraction. Run this dedicated refresh when checking official source revisions.
+Refresh the Panini National Silver Packs PDF with `scripts/import_panini_national.py` using the bundled pdfplumber Python runtime. Its physical-column parser preserves every printed card number and numbering specification. The generic catalog importer must preserve `panini-pdf` imports; do not replace them with generic PDF text extraction. Run this dedicated refresh when checking official source revisions. Also refresh the Soccer Player of the Day source with `scripts/import_panini_soccer_pod.py`; it uses its own physical-column and published-country alignment checks. Both dedicated parsers use the preserved `panini-pdf` import kind.
 
 # Shared research views
 
