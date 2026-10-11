@@ -61,3 +61,15 @@ Auto ads enabled October 11, 2026. Google controls placement and whether an ad i
 The Bowman source repeats NFL base #68 and omits #66. Both entries remain separate, preserving the source error. Multi-subject autograph codes are grouped. Some odds cells are blank, preserved as unpublished.
 
 All public checklist pages reuse the exact GoatCounter account configured in the domain repository's `src/layouts/BaseLayout.astro`: `https://paulfrederiksen.goatcounter.com/count`, with the `https://gc.zgo.at/count.js` script. Analytics disclosure is in the shared privacy page. No separate analytics account is introduced.
+
+## Official-source catalog and automatic publication
+
+The directory currently contains 164 official-source entries: 71 Topps/Bowman, 52 Upper Deck, 40 Wild Card, and one Panini. This is an inventory under audit, **not an exhaustive list of 2026 releases**. Product year, checklist publication date, and release date are separate fields. Unverified release dates remain labeled. Panini and Leaf coverage is incomplete.
+
+Two sets have full card-family/parallel/odds imports. Another 51 pages offer search and CSV export of an imported official HTML table, preserving original columns. Remaining pages link to the official checklist and explicitly show that parsing and odds import are pending. No missing odds are converted to estimated rarity.
+
+Generate pages with `node scripts/generate_source_pages.mjs`, package with `node scripts/build_site.mjs`, and validate with `node scripts/verify_catalog.mjs`, `node scripts/verify_bowman.mjs`, and `node scripts/verify_ui.mjs`. `scripts/expand_catalog.py` rebuilds the registry and imports available manufacturer HTML tables from the checked-in discovery inventories; PDF imports require their product-specific parsers. Discovery snapshots are ignored; checked-in source inventories and provenance remain public.
+
+The active Codex heartbeat `publish-new-official-sports-card-checklists` checks hourly for new official checklists across all manufacturers and sports. It is authorized to create and publish a clearly labeled source-backed page immediately, complete validated imports when possible, and update both repositories. It continues auditing the 2026 backlog. It stays quiet when nothing actionable changes. This is a Codex app automation, not a GitHub Actions polling service; runs depend on the automation host being available.
+
+The domain photography homepage now includes a Checklists section and navigation link.
