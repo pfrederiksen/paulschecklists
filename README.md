@@ -26,7 +26,7 @@ GitHub Pages publishes the `docs/` directory on `main`. Run `node scripts/build_
 
 ## Advertising
 
-A reserved placement demonstrates layout without loading ad scripts. Actual monetization requires the user's publisher account, approved domain, actual privacy disclosures, any required consent flow and provider-provided ads.txt. Add scripts only after these are configured. Do not create a fabricated publisher ID or ads.txt entry.
+AdSense Auto ads integration is present but disabled; no ad scripts are loaded until configured. Actual monetization requires the user's publisher account, approved domain, actual privacy disclosures, any required consent flow and provider-provided ads.txt. Add scripts only after these are configured. Do not create a fabricated publisher ID or ads.txt entry.
 
 ## Features
 
@@ -40,6 +40,8 @@ Search names, numbers, teams and sections; accent-insensitive search; team/subse
 
 ## AdSense activation
 
-`ads-config.js` contains public publisher configuration. The integration is disabled and contains no invented publisher IDs. Before activation, configure the actual publisher and display-ad slot IDs, add this site to AdSense for review, publish the required privacy disclosures, and configure Google's certified consent message or another certified CMP. See https://support.google.com/adsense/answer/7584263 and https://support.google.com/adsense/answer/13554116.
+`ads-config.js` contains public publisher configuration. The integration is disabled and contains no invented publisher IDs. Before activation, configure the actual publisher ID (Auto ads do not require an ad-slot ID), add this site to AdSense for review, publish the required privacy disclosures, and configure Google's certified consent message or another certified CMP. See https://support.google.com/adsense/answer/7584263 and https://support.google.com/adsense/answer/13554116.
 
 The build generates `docs/ads.txt` only when a real publisher ID is present. For the current project URL, that file is below the domain root; it must also be deployed at https://pfrederiksen.github.io/ads.txt (through the root-site repository) or served at the root of a custom domain assigned to this project. No root-site changes have been made.
+
+Auto ads settings are controlled in AdSense → Ads → site settings. Turn on Auto ads there after approval. Setup instructions: https://support.google.com/adsense/answer/9261307. The shared loader is included on both the checklist and privacy pages; manual ad units and reserved placements have been removed.
