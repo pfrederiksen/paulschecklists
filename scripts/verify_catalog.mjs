@@ -16,7 +16,7 @@ let output='';const document={getElementById:get,querySelectorAll:()=>[{remove()
 const context=vm.createContext({document,console,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>structuredClone(catalog)})});
 await new vm.Script('(async()=>{'+await readFile('directory.js','utf8')+'})()').runInContext(context);
 assert.equal(get('catalog-total').textContent,catalog.sets.length);assert.equal((output.match(/class="catalog-row"/g)||[]).length,40);
-get('coverage-filter').value='released';get('coverage-filter').change();assert.equal(get('catalog-count').textContent,'2 sets');assert(output.includes('bowman-football-2026.html'));assert(output.includes('allen-ginter-2026.html'));
+get('coverage-filter').value='released';get('coverage-filter').change();assert.equal(get('catalog-count').textContent,`${catalog.sets.filter(s=>s.releaseStatus==='Released').length} sets`);assert(output.includes('bowman-football-2026.html'));assert(output.includes('allen-ginter-2026.html'));
 get('catalog-reset').onclick();get('catalog-next').onclick();assert.equal(get('catalog-page').textContent,`Page 2 of ${Math.ceil(catalog.sets.filter(s=>s.status==='Searchable'||(s.tableData&&s.rosterPublished!==false)).length/40)}`);
 get('set-search').value='this-does-not-exist';get('set-search').input();assert.equal(get('catalog-count').textContent,'0 sets');assert(get('catalog-empty').hidden===false);
 console.log(`Verified ${catalog.sets.length} unique official-source pages, ${tables} preserved tables, shared tracking/ads, and directory filters/pagination.`);

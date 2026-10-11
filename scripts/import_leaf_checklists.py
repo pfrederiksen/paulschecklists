@@ -1,0 +1,42 @@
+"""Import official Leaf workbooks, preserving sheets, headers, rows and numbering."""
+import json,re,hashlib,urllib.request,io
+from pathlib import Path
+import openpyxl
+ROOT=Path(__file__).resolve().parents[1]
+def import_workbook(record,blob):
+ workbook=openpyxl.load_workbook(io.BytesIO(blob),data_only=True)
+ headers=['Checklist section','Card number','Player / subjects','Source worksheet','Source row']; originals=[]; records=[];specs=[]
+ for sheet in workbook:
+  values=list(sheet.values); raw_headers=values[0]
+  columns=[(i,str(h)) for i,h in enumerate(raw_headers) if h is not None]
+  names=[h for _,h in columns];assert len(names)==len(set(names)),sheet.title
+  for _,h in columns:
+   if h not in originals:originals.append(h)
+  for row_number,row in enumerate(values[1:],2):
+   if not any(v is not None for v in row):continue
+   fields={h:row[i] for i,h in columns}
+   if not fields.get('Subset') or not fields.get('Name') or not fields.get('Checklist'):raise ValueError(f'Unclassified nonblank row {sheet.title}:{row_number}')
+   assert all(row[i] is None for i,h in enumerate(raw_headers) if h is None),'Unlabelled source value'
+   records.append((sheet.title,row_number,fields))
+  colors=[h for h in names if h not in ['Set','Subset','Name','Checklist','Foil','MEM','BASE','City Designation','Redemption Status']]
+  for subset in dict.fromkeys(f['Subset'] for sn,rn,f in records if sn==sheet.title):
+   unique={}
+   for sn,rn,f in records:
+    if sn==sheet.title and f['Subset']==subset:
+     vals=[f.get('Foil',''),*[f.get(c) for c in colors],f.get('MEM',''),f.get('BASE','')];unique[json.dumps(vals)]=vals
+   specs.append({'name':subset,'worksheet':sheet.title,'headers':['Foil',*colors,'MEM','BASE'],'rows':list(unique.values())})
+ headers+=originals
+ def cell(v):return '' if v is None else str(v)
+ rows=[[cell(f['Subset']),cell(f['Checklist']),cell(f['Name']),sn,str(rn),*[cell(f.get(h)) for h in originals]] for sn,rn,f in records]
+ payload={'title':record['title'],'headers':headers,'rows':rows,'source':record['checklistUrl'],'sha256':hashlib.sha256(blob).hexdigest(),'importKind':'xlsx','sectionColumn':0,'publishedSpecifications':specs,'sourceSheets':[{'name':s.title,'headers':[h for h in list(s.values)[0] if h is not None],'rowCount':sum(1 for row in list(s.values)[1:] if any(v is not None for v in row))} for s in workbook]}
+ for row,(sn,rn,fields) in zip(rows,records):
+  assert row[5:]==[cell(fields.get(h)) for h in originals]
+ path='data/imports/'+record['slug']+'.json';(ROOT/path).write_text(json.dumps(payload,ensure_ascii=False)+'\n')
+ record.update(tableData=path,status='Source table',importKind='xlsx',parallelData=True,publishedOdds=False,rowCount=len(rows),sections=len(set(r[0] for r in rows)),sha256=payload['sha256'],dataAudit='All nonblank workbook rows and labelled fields preserved; numbering is not pack odds.')
+ return record
+if __name__=='__main__':
+ catalog=json.loads((ROOT/'data/set-catalog.json').read_text());records=json.loads((ROOT/'data/leaf-official-catalog.json').read_text())
+ for record in records:
+  blob=urllib.request.urlopen(record['checklistUrl'],timeout=45).read();cache=ROOT/'data/catalog-sources/downloads';cache.mkdir(parents=True,exist_ok=True);(cache/(record['slug']+'.xlsx')).write_bytes(blob)
+  result=import_workbook(record,blob);catalog['sets']=[s for s in catalog['sets'] if s['slug']!=result['slug']]+[result];print(result['title'],result['rowCount'],'rows',result['sections'],'sections')
+ (ROOT/'data/set-catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')

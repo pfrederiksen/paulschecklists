@@ -3,7 +3,7 @@ import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
 const code=await readFile('source-page.js','utf8');
-for(const kind of ['pdf','html','wildcard']){
+for(const kind of ['pdf','html','wildcard','xlsx']){
  const set=catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds));
  const data=JSON.parse(await readFile(set.tableData,'utf8'));
  const map=new Map(),get=id=>{if(!map.has(id))map.set(id,{value:'',options:[{}],setAttribute(k,v){this[k]=v;},focus(){},add(option){this.options.push(option);}});return map.get(id);};
