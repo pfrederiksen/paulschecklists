@@ -10,3 +10,9 @@ const record=(await readFile('docs/ads.txt','utf8')).trim();
 let existing='';try{existing=await readFile(join(root,'public/ads.txt'),'utf8');}catch(e){if(e.code!=='ENOENT')throw e;}
 if(!existing.split(/\r?\n/).includes(record))await writeFile(join(root,'public/ads.txt'),existing.trimEnd()+(existing.trim()?'\n':'')+record+'\n');
 console.log('Synced checklist assets and domain-root ads.txt.');
+
+// Advertise the static checklist sitemap alongside the existing Astro sitemap.
+const robotsPath=join(root,'public/robots.txt');
+let robots='';try{robots=await readFile(robotsPath,'utf8');}catch(e){if(e.code!=='ENOENT')throw e;}
+const sitemap='Sitemap: https://paulfrederiksen.com/checklists/sitemap.xml';
+if(!robots.includes(sitemap))await writeFile(robotsPath,(robots||'User-agent: *\nAllow: /\n').trimEnd()+'\n\n'+sitemap+'\n');

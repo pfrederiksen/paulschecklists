@@ -1,8 +1,9 @@
 import {readFile,mkdir,writeFile} from 'node:fs/promises';
 import {setPage,esc} from '../templates/set-page.mjs';
+import {setSEO} from '../templates/seo.mjs';
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
 await mkdir('sets',{recursive:true});
-for(const config of JSON.parse(await readFile('templates/featured-sets.json','utf8')))await writeFile(config.page,setPage(config));
+for(const config of JSON.parse(await readFile('templates/featured-sets.json','utf8'))){const set=catalog.sets.find(s=>s.page===config.page);const data=JSON.parse(await readFile('data/'+config.page.replace('.html','.json'),'utf8'));await writeFile(config.page,setPage({...config,seo:setSEO(set,data)}));}
 for(const set of catalog.sets){
  if(!set.page.startsWith('sets/'))continue;
  const data=set.tableData?JSON.parse(await readFile(set.tableData,'utf8')):null;
@@ -15,6 +16,6 @@ for(const set of catalog.sets){
  const sources=`<div><p class="eyebrow">THE DETAILS MATTER</p><h2>Official data.<br>Clear expectations.</h2></div><div><p>“1 in 24 packs” means a card from that category, across all eligible subjects. It is not the chance of pulling a particular player. Serial numbering is a print run, not a pack hit rate.</p><p>Missing values are not estimates. Original manufacturer columns and notes remain available in card details. A listed subject is not guaranteed in every parallel.</p><p>${esc(set.catalogEvidence||'Product year and checklist availability are separate from release date.')}</p>${links}</div>`;
  const warning=set.releaseStatus==='Released'?'': '<p class="source-warning">Release date has not been verified. Checklist availability does not mean the product has released.</p>';
  const empty=`<section id="explore"><h2>The checklist</h2><p>${set.sourceUnavailable?'The manufacturer’s checklist link is currently unavailable.':'A verified searchable card import is pending.'} Published data will appear here when verified.</p>${links}</section>`;
- await writeFile(set.page,setPage({page:set.page,title:set.title+" · Paul's Checklists",body:data?`data-table="../${esc(set.tableData)}"`:'',nav:'<a href="../">← All checklists</a>',breadcrumb:`${sport.toUpperCase()} <span>/</span> ${maker.toUpperCase()} <span>/</span> ${year}`,hero,stats,odds:set.odds??'',sources,warning,imported:true,hasData:!!data,empty}));
+ await writeFile(set.page,setPage({page:set.page,title:set.title+" · Paul's Checklists",body:data?`data-table="../${esc(set.tableData)}"`:'',nav:'<a href="../">← All checklists</a>',breadcrumb:`${sport.toUpperCase()} <span>/</span> ${maker.toUpperCase()} <span>/</span> ${year}`,hero,stats,odds:set.odds??'',sources,warning,imported:true,hasData:!!data,empty,seo:setSEO(set,data)}));
 }
 console.log(`Generated ${catalog.sets.length} pages from the shared Allen & Ginter template.`);
