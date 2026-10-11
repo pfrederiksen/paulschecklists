@@ -5,20 +5,21 @@ import openpyxl
 ROOT=Path(__file__).resolve().parents[1]
 def import_workbook(record,blob):
  workbook=openpyxl.load_workbook(io.BytesIO(blob),data_only=True)
- headers=['Checklist section','Card number','Player / subjects','Source worksheet','Source row']; originals=[]; records=[];specs=[]
+ headers=['Checklist section','Card number','Player / subjects','Source worksheet','Source row']; originals=[]; records=[];specs=[];sheet_sources=[]
  for sheet in workbook:
-  values=list(sheet.values); raw_headers=values[0]
+  values=list(sheet.values); header_index=next(i for i,row in enumerate(values) if all(h in row for h in ['Subset','Name','Checklist']));raw_headers=values[header_index]
+  sheet_sources.append({'name':sheet.title,'headers':[h for h in raw_headers if h is not None],'notes':[[v for v in row if v is not None] for row in values[:header_index]],'rowCount':sum(1 for row in values[header_index+1:] if any(v is not None for v in row))})
   columns=[(i,str(h)) for i,h in enumerate(raw_headers) if h is not None]
   names=[h for _,h in columns];assert len(names)==len(set(names)),sheet.title
   for _,h in columns:
    if h not in originals:originals.append(h)
-  for row_number,row in enumerate(values[1:],2):
+  for row_number,row in enumerate(values[header_index+1:],header_index+2):
    if not any(v is not None for v in row):continue
    fields={h:row[i] for i,h in columns}
    if not fields.get('Subset') or not fields.get('Name') or not fields.get('Checklist'):raise ValueError(f'Unclassified nonblank row {sheet.title}:{row_number}')
    assert all(row[i] is None for i,h in enumerate(raw_headers) if h is None),'Unlabelled source value'
    records.append((sheet.title,row_number,fields))
-  colors=[h for h in names if h not in ['Set','Subset','Name','Checklist','Foil','MEM','BASE','City Designation','Redemption Status']]
+  colors=[h for h in names if h not in ['Set','Subset','Name','Checklist','Foil','MEM','BASE','City Designation','Redemption Status','Note']]
   for subset in dict.fromkeys(f['Subset'] for sn,rn,f in records if sn==sheet.title):
    unique={}
    for sn,rn,f in records:
@@ -28,7 +29,7 @@ def import_workbook(record,blob):
  headers+=originals
  def cell(v):return '' if v is None else str(v)
  rows=[[cell(f['Subset']),cell(f['Checklist']),cell(f['Name']),sn,str(rn),*[cell(f.get(h)) for h in originals]] for sn,rn,f in records]
- payload={'title':record['title'],'headers':headers,'rows':rows,'source':record['checklistUrl'],'sha256':hashlib.sha256(blob).hexdigest(),'importKind':'xlsx','sectionColumn':0,'publishedSpecifications':specs,'sourceSheets':[{'name':s.title,'headers':[h for h in list(s.values)[0] if h is not None],'rowCount':sum(1 for row in list(s.values)[1:] if any(v is not None for v in row))} for s in workbook]}
+ payload={'title':record['title'],'headers':headers,'rows':rows,'source':record['checklistUrl'],'sha256':hashlib.sha256(blob).hexdigest(),'importKind':'xlsx','sectionColumn':0,'publishedSpecifications':specs,'sourceSheets':sheet_sources}
  for row,(sn,rn,fields) in zip(rows,records):
   assert row[5:]==[cell(fields.get(h)) for h in originals]
  path='data/imports/'+record['slug']+'.json';(ROOT/path).write_text(json.dumps(payload,ensure_ascii=False)+'\n')

@@ -12,5 +12,50 @@
     "slug": "leaf-2026-leaf-sports-heroes",
     "page": "sets/leaf-2026-leaf-sports-heroes.html",
     "verified": "2026-10-11"
+  },
+  {
+    "title": "2026 Leaf PayDirt Football",
+    "manufacturer": "Leaf",
+    "sport": "football",
+    "year": "2026",
+    "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-paydirt-football",
+    "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/698cc15bb6764277bdb56f56_2026_Leaf_PayDirt_Football_CL_Final.xlsx",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "Official product page and downloadable checklist. Exact calendar release date has not been verified.",
+    "slug": "leaf-2026-leaf-paydirt-football",
+    "page": "sets/leaf-2026-leaf-paydirt-football.html",
+    "verified": "2026-10-11",
+    "status": "Official source"
+  },
+  {
+    "title": "2026 Leaf Metal St. Patrick's Day",
+    "manufacturer": "Leaf",
+    "sport": "multi-sport",
+    "year": "2026",
+    "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-st-patricks-day",
+    "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6994eee350006bd4e98d39f5_2026_Leaf_Metal_St._Patrick%27s_Day_CL_F.xlsx",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "Official product page and downloadable checklist. Exact calendar release date has not been verified.",
+    "slug": "leaf-2026-leaf-metal-st-patrick-s-day",
+    "page": "sets/leaf-2026-leaf-metal-st-patrick-s-day.html",
+    "verified": "2026-10-11",
+    "status": "Official source"
+  },
+  {
+    "title": "2025 Leaf Electrum Multi-Sport",
+    "manufacturer": "Leaf",
+    "sport": "multi-sport",
+    "year": "2025",
+    "sourcePage": "https://www.leaftradingcards.com/products/2025-leaf-electrum-multi-sport",
+    "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6961269cc03f1bfbeb77f6e2_2025_Leaf_Electrum_Multi-Sport_CL_F.xlsx",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "Official product page and downloadable checklist. Exact calendar release date has not been verified.",
+    "slug": "leaf-2025-leaf-electrum-multi-sport",
+    "page": "sets/leaf-2025-leaf-electrum-multi-sport.html",
+    "verified": "2026-10-11",
+    "status": "Official source"
   }
 ]
