@@ -1,0 +1,23 @@
+[
+  {
+    "title": "2026 Topps Collector Kit Wave 2",
+    "slug": "topps-bowman-2026-topps-collector-kit-wave-2",
+    "page": "sets/topps-bowman-2026-topps-collector-kit-wave-2.html",
+    "manufacturer": "Topps / Bowman",
+    "sport": "multi-sport",
+    "year": "2026",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Collector_Kit_Wave_2_Checklist.pdf?v=1790604076",
+    "sourcePage": "https://www-next.topps.com/products/2026-topps-collector-kit-wave-2",
+    "releaseStatus": "Upcoming",
+    "releaseDate": "2026-10-28",
+    "verified": "2026-10-11",
+    "catalogEvidence": "Official product page announces October 28, 2026; scheduled release dates are subject to change. The PDF covers ten exclusive Wave 2 cards, not the contents of the other products’ packs included in the kit. The product page promises one exclusive parallel per box but does not name the parallels or publish pack odds.",
+    "status": "Source table",
+    "rowCount": 10,
+    "tableData": "data/imports/topps-bowman-2026-topps-collector-kit-wave-2.json",
+    "sections": 2,
+    "importKind": "pdf",
+    "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+    "sha256": "f2bbac0a48cfdcc62e70e0df293413ca3b3061616853fbc8c0536ffcf6b0b184"
+  }
+]
