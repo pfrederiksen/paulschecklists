@@ -53,3 +53,11 @@ The canonical checklist address is https://paulfrederiksen.com/checklists/. The 
 Publisher ID: `ca-pub-6005669570779380`. Verification metadata and the ads.txt seller record are configured. Auto ads serving is enabled following user confirmation of approval and consent setup. No ad-slot ID is needed.
 
 Auto ads enabled October 11, 2026. Google controls placement and whether an ad is served. No reserved ad block or manual ad units remain.
+
+## Set directory and Bowman Football
+
+`/checklists/` is now the landing directory. Set pages are `allen-ginter-2026.html` and `bowman-football-2026.html`; the latter uses the official 34-page checklist and nine-page odds PDF, covering 47 sections, 2,122 grouped entries and 521 odds rows across Hobby, FDI, Breaker, Jumbo, Mega and Value. Rebuild its data with `python3 scripts/import_bowman.py` (pdfplumber required). Run `node scripts/verify_bowman.mjs` for dataset and application checks.
+
+The Bowman source repeats NFL base #68 and omits #66. Both entries remain separate, preserving the source error. Multi-subject autograph codes are grouped. Some odds cells are blank, preserved as unpublished.
+
+All public checklist pages reuse the exact GoatCounter account configured in the domain repository's `src/layouts/BaseLayout.astro`: `https://paulfrederiksen.goatcounter.com/count`, with the `https://gc.zgo.at/count.js` script. Analytics disclosure is in the shared privacy page. No separate analytics account is introduced.

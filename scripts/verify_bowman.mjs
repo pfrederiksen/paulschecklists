@@ -1,0 +1,22 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const data=JSON.parse(await fs.readFile('data/bowman-football-2026.json','utf8'));
+assert.equal(data.sections.length,47);assert.equal(data.odds.length,521);
+assert.equal(data.sections[2].cards.length,201);
+assert.equal(data.sections[0].cards.filter(c=>c.number==='68').length,2);
+const mapped=data.sections.flatMap(s=>s.oddsIds);assert.equal(new Set(mapped).size,521);assert.equal(mapped.length,521);
+assert.equal(data.odds.find(o=>o.name==='BASE NFL YELLOW').odds.hobby,354);
+assert.equal(data.odds.find(o=>o.name==='BASE CHROME RETROFRACTOR AUTOGRAPH SUPERFRACTOR').odds.hobby,5651997);
+const ids=['insights','explore','search','subset','team','format','rookie','sort','result-count','page-label','previous','next','results','cards-tab','odds-tab','official','checklist-source','odds-source','card-total','reset','export'];
+const els=new Map(ids.map(id=>[id,{value:'',checked:false,innerHTML:'',textContent:'',selectedOptions:[{text:'Hobby'}],events:{},add(){},addEventListener(t,f){this.events[t]=f},setAttribute(){},scrollIntoView(){}}]));
+globalThis.document={body:{dataset:{set:'bowman-football-2026'}},getElementById:id=>els.get(id),addEventListener(){}};globalThis.Option=class{};globalThis.fetch=async()=>({ok:true,json:async()=>data});
+els.get('sort').value='checklist';
+await import('data:text/javascript;base64,'+Buffer.from(await fs.readFile('app.js','utf8')).toString('base64'));
+const el=id=>els.get(id);
+assert.equal(el('result-count').textContent,'2,122 cards');assert.match(el('results').innerHTML,/Trey McBride/);assert.match(el('insights').innerHTML,/5,651,997/);
+el('odds-tab').onclick();el('subset').value='0';el('subset').events.change();assert.match(el('results').innerHTML,/Yellow/);assert.match(el('results').innerHTML,/354/);assert.ok(!el('results').innerHTML.includes('Autograph'));
+el('format').value='breaker';el('format').events.change();assert.match(el('results').innerHTML,/71 packs/);
+el('reset').onclick();el('cards-tab').onclick();el('search').value='Arch Manning';el('search').events.input();assert.match(el('results').innerHTML,/Arch Manning/);
+el('insights').onclick({target:{closest:()=>({dataset:{insight:'prospects'}})}});assert.equal(el('result-count').textContent,'201 cards');
+for(const file of ['index.html','allen-ginter-2026.html','bowman-football-2026.html','privacy.html']){const html=await fs.readFile(file,'utf8');assert.match(html,/paulfrederiksen.goatcounter.com\/count/);assert.ok(!html.includes('data-ad-placement'));}
+console.log('Verified Bowman data, numbering note, full odds mapping, filters, format-specific odds, insights and shared tracking.');

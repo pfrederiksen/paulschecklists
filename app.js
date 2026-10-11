@@ -1,3 +1,4 @@
+const setSlug=document.body?.dataset?.set||'allen-ginter-2026';
 const $=id=>document.getElementById(id);
 const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pretty=v=>v.toLowerCase().replace(/\b\w/g,c=>c.toUpperCase()).replace(/\bIi\b/g,'II').replace(/\bI\b/g,'I').replace(/\bN(34|43)\b/g,'N$1');
@@ -5,8 +6,9 @@ const normalize=v=>v.normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase(
 let data,oddsGroups=[],view='cards',page=1,filtered=[],expanded=new Set();const pageSize=40;
 const oddsText=n=>n==null?'Not listed for this format':`1 in ${n.toLocaleString()} packs`;
 const familyOdds=s=>s.oddsIds.map(i=>data.odds[i]);
-const baseOdds=s=>familyOdds(s).find(o=>!o.name.includes('PARALLEL'));
+const baseOdds=s=>data.formats?familyOdds(s).find(o=>['BASE','REFRACTOR','Standard / original'].includes(o.label)):familyOdds(s).find(o=>!o.name.includes('PARALLEL'));
 function parallelLabel(group,o){
+ if(o.label)return pretty(o.label);
  const family=group.entries.find(e=>!e.name.includes('PARALLEL'))?.name;
  let label=o.name;
  if(family&&label===family)return 'Standard / original';
@@ -28,7 +30,14 @@ function buildOddsGroups(){
  if(remaining.length)groups.push({name:'Other Published Categories',sectionIds:[],cardCount:0,entries:remaining});
  return groups;
 }
+function renderBowmanInsights(){
+ const rookie=data.sections.find(s=>s.name==='BASE ROOKIE'),prospects=data.sections.find(s=>s.name==='PAPER PROSPECTS');
+ const rare=data.odds.filter(o=>o.odds.hobby).sort((a,b)=>b.odds.hobby-a.odds.hobby)[0];
+ $('insights').innerHTML=`<div class="insight-grid"><article class="insight-card"><p class="eyebrow">THE NFL ROOKIE CLASS</p><strong>${rookie.cards.length}</strong><h3>NFL rookies on paper</h3><p>The rookie checklist spans card numbers 101–200, alongside the NFL veteran base section.</p><button data-insight="rookies">Explore NFL rookies →</button></article><article class="insight-card"><p class="eyebrow">THE NEXT GENERATION</p><strong>${prospects.cards.length}</strong><h3>College paper prospects</h3><p>College talent has its own paper and Chrome checklists, with separately published parallel odds.</p><button data-insight="prospects">Explore the prospects →</button></article><article class="insight-card"><p class="eyebrow">THE LONGEST HOBBY ODDS</p><strong class="long-number">1:${rare.odds.hobby.toLocaleString()}</strong><h3>RetroFractor autograph SuperFractor</h3><p>The rarest category by published hobby pack odds. This is not the chance of a specific player.</p><button data-insight="rarest">Explore the chase →</button></article></div>`;
+ $('insights').onclick=e=>{const b=e.target.closest('[data-insight]');if(!b)return;$('reset').onclick();$('format').value='hobby';if(b.dataset.insight==='rarest'){$('search').value=rare.name;switchView('odds');}else{$('subset').value=String(b.dataset.insight==='rookies'?rookie.id:prospects.id);switchView('cards');}$('explore').scrollIntoView({behavior:'smooth'});};
+}
 function renderInsights(){
+ if(setSlug==='bowman-football-2026'){renderBowmanInsights();return;}
  const base=data.sections.find(s=>s.name==='BASE CARDS');
  const total=base.cards.length;
  const rookies=base.cards.filter(c=>c.subjects.some(s=>s.rookie)).length;
@@ -69,7 +78,7 @@ function render(){
  }else{
  $('results').innerHTML=`<div class="table-scroll"><table><thead><tr><th>CARD #</th><th>PLAYER / SUBJECT</th><th>SUBSET</th><th>CATEGORY ODDS & PARALLELS</th></tr></thead><tbody>${rows.map(c=>{
  const key=`${c.section.id}:${c.number}`,odds=baseOdds(c.section),details=familyOdds(c.section);
- return `<tr><td>${esc(c.number)}</td><td>${c.subjects.map(s=>`<span class="card-name">${esc(s.name)}${s.rookie?'<span class="pill">RC</span>':''}</span><span class="team">${esc(s.team||'No team listed')}</span>`).join('')}</td><td><span class="family">${esc(pretty(c.section.name))}</span></td><td><span class="family">${odds?oddsText(odds.odds[f.format]):'Not published'}</span><button class="row-detail" data-key="${esc(key)}" aria-expanded="${expanded.has(key)}">${expanded.has(key)?'Hide':'View'} family details ${expanded.has(key)?'−':'+'}</button></td></tr>${expanded.has(key)?`<tr><td colspan="4" class="detail-cell"><strong>${esc(pretty(c.section.name))} · published family odds</strong><p>These categories apply to the subset. Inclusion of ${esc(c.subjects.map(s=>s.name).join(' / '))} in every parallel is not guaranteed. No individual-card odds or print runs are inferred.</p>${details.length?`<table><thead><tr><th>CATEGORY / PARALLEL</th><th>${esc($('format').selectedOptions[0].text)} PACK ODDS</th></tr></thead><tbody>${details.map(o=>`<tr><td>${esc(pretty(o.name))}</td><td>${oddsText(o.odds[f.format])}</td></tr>`).join('')}</tbody></table>`:'<p>Topps has not published a corresponding odds entry for this section.</p>'}<p>Checklist PDF page ${c.subjects[0].page}. Serial numbering is not provided in these source documents.</p></td></tr>`:''}`;
+ return `<tr><td>${esc(c.number)}</td><td>${c.subjects.map(s=>`<span class="card-name">${esc(s.name)}${s.rookie?'<span class="pill">RC</span>':''}</span><span class="team">${esc(s.team||'No team listed')}</span>`).join('')}</td><td><span class="family">${esc(pretty(c.section.name))}</span></td><td><span class="family">${odds?oddsText(odds.odds[f.format]):'Not published'}</span><button class="row-detail" data-key="${esc(key)}" aria-expanded="${expanded.has(key)}">${expanded.has(key)?'Hide':'View'} family details ${expanded.has(key)?'−':'+'}</button></td></tr>${expanded.has(key)?`<tr><td colspan="4" class="detail-cell"><strong>${esc(pretty(c.section.name))} · published family odds</strong><p>These categories apply to the subset. Inclusion of ${esc(c.subjects.map(s=>s.name).join(' / '))} in every parallel is not guaranteed. No individual-card odds or print runs are inferred.</p>${details.length?`<table><thead><tr><th>CATEGORY / PARALLEL</th><th>${esc($('format').selectedOptions[0].text)} PACK ODDS</th></tr></thead><tbody>${details.map(o=>`<tr><td>${esc(o.label?pretty(o.label):pretty(o.name))}</td><td>${oddsText(o.odds[f.format])}</td></tr>`).join('')}</tbody></table>`:'<p>Topps has not published a corresponding odds entry for this section.</p>'}<p>Checklist PDF page ${c.subjects[0].page}. Serial numbering is not provided in these source documents.</p></td></tr>`:''}`;
  }).join('')}</tbody></table></div>`;
  }
 }
@@ -77,9 +86,10 @@ function change(){page=1;expanded.clear();render();}
 function switchView(next){view=next;page=1;expanded.clear();$('cards-tab').setAttribute('aria-selected',next==='cards');$('odds-tab').setAttribute('aria-selected',next==='odds');$('search').placeholder=next==='cards'?'Search a player, card number, team, or subset…':'Search a checklist family or parallel…';render();}
 function exportCsv(){const f=readFilters();const rows=view==='cards'?[['Number','Subjects','Teams','Subset','Rookie','Pack format','Category odds','Source page'],...filtered.map(c=>[c.number,c.subjects.map(s=>s.name).join(' / '),c.subjects.map(s=>s.team).join(' / '),c.section.name,c.subjects.some(s=>s.rookie),f.format,baseOdds(c.section)?oddsText(baseOdds(c.section).odds[f.format]):'Not published',c.subjects.map(s=>s.page).join(' / ')])]:[['Checklist family','Category','Pack format','Category odds','Source page'],...filtered.flatMap(g=>g.entries.map(o=>[g.name,o.name,f.format,oddsText(o.odds[f.format]),o.page]))];
  // Neutralize spreadsheet formula prefixes in downloaded text fields.
- const csv=rows.map(r=>r.map(v=>`"${String(v).replace(/^[=+@-]/,"'$&").replace(/"/g,'""')}"`).join(',')).join('\r\n');const url=URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=`allen-ginter-2026-${view}.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+ const csv=rows.map(r=>r.map(v=>`"${String(v).replace(/^[=+@-]/,"'$&").replace(/"/g,'""')}"`).join(',')).join('\r\n');const url=URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=`${setSlug}-${view}.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 try{
- const res=await fetch('./data/allen-ginter-2026.json');if(!res.ok)throw Error(`HTTP ${res.status}`);data=await res.json();oddsGroups=buildOddsGroups();
+ const res=await fetch(`./data/${setSlug}.json`);if(!res.ok)throw Error(`HTTP ${res.status}`);data=await res.json();oddsGroups=buildOddsGroups();
+ if(data.formats){$('format').innerHTML='';data.formats.forEach(f=>$('format').add(new Option(f.name,f.id)));$('format').value='hobby';}
  $('official').href=data.source.product;$('checklist-source').href=data.source.checklist;$('odds-source').href=data.source.odds;
  $('card-total').textContent=data.sections.reduce((n,s)=>n+s.cards.length,0).toLocaleString();
  data.sections.forEach(s=>$('subset').add(new Option(`${pretty(s.name)} (${s.cards.length})`,s.id)));
