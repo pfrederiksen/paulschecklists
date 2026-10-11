@@ -1,4 +1,4 @@
-import {mkdir,copyFile,writeFile,readFile} from 'node:fs/promises';
+import {mkdir,copyFile,writeFile} from 'node:fs/promises';
 import config from '../ads-config.js';
 await mkdir('docs/data',{recursive:true});
 for(const file of ['index.html','styles.css','app.js','privacy.html','ads.js','ads-config.js'])await copyFile(file,`docs/${file}`);

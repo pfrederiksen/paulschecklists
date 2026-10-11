@@ -45,3 +45,9 @@ Search names, numbers, teams and sections; accent-insensitive search; team/subse
 The build generates `docs/ads.txt` only when a real publisher ID is present. For the current project URL, that file is below the domain root; it must also be deployed at https://pfrederiksen.github.io/ads.txt (through the root-site repository) or served at the root of a custom domain assigned to this project. No root-site changes have been made.
 
 Auto ads settings are controlled in AdSense → Ads → site settings. Turn on Auto ads there after approval. Setup instructions: https://support.google.com/adsense/answer/9261307. The shared loader is included on both the checklist and privacy pages; manual ad units and reserved placements have been removed.
+
+## Custom-domain path deployment
+
+The canonical checklist address is https://paulfrederiksen.com/checklists/. The domain is served by the separate `pfrederiksen/paulfrederiksen.com` Astro repository. After building, run `node scripts/sync_domain_site.mjs /path/to/domain-repository` to copy generated assets to its `public/checklists/` directory and merge the real publisher record into `public/ads.txt`. Commit and push that repository to publish the domain version. Its photography homepage is preserved. The original project Pages URL remains available.
+
+Publisher ID: `ca-pub-6005669570779380`. Verification metadata and the ads.txt seller record are configured. Auto ads serving remains disabled until site approval and consent setup are confirmed. No ad-slot ID is needed.

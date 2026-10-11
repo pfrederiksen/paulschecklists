@@ -3,5 +3,5 @@ export default {
   provider: 'adsense',
   mode: 'auto',
   enabled: false,
-  publisherId: '',
+  publisherId: 'ca-pub-6005669570779380',
 };
