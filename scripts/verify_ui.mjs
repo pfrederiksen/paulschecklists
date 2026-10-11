@@ -1,0 +1,35 @@
+// Exercise application behavior with lightweight DOM stubs; no browser dependencies.
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const data=JSON.parse(await fs.readFile(new URL('../data/allen-ginter-2026.json',import.meta.url),'utf8'));
+const ids=['insights','explore','search','subset','team','format','rookie','sort','result-count','page-label','previous','next','results','cards-tab','odds-tab','official','checklist-source','odds-source','card-total','reset','export'];
+const elements=new Map(ids.map(id=>[id,{value:'',checked:false,disabled:false,innerHTML:'',textContent:'',attrs:{},events:{},selectedOptions:[{text:'Hobby'}],add(){},addEventListener(type,fn){this.events[type]=fn},setAttribute(k,v){this.attrs[k]=String(v)},focus(){},scrollIntoView(){}}]));
+elements.get('format').value='hobby';elements.get('sort').value='checklist';
+let download;
+globalThis.document={getElementById:id=>elements.get(id),addEventListener(){},createElement(){return {click(){download=this.download}}}};
+globalThis.Option=class{constructor(text,value){this.text=text;this.value=value}};
+globalThis.fetch=async()=>({ok:true,json:async()=>data});
+const code=await fs.readFile(new URL('../app.js',import.meta.url),'utf8');
+await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));
+const el=id=>elements.get(id);
+assert.match(el('result-count').textContent,/2,915 cards/);assert.match(el('insights').innerHTML,/59<\/strong>/);assert.match(el('insights').innerHTML,/505,584/);
+assert.match(el('results').innerHTML,/Francisco Lindor/);
+el('search').value='Ohtani';el('search').events.input();assert.match(el('results').innerHTML,/Shohei Ohtani/);assert.ok(!el('results').innerHTML.includes('Francisco Lindor'));
+el('subset').value='0';el('subset').events.change();assert.equal(el('result-count').textContent,'1 card matching your search');
+el('results').onclick({target:{closest:()=>({dataset:{key:'0:17'}})}});assert.match(el('results').innerHTML,/Blue Foil Filagree/);assert.match(el('results').innerHTML,/1 in 181 packs/);
+el('format').value='fat';el('format').events.change();el('results').onclick({target:{closest:()=>({dataset:{key:'0:17'}})}});assert.match(el('results').innerHTML,/1 in 104 packs/);
+el('reset').onclick();el('rookie').checked=true;el('rookie').events.change();assert.match(el('results').innerHTML,/Murakami/);assert.ok(!el('results').innerHTML.includes('Derek Jeter'));
+el('reset').onclick();el('next').onclick();assert.equal(el('page-label').textContent,'Page 2 of 73');el('previous').onclick();assert.equal(el('page-label').textContent,'Page 1 of 73');
+el('odds-tab').onclick();assert.equal(el('result-count').textContent,'38 checklist families');assert.ok(el('team').disabled);assert.match(el('results').innerHTML,/<h3>Base Cards<\/h3>/);assert.match(el('results').innerHTML,/Blue Foil Filigree/);assert.match(el('results').innerHTML,/Pack odds are not published/);
+el('subset').value='0';el('subset').events.change();assert.equal(el('result-count').textContent,'1 checklist family');assert.match(el('results').innerHTML,/1 in 104 packs/);assert.ok(!el('results').innerHTML.includes('Dynasty'));el('reset').onclick();
+el('search').value='DYNASTY';el('search').events.input();assert.equal(el('result-count').textContent,'1 checklist family matching your search');
+el('format').value='hobby';el('format').events.change();assert.match(el('results').innerHTML,/505,584/);
+el('export').onclick();assert.equal(download,'allen-ginter-2026-odds.csv');
+el('search').value='nonexistent-item';el('search').events.input();assert.match(el('results').innerHTML,/No results found/);
+el('reset').onclick();el('cards-tab').onclick();el('team').value='New York Mets';el('subset').value='0';el('team').events.change();assert.match(el('results').innerHTML,/Francisco Lindor/);assert.ok(!el('results').innerHTML.includes('Derek Jeter'));
+console.log('Passed search, subset/team/rookie filters, category details, pack formats, pagination, odds view, CSV action and empty-state checks.');
+
+el('insights').onclick({target:{closest:()=>({dataset:{insight:'rookies'}})}});assert.equal(el('result-count').textContent,'59 cards');
+el('insights').onclick({target:{closest:()=>({dataset:{insight:'hello'}})}});assert.equal(el('result-count').textContent,'50 cards');
+el('insights').onclick({target:{closest:()=>({dataset:{insight:'rarest'}})}});assert.equal(el('result-count').textContent,'1 checklist family matching your search');assert.match(el('results').innerHTML,/505,584/);
+console.log('Verified computed insights and all three insight navigation links.');
