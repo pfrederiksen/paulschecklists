@@ -107,6 +107,8 @@ def odds_pdf(path):
 
 def run(r):
  if r['page'] in ['allen-ginter-2026.html','bowman-football-2026.html']:return r
+ # Dedicated physical-column parsing preserves the National PDF's numbering tables.
+ if r.get('importKind')=='panini-pdf':return r
  try:
   if r['manufacturer']=='Topps / Bowman' or r['manufacturer']=='Panini':
    path=CACHE/(r['slug']+'.pdf');blob=fetch(r['checklistUrl'],path);rows=[];raw=[];headings=[];section='Checklist';notes=[]

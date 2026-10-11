@@ -4027,6 +4027,29 @@
       "sections": 23,
       "sha256": "bc85e7a4834c45bfe1503eaa4dc307599b3f28d76ecaa27a59990f60f2072c56",
       "dataAudit": "All nonblank workbook rows and labelled fields preserved; numbering is not pack odds."
+    },
+    {
+      "title": "2026 Panini National Silver Packs",
+      "manufacturer": "Panini",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://blog.paniniamerica.net/shine-bright-panini-silver-packs-return-to-the-national-sports-collectors-convention/",
+      "checklistUrl": "https://blog.paniniamerica.net/wp-content/uploads/2026/07/National-checklist26.pdf",
+      "releaseStatus": "Unverified",
+      "releaseDate": null,
+      "catalogEvidence": "Official Panini Silver Packs announcement published July 29, 2026. Exact release date has not been independently verified. Card numbers and names are preserved as printed, including apparent source spelling errors. Numbering is not pack odds.",
+      "slug": "panini-2026-panini-national-silver-packs",
+      "page": "sets/panini-2026-panini-national-silver-packs.html",
+      "verified": "2026-10-11",
+      "status": "Source table",
+      "tableData": "data/imports/panini-2026-panini-national-silver-packs.json",
+      "rowCount": 113,
+      "sections": 2,
+      "parallelData": true,
+      "publishedOdds": false,
+      "importKind": "panini-pdf",
+      "sha256": "f673af3ea213d55e7f524b85e335f10ca069b5b72f156b844008eebb25472ca0",
+      "dataAudit": "All 113 printed numbered cards and 16 published numbering specifications imported from the official PDF."
     }
   ],
   "coverage": {

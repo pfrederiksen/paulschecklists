@@ -9,6 +9,7 @@ for r in json.loads((root/'data/topps-official-catalog.json').read_text()):
  title=r['title'];sport=next((s for term,s in [('Baseball','baseball'),('Basketball','basketball'),('Football','football'),('UFC','ufc'),('WWE','wrestling'),('Formula','racing'),('Olympic','olympics'),('Soccer','soccer'),('UEFA','soccer'),('Premier League','soccer'),('Manchester','soccer')] if term in title),'multi-sport')
  records.append({'title':title,'manufacturer':'Topps / Bowman','sport':sport,'year':re.search(r'20\d\d(?:[-/]\d{2,4})?',title).group(0),'sourcePage':'https://www.topps.com/pages/checklists','checklistUrl':r['url'],'releaseStatus':'Unverified','releaseDate':None,'catalogEvidence':'Listed in Topps’ 2026 checklist catalog; this is not a verified release date.'})
 records+=json.loads((root/'data/upperdeck-official-catalog.json').read_text())
+if (root/'data/panini-official-catalog.json').exists():records+=json.loads((root/'data/panini-official-catalog.json').read_text())
 if (root/'data/leaf-official-catalog.json').exists():records+=json.loads((root/'data/leaf-official-catalog.json').read_text())
 for r in json.loads((root/'data/wildcard-official-catalog.json').read_text()):
  records.append({'title':r['t'],'manufacturer':'Wild Card','sport':r['s'].lower(),'year':r['y'],'sourcePage':'https://wildcardinc.com/checklists/','checklistUrl':'https://wildcardinc.com/checklists/'+r['f'],'releaseStatus':'Unverified','releaseDate':None,'catalogEvidence':'Manufacturer catalog month: '+(r.get('mo') or 'not specified')+'. Exact release date has not been verified.'})

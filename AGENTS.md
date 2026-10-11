@@ -9,3 +9,7 @@ For new sets and source updates, run `node scripts/verify_set_template.mjs`, `no
 # Checklist SEO
 
 Keep metadata and crawlable checklist content in `templates/seo.mjs`, applied through the shared generator. `scripts/build_site.mjs` publishes the full catalog links and canonical checklist sitemap; `scripts/sync_domain_site.mjs` advertises it in domain-root robots.txt. Keep title/description/canonical/social metadata and JSON-LD unique and source-accurate. Preserve published content in static HTML, avoid invented rich-result claims or release dates, and run `node scripts/verify_seo.mjs` after every build.
+
+# Dedicated official imports
+
+Refresh the Panini National Silver Packs PDF with `scripts/import_panini_national.py` using the bundled pdfplumber Python runtime. Its physical-column parser preserves every printed card number and numbering specification. The generic catalog importer must preserve `panini-pdf` imports; do not replace them with generic PDF text extraction. Run this dedicated refresh when checking official source revisions.
