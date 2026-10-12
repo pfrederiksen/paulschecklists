@@ -3456,5 +3456,197 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-graphite-tennis": {
+    "state": {
+      "checklistHash": "6b68179a68be61e69702e02390cb8763ec3c35340f4d76deadfbe5910c212bfc",
+      "oddsHash": "6d14845139af572e47d4d30e44df7d9598721a0a676760bf37288459f08f153f",
+      "rows": 653,
+      "odds": 102,
+      "specificationRows": 6
+    },
+    "fingerprint": "fa57601c812e50b730d340f6e22148c38588123217d82e7a11dd1071174e959d",
+    "events": [
+      {
+        "at": "2026-10-12T18:21:35.610Z",
+        "changes": [
+          "Numbering specification rows: 0 → 6"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Graphite_Tennis_Checklist_v2.pdf?v=1773948520",
+        "snapshot": {
+          "checklistHash": "6b68179a68be61e69702e02390cb8763ec3c35340f4d76deadfbe5910c212bfc",
+          "oddsHash": "6d14845139af572e47d4d30e44df7d9598721a0a676760bf37288459f08f153f",
+          "rows": 653,
+          "odds": 102,
+          "specificationRows": 6
+        },
+        "previousSnapshot": {
+          "checklistHash": "6b68179a68be61e69702e02390cb8763ec3c35340f4d76deadfbe5910c212bfc",
+          "oddsHash": "6d14845139af572e47d4d30e44df7d9598721a0a676760bf37288459f08f153f",
+          "rows": 653,
+          "odds": 102,
+          "specificationRows": 0
+        }
+      },
+      {
+        "at": "2026-10-12T18:21:06.204Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Graphite_Tennis_Checklist_v2.pdf?v=1773948520",
+        "snapshot": {
+          "checklistHash": "6b68179a68be61e69702e02390cb8763ec3c35340f4d76deadfbe5910c212bfc",
+          "oddsHash": "6d14845139af572e47d4d30e44df7d9598721a0a676760bf37288459f08f153f",
+          "rows": 653,
+          "odds": 102,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-triumphant-tennis": {
+    "state": {
+      "checklistHash": "76ff17addebf8aa40b2bf06be602f824c0be5ceb1b7ad6d3bd63669e83cfd26b",
+      "oddsHash": "01e4c0fb69cf284fad61a56bd44edd081a33738ccd340ecb9c3e1e04852aca2d",
+      "rows": 120,
+      "odds": 28,
+      "specificationRows": 3
+    },
+    "fingerprint": "cda005ccc323ce10755412a5e9c85f4123ea5a64d6977da22619572f3e19a3b1",
+    "events": [
+      {
+        "at": "2026-10-12T18:21:35.610Z",
+        "changes": [
+          "Numbering specification rows: 0 → 3"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Triumphant_Tennis_Checklist.pdf?v=1788367130",
+        "snapshot": {
+          "checklistHash": "76ff17addebf8aa40b2bf06be602f824c0be5ceb1b7ad6d3bd63669e83cfd26b",
+          "oddsHash": "01e4c0fb69cf284fad61a56bd44edd081a33738ccd340ecb9c3e1e04852aca2d",
+          "rows": 120,
+          "odds": 28,
+          "specificationRows": 3
+        },
+        "previousSnapshot": {
+          "checklistHash": "76ff17addebf8aa40b2bf06be602f824c0be5ceb1b7ad6d3bd63669e83cfd26b",
+          "oddsHash": "01e4c0fb69cf284fad61a56bd44edd081a33738ccd340ecb9c3e1e04852aca2d",
+          "rows": 120,
+          "odds": 28,
+          "specificationRows": 0
+        }
+      },
+      {
+        "at": "2026-10-12T18:21:06.204Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Triumphant_Tennis_Checklist.pdf?v=1788367130",
+        "snapshot": {
+          "checklistHash": "76ff17addebf8aa40b2bf06be602f824c0be5ceb1b7ad6d3bd63669e83cfd26b",
+          "oddsHash": "01e4c0fb69cf284fad61a56bd44edd081a33738ccd340ecb9c3e1e04852aca2d",
+          "rows": 120,
+          "odds": 28,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-tennis": {
+    "state": {
+      "checklistHash": "fb1ed17c8c92c583c595862591c0a2501e066331553596ca38836a1441f41f1b",
+      "oddsHash": "c366d274e346721ec6259249d9e1e4b687e702f5b8e94d2c863c20291653d6eb",
+      "rows": 688,
+      "odds": 140,
+      "specificationRows": 1
+    },
+    "fingerprint": "fc4ae1ab5015b4c3e8a99136e556319c653378ddb9a6b14f16aef09233c15098",
+    "events": [
+      {
+        "at": "2026-10-12T18:21:35.614Z",
+        "changes": [
+          "Numbering specification rows: 0 → 1"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TCTN_-_2026_Topps_Chrome_Tennis_Checklist_V2.xls?v=1790700549",
+        "snapshot": {
+          "checklistHash": "fb1ed17c8c92c583c595862591c0a2501e066331553596ca38836a1441f41f1b",
+          "oddsHash": "c366d274e346721ec6259249d9e1e4b687e702f5b8e94d2c863c20291653d6eb",
+          "rows": 688,
+          "odds": 140,
+          "specificationRows": 1
+        },
+        "previousSnapshot": {
+          "checklistHash": "fb1ed17c8c92c583c595862591c0a2501e066331553596ca38836a1441f41f1b",
+          "oddsHash": "c366d274e346721ec6259249d9e1e4b687e702f5b8e94d2c863c20291653d6eb",
+          "rows": 688,
+          "odds": 140,
+          "specificationRows": 0
+        }
+      },
+      {
+        "at": "2026-10-12T18:21:06.208Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TCTN_-_2026_Topps_Chrome_Tennis_Checklist_V2.xls?v=1790700549",
+        "snapshot": {
+          "checklistHash": "fb1ed17c8c92c583c595862591c0a2501e066331553596ca38836a1441f41f1b",
+          "oddsHash": "c366d274e346721ec6259249d9e1e4b687e702f5b8e94d2c863c20291653d6eb",
+          "rows": 688,
+          "odds": 140,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-chrome-tennis-sapphire-edition": {
+    "state": {
+      "checklistHash": "40f9ce3fba7a14be3eb45622ded8d35e18be616a2a0796ace233c36a168ebd3e",
+      "oddsHash": null,
+      "rows": 487,
+      "odds": 0,
+      "specificationRows": 4
+    },
+    "fingerprint": "8808cabb90b75eb53afcf124f65f884ccb0c013a0327acd04eb503383dd63031",
+    "events": [
+      {
+        "at": "2026-10-12T18:21:35.615Z",
+        "changes": [
+          "Numbering specification rows: 0 → 4"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25TCTN_SAPPHIRE_FINAL_SUBJECT_TO_CHANGE.pdf?v=1774023689",
+        "snapshot": {
+          "checklistHash": "40f9ce3fba7a14be3eb45622ded8d35e18be616a2a0796ace233c36a168ebd3e",
+          "oddsHash": null,
+          "rows": 487,
+          "odds": 0,
+          "specificationRows": 4
+        },
+        "previousSnapshot": {
+          "checklistHash": "40f9ce3fba7a14be3eb45622ded8d35e18be616a2a0796ace233c36a168ebd3e",
+          "oddsHash": null,
+          "rows": 487,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
+      {
+        "at": "2026-10-12T18:21:06.209Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25TCTN_SAPPHIRE_FINAL_SUBJECT_TO_CHANGE.pdf?v=1774023689",
+        "snapshot": {
+          "checklistHash": "40f9ce3fba7a14be3eb45622ded8d35e18be616a2a0796ace233c36a168ebd3e",
+          "oddsHash": null,
+          "rows": 487,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }
