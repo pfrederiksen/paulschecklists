@@ -3375,5 +3375,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-chrome-formula-1": {
+    "state": {
+      "checklistHash": "13fc764936e039f5139076ebf093e65928b2ef3c3ebbb117352c72178cca2304",
+      "oddsHash": null,
+      "rows": 604,
+      "odds": 0,
+      "specificationRows": 22
+    },
+    "fingerprint": "fe92df01ca65e1ed608d715293e13345988a5ae31ddd7f9e607fc5395ff2adc6",
+    "events": [
+      {
+        "at": "2026-10-12T02:39:57.205Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TCF1_CHECKLIST.xlsx_-_Read-Only.pdf?v=1791482940",
+        "snapshot": {
+          "checklistHash": "13fc764936e039f5139076ebf093e65928b2ef3c3ebbb117352c72178cca2304",
+          "oddsHash": null,
+          "rows": 604,
+          "odds": 0,
+          "specificationRows": 22
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

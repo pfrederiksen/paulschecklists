@@ -19,5 +19,28 @@
     "importKind": "pdf",
     "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
     "sha256": "f2bbac0a48cfdcc62e70e0df293413ca3b3061616853fbc8c0536ffcf6b0b184"
+  },
+  {
+    "title": "2026 Topps Chrome Formula 1",
+    "manufacturer": "Topps / Bowman",
+    "sport": "racing",
+    "year": "2026",
+    "slug": "topps-bowman-2026-topps-chrome-formula-1",
+    "page": "sets/topps-bowman-2026-topps-chrome-formula-1.html",
+    "sourcePage": "https://www.topps.com/pages/topps-chrome-formula-1",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TCF1_CHECKLIST.xlsx_-_Read-Only.pdf?v=1791482940",
+    "releaseStatus": "Upcoming",
+    "releaseDate": "2026-10-15",
+    "verified": "2026-10-11",
+    "status": "Source table",
+    "tableData": "data/imports/topps-bowman-2026-topps-chrome-formula-1.json",
+    "rowCount": 604,
+    "sections": 33,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "topps-grid-pdf",
+    "sha256": "13fc764936e039f5139076ebf093e65928b2ef3c3ebbb117352c72178cca2304",
+    "catalogEvidence": "Official product pages announce October 15, 2026. The seven-page PDF publishes 604 card rows, including 12 intentionally blank Name cells (11 team-logo cards and card 150); original names, teams, subsets, rookie markers and first-logo markers remain intact. Product-page parallel numbering and value-box contents are separate from pack odds; individual parallel eligibility is not inferred. Pack-odds documents were not found on the product pages or global odds catalog.",
+    "dataAudit": "All six original PDF columns imported by ruled-cell boundaries; every base number 1–200 verified."
   }
 ]

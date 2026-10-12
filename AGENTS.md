@@ -17,3 +17,5 @@ Refresh the Panini National Silver Packs PDF with `scripts/import_panini_nationa
 # Shared research views
 
 Generate research data and revision snapshots through `scripts/build_research.mjs`, invoked by the shared page generator. Preserve `data/revision-history.json`; unchanged source fingerprints must not create revision events. Never reconstruct unobserved historical changes. Keep global name search, pack-format comparisons and parallel ladders in `research.js` and the shared template. Preserve source units and numbering qualifiers. Run `node scripts/verify_research.mjs` alongside the existing checks before publishing research changes.
+
+Refresh the 2026 Topps Chrome Formula 1 ruled PDF with `scripts/import_topps_f1_2026.py` using the bundled pdfplumber runtime. Preserve its `topps-grid-pdf` import kind in generic refreshes. Blank Name cells are official source values; do not fill them with inferred players. Product-page numbering and box contents are not pack odds.
