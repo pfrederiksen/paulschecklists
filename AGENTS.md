@@ -21,3 +21,5 @@ Generate research data and revision snapshots through `scripts/build_research.mj
 Refresh the 2026 Topps Chrome Formula 1 ruled PDF with `scripts/import_topps_f1_2026.py` using the bundled pdfplumber runtime. Preserve its `topps-grid-pdf` import kind in generic refreshes. Blank Name cells are official source values; do not fill them with inferred players. Product-page numbering and box contents are not pack odds.
 
 Refresh 2026 Topps Midnight Football with `scripts/import_topps_midnight_2026.py`. It reconciles the generic catalog import against physical player/team/rookie columns and preserves `topps-grid-pdf`. The October 12 date is a preorder date, not a verified release date; do not infer unpublished odds or parallel specifications.
+
+Refresh 2026 Topps Chrome MLS Sapphire with `scripts/import_topps_mls_sapphire_2026.py`. Preserve its dedicatedParser marker during generic refreshes. It retains physical name/team/rookie columns and all 15 literal Sapphire odds values; the standalone exclusive-configuration qualifier belongs to Infinite Sapphire, not a separate family.

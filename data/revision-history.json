@@ -3429,5 +3429,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-chrome-mls-sapphire": {
+    "state": {
+      "checklistHash": "a9995b9e9ad9bacdc34997b0b6f95d20965687a81b0d87eb00683cc158cb1301",
+      "oddsHash": "6d766ddfe09d3e8d7513a9a97649968b4b8d633480fa04e2bfeb37ee6a3a7fbf",
+      "rows": 290,
+      "odds": 15,
+      "specificationRows": 0
+    },
+    "fingerprint": "87ecf01f9629d1814c77b2fa222f17d7f2e5a939450a38c82991054aa84586e4",
+    "events": [
+      {
+        "at": "2026-10-12T04:39:03.567Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps-Chrome-Sapphire-MLS-2026-Checklist-Subject-to-Change.pdf?v=1791312276",
+        "snapshot": {
+          "checklistHash": "a9995b9e9ad9bacdc34997b0b6f95d20965687a81b0d87eb00683cc158cb1301",
+          "oddsHash": "6d766ddfe09d3e8d7513a9a97649968b4b8d633480fa04e2bfeb37ee6a3a7fbf",
+          "rows": 290,
+          "odds": 15,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

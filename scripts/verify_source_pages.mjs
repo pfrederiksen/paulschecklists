@@ -3,7 +3,7 @@ import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
 const code=await readFile('source-page.js','utf8');
-const cases=['pdf','html','wildcard','xlsx','panini-pdf'].map(kind=>catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds))).concat(catalog.sets.filter(s=>s.importKind==='topps-grid-pdf'));
+const cases=['pdf','html','wildcard','xlsx','panini-pdf'].map(kind=>catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds))).concat(catalog.sets.filter(s=>s.importKind==='topps-grid-pdf'||s.dedicatedParser));
 for(const set of cases){
  const kind=set.importKind;
  const data=JSON.parse(await readFile(set.tableData,'utf8'));
@@ -11,7 +11,7 @@ for(const set of cases){
  const context=vm.createContext({document:{body:{dataset:{table:set.tableData}},getElementById:get,addEventListener(){}},console,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>data})});
  await new vm.Script('(async()=>{'+code+'})()').runInContext(context);
  assert(get('source-results').innerHTML.includes('<table>'));
- if(kind==='topps-grid-pdf'){assert(get('source-results').innerHTML.includes(data.rows[0][data.headers.indexOf('Name')].replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>r[data.headers.indexOf('Rookie')]==='Rookie').length} official source rows`);get('source-reset').onclick();}
+ if(kind==='topps-grid-pdf'||set.dedicatedParser){assert(get('source-results').innerHTML.includes(data.rows[0][data.headers.indexOf('Name')].replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>r[data.headers.indexOf('Rookie')]==='Rookie').length} official source rows`);get('source-reset').onclick();}
  assert(get('source-results').innerHTML.includes('PLAYER / SUBJECT'));assert(get('source-results').innerHTML.includes('View family details'));
  get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});assert(get('source-results').innerHTML.includes('OFFICIAL '+data.headers[0]));assert(get('source-results').innerHTML.includes('Hide family details'));
  get('source-sort').value='name';get('source-sort').onchange();assert(get('source-results').innerHTML.includes('<table>'));
