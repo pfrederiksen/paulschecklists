@@ -3402,5 +3402,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-midnight-football": {
+    "state": {
+      "checklistHash": "b3260e9bc604b899abb57173ec7530fd10911613edb0bd0bf050359bdd4d5389",
+      "oddsHash": null,
+      "rows": 636,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "3143d716c733f1aafa83937b80c6cb383629d5d09d08033c4749383a3aa76c80",
+    "events": [
+      {
+        "at": "2026-10-12T03:34:23.667Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Midnight_Football_checklist_ae614b15-64bd-4427-bebc-baa904c7368c.pdf?v=1791410806",
+        "snapshot": {
+          "checklistHash": "b3260e9bc604b899abb57173ec7530fd10911613edb0bd0bf050359bdd4d5389",
+          "oddsHash": null,
+          "rows": 636,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

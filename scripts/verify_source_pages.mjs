@@ -3,21 +3,22 @@ import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
 const code=await readFile('source-page.js','utf8');
-for(const kind of ['pdf','html','wildcard','xlsx','panini-pdf','topps-grid-pdf']){
- const set=catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds));
+const cases=['pdf','html','wildcard','xlsx','panini-pdf'].map(kind=>catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds))).concat(catalog.sets.filter(s=>s.importKind==='topps-grid-pdf'));
+for(const set of cases){
+ const kind=set.importKind;
  const data=JSON.parse(await readFile(set.tableData,'utf8'));
  const map=new Map(),get=id=>{if(!map.has(id))map.set(id,{value:'',options:[{}],setAttribute(k,v){this[k]=v;},focus(){},add(option){this.options.push(option);}});return map.get(id);};
  const context=vm.createContext({document:{body:{dataset:{table:set.tableData}},getElementById:get,addEventListener(){}},console,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>data})});
  await new vm.Script('(async()=>{'+code+'})()').runInContext(context);
  assert(get('source-results').innerHTML.includes('<table>'));
- if(kind==='topps-grid-pdf'){assert(get('source-results').innerHTML.includes('Lando Norris'));assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>r[5]==='Rookie').length} official source rows`);get('source-reset').onclick();}
+ if(kind==='topps-grid-pdf'){assert(get('source-results').innerHTML.includes(data.rows[0][data.headers.indexOf('Name')].replaceAll('&','&amp;').replaceAll("'",'&#39;')));assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>r[data.headers.indexOf('Rookie')]==='Rookie').length} official source rows`);get('source-reset').onclick();}
  assert(get('source-results').innerHTML.includes('PLAYER / SUBJECT'));assert(get('source-results').innerHTML.includes('View family details'));
  get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});assert(get('source-results').innerHTML.includes('OFFICIAL '+data.headers[0]));assert(get('source-results').innerHTML.includes('Hide family details'));
  get('source-sort').value='name';get('source-sort').onchange();assert(get('source-results').innerHTML.includes('<table>'));
  get('source-reset').onclick();assert.equal(get('source-sort').value,'checklist');assert.equal(get('source-section').value,'');
  assert(get('insights').innerHTML.includes('insight-grid'));
  get('source-odds-tab').onclick();assert.equal(get('source-cards-panel').hidden,true);assert.equal(get('source-specifications').hidden,false);get('source-cards-tab').onclick();assert.equal(get('source-specifications').hidden,true);
- assert(get('source-specifications').innerHTML.includes('odds-group'));
+ if(data.odds?.length||data.publishedSpecifications?.length||data.officialStructure||data.oddsColumn!=null||data.serialColumn!=null)assert(get('source-specifications').innerHTML.includes('odds-group'));else assert(get('source-specifications').innerHTML.includes('No parallel or odds specification'));
  get('source-search').value='no-matching-source-row-ever';get('source-search').oninput();assert(get('source-results').innerHTML.includes('No matching'));
  get('source-search').value='';get('source-section').value=data.rows[0][data.sectionColumn??0];get('source-section').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>r[data.sectionColumn??0]===data.rows[0][data.sectionColumn??0]).length.toLocaleString()} official source rows`);
  if(data.odds?.length){assert(get('source-transcript').innerHTML.includes('Odds document text'));const second=data.formats[1];if(second){get('source-format').value=second;get('source-format').onchange();assert(get('source-specifications').innerHTML.includes(second.replaceAll('&','&amp;')));}}
