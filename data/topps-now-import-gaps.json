@@ -1,0 +1,1344 @@
+{
+  "coverageComplete": false,
+  "backfillStart": "2026-01-01",
+  "unparsedNumberedTitles": [
+    {
+      "url": "https://www.topps.com/products/anthony-edwards-2025-26-nba-topps-now%C2%AE-card-294",
+      "title": "Anthony Edwards - 2025-26 NBA Topps NOW® - Card - PR: 1057",
+      "gap": "Card number is blank in the official product title."
+    },
+    {
+      "url": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
+      "title": "Chase Burns - 2026 MLB Topps NOW® - Card 29 - PR: 3477 - PR: 236",
+      "gap": "Official title lacks a validated number or has conflicting/unrecognized numbering or print-run text; preserve the gap instead of inferring from the URL."
+    }
+  ],
+  "pendingSaleDates": [
+    {
+      "series": "2025 MLB Topps NOW®",
+      "number": "OS-12",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=93&after=eyJsYXN0X3ZhbHVlIjoiMjIwNyIsImxhc3RfaWQiOjg4MTcwNTk2MjcxNjUsIm9mZnNldCI6MjIwN30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025 MLB Topps NOW®",
+      "number": "OS-13",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=93&after=eyJsYXN0X3ZhbHVlIjoiMjIwNyIsImxhc3RfaWQiOjg4MTcwNTk2MjcxNjUsIm9mZnNldCI6MjIwN30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025 MLB Topps NOW®",
+      "number": "OS-16",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=90&after=eyJsYXN0X3ZhbHVlIjoiMjEzNSIsImxhc3RfaWQiOjg4MjcyODMxMTIwOTMsIm9mZnNldCI6MjEzNX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025 MLB Topps NOW®",
+      "number": "OS18",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=90&after=eyJsYXN0X3ZhbHVlIjoiMjEzNSIsImxhc3RfaWQiOjg4MjcyODMxMTIwOTMsIm9mZnNldCI6MjEzNX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Bundesliga Topps NOW®",
+      "number": "91",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=92&after=eyJsYXN0X3ZhbHVlIjoiMjE4MyIsImxhc3RfaWQiOjg4MjExMzI1MjU3MjUsIm9mZnNldCI6MjE4M30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Bundesliga Topps NOW®",
+      "number": "92",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=92&after=eyJsYXN0X3ZhbHVlIjoiMjE4MyIsImxhc3RfaWQiOjg4MjExMzI1MjU3MjUsIm9mZnNldCI6MjE4M30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Bundesliga Topps NOW®",
+      "number": "93",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=92&after=eyJsYXN0X3ZhbHVlIjoiMjE4MyIsImxhc3RfaWQiOjg4MjExMzI1MjU3MjUsIm9mZnNldCI6MjE4M30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Bundesliga Topps NOW®",
+      "number": "94",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=92&after=eyJsYXN0X3ZhbHVlIjoiMjE4MyIsImxhc3RfaWQiOjg4MjExMzI1MjU3MjUsIm9mZnNldCI6MjE4M30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Bundesliga Topps NOW®",
+      "number": "183",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=53&after=eyJsYXN0X3ZhbHVlIjoiMTI0NyIsImxhc3RfaWQiOjg5MDY1OTcwNzMwNTMsIm9mZnNldCI6MTI0N30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Bundesliga Topps NOW®",
+      "number": "184",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=53&after=eyJsYXN0X3ZhbHVlIjoiMTI0NyIsImxhc3RfaWQiOjg5MDY1OTcwNzMwNTMsIm9mZnNldCI6MTI0N30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "117",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=93&after=eyJsYXN0X3ZhbHVlIjoiMjIwNyIsImxhc3RfaWQiOjg4MTcwNTk2MjcxNjUsIm9mZnNldCI6MjIwN30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "131",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=91&after=eyJsYXN0X3ZhbHVlIjoiMjE1OSIsImxhc3RfaWQiOjg4MjMwNzUwNzgzMDEsIm9mZnNldCI6MjE1OX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "132",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=91&after=eyJsYXN0X3ZhbHVlIjoiMjE1OSIsImxhc3RfaWQiOjg4MjMwNzUwNzgzMDEsIm9mZnNldCI6MjE1OX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "133",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=91&after=eyJsYXN0X3ZhbHVlIjoiMjE1OSIsImxhc3RfaWQiOjg4MjMwNzUwNzgzMDEsIm9mZnNldCI6MjE1OX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "134",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=91&after=eyJsYXN0X3ZhbHVlIjoiMjE1OSIsImxhc3RfaWQiOjg4MjMwNzUwNzgzMDEsIm9mZnNldCI6MjE1OX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "137",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=90&after=eyJsYXN0X3ZhbHVlIjoiMjEzNSIsImxhc3RfaWQiOjg4MjcyODMxMTIwOTMsIm9mZnNldCI6MjEzNX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "146",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=88&after=eyJsYXN0X3ZhbHVlIjoiMjA4NyIsImxhc3RfaWQiOjg4MzI1ODE5NTk4MzcsIm9mZnNldCI6MjA4N30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "153",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=87&after=eyJsYXN0X3ZhbHVlIjoiMjA2MyIsImxhc3RfaWQiOjg4MzM2MjEwMzMxMTcsIm9mZnNldCI6MjA2M30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "154",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=87&after=eyJsYXN0X3ZhbHVlIjoiMjA2MyIsImxhc3RfaWQiOjg4MzM2MjEwMzMxMTcsIm9mZnNldCI6MjA2M30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "178",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=82&after=eyJsYXN0X3ZhbHVlIjoiMTk0MyIsImxhc3RfaWQiOjg4NDczMTQ3MTQ3ODEsIm9mZnNldCI6MTk0M30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "191",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=79&after=eyJsYXN0X3ZhbHVlIjoiMTg3MSIsImxhc3RfaWQiOjg4NTM1OTk4NzkzMjUsIm9mZnNldCI6MTg3MX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NBA Topps NOW®",
+      "number": "192",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=79&after=eyJsYXN0X3ZhbHVlIjoiMTg3MSIsImxhc3RfaWQiOjg4NTM1OTk4NzkzMjUsIm9mZnNldCI6MTg3MX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NHL Topps NOW®",
+      "number": "76",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=94&after=eyJsYXN0X3ZhbHVlIjoiMjIzMSIsImxhc3RfaWQiOjg4MTQwNTg2MDI2NTMsIm9mZnNldCI6MjIzMX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NHL Topps NOW®",
+      "number": "77",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=94&after=eyJsYXN0X3ZhbHVlIjoiMjIzMSIsImxhc3RfaWQiOjg4MTQwNTg2MDI2NTMsIm9mZnNldCI6MjIzMX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NHL Topps NOW®",
+      "number": "78",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=94&after=eyJsYXN0X3ZhbHVlIjoiMjIzMSIsImxhc3RfaWQiOjg4MTQwNTg2MDI2NTMsIm9mZnNldCI6MjIzMX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NHL Topps NOW®",
+      "number": "106",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=85&after=eyJsYXN0X3ZhbHVlIjoiMjAxNSIsImxhc3RfaWQiOjg4NDAzNjAyMzEwNjksIm9mZnNldCI6MjAxNX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NHL Topps NOW®",
+      "number": "107",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=85&after=eyJsYXN0X3ZhbHVlIjoiMjAxNSIsImxhc3RfaWQiOjg4NDAzNjAyMzEwNjksIm9mZnNldCI6MjAxNX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NHL Topps NOW®",
+      "number": "108",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=85&after=eyJsYXN0X3ZhbHVlIjoiMjAxNSIsImxhc3RfaWQiOjg4NDAzNjAyMzEwNjksIm9mZnNldCI6MjAxNX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NHL Topps NOW®",
+      "number": "188",
+      "url": "https://www.topps.com/products/tomas-hertl-2025-26-nhl-topps-now%C2%AE-sticker-188-pack",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NHL Topps NOW®",
+      "number": "189",
+      "url": "https://www.topps.com/products/vegas-golden-knights-2025-26-nhl-topps-now%C2%AE-sticker-189-pack",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NHL Topps NOW®",
+      "number": "191",
+      "url": "https://www.topps.com/products/seth-jarvis-2025-26-nhl-topps-now%C2%AE-sticker-191-pack",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NHL Topps NOW®",
+      "number": "192",
+      "url": "https://www.topps.com/products/carolina-hurricanes-2025-26-nhl-topps-now%C2%AE-sticker-192-pack",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 NHL Topps NOW®",
+      "number": "204",
+      "url": "https://www.topps.com/products/carolina-hurricanes-2025-26-nhl-topps-now%C2%AE-sticker-204-pack",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "114",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=89&after=eyJsYXN0X3ZhbHVlIjoiMjExMSIsImxhc3RfaWQiOjg4Mjg2MjEyNTg5MDksIm9mZnNldCI6MjExMX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "120",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=86&after=eyJsYXN0X3ZhbHVlIjoiMjAzOSIsImxhc3RfaWQiOjg4Mzc5NDE5MTk5MDEsIm9mZnNldCI6MjAzOX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "121",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=86&after=eyJsYXN0X3ZhbHVlIjoiMjAzOSIsImxhc3RfaWQiOjg4Mzc5NDE5MTk5MDEsIm9mZnNldCI6MjAzOX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "122",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=86&after=eyJsYXN0X3ZhbHVlIjoiMjAzOSIsImxhc3RfaWQiOjg4Mzc5NDE5MTk5MDEsIm9mZnNldCI6MjAzOX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "130",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=84&after=eyJsYXN0X3ZhbHVlIjoiMTk5MSIsImxhc3RfaWQiOjg4NDIzNjE1Njk0MzcsIm9mZnNldCI6MTk5MX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "131",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=84&after=eyJsYXN0X3ZhbHVlIjoiMTk5MSIsImxhc3RfaWQiOjg4NDIzNjE1Njk0MzcsIm9mZnNldCI6MTk5MX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "132",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=84&after=eyJsYXN0X3ZhbHVlIjoiMTk5MSIsImxhc3RfaWQiOjg4NDIzNjE1Njk0MzcsIm9mZnNldCI6MTk5MX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "133",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=84&after=eyJsYXN0X3ZhbHVlIjoiMTk5MSIsImxhc3RfaWQiOjg4NDIzNjE1Njk0MzcsIm9mZnNldCI6MTk5MX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "140",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=82&after=eyJsYXN0X3ZhbHVlIjoiMTk0MyIsImxhc3RfaWQiOjg4NDczMTQ3MTQ3ODEsIm9mZnNldCI6MTk0M30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "148",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=79&after=eyJsYXN0X3ZhbHVlIjoiMTg3MSIsImxhc3RfaWQiOjg4NTM1OTk4NzkzMjUsIm9mZnNldCI6MTg3MX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "149",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=79&after=eyJsYXN0X3ZhbHVlIjoiMTg3MSIsImxhc3RfaWQiOjg4NTM1OTk4NzkzMjUsIm9mZnNldCI6MTg3MX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 Premier League Topps NOW®",
+      "number": "209",
+      "url": "https://www.topps.com/products/nico-oreilly-2025-26-premier-league-topps-now%C2%AE-card-209",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 UEL Topps NOW®",
+      "number": "1",
+      "url": "https://www.topps.com/products/enzo-le-fee-2025-26-uel-topps-now%C2%AE-card-1",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 UEL Topps NOW®",
+      "number": "2",
+      "url": "https://www.topps.com/products/mihajlo-cvetkovic-2025-26-uel-topps-now%C2%AE-card-2",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 UEL Topps NOW®",
+      "number": "15",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=88&after=eyJsYXN0X3ZhbHVlIjoiMjA4NyIsImxhc3RfaWQiOjg4MzI1ODE5NTk4MzcsIm9mZnNldCI6MjA4N30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 UEL Topps NOW®",
+      "number": "26",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=64&after=eyJsYXN0X3ZhbHVlIjoiMTUxMSIsImxhc3RfaWQiOjg4OTEyNzY0OTI5NTcsIm9mZnNldCI6MTUxMX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2025-26 UWCL Topps NOW®",
+      "number": "18",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=83&after=eyJsYXN0X3ZhbHVlIjoiMTk2NyIsImxhc3RfaWQiOjg4NDM5ODg3NjI3ODEsIm9mZnNldCI6MTk2N30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "11",
+      "url": "https://www.topps.com/products/sam-landry-2026-ausl-topps-now%C2%AE-card-11",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "12",
+      "url": "https://www.topps.com/products/mary-iakopo-2026-ausl-topps-now%C2%AE-card-12",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "13",
+      "url": "https://www.topps.com/products/montana-fouts-2026-ausl-topps-now%C2%AE-card-13",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "14",
+      "url": "https://www.topps.com/products/sam-landry-2026-ausl-topps-now%C2%AE-card-14",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "16",
+      "url": "https://www.topps.com/products/jadelyn-allchin-2026-ausl-topps-now%C2%AE-card-16",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "20",
+      "url": "https://www.topps.com/products/montana-fouts-2026-ausl-topps-now%C2%AE-card-20",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "21",
+      "url": "https://www.topps.com/products/kenleigh-cahalan-2026-ausl-topps-now%C2%AE-card-21",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "25",
+      "url": "https://www.topps.com/products/sami-williams-2026-ausl-topps-now%C2%AE-card-25",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "26",
+      "url": "https://www.topps.com/products/utah-talons-2026-ausl-topps-now%C2%AE-card-26",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "27",
+      "url": "https://www.topps.com/products/amari-harper-2026-ausl-topps-now%C2%AE-card-27",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "28",
+      "url": "https://www.topps.com/products/jayda-coleman-2026-ausl-topps-now%C2%AE-card-28",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 AUSL Topps NOW®",
+      "number": "31",
+      "url": "https://www.topps.com/products/montana-fouts-2026-ausl-topps-now%C2%AE-card-31",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 FC Barcelona Topps NOW®",
+      "number": "5",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=79&after=eyJsYXN0X3ZhbHVlIjoiMTg3MSIsImxhc3RfaWQiOjg4NTM1OTk4NzkzMjUsIm9mZnNldCI6MTg3MX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 Formula 1® Topps NOW®",
+      "number": "9",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=83&after=eyJsYXN0X3ZhbHVlIjoiMTk2NyIsImxhc3RfaWQiOjg4NDM5ODg3NjI3ODEsIm9mZnNldCI6MTk2N30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 Formula 1® Topps NOW®",
+      "number": "10",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=83&after=eyJsYXN0X3ZhbHVlIjoiMTk2NyIsImxhc3RfaWQiOjg4NDM5ODg3NjI3ODEsIm9mZnNldCI6MTk2N30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 Formula 1® Topps NOW®",
+      "number": "11",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=81&after=eyJsYXN0X3ZhbHVlIjoiMTkxOSIsImxhc3RfaWQiOjg4NTE2MTg4ODk4ODUsIm9mZnNldCI6MTkxOX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 Formula 1® Topps NOW®",
+      "number": "44",
+      "url": "https://www.topps.com/products/charles-leclerc-2026-formula-1%C2%AE-topps-now%C2%AE-card-44",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 Formula 1® Topps NOW®",
+      "number": "52",
+      "url": "https://www.topps.com/products/nico-hulkenberg-2026-formula-1%C2%AE-topps-now%C2%AE-card-52",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 Formula 1® Topps NOW®",
+      "number": "53",
+      "url": "https://www.topps.com/products/lando-norris-2026-formula-1%C2%AE-topps-now%C2%AE-card-53",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 Formula 1® Topps NOW®",
+      "number": "57",
+      "url": "https://www.topps.com/products/kimi-antonelli-2026-formula-1%C2%AE-topps-now%C2%AE-card-57",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 Formula 1® Topps NOW®",
+      "number": "61",
+      "url": "https://www.topps.com/products/ugo-ugochukwu-2026-formula-1%C2%AE-topps-now%C2%AE-card-61",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "276",
+      "url": "https://www.topps.com/products/ryan-ward-2026-mlb-topps-now%C2%AE-card-276",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "304",
+      "url": "https://www.topps.com/products/athletics-milwaukee-brewers-2026-mlb-topps-now%C2%AE-card-304",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "305",
+      "url": "https://www.topps.com/products/brandon-valenzuela-2026-mlb-topps-now%C2%AE-card-305",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "307",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=38&after=eyJsYXN0X3ZhbHVlIjoiODg3IiwibGFzdF9pZCI6ODk0ODA0NzE1MTI2MSwib2Zmc2V0Ijo4ODd9",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "308",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=38&after=eyJsYXN0X3ZhbHVlIjoiODg3IiwibGFzdF9pZCI6ODk0ODA0NzE1MTI2MSwib2Zmc2V0Ijo4ODd9",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "326",
+      "url": "https://www.topps.com/products/blaze-jordan-2026-mlb-topps-now%C2%AE-card-326",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "328",
+      "url": "https://www.topps.com/products/pedro-ramirez-2026-mlb-topps-now%C2%AE-card-328",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "332",
+      "url": "https://www.topps.com/products/willi-castro-2026-mlb-topps-now%C2%AE-card-332",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "343",
+      "url": "https://www.topps.com/products/eduardo-rodriguez-2026-mlb-topps-now%C2%AE-card-343",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "347",
+      "url": "https://www.topps.com/products/andrew-benintendi-2026-mlb-topps-now%C2%AE-card-347",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "352",
+      "url": "https://www.topps.com/products/kyle-freeland-2026-mlb-topps-now%C2%AE-card-352",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "353",
+      "url": "https://www.topps.com/products/jonah-heim-nick-kurtz-2026-mlb-topps-now%C2%AE-card-353",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "354",
+      "url": "https://www.topps.com/products/dalton-rushing-2026-mlb-topps-now%C2%AE-card-354",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "355",
+      "url": "https://www.topps.com/products/cam-schlittler-2026-mlb-topps-now%C2%AE-card-355",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "357",
+      "url": "https://www.topps.com/products/sal-stewart-2026-mlb-topps-now%C2%AE-card-357",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "363",
+      "url": "https://www.topps.com/products/jordan-walker-2026-mlb-topps-now%C2%AE-card-363",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "364",
+      "url": "https://www.topps.com/products/jac-caglianone-2026-mlb-topps-now%C2%AE-card-364",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "406",
+      "url": "https://www.topps.com/products/brayan-rocchio-2026-mlb-topps-now%C2%AE-card-406",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "411",
+      "url": "https://www.topps.com/products/gabriel-hughes-2026-mlb-topps-now%C2%AE-card-411",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "414",
+      "url": "https://www.topps.com/products/konnor-griffin-2026-mlb-topps-now%C2%AE-card-414",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "415",
+      "url": "https://www.topps.com/products/yordan-alvarez-2026-mlb-topps-now%C2%AE-card-415",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "416",
+      "url": "https://www.topps.com/products/yoshinobu-yamamoto-2026-mlb-topps-now%C2%AE-card-416",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "439",
+      "url": "https://www.topps.com/products/samuel-basallo-2026-mlb-topps-now%C2%AE-card-439",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "470",
+      "url": "https://www.topps.com/products/yoshinobu-yamamoto-2026-mlb-topps-now%C2%AE-card-470",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "477",
+      "url": "https://www.topps.com/products/salvador-perez-george-brett-2026-mlb-topps-now%C2%AE-card-477",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "478",
+      "url": "https://www.topps.com/products/ryan-waldschmidt-2026-mlb-topps-now%C2%AE-card-478",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "482",
+      "url": "https://www.topps.com/products/tarik-skubal-2026-mlb-topps-now%C2%AE-card-482",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "483",
+      "url": "https://www.topps.com/products/cam-schlittler-2026-mlb-topps-now%C2%AE-card-483",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "486",
+      "url": "https://www.topps.com/products/dylan-cease-2026-mlb-topps-now%C2%AE-card-486",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "514",
+      "url": "https://www.topps.com/products/kyle-freeland-2026-mlb-topps-now%C2%AE-card-514",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "527",
+      "url": "https://www.topps.com/products/pete-crow-armstrong-2026-mlb-topps-now%C2%AE-card-527",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "541",
+      "url": "https://www.topps.com/products/jacob-wilson-2026-mlb-topps-now%C2%AE-card-541",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "544",
+      "url": "https://www.topps.com/products/luis-lara-2026-mlb-topps-now%C2%AE-card-544",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "552",
+      "url": "https://www.topps.com/products/christian-walker-2026-mlb-topps-now%C2%AE-card-552",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "562",
+      "url": "https://www.topps.com/products/carson-benge-2026-mlb-topps-now%C2%AE-card-562",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "563",
+      "url": "https://www.topps.com/products/pete-crow-armstrong-2026-mlb-topps-now%C2%AE-card-563",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "564",
+      "url": "https://www.topps.com/products/elly-de-la-cruz-2026-mlb-topps-now%C2%AE-card-564",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "565",
+      "url": "https://www.topps.com/products/shohei-ohtani-2026-mlb-topps-now%C2%AE-card-565",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "568",
+      "url": "https://www.topps.com/products/luis-lara-2026-mlb-topps-now%C2%AE-card-568",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "587",
+      "url": "https://www.topps.com/products/hector-rodriguez-2026-mlb-topps-now%C2%AE-card-587",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "588",
+      "url": "https://www.topps.com/products/kyle-schwarber-2026-mlb-topps-now%C2%AE-card-588",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "589",
+      "url": "https://www.topps.com/products/tristan-peters-2026-mlb-topps-now%C2%AE-card-589",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "591",
+      "url": "https://www.topps.com/products/randy-arozarena-2026-mlb-topps-now%C2%AE-card-591",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "597",
+      "url": "https://www.topps.com/products/sal-stewart-2026-mlb-topps-now%C2%AE-card-597",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "600",
+      "url": "https://www.topps.com/products/tristan-peters-2026-mlb-topps-now%C2%AE-card-600",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "652",
+      "url": "https://www.topps.com/products/sal-stewart-munetaka-murakami-kazuma-okamoto-2026-mlb-topps-now%C2%AE-card-652",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "663",
+      "url": "https://www.topps.com/products/francisco-lindor-2026-mlb-topps-now%C2%AE-card-663",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "664",
+      "url": "https://www.topps.com/products/emmanuel-rodriguez-2026-mlb-topps-now%C2%AE-card-664",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "670",
+      "url": "https://www.topps.com/products/payton-tolle-2026-mlb-topps-now%C2%AE-card-670",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "683",
+      "url": "https://www.topps.com/products/pete-crow-armstrong-2026-mlb-topps-now%C2%AE-card-683",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "684",
+      "url": "https://www.topps.com/products/ethan-salas-2026-mlb-topps-now%C2%AE-card-684",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "685",
+      "url": "https://www.topps.com/products/los-angeles-dodgers-2026-mlb-topps-now%C2%AE-card-685",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "686",
+      "url": "https://www.topps.com/products/yordan-alvarez-2026-mlb-topps-now%C2%AE-card-686",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "687",
+      "url": "https://www.topps.com/products/jose-ramirez-2026-mlb-topps-now%C2%AE-card-687",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "688",
+      "url": "https://www.topps.com/products/lazaro-montes-2026-mlb-topps-now%C2%AE-card-688",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "689",
+      "url": "https://www.topps.com/products/atlanta-braves-2026-mlb-topps-now%C2%AE-card-689",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "690",
+      "url": "https://www.topps.com/products/gerrit-cole-2026-mlb-topps-now%C2%AE-card-690",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "691",
+      "url": "https://www.topps.com/products/cj-abrams-2026-mlb-topps-now%C2%AE-card-691",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "693",
+      "url": "https://www.topps.com/products/carson-benge-2026-mlb-topps-now%C2%AE-card-693",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "694",
+      "url": "https://www.topps.com/products/pavin-smith-2026-mlb-topps-now%C2%AE-card-694",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "696",
+      "url": "https://www.topps.com/products/boston-red-sox-2026-mlb-topps-now%C2%AE-card-696",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "697",
+      "url": "https://www.topps.com/products/atlanta-braves-2026-mlb-topps-now%C2%AE-card-697",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "698",
+      "url": "https://www.topps.com/products/jackson-chourio-2026-mlb-topps-now%C2%AE-card-698",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "699",
+      "url": "https://www.topps.com/products/milwaukee-brewers-2026-mlb-topps-now%C2%AE-card-699",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "707",
+      "url": "https://www.topps.com/products/nasim-nunez-2026-mlb-topps-now%C2%AE-card-707",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "708",
+      "url": "https://www.topps.com/products/ben-rice-2026-mlb-topps-now%C2%AE-card-708",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "709",
+      "url": "https://www.topps.com/products/chris-sale-2026-mlb-topps-now%C2%AE-card-709",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "711",
+      "url": "https://www.topps.com/products/kevin-mcgonigle-2026-mlb-topps-now%C2%AE-card-711",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "727",
+      "url": "https://www.topps.com/products/eduardo-valencia-2026-mlb-topps-now%C2%AE-card-727",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "728",
+      "url": "https://www.topps.com/products/cleveland-guardians-2026-mlb-topps-now%C2%AE-card-728",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLB Topps NOW®",
+      "number": "729",
+      "url": "https://www.topps.com/products/hunter-goodman-2026-mlb-topps-now%C2%AE-card-729",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLS Topps NOW®",
+      "number": "24",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=64&after=eyJsYXN0X3ZhbHVlIjoiMTUxMSIsImxhc3RfaWQiOjg4OTEyNzY0OTI5NTcsIm9mZnNldCI6MTUxMX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLS Topps NOW®",
+      "number": "42",
+      "url": "https://www.topps.com/products/james-rodriguez-2026-mls-topps-now%C2%AE-card-42",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLS Topps NOW®",
+      "number": "75",
+      "url": "https://www.topps.com/products/breel-embolo-2026-mls-topps-now%C2%AE-card-75",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 MLS Topps NOW®",
+      "number": "85",
+      "url": "https://www.topps.com/products/allan-saint-maximin-2026-mls-topps-now%C2%AE-card-85",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 NFL Topps NOW®",
+      "number": "31",
+      "url": "https://www.topps.com/products/jahmyr-gibbs-2026-nfl-topps-now%C2%AE-card-31",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 Olympics Topps NOW®",
+      "number": "1",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=85&after=eyJsYXN0X3ZhbHVlIjoiMjAxNSIsImxhc3RfaWQiOjg4NDAzNjAyMzEwNjksIm9mZnNldCI6MjAxNX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 Olympics Topps NOW®",
+      "number": "16",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=82&after=eyJsYXN0X3ZhbHVlIjoiMTk0MyIsImxhc3RfaWQiOjg4NDczMTQ3MTQ3ODEsIm9mZnNldCI6MTk0M30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 Topps NOW®",
+      "number": "JB01",
+      "url": "https://www.topps.com/products/justin-bieber-2026-topps-now%C2%AE-card-jb01",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 UFC Topps NOW®",
+      "number": "3",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=89&after=eyJsYXN0X3ZhbHVlIjoiMjExMSIsImxhc3RfaWQiOjg4Mjg2MjEyNTg5MDksIm9mZnNldCI6MjExMX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 UFC Topps NOW®",
+      "number": "6",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=86&after=eyJsYXN0X3ZhbHVlIjoiMjAzOSIsImxhc3RfaWQiOjg4Mzc5NDE5MTk5MDEsIm9mZnNldCI6MjAzOX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 UFC Topps NOW®",
+      "number": "32",
+      "url": "https://www.topps.com/products/arman-tsarukyan-2026-ufc-topps-now%C2%AE-card-32",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 UFC Topps NOW®",
+      "number": "33",
+      "url": "https://www.topps.com/products/joshua-van-2026-ufc-topps-now%C2%AE-card-33",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 UFC Topps NOW®",
+      "number": "34",
+      "url": "https://www.topps.com/products/sean-sharaf-2026-ufc-topps-now%C2%AE-card-34",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 UFC Topps NOW®",
+      "number": "35",
+      "url": "https://www.topps.com/products/natalia-silva-2026-ufc-topps-now%C2%AE-card-35",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 UFC Topps NOW®",
+      "number": "36",
+      "url": "https://www.topps.com/products/payton-talbott-2026-ufc-topps-now%C2%AE-card-36",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 WWE Topps NOW®",
+      "number": "6",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=93&after=eyJsYXN0X3ZhbHVlIjoiMjIwNyIsImxhc3RfaWQiOjg4MTcwNTk2MjcxNjUsIm9mZnNldCI6MjIwN30%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 WWE Topps NOW®",
+      "number": "10",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=89&after=eyJsYXN0X3ZhbHVlIjoiMjExMSIsImxhc3RfaWQiOjg4Mjg2MjEyNTg5MDksIm9mZnNldCI6MjExMX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 WWE Topps NOW®",
+      "number": "17",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=81&after=eyJsYXN0X3ZhbHVlIjoiMTkxOSIsImxhc3RfaWQiOjg4NTE2MTg4ODk4ODUsIm9mZnNldCI6MTkxOX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 WWE Topps NOW®",
+      "number": "18",
+      "url": "https://www.topps.com/collections/topps-now-archive?filter.p.m.topps.product_year=2026&p=81&after=eyJsYXN0X3ZhbHVlIjoiMTkxOSIsImxhc3RfaWQiOjg4NTE2MTg4ODk4ODUsIm9mZnNldCI6MTkxOX0%3D",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 WWE Topps NOW®",
+      "number": "95",
+      "url": "https://www.topps.com/products/lil-yachty-2026-wwe-topps-now%C2%AE-card-95",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 WWE Topps NOW®",
+      "number": "104",
+      "url": "https://www.topps.com/products/cm-punk-rey-mysterio-el-grande-americano-2026-wwe-topps-now%C2%AE-card-104",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026 WWE Topps NOW®",
+      "number": "SS01",
+      "url": "https://www.topps.com/products/oba-femi-brock-lesnar-2026-wwe-topps-now%C2%AE-card-ss01",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 Bundesliga Topps NOW®",
+      "number": "19",
+      "url": "https://www.topps.com/products/felix-nmecha-2026-27-bundesliga-topps-now%C2%AE-card-19",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 Bundesliga Topps NOW®",
+      "number": "24",
+      "url": "https://www.topps.com/products/harry-kane-2026-27-bundesliga-topps-now%C2%AE-card-24",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 Bundesliga Topps NOW®",
+      "number": "27",
+      "url": "https://www.topps.com/products/santiago-castaneda-2026-27-bundesliga-topps-now%C2%AE-card-27",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 NBA Topps NOW®",
+      "number": "OS04",
+      "url": "https://www.topps.com/products/jaylen-brown-2026-27-nba-topps-now%C2%AE-card-os04",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 NFL Topps NOW®",
+      "number": "5",
+      "url": "https://www.topps.com/products/mike-evans-2026-nfl-topps-now%C2%AE-card-5",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 NFL Topps NOW®",
+      "number": "18",
+      "url": "https://www.topps.com/products/travis-kelce-2026-nfl-topps-now%C2%AE-card-18",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 NFL Topps NOW®",
+      "number": "20",
+      "url": "https://www.topps.com/products/jamarr-chase-2026-27-nfl-topps-now%C2%AE-card-20",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 NFL Topps NOW®",
+      "number": "21",
+      "url": "https://www.topps.com/products/christian-mccaffery-2026-27-nfl-topps-now%C2%AE-card-21",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 NFL Topps NOW®",
+      "number": "24",
+      "url": "https://www.topps.com/products/dak-prescott-2026-27-nfl-topps-now%C2%AE-card-24",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 NFL Topps NOW®",
+      "number": "25",
+      "url": "https://www.topps.com/products/travis-kelce-2026-27-nfl-topps-now%C2%AE-card-25",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 NFL Topps NOW®",
+      "number": "26",
+      "url": "https://www.topps.com/products/patrick-mahomes-ii-2026-27-nfl-topps-now%C2%AE-card-26",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 NFL Topps NOW®",
+      "number": "53",
+      "url": "https://www.topps.com/products/david-bailey-2026-27-nfl-topps-now-r-card-53",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 NFL Topps NOW®",
+      "number": "57",
+      "url": "https://www.topps.com/products/kyle-hamilton-2026-27-nfl-topps-now-r-card-57",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 Premier League Topps NOW®",
+      "number": "2",
+      "url": "https://www.topps.com/products/mamadou-sangare-2026-27-premier-league-topps-now%C2%AE-card-2",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 Premier League Topps NOW®",
+      "number": "3",
+      "url": "https://www.topps.com/products/anton-stach-2026-27-premier-league-topps-now%C2%AE-card-3",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 Premier League Topps NOW®",
+      "number": "4",
+      "url": "https://www.topps.com/products/jack-clarke-2026-27-premier-league-topps-now%C2%AE-card-4",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 Premier League Topps NOW®",
+      "number": "8",
+      "url": "https://www.topps.com/products/jeremy-jacquet-2026-27-premier-league-topps-now%C2%AE-card-8",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 Premier League Topps NOW®",
+      "number": "24",
+      "url": "https://www.topps.com/products/alysson-2026-27-premier-league-topps-now%C2%AE-card-24",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 Premier League Topps NOW®",
+      "number": "29",
+      "url": "https://www.topps.com/products/manchester-city-2026-27-premier-league-topps-now%C2%AE-card-29",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 UEL Topps NOW®",
+      "number": "3",
+      "url": "https://www.topps.com/products/rayan-2026-27-uel-topps-now%C2%AE-card-3",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 UEL Topps NOW®",
+      "number": "4",
+      "url": "https://www.topps.com/products/nick-woltemade-2026-27-uel-topps-now%C2%AE-card-4",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 UEL Topps NOW®",
+      "number": "5",
+      "url": "https://www.topps.com/products/yeremy-pino-2026-27-uel-topps-now%C2%AE-card-5",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 UWCL Topps NOW®",
+      "number": "3",
+      "url": "https://www.topps.com/products/kerolin-2026-27-uwcl-topps-now%C2%AE-card-3",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 UWCL Topps NOW®",
+      "number": "4",
+      "url": "https://www.topps.com/products/renee-van-asten-2026-27-uwcl-topps-now%C2%AE-card-4",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    },
+    {
+      "series": "2026-27 UWCL Topps NOW®",
+      "number": "5",
+      "url": "https://www.topps.com/products/georgia-stanway-2026-27-uwcl-topps-now%C2%AE-card-5",
+      "saleFrom": "",
+      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
+    }
+  ],
+  "excludedBeforeCutoff": [],
+  "archivePaginationScanComplete": true,
+  "remaining": "Missing product URLs, unverified sale dates, renderer-only product pages, non-numbered bundles and entertainment products still require reconciliation."
+}
