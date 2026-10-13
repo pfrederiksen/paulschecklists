@@ -334,10 +334,6 @@
     "source": "https://www.topps.com/pages/wwe-chrome"
   },
   {
-    "title": "2026 Topps Chrome MLS Sapphire",
-    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps-Chrome-Sapphire-MLS-2026-Odds-Subject-to-Change.pdf?v=1791312256"
-  },
-  {
     "title": "2026 Topps Graphite Tennis",
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Graphite_Tennis_Odds.pdf?v=1777049989"
   },
@@ -348,5 +344,9 @@
   {
     "title": "2026 Topps Chrome Tennis",
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Tennis_Odds.pdf?v=1790602639"
+  },
+  {
+    "title": "2026 Topps Chrome MLS Sapphire",
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps-Chrome-Sapphire-MLS-2026-Odds-Subject-to-Change.pdf?v=1791312256"
   }
 ]
