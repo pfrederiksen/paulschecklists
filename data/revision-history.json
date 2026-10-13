@@ -4720,5 +4720,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-stadium-club-wwe": {
+    "state": {
+      "checklistHash": "e7fc883049de24ced4f271f75d432f49a4c3ac17155ab0ac12c0116c2940144d",
+      "oddsHash": "714fdd3df3824ec6e2c175a6ab3ae867964e8d12d893a72369f59bb9fe8fb34f",
+      "rows": 938,
+      "odds": 122,
+      "specificationRows": 0
+    },
+    "fingerprint": "7e3407b14f61695e3f151694a1ab0f71f2ae95ddd9fd631c67a25efb370f1dd6",
+    "events": [
+      {
+        "at": "2026-10-13T03:05:40.526Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Stadium_Club_WWE_-_Checklist.pdf?v=1791221305",
+        "snapshot": {
+          "checklistHash": "e7fc883049de24ced4f271f75d432f49a4c3ac17155ab0ac12c0116c2940144d",
+          "oddsHash": "714fdd3df3824ec6e2c175a6ab3ae867964e8d12d893a72369f59bb9fe8fb34f",
+          "rows": 938,
+          "odds": 122,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }
