@@ -25,3 +25,7 @@ Refresh 2026 Topps Midnight Football with `scripts/import_topps_midnight_2026.py
 Refresh 2026 Topps Chrome MLS Sapphire with `scripts/import_topps_mls_sapphire_2026.py`. Preserve its dedicatedParser marker during generic refreshes. It retains physical name/team/rookie columns and all 15 literal Sapphire odds values; the standalone exclusive-configuration qualifier belongs to Infinite Sapphire, not a separate family.
 
 Refresh dedicated tennis sources with `scripts/import_tennis.py` using the bundled Python runtime with pdfplumber and xlrd. Preserve dedicatedParser markers. The Chrome workbook lists 200 base entries despite the product overview's 300-card claim; retain that discrepancy. Triumphant multi-player continuation lines, including the final-page signer, must remain attached to their card. Keep product-page box contents and numbering separate from pack odds.
+
+# Entertainment and ongoing series
+
+Coverage includes sports, WWE/wrestling and non-sports: Marvel, Star Wars, Disney, DC, film, television, music, gaming and celebrity cards. Keep these in the same shared template. Refresh entertainment discovery inventories alongside sports. Monitor Topps NOW and Bowman NOW active products and official archives; group by series/year. Preserve official card numbers, subjects, sale dates and published print runs. Never treat a made-to-order print run as pack odds or claim complete archive coverage from an active listing.

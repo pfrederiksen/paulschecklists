@@ -188,5 +188,43 @@
     "page": "sets/leaf-2025-leaf-optichrome-baseball.html",
     "verified": "2026-10-11",
     "status": "Official source"
+  },
+  {
+    "title": "2025 Leaf Red Carpet Collection",
+    "manufacturer": "Leaf",
+    "sport": "celebrity",
+    "year": "2025",
+    "sourcePage": "https://www.leaftradingcards.com/products/2025-leaf-red-carpet-collection",
+    "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/695c1fc9ba8e567de0f30d69_2025_Leaf_Red_Carpet_Collection_CL_F.xlsx",
+    "documentUrls": [
+      "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/695c1fc9ba8e567de0f30d69_2025_Leaf_Red_Carpet_Collection_CL_F.xlsx"
+    ],
+    "releaseStatus": "Released",
+    "releaseDate": null,
+    "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+    "sourcePageSha256": "41d16a01d2f343eb743afe96636475c404d4dafcc6871dfe16ea3bc08a75aa9d",
+    "slug": "leaf-2025-leaf-red-carpet-collection",
+    "page": "sets/leaf-2025-leaf-red-carpet-collection.html",
+    "verified": "2026-10-11",
+    "status": "Official source"
+  },
+  {
+    "title": "2026 Leaf Metal Pop Century",
+    "manufacturer": "Leaf",
+    "sport": "celebrity",
+    "year": "2026",
+    "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-pop-century",
+    "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69f500d7b489df389e824062_2026_Leaf_Metal_Pop_Century_CL_F.xlsx",
+    "documentUrls": [
+      "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69f500d7b489df389e824062_2026_Leaf_Metal_Pop_Century_CL_F.xlsx"
+    ],
+    "releaseStatus": "Released",
+    "releaseDate": null,
+    "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+    "sourcePageSha256": "c77361730acfe3ad58ddc4ab5d742c73b1008e06e1c52409b56550029cada4aa",
+    "slug": "leaf-2026-leaf-metal-pop-century",
+    "page": "sets/leaf-2026-leaf-metal-pop-century.html",
+    "verified": "2026-10-11",
+    "status": "Official source"
   }
 ]

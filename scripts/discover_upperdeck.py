@@ -5,8 +5,8 @@ posts=json.loads((root/'data/catalog-sources/ud-2026.json').read_text())
 records=[]
 for p in posts:
  categories=[s.removeprefix('checklist-category-') for s in p['class_list'] if s.startswith('checklist-category-')]
- if not categories or categories==['entertainment']:continue
- sport=next((x for x in categories if x!='entertainment'),None)
+ if not categories:continue
+ sport=next((x for x in categories if x!='entertainment'),'entertainment')
  if sport:records.append({'title':html.unescape(p['title']['rendered']).removesuffix(' Checklist'),'manufacturer':'Upper Deck','sport':sport,'sourcePage':p['link'],'checklistPublished':p['date'][:10],'releaseStatus':'Unverified','releaseDate':None,'year':re.search(r'20\d\d(?:[-/]\d{2,4})?',p['title']['rendered']).group(0) if re.search(r'20\d\d',p['title']['rendered']) else 'Unspecified'})
 def fetch(r):
  try:

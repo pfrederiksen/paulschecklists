@@ -4,7 +4,7 @@ from pathlib import Path
 import pdfplumber
 ROOT=Path(__file__).resolve().parents[1];CACHE=ROOT/'data/catalog-sources/downloads';CACHE.mkdir(parents=True,exist_ok=True)
 def norm(s):return re.sub('[^a-z0-9]','',unicodedata.normalize('NFKD',s).lower().replace('®',''))
-ODDS={norm(r['title']):r for r in json.loads((ROOT/'data/topps-official-odds.json').read_text())}
+ODDS={norm(r['title']):r for r in json.loads((ROOT/'data/topps-official-odds.json').read_text()) + json.loads((ROOT/'data/entertainment-topps-odds.json').read_text())}
 def fetch(url,path):
  marker=path.with_suffix(path.suffix+'.url')
  if not path.exists() or not marker.exists() or marker.read_text()!=url:

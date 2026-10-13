@@ -10,7 +10,7 @@ def discover(url):
   title=html.unescape(re.sub('<[^>]*>','',heading[1]));meta=s[max(0,heading.start()-650):heading.start()];category=re.findall(r'class="ds-form-label uppercase">([^<]+)',meta)
   catalog_year=re.findall(r'class="ds-form-label">(20\d\d)</div>',meta)
   if not catalog_year or catalog_year[0]!='2026':return None
-  if not category or category[0].lower() not in {'baseball','football','basketball','hockey','soccer','tennis','multi-sport','boxing','mma','golf','wrestling'}:return None
+  if not category:return None
   docs=[html.unescape(u) for u in re.findall(r'href="([^"]+\.(?:xlsx|xls|pdf|csv)(?:\?[^"]*)?)"',s,re.I)]
   if not docs:return None
   slug='leaf-'+re.sub('[^a-z0-9]+','-',title.lower()).strip('-');badge=re.search(r'class="ds-badge"><div>([^<]+)',s[heading.start():heading.start()+1000]);status=badge[1] if badge else ''

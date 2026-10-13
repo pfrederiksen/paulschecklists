@@ -3648,5 +3648,761 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2025-star-wars-masterwork": {
+    "state": {
+      "checklistHash": "5369458990a683f342c3983cf517f7820d1b8339c3a76cde03c99456f2904ace",
+      "oddsHash": "01f6753be19d9c786158a857563de829eb67d41eabf5e819140f08c8cb9fce2e",
+      "rows": 662,
+      "odds": 88,
+      "specificationRows": 0
+    },
+    "fingerprint": "cec45f69270020afec644d6061f6333989ef15a5ec7e1791c1c79ac937f4a7b3",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.164Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Masterwork_Checklist.pdf?v=1777400855",
+        "snapshot": {
+          "checklistHash": "5369458990a683f342c3983cf517f7820d1b8339c3a76cde03c99456f2904ace",
+          "oddsHash": "01f6753be19d9c786158a857563de829eb67d41eabf5e819140f08c8cb9fce2e",
+          "rows": 662,
+          "odds": 88,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-30-years-of-toy-story": {
+    "state": {
+      "checklistHash": "98ffb70e072e0efe8e9266430c3b85717496cf8d0a68719e50d05aa2f9f91e9e",
+      "oddsHash": "a22367f7a78de805e942e87f946d4a357eafec2a272d7ae768676e8d4c069b8c",
+      "rows": 427,
+      "odds": 104,
+      "specificationRows": 0
+    },
+    "fingerprint": "fe7209ad1dfbdc5b5c06833c5221f604a609aa31bead4a0fae64e814480cb625",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.166Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_30_Years_of_Toy_Story_Checklist.pdf?v=1775137646",
+        "snapshot": {
+          "checklistHash": "98ffb70e072e0efe8e9266430c3b85717496cf8d0a68719e50d05aa2f9f91e9e",
+          "oddsHash": "a22367f7a78de805e942e87f946d4a357eafec2a272d7ae768676e8d4c069b8c",
+          "rows": 427,
+          "odds": 104,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-chrome-deadpool": {
+    "state": {
+      "checklistHash": "5c26ecb9ead43e47c41b9f56db10e832806892403debad1ef26026c37f91ea28",
+      "oddsHash": "34f3a54e3511e741869307e9c9914b1b7ad0c4d72689595d64309855e491936c",
+      "rows": 316,
+      "odds": 161,
+      "specificationRows": 0
+    },
+    "fingerprint": "021803d49f84e1ea2e33f4591992793c4dc23e8dd8bd1b30a68e9e8efeed69af",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.169Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Deadpool_Checklist.pdf?v=1772559492",
+        "snapshot": {
+          "checklistHash": "5c26ecb9ead43e47c41b9f56db10e832806892403debad1ef26026c37f91ea28",
+          "oddsHash": "34f3a54e3511e741869307e9c9914b1b7ad0c4d72689595d64309855e491936c",
+          "rows": 316,
+          "odds": 161,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-disney": {
+    "state": {
+      "checklistHash": "35b2f171d98e7f2829f91860cb1df9132833c3215a8850fae1ca20ea6748f57e",
+      "oddsHash": "0b69662772fae339048241ee180400d828b8a0d514043cb370e5bf633ed0abfe",
+      "rows": 628,
+      "odds": 183,
+      "specificationRows": 0
+    },
+    "fingerprint": "ae46834868affaf6610d2948fc4b8bbc219fe026c191024c0539a6bd2e317388",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.174Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DNYC_Checklist.pdf?v=1779205893",
+        "snapshot": {
+          "checklistHash": "35b2f171d98e7f2829f91860cb1df9132833c3215a8850fae1ca20ea6748f57e",
+          "oddsHash": "0b69662772fae339048241ee180400d828b8a0d514043cb370e5bf633ed0abfe",
+          "rows": 628,
+          "odds": 183,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-marvel-comics": {
+    "state": {
+      "checklistHash": "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81",
+      "oddsHash": "57cafc210c579f3c5c57cf33f75464afee3d503f379637714fc3989ddcd17a85",
+      "rows": 767,
+      "odds": 179,
+      "specificationRows": 0
+    },
+    "fingerprint": "6d4ee465281b1d7f04a2b8ff54ecd5d311c2405f8079fc6d0f025c539695e67d",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.179Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_HobbyValueMega_Checklist.pdf?v=1780349890",
+        "snapshot": {
+          "checklistHash": "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81",
+          "oddsHash": "57cafc210c579f3c5c57cf33f75464afee3d503f379637714fc3989ddcd17a85",
+          "rows": 767,
+          "odds": 179,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition": {
+    "state": {
+      "checklistHash": "8565d125fc26b766d7517874a3a41caf7fb187a0163b557f89d98fa2fb90d25a",
+      "oddsHash": "c8d2ca31f7367f5fe377e60f2eb9270a99388b63e3e9c3552cd646fc88f44956",
+      "rows": 262,
+      "odds": 23,
+      "specificationRows": 0
+    },
+    "fingerprint": "d3744b82837bb82339223d7a36dd7c523ab318c1a6e1990d7b0a5c7189fa659c",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.180Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_Sapphire_Checklist.pdf?v=1785177723",
+        "snapshot": {
+          "checklistHash": "8565d125fc26b766d7517874a3a41caf7fb187a0163b557f89d98fa2fb90d25a",
+          "oddsHash": "c8d2ca31f7367f5fe377e60f2eb9270a99388b63e3e9c3552cd646fc88f44956",
+          "rows": 262,
+          "odds": 23,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-veefriends": {
+    "state": {
+      "checklistHash": "f7c2308d337b009da1f540943b59c2e000662aaaff79a9d378bba4a99f11a876",
+      "oddsHash": "76def45edfeeb297574e9296a4e5921cd041b3fecc46a6e32277972b6c471523",
+      "rows": 711,
+      "odds": 104,
+      "specificationRows": 0
+    },
+    "fingerprint": "3714b17d53f824798c60185f74ae4faa2c90bbbe10e601bb6a2175bdf4b07849",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.183Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_VeeFriends_Checklist.pdf?v=1778506125",
+        "snapshot": {
+          "checklistHash": "f7c2308d337b009da1f540943b59c2e000662aaaff79a9d378bba4a99f11a876",
+          "oddsHash": "76def45edfeeb297574e9296a4e5921cd041b3fecc46a6e32277972b6c471523",
+          "rows": 711,
+          "odds": 104,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-x-jennie": {
+    "state": {
+      "checklistHash": "2c05e7b1f58fcd362b8aa6bed5e3ba9f0da113fb14616db940281d1f4a0a4d5a",
+      "oddsHash": "768dbe3f041fc8a40a0acaf1a8e18b19662a6948d729b2f0bef3003a5c9709b0",
+      "rows": 67,
+      "odds": 57,
+      "specificationRows": 0
+    },
+    "fingerprint": "a62de824884e0d694bdc8f5c13091288037fcb21c22d902a9540902e16e5c9bd",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.183Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_x_Jennie_Checklist.pdf?v=1787173303",
+        "snapshot": {
+          "checklistHash": "2c05e7b1f58fcd362b8aa6bed5e3ba9f0da113fb14616db940281d1f4a0a4d5a",
+          "oddsHash": "768dbe3f041fc8a40a0acaf1a8e18b19662a6948d729b2f0bef3003a5c9709b0",
+          "rows": 67,
+          "odds": 57,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-disney-neon": {
+    "state": {
+      "checklistHash": "89810bb1e3450d1f09a6f7d4771593c925d9ac7b8e0be2d57d0cc8d5600f9bc5",
+      "oddsHash": "6bc692b68d34cf639fac05c43afa22e7f576620af819aa79e94bc35c3e19e902",
+      "rows": 495,
+      "odds": 100,
+      "specificationRows": 0
+    },
+    "fingerprint": "a297467b4ace6afd857a3f96225bc7e18036ec44c4136917585d6e0bd4a939a3",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.186Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Disney_Neon_Checklist.pdf?v=1773149064",
+        "snapshot": {
+          "checklistHash": "89810bb1e3450d1f09a6f7d4771593c925d9ac7b8e0be2d57d0cc8d5600f9bc5",
+          "oddsHash": "6bc692b68d34cf639fac05c43afa22e7f576620af819aa79e94bc35c3e19e902",
+          "rows": 495,
+          "odds": 100,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-disneyland-70th-anniversary": {
+    "state": {
+      "checklistHash": "3e6f30cdfcdffb2c0e60986ec8583d5f39d9a42e59997ed33da02e6d70162453",
+      "oddsHash": "47321ff45c524e85d392777ab956cb78f404c3adcc74d8c8ccd887b4fd4a6184",
+      "rows": 341,
+      "odds": 111,
+      "specificationRows": 0
+    },
+    "fingerprint": "5db9408fb08eafbbfa51c1e6fefee487fc0a769087d4b66ce0c0121bdebb196d",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.188Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Disneyland_70th_Anniversary_Checklist.pdf?v=1771355640",
+        "snapshot": {
+          "checklistHash": "3e6f30cdfcdffb2c0e60986ec8583d5f39d9a42e59997ed33da02e6d70162453",
+          "oddsHash": "47321ff45c524e85d392777ab956cb78f404c3adcc74d8c8ccd887b4fd4a6184",
+          "rows": 341,
+          "odds": 111,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-finest-fantastic-four": {
+    "state": {
+      "checklistHash": "9bc71345b83ab0ec72bca8221d66c93f4c2b368556f778575a2a072dceb4ba07",
+      "oddsHash": "4608301212840ff6e07ca011390a79b46fb7142a26d1e30afc5335caaa42fef1",
+      "rows": 705,
+      "odds": 158,
+      "specificationRows": 0
+    },
+    "fingerprint": "0cbbde6a8274d1ad55cf37f6c696395a66bb726dfbd96c2838d4ebec15a7d03f",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.194Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Fantastic_Four_Checklist.pdf?v=1773431109",
+        "snapshot": {
+          "checklistHash": "9bc71345b83ab0ec72bca8221d66c93f4c2b368556f778575a2a072dceb4ba07",
+          "oddsHash": "4608301212840ff6e07ca011390a79b46fb7142a26d1e30afc5335caaa42fef1",
+          "rows": 705,
+          "odds": 158,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-mars-attacks-christmas": {
+    "state": {
+      "checklistHash": "4943af9e6048a54cf6cf3cd88a6477b8b6010c8b070e4cf8e67a61ba4a6e5e6a",
+      "oddsHash": null,
+      "rows": 238,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "7268ecba94e7fc6a5330c78f22a6486cf5ce9bca2588d30c9cdfb87951bfc0c3",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.194Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Mars_Attacks_Xmas_24MARS_CHECKLIST_FINAL.pdf?v=1788874979",
+        "snapshot": {
+          "checklistHash": "4943af9e6048a54cf6cf3cd88a6477b8b6010c8b070e4cf8e67a61ba4a6e5e6a",
+          "oddsHash": null,
+          "rows": 238,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-marvel-studios-chrome-sapphire": {
+    "state": {
+      "checklistHash": "0257428beba5d266c58988ecd8988c41e016adb0407d9b28001161ac2868ed40",
+      "oddsHash": "ae83a094cdfffa661aa750e5c8757b78a69fdf5627cf05e067b53983754c1764",
+      "rows": 334,
+      "odds": 28,
+      "specificationRows": 0
+    },
+    "fingerprint": "732a5ce73fc1decce19c206a4e723685d83b3c9a9fceafbc50a9ceb3e949542a",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.195Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Marvel_Studios_Chrome_Sapphire_Checklist.pdf?v=1767909774",
+        "snapshot": {
+          "checklistHash": "0257428beba5d266c58988ecd8988c41e016adb0407d9b28001161ac2868ed40",
+          "oddsHash": "ae83a094cdfffa661aa750e5c8757b78a69fdf5627cf05e067b53983754c1764",
+          "rows": 334,
+          "odds": 28,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-marvel-the-collector": {
+    "state": {
+      "checklistHash": "a9584a66039131becc3a1824d8a6a5c9968ffe997ecaf6ef9e5d6d701d537cfc",
+      "oddsHash": "893ab7f1e1dd6f867887d27579a7855fa2d0a8a0b82d93a45cc49df64e09a1a2",
+      "rows": 261,
+      "odds": 59,
+      "specificationRows": 0
+    },
+    "fingerprint": "f2b2df0e930f7cc9f792bde3dbb6355beac5d29bbc9a61a1d86a1ab00f080d2e",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.195Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Marvel_The_Collector_Checklist.pdf?v=1770215891",
+        "snapshot": {
+          "checklistHash": "a9584a66039131becc3a1824d8a6a5c9968ffe997ecaf6ef9e5d6d701d537cfc",
+          "oddsHash": "893ab7f1e1dd6f867887d27579a7855fa2d0a8a0b82d93a45cc49df64e09a1a2",
+          "rows": 261,
+          "odds": 59,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-star-wars-chrome": {
+    "state": {
+      "checklistHash": "294447a54d3b541b73682dfb6044692e4cd8f50fda290969e23b7f9ceb248edc",
+      "oddsHash": "3304c072fa00eb23ba6e034d7f047c0be62ca894a99f879e0888741cb7ca9e25",
+      "rows": 1368,
+      "odds": 186,
+      "specificationRows": 0
+    },
+    "fingerprint": "ebbfe213adac6edda89674af9c6cadb88c70e9d1397426e40220259923b64775",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.207Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26SWCM3.pdf?v=1790701893",
+        "snapshot": {
+          "checklistHash": "294447a54d3b541b73682dfb6044692e4cd8f50fda290969e23b7f9ceb248edc",
+          "oddsHash": "3304c072fa00eb23ba6e034d7f047c0be62ca894a99f879e0888741cb7ca9e25",
+          "rows": 1368,
+          "odds": 186,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-star-wars-chrome-galaxy": {
+    "state": {
+      "checklistHash": "5f1188e5b9569d16b86616b8d61771e1cfbeb5b503743dd99df9304db5585e3e",
+      "oddsHash": "81c612e3b2ba9164c990abdf2ee91d7fa21661c3253aba34d6054be6b996b7ea",
+      "rows": 366,
+      "odds": 110,
+      "specificationRows": 0
+    },
+    "fingerprint": "f713b69b3f5313e92336e485901b4b667a3f074e9b257a72d3fd7f7b051d3752",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.209Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26SWCGCHECKLISTUPDATE.pdf?v=1786632392",
+        "snapshot": {
+          "checklistHash": "5f1188e5b9569d16b86616b8d61771e1cfbeb5b503743dd99df9304db5585e3e",
+          "oddsHash": "81c612e3b2ba9164c990abdf2ee91d7fa21661c3253aba34d6054be6b996b7ea",
+          "rows": 366,
+          "odds": 110,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-star-wars-smugglers-outpost": {
+    "state": {
+      "checklistHash": "6b73423d85bd1735f08b2a10db13833ec5646e48b2e1834a5cb7ca739f5724d6",
+      "oddsHash": "96a09d1649f79dff235af447ff10b0545d1a6cd33e823c355ddaa9b7f9da8f79",
+      "rows": 881,
+      "odds": 127,
+      "specificationRows": 0
+    },
+    "fingerprint": "3a935217c7a2ce717955033ee6efd0b83a7f76dd0da2084dd7ae69481a7da235",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.213Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Smugglers_Outpost_Checklist.pdf?v=1770909931",
+        "snapshot": {
+          "checklistHash": "6b73423d85bd1735f08b2a10db13833ec5646e48b2e1834a5cb7ca739f5724d6",
+          "oddsHash": "96a09d1649f79dff235af447ff10b0545d1a6cd33e823c355ddaa9b7f9da8f79",
+          "rows": 881,
+          "odds": 127,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "upper-deck-2026-transformers-30th-anniversary-special-edition": {
+    "state": {
+      "checklistHash": "785d1f65de943e114949190ff85461bce65aea08dc085bd6848045c268a5b365",
+      "oddsHash": null,
+      "rows": 102,
+      "odds": 12,
+      "specificationRows": 61
+    },
+    "fingerprint": "c2f78483188359f643ac3fd92268736e1f46e17bbc85878733dd305aafc40144",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.235Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-transformers-30th-anniversary-special-edition-checklist/",
+        "snapshot": {
+          "checklistHash": "785d1f65de943e114949190ff85461bce65aea08dc085bd6848045c268a5b365",
+          "oddsHash": null,
+          "rows": 102,
+          "odds": 12,
+          "specificationRows": 61
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "upper-deck-platinum-dc": {
+    "state": {
+      "checklistHash": "9d79b3365fa08f228187ce8e8d244297ab1e6d88f4e766062d617c7f9021ad87",
+      "oddsHash": null,
+      "rows": 6499,
+      "odds": 82,
+      "specificationRows": 4677
+    },
+    "fingerprint": "62e7eade2e4e73ec68ac69ef647e111514080c54cb15af292fb965f5169d66b0",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.245Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/dc-platinum-checklist/",
+        "snapshot": {
+          "checklistHash": "9d79b3365fa08f228187ce8e8d244297ab1e6d88f4e766062d617c7f9021ad87",
+          "oddsHash": null,
+          "rows": 6499,
+          "odds": 82,
+          "specificationRows": 4677
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "upper-deck-2026-tim-horton-s-harry-potter": {
+    "state": {
+      "checklistHash": "25b8e7d7a29b2614fc048af1d44742f6a28fccc7e981e0b70e3824ccbe885c5e",
+      "oddsHash": null,
+      "rows": 110,
+      "odds": 8,
+      "specificationRows": 0
+    },
+    "fingerprint": "691afdf20a198c351dded3ed05fb7828d1ce47d93d11360cd9a5395731ea7ea4",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.245Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-tim-hortons-harry-potter-checklist/",
+        "snapshot": {
+          "checklistHash": "25b8e7d7a29b2614fc048af1d44742f6a28fccc7e981e0b70e3824ccbe885c5e",
+          "oddsHash": null,
+          "rows": 110,
+          "odds": 8,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "upper-deck-2026-sdcc-dc-absolute-universe": {
+    "state": {
+      "checklistHash": "0da5fb1d9a89430d00d8ffeb41a613d4101b49339f7d66d46b66a3ccb240240c",
+      "oddsHash": null,
+      "rows": 45,
+      "odds": 3,
+      "specificationRows": 15
+    },
+    "fingerprint": "e4d40f9bdd512072c0f65133b0e13bbcb63dea153100eac9b53604c46b61a0e9",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.256Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2026-sdcc-absolute-checklist/",
+        "snapshot": {
+          "checklistHash": "0da5fb1d9a89430d00d8ffeb41a613d4101b49339f7d66d46b66a3ccb240240c",
+          "oddsHash": null,
+          "rows": 45,
+          "odds": 3,
+          "specificationRows": 15
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "upper-deck-upper-deck-inspirations-the-world-of-dc": {
+    "state": {
+      "checklistHash": "f0a1648581eab411a422b6caf53b25c74a8012b486e193147efdf9dafcc492b0",
+      "oddsHash": null,
+      "rows": 2959,
+      "odds": 54,
+      "specificationRows": 1805
+    },
+    "fingerprint": "336749207d62dd0bdaa51ca7ddfafe389f0a0835306684277e1f5a4771fbceb8",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.259Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/upper-deck-inspirations-the-world-of-dc-checklist/",
+        "snapshot": {
+          "checklistHash": "f0a1648581eab411a422b6caf53b25c74a8012b486e193147efdf9dafcc492b0",
+          "oddsHash": null,
+          "rows": 2959,
+          "odds": 54,
+          "specificationRows": 1805
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "upper-deck-2024-25-dc-annual": {
+    "state": {
+      "checklistHash": "7232b7bd80bf1c8625a491e37c8177838a95985814894ff33b4545e5ff0bd265",
+      "oddsHash": null,
+      "rows": 1672,
+      "odds": 44,
+      "specificationRows": 995
+    },
+    "fingerprint": "309c4ca8bab4edbd294fb72b897e4cc4b550868dd5be172f17389516143c6aa8",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.288Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2024-25-dc-annual/",
+        "snapshot": {
+          "checklistHash": "7232b7bd80bf1c8625a491e37c8177838a95985814894ff33b4545e5ff0bd265",
+          "oddsHash": null,
+          "rows": 1672,
+          "odds": 44,
+          "specificationRows": 995
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "upper-deck-fleer-ultra-superman": {
+    "state": {
+      "checklistHash": "c445a4ed2cc8371b1ba8eaf9edd4d4dbb95973b95a4b204eb4e55baccbd51fa5",
+      "oddsHash": null,
+      "rows": 2641,
+      "odds": 49,
+      "specificationRows": 1687
+    },
+    "fingerprint": "57d9861263f2ac955d65b5de2b6e5071170cb0986bf8008f1c7cc443886f70b0",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.303Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/fleer-ultra-superman-checklist/",
+        "snapshot": {
+          "checklistHash": "c445a4ed2cc8371b1ba8eaf9edd4d4dbb95973b95a4b204eb4e55baccbd51fa5",
+          "oddsHash": null,
+          "rows": 2641,
+          "odds": 49,
+          "specificationRows": 1687
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "upper-deck-batman-the-animated-series": {
+    "state": {
+      "checklistHash": "85b06dd6e3025776b2c3dafbe219524dac5f2d40c3f49cc2974bfb78767644c4",
+      "oddsHash": null,
+      "rows": 1700,
+      "odds": 72,
+      "specificationRows": 923
+    },
+    "fingerprint": "d62fd2e30dd275f5bbf71dc7deedad98827c86f2bf7f47d2e84ce5c56b4fe3f7",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.309Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/batman-the-animated-series-checklist/",
+        "snapshot": {
+          "checklistHash": "85b06dd6e3025776b2c3dafbe219524dac5f2d40c3f49cc2974bfb78767644c4",
+          "oddsHash": null,
+          "rows": 1700,
+          "odds": 72,
+          "specificationRows": 923
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "upper-deck-upper-deck-grateful-dead-60-years-so-far-a-visual-trip": {
+    "state": {
+      "checklistHash": "4f29085a7069125b22b9eb0f3d7a538815673e26c2ec0241482f1f7ba297781b",
+      "oddsHash": null,
+      "rows": 450,
+      "odds": 250,
+      "specificationRows": 300
+    },
+    "fingerprint": "ce46a9358575f549d595ee9640e07bd64c16e79c581a15abb16cd64452315a57",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.330Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/upper-deck-grateful-dead-60-years-so-far-a-visual-trip-checklist/",
+        "snapshot": {
+          "checklistHash": "4f29085a7069125b22b9eb0f3d7a538815673e26c2ec0241482f1f7ba297781b",
+          "oddsHash": null,
+          "rows": 450,
+          "odds": 250,
+          "specificationRows": 300
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2025-leaf-red-carpet-collection": {
+    "state": {
+      "checklistHash": null,
+      "oddsHash": null,
+      "rows": 0,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.377Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/695c1fc9ba8e567de0f30d69_2025_Leaf_Red_Carpet_Collection_CL_F.xlsx",
+        "snapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-pop-century": {
+    "state": {
+      "checklistHash": null,
+      "oddsHash": null,
+      "rows": 0,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "events": [
+      {
+        "at": "2026-10-13T01:06:39.377Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69f500d7b489df389e824062_2026_Leaf_Metal_Pop_Century_CL_F.xlsx",
+        "snapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

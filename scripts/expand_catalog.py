@@ -5,8 +5,8 @@ root=Path(__file__).resolve().parents[1]
 slug=lambda t:re.sub('[^a-z0-9]+','-',t.lower()).strip('-')
 previous={r['slug']:r for r in json.loads((root/'data/set-catalog.json').read_text())['sets']} if (root/'data/set-catalog.json').exists() else {}
 records=[]
-for r in json.loads((root/'data/topps-official-catalog.json').read_text()):
- title=r['title'];sport=next((s for term,s in [('Tennis','tennis'),('Baseball','baseball'),('Basketball','basketball'),('Football','football'),('UFC','ufc'),('WWE','wrestling'),('Formula','racing'),('Olympic','olympics'),('Soccer','soccer'),('UEFA','soccer'),('Premier League','soccer'),('Manchester','soccer')] if term in title),'multi-sport')
+for r in json.loads((root/'data/topps-official-catalog.json').read_text()) + json.loads((root/'data/entertainment-topps-catalog.json').read_text()):
+ title=r['title'];sport=next((s for term,s in [('Star Wars','star-wars'),('Marvel','marvel'),('Deadpool','marvel'),('Fantastic Four','marvel'),('Disney','disney'),('Toy Story','disney'),('VeeFriends','entertainment'),('Jennie','music'),('Mars Attacks','entertainment'),('Tennis','tennis'),('Baseball','baseball'),('Basketball','basketball'),('Football','football'),('UFC','ufc'),('WWE','wrestling'),('Formula','racing'),('Olympic','olympics'),('Soccer','soccer'),('UEFA','soccer'),('Premier League','soccer'),('Manchester','soccer')] if term in title),'multi-sport')
  records.append({'title':title,'manufacturer':'Topps / Bowman','sport':sport,'year':re.search(r'20\d\d(?:[-/]\d{2,4})?',title).group(0),'sourcePage':'https://www.topps.com/pages/checklists','checklistUrl':r['url'],'releaseStatus':'Unverified','releaseDate':None,'catalogEvidence':'Listed in Topps’ 2026 checklist catalog; this is not a verified release date.'})
 if (root/'data/topps-product-official-catalog.json').exists():records+=json.loads((root/'data/topps-product-official-catalog.json').read_text())
 records+=json.loads((root/'data/upperdeck-official-catalog.json').read_text())

@@ -60,6 +60,18 @@
     "fetchError": "HTTP Error 403: Forbidden"
   },
   {
+    "title": "2026 Transformers 30th Anniversary Special Edition",
+    "manufacturer": "Upper Deck",
+    "sport": "entertainment",
+    "sourcePage": "https://upperdeck.com/checklist/2026-transformers-30th-anniversary-special-edition-checklist/",
+    "checklistPublished": "2026-09-10",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "year": "2026",
+    "checklistUrl": "https://upperdeck.com/checklist/2026-transformers-30th-anniversary-special-edition-checklist/",
+    "fetchError": "HTTP Error 403: Forbidden"
+  },
+  {
     "title": "2025-2026 Upper Deck Ice Hockey",
     "manufacturer": "Upper Deck",
     "sport": "hockey",
@@ -81,6 +93,30 @@
     "releaseDate": null,
     "year": "2026-27",
     "checklistUrl": "https://upperdeck.com/checklist/2026-27-artifacts-checklist/",
+    "fetchError": "HTTP Error 403: Forbidden"
+  },
+  {
+    "title": "Platinum DC",
+    "manufacturer": "Upper Deck",
+    "sport": "entertainment",
+    "sourcePage": "https://upperdeck.com/checklist/dc-platinum-checklist/",
+    "checklistPublished": "2026-08-27",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "year": "Unspecified",
+    "checklistUrl": "https://upperdeck.com/checklist/dc-platinum-checklist/",
+    "fetchError": "HTTP Error 403: Forbidden"
+  },
+  {
+    "title": "2026 Tim Horton’s Harry Potter",
+    "manufacturer": "Upper Deck",
+    "sport": "entertainment",
+    "sourcePage": "https://upperdeck.com/checklist/2026-tim-hortons-harry-potter-checklist/",
+    "checklistPublished": "2026-08-24",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "year": "2026",
+    "checklistUrl": "https://upperdeck.com/checklist/2026-tim-hortons-harry-potter-checklist/",
     "fetchError": "HTTP Error 403: Forbidden"
   },
   {
@@ -168,6 +204,18 @@
     "fetchError": "HTTP Error 403: Forbidden"
   },
   {
+    "title": "2026 SDCC DC Absolute Universe",
+    "manufacturer": "Upper Deck",
+    "sport": "entertainment",
+    "sourcePage": "https://upperdeck.com/checklist/2026-sdcc-absolute-checklist/",
+    "checklistPublished": "2026-07-27",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "year": "2026",
+    "checklistUrl": "https://upperdeck.com/checklist/2026-sdcc-absolute-checklist/",
+    "fetchError": "HTTP Error 403: Forbidden"
+  },
+  {
     "title": "2026-27 MVP",
     "manufacturer": "Upper Deck",
     "sport": "hockey",
@@ -177,6 +225,18 @@
     "releaseDate": null,
     "year": "2026-27",
     "checklistUrl": "https://upperdeck.com/checklist/2026-27-mvp-checklist/",
+    "fetchError": "HTTP Error 403: Forbidden"
+  },
+  {
+    "title": "Upper Deck Inspirations The World of DC",
+    "manufacturer": "Upper Deck",
+    "sport": "entertainment",
+    "sourcePage": "https://upperdeck.com/checklist/upper-deck-inspirations-the-world-of-dc-checklist/",
+    "checklistPublished": "2026-07-10",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "year": "Unspecified",
+    "checklistUrl": "https://upperdeck.com/checklist/upper-deck-inspirations-the-world-of-dc-checklist/",
     "fetchError": "HTTP Error 403: Forbidden"
   },
   {
@@ -324,6 +384,18 @@
     "fetchError": "HTTP Error 403: Forbidden"
   },
   {
+    "title": "2024-25 DC Annual",
+    "manufacturer": "Upper Deck",
+    "sport": "entertainment",
+    "sourcePage": "https://upperdeck.com/checklist/2024-25-dc-annual/",
+    "checklistPublished": "2026-05-13",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "year": "2024-25",
+    "checklistUrl": "https://upperdeck.com/checklist/2024-25-dc-annual/",
+    "fetchError": "HTTP Error 403: Forbidden"
+  },
+  {
     "title": "2025-2026 O-Pee-Chee Platinum",
     "manufacturer": "Upper Deck",
     "sport": "hockey",
@@ -396,6 +468,18 @@
     "fetchError": "HTTP Error 403: Forbidden"
   },
   {
+    "title": "Fleer Ultra Superman",
+    "manufacturer": "Upper Deck",
+    "sport": "entertainment",
+    "sourcePage": "https://upperdeck.com/checklist/fleer-ultra-superman-checklist/",
+    "checklistPublished": "2026-03-25",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "year": "Unspecified",
+    "checklistUrl": "https://upperdeck.com/checklist/fleer-ultra-superman-checklist/",
+    "fetchError": "HTTP Error 403: Forbidden"
+  },
+  {
     "title": "2026 Allure Golf",
     "manufacturer": "Upper Deck",
     "sport": "golf",
@@ -429,6 +513,18 @@
     "releaseDate": null,
     "year": "Unspecified",
     "checklistUrl": "https://upperdeck.com/checklist/upper-deck-world-of-sports-volume-ii-checklist/",
+    "fetchError": "HTTP Error 403: Forbidden"
+  },
+  {
+    "title": "Batman: The Animated Series",
+    "manufacturer": "Upper Deck",
+    "sport": "entertainment",
+    "sourcePage": "https://upperdeck.com/checklist/batman-the-animated-series-checklist/",
+    "checklistPublished": "2026-03-04",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "year": "Unspecified",
+    "checklistUrl": "https://upperdeck.com/checklist/batman-the-animated-series-checklist/",
     "fetchError": "HTTP Error 403: Forbidden"
   },
   {
@@ -573,6 +669,18 @@
     "releaseDate": null,
     "year": "2025-26",
     "checklistUrl": "https://upperdeck.com/checklist/2025-26-mvp-silver-collection-hockey-checklist/",
+    "fetchError": "HTTP Error 403: Forbidden"
+  },
+  {
+    "title": "Upper Deck Grateful Dead 60 Years So Far – A Visual Trip",
+    "manufacturer": "Upper Deck",
+    "sport": "entertainment",
+    "sourcePage": "https://upperdeck.com/checklist/upper-deck-grateful-dead-60-years-so-far-a-visual-trip-checklist/",
+    "checklistPublished": "2026-01-12",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "year": "Unspecified",
+    "checklistUrl": "https://upperdeck.com/checklist/upper-deck-grateful-dead-60-years-so-far-a-visual-trip-checklist/",
     "fetchError": "HTTP Error 403: Forbidden"
   },
   {
