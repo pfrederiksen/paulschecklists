@@ -75382,6 +75382,84 @@
     "saleFromISO": null
   },
   {
+    "series": "2026-27 NFL Topps NOW®",
+    "number": "58",
+    "name": "Matthew Stafford",
+    "printRun": "",
+    "saleFrom": "Oct 13, 2026",
+    "saleUntil": "Oct 16, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/matthew-stafford-2026-27-nfl-topps-now-r-card-58",
+    "evidence": {
+      "url": "https://www.topps.com/products/matthew-stafford-2026-27-nfl-topps-now-r-card-58",
+      "sha256": "7bf430436d3f2aeac9f540728b4854f05bdbe66c48e3f187b7e80e4075bdfa6b",
+      "observed": "2026-10-13",
+      "title": "Matthew Stafford - 2026-27 NFL Topps NOW® - Card 58",
+      "fields": {
+        "SKU": "ARTFB-16C2S-26TN-0058",
+        "Category": "Sports",
+        "Sub Categories": "Football",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Matthew Stafford",
+        "Properties": "Los Angeles Rams",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 13, 2026",
+        "Available Until": "Oct 16, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
+    },
+    "saleFromISO": "2026-10-13"
+  },
+  {
+    "series": "2026-27 NFL Topps NOW®",
+    "number": "59",
+    "name": "Josh Allen",
+    "printRun": "",
+    "saleFrom": "Oct 13, 2026",
+    "saleUntil": "Oct 16, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/josh-allen-2026-27-nfl-topps-now-r-card-59",
+    "evidence": {
+      "url": "https://www.topps.com/products/josh-allen-2026-27-nfl-topps-now-r-card-59",
+      "sha256": "98deb82d03a09ba9515ad7951b71b9d70cd7a4f74561ae88a2c061bd13cc38aa",
+      "observed": "2026-10-13",
+      "title": "Josh Allen - 2026-27 NFL Topps NOW® - Card 59",
+      "fields": {
+        "SKU": "ARTFB-16C2S-26TN-0059",
+        "Category": "Sports",
+        "Sub Categories": "Football",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Josh Allen",
+        "Properties": "Buffalo Bills",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 13, 2026",
+        "Available Until": "Oct 16, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
+    },
+    "saleFromISO": "2026-10-13"
+  },
+  {
     "series": "2026-27 Paris Saint-Germain Topps NOW®",
     "number": "1",
     "name": "Ferran Torres",
