@@ -29,3 +29,5 @@ Refresh dedicated tennis sources with `scripts/import_tennis.py` using the bundl
 # Entertainment and ongoing series
 
 Coverage includes sports, WWE/wrestling and non-sports: Marvel, Star Wars, Disney, DC, film, television, music, gaming and celebrity cards. Keep these in the same shared template. Refresh entertainment discovery inventories alongside sports. Monitor Topps NOW and Bowman NOW active products and official archives; group by series/year. Preserve official card numbers, subjects, sale dates and published print runs. Never treat a made-to-order print run as pack odds or claim complete archive coverage from an active listing.
+
+Refresh Topps NOW observed product snapshots with official web reads before running `python3 scripts/import_topps_now.py`. Retain `data/topps-now-observations.json` across refreshes. Re-running the parser does not refresh source observations. Archive pagination is currently blocked; keep partial-archive labels until historical completeness is verified. Preserve card-specific parallel terms and print-run thresholds without computing pack odds.

@@ -4404,5 +4404,194 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-now-2026": {
+    "state": {
+      "checklistHash": "8dde537a4a02dbb692e56472e4c50d912d009507afb7ac2163360263dae1839b",
+      "oddsHash": null,
+      "rows": 47,
+      "odds": 0,
+      "specificationRows": 226
+    },
+    "fingerprint": "9063f62123463b837761716534399ecd1ee40cdeeb335b6582bdddb857b9880d",
+    "events": [
+      {
+        "at": "2026-10-13T01:21:50.415Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "8dde537a4a02dbb692e56472e4c50d912d009507afb7ac2163360263dae1839b",
+          "oddsHash": null,
+          "rows": 47,
+          "odds": 0,
+          "specificationRows": 226
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-mlb-topps-now": {
+    "state": {
+      "checklistHash": "7ba3a3c1f1e8beab5b22d4cb29c081810ed356cb59c9aff564a865e95b522d67",
+      "oddsHash": null,
+      "rows": 19,
+      "odds": 0,
+      "specificationRows": 95
+    },
+    "fingerprint": "a6f4c215944f6a4cd2973b860aad9d0df0097fb1bd350ff3f00168a57b73d759",
+    "events": [
+      {
+        "at": "2026-10-13T01:21:50.415Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "7ba3a3c1f1e8beab5b22d4cb29c081810ed356cb59c9aff564a865e95b522d67",
+          "oddsHash": null,
+          "rows": 19,
+          "odds": 0,
+          "specificationRows": 95
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-mls-topps-now": {
+    "state": {
+      "checklistHash": "b2aa93c8b7549a788cff379fa4f3f79fb7a2d9a932122e15800a7cbe49dd0a28",
+      "oddsHash": null,
+      "rows": 4,
+      "odds": 0,
+      "specificationRows": 16
+    },
+    "fingerprint": "03cd69e6de433ab409272be8ef710d546c8c1dcbb62d2dbfb7ed13ac64b4cc72",
+    "events": [
+      {
+        "at": "2026-10-13T01:21:50.416Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "b2aa93c8b7549a788cff379fa4f3f79fb7a2d9a932122e15800a7cbe49dd0a28",
+          "oddsHash": null,
+          "rows": 4,
+          "odds": 0,
+          "specificationRows": 16
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-nfl-topps-now": {
+    "state": {
+      "checklistHash": "9e0bc69c4e66779b0602c62495960f20a8d4d26bc75ccbe15153fe831fe57b74",
+      "oddsHash": null,
+      "rows": 1,
+      "odds": 0,
+      "specificationRows": 5
+    },
+    "fingerprint": "27d7ba91f0aa3d89ebedf18e3b6d0513bb6cca95f048dfd266900c7819d55bbc",
+    "events": [
+      {
+        "at": "2026-10-13T01:21:50.416Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "9e0bc69c4e66779b0602c62495960f20a8d4d26bc75ccbe15153fe831fe57b74",
+          "oddsHash": null,
+          "rows": 1,
+          "odds": 0,
+          "specificationRows": 5
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-wwe-topps-now": {
+    "state": {
+      "checklistHash": "b43fdd71ffe125c7e23e16f9b53f358c31bc3f150957650839aa6735053e1b69",
+      "oddsHash": null,
+      "rows": 7,
+      "odds": 0,
+      "specificationRows": 30
+    },
+    "fingerprint": "23157c6ee98fc2b64f3b2fb59133e836f6a7cb697a1ae2cac5fedc8e2d7eb62b",
+    "events": [
+      {
+        "at": "2026-10-13T01:21:50.416Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "b43fdd71ffe125c7e23e16f9b53f358c31bc3f150957650839aa6735053e1b69",
+          "oddsHash": null,
+          "rows": 7,
+          "odds": 0,
+          "specificationRows": 30
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-27-bowman-u-now-football": {
+    "state": {
+      "checklistHash": "998ed215ff03fd7248d80a65719895b9700d23d5f5dfb6b71fc8c55bf9e78ec5",
+      "oddsHash": null,
+      "rows": 5,
+      "odds": 0,
+      "specificationRows": 25
+    },
+    "fingerprint": "df936e46d9d2632fe1fbbfb2b7ad57be3b5a0e2cb1a3ab19aa349dfcb8e061be",
+    "events": [
+      {
+        "at": "2026-10-13T01:21:50.416Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "998ed215ff03fd7248d80a65719895b9700d23d5f5dfb6b71fc8c55bf9e78ec5",
+          "oddsHash": null,
+          "rows": 5,
+          "odds": 0,
+          "specificationRows": 25
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-27-nfl-topps-now": {
+    "state": {
+      "checklistHash": "e1c7a853c4a15075e4ef9add980247f2757d32ceee220c417301876cf0722305",
+      "oddsHash": null,
+      "rows": 11,
+      "odds": 0,
+      "specificationRows": 55
+    },
+    "fingerprint": "a569039f84e1692401b8b76e6ece58d2167887ea9677f80fc149ed380cef10d0",
+    "events": [
+      {
+        "at": "2026-10-13T01:21:50.416Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "e1c7a853c4a15075e4ef9add980247f2757d32ceee220c417301876cf0722305",
+          "oddsHash": null,
+          "rows": 11,
+          "odds": 0,
+          "specificationRows": 55
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

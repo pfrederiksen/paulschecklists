@@ -10,6 +10,7 @@ for r in json.loads((root/'data/topps-official-catalog.json').read_text()) + jso
  records.append({'title':title,'manufacturer':'Topps / Bowman','sport':sport,'year':re.search(r'20\d\d(?:[-/]\d{2,4})?',title).group(0),'sourcePage':'https://www.topps.com/pages/checklists','checklistUrl':r['url'],'releaseStatus':'Unverified','releaseDate':None,'catalogEvidence':'Listed in Topps’ 2026 checklist catalog; this is not a verified release date.'})
 if (root/'data/topps-product-official-catalog.json').exists():records+=json.loads((root/'data/topps-product-official-catalog.json').read_text())
 records+=json.loads((root/'data/upperdeck-official-catalog.json').read_text())
+if (root/'data/topps-now-official-catalog.json').exists():records+=json.loads((root/'data/topps-now-official-catalog.json').read_text())
 if (root/'data/panini-official-catalog.json').exists():records+=json.loads((root/'data/panini-official-catalog.json').read_text())
 if (root/'data/leaf-official-catalog.json').exists():records+=json.loads((root/'data/leaf-official-catalog.json').read_text())
 for r in json.loads((root/'data/wildcard-official-catalog.json').read_text()):
