@@ -14718,6 +14718,39 @@
   },
   {
     "series": "2025-26 NHL Topps NOW®",
+    "number": "122",
+    "name": "Nikita Kucherov",
+    "printRun": "95",
+    "saleFrom": "Mar 20, 2026",
+    "saleUntil": "Mar 27, 2026",
+    "parallels": [],
+    "terms": "Published card types: /10 Black Ice Parallels; /5 Red Ice Parallels; /1 Gold Ice Parallel\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.",
+    "source": "https://www.topps.com/products/nikita-kucherov-2025-26-nhl-topps-now%C2%AE-sticker-122-pack",
+    "evidence": {
+      "url": "https://www.topps.com/products/nikita-kucherov-2025-26-nhl-topps-now%C2%AE-sticker-122-pack",
+      "sha256": "79264a5863423425c667fc31c6e8832a271efa3a1820caf21854a4967890badf",
+      "observed": "2026-10-13",
+      "title": "Nikita Kucherov - 2025-26 NHL Topps NOW® - Sticker # 122 Pack - PR:95",
+      "fields": {
+        "SKU": "ARTNHL-STIC-26TN-0122",
+        "Category": "Sports",
+        "Sub Categories": "Hockey",
+        "Sub Type": "Stickers",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Nikita Kucherov",
+        "Properties": "Tampa Bay Lightning",
+        "Product Type": "Print on Demand",
+        "Available From": "Mar 20, 2026",
+        "Available Until": "Mar 27, 2026"
+      },
+      "overview": "Published card types: /10 Black Ice Parallels; /5 Red Ice Parallels; /1 Gold Ice Parallel\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published."
+    },
+    "saleFromISO": "2026-03-20"
+  },
+  {
+    "series": "2025-26 NHL Topps NOW®",
     "number": "124",
     "name": "Cole Caufield",
     "printRun": "165",
@@ -16789,18 +16822,18 @@
     "number": "190",
     "name": "Zach Werenski",
     "printRun": "165",
-    "saleFrom": "5. Juni 2026",
-    "saleUntil": "12. Juni 2026",
+    "saleFrom": "Jun 5, 2026",
+    "saleUntil": "Jun 12, 2026",
     "parallels": [],
     "terms": "Published card types: /10 Black Ice Parallels; /5 Red Ice Parallels; /1 Gold Ice Parallel\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.",
     "source": "https://www.topps.com/products/zach-werenski-2025-26-nhl-topps-now%C2%AE-sticker-190-pack",
     "evidence": {
       "url": "https://www.topps.com/products/zach-werenski-2025-26-nhl-topps-now%C2%AE-sticker-190-pack",
-      "sha256": "fb5f2cdf045031ea1ba326b1b5f4ce222413cbc89f73b169d90f401c48823432",
+      "sha256": "d0f34e619aec73eb2a53747df5fe0a4962a0d8feaef688a89df34b0851b9129e",
       "observed": "2026-10-13",
       "title": "Zach Werenski - 2025-26 NHL Topps NOW® - Sticker # 190 Pack - PR: 165",
       "fields": {
-        "SKU": "ARTNHL-STIC-26TN-0190",
+        "SKU": "ARTNHL-STIC-26TN-0190-QTY5",
         "Category": "Sports",
         "Sub Categories": "Hockey",
         "Sub Type": "Stickers",
@@ -16810,8 +16843,8 @@
         "Subjects": "Zach Werenski",
         "Properties": "Columbus Blue Jackets",
         "Product Type": "Print on Demand",
-        "Available From": "5. Juni 2026",
-        "Available Until": "12. Juni 2026"
+        "Available From": "Jun 5, 2026",
+        "Available Until": "Jun 12, 2026"
       },
       "overview": "Published card types: /10 Black Ice Parallels; /5 Red Ice Parallels; /1 Gold Ice Parallel\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published."
     },

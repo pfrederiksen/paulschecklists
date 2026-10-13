@@ -4453,14 +4453,36 @@
   },
   "topps-now-2026": {
     "state": {
-      "checklistHash": "8656db2bb7f5dc2604ca487718f4fcadfcf28835b08364cfdf06fc4dcc101a73",
+      "checklistHash": "2fad30c90158abcf0acf0345c75c71efb5d4efe24790179873e2f5924b878cbc",
       "oddsHash": null,
-      "rows": 1911,
+      "rows": 1912,
       "odds": 0,
       "specificationRows": 8676
     },
-    "fingerprint": "c0581c7624d6f05b5dab104ac78fa5166d5a91b304f4871b7c81651eea33e543",
+    "fingerprint": "e485a6b2029b5dd5cce97bdedae9bfc3896f42e2288b585afea6d9e65c62bd8e",
     "events": [
+      {
+        "at": "2026-10-13T21:49:53.795Z",
+        "changes": [
+          "Official checklist document changed.",
+          "Checklist entries: 1911 → 1912"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "2fad30c90158abcf0acf0345c75c71efb5d4efe24790179873e2f5924b878cbc",
+          "oddsHash": null,
+          "rows": 1912,
+          "odds": 0,
+          "specificationRows": 8676
+        },
+        "previousSnapshot": {
+          "checklistHash": "8656db2bb7f5dc2604ca487718f4fcadfcf28835b08364cfdf06fc4dcc101a73",
+          "oddsHash": null,
+          "rows": 1911,
+          "odds": 0,
+          "specificationRows": 8676
+        }
+      },
       {
         "at": "2026-10-13T19:49:55.194Z",
         "changes": [
@@ -6959,14 +6981,36 @@
   },
   "topps-now-2025-26-nhl-topps-now": {
     "state": {
-      "checklistHash": "ecc92cc86c6c12d5bdd19dd4d2a8a7b953d782da911dca994f03f5c4a6c82bbf",
+      "checklistHash": "0a15eabebf3c3a0a5a8ad66c4664e2ccea392de906edc6a9862a0e21998f89bb",
       "oddsHash": null,
-      "rows": 115,
+      "rows": 116,
       "odds": 0,
       "specificationRows": 0
     },
-    "fingerprint": "f643b92767b26b7027e92bfcf7fc35aa17736e88555d5bd1f688ba13cc5402b2",
+    "fingerprint": "b981f423467e25b0d3926fa50f065f2e95a977153939b2a77d21e1d1b822caf3",
     "events": [
+      {
+        "at": "2026-10-13T21:49:53.803Z",
+        "changes": [
+          "Official checklist document changed.",
+          "Checklist entries: 115 → 116"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "0a15eabebf3c3a0a5a8ad66c4664e2ccea392de906edc6a9862a0e21998f89bb",
+          "oddsHash": null,
+          "rows": 116,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": {
+          "checklistHash": "ecc92cc86c6c12d5bdd19dd4d2a8a7b953d782da911dca994f03f5c4a6c82bbf",
+          "oddsHash": null,
+          "rows": 115,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T18:40:15.275Z",
         "changes": [
