@@ -8,7 +8,8 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE='https://www.topps.com/collections/topps-now'
 ARCHIVE=SOURCE+'-archive'
-raw=(ROOT/'data/catalog-sources/topps-now-products.txt').read_text()
+snapshot=ROOT/'data/catalog-sources/topps-now-products.txt'
+raw=snapshot.read_text() if snapshot.exists() else ''
 starts=list(re.finditer(r'^[^\n]*\((https://www\.topps\.com/products/[^)]+)\)\n',raw,re.M))
 products={}
 for i,m in enumerate(starts):
@@ -56,10 +57,11 @@ for i,m in enumerate(starts):
   assert old['name']==name,(old,p)
   if old['printRun'] and not pr:continue
  products[key]=p
-assert len(products)>=40,'Incomplete snapshot; do not overwrite prior observations'
+assert len(products)>=40 or not raw,'Incomplete snapshot; do not overwrite prior observations'
 store=ROOT/'data/topps-now-observations.json'
 previous=json.loads(store.read_text()) if store.exists() else []
 merged={(p['series'],p['number']):p for p in previous};merged.update(products)
+assert merged,'No official observations available; refresh snapshots before importing'
 products=sorted(merged.values(),key=lambda p:(p['series'],not p['number'].isdigit(),int(p['number']) if p['number'].isdigit() else p['number']))
 store.write_text(json.dumps(products,ensure_ascii=False,indent=2)+'\n')
 headers=['Checklist section','Card number','Player / subjects','Published print run','Available From','Available Until','Published parallels','Official distribution terms','Official product URL']
