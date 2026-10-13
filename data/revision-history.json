@@ -4453,14 +4453,37 @@
   },
   "topps-now-2026": {
     "state": {
-      "checklistHash": "8dde537a4a02dbb692e56472e4c50d912d009507afb7ac2163360263dae1839b",
+      "checklistHash": "1311cd0a664867e3a504f6b9115812d121692e80461a11343b487c1b6131f675",
       "oddsHash": null,
-      "rows": 47,
+      "rows": 101,
       "odds": 0,
-      "specificationRows": 226
+      "specificationRows": 494
     },
-    "fingerprint": "9063f62123463b837761716534399ecd1ee40cdeeb335b6582bdddb857b9880d",
+    "fingerprint": "d770a7044c925a9056666aca300771d2f06b8089e695e16394897e2bea327ffb",
     "events": [
+      {
+        "at": "2026-10-13T17:06:36.072Z",
+        "changes": [
+          "Official checklist document changed.",
+          "Checklist entries: 47 → 101",
+          "Numbering specification rows: 226 → 494"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "1311cd0a664867e3a504f6b9115812d121692e80461a11343b487c1b6131f675",
+          "oddsHash": null,
+          "rows": 101,
+          "odds": 0,
+          "specificationRows": 494
+        },
+        "previousSnapshot": {
+          "checklistHash": "8dde537a4a02dbb692e56472e4c50d912d009507afb7ac2163360263dae1839b",
+          "oddsHash": null,
+          "rows": 47,
+          "odds": 0,
+          "specificationRows": 226
+        }
+      },
       {
         "at": "2026-10-13T01:21:50.415Z",
         "changes": [
@@ -4480,14 +4503,37 @@
   },
   "topps-now-2026-mlb-topps-now": {
     "state": {
-      "checklistHash": "7ba3a3c1f1e8beab5b22d4cb29c081810ed356cb59c9aff564a865e95b522d67",
+      "checklistHash": "ac746a5c4268b90fb590a44d57f7f1af8c1f8e7ac2f5609d59b3d35378afc8f3",
       "oddsHash": null,
-      "rows": 19,
+      "rows": 25,
       "odds": 0,
-      "specificationRows": 95
+      "specificationRows": 125
     },
-    "fingerprint": "a6f4c215944f6a4cd2973b860aad9d0df0097fb1bd350ff3f00168a57b73d759",
+    "fingerprint": "cee941fe77fd14ca4df496f77318185e10fc408dcf939a593adde42e6530233d",
     "events": [
+      {
+        "at": "2026-10-13T17:06:36.084Z",
+        "changes": [
+          "Official checklist document changed.",
+          "Checklist entries: 19 → 25",
+          "Numbering specification rows: 95 → 125"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "ac746a5c4268b90fb590a44d57f7f1af8c1f8e7ac2f5609d59b3d35378afc8f3",
+          "oddsHash": null,
+          "rows": 25,
+          "odds": 0,
+          "specificationRows": 125
+        },
+        "previousSnapshot": {
+          "checklistHash": "7ba3a3c1f1e8beab5b22d4cb29c081810ed356cb59c9aff564a865e95b522d67",
+          "oddsHash": null,
+          "rows": 19,
+          "odds": 0,
+          "specificationRows": 95
+        }
+      },
       {
         "at": "2026-10-13T01:21:50.415Z",
         "changes": [
@@ -4671,12 +4717,33 @@
     "state": {
       "checklistHash": "7f810561b8f3979d4188140ed9c603520cfbe7a6b43c3b3371f48e68032be66f",
       "oddsHash": "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1",
-      "rows": 490,
+      "rows": 482,
       "odds": 74,
       "specificationRows": 0
     },
-    "fingerprint": "5936173d11087f69f57f5567c8e8503800a791fc54fff5753b8a5de6fef268d1",
+    "fingerprint": "ce605ffba36d4da130ca05fb8f8506e7439be9a8c8f1d14fe966f8426d80f634",
     "events": [
+      {
+        "at": "2026-10-13T17:06:35.769Z",
+        "changes": [
+          "Checklist entries: 490 → 482"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25MARV_Checklist_1.pdf?v=1785864090",
+        "snapshot": {
+          "checklistHash": "7f810561b8f3979d4188140ed9c603520cfbe7a6b43c3b3371f48e68032be66f",
+          "oddsHash": "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1",
+          "rows": 482,
+          "odds": 74,
+          "specificationRows": 0
+        },
+        "previousSnapshot": {
+          "checklistHash": "7f810561b8f3979d4188140ed9c603520cfbe7a6b43c3b3371f48e68032be66f",
+          "oddsHash": "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1",
+          "rows": 490,
+          "odds": 74,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T02:06:06.925Z",
         "changes": [
@@ -4797,6 +4864,1410 @@
           "rows": 101,
           "odds": 0,
           "specificationRows": 23
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-topps-now-tennis": {
+    "state": {
+      "checklistHash": "4e1ef94990030b6f7ad78e7ed30e2493fcd2b03436ac62ed0eedef7f26253aa8",
+      "oddsHash": null,
+      "rows": 24,
+      "odds": 0,
+      "specificationRows": 120
+    },
+    "fingerprint": "26ec54f6c62abe027c3fab986f6e6148788e3c7cbe88b7bc1c427e1dc63c0555",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.102Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "4e1ef94990030b6f7ad78e7ed30e2493fcd2b03436ac62ed0eedef7f26253aa8",
+          "oddsHash": null,
+          "rows": 24,
+          "odds": 0,
+          "specificationRows": 120
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-world-baseball-classic-topps-now": {
+    "state": {
+      "checklistHash": "fffe66cc8b7b8b128893e1c9368f370442af73ddfecc5b9d64b1789d8ff7354c",
+      "oddsHash": null,
+      "rows": 23,
+      "odds": 0,
+      "specificationRows": 115
+    },
+    "fingerprint": "2693a0dccaee73495a9a179533cee476715474b86e6c3f950dc378820023bae3",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.108Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "fffe66cc8b7b8b128893e1c9368f370442af73ddfecc5b9d64b1789d8ff7354c",
+          "oddsHash": null,
+          "rows": 23,
+          "odds": 0,
+          "specificationRows": 115
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-27-uwcl-topps-now": {
+    "state": {
+      "checklistHash": "ca364cbcc26187389bcfd5802fe982c5a9c4106eac6b7b464fc93f51fb546d75",
+      "oddsHash": null,
+      "rows": 1,
+      "odds": 0,
+      "specificationRows": 3
+    },
+    "fingerprint": "c4d818fa422bd88edffde05f5de96389fe37a9705ce478c5a5358b4a8dd2e45e",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.121Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "ca364cbcc26187389bcfd5802fe982c5a9c4106eac6b7b464fc93f51fb546d75",
+          "oddsHash": null,
+          "rows": 1,
+          "odds": 0,
+          "specificationRows": 3
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-donruss-football": {
+    "state": {
+      "checklistHash": "dbd86f07e0725f1776b0588715990e3c31abc862ee63d3d2f1a3f0f0e5d76764",
+      "oddsHash": null,
+      "rows": 11749,
+      "odds": 0,
+      "specificationRows": 6085
+    },
+    "fingerprint": "631ada9af1c567e466f23aa48670a2017fa9b7c562f5023ea7f91fbf9c36d2b4",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.157Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "dbd86f07e0725f1776b0588715990e3c31abc862ee63d3d2f1a3f0f0e5d76764",
+          "oddsHash": null,
+          "rows": 11749,
+          "odds": 0,
+          "specificationRows": 6085
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-elite-football": {
+    "state": {
+      "checklistHash": "cfae5c6f2c9f47aa165f96089f8f67aa86efb5f4809b5abb03200a1615fef2fe",
+      "oddsHash": null,
+      "rows": 8963,
+      "odds": 0,
+      "specificationRows": 7244
+    },
+    "fingerprint": "407cab9be1bf894d8d383a750f3acfc0bb0aa4f4e2f7c5923726ceb1d3b9be2b",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.191Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "cfae5c6f2c9f47aa165f96089f8f67aa86efb5f4809b5abb03200a1615fef2fe",
+          "oddsHash": null,
+          "rows": 8963,
+          "odds": 0,
+          "specificationRows": 7244
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-optic-football": {
+    "state": {
+      "checklistHash": "46480a03deb301702185ba99e74465d753f2af2a5215a14972e2936a887593f3",
+      "oddsHash": null,
+      "rows": 16799,
+      "odds": 0,
+      "specificationRows": 11590
+    },
+    "fingerprint": "2b1719962559e192a424b71a4a097b49a2268338b82cae9c07378c6fda459c2c",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.250Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "46480a03deb301702185ba99e74465d753f2af2a5215a14972e2936a887593f3",
+          "oddsHash": null,
+          "rows": 16799,
+          "odds": 0,
+          "specificationRows": 11590
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-absolute-football": {
+    "state": {
+      "checklistHash": "d56d1a99b76bdd2470f10271c94224d8fcc7598feb93fccebd73c15d1f9a4271",
+      "oddsHash": null,
+      "rows": 11905,
+      "odds": 0,
+      "specificationRows": 8715
+    },
+    "fingerprint": "505f362b0157927493d6e2827cb3adc3c10d981d49a8b92cf2efaacc6b3babd4",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.302Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "d56d1a99b76bdd2470f10271c94224d8fcc7598feb93fccebd73c15d1f9a4271",
+          "oddsHash": null,
+          "rows": 11905,
+          "odds": 0,
+          "specificationRows": 8715
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-authentically-mahomes-football": {
+    "state": {
+      "checklistHash": "79d261de9616d757892e9f723115abb4a4d0ffd5ee1cdd7e5bbe358b82e9c75f",
+      "oddsHash": null,
+      "rows": 1154,
+      "odds": 0,
+      "specificationRows": 694
+    },
+    "fingerprint": "dcdc4933a09d2ac2b29ca07475a90c2eb62d6092ec79488b4b97dfb80c18b02a",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.313Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "79d261de9616d757892e9f723115abb4a4d0ffd5ee1cdd7e5bbe358b82e9c75f",
+          "oddsHash": null,
+          "rows": 1154,
+          "odds": 0,
+          "specificationRows": 694
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-black-football": {
+    "state": {
+      "checklistHash": "38a94e14ee3af862ecabd8febfd467b99aa5f695f8c6138f038736cc09084534",
+      "oddsHash": null,
+      "rows": 4321,
+      "odds": 0,
+      "specificationRows": 3834
+    },
+    "fingerprint": "5229828c5337ed2852f092a526843446b0a83b3bfaff9279130746ced0005d86",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.331Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "38a94e14ee3af862ecabd8febfd467b99aa5f695f8c6138f038736cc09084534",
+          "oddsHash": null,
+          "rows": 4321,
+          "odds": 0,
+          "specificationRows": 3834
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-certified-football": {
+    "state": {
+      "checklistHash": "bd3d97ab9829543d29f2fc05adb1a4e8c24b469bde75ddab2ebe38817b269195",
+      "oddsHash": null,
+      "rows": 8685,
+      "odds": 0,
+      "specificationRows": 8434
+    },
+    "fingerprint": "5041e2a4c2789d4af5c04f6e011b73124a2c97cf9c17a792dc5a5c368a8892e6",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.363Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "bd3d97ab9829543d29f2fc05adb1a4e8c24b469bde75ddab2ebe38817b269195",
+          "oddsHash": null,
+          "rows": 8685,
+          "odds": 0,
+          "specificationRows": 8434
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-flawless-football": {
+    "state": {
+      "checklistHash": "3ab163612e9945fa4f6de5b096643b51457443aca7ce568da1fc934d2035ea53",
+      "oddsHash": null,
+      "rows": 7765,
+      "odds": 0,
+      "specificationRows": 6600
+    },
+    "fingerprint": "9d63a675d7e615f1fd3af09e87510758ba0223bc1f52bc20c9f266e62261ce6a",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.394Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "3ab163612e9945fa4f6de5b096643b51457443aca7ce568da1fc934d2035ea53",
+          "oddsHash": null,
+          "rows": 7765,
+          "odds": 0,
+          "specificationRows": 6600
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-honors-football": {
+    "state": {
+      "checklistHash": "0597d43ba4c151db21ebfe78560b7f97d7953974204e28551315cf1e4373e61d",
+      "oddsHash": null,
+      "rows": 2346,
+      "odds": 0,
+      "specificationRows": 1156
+    },
+    "fingerprint": "545b94863fc14b1c4e183b1c2fbf0cf66cbbd83563265bc5e3869ec6c26d68d5",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.428Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "0597d43ba4c151db21ebfe78560b7f97d7953974204e28551315cf1e4373e61d",
+          "oddsHash": null,
+          "rows": 2346,
+          "odds": 0,
+          "specificationRows": 1156
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-immaculate-collection-football": {
+    "state": {
+      "checklistHash": "8a792ba0e6bba07bd24818c067d369c3465d7e696cdcaa00e7c1051220448b88",
+      "oddsHash": null,
+      "rows": 5879,
+      "odds": 0,
+      "specificationRows": 4887
+    },
+    "fingerprint": "43752664dbe9fcb17f1728950329dc6107c0ae1ae9edcc2062ae444b4af63c77",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.489Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "8a792ba0e6bba07bd24818c067d369c3465d7e696cdcaa00e7c1051220448b88",
+          "oddsHash": null,
+          "rows": 5879,
+          "odds": 0,
+          "specificationRows": 4887
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-impeccable-football": {
+    "state": {
+      "checklistHash": "856d883fdd6f79c17009e787de733c46e25aac4c40f87ac559f07bc7d69396c7",
+      "oddsHash": null,
+      "rows": 3792,
+      "odds": 0,
+      "specificationRows": 3479
+    },
+    "fingerprint": "053cba50c168fbb44e8f04b1d9825e55c7e6a9743fbf1c035324ccc3b74c7016",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.517Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "856d883fdd6f79c17009e787de733c46e25aac4c40f87ac559f07bc7d69396c7",
+          "oddsHash": null,
+          "rows": 3792,
+          "odds": 0,
+          "specificationRows": 3479
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-luminance-football": {
+    "state": {
+      "checklistHash": "db5e67e1af37f816525cda9f0b27443f0a8ae39541f931ac72aaf49b39d3a3a8",
+      "oddsHash": null,
+      "rows": 4390,
+      "odds": 0,
+      "specificationRows": 3598
+    },
+    "fingerprint": "6006ae5a02e81a49e43e1be415138b1e0767a3e5a018653e102554da423617ad",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.546Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "db5e67e1af37f816525cda9f0b27443f0a8ae39541f931ac72aaf49b39d3a3a8",
+          "oddsHash": null,
+          "rows": 4390,
+          "odds": 0,
+          "specificationRows": 3598
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-mosaic-football": {
+    "state": {
+      "checklistHash": "3071817d9a9a1b86fb61c41b0d1448fe148d5cae28f988b2cb7ccebf7ebad219",
+      "oddsHash": null,
+      "rows": 24360,
+      "odds": 0,
+      "specificationRows": 14585
+    },
+    "fingerprint": "4efa35f1bc60a093ebb58e4b1894be84e063cb986c7b576ca23c35e3a48301fa",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.627Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "3071817d9a9a1b86fb61c41b0d1448fe148d5cae28f988b2cb7ccebf7ebad219",
+          "oddsHash": null,
+          "rows": 24360,
+          "odds": 0,
+          "specificationRows": 14585
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-national-treasures-collegiate-football": {
+    "state": {
+      "checklistHash": "1e3dc1fc8d51756a3a8faba23e872b20ee5a02dcca31da4469c2f6063fdd8d2d",
+      "oddsHash": null,
+      "rows": 4527,
+      "odds": 0,
+      "specificationRows": 4089
+    },
+    "fingerprint": "6e22b4e6158eedf8e78a646a1dccb0442d35410eff3ef78c3d8c8159a6a174a7",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.702Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "1e3dc1fc8d51756a3a8faba23e872b20ee5a02dcca31da4469c2f6063fdd8d2d",
+          "oddsHash": null,
+          "rows": 4527,
+          "odds": 0,
+          "specificationRows": 4089
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-origins-football": {
+    "state": {
+      "checklistHash": "abb466ba0d27555cfc204370ee2b5a95087f626fd15b078535d56fadb3654cf2",
+      "oddsHash": null,
+      "rows": 5179,
+      "odds": 0,
+      "specificationRows": 4801
+    },
+    "fingerprint": "019219fdfb411e0c9210d16976f56a86f90334d2639657e5cad876eb6222fe94",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.725Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "abb466ba0d27555cfc204370ee2b5a95087f626fd15b078535d56fadb3654cf2",
+          "oddsHash": null,
+          "rows": 5179,
+          "odds": 0,
+          "specificationRows": 4801
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-phoenix-football": {
+    "state": {
+      "checklistHash": "5adc7dd60ebd59f38a45a4aa97e9a7ae5ee4a5aefe99ceffd6065095ecc14422",
+      "oddsHash": null,
+      "rows": 28366,
+      "odds": 0,
+      "specificationRows": 24831
+    },
+    "fingerprint": "55aa0544ecaf05149e9e69efdfc40d5a6d98392642a809b15ecb8b2d44e63670",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:36.821Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "5adc7dd60ebd59f38a45a4aa97e9a7ae5ee4a5aefe99ceffd6065095ecc14422",
+          "oddsHash": null,
+          "rows": 28366,
+          "odds": 0,
+          "specificationRows": 24831
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-photogenic-football": {
+    "state": {
+      "checklistHash": "37ff8160b15d2b8a5586cc2fc45089a5aa8992cb4b78a51e2d4c4c10f4cda4be",
+      "oddsHash": null,
+      "rows": 5348,
+      "odds": 0,
+      "specificationRows": 4843
+    },
+    "fingerprint": "31072c57604df7525014520a0cbcde740a725e091de38dd53fbbfaa2f23362e9",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:37.013Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "37ff8160b15d2b8a5586cc2fc45089a5aa8992cb4b78a51e2d4c4c10f4cda4be",
+          "oddsHash": null,
+          "rows": 5348,
+          "odds": 0,
+          "specificationRows": 4843
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-prizm-black-football": {
+    "state": {
+      "checklistHash": "0fe1d1989ac023b7e170b5de93fc86d2296a288782cd36cfd2cd98909cf25426",
+      "oddsHash": null,
+      "rows": 8452,
+      "odds": 0,
+      "specificationRows": 6796
+    },
+    "fingerprint": "c783aa8e0cd75533fbca40295c513422387bed068c990444ca124528b4518a19",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:37.103Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "0fe1d1989ac023b7e170b5de93fc86d2296a288782cd36cfd2cd98909cf25426",
+          "oddsHash": null,
+          "rows": 8452,
+          "odds": 0,
+          "specificationRows": 6796
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-prizm-football": {
+    "state": {
+      "checklistHash": "71de569305de6bd6471ae5b30d4398176fa12fa24fbe9cf1ff97317ebe52fd9c",
+      "oddsHash": null,
+      "rows": 34723,
+      "odds": 0,
+      "specificationRows": 22478
+    },
+    "fingerprint": "8b49047a58c004f8fce7ce6d472e1f2ec678d0169b00f818f8ac25ea6885af18",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:37.627Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "71de569305de6bd6471ae5b30d4398176fa12fa24fbe9cf1ff97317ebe52fd9c",
+          "oddsHash": null,
+          "rows": 34723,
+          "odds": 0,
+          "specificationRows": 22478
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-prizm-draft-picks-football": {
+    "state": {
+      "checklistHash": "359da1bf80ff39dd62f50c906355c607c79f1e0988599205a5880d5fec02bcc8",
+      "oddsHash": null,
+      "rows": 13088,
+      "odds": 0,
+      "specificationRows": 9112
+    },
+    "fingerprint": "40d01aea6aa1dee095e9fcb5666d15d430c25c652746a840ca70df8d81adc4fb",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:37.952Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "359da1bf80ff39dd62f50c906355c607c79f1e0988599205a5880d5fec02bcc8",
+          "oddsHash": null,
+          "rows": 13088,
+          "odds": 0,
+          "specificationRows": 9112
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-revolution-football": {
+    "state": {
+      "checklistHash": "8b1c36e2b1f8aa21a50177e715cb404a39c8155cc9d42b796381ac19e0319a96",
+      "oddsHash": null,
+      "rows": 12931,
+      "odds": 0,
+      "specificationRows": 10430
+    },
+    "fingerprint": "27fc1da7e01231af9d95064bc157bea7d598db6f33f194cac80868d8ae3890fe",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:38.210Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "8b1c36e2b1f8aa21a50177e715cb404a39c8155cc9d42b796381ac19e0319a96",
+          "oddsHash": null,
+          "rows": 12931,
+          "odds": 0,
+          "specificationRows": 10430
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-rookies-and-stars-football": {
+    "state": {
+      "checklistHash": "d937a022dfac0d002f2d4bd1c3b07c3b0da0e4b9703c1b164ace94117ebd225c",
+      "oddsHash": null,
+      "rows": 7656,
+      "odds": 0,
+      "specificationRows": 5790
+    },
+    "fingerprint": "60fe25e1801f838d606ef95bcc7417cab4735ad4ece1f26cbabc1e23662673c5",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:38.317Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "d937a022dfac0d002f2d4bd1c3b07c3b0da0e4b9703c1b164ace94117ebd225c",
+          "oddsHash": null,
+          "rows": 7656,
+          "odds": 0,
+          "specificationRows": 5790
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-select-football": {
+    "state": {
+      "checklistHash": "4247d5fafa8e9d50768617ef71c6de614026dc0269d5a1b629658f82760f3c58",
+      "oddsHash": null,
+      "rows": 27870,
+      "odds": 0,
+      "specificationRows": 19940
+    },
+    "fingerprint": "9938b66070bce6411e94a6cd62df89516dad6106eecc7d1c1587534f2891d9dc",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:38.520Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "4247d5fafa8e9d50768617ef71c6de614026dc0269d5a1b629658f82760f3c58",
+          "oddsHash": null,
+          "rows": 27870,
+          "odds": 0,
+          "specificationRows": 19940
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-silhouette-football": {
+    "state": {
+      "checklistHash": "126afcf33e649fa6484210ab4219085ff4f5b13f9987db436934a62987a5ff2b",
+      "oddsHash": null,
+      "rows": 4064,
+      "odds": 0,
+      "specificationRows": 3789
+    },
+    "fingerprint": "f9e869e463ff92907ed2410b742af666bd4711d6ac9bca77698bc35e330b00d3",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:38.692Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "126afcf33e649fa6484210ab4219085ff4f5b13f9987db436934a62987a5ff2b",
+          "oddsHash": null,
+          "rows": 4064,
+          "odds": 0,
+          "specificationRows": 3789
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-donruss-baseball": {
+    "state": {
+      "checklistHash": "78faedd1cfb487d45706df04173252aa5438e843b12b6301e6045025be3a8eef",
+      "oddsHash": null,
+      "rows": 18068,
+      "odds": 0,
+      "specificationRows": 13052
+    },
+    "fingerprint": "2ba0d0c64ea867d081aced8dff727380189d168d708e288f6f00ecb77ee09de7",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:38.821Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "78faedd1cfb487d45706df04173252aa5438e843b12b6301e6045025be3a8eef",
+          "oddsHash": null,
+          "rows": 18068,
+          "odds": 0,
+          "specificationRows": 13052
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-donruss-nwsl-soccer": {
+    "state": {
+      "checklistHash": "6c04f3a4d576a7f820af4a2a6e08aa90e8f6dec74a9665f762305eac1a128b36",
+      "oddsHash": null,
+      "rows": 9435,
+      "odds": 0,
+      "specificationRows": 7085
+    },
+    "fingerprint": "3b978046d70d4263a1018309c2ee032f98578b6d1104c5cfa69c200912d09356",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:38.910Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "6c04f3a4d576a7f820af4a2a6e08aa90e8f6dec74a9665f762305eac1a128b36",
+          "oddsHash": null,
+          "rows": 9435,
+          "odds": 0,
+          "specificationRows": 7085
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-elite-baseball": {
+    "state": {
+      "checklistHash": "d63f2a2fde7da2d39403272ac72b9a12550bbd2f322a0d550a1339e09cba7c60",
+      "oddsHash": null,
+      "rows": 8016,
+      "odds": 0,
+      "specificationRows": 6347
+    },
+    "fingerprint": "09dacd64c5163633e64f4df39e1e5073606d7998b2278b36c685f7651c0e7475",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.228Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "d63f2a2fde7da2d39403272ac72b9a12550bbd2f322a0d550a1339e09cba7c60",
+          "oddsHash": null,
+          "rows": 8016,
+          "odds": 0,
+          "specificationRows": 6347
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-wnba-donruss-basketball": {
+    "state": {
+      "checklistHash": "fe1f95197924b7396747fa53bed34e26444e41f789ebc0f5013cfd04309f08e1",
+      "oddsHash": null,
+      "rows": 6831,
+      "odds": 0,
+      "specificationRows": 5039
+    },
+    "fingerprint": "693e49ef6d0f4222392f0f22899dbcdcd28e1d39a9e81a17d6879ae24261d311",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.355Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "fe1f95197924b7396747fa53bed34e26444e41f789ebc0f5013cfd04309f08e1",
+          "oddsHash": null,
+          "rows": 6831,
+          "odds": 0,
+          "specificationRows": 5039
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-contenders-golf": {
+    "state": {
+      "checklistHash": "db86ba2a8660aa6d0b893c07f27eefd7fb33926fef06af564ec5e1521f6a63b2",
+      "oddsHash": null,
+      "rows": 4252,
+      "odds": 0,
+      "specificationRows": 3388
+    },
+    "fingerprint": "8436d82f306b3836aaa53c4afcb17f57c3d2442f322e69b53a6d6c402e55b961",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.398Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "db86ba2a8660aa6d0b893c07f27eefd7fb33926fef06af564ec5e1521f6a63b2",
+          "oddsHash": null,
+          "rows": 4252,
+          "odds": 0,
+          "specificationRows": 3388
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-immaculate-collection-baseball": {
+    "state": {
+      "checklistHash": "a2b76b9fee015b6b67eedafec38f0b17c64ecf81781a58aba5a7314e10a74c58",
+      "oddsHash": null,
+      "rows": 3516,
+      "odds": 0,
+      "specificationRows": 3516
+    },
+    "fingerprint": "5928f2296aa1c8719705d8cec08d9fad0eeb94a2468d4f4da17a1504a46a564a",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.423Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "a2b76b9fee015b6b67eedafec38f0b17c64ecf81781a58aba5a7314e10a74c58",
+          "oddsHash": null,
+          "rows": 3516,
+          "odds": 0,
+          "specificationRows": 3516
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-luminance-england-soccer": {
+    "state": {
+      "checklistHash": "dc55208b8b7c0cdc1acecea361c0dcb27419ee70f917c857541ff948a3e5710e",
+      "oddsHash": null,
+      "rows": 675,
+      "odds": 0,
+      "specificationRows": 533
+    },
+    "fingerprint": "bb32a8b67bace5ca61b1c2417d8a95af52cc9e501f24f759f2c28e9c276152e0",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.428Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "dc55208b8b7c0cdc1acecea361c0dcb27419ee70f917c857541ff948a3e5710e",
+          "oddsHash": null,
+          "rows": 675,
+          "odds": 0,
+          "specificationRows": 533
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-luminance-france-soccer": {
+    "state": {
+      "checklistHash": "412991e99eb56a42229bb80b342ad5e0a8dd84ecab9b809ee10ad3a6966d7c7c",
+      "oddsHash": null,
+      "rows": 628,
+      "odds": 0,
+      "specificationRows": 501
+    },
+    "fingerprint": "84a068de289b0b9ac4bde5e9741d5bd43171c1b5c8a2ad2e21ae5a870c233418",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.448Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "412991e99eb56a42229bb80b342ad5e0a8dd84ecab9b809ee10ad3a6966d7c7c",
+          "oddsHash": null,
+          "rows": 628,
+          "odds": 0,
+          "specificationRows": 501
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-luminance-germany-soccer": {
+    "state": {
+      "checklistHash": "a36fa7449a037515b67bb70417e2659f2aefce98c5753229b0dfdf96f08dd61e",
+      "oddsHash": null,
+      "rows": 699,
+      "odds": 0,
+      "specificationRows": 548
+    },
+    "fingerprint": "95d7aab6d73324e33119b74fe42321de3ea36df5666c7252f00a8cb216164296",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.453Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "a36fa7449a037515b67bb70417e2659f2aefce98c5753229b0dfdf96f08dd61e",
+          "oddsHash": null,
+          "rows": 699,
+          "odds": 0,
+          "specificationRows": 548
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-obsidian-k-league-soccer": {
+    "state": {
+      "checklistHash": "df21881a6b5cb63d543c9b5dd1e537ad7c322ba4bef387c8355c416a7e7fdc51",
+      "oddsHash": null,
+      "rows": 1724,
+      "odds": 0,
+      "specificationRows": 1683
+    },
+    "fingerprint": "05788248af1250d4f07f47a366dd853c4c3aea0702246a882bd81e570e8e7f97",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.462Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "df21881a6b5cb63d543c9b5dd1e537ad7c322ba4bef387c8355c416a7e7fdc51",
+          "oddsHash": null,
+          "rows": 1724,
+          "odds": 0,
+          "specificationRows": 1683
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-panini-intl-england-soccer": {
+    "state": {
+      "checklistHash": "ae9313d36bd6e7451d33486d008c3c95535c1e0e5947c9ae3e372673d6edeca8",
+      "oddsHash": null,
+      "rows": 1032,
+      "odds": 0,
+      "specificationRows": 795
+    },
+    "fingerprint": "2a0d50c6f81fdf51a31ab4d5641f4050996068dbd1ea4958e605a279e81cbbfd",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.469Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "ae9313d36bd6e7451d33486d008c3c95535c1e0e5947c9ae3e372673d6edeca8",
+          "oddsHash": null,
+          "rows": 1032,
+          "odds": 0,
+          "specificationRows": 795
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-panini-intl-france-soccer": {
+    "state": {
+      "checklistHash": "686ef5564919fbf04493602fe308a1c5061e7d76dfa8a2b5d1568d4a844055a5",
+      "oddsHash": null,
+      "rows": 810,
+      "odds": 0,
+      "specificationRows": 588
+    },
+    "fingerprint": "efba09066b7456db83b09d7725a2491d9df85dfa6c7475d1073349455962034e",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.472Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "686ef5564919fbf04493602fe308a1c5061e7d76dfa8a2b5d1568d4a844055a5",
+          "oddsHash": null,
+          "rows": 810,
+          "odds": 0,
+          "specificationRows": 588
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-panini-intl-germany-soccer": {
+    "state": {
+      "checklistHash": "c8f7e8ed4a63864bd1ba5fc300abf22ca8c7a2d5f4b99f194338881fa0f0092d",
+      "oddsHash": null,
+      "rows": 1331,
+      "odds": 0,
+      "specificationRows": 1080
+    },
+    "fingerprint": "283fc392a78a11242e2c83380e3e4979ff229103e1880de3804b60a5920d8484",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.477Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "c8f7e8ed4a63864bd1ba5fc300abf22ca8c7a2d5f4b99f194338881fa0f0092d",
+          "oddsHash": null,
+          "rows": 1331,
+          "odds": 0,
+          "specificationRows": 1080
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-panini-intl-mexico-soccer": {
+    "state": {
+      "checklistHash": "b8cb01a3900d3b3b6c628bfd88fb321c0cae5b51ba342ca2ce5a6cd0d5770dbe",
+      "oddsHash": null,
+      "rows": 907,
+      "odds": 0,
+      "specificationRows": 682
+    },
+    "fingerprint": "148710e21e0a06149984e0429e05414eb385151c8e072e5daa0c94be20fa2b12",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.496Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "b8cb01a3900d3b3b6c628bfd88fb321c0cae5b51ba342ca2ce5a6cd0d5770dbe",
+          "oddsHash": null,
+          "rows": 907,
+          "odds": 0,
+          "specificationRows": 682
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-prizm-baseball": {
+    "state": {
+      "checklistHash": "c9d94bee4b92f2fb9a70c29da2a55a1fd7e2a8ca2b73f850ac7b2ecac19cc64c",
+      "oddsHash": null,
+      "rows": 22421,
+      "odds": 0,
+      "specificationRows": 16847
+    },
+    "fingerprint": "c1d81a1071e794d38929b1cda38f229c6f91b5320c3bbc783a5c3698267277ba",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:39.652Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "c9d94bee4b92f2fb9a70c29da2a55a1fd7e2a8ca2b73f850ac7b2ecac19cc64c",
+          "oddsHash": null,
+          "rows": 22421,
+          "odds": 0,
+          "specificationRows": 16847
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-prizm-world-cup-25-26-soccer": {
+    "state": {
+      "checklistHash": "675eebe3eefc764d0313b67b268e973e24ec8507992c38fc2648935d454df1e0",
+      "oddsHash": null,
+      "rows": 55677,
+      "odds": 0,
+      "specificationRows": 40853
+    },
+    "fingerprint": "1a173921e09b7a054a33ac790d78ad52f41bace24f0517355523af449868383a",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:40.166Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "675eebe3eefc764d0313b67b268e973e24ec8507992c38fc2648935d454df1e0",
+          "oddsHash": null,
+          "rows": 55677,
+          "odds": 0,
+          "specificationRows": 40853
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-revolution-k-league-soccer": {
+    "state": {
+      "checklistHash": "7b8a1c24def87ae8d83c0ad7ce05c6761fc45def0d42c43dc2aa9dfa5bba3896",
+      "oddsHash": null,
+      "rows": 1875,
+      "odds": 0,
+      "specificationRows": 1225
+    },
+    "fingerprint": "ac1032668637ea4f45186f77bc9782a49bf799f0e66a57caa565bc36eedcd7b8",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:40.209Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "7b8a1c24def87ae8d83c0ad7ce05c6761fc45def0d42c43dc2aa9dfa5bba3896",
+          "oddsHash": null,
+          "rows": 1875,
+          "odds": 0,
+          "specificationRows": 1225
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-select-racing": {
+    "state": {
+      "checklistHash": "11cfe9de82568fe5362c177349f7f68f391a03500a41f975597220e03159c5b1",
+      "oddsHash": null,
+      "rows": 9284,
+      "odds": 0,
+      "specificationRows": 6597
+    },
+    "fingerprint": "c85480e3753cc253237fe5a8cb02b5c52f64d5e9a368b93c84df083873cc53d0",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:40.717Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "11cfe9de82568fe5362c177349f7f68f391a03500a41f975597220e03159c5b1",
+          "oddsHash": null,
+          "rows": 9284,
+          "odds": 0,
+          "specificationRows": 6597
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-stars-and-stripes-prizm-baseball": {
+    "state": {
+      "checklistHash": "5e7e24e15d0ce838a57563e8b065b999e91568a2f19ec7066cacfb542a933048",
+      "oddsHash": null,
+      "rows": 14872,
+      "odds": 0,
+      "specificationRows": 12044
+    },
+    "fingerprint": "5c35696966e4f44e3f68d2808c053aff6ce9ffcbb547efb91d1ea1d40bea5678",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:41.070Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "5e7e24e15d0ce838a57563e8b065b999e91568a2f19ec7066cacfb542a933048",
+          "oddsHash": null,
+          "rows": 14872,
+          "odds": 0,
+          "specificationRows": 12044
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-track-kings-racing": {
+    "state": {
+      "checklistHash": "106dea8c33785d2912af139f80558da91b4e977e871ebb0b1b4ec9fbf1fa075d",
+      "oddsHash": null,
+      "rows": 5371,
+      "odds": 0,
+      "specificationRows": 4376
+    },
+    "fingerprint": "4867504c8c79b33ebd0763a028e4c0adaf0b780a4a437a7481b755c74c953790",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:41.187Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "106dea8c33785d2912af139f80558da91b4e977e871ebb0b1b4ec9fbf1fa075d",
+          "oddsHash": null,
+          "rows": 5371,
+          "odds": 0,
+          "specificationRows": 4376
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-turn-four-racing": {
+    "state": {
+      "checklistHash": "76bfcaf9603dce398d58f4ca2b9ca1034cc160a59d578a59dd541ff2ead2d095",
+      "oddsHash": null,
+      "rows": 2957,
+      "odds": 0,
+      "specificationRows": 2937
+    },
+    "fingerprint": "198ca75157b4443ab8cbb08d3ebdd0eb6905405db9225606ef63b33ba3699305",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:41.220Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "76bfcaf9603dce398d58f4ca2b9ca1034cc160a59d578a59dd541ff2ead2d095",
+          "oddsHash": null,
+          "rows": 2957,
+          "odds": 0,
+          "specificationRows": 2937
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-wnba-prizm-basketball": {
+    "state": {
+      "checklistHash": "2b681baa95bec92b1a833923cfbfb8c9c0a9031beec61c447e09434d837d2204",
+      "oddsHash": null,
+      "rows": 15433,
+      "odds": 0,
+      "specificationRows": 10366
+    },
+    "fingerprint": "4a15100a9628279295eaac95a99381ffe440ca14cd59357a7fbf41697bd0613e",
+    "events": [
+      {
+        "at": "2026-10-13T17:06:41.378Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "2b681baa95bec92b1a833923cfbfb8c9c0a9031beec61c447e09434d837d2204",
+          "oddsHash": null,
+          "rows": 15433,
+          "odds": 0,
+          "specificationRows": 10366
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-90-s-pop-culture-box-set-miscellaneous": {
+    "state": {
+      "checklistHash": "50787988092e8d35d79aa1f5d05d4ea45790aebc593b0aabaf1c675999690383",
+      "oddsHash": null,
+      "rows": 4296,
+      "odds": 0,
+      "specificationRows": 3465
+    },
+    "fingerprint": "96e97bc09fb9691bf344a074137fccce6ba2b5dc220d7f8e54dcabd9e2113548",
+    "events": [
+      {
+        "at": "2026-10-13T17:07:48.546Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "50787988092e8d35d79aa1f5d05d4ea45790aebc593b0aabaf1c675999690383",
+          "oddsHash": null,
+          "rows": 4296,
+          "odds": 0,
+          "specificationRows": 3465
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-mlw-ring-royalty-fight": {
+    "state": {
+      "checklistHash": "f28cee6d9b8b9fe6716ba124f7bacfcee2e514e7910201df45314737a1236de4",
+      "oddsHash": null,
+      "rows": 1610,
+      "odds": 0,
+      "specificationRows": 1245
+    },
+    "fingerprint": "e1774bc1a160853109d563cabb2db259a08eed9b95c03ce7fe5474ffbb4e13ce",
+    "events": [
+      {
+        "at": "2026-10-13T17:07:48.659Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "f28cee6d9b8b9fe6716ba124f7bacfcee2e514e7910201df45314737a1236de4",
+          "oddsHash": null,
+          "rows": 1610,
+          "odds": 0,
+          "specificationRows": 1245
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-pfl-contenders-fight": {
+    "state": {
+      "checklistHash": "b1bbb7477b70027850db7d8eab5b188c53fdb28bd497fb10badbb0c0d94becf8",
+      "oddsHash": null,
+      "rows": 3438,
+      "odds": 0,
+      "specificationRows": 2638
+    },
+    "fingerprint": "9d5c7a89d0624dd8999f55cc185b47c16e11eae5c6cbe2c19477885631130cb4",
+    "events": [
+      {
+        "at": "2026-10-13T17:07:48.698Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "b1bbb7477b70027850db7d8eab5b188c53fdb28bd497fb10badbb0c0d94becf8",
+          "oddsHash": null,
+          "rows": 3438,
+          "odds": 0,
+          "specificationRows": 2638
         },
         "previousSnapshot": null
       }

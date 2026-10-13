@@ -9,14 +9,15 @@ ROOT=Path(__file__).resolve().parents[1]
 SOURCE='https://www.topps.com/collections/topps-now'
 ARCHIVE=SOURCE+'-archive'
 snapshot=ROOT/'data/catalog-sources/topps-now-products.txt'
-raw=snapshot.read_text() if snapshot.exists() else ''
+raw='\n'.join(p.read_text() for p in [snapshot,*sorted((ROOT/'data/catalog-sources').glob('topps-now-backfill-*.txt'))] if p.exists())
 starts=list(re.finditer(r'^[^\n]*\((https://www\.topps\.com/products/[^)]+)\)\n',raw,re.M))
 products={}
 for i,m in enumerate(starts):
  block=raw[m.start():starts[i+1].start() if i+1<len(starts) else len(raw)]
  lines=[x.strip() for x in re.split(r'L\d+(?:@P\d+)?:\s*',block)[1:]]
  lines=[re.sub(r'\ue200cite\ue202[^\ue201]*\ue201','',x).strip() for x in lines]
- title=next((x.removeprefix('## ') for x in lines if x.startswith('## ') and ' - Card ' in x),None)
+ titles=[x for x in lines if ' - Card ' in x and re.search(r' - 20\d\d.*NOW®',x)]
+ title=next((x.removeprefix('## ') for x in titles if x.startswith('## ')),titles[0] if titles else None)
  if not title:continue
  match=re.fullmatch(r'(.+?) - (20\d\d(?:-\d\d)? .+?NOW®.*?) - Card ([A-Za-z0-9-]+)(?: - PR: ([\d,]+))?',title)
  if not match:raise ValueError('Unrecognized official product title: '+title)
@@ -75,11 +76,11 @@ def publish(slug,title,items,sport,year):
  path='data/imports/'+slug+'.json'
  payload={'title':title,'headers':headers,'rows':rows,'source':ARCHIVE,'sha256':fingerprint,'importKind':'topps-now','sectionColumn':0,'metricColumn':3,'metricLabel':'PRINT RUN','publishedSpecifications':specs,'sourceProducts':[p['evidence'] for p in items],'coverageComplete':False}
  (ROOT/path).write_text(json.dumps(payload,ensure_ascii=False)+'\n')
- return {'title':title,'slug':slug,'page':'sets/'+slug+'.html','manufacturer':'Topps / Bowman','sport':sport,'year':year,'sourcePage':SOURCE,'checklistUrl':ARCHIVE,'tableData':path,'status':'Source table','importKind':'topps-now','dedicatedParser':'scripts/import_topps_now.py','ongoingSeries':True,'coverageComplete':False,'releaseStatus':'Ongoing','releaseDate':None,'rowCount':len(rows),'sections':len(set(r[0] for r in rows)),'parallelData':bool(specs),'publishedOdds':False,'sha256':fingerprint,'verified':max(p['evidence']['observed'] for p in items),'catalogEvidence':'Partial archive: observed active listings and the first official archive page only. Earlier cards and other NOW series remain to be imported; pagination is currently inaccessible. Original sale dates, published print runs, per-card parallels and distribution terms are retained. Blank print runs mean not published in the observed source. Print runs are not pack odds.','dataAudit':'Each imported number, subject, date, print run and parallel is reconciled to retained official product text; duplicate archive listings merge by series and card number.'}
+ return {'title':title,'slug':slug,'page':'sets/'+slug+'.html','manufacturer':'Topps / Bowman','sport':sport,'year':year,'sourcePage':SOURCE,'checklistUrl':ARCHIVE,'tableData':path,'status':'Source table','importKind':'topps-now','dedicatedParser':'scripts/import_topps_now.py','ongoingSeries':True,'coverageComplete':False,'releaseStatus':'Ongoing','releaseDate':None,'rowCount':len(rows),'sections':len(set(r[0] for r in rows)),'parallelData':bool(specs),'publishedOdds':False,'sha256':fingerprint,'verified':max(p['evidence']['observed'] for p in items),'catalogEvidence':'Partial archive: observed active products and accessible global, MLB, Tennis and World Baseball Classic archive listings. Earlier cards and other NOW series remain to be imported; archive pagination is currently inaccessible. Original sale dates, published print runs, per-card parallels and distribution terms are retained. Blank print runs mean not published in the observed source. Print runs are not pack odds.','dataAudit':'Each imported number, subject, date, print run and parallel is reconciled to retained official product text; duplicate archive listings merge by series and card number.'}
 records=[publish('topps-now-2026','2026 Topps NOW & Bowman NOW',products,'multi-sport','2026')]
 for series in dict.fromkeys(p['series'] for p in products):
  year=re.match(r'20\d\d(?:-\d\d)?',series)[0]
- sport='wrestling' if 'WWE' in series else 'baseball' if 'MLB' in series else 'soccer' if 'MLS' in series else 'football' if any(x in series for x in ['NFL','Football']) else 'multi-sport'
+ sport='tennis' if 'Tennis' in series else 'wrestling' if 'WWE' in series else 'baseball' if any(x in series for x in ['MLB','World Baseball Classic']) else 'soccer' if 'MLS' in series else 'football' if any(x in series for x in ['NFL','Football']) else 'multi-sport'
  records.append(publish('topps-now-'+re.sub('[^a-z0-9]+','-',series.lower()).strip('-'),series,[p for p in products if p['series']==series],sport,year))
 (ROOT/'data/topps-now-official-catalog.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
 p=ROOT/'data/set-catalog.json';catalog=json.loads(p.read_text());new={r['slug']:r for r in records};catalog['sets']=[r for r in catalog['sets'] if r['slug'] not in new]+records;p.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')

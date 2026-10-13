@@ -68,12 +68,21 @@ for r in catalog['sets']:
   with pdfplumber.open(path) as pdf:
    for pn,page in enumerate(pdf.pages,1):
     if pn<8:continue
-    for line in (page.extract_text() or '').splitlines():
-     if line in ['GOLDEN SKETCHES','OVERSIZED PREMIERE SKETCHES','PREMIERE SKETCHES']:family=line;continue
-     if family and line and line!='SKETCH':artistrows.append([family,'',line,str(pn),'','','',line])
-  d.update(headers=['Checklist section','Card number','Player / subjects','Source page','Actor','Character','Relic / prop','Artist'],rows=rows+artistrows)
-  r['coverageComplete']=False;d['coverageComplete']=False
-  r['catalogEvidence']='All 377 numbered source rows are reconciled to physical Actor, Character, Relic / prop and Artist columns; repeated numbers for multiple signers are preserved. The literal sketch-artist lines are retained, but wrapped artist-name grouping remains unverified. Counts are source rows, not unique cards or artists. All 74 published odds entries are imported. Exact release date is unverified.'
+    stream=b'\n'.join(c.get_data() for c in page.page_obj.contents).decode('latin1');seen=set()
+    for match in re.finditer(r'q\s+([\d.]+) ([\d.]+) ([\d.]+) ([\d.]+) re\s+W n',stream):
+     x,y,width,height=map(float,match.groups());bbox=(x,page.height-y-height,x+width,page.height-y)
+     if bbox in seen:continue
+     seen.add(bbox)
+     physical=page.filter(lambda c:c.get('object_type')=='char' and x<=(c['x0']+c['x1'])/2<x+width and bbox[1]<(c['top']+c['bottom'])/2<bbox[3])
+     text=(physical.extract_text() or '').replace('\n',' ').strip()
+     if text in ['GOLDEN SKETCHES','OVERSIZED PREMIERE SKETCHES','PREMIERE SKETCHES']:family=text;continue
+     if family and text and text!='SKETCH':artistrows.append([family,'',text,str(pn),'','','',text])
+  assert len(artistrows)==105
+  assert sum(r[7]=='Dove McHargue' for r in artistrows)==2
+  assert any(r[7]=='Matthew Warlick' for r in artistrows)
+  d.update(headers=['Checklist section','Card number','Player / subjects','Source page','Actor','Character','Relic / prop','Artist'],rows=rows+artistrows,coverageComplete=True,unclassifiedLines=[])
+  r['coverageComplete']=True
+  r['catalogEvidence']='All 377 numbered source rows are reconciled to physical Actor, Character, Relic / prop and Artist columns; repeated numbers for multiple signers are preserved. All 105 sketch-artist entries are reconciled to original PDF cell clipping boxes, including eight wrapped names. Counts are source entries, not unique cards or artists. All 74 published odds entries are imported. Exact release date is unverified.'
  r['dataAudit']=r['catalogEvidence']
  r.update(dedicatedParser='scripts/import_marvel_2026.py',rowCount=len(d['rows']),sections=len(set(x[0] for x in d['rows'])),parallelData=True)
  d['unclassifiedLines']=[] if 'Mint' in r['title'] else d.get('unclassifiedLines',[])
