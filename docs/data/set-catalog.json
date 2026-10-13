@@ -5008,7 +5008,7 @@
       "releaseDate": null,
       "status": "Source table",
       "verified": "2026-10-12",
-      "catalogEvidence": "All 377 recognized numbered source rows and the literal printed sketch-artist lines are preserved. Some artist names wrap across printed lines; their grouping and separate actor/character/relic columns still require physical-column validation. Counts are source rows, not unique cards or artists. Exact release date is unverified.",
+      "catalogEvidence": "All 377 numbered source rows are reconciled to physical Actor, Character, Relic / prop and Artist columns; repeated numbers for multiple signers are preserved. The literal sketch-artist lines are retained, but wrapped artist-name grouping remains unverified. Counts are source rows, not unique cards or artists. All 74 published odds entries are imported. Exact release date is unverified.",
       "odds": 74,
       "formats": 3,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Marvel_Vault_Odds.pdf?v=1786546333",
@@ -5017,7 +5017,7 @@
       "tableData": "data/imports/topps-bowman-2026-topps-vault-marvel.json",
       "sections": 23,
       "importKind": "pdf",
-      "dataAudit": "All 377 recognized numbered source rows and the literal printed sketch-artist lines are preserved. Some artist names wrap across printed lines; their grouping and separate actor/character/relic columns still require physical-column validation. Counts are source rows, not unique cards or artists. Exact release date is unverified.",
+      "dataAudit": "All 377 numbered source rows are reconciled to physical Actor, Character, Relic / prop and Artist columns; repeated numbers for multiple signers are preserved. The literal sketch-artist lines are retained, but wrapped artist-name grouping remains unverified. Counts are source rows, not unique cards or artists. All 74 published odds entries are imported. Exact release date is unverified.",
       "parallelData": true,
       "coverageComplete": false,
       "dedicatedParser": "scripts/import_marvel_2026.py"
