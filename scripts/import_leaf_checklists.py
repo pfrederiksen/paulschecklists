@@ -49,6 +49,8 @@ if __name__=='__main__':
  catalog=json.loads((ROOT/'data/set-catalog.json').read_text());records=json.loads((ROOT/'data/leaf-official-catalog.json').read_text())
  for record in records:
   old=next((s for s in catalog['sets'] if s['slug']==record['slug']),None)
+  if old and old.get('dedicatedParser')=='scripts/import_leaf_entertainment.py' and old['checklistUrl']==record['checklistUrl']:
+   print(record['title'],'preserved dedicated entertainment import',flush=True);continue
   result=dict(record)
   try:
    if not record['checklistUrl'].split('?')[0].endswith('.xlsx'):raise ValueError('Official document format needs a dedicated parser')

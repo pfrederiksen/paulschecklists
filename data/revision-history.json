@@ -4353,14 +4353,37 @@
   },
   "leaf-2025-leaf-red-carpet-collection": {
     "state": {
-      "checklistHash": null,
+      "checklistHash": "1ae38465ff0d8e15927d58a64090cf1faecc5a1fcffc72c89cb0be8fecf640a6",
       "oddsHash": null,
-      "rows": 0,
+      "rows": 840,
       "odds": 0,
-      "specificationRows": 0
+      "specificationRows": 840
     },
-    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "fingerprint": "079e4fddedacf5732e20dc4f3cd7c69d478db26dc058757a6162a2e34a8e3cb7",
     "events": [
+      {
+        "at": "2026-10-13T02:06:06.904Z",
+        "changes": [
+          "Official checklist document changed.",
+          "Checklist entries: 0 → 840",
+          "Numbering specification rows: 0 → 840"
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/695c1fc9ba8e567de0f30d69_2025_Leaf_Red_Carpet_Collection_CL_F.xlsx",
+        "snapshot": {
+          "checklistHash": "1ae38465ff0d8e15927d58a64090cf1faecc5a1fcffc72c89cb0be8fecf640a6",
+          "oddsHash": null,
+          "rows": 840,
+          "odds": 0,
+          "specificationRows": 840
+        },
+        "previousSnapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T01:06:39.377Z",
         "changes": [
@@ -4380,14 +4403,37 @@
   },
   "leaf-2026-leaf-metal-pop-century": {
     "state": {
-      "checklistHash": null,
+      "checklistHash": "b967903b947aa856f62b3b0e2b0b88af0fb5e7260a7db19305bc5856be222a32",
       "oddsHash": null,
-      "rows": 0,
+      "rows": 4551,
       "odds": 0,
-      "specificationRows": 0
+      "specificationRows": 4551
     },
-    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "fingerprint": "92b043b38f53d31840e415c20e60e01b9e8fd0d032b9d4be1fc50e54083f72fe",
     "events": [
+      {
+        "at": "2026-10-13T02:06:06.911Z",
+        "changes": [
+          "Official checklist document changed.",
+          "Checklist entries: 0 → 4551",
+          "Numbering specification rows: 0 → 4551"
+        ],
+        "source": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69f500d7b489df389e824062_2026_Leaf_Metal_Pop_Century_CL_F.xlsx",
+        "snapshot": {
+          "checklistHash": "b967903b947aa856f62b3b0e2b0b88af0fb5e7260a7db19305bc5856be222a32",
+          "oddsHash": null,
+          "rows": 4551,
+          "odds": 0,
+          "specificationRows": 4551
+        },
+        "previousSnapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T01:06:39.377Z",
         "changes": [
@@ -4589,6 +4635,87 @@
           "rows": 11,
           "odds": 0,
           "specificationRows": 55
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-mint-marvel": {
+    "state": {
+      "checklistHash": "d6e00bc1e01fe33821aad67d57d5e1bc896e4a40065abd0a16bf61494949b28e",
+      "oddsHash": "a5b8beba22465ab2cbf802ef236a21df7ee97ccac0b8811f4375e59757bf552e",
+      "rows": 480,
+      "odds": 76,
+      "specificationRows": 2
+    },
+    "fingerprint": "481b05d49fbc85303c84e5784f09e66e17ebdc2189810830868af2fc26b729cc",
+    "events": [
+      {
+        "at": "2026-10-13T02:06:06.923Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MARM_Checklist.pdf?v=1784816709",
+        "snapshot": {
+          "checklistHash": "d6e00bc1e01fe33821aad67d57d5e1bc896e4a40065abd0a16bf61494949b28e",
+          "oddsHash": "a5b8beba22465ab2cbf802ef236a21df7ee97ccac0b8811f4375e59757bf552e",
+          "rows": 480,
+          "odds": 76,
+          "specificationRows": 2
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-vault-marvel": {
+    "state": {
+      "checklistHash": "7f810561b8f3979d4188140ed9c603520cfbe7a6b43c3b3371f48e68032be66f",
+      "oddsHash": "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1",
+      "rows": 490,
+      "odds": 74,
+      "specificationRows": 0
+    },
+    "fingerprint": "5936173d11087f69f57f5567c8e8503800a791fc54fff5753b8a5de6fef268d1",
+    "events": [
+      {
+        "at": "2026-10-13T02:06:06.925Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25MARV_Checklist_1.pdf?v=1785864090",
+        "snapshot": {
+          "checklistHash": "7f810561b8f3979d4188140ed9c603520cfbe7a6b43c3b3371f48e68032be66f",
+          "oddsHash": "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1",
+          "rows": 490,
+          "odds": 74,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-universe-wwe": {
+    "state": {
+      "checklistHash": "8b46f5ac8dea783ee62b1fe577be7efa79b504eeab76d986df136d81a4977ed9",
+      "oddsHash": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
+      "rows": 922,
+      "odds": 323,
+      "specificationRows": 0
+    },
+    "fingerprint": "29ae6889920b7919a0520aa0f7618dcdb1c727ebc80bf2cca8885a4b27b807f2",
+    "events": [
+      {
+        "at": "2026-10-13T02:07:57.962Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26UWWE_-_2026_Topps_Universe_WWE_Checklist.xls?v=1785937675",
+        "snapshot": {
+          "checklistHash": "8b46f5ac8dea783ee62b1fe577be7efa79b504eeab76d986df136d81a4977ed9",
+          "oddsHash": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
+          "rows": 922,
+          "odds": 323,
+          "specificationRows": 0
         },
         "previousSnapshot": null
       }
