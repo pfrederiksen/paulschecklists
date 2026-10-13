@@ -25,3 +25,7 @@ get('catalog-reset').onclick();assert.equal(get('coverage-filter').value,'search
 get('show-full').onclick();assert.equal(get('coverage-filter').value,'full');assert.equal(get('complete-total').textContent,catalog.sets.filter(s=>(s.odds||s.publishedOdds)&&(s.status==='Searchable'||(s.tableData&&s.rosterPublished!==false))).length);
 get('coverage-filter').value='upcoming';get('coverage-filter').change();assert.equal(get('catalog-count').textContent,`${catalog.sets.filter(s=>s.releaseStatus==='Upcoming').length} ${catalog.sets.filter(s=>s.releaseStatus==='Upcoming').length===1?'set':'sets'}`);assert(output.includes('Upcoming'));
 console.log('Verified one-click cards + odds filter, availability counts and upcoming release filter.');
+
+const ongoingInventory=JSON.parse(await readFile('data/topps-now-official-catalog.json','utf8'));
+for(const series of ongoingInventory){const published=catalog.sets.find(set=>set.slug===series.slug);assert(published,'Published NOW slug must survive discovery: '+series.slug);assert.equal(published.page,series.page);}
+console.log('Verified published NOW series slugs and page URLs remain stable.');

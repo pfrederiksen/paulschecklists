@@ -4747,5 +4747,59 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "wild-card-2026-wild-card-matte-metal-trump": {
+    "state": {
+      "checklistHash": null,
+      "oddsHash": null,
+      "rows": 0,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "events": [
+      {
+        "at": "2026-10-13T04:02:56.844Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/matte__2026-matte-metal-trump.html",
+        "snapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-matte-metal-entertainment-national-exclusive": {
+    "state": {
+      "checklistHash": "32b18becd47d7cc40e2aa538619d5bd12d559c8ee503be60f48e967f162c0fb0",
+      "oddsHash": null,
+      "rows": 101,
+      "odds": 0,
+      "specificationRows": 23
+    },
+    "fingerprint": "8b894f116b0a5a7da1cf58aa87f9edd0bdbe48a4750c9edf18a465895fc39161",
+    "events": [
+      {
+        "at": "2026-10-13T04:02:56.844Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-matte-metal-entertainment-ntl-exclusive.html",
+        "snapshot": {
+          "checklistHash": "32b18becd47d7cc40e2aa538619d5bd12d559c8ee503be60f48e967f162c0fb0",
+          "oddsHash": null,
+          "rows": 101,
+          "odds": 0,
+          "specificationRows": 23
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

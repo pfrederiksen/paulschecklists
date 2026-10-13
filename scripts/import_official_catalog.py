@@ -135,7 +135,7 @@ def run(r):
    r.update(status='Source table',rowCount=len(rows),tableData='data/imports/'+r['slug']+'.json',sections=len(set(row[0] for row in rows)),importKind='pdf')
   elif r['manufacturer']=='Wild Card':
    path=CACHE/(r['slug']+'.html');blob=fetch(r['checklistUrl'],path);text=blob.decode();
-   if 'Page not found. This page is no longer available.' in text:r['sourceUnavailable']=True;raise ValueError('Official catalog link returns a missing page')
+   if 'Page not found. This page is no longer available.' in text or re.search(r'<title>\s*404|This page is no longer available',text,re.I):r['sourceUnavailable']=True;raise ValueError('Official catalog link returns a missing page')
    m=re.search(r'const\s+C\s*=\s*',text)
    if not m:raise ValueError('Embedded checklist schema unavailable')
    data,_=json.JSONDecoder().raw_decode(text[m.end():]);data.pop('images',None)
@@ -174,7 +174,7 @@ def run(r):
    payload['oddsColumn']=oi;payload['serialColumn']=si
    r.update(importKind='html',parallelData=True,publishedOdds=oi is not None and any(row[oi] for row in payload['rows']),sections=len(set(row[0] for row in payload['rows'])))
   else:return r
-  (ROOT/r['tableData']).write_text(json.dumps(payload,ensure_ascii=False)+'\n');r.pop('importIssue',None)
+  (ROOT/r['tableData']).write_text(json.dumps(payload,ensure_ascii=False)+'\n');r.pop('importIssue',None);r.pop('sourceUnavailable',None)
   r['dataAudit']='Official fields imported; missing manufacturer odds or serial numbering are not estimated.'
  except Exception as e:r['importIssue']=str(e)[:220]
  print(r['title'],r.get('rowCount',0),r.get('odds',0),r.get('importIssue',''),flush=True);return r

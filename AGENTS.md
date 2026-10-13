@@ -37,3 +37,5 @@ Refresh celebrity workbooks with `scripts/import_leaf_entertainment.py` using bu
 Refresh 2026 Universe WWE with `scripts/import_topps_universe_wwe_2026.py` using bundled xlrd/pdfplumber. Preserve its dedicatedParser marker and XLS source columns; printed Raw/Smackdown/Legend designations are not teams. Keep the 200 base and 100 Peak Performance reconciliation and all three physical odds columns.
 
 Refresh Stadium Club WWE with `scripts/import_topps_stadium_wwe_2026.py`. Name and designation cells overlap in the official PDF; preserve original glyph draw order and physical cell origins. Do not replace it with x-sorted generic text. Keep the published designations separate from teams and retain the literal Hobby/Value/Mega ratios, including cards-per-pack values.
+
+Refresh Wild Card discovery with `python3 scripts/discover_wildcard.py`; include Entertainment. Catalog entries with soft 404 checklist links remain explicitly unavailable/source-only. Preserve supplied slugs and page paths during discovery expansion, especially the published Topps NOW aggregate and series URLs.

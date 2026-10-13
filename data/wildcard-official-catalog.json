@@ -1,8 +1,8 @@
 [
   {
     "f": "5-card-draw__2026-wild-card-5-card-draw-stacked-deck-football-breakers-brick-black-tie.html",
-    "t": "2026 Wild Card 5 Card Draw\u2122 Stacked Deck Football Breakers Brick Black Tie Edition",
-    "p": "5 Card Draw\u2122",
+    "t": "2026 Wild Card 5 Card Draw™ Stacked Deck Football Breakers Brick Black Tie Edition",
+    "p": "5 Card Draw™",
     "pk": "5-card-draw",
     "y": "2026",
     "s": "Football",
@@ -13,8 +13,8 @@
   },
   {
     "f": "5-card-draw__2026-wild-card-5-card-draw-stacked-deck-football-hobby-jumbo.html",
-    "t": "2026 Wild Card 5 Card Draw\u2122 Stacked Deck Football Hobby Jumbo",
-    "p": "5 Card Draw\u2122",
+    "t": "2026 Wild Card 5 Card Draw™ Stacked Deck Football Hobby Jumbo",
+    "p": "5 Card Draw™",
     "pk": "5-card-draw",
     "y": "2026",
     "s": "Football",
@@ -25,8 +25,8 @@
   },
   {
     "f": "7-card-studs-tm__2026-wild-card-7-card-studs-football-promo.html",
-    "t": "2026 Wild Card 7 Card Studs\u2122 Football Promo",
-    "p": "7 Card Studs\u2122",
+    "t": "2026 Wild Card 7 Card Studs™ Football Promo",
+    "p": "7 Card Studs™",
     "pk": "7-card-studs-tm",
     "y": "2026",
     "s": "Football",
@@ -38,7 +38,7 @@
   {
     "f": "alumination__2026-dino-might-football.html",
     "t": "Wild Card Dino-Might Football",
-    "p": "Alumination\u2122",
+    "p": "Alumination™",
     "pk": "alumination",
     "y": "2026",
     "s": "Football",
@@ -50,7 +50,7 @@
   {
     "f": "alumination__2026-dino-might-mammoth-america-250th-edition.html",
     "t": "Dino Might Mammoth America 250th Edition",
-    "p": "Alumination\u2122",
+    "p": "Alumination™",
     "pk": "alumination",
     "y": "2026",
     "s": "Multi-Sport",
@@ -61,8 +61,8 @@
   },
   {
     "f": "alumination__2026-wild-card-alumination-just-the-hits-football.html",
-    "t": "Alumination \u00b7 Just The Hits Football",
-    "p": "Alumination\u2122",
+    "t": "Alumination · Just The Hits Football",
+    "p": "Alumination™",
     "pk": "alumination",
     "y": "2026",
     "s": "Football",
@@ -73,7 +73,7 @@
   {
     "f": "alumination__wild-card-2026-just-the-hits-football-250th.html",
     "t": "2026 Wild Card Alumination Just The Hits Football 250th",
-    "p": "Alumination\u2122",
+    "p": "Alumination™",
     "pk": "alumination",
     "y": "2026",
     "s": "Football",
@@ -144,7 +144,7 @@
   {
     "f": "matte__2026-wild-card-matte-rookies.html",
     "t": "2026 Wild Card Matte Rookies",
-    "p": "Matte\u2122",
+    "p": "Matte™",
     "pk": "matte",
     "y": "2026",
     "s": "Multi-Sport",
@@ -155,8 +155,8 @@
   },
   {
     "f": "matte__matte-metal-multi-sport.html",
-    "t": "2026 Matte Metal \u00b7 Multi-Sport",
-    "p": "Matte\u2122",
+    "t": "2026 Matte Metal · Multi-Sport",
+    "p": "Matte™",
     "pk": "matte",
     "y": "2026",
     "s": "Multi-Sport",
@@ -167,7 +167,7 @@
   },
   {
     "f": "pop1__2026-wild-card-pop1-national-exclusive.html",
-    "t": "Wild Card Pop.1 \u00b7 National Exclusive",
+    "t": "Wild Card Pop.1 · National Exclusive",
     "p": "Promos & Exclusives",
     "pk": "pop1",
     "y": "2026",
@@ -251,7 +251,7 @@
   },
   {
     "f": "splat__lucky-strike.html",
-    "t": "2026 Wild Card Splat\u2122 Lucky Strike Multi-Sport",
+    "t": "2026 Wild Card Splat™ Lucky Strike Multi-Sport",
     "p": "Splat",
     "pk": "splat",
     "y": "2026",
@@ -264,7 +264,7 @@
   {
     "f": "alumination__2024-dino-might-lamine-yamal.html",
     "t": "2026 Wild Card Dino-Might Lamine Yamal",
-    "p": "Alumination\u2122",
+    "p": "Alumination™",
     "pk": "alumination",
     "y": "2026",
     "s": "Soccer",
@@ -312,7 +312,7 @@
   {
     "f": "alumination__2026-comix-soccer.html",
     "t": "2026 Wild Card Comix Soccer",
-    "p": "Alumination\u2122",
+    "p": "Alumination™",
     "pk": "alumination",
     "y": "2026",
     "s": "Soccer",
@@ -336,7 +336,7 @@
   {
     "f": "matte__2026-matte-metal-soccer.html",
     "t": "2026 Wild Card Matte Metal Soccer",
-    "p": "Matte\u2122",
+    "p": "Matte™",
     "pk": "matte",
     "y": "2026",
     "s": "Soccer",
@@ -348,7 +348,7 @@
   {
     "f": "matte__2026-matte-metal-graffiti-multi-sport-hobby.html",
     "t": "2026 Wild Card Matte Metal Graffiti Multi-Sport Hobby",
-    "p": "Matte\u2122",
+    "p": "Matte™",
     "pk": "matte",
     "y": "2026",
     "s": "Multi-Sport",
@@ -474,5 +474,29 @@
     "bd": 47,
     "pl": 63,
     "mo": "October"
+  },
+  {
+    "f": "matte__2026-matte-metal-trump.html",
+    "t": "2026 Wild Card Matte Metal Trump",
+    "p": "Matte™",
+    "pk": "matte",
+    "y": "2026",
+    "s": "Entertainment",
+    "sub": 13,
+    "bd": 13,
+    "pl": 50,
+    "mo": "October"
+  },
+  {
+    "f": "promos-exclusive__2026-matte-metal-entertainment-ntl-exclusive.html",
+    "t": "2026 Wild Card Matte Metal Entertainment National Exclusive",
+    "p": "Promos & Exclusives",
+    "pk": "promos-exclusive",
+    "y": "2026",
+    "s": "Entertainment",
+    "sub": 4,
+    "bd": 8,
+    "pl": 101,
+    "mo": "July"
   }
 ]
