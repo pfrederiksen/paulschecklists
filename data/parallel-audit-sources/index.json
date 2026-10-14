@@ -1,0 +1,651 @@
+{
+  "checked": "2026-10-13",
+  "basis": "Official-domain search snapshots are discovery evidence; entries require verified family mappings before publication.",
+  "batches": [
+    {
+      "batch": 0,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-topps-chrome-football",
+          "title": "2025 Topps Chrome® Football",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-chrome-football-sapphire",
+          "title": "2025 Topps Chrome® Football Sapphire",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-chrome-formula-1-sapphire-edition",
+          "title": "2025 Topps Chrome® Formula 1 - Sapphire Edition",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-topps-chrome-major-league-soccer-2026",
+          "title": "Topps Chrome® Major League Soccer 2026",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 33572
+    },
+    {
+      "batch": 1,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball",
+          "title": "2025 Topps Chrome® McDonald's All-American Basketball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-chrome-platinum-baseball",
+          "title": "2025 Topps Chrome® Platinum Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-u-s-winter-olympics-paralympic-team-hopefuls",
+          "title": "2026 Topps Chrome® U.S. Winter Olympics & Paralympic Team Hopefuls",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-topps-chrome-uefa-club-competitions-2025-26",
+          "title": "Topps Chrome® UEFA Club Competitions 2025-26",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 31720
+    },
+    {
+      "batch": 2,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-topps-finest-baseball",
+          "title": "2026 Topps Finest Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-26-topps-finest-basketball",
+          "title": "2025-26 Topps Finest Basketball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-finest-football",
+          "title": "2025 Topps Finest Football",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-topps-finest-premier-league-2026",
+          "title": "Topps® Finest Premier League 2026",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 25422
+    },
+    {
+      "batch": 3,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-topps-flagship-football",
+          "title": "2026 Topps Flagship Football",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-heritage-baseball",
+          "title": "2026 Topps Heritage Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-heritage-football",
+          "title": "2026 Topps Heritage Football",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-holiday-baseball",
+          "title": "2026 Topps Holiday Baseball",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 35149
+    },
+    {
+      "batch": 4,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-26-topps-hopps-basketball",
+          "title": "2025-26 Topps Hopps Basketball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-inception-baseball",
+          "title": "2025 Topps Inception Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-tribute-baseball",
+          "title": "2026 Topps Tribute Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-universe-wwe",
+          "title": "2025 Topps Universe WWE",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 35122
+    },
+    {
+      "batch": 5,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-topps-update-series-baseball",
+          "title": "2026 Topps Update Series Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-royalty-ufc",
+          "title": "2025 Topps Royalty UFC",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-royalty-wwe",
+          "title": "2025 Topps Royalty WWE",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-series-1-baseball",
+          "title": "2026 Topps Series 1 Baseball",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 31821
+    },
+    {
+      "batch": 6,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-topps-series-2-baseball",
+          "title": "2026 Topps Series 2 Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-26-topps-signature-class-basketball",
+          "title": "2025-26 Topps Signature Class Basketball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-signature-class-football",
+          "title": "2025 Topps Signature Class Football",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-stadium-club-baseball",
+          "title": "2025 Topps Stadium Club Baseball",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 30523
+    },
+    {
+      "batch": 7,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-26-topps-three-basketball",
+          "title": "2025-26 Topps Three Basketball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-tier-one-baseball",
+          "title": "2026 Topps Tier One Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-transcendent-collection-baseball",
+          "title": "2025 Topps Transcendent Collection Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-26-topps-chrome-updates-basketball",
+          "title": "2025-26 Topps Chrome® Updates Basketball",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 30254
+    },
+    {
+      "batch": 8,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-26-topps-chrome-updates-basketball-sapphire-edition",
+          "title": "2025-26 Topps Chrome® Updates Basketball Sapphire Edition",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-wwe",
+          "title": "2026 Topps Chrome® WWE",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-cosmic-chrome-baseball",
+          "title": "2026 Topps Cosmic Chrome® Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-26-topps-cosmic-chrome-basketball",
+          "title": "2025-26 Topps Cosmic Chrome® Basketball",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 20222
+    },
+    {
+      "batch": 9,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-topps-cosmic-chrome-football",
+          "title": "2025 Topps Cosmic Chrome® Football",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-definitive-baseball",
+          "title": "2025 Topps Definitive Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-dynamic-duals-baseball",
+          "title": "2026 Topps Dynamic Duals Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-dynasty-baseball",
+          "title": "2025 Topps Dynasty Baseball",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 26402
+    },
+    {
+      "batch": 10,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-topps-exalted-wwe",
+          "title": "2025 Topps Exalted WWE",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-bowman-baseball",
+          "title": "2026 Bowman Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-26-bowman-basketball",
+          "title": "2025-26 Bowman Basketball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-bowman-chrome-baseball",
+          "title": "2026 Bowman Chrome® Baseball",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 33202
+    },
+    {
+      "batch": 11,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-bowman-chrome-baseball-mega-box",
+          "title": "2026 Bowman Chrome® Baseball Mega Box",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-bowman-chrome-baseball-sapphire-edition",
+          "title": "2026 Bowman Chrome® Baseball Sapphire Edition",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-bowman-draft-baseball-sapphire-edition",
+          "title": "2025 Bowman Draft Baseball Sapphire Edition",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-bowman-s-best-baseball",
+          "title": "2025 Bowman's Best Baseball",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 35462
+    },
+    {
+      "batch": 12,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-26-bowman-university-best-basketball",
+          "title": "2025-26 Bowman University Best Basketball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-bowman-football",
+          "title": "2026 Bowman Football",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-national-sports-collectors-convention",
+          "title": "2026 National Sports Collectors Convention",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-26-topps-inception-basketball",
+          "title": "2025-26 Topps Inception Basketball",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 22099
+    },
+    {
+      "batch": 13,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-topps-inception-football",
+          "title": "2026 Topps Inception Football",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-26-topps-manchester-united-collector-tin",
+          "title": "2025/26 Topps Manchester United Collector Tin",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-topps-manchester-united-2025-26-team-set",
+          "title": "Topps® Manchester United 2025/26 Team Set",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-midnight-ufc",
+          "title": "2026 Topps Midnight UFC",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 34060
+    },
+    {
+      "batch": 14,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-topps-museum-collection-baseball",
+          "title": "2025 Topps Museum Collection Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-museum-collection-baseball",
+          "title": "2026 Topps Museum Collection Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-26-topps-nbl-basketball",
+          "title": "2025-26 Topps NBL Basketball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-pristine-baseball",
+          "title": "2025 Topps Pristine Baseball",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 34125
+    },
+    {
+      "batch": 15,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-topps-resurgence-football",
+          "title": "2025 Topps Resurgence Football",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-26-topps-definitive-basketball",
+          "title": "2025-26 Topps Definitive Basketball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-baseball",
+          "title": "2026 Topps Chrome® Baseball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-baseball-logofractor-edition",
+          "title": "2026 Topps Chrome® Baseball Logofractor Edition",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 31444
+    },
+    {
+      "batch": 16,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-topps-chrome-baseball-sapphire-edition",
+          "title": "2026 Topps Chrome® Baseball Sapphire Edition",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection",
+          "title": "2026 Topps Chrome® Baseball – Team Samurai Japan Collection",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-26-topps-chrome-basketball-sapphire",
+          "title": "2025-26 Topps Chrome® Basketball Sapphire",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-black-basketball",
+          "title": "2026 Topps Chrome® Black Basketball",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 31220
+    },
+    {
+      "batch": 17,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-topps-chrome-black-football",
+          "title": "2025 Topps Chrome® Black Football",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-26-topps-chrome-cactus-jack-basketball",
+          "title": "2025-26 Topps Chrome® Cactus Jack Basketball",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-star-wars-masterwork",
+          "title": "2025 Star Wars Masterwork",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-30-years-of-toy-story",
+          "title": "2025 Topps 30 Years of Toy Story",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 32955
+    },
+    {
+      "batch": 18,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-topps-chrome-deadpool",
+          "title": "2025 Topps Chrome® Deadpool",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-disney",
+          "title": "2026 Topps Chrome® Disney",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-marvel-comics",
+          "title": "2026 Topps Chrome® Marvel Comics",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition",
+          "title": "2026 Topps Chrome® Marvel Comics Sapphire Edition",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 34487
+    },
+    {
+      "batch": 19,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-topps-chrome-veefriends",
+          "title": "2026 Topps Chrome® VeeFriends",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-x-jennie",
+          "title": "2026 Topps Chrome® x Jennie",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-disney-neon",
+          "title": "2026 Topps Disney Neon",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-disneyland-70th-anniversary",
+          "title": "2025 Topps Disneyland 70th Anniversary",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 33355
+    },
+    {
+      "batch": 20,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-topps-finest-fantastic-four",
+          "title": "2026 Topps Finest Fantastic Four",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-mars-attacks-christmas",
+          "title": "2026 Topps Mars Attacks Christmas",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-marvel-studios-chrome-sapphire",
+          "title": "2025 Topps Marvel Studios Chrome® Sapphire",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-marvel-the-collector",
+          "title": "2025 Topps Marvel The Collector",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 33248
+    },
+    {
+      "batch": 21,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-topps-star-wars-chrome",
+          "title": "2026 Topps Star Wars Chrome®",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-star-wars-chrome-galaxy",
+          "title": "2026 Topps Star Wars Chrome® Galaxy",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2025-topps-star-wars-smugglers-outpost",
+          "title": "2025 Topps Star Wars Smugglers Outpost",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-collector-kit-wave-2",
+          "title": "2026 Topps Collector Kit Wave 2",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 31277
+    },
+    {
+      "batch": 22,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-topps-mint-marvel",
+          "title": "2026 Topps Mint Marvel",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-vault-marvel",
+          "title": "2026 Topps Vault Marvel",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-formula-1",
+          "title": "2026 Topps Chrome Formula 1",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-midnight-football",
+          "title": "2026 Topps Midnight Football",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 34471
+    },
+    {
+      "batch": 23,
+      "sets": [
+        {
+          "slug": "topps-bowman-2026-topps-chrome-mls-sapphire",
+          "title": "2026 Topps Chrome MLS Sapphire",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-graphite-tennis",
+          "title": "2026 Topps Graphite Tennis",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-triumphant-tennis",
+          "title": "2026 Topps Triumphant Tennis",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-chrome-tennis",
+          "title": "2026 Topps Chrome Tennis",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 33568
+    },
+    {
+      "batch": 24,
+      "sets": [
+        {
+          "slug": "topps-bowman-2025-topps-chrome-tennis-sapphire-edition",
+          "title": "2025 Topps Chrome Tennis Sapphire Edition",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-universe-wwe",
+          "title": "2026 Topps Universe WWE",
+          "manufacturer": "Topps / Bowman"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-stadium-club-wwe",
+          "title": "2026 Topps Stadium Club WWE",
+          "manufacturer": "Topps / Bowman"
+        }
+      ],
+      "length": 35353
+    }
+  ]
+}

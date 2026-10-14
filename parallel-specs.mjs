@@ -17,6 +17,11 @@ export function reconcileParallels(data){
    else odds.push({name:spec.name+' '+label,values:{},numbering:publishedNumbering(row[ni]),specificationOnly:true,source:row[spec.headers.findIndex(h=>/official source/i.test(h))]});
   }
  }
+ for(const spec of data.parallelSpecifications??[]){
+  const matching=spec.oddsName?odds.find(o=>o.name===spec.oddsName):null;
+  if(matching){matching.numbering=spec.numbering;matching.numberingSource={url:spec.source,qualification:spec.qualification};matching.family=spec.family;}
+  else if(!odds.some(o=>o.specificationKey===spec.family+'|'+spec.name))odds.push({name:spec.family+' '+spec.name,family:spec.family,values:{},numbering:spec.numbering,numberingSource:{url:spec.source,qualification:spec.qualification},specificationOnly:true,specificationKey:spec.family+'|'+spec.name});
+ }
  return odds;
 }
 export function categoryNumbering(data,name){
@@ -25,3 +30,12 @@ export function categoryNumbering(data,name){
  for(const spec of data.publishedSpecifications??[]){if(parallelKey(spec.name)!==parallelKey(name))continue;const column=spec.headers.findIndex(h=>/^Published SEQUENCE$|^Published numbering$/i.test(h));if(column<0)continue;const values=[...new Set(spec.rows.filter(r=>r[column]).map(r=>publishedNumbering(r[column])))];if(values.length===1)return values[0];if(values.length>1)return 'Varies by card; see official card details';}
  return 'Not published';
 }
+
+// Only explicitly named numbering fields are formatted. Quantity, card numbers,
+// pack contents, source row numbers and unlabeled additions retain source units.
+export function specificationRows(spec){return spec.rows.map(row=>row.map((value,i)=>{
+ const header=String(spec.headers[i]??'');
+ const serial=/^Published (?:SEQUENCE|numbering)$|^(?:Unsigned|Autograph) numbering$/i.test(header);
+ const foil=spec.headers.some(h=>/^foil$/i.test(h))&&/\b(?:Silver|Platinum|Purple|Pink|Blue|Orange|Green|Red|White|Gold|Black|Bronze|Yellow)\b/i.test(header)&&!/^Quantity$|Additions/i.test(header);
+ return (serial||foil)&&/^\d+$/.test(String(value??''))?publishedNumbering(value):value;
+}));}

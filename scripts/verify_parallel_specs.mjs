@@ -13,3 +13,10 @@ const panini={serialColumn:2,rows:[['Auto','A','10'],['Auto','B','25']]};assert.
 console.log('Verified official numbering, exact family scopes and specification-only parallels.');
 
 const csv={publishedSpecifications:[{name:'Base Orange',headers:['Card number','Athlete','Published SEQUENCE'],rows:[['1','A','25'],['2','B','25']]}]};assert.equal(categoryNumbering(csv,'Base Orange'),'/25');
+
+const registry=JSON.parse(await readFile('data/parallel-specifications.json'));
+for(const [slug,rows] of Object.entries(registry.sets)){const source=JSON.parse(await readFile(`data/imports/${slug}.json`));const reconciled=reconcileParallels(source);for(const row of rows){const o=reconciled.find(o=>row.oddsName?o.name===row.oddsName:o.specificationKey===row.family+'|'+row.name);assert(o,'Every official specification must appear in its shared parallel view');assert.equal(o.numbering,row.numbering);assert.equal(o.family,row.family);}}
+const {specificationRows}=await import('../parallel-specs.mjs');
+const leaf={headers:['Card number','Foil','Orange','Quantity','Additions'],rows:[['25','Prismatic',3,25,7]]};assert.deepEqual(specificationRows(leaf),[['25','Prismatic','/3',25,7]]);
+assert(registry.conflicts.some(c=>c.slug.includes('exalted')));assert(!registry.sets['topps-bowman-2025-topps-exalted-wwe'].some(s=>s.family==='BASE CARDS'),'Conflicting base limits must not be selected automatically');
+console.log('Verified all supplemental mappings, source-scoped limits, original quantities and recorded source conflicts.');

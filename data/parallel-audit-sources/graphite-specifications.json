@@ -1,0 +1,50 @@
+{
+  "source": "https://www.topps.com/pages/topps-graphite-tennis",
+  "publishedSpecifications": [
+    {
+      "name": "BASE CARDS",
+      "worksheet": "Official product page",
+      "headers": [
+        "Published specification",
+        "Official source"
+      ],
+      "rows": [
+        [
+          "Purple /99",
+          "https://www.topps.com/pages/topps-graphite-tennis"
+        ],
+        [
+          "Gold /25",
+          "https://www.topps.com/pages/topps-graphite-tennis"
+        ],
+        [
+          "White /10",
+          "https://www.topps.com/pages/topps-graphite-tennis"
+        ],
+        [
+          "Red Crystalline Refractor 1/1",
+          "https://www.topps.com/pages/topps-graphite-tennis"
+        ]
+      ]
+    },
+    {
+      "name": "Hobby box contents",
+      "worksheet": "Official product page",
+      "headers": [
+        "Published specification",
+        "Official source"
+      ],
+      "rows": [
+        [
+          "4 autographs per box",
+          "https://www.topps.com/pages/topps-graphite-tennis"
+        ],
+        [
+          "2 relic cards per box",
+          "https://www.topps.com/pages/topps-graphite-tennis"
+        ]
+      ]
+    }
+  ],
+  "checklistSha256": "6b68179a68be61e69702e02390cb8763ec3c35340f4d76deadfbe5910c212bfc"
+}
