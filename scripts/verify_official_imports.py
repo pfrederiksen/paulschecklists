@@ -11,7 +11,15 @@ def verify(set):
  original=collections.Counter()
  with pdfplumber.open(path) as pdf:
   for page in pdf.pages:
-   original.update(word['text'] for word in page.extract_words(x_tolerance=tolerance) if re.fullmatch(r'[\d,.]+(?::[\d,.]+)+',word['text']))
+   original.update(word['text'] for word in page.extract_words(x_tolerance=tolerance,use_text_flow=data.get('oddsParser')=='scripts/import_topps_star_wars_backfills.py') if re.fullmatch(r'[\d,.]+(?::[\d,.]+)+',word['text']))
+  for exception in data.get('oddsLiteralExceptions',[]):
+   # A malformed literal must be verified inside its original physical value
+   # cell, not promoted to a ratio or added from an arbitrary PDF number.
+   page=pdf.pages[exception['page']-1]
+   matches=[row for table in page.find_tables() for row in table.extract()[1:] if ' '.join((row[0] or '').split())==exception['name']]
+   assert len(matches)==1 and ' '.join(matches[0][1].split())==exception['value'],(set['title'],exception)
+   assert not re.fullmatch(r'[\d,.]+(?::[\d,.]+)+',exception['value'])
+   original.update([exception['value']])
  source_rows=data.get('officialOddsTable',data['odds'])
  imported=collections.Counter(value for row in source_rows for value in row['values'].values() if value)
  if data.get('oddsParser')=='scripts/official_odds_layout.py':

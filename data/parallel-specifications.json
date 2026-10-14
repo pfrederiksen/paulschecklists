@@ -2730,7 +2730,7 @@
     ],
     "topps-bowman-2025-topps-star-wars-smugglers-outpost": [
       {
-        "family": "GALACTIC FUNK",
+        "family": "Galactic Funk",
         "name": "Blue Refractor parallel",
         "numbering": "/99",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2741,7 +2741,7 @@
         "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
       },
       {
-        "family": "GALACTIC FUNK",
+        "family": "Galactic Funk",
         "name": "Gold Refractor parallel",
         "numbering": "/50",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2750,10 +2750,10 @@
         "sourceLine": 16,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
         "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
-        "oddsName": "Galactic Funk Galactic Funk Gold Refractor Parallel"
+        "oddsName": "Galactic Funk Gold Refractor Parallel"
       },
       {
-        "family": "GALACTIC FUNK",
+        "family": "Galactic Funk",
         "name": "Orange Refractor parallel",
         "numbering": "/25",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2765,7 +2765,7 @@
         "oddsName": "Galactic Funk Orange Refractor Parallel"
       },
       {
-        "family": "GALACTIC FUNK",
+        "family": "Galactic Funk",
         "name": "Black Refractor parallel",
         "numbering": "/10",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2777,7 +2777,7 @@
         "oddsName": "Galactic Funk Black Refractor Parallel"
       },
       {
-        "family": "GALACTIC FUNK",
+        "family": "Galactic Funk",
         "name": "Red Refractor parallel",
         "numbering": "/5",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2789,7 +2789,7 @@
         "oddsName": "Galactic Funk Red Refractor Parallel"
       },
       {
-        "family": "GALACTIC FUNK",
+        "family": "Galactic Funk",
         "name": "Superfractor parallel",
         "numbering": "1/1",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2801,7 +2801,7 @@
         "oddsName": "Galactic Funk Superfractor Parallel"
       },
       {
-        "family": "POWER OF THE FORCE",
+        "family": "Power of the Force",
         "name": "Blue Refractor parallel",
         "numbering": "/99",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2809,10 +2809,11 @@
         "sourceHeading": "Power of the Force",
         "sourceLine": 28,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
-        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
+        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
+        "oddsName": "Power of the Force Blue Refractor Parallel"
       },
       {
-        "family": "POWER OF THE FORCE",
+        "family": "Power of the Force",
         "name": "Gold Refractor parallel",
         "numbering": "/50",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2824,7 +2825,7 @@
         "oddsName": "Power of the Force Gold Refractor Parallel"
       },
       {
-        "family": "POWER OF THE FORCE",
+        "family": "Power of the Force",
         "name": "Orange Refractor parallel",
         "numbering": "/25",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2836,7 +2837,7 @@
         "oddsName": "Power of the Force Orange Refractor Parallel"
       },
       {
-        "family": "POWER OF THE FORCE",
+        "family": "Power of the Force",
         "name": "Black Refractor parallel",
         "numbering": "/10",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2847,7 +2848,7 @@
         "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
       },
       {
-        "family": "POWER OF THE FORCE",
+        "family": "Power of the Force",
         "name": "Red Refractor parallel",
         "numbering": "/5",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2859,7 +2860,7 @@
         "oddsName": "Power of the Force Red Refractor Parallel"
       },
       {
-        "family": "POWER OF THE FORCE",
+        "family": "Power of the Force",
         "name": "Superfractor parallel",
         "numbering": "1/1",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2871,7 +2872,7 @@
         "oddsName": "Power of the Force Superfractor Parallel"
       },
       {
-        "family": "CIVILIZED AGE ART",
+        "family": "Civilized Age Art",
         "name": "Kaleidoscope Refractor parallel",
         "numbering": "/25",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2879,10 +2880,11 @@
         "sourceHeading": "Civilized Age Art",
         "sourceLine": 41,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
-        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
+        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
+        "oddsName": "Civilized Age Art Kaleidoscope Refractor Parallel"
       },
       {
-        "family": "CIVILIZED AGE ART",
+        "family": "Civilized Age Art",
         "name": "Shimmer Refractor parallel",
         "numbering": "/10",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2894,7 +2896,7 @@
         "oddsName": "Civilized Age Art Shimmer Refractor Parallel"
       },
       {
-        "family": "CIVILIZED AGE ART",
+        "family": "Civilized Age Art",
         "name": "RayWave Refractor parallel",
         "numbering": "/5",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2906,7 +2908,7 @@
         "oddsName": "Civilized Age Art Raywave Refractor Parallel"
       },
       {
-        "family": "CIVILIZED AGE ART",
+        "family": "Civilized Age Art",
         "name": "Superfractor parallel",
         "numbering": "1/1",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2918,7 +2920,7 @@
         "oddsName": "Civilized Age Art Superfractor Parallel"
       },
       {
-        "family": "CORTOSIS METAL",
+        "family": "Cortosis Metal",
         "name": "Purple Foil parallel",
         "numbering": "/50",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2926,10 +2928,11 @@
         "sourceHeading": "Cortosis Metal",
         "sourceLine": 54,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
-        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
+        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
+        "oddsName": "Cortosis Metal Purple Foil Parallel"
       },
       {
-        "family": "CORTOSIS METAL",
+        "family": "Cortosis Metal",
         "name": "Orange Foil parallel",
         "numbering": "/25",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2941,7 +2944,7 @@
         "oddsName": "Cortosis Metal Orange Foil Parallel"
       },
       {
-        "family": "CORTOSIS METAL",
+        "family": "Cortosis Metal",
         "name": "Red Foil parallel",
         "numbering": "/10",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2953,7 +2956,7 @@
         "oddsName": "Cortosis Metal Red Foil Parallel"
       },
       {
-        "family": "CORTOSIS METAL",
+        "family": "Cortosis Metal",
         "name": "Black Foil parallel",
         "numbering": "/5",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2961,10 +2964,11 @@
         "sourceHeading": "Cortosis Metal",
         "sourceLine": 57,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
-        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
+        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
+        "oddsName": "Cortosis Metal Black Foil Parallel"
       },
       {
-        "family": "CORTOSIS METAL",
+        "family": "Cortosis Metal",
         "name": "Hyperspace parallel",
         "numbering": "1/1",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2975,7 +2979,7 @@
         "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
       },
       {
-        "family": "STELLAR SIGNATURES AUTOGRAPHS",
+        "family": "Stellar Signatures Autograph",
         "name": "Green parallel",
         "numbering": "/99",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2983,10 +2987,11 @@
         "sourceHeading": "Stellar Signatures Autographs",
         "sourceLine": 74,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
-        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
+        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
+        "oddsName": "Stellar Signatures Autograph Green Parallel"
       },
       {
-        "family": "STELLAR SIGNATURES AUTOGRAPHS",
+        "family": "Stellar Signatures Autograph",
         "name": "Blue parallel",
         "numbering": "/25",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -2994,10 +2999,11 @@
         "sourceHeading": "Stellar Signatures Autographs",
         "sourceLine": 75,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
-        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
+        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
+        "oddsName": "Stellar Signatures Autograph Blue Parallel"
       },
       {
-        "family": "STELLAR SIGNATURES AUTOGRAPHS",
+        "family": "Stellar Signatures Autograph",
         "name": "Purple parallel",
         "numbering": "/10",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -3005,10 +3011,11 @@
         "sourceHeading": "Stellar Signatures Autographs",
         "sourceLine": 76,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
-        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
+        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
+        "oddsName": "Stellar Signatures Autograph Purple Parallel"
       },
       {
-        "family": "STELLAR SIGNATURES AUTOGRAPHS",
+        "family": "Stellar Signatures Autograph",
         "name": "Gold parallel",
         "numbering": "/5",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -3016,10 +3023,11 @@
         "sourceHeading": "Stellar Signatures Autographs",
         "sourceLine": 77,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
-        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
+        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
+        "oddsName": "Stellar Signatures Autograph Gold Parallel"
       },
       {
-        "family": "STELLAR SIGNATURES AUTOGRAPHS",
+        "family": "Stellar Signatures Autograph",
         "name": "Galactic Black parallel",
         "numbering": "1/1",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -3027,10 +3035,11 @@
         "sourceHeading": "Stellar Signatures Autographs",
         "sourceLine": 78,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
-        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
+        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
+        "oddsName": "Stellar Signatures Autograph Galactic Black Parallel"
       },
       {
-        "family": "STELLAR SIGNATURES AUTOGRAPHS",
+        "family": "Stellar Signatures Autograph",
         "name": "Imperial Red parallel",
         "numbering": "1/1",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -3038,10 +3047,11 @@
         "sourceHeading": "Stellar Signatures Autographs",
         "sourceLine": 79,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
-        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
+        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
+        "oddsName": "Stellar Signatures Autograph Imperial Red Parallel"
       },
       {
-        "family": "STELLAR SIGNATURES AUTOGRAPHS",
+        "family": "Stellar Signatures Autograph",
         "name": "Rebel Alliance Orange parallel",
         "numbering": "1/1",
         "source": "https://ripped.topps.com/2025-topps-star-wars-smugglers-outpost-collectors-guide/",
@@ -3049,7 +3059,8 @@
         "sourceHeading": "Stellar Signatures Autographs",
         "sourceLine": 80,
         "evidenceFile": "data/parallel-audit-sources/topps-search-21.txt",
-        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5"
+        "evidenceSha256": "63f6d672b4514fd2a8ec83534d007be98f4876973a10a2c8ff2892807a958dc5",
+        "oddsName": "Stellar Signatures Autograph Rebel Alliance Orange Parallel"
       }
     ],
     "topps-bowman-2025-topps-exalted-wwe": [

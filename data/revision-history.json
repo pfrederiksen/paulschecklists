@@ -3947,11 +3947,11 @@
     "state": {
       "checklistHash": "5369458990a683f342c3983cf517f7820d1b8339c3a76cde03c99456f2904ace",
       "oddsHash": "01f6753be19d9c786158a857563de829eb67d41eabf5e819140f08c8cb9fce2e",
-      "rows": 662,
-      "odds": 88,
+      "rows": 868,
+      "odds": 90,
       "specificationRows": 0
     },
-    "fingerprint": "cec45f69270020afec644d6061f6333989ef15a5ec7e1791c1c79ac937f4a7b3",
+    "fingerprint": "cbf6104a75fa9f27c58af32be8c7fa18bd9a2df4ccd4cb112bcdab0ce0cf7669",
     "events": [
       {
         "at": "2026-10-13T01:06:39.164Z",
@@ -4519,12 +4519,12 @@
     "state": {
       "checklistHash": "6b73423d85bd1735f08b2a10db13833ec5646e48b2e1834a5cb7ca739f5724d6",
       "oddsHash": "96a09d1649f79dff235af447ff10b0545d1a6cd33e823c355ddaa9b7f9da8f79",
-      "rows": 881,
+      "rows": 1097,
       "odds": 127,
       "specificationRows": 28,
-      "specificationHash": "abcc440b766ca5cbfbc65ae0627f5ba458cb4590b1f824ffb894b5b2b5306601"
+      "specificationHash": "add02f1d2ae8c59f288f2395d378b059ec1aa93e7f50fe923098acecb329536f"
     },
-    "fingerprint": "654d6bbeb46941c1a008cccbf450cf53f1b04b1246645a57571d3e3ee77afb39",
+    "fingerprint": "ca4ffe4616013a89a3f7f86c2fda8884ce8af48883e76ef9fb2df15a65a0a4c5",
     "events": [
       {
         "at": "2026-10-14T01:05:02.180Z",

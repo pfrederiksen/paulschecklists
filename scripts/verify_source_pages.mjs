@@ -26,6 +26,21 @@ for(const set of cases){
  get('source-reset').onclick();assert.equal(get('source-sort').value,'checklist');assert.equal(get('source-section').value,'');
  assert(get('insights').innerHTML.includes('insight-grid'));
  get('source-odds-tab').onclick();assert.equal(get('source-cards-panel').hidden,true);assert.equal(get('source-specifications').hidden,false);get('source-cards-tab').onclick();assert.equal(get('source-specifications').hidden,true);
+ if(set.slug==='topps-bowman-2025-star-wars-masterwork'){
+  get('source-section').value='CHARACTERS';get('source-section').onchange();assert.equal(get('source-count').textContent,'100 official source rows');
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});assert(get('source-results').innerHTML.includes('Base Cards Blue'));assert(get('source-results').innerHTML.includes('1 in 6 packs'));assert(!get('source-results').innerHTML.includes('Under Disguise Rainbow Foil'));
+  get('source-reset').onclick();get('source-search').value='ARC-LUNA';get('source-search').oninput();assert(get('source-results').innerHTML.includes('Diego Luna'));
+  const actor=data.rows.findIndex(r=>r[1]==='ARC-LUNA');get('source-results').onclick({target:{closest:()=>({dataset:{row:String(actor)}})}});assert(get('source-results').innerHTML.includes('Cassian Andor'));assert(get('source-results').innerHTML.includes('Missle: Andor'));
+  get('source-reset').onclick();get('source-section').value='SKELETON CREW AUTOGRAPH RELIC';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('1,249'));assert(get('source-specifications').innerHTML.includes('without a ratio separator'));assert(!get('source-specifications').innerHTML.includes('1 in 1,249 packs'));
+  get('source-reset').onclick();get('source-cards-tab').onclick();get('source-section').value='SKETCH ARTISTS';get('source-section').onchange();assert.equal(get('source-count').textContent,'208 official source rows');get('source-search').value='ジェイソン';get('source-search').oninput();assert(get('source-results').innerHTML.includes('ジェイソン (Jason)'));get('source-reset').onclick();
+ }
+ if(set.slug==='topps-bowman-2025-topps-star-wars-smugglers-outpost'){
+  get('source-section').value='Finest Base Set';get('source-section').onchange();assert.equal(get('source-count').textContent,'75 official source rows');get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});assert(get('source-results').innerHTML.includes('Finest Base Set Green Refractor Parallel'));assert(!get('source-results').innerHTML.includes('Chrome Black Base Set Gold Refractor Parallel'));
+  get('source-reset').onclick();get('source-section').value='Galactic Funk';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Galactic Funk Gold Refractor Parallel'));assert(get('source-specifications').innerHTML.includes('/50'));assert(!get('source-specifications').innerHTML.includes('Galactic Funk Galactic Funk'));
+  get('source-reset').onclick();get('source-section').value='Stellar Signatures Autograph';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('/99'));assert(get('source-specifications').innerHTML.includes('Stellar Signatures Autograph Green Parallel'));
+  get('source-reset').onclick();get('source-cards-tab').onclick();get('source-section').value='Sketch Artist List';get('source-section').onchange();assert.equal(get('source-count').textContent,'216 official source rows');get('source-search').value='ジェイソン';get('source-search').oninput();assert(get('source-results').innerHTML.includes('ジェイソン (Jason)'));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('Artist roster name'));assert(csv.includes('ジェイソン (Jason)'));get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2026-topps-chrome-ufc'){
   get('source-cards-tab').onclick();get('source-section').value='BASE CARDS II';get('source-section').onchange();
   get('source-results').onclick({target:{closest:()=>({dataset:{row:'100'}})}});
