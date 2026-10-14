@@ -10,26 +10,37 @@ keys = [(p['series'], p['number']) for p in observations]
 assert len(keys) == len(set(keys)), 'Duplicate series/card numbers'
 assert all(p['number'] and p['evidence']['title'] for p in observations)
 regional_hashes=set()
+browser_hashes=set()
+for snapshot in (root/'data/catalog-sources').glob('topps-now-backfill-browser-*.json'):
+    retained=json.loads(snapshot.read_text())
+    assert retained['sourceKind']=='official-browser-product'
+    for product in retained['products']:
+        lines=[line.strip() for line in product['lines']]
+        browser_hashes.add((product['url'],hashlib.sha256('\n'.join(lines).encode()).hexdigest()))
+        assert ' - Card ' in lines[0] or ' - Sticker # ' in lines[0]
 for snapshot in (root/'data/catalog-sources').glob('topps-now-backfill-regional*.txt'):
     raw=snapshot.read_text()
-    starts=list(re.finditer(r'^[^\n]*\((https://(?:www|uk|uk-next)\.topps\.com/products/[^)]+)\)\n',raw,re.M))
+    starts=list(re.finditer(r'^[^\n]*\((https://(?:www|uk|uk-next|fr)\.topps\.com/products/[^)]+)\)\n',raw,re.M))
     for i,match in enumerate(starts):
         block=raw[match.start():starts[i+1].start() if i+1<len(starts) else len(raw)]
         lines=[re.sub(r'\ue200cite\ue202[^\ue201]*\ue201','',line.strip()).strip() for line in re.split(r'L\d+(?:@P\d+)?:\s*',block)[1:]]
         regional_hashes.add((match[1],hashlib.sha256('\n'.join(lines).encode()).hexdigest()))
 for p in observations:
     parsed=urlparse(p['source'])
-    assert parsed.scheme=='https' and parsed.hostname in {'www.topps.com','uk.topps.com','uk-next.topps.com'}
+    assert parsed.scheme=='https' and parsed.hostname in {'www.topps.com','uk.topps.com','uk-next.topps.com','fr.topps.com'}
     assert not p['printRun'] or p['printRun'].replace(',', '').isdigit()
     assert len(p['evidence']['sha256']) == 64
+    if p['evidence'].get('sourceKind')=='official-browser-product':
+        assert (p['source'],p['evidence']['sha256']) in browser_hashes,'Browser facts must reconcile to retained official UI text'
+        assert (root/p['evidence']['snapshotFile']).exists()
     for proof in [p['evidence'],*p.get('fieldEvidence',{}).values()]:
-        if urlparse(proof['url']).hostname in {'uk.topps.com','uk-next.topps.com'}:
+        if urlparse(proof['url']).hostname in {'uk.topps.com','uk-next.topps.com','fr.topps.com'}:
             assert (proof['url'],proof['sha256']) in regional_hashes,'Regional evidence must reconcile to a retained official web snapshot'
     if p['evidence'].get('sourceKind') == 'official-archive-title':
         assert p['evidence']['sha256'] == hashlib.sha256(p['evidence']['title'].encode()).hexdigest()
     for field,proof in p.get('fieldEvidence',{}).items():
         assert field in {'printRun','saleFrom','saleUntil','parallels','terms'}
-        assert len(proof['sha256'])==64 and urlparse(proof['url']).hostname in {'www.topps.com','uk.topps.com','uk-next.topps.com'}
+        assert len(proof['sha256'])==64 and urlparse(proof['url']).hostname in {'www.topps.com','uk.topps.com','uk-next.topps.com','fr.topps.com'}
         if proof.get('sourceKind')=='official-archive-title':
             assert field=='printRun'
             assert proof['sha256']==hashlib.sha256(proof['title'].encode()).hexdigest()
@@ -59,4 +70,21 @@ for entry in inventory:
 archive = json.loads((root / 'data/topps-now-archive-index.json').read_text())
 assert archive['coverageComplete'] is False
 assert [p['start'] for p in archive['pages']] == list(range(1, archive['pages'][-1]['start'] + 1, 24))
+by_key={(p['series'],p['number']):p for p in observations}
+browser_source=root/'data/catalog-sources/topps-now-backfill-browser-20261014.json'
+if browser_source.exists():
+    assert len(json.loads(browser_source.read_text())['products'])==38
+    assert by_key[('2026 AUSL Topps NOW®','11')]['saleFromISO']=='2026-06-18'
+    assert by_key[('2026 AUSL Topps NOW®','14')]['parallels']==['/10 Black\u00a0Foil','/5 Red\u00a0Foil','/1 FoilFractor']
+    assert '/1 Autograph Redemption Card' in by_key[('2026 AUSL Topps NOW®','14')]['terms']
+    nhl=by_key[('2025-26 NHL Topps NOW®','188')]
+    assert nhl['parallels']==['/10 Black Ice Parallels','/5 Red Ice Parallels','/1 Gold Ice Parallel']
+    assert 'Published sticker types' in nhl['terms'] and 'non-base sticker' in nhl['terms']
+    assert by_key[('2026 UFC Topps NOW®','35')]['parallels']==['/50 Gold Foil','/25 Orange\u00a0Foil','/10 Black\u00a0Foil','/5 Red\u00a0Foil','/1 FoilFractor']
+    assert by_key[('2026-27 NFL Topps NOW®','5')]['saleFromISO']=='2026-09-11'
+    assert ('2026 NFL Topps NOW®','5') not in by_key,'Conflicting regional series identity must not merge'
+    bailey=by_key[('2026-27 NFL Topps NOW®','53')]
+    assert bailey['source'].startswith('https://fr.topps.com/') and bailey['saleFromISO']=='2026-10-12'
+    assert bailey['evidence']['fields']['Disponible À Partir De']==bailey['saleFrom']
+    assert not by_key[('2026-27 NFL Topps NOW®','57')]['saleFromISO'],'An end date must not imply a sale start'
 print(f"Verified {len(observations)} NOW observations, {len(inventory)} shared tables, source fingerprints, literal parallel terms and partial coverage labels.")

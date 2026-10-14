@@ -13,7 +13,7 @@ store=ROOT/'data/topps-now-observations.json'
 previous=json.loads(store.read_text()) if store.exists() else []
 us_product_keys={unquote(urlparse(p['source']).path):(p['series'],p['number']) for p in previous if p['source'].startswith('https://www.topps.com/products/')}
 snapshot=ROOT/'data/catalog-sources/topps-now-products.txt'
-documents=sorted([p for p in [snapshot,*list((ROOT/'data/catalog-sources').glob('topps-now-backfill-*.txt'))] if p.exists()],key=lambda p:p.stat().st_mtime)
+documents=sorted([p for p in [snapshot,*list((ROOT/'data/catalog-sources').glob('topps-now-backfill-*.txt')),*list((ROOT/'data/catalog-sources').glob('topps-now-backfill-browser-*.json'))] if p.exists()],key=lambda p:p.stat().st_mtime)
 blocks=[]
 def preserve_missing_fields(product, old):
  """Carry forward published facts together with their original evidence."""
@@ -27,7 +27,17 @@ def preserve_missing_fields(product, old):
     product.setdefault('fieldEvidence',{})[field]=proof
  return product
 for document in documents:
- raw=document.read_text();starts=list(re.finditer(r'^[^\n]*\((https://(?:www|uk|uk-next)\.topps\.com/products/[^)]+)\)\n',raw,re.M))
+ if document.suffix=='.json':
+  observed=json.loads(document.read_text())
+  assert observed['sourceKind']=='official-browser-product'
+  for product in observed['products']:
+   assert product['lines'] and product['url'].startswith('https://www.topps.com/products/')
+   # These lines are retained accessibility text read on the official page,
+   # not facts reconstructed from a URL or an archive ordering.
+   raw=product['lines'][0]+' ('+product['url']+')\n'+'\n'.join('L'+str(i)+': '+line for i,line in enumerate(product['lines']))+'\n'
+   blocks.append((product['url'],raw,document))
+  continue
+ raw=document.read_text();starts=list(re.finditer(r'^[^\n]*\((https://(?:www|uk|uk-next|fr)\.topps\.com/products/[^)]+)\)\n',raw,re.M))
  for i,m in enumerate(starts):blocks.append((m[1],raw[m.start():starts[i+1].start() if i+1<len(starts) else len(raw)],document))
 products={};unparsed=[]
 for url,block,document in blocks:
@@ -46,9 +56,14 @@ for url,block,document in blocks:
  for line in lines:
   if '  | ' in line:
    key,value=line.split('  | ',1);fields[key.strip()]=value.splitlines()[0].strip()
+ for original,normalized in [('Disponible À Partir De','Available From'),("Disponible Jusqu'à",'Available Until'),('Sujets','Subjects')]:
+  if original in fields:fields.setdefault(normalized,fields[original])
  sale=re.search(r'Product is available from ([A-Za-z]+ \d{1,2}, \d{4}) and expires on ([A-Za-z]+ \d{1,2}, \d{4})', '\n'.join(lines))
  if sale:
   fields.setdefault('Available From',sale[1]);fields.setdefault('Available Until',sale[2])
+ else:
+  sale_start=re.search(r'^Product is available from ([A-Za-z]+ \d{1,2}, \d{4})$', '\n'.join(lines),re.M)
+  if sale_start:fields.setdefault('Available From',sale_start[1])
  if fields.get('Subjects'):name=fields['Subjects']
  pr=pr or fields.get('Print Run','')
  if pr and not re.fullmatch(r'[\d,]+',pr):raise ValueError('Unrecognized print run '+pr)
@@ -57,14 +72,19 @@ for url,block,document in blocks:
  end=next((j for j,x in enumerate(lines) if x=='Specs'),len(lines))
  overview='\n'.join(lines[begin+1:end]) if begin is not None else ''
  # Publish concise factual specifications, not the store's marketing copy.
- look_for=[x.removeprefix('* ') for x in lines[begin+1:end] if x.startswith('* ') and not x.startswith('*Parallels')] if begin is not None else []
+ parallel_heading=next((j for j,x in enumerate(lines) if x.startswith('Parallels:') or x=='Parallèles :'),end)
+ look_for=[x.removeprefix('* ') for x in lines[begin+1:min(end,parallel_heading)] if (x.startswith('* ') or re.match(r'^/\d+\s+.*(?:Redemption|Card)',x)) and not x.startswith('*Parallels')] if begin is not None else []
  tiers=[x for x in lines[begin+1:end] if re.match(r'^[\d,]+\+ Print Run:',x)] if begin is not None else []
  factual=[]
- if look_for:factual.append('Published card types: '+ '; '.join(look_for))
- if '*Parallels or other non-base' in overview:factual.append('A non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.')
+ if look_for:factual.append(('Published sticker types: ' if ' - Sticker # ' in title else 'Published card types: ')+ '; '.join(look_for))
+ if '*Parallels or other non-base' in overview:
+  unit='sticker' if 'non-base sticker' in overview else 'card'
+  factual.append(f'A non-base {unit} replaces the ordered base {unit}; allocation depends on total orders. Numeric pack odds are not published.')
  factual.extend(tiers)
+ if urlparse(url).hostname=='fr.topps.com':
+  factual.extend(x for x in lines[begin+1:end] if x.startswith('*Les cartes parallèles') or x.startswith('Tirage de '))
  overview='\n'.join(factual)
- parallel_start=next((j for j,x in enumerate(lines) if x=='Parallels:'),None)
+ parallel_start=next((j for j,x in enumerate(lines) if x=='Parallels:' or x=='Parallèles :'),None)
  parallels=[]
  if parallel_start is not None:
   for line in lines[parallel_start+1:]:
@@ -75,11 +95,17 @@ for url,block,document in blocks:
   inline=next((line.removeprefix('Parallels:').strip() for line in lines if line.startswith('Parallels:')),None)
   if inline:
    parallels=[part.strip() for part in re.split(r'(?=/(?:\d+)\s|1/1\s)',inline) if re.match(r'^/\d+\s|^1/1\s',part.strip())]
+  elif document.suffix=='.json' or urlparse(url).hostname=='fr.topps.com':
+   # Browser accessibility can omit a visual Parallels heading. Retain
+   # the literal named foil/ice parallels; redemption-card limits are
+   # separate Look for terms and must not become parallel names.
+   parallels=[x.removeprefix('* ').strip() for x in lines[begin+1:end] if re.match(r'^/\d+\s+',x.removeprefix('* ')) and ('Foil' in x or 'FoilFractor' in x or 'Ice Parallel' in x or urlparse(url).hostname=='fr.topps.com' and re.search(r'Feuille|foil',x,re.I))]
  key=(series,number)
  if urlparse(url).hostname!='www.topps.com' and us_product_keys.get(unquote(urlparse(url).path),key)!=key:
   unparsed.append({'url':url,'title':title,'gap':'Regional product series or card number conflicts with the retained U.S. archive identity for the same product path; do not merge its dates or create a duplicate card.'})
   continue
  evidence={'url':url,'sha256':hashlib.sha256('\n'.join(lines).encode()).hexdigest(),'observed':datetime.datetime.fromtimestamp(document.stat().st_mtime).date().isoformat(),'title':title,'fields':fields,'overview':overview}
+ if document.suffix=='.json':evidence.update(sourceKind='official-browser-product',snapshotFile=str(document.relative_to(ROOT)))
  p={'series':series,'number':number,'name':name,'printRun':pr,'saleFrom':fields.get('Available From',''),'saleUntil':fields.get('Available Until',''),'parallels':parallels,'terms':overview,'source':url,'evidence':evidence}
  if key in products:
   old=products[key]

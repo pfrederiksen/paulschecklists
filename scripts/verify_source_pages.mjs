@@ -106,6 +106,13 @@ for(const set of cases){
   get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('4 cards per pack; 18 packs per box; 4 Chrome parallels per box'));assert(get('source-specifications').innerHTML.includes('not calculated pack odds'));get('source-cards-tab').onclick();
  }
  if(kind==='topps-now'&&data.rows.some(r=>/^https:\/\/(?:uk|uk-next)\.topps\.com\//.test(r[8]))){get('source-odds-tab').onclick();assert(/href="https:\/\/(?:uk|uk-next)\.topps\.com\/products\//.test(get('source-specifications').innerHTML),'Regional official product evidence must remain linked in shared parallel tables');get('source-cards-tab').onclick();}
+ if(kind==='topps-now'&&data.rows.some(r=>r[8].startsWith('https://fr.topps.com/'))){get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Official French product'));assert(get('source-specifications').innerHTML.includes('Foil orange'));get('source-cards-tab').onclick();}
+ if(set.slug==='topps-now-2026'){
+  get('source-section').value='2025-26 NHL Topps NOW®';get('source-section').onchange();get('source-search').value='Tomas Hertl';get('source-search').oninput();
+  const index=data.rows.findIndex(r=>r[0]==='2025-26 NHL Topps NOW®'&&r[1]==='188');get('source-results').onclick({target:{closest:()=>({dataset:{row:String(index)}})}});assert(get('source-results').innerHTML.includes('Black Ice Parallels'));assert(get('source-results').innerHTML.includes('non-base sticker'));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('Jun 5, 2026'));assert(csv.includes('Gold Ice Parallel'));
+  get('source-reset').onclick();get('source-section').value='2026-27 NFL Topps NOW®';get('source-section').onchange();get('source-search').value='David Bailey';get('source-search').oninput();assert(get('source-results').innerHTML.includes('12 oct. 2026'));assert(get('source-results').innerHTML.includes('Not published'),'Active print run must remain unpublished');get('source-reset').onclick();
+ }
  if(kind==='topps-now'&&data.supplementarySourceProducts?.length){
   const proof=data.supplementarySourceProducts[0],index=data.rows.findIndex(r=>r[0]===proof.series&&r[1]===proof.number);
   get('source-results').onclick({target:{closest:()=>({dataset:{row:String(index)}})}});
