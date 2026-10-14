@@ -41,3 +41,7 @@ Refresh Stadium Club WWE with `scripts/import_topps_stadium_wwe_2026.py`. Name a
 Refresh Wild Card discovery with `python3 scripts/discover_wildcard.py`; include Entertainment. Catalog entries with soft 404 checklist links remain explicitly unavailable/source-only. Preserve supplied slugs and page paths during discovery expansion, especially the published Topps NOW aggregate and series URLs.
 
 Refresh Panini official CSV exports with `scripts/import_panini_csv.py`. Retrieve the full exports through the official checklist interface; preserve downloaded bytes in `data/official-panini/`, source hashes, filter selections and every original column. SEQUENCE is published numbering, not pack odds. Do not infer release dates from product years. Generic refreshes must preserve the dedicatedParser marker.
+
+# Parallel numbering and completeness
+
+Use `parallel-specs.mjs` to reconcile official specification-only parallels with odds categories by exact family and parallel names. Show published numbering alongside pack odds in family details, research comparisons and CSV exports. Preserve card-specific SEQUENCE, Quantity and NOW terms in original columns; never apply color-based limits across families or cards. Retain `data/sources/education.pdf` and its hash-checked visual transcription in `education-specifications.json` when rebuilding Allen & Ginter. Published odds categories alone do not prove an exhaustive parallel inventory; review product specifications and education sheets as well. Run `node scripts/verify_parallel_specs.mjs` before publishing.

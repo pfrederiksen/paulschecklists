@@ -1,0 +1,105 @@
+{
+  "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Allen_Ginter_-_Education_Sheet_8.5_x11__pdf.pdf?v=1791916537",
+  "sha256": "30ae1d3bbb6980f94e3abbd75be417245b33b70dfae0783539f7f77774698d10",
+  "transcription": "Visual transcription of image-only official education sheet page 2; exact source names matched to odds PDF.",
+  "specifications": [
+    {
+      "name": "BASE CARDS",
+      "worksheet": "Official education sheet \u00b7 page 2",
+      "headers": [
+        "Parallel / variation",
+        "Published numbering"
+      ],
+      "rows": [
+        [
+          "BASE CARDS BLUE FOIL FILAGREE PARALLEL",
+          "/150"
+        ],
+        [
+          "BASE CARDS GREEN FOIL FILAGREE PARALLEL",
+          "/99"
+        ],
+        [
+          "BASE CARDS GOLD FOIL FILAGREE PARALLEL",
+          "/50"
+        ],
+        [
+          "BASE CARDS ORANGE FOIL FILAGREE PARALLEL",
+          "/25"
+        ],
+        [
+          "BASE CARDS BLACK FOIL FILAGREE PARALLEL",
+          "/10"
+        ],
+        [
+          "BASE CARDS RED FOIL FILAGREE PARALLEL",
+          "/5"
+        ],
+        [
+          "BASE CARDS PURPLE FOIL FILAGREE PARALLEL",
+          "/1"
+        ]
+      ]
+    },
+    {
+      "name": "MINI BASEBALL AUTOGRAPHS I",
+      "worksheet": "Official education sheet \u00b7 page 2",
+      "headers": [
+        "Parallel / variation",
+        "Published numbering"
+      ],
+      "rows": [
+        [
+          "MINI BASEBALL AUTOGRAPH CARDS FRAMED MINI SIZE GREEN FRAME PARALLEL",
+          "/99"
+        ],
+        [
+          "MINI BASEBALL AUTOGRAPH CARDS FRAMED MINI SIZE BLUE FRAME PARALLEL",
+          "/50"
+        ],
+        [
+          "MINI BASEBALL AUTOGRAPH CARDS FRAMED MINI SIZE BLACK FRAME PARALLEL",
+          "/25"
+        ],
+        [
+          "MINI BASEBALL AUTOGRAPH CARDS FRAMED MINI SIZE RED INK PARALLEL",
+          "/10"
+        ],
+        [
+          "MINI BASEBALL AUTOGRAPH CARDS FRAMED MINI SIZE PURPLE FRAME PARALLEL",
+          "/1"
+        ]
+      ]
+    },
+    {
+      "name": "MINI NON BASEBALL AUTOGRAPHS",
+      "worksheet": "Official education sheet \u00b7 page 2",
+      "headers": [
+        "Parallel / variation",
+        "Published numbering"
+      ],
+      "rows": [
+        [
+          "MINI NON BASEBALL AUTOGRAPH CARDS FRAMED MINI SIZE GREEN FRAME PARALLEL",
+          "/99"
+        ],
+        [
+          "MINI NON BASEBALL AUTOGRAPH CARDS FRAMED MINI SIZE BLUE FRAME PARALLEL",
+          "/50"
+        ],
+        [
+          "MINI NON BASEBALL AUTOGRAPH CARDS FRAMED MINI SIZE BLACK FRAME PARALLEL",
+          "/25"
+        ],
+        [
+          "MINI NON BASEBALL AUTOGRAPH CARDS FRAMED MINI SIZE RED INK PARALLEL",
+          "/10"
+        ],
+        [
+          "MINI NON BASEBALL AUTOGRAPH CARDS FRAMED MINI SIZE PURPLE FRAME PARALLEL",
+          "/1"
+        ]
+      ]
+    }
+  ]
+}

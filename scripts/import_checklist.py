@@ -74,6 +74,19 @@ assert len(sections[0]['cards'])==300
 assert [int(c['number']) for c in sections[0]['cards']]==list(range(1,301))
 assert len(odds)==97,len(odds)
 result={'title':'2026 Topps Allen & Ginter Baseball','verified':'2026-10-11','sections':sections,'odds':odds,'source':{'product':'https://www.topps.com/pages/topps-allen-ginter-baseball','checklist':'https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Allen_and_Ginter.pdf?v=1788875550','odds':'https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-29_MLB-ALLEN-_-GINTER-2026_Odds.pdf?v=1790697457'},'sha256':{n:hashlib.sha256((SOURCE/n).read_bytes()).hexdigest() for n in ['checklist.pdf','odds.pdf']}}
+# Visually transcribed from the official education sheet, page 2. The sheet
+# is image-only: retain the original bytes and exact family scopes.
+education=json.loads((SOURCE/'education-specifications.json').read_text())
+assert hashlib.sha256((SOURCE/'education.pdf').read_bytes()).hexdigest()==education['sha256']
+result['publishedSpecifications']=education['specifications']
+result['source']['education']=education['url']
+result['sha256']['education.pdf']=education['sha256']
+for spec in education['specifications']:
+ for name,numbering in spec['rows']:
+  for odd in odds:
+   if odd['name']==name:
+    odd['numbering']=numbering
+    odd['numberingSource']={'url':education['url'],'page':2}
 (ROOT/'data/allen-ginter-2026.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print(len(sections),'sections;',sum(len(s['cards']) for s in sections),'cards;',len(odds),'odds entries')
 for s in sections: print(s['name'],len(s['cards']),len(s['oddsIds']))

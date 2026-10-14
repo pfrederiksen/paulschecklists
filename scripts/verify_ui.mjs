@@ -16,11 +16,11 @@ assert.match(el('result-count').textContent,/2,915 cards/);assert.match(el('insi
 assert.match(el('results').innerHTML,/Francisco Lindor/);
 el('search').value='Ohtani';el('search').events.input();assert.match(el('results').innerHTML,/Shohei Ohtani/);assert.ok(!el('results').innerHTML.includes('Francisco Lindor'));
 el('subset').value='0';el('subset').events.change();assert.equal(el('result-count').textContent,'1 card matching your search');
-el('results').onclick({target:{closest:()=>({dataset:{key:'0:17'}})}});assert.match(el('results').innerHTML,/Blue Foil Filagree/);assert.match(el('results').innerHTML,/1 in 181 packs/);
+el('results').onclick({target:{closest:()=>({dataset:{key:'0:17'}})}});assert.match(el('results').innerHTML,/Blue Foil Filagree/);assert.match(el('results').innerHTML,/1 in 181 packs/);assert.match(el('results').innerHTML,/PUBLISHED NUMBERING/);assert.match(el('results').innerHTML,/Orange Foil Filagree Parallel<\/td><td>\/25<\/td>/);
 el('format').value='fat';el('format').events.change();el('results').onclick({target:{closest:()=>({dataset:{key:'0:17'}})}});assert.match(el('results').innerHTML,/1 in 104 packs/);
 el('reset').onclick();el('rookie').checked=true;el('rookie').events.change();assert.match(el('results').innerHTML,/Murakami/);assert.ok(!el('results').innerHTML.includes('Derek Jeter'));
 el('reset').onclick();el('next').onclick();assert.equal(el('page-label').textContent,'Page 2 of 73');el('previous').onclick();assert.equal(el('page-label').textContent,'Page 1 of 73');
-el('odds-tab').onclick();assert.equal(el('result-count').textContent,'38 checklist families');assert.ok(el('team').disabled);assert.match(el('results').innerHTML,/<h3>Base Cards<\/h3>/);assert.match(el('results').innerHTML,/Blue Foil Filigree/);assert.match(el('results').innerHTML,/Pack odds are not published/);
+el('odds-tab').onclick();assert.equal(el('result-count').textContent,'38 checklist families');assert.ok(el('team').disabled);assert.match(el('results').innerHTML,/<h3>Base Cards<\/h3>/);assert.match(el('results').innerHTML,/Blue Foil Filigree/);assert.match(el('results').innerHTML,/\/25/);assert.match(el('results').innerHTML,/Pack odds are not published/);
 el('subset').value='0';el('subset').events.change();assert.equal(el('result-count').textContent,'1 checklist family');assert.match(el('results').innerHTML,/1 in 104 packs/);assert.ok(!el('results').innerHTML.includes('Dynasty'));el('reset').onclick();
 el('search').value='DYNASTY';el('search').events.input();assert.equal(el('result-count').textContent,'1 checklist family matching your search');
 el('format').value='hobby';el('format').events.change();assert.match(el('results').innerHTML,/505,584/);

@@ -1,14 +1,15 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
+import {reconcileParallels,categoryNumbering} from '../parallel-specs.mjs';
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
-const code=await readFile('source-page.js','utf8');
+const code=(await readFile('source-page.js','utf8')).replace(/^import .*;\n/, '');
 const cases=['pdf','html','wildcard','xlsx','panini-pdf'].map(kind=>catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds))).concat(catalog.sets.filter(s=>s.importKind==='topps-grid-pdf'||s.dedicatedParser));
 for(const set of cases){
  const kind=set.importKind;
  const data=JSON.parse(await readFile(set.tableData,'utf8'));
  const map=new Map(),get=id=>{if(!map.has(id))map.set(id,{value:'',options:[{}],setAttribute(k,v){this[k]=v;},focus(){},add(option){this.options.push(option);}});return map.get(id);};
- const context=vm.createContext({document:{body:{dataset:{table:set.tableData}},getElementById:get,addEventListener(){}},console,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>data})});
+ const context=vm.createContext({reconcileParallels,categoryNumbering,document:{body:{dataset:{table:set.tableData}},getElementById:get,addEventListener(){}},console,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>JSON.parse(JSON.stringify(data))})});
  await new vm.Script('(async()=>{'+code+'})()').runInContext(context);
  if(!data.rows.length){assert(get('source-results').innerHTML.includes('No matching'));assert.equal(set.rosterPublished,false);continue;}
  assert(get('source-results').innerHTML.includes('<table>'));

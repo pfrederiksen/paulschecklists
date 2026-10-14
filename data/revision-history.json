@@ -1184,15 +1184,45 @@
     "state": {
       "checklistHash": {
         "checklist.pdf": "a856119076f1b5093acd73117159a5d6c6ee7cdc57e4865cf2c4508d357a61ad",
-        "odds.pdf": "65a721d07e8530e5cf40fd0d483c1b4aec289e5a86afe6858e6b925f201b7dd4"
+        "odds.pdf": "65a721d07e8530e5cf40fd0d483c1b4aec289e5a86afe6858e6b925f201b7dd4",
+        "education.pdf": "30ae1d3bbb6980f94e3abbd75be417245b33b70dfae0783539f7f77774698d10"
       },
       "oddsHash": null,
       "rows": 2915,
       "odds": 97,
-      "specificationRows": 0
+      "specificationRows": 17
     },
-    "fingerprint": "3dde854d72ef96606abee3de4d7012b5cac622c473ebd425d9cb3fc1a7a6dc57",
+    "fingerprint": "155604f27f7c602f72e255668f98216e0ce08168d5743dcc69a4c354ef49746d",
     "events": [
+      {
+        "at": "2026-10-14T00:00:42.666Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Numbering specification rows: 0 → 17"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Allen_and_Ginter.pdf?v=1788875550",
+        "snapshot": {
+          "checklistHash": {
+            "checklist.pdf": "a856119076f1b5093acd73117159a5d6c6ee7cdc57e4865cf2c4508d357a61ad",
+            "odds.pdf": "65a721d07e8530e5cf40fd0d483c1b4aec289e5a86afe6858e6b925f201b7dd4",
+            "education.pdf": "30ae1d3bbb6980f94e3abbd75be417245b33b70dfae0783539f7f77774698d10"
+          },
+          "oddsHash": null,
+          "rows": 2915,
+          "odds": 97,
+          "specificationRows": 17
+        },
+        "previousSnapshot": {
+          "checklistHash": {
+            "checklist.pdf": "a856119076f1b5093acd73117159a5d6c6ee7cdc57e4865cf2c4508d357a61ad",
+            "odds.pdf": "65a721d07e8530e5cf40fd0d483c1b4aec289e5a86afe6858e6b925f201b7dd4"
+          },
+          "oddsHash": null,
+          "rows": 2915,
+          "odds": 97,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.542Z",
         "changes": [
