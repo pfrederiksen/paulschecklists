@@ -4185,12 +4185,34 @@
     "state": {
       "checklistHash": "89810bb1e3450d1f09a6f7d4771593c925d9ac7b8e0be2d57d0cc8d5600f9bc5",
       "oddsHash": "6bc692b68d34cf639fac05c43afa22e7f576620af819aa79e94bc35c3e19e902",
-      "rows": 495,
-      "odds": 100,
+      "rows": 720,
+      "odds": 108,
       "specificationRows": 0
     },
-    "fingerprint": "a297467b4ace6afd857a3f96225bc7e18036ec44c4136917585d6e0bd4a939a3",
+    "fingerprint": "fea44d6ce016639136fadf8753b6e63a624ad6f59d7786a5e457db3e735fabfe",
     "events": [
+      {
+        "at": "2026-10-14T03:09:16.187Z",
+        "changes": [
+          "Checklist entries: 495 → 720",
+          "Published odds entries: 100 → 108"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Disney_Neon_Checklist.pdf?v=1773149064",
+        "snapshot": {
+          "checklistHash": "89810bb1e3450d1f09a6f7d4771593c925d9ac7b8e0be2d57d0cc8d5600f9bc5",
+          "oddsHash": "6bc692b68d34cf639fac05c43afa22e7f576620af819aa79e94bc35c3e19e902",
+          "rows": 720,
+          "odds": 108,
+          "specificationRows": 0
+        },
+        "previousSnapshot": {
+          "checklistHash": "89810bb1e3450d1f09a6f7d4771593c925d9ac7b8e0be2d57d0cc8d5600f9bc5",
+          "oddsHash": "6bc692b68d34cf639fac05c43afa22e7f576620af819aa79e94bc35c3e19e902",
+          "rows": 495,
+          "odds": 100,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T01:06:39.186Z",
         "changes": [
@@ -5696,11 +5718,35 @@
       "oddsHash": "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1",
       "rows": 482,
       "odds": 74,
-      "specificationRows": 4,
-      "specificationHash": "73833378e8cb3a3601ec187defd6d2ffd3982cc1827dc6b8fa2d931325a7572b"
+      "specificationRows": 6,
+      "specificationHash": "3d20aac1ef1cc30582edd039d1c68906051b3702ce613d058b1237ba3d72dba0"
     },
-    "fingerprint": "af230400ff52f6fcc475f41a82998b541ed8dddd1a415f74994439ee9537cbab",
+    "fingerprint": "df98181345394ebc87215ccc35fde56792744b9217784641620cca570e6706f8",
     "events": [
+      {
+        "at": "2026-10-14T03:13:53.091Z",
+        "changes": [
+          "Numbering specification rows: 4 → 6",
+          "Official supplementary numbering specification changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25MARV_Checklist_1.pdf?v=1785864090",
+        "snapshot": {
+          "checklistHash": "7f810561b8f3979d4188140ed9c603520cfbe7a6b43c3b3371f48e68032be66f",
+          "oddsHash": "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1",
+          "rows": 482,
+          "odds": 74,
+          "specificationRows": 6,
+          "specificationHash": "3d20aac1ef1cc30582edd039d1c68906051b3702ce613d058b1237ba3d72dba0"
+        },
+        "previousSnapshot": {
+          "checklistHash": "7f810561b8f3979d4188140ed9c603520cfbe7a6b43c3b3371f48e68032be66f",
+          "oddsHash": "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1",
+          "rows": 482,
+          "odds": 74,
+          "specificationRows": 4,
+          "specificationHash": "73833378e8cb3a3601ec187defd6d2ffd3982cc1827dc6b8fa2d931325a7572b"
+        }
+      },
       {
         "at": "2026-10-14T00:29:36.988Z",
         "changes": [

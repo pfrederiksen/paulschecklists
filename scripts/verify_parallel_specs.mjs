@@ -20,3 +20,11 @@ const {specificationRows}=await import('../parallel-specs.mjs');
 const leaf={headers:['Card number','Foil','Orange','Quantity','Additions'],rows:[['25','Prismatic',3,25,7]]};assert.deepEqual(specificationRows(leaf),[['25','Prismatic','/3',25,7]]);
 assert(registry.conflicts.some(c=>c.slug.includes('exalted')));assert(!registry.sets['topps-bowman-2025-topps-exalted-wwe'].some(s=>s.family==='BASE CARDS'),'Conflicting base limits must not be selected automatically');
 console.log('Verified all supplemental mappings, source-scoped limits, original quantities and recorded source conflicts.');
+
+const vault=JSON.parse(await readFile('data/imports/topps-bowman-2026-topps-vault-marvel.json'));vault.odds=reconcileParallels(vault);
+assert.equal(categoryNumbering(vault,'True Greatness Black Parallel'),'/10');
+assert.equal(categoryNumbering(vault,'True Greatness Autograph Edition Black Parallel'),'Not published','A guide example must not assign numbering to a different autograph family');
+assert.equal(categoryNumbering(vault,'Marvel Duos Autographs Base'),'Not published','Unspecified guide parallel numbering must not be assigned to an inferred Base category');
+assert.equal(categoryNumbering(vault,'Marvel Diamonds Base'),'/50','Preserve the prior authoritative hobby-guide Silver/base join');
+assert.equal(categoryNumbering(vault,'Vault Relics Base'),'/50');
+assert.equal(categoryNumbering(vault,'The Vault Autograph Relic Book'),'1/1');

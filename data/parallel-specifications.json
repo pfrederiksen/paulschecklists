@@ -3301,6 +3301,28 @@
         "evidenceFile": "data/parallel-audit-sources/topps-search-22.txt",
         "evidenceSha256": "4e8fc8fcfd6834db59ebd90bada4f15309f8ba07ee614ef3bfe69e64b1f8bcf8",
         "oddsName": "The Vault Autograph Relic Book"
+      },
+      {
+        "family": "DUOS AUTOGRAPHS",
+        "name": "Duos Autographs",
+        "numbering": "Numbered to 25; parallel not specified",
+        "source": "https://ripped.topps.com/2026-topps-vault-marvel-collector-card-guide/",
+        "qualification": "The guide specifies category numbering without naming a parallel. This is not assigned to every parallel or an inferred Base category.",
+        "sourceHeading": "Duos & Triple Autographs",
+        "sourceLine": 91,
+        "evidenceFile": "data/parallel-audit-sources/vault-marvel-numbering-evidence.txt",
+        "evidenceSha256": "897141696319dc383251d06a555028780393c2c0e26f76ec1c9e129d5623b761"
+      },
+      {
+        "family": "TRIPLE AUTOGRAPHS",
+        "name": "Triple Autographs",
+        "numbering": "Numbered to 25; parallel not specified",
+        "source": "https://ripped.topps.com/2026-topps-vault-marvel-collector-card-guide/",
+        "qualification": "The guide specifies category numbering and separately illustrates a 1/1 card. This value is not assigned to every parallel.",
+        "sourceHeading": "Duos & Triple Autographs",
+        "sourceLine": 91,
+        "evidenceFile": "data/parallel-audit-sources/vault-marvel-numbering-evidence.txt",
+        "evidenceSha256": "897141696319dc383251d06a555028780393c2c0e26f76ec1c9e129d5623b761"
       }
     ],
     "topps-bowman-2026-topps-graphite-tennis": [
