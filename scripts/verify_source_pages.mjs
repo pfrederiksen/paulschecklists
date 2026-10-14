@@ -40,6 +40,20 @@ for(const set of cases){
   assert(get('source-results').innerHTML.includes('BASE CARDS SHORTPRINTS DARK GOLD PARALLEL'));assert(!get('source-results').innerHTML.includes('BASE CARDS GREEN PARALLEL'),'SP details must not receive ordinary base parallels');
   get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Odds (Per Pack)'));get('source-cards-tab').onclick();
  }
+ if(set.slug==='topps-bowman-2026-topps-dynamic-duals-baseball'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,true);
+  get('source-team').value='Milwaukee Brewers™';get('source-team').onchange();
+  assert.equal(get('source-count').textContent,`${data.rowTeams.filter(teams=>teams.includes('Milwaukee Brewers™')).length} official source rows`);
+  assert(get('source-results').innerHTML.includes('Paul Skenes / Jacob Misiorowski'),'Either printed team must match a dual card');get('source-reset').onclick();
+  get('source-section').value='Dynamic "Dozen" Autograph Booklet';get('source-section').onchange();get('source-search').value='Derek Jeter';get('source-search').oninput();
+  assert.equal(get('source-count').textContent,'1 official source rows');assert(get('source-results').innerHTML.includes('Mookie Betts'));assert(get('source-results').innerHTML.includes('1 in 18,845 packs'));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-export').onclick();assert(csv.includes('"Team 1","Team 2"'));assert(csv.includes('Cal Ripken Jr.')&&csv.includes('Mookie Betts'),'CSV must retain every booklet signer');
+  get('source-reset').onclick();get('source-section').value='Base Card Dual Autographs';get('source-section').onchange();
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:String(data.rows.findIndex(r=>r[1]==='1-A'))}})}});
+  assert(get('source-results').innerHTML.includes('BASE CARD DUAL AUTO VARIATION PURPLE PARALLEL'));assert(!get('source-results').innerHTML.includes('26TDDB - BASE CARD BLACK PARALLEL'),'Autographs must not receive ordinary base parallels');
+  get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('26TDDB - FENCE BUSTERS'));assert(!get('source-specifications').innerHTML.includes('DescriptionPacks'));get('source-cards-tab').onclick();
+ }
  if(kind==='topps-now'&&data.rows.some(r=>/^https:\/\/(?:uk|uk-next)\.topps\.com\//.test(r[8]))){get('source-odds-tab').onclick();assert(/href="https:\/\/(?:uk|uk-next)\.topps\.com\/products\//.test(get('source-specifications').innerHTML),'Regional official product evidence must remain linked in shared parallel tables');get('source-cards-tab').onclick();}
  if(kind==='topps-now'&&data.supplementarySourceProducts?.length){
   const proof=data.supplementarySourceProducts[0],index=data.rows.findIndex(r=>r[0]===proof.series&&r[1]===proof.number);
