@@ -17,7 +17,8 @@ def prepare(record):
     entries, formats, raw, issues = physical_odds_pdf(path)
     assert not issues and entries and formats
     with pdfplumber.open(path) as pdf:
-        original = collections.Counter(w['text'] for page in pdf.pages for w in page.extract_words() if re.fullmatch(LITERAL, w['text']))
+        tolerance = .1 if any(term in path.name for term in ['flagship-football', 'series-1-baseball', 'series-2-baseball']) else 3
+        original = collections.Counter(w['text'] for page in pdf.pages for w in page.extract_words(x_tolerance=tolerance) if re.fullmatch(LITERAL, w['text']))
     imported = collections.Counter(value for row in entries for value in row['values'].values() if value)
     # A ratio-shaped token can be part of a printed category, e.g. Austin
     # 3:16. Its original glyphs belong to the name, not an odds value cell.

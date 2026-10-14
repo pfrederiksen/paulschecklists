@@ -29,6 +29,13 @@ for record in repaired:
                 # and verify the left-to-right printed SKU order separately.
                 assert collections.Counter(text[caption.end():].split()) == collections.Counter(' '.join(data['formats']).split())
                 assert re.findall(r'\b(\d{4})\s+-', text) == [re.match(r'\d{4}', f)[0] for f in data['formats']]
+            elif record['slug'] == 'topps-bowman-2026-topps-flagship-football':
+                # This dense wrapped header has no vertical separators. Text
+                # extraction reads by line and merges adjacent headings;
+                # the physical parser retains each original column's glyphs.
+                assert collections.Counter(compact(text[caption.end():])) == collections.Counter(compact(' '.join(data['formats'])))
+                assert len(data['formats']) == 20
+                assert data['formats'][:4] == ['Hobby Silver PK Pack Rate','Hobby Pack Rate','Jumbo Silver PK Pack Rate','Jumbo Pack Rate']
             else:
                 assert compact(text[caption.end():]) == compact(' '.join(data['formats'])), (record['title'], text, data['formats'])
     assert all(o['name'] and set(o['values']) == set(data['formats']) for o in data['odds'])
