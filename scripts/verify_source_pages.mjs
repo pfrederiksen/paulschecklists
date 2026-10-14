@@ -31,6 +31,15 @@ for(const set of cases){
   assert(get('source-results').innerHTML.includes('/399'),'The second printed base section must retain the shared base parallel limits');
   get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('/399'));get('source-reset').onclick();get('source-cards-tab').onclick();
  }
+ if(kind==='topps-now'&&data.rows.some(r=>/^https:\/\/(?:uk|uk-next)\.topps\.com\//.test(r[8]))){get('source-odds-tab').onclick();assert(/href="https:\/\/(?:uk|uk-next)\.topps\.com\/products\//.test(get('source-specifications').innerHTML),'Regional official product evidence must remain linked in shared parallel tables');get('source-cards-tab').onclick();}
+ if(kind==='topps-now'&&data.supplementarySourceProducts?.length){
+  const proof=data.supplementarySourceProducts[0],index=data.rows.findIndex(r=>r[0]===proof.series&&r[1]===proof.number);
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:String(index)}})}});
+  get('source-search').value=data.rows[index][2];get('source-search').oninput();
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:String(index)}})}});
+  assert(get('source-results').innerHTML.includes('Official sources for retained fields'));
+  assert(get('source-results').innerHTML.includes(proof.evidence.url.replaceAll('&','&amp;')),'Retained print runs and dates must keep their original official evidence link');get('source-reset').onclick();
+ }
  if(data.importKind==='pdf'||data.odds?.length||data.publishedSpecifications?.length||data.officialStructure||data.oddsColumn!=null||data.serialColumn!=null)assert(get('source-specifications').innerHTML.includes('odds-group'));else assert(get('source-specifications').innerHTML.includes('No parallel or odds specification'));
  get('source-search').value='no-matching-source-row-ever';get('source-search').oninput();assert(get('source-results').innerHTML.includes('No matching'));
  get('source-search').value='';get('source-section').value=data.rows[0][data.sectionColumn??0];get('source-section').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>r[data.sectionColumn??0]===data.rows[0][data.sectionColumn??0]).length.toLocaleString()} official source rows`);

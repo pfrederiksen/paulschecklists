@@ -5,14 +5,29 @@ as evidence; re-running this parser alone does not constitute a fresh source che
 """
 import re,json,hashlib,datetime
 from pathlib import Path
+from urllib.parse import urlparse,unquote
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE='https://www.topps.com/collections/topps-now'
 ARCHIVE=SOURCE+'-archive'
+store=ROOT/'data/topps-now-observations.json'
+previous=json.loads(store.read_text()) if store.exists() else []
+us_product_keys={unquote(urlparse(p['source']).path):(p['series'],p['number']) for p in previous if p['source'].startswith('https://www.topps.com/products/')}
 snapshot=ROOT/'data/catalog-sources/topps-now-products.txt'
 documents=sorted([p for p in [snapshot,*list((ROOT/'data/catalog-sources').glob('topps-now-backfill-*.txt'))] if p.exists()],key=lambda p:p.stat().st_mtime)
 blocks=[]
+def preserve_missing_fields(product, old):
+ """Carry forward published facts together with their original evidence."""
+ for field in ['printRun','saleFrom','saleUntil','parallels','terms']:
+  if not product[field] and old[field]:
+   product[field]=old[field]
+   proof=old.get('fieldEvidence',{}).get(field,old['evidence'])
+   if field=='printRun':
+    proof=next((e for e in old.get('archiveEvidence',[]) if re.search(r'PR:\s*[\d,]+',e['title'])),proof)
+   if proof['sha256']!=product['evidence']['sha256']:
+    product.setdefault('fieldEvidence',{})[field]=proof
+ return product
 for document in documents:
- raw=document.read_text();starts=list(re.finditer(r'^[^\n]*\((https://www\.topps\.com/products/[^)]+)\)\n',raw,re.M))
+ raw=document.read_text();starts=list(re.finditer(r'^[^\n]*\((https://(?:www|uk|uk-next)\.topps\.com/products/[^)]+)\)\n',raw,re.M))
  for i,m in enumerate(starts):blocks.append((m[1],raw[m.start():starts[i+1].start() if i+1<len(starts) else len(raw)],document))
 products={};unparsed=[]
 for url,block,document in blocks:
@@ -61,13 +76,18 @@ for url,block,document in blocks:
   if inline:
    parallels=[part.strip() for part in re.split(r'(?=/(?:\d+)\s|1/1\s)',inline) if re.match(r'^/\d+\s|^1/1\s',part.strip())]
  key=(series,number)
+ if urlparse(url).hostname!='www.topps.com' and us_product_keys.get(unquote(urlparse(url).path),key)!=key:
+  unparsed.append({'url':url,'title':title,'gap':'Regional product series or card number conflicts with the retained U.S. archive identity for the same product path; do not merge its dates or create a duplicate card.'})
+  continue
  evidence={'url':url,'sha256':hashlib.sha256('\n'.join(lines).encode()).hexdigest(),'observed':datetime.datetime.fromtimestamp(document.stat().st_mtime).date().isoformat(),'title':title,'fields':fields,'overview':overview}
  p={'series':series,'number':number,'name':name,'printRun':pr,'saleFrom':fields.get('Available From',''),'saleUntil':fields.get('Available Until',''),'parallels':parallels,'terms':overview,'source':url,'evidence':evidence}
  if key in products:
   old=products[key]
   # Official Subjects cells supersede abbreviated product titles.
   if old['name']!=name and not fields.get('Subjects'):p['name']=old['name']
-  if old['printRun'] and not pr:continue
+  if old['printRun'] and not pr:
+   if not any(p[f] and not old[f] for f in ['saleFrom','saleUntil','parallels','terms']):continue
+  preserve_missing_fields(p,old)
  products[key]=p
 # Archive titles are official observations too. They can fill card numbers and
 # printed runs when a product renderer returns only its loading shell. They do
@@ -90,8 +110,6 @@ if archive_index.exists():
    p={'series':series,'number':number,'name':name,'printRun':pr or '', 'saleFrom':'','saleUntil':'','parallels':[],'terms':'','source':source,'evidence':evidence}
    if key not in products:products[key]=p
 assert len(products)>=40 or not documents,'Incomplete snapshot; do not overwrite prior observations'
-store=ROOT/'data/topps-now-observations.json'
-previous=json.loads(store.read_text()) if store.exists() else []
 merged={(p['series'],p['number']):p for p in previous if p['number']}
 for key,p in products.items():
  if key in merged:
@@ -99,8 +117,7 @@ for key,p in products.items():
   if p['evidence'].get('sourceKind')=='official-archive-title' and old['evidence'].get('sourceKind')!='official-archive-title':
    if not old['printRun'] and p['printRun']:old['printRun']=p['printRun'];old.setdefault('archiveEvidence',[]).append(p['evidence'])
    continue
-  for field in ['printRun','saleFrom','saleUntil','parallels','terms']:
-   if not p[field] and old[field]:p[field]=old[field]
+  preserve_missing_fields(p,old)
  merged[key]=p
 assert merged,'No official observations available; refresh snapshots before importing'
 products=sorted(merged.values(),key=lambda p:(p['series'],not p['number'].isdigit(),int(p['number']) if p['number'].isdigit() else p['number']))
@@ -128,9 +145,12 @@ def publish(slug,title,items,sport,year):
  for series in dict.fromkeys(p['series'] for p in items):
   specrows=[[p['number'],p['name'],value,p['source']] for p in items if p['series']==series for value in p['parallels']]
   if specrows:specs.append({'name':series,'worksheet':'Official product pages · applies only to the specified card','headers':['Card number','Subject','Published parallel','Official product URL'],'rows':specrows})
- fingerprint=hashlib.sha256(json.dumps([(p['source'],p['evidence']['sha256']) for p in items],ensure_ascii=False).encode()).hexdigest()
+ fingerprints=[(p['source'],p['evidence']['sha256'],*[(field,proof['url'],proof['sha256']) for field,proof in sorted(p.get('fieldEvidence',{}).items())]) for p in items]
+ fingerprint=hashlib.sha256(json.dumps(fingerprints,ensure_ascii=False).encode()).hexdigest()
  path='data/imports/'+slug+'.json'
  payload={'title':title,'headers':headers,'rows':rows,'source':ARCHIVE,'sha256':fingerprint,'importKind':'topps-now','sectionColumn':0,'metricColumn':3,'metricLabel':'PRINT RUN','publishedSpecifications':specs,'sourceProducts':[p['evidence'] for p in items],'coverageComplete':False}
+ supplementary=[{'series':p['series'],'number':p['number'],'field':field,'value':p[field],'evidence':proof} for p in items for field,proof in sorted(p.get('fieldEvidence',{}).items())]
+ if supplementary:payload['supplementarySourceProducts']=supplementary
  (ROOT/path).write_text(json.dumps(payload,ensure_ascii=False)+'\n')
  return {'title':title,'slug':slug,'page':'sets/'+slug+'.html','manufacturer':'Topps / Bowman','sport':sport,'year':year,'sourcePage':SOURCE,'checklistUrl':ARCHIVE,'tableData':path,'status':'Source table','importKind':'topps-now','dedicatedParser':'scripts/import_topps_now.py','ongoingSeries':True,'coverageComplete':False,'releaseStatus':'Ongoing','releaseDate':None,'rowCount':len(rows),'rosterPublished':bool(rows),'backfillStart':cutoff,'sections':len(set(r[0] for r in rows)),'parallelData':bool(specs),'publishedOdds':False,'sha256':fingerprint,'verified':max((p['evidence']['observed'] for p in items),default=datetime.date.today().isoformat()),'catalogEvidence':'Partial calendar-year archive: only entries with a verified official sale date on or after January 1, 2026 are included. Entries without a verified sale date remain pending. Official active products, individual product pages and captured pages of the Product Year 2026 archive supply the evidence. All 95 archive pages have been visited; individual entries and product details still require reconciliation, and some product pages return only a loading shell. Archive-only observations retain the printed number, subject and print run; dates and parallel terms appear only where verified on the product page. Non-numbered bundles and entertainment products need separate reconciliation. Product year and season labels do not establish a calendar-year release date. Blank print runs mean not published in the observed source. Print runs are not pack odds.','dataAudit':'Each imported number, subject, date, print run and parallel is reconciled to retained official product text; duplicate archive listings merge by series and card number.'}
 records=[publish('topps-now-2026','2026 Topps NOW & Bowman NOW',products,'multi-sport','2026')]
@@ -142,5 +162,5 @@ previous_inventory=[s for s in json.loads((ROOT/'data/set-catalog.json').read_te
 for old in previous_inventory:
  if old['slug'] not in {r['slug'] for r in records}:records.append(publish(old['slug'],old['title'],[],old['sport'],old['year']))
 (ROOT/'data/topps-now-official-catalog.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
-p=ROOT/'data/set-catalog.json';catalog=json.loads(p.read_text());new={r['slug']:r for r in records};catalog['sets']=[r for r in catalog['sets'] if r['slug'] not in new]+records;p.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
+p=ROOT/'data/set-catalog.json';catalog=json.loads(p.read_text());new={r['slug']:r for r in records};existing={r['slug'] for r in catalog['sets']};catalog['sets']=[new.get(r['slug'],r) for r in catalog['sets']]+[r for r in records if r['slug'] not in existing];p.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
 print('Imported',len(products),'observed cards;',sum(bool(p['printRun']) for p in products),'published print runs;',len(records),'shared pages')

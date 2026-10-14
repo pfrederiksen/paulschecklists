@@ -1,0 +1,2420 @@
+Internal Error ()
+citeturn1036view0 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/tomas-hertl-2025-26-nhl-topps-now%C2%AE-sticker-188-pack","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/tomas-hertl-2025-26-nhl-topps-now%C2%AE-sticker-188-pack is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1036view1 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/vegas-golden-knights-2025-26-nhl-topps-now%C2%AE-sticker-189-pack","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/vegas-golden-knights-2025-26-nhl-topps-now%C2%AE-sticker-189-pack is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1036view2 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/seth-jarvis-2025-26-nhl-topps-now%C2%AE-sticker-191-pack","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/seth-jarvis-2025-26-nhl-topps-now%C2%AE-sticker-191-pack is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1036view3 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/carolina-hurricanes-2025-26-nhl-topps-now%C2%AE-sticker-192-pack","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/carolina-hurricanes-2025-26-nhl-topps-now%C2%AE-sticker-192-pack is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1036view4 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/carolina-hurricanes-2025-26-nhl-topps-now%C2%AE-sticker-204-pack","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/carolina-hurricanes-2025-26-nhl-topps-now%C2%AE-sticker-204-pack is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1036view5 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/sam-landry-2026-ausl-topps-now%C2%AE-card-11","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/sam-landry-2026-ausl-topps-now%C2%AE-card-11 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1036view6 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/mary-iakopo-2026-ausl-topps-now%C2%AE-card-12","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/mary-iakopo-2026-ausl-topps-now%C2%AE-card-12 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1036view7 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/montana-fouts-2026-ausl-topps-now%C2%AE-card-13","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/montana-fouts-2026-ausl-topps-now%C2%AE-card-13 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1036view8 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/sam-landry-2026-ausl-topps-now%C2%AE-card-14","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/sam-landry-2026-ausl-topps-now%C2%AE-card-14 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1036view9 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/jadelyn-allchin-2026-ausl-topps-now%C2%AE-card-16","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/jadelyn-allchin-2026-ausl-topps-now%C2%AE-card-16 is not accessible via this tool.
+
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1037view0 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/montana-fouts-2026-ausl-topps-now%C2%AE-card-20","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/montana-fouts-2026-ausl-topps-now%C2%AE-card-20 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1037view1 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/kenleigh-cahalan-2026-ausl-topps-now%C2%AE-card-21","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/kenleigh-cahalan-2026-ausl-topps-now%C2%AE-card-21 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1037view2 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/sami-williams-2026-ausl-topps-now%C2%AE-card-25","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/sami-williams-2026-ausl-topps-now%C2%AE-card-25 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1037view3 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/utah-talons-2026-ausl-topps-now%C2%AE-card-26","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/utah-talons-2026-ausl-topps-now%C2%AE-card-26 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1037view4 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/amari-harper-2026-ausl-topps-now%C2%AE-card-27","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/amari-harper-2026-ausl-topps-now%C2%AE-card-27 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1037view5 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/jayda-coleman-2026-ausl-topps-now%C2%AE-card-28","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/jayda-coleman-2026-ausl-topps-now%C2%AE-card-28 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1037view6 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/montana-fouts-2026-ausl-topps-now%C2%AE-card-31","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/montana-fouts-2026-ausl-topps-now%C2%AE-card-31 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1037view7 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/aston-martin-aramco-formula-one%E2%84%A2-team-2026-formula-1%C2%AE-topps-now%C2%AE-card-10","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/aston-martin-aramco-formula-one%E2%84%A2-team-2026-formula-1%C2%AE-topps-now%C2%AE-card-10 is not accessible via this tool.
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/spencer-jones-2026-mlb-topps-now%C2%AE-card-308)
+citeturn1037view8 [wordlim: 200] Crawled: 2 months ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/spencer-jones-2026-mlb-topps-now%C2%AE-card-308","lineno":null}); Total lines: 132
+L0: cite0†Skip to content L1: 
+L2: [Input: Search]
+L3: 
+L4: Loading footer...
+L5: 
+L6: Loading product...
+L7: 
+L8: ## Products
+L9: 
+L10: cite1†TOPPS NOW® L11: 
+L12: cite2†Cards & Boxes L13: 
+L14: cite3†Topps Ripped†ripped.topps.com L15: 
+L16: cite4†Apps†play.toppsapps.com L17: 
+L18: ## Customer Service
+L19: 
+L20: cite5†Contact Us L21: 
+L22: cite6†Checklists L23: 
+L24: cite7†Archives†uk.topps.com L25: 
+L26: cite8†Card Redemptions T&C's L27: 
+L28: cite9†Shipping & Returns L29: 
+L30: ## Corporate
+L31: 
+L32: cite10†Careers†www.fanaticsinc.com L33: ## Topps Apps
+L34: 
+L35: cite11†Privacy Policy†uk.topps.com L36: 
+L37: cite12†Terms Of Use†uk.topps.com L38: 
+L39: cite13†UK Tax Strategy L40: 
+L41: Copyright © 2026 TOPPS. All rights reserved.
+L42: 
+L43: Spencer Jones - 2026 MLB Topps NOW® - Card 308
+L44: 
+L45: cite14†Image: twitter.svg†images.topps.com L46: 
+L47:   1. cite15†MLB L48: 
+L49: cite16†Image†cdn.shopify.com L50: 
+L51: cite17†Image†cdn.shopify.com L52: 
+L53: cite18†Image†cdn.shopify.com L54: 
+L55: cite16†Image†cdn.shopify.com L56: 
+L57: cite17†Image†cdn.shopify.com L58: 
+L59: cite18†Image†cdn.shopify.com L60: 
+L61: Show all photos
+L62: ## Spencer Jones - 2026 MLB Topps NOW® - Card 308
+L63: 
+L64: £8.99
+L65: 
+L66: Ships in 15-20 business days
+L67: 
+L68: Product is available from 10 Jun 2026
+L69: 
+L70: Sold out
+L71: 
+L72: Overview
+L73: 
+L74: Look for:
+L75: 
+L76:   * Open-Edition Base Card
+L77:   * Foil Parallels Numbered to /50 and lower
+L78:   * Spencer Jones Image Variation Short Prints
+L79: 
+L80: Parallels:
+L81: 
+L82: /50 Gold Foil
+L83: 
+L84: /25 Orange Foil
+L85: 
+L86: /10 Black Foil
+L87: 
+L88: /5 Red Foil
+L89: 
+L90: /1 FoilFractor
+L91: *Parallels or other non-base card hits will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.
+L92: 
+L93: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L94: 
+L95: cite19†Subject to Terms & Conditions†www.topps.com L96: 
+L97: Description
+L98: 
+L99: Chrome Chase Cards
+L100: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky hits:
+L101: 
+L102: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L103: 
+L104: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L105: 
+L106: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L107: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L108: 
+L109: Capturing all the excitement of Major League Baseball – Topps NOW® brings the biggest moments on the diamond directly to your collection!
+L110: 
+L111: Your Hero. Your Team. Your Moment. ™
+L112: 
+L113: Topps NOW® celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite20†MLB Topps NOW® Archive.†www.topps.com L114: 
+L115: cite21†Learn About the Topps NOW® Brand†ripped.topps.com L116: Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L117: 
+L118: PLAYERS CHOICE DIAMOND CLUB®
+L119: 
+L120: Specs
+L121: SKU  | ARTBB-16C2S-26TN-0308
+L122: Category  | Sports
+L123: Sub Categories  | Baseball
+L124: Sub Type  | Cards
+L125: Product Year  | 2026
+L126: Brand  | Topps
+L127: Sub Brand  | Topps NOW®
+L128: Properties  | New York Yankees
+L129: Product Type  | Print on Demand
+L130: Available From  | 10 Jun 2026
+L131: Available Until  | 11 Jun 2026
+--------------------------------------------------------------------------------
+Blaze Jordan - 2026 MLB Topps NOW® - Card 326 (https://uk-next.topps.com/products/blaze-jordan-2026-mlb-topps-now%C2%AE-card-326)
+citeturn1037view9 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/blaze-jordan-2026-mlb-topps-now%C2%AE-card-326","lineno":null}); Total lines: 170
+L0: cite0†Skip to content L1: 
+L2: cite1†New season, new drops. Free domestic shipping on 2+ Topps Now cards for a limited time. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: Copyright © 2026 TOPPS. All rights reserved.
+L46: 
+L47:   1. cite15†MLB L48: 
+L49: cite16†Image†cdn.shopify.com L50: 
+L51: cite17†Image†cdn.shopify.com L52: 
+L53: cite16†Image†cdn.shopify.com L54: 
+L55: cite17†Image†cdn.shopify.com L56: 
+L57: Show all photos
+L58: ## Blaze Jordan - 2026 MLB Topps NOW® - Card 326
+L59: 
+L60: £8.99
+L61: 
+L62: Ships in 15-20 business days
+L63: 
+L64: Product is available from 2026年6月14日
+L65: 
+L66: Sold out
+L67: 
+L68: Overview
+L69: 
+L70: Look for:
+L71: 
+L72:   * Open-Edition Base Card
+L73:   * Foil Parallels Numbered to /50 and lower
+L74: 
+L75: Parallels:
+L76: 
+L77: /50 Gold Foil
+L78: 
+L79: /25 Orange Foil
+L80: 
+L81: /10 Black Foil
+L82: 
+L83: /5 Red Foil
+L84: 
+L85: /1 FoilFractor
+L86: 
+L87: *Parallels or other non-base card hits will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.
+L88: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L89: 
+L90: cite18†Subject to Terms & Conditions†www.topps.com L91: 
+L92: Description
+L93: 
+L94: Chrome Chase Cards
+L95: 
+L96: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky hits:
+L97: 
+L98: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L99: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L100: 
+L101: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L102: 
+L103: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L104: 
+L105: Capturing all the excitement of Major League Baseball – Topps NOW® brings the biggest moments on the diamond directly to your collection!
+L106: 
+L107: Your Hero. Your Team. Your Moment. ™
+L108: Topps NOW® celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite19†MLB Topps NOW® Archive.†www.topps.com L109: 
+L110: cite20†Learn About the Topps NOW® Brand†ripped.topps.com L111: Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L112: 
+L113: PLAYERS CHOICE DIAMOND CLUB®
+L114: 
+L115: Specs
+L116: SKU  | ARTBB-16C2S-26TN-0326
+L117: Category  | Sports
+L118: Sub Categories  | Baseball
+L119: Sub Type  | Cards
+L120: Product Year  | 2026
+L121: Brand  | Topps
+L122: Sub Brand  | Topps NOW®
+L123: Subjects  | Blaze Jordan
+L124: Properties  | St. Louis Cardinals
+L125: Product Type  | Print on Demand
+L126: Available From  | 2026年6月14日
+L127: Available Until  | 2026年6月15日
+L128: 
+L129: Just dropped
+L130: 
+L131: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: Supplies]
+L132: 
+L133: cite21†2026 Marvel Topps Now®: Wolverine£11.99 Look for Short Prints L134: 
+L135: Quick add
+L136: cite22†Kimi Antonelli - 2026 Formula 1® Topps NOW® - Card 57£11.99 Look for Auto and Short Prints L137: 
+L138: Quick add
+L139: 
+L140: cite23†2026 Topps Universe WWE - Mega Box£45.00 12 cards per pack 6 packs per box Find Exclusive Parallels L141: 
+L142: Add to cart
+L143: 
+L144: cite24†Topps Match Attax UCC 2026/27 - Mega Multipack£7.99 L145: 
+L146: Add to cart
+L147: 
+L148: cite25†Topps Match Attax UCC 2026/27 - Online Exclusive Starter Pack£15.99 L149: 
+L150: Add to cart
+L151: 
+L152: cite26†Topps Match Attax UCC 2026/27 - Full Box£65.00 L153: 
+L154: Add to cart
+L155: cite27†Topps Match Attax UCC 2026/27 - Booster Tin Bundle£28.99 L156: 
+L157: Add to cart
+L158: 
+L159: cite28†Topps Match Attax UCC 2026/27 - Mega Tin Bundle£43.99 L160: 
+L161: Add to cart
+L162: 
+L163: cite29†Topps Match Attax UCC 2026/27 - Booster Tin 3 (Pixel Power)£9.99 L164: 
+L165: Add to cart
+L166: 
+L167: cite30†Topps Match Attax UCC 2026/27 - Booster Tin 2 (Anime Athletes)£9.99 L168: 
+L169: Add to cart
+
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/pedro-ramirez-2026-mlb-topps-now%C2%AE-card-328)
+citeturn1038view0 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/pedro-ramirez-2026-mlb-topps-now%C2%AE-card-328","lineno":null}); Total lines: 174
+L0: cite0†Skip to content L1: 
+L2: cite1†New Season, New Drops. Get free domestic shipping when you buy 2+ Topps Now cards. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: [Button: Cookie Preferences]
+L46: 
+L47: Copyright © 2026 TOPPS. All rights reserved.
+L48: 
+L49: cite15†Image: twitter.svg†images.topps.com L50: 
+L51: Pedro Ramírez - 2026 MLB Topps NOW® - Card 328
+L52: 
+L53:   1. cite16†MLB L54: 
+L55: cite17†Image†cdn.shopify.com L56: 
+L57: cite18†Image†cdn.shopify.com L58: 
+L59: cite17†Image†cdn.shopify.com L60: 
+L61: cite18†Image†cdn.shopify.com L62: 
+L63: Show all photos
+L64: ## Pedro Ramírez - 2026 MLB Topps NOW® - Card 328
+L65: 
+L66: £8.99
+L67: 
+L68: Ships in 15-20 business days
+L69: 
+L70: Product is available from Jun 14, 2026
+L71: 
+L72: Sold out
+L73: 
+L74: Overview
+L75: 
+L76: Look for:
+L77: 
+L78:   * Open-Edition Base Card
+L79:   * Foil Parallels Numbered to /50 and lower
+L80: 
+L81: Parallels:
+L82: 
+L83: /50 Gold Foil
+L84: 
+L85: /25 Orange Foil
+L86: 
+L87: /10 Black Foil
+L88: 
+L89: /5 Red Foil
+L90: 
+L91: /1 FoilFractor
+L92: 
+L93: *Parallels or other non-base card hits will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.
+L94: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L95: 
+L96: cite19†Subject to Terms & Conditions†www.topps.com L97: 
+L98: Description
+L99: 
+L100: Chrome Chase Cards
+L101: 
+L102: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky hits:
+L103: 
+L104: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L105: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L106: 
+L107: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L108: 
+L109: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L110: 
+L111: Capturing all the excitement of Major League Baseball – Topps NOW® brings the biggest moments on the diamond directly to your collection!
+L112: 
+L113: Your Hero. Your Team. Your Moment. ™
+L114: Topps NOW® celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite20†MLB Topps NOW® Archive.†www.topps.com L115: 
+L116: cite21†Learn About the Topps NOW® Brand†ripped.topps.com L117: Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L118: 
+L119: PLAYERS CHOICE DIAMOND CLUB®
+L120: 
+L121: Specs
+L122: SKU  | ARTBB-16C2S-26TN-0328
+L123: Category  | Sports
+L124: Sub Categories  | Baseball
+L125: Sub Type  | Cards
+L126: Product Year  | 2026
+L127: Brand  | Topps
+L128: Sub Brand  | Topps NOW®
+L129: Properties  | Chicago Cubs
+L130: Product Type  | Print on Demand
+L131: Available From  | Jun 14, 2026
+L132: Available Until  | Jun 15, 2026
+L133: 
+L134: Just dropped
+L135: 
+L136: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: Living Set][Button: Supplies]
+L137: 
+L138: cite22†2026 Marvel Topps Now: Avengers End Game Encore£11.99 Look for Short Prints L139: 
+L140: Quick add
+L141: cite23†Harry Kane - 2026-27 Bundesliga Topps NOW® - Card 24£11.99 Look for Auto L142: 
+L143: Quick add
+L144: 
+L145: cite24†Mahdi Nicoll-Jazuli - 2026-27 Premier League Topps NOW® - Card 31£8.99 L146: 
+L147: Quick add
+L148: 
+L149: cite25†Jay Dasilva - 2026-27 Premier League Topps NOW® - Card 35£8.99 L150: 
+L151: Quick add
+L152: 
+L153: cite26†Enzo Fernández - 2026-27 Premier League Topps NOW® - Card 37£8.99 L154: 
+L155: Quick add
+L156: 
+L157: cite27†Pre-order cite27†2026 Topps Stadium Club WWE - Value Box£20.00 5 cards per pack 6 packs per box Look for randomly inserted autographs L158: 
+L159: Add to cart
+L160: cite28†Pre-order cite28†2026 Topps Stadium Club WWE - Mega Box£45.00 10 cards per pack 6 packs per box Look for randomly inserted autographs L161: 
+L162: Add to cart
+L163: 
+L164: cite29†Pre-order cite29†2026 Topps Heritage Football - Mega Box£45.00 8 cards per pack 17 packs per box mega exclusive sparkle parallels L165: 
+L166: Add to cart
+L167: 
+L168: cite30†Pre-order cite30†2026 Topps Heritage Football - Value Box£25.00 8 cards per pack 8 packs per box value exclusives sparkle parallels L169: 
+L170: Add to cart
+L171: cite31†Justin Verlander - 2026 MLB Topps NOW® - Card 726£11.99 Look for Relics L172: 
+L173: Quick add
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1038view1 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/eduardo-rodriguez-2026-mlb-topps-now%C2%AE-card-343","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/eduardo-rodriguez-2026-mlb-topps-now%C2%AE-card-343 is not accessible via this tool.
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/kyle-freeland-2026-mlb-topps-now%C2%AE-card-352)
+citeturn1038view2 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/kyle-freeland-2026-mlb-topps-now%C2%AE-card-352","lineno":null}); Total lines: 173
+L0: cite0†Skip to content L1: 
+L2: cite1†New Season, New Drops. Get free domestic shipping when you buy 2+ Topps Now cards. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: [Button: Cookie Preferences]
+L46: 
+L47: Copyright © 2026 TOPPS. All rights reserved.
+L48: 
+L49: Kyle Freeland - 2026 MLB Topps NOW® - Card 352
+L50: 
+L51:   1. cite15†MLB L52: 
+L53: cite16†Image†cdn.shopify.com L54: 
+L55: cite17†Image†cdn.shopify.com L56: 
+L57: cite16†Image†cdn.shopify.com L58: 
+L59: cite17†Image†cdn.shopify.com L60: 
+L61: Show all photos
+L62: ## Kyle Freeland - 2026 MLB Topps NOW® - Card 352
+L63: 
+L64: £8.99
+L65: 
+L66: Ships in 15-20 business days
+L67: 
+L68: Product is available from Jun 20, 2026
+L69: 
+L70: Sold out
+L71: 
+L72: Overview
+L73: 
+L74: Look for:
+L75: 
+L76:   * Open-Edition Base Card
+L77:   * Foil Parallels Numbered to /50 and lower
+L78: 
+L79: Parallels:
+L80: 
+L81: /50 Gold Foil
+L82: 
+L83: /25 Orange Foil
+L84: 
+L85: /10 Black Foil
+L86: 
+L87: /5 Red Foil
+L88: 
+L89: /1 FoilFractor
+L90: 
+L91: *Parallels or other non-base card hits will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.
+L92: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L93: 
+L94: cite18†Subject to Terms & Conditions†www.topps.com L95: 
+L96: Description
+L97: 
+L98: Chrome Chase Cards
+L99: 
+L100: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky hits:
+L101: 
+L102: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L103: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L104: 
+L105: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L106: 
+L107: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L108: 
+L109: Capturing all the excitement of Major League Baseball – Topps NOW® brings the biggest moments on the diamond directly to your collection!
+L110: 
+L111: Your Hero. Your Team. Your Moment. ™
+L112: Topps NOW® celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite19†MLB Topps NOW® Archive.†www.topps.com L113: 
+L114: cite20†Learn About the Topps NOW® Brand†ripped.topps.com L115: Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L116: 
+L117: PLAYERS CHOICE DIAMOND CLUB®
+L118: 
+L119: Specs
+L120: SKU  | ARTBB-16C2S-26TN-0352
+L121: Category  | Sports
+L122: Sub Categories  | Baseball
+L123: Sub Type  | Cards
+L124: Product Year  | 2026
+L125: Brand  | Topps
+L126: Sub Brand  | Topps NOW®
+L127: Subjects  | Kyle Freeland
+L128: Properties  | Colorado Rockies
+L129: Product Type  | Print on Demand
+L130: Available From  | Jun 20, 2026
+L131: Available Until  | Jun 21, 2026
+L132: 
+L133: Just dropped
+L134: 
+L135: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: Living Set][Button: Supplies]
+L136: 
+L137: cite21†2026 Marvel Topps Now: Avengers End Game Encore£11.99 Look for Short Prints L138: 
+L139: Quick add
+L140: cite22†Harry Kane - 2026-27 Bundesliga Topps NOW® - Card 24£11.99 Look for Auto L141: 
+L142: Quick add
+L143: 
+L144: cite23†Mahdi Nicoll-Jazuli - 2026-27 Premier League Topps NOW® - Card 31£8.99 L145: 
+L146: Quick add
+L147: 
+L148: cite24†Jay Dasilva - 2026-27 Premier League Topps NOW® - Card 35£8.99 L149: 
+L150: Quick add
+L151: 
+L152: cite25†Enzo Fernández - 2026-27 Premier League Topps NOW® - Card 37£8.99 L153: 
+L154: Quick add
+L155: 
+L156: cite26†Pre-order cite26†2026 Topps Stadium Club WWE - Mega Box£45.00 10 cards per pack 6 packs per box Look for randomly inserted autographs L157: 
+L158: Add to cart
+L159: cite27†Pre-order cite27†2026 Topps Stadium Club WWE - Value Box£20.00 5 cards per pack 6 packs per box Look for randomly inserted autographs L160: 
+L161: Add to cart
+L162: 
+L163: cite28†Pre-order cite28†2026 Topps Heritage Football - Mega Box£45.00 8 cards per pack 17 packs per box mega exclusive sparkle parallels L164: 
+L165: Add to cart
+L166: 
+L167: cite29†Pre-order cite29†2026 Topps Heritage Football - Value Box£25.00 8 cards per pack 8 packs per box value exclusives sparkle parallels L168: 
+L169: Add to cart
+L170: cite30†Topps Collector Tin Chelsea 2026/27£24.99 35 cards per pack 1 pack per box 2 Sequentially Numbered Parallels Per Tin L171: 
+L172: Add to cart
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/jonah-heim-nick-kurtz-2026-mlb-topps-now%C2%AE-card-353)
+citeturn1038view3 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/jonah-heim-nick-kurtz-2026-mlb-topps-now%C2%AE-card-353","lineno":null}); Total lines: 174
+L0: cite0†Skip to content L1: 
+L2: cite1†New season, new drops. Free domestic shipping on 2+ Topps Now cards for a limited time. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: Copyright © 2026 TOPPS. All rights reserved.
+L46: 
+L47: cite15†Image: twitter.svg†images.topps.com L48: 
+L49: Jonah Heim / Nick Kurtz - 2026 MLB Topps NOW® - Card 353
+L50: 
+L51:   1. cite16†MLB L52: 
+L53: cite17†Image†cdn.shopify.com L54: 
+L55: cite18†Image†cdn.shopify.com L56: 
+L57: cite17†Image†cdn.shopify.com L58: 
+L59: cite18†Image†cdn.shopify.com L60: 
+L61: Show all photos
+L62: ## Jonah Heim / Nick Kurtz - 2026 MLB Topps NOW® - Card 353
+L63: 
+L64: £8.99
+L65: 
+L66: Ships in 15-20 business days
+L67: 
+L68: Product is available from 20 giu 2026
+L69: 
+L70: Sold out
+L71: 
+L72: Overview
+L73: 
+L74: Look for:
+L75: 
+L76:   * Open-Edition Base Card
+L77:   * Foil Parallels Numbered to /50 and lower
+L78: 
+L79: Parallels:
+L80: 
+L81: /50 Gold Foil
+L82: 
+L83: /25 Orange Foil
+L84: 
+L85: /10 Black Foil
+L86: 
+L87: /5 Red Foil
+L88: 
+L89: /1 FoilFractor
+L90: 
+L91: *Parallels or other non-base card hits will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.
+L92: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L93: 
+L94: cite19†Subject to Terms & Conditions†www.topps.com L95: 
+L96: Description
+L97: 
+L98: Chrome Chase Cards
+L99: 
+L100: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky hits:
+L101: 
+L102: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L103: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L104: 
+L105: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L106: 
+L107: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L108: 
+L109: Capturing all the excitement of Major League Baseball – Topps NOW® brings the biggest moments on the diamond directly to your collection!
+L110: 
+L111: Your Hero. Your Team. Your Moment. ™
+L112: Topps NOW® celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite20†MLB Topps NOW® Archive.†www.topps.com L113: 
+L114: cite21†Learn About the Topps NOW® Brand†ripped.topps.com L115: Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L116: 
+L117: PLAYERS CHOICE DIAMOND CLUB®
+L118: 
+L119: Specs
+L120: SKU  | ARTBB-16C2S-26TN-0353
+L121: Category  | Sports
+L122: Sub Categories  | Baseball
+L123: Sub Type  | Cards
+L124: Product Year  | 2026
+L125: Brand  | Topps
+L126: Sub Brand  | Topps NOW®
+L127: Subjects  | Nick Kurtz, Jonah Heim
+L128: Properties  | Athletics
+L129: Product Type  | Print on Demand
+L130: Available From  | 20 giu 2026
+L131: Available Until  | 21 giu 2026
+L132: 
+L133: Just dropped
+L134: 
+L135: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: UCC Living Set][Button: Supplies]
+L136: 
+L137: cite22†Bradley Barcola - 2026-27 Liverpool FC Topps NOW® - Card 1£8.99 L138: 
+L139: Quick add
+L140: cite23†Aaron Donald - 2026 NFL Topps NOW® - Card OS05£11.99 Look for Autos L141: 
+L142: Quick add
+L143: 
+L144: cite24†Lionel Messi - 2026 MLS Topps NOW® - Card 70£11.99 Look for Relics and Auto-Relic L145: 
+L146: Quick add
+L147: 
+L148: cite25†Topps Match Attax UCC 2026/27 - Full Box£65.00 L149: 
+L150: Add to cart
+L151: 
+L152: cite26†Topps Match Attax UCC 2026/27 - Booster Tin 3 (Pixel Power)£9.99 L153: 
+L154: Add to cart
+L155: 
+L156: cite27†Topps Match Attax UCC 2026/27 - Mega Tin 1 (Chart Toppers)£14.99 L157: 
+L158: Add to cart
+L159: 
+L160: cite28†Topps Match Attax UCC 2026/27 - Booster Tin 2 (Anime Athletes)£9.99 L161: 
+L162: Add to cart
+L163: cite29†Topps Match Attax UCC 2026/27 - Mega Tin 3 (Record Breakers)£14.99 L164: 
+L165: Add to cart
+L166: 
+L167: cite30†Topps Match Attax UCC 2026/27 - Online Exclusive Starter Pack£15.99 L168: 
+L169: Add to cart
+L170: 
+L171: cite31†Topps Match Attax UCC 2026/27 - Mega Multipack£7.99 L172: 
+L173: Add to cart
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1038view4 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/dalton-rushing-2026-mlb-topps-now%C2%AE-card-354","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/dalton-rushing-2026-mlb-topps-now%C2%AE-card-354 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1038view5 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/cam-schlittler-2026-mlb-topps-now%C2%AE-card-355","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/cam-schlittler-2026-mlb-topps-now%C2%AE-card-355 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1038view6 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/sal-stewart-2026-mlb-topps-now%C2%AE-card-357","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/sal-stewart-2026-mlb-topps-now%C2%AE-card-357 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1038view7 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/gabriel-hughes-2026-mlb-topps-now%C2%AE-card-411","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/gabriel-hughes-2026-mlb-topps-now%C2%AE-card-411 is not accessible via this tool.
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/samuel-basallo-2026-mlb-topps-now%C2%AE-card-439)
+citeturn1038view8 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/samuel-basallo-2026-mlb-topps-now%C2%AE-card-439","lineno":null}); Total lines: 172
+L0: cite0†Skip to content L1: 
+L2: cite1†New Season, New Drops. Get free domestic shipping when you buy 2+ Topps Now cards. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: [Button: Cookie Preferences]
+L46: 
+L47: Copyright © 2026 TOPPS. All rights reserved.
+L48: 
+L49: Samuel Basallo - 2026 MLB Topps NOW® - Card 439
+L50: 
+L51:   1. cite15†MLB L52: 
+L53: cite16†Image†cdn.shopify.com L54: 
+L55: cite17†Image†cdn.shopify.com L56: 
+L57: cite16†Image†cdn.shopify.com L58: 
+L59: cite17†Image†cdn.shopify.com L60: 
+L61: Show all photos
+L62: ## Samuel Basallo - 2026 MLB Topps NOW® - Card 439
+L63: 
+L64: £8.99
+L65: 
+L66: Ships in 15-20 business days
+L67: 
+L68: Product is available from 11. Juli 2026
+L69: 
+L70: Sold out
+L71: 
+L72: Overview
+L73: 
+L74: Look for:
+L75: 
+L76:   * Open-Edition Base Card
+L77:   * Foil Parallels Numbered to /50 and lower
+L78: 
+L79: Parallels:
+L80: 
+L81: /50 Gold Foil
+L82: 
+L83: /25 Orange Foil
+L84: 
+L85: /10 Black Foil
+L86: 
+L87: /5 Red Foil
+L88: 
+L89: /1 FoilFractor
+L90: 
+L91: *Parallels or other non-base card hits will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.
+L92: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L93: 
+L94: cite18†Subject to Terms & Conditions†www.topps.com L95: 
+L96: Description
+L97: 
+L98: Chrome Parallel Cards
+L99: 
+L100: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:
+L101: 
+L102: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L103: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L104: 
+L105: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L106: 
+L107: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L108: 
+L109: Capturing all the excitement of Major League Baseball – Topps NOW brings the biggest moments on the diamond directly to your collection!
+L110: 
+L111: Your Hero. Your Team. Your Moment. ™
+L112: Topps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite19†MLB Topps NOW Archive.†www.topps.com L113: 
+L114: cite20†Learn About the Topps NOW® Brand†ripped.topps.com L115: All sales are final. Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L116: 
+L117:  PLAYERS CHOICE DIAMOND CLUB®
+L118: 
+L119: Specs
+L120: SKU  | ARTBB-16C2S-26TN-0439
+L121: Category  | Sports
+L122: Sub Categories  | Baseball
+L123: Sub Type  | Cards
+L124: Product Year  | 2026
+L125: Brand  | Topps
+L126: Sub Brand  | Topps NOW®
+L127: Properties  | Baltimore Orioles
+L128: Product Type  | Print on Demand
+L129: Available From  | 11. Juli 2026
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/pete-crow-armstrong-2026-mlb-topps-now%C2%AE-card-527)
+citeturn1038view9 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/pete-crow-armstrong-2026-mlb-topps-now%C2%AE-card-527","lineno":null}); Total lines: 172
+
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1039view0 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/jacob-wilson-2026-mlb-topps-now%C2%AE-card-541","lineno":null}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/jacob-wilson-2026-mlb-topps-now%C2%AE-card-541: TimeoutError
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/carson-benge-2026-mlb-topps-now%C2%AE-card-562)
+citeturn1039view1 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/carson-benge-2026-mlb-topps-now%C2%AE-card-562","lineno":null}); Total lines: 174
+L0: cite0†Skip to content L1: 
+L2: cite1†New season, new drops. Free domestic shipping on 2+ Topps Now cards for a limited time. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: Copyright © 2026 TOPPS. All rights reserved.
+L46: 
+L47: cite15†Image: twitter.svg†images.topps.com L48: 
+L49: Carson Benge - 2026 MLB Topps NOW® - Card 562
+L50: 
+L51:   1. cite16†MLB L52: 
+L53: cite17†Image†cdn.shopify.com L54: 
+L55: cite18†Image†cdn.shopify.com L56: 
+L57: cite17†Image†cdn.shopify.com L58: 
+L59: cite18†Image†cdn.shopify.com L60: 
+L61: Show all photos
+L62: ## Carson Benge - 2026 MLB Topps NOW® - Card 562
+L63: 
+L64: £8.99
+L65: 
+L66: Ships in 15-20 business days
+L67: 
+L68: Product is available from Aug 18, 2026
+L69: 
+L70: Sold out
+L71: 
+L72: Overview
+L73: 
+L74: Look for:
+L75: 
+L76:   * Open-Edition Base Card
+L77:   * Foil Parallels Numbered to /50 and lower
+L78: 
+L79: Parallels:
+L80: 
+L81: /50 Gold Foil
+L82: 
+L83: /25 Orange Foil
+L84: 
+L85: /10 Black Foil
+L86: 
+L87: /5 Red Foil
+L88: 
+L89: /1 FoilFractor
+L90: 
+L91: *Parallels or other non-base cards will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.
+L92: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L93: 
+L94: cite19†Subject to Terms & Conditions†www.topps.com L95: 
+L96: Description
+L97: 
+L98: Chrome Parallel Cards
+L99: 
+L100: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:
+L101: 
+L102: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L103: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L104: 
+L105: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L106: 
+L107: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L108: 
+L109: Capturing all the excitement of Major League Baseball – Topps NOW brings the biggest moments on the diamond directly to your collection!
+L110: 
+L111: Your Hero. Your Team. Your Moment. ™
+L112: Topps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite20†MLB Topps NOW Archive.†www.topps.com L113: 
+L114: cite21†Learn About the Topps NOW® Brand†ripped.topps.com L115: All sales are final. Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L116: 
+L117:  PLAYERS CHOICE DIAMOND CLUB®
+L118: 
+L119: Specs
+L120: SKU  | ARTBB-16C2S-26TN-0562
+L121: Category  | Sports
+L122: Sub Categories  | Baseball
+L123: Sub Type  | Cards
+L124: Product Year  | 2026
+L125: Brand  | Topps
+L126: Sub Brand  | Topps NOW®
+L127: Subjects  | Carson Benge
+L128: Properties  | New York Mets
+L129: Product Type  | Print on Demand
+L130: Available From  | Aug 18, 2026
+L131: Available Until  | Aug 19, 2026
+L132: 
+L133: Just dropped
+L134: 
+L135: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: UCC Living Set][Button: Supplies]
+L136: 
+L137: cite22†Aaron Donald - 2026 NFL Topps NOW® - Card OS05£11.99 Look for Autos L138: 
+L139: Quick add
+L140: cite23†Lionel Messi - 2026 MLS Topps NOW® - Card 70£11.99 Look for Relics and Auto-Relic L141: 
+L142: Quick add
+L143: 
+L144: cite24†Topps Match Attax UCC 2026/27 - Booster Tin Bundle£28.99 L145: 
+L146: Add to cart
+L147: 
+L148: cite25†Topps Match Attax UCC 2026/27 - Full Box£65.00 L149: 
+L150: Add to cart
+L151: 
+L152: cite26†Topps Match Attax UCC 2026/27 - Mega Tin Bundle£43.99 L153: 
+L154: Add to cart
+L155: 
+L156: cite27†Topps Match Attax UCC 2026/27 - Online Exclusive Starter Pack£15.99 L157: 
+L158: Add to cart
+L159: 
+L160: cite28†Topps Match Attax UCC 2026/27 - Mega Multipack£7.99 L161: 
+L162: Add to cart
+L163: cite29†Topps Match Attax UCC 2026/27 - Mega Tin 3 (Record Breakers)£14.99 L164: 
+L165: Add to cart
+L166: 
+L167: cite30†Topps Match Attax UCC 2026/27 - Mega Tin 1 (Chart Toppers)£14.99 L168: 
+L169: Add to cart
+L170: 
+L171: cite31†Topps Match Attax UCC 2026/27 - Booster Tin 3 (Pixel Power)£9.99 L172: 
+L173: Add to cart
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/randy-arozarena-2026-mlb-topps-now%C2%AE-card-591)
+citeturn1039view2 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/randy-arozarena-2026-mlb-topps-now%C2%AE-card-591","lineno":null}); Total lines: 172
+L0: cite0†Skip to content L1: 
+L2: cite1†New season, new drops. Free domestic shipping on 2+ Topps Now cards for a limited time. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: Copyright © 2026 TOPPS. All rights reserved.
+L46: 
+L47: Randy Arozarena - 2026 MLB Topps NOW® - Card 591
+L48: 
+L49:   1. cite15†MLB L50: 
+L51: cite16†Image†cdn.shopify.com L52: 
+L53: cite17†Image†cdn.shopify.com L54: 
+L55: cite16†Image†cdn.shopify.com L56: 
+L57: cite17†Image†cdn.shopify.com L58: 
+L59: Show all photos
+L60: ## Randy Arozarena - 2026 MLB Topps NOW® - Card 591
+L61: 
+L62: £8.99
+L63: 
+L64: Ships in 15-20 business days
+L65: 
+L66: Product is available from Aug 24, 2026
+L67: 
+L68: Sold out
+L69: 
+L70: Overview
+L71: 
+L72: Look for:
+L73: 
+L74:   * Open-Edition Base Card
+L75:   * Foil Parallels Numbered to /50 and lower
+L76: 
+L77: Parallels:
+L78: 
+L79: /50 Gold Foil
+L80: 
+L81: /25 Orange Foil
+L82: 
+L83: /10 Black Foil
+L84: 
+L85: /5 Red Foil
+L86: 
+L87: /1 FoilFractor
+L88: 
+L89: *Parallels or other non-base cards will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.
+L90: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L91: 
+L92: cite18†Subject to Terms & Conditions†www.topps.com L93: 
+L94: Description
+L95: 
+L96: Chrome Parallel Cards
+L97: 
+L98: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:
+L99: 
+L100: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L101: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L102: 
+L103: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L104: 
+L105: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L106: 
+L107: Capturing all the excitement of Major League Baseball – Topps NOW brings the biggest moments on the diamond directly to your collection!
+L108: 
+L109: Your Hero. Your Team. Your Moment. ™
+L110: Topps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite19†MLB Topps NOW Archive.†www.topps.com L111: 
+L112: cite20†Learn About the Topps NOW® Brand†ripped.topps.com L113: All sales are final. Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L114: 
+L115:  PLAYERS CHOICE DIAMOND CLUB®
+L116: 
+L117: Specs
+L118: SKU  | ARTBB-16C2S-26TN-0591
+L119: Category  | Sports
+L120: Sub Categories  | Baseball
+L121: Sub Type  | Cards
+L122: Product Year  | 2026
+L123: Brand  | Topps
+L124: Sub Brand  | Topps NOW®
+L125: Subjects  | Randy Arozarena
+L126: Properties  | Seattle Mariners
+L127: Product Type  | Print on Demand
+L128: Available From  | Aug 24, 2026
+L129: Available Until  | Aug 25, 2026
+L130: 
+L131: Just dropped
+L132: 
+L133: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: UCC Living Set][Button: Supplies]
+L134: cite21†Kimi Antonelli - 2026 Formula 1® Topps NOW® - Card 57£11.99 Look for Auto and Short Prints L135: 
+L136: Quick add
+L137: 
+L138: cite22†Lightning McQueen - 2026 Formula 1® Topps NOW® - Card 55£8.99 L139: 
+L140: Quick add
+L141: 
+L142: cite23†Lamine Yamal - 2026-27 FC Barcelona Topps NOW® - Card 2£11.99 Look for Auto L143: 
+L144: Quick add
+L145: 
+L146: cite24†Lionel Messi - 2026 Argentina Topps NOW® - Card 1£11.99 Look for Autos L147: 
+L148: Quick add
+L149: 
+L150: cite25†Enzo Fernandez - 2026-27 Premier League Topps NOW® - Card 18£8.99 L151: 
+L152: Quick add
+L153: cite26†Topps Match Attax UCC 2026/27 - Booster Tin Bundle£28.99 L154: 
+L155: Add to cart
+L156: 
+L157: cite27†Topps Match Attax UCC 2026/27 - Online Exclusive Starter Pack£15.99 L158: 
+L159: Add to cart
+L160: 
+L161: cite28†Topps Match Attax UCC 2026/27 - Mega Tin Bundle£43.99 L162: 
+L163: Add to cart
+L164: 
+L165: cite29†Topps Match Attax UCC 2026/27 - Full Box£65.00 L166: 
+L167: Add to cart
+L168: 
+L169: cite30†Topps Match Attax UCC 2026/27 - Booster Tin 1 (Strike Team)£9.99 L170: 
+L171: Add to cart
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/sal-stewart-munetaka-murakami-kazuma-okamoto-2026-mlb-topps-now%C2%AE-card-652)
+citeturn1039view3 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/sal-stewart-munetaka-murakami-kazuma-okamoto-2026-mlb-topps-now%C2%AE-card-652","lineno":null}); Total lines: 173
+L0: cite0†Skip to content L1: 
+L2: cite1†New Season, New Drops. Get free domestic shipping when you buy 2+ Topps Now cards. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: [Button: Cookie Preferences]
+L46: 
+L47: Copyright © 2026 TOPPS. All rights reserved.
+L48: 
+L49: Sal Stewart / Munetaka Murakami / Kazuma Okamoto - 2026 MLB Topps NOW® - Card 652
+L50: 
+L51:   1. cite15†MLB L52: 
+L53: cite16†Image†cdn.shopify.com L54: 
+L55: cite17†Image†cdn.shopify.com L56: 
+L57: cite16†Image†cdn.shopify.com L58: 
+L59: cite17†Image†cdn.shopify.com L60: 
+L61: Show all photos
+L62: ## Sal Stewart / Munetaka Murakami / Kazuma Okamoto - 2026 MLB Topps NOW® - Card 652
+L63: 
+L64: £8.99
+L65: 
+L66: Ships in 15-20 business days
+L67: 
+L68: Product is available from Sep 9, 2026
+L69: 
+L70: Sold out
+L71: 
+L72: Overview
+L73: 
+L74: Look for:
+L75: 
+L76:   * Open-Edition Base Card
+L77:   * Foil Parallels Numbered to /50 and lower
+L78: 
+L79: Parallels:
+L80: 
+L81: /50 Gold Foil
+L82: 
+L83: /25 Orange Foil
+L84: 
+L85: /10 Black Foil
+L86: 
+L87: /5 Red Foil
+L88: 
+L89: /1 FoilFractor
+L90: 
+L91: *Parallels or other non-base cards will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.
+L92: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L93: 
+L94: cite18†Subject to Terms & Conditions†www.topps.com L95: 
+L96: Description
+L97: 
+L98: Chrome Parallel Cards
+L99: 
+L100: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:
+L101: 
+L102: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L103: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L104: 
+L105: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L106: 
+L107: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L108: 
+L109: Capturing all the excitement of Major League Baseball – Topps NOW brings the biggest moments on the diamond directly to your collection!
+L110: 
+L111: Your Hero. Your Team. Your Moment. ™
+L112: Topps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite19†MLB Topps NOW Archive.†www.topps.com L113: 
+L114: cite20†Learn About the Topps NOW® Brand†ripped.topps.com L115: All sales are final. Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L116: 
+L117:  PLAYERS CHOICE DIAMOND CLUB®
+L118: 
+L119: Specs
+L120: SKU  | ARTBB-16C2S-26TN-0652
+L121: Category  | Sports
+L122: Sub Categories  | Baseball
+L123: Sub Type  | Cards
+L124: Product Year  | 2026
+L125: Brand  | Topps
+L126: Sub Brand  | Topps NOW®
+L127: Subjects  | Sal Stewart, Kazuma Okamoto, Munetaka Murakami
+L128: Properties  | Major League Baseball
+L129: Product Type  | Print on Demand
+L130: Available From  | Sep 9, 2026
+L131: Available Until  | Sep 10, 2026
+L132: 
+L133: Just dropped
+L134: 
+L135: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: Living Set][Button: Supplies]
+L136: cite21†2026 Marvel Topps Now: Avengers End Game Encore£11.99 Look for Short Prints L137: 
+L138: Quick add
+L139: 
+L140: cite22†Harry Kane - 2026-27 Bundesliga Topps NOW® - Card 24£11.99 Look for Auto L141: 
+L142: Quick add
+L143: 
+L144: cite23†Mahdi Nicoll-Jazuli - 2026-27 Premier League Topps NOW® - Card 31£8.99 L145: 
+L146: Quick add
+L147: 
+L148: cite24†Jay Dasilva - 2026-27 Premier League Topps NOW® - Card 35£8.99 L149: 
+L150: Quick add
+L151: 
+L152: cite25†Enzo Fernández - 2026-27 Premier League Topps NOW® - Card 37£8.99 L153: 
+L154: Quick add
+L155: cite26†Pre-order cite26†2026 Topps Stadium Club WWE - Mega Box£45.00 10 cards per pack 6 packs per box Look for randomly inserted autographs L156: 
+L157: Add to cart
+L158: 
+L159: cite27†Pre-order cite27†2026 Topps Stadium Club WWE - Value Box£20.00 5 cards per pack 6 packs per box Look for randomly inserted autographs L160: 
+L161: Add to cart
+L162: 
+L163: cite28†Pre-order cite28†2026 Topps Heritage Football - Mega Box£45.00 8 cards per pack 17 packs per box mega exclusive sparkle parallels L164: 
+L165: Add to cart
+L166: cite29†Pre-order cite29†2026 Topps Heritage Football - Value Box£25.00 8 cards per pack 8 packs per box value exclusives sparkle parallels L167: 
+L168: Add to cart
+L169: 
+L170: cite30†Topps Collector Tin Manchester City 2026/27£24.99 35 cards per pack 1 pack per box 2 Sequentially Numbered Parallels Per Tin L171: 
+L172: Add to cart
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1039view4 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/pete-crow-armstrong-2026-mlb-topps-now%C2%AE-card-683","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/pete-crow-armstrong-2026-mlb-topps-now%C2%AE-card-683 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1039view5 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/ethan-salas-2026-mlb-topps-now%C2%AE-card-684","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/ethan-salas-2026-mlb-topps-now%C2%AE-card-684 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Los Angeles Dodgers - 2026 MLB Topps NOW® - Card 685 (https://uk-next.topps.com/products/los-angeles-dodgers-2026-mlb-topps-now%C2%AE-card-685)
+citeturn1039view6 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/los-angeles-dodgers-2026-mlb-topps-now%C2%AE-card-685","lineno":null}); Total lines: 214
+L0: cite0†Skip to content L1: 
+L2: cite1†New season, new drops. Free domestic shipping on 2+ Topps Now cards for a limited time. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: Copyright © 2026 TOPPS. All rights reserved.
+L46: 
+L47:   1. cite1†Topps NOW® L48: 
+L49: cite15†Image†cdn.shopify.com L50: 
+L51: cite16†Image†cdn.shopify.com L52: 
+L53: cite15†Image†cdn.shopify.com L54: 
+L55: cite16†Image†cdn.shopify.com L56: 
+L57: Show all photos
+L58: ## Los Angeles Dodgers - 2026 MLB Topps NOW® - Card 685
+L59: 
+L60: £8.99
+L61: 
+L62: Ships in 15-20 business days after expiry date
+L63: 
+L64: Product is available from Sep 18, 2026 and expires on Sep 19, 2026
+L65: 
+L66: Qty:1 card
+L67: 
+L68: [Input]
+L69: 
+L70: 1 card
+L71: 
+L72: £8.99/ea
+L73: 
+L74: £8.99
+L75: 
+L76: [Input]
+L77: 
+L78: 5 cards
+L79: 
+L80: SAVE 24%
+L81: 
+L82: £6.80/ea
+L83: 
+L84: £33.99
+L85: 
+L86: [Input]
+L87: 
+L88: 10 cards
+L89: 
+L90: SAVE 34%
+L91: 
+L92: £5.90/ea
+L93: 
+L94: £58.99
+L95: 
+L96: [Input]
+L97: 
+L98: 20 cards
+L99: 
+L100: SAVE 46%
+L101: 
+L102: £4.90/ea
+L103: 
+L104: £97.99
+L105: 
+L106: Quantity
+L107: 
+L108: [Input]
+L109: 
+L110: Add to Cart
+L111: 
+L112: Overview
+L113: 
+L114: Look for:
+L115: 
+L116:   * Open-Edition Base Card
+L117:   * Foil Parallels Numbered to /50 and lower
+L118: 
+L119: Parallels:
+L120: /50 Gold Foil
+L121: 
+L122: /25 Orange Foil
+L123: 
+L124: /10 Black Foil
+L125: 
+L126: /5 Red Foil
+L127: 
+L128: /1 FoilFractor
+L129: 
+L130: *Parallels or other non-base cards will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.
+L131: 
+L132: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L133: 
+L134: cite17†Subject to Terms & Conditions†www.topps.com L135: 
+L136: Description
+L137: 
+L138: Chrome Parallel Cards
+L139: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:
+L140: 
+L141: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L142: 
+L143: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L144: 
+L145: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L146: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L147: 
+L148: Capturing all the excitement of Major League Baseball – Topps NOW brings the biggest moments on the diamond directly to your collection!
+L149: 
+L150: Your Hero. Your Team. Your Moment. ™
+L151: 
+L152: Topps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite18†MLB Topps NOW Archive.†www.topps.com L153: 
+L154: cite19†Learn About the Topps NOW® Brand†ripped.topps.com --------------------------------------------------------------------------------
+Internal Error ()
+citeturn1039view7 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/yordan-alvarez-2026-mlb-topps-now%C2%AE-card-686","lineno":null}); Total lines: 1
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/jackson-chourio-2026-mlb-topps-now%C2%AE-card-698)
+citeturn1039view8 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/jackson-chourio-2026-mlb-topps-now%C2%AE-card-698","lineno":null}); Total lines: 171
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/milwaukee-brewers-2026-mlb-topps-now%C2%AE-card-699)
+citeturn1039view9 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/milwaukee-brewers-2026-mlb-topps-now%C2%AE-card-699","lineno":null}); Total lines: 173
+
+--------------------------------------------------------------------------------
+Ben Rice - 2026 MLB Topps NOW® - Card 708 (https://uk-next.topps.com/products/ben-rice-2026-mlb-topps-now%C2%AE-card-708)
+citeturn1040view0 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/ben-rice-2026-mlb-topps-now%C2%AE-card-708","lineno":null}); Total lines: 178
+L0: cite0†Skip to content L1: 
+L2: cite1†New Season, New Drops. Get free domestic shipping when you buy 2+ Topps Now cards. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: [Button: Cookie Preferences]
+L46: 
+L47: Copyright © 2026 TOPPS. All rights reserved.
+L48: 
+L49: cite15†Image: twitter.svg†images.topps.com L50: 
+L51:   1. cite16†MLB L52: 
+L53: cite17†Image†cdn.shopify.com L54: 
+L55: cite18†Image†cdn.shopify.com L56: 
+L57: cite19†Image†cdn.shopify.com L58: 
+L59: cite17†Image†cdn.shopify.com L60: 
+L61: cite18†Image†cdn.shopify.com L62: 
+L63: cite19†Image†cdn.shopify.com L64: 
+L65: Show all photos
+L66: ## Ben Rice - 2026 MLB Topps NOW® - Card 708
+L67: 
+L68: £11.99
+L69: 
+L70: Look for Autos
+L71: 
+L72: Ships in 15-20 business days
+L73: 
+L74: Product is available from 24 Sep 2026
+L75: 
+L76: Sold out
+L77: 
+L78: Overview
+L79: 
+L80: Look for:
+L81: 
+L82:   * Open-Edition Base Card
+L83:   * Foil Parallels Numbered to /50 and lower
+L84:   * /10 Autograph Redemption Card
+L85:   * /5 Autograph Redemption Card
+L86:   * /1 Autograph Redemption Card
+L87: 
+L88: Parallels:
+L89: 
+L90: /50 Gold Foil
+L91: 
+L92: /25 Orange Foil
+L93: 
+L94: /10 Black Foil
+L95: 
+L96: /5 Red Foil
+L97: 
+L98: /1 FoilFractor
+L99: *Parallels or other non-base cards will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.
+L100: 
+L101: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L102: 
+L103: cite20†Subject to Terms & Conditions†www.topps.com L104: 
+L105: Description
+L106: 
+L107: Chrome Parallel Cards
+L108: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:
+L109: 
+L110: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L111: 
+L112: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L113: 
+L114: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L115: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L116: 
+L117: Capturing all the excitement of Major League Baseball – Topps NOW brings the biggest moments on the diamond directly to your collection!
+L118: 
+L119: Your Hero. Your Team. Your Moment. ™
+L120: 
+L121: Topps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite21†MLB Topps NOW Archive.†www.topps.com L122: 
+L123: cite22†Learn About the Topps NOW® Brand†ripped.topps.com L124: All sales are final. Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L125: 
+L126:  PLAYERS CHOICE DIAMOND CLUB®
+L127: 
+L128: Specs
+L129: SKU  | ARTBB-16C2S-26TN-0708
+L130: Category  | Sports
+L131: Sub Categories  | Baseball
+L132: Sub Type  | Cards
+L133: Product Year  | 2026
+L134: Brand  | Topps
+L135: Sub Brand  | Topps NOW®
+L136: Subjects  | Ben Rice
+L137: Properties  | New York Yankees
+L138: Product Type  | Print on Demand
+L139: Available From  | 24 Sep 2026
+L140: Available Until  | 25 Sep 2026
+L141: 
+L142: Just dropped
+L143: 
+L144: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: Living Set][Button: Supplies]
+L145: cite23†2026 Topps Chrome® Tennis - Value Box£25.00 4 cards per pack 7 packs per box Look for randomly inserted autographs L146: 
+L147: Add to cart
+L148: 
+L149: cite24†Erling Haaland - 2026-27 UEFA Nations League Topps NOW® - Card 1£8.99 L150: 
+L151: Quick add
+L152: 
+L153: cite25†George Russell - 2026 Formula 1® Topps NOW® - Card 62£11.99 Look for Auto and Short Prints L154: 
+L155: Quick add
+L156: 
+L157: cite26†Carlos Alcaraz - 2026 Topps NOW® Tennis - Card 27£11.99 Look for Auto-Relic L158: 
+L159: Quick add
+L160: 
+L161: cite27†Jahmyr Gibbs - 2026 NFL Topps NOW® - Card 31£11.99 Look for Autos L162: 
+L163: Quick add
+L164: cite28†Haley Bugeja - 2026-27 UWCL Topps NOW® - Card 1£8.99 L165: 
+L166: Quick add
+L167: 
+L168: cite29†Pre-order cite29†2026 Topps Stadium Club WWE - Mega Box£45.00 10 cards per pack 6 packs per box Look for randomly inserted autographs L169: 
+L170: Add to cart
+L171: 
+L172: cite30†Pre-order cite30†2026 Topps Stadium Club WWE - Value Box£20.00 5 cards per pack 6 packs per box Look for randomly inserted autographs L173: 
+L174: Add to cart
+L175: 
+L176: cite31†Pre-order cite31†2026 Topps Heritage Football - Value Box£25.00 8 cards per pack 8 packs per box value exclusives sparkle parallels L177: Add to cart
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1040view1 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/eduardo-valencia-2026-mlb-topps-now%C2%AE-card-727","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/eduardo-valencia-2026-mlb-topps-now%C2%AE-card-727 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1040view2 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/james-rodriguez-2026-mls-topps-now%C2%AE-card-42","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/james-rodriguez-2026-mls-topps-now%C2%AE-card-42 is not accessible via this tool.
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/jahmyr-gibbs-2026-nfl-topps-now%C2%AE-card-31)
+citeturn1040view3 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/jahmyr-gibbs-2026-nfl-topps-now%C2%AE-card-31","lineno":null}); Total lines: 169
+L0: cite0†Skip to content L1: 
+L2: cite1†New Season, New Drops. Get free domestic shipping when you buy 2+ Topps Now cards. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: [Button: Cookie Preferences]
+L46: 
+L47: Copyright © 2026 TOPPS. All rights reserved.
+L48: 
+L49: Jahmyr Gibbs - 2026 NFL Topps NOW® - Card 31
+L50: 
+L51:   1. cite15†All Products L52: 
+L53: cite16†Image†cdn.shopify.com L54: 
+L55: cite17†Image†cdn.shopify.com L56: 
+L57: cite16†Image†cdn.shopify.com L58: 
+L59: cite17†Image†cdn.shopify.com L60: 
+L61: Show all photos
+L62: 
+L63: Free UK shipping on 2+ cards
+L64: ## Jahmyr Gibbs - 2026 NFL Topps NOW® - Card 31
+L65: 
+L66: £11.99
+L67: 
+L68: Look for Autos
+L69: 
+L70: Ships in 15-20 business days
+L71: 
+L72: Product is available from 27. Sept. 2026
+L73: 
+L74: Sold out
+L75: 
+L76: Overview
+L77: 
+L78: Look for:
+L79: 
+L80:   * Open-Edition Base Card
+L81:   * Foil Parallels Numbered to /50 and lower
+L82:   * /5 Autograph Redemption Card
+L83:   * /1 Autograph Redemption Card
+L84: 
+L85: Parallels:
+L86: 
+L87: /50 Gold Foil
+L88: 
+L89: /25 Orange Foil
+L90: 
+L91: /10 Black Foil
+L92: 
+L93: /5 Red Foil
+L94: 
+L95: /1 FoilFractor
+L96: *Parallels or other non-base card will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.
+L97: 
+L98: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L99: 
+L100: cite18†Subject to Terms & Conditions†www.topps.com L101: 
+L102: Description
+L103: 
+L104: Chrome Chase Cards
+L105: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky hits:
+L106: 
+L107: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L108: 
+L109: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L110: 
+L111: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L112: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L113: 
+L114: Capturing all the excitement of the National Football League – Topps NOW® brings the biggest moments directly to your collection!
+L115: 
+L116: Your Hero. Your Team. Your Moment. ™
+L117: 
+L118: Topps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite19†Football Topps NOW® Archive.†www.topps.com L119: 
+L120: cite20†Learn About the Topps NOW® Brand†ripped.topps.com L121: Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L122: 
+L123: Specs
+L124: SKU  | ARTFB-16C2S-26TN-0031
+L125: Category  | Sports
+L126: Sub Categories  | American Football
+L127: Sub Type  | Cards
+L128: Product Year  | 2026
+L129: Brand  | Topps
+L130: Sub Brand  | Topps NOW®
+L131: Subjects  | Jahmyr Gibbs
+L132: Properties  | Detroit Lions
+L133: Product Type  | Print on Demand
+L134: Available From  | 27. Sept. 2026
+L135: Available Until  | 30. Sept. 2026
+L136: 
+L137: Just dropped
+L138: 
+L139: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: Living Set][Button: Supplies]
+L140: cite21†2026 Topps Chrome® Tennis - Value Box£25.00 4 cards per pack 7 packs per box Look for randomly inserted autographs L141: 
+L142: Add to cart
+L143: 
+L144: cite22†Erling Haaland - 2026-27 UEFA Nations League Topps NOW® - Card 1£8.99 L145: 
+L146: Quick add
+L147: 
+L148: cite23†George Russell - 2026 Formula 1® Topps NOW® - Card 62£11.99 Look for Auto and Short Prints L149: 
+L150: Quick add
+L151: 
+L152: cite24†Haley Bugeja - 2026-27 UWCL Topps NOW® - Card 1£8.99 L153: 
+L154: Quick add
+L155: cite25†Pre-order cite25†2026 Topps Stadium Club WWE - Mega Box£45.00 10 cards per pack 6 packs per box Look for randomly inserted autographs L156: 
+L157: Add to cart
+L158: 
+L159: cite26†Pre-order cite26†2026 Topps Stadium Club WWE - Value Box£20.00 5 cards per pack 6 packs per box Look for randomly inserted autographs L160: 
+L161: Add to cart
+L162: 
+L163: cite27†Pre-order cite27†2026 Topps Heritage Football - Value Box£25.00 8 cards per pack 8 packs per box value exclusives sparkle parallels L164: 
+L165: Add to cart
+L166: cite28†Max Verstappen - 2026 Formula 1® Topps NOW® - Card 63£8.99 L167: 
+L168: Quick add
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/justin-bieber-2026-topps-now%C2%AE-card-jb01)
+citeturn1040view4 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/justin-bieber-2026-topps-now%C2%AE-card-jb01","lineno":null}); Total lines: 167
+L0: cite0†Skip to content L1: 
+L2: cite1†New Season, New Drops. Get free domestic shipping when you buy 2+ Topps Now cards. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: [Button: Cookie Preferences]
+L46: 
+L47: Copyright © 2026 TOPPS. All rights reserved.
+L48: 
+L49: Justin Bieber - 2026 Topps NOW® - Card JB01
+L50: 
+L51:   1. cite15†All Products L52: 
+L53: cite16†Image†cdn.shopify.com L54: 
+L55: cite17†Image†cdn.shopify.com L56: 
+L57: cite16†Image†cdn.shopify.com L58: 
+L59: cite17†Image†cdn.shopify.com L60: 
+L61: Show all photos
+L62: ## Justin Bieber - 2026 Topps NOW® - Card JB01
+L63: 
+L64: £11.99
+L65: 
+L66: Look for Autos
+L67: 
+L68: Ships in 15-20 business days
+L69: 
+L70: Product is available from Jul 20, 2026
+L71: 
+L72: Sold out
+L73: 
+L74: Overview
+L75: 
+L76: Look for:
+L77: 
+L78:   * Open-Edition Base Card
+L79:   * Foil Parallels Numbered to /50 and lower
+L80:   * /5 Autograph Redemption Card
+L81:   * /1 Autograph Redemption Card
+L82: 
+L83: Parallels:
+L84: 
+L85: /50 Gold Foil
+L86: 
+L87: /25 Orange Foil
+L88: 
+L89: /10 Black Foil
+L90: 
+L91: /5 Red Foil
+L92: 
+L93: /1 FoilFractor
+L94: *Parallels or other non-base cards will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.
+L95: 
+L96: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L97: 
+L98: cite18†Subject to Terms & Conditions†www.topps.com L99: 
+L100: Description
+L101: 
+L102: Chrome Parallel Cards
+L103: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:
+L104: 
+L105: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L106: 
+L107: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L108: 
+L109: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L110: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L111: 
+L112: Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L113: 
+L114: Specs
+L115: SKU  | ART-16C2S-26TN-JB01
+L116: Category  | Entertainment
+L117: Sub Categories  | Other
+L118: Sub Type  | Cards
+L119: Product Year  | 2026
+L120: Brand  | Topps
+L121: Sub Brand  | Topps NOW®
+L122: Subjects  | Justin Bieber
+L123: Product Type  | Print on Demand
+L124: Available From  | Jul 20, 2026
+L125: Available Until  | Jul 23, 2026
+L126: 
+L127: Just dropped
+L128: 
+L129: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: Living Set][Button: Supplies]
+L130: 
+L131: cite19†2026 Marvel Topps Now: Avengers End Game Encore£11.99 Look for Short Prints L132: 
+L133: Quick add
+L134: cite20†Harry Kane - 2026-27 Bundesliga Topps NOW® - Card 24£11.99 Look for Auto L135: 
+L136: Quick add
+L137: 
+L138: cite21†Mahdi Nicoll-Jazuli - 2026-27 Premier League Topps NOW® - Card 31£8.99 L139: 
+L140: Quick add
+L141: 
+L142: cite22†Jay Dasilva - 2026-27 Premier League Topps NOW® - Card 35£8.99 L143: 
+L144: Quick add
+L145: 
+L146: cite23†Enzo Fernández - 2026-27 Premier League Topps NOW® - Card 37£8.99 L147: 
+L148: Quick add
+L149: 
+L150: cite24†Pre-order cite24†2026 Topps Stadium Club WWE - Mega Box£45.00 10 cards per pack 6 packs per box Look for randomly inserted autographs L151: 
+L152: Add to cart
+L153: cite25†Pre-order cite25†2026 Topps Stadium Club WWE - Value Box£20.00 5 cards per pack 6 packs per box Look for randomly inserted autographs L154: 
+L155: Add to cart
+L156: 
+L157: cite26†Pre-order cite26†2026 Topps Heritage Football - Mega Box£45.00 8 cards per pack 17 packs per box mega exclusive sparkle parallels L158: 
+L159: Add to cart
+L160: 
+L161: cite27†Pre-order cite27†2026 Topps Heritage Football - Value Box£25.00 8 cards per pack 8 packs per box value exclusives sparkle parallels L162: 
+L163: Add to cart
+L164: cite28†CC Sabathia - 2026 MLB Topps NOW® - Card 724£11.99 Look for Autos L165: 
+L166: Quick add
+--------------------------------------------------------------------------------
+Sean Sharaf - 2026 UFC Topps NOW® - Card 34 (https://uk-next.topps.com/products/sean-sharaf-2026-ufc-topps-now%C2%AE-card-34)
+citeturn1040view5 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/sean-sharaf-2026-ufc-topps-now%C2%AE-card-34","lineno":null}); Total lines: 175
+L0: cite0†Skip to content L1: 
+L2: cite1†New Season, New Drops. Get free domestic shipping when you buy 2+ Topps Now cards. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: [Button: Cookie Preferences]
+L46: 
+L47: Copyright © 2026 TOPPS. All rights reserved.
+L48: 
+L49:   1. cite15†All Products L50: 
+L51: cite16†Image†cdn.shopify.com L52: 
+L53: cite17†Image†cdn.shopify.com L54: 
+L55: cite18†Image†cdn.shopify.com L56: 
+L57: cite16†Image†cdn.shopify.com L58: 
+L59: cite17†Image†cdn.shopify.com L60: 
+L61: cite18†Image†cdn.shopify.com L62: 
+L63: Show all photos
+L64: ## Sean Sharaf - 2026 UFC Topps NOW® - Card 34
+L65: 
+L66: £8.99
+L67: 
+L68: Look for Short Prints
+L69: 
+L70: Ships in 15-20 business days
+L71: 
+L72: Product is available from Sep 21, 2026
+L73: 
+L74: Sold out
+L75: 
+L76: Overview
+L77: 
+L78: Look for:
+L79: 
+L80:   * Open-Edition Base Card
+L81:   * Foil Parallels Numbered to /50 and lower
+L82:   * UFC Artist fight poster Short Print
+L83: 
+L84: Parallels:
+L85: 
+L86: /50 Gold Foil
+L87: 
+L88: /25 Orange Foil
+L89: 
+L90: /10 Black Foil
+L91: 
+L92: /5 Red Foil
+L93: 
+L94: /1 FoilFractor
+L95: *Parallels or other non-base cards will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.
+L96: 
+L97: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L98: 
+L99: cite19†Subject to Terms & Conditions†www.topps.com L100: 
+L101: Description
+L102: 
+L103: Chrome Parallel Cards
+L104: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:
+L105: 
+L106: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L107: 
+L108: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L109: 
+L110: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L111: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L112: 
+L113: Capturing all the excitement of Ultimate Fighting Championship – Topps NOW brings the biggest moments directly to your collection!
+L114: 
+L115: Your Hero. Your Team. Your Moment. ™
+L116: 
+L117: Topps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite20†UFC Topps NOW Archive†www.topps.com .
+L118: Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L119: 
+L120: PLAYERS CHOICE DIAMOND CLUB®
+L121: 
+L122: Specs
+L123: SKU  | ARTUF-16C2S-26TN-0034
+L124: Category  | Sports
+L125: Sub Categories  | Combat
+L126: Sub Type  | Cards
+L127: Product Year  | 2026
+L128: Brand  | Topps
+L129: Sub Brand  | Topps NOW®
+L130: Subjects  | Sean_Sharaf
+L131: Product Type  | Print on Demand
+L132: Available From  | Sep 21, 2026
+L133: Available Until  | Sep 24, 2026
+L134: 
+L135: Just dropped
+L136: 
+L137: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: Living Set][Button: Supplies]
+L138: 
+L139: cite21†2026 Marvel Topps Now: Avengers End Game Encore£11.99 Look for Short Prints L140: 
+L141: Quick add
+L142: cite22†Harry Kane - 2026-27 Bundesliga Topps NOW® - Card 24£11.99 Look for Auto L143: 
+L144: Quick add
+L145: 
+--------------------------------------------------------------------------------
+Natalia Silva - 2026 UFC Topps NOW® - Card 35 (https://uk-next.topps.com/products/natalia-silva-2026-ufc-topps-now%C2%AE-card-35)
+citeturn1040view6 [wordlim: 200] Crawled: 4 days ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/natalia-silva-2026-ufc-topps-now%C2%AE-card-35","lineno":null}); Total lines: 181
+--------------------------------------------------------------------------------
+Lil Yachty - 2026 WWE Topps NOW® - Card 95 (https://uk-next.topps.com/products/lil-yachty-2026-wwe-topps-now%C2%AE-card-95)
+citeturn1040view7 [wordlim: 200] Crawled: 4 weeks ago; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/lil-yachty-2026-wwe-topps-now%C2%AE-card-95","lineno":null}); Total lines: 168
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/harry-kane-2026-27-bundesliga-topps-now%C2%AE-card-24)
+citeturn1040view8 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/harry-kane-2026-27-bundesliga-topps-now%C2%AE-card-24","lineno":null}); Total lines: 201
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1040view9 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/mike-evans-2026-nfl-topps-now%C2%AE-card-5","lineno":null}); Total lines: 1
+
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1041view0 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/travis-kelce-2026-nfl-topps-now%C2%AE-card-18","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/travis-kelce-2026-nfl-topps-now%C2%AE-card-18 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1041view1 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/dak-prescott-2026-27-nfl-topps-now%C2%AE-card-24","lineno":null}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/dak-prescott-2026-27-nfl-topps-now%C2%AE-card-24: TimeoutError
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1041view2 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/david-bailey-2026-27-nfl-topps-now-r-card-53","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/david-bailey-2026-27-nfl-topps-now-r-card-53 is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1041view3 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/kyle-hamilton-2026-27-nfl-topps-now-r-card-57","lineno":null}); Total lines: 1
+L0: URL https://uk-next.topps.com/products/kyle-hamilton-2026-27-nfl-topps-now-r-card-57 is not accessible via this tool.
+--------------------------------------------------------------------------------
+uk-next.topps.com (https://uk-next.topps.com/products/jeremy-jacquet-2026-27-premier-league-topps-now%C2%AE-card-8)
+citeturn1041view4 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/jeremy-jacquet-2026-27-premier-league-topps-now%C2%AE-card-8","lineno":null}); Total lines: 177
+L0: cite0†Skip to content L1: 
+L2: cite1†New Season, New Drops. Get free domestic shipping when you buy 2+ Topps Now cards. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10: ## Products
+L11: 
+L12: cite1†TOPPS NOW® L13: 
+L14: cite2†Cards & Boxes L15: 
+L16: cite3†Topps Ripped†ripped.topps.com L17: 
+L18: cite4†Apps†play.toppsapps.com L19: 
+L20: ## Customer Service
+L21: 
+L22: cite5†Contact Us L23: 
+L24: cite6†Checklists L25: 
+L26: cite7†Archives†uk.topps.com L27: 
+L28: cite8†Card Redemptions L29: 
+L30: cite9†Card Redemptions T&C's L31: 
+L32: cite10†Shipping & Returns L33: 
+L34: ## Corporate
+L35: 
+L36: cite11†Careers†www.fanaticsinc.com L37: ## Topps Apps
+L38: 
+L39: cite12†Privacy Policy†uk.topps.com L40: 
+L41: cite13†Terms Of Use†uk.topps.com L42: 
+L43: cite14†UK Tax Strategy L44: 
+L45: [Button: Cookie Preferences]
+L46: 
+L47: Copyright © 2026 TOPPS. All rights reserved.
+L48: 
+L49: Jérémy Jacquet - 2026-27 Premier League Topps NOW® - Card 8
+L50: 
+L51: cite15†Image: twitter.svg†images.topps.com L52: 
+L53:   1. cite16†All Products L54: 
+L55: cite17†Image†cdn.shopify.com L56: 
+L57: cite18†Image†cdn.shopify.com L58: 
+L59: cite19†Image†cdn.shopify.com L60: 
+L61: cite20†Image†cdn.shopify.com L62: 
+L63: cite21†Image†cdn.shopify.com L64: 
+L65: cite22†Image†cdn.shopify.com L66: 
+L67: cite17†Image†cdn.shopify.com L68: cite18†Image†cdn.shopify.com L69: 
+L70: cite19†Image†cdn.shopify.com L71: 
+L72: cite20†Image†cdn.shopify.com L73: 
+L74: +2 more
+L75: 
+L76: Show all photos
+L77: ## Jérémy Jacquet - 2026-27 Premier League Topps NOW® - Card 8
+L78: 
+L79: £8.99
+L80: 
+L81: Ships in 15-20 business days
+L82: 
+L83: Product is available from Aug 26, 2026
+L84: 
+L85: Sold out
+L86: 
+L87: Overview
+L88: 
+L89: Look for:
+L90: 
+L91:   * Open-Edition Base Card
+L92:   * Foil Parallels Numbered to /25 and lower
+L93: 
+L94: Parallels:
+L95: 
+L96: /25 Orange Foil
+L97: 
+L98: /10 Black Foil
+L99: 
+L100: /5 Red Foil
+L101: 
+L102: /1 FoilFractor
+L103: 
+L104: *Parallels or other non-base card will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.
+L105: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L106: 
+L107: cite23†Subject to Terms & Conditions†www.topps.com L108: 
+L109: Description
+L110: 
+L111: Chrome Parallel Cards
+L112: 
+L113: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:
+L114: 
+L115: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L116: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L117: 
+L118: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L119: 
+L120: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure
+L121: 
+L122: Capturing all the excitement of Premier League - Topps NOW® brings the biggest moments directly to your collection!
+L123: 
+L124: Your Hero. Your Team. Your Moment. ™
+L125: Topps NOW® celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite24†Premier League Topps NOW® Archive†www.topps.com .
+L126: 
+L127: cite25†Learn About the Topps NOW® Brand†ripped.topps.com L128: Please note that orders of multiple print on demand products will be consolidated in your delivery. The latest timer expiry will be used for the above shipping times. If you order a print on demand product with a stock item (retail product) this will be fulfilled from different facilities and the order may split.
+L129: 
+L130: Specs
+L131: SKU  | ARTPL-16C2S-27TN-0008
+L132: Category  | Sports
+L133: Sub Categories  | Football
+L134: Sub Type  | Cards
+L135: Product Year  | 2026
+L136: Brand  | Topps
+L137: Sub Brand  | Topps NOW®
+L138: Subjects  | Jérémy Jacquet
+L139: Properties  | Liverpool FC
+L140: Product Type  | Print on Demand
+L141: Available From  | Aug 26, 2026
+L142: Available Until  | Sep 2, 2026
+L143: 
+L144: Just dropped
+L145: 
+L146: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: Living Set][Button: Supplies]
+L147: 
+L148: cite26†George Russell - 2026 Formula 1® Topps NOW® - Card 62£11.99 Look for Auto and Short Prints L149: Quick add
+L150: 
+L151: cite27†Leonel Flores - 2026-27 Argentina Topps NOW® - Card 2£8.99 L152: 
+L153: Quick add
+L154: 
+L155: cite28†Erling Haaland - 2026-27 UEFA Nations League Topps NOW® - Card 1£8.99 L156: 
+L157: Quick add
+L158: 
+L159: cite29†2026 Topps Chrome® Tennis - Value Box£25.00 4 cards per pack 7 packs per box Look for randomly inserted autographs L160: 
+L161: Add to cart
+L162: 
+L163: cite30†Max Verstappen - 2026 Formula 1® Topps NOW® - Card 63£8.99 L164: 
+L165: Quick add
+L166: 
+L167: cite31†Drew Rasmussen - 2026 MLB Topps NOW® - Card 756£11.99 Look for Relics L168: 
+L169: Quick add
+L170: cite32†Munetaka Murakami - 2026 MLB Topps NOW® - Card 753£11.99 Look for Relics and Auto-Relic L171: 
+L172: Quick add
+L173: 
+L174: cite33†Tarik Skubal - 2026 MLB Topps NOW® - Card 755£8.99 L175: 
+L176: Quick add
+
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1042view0 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/spencer-jones-2026-mlb-topps-now%C2%AE-card-308","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/spencer-jones-2026-mlb-topps-now%C2%AE-card-308: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1042view1 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/blaze-jordan-2026-mlb-topps-now%C2%AE-card-326","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/blaze-jordan-2026-mlb-topps-now%C2%AE-card-326: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1042view2 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/pedro-ramirez-2026-mlb-topps-now%C2%AE-card-328","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/pedro-ramirez-2026-mlb-topps-now%C2%AE-card-328: (400) Timeout fetching
+
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1043view0 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/kyle-freeland-2026-mlb-topps-now%C2%AE-card-352","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/kyle-freeland-2026-mlb-topps-now%C2%AE-card-352: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1043view1 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/jonah-heim-nick-kurtz-2026-mlb-topps-now%C2%AE-card-353","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/jonah-heim-nick-kurtz-2026-mlb-topps-now%C2%AE-card-353: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1043view2 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/samuel-basallo-2026-mlb-topps-now%C2%AE-card-439","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/samuel-basallo-2026-mlb-topps-now%C2%AE-card-439: (400) Timeout fetching
+
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1044view0 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/pete-crow-armstrong-2026-mlb-topps-now%C2%AE-card-527","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/pete-crow-armstrong-2026-mlb-topps-now%C2%AE-card-527: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1044view1 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/carson-benge-2026-mlb-topps-now%C2%AE-card-562","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/carson-benge-2026-mlb-topps-now%C2%AE-card-562: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1044view2 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/randy-arozarena-2026-mlb-topps-now%C2%AE-card-591","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/randy-arozarena-2026-mlb-topps-now%C2%AE-card-591: (400) Timeout fetching
+
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1045view0 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/sal-stewart-munetaka-murakami-kazuma-okamoto-2026-mlb-topps-now%C2%AE-card-652","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/sal-stewart-munetaka-murakami-kazuma-okamoto-2026-mlb-topps-now%C2%AE-card-652: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1045view1 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/los-angeles-dodgers-2026-mlb-topps-now%C2%AE-card-685","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/los-angeles-dodgers-2026-mlb-topps-now%C2%AE-card-685: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1045view2 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/jackson-chourio-2026-mlb-topps-now%C2%AE-card-698","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/jackson-chourio-2026-mlb-topps-now%C2%AE-card-698: (400) Timeout fetching
+
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1046view0 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/milwaukee-brewers-2026-mlb-topps-now%C2%AE-card-699","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/milwaukee-brewers-2026-mlb-topps-now%C2%AE-card-699: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Ben Rice - 2026 MLB Topps NOW® - Card 708 (https://uk-next.topps.com/products/ben-rice-2026-mlb-topps-now%C2%AE-card-708)
+citeturn1046view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://uk-next.topps.com/products/ben-rice-2026-mlb-topps-now%C2%AE-card-708","lineno":65}); Total lines: 178
+L0: cite0†Skip to content L1: 
+L2: cite1†New Season, New Drops. Get free domestic shipping when you buy 2+ Topps Now cards. Shop Now. L3: 
+L4: [Input: Search]
+L5: 
+L6: Loading footer...
+L7: 
+L8: Loading product...
+L9: 
+L10:   1. cite2†MLB L11: 
+L12: cite3†Image†cdn.sanity.io L13: 
+L14: cite4†Image†cdn.sanity.io L15: 
+L16: cite5†Image†cdn.sanity.io L17: 
+L18: cite3†Image†cdn.sanity.io L19: 
+L20: cite4†Image†cdn.sanity.io L21: 
+L22: cite5†Image†cdn.sanity.io L23: 
+L24: Show all photos
+L25: ## Ben Rice - 2026 MLB Topps NOW® - Card 708
+L26: 
+L27: £11.99
+L28: 
+L29: Look for Autos
+L30: 
+L31: Ships in 15-20 business days
+L32: 
+L33: Product is available from 24 September 2026
+L34: 
+L35: Sold out
+L36: 
+L37: Overview
+L38: 
+L39: Look for:
+L40: 
+L41:   * Open-Edition Base Card
+L42:   * Foil Parallels Numbered to /50 and lower
+L43:   * /10 Autograph Redemption Card
+L44:   * /5 Autograph Redemption Card
+L45:   * /1 Autograph Redemption Card
+L46: 
+L47: Parallels:
+L48: 
+L49: /50 Gold Foil
+L50: 
+L51: /25 Orange Foil
+L52: 
+L53: /10 Black Foil
+L54: 
+L55: /5 Red Foil
+L56: 
+L57: /1 FoilFractor
+L58: *Parallels or other non-base cards will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.
+L59: 
+L60: The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.
+L61: 
+L62: cite6†Subject to Terms & Conditions†www.topps.com L63: 
+L64: Description
+L65: 
+L66: Chrome Parallel Cards
+L67: Ultra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:
+L68: 
+L69: 50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.
+L70: 
+L71: 100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.
+L72: 
+L73: 250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.
+L74: 500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.
+L75: 
+L76: Capturing all the excitement of Major League Baseball – Topps NOW brings the biggest moments on the diamond directly to your collection!
+L77: 
+L78: Your Hero. Your Team. Your Moment. ™
+L79: 
+L80: Topps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the cite7†MLB Topps NOW Archive.†www.topps.com L81: 
+L82: cite8†Learn About the Topps NOW® Brand†ripped.topps.com L83: All sales are final. Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.
+L84: 
+L85:  PLAYERS CHOICE DIAMOND CLUB®
+L86: 
+L87: Specs
+L88: SKU  | ARTBB-16C2S-26TN-0708-QTY1
+L89: Category  | Sports
+L90: Sub Categories  | Baseball
+L91: Sub Type  | Cards
+L92: Product Year  | 2026
+L93: Brand  | Topps
+L94: Sub Brand  | Topps NOW®
+L95: Subjects  | Ben Rice
+L96: Properties  | New York Yankees
+L97: Product Type  | Print on Demand
+L98: Available From  | 24 September 2026
+L99: Available Until  | 25 September 2026
+L100: 
+L101: Just dropped
+L102: 
+L103: [Button: New this week][Button: Topps NOW®][Button: Hobby][Button: Living Set][Button: Supplies]
+L104: cite9†Lionel Messi - 2026 Argentina Topps NOW® - Final Farewell Pack£18.00 Look for (4) 1/1 Messi Autographs L105: 
+L106: Quick add
+L107: 
+L108: cite10†Topps Collector Tin Arsenal 2026/27£24.99 35 cards per pack 1 pack per box 2 Sequentially Numbered Parallels Per Tin L109: 
+L110: Add to cart
+L111: 
+L112: cite11†Topps Match Attax UCC 2026/27 - Countdown Calendar£26.99 L113: 
+L114: Add to cart
+L115: 
+L116: cite12†2026 Topps Allen & Ginter Baseball - Value Box£25.00 6 cards per pack 8 packs per box Look for Autograph & Relic Cards L117: 
+L118: Add to cart
+L119: cite13†Pre-order cite13†Topps Flagship Bundesliga 2026-27 - Value Box£25.00 10 cards per pack 6 packs per box 4 exclusive Green Voltage unnumbered Parallels L120: 
+L121: Add to cart
+L122: 
+L123: cite14†Max Verstappen - 2026 Formula 1® Topps NOW® - Card 67£8.99 L124: 
+L125: Quick add
+L126: 
+L127: cite15†Arvid Lindblad - 2026 Formula 1® Topps NOW® - Card 66£8.99 L128: 
+L129: Quick add
+L130: 
+L131: cite16†Lewis Hamilton - 2026 Formula 1® Topps NOW® - Card 65£8.99 L132: 
+L133: Quick add
+L134: 
+L135: cite17†Max Verstappen - 2026 Formula 1® Topps NOW® - Card 64£8.99 L136: 
+L137: Quick add
+L138: ## Products
+L139: 
+L140: cite1†TOPPS NOW® L141: 
+L142: cite18†Cards & Boxes L143: 
+L144: cite19†Topps Ripped†ripped.topps.com L145: 
+L146: cite20†Apps†play.toppsapps.com L147: 
+L148: ## Customer Service
+L149: 
+L150: cite21†Contact Us L151: 
+L152: cite22†Checklists L153: 
+L154: cite23†Archives†uk.topps.com L155: 
+L156: cite24†Card Redemptions L157: 
+L158: cite25†Card Redemptions T&C's L159: 
+L160: cite26†Shipping & Returns L161: 
+L162: ## Corporate
+L163: 
+L164: cite27†Careers†www.fanaticsinc.com L165: ## Topps Apps
+L166: 
+L167: cite28†Privacy Policy†uk.topps.com L168: 
+L169: cite29†Terms Of Use†uk.topps.com L170: 
+L171: cite30†UK Tax Strategy L172: 
+L173: [Button: Cookie Preferences]
+L174: 
+L175: Copyright © 2026 TOPPS. All rights reserved.
+L176: 
+L177: cite31†Image: twitter.svg†images.topps.com --------------------------------------------------------------------------------
+Internal Error ()
+citeturn1046view2 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/jahmyr-gibbs-2026-nfl-topps-now%C2%AE-card-31","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/jahmyr-gibbs-2026-nfl-topps-now%C2%AE-card-31: (400) Timeout fetching
+
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1047view0 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/justin-bieber-2026-topps-now%C2%AE-card-jb01","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/justin-bieber-2026-topps-now%C2%AE-card-jb01: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1047view1 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/sean-sharaf-2026-ufc-topps-now%C2%AE-card-34","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/sean-sharaf-2026-ufc-topps-now%C2%AE-card-34: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1047view2 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/natalia-silva-2026-ufc-topps-now%C2%AE-card-35","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/natalia-silva-2026-ufc-topps-now%C2%AE-card-35: (400) Timeout fetching
+
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1048view0 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/lil-yachty-2026-wwe-topps-now%C2%AE-card-95","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/lil-yachty-2026-wwe-topps-now%C2%AE-card-95: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1048view1 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/harry-kane-2026-27-bundesliga-topps-now%C2%AE-card-24","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/harry-kane-2026-27-bundesliga-topps-now%C2%AE-card-24: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn1048view2 [wordlim: 200] Source: open({"ref_id":"https://uk-next.topps.com/products/jeremy-jacquet-2026-27-premier-league-topps-now%C2%AE-card-8","lineno":65}); Total lines: 1
+L0: Failed to fetch https://uk-next.topps.com/products/jeremy-jacquet-2026-27-premier-league-topps-now%C2%AE-card-8: (400) Timeout fetching
+
