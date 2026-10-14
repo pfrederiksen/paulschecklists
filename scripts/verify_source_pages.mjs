@@ -26,6 +26,17 @@ for(const set of cases){
  get('source-reset').onclick();assert.equal(get('source-sort').value,'checklist');assert.equal(get('source-section').value,'');
  assert(get('insights').innerHTML.includes('insight-grid'));
  get('source-odds-tab').onclick();assert.equal(get('source-cards-panel').hidden,true);assert.equal(get('source-specifications').hidden,false);get('source-cards-tab').onclick();assert.equal(get('source-specifications').hidden,true);
+ if(set.slug==='topps-bowman-2025-topps-chrome-formula-1-sapphire-edition'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);
+  assert.deepEqual(data.formats,['Sapphire Pack Rate']);
+  get('source-section').value='BASE CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'210 official source rows');get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});
+  assert(get('source-results').innerHTML.includes('Base Orange Sapphire Parallel'));assert(get('source-results').innerHTML.includes('1 in 17 packs'));assert(!get('source-results').innerHTML.includes('Base Refractor Parallel'),'Ordinary Chrome configurations must not appear in Sapphire family details');
+  get('source-reset').onclick();get('source-team').value='Oracle Red Bull Racing';get('source-team').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>r[4]==='Oracle Red Bull Racing').length} official source rows`);
+  get('source-reset').onclick();get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'35 official source rows');get('source-reset').onclick();
+  get('source-section').value='Chrome Autographs';get('source-section').onchange();get('source-search').value='CAC-COL';get('source-search').oninput();assert(get('source-results').innerHTML.includes('Franco Colapinto'));const actor=data.rows.findIndex(r=>r[1]==='CAC-COL');get('source-results').onclick({target:{closest:()=>({dataset:{row:String(actor)}})}});assert(get('source-results').innerHTML.includes('OFFICIAL Subset'));assert(get('source-results').innerHTML.includes('BWT Alpine Formula One™ Team'));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"Team","Subset","Rookie"'));assert(csv.includes('Franco Colapinto'));get('source-reset').onclick();
+  get('source-section').value='Infinite Sapphire';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('1 in 80 packs'));assert(get('source-specifications').innerHTML.includes('1 in 8,080 packs'));get('source-reset').onclick();get('source-cards-tab').onclick();
+ }
  if(set.slug==='topps-bowman-2025-star-wars-masterwork'){
   get('source-section').value='CHARACTERS';get('source-section').onchange();assert.equal(get('source-count').textContent,'100 official source rows');
   get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});assert(get('source-results').innerHTML.includes('Base Cards Blue'));assert(get('source-results').innerHTML.includes('1 in 6 packs'));assert(!get('source-results').innerHTML.includes('Under Disguise Rainbow Foil'));

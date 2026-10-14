@@ -37,7 +37,8 @@ for record in repaired:
                 assert len(data['formats']) == 20
                 assert data['formats'][:4] == ['Hobby Silver PK Pack Rate','Hobby Pack Rate','Jumbo Silver PK Pack Rate','Jumbo Pack Rate']
             else:
-                assert compact(text[caption.end():]) == compact(' '.join(data['formats'])), (record['title'], text, data['formats'])
+                source_formats=data.get('officialOddsFormats',data['formats'])
+                assert compact(text[caption.end():]) == compact(' '.join(source_formats)), (record['title'], text, source_formats)
     assert all(o['name'] and set(o['values']) == set(data['formats']) for o in data['odds'])
 
 def load(slug):

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.topps.com/pages/formula-1-chrome-sapphire",
+  "checked": "2026-10-14",
+  "sourceKind": "official-web-product-snapshot",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025_Topps_Chrome_F1_Sapphire_Edition_Checklist.pdf?v=1770631422",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Topps_Chrome_F1_2025_Odds_8bbac9c4-bcdd-418b-9001-bfe3218c8827.pdf?v=1770631422",
+  "baseCardCount": 200,
+  "listedPrograms": [
+    "Infinite Sapphire",
+    "Sapphire Selections",
+    "Helmet Collection",
+    "Speed Demons",
+    "Floor It",
+    "1975 Speed Wheels",
+    "Ace of Trades",
+    "Sapphire Autograph Cards"
+  ],
+  "regionalStore": {
+    "source": "https://jp.topps.com/products/2025-f1-chrome-sapphire",
+    "title": "2025 F1 Chrome - SAPPHIRE",
+    "製品年": "2026",
+    "利用可能開始日": "2026年2月13日",
+    "qualification": "Japanese store Product Year and Available From fields; not a verified universal release date."
+  },
+  "parallelNumbering": "No family-specific numbering ladder was published in the retrieved launch page; exhaustive audit remains pending.",
+  "releaseStatement": "The official launch page states that the collection has arrived; an exact release date is not stated."
+}
