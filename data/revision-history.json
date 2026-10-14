@@ -5719,12 +5719,12 @@
       "rows": 482,
       "odds": 74,
       "specificationRows": 6,
-      "specificationHash": "3d20aac1ef1cc30582edd039d1c68906051b3702ce613d058b1237ba3d72dba0"
+      "specificationHash": "aebab70efd19759d0760e8f0c7ae8fd4d5125c78d83fe8b82f6cb8a6682e81d7"
     },
-    "fingerprint": "df98181345394ebc87215ccc35fde56792744b9217784641620cca570e6706f8",
+    "fingerprint": "33d4dc623ac171ffaf53f27685ea1d54c27425e3af653dbce9e2ca4dccf782ba",
     "events": [
       {
-        "at": "2026-10-14T03:13:53.091Z",
+        "at": "2026-10-14T03:15:22.496Z",
         "changes": [
           "Numbering specification rows: 4 → 6",
           "Official supplementary numbering specification changed."
@@ -5736,7 +5736,7 @@
           "rows": 482,
           "odds": 74,
           "specificationRows": 6,
-          "specificationHash": "3d20aac1ef1cc30582edd039d1c68906051b3702ce613d058b1237ba3d72dba0"
+          "specificationHash": "aebab70efd19759d0760e8f0c7ae8fd4d5125c78d83fe8b82f6cb8a6682e81d7"
         },
         "previousSnapshot": {
           "checklistHash": "7f810561b8f3979d4188140ed9c603520cfbe7a6b43c3b3371f48e68032be66f",
