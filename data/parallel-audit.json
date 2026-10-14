@@ -731,13 +731,13 @@
       "slug": "topps-bowman-2026-topps-midnight-ufc",
       "title": "2026 Topps Midnight UFC",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
-      "oddsCategories": 91,
+      "source": "https://www.topps.com/pages/topps-midnight-ufc",
+      "oddsCategories": 86,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
     },
     {

@@ -445,11 +445,11 @@
     "state": {
       "checklistHash": "41e0b69b736673d7b0e692a6ba09ae7b7a1505136d0042b777432d49d44fc5e5",
       "oddsHash": "cd5c1390520bae547a59e136999a086d6d32df5699f5cdb1cad88515129466ae",
-      "rows": 640,
+      "rows": 739,
       "odds": 118,
       "specificationRows": 0
     },
-    "fingerprint": "fe850db187bbd654235bdf6e8a38ae80413472596adab4dcd2e3ad184b5c95fa",
+    "fingerprint": "88752102afd25de9c4cdfbda4d19449350dac8fe76e90b8d379a1bef939147d1",
     "events": [
       {
         "at": "2026-10-11T21:53:32.163Z",
@@ -1241,13 +1241,37 @@
   "topps-bowman-2026-topps-midnight-ufc": {
     "state": {
       "checklistHash": "e1d60232c671a9cd8288d493541f19a32799a2319d4202d7df8162095677d002",
-      "oddsHash": "eb6ddc70419fc2e3d5ff067880e0ffbf69366181249ef31f34d3612a93a73e08",
-      "rows": 384,
-      "odds": 91,
-      "specificationRows": 0
+      "oddsHash": "d0c7e07c0ef2330afde797aadcb1b4468110fb5495b6727b65c6ff0615aae6f7",
+      "rows": 484,
+      "odds": 86,
+      "specificationRows": 1
     },
-    "fingerprint": "28c70897f7cd47dde90ff971ea086613879b7b18e71c7bb80820ddd857eb2bdb",
+    "fingerprint": "25f3a1de80c357bfdb9fac3dda3876e46061b56799e5cfbbf23835a7f3047c31",
     "events": [
+      {
+        "at": "2026-10-14T10:15:17.034Z",
+        "changes": [
+          "Official odds document changed.",
+          "Checklist entries: 384 → 484",
+          "Published odds entries: 91 → 86",
+          "Numbering specification rows: 0 → 1"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MidnightUFC_Checklist_Final.pdf?v=1776702978",
+        "snapshot": {
+          "checklistHash": "e1d60232c671a9cd8288d493541f19a32799a2319d4202d7df8162095677d002",
+          "oddsHash": "d0c7e07c0ef2330afde797aadcb1b4468110fb5495b6727b65c6ff0615aae6f7",
+          "rows": 484,
+          "odds": 86,
+          "specificationRows": 1
+        },
+        "previousSnapshot": {
+          "checklistHash": "e1d60232c671a9cd8288d493541f19a32799a2319d4202d7df8162095677d002",
+          "oddsHash": "eb6ddc70419fc2e3d5ff067880e0ffbf69366181249ef31f34d3612a93a73e08",
+          "rows": 384,
+          "odds": 91,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.490Z",
         "changes": [
