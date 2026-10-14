@@ -4283,12 +4283,12 @@
     "state": {
       "checklistHash": "3e6f30cdfcdffb2c0e60986ec8583d5f39d9a42e59997ed33da02e6d70162453",
       "oddsHash": "47321ff45c524e85d392777ab956cb78f404c3adcc74d8c8ccd887b4fd4a6184",
-      "rows": 341,
-      "odds": 111,
+      "rows": 866,
+      "odds": 133,
       "specificationRows": 9,
       "specificationHash": "19ee998b8e77acd05c9006403a8582ba0e54120cf99789afbe19f6f882dc7abf"
     },
-    "fingerprint": "fcb2419a4c2ae004b0c5f1e86be182aca28400ed55defcf4c7d1a51cd1d863fa",
+    "fingerprint": "eae31a1374e398933fc9a9e944635132d0399341677714cda9e947bc6e514745",
     "events": [
       {
         "at": "2026-10-14T01:05:02.126Z",
