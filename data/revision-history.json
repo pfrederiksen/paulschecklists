@@ -331,11 +331,11 @@
     "state": {
       "checklistHash": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
       "oddsHash": "453416fa10c8c1b2e17076e5d890c35bb5ccf88191024f84f88c5439d03eed1a",
-      "rows": 1087,
+      "rows": 1091,
       "odds": 193,
       "specificationRows": 0
     },
-    "fingerprint": "11cda66931a60b66e11db6a0a64ead69b82d9f0de4a910d1b0da21bf21a8d233",
+    "fingerprint": "e091555837f8d8ac2146e37190d7aa6e8042db76e2099d3b6010b8ee7abe8e1c",
     "events": [
       {
         "at": "2026-10-11T21:53:32.110Z",

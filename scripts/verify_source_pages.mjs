@@ -26,6 +26,16 @@ for(const set of cases){
  get('source-reset').onclick();assert.equal(get('source-sort').value,'checklist');assert.equal(get('source-section').value,'');
  assert(get('insights').innerHTML.includes('insight-grid'));
  get('source-odds-tab').onclick();assert.equal(get('source-cards-panel').hidden,true);assert.equal(get('source-specifications').hidden,false);get('source-cards-tab').onclick();assert.equal(get('source-specifications').hidden,true);
+ if(set.slug==='topps-bowman-2025-26-topps-hopps-basketball'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'384 official source rows');get('source-reset').onclick();
+  get('source-search').value='Cooper Flagg';get('source-search').oninput();assert(get('source-results').innerHTML.includes('Dallas Mavericks'));get('source-reset').onclick();
+  get('source-section').value='BASE CARDS II';get('source-section').onchange();assert.equal(get('source-count').textContent,'100 official source rows');get('source-results').onclick({target:{closest:()=>({dataset:{row:'100'}})}});assert(get('source-results').innerHTML.includes('Base Rainbow'));assert(!get('source-results').innerHTML.includes('Hoops Rookie Signatures Pixel Burst'));
+  get('source-reset').onclick();get('source-section').value='ALL STARS';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Base Rainbow'));get('source-reset').onclick();get('source-cards-tab').onclick();
+  get('source-search').value='HW-19';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');assert(get('source-results').innerHTML.includes('De&#39;Aaron Fox'));assert(get('source-results').innerHTML.includes('San Antonio Spurs'));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"Name","Team","Rookie"'));assert(csv.includes('"HW-19","De\'Aaron Fox","San Antonio Spurs"'));get('source-reset').onclick();
+  get('source-section').value='HOOPS ROOKIE FIRST SIGNS';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Hoops Rookies First Signs'));get('source-reset').onclick();get('source-cards-tab').onclick();
+ }
  if(set.slug==='topps-bowman-2025-topps-chrome-formula-1-sapphire-edition'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);
   assert.deepEqual(data.formats,['Sapphire Pack Rate']);
