@@ -87,4 +87,25 @@ if browser_source.exists():
     assert bailey['source'].startswith('https://fr.topps.com/') and bailey['saleFromISO']=='2026-10-12'
     assert bailey['evidence']['fields']['Disponible À Partir De']==bailey['saleFrom']
     assert not by_key[('2026-27 NFL Topps NOW®','57')]['saleFromISO'],'An end date must not imply a sale start'
+new_mlb_source=root/'data/catalog-sources/topps-now-backfill-20261014-new-mlb.txt'
+if new_mlb_source.exists():
+    raw=new_mlb_source.read_text()
+    starts=list(re.finditer(r'^[^\n]*\((https://www\.topps\.com/products/[^)]+)\)\n',raw,re.M))
+    assert len(starts)==3
+    proofs={}
+    for i,match in enumerate(starts):
+        block=raw[match.start():starts[i+1].start() if i+1<len(starts) else len(raw)]
+        lines=[line.strip() for line in re.split(r'L\d+:\s*',block)[1:]]
+        proofs[match[1]]=hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+    for number,name in [('788','Freddy Peralta'),('789','Liam Hicks'),('790','Bryan Baker')]:
+        card=by_key[('2026 MLB Topps NOW®',number)]
+        assert card['name']==name and card['saleFromISO']=='2026-10-14'
+        assert card['saleUntil']=='Oct 15, 2026'
+        assert card['evidence']['sha256']==proofs[card['source']]
+        assert card['parallels']==['/50 Gold Foil','/25 Orange\u00a0Foil','/10 Black\u00a0Foil','/5 Red\u00a0Foil','/1 FoilFractor']
+        assert all(tier+'+ Print Run:' in card['terms'] for tier in ['50,000','100,000','250,000','500,000'])
+        assert 'Numeric pack odds are not published.' in card['terms']
+        # Thresholds are conditional distribution terms, never actual print runs.
+        if not card['printRun']:
+            assert 'Print Run' not in card['evidence']['fields']
 print(f"Verified {len(observations)} NOW observations, {len(inventory)} shared tables, source fingerprints, literal parallel terms and partial coverage labels.")
