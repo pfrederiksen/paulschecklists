@@ -11,7 +11,7 @@ def verify(set):
  original=collections.Counter()
  with pdfplumber.open(path) as pdf:
   for page in pdf.pages:
-   original.update(word['text'] for word in page.extract_words(x_tolerance=tolerance) if re.fullmatch(r'[\d,]+(?::[\d,]+)+',word['text']))
+   original.update(word['text'] for word in page.extract_words(x_tolerance=tolerance) if re.fullmatch(r'[\d,.]+(?::[\d,.]+)+',word['text']))
  source_rows=data.get('officialOddsTable',data['odds'])
  imported=collections.Counter(value for row in source_rows for value in row['values'].values() if value)
  if data.get('oddsScope'):

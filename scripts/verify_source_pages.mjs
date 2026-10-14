@@ -5,6 +5,7 @@ import {reconcileParallels,categoryNumbering,specificationRows} from '../paralle
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
 const code=(await readFile('source-page.js','utf8')).replace(/^import .*;\n/, '');
 const cases=['pdf','html','wildcard','xlsx','panini-pdf'].map(kind=>catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds))).concat(catalog.sets.filter(s=>s.importKind==='topps-grid-pdf'||s.dedicatedParser||['wild-card-2026-wild-card-alumination-just-the-hits-baseball-250th','wild-card-2026-wild-card-slimgem-variety-pack'].includes(s.slug)));
+for(const set of catalog.sets.filter(s=>s.oddsParser))if(!cases.some(c=>c.slug===set.slug))cases.push(set);
 for(const set of cases){
  const kind=set.importKind;
  const data=JSON.parse(await readFile(set.tableData,'utf8'));
@@ -53,6 +54,10 @@ for(const set of cases){
   get('source-results').onclick({target:{closest:()=>({dataset:{row:String(data.rows.findIndex(r=>r[1]==='1-A'))}})}});
   assert(get('source-results').innerHTML.includes('BASE CARD DUAL AUTO VARIATION PURPLE PARALLEL'));assert(!get('source-results').innerHTML.includes('26TDDB - BASE CARD BLACK PARALLEL'),'Autographs must not receive ordinary base parallels');
   get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('26TDDB - FENCE BUSTERS'));assert(!get('source-specifications').innerHTML.includes('DescriptionPacks'));get('source-cards-tab').onclick();
+ }
+ if(data.formatNamesPublished===false){
+  assert.equal(get('source-format').disabled,true);assert(get('insights').innerHTML.includes('does not name a format or ratio unit'));
+  get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Published odds (format not named)'));assert(get('source-specifications').innerHTML.includes('3:1'));assert(!get('source-specifications').innerHTML.includes('3 cards per pack'),'Unspecified units must remain literal');get('source-cards-tab').onclick();
  }
  if(kind==='topps-now'&&data.rows.some(r=>/^https:\/\/(?:uk|uk-next)\.topps\.com\//.test(r[8]))){get('source-odds-tab').onclick();assert(/href="https:\/\/(?:uk|uk-next)\.topps\.com\/products\//.test(get('source-specifications').innerHTML),'Regional official product evidence must remain linked in shared parallel tables');get('source-cards-tab').onclick();}
  if(kind==='topps-now'&&data.supplementarySourceProducts?.length){

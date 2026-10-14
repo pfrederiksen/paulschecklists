@@ -145,7 +145,8 @@
       "sections": 4,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Chrome® U.S. Winter Olympics & Paralympic Team Hopefuls",
@@ -216,7 +217,8 @@
       "sections": 26,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2025-26 Topps Finest Basketball",
@@ -283,7 +285,7 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "odds": 115,
-      "formats": 3,
+      "formats": 1,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/PL_FINEST_ODDS_Official.pdf?v=1774262754",
       "oddsImportIssues": 0,
       "rowCount": 752,
@@ -291,7 +293,8 @@
       "sections": 23,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Flagship Football",
@@ -419,7 +422,7 @@
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Inception_Baseball_25TIBB_-_Checklist_5.18.pdf?v=1779116690",
       "releaseStatus": "Unverified",
       "releaseDate": null,
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date. Some published odds use three-part or period-separated notation. These values are retained verbatim; no numeric hit-rate estimate is inferred.",
       "slug": "topps-bowman-2025-topps-inception-baseball",
       "page": "sets/topps-bowman-2025-topps-inception-baseball.html",
       "status": "Source table",
@@ -433,7 +436,8 @@
       "sections": 20,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Tribute Baseball",
@@ -641,7 +645,7 @@
       "page": "sets/topps-bowman-2025-topps-signature-class-football.html",
       "status": "Source table",
       "verified": "2026-10-11",
-      "odds": 322,
+      "odds": 330,
       "formats": 9,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Signature_Class_Football_Odds.pdf?v=1781876271",
       "oddsImportIssues": 0,
@@ -650,7 +654,8 @@
       "sections": 39,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2025 Topps Stadium Club Baseball",
@@ -725,7 +730,8 @@
       "sections": 46,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2025 Topps Transcendent Collection Baseball",
@@ -771,7 +777,8 @@
       "sections": 33,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2025-26 Topps Chrome® Updates Basketball Sapphire Edition",
@@ -796,7 +803,8 @@
       "sections": 6,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Chrome® WWE",
@@ -974,7 +982,8 @@
       "sections": 18,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2025 Topps Exalted WWE",
@@ -985,7 +994,7 @@
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CHECKLIST_2025EXALTEDWWE.pdf?v=1774986961",
       "releaseStatus": "Unverified",
       "releaseDate": null,
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date. Some published odds use three-part or period-separated notation. These values are retained verbatim; no numeric hit-rate estimate is inferred.",
       "slug": "topps-bowman-2025-topps-exalted-wwe",
       "page": "sets/topps-bowman-2025-topps-exalted-wwe.html",
       "status": "Source table",
@@ -999,7 +1008,8 @@
       "sections": 20,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Bowman Baseball",
@@ -1065,7 +1075,7 @@
       "page": "sets/topps-bowman-2026-bowman-chrome-baseball.html",
       "status": "Source table",
       "verified": "2026-10-11",
-      "odds": 304,
+      "odds": 309,
       "formats": 5,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Odds.pdf?v=1791472292",
       "oddsImportIssues": 0,
@@ -1074,7 +1084,8 @@
       "sections": 30,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Bowman Chrome® Baseball Mega Box",
@@ -1255,7 +1266,8 @@
       "sections": 17,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Inception Football",
@@ -1393,7 +1405,8 @@
       "sections": 30,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2025-26 Topps NBL Basketball",
@@ -1625,7 +1638,7 @@
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Basketball_Sapphire_Checklist.pdf?v=1768338554",
       "releaseStatus": "Unverified",
       "releaseDate": null,
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date. The official odds document does not print a format heading or define the ratio unit. Ratios are retained verbatim; no named pack configuration or hit-rate estimate is inferred.",
       "slug": "topps-bowman-2025-26-topps-chrome-basketball-sapphire",
       "page": "sets/topps-bowman-2025-26-topps-chrome-basketball-sapphire.html",
       "status": "Source table",
@@ -1639,7 +1652,8 @@
       "sections": 13,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Chrome® Black Basketball",
@@ -1664,7 +1678,8 @@
       "sections": 14,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2025 Topps Chrome® Black Football",
@@ -1802,7 +1817,7 @@
       "page": "sets/topps-bowman-2026-topps-chrome-disney.html",
       "status": "Source table",
       "verified": "2026-10-11",
-      "odds": 183,
+      "odds": 210,
       "formats": 7,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Disney_Chrome_Odds_1.pdf?v=1781705214",
       "oddsImportIssues": 0,
@@ -1810,7 +1825,8 @@
       "tableData": "data/imports/topps-bowman-2026-topps-chrome-disney.json",
       "sections": 40,
       "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Chrome® Marvel Comics",
@@ -1821,20 +1837,21 @@
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_HobbyValueMega_Checklist.pdf?v=1780349890",
       "releaseStatus": "Unverified",
       "releaseDate": null,
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date. Recognized card rows are searchable; multi-subject continuation lines and physical column completeness are still being audited against the official PDF.",
+      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date. Recognized card rows are searchable; multi-subject continuation lines and physical column completeness are still being audited against the official PDF. Some published odds use three-part or period-separated notation. These values are retained verbatim; no numeric hit-rate estimate is inferred.",
       "slug": "topps-bowman-2026-topps-chrome-marvel-comics",
       "page": "sets/topps-bowman-2026-topps-chrome-marvel-comics.html",
       "status": "Source table",
       "verified": "2026-10-11",
       "odds": 179,
-      "formats": 8,
+      "formats": 7,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Marvel_Comics_Chrome_Odds.pdf?v=1780349073",
       "oddsImportIssues": 0,
       "rowCount": 767,
       "tableData": "data/imports/topps-bowman-2026-topps-chrome-marvel-comics.json",
       "sections": 29,
       "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Chrome® Marvel Comics Sapphire Edition",
@@ -1851,14 +1868,15 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "odds": 23,
-      "formats": 2,
+      "formats": 1,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Marvel_Comics_Chrome_Odds_517c8f23-9e04-4c43-aeaf-f9bd9c4ee70b.pdf?v=1785939128",
       "oddsImportIssues": 0,
       "rowCount": 262,
       "tableData": "data/imports/topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition.json",
       "sections": 8,
       "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Chrome® VeeFriends",
@@ -2044,14 +2062,15 @@
       "status": "Source table",
       "verified": "2026-10-11",
       "odds": 59,
-      "formats": 2,
+      "formats": 1,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Marvel_The_Collector_Odds.pdf?v=1770229437",
       "oddsImportIssues": 0,
       "rowCount": 261,
       "tableData": "data/imports/topps-bowman-2025-topps-marvel-the-collector.json",
       "sections": 10,
       "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Star Wars Chrome®",
@@ -2099,7 +2118,8 @@
       "tableData": "data/imports/topps-bowman-2026-topps-star-wars-chrome-galaxy.json",
       "sections": 14,
       "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated."
+      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2025 Topps Star Wars Smugglers Outpost",
@@ -2264,7 +2284,7 @@
       "status": "Source table",
       "verified": "2026-10-12",
       "catalogEvidence": "Official checklist physical rows reconciled: 125 base characters and 125 Chrome variations; original Name, Character, Property, Issue and Artist fields preserved. Unnumbered artist roster entries have no invented card numbers. Product-page numbering qualifiers are separate from the 76 published odds entries. Exact release date is unverified.",
-      "odds": 76,
+      "odds": 77,
       "formats": 2,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Mint_Marvel_Odds.pdf?v=1787676114",
       "oddsImportIssues": 0,
@@ -2274,7 +2294,8 @@
       "importKind": "pdf",
       "dataAudit": "Official checklist physical rows reconciled: 125 base characters and 125 Chrome variations; original Name, Character, Property, Issue and Artist fields preserved. Unnumbered artist roster entries have no invented card numbers. Product-page numbering qualifiers are separate from the 76 published odds entries. Exact release date is unverified.",
       "parallelData": true,
-      "dedicatedParser": "scripts/import_marvel_2026.py"
+      "dedicatedParser": "scripts/import_marvel_2026.py",
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Vault Marvel",

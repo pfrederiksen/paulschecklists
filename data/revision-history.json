@@ -546,10 +546,10 @@
       "checklistHash": "123e84d39eb87c3e6a3a3f2e78cc45faf3bfdc2ec3e6543a14487f7b62586787",
       "oddsHash": "3b3321e28520dc7104a9a5f80a95513cf73c21ceca6d6770ade37e20564dac65",
       "rows": 1531,
-      "odds": 322,
+      "odds": 330,
       "specificationRows": 0
     },
-    "fingerprint": "37c5672755c7de8a6fde6fc345ef48e3fd519c4c46a0c0131ed569e746cb615c",
+    "fingerprint": "605f7d6b6ea15a0394c3e1b095463b733a8d38b1b50f6a38cda9ff26b035e3b5",
     "events": [
       {
         "at": "2026-10-11T21:53:32.304Z",
@@ -965,10 +965,10 @@
       "checklistHash": "3197399f57e3cb63d9d76aaa5a284d72725ca5ea16d0f8fc40acb7e75e19291b",
       "oddsHash": "1b6a354462ed7f42c84a6f3ec06dea294667a09115d89fbb5b547d5c8cbd1eb4",
       "rows": 1206,
-      "odds": 304,
+      "odds": 309,
       "specificationRows": 0
     },
-    "fingerprint": "68f44905275746a2be51887bb312325f1a6a5896af94ed88f8d3db9335cc3a38",
+    "fingerprint": "b61c849fbb4eb8175e6645af6b88e67775286e8be0418d365f5b523187971e06",
     "events": [
       {
         "at": "2026-10-11T21:53:32.458Z",
@@ -4051,10 +4051,10 @@
       "checklistHash": "35b2f171d98e7f2829f91860cb1df9132833c3215a8850fae1ca20ea6748f57e",
       "oddsHash": "0b69662772fae339048241ee180400d828b8a0d514043cb370e5bf633ed0abfe",
       "rows": 628,
-      "odds": 183,
+      "odds": 210,
       "specificationRows": 0
     },
-    "fingerprint": "ae46834868affaf6610d2948fc4b8bbc219fe026c191024c0539a6bd2e317388",
+    "fingerprint": "807d500eb5c077dfd27f2c49b746cf2feeb1a36c9df530ea6ac909fdd170dce0",
     "events": [
       {
         "at": "2026-10-13T01:06:39.174Z",
@@ -5828,10 +5828,10 @@
       "checklistHash": "d6e00bc1e01fe33821aad67d57d5e1bc896e4a40065abd0a16bf61494949b28e",
       "oddsHash": "a5b8beba22465ab2cbf802ef236a21df7ee97ccac0b8811f4375e59757bf552e",
       "rows": 480,
-      "odds": 76,
+      "odds": 77,
       "specificationRows": 2
     },
-    "fingerprint": "481b05d49fbc85303c84e5784f09e66e17ebdc2189810830868af2fc26b729cc",
+    "fingerprint": "34c6ef41c9b139ab1d22dd39994694976d8b9ad628e6afc813b9623dab7015e8",
     "events": [
       {
         "at": "2026-10-13T02:06:06.923Z",

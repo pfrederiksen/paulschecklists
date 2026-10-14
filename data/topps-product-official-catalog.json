@@ -135,9 +135,21 @@
     "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MARM_Checklist.pdf?v=1784816709",
     "releaseStatus": "Unverified",
     "releaseDate": null,
-    "status": "Official source",
+    "status": "Source table",
     "verified": "2026-10-12",
-    "catalogEvidence": "Official product-page checklist and odds downloads verified. Exact release date is unverified. Original card columns and multi-subject continuations are being audited; no complete-import claim is made."
+    "catalogEvidence": "Official checklist physical rows reconciled: 125 base characters and 125 Chrome variations; original Name, Character, Property, Issue and Artist fields preserved. Unnumbered artist roster entries have no invented card numbers. Product-page numbering qualifiers are separate from the 76 published odds entries. Exact release date is unverified.",
+    "odds": 77,
+    "formats": 2,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Mint_Marvel_Odds.pdf?v=1787676114",
+    "oddsImportIssues": 0,
+    "rowCount": 480,
+    "tableData": "data/imports/topps-bowman-2026-topps-mint-marvel.json",
+    "sections": 16,
+    "importKind": "pdf",
+    "dataAudit": "Official checklist physical rows reconciled: 125 base characters and 125 Chrome variations; original Name, Character, Property, Issue and Artist fields preserved. Unnumbered artist roster entries have no invented card numbers. Product-page numbering qualifiers are separate from the 76 published odds entries. Exact release date is unverified.",
+    "parallelData": true,
+    "dedicatedParser": "scripts/import_marvel_2026.py",
+    "oddsParser": "scripts/official_odds_layout.py"
   },
   {
     "title": "2026 Topps Vault Marvel",

@@ -14,6 +14,11 @@ def fetch(url,path):
  return path.read_bytes()
 def clean(s):return ' '.join(s.replace('\x02','-').split())
 def odds_pdf(path):
+ from official_odds_layout import physical_odds_pdf, UnsupportedOddsLayout
+ try:
+  return physical_odds_pdf(path)
+ except UnsupportedOddsLayout:
+  pass
  result=[];formats=[];raw=[];issues=[];previous_labels=[];previous_bounds=[];previous_width=None
  with pdfplumber.open(path) as pdf:
   for pn,page in enumerate(pdf.pages,1):
@@ -131,6 +136,7 @@ def run(r):
    if odd:
     op=CACHE/(r['slug']+'-odds.pdf');ob=fetch(odd['url'],op);entries,formats,oraw,issues=odds_pdf(op)
     payload.update(odds=entries,formats=formats,oddsSource=odd['url'],oddsRawPages=oraw,oddsIssues=issues,oddsSha256=hashlib.sha256(ob).hexdigest())
+    if formats==['Published odds (format not named)']:payload.update(formatNamesPublished=False,oddsUnitsPublished=False)
     r.update(odds=len(entries),formats=len(formats),oddsUrl=odd['url'],oddsImportIssues=len(issues))
    r.update(status='Source table',rowCount=len(rows),tableData='data/imports/'+r['slug']+'.json',sections=len(set(row[0] for row in rows)),importKind='pdf')
   elif r['manufacturer']=='Wild Card':
