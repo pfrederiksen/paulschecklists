@@ -1043,10 +1043,33 @@
       "rows": 697,
       "odds": 107,
       "specificationRows": 53,
-      "specificationHash": "4afeb8ed4dc97e5b9e7b6775652729e89683d8e8b6d33de15e810aa3e97f2816"
+      "specificationHash": "5c0d6b93404f8ce4bed3c45273b93216b2e7eca757d96914619f3774e6bc840e"
     },
-    "fingerprint": "be5880a26ab0bd8a215b16213573832bd32379ebaa25e82b01a2e858060fd374",
+    "fingerprint": "67b63da1c502ce7042899bc1b6d4486c5aaac9d74e280392a050fd75e2c6ba0b",
     "events": [
+      {
+        "at": "2026-10-14T01:05:01.712Z",
+        "changes": [
+          "Official supplementary numbering specification changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Checklist.pdf?v=1772217092",
+        "snapshot": {
+          "checklistHash": "6415c21127d8d80e2d400c3d9e526698056f24306e6e498a42361670ecb05de6",
+          "oddsHash": "092d74e474f05d67da1be0924b8ae727280c67e05a922b55174faad98a074c03",
+          "rows": 697,
+          "odds": 107,
+          "specificationRows": 53,
+          "specificationHash": "5c0d6b93404f8ce4bed3c45273b93216b2e7eca757d96914619f3774e6bc840e"
+        },
+        "previousSnapshot": {
+          "checklistHash": "6415c21127d8d80e2d400c3d9e526698056f24306e6e498a42361670ecb05de6",
+          "oddsHash": "092d74e474f05d67da1be0924b8ae727280c67e05a922b55174faad98a074c03",
+          "rows": 697,
+          "odds": 107,
+          "specificationRows": 53,
+          "specificationHash": "4afeb8ed4dc97e5b9e7b6775652729e89683d8e8b6d33de15e810aa3e97f2816"
+        }
+      },
       {
         "at": "2026-10-14T00:29:31.623Z",
         "changes": [
@@ -3956,10 +3979,33 @@
       "rows": 316,
       "odds": 161,
       "specificationRows": 60,
-      "specificationHash": "2fb40aa1ba87bebed79b68b90d3a7edd1990a98be49a4ef4be44ff30d30c74a4"
+      "specificationHash": "5473a93ea420bb7e3f5543564ea6fc378c078369342a7eb6c3163a1b87d73005"
     },
-    "fingerprint": "49f278ded9678e50ab4d638fa01364c1af2b6fbd6ac34f1690304ca53154445a",
+    "fingerprint": "94dc2dd6db484ab8a4dda966405374bd2c56fd35e53be14f468dbf99227e0a7a",
     "events": [
+      {
+        "at": "2026-10-14T01:05:02.080Z",
+        "changes": [
+          "Official supplementary numbering specification changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Deadpool_Checklist.pdf?v=1772559492",
+        "snapshot": {
+          "checklistHash": "5c26ecb9ead43e47c41b9f56db10e832806892403debad1ef26026c37f91ea28",
+          "oddsHash": "34f3a54e3511e741869307e9c9914b1b7ad0c4d72689595d64309855e491936c",
+          "rows": 316,
+          "odds": 161,
+          "specificationRows": 60,
+          "specificationHash": "5473a93ea420bb7e3f5543564ea6fc378c078369342a7eb6c3163a1b87d73005"
+        },
+        "previousSnapshot": {
+          "checklistHash": "5c26ecb9ead43e47c41b9f56db10e832806892403debad1ef26026c37f91ea28",
+          "oddsHash": "34f3a54e3511e741869307e9c9914b1b7ad0c4d72689595d64309855e491936c",
+          "rows": 316,
+          "odds": 161,
+          "specificationRows": 60,
+          "specificationHash": "2fb40aa1ba87bebed79b68b90d3a7edd1990a98be49a4ef4be44ff30d30c74a4"
+        }
+      },
       {
         "at": "2026-10-14T00:29:31.982Z",
         "changes": [
@@ -4169,10 +4215,33 @@
       "rows": 341,
       "odds": 111,
       "specificationRows": 9,
-      "specificationHash": "5dbabe091156dacfbb8f8da3272fe90c7ccb2cf84fdb58e85ca1a1d0241fb8eb"
+      "specificationHash": "19ee998b8e77acd05c9006403a8582ba0e54120cf99789afbe19f6f882dc7abf"
     },
-    "fingerprint": "85358f07e68e0d312204b4be86578b87fc245aa291954b70993fbf9e8dbeb7ff",
+    "fingerprint": "fcb2419a4c2ae004b0c5f1e86be182aca28400ed55defcf4c7d1a51cd1d863fa",
     "events": [
+      {
+        "at": "2026-10-14T01:05:02.126Z",
+        "changes": [
+          "Official supplementary numbering specification changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Disneyland_70th_Anniversary_Checklist.pdf?v=1771355640",
+        "snapshot": {
+          "checklistHash": "3e6f30cdfcdffb2c0e60986ec8583d5f39d9a42e59997ed33da02e6d70162453",
+          "oddsHash": "47321ff45c524e85d392777ab956cb78f404c3adcc74d8c8ccd887b4fd4a6184",
+          "rows": 341,
+          "odds": 111,
+          "specificationRows": 9,
+          "specificationHash": "19ee998b8e77acd05c9006403a8582ba0e54120cf99789afbe19f6f882dc7abf"
+        },
+        "previousSnapshot": {
+          "checklistHash": "3e6f30cdfcdffb2c0e60986ec8583d5f39d9a42e59997ed33da02e6d70162453",
+          "oddsHash": "47321ff45c524e85d392777ab956cb78f404c3adcc74d8c8ccd887b4fd4a6184",
+          "rows": 341,
+          "odds": 111,
+          "specificationRows": 9,
+          "specificationHash": "5dbabe091156dacfbb8f8da3272fe90c7ccb2cf84fdb58e85ca1a1d0241fb8eb"
+        }
+      },
       {
         "at": "2026-10-14T00:29:32.031Z",
         "changes": [
@@ -4382,10 +4451,33 @@
       "rows": 881,
       "odds": 127,
       "specificationRows": 28,
-      "specificationHash": "3ec52fb3b84e3e297e5b403742388348939f440c5add31d674b52dbcc6aa166f"
+      "specificationHash": "abcc440b766ca5cbfbc65ae0627f5ba458cb4590b1f824ffb894b5b2b5306601"
     },
-    "fingerprint": "1e7d910452e3bc7008e4f2a1e126af25361c0f5a674fe03c477b4a6fdf5d268e",
+    "fingerprint": "654d6bbeb46941c1a008cccbf450cf53f1b04b1246645a57571d3e3ee77afb39",
     "events": [
+      {
+        "at": "2026-10-14T01:05:02.180Z",
+        "changes": [
+          "Official supplementary numbering specification changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Smugglers_Outpost_Checklist.pdf?v=1770909931",
+        "snapshot": {
+          "checklistHash": "6b73423d85bd1735f08b2a10db13833ec5646e48b2e1834a5cb7ca739f5724d6",
+          "oddsHash": "96a09d1649f79dff235af447ff10b0545d1a6cd33e823c355ddaa9b7f9da8f79",
+          "rows": 881,
+          "odds": 127,
+          "specificationRows": 28,
+          "specificationHash": "abcc440b766ca5cbfbc65ae0627f5ba458cb4590b1f824ffb894b5b2b5306601"
+        },
+        "previousSnapshot": {
+          "checklistHash": "6b73423d85bd1735f08b2a10db13833ec5646e48b2e1834a5cb7ca739f5724d6",
+          "oddsHash": "96a09d1649f79dff235af447ff10b0545d1a6cd33e823c355ddaa9b7f9da8f79",
+          "rows": 881,
+          "odds": 127,
+          "specificationRows": 28,
+          "specificationHash": "3ec52fb3b84e3e297e5b403742388348939f440c5add31d674b52dbcc6aa166f"
+        }
+      },
       {
         "at": "2026-10-14T00:29:32.089Z",
         "changes": [
@@ -8876,6 +8968,266 @@
           "rows": 3,
           "odds": 0,
           "specificationRows": 15
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-brooklyn-collection": {
+    "state": {
+      "checklistHash": "7fd3b7361592cdd8db083067a0c824eafec2f8c67b599e417f8686c078273721",
+      "oddsHash": "53a0271edf2d2975add61422c41cf74f6ceb4c7168d03ceeb0f3cc770c916d42",
+      "rows": 343,
+      "odds": 61,
+      "specificationRows": 1,
+      "specificationHash": "282dd0f4e4a2b408fc21715ad08e746a9a0d036055a31c0c8f6490e1baa688d4"
+    },
+    "fingerprint": "7e238cc68df04855461a5074d99b863761f1e77abb9d67e08a82573112bc1c10",
+    "events": [
+      {
+        "at": "2026-10-14T01:10:55.286Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Brooklyn_Collection_Checklist.pdf?v=1772572812",
+        "snapshot": {
+          "checklistHash": "7fd3b7361592cdd8db083067a0c824eafec2f8c67b599e417f8686c078273721",
+          "oddsHash": "53a0271edf2d2975add61422c41cf74f6ceb4c7168d03ceeb0f3cc770c916d42",
+          "rows": 343,
+          "odds": 61,
+          "specificationRows": 1,
+          "specificationHash": "282dd0f4e4a2b408fc21715ad08e746a9a0d036055a31c0c8f6490e1baa688d4"
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-mlb-x-kaws": {
+    "state": {
+      "checklistHash": "067c54587e3d2c21631dcb3d2178106b62acd0ae9f93c5de5da94c722468a35b",
+      "oddsHash": "7d53f1fa1535a812520a3a4611e57da0661e3d2e26536c703d0cf3802ded2ef1",
+      "rows": 146,
+      "odds": 22,
+      "specificationRows": 0
+    },
+    "fingerprint": "a4384176e08b007ebe18cacdd301a608f45039b18edead64b32bab990d99d2f2",
+    "events": [
+      {
+        "at": "2026-10-14T01:10:55.301Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWs_Checklist.pdf?v=1784208798",
+        "snapshot": {
+          "checklistHash": "067c54587e3d2c21631dcb3d2178106b62acd0ae9f93c5de5da94c722468a35b",
+          "oddsHash": "7d53f1fa1535a812520a3a4611e57da0661e3d2e26536c703d0cf3802ded2ef1",
+          "rows": 146,
+          "odds": 22,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-ufc": {
+    "state": {
+      "checklistHash": "1e31d4cfdefd9b2d97238119754bfc42e4f50003db5030353620e96b6d7a77a4",
+      "oddsHash": "31f41eda8fa7c110e4ff2b5a0e9c668187fe5911a4c186ccba9121a409de8994",
+      "rows": 905,
+      "odds": 267,
+      "specificationRows": 35,
+      "specificationHash": "f9816b70b12ec4eceae8d0ce7263a3f17433226e009236ebaabd9666c8040556"
+    },
+    "fingerprint": "7ea586a3f3ba5af5144c0216843f32e2e196de35f91cfed32e2016d68aafae3c",
+    "events": [
+      {
+        "at": "2026-10-14T01:10:55.325Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_2026_TOPPS_CHROME_UFC_V2.xls?v=1779204573",
+        "snapshot": {
+          "checklistHash": "1e31d4cfdefd9b2d97238119754bfc42e4f50003db5030353620e96b6d7a77a4",
+          "oddsHash": "31f41eda8fa7c110e4ff2b5a0e9c668187fe5911a4c186ccba9121a409de8994",
+          "rows": 905,
+          "odds": 267,
+          "specificationRows": 35,
+          "specificationHash": "f9816b70b12ec4eceae8d0ce7263a3f17433226e009236ebaabd9666c8040556"
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-chrome-ufc-sapphire-edition": {
+    "state": {
+      "checklistHash": "ec333ca57f553c6f936eedbf00380db771c0493d5fded481622b40f638401c60",
+      "oddsHash": "c7675652c9a5edf831a2bd6711de426c171db46fd696714e350cc23dbd33cdaf",
+      "rows": 413,
+      "odds": 36,
+      "specificationRows": 0
+    },
+    "fingerprint": "10cc3dcc6ed14cb94208cc153a3ab7e6a3d8cb89be7f9f31ea9de9f7c24d5f91",
+    "events": [
+      {
+        "at": "2026-10-14T01:10:55.327Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_2026_TOPPS_CHROME_SAPPHIRE_UFC.xls?v=1779982792",
+        "snapshot": {
+          "checklistHash": "ec333ca57f553c6f936eedbf00380db771c0493d5fded481622b40f638401c60",
+          "oddsHash": "c7675652c9a5edf831a2bd6711de426c171db46fd696714e350cc23dbd33cdaf",
+          "rows": 413,
+          "odds": 36,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-collector-kit": {
+    "state": {
+      "checklistHash": "684817271227eb518b31da8e45ec9cfb9e04a6b1486be26680d618fc935175c5",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "2ff6fdcf5358c7d19ddb9265209cd48009e597283465a4311e4ccc9cfb16bfd8",
+    "events": [
+      {
+        "at": "2026-10-14T01:10:55.334Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Collector_Kit_1.pdf?v=1774449045",
+        "snapshot": {
+          "checklistHash": "684817271227eb518b31da8e45ec9cfb9e04a6b1486be26680d618fc935175c5",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-alumination-just-the-hits-baseball-250th": {
+    "state": {
+      "checklistHash": "daa13095c981602c1c1e424a5f3665e104c9b6a88a0c128d70a9f5d0603ad1c8",
+      "oddsHash": null,
+      "rows": 95,
+      "odds": 0,
+      "specificationRows": 249
+    },
+    "fingerprint": "8aa493b217c0559cafcf15b058ac8953c75894f90d952459e41ebd10bbbeed4a",
+    "events": [
+      {
+        "at": "2026-10-14T01:15:46.346Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 0 → 95",
+          "Numbering specification rows: 0 → 249"
+        ],
+        "source": "https://wildcardinc.com/checklists/alumination__wild-card-2026-just-the-hits-baseball-250th.html",
+        "snapshot": {
+          "checklistHash": "daa13095c981602c1c1e424a5f3665e104c9b6a88a0c128d70a9f5d0603ad1c8",
+          "oddsHash": null,
+          "rows": 95,
+          "odds": 0,
+          "specificationRows": 249
+        },
+        "previousSnapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
+      {
+        "at": "2026-10-14T01:12:01.368Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/alumination__wild-card-2026-just-the-hits-baseball-250th.html",
+        "snapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "wild-card-2026-wild-card-slimgem-variety-pack": {
+    "state": {
+      "checklistHash": "fc636514115e3865e1ca232d5805acf959b87b8c3a116fba7753fbfa44d1d4c8",
+      "oddsHash": null,
+      "rows": 95,
+      "odds": 0,
+      "specificationRows": 59
+    },
+    "fingerprint": "84026c717bb6ec04a8a00715e18bb43f2e671dd00d3d28218969804b9f709f53",
+    "events": [
+      {
+        "at": "2026-10-14T01:16:30.410Z",
+        "changes": [
+          "Checklist entries: 13 → 95"
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-slimgem-variety-pack.html",
+        "snapshot": {
+          "checklistHash": "fc636514115e3865e1ca232d5805acf959b87b8c3a116fba7753fbfa44d1d4c8",
+          "oddsHash": null,
+          "rows": 95,
+          "odds": 0,
+          "specificationRows": 59
+        },
+        "previousSnapshot": {
+          "checklistHash": "fc636514115e3865e1ca232d5805acf959b87b8c3a116fba7753fbfa44d1d4c8",
+          "oddsHash": null,
+          "rows": 13,
+          "odds": 0,
+          "specificationRows": 59
+        }
+      },
+      {
+        "at": "2026-10-14T01:15:46.347Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 0 → 13",
+          "Numbering specification rows: 0 → 59"
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-slimgem-variety-pack.html",
+        "snapshot": {
+          "checklistHash": "fc636514115e3865e1ca232d5805acf959b87b8c3a116fba7753fbfa44d1d4c8",
+          "oddsHash": null,
+          "rows": 13,
+          "odds": 0,
+          "specificationRows": 59
+        },
+        "previousSnapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
+      {
+        "at": "2026-10-14T01:12:01.368Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://wildcardinc.com/checklists/promos-exclusive__2026-slimgem-variety-pack.html",
+        "snapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
         },
         "previousSnapshot": null
       }

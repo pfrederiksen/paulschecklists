@@ -4,10 +4,14 @@ import vm from 'node:vm';
 import {reconcileParallels,categoryNumbering,specificationRows} from '../parallel-specs.mjs';
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
 const code=(await readFile('source-page.js','utf8')).replace(/^import .*;\n/, '');
-const cases=['pdf','html','wildcard','xlsx','panini-pdf'].map(kind=>catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds))).concat(catalog.sets.filter(s=>s.importKind==='topps-grid-pdf'||s.dedicatedParser));
+const cases=['pdf','html','wildcard','xlsx','panini-pdf'].map(kind=>catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds))).concat(catalog.sets.filter(s=>s.importKind==='topps-grid-pdf'||s.dedicatedParser||['wild-card-2026-wild-card-alumination-just-the-hits-baseball-250th','wild-card-2026-wild-card-slimgem-variety-pack'].includes(s.slug)));
 for(const set of cases){
  const kind=set.importKind;
  const data=JSON.parse(await readFile(set.tableData,'utf8'));
+ if(set.slug==='wild-card-2026-wild-card-slimgem-variety-pack'){
+  assert.deepEqual(data.rows,Object.entries(data.officialStructure.rosters).flatMap(([key,names])=>names.map(name=>[key,name,''])));
+  assert.equal(data.rows.length,95);assert.notEqual(set.rosterPublished,false);
+ }
  const map=new Map(),get=id=>{if(!map.has(id))map.set(id,{value:'',options:[{}],setAttribute(k,v){this[k]=v;},focus(){},add(option){this.options.push(option);}});return map.get(id);};
  const context=vm.createContext({reconcileParallels,categoryNumbering,specificationRows,document:{body:{dataset:{table:set.tableData}},getElementById:get,addEventListener(){}},console,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>JSON.parse(JSON.stringify(data))})});
  await new vm.Script('(async()=>{'+code+'})()').runInContext(context);
@@ -21,6 +25,12 @@ for(const set of cases){
  get('source-reset').onclick();assert.equal(get('source-sort').value,'checklist');assert.equal(get('source-section').value,'');
  assert(get('insights').innerHTML.includes('insight-grid'));
  get('source-odds-tab').onclick();assert.equal(get('source-cards-panel').hidden,true);assert.equal(get('source-specifications').hidden,false);get('source-cards-tab').onclick();assert.equal(get('source-specifications').hidden,true);
+ if(set.slug==='topps-bowman-2026-topps-chrome-ufc'){
+  get('source-cards-tab').onclick();get('source-section').value='BASE CARDS II';get('source-section').onchange();
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:'100'}})}});
+  assert(get('source-results').innerHTML.includes('/399'),'The second printed base section must retain the shared base parallel limits');
+  get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('/399'));get('source-reset').onclick();get('source-cards-tab').onclick();
+ }
  if(data.importKind==='pdf'||data.odds?.length||data.publishedSpecifications?.length||data.officialStructure||data.oddsColumn!=null||data.serialColumn!=null)assert(get('source-specifications').innerHTML.includes('odds-group'));else assert(get('source-specifications').innerHTML.includes('No parallel or odds specification'));
  get('source-search').value='no-matching-source-row-ever';get('source-search').oninput();assert(get('source-results').innerHTML.includes('No matching'));
  get('source-search').value='';get('source-section').value=data.rows[0][data.sectionColumn??0];get('source-section').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>r[data.sectionColumn??0]===data.rows[0][data.sectionColumn??0]).length.toLocaleString()} official source rows`);

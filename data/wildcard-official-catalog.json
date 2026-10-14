@@ -498,5 +498,28 @@
     "bd": 8,
     "pl": 101,
     "mo": "July"
+  },
+  {
+    "f": "alumination__wild-card-2026-just-the-hits-baseball-250th.html",
+    "t": "2026 Wild Card Alumination Just The Hits Baseball 250th",
+    "p": "Alumination™",
+    "pk": "alumination",
+    "y": "2026",
+    "s": "Baseball",
+    "sub": 9,
+    "bd": 9,
+    "pl": 95
+  },
+  {
+    "f": "promos-exclusive__2026-slimgem-variety-pack.html",
+    "t": "2026 Wild Card SlimGem Variety Pack",
+    "p": "Promos & Exclusives",
+    "pk": "promos-exclusive",
+    "y": "2026",
+    "s": "Multi-Sport",
+    "sub": 13,
+    "bd": 14,
+    "pl": 95,
+    "mo": "September"
   }
 ]

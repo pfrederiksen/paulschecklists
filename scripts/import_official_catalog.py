@@ -150,6 +150,15 @@ def run(r):
      for item in subset.get(key,[]):
       name=item if isinstance(item,str) else item.get('name',json.dumps(item,ensure_ascii=False))
       rows.append([subset.get('name','Subset')+' · '+key.replace('_',' '),name,''])
+   # Some official pages keep named rosters in a dictionary rather than
+   # top-level lists or subset roster_names. Preserve the printed roster
+   # keys without multiplying subjects by designs or inferred eligibility.
+   if not rows:
+    for key,items in data.get('rosters',{}).items():
+     if not isinstance(items,list):continue
+     for item in items:
+      if isinstance(item,str):rows.append([key,item,''])
+      elif isinstance(item,dict):rows.append([key,item.get('name',item.get('player','')),json.dumps({k:v for k,v in item.items() if k not in ['name','player']},ensure_ascii=False)])
    if rows:r.pop('rosterPublished',None)
    if not rows and data.get('subsets'):
     for subset in data['subsets']:rows.append([subset.get('name','Official subset'),'Roster not published',subset.get('note','')])

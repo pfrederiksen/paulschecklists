@@ -17,13 +17,20 @@ for r in json.loads((root/'data/wildcard-official-catalog.json').read_text()):
  records.append({'title':r['t'],'manufacturer':'Wild Card','sport':r['s'].lower(),'year':r['y'],'sourcePage':'https://wildcardinc.com/checklists/','checklistUrl':'https://wildcardinc.com/checklists/'+r['f'],'releaseStatus':'Unverified','releaseDate':None,'catalogEvidence':'Manufacturer catalog month: '+(r.get('mo') or 'not specified')+'. Exact release date has not been verified.'})
 # Panini's dynamically selected catalog is not exposed in a complete static listing.
 records.append({'title':'FIFA World Cup 2026 Adrenalyn XL','manufacturer':'Panini','sport':'soccer','year':'2026','sourcePage':'https://www.panini.fr/media/paniniFiles/005461-checklist.pdf','checklistUrl':'https://www.panini.fr/media/paniniFiles/005461-checklist.pdf','releaseStatus':'Unverified','releaseDate':None})
+# Global and product-specific official directories may list the same set.
+# Keep its published slug/page and prefer a dedicated product adapter.
+unique={}
+for record in records:
+ key=record.get('slug') or slug(record['manufacturer']+' '+record['title'])
+ if key not in unique or record.get('dedicatedParser'):unique[key]=record
+records=list(unique.values())
 for r in records:
  r.setdefault('slug',slug(r['manufacturer']+' '+r['title']));r.setdefault('page','sets/'+r['slug']+'.html');r['status']='Official source';r['verified']='2026-10-11'
  if 'Allen & Ginter Baseball' in r['title']:r.update(page='allen-ginter-2026.html',status='Searchable',sections=39,odds=97,formats=3,releaseStatus='Released')
  if r['title']=='2026 Bowman Football':r.update(page='bowman-football-2026.html',status='Searchable',sections=47,odds=521,formats=6,releaseStatus='Released')
 (root/'data/imports').mkdir(exist_ok=True)
 def import_table(r):
- if r['slug'] in previous and previous[r['slug']].get('tableData'):
+ if r['slug'] in previous:
   old=previous[r['slug']]
   if old['checklistUrl']==r['checklistUrl']:return {**r,**old}
  if r['manufacturer'] not in ['Upper Deck','Wild Card']:return r

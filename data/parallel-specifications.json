@@ -3516,6 +3516,370 @@
         "evidenceSha256": "198934ebb0d0cd497bbc2f7a5a182dc1667bbb284561a474873292da2d8731a9",
         "oddsName": "DUGOUT PEEKS FOILFRACTOR"
       }
+    ],
+    "topps-bowman-2026-topps-brooklyn-collection": [
+      {
+        "family": "BASE CARDS",
+        "name": "Blue and Silver",
+        "numbering": "/41",
+        "oddsName": "Base Set Blue and Silver",
+        "source": "https://www.topps.com/pages/topps-brooklyn-collection",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Captain America debut-year parallel; individual-card eligibility is not inferred."
+      }
+    ],
+    "topps-bowman-2026-topps-chrome-ufc": [
+      {
+        "family": "BASE CARDS I",
+        "name": "Magenta Refractor",
+        "numbering": "/399",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Magenta Refractor"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Teal Refractor",
+        "numbering": "/299",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Teal Refractor"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Yellow Refractor",
+        "numbering": "/275",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Yellow Refractor"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Pink Refractor",
+        "numbering": "/250",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Pink Refractor"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Aqua Refractor",
+        "numbering": "/199",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Aqua Refractor"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Blue Refractor",
+        "numbering": "/150",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Blue Refractor"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Green Refractor",
+        "numbering": "/99",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Green Refractor"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Gold Refractor"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Orange Refractor"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Black Refractor"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Red Refractor"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Base Superfractors"
+      },
+      {
+        "family": "LETS GO",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Let's Go Superfractor"
+      },
+      {
+        "family": "IN YOUR FACE",
+        "name": "Aqua Refractor",
+        "numbering": "/199",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "In Your Face Aqua Refractor"
+      },
+      {
+        "family": "IN YOUR FACE",
+        "name": "Blue Refractor",
+        "numbering": "/150",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "In Your Face Blue Refractor"
+      },
+      {
+        "family": "IN YOUR FACE",
+        "name": "Green Refractor",
+        "numbering": "/99",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "In Your Face Green Refractor"
+      },
+      {
+        "family": "IN YOUR FACE",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "In Your Face Gold Refractor"
+      },
+      {
+        "family": "IN YOUR FACE",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "In Your Face Orange Refractor"
+      },
+      {
+        "family": "IN YOUR FACE",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "In Your Face Black Refractor"
+      },
+      {
+        "family": "IN YOUR FACE",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "In Your Face Red Refractor"
+      },
+      {
+        "family": "IN YOUR FACE",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "In Your Face Superfractors"
+      },
+      {
+        "family": "FIGHT NIGHT FLASHBACK",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Fight Night Flashback Gold Refractor"
+      },
+      {
+        "family": "FIGHT NIGHT FLASHBACK",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Fight Night Flashback Black Refractor"
+      },
+      {
+        "family": "FIGHT NIGHT FLASHBACK",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Fight Night Flashback Red Refractor"
+      },
+      {
+        "family": "FIGHT NIGHT FLASHBACK",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Fight Night Flashback Superfractors"
+      },
+      {
+        "family": "YOUTHQUAKE",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Youthquake Gold Refractor"
+      },
+      {
+        "family": "YOUTHQUAKE",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Youthquake Black Refractor"
+      },
+      {
+        "family": "YOUTHQUAKE",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Youthquake Red Refractor"
+      },
+      {
+        "family": "YOUTHQUAKE",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Youthquake Superfractors"
+      },
+      {
+        "family": "OCTAGON LEGENDS AUTOGRAPHS",
+        "name": "Blue Refractor",
+        "numbering": "/150",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Octagon Legends Autographs Blue Refractor"
+      },
+      {
+        "family": "OCTAGON LEGENDS AUTOGRAPHS",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Octagon Legends Autographs Gold Refractor"
+      },
+      {
+        "family": "OCTAGON LEGENDS AUTOGRAPHS",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Octagon Legends Autographs Orange Refractor"
+      },
+      {
+        "family": "OCTAGON LEGENDS AUTOGRAPHS",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Octagon Legends Autographs Black Refractor"
+      },
+      {
+        "family": "OCTAGON LEGENDS AUTOGRAPHS",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Octagon Legends Autographs Red Refractor"
+      },
+      {
+        "family": "OCTAGON LEGENDS AUTOGRAPHS",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/uk/2026-topps-chrome-ufc-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/new-topps-backfills-20261013.txt",
+        "evidenceSha256": "4e36e8a9cf6fbf6dbd7717e9139e8aae71c6b8c1dd788c4189f23c5a38338c37",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "oddsName": "Octagon Legends Autographs Superfractors"
+      }
     ]
   },
   "conflicts": [
