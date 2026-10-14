@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-13",
+  "checked": "2026-10-14",
   "sets": {
     "topps-bowman-2025-26-topps-cosmic-chrome-basketball": [
       {
@@ -4613,6 +4613,173 @@
         "evidenceFile": "data/parallel-audit-sources/mls-2025-official-evidence.txt",
         "evidenceSha256": "881b9c597ef8bd792e255d65f6769daa84654ff5646e85a9274032eba086aefa",
         "oddsName": "Base Cards Padparadscha"
+      }
+    ],
+    "topps-bowman-2026-topps-chrome-black-basketball": [
+      {
+        "family": "BASE CARDS",
+        "name": "Refractor",
+        "numbering": "/299",
+        "oddsName": "Base Refractor",
+        "source": "https://ripped.topps.com/2025-26-topps-chrome-black-basketball-box-guide/",
+        "sourceHeading": "2025-26 Topps Chrome Black Basketball Hobby Box",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Base Superfractor",
+        "source": "https://ripped.topps.com/2025-26-topps-chrome-black-basketball-box-guide/",
+        "sourceHeading": "2025-26 Topps Chrome Black Basketball Hobby Box",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Blue Wave Refractor",
+        "numbering": "/150",
+        "oddsName": "Base Blue Wave",
+        "source": "https://ripped.topps.com/topps-chrome-black-basketball-history/",
+        "sourceHeading": "What to Look For in 2025-26 Topps Chrome Black Basketball?",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Green Refractor",
+        "numbering": "/99",
+        "oddsName": "Base Green Refractor",
+        "source": "https://ripped.topps.com/topps-chrome-black-basketball-history/",
+        "sourceHeading": "What to Look For in 2025-26 Topps Chrome Black Basketball?",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "ROOKIES",
+        "name": "Refractor",
+        "numbering": "/299",
+        "oddsName": "Base Rookies Refractor",
+        "source": "https://ripped.topps.com/2025-26-topps-chrome-black-basketball-box-guide/",
+        "sourceHeading": "2025-26 Topps Chrome Black Basketball Hobby Box",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "ROOKIES",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Base Rookies Superfractor",
+        "source": "https://ripped.topps.com/2025-26-topps-chrome-black-basketball-box-guide/",
+        "sourceHeading": "2025-26 Topps Chrome Black Basketball Hobby Box",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "ROOKIES",
+        "name": "Blue Wave Refractor",
+        "numbering": "/150",
+        "oddsName": "Base Rookies Blue Wave",
+        "source": "https://ripped.topps.com/topps-chrome-black-basketball-history/",
+        "sourceHeading": "What to Look For in 2025-26 Topps Chrome Black Basketball?",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "ROOKIES",
+        "name": "Green Refractor",
+        "numbering": "/99",
+        "oddsName": "Base Rookies Green Refractor",
+        "source": "https://ripped.topps.com/topps-chrome-black-basketball-history/",
+        "sourceHeading": "What to Look For in 2025-26 Topps Chrome Black Basketball?",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "ROOKIE DESIGN VARIATION",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "oddsName": "Rookie Design Variation Gold Refractor",
+        "source": "https://ripped.topps.com/2025-26-topps-chrome-black-basketball-box-guide/",
+        "sourceHeading": "What’s Inside 2025-26 Topps Chrome Black Basketball?",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "ROOKIE DESIGN VARIATION",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "oddsName": "Rookie Design Variation Orange Refractor",
+        "source": "https://ripped.topps.com/2025-26-topps-chrome-black-basketball-box-guide/",
+        "sourceHeading": "What’s Inside 2025-26 Topps Chrome Black Basketball?",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "ROOKIE DESIGN VARIATION",
+        "name": "White Refractor",
+        "numbering": "/10",
+        "oddsName": "Rookie Design Variation White Refractor",
+        "source": "https://ripped.topps.com/2025-26-topps-chrome-black-basketball-box-guide/",
+        "sourceHeading": "What’s Inside 2025-26 Topps Chrome Black Basketball?",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "ROOKIE DESIGN VARIATION",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "Rookie Design Variation Red Refractor",
+        "source": "https://ripped.topps.com/2025-26-topps-chrome-black-basketball-box-guide/",
+        "sourceHeading": "What’s Inside 2025-26 Topps Chrome Black Basketball?",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "ROOKIE DESIGN VARIATION",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Rookie Design Variation Superfractor",
+        "source": "https://ripped.topps.com/2025-26-topps-chrome-black-basketball-box-guide/",
+        "sourceHeading": "What’s Inside 2025-26 Topps Chrome Black Basketball?",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "CARBON FLARE",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Carbon Flare Superfractor",
+        "source": "https://ripped.topps.com/2025-26-topps-chrome-black-basketball-box-guide/",
+        "sourceHeading": "What’s Inside 2025-26 Topps Chrome Black Basketball?",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
+      },
+      {
+        "family": "OBSCURA",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Obscura Superfractor",
+        "source": "https://ripped.topps.com/2025-26-topps-chrome-black-basketball-box-guide/",
+        "sourceHeading": "What’s Inside 2025-26 Topps Chrome Black Basketball?",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-guides-20261014.txt",
+        "evidenceSha256": "22661fffb8abcd621451a51f62905e050fdbdde4641f5db8da18a160b608f569"
       }
     ]
   },

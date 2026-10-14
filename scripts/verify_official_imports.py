@@ -14,6 +14,10 @@ def verify(set):
    original.update(word['text'] for word in page.extract_words(x_tolerance=tolerance) if re.fullmatch(r'[\d,.]+(?::[\d,.]+)+',word['text']))
  source_rows=data.get('officialOddsTable',data['odds'])
  imported=collections.Counter(value for row in source_rows for value in row['values'].values() if value)
+ if data.get('oddsParser')=='scripts/official_odds_layout.py':
+  category_literals=collections.Counter(token for row in source_rows for token in row['name'].split() if re.fullmatch(r'[\d,.]+(?::[\d,.]+)+',token))
+  assert not category_literals-original, (set['title'],'Category literal is not printed in source')
+  original.subtract(category_literals);original=+original
  if data.get('oddsScope'):
   scope=data['oddsScope']
   assert data['formats']==[scope]

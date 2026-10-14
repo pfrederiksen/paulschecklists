@@ -1522,12 +1522,37 @@
     "state": {
       "checklistHash": "50e690e09a0f022fb09479bb0020f4683283e1e852fd0f28f3a4d7e23e922730",
       "oddsHash": "c13233a6be8ce3b2f1000295306e235a4d5326b1f35a2fb14784082e3695008b",
-      "rows": 377,
+      "rows": 556,
       "odds": 111,
-      "specificationRows": 0
+      "specificationRows": 15,
+      "specificationHash": "841f2d4f6d5a64d09915fb17a5d00a0a51b6271c09d1d78a250e5a4f3236045b"
     },
-    "fingerprint": "2a99aef735d6e93866b03f17b2296039f260ee06675a23979f1a1e4e51703914",
+    "fingerprint": "ad6816dc1516908c594a025ee3b571016bf0e2a25f4b66c71983e87ae5e237eb",
     "events": [
+      {
+        "at": "2026-10-14T08:15:30.659Z",
+        "changes": [
+          "Checklist entries: 377 → 556",
+          "Numbering specification rows: 0 → 15",
+          "Official supplementary numbering specification changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Cheklist_chrome_black.pdf?v=1785244468",
+        "snapshot": {
+          "checklistHash": "50e690e09a0f022fb09479bb0020f4683283e1e852fd0f28f3a4d7e23e922730",
+          "oddsHash": "c13233a6be8ce3b2f1000295306e235a4d5326b1f35a2fb14784082e3695008b",
+          "rows": 556,
+          "odds": 111,
+          "specificationRows": 15,
+          "specificationHash": "841f2d4f6d5a64d09915fb17a5d00a0a51b6271c09d1d78a250e5a4f3236045b"
+        },
+        "previousSnapshot": {
+          "checklistHash": "50e690e09a0f022fb09479bb0020f4683283e1e852fd0f28f3a4d7e23e922730",
+          "oddsHash": "c13233a6be8ce3b2f1000295306e235a4d5326b1f35a2fb14784082e3695008b",
+          "rows": 377,
+          "odds": 111,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.576Z",
         "changes": [

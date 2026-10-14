@@ -815,7 +815,7 @@
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_26CWWE_ChromeWWE.pdf?v=1775658305",
       "releaseStatus": "Unverified",
       "releaseDate": null,
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date. Some published odds use three-part or period-separated notation. These values are retained verbatim; no numeric hit-rate estimate is inferred.",
       "slug": "topps-bowman-2026-topps-chrome-wwe",
       "page": "sets/topps-bowman-2026-topps-chrome-wwe.html",
       "status": "Source table",
@@ -829,7 +829,8 @@
       "formats": 11,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_WWE_Odds.pdf?v=1775834666",
       "oddsImportIssues": 0,
-      "parallelData": true
+      "parallelData": true,
+      "oddsParser": "scripts/official_odds_layout.py"
     },
     {
       "title": "2026 Topps Cosmic Chrome® Baseball",
@@ -1673,13 +1674,15 @@
       "formats": 2,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Odds.pdf?v=1788295188",
       "oddsImportIssues": 0,
-      "rowCount": 377,
+      "rowCount": 556,
       "tableData": "data/imports/topps-bowman-2026-topps-chrome-black-basketball.json",
-      "sections": 14,
-      "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "sections": 16,
+      "importKind": "topps-grid-pdf",
+      "dataAudit": "All 556 printed card rows reconciled to physical number/name/team/rookie columns; 100 base and 50 rookie numbers, five rookie flags in the first 100 and all 30 printed Rookie Design Variation rows retained. No missing variation numbers are invented.",
       "parallelData": true,
-      "oddsParser": "scripts/official_odds_layout.py"
+      "oddsParser": "scripts/official_odds_layout.py",
+      "sha256": "50e690e09a0f022fb09479bb0020f4683283e1e852fd0f28f3a4d7e23e922730",
+      "dedicatedParser": "scripts/import_topps_chrome_black_basketball.py"
     },
     {
       "title": "2025 Topps Chrome® Black Football",

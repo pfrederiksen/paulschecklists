@@ -1,5 +1,5 @@
 """Check literal publisher headings, independent source values and edge cases."""
-import hashlib, json, re
+import collections, hashlib, json, re
 from pathlib import Path
 import pdfplumber
 
@@ -23,7 +23,14 @@ for record in repaired:
         else:
             caption = re.match(r'^(All Components|Description|COMPONENT|Cards|Card)', text)
             assert caption, (record['title'], text)
-            assert compact(text[caption.end():]) == compact(' '.join(data['formats'])), (record['title'], text, data['formats'])
+            if record['slug'] == 'topps-bowman-2026-topps-chrome-wwe':
+                # The flattened header reads across each line, while each
+                # original column wraps independently. Preserve every token
+                # and verify the left-to-right printed SKU order separately.
+                assert collections.Counter(text[caption.end():].split()) == collections.Counter(' '.join(data['formats']).split())
+                assert re.findall(r'\b(\d{4})\s+-', text) == [re.match(r'\d{4}', f)[0] for f in data['formats']]
+            else:
+                assert compact(text[caption.end():]) == compact(' '.join(data['formats'])), (record['title'], text, data['formats'])
     assert all(o['name'] and set(o['values']) == set(data['formats']) for o in data['odds'])
 
 def load(slug):
@@ -44,5 +51,12 @@ assert sum(o['name'] == 'Base' for o in platinum['odds']) > 1, 'The official rep
 disney = load('topps-bowman-2026-topps-chrome-disney')
 assert len(disney['odds']) == 210 and any(all(v is None for v in o['values'].values()) for o in disney['odds']), 'Retain categories with entirely blank odds'
 registry = json.loads((root / 'data/parallel-specifications.json').read_text())
+wwe = load('topps-bowman-2026-topps-chrome-wwe')
+assert len(wwe['odds']) == 410 and len(wwe['formats']) == 11
+assert not any(o['name'] == 'AUSTIN' for o in wwe['odds']), 'Retain ratio-shaped category titles'
+assert odd(wwe, 'AUSTIN 3:16')['values'][wwe['formats'][1]] == '1:42'
+assert odd(wwe, 'AUSTIN 3:16 GOLD REFRACTOR')['values'][wwe['formats'][-1]] == '1:991'
+assert odd(wwe, 'SAY HIS NAME SUPERFRACTOR')['values'][wwe['formats'][-1]] == '1:2,476,800', 'The final-page split header must not become a category'
+assert odd(wwe, 'FAMILY TREE GOLD REFRACTOR')['values'][wwe['formats'][1]] == '1:689'
 assert any(c['slug'] == 'topps-bowman-2025-topps-exalted-wwe' and c['family'] == 'BASE CARDS' for c in registry['conflicts'])
 print(f'Verified {len(repaired)} physical odds imports, literal format headings, column assignments, repeated rows, blank categories and unusual published notation.')

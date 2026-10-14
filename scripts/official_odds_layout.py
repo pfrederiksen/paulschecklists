@@ -1,5 +1,6 @@
 """Read odds cells from original text-object origins inside physical row boxes."""
 import collections, re
+from types import SimpleNamespace
 import pdfplumber
 from pypdf import PdfReader
 
@@ -50,6 +51,15 @@ def read_object_tables(path):
             tables = page.find_tables()
             if len(tables) != 1 or len(tables[0].rows) < 2:
                 raise UnsupportedOddsLayout('Not a single multi-row odds grid')
+            physical_rows = list(tables[0].rows)
+            extracted = tables[0].extract()
+            # A short final page can draw an extra line through the wrapped
+            # header. Merge only the explicit Card / CHROME continuation,
+            # never a category row or a row containing a ratio.
+            if len(physical_rows) >= 3 and normalized(extracted[0][0] or '').startswith('Card ') and normalized(extracted[1][0] or '').startswith('CHROME ') and not re.search(r'\d+:\d+', extracted[1][0] or ''):
+                first, second = physical_rows[:2]
+                box = (first.bbox[0], first.bbox[1], second.bbox[2], second.bbox[3])
+                physical_rows[:2] = [SimpleNamespace(bbox=box, cells=[box])]
             objects = []
             def visit(text, cm, tm, font, size):
                 if text.strip():
@@ -57,12 +67,12 @@ def read_object_tables(path):
                         raise UnsupportedOddsLayout('Rotated text needs another parser')
                     objects.append((tm[4]*cm[0]+tm[5]*cm[2]+cm[4], tm[4]*cm[1]+tm[5]*cm[3]+cm[5], text))
             reader.pages[pn-1].extract_text(visitor_text=visit)
-            header_box = tables[0].rows[0].bbox
+            header_box = physical_rows[0].bbox
             header_objects = [o for o in objects if header_box[1] <= page.height-o[1] <= header_box[3]]
             origins = sorted(set(round(o[0], 4) for o in header_objects))
             if len(origins) < 2:
                 raise UnsupportedOddsLayout('Missing original format header origins')
-            for index, row in enumerate(tables[0].rows):
+            for index, row in enumerate(physical_rows):
                 box = row.bbox
                 chars = [c for c in page.chars if box[0] <= (c['x0']+c['x1'])/2 <= box[2] and box[1] <= (c['top']+c['bottom'])/2 <= box[3]]
                 row_objects = [o for o in objects if box[0] <= o[0] <= box[2] and box[1] <= page.height-o[1] <= box[3]]
@@ -73,7 +83,20 @@ def read_object_tables(path):
                         raise UnsupportedOddsLayout('Unrecognized literal header caption')
                     labels = cells[1:]
                     if any(not label or len(label) > 100 for label in labels) or len(set(labels)) != len(labels):
-                        raise UnsupportedOddsLayout('Invalid physical format headings')
+                        # Wrapped, right-aligned headers have several text origins
+                        # per column. The first full body row provides the literal
+                        # numeric right edges; each header line must align to one.
+                        probe_box = physical_rows[1].bbox
+                        probe_chars = [c for c in page.chars if probe_box[0] <= (c['x0']+c['x1'])/2 <= probe_box[2] and probe_box[1] <= (c['top']+c['bottom'])/2 <= probe_box[3]]
+                        probe_objects = [o for o in objects if probe_box[0] <= o[0] <= probe_box[2] and probe_box[1] <= page.height-o[1] <= probe_box[3]]
+                        origins = sorted(set(round(o[0], 4) for o in probe_objects))
+                        probe_cells, probe_edges = cells_from_origins(probe_chars, probe_objects, origins)
+                        if len(origins) < 2 or any(v not in {'', '-'} and not re.fullmatch(r'[\d,.]+(?::[\d,.]+)+', v) for v in probe_cells[1:]):
+                            raise UnsupportedOddsLayout('No validated full row for wrapped headers')
+                        cells, edges = cells_from_origins(chars, row_objects, origins, probe_edges)
+                        labels = cells[1:]
+                        if any(not label or len(label) > 100 for label in labels) or len(set(labels)) != len(labels):
+                            raise UnsupportedOddsLayout('Invalid physical format headings')
                     if formats and labels != formats:
                         raise UnsupportedOddsLayout('Format headings change across pages')
                     formats = labels

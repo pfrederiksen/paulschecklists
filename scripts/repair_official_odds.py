@@ -1,5 +1,5 @@
 """Repair malformed odds headings/categories without replacing checklist imports."""
-import collections, concurrent.futures, hashlib, json, re, subprocess
+import argparse, collections, concurrent.futures, hashlib, json, re, subprocess
 from pathlib import Path
 import pdfplumber
 from official_odds_layout import physical_odds_pdf
@@ -19,10 +19,15 @@ def prepare(record):
     with pdfplumber.open(path) as pdf:
         original = collections.Counter(w['text'] for page in pdf.pages for w in page.extract_words() if re.fullmatch(LITERAL, w['text']))
     imported = collections.Counter(value for row in entries for value in row['values'].values() if value)
+    # A ratio-shaped token can be part of a printed category, e.g. Austin
+    # 3:16. Its original glyphs belong to the name, not an odds value cell.
+    category_literals = collections.Counter(token for row in entries for token in row['name'].split() if re.fullmatch(LITERAL, token))
+    original.subtract(category_literals)
+    original = +original
     assert original == imported, (record['slug'], original-imported, imported-original)
     return entries, formats, raw, hashlib.sha256(path.read_bytes()).hexdigest()
 
-def build():
+def build(slugs=()):
     catalog_path = ROOT / 'data/set-catalog.json'
     catalog = json.loads(catalog_path.read_text())
     registry = json.loads((ROOT / 'data/parallel-specifications.json').read_text())
@@ -33,8 +38,9 @@ def build():
         data = json.loads((ROOT / record['tableData']).read_text())
         names = [o['name'] for o in data['odds']]
         malformed = any(len(f) > 100 or f.startswith('Official column') for f in data['formats']) or len(names) > 1 and len(set(names)) < len(names)*.7
-        if malformed and data.get('oddsParser') != PARSER:
+        if record['slug'] in slugs or malformed and data.get('oddsParser') != PARSER:
             targets.append(record)
+    assert set(slugs) <= {record['slug'] for record in targets}, 'Requested set has no official odds source'
     # Downloads/parsing are independent. Apply validated changes serially.
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         prepared = list(pool.map(prepare, targets))
@@ -75,4 +81,6 @@ def build():
     print('Repaired', len(targets), 'sets without replacing their card rows or dedicated checklist parsers.')
 
 if __name__ == '__main__':
-    build()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--slug', action='append', default=[], help='Explicitly re-read an official physical odds table')
+    build(parser.parse_args().slug)

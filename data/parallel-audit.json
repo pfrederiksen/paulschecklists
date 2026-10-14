@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-13",
+  "checked": "2026-10-14",
   "note": "A source link, search result, or odds PDF does not establish an exhaustive parallel inventory. Pending reviews remain explicit.",
   "sets": [
     {
@@ -912,11 +912,11 @@
       "manufacturer": "Topps / Bowman",
       "source": "https://www.topps.com/pages/checklists",
       "oddsCategories": 111,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "numberedOddsCategories": 15,
+      "supplementalSpecifications": 15,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
     },
     {

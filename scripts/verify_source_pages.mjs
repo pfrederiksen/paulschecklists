@@ -59,6 +59,13 @@ for(const set of cases){
   assert.equal(get('source-format').disabled,true);assert(get('insights').innerHTML.includes('does not name a format or ratio unit'));
   get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Published odds (format not named)'));assert(get('source-specifications').innerHTML.includes('3:1'));assert(!get('source-specifications').innerHTML.includes('3 cards per pack'),'Unspecified units must remain literal');get('source-cards-tab').onclick();
  }
+ if(set.slug==='topps-bowman-2026-topps-chrome-black-basketball'){
+  get('source-section').value='BASE CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'100 official source rows');
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});assert(get('source-results').innerHTML.includes('/299'));assert(get('source-results').innerHTML.includes('/150'));
+  get('source-section').value='ROOKIES';get('source-section').onchange();assert.equal(get('source-count').textContent,'50 official source rows');
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:'100'}})}});assert(get('source-results').innerHTML.includes('Base Rookies Green Refractor'));assert(get('source-results').innerHTML.includes('/99'));
+  get('source-reset').onclick();get('source-section').value='ROOKIE DESIGN VARIATION';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('/50'));assert(!get('source-specifications').innerHTML.includes('/299'),'Variation families must not receive ordinary base numbering');get('source-reset').onclick();get('source-cards-tab').onclick();
+ }
  if(kind==='topps-now'&&data.rows.some(r=>/^https:\/\/(?:uk|uk-next)\.topps\.com\//.test(r[8]))){get('source-odds-tab').onclick();assert(/href="https:\/\/(?:uk|uk-next)\.topps\.com\/products\//.test(get('source-specifications').innerHTML),'Regional official product evidence must remain linked in shared parallel tables');get('source-cards-tab').onclick();}
  if(kind==='topps-now'&&data.supplementarySourceProducts?.length){
   const proof=data.supplementarySourceProducts[0],index=data.rows.findIndex(r=>r[0]===proof.series&&r[1]===proof.number);

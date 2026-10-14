@@ -577,5 +577,33 @@
     "sha256": "888f5143354f080e73c69f4fa30303de8924b7e10382a4d573b1805c1758ce3f",
     "dedicatedParser": "scripts/import_topps_dynamic_duals_2026.py",
     "coverageComplete": false
+  },
+  {
+    "title": "2026 Topps Chrome® Black Basketball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "basketball",
+    "year": "2026",
+    "sourcePage": "https://www.topps.com/pages/checklists",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Cheklist_chrome_black.pdf?v=1785244468",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+    "slug": "topps-bowman-2026-topps-chrome-black-basketball",
+    "page": "sets/topps-bowman-2026-topps-chrome-black-basketball.html",
+    "status": "Source table",
+    "verified": "2026-10-11",
+    "odds": 111,
+    "formats": 2,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Odds.pdf?v=1788295188",
+    "oddsImportIssues": 0,
+    "rowCount": 556,
+    "tableData": "data/imports/topps-bowman-2026-topps-chrome-black-basketball.json",
+    "sections": 16,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 556 printed card rows reconciled to physical number/name/team/rookie columns; 100 base and 50 rookie numbers, five rookie flags in the first 100 and all 30 printed Rookie Design Variation rows retained. No missing variation numbers are invented.",
+    "parallelData": true,
+    "oddsParser": "scripts/official_odds_layout.py",
+    "sha256": "50e690e09a0f022fb09479bb0020f4683283e1e852fd0f28f3a4d7e23e922730",
+    "dedicatedParser": "scripts/import_topps_chrome_black_basketball.py"
   }
 ]
