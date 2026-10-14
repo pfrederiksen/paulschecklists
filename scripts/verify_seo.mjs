@@ -17,6 +17,7 @@ for(const page of ['index.html',...catalog.sets.map(s=>s.page)]){
  if(page!=='index.html'){
   assert(directory.includes(`href="${page}"`),'Missing crawlable link '+page);assert(schema['@graph'].some(s=>s['@type']==='BreadcrumbList'));
   const set=catalog.sets.find(s=>s.page===page);if(set.tableData||set.status==='Searchable')assert(html.includes('Browse the official checklist')&&html.includes('<details><summary>'),'Missing static checklist '+page);
+  if(set.tableData){const data=JSON.parse(await readFile(set.tableData,'utf8'));const nameColumn=data.headers?.findIndex(h=>/^name$/i.test(h))??-1;if(nameColumn>=0){const names=data.rows.map(r=>r[nameColumn]).filter(Boolean);const staticHTML=html.slice(html.indexOf('<section class="static-checklist"'));const escape=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));for(const name of [...names.slice(0,3),...names.slice(-3)])assert(staticHTML.includes(escape(name)),'Missing crawlable published name '+page+': '+name);}}
  }
  bytes+=(await stat('docs/'+page)).size;
 }
