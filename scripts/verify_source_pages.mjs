@@ -31,6 +31,15 @@ for(const set of cases){
   assert(get('source-results').innerHTML.includes('/399'),'The second printed base section must retain the shared base parallel limits');
   get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('/399'));get('source-reset').onclick();get('source-cards-tab').onclick();
  }
+ if(set.slug==='topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,true);
+  get('source-section').value='Base Card Short Prints';get('source-section').onchange();assert.equal(get('source-count').textContent,'6 official source rows');
+  get('source-search').value='75SP';get('source-search').oninput();assert(get('source-results').innerHTML.includes('Shohei Ohtani'));assert(get('source-results').innerHTML.includes('1 in 15 packs'));
+  const row=data.rows.findIndex(r=>r[1]==='75SP');get('source-results').onclick({target:{closest:()=>({dataset:{row:String(row)}})}});
+  assert(get('source-results').innerHTML.includes('OFFICIAL Published position'));assert(get('source-results').innerHTML.includes('P/DH'));
+  assert(get('source-results').innerHTML.includes('BASE CARDS SHORTPRINTS DARK GOLD PARALLEL'));assert(!get('source-results').innerHTML.includes('BASE CARDS GREEN PARALLEL'),'SP details must not receive ordinary base parallels');
+  get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Odds (Per Pack)'));get('source-cards-tab').onclick();
+ }
  if(kind==='topps-now'&&data.rows.some(r=>/^https:\/\/(?:uk|uk-next)\.topps\.com\//.test(r[8]))){get('source-odds-tab').onclick();assert(/href="https:\/\/(?:uk|uk-next)\.topps\.com\/products\//.test(get('source-specifications').innerHTML),'Regional official product evidence must remain linked in shared parallel tables');get('source-cards-tab').onclick();}
  if(kind==='topps-now'&&data.supplementarySourceProducts?.length){
   const proof=data.supplementarySourceProducts[0],index=data.rows.findIndex(r=>r[0]===proof.series&&r[1]===proof.number);

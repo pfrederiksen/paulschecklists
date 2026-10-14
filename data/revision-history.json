@@ -1484,11 +1484,11 @@
     "state": {
       "checklistHash": "dc380e38333069ad72e3bb4f5a103f8cf01d33e87d98df457d6a5f0788aa4546",
       "oddsHash": "4883af3bc2b32c6d83e2e8ff496681f8c75c0091637de648e71539ad7fc1afdc",
-      "rows": 118,
+      "rows": 124,
       "odds": 42,
       "specificationRows": 0
     },
-    "fingerprint": "458e27ba0a72fddf932b8618ecfbfcd138d7beb14315f87b0d78c06a72d29c00",
+    "fingerprint": "171fa0fe08bb6bbf0fc1edd38473c3a5e76c5ae11b538294576ad2edb8935442",
     "events": [
       {
         "at": "2026-10-11T21:53:32.572Z",

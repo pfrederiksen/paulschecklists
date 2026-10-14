@@ -7,7 +7,7 @@ let history={};try{history=JSON.parse(await readFile('data/revision-history.json
 export const research=new Map();const index=[];
 await mkdir('data/research',{recursive:true});
 for(const set of catalog.sets){
- let data=null;try{data=JSON.parse(await readFile(set.tableData||`data/${set.page.replace('.html','.json')}`,'utf8'));}catch{}
+ let data=null;try{data=JSON.parse(await readFile(set.tableData||`data/${set.page.replace('.html','.json')}`,'utf8'));}catch(error){if(set.tableData||set.status==='Searchable')throw error;}
  if(data&&!data.sections)data.odds=reconcileParallels(data);
  const featured=!!data?.sections;const sections=featured?data.sections:[];let formats=data?.formats??[];let entries=[];
  if(featured){formats=[...new Set(data.odds.flatMap(o=>Object.keys(o.odds)))];entries=data.odds.map(o=>({family:sections.find(s=>s.oddsIds?.includes(data.odds.indexOf(o)))?.name??'Other published categories',name:o.name,values:Object.fromEntries(formats.map(f=>[f,o.odds[f]?`1:${o.odds[f]}`:'Not listed']))}));}

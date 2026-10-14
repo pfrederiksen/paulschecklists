@@ -1,9 +1,11 @@
-import './apply_parallel_specs.mjs';
-import './audit_parallel_coverage.mjs';
-import {research} from './build_research.mjs';
 import {readFile,mkdir,writeFile} from 'node:fs/promises';
 import {setPage,setOverview,setDataStory,researchView,esc} from '../templates/set-page.mjs';
 import {setSEO} from '../templates/seo.mjs';
+// These modules mutate/read the same imports. Static imports with top-level
+// await can interleave their writes and reads, so complete each phase first.
+await import('./apply_parallel_specs.mjs');
+await import('./audit_parallel_coverage.mjs');
+const {research}=await import('./build_research.mjs');
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
 await mkdir('sets',{recursive:true});
 for(const config of JSON.parse(await readFile('templates/featured-sets.json','utf8'))){const set=catalog.sets.find(s=>s.page===config.page);const data=JSON.parse(await readFile('data/'+config.page.replace('.html','.json'),'utf8'));await writeFile(config.page,setPage({...config,story:setDataStory(set,data),tools:researchView(set,research.get(set.slug)),overview:setOverview(set,{hasCards:true,hasOdds:!!config.odds,hasSpecifications:!!config.odds}),seo:setSEO(set,data)}));}

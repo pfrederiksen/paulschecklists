@@ -509,5 +509,33 @@
     "coverageComplete": false,
     "parallelData": true,
     "publishedOdds": true
+  },
+  {
+    "title": "2026 Topps Chrome® Baseball – Team Samurai Japan Collection",
+    "manufacturer": "Topps / Bowman",
+    "sport": "baseball",
+    "year": "2026",
+    "sourcePage": "https://www.topps.com/pages/checklists",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Samurai_Japan_Checklist_update_8.26_1.pdf?v=1787762012",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; an exact release date is not verified. The checklist and odds documents use different names for several insert families: Samurai Sluggers, Samurai Strikers and Championship Memories in the odds have no same-named checklist section. Those odds are retained separately, and are not assigned to Generational Greats, Neon Nights or Samurai Spirit. Published categories alone do not establish exhaustive parallel or numbering coverage.",
+    "slug": "topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection",
+    "page": "sets/topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection.html",
+    "status": "Source table",
+    "verified": "2026-10-11",
+    "odds": 42,
+    "formats": 1,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Samurai_Japan_Baseball_Odds.pdf?v=1787603458",
+    "oddsImportIssues": 0,
+    "rowCount": 124,
+    "tableData": "data/imports/topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection.json",
+    "sections": 8,
+    "importKind": "pdf",
+    "dataAudit": "All 124 printed rows, eight literal subset headings, physical subject/team/position columns and 42 per-pack odds values reconciled to the official PDFs. Six 75SP–80SP short prints retained. No inferred rookie flags, serial limits or cross-subset mappings.",
+    "parallelData": true,
+    "sha256": "dc380e38333069ad72e3bb4f5a103f8cf01d33e87d98df457d6a5f0788aa4546",
+    "dedicatedParser": "scripts/import_topps_samurai_2026.py",
+    "coverageComplete": false
   }
 ]
