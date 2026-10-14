@@ -9232,5 +9232,63 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2025-topps-chrome-mls": {
+    "state": {
+      "checklistHash": "29c0267fcfa424bf98bb0567318dfe487d932c17282b53e020c595d28c7cda26",
+      "oddsHash": "31a967fe90427c3c35e2eca4b392330a4f01bcad61d430fabf730889c6cd5d01",
+      "rows": 861,
+      "odds": 186,
+      "specificationRows": 58,
+      "specificationHash": "e2aedb0923051f2e3be02f060c787b5729916c7086768d202d81f8db0ecfd5fe"
+    },
+    "fingerprint": "f146abc47dec27567831d10d5a9f4e811a505d2c831720546b2bc5ebe0a89369",
+    "events": [
+      {
+        "at": "2026-10-14T02:09:43.265Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Chrome_MLS_2025_Checklist.pdf?v=1787962193",
+        "snapshot": {
+          "checklistHash": "29c0267fcfa424bf98bb0567318dfe487d932c17282b53e020c595d28c7cda26",
+          "oddsHash": "31a967fe90427c3c35e2eca4b392330a4f01bcad61d430fabf730889c6cd5d01",
+          "rows": 861,
+          "odds": 186,
+          "specificationRows": 58,
+          "specificationHash": "e2aedb0923051f2e3be02f060c787b5729916c7086768d202d81f8db0ecfd5fe"
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2025-topps-chrome-mls-sapphire-edition": {
+    "state": {
+      "checklistHash": "a01319619177ee4a18af1cdf56e7419b30e009730e77f6d65c2288a05cfaa382",
+      "oddsHash": "9706c8b666d920b903d22c08e52e34e27c5d61c89779415cb2a6ac0efb785f50",
+      "rows": 358,
+      "odds": 29,
+      "specificationRows": 1,
+      "specificationHash": "3391e70702242d177724f86948f19575e0fc3a292f44d60dfc4479e067e788d7"
+    },
+    "fingerprint": "156caf75e3bb21906f006783034337ff1044ee15b1f03e6ca74f2f62f6b24deb",
+    "events": [
+      {
+        "at": "2026-10-14T02:09:43.266Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25MLSC_SAPPHIRE_1.pdf?v=1787963932",
+        "snapshot": {
+          "checklistHash": "a01319619177ee4a18af1cdf56e7419b30e009730e77f6d65c2288a05cfaa382",
+          "oddsHash": "9706c8b666d920b903d22c08e52e34e27c5d61c89779415cb2a6ac0efb785f50",
+          "rows": 358,
+          "odds": 29,
+          "specificationRows": 1,
+          "specificationHash": "3391e70702242d177724f86948f19575e0fc3a292f44d60dfc4479e067e788d7"
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

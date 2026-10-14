@@ -4119,6 +4119,32 @@
       "ongoingSeries": false,
       "status": "Source import pending",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2025-topps-chrome-mls",
+      "title": "2025 Topps Chrome MLS",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/topps-chrome-mls-2025-hobby-box",
+      "oddsCategories": 186,
+      "numberedOddsCategories": 58,
+      "supplementalSpecifications": 58,
+      "structuredNumbering": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2025-topps-chrome-mls-sapphire-edition",
+      "title": "2025 Topps Chrome MLS Sapphire Edition",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/topps-chrome%C2%AE-mls-2025-sapphire-edition-hobby-box",
+      "oddsCategories": 29,
+      "numberedOddsCategories": 1,
+      "supplementalSpecifications": 1,
+      "structuredNumbering": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
     }
   ]
 }

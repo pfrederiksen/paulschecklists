@@ -12,9 +12,14 @@ def verify(set):
  with pdfplumber.open(path) as pdf:
   for page in pdf.pages:
    original.update(word['text'] for word in page.extract_words(x_tolerance=tolerance) if re.fullmatch(r'[\d,]+(?::[\d,]+)+',word['text']))
- imported=collections.Counter(value for row in data['odds'] for value in row['values'].values() if value)
+ source_rows=data.get('officialOddsTable',data['odds'])
+ imported=collections.Counter(value for row in source_rows for value in row['values'].values() if value)
+ if data.get('oddsScope'):
+  scope=data['oddsScope']
+  assert data['formats']==[scope]
+  assert data['odds']==[{**row,'values':{scope:row['values'][scope]}} for row in source_rows if row['values'][scope] is not None],set['title']
  assert original==imported,(set['title'],original-imported,imported-original)
- return len(data['odds']),sum(imported.values())
+ return len(source_rows),sum(imported.values())
 if __name__=='__main__':
  catalog=json.loads((ROOT/'data/set-catalog.json').read_text());sets=[set for set in catalog['sets'] if set.get('oddsUrl')]
  with concurrent.futures.ProcessPoolExecutor(max_workers=6) as pool:results=list(pool.map(verify,sets))
