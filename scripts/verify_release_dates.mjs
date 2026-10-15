@@ -27,6 +27,15 @@ for(const entry of registry.dates){
  if(set.releaseStatus==='Upcoming')assert(html.includes('Upcoming')&&html.includes('scheduled release'));
 }
 const by=slug=>catalog.sets.find(s=>s.slug===slug);
+assert.equal(by('topps-bowman-2025-star-wars-masterwork').releaseDate,'2026-06-03','Product year 2025 remains separate from the official 2026 release');
+const masterworkHtml=await readFile('docs/'+by('topps-bowman-2025-star-wars-masterwork').page,'utf8');
+assert(masterworkHtml.includes('Exhaustive parallel-numbering coverage has not been established.'));
+assert(!masterworkHtml.includes('and a calendar release date have not been established'),'Release evidence must not erase the separate parallel audit gap');
+assert.equal(by('topps-bowman-2026-topps-stadium-club-wwe').releaseDate,'2026-10-23');
+assert.equal(by('topps-bowman-2026-topps-stadium-club-wwe').releaseStatus,'Upcoming');
+assert.equal(by('topps-bowman-2026-topps-chrome-disney').releaseDate,'2026-06-17');
+assert.equal(by('topps-bowman-2026-topps-chrome-ufc').releaseDate,'2026-05-08');
+for(const slug of ['topps-bowman-2026-topps-chrome-disney-sapphire-edition','topps-bowman-2026-topps-chrome-ufc-sapphire-edition'])assert.equal(by(slug).releaseDate,null,'Regular Chrome dates do not establish Sapphire dates');
 assert.equal(by('topps-bowman-2026-topps-chrome-tennis').releaseDate,'2026-09-30','Presale September 1 is not release day');
 assert.equal(by('topps-bowman-2026-topps-museum-collection-baseball').releaseDate,'2026-11-11');
 assert.equal(by('topps-bowman-2026-topps-museum-collection-baseball').releaseStatus,'Upcoming');

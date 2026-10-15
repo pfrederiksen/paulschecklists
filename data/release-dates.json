@@ -163,6 +163,42 @@
       "statement": "Scheduled release date: August 21, 2026",
       "scope": "Manufacturer U.S. guide",
       "sha256": "21e4cffb48950b815ca91b2a85f6d1fb2b1e5d2f7457d50104487163a785e6b1"
+    },
+    {
+      "url": "https://www.topps.com/products/2025-star-wars-masterwork-hobby-box",
+      "title": "2025 Star Wars Masterwork - Hobby Box",
+      "observed": "2026-10-15",
+      "method": "Official product page web read",
+      "statement": "Orders placed during the pre-order window are scheduled to begin shipping in advance of the product release date, June 3, 2026, in an effort to ensure delivery by that date.",
+      "scope": "U.S. Hobby product release; product title remains 2025",
+      "sha256": "6a4693b8cfd855f8840286c42995aec00c9d3c7eca4d3f294c8902c7b35a02c9"
+    },
+    {
+      "url": "https://www.topps.com/products/2026-topps-stadium-club-wwe-hobby-box-sealed-case",
+      "title": "2026 Topps Stadium Club WWE - Hobby Box - Sealed Case",
+      "observed": "2026-10-15",
+      "method": "Official product page web read",
+      "statement": "Orders placed during the pre-order window are scheduled to begin shipping in advance of the product release date, October 23, 2026, in an effort to ensure delivery by that date.",
+      "scope": "U.S. Hobby release; scheduled date subject to change",
+      "sha256": "efdcff7d9a3bf9d38c92853cb7db48dbda602d3f6ca2b6f942e93fc9730050cd"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-topps-chrome-disney-collector-guide/",
+      "title": "2026 Topps Chrome Disney Collector Guide",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser; release FAQ expanded",
+      "statement": "2026 Topps Chrome Disney releases on June 17, 2026.",
+      "scope": "Manufacturer U.S. guide; regular Chrome only, not Sapphire",
+      "sha256": "61adfe912f2cf10dcd2f9499ae9298d7070caceb7bcb71a35556d91845dface0"
+    },
+    {
+      "url": "https://ripped.topps.com/topps-chrome-ufc-history/",
+      "title": "Topps Chrome UFC Product History",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Release Date: May 8, 2026",
+      "scope": "Manufacturer U.S. guide; 2026 Chrome UFC only, not Sapphire",
+      "sha256": "a670e9a62222825442e71ba627bb491057b4d433c70e93a37ddf27f7a90573e0"
     }
   ],
   "dates": [
@@ -273,6 +309,30 @@
       "releaseDate": "2026-08-21",
       "releaseStatus": "Released",
       "source": 17
+    },
+    {
+      "slug": "topps-bowman-2025-star-wars-masterwork",
+      "releaseDate": "2026-06-03",
+      "releaseStatus": "Released",
+      "source": 18
+    },
+    {
+      "slug": "topps-bowman-2026-topps-stadium-club-wwe",
+      "releaseDate": "2026-10-23",
+      "releaseStatus": "Upcoming",
+      "source": 19
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-disney",
+      "releaseDate": "2026-06-17",
+      "releaseStatus": "Released",
+      "source": 20
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-ufc",
+      "releaseDate": "2026-05-08",
+      "releaseStatus": "Released",
+      "source": 21
     }
   ],
   "unresolved": [
