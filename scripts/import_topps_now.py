@@ -72,7 +72,7 @@ for url,block,document in blocks:
  end=next((j for j,x in enumerate(lines) if x=='Specs'),len(lines))
  overview='\n'.join(lines[begin+1:end]) if begin is not None else ''
  # Publish concise factual specifications, not the store's marketing copy.
- parallel_heading=next((j for j,x in enumerate(lines) if x.startswith('Parallels:') or x=='Parallèles :'),end)
+ parallel_heading=next((j for j,x in enumerate(lines) if x.startswith('Parallels:') or x in {'Parallels :','Parallèles :'}),end)
  look_for=[x.removeprefix('* ') for x in lines[begin+1:min(end,parallel_heading)] if (x.startswith('* ') or re.match(r'^/\d+\s+.*(?:Redemption|Card)',x)) and not x.startswith('*Parallels')] if begin is not None else []
  tiers=[x for x in lines[begin+1:end] if re.match(r'^[\d,]+\+ Print Run:',x)] if begin is not None else []
  factual=[]
@@ -84,7 +84,7 @@ for url,block,document in blocks:
  if urlparse(url).hostname=='fr.topps.com':
   factual.extend(x for x in lines[begin+1:end] if x.startswith('*Les cartes parallèles') or x.startswith('Tirage de '))
  overview='\n'.join(factual)
- parallel_start=next((j for j,x in enumerate(lines) if x=='Parallels:' or x=='Parallèles :'),None)
+ parallel_start=next((j for j,x in enumerate(lines) if x in {'Parallels:','Parallels :','Parallèles :'}),None)
  parallels=[]
  if parallel_start is not None:
   for line in lines[parallel_start+1:]:

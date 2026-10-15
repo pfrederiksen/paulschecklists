@@ -71,6 +71,21 @@ archive = json.loads((root / 'data/topps-now-archive-index.json').read_text())
 assert archive['coverageComplete'] is False
 assert [p['start'] for p in archive['pages']] == list(range(1, archive['pages'][-1]['start'] + 1, 24))
 by_key={(p['series'],p['number']):p for p in observations}
+mls_source=root/'data/catalog-sources/topps-now-backfill-browser-20261015-mls.json'
+if mls_source.exists():
+    snapshot=json.loads(mls_source.read_text());assert len(snapshot['products'])==3
+    gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
+    aggregate=json.loads((root/'data/imports/topps-now-2026.json').read_text())
+    for number,name in [('94','Cavan Sullivan, Robert Lewandowski'),('95','Inter Miami CF'),('96','St. Louis City SC')]:
+        card=by_key[('2026 MLS Topps NOW®',number)]
+        assert card['name']==name and card['saleUntil']=='Oct 18, 2026'
+        assert card['parallels']==['/25 Orange','/10 Black','/5 Red','/1 FoilFractor'],'A spaced Parallels heading must retain every named color, not only FoilFractor'
+        assert all(tier+'+ Print Run:' in card['terms'] for tier in ['50,000','100,000','250,000','500,000'])
+        assert ('Relic Redemption Card' in card['terms'])==(number=='96'),'Relic redemption terms belong only to card 96'
+        assert 'Numeric pack odds are not published.' in card['terms']
+        if not card['saleFromISO']:
+            assert any(p['series']==card['series'] and p['number']==number for p in gaps['pendingSaleDates'])
+            assert not any(r[0]==card['series'] and r[1]==number for r in aggregate['rows']),'An expiry date must not establish calendar-year inclusion'
 browser_source=root/'data/catalog-sources/topps-now-backfill-browser-20261014.json'
 if browser_source.exists():
     assert len(json.loads(browser_source.read_text())['products'])==38

@@ -63954,6 +63954,123 @@
   },
   {
     "series": "2026 MLS Topps NOW®",
+    "number": "94",
+    "name": "Cavan Sullivan, Robert Lewandowski",
+    "printRun": "",
+    "saleFrom": "",
+    "saleUntil": "Oct 18, 2026",
+    "parallels": [
+      "/25 Orange",
+      "/10 Black",
+      "/5 Red",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/cavan-sullivan-robert-lewandowski-2026-mls-topps-now-r-card-94",
+    "evidence": {
+      "url": "https://www.topps.com/products/cavan-sullivan-robert-lewandowski-2026-mls-topps-now-r-card-94",
+      "sha256": "6a2cca72e4042ca5e4242b06116a5598b49595b762822a94d8553b6d658ad02d",
+      "observed": "2026-10-15",
+      "title": "Cavan Sullivan/Robert Lewandowski - 2026 MLS Topps NOW® - Card 94",
+      "fields": {
+        "SKU": "ARTMLS-16C2S-26TN-0094",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Cavan Sullivan, Robert Lewandowski",
+        "Properties": "Major League Soccer",
+        "Product Type": "Print on Demand",
+        "Available Until": "Oct 18, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261015-mls.json"
+    },
+    "saleFromISO": null
+  },
+  {
+    "series": "2026 MLS Topps NOW®",
+    "number": "95",
+    "name": "Inter Miami CF",
+    "printRun": "",
+    "saleFrom": "",
+    "saleUntil": "Oct 18, 2026",
+    "parallels": [
+      "/25 Orange",
+      "/10 Black",
+      "/5 Red",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/inter-miami-cf-2026-mls-topps-now-r-card-95",
+    "evidence": {
+      "url": "https://www.topps.com/products/inter-miami-cf-2026-mls-topps-now-r-card-95",
+      "sha256": "047e68074dcfd2f2b8471f01b536b36d8494ace653b94c81efbbe08723a41b45",
+      "observed": "2026-10-15",
+      "title": "Inter Miami CF - 2026 MLS Topps NOW® - Card 95",
+      "fields": {
+        "SKU": "ARTMLS-16C2S-26TN-0095",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Inter Miami CF",
+        "Properties": "Inter Miami CF",
+        "Product Type": "Print on Demand",
+        "Available Until": "Oct 18, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261015-mls.json"
+    },
+    "saleFromISO": null
+  },
+  {
+    "series": "2026 MLS Topps NOW®",
+    "number": "96",
+    "name": "St. Louis City SC",
+    "printRun": "",
+    "saleFrom": "",
+    "saleUntil": "Oct 18, 2026",
+    "parallels": [
+      "/25 Orange",
+      "/10 Black",
+      "/5 Red",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less; /10 Relic Redemption Card; /5 Relic Redemption Card; /1 Relic Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/st-louis-city-sc-2026-mls-topps-now-r-card-96",
+    "evidence": {
+      "url": "https://www.topps.com/products/st-louis-city-sc-2026-mls-topps-now-r-card-96",
+      "sha256": "694d98a9e7568424d32f2d42b2363c187ea9fc9e6967a5a44eacc6f36946e608",
+      "observed": "2026-10-15",
+      "title": "St. Louis CITY SC - 2026 MLS Topps NOW® - Card 96",
+      "fields": {
+        "SKU": "ARTMLS-16C2S-26TN-0096",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "St. Louis City SC",
+        "Properties": "St. Louis CITY SC",
+        "Product Type": "Print on Demand",
+        "Available Until": "Oct 18, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less; /10 Relic Redemption Card; /5 Relic Redemption Card; /1 Relic Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261015-mls.json"
+    },
+    "saleFromISO": null
+  },
+  {
+    "series": "2026 MLS Topps NOW®",
     "number": "TCNS",
     "name": "Cavan Sullivan",
     "printRun": "7331",
