@@ -381,5 +381,11 @@
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Odds.pdf?v=1777474592",
     "source": "https://www.topps.com/pages/topps-chrome-black-baseball",
     "sha256": "8481bf0d89a1163334ae4fffe99eb5a05fd3f16cabadd7475e08d18f6e25004b"
+  },
+  {
+    "title": "2026 Topps Chrome Disney Sapphire Edition",
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Disney_Sapphire_Odds.pdf?v=1784729760",
+    "source": "https://www.topps.com/pages/disney-chrome-sapphire",
+    "sha256": "cd402ed845ef90b80de5d2ba0907b04d2bc2d0d22529e33e6b6a67d550e13773"
   }
 ]

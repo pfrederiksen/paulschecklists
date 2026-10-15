@@ -9692,6 +9692,38 @@
         "sha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
         "source": "https://www.topps.com/pages/topps-chrome-black-baseball"
       }
+    },
+    {
+      "title": "2026 Topps Chrome Disney Sapphire Edition",
+      "manufacturer": "Topps / Bowman",
+      "sport": "entertainment",
+      "year": "2026",
+      "slug": "topps-bowman-2026-topps-chrome-disney-sapphire-edition",
+      "page": "sets/topps-bowman-2026-topps-chrome-disney-sapphire-edition.html",
+      "sourcePage": "https://www.topps.com/pages/disney-chrome-sapphire",
+      "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DNYC_Sapphire_Checklist.pdf?v=1784648190",
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Disney_Sapphire_Odds.pdf?v=1784729760",
+      "releaseStatus": "Unverified",
+      "releaseDate": null,
+      "verified": "2026-10-15",
+      "catalogEvidence": "All 394 printed subject rows / 336 family-card identities across 15 sections retain physical Character, Subject, Property, First Name, Last Name, Character Name, Team, Division and unlabelled DEBUT fields. All 200 base numbers and the 30 MLBH-31 through MLBH-60 team assignments remain as printed; teams are blank outside the jersey program. Repeated dual, triple and quad actor/character rows retain every signer. BASE CARDS labels the unheaded first table; no rookie flags or absent Property values are inferred. All 54 Sapphire odds preserve literal 01:14:00, 1:26854 and Padpradascha spelling. The Sapphire format is published but no ratio unit is named; box contents do not establish per-pack odds. Named serial limits and an exact release date are unverified; no regular Chrome numbering is copied into Sapphire.",
+      "status": "Source table",
+      "rowCount": 394,
+      "tableData": "data/imports/topps-bowman-2026-topps-chrome-disney-sapphire-edition.json",
+      "sections": 15,
+      "importKind": "pdf",
+      "dataAudit": "All 394 printed subject rows / 336 family-card identities across 15 sections retain physical Character, Subject, Property, First Name, Last Name, Character Name, Team, Division and unlabelled DEBUT fields. All 200 base numbers and the 30 MLBH-31 through MLBH-60 team assignments remain as printed; teams are blank outside the jersey program. Repeated dual, triple and quad actor/character rows retain every signer. BASE CARDS labels the unheaded first table; no rookie flags or absent Property values are inferred. All 54 Sapphire odds preserve literal 01:14:00, 1:26854 and Padpradascha spelling. The Sapphire format is published but no ratio unit is named; box contents do not establish per-pack odds. Named serial limits and an exact release date are unverified; no regular Chrome numbering is copied into Sapphire.",
+      "dedicatedParser": "scripts/import_topps_disney_sapphire_2026.py",
+      "sha256": "7c20d9f35ffcf26555ab39821fc997dd6112603b162575e8cfd4a7d344bdc6b8",
+      "odds": 54,
+      "formats": 1,
+      "oddsParser": "scripts/official_odds_layout.py",
+      "oddsImportIssues": 0,
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/disney-sapphire-2026-product-20261015.json",
+        "sha256": "4a3d9e2471a6256352aeb7f5a9e8594729a30e7b8b24aba0fc3587cef33c6db8",
+        "source": "https://www.topps.com/pages/disney-chrome-sapphire"
+      }
     }
   ],
   "coverage": {

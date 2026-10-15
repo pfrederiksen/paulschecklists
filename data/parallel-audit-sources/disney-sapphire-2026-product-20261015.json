@@ -1,0 +1,23 @@
+{
+  "source": "https://www.topps.com/pages/disney-chrome-sapphire",
+  "productSource": "https://www.topps.com/pages/disney-chrome-sapphire",
+  "observed": "2026-10-15",
+  "method": "Actual official U.S. product-page and linked checklist/odds web reads; regional Japanese store and official EQL launch inspected separately. This is a factual observation snapshot, not a raw HTML hash.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DNYC_Sapphire_Checklist.pdf?v=1784648190",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Disney_Sapphire_Odds.pdf?v=1784729760",
+  "regionalSource": "https://jp.topps.com/products/2026-topps-chrome-disney-sapphire-hobby-box",
+  "launchSource": "https://launches.topps.com/en-US/launch/2026-topps-chromer-disney-sapphire-edition-hobby-box",
+  "boxContents": [
+    [
+      "Beauty and the Beast 35th Anniversary card",
+      "One exclusive card per box; box distribution is not pack odds"
+    ]
+  ],
+  "remainingGaps": [
+    "The inspected official product page, regional store and launch listing do not establish an exact calendar release date. Product year 2026 and checklist availability remain separate from release date.",
+    "Named serial-number limits are not stated in the linked checklist or the inspected product descriptions. Sapphire limits are not copied from regular Chrome or prior years. Exhaustive numbering remains unverified.",
+    "The odds header names Sapphire but no ratio unit; all 54 ratios remain literal. White Sapphire prints 01:14:00; do not interpret or repair it as 1:14. Preserve Padpradascha spelling and the unpunctuated Quad Facsimile value 1:26854.",
+    "The first 200-row table prints Character and Property but no family caption; BASE CARDS is an adapter label grounded in the product page's explicit 200-card base set description.",
+    "Twenty base rows print DEBUT in a separate unlabelled field; it is not a Rookie column. Preserve blank Property fields in Beauty and the Beast and facsimile families; no values are filled from theme or character identity."
+  ]
+}

@@ -11668,5 +11668,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-chrome-disney-sapphire-edition": {
+    "state": {
+      "checklistHash": "7c20d9f35ffcf26555ab39821fc997dd6112603b162575e8cfd4a7d344bdc6b8",
+      "oddsHash": "cd402ed845ef90b80de5d2ba0907b04d2bc2d0d22529e33e6b6a67d550e13773",
+      "rows": 394,
+      "odds": 54,
+      "specificationRows": 1
+    },
+    "fingerprint": "a148538757f68151523a34c857eb4ff6316171f741dcd61b813d83238c8edb73",
+    "events": [
+      {
+        "at": "2026-10-15T15:22:57.310Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DNYC_Sapphire_Checklist.pdf?v=1784648190",
+        "snapshot": {
+          "checklistHash": "7c20d9f35ffcf26555ab39821fc997dd6112603b162575e8cfd4a7d344bdc6b8",
+          "oddsHash": "cd402ed845ef90b80de5d2ba0907b04d2bc2d0d22529e33e6b6a67d550e13773",
+          "rows": 394,
+          "odds": 54,
+          "specificationRows": 1
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }
