@@ -1938,7 +1938,7 @@
       "slug": "topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition",
       "page": "sets/topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition.html",
       "status": "Source table",
-      "verified": "2026-10-11",
+      "verified": "2026-10-15",
       "odds": 23,
       "formats": 1,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Marvel_Comics_Chrome_Odds_517c8f23-9e04-4c43-aeaf-f9bd9c4ee70b.pdf?v=1785939128",
@@ -1947,8 +1947,15 @@
       "tableData": "data/imports/topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition.json",
       "sections": 8,
       "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "oddsParser": "scripts/official_odds_layout.py"
+      "dataAudit": "All 262 printed subject rows / 242 family-card identities across eight sections are reconciled against physical PDF columns. The 200 base numbers retain Characters I and Characters II; both sections share the eight published Base - Characters odds. Seventeen parenthetical DEBUT annotations remain literal Name text, not rookie flags. Repeated facsimile signatures retain every printed subject and number. All 23 Sapphire ratios are literal; the named format publishes no ratio unit. Named serial-number limits and an exact calendar release date remain unverified; regular Chrome limits are not applied.",
+      "oddsParser": "scripts/official_odds_layout.py",
+      "dedicatedParser": "scripts/import_topps_marvel_sapphire_2026.py",
+      "sha256": "8565d125fc26b766d7517874a3a41caf7fb187a0163b557f89d98fa2fb90d25a",
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/marvel-sapphire-2026-product-20261015.json",
+        "sha256": "07643b16ce0315a1034a9ed4c2b8b6f8ce088f0253481280caa2f2477323361a",
+        "source": "https://www.topps.com/pages/topps-chrome-sapphire-marvel"
+      }
     },
     {
       "title": "2026 Topps Chrome® VeeFriends",

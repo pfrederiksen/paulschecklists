@@ -34,6 +34,19 @@ for(const set of cases){
   get('source-section').value=numbered[0];get('source-section').onchange();get('source-team').value=numbered[10];get('source-team').onchange();get('source-search').value=numbered[2];get('source-search').oninput();assert(get('source-results').innerHTML.includes('title="/'+numbered[3]+'"'), 'Published SEQUENCE must display as out-of numbering');
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"SPORT","YEAR","BRAND","PROGRAM","CARD SET","ATHLETE","TEAM","POSITION","CARD NUMBER","SEQUENCE"'));assert(csv.includes('"'+String(numbered[2]).replaceAll('"','""')+'"'));get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition'){
+  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  for(const family of ['CHARACTERS I','CHARACTERS II']){
+   get('source-reset').onclick();get('source-section').value=family;get('source-section').onchange();assert.equal(get('source-count').textContent,'100 official source rows');
+   const row=data.rows.findIndex(r=>r[0]===family);get('source-results').onclick({target:{closest:()=>({dataset:{row:String(row)}})}});assert(get('source-results').innerHTML.includes('Base - Characters Green Sapphire')&&get('source-results').innerHTML.includes('1:6'));assert(!get('source-results').innerHTML.includes('1 in 6 packs'));
+   get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('100 checklist rows · 8 published categories'));get('source-export').onclick();assert(csv.includes('Base - Characters Green Sapphire')&&csv.includes('1:6'));get('source-cards-tab').onclick();
+  }
+  get('source-reset').onclick();get('source-search').value='DEBUT';get('source-search').oninput();assert.equal(get('source-count').textContent,'17 official source rows');get('source-export').onclick();assert(csv.includes('Dark Gwenpool (DEBUT)')&&!csv.includes('Rookie'));
+  get('source-reset').onclick();get('source-search').value='MFQ-DNSG';get('source-search').oninput();assert.equal(get('source-count').textContent,'4 official source rows');get('source-export').onclick();for(const name of ['Doctor Doom','Silver Surfer','Galactus','Namor'])assert(csv.includes(name));
+  for(const number of ['HG-01','IS-01']){get('source-reset').onclick();get('source-search').value=number;get('source-search').oninput();get('source-export').onclick();assert(csv.includes(number));}
+  get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2026-topps-chrome-disney-sapphire-edition'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   get('source-section').value='BASE CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'200 official source rows');get('source-search').value='DEBUT';get('source-search').oninput();assert.equal(get('source-count').textContent,'20 official source rows');

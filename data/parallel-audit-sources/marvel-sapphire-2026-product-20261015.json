@@ -1,0 +1,13 @@
+{
+  "source": "https://www.topps.com/pages/topps-chrome-sapphire-marvel",
+  "observed": "2026-10-15",
+  "method": "Actual official product-page and linked checklist/odds web reads, followed by physical PDF inspection. Factual observation snapshot, not a raw HTML hash.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_Sapphire_Checklist.pdf?v=1785177723",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Marvel_Comics_Chrome_Odds_517c8f23-9e04-4c43-aeaf-f9bd9c4ee70b.pdf?v=1785939128",
+  "publishedBaseDescription": "200-card base set; the linked checklist splits its consecutive numbers into CHARACTERS I (1–100) and CHARACTERS II (101–200). The Base - Characters odds apply to both sections.",
+  "remainingGaps": [
+    "The product description mentions numbered parallels without named limits. Exact serial-number ladders and exhaustive numbering remain unverified; do not copy regular Chrome or other Sapphire limits.",
+    "The product page and linked documents do not establish an exact calendar release date. Product year and checklist availability remain separate.",
+    "The odds PDF names Sapphire but does not publish a ratio unit. Preserve all 23 literals without asserting packs or deriving probabilities."
+  ]
+}

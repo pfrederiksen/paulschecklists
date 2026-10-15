@@ -6394,6 +6394,14 @@
       "source": "https://www.topps.com/pages/disney-chrome-sapphire",
       "evidenceFile": "data/parallel-audit-sources/disney-sapphire-2026-product-20261015.json",
       "evidenceSha256": "4a3d9e2471a6256352aeb7f5a9e8594729a30e7b8b24aba0fc3587cef33c6db8"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition",
+      "family": "Unverified Sapphire numbering and calendar release date",
+      "gap": "The product description mentions numbered parallels without named limits. Exact serial-number ladders and exhaustive numbering remain unverified; do not copy regular Chrome or other Sapphire limits. The product page and linked documents do not establish an exact calendar release date. Product year and checklist availability remain separate. The odds PDF names Sapphire but does not publish a ratio unit. Preserve all 23 literals without asserting packs or deriving probabilities.",
+      "source": "https://www.topps.com/pages/topps-chrome-sapphire-marvel",
+      "evidenceFile": "data/parallel-audit-sources/marvel-sapphire-2026-product-20261015.json",
+      "evidenceSha256": "07643b16ce0315a1034a9ed4c2b8b6f8ce088f0253481280caa2f2477323361a"
     }
   ]
 }

@@ -20,3 +20,17 @@ const corrected=recordRevision(first,{...snapshot,rows:11},'https://example.com/
 const supplemented=recordRevision(first,{...snapshot,rows:11,specificationRows:4,specificationHash:'new-guide'},'https://example.com/official.pdf','later');assert.equal(supplemented.state.rows,11);assert(!supplemented.events[0].changes.some(c=>c.startsWith('Checklist entries:')),'New guide evidence must not turn an unrelated parser correction into a checklist revision');assert(supplemented.events[0].changes.includes('Supplementary specification evidence imported.'));
 
 const absentOdds=recordRevision(null,{...snapshot,oddsHash:null,odds:0},'https://example.com/checklist.pdf','first');const importedOdds=recordRevision(absentOdds,{...snapshot,rows:9,oddsHash:'new-pdf'},'https://example.com/checklist.pdf','later');assert(importedOdds.events[0].changes.includes('Official odds document imported.'));assert(!importedOdds.events[0].changes.some(c=>c.startsWith('Checklist entries:')));
+
+const sapphire=JSON.parse(await readFile('data/research/topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition.json','utf8'));
+context.fetch=async()=>({ok:true,json:async()=>sapphire});
+await new vm.Script('(async()=>{'+(await readFile('research.js','utf8')).replace(/^import .*;\n/,'')+'})()').runInContext(context);await new Promise(r=>setTimeout(r,0));
+assert(element('research-family').innerHTML.includes('CHARACTERS II'));
+element('research-family').value='CHARACTERS II';element('research-family').onchange();
+assert.equal((element('format-comparison').innerHTML.match(/<tbody>(.*?)<\/tbody>/s)[1].match(/<tr>/g)||[]).length,8);
+assert(element('format-comparison').innerHTML.includes('Base - Characters Green Sapphire')&&element('format-comparison').innerHTML.includes('1:6'));
+assert(!element('format-comparison').innerHTML.includes('Marvel Facsimile'));
+for(const set of catalog.sets.filter(s=>s.tableData)){
+ const source=JSON.parse(await readFile(set.tableData,'utf8')),output=JSON.parse(await readFile(`data/research/${set.slug}.json`,'utf8'));
+ for(const odd of source.odds??[])if(odd.familyAliases?.length)assert(output.entries.some(e=>e.name===odd.name&&JSON.stringify(e.familyAliases)===JSON.stringify(odd.familyAliases)),`Exact family aliases retained in research: ${set.title}`);
+}
+console.log('Verified exact shared-family aliases in research comparisons, including both Marvel Sapphire base sections.');
