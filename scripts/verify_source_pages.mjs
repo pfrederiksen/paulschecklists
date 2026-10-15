@@ -28,6 +28,17 @@ for(const set of cases){
  get('source-reset').onclick();assert.equal(get('source-sort').value,'checklist');assert.equal(get('source-section').value,'');
  assert(get('insights').innerHTML.includes('insight-grid'));
  get('source-odds-tab').onclick();assert.equal(get('source-cards-panel').hidden,true);assert.equal(get('source-specifications').hidden,false);get('source-cards-tab').onclick();assert.equal(get('source-specifications').hidden,true);
+ if(set.slug==='topps-bowman-2026-topps-heritage-football'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,true);
+  assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'100 official source rows');get('source-reset').onclick();
+  get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-team').value='New England Patriots';get('source-team').onchange();get('source-search').value='201';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');assert(get('source-results').innerHTML.includes('Drake Maye'));assert(!get('source-results').innerHTML.includes('Matthew Stafford'));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"201","Drake Maye","New England Patriots","","League Leaders"'));
+  get('source-reset').onclick();get('source-section').value='HERITAGE ROOKIE AUTOGRAPHS';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('/50'));get('source-export').onclick();assert(csv.includes('/50')&&csv.includes('Gold'));
+  get('source-section').value='REAL ONE ROOKIE AUTOGRAPHS';get('source-section').onchange();assert(!get('source-specifications').innerHTML.includes('/50'));
+  get('source-section').value='CUT SIGNATURES';get('source-section').onchange();assert(get('source-specifications').innerHTML.includes('Numbered to 1'));assert(get('source-specifications').innerHTML.includes('CA-WP1 through CA-WP5'));assert(!get('source-specifications').innerHTML.includes('1/1'));
+  get('source-cards-tab').onclick();get('source-reset').onclick();get('source-search').value='WPRR-1';get('source-search').oninput();assert(get('source-results').innerHTML.includes('1976 Topps Walter Payton PSA 10 Redemption'));get('source-export').onclick();assert(csv.includes('1976 Topps Walter Payton PSA 10 Redemption'));get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2026-topps-holiday-baseball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,true);
   assert(get('source-sort').options.find(o=>o.value==='rare').disabled);

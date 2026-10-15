@@ -5385,6 +5385,198 @@
         "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
         "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
       }
+    ],
+    "topps-bowman-2026-topps-heritage-football": [
+      {
+        "family": "BASE CARDS",
+        "name": "Dark Gray Border",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Hobby exclusive. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Flip Stock",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Hobby exclusive. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Black Border",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Hobby exclusive. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Dark Green Border",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Value Box exclusive. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Red Border",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Mega Box exclusive. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS CHROME VARIATION",
+        "name": "Light Blue Sparkle",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Hobby exclusive; Chrome family only. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS CHROME VARIATION",
+        "name": "Pink Sparkle",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Value Box exclusive; Chrome family only. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS CHROME VARIATION",
+        "name": "Silver Sparkle",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Mega Box exclusive; Chrome family only. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS CHROME VARIATION",
+        "name": "Refractor",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Chrome family only; no individual-card eligibility inferred. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS CHROME VARIATION",
+        "name": "Sparkle",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Guide describes a Chrome tier; no unnamed colors or limits inferred. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "THE EXPANSION",
+        "name": "Holo",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Named for The Expansion only. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "REAL ONE AUTOGRAPHS",
+        "name": "Red Ink",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Named for Real One Autographs; not assigned to the separately printed Real One Rookie Autographs family. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Image",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "A separate BASE CARDS IMAGE VARIATION roster is retained; eligibility is not extended to all base cards. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Nickname",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Guide names Nickname while the PDF names BASE CARDS NO NAME VARIATION; equivalence is unverified and no roster is assigned. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Legend",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "A separate BASE CARDS LEGEND VARIATION roster is retained; eligibility is not extended to all base cards. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Flipped Helmet",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "A separate BASE CARDS FLIPPED HELMET VARIATION roster is retained; eligibility is not extended to all base cards. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Black and White Image",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "A separate BASE CARDS BLACK AND WHITE IMAGE VARIATION roster is retained; eligibility is not extended to all base cards. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Alternate Jerseys",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+        "qualification": "Retain the guide wording; the separate BASE CARDS ALTERNATE JERSEY VARIATION roster remains unchanged. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      },
+      {
+        "family": "HERITAGE ROOKIE AUTOGRAPHS",
+        "name": "Gold",
+        "numbering": "/50",
+        "source": "https://ripped.topps.com/topps-heritage-football-history/",
+        "qualification": "The official history FAQ explicitly says Gold parallels numbered to 50. The collector guide illustrates Jadarian Price with a 50-copy Gold Rookie Auto. This limit is not applied to Real One Rookie Autographs or any other Gold family.",
+        "sourceHeading": "Collector FAQs / Heritage Rookie Autographs",
+        "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+        "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+      }
     ]
   },
   "conflicts": [
@@ -5442,6 +5634,38 @@
       "source": "https://ripped.topps.com/2026-topps-holiday-baseball-guide/",
       "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
       "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-heritage-football",
+      "family": "BASE CARDS NO NAME VARIATION",
+      "issue": "The guide describes Nickname variations, while the PDF names a No Name variation roster; no identity equivalence is inferred.",
+      "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+      "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+      "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-heritage-football",
+      "family": "1976 ORIGINAL BUYBACK AUTOGRAPHS",
+      "issue": "The guide describes 1976 Original Buyback Autographs signed by Jack Lambert and Fred Biletnikoff, but the PDF has no corresponding family or signer rows. The Walter Payton Rookie Redemption roster is not substituted for autographs.",
+      "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+      "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+      "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-heritage-football",
+      "family": "CUT SIGNATURES",
+      "issue": "Walter Payton's guide-described cut limit cannot be assigned among the five published CA-WP codes.",
+      "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+      "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+      "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-heritage-football",
+      "family": "BASE CARDS CHROME VARIATION",
+      "issue": "The paper base has all 400 distinct numbers. Chrome has 399 distinct numbers across 408 subject rows: page 8 prints 142 Aidan Hutchinson and 142 A.J. Terrell, while page 10 omits 259. Both programs retain the repeated League Leaders numbers 201–208. No card is silently renumbered.",
+      "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Football_Checklist.pdf?v=1790800436",
+      "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+      "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
     }
   ]
 }

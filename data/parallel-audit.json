@@ -188,14 +188,47 @@
       "slug": "topps-bowman-2026-topps-heritage-football",
       "title": "2026 Topps Heritage Football",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-heritage-football",
       "oddsCategories": 0,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "numberedOddsCategories": 1,
+      "supplementalSpecifications": 19,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-heritage-football",
+          "family": "BASE CARDS NO NAME VARIATION",
+          "issue": "The guide describes Nickname variations, while the PDF names a No Name variation roster; no identity equivalence is inferred.",
+          "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+          "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+          "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-heritage-football",
+          "family": "1976 ORIGINAL BUYBACK AUTOGRAPHS",
+          "issue": "The guide describes 1976 Original Buyback Autographs signed by Jack Lambert and Fred Biletnikoff, but the PDF has no corresponding family or signer rows. The Walter Payton Rookie Redemption roster is not substituted for autographs.",
+          "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+          "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+          "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-heritage-football",
+          "family": "CUT SIGNATURES",
+          "issue": "Walter Payton's guide-described cut limit cannot be assigned among the five published CA-WP codes.",
+          "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+          "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+          "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-heritage-football",
+          "family": "BASE CARDS CHROME VARIATION",
+          "issue": "The paper base has all 400 distinct numbers. Chrome has 399 distinct numbers across 408 subject rows: page 8 prints 142 Aidan Hutchinson and 142 A.J. Terrell, while page 10 omits 259. Both programs retain the repeated League Leaders numbers 201–208. No card is silently renumbered.",
+          "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Football_Checklist.pdf?v=1790800436",
+          "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
+          "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-holiday-baseball",

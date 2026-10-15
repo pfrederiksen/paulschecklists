@@ -1,0 +1,54 @@
+{
+  "source": "https://ripped.topps.com/2026-topps-heritage-football-which-box-is-best/",
+  "historySource": "https://ripped.topps.com/topps-heritage-football-history/",
+  "collectorGuide": "https://ripped.topps.com/2026-topps-heritage-football-top-cards-collector-guide/",
+  "productSource": "https://www.topps.com/pages/topps-heritage-football",
+  "checklistSource": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Football_Checklist.pdf?v=1790800436",
+  "observed": "2026-10-14",
+  "method": "Full official product, box-guide, history and collector-guide web reads, including FAQs; physical checklist PDF reconciled independently.",
+  "availabilityHeading": "Hobby & Value Boxes available October 21 at 1pm ET, Mega Boxes available November 4",
+  "releaseDate": "2026-10-21",
+  "releaseStatus": "Upcoming",
+  "configuration": [
+    ["Hobby", "20 packs per box; eight base cards per pack; one autograph or relic per box", "October 21, 2026 at 1pm ET"],
+    ["Value Box", "Eight packs per box; eight base cards per pack", "October 21, 2026 at 1pm ET"],
+    ["Mega Box", "17 packs per box; eight base cards per pack", "November 4, 2026"]
+  ],
+  "parallelPrograms": [
+    ["BASE CARDS", "Dark Gray Border", "Numbering not stated", "Hobby exclusive"],
+    ["BASE CARDS", "Flip Stock", "Numbering not stated", "Hobby exclusive"],
+    ["BASE CARDS", "Black Border", "Numbering not stated", "Hobby exclusive"],
+    ["BASE CARDS", "Dark Green Border", "Numbering not stated", "Value Box exclusive"],
+    ["BASE CARDS", "Red Border", "Numbering not stated", "Mega Box exclusive"],
+    ["BASE CARDS CHROME VARIATION", "Light Blue Sparkle", "Numbering not stated", "Hobby exclusive; Chrome family only"],
+    ["BASE CARDS CHROME VARIATION", "Pink Sparkle", "Numbering not stated", "Value Box exclusive; Chrome family only"],
+    ["BASE CARDS CHROME VARIATION", "Silver Sparkle", "Numbering not stated", "Mega Box exclusive; Chrome family only"],
+    ["BASE CARDS CHROME VARIATION", "Refractor", "Numbering not stated", "Chrome family only; no individual-card eligibility inferred"],
+    ["BASE CARDS CHROME VARIATION", "Sparkle", "Numbering not stated", "Guide describes a Chrome tier; no unnamed colors or limits inferred"],
+    ["THE EXPANSION", "Holo", "Numbering not stated", "Named for The Expansion only"],
+    ["REAL ONE AUTOGRAPHS", "Red Ink", "Numbering not stated", "Named for Real One Autographs; not assigned to the separately printed Real One Rookie Autographs family"],
+    ["BASE CARDS", "Image", "Numbering not stated", "A separate BASE CARDS IMAGE VARIATION roster is retained; eligibility is not extended to all base cards"],
+    ["BASE CARDS", "Nickname", "Numbering not stated", "Guide names Nickname while the PDF names BASE CARDS NO NAME VARIATION; equivalence is unverified and no roster is assigned"],
+    ["BASE CARDS", "Legend", "Numbering not stated", "A separate BASE CARDS LEGEND VARIATION roster is retained; eligibility is not extended to all base cards"],
+    ["BASE CARDS", "Flipped Helmet", "Numbering not stated", "A separate BASE CARDS FLIPPED HELMET VARIATION roster is retained; eligibility is not extended to all base cards"],
+    ["BASE CARDS", "Black and White Image", "Numbering not stated", "A separate BASE CARDS BLACK AND WHITE IMAGE VARIATION roster is retained; eligibility is not extended to all base cards"],
+    ["BASE CARDS", "Alternate Jerseys", "Numbering not stated", "Retain the guide wording; the separate BASE CARDS ALTERNATE JERSEY VARIATION roster remains unchanged"]
+  ],
+  "exactNumbering": [
+    ["HERITAGE ROOKIE AUTOGRAPHS", "Gold", "/50", "The official history FAQ explicitly says Gold parallels numbered to 50. The collector guide illustrates Jadarian Price with a 50-copy Gold Rookie Auto. This limit is not applied to Real One Rookie Autographs or any other Gold family."]
+  ],
+  "qualifiedLimits": [
+    ["Walter Payton Cut Signature Auto", "Numbered to 1", "The box guide names the subject and limit without a card code. The PDF prints CA-WP1 through CA-WP5, all Walter Payton. No limit is assigned to an individual code or to the entire Cut Signatures family."]
+  ],
+  "guideOnlyPrograms": [
+    ["1976 Original Buyback Autographs", "Jack Lambert; Fred Biletnikoff", "The guide names these signers, but the PDF has no corresponding family, card numbers or roster. Retain them as guide-only subjects; no quantities, codes, numbering or complete roster are inferred."]
+  ],
+  "remainingGaps": [
+    "No pack-odds PDF is linked on the current product page or global odds catalog. Box contents and format-specific availability are not pack odds.",
+    "The guide describes Nickname variations, while the PDF names a No Name variation roster; no identity equivalence is inferred.",
+    "The guide describes 1976 Original Buyback Autographs signed by Jack Lambert and Fred Biletnikoff, but the PDF has no corresponding family or signer rows. The Walter Payton Rookie Redemption roster is not substituted for autographs.",
+    "Walter Payton's guide-described cut limit cannot be assigned among the five published CA-WP codes.",
+    "Guide programs and the Gold /50 limit do not establish exhaustive parallel numbering or universal eligibility.",
+    "The paper base has all 400 distinct numbers. Chrome has 399 distinct numbers across 408 subject rows: page 8 prints 142 Aidan Hutchinson and 142 A.J. Terrell, while page 10 omits 259. Both programs retain the repeated League Leaders numbers 201–208. No card is silently renumbered."
+  ]
+}

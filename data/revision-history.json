@@ -317,10 +317,34 @@
       "oddsHash": null,
       "rows": 1487,
       "odds": 0,
-      "specificationRows": 0
+      "specificationRows": 24,
+      "specificationHash": "1926ad60b3239d8bba0bbbb9c82244376d9200a3e52d1f983cb67eb8ebc59de5"
     },
-    "fingerprint": "a9248e917738eab50c5e0acdb17a095ee165a6ad1d713f68b34070c27d9a57a8",
+    "fingerprint": "af8bbaac694d9af64bbe191e3d3d77d865bf87879a3a618408bca7ee7e541229",
     "events": [
+      {
+        "at": "2026-10-15T05:16:29.305Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 24",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Football_Checklist.pdf?v=1790800436",
+        "snapshot": {
+          "checklistHash": "2dc486d62a6623c189b60b47a5317f71a5e936d3f572ec19b359ade37b79a5f5",
+          "oddsHash": null,
+          "rows": 1487,
+          "odds": 0,
+          "specificationRows": 24,
+          "specificationHash": "1926ad60b3239d8bba0bbbb9c82244376d9200a3e52d1f983cb67eb8ebc59de5"
+        },
+        "previousSnapshot": {
+          "checklistHash": "2dc486d62a6623c189b60b47a5317f71a5e936d3f572ec19b359ade37b79a5f5",
+          "oddsHash": null,
+          "rows": 1487,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.100Z",
         "changes": [
