@@ -21,13 +21,35 @@
   "topps-bowman-2025-topps-chrome-football-sapphire": {
     "state": {
       "checklistHash": "b90ab799ca671a04e302d220f73cc5c0f40de3fab2cce4ae23b29aba9fb8eb18",
-      "oddsHash": null,
-      "rows": 741,
-      "odds": 0,
+      "oddsHash": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
+      "rows": 740,
+      "odds": 55,
       "specificationRows": 0
     },
-    "fingerprint": "79d279ae44dc1d5869a88dfef3c9140ba345a6ec54a5965d8477d9cbc98d167c",
+    "fingerprint": "d6c7a5f37f5e4a35266ad6ae74dbbcdec08daa898a3f2a6e96c75626ef164e05",
     "events": [
+      {
+        "at": "2026-10-15T03:27:39.424Z",
+        "changes": [
+          "Official odds document imported.",
+          "Published odds entries: 0 → 55"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Sapphire_Checklist_042926.pdf?v=1778615660",
+        "snapshot": {
+          "checklistHash": "b90ab799ca671a04e302d220f73cc5c0f40de3fab2cce4ae23b29aba9fb8eb18",
+          "oddsHash": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
+          "rows": 740,
+          "odds": 55,
+          "specificationRows": 0
+        },
+        "previousSnapshot": {
+          "checklistHash": "b90ab799ca671a04e302d220f73cc5c0f40de3fab2cce4ae23b29aba9fb8eb18",
+          "oddsHash": null,
+          "rows": 741,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:31.939Z",
         "changes": [
@@ -11086,6 +11108,93 @@
           "rows": 6521,
           "odds": 0,
           "specificationRows": 6521
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-bowman-u-best-football": {
+    "state": {
+      "checklistHash": "d3f571605df35fcdf175765ded7e0e2c988324f1df58e73c23e0f5ec745db10d",
+      "oddsHash": null,
+      "rows": 756,
+      "odds": 0,
+      "specificationRows": 15,
+      "specificationHash": "ef4af79bbe60b87e3f2e800adde9c4176a7fb5f3b2e9790fa737aebdad40d53d"
+    },
+    "fingerprint": "36dceb534c1fa8a49ac20b34b37309fd2fefdd407cd78fa0ce9d0e81476fd760",
+    "events": [
+      {
+        "at": "2026-10-15T03:26:33.757Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_U_Best_FB_Checklist.pdf?v=1791206274",
+        "snapshot": {
+          "checklistHash": "d3f571605df35fcdf175765ded7e0e2c988324f1df58e73c23e0f5ec745db10d",
+          "oddsHash": null,
+          "rows": 756,
+          "odds": 0,
+          "specificationRows": 15,
+          "specificationHash": "ef4af79bbe60b87e3f2e800adde9c4176a7fb5f3b2e9790fa737aebdad40d53d"
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-27-topps-flagship-basketball": {
+    "state": {
+      "checklistHash": "12ebf08ff5bb7abdbe1aedbd8cc93778881fd7fe7714e8d1cb88d232263a0e29",
+      "oddsHash": null,
+      "rows": 3254,
+      "odds": 0,
+      "specificationRows": 19,
+      "specificationHash": "43089745bbde41197dd42a869a3466fd8aba6f2c6fc35c83034f09a8e7d24c76"
+    },
+    "fingerprint": "fbab3dc91ec63f8d5e5b336e64053feaa7b0e0d9c19cf7c3620610c15471f669",
+    "events": [
+      {
+        "at": "2026-10-15T03:26:33.758Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Copy_of_2026-27_Topps_Flagship_Basketball_Checklist_10-9-26.xls_-_Compatibility_Mode.pdf?v=1791570579",
+        "snapshot": {
+          "checklistHash": "12ebf08ff5bb7abdbe1aedbd8cc93778881fd7fe7714e8d1cb88d232263a0e29",
+          "oddsHash": null,
+          "rows": 3254,
+          "odds": 0,
+          "specificationRows": 19,
+          "specificationHash": "43089745bbde41197dd42a869a3466fd8aba6f2c6fc35c83034f09a8e7d24c76"
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-topps-mint-disney": {
+    "state": {
+      "checklistHash": "073d2a49589813460b69bc57e1eca1f41f13f5dc774415e8a3585dab7a1d0304",
+      "oddsHash": null,
+      "rows": 442,
+      "odds": 0,
+      "specificationRows": 1,
+      "specificationHash": "f1fcc31231f26e24b4791ff0e4f3bfa26e75dd839a48d5eb0ce826971b80180c"
+    },
+    "fingerprint": "e558fc50bafe470beda06c55eba1749438eb55b8c68e22bf885a8af0fd7eecb0",
+    "events": [
+      {
+        "at": "2026-10-15T03:26:33.759Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL.pdf?v=1791896818",
+        "snapshot": {
+          "checklistHash": "073d2a49589813460b69bc57e1eca1f41f13f5dc774415e8a3585dab7a1d0304",
+          "oddsHash": null,
+          "rows": 442,
+          "odds": 0,
+          "specificationRows": 1,
+          "specificationHash": "f1fcc31231f26e24b4791ff0e4f3bfa26e75dd839a48d5eb0ce826971b80180c"
         },
         "previousSnapshot": null
       }

@@ -28,6 +28,36 @@ for(const set of cases){
  get('source-reset').onclick();assert.equal(get('source-sort').value,'checklist');assert.equal(get('source-section').value,'');
  assert(get('insights').innerHTML.includes('insight-grid'));
  get('source-odds-tab').onclick();assert.equal(get('source-cards-panel').hidden,true);assert.equal(get('source-specifications').hidden,false);get('source-cards-tab').onclick();assert.equal(get('source-specifications').hidden,true);
+ if(set.slug==='topps-bowman-2025-topps-chrome-football-sapphire'){
+  assert.deepEqual(data.formats,[data.oddsScope]);assert.equal(data.odds.length,55);
+  get('source-section').value='ROOKIE';get('source-section').onchange();assert.equal(get('source-count').textContent,'100 official source rows');
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:'300'}})}});
+  assert(get('source-results').innerHTML.includes('ROOKIE GOLD SAPPHIRE'));assert(get('source-results').innerHTML.includes('1 in 17 packs'));assert(!get('source-results').innerHTML.includes('BASE GOLD SAPPHIRE'));
+  get('source-reset').onclick();get('source-section').value='1990 TOPPS FOOTBALL AUTOGRAPHS';get('source-section').onchange();assert.equal(get('source-count').textContent,'31 official source rows');
+  get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('1 in 452 packs'));assert(!get('source-specifications').innerHTML.includes('REFRACTOR'));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('1:452')&&csv.includes(data.oddsScope));assert(!csv.includes('HOBBY DISTRIBUTOR\",\"1:151'));
+  get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
+ if(set.slug==='topps-bowman-2026-bowman-u-best-football'){
+  assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);
+  get('source-section').value='HEXAGON AUTOGRAPHS';get('source-section').onchange();get('source-search').value='HEX-QB';get('source-search').oninput();assert.equal(get('source-count').textContent,'6 official source rows');
+  assert(get('source-results').innerHTML.includes('Kenny Minchey')&&get('source-results').innerHTML.includes('CJ Carr'));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert.equal((csv.match(/HEX-QB/g)||[]).length,6);assert(csv.includes('Notre Dame®'));
+  get('source-reset').onclick();get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});assert(get('source-results').innerHTML.includes('/250'));assert(!get('source-results').innerHTML.includes('1 in '));get('source-reset').onclick();
+ }
+ if(set.slug==='topps-bowman-2026-27-topps-flagship-basketball'){
+  get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'45 official source rows');get('source-reset').onclick();
+  get('source-section').value='GENERATION NOW';get('source-section').onchange();assert.equal(get('source-count').textContent,'20 official source rows');assert(get('source-results').innerHTML.includes('AJ Dybantsa'));get('source-reset').onclick();
+  get('source-section').value='FANATICS AUTHENTIC REDEMPTION';get('source-section').onchange();assert.equal(get('source-count').textContent,'60 official source rows');assert(get('source-results').innerHTML.includes('FR-1'));get('source-reset').onclick();
+  get('source-section').value='BASE CARDS CLEAR VARIATION';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('/10'));get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
+ if(set.slug==='topps-bowman-2026-topps-mint-disney'){
+  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);
+  get('source-search').value='CA-TH';get('source-search').oninput();assert(get('source-results').innerHTML.includes('Tom Hanks'));
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:String(data.rows.findIndex(r=>r[1]==='CA-TH'))}})}});assert(get('source-results').innerHTML.includes('Woody')&&get('source-results').innerHTML.includes('Toy Story 3'));assert(get('source-results').innerHTML.includes('OFFICIAL Official text column 3'));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"Tom Hanks","Woody","Toy Story 3"'));
+  get('source-reset').onclick();get('source-section').value='SKETCH CARDS & MINTED SKETCH CARDS - ARTISTS';get('source-section').onchange();assert.equal(get('source-count').textContent,'68 official source rows');get('source-search').value='ジェイソン';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');assert(get('source-results').innerHTML.includes('ジェイソン (Jason)'));get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-topps-transcendent-collection-baseball'){
   assert.equal(get('source-format').disabled,true);
   assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
@@ -191,7 +221,7 @@ for(const set of cases){
   assert(get('source-results').innerHTML.includes('Official sources for retained fields'));
   assert(get('source-results').innerHTML.includes(proof.evidence.url.replaceAll('&','&amp;')),'Retained print runs and dates must keep their original official evidence link');get('source-reset').onclick();
  }
- if(data.importKind==='pdf'||data.odds?.length||data.publishedSpecifications?.length||data.officialStructure||data.oddsColumn!=null||data.serialColumn!=null)assert(get('source-specifications').innerHTML.includes('odds-group'));else assert(get('source-specifications').innerHTML.includes('No parallel or odds specification'));
+ if(data.importKind==='pdf'||data.odds?.length||data.publishedSpecifications?.length||data.parallelSpecifications?.length||data.sourceSheets?.some(s=>s.notes?.length)||data.officialStructure||data.oddsColumn!=null||data.serialColumn!=null)assert(get('source-specifications').innerHTML.includes('odds-group'));else assert(get('source-specifications').innerHTML.includes('No parallel or odds specification'));
  get('source-search').value='no-matching-source-row-ever';get('source-search').oninput();assert(get('source-results').innerHTML.includes('No matching'));
  get('source-search').value='';get('source-section').value=data.rows[0][data.sectionColumn??0];get('source-section').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>r[data.sectionColumn??0]===data.rows[0][data.sectionColumn??0]).length.toLocaleString()} official source rows`);
  if(data.odds?.length){assert(get('source-transcript').innerHTML.includes('Odds document text'));const second=data.formats[1];if(second){get('source-format').value=second;get('source-format').onchange();assert(get('source-specifications').innerHTML.includes(second.replaceAll('&','&amp;')));}}

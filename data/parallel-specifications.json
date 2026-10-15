@@ -5157,6 +5157,92 @@
         "evidenceFile": "data/parallel-audit-sources/transcendent-2025-guide-20261014.json",
         "evidenceSha256": "2c6489aa3d60476fe264e25b510a9b9023b69b8e7febb9efd43ff2243467f565"
       }
+    ],
+    "topps-bowman-2026-bowman-u-best-football": [
+      {
+        "family": "BASE CARDS",
+        "name": "Yellow Lazer Refractor",
+        "numbering": "/250",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. This guide lists examples, not an exhaustive parallel inventory.",
+        "source": "https://ripped.topps.com/2026-bowman-u-best-football-hobby-box-guide/",
+        "sourceHeading": "What’s Inside 2026 Bowman U Best Football?",
+        "evidenceFile": "data/parallel-audit-sources/bowman-u-best-2026-guide-20261014.json",
+        "evidenceSha256": "51619675f7c7e99e0598659a0e2989e5d8c21b6f8441ce4d2dec4a8d64c28823"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Blue Refractor",
+        "numbering": "/150",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. This guide lists examples, not an exhaustive parallel inventory.",
+        "source": "https://ripped.topps.com/2026-bowman-u-best-football-hobby-box-guide/",
+        "sourceHeading": "What’s Inside 2026 Bowman U Best Football?",
+        "evidenceFile": "data/parallel-audit-sources/bowman-u-best-2026-guide-20261014.json",
+        "evidenceSha256": "51619675f7c7e99e0598659a0e2989e5d8c21b6f8441ce4d2dec4a8d64c28823"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. This guide lists examples, not an exhaustive parallel inventory.",
+        "source": "https://ripped.topps.com/2026-bowman-u-best-football-hobby-box-guide/",
+        "sourceHeading": "What’s Inside 2026 Bowman U Best Football?",
+        "evidenceFile": "data/parallel-audit-sources/bowman-u-best-2026-guide-20261014.json",
+        "evidenceSha256": "51619675f7c7e99e0598659a0e2989e5d8c21b6f8441ce4d2dec4a8d64c28823"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. This guide lists examples, not an exhaustive parallel inventory.",
+        "source": "https://ripped.topps.com/2026-bowman-u-best-football-hobby-box-guide/",
+        "sourceHeading": "What’s Inside 2026 Bowman U Best Football?",
+        "evidenceFile": "data/parallel-audit-sources/bowman-u-best-2026-guide-20261014.json",
+        "evidenceSha256": "51619675f7c7e99e0598659a0e2989e5d8c21b6f8441ce4d2dec4a8d64c28823"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. This guide lists examples, not an exhaustive parallel inventory.",
+        "source": "https://ripped.topps.com/2026-bowman-u-best-football-hobby-box-guide/",
+        "sourceHeading": "What’s Inside 2026 Bowman U Best Football?",
+        "evidenceFile": "data/parallel-audit-sources/bowman-u-best-2026-guide-20261014.json",
+        "evidenceSha256": "51619675f7c7e99e0598659a0e2989e5d8c21b6f8441ce4d2dec4a8d64c28823"
+      }
+    ],
+    "topps-bowman-2026-27-topps-flagship-basketball": [
+      {
+        "family": "BASE CARDS CLEAR VARIATION",
+        "name": "Clear acetate variation",
+        "numbering": "/10",
+        "qualification": "Numbered to 10 for the separately named Clear acetate variation; no other base variation receives this limit.",
+        "source": "https://ripped.topps.com/2026-27-topps-flagship-basketball-which-box-is-best/",
+        "sourceHeading": "What’s Inside 2026-27 Topps Flagship Basketball?",
+        "evidenceFile": "data/parallel-audit-sources/flagship-basketball-2026-guide-20261014.json",
+        "evidenceSha256": "6e8f7d4caa377e62bf6263018bb9697af4141d1dfe34e8f84bd0f3fe565fc8a8"
+      },
+      {
+        "family": "ALL KINGS",
+        "name": "Gold",
+        "numbering": "1/1",
+        "qualification": "The product page and box guide identify Gold All Kings as 1/1; individual subject eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-27-topps-flagship-basketball-which-box-is-best/",
+        "sourceHeading": "All Kings",
+        "evidenceFile": "data/parallel-audit-sources/flagship-basketball-2026-guide-20261014.json",
+        "evidenceSha256": "6e8f7d4caa377e62bf6263018bb9697af4141d1dfe34e8f84bd0f3fe565fc8a8"
+      }
+    ],
+    "topps-bowman-2026-topps-mint-disney": [
+      {
+        "family": "PLATINUM BASE CARDS",
+        "name": "Starting Platinum base numbering",
+        "numbering": "/99",
+        "qualification": "The 25-subject paper Platinum tier starts numbered /99; no Chrome variation or other parallel limit is inferred.",
+        "source": "https://www.topps.com/pages/topps-mint-disney",
+        "sourceHeading": "Platinum Base Cards",
+        "evidenceFile": "data/parallel-audit-sources/mint-disney-2026-product-20261014.json",
+        "evidenceSha256": "7426ecf9edc069ef6ec0eda3a877acf734958cea61389fd18efb478a5042395c"
+      }
     ]
   },
   "conflicts": [
@@ -5187,6 +5273,17 @@
       ],
       "evidenceFile": "data/parallel-audit-sources/chrome-baseball-logoman-conflict-20261014.json",
       "evidenceSha256": "04c645476a6b26633859c2e268a7573e0833d96bc85ecf9be2fc7da47a0cda7f"
+    },
+    {
+      "slug": "topps-bowman-2026-27-topps-flagship-basketball",
+      "family": "BASE CARDS rookie count",
+      "gap": "The September 28 official box guide describes 40 base rookies; the later October 9 checklist marks 45 base entries Rookie. Preserve the individual printed flags and original checklist team assignments; do not alter card membership to fit the overview.",
+      "sources": [
+        "https://ripped.topps.com/2026-27-topps-flagship-basketball-which-box-is-best/",
+        "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Copy_of_2026-27_Topps_Flagship_Basketball_Checklist_10-9-26.xls_-_Compatibility_Mode.pdf?v=1791570579"
+      ],
+      "evidenceFile": "data/parallel-audit-sources/flagship-basketball-2026-guide-20261014.json",
+      "evidenceSha256": "6e8f7d4caa377e62bf6263018bb9697af4141d1dfe34e8f84bd0f3fe565fc8a8"
     }
   ]
 }

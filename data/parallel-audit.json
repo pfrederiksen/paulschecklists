@@ -19,8 +19,8 @@
       "slug": "topps-bowman-2025-topps-chrome-football-sapphire",
       "title": "2025 Topps Chrome® Football Sapphire",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
-      "oddsCategories": 0,
+      "source": "https://www.topps.com/pages/topps-chrome-football-sapphire",
+      "oddsCategories": 55,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
@@ -4617,6 +4617,57 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 12,
       "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-bowman-u-best-football",
+      "title": "2026 Bowman U Best Football",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/bowman-u-best-football",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 5,
+      "supplementalSpecifications": 5,
+      "structuredNumbering": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-27-topps-flagship-basketball",
+      "title": "2026-27 Topps Flagship Basketball",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/topps-flagship-basketball",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 2,
+      "supplementalSpecifications": 2,
+      "structuredNumbering": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-27-topps-flagship-basketball",
+          "family": "BASE CARDS rookie count",
+          "gap": "The September 28 official box guide describes 40 base rookies; the later October 9 checklist marks 45 base entries Rookie. Preserve the individual printed flags and original checklist team assignments; do not alter card membership to fit the overview.",
+          "sources": [
+            "https://ripped.topps.com/2026-27-topps-flagship-basketball-which-box-is-best/",
+            "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Copy_of_2026-27_Topps_Flagship_Basketball_Checklist_10-9-26.xls_-_Compatibility_Mode.pdf?v=1791570579"
+          ],
+          "evidenceFile": "data/parallel-audit-sources/flagship-basketball-2026-guide-20261014.json",
+          "evidenceSha256": "6e8f7d4caa377e62bf6263018bb9697af4141d1dfe34e8f84bd0f3fe565fc8a8"
+        }
+      ]
+    },
+    {
+      "slug": "topps-bowman-2026-topps-mint-disney",
+      "title": "2026 Topps Mint Disney",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/topps-mint-disney",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 1,
+      "supplementalSpecifications": 1,
       "structuredNumbering": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",

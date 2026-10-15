@@ -1,0 +1,73 @@
+{
+  "source": "https://ripped.topps.com/2026-bowman-u-best-football-hobby-box-guide/",
+  "observed": "2026-10-14",
+  "method": "Full official guide read in the in-app browser after the web reader failed.",
+  "articleDate": "2026-10-02",
+  "releaseDate": "2026-10-30",
+  "releaseStatus": "Upcoming",
+  "baseNumbering": [
+    [
+      "Yellow Lazer Refractor",
+      "/250"
+    ],
+    [
+      "Blue Refractor",
+      "/150"
+    ],
+    [
+      "Gold Refractor",
+      "/50"
+    ],
+    [
+      "Red Refractor",
+      "/5"
+    ],
+    [
+      "SuperFractor",
+      "1/1"
+    ]
+  ],
+  "configuration": [
+    [
+      "Packs per box",
+      "4"
+    ],
+    [
+      "Cards per pack",
+      "10"
+    ],
+    [
+      "Boxes per case",
+      "12"
+    ],
+    [
+      "Autographs per box",
+      "4"
+    ],
+    [
+      "Numbered parallels per box",
+      "3"
+    ],
+    [
+      "Base Refractors per box",
+      "3"
+    ],
+    [
+      "Shimmer parallels per box",
+      "2"
+    ],
+    [
+      "Inserts per box",
+      "8"
+    ],
+    [
+      "Base cards per box",
+      "20"
+    ],
+    [
+      "Case insert distribution",
+      "One Best of the Best or Campus Crests insert per case; one Best of Mascots or Best of Stadiums insert in every two cases"
+    ]
+  ],
+  "remainingGap": "Only five explicitly named base limits are imported from this guide; this is not an exhaustive ladder. Product-page renderer was blocked. No pack-odds PDF verified; box contents are not category odds."
+}
