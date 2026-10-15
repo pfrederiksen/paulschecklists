@@ -102,5 +102,6 @@ for spec in registry:
     assert hashlib.sha256((ROOT / spec['evidenceFile']).read_bytes()).hexdigest() == spec['evidenceSha256']
 assert not any(h in data['headers'] for h in ['Team', 'Rookie'])
 record = next(r for r in json.loads((ROOT / 'data/set-catalog.json').read_text())['sets'] if r['slug'] == SLUG)
-assert record['releaseDate'] is None
+assert record['releaseDate'] == '2026-07-01'
+assert record['verifiedRelease']['url'] == 'https://ripped.topps.com/2026-topps-chrome-marvel-comics-checklist/'
 print('Verified all 764 subject rows, 38 unlabelled cells, both 200-card programs, inline 136/137, retail inserts, quad signers, 126 artist entries and exact one-of-one guide scope.')

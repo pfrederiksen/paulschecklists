@@ -346,8 +346,8 @@
       "year": "2025-26",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-02-26",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-finest-basketball",
       "page": "sets/topps-bowman-2025-26-topps-finest-basketball.html",
@@ -363,6 +363,16 @@
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2025-26-topps-finest-basketball-checklist/",
+        "title": "2025-26 Topps Finest Basketball Checklist Spotlight",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "Release Date: February 26, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "c913945379f0d70b5946b5fa2891634295187f4b9d0a203c135aee445948a813",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 764,
         "sections": 17,
@@ -455,8 +465,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-08-21",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-flagship-football",
       "page": "sets/topps-bowman-2026-topps-flagship-football.html",
@@ -475,6 +485,16 @@
       "oddsParser": "scripts/official_odds_layout.py",
       "dedicatedParser": "scripts/import_topps_flagship_football_2026.py",
       "sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2026-topps-football-boxes-hobby-jumbo-retail-guide/",
+        "title": "2026 Topps Flagship Football Box Guide",
+        "observed": "2026-10-15",
+        "method": "Actual official in-app browser read",
+        "statement": "Scheduled release date: August 21, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "21e4cffb48950b815ca91b2a85f6d1fb2b1e5d2f7457d50104487163a785e6b1",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 4082,
         "sections": 87,
@@ -781,6 +801,17 @@
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
+      "releaseDateGap": {
+        "gap": "Current product page publishes Available From October 14, 2026, but its explicit release-date preorder statement is no longer visible. Retain as store availability pending stronger release evidence.",
+        "sources": [
+          {
+            "url": "https://www.topps.com/products/2026-topps-update-series-baseball-jumbo-box",
+            "statement": "Available From | Oct 14, 2026",
+            "method": "Actual official web read"
+          }
+        ],
+        "observed": "2026-10-15"
+      },
       "presentation": {
         "rows": 3284,
         "sections": 84,
@@ -870,8 +901,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_1_Baseball_Checklist_2-23.pdf?v=1772557808",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-02-11",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-series-1-baseball",
       "page": "sets/topps-bowman-2026-topps-series-1-baseball.html",
@@ -887,6 +918,16 @@
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2026-topps-series-1-baseball-checklist/",
+        "title": "2026 Topps Series 1 Baseball Checklist Spotlight",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "RELEASE: FEBRUARY 11, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "a1ce838b7e1d6eee3f52ea9d055fc88b30f1688b4a35f44eb68d5290447e77a5",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 3258,
         "sections": 55,
@@ -906,8 +947,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_2_Baseball_Checklist_5-11.pdf?v=1778521905",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-06-10",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-series-2-baseball",
       "page": "sets/topps-bowman-2026-topps-series-2-baseball.html",
@@ -923,6 +964,16 @@
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2026-topps-series-2-baseball-checklist-spotlight/",
+        "title": "2026 Topps Series 2 Baseball Checklist Spotlight",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "RELEASE: JUNE 10, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "ac366e71ebbd5e7a6ac224aebe83c3ce4df11cc56e4cee2dc0711d7b996212c3",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 3461,
         "sections": 57,
@@ -1158,8 +1209,8 @@
       "year": "2025-26",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Final_CheckList_26CUBK.pdf?v=1783360479",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-08-06",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-chrome-updates-basketball",
       "page": "sets/topps-bowman-2025-26-topps-chrome-updates-basketball.html",
@@ -1176,6 +1227,16 @@
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
       "oddsParser": "scripts/official_odds_layout.py",
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2025-26-topps-chrome-updates-basketball-checklist/",
+        "title": "2025-26 Topps Chrome Updates Basketball Checklist Spotlight",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "Release Date: August 6, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "6fc52496ceb53c1bc5cfab52625fa6587a1d83446058922a3d39acf20b56fb16",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 1300,
         "sections": 33,
@@ -1232,8 +1293,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_26CWWE_ChromeWWE.pdf?v=1775658305",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-04-10",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date. Some published odds use three-part or period-separated notation. These values are retained verbatim; no numeric hit-rate estimate is inferred.",
       "slug": "topps-bowman-2026-topps-chrome-wwe",
       "page": "sets/topps-bowman-2026-topps-chrome-wwe.html",
@@ -1250,6 +1311,16 @@
       "oddsImportIssues": 0,
       "parallelData": true,
       "oddsParser": "scripts/official_odds_layout.py",
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2026-topps-chrome-wwe-checklist/",
+        "title": "2026 Topps Chrome WWE Checklist Spotlight",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "Release Date: April 10, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "4d9df43af91df95749fb754a044bf0227c683fc9621514b3ed43554fe7ea39fe",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 1114,
         "sections": 49,
@@ -1269,8 +1340,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Cosmic_Chrome_Baseball_-_Checklist.pdf?v=1790609925",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Upcoming",
+      "releaseDate": "2026-11-04",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-cosmic-chrome-baseball",
       "page": "sets/topps-bowman-2026-topps-cosmic-chrome-baseball.html",
@@ -1286,6 +1357,16 @@
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
+      "verifiedRelease": {
+        "url": "https://www.topps.com/release-calendar",
+        "title": "2026 Topps Cosmic Chrome Baseball",
+        "observed": "2026-10-15",
+        "method": "Actual U.S. release-calendar web and browser reads; unmarked release spotlight, not a preorder event",
+        "statement": "Wednesday, Nov 4 2026 Topps Cosmic Chrome Baseball",
+        "scope": "United States release calendar; dates subject to change",
+        "sha256": "81a2612ae862233021235b7c7f17bd436d6e4fecb8b26645d39592771d4bdfa6",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 922,
         "sections": 23,
@@ -1543,6 +1624,22 @@
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
+      "releaseDateGap": {
+        "gap": "Current official guides conflict: May 6 versus May 13, 2026. No release date selected.",
+        "sources": [
+          {
+            "url": "https://ripped.topps.com/2026-bowman-baseball-checklist/",
+            "statement": "Release date: May 6, 2026",
+            "method": "Actual official browser read"
+          },
+          {
+            "url": "https://ripped.topps.com/2026-bowman-baseball-prospect-cards-collect/",
+            "statement": "Release Date May 13, 2026",
+            "method": "Actual official browser read"
+          }
+        ],
+        "observed": "2026-10-15"
+      },
       "presentation": {
         "rows": 1166,
         "sections": 24,
@@ -1562,8 +1659,8 @@
       "year": "2025-26",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-04-23",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-bowman-basketball",
       "page": "sets/topps-bowman-2025-26-bowman-basketball.html",
@@ -1579,6 +1676,16 @@
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2025-26-bowman-basketball-checklist-spotlight/",
+        "title": "2025-26 Bowman Basketball Checklist Spotlight",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "Release Date: April 23, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "ed30890c1eb19028ff06dcbdb57f86a887b4ad9bd80714041b0efaeb17fae760",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 891,
         "sections": 9,
@@ -1598,8 +1705,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Checklist_1.pdf?v=1786458901",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-09-09",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-bowman-chrome-baseball",
       "page": "sets/topps-bowman-2026-bowman-chrome-baseball.html",
@@ -1616,6 +1723,16 @@
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
       "oddsParser": "scripts/official_odds_layout.py",
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2026-bowman-chrome-baseball-collector-guide/",
+        "title": "2026 Bowman Chrome Baseball Collector Guide",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "Release Date: September 9, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "c86da2492553445e11f11d343cf24d0cab33b1d3eaa76c478d793984726c150e",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 1206,
         "sections": 30,
@@ -1905,8 +2022,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Inception_Football_CheckList_26TIFB_VERSION.pdf?v=1790715925",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Upcoming",
+      "releaseDate": "2026-11-06",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-inception-football",
       "page": "sets/topps-bowman-2026-topps-inception-football.html",
@@ -1918,6 +2035,16 @@
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
+      "verifiedRelease": {
+        "url": "https://www.topps.com/release-calendar",
+        "title": "2026 Topps Inception Football",
+        "observed": "2026-10-15",
+        "method": "Actual U.S. release-calendar web and browser reads; unmarked release spotlight, not a preorder event",
+        "statement": "Friday, Nov 6 2026 Topps Inception Football",
+        "scope": "United States release calendar; dates subject to change",
+        "sha256": "ea999a97a43240b3347dd7905201ac5afc48f197c8da466abdab6ba6ef8ba6aa",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 538,
         "sections": 17,
@@ -2076,8 +2203,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Museum_Baseball_Checklist.pdf?v=1788204579",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Upcoming",
+      "releaseDate": "2026-11-11",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-museum-collection-baseball",
       "page": "sets/topps-bowman-2026-topps-museum-collection-baseball.html",
@@ -2094,6 +2221,16 @@
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
       "oddsParser": "scripts/official_odds_layout.py",
+      "verifiedRelease": {
+        "url": "https://www.topps.com/products/2026-topps-museum-collection-baseball-hobby-box",
+        "title": "2026 Topps Museum Collection Baseball - Hobby Box",
+        "observed": "2026-10-15",
+        "method": "Official product-page web read; current date corroborated by live U.S. release calendar",
+        "statement": "product release date, November 11, 2026",
+        "scope": "United States Hobby release",
+        "sha256": "38f95b60ee6a046acb683521183eb6fc9e8e10c047a5c50bea614575579fbe74",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 1439,
         "sections": 30,
@@ -2267,6 +2404,17 @@
       "sections": 39,
       "odds": 97,
       "formats": 3,
+      "releaseDateGap": {
+        "gap": "Current product page publishes Available From October 7, 2026, but its explicit release-date preorder statement is no longer visible. Retain as store availability pending stronger release evidence.",
+        "sources": [
+          {
+            "url": "https://www.topps.com/products/2026-topps-allen-ginter-baseball-hobby-box",
+            "statement": "Available From | Oct 7, 2026",
+            "method": "Actual official web read"
+          }
+        ],
+        "observed": "2026-10-15"
+      },
       "presentation": {
         "rows": 2915,
         "sections": 39,
@@ -2286,8 +2434,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Baseball_Checklist_Final_7.22.pdf?v=1785169183",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-07-22",
       "catalogEvidence": "All 1,643 original subject rows, 300 base numbers, 300 Lightboard Logo entries and 412 literal Rookie flags are reconciled to physical number/name/team columns and matching continuation-page baselines. All 30 unnumbered Fanatics Authentics redemption entries, repeated signer numbers, literal spellings and the blank Commissioners Trophy subject remain unchanged. Numeric section headings are captions, not card numbers. Name pages 1–31 correspond to rookie pages 33–63; no rookie continuation for name page 32 is published. All 349 odds categories and six printed format headings are retained, including the Breaker Delight decimal 0.39374999999999999 and printed 1:1,2175 ratio without correction. Six printed Sapphire image-variation categories have blank values in every listed format and remain present. The decimal has no inferred unit or probability. Exhaustive supplementary parallel numbering and a calendar release date remain unverified.",
       "slug": "topps-bowman-2026-topps-chrome-baseball",
       "page": "sets/topps-bowman-2026-topps-chrome-baseball.html",
@@ -2307,6 +2455,16 @@
       "dedicatedParser": "scripts/import_topps_chrome_baseball_2026.py",
       "coverageComplete": true,
       "oddsParser": "scripts/import_topps_chrome_baseball_2026.py",
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2026-topps-chrome-baseball-checklist/",
+        "title": "2026 Topps Chrome Baseball Checklist Spotlight",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "Release Date: July 22, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "6e4741dc09573647850e89bb4cf9b80914d55a396399d8ad80f51aaa65a86526",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 1643,
         "sections": 55,
@@ -2418,6 +2576,17 @@
       "sha256": "dc380e38333069ad72e3bb4f5a103f8cf01d33e87d98df457d6a5f0788aa4546",
       "dedicatedParser": "scripts/import_topps_samurai_2026.py",
       "coverageComplete": false,
+      "releaseDateGap": {
+        "gap": "Indexed guide supplies a candidate date, but the actual official page returns Page not found. Candidate is not imported.",
+        "sources": [
+          {
+            "url": "https://ripped.topps.com/2026-topps-chrome-baseball-team-samurai-japan-collection-guide/",
+            "statement": "Page not found",
+            "method": "Actual official browser read"
+          }
+        ],
+        "observed": "2026-10-15"
+      },
       "presentation": {
         "rows": 124,
         "sections": 8,
@@ -2474,8 +2643,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Cheklist_chrome_black.pdf?v=1785244468",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-08-27",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2026-topps-chrome-black-basketball",
       "page": "sets/topps-bowman-2026-topps-chrome-black-basketball.html",
@@ -2494,6 +2663,16 @@
       "oddsParser": "scripts/official_odds_layout.py",
       "sha256": "50e690e09a0f022fb09479bb0020f4683283e1e852fd0f28f3a4d7e23e922730",
       "dedicatedParser": "scripts/import_topps_chrome_black_basketball.py",
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2026-topps-chrome-black-basketball-cards-collector-guide/",
+        "title": "2025-26 Topps Chrome Black Basketball Collector Guide",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "Release Date: August 27, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "f34be2fcbda6c8391a75ba61f887ed48f457f4a9c9c1af761ea16739ce9195bc",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 556,
         "sections": 16,
@@ -2730,8 +2909,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_HobbyValueMega_Checklist.pdf?v=1780349890",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-07-01",
       "catalogEvidence": "All 764 numbered subject rows in 31 sections reconciled, including both 200-card base and Clawed programs, 30 retail insert rows, the wrapped quad-facsimile heading and both printed inline cards 136 Mary Jane / 137 Misery. All 38 unlabelled additional cells retain their printed artist names or years without assigning new column roles. Artist Originals lists two unnumbered artists; the separate sketch roster retains 124 names, including IQ and the final Japanese/Latin name. No team or rookie fields are inferred. All 179 odds categories and seven literal columns remain unchanged, including three-part and period-separated ratios; those values are not converted to numeric hit rates. The guide describes the Stan Lee/Steve Ditko cut program and Artist Originals as one-of-one; these do not number the separate five-character The One and Only insert. Exhaustive parallel numbering and a release date remain unverified.",
       "slug": "topps-bowman-2026-topps-chrome-marvel-comics",
       "page": "sets/topps-bowman-2026-topps-chrome-marvel-comics.html",
@@ -2749,6 +2928,16 @@
       "oddsParser": "scripts/official_odds_layout.py",
       "dedicatedParser": "scripts/import_topps_marvel_chrome_2026.py",
       "sha256": "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81",
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2026-topps-chrome-marvel-comics-checklist/",
+        "title": "2026 Topps Chrome Marvel Comics Checklist Spotlight",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "Release Date: July 1, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "1922f3f833a840c6779fe24c54829e200d1013fb5e0e748c475dde7fa23cc30a",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 764,
         "sections": 31,
@@ -2846,8 +3035,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_x_Jennie_Checklist.pdf?v=1787173303",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Upcoming",
+      "releaseDate": "2026-10-20",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date. Recognized card rows are searchable; multi-subject continuation lines and physical column completeness are still being audited against the official PDF.",
       "slug": "topps-bowman-2026-topps-chrome-x-jennie",
       "page": "sets/topps-bowman-2026-topps-chrome-x-jennie.html",
@@ -2862,6 +3051,16 @@
       "sections": 9,
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "verifiedRelease": {
+        "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "title": "2026 Topps Chrome x Jennie",
+        "observed": "2026-10-15",
+        "method": "Official product-page web read; explicit release date inside preorder terms",
+        "statement": "product release date, October 20, 2026",
+        "scope": "United States product release",
+        "sha256": "b3b30c180e1f274c2c4d75ce99b020e8de7d390a631de5babf352f7bad4b5892",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 67,
         "sections": 9,
@@ -3324,8 +3523,8 @@
       "page": "sets/topps-bowman-2026-topps-chrome-tennis.html",
       "sourcePage": "https://www.topps.com/pages/topps-chrome-tennis",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TCTN_-_2026_Topps_Chrome_Tennis_Checklist_V2.xls?v=1790700549",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-09-30",
       "verified": "2026-10-12",
       "status": "Source table",
       "catalogEvidence": "Official workbook lists 200 base cards across BASE CARDS and BASE CARDS II, while the product overview says 300. Workbook entries govern this checklist. Original Hobby SKU, Breaker SKU and Value SKU odds headings are preserved. Exact release date is not verified.",
@@ -3341,6 +3540,16 @@
       "parallelData": true,
       "publishedOdds": true,
       "dataAudit": "Original player and rookie fields preserved. Multi-player card names include every printed continuation. Published odds retain original values and source headings; no teams inferred.",
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2026-topps-chrome-tennis-collector-cards-guide/",
+        "title": "2026 Topps Chrome Tennis Collector Guide",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "Presale began September 1, 2026, directly through Topps.com, with the full set arriving on September 30.",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "6579d2f4a3aafd3adc134b1551b3092ff8dd2b88a9aaa395b0e48c9ab510f099",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 688,
         "sections": 20,
@@ -3434,8 +3643,8 @@
       "page": "sets/topps-bowman-2026-topps-vault-marvel.html",
       "sourcePage": "https://www.topps.com/pages/topps-vault-marvel",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25MARV_Checklist_1.pdf?v=1785864090",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-09-23",
       "status": "Source table",
       "verified": "2026-10-12",
       "catalogEvidence": "All 377 numbered source rows are reconciled to physical Actor, Character, Relic / prop and Artist columns; repeated numbers for multiple signers are preserved. All 105 sketch-artist entries are reconciled to original PDF cell clipping boxes, including eight wrapped names. Counts are source entries, not unique cards or artists. All 74 published odds entries are imported. Exact release date is unverified.",
@@ -3451,6 +3660,16 @@
       "parallelData": true,
       "coverageComplete": true,
       "dedicatedParser": "scripts/import_marvel_2026.py",
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2026-topps-vault-marvel-collector-card-guide/",
+        "title": "2026 Topps Vault Marvel Collector Guide",
+        "observed": "2026-10-15",
+        "method": "Official page read in the in-app browser",
+        "statement": "Release Date: September 23, 2026",
+        "scope": "Manufacturer U.S. guide",
+        "sha256": "8bfc2822a9024d24665dbda9889b59317f3a119f05d5e086c2fd1e54f97de8ca",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 482,
         "sections": 23,
@@ -5476,8 +5695,8 @@
       "sport": "golf",
       "sourcePage": "https://upperdeck.com/checklist/2026-upper-deck-golf-checklist/",
       "checklistPublished": "2026-02-05",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-02-18",
       "year": "2026",
       "checklistUrl": "https://upperdeck.com/checklist/2026-upper-deck-golf-checklist/",
       "fetchError": "HTTP Error 403: Forbidden",
@@ -5492,6 +5711,16 @@
       "publishedOdds": true,
       "sections": 82,
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "verifiedRelease": {
+        "url": "https://upperdeck.com/upper-deck-highlights-golf-trading-cards-and-celebrates-25-years-of-history/",
+        "title": "Upper Deck highlights golf trading cards and celebrates 25 years of history",
+        "observed": "2026-10-15",
+        "method": "Official manufacturer press release web read",
+        "statement": "2026 Upper Deck Golf releases on February 18, 2026, at Certified Diamond dealers worldwide as well as mass retailers.",
+        "scope": "Worldwide dealers and mass retail",
+        "sha256": "3886f99cc60d20b052cc20c8399263ecbc608d54945daed29f77b95e74eac992",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 1990,
         "sections": 82,
@@ -5929,18 +6158,18 @@
       "coverageComplete": false,
       "releaseStatus": "Ongoing",
       "releaseDate": null,
-      "rowCount": 2103,
+      "rowCount": 2106,
       "rosterPublished": true,
       "backfillStart": "2026-01-01",
       "sections": 41,
       "parallelData": true,
       "publishedOdds": false,
-      "sha256": "77bfc19e5dfa37b8f5e1945bcd127d58289c522d4bbaf100e7bc3a693fac5dde",
-      "verified": "2026-10-14",
+      "sha256": "a9865dfbc282dc6ef41156c592e72bb74ba2e5808aaf97674634eca9b938523d",
+      "verified": "2026-10-15",
       "catalogEvidence": "Partial calendar-year archive: only entries with a verified official sale date on or after January 1, 2026 are included. Entries without a verified sale date remain pending. Official active products, individual product pages and captured pages of the Product Year 2026 archive supply the evidence. All 95 archive pages have been visited; individual entries and product details still require reconciliation, and some product pages return only a loading shell. Archive-only observations retain the printed number, subject and print run; dates and parallel terms appear only where verified on the product page. Non-numbered bundles and entertainment products need separate reconciliation. Product year and season labels do not establish a calendar-year release date. Blank print runs mean not published in the observed source. Print runs are not pack odds.",
       "dataAudit": "Each imported number, subject, date, print run and parallel is reconciled to retained official product text; duplicate archive listings merge by series and card number.",
       "presentation": {
-        "rows": 2103,
+        "rows": 2106,
         "sections": 41,
         "formats": 0,
         "specifications": true,
@@ -6553,18 +6782,18 @@
       "coverageComplete": false,
       "releaseStatus": "Ongoing",
       "releaseDate": null,
-      "rowCount": 734,
+      "rowCount": 737,
       "rosterPublished": true,
       "backfillStart": "2026-01-01",
       "sections": 1,
       "parallelData": true,
       "publishedOdds": false,
-      "sha256": "09f86f26e863c57390c8f3e3b53c245afedd29780097e3f25320bd3d38f2be97",
-      "verified": "2026-10-14",
+      "sha256": "3e155672b8c74929ea88659bc615edc4b4b345f7272a736ebadff7b31abd680b",
+      "verified": "2026-10-15",
       "catalogEvidence": "Partial calendar-year archive: only entries with a verified official sale date on or after January 1, 2026 are included. Entries without a verified sale date remain pending. Official active products, individual product pages and captured pages of the Product Year 2026 archive supply the evidence. All 95 archive pages have been visited; individual entries and product details still require reconciliation, and some product pages return only a loading shell. Archive-only observations retain the printed number, subject and print run; dates and parallel terms appear only where verified on the product page. Non-numbered bundles and entertainment products need separate reconciliation. Product year and season labels do not establish a calendar-year release date. Blank print runs mean not published in the observed source. Print runs are not pack odds.",
       "dataAudit": "Each imported number, subject, date, print run and parallel is reconciled to retained official product text; duplicate archive listings merge by series and card number.",
       "presentation": {
-        "rows": 734,
+        "rows": 737,
         "sections": 1,
         "formats": 0,
         "specifications": true,

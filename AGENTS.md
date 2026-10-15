@@ -10,6 +10,8 @@ For new sets and source updates, run `node scripts/verify_set_template.mjs`, `no
 
 # Checklist SEO
 
+Apply verified release-date statements from `data/release-dates.json` with `scripts/apply_release_dates.mjs` through the shared generator after import refreshes. Its normalized factual snapshots are hash-checked and retain official URLs, observed dates and market/format scope; they are not raw HTML hashes. Keep `data/release-date-audit.json` pending entries and conflicts explicit. Article publication, preorder starts, store Available From values, regional dates, product years and checklist availability must not become general release dates. Preserve the conflicting May 6 / May 13 Bowman Baseball guides until resolved. Current Museum Collection Baseball release evidence says November 11, not the older indexed October 7 candidate. Do not copy dates from regular releases to Sapphire, Mega or other variants. Run `node scripts/verify_release_dates.mjs` with the common checks.
+
 Keep metadata and crawlable checklist content in `templates/seo.mjs`, applied through the shared generator. `scripts/build_site.mjs` publishes the full catalog links and canonical checklist sitemap; `scripts/sync_domain_site.mjs` advertises it in domain-root robots.txt. Keep title/description/canonical/social metadata and JSON-LD unique and source-accurate. Preserve published content in static HTML, avoid invented rich-result claims or release dates, and run `node scripts/verify_seo.mjs` after every build.
 
 # Dedicated official imports

@@ -1,0 +1,329 @@
+{
+  "observed": "2026-10-15",
+  "note": "Factual snapshots of explicit official release statements, not raw HTML hashes. Product years, article dates, preorder starts and generic store availability are not substituted for release dates. Exact set variants remain separate.",
+  "sources": [
+    {
+      "url": "https://ripped.topps.com/2026-topps-chrome-baseball-checklist/",
+      "title": "2026 Topps Chrome Baseball Checklist Spotlight",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Release Date: July 22, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "6e4741dc09573647850e89bb4cf9b80914d55a396399d8ad80f51aaa65a86526"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-topps-series-2-baseball-checklist-spotlight/",
+      "title": "2026 Topps Series 2 Baseball Checklist Spotlight",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "RELEASE: JUNE 10, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "ac366e71ebbd5e7a6ac224aebe83c3ce4df11cc56e4cee2dc0711d7b996212c3"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-topps-chrome-marvel-comics-checklist/",
+      "title": "2026 Topps Chrome Marvel Comics Checklist Spotlight",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Release Date: July 1, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "1922f3f833a840c6779fe24c54829e200d1013fb5e0e748c475dde7fa23cc30a"
+    },
+    {
+      "url": "https://ripped.topps.com/2025-26-topps-chrome-updates-basketball-checklist/",
+      "title": "2025-26 Topps Chrome Updates Basketball Checklist Spotlight",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Release Date: August 6, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "6fc52496ceb53c1bc5cfab52625fa6587a1d83446058922a3d39acf20b56fb16"
+    },
+    {
+      "url": "https://ripped.topps.com/2025-26-bowman-basketball-checklist-spotlight/",
+      "title": "2025-26 Bowman Basketball Checklist Spotlight",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Release Date: April 23, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "ed30890c1eb19028ff06dcbdb57f86a887b4ad9bd80714041b0efaeb17fae760"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-topps-vault-marvel-collector-card-guide/",
+      "title": "2026 Topps Vault Marvel Collector Guide",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Release Date: September 23, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "8bfc2822a9024d24665dbda9889b59317f3a119f05d5e086c2fd1e54f97de8ca"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-topps-chrome-black-basketball-cards-collector-guide/",
+      "title": "2025-26 Topps Chrome Black Basketball Collector Guide",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Release Date: August 27, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "f34be2fcbda6c8391a75ba61f887ed48f457f4a9c9c1af761ea16739ce9195bc"
+    },
+    {
+      "url": "https://ripped.topps.com/2025-26-topps-finest-basketball-checklist/",
+      "title": "2025-26 Topps Finest Basketball Checklist Spotlight",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Release Date: February 26, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "c913945379f0d70b5946b5fa2891634295187f4b9d0a203c135aee445948a813"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-topps-chrome-wwe-checklist/",
+      "title": "2026 Topps Chrome WWE Checklist Spotlight",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Release Date: April 10, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "4d9df43af91df95749fb754a044bf0227c683fc9621514b3ed43554fe7ea39fe"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-topps-series-1-baseball-checklist/",
+      "title": "2026 Topps Series 1 Baseball Checklist Spotlight",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "RELEASE: FEBRUARY 11, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "a1ce838b7e1d6eee3f52ea9d055fc88b30f1688b4a35f44eb68d5290447e77a5"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-bowman-chrome-baseball-collector-guide/",
+      "title": "2026 Bowman Chrome Baseball Collector Guide",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Release Date: September 9, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "c86da2492553445e11f11d343cf24d0cab33b1d3eaa76c478d793984726c150e"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-topps-chrome-tennis-collector-cards-guide/",
+      "title": "2026 Topps Chrome Tennis Collector Guide",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Presale began September 1, 2026, directly through Topps.com, with the full set arriving on September 30.",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "6579d2f4a3aafd3adc134b1551b3092ff8dd2b88a9aaa395b0e48c9ab510f099"
+    },
+    {
+      "url": "https://upperdeck.com/upper-deck-highlights-golf-trading-cards-and-celebrates-25-years-of-history/",
+      "title": "Upper Deck highlights golf trading cards and celebrates 25 years of history",
+      "observed": "2026-10-15",
+      "method": "Official manufacturer press release web read",
+      "statement": "2026 Upper Deck Golf releases on February 18, 2026, at Certified Diamond dealers worldwide as well as mass retailers.",
+      "scope": "Worldwide dealers and mass retail",
+      "sha256": "3886f99cc60d20b052cc20c8399263ecbc608d54945daed29f77b95e74eac992"
+    },
+    {
+      "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+      "title": "2026 Topps Chrome x Jennie",
+      "observed": "2026-10-15",
+      "method": "Official product-page web read; explicit release date inside preorder terms",
+      "statement": "product release date, October 20, 2026",
+      "scope": "United States product release",
+      "sha256": "b3b30c180e1f274c2c4d75ce99b020e8de7d390a631de5babf352f7bad4b5892"
+    },
+    {
+      "url": "https://www.topps.com/products/2026-topps-museum-collection-baseball-hobby-box",
+      "title": "2026 Topps Museum Collection Baseball - Hobby Box",
+      "observed": "2026-10-15",
+      "method": "Official product-page web read; current date corroborated by live U.S. release calendar",
+      "statement": "product release date, November 11, 2026",
+      "scope": "United States Hobby release",
+      "sha256": "38f95b60ee6a046acb683521183eb6fc9e8e10c047a5c50bea614575579fbe74"
+    },
+    {
+      "url": "https://www.topps.com/release-calendar",
+      "title": "2026 Topps Cosmic Chrome Baseball",
+      "observed": "2026-10-15",
+      "method": "Actual U.S. release-calendar web and browser reads; unmarked release spotlight, not a preorder event",
+      "statement": "Wednesday, Nov 4 2026 Topps Cosmic Chrome Baseball",
+      "scope": "United States release calendar; dates subject to change",
+      "sha256": "81a2612ae862233021235b7c7f17bd436d6e4fecb8b26645d39592771d4bdfa6"
+    },
+    {
+      "url": "https://www.topps.com/release-calendar",
+      "title": "2026 Topps Inception Football",
+      "observed": "2026-10-15",
+      "method": "Actual U.S. release-calendar web and browser reads; unmarked release spotlight, not a preorder event",
+      "statement": "Friday, Nov 6 2026 Topps Inception Football",
+      "scope": "United States release calendar; dates subject to change",
+      "sha256": "ea999a97a43240b3347dd7905201ac5afc48f197c8da466abdab6ba6ef8ba6aa"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-topps-football-boxes-hobby-jumbo-retail-guide/",
+      "title": "2026 Topps Flagship Football Box Guide",
+      "observed": "2026-10-15",
+      "method": "Actual official in-app browser read",
+      "statement": "Scheduled release date: August 21, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "21e4cffb48950b815ca91b2a85f6d1fb2b1e5d2f7457d50104487163a785e6b1"
+    }
+  ],
+  "dates": [
+    {
+      "slug": "topps-bowman-2026-topps-chrome-baseball",
+      "releaseDate": "2026-07-22",
+      "releaseStatus": "Released",
+      "source": 0
+    },
+    {
+      "slug": "topps-bowman-2026-topps-series-2-baseball",
+      "releaseDate": "2026-06-10",
+      "releaseStatus": "Released",
+      "source": 1
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-marvel-comics",
+      "releaseDate": "2026-07-01",
+      "releaseStatus": "Released",
+      "source": 2
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-chrome-updates-basketball",
+      "releaseDate": "2026-08-06",
+      "releaseStatus": "Released",
+      "source": 3
+    },
+    {
+      "slug": "topps-bowman-2025-26-bowman-basketball",
+      "releaseDate": "2026-04-23",
+      "releaseStatus": "Released",
+      "source": 4
+    },
+    {
+      "slug": "topps-bowman-2026-topps-vault-marvel",
+      "releaseDate": "2026-09-23",
+      "releaseStatus": "Released",
+      "source": 5
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-black-basketball",
+      "releaseDate": "2026-08-27",
+      "releaseStatus": "Released",
+      "source": 6
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-finest-basketball",
+      "releaseDate": "2026-02-26",
+      "releaseStatus": "Released",
+      "source": 7
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-wwe",
+      "releaseDate": "2026-04-10",
+      "releaseStatus": "Released",
+      "source": 8
+    },
+    {
+      "slug": "topps-bowman-2026-topps-series-1-baseball",
+      "releaseDate": "2026-02-11",
+      "releaseStatus": "Released",
+      "source": 9
+    },
+    {
+      "slug": "topps-bowman-2026-bowman-chrome-baseball",
+      "releaseDate": "2026-09-09",
+      "releaseStatus": "Released",
+      "source": 10
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-tennis",
+      "releaseDate": "2026-09-30",
+      "releaseStatus": "Released",
+      "source": 11
+    },
+    {
+      "slug": "upper-deck-2026-upper-deck-golf",
+      "releaseDate": "2026-02-18",
+      "releaseStatus": "Released",
+      "source": 12
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-x-jennie",
+      "releaseDate": "2026-10-20",
+      "releaseStatus": "Upcoming",
+      "source": 13
+    },
+    {
+      "slug": "topps-bowman-2026-topps-museum-collection-baseball",
+      "releaseDate": "2026-11-11",
+      "releaseStatus": "Upcoming",
+      "source": 14
+    },
+    {
+      "slug": "topps-bowman-2026-topps-cosmic-chrome-baseball",
+      "releaseDate": "2026-11-04",
+      "releaseStatus": "Upcoming",
+      "source": 15
+    },
+    {
+      "slug": "topps-bowman-2026-topps-inception-football",
+      "releaseDate": "2026-11-06",
+      "releaseStatus": "Upcoming",
+      "source": 16
+    },
+    {
+      "slug": "topps-bowman-2026-topps-flagship-football",
+      "releaseDate": "2026-08-21",
+      "releaseStatus": "Released",
+      "source": 17
+    }
+  ],
+  "unresolved": [
+    {
+      "slug": "topps-bowman-2026-bowman-baseball",
+      "gap": "Current official guides conflict: May 6 versus May 13, 2026. No release date selected.",
+      "sources": [
+        {
+          "url": "https://ripped.topps.com/2026-bowman-baseball-checklist/",
+          "statement": "Release date: May 6, 2026",
+          "method": "Actual official browser read"
+        },
+        {
+          "url": "https://ripped.topps.com/2026-bowman-baseball-prospect-cards-collect/",
+          "statement": "Release Date May 13, 2026",
+          "method": "Actual official browser read"
+        }
+      ]
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection",
+      "gap": "Indexed guide supplies a candidate date, but the actual official page returns Page not found. Candidate is not imported.",
+      "sources": [
+        {
+          "url": "https://ripped.topps.com/2026-topps-chrome-baseball-team-samurai-japan-collection-guide/",
+          "statement": "Page not found",
+          "method": "Actual official browser read"
+        }
+      ]
+    },
+    {
+      "slug": "topps-bowman-2026-topps-update-series-baseball",
+      "gap": "Current product page publishes Available From October 14, 2026, but its explicit release-date preorder statement is no longer visible. Retain as store availability pending stronger release evidence.",
+      "sources": [
+        {
+          "url": "https://www.topps.com/products/2026-topps-update-series-baseball-jumbo-box",
+          "statement": "Available From | Oct 14, 2026",
+          "method": "Actual official web read"
+        }
+      ]
+    },
+    {
+      "slug": "topps-bowman-2026-topps-allen-ginter-baseball",
+      "gap": "Current product page publishes Available From October 7, 2026, but its explicit release-date preorder statement is no longer visible. Retain as store availability pending stronger release evidence.",
+      "sources": [
+        {
+          "url": "https://www.topps.com/products/2026-topps-allen-ginter-baseball-hobby-box",
+          "statement": "Available From | Oct 7, 2026",
+          "method": "Actual official web read"
+        }
+      ]
+    }
+  ]
+}
