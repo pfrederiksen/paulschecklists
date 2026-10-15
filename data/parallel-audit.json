@@ -4983,6 +4983,50 @@
           "evidenceSha256": "6067fc656ffc47092e814a315ae15d2a8bf37ec5a9905a07080762e743a2b891"
         }
       ]
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-football",
+      "title": "2026 Topps Chrome Football",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/topps-chrome-football",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-chrome-football",
+          "family": "Outstanding source reconciliation",
+          "gap": "October 16 is an FDI preorder, not a verified calendar release date. No 2026 Chrome Football odds link appears on the current product page or global odds catalog. No serial-number ladder was published in the checked page; 2025 color limits are not reused.",
+          "source": "https://www.topps.com/pages/topps-chrome-football",
+          "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
+          "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
+        }
+      ]
+    },
+    {
+      "slug": "topps-bowman-2026-garbage-pail-kids-halloween",
+      "title": "2026 Garbage Pail Kids Halloween",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/garbage-pail-kids-halloween",
+      "oddsCategories": 12,
+      "numberedOddsCategories": 5,
+      "supplementalSpecifications": 5,
+      "structuredNumbering": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-garbage-pail-kids-halloween",
+          "family": "Outstanding source reconciliation",
+          "gap": "Wrapper summary prints 25 Subjects / All above subjects without a separately numbered roster; no identities or eligibility are inferred. Final Artwork Redemption is an odds category without a separately numbered checklist roster. Rainbow Foil is the wrapper parallel, with no published limit; no base Rainbow Foil or color-based limits on inserts/autographs are inferred. 1/1 Sketches describes unique artwork, not serial numbering for artist roster entries. The complete named parallel inventory beyond the checked published rows remains under review.",
+          "source": "https://www.topps.com/pages/garbage-pail-kids-halloween",
+          "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
+          "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
+        }
+      ]
     }
   ]
 }

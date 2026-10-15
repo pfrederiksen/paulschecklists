@@ -1,0 +1,56 @@
+{
+  "observed": "2026-10-15",
+  "topps-bowman-2026-topps-chrome-football": {
+    "title": "2026 Topps Chrome Football",
+    "sport": "football",
+    "source": "https://www.topps.com/pages/topps-chrome-football",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792077449",
+    "sha256": "a7991e92ea751031ec29b51c27d7d2156fe09db1b13ceb25d3c8644c50ec35d5",
+    "method": "Official product page read in the in-app browser and linked PDF downloaded",
+    "preorder": "FDI will be available for dutch auction pre-order October 16 at 12pm ET",
+    "boxContents": [
+      [
+        "Cards per pack",
+        "11"
+      ],
+      [
+        "Packs per box",
+        "12"
+      ],
+      [
+        "Autographs per box",
+        "3"
+      ],
+      [
+        "Parallels per box",
+        "4"
+      ]
+    ],
+    "remainingGaps": [
+      "October 16 is an FDI preorder, not a verified calendar release date.",
+      "No 2026 Chrome Football odds link appears on the current product page or global odds catalog.",
+      "No serial-number ladder was published in the checked page; 2025 color limits are not reused."
+    ]
+  },
+  "topps-bowman-2026-garbage-pail-kids-halloween": {
+    "title": "2026 Garbage Pail Kids Halloween",
+    "sport": "entertainment",
+    "source": "https://www.topps.com/pages/garbage-pail-kids-halloween",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26GPK_Halloween_Checklist.pdf?v=1792021294",
+    "sha256": "4502f08f35c9acc68103620917f75e7c55227c12bb94a11af08947c095232831",
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-10-14_GPK-Halloween-2026_Odds.pdf?v=1792071104",
+    "oddsSha256": "7a9e1f5fea82af1909a52c65884e4a5cb76d148a48417580d1f6956fdbc61748",
+    "method": "Official product page and RIPPED design guide read in the in-app browser; linked checklist and odds PDFs downloaded",
+    "guide": "https://ripped.topps.com/2026-garbage-pail-kids-halloween-design/",
+    "releaseStatement": "Release Date: October 22, 2026",
+    "productAvailability": "Available October 22 at 12pm ET",
+    "oddsHeading": "SINGLE BOX",
+    "remainingGaps": [
+      "Wrapper summary prints 25 Subjects / All above subjects without a separately numbered roster; no identities or eligibility are inferred.",
+      "Final Artwork Redemption is an odds category without a separately numbered checklist roster.",
+      "Rainbow Foil is the wrapper parallel, with no published limit; no base Rainbow Foil or color-based limits on inserts/autographs are inferred.",
+      "1/1 Sketches describes unique artwork, not serial numbering for artist roster entries.",
+      "The complete named parallel inventory beyond the checked published rows remains under review."
+    ]
+  }
+}

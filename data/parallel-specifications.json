@@ -6249,6 +6249,58 @@
         "evidenceFile": "data/parallel-audit-sources/vault-disney-2026-20261015.json",
         "evidenceSha256": "6067fc656ffc47092e814a315ae15d2a8bf37ec5a9905a07080762e743a2b891"
       }
+    ],
+    "topps-bowman-2026-garbage-pail-kids-halloween": [
+      {
+        "family": "Base",
+        "name": "Gold Slime",
+        "numbering": "/50",
+        "oddsName": "BASE CARDS GOLD FOIL PARALLEL",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26GPK_Halloween_Checklist.pdf?v=1792021294",
+        "qualification": "Base subjects only. Checklist Slime wording and the corresponding base Foil odds name are retained; no other family receives this limit.",
+        "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
+        "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
+      },
+      {
+        "family": "Base",
+        "name": "Orange Slime",
+        "numbering": "/25",
+        "oddsName": "BASE CARDS ORANGE FOIL PARALLEL",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26GPK_Halloween_Checklist.pdf?v=1792021294",
+        "qualification": "Base subjects only. Checklist Slime wording and the corresponding base Foil odds name are retained; no other family receives this limit.",
+        "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
+        "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
+      },
+      {
+        "family": "Base",
+        "name": "Black Slime",
+        "numbering": "/10",
+        "oddsName": "BASE CARDS BLACK FOIL PARALLEL",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26GPK_Halloween_Checklist.pdf?v=1792021294",
+        "qualification": "Base subjects only. Checklist Slime wording and the corresponding base Foil odds name are retained; no other family receives this limit.",
+        "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
+        "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
+      },
+      {
+        "family": "Base",
+        "name": "Red Slime",
+        "numbering": "/5",
+        "oddsName": "BASE CARDS RED FOIL PARALLEL",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26GPK_Halloween_Checklist.pdf?v=1792021294",
+        "qualification": "Base subjects only. Checklist Slime wording and the corresponding base Foil odds name are retained; no other family receives this limit.",
+        "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
+        "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
+      },
+      {
+        "family": "Base",
+        "name": "Foil Fractor",
+        "numbering": "/1",
+        "oddsName": "BASE CARDS FOILFRACTOR PARALLEL",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26GPK_Halloween_Checklist.pdf?v=1792021294",
+        "qualification": "Base subjects only. Checklist Slime wording and the corresponding base Foil odds name are retained; no other family receives this limit.",
+        "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
+        "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
+      }
     ]
   },
   "conflicts": [
@@ -6421,6 +6473,22 @@
       "source": "https://ripped.topps.com/2026-topps-vault-disney-collector-cards-guide/",
       "evidenceFile": "data/parallel-audit-sources/vault-disney-2026-20261015.json",
       "evidenceSha256": "6067fc656ffc47092e814a315ae15d2a8bf37ec5a9905a07080762e743a2b891"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-football",
+      "family": "Outstanding source reconciliation",
+      "gap": "October 16 is an FDI preorder, not a verified calendar release date. No 2026 Chrome Football odds link appears on the current product page or global odds catalog. No serial-number ladder was published in the checked page; 2025 color limits are not reused.",
+      "source": "https://www.topps.com/pages/topps-chrome-football",
+      "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
+      "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
+    },
+    {
+      "slug": "topps-bowman-2026-garbage-pail-kids-halloween",
+      "family": "Outstanding source reconciliation",
+      "gap": "Wrapper summary prints 25 Subjects / All above subjects without a separately numbered roster; no identities or eligibility are inferred. Final Artwork Redemption is an odds category without a separately numbered checklist roster. Rainbow Foil is the wrapper parallel, with no published limit; no base Rainbow Foil or color-based limits on inserts/autographs are inferred. 1/1 Sketches describes unique artwork, not serial numbering for artist roster entries. The complete named parallel inventory beyond the checked published rows remains under review.",
+      "source": "https://www.topps.com/pages/garbage-pail-kids-halloween",
+      "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
+      "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
     }
   ]
 }

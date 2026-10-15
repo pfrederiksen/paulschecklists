@@ -208,6 +208,15 @@
       "statement": "Wednesday, Oct 21 at 11:00 AM PDT 2026 Topps Vault Disney",
       "scope": "U.S. release calendar; event is not marked Pre-order; scheduled dates subject to change",
       "sha256": "00f4ead1ec995a2d7dacbb9410801cd2dd1a1f0d6e9cc1f457b25e9401e284a3"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-garbage-pail-kids-halloween-design/",
+      "title": "Behind the Design of 2026 Garbage Pail Kids Halloween",
+      "observed": "2026-10-15",
+      "method": "Actual official guide read in the in-app browser",
+      "statement": "Release Date: October 22, 2026",
+      "scope": "Manufacturer U.S. guide; scheduled release subject to change",
+      "sha256": "dc43c18c13bc5f9ca3677cac8a5fad700b2ad6e5e8a5304e78734e37a3ddf80f"
     }
   ],
   "dates": [
@@ -348,6 +357,12 @@
       "releaseDate": "2026-10-21",
       "releaseStatus": "Upcoming",
       "source": 22
+    },
+    {
+      "slug": "topps-bowman-2026-garbage-pail-kids-halloween",
+      "releaseDate": "2026-10-22",
+      "releaseStatus": "Upcoming",
+      "source": 23
     }
   ],
   "unresolved": [

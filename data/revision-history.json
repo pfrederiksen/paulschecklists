@@ -11770,5 +11770,61 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-chrome-football": {
+    "state": {
+      "checklistHash": "a7991e92ea751031ec29b51c27d7d2156fe09db1b13ceb25d3c8644c50ec35d5",
+      "oddsHash": null,
+      "rows": 2382,
+      "odds": 0,
+      "specificationRows": 4
+    },
+    "fingerprint": "8f131c9fed80eb9257a2aad71c453cd5abcbe10b849e0b2cebd191c5884b4880",
+    "events": [
+      {
+        "at": "2026-10-15T20:33:38.836Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792077449",
+        "snapshot": {
+          "checklistHash": "a7991e92ea751031ec29b51c27d7d2156fe09db1b13ceb25d3c8644c50ec35d5",
+          "oddsHash": null,
+          "rows": 2382,
+          "odds": 0,
+          "specificationRows": 4
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-garbage-pail-kids-halloween": {
+    "state": {
+      "checklistHash": "4502f08f35c9acc68103620917f75e7c55227c12bb94a11af08947c095232831",
+      "oddsHash": "7a9e1f5fea82af1909a52c65884e4a5cb76d148a48417580d1f6956fdbc61748",
+      "rows": 158,
+      "odds": 12,
+      "specificationRows": 13,
+      "specificationHash": "3e5d378627baf1ab2478301d2b36a8568a1fa5e1f6667afcd8b713603e210391"
+    },
+    "fingerprint": "d0a5e66cb9bc8280abf1d8f8f046ea1b751acd38bb7b469a5cbd5a4c9e2e1c51",
+    "events": [
+      {
+        "at": "2026-10-15T20:33:38.836Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26GPK_Halloween_Checklist.pdf?v=1792021294",
+        "snapshot": {
+          "checklistHash": "4502f08f35c9acc68103620917f75e7c55227c12bb94a11af08947c095232831",
+          "oddsHash": "7a9e1f5fea82af1909a52c65884e4a5cb76d148a48417580d1f6956fdbc61748",
+          "rows": 158,
+          "odds": 12,
+          "specificationRows": 13,
+          "specificationHash": "3e5d378627baf1ab2478301d2b36a8568a1fa5e1f6667afcd8b713603e210391"
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

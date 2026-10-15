@@ -2611,6 +2611,21 @@
       "releaseDate": "2026-10-21",
       "status": "Explicit official release statement verified",
       "source": "https://www.topps.com/release-calendar"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-football",
+      "title": "2026 Topps Chrome Football",
+      "manufacturer": "Topps / Bowman",
+      "releaseDate": null,
+      "status": "Exact release-date research pending"
+    },
+    {
+      "slug": "topps-bowman-2026-garbage-pail-kids-halloween",
+      "title": "2026 Garbage Pail Kids Halloween",
+      "manufacturer": "Topps / Bowman",
+      "releaseDate": "2026-10-22",
+      "status": "Explicit official release statement verified",
+      "source": "https://ripped.topps.com/2026-garbage-pail-kids-halloween-design/"
     }
   ]
 }
