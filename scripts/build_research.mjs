@@ -21,7 +21,7 @@ for(const set of catalog.sets){
  const rows=featured?sections.flatMap(s=>s.cards.flatMap(c=>c.subjects.map(p=>[p.name,c.number,s.name]))):data?.rows??[];
  let ni=featured?0:(data?.headers??[]).findIndex(h=>/name|player|subject|description|decription/i.test(h));if(ni<0)ni=1;
  const names=[...new Set(rows.map(r=>String(r[ni]??'')).filter(Boolean))];if(names.length&&set.rosterPublished!==false)index.push({title:set.title,page:set.page,sport:set.sport,names});
- const state={checklistHash:data?.sha256??null,oddsHash:data?.oddsSha256??null,rows:featured?sections.reduce((n,s)=>n+s.cards.length,0):data?.rows?.length??0,odds:entries.filter(e=>!e.specificationOnly).length,specificationRows:specs.reduce((n,s)=>n+s.rows.length,0)};
+ const state={checklistHash:data?.checklistFingerprint??data?.sha256??null,oddsHash:data?.oddsSha256??null,rows:featured?sections.reduce((n,s)=>n+s.cards.length,0):data?.rows?.length??0,odds:entries.filter(e=>!e.specificationOnly).length,specificationRows:specs.reduce((n,s)=>n+s.rows.length,0)};
  if(data?.parallelSpecifications?.length)state.specificationHash=createHash('sha256').update(JSON.stringify(data.parallelSpecifications)).digest('hex');
  history[set.slug]=recordRevision(history[set.slug],state,set.checklistUrl,new Date().toISOString());
  const value={title:set.title,formats,entries,specs,history:history[set.slug].events};research.set(set.slug,value);await writeFile(`data/research/${set.slug}.json`,JSON.stringify(value));

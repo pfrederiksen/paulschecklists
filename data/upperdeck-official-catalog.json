@@ -730,5 +730,23 @@
     "year": "2025-26",
     "checklistUrl": "https://upperdeck.com/checklist/2025-26-nhl-new-york-rangers-centennial-checklist/",
     "fetchError": "HTTP Error 403: Forbidden"
+  },
+  {
+    "title": "2025-26 Stature",
+    "manufacturer": "Upper Deck",
+    "sport": "hockey",
+    "year": "2025-26",
+    "sourcePage": "https://upperdeck.com/checklist/2025-26-stature-checklist/",
+    "checklistUrl": "https://upperdeck.com/checklist/2025-26-stature-checklist/",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "slug": "upper-deck-2025-26-stature",
+    "page": "sets/upper-deck-2025-26-stature.html",
+    "verified": "2026-10-14",
+    "status": "Official source",
+    "catalogEvidence": "Listed in the manufacturer’s current checklist directory. Product year is printed in the checklist title; an exact calendar release date is not verified.",
+    "discoverySource": "https://upperdeck.com/checklists/",
+    "discoverySha256": "8e010f4130ecc5c4d930a2b4e128b2bfa088c7e7d89871458ee1073a956db5cb",
+    "checklistPublished": "2026-10-14"
   }
 ]

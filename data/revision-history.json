@@ -10121,5 +10121,950 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "upper-deck-2025-26-stature": {
+    "state": {
+      "checklistHash": "f5c6af3700967f30eb3b0d63e9c44aec1bf5cbcbece0752c07ae1661440d7cf0",
+      "oddsHash": null,
+      "rows": 2335,
+      "odds": 205,
+      "specificationRows": 2193
+    },
+    "fingerprint": "2406e6c66962e3cb4a51dd014c3e9523bd35462221ce92a767a2f1c12b8b7eaf",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.499Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://upperdeck.com/checklist/2025-26-stature-checklist/",
+        "snapshot": {
+          "checklistHash": "f5c6af3700967f30eb3b0d63e9c44aec1bf5cbcbece0752c07ae1661440d7cf0",
+          "oddsHash": null,
+          "rows": 2335,
+          "odds": 205,
+          "specificationRows": 2193
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2025-leaf-eclectic-signature-series-joe-montana-celebration": {
+    "state": {
+      "checklistHash": "04b696a44d2463da23ad9c5e48b7ea3d3c8ef2ad0a468a9cc4c0940fc5c2ff72",
+      "oddsHash": null,
+      "rows": 71,
+      "odds": 0,
+      "specificationRows": 71
+    },
+    "fingerprint": "5463b6169bfb700fc11087f51af4da5ec7aac260d72e0487dc7255e98aef0b45",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.500Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTaSchNPJPtveCR5gAGfV683mdG8do38cdWc5Ycddq0P-QafeS9yMtQEBjYfDgO-w/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "04b696a44d2463da23ad9c5e48b7ea3d3c8ef2ad0a468a9cc4c0940fc5c2ff72",
+          "oddsHash": null,
+          "rows": 71,
+          "odds": 0,
+          "specificationRows": 71
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2025-leaf-glory-of-the-game-basketball": {
+    "state": {
+      "checklistHash": "3d32114fa2becce7b3216dbec53ebd322264edc90dbf954547649de0ba42be6d",
+      "oddsHash": null,
+      "rows": 478,
+      "odds": 0,
+      "specificationRows": 478
+    },
+    "fingerprint": "080d52cf62e4a849f3b0406fe9a72271e3a2b651226f99b73684b14a5eaf7ed5",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.504Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRRCxJ3abLkopf5cXiJ8ZbG0R4EATGmkegBfJGqCS36gAOBpCqKPu4t4IzILwL0qQ/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "3d32114fa2becce7b3216dbec53ebd322264edc90dbf954547649de0ba42be6d",
+          "oddsHash": null,
+          "rows": 478,
+          "odds": 0,
+          "specificationRows": 478
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-anime-nation-ova": {
+    "state": {
+      "checklistHash": "72519c5105dcf5081c4421810e9adae2e04e7b5001a16621e822550c3cb58bfe",
+      "oddsHash": null,
+      "rows": 16,
+      "odds": 0,
+      "specificationRows": 16
+    },
+    "fingerprint": "1a6eee6269fae1f291ff20b4c5370f2ff9d552ca9bbb206b0e6f7cb85756cc3d",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.504Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJVhFq_4dY97Uh1Ru2YQ1bLhyGRj5Gixh9KGJqLb6jAM6lKHrBLvDOfkqsvEbqJw/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "72519c5105dcf5081c4421810e9adae2e04e7b5001a16621e822550c3cb58bfe",
+          "oddsHash": null,
+          "rows": 16,
+          "odds": 0,
+          "specificationRows": 16
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-art-of-sport": {
+    "state": {
+      "checklistHash": "e75b063d3bac8691b4f96195602d259c3d4c78d721e8ebea8d6b2f28c557664e",
+      "oddsHash": null,
+      "rows": 528,
+      "odds": 0,
+      "specificationRows": 528
+    },
+    "fingerprint": "8b6f5ef8482c7e6916954df6e65a03eb965057f2e012349f44b6664e8778526f",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.507Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTTkbp8meeuSot2JDY2scCHj1WKIzapnSPMI1znO2dZvNbmRufR-K_aSqJ5p4EmvQ/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "e75b063d3bac8691b4f96195602d259c3d4c78d721e8ebea8d6b2f28c557664e",
+          "oddsHash": null,
+          "rows": 528,
+          "odds": 0,
+          "specificationRows": 528
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-autograph-collection-football": {
+    "state": {
+      "checklistHash": "2b95a80ea30652a13f6e90db670691513315177930210193b79f211f9f9afb5c",
+      "oddsHash": null,
+      "rows": 3392,
+      "odds": 0,
+      "specificationRows": 3392
+    },
+    "fingerprint": "254372dd6568675125fc601dadfe9135fff8539c1405274f42d107c2d787c794",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.522Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-woytWziDCo7bXitvV4BwBlCPREIZPvWjpFfDR9ls0FdcPi465mjMeb-duSLWqw/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "2b95a80ea30652a13f6e90db670691513315177930210193b79f211f9f9afb5c",
+          "oddsHash": null,
+          "rows": 3392,
+          "odds": 0,
+          "specificationRows": 3392
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-baseball-nation": {
+    "state": {
+      "checklistHash": "7adc186772264cc9e05c81aafa0bbfa75369242248bd3aee31017ba07e580e09",
+      "oddsHash": null,
+      "rows": 3563,
+      "odds": 0,
+      "specificationRows": 3563
+    },
+    "fingerprint": "63582063e65270679514fbe02d87c63648aa0be9d72989c6185e2313182cf29e",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.535Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSPk3Mea2Qxs-DA1zmEBG0B97VyWIBOyFJRbIBkkAZeUOAOFTVAJ2OFgBFfj_izw/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "7adc186772264cc9e05c81aafa0bbfa75369242248bd3aee31017ba07e580e09",
+          "oddsHash": null,
+          "rows": 3563,
+          "odds": 0,
+          "specificationRows": 3563
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-bonus-pack": {
+    "state": {
+      "checklistHash": "3419132c22932780b685ac089f61be950e43092a2c90bd87765ebe5a4ecac07a",
+      "oddsHash": null,
+      "rows": 191,
+      "odds": 0,
+      "specificationRows": 191
+    },
+    "fingerprint": "eafafb0e4f4b438d4a931b1c8585b26abecb42c56f8bb7d37dac4fbb1d4231d4",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.539Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9AsMbzjcH2SOEYMaOOy0IHz6tclQ5KltUYu1hvsjQOMwS3evglFnQQlkqSBsD9g/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "3419132c22932780b685ac089f61be950e43092a2c90bd87765ebe5a4ecac07a",
+          "oddsHash": null,
+          "rows": 191,
+          "odds": 0,
+          "specificationRows": 191
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-city-of-champions": {
+    "state": {
+      "checklistHash": "211f16b4a2c622a23c8946c095b70e8c2496c943eacfcb8d8a6ec60678c26260",
+      "oddsHash": null,
+      "rows": 696,
+      "odds": 0,
+      "specificationRows": 696
+    },
+    "fingerprint": "42d23f9df0c3fdcbb04d3332cfa125d131672e953cd773a0177d2575eed31826",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.543Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2B7hqmxD-OsDjvg8qtgE1zG01sLtyvmtUsaILa4xNkFnqZSSbDi-LQBEE5LlnSg/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "211f16b4a2c622a23c8946c095b70e8c2496c943eacfcb8d8a6ec60678c26260",
+          "oddsHash": null,
+          "rows": 696,
+          "odds": 0,
+          "specificationRows": 696
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-decadence-multi-sport": {
+    "state": {
+      "checklistHash": "38bd50c5a2838142c146c9eb2707d9547582c680bcc1a047780edde6673f5e4a",
+      "oddsHash": null,
+      "rows": 303,
+      "odds": 0,
+      "specificationRows": 303
+    },
+    "fingerprint": "e7484cdc15bf74c23e8e3ad8643ba282b5ddb04d7016e9b9eb8b693d8789a0cb",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.545Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0B4o0z_hTQGh3UEgPIrCWSjC7HN8rOSq1XiHIIyDQ65ZNNHA0SHLUA0VopSZ4Xw/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "38bd50c5a2838142c146c9eb2707d9547582c680bcc1a047780edde6673f5e4a",
+          "oddsHash": null,
+          "rows": 303,
+          "odds": 0,
+          "specificationRows": 303
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-electrum-baseball": {
+    "state": {
+      "checklistHash": "95cf032440c3668a5d9dda8240594a5a147353ad7b550d77c29d8ad1574ce7c9",
+      "oddsHash": null,
+      "rows": 951,
+      "odds": 0,
+      "specificationRows": 951
+    },
+    "fingerprint": "70ba55869aa13bae49a825711dfbca72cd38e9d5ad571b2ede46843b429a24b8",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.551Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFRKuyzpftuTY9gFV02g47hsBlvewnn1KmFgjl0Z2xIG1CP6vcMIXTt6OxGjlCtw/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "95cf032440c3668a5d9dda8240594a5a147353ad7b550d77c29d8ad1574ce7c9",
+          "oddsHash": null,
+          "rows": 951,
+          "odds": 0,
+          "specificationRows": 951
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-football": {
+    "state": {
+      "checklistHash": "df5dd5aee0cc1e4742a3983db182fc45264a810a64407734fad800c1f46a01fd",
+      "oddsHash": null,
+      "rows": 700,
+      "odds": 0,
+      "specificationRows": 700
+    },
+    "fingerprint": "8a38f3dada27dfe1a0ba3f0e17fefd5f35d8f488cadca0a40ecdf132640db017",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.554Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQqM5EvHr-A8ouZwQer17W2_SveCfVB51gvWtzjCHRA-Hdl0hUaImCd8QqqaIZm9A/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "df5dd5aee0cc1e4742a3983db182fc45264a810a64407734fad800c1f46a01fd",
+          "oddsHash": null,
+          "rows": 700,
+          "odds": 0,
+          "specificationRows": 700
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-glory-of-the-game-soccer": {
+    "state": {
+      "checklistHash": "3e25093ebda9b0714696af4ed94a25aa6cb7bf8eab13c6d707a9960750ae9b10",
+      "oddsHash": null,
+      "rows": 801,
+      "odds": 0,
+      "specificationRows": 801
+    },
+    "fingerprint": "9f373ea5b73559d2b6a23986c1db6fe988417ec33e8db7f1d490acc3b9fe71eb",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.558Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFtTI1rwMDbwmCXmdxMIJ3POkagvzEkowkTfDcdNYTXPVOjejaZSxO1pRROLcCAg/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "3e25093ebda9b0714696af4ed94a25aa6cb7bf8eab13c6d707a9960750ae9b10",
+          "oddsHash": null,
+          "rows": 801,
+          "odds": 0,
+          "specificationRows": 801
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-magnificence-multi-sport": {
+    "state": {
+      "checklistHash": "dcfcccfaa9f4e9ce26ee216a3e56406bac493048e59ca8b784e3063fd133406f",
+      "oddsHash": null,
+      "rows": 365,
+      "odds": 0,
+      "specificationRows": 365
+    },
+    "fingerprint": "f137da5b47c2510228cdf40915b359c3e91e277bcfb8c38878c4cfb27bfa1570",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.561Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTKZk6qr4d2cgAL0GK0Apn7kA1IMosSrEVr0UHljB_wb-6VehBjoJ018Jd-IAZUdg/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "dcfcccfaa9f4e9ce26ee216a3e56406bac493048e59ca8b784e3063fd133406f",
+          "oddsHash": null,
+          "rows": 365,
+          "odds": 0,
+          "specificationRows": 365
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-m-lange": {
+    "state": {
+      "checklistHash": "4fd16dc07f5d4077c26d34d04084b6f3e82ac4b5072b60f8e421fb86bb7c00a1",
+      "oddsHash": null,
+      "rows": 1345,
+      "odds": 0,
+      "specificationRows": 1345
+    },
+    "fingerprint": "648fafe12b990fadb1346df1ad3e89f93f7eaa67c4b0a7f1ed6352b19f125c7c",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.566Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8d0yWlmJt4GS8MfjYzZBg8daNGaRydeQskO9DSDXjKQ1RFje1C-DJtGPoZQl-Zg/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "4fd16dc07f5d4077c26d34d04084b6f3e82ac4b5072b60f8e421fb86bb7c00a1",
+          "oddsHash": null,
+          "rows": 1345,
+          "odds": 0,
+          "specificationRows": 1345
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-baseball": {
+    "state": {
+      "checklistHash": "57ba310e3211e345fa5c2aa589aa751eb3bb7c53806fe12480199ed78a4fd4c9",
+      "oddsHash": null,
+      "rows": 7949,
+      "odds": 0,
+      "specificationRows": 7949
+    },
+    "fingerprint": "bb9faf9edfdbb57e73bdebeda9aa4464d0a18cc0074f34d931e05509cfd2e088",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.599Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQtUQSY-jIHFA0dOg6fk9dlaA-K5D-nit8_ZIfH02xltz3mS5y3NWtEgJ4swUzlJw/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "57ba310e3211e345fa5c2aa589aa751eb3bb7c53806fe12480199ed78a4fd4c9",
+          "oddsHash": null,
+          "rows": 7949,
+          "odds": 0,
+          "specificationRows": 7949
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-draft-edition-baseball": {
+    "state": {
+      "checklistHash": "60c97989f74f6adff9193490fa86643f8246cbbd869d906fbe923d0e9d71f6f0",
+      "oddsHash": null,
+      "rows": 1021,
+      "odds": 0,
+      "specificationRows": 1021
+    },
+    "fingerprint": "2e3bbfbc31da2a4feac8fc84b9fc085527157d2ebd941eb403b22607017416aa",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.609Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8e_tya-pT85xuzZ41qCbTUNpFV0wjZ69uWy15DbGNs8r_QsyHqeWFznicOmYFEg/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "60c97989f74f6adff9193490fa86643f8246cbbd869d906fbe923d0e9d71f6f0",
+          "oddsHash": null,
+          "rows": 1021,
+          "odds": 0,
+          "specificationRows": 1021
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-golden-set-tennis": {
+    "state": {
+      "checklistHash": "465ea49b0cd317222af7120f9754849e6a718f85c63b2db136e142dc70ff06e7",
+      "oddsHash": null,
+      "rows": 1089,
+      "odds": 0,
+      "specificationRows": 1089
+    },
+    "fingerprint": "fb7def838c0e7bd7cf76f5745f48b45f8dc98f7e2a3c798f01a6b6fc6e536dae",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.613Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQZlDE-w0G2ApDJHIG2K2u9_WfCNi6qwsdAQ66yefGwPN84lPO5TbNJUFjVmVWn0w/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "465ea49b0cd317222af7120f9754849e6a718f85c63b2db136e142dc70ff06e7",
+          "oddsHash": null,
+          "rows": 1089,
+          "odds": 0,
+          "specificationRows": 1089
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-halloween": {
+    "state": {
+      "checklistHash": "3d3ac95d99ac896db348415c4d0a3246f2efd43b6d955b323f9ae9b499b0f818",
+      "oddsHash": null,
+      "rows": 3699,
+      "odds": 0,
+      "specificationRows": 3699
+    },
+    "fingerprint": "736cff75b6762c54cf053209581897bba18046f4696bd671ce2b60b18d6377c5",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.630Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSQ4Rj_bY2ldLWL3RholrZBl62FX_5Kn4xRcM1I6ceIf4nkDgBhgNyBETWAhSFytw/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "3d3ac95d99ac896db348415c4d0a3246f2efd43b6d955b323f9ae9b499b0f818",
+          "oddsHash": null,
+          "rows": 3699,
+          "odds": 0,
+          "specificationRows": 3699
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-hockey": {
+    "state": {
+      "checklistHash": "1571bf37f6b97f35e12f608dad5f4a8f92e6baaf8edfbc93314b1e94ed2d5f6d",
+      "oddsHash": null,
+      "rows": 1841,
+      "odds": 0,
+      "specificationRows": 1841
+    },
+    "fingerprint": "68a0415265a40ce4b294f05b58772affd5819ea5fbf62900091d0ec4608623fe",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.638Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6VjuhDWueHyJFOLMK_hkUr6GDPn4ldiyeuAM9arPPhDaxIiy4u5kFMXQ9fQVkAQ/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "1571bf37f6b97f35e12f608dad5f4a8f92e6baaf8edfbc93314b1e94ed2d5f6d",
+          "oddsHash": null,
+          "rows": 1841,
+          "odds": 0,
+          "specificationRows": 1841
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-independence-day": {
+    "state": {
+      "checklistHash": "4c4dd4661ffa48eb2834fb0fe515e572b9292519161d637d1f0988590179631e",
+      "oddsHash": null,
+      "rows": 1700,
+      "odds": 0,
+      "specificationRows": 1700
+    },
+    "fingerprint": "75553c5e825d95493af2cc4f1542397a4cad0d0456a9488fd54479177b170806",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.646Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKbmeF0NOpw2uI62uPselbXJzjdcYF54VACjKSi0Q-xzVaOlpx4ixh3XLEgXLc3Q/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "4c4dd4661ffa48eb2834fb0fe515e572b9292519161d637d1f0988590179631e",
+          "oddsHash": null,
+          "rows": 1700,
+          "odds": 0,
+          "specificationRows": 1700
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-ring-kings": {
+    "state": {
+      "checklistHash": "504b8583110a732e14de75e1805f758550543dec57a90029e61fd13a8780b7ae",
+      "oddsHash": null,
+      "rows": 1084,
+      "odds": 0,
+      "specificationRows": 1084
+    },
+    "fingerprint": "a295aa0e55ecb33b7001b57b896263d533a7aa08d7dd9f0c02f5a2899adde440",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.652Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQomcv5GDYApZI5HCWu99vpYevAFxOnjblfETbhR50I5Wv7JgKAAROuiGeT5VTUZQ/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "504b8583110a732e14de75e1805f758550543dec57a90029e61fd13a8780b7ae",
+          "oddsHash": null,
+          "rows": 1084,
+          "odds": 0,
+          "specificationRows": 1084
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-metal-women-of-sport": {
+    "state": {
+      "checklistHash": "0596285163da76395b0f3efc6aa1d56c1fea33c73a6006a5df927bc2d059acaa",
+      "oddsHash": null,
+      "rows": 4939,
+      "odds": 0,
+      "specificationRows": 4939
+    },
+    "fingerprint": "0632963aaea3f4de4e0cab78834f163094e4acd909a73d29205cdd4b7302241f",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.678Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTm_eEpP8THuhfcnblo4a9RK1M-L4yyJEUWr1NHqD9gXHFtsiqmqolxOD2S3IoeNw/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "0596285163da76395b0f3efc6aa1d56c1fea33c73a6006a5df927bc2d059acaa",
+          "oddsHash": null,
+          "rows": 4939,
+          "odds": 0,
+          "specificationRows": 4939
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-national-redemption": {
+    "state": {
+      "checklistHash": "4ccefd6a6b217e0eb80a0909694389cb143534d4e0d433ed3b8e9b39a67c1bc1",
+      "oddsHash": null,
+      "rows": 506,
+      "odds": 0,
+      "specificationRows": 506
+    },
+    "fingerprint": "4a9af9c88484b2627927ea1bc38d9d5bcff22eb53d51e7625ad2d490557eda38",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.684Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT26FUhJN1kZ7lFs9Yg475NQlDNsUV1p8Di55II3g6AkRvSJXsULMjFri812vU77A/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "4ccefd6a6b217e0eb80a0909694389cb143534d4e0d433ed3b8e9b39a67c1bc1",
+          "oddsHash": null,
+          "rows": 506,
+          "odds": 0,
+          "specificationRows": 506
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-optichrome-football": {
+    "state": {
+      "checklistHash": "590a314286a5ff83e5bf11114cffb31298d244e584f51eba8c0a304d784454c2",
+      "oddsHash": null,
+      "rows": 6553,
+      "odds": 0,
+      "specificationRows": 6553
+    },
+    "fingerprint": "c1672062ca2734dabd4b0bb5ef68ee9cf0be32c3b3b79011b48b7a75a2e84482",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.709Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9Nb7AgXUpV6nExmcgL5cQYV-V9_MraxeGmB3T-lHA0mP1PSq4099GGc7cJurdbg/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "590a314286a5ff83e5bf11114cffb31298d244e584f51eba8c0a304d784454c2",
+          "oddsHash": null,
+          "rows": 6553,
+          "odds": 0,
+          "specificationRows": 6553
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-seasons-in-the-sun-baseball": {
+    "state": {
+      "checklistHash": "2ad4d908285bb7b3756f5d5eb647db2106464762ee015130e19262bd7931dc11",
+      "oddsHash": null,
+      "rows": 585,
+      "odds": 0,
+      "specificationRows": 585
+    },
+    "fingerprint": "0fb85607ea8dd5136cfa45451c1d08c92d9e6da8ab3a3beaa351d2116952c513",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.719Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJp-TZXpAWT85GKYPE_KRDPkz7JIpLlU_xRpq1BJXPjqrWj_V5DpG7PaUakuFvCQ/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "2ad4d908285bb7b3756f5d5eb647db2106464762ee015130e19262bd7931dc11",
+          "oddsHash": null,
+          "rows": 585,
+          "odds": 0,
+          "specificationRows": 585
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-signature-series-sports": {
+    "state": {
+      "checklistHash": "7c73860b2e2c69af76b47eea668ea72101cf5decb1c1460c20ee4e66624368c7",
+      "oddsHash": null,
+      "rows": 3975,
+      "odds": 0,
+      "specificationRows": 3975
+    },
+    "fingerprint": "108c338d7d89570545c3d5a579a57a1971f470c23692b1ab43735356036b90e2",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.740Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQX3uaKCTUMGIcrQU_3u8ajWh9s8lmmvOsnIryQbxkLswUmZMu8b-cUCTdSk7Armw/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "7c73860b2e2c69af76b47eea668ea72101cf5decb1c1460c20ee4e66624368c7",
+          "oddsHash": null,
+          "rows": 3975,
+          "odds": 0,
+          "specificationRows": 3975
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-slideshow": {
+    "state": {
+      "checklistHash": "b1869e67440233ef50e2563a251a485d15b15f45ab6e768f4fde0b931bd3a65c",
+      "oddsHash": null,
+      "rows": 474,
+      "odds": 0,
+      "specificationRows": 474
+    },
+    "fingerprint": "5d192b4cef78f4f95cbbe253ce82f039a2f067bf8301ab9830fc664285897ea3",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.743Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSeG6Jhwo2or9uMP60ZibeoJXp2Iq1datwI2U_7r_pvBRtbrP1SYwoQNJdcW0LTXg/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "b1869e67440233ef50e2563a251a485d15b15f45ab6e768f4fde0b931bd3a65c",
+          "oddsHash": null,
+          "rows": 474,
+          "odds": 0,
+          "specificationRows": 474
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-spectacular-football": {
+    "state": {
+      "checklistHash": "94ee1ef4c4aee1cd53671ee9ee9df5ae2fb9c54f368bde59e9b66d89e170cadd",
+      "oddsHash": null,
+      "rows": 632,
+      "odds": 0,
+      "specificationRows": 632
+    },
+    "fingerprint": "96ece1e4b05bcbe59102abefaa184183cfa81a52d1afe15ffd10bd67d72053b8",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.747Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQb6t3Ttwyq26TguG_X0yjKPELD_tZbzUV8niFFk_luWwBolpuz7ZPeSGZBiLKo-Q/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "94ee1ef4c4aee1cd53671ee9ee9df5ae2fb9c54f368bde59e9b66d89e170cadd",
+          "oddsHash": null,
+          "rows": 632,
+          "odds": 0,
+          "specificationRows": 632
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-trinity-football": {
+    "state": {
+      "checklistHash": "c0fb10d651f87d3f1f79bfe6ccd09ab5819e5a06d43e9e0394d84b0228d254bd",
+      "oddsHash": null,
+      "rows": 1222,
+      "odds": 0,
+      "specificationRows": 1222
+    },
+    "fingerprint": "e44e1a673d3fdbf46797c038b55f56f92ddfcc42dea996850517443bf0a77c32",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.757Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2ZIkbw1x1lvAnIhBb5u155h0pei_3A2vVQPbBEzhdbukh63N977-yddiEHhOpTA/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "c0fb10d651f87d3f1f79bfe6ccd09ab5819e5a06d43e9e0394d84b0228d254bd",
+          "oddsHash": null,
+          "rows": 1222,
+          "odds": 0,
+          "specificationRows": 1222
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-ultimate-sports": {
+    "state": {
+      "checklistHash": "7447f80abba794beaa7ba330e12a6dcc11bb9a6ba5a6e2edbbbb9d90ce17003b",
+      "oddsHash": null,
+      "rows": 407,
+      "odds": 0,
+      "specificationRows": 407
+    },
+    "fingerprint": "0acc80c41d85f6474c96aad4f9a1c16bc2147b5583036447c14527bac8fbe754",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.761Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTnin4li3T3Y7RGdPVka9OY9VxD4XJy_Yx7bdo9gqK3V9FKng567CwGOGDT90uM-A/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "7447f80abba794beaa7ba330e12a6dcc11bb9a6ba5a6e2edbbbb9d90ce17003b",
+          "oddsHash": null,
+          "rows": 407,
+          "odds": 0,
+          "specificationRows": 407
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-vivid-baseball": {
+    "state": {
+      "checklistHash": "c6e3ce6651f7fb489adb382f2f1558e1150aa3ce1163be9cc554ad14b002a000",
+      "oddsHash": null,
+      "rows": 3553,
+      "odds": 0,
+      "specificationRows": 3553
+    },
+    "fingerprint": "5c8a338cdae896b40617b6c72d7136f4c98dba85309735f138acff5ff1f490fa",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.775Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6jUWYUq_aVYVuABpsGxWdyMkIARx6Ki9m4Bj4aXjvuIals9N8YtOXvm6SrxEhfA/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "c6e3ce6651f7fb489adb382f2f1558e1150aa3ce1163be9cc554ad14b002a000",
+          "oddsHash": null,
+          "rows": 3553,
+          "odds": 0,
+          "specificationRows": 3553
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-leaf-metallic-imaginations-series-3": {
+    "state": {
+      "checklistHash": "ddaf6d33b210b972ebf27675ccca2b9370a27de8c79c29cae3e0461cba15325f",
+      "oddsHash": null,
+      "rows": 102,
+      "odds": 0,
+      "specificationRows": 102
+    },
+    "fingerprint": "af24186e20782fcc1ebd8678215ba144f80e5e0d0e9c40bacbc73ebea24bfa86",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.778Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSuPkUT2uAJbNuJaeNiQPq9EC-Eq0LVQsJq10T9ZU0RwX3fom19uo3xmaVyG921FQ/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "ddaf6d33b210b972ebf27675ccca2b9370a27de8c79c29cae3e0461cba15325f",
+          "oddsHash": null,
+          "rows": 102,
+          "odds": 0,
+          "specificationRows": 102
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-pro-set-metal-baseball": {
+    "state": {
+      "checklistHash": "533416e53448b1dda9e8a1f7e85c65ee699396eca8490a360ed2c907662db485",
+      "oddsHash": null,
+      "rows": 6488,
+      "odds": 0,
+      "specificationRows": 6488
+    },
+    "fingerprint": "bd0a820aae5c46ba5d55558dac551f6d8cc852a69d4398510ffe40f767a9b339",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.805Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQXrbvyzpcPegcCJxBa2B8vEjAFmEH6jNNkZmnqP_y60JaVwTxVkv6ytuRppMW-uA/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "533416e53448b1dda9e8a1f7e85c65ee699396eca8490a360ed2c907662db485",
+          "oddsHash": null,
+          "rows": 6488,
+          "odds": 0,
+          "specificationRows": 6488
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "leaf-2026-pro-set-metal-football": {
+    "state": {
+      "checklistHash": "66a4831e9039764efdbb69c5932819e999489c248b89d4168298583ad50c697a",
+      "oddsHash": null,
+      "rows": 6521,
+      "odds": 0,
+      "specificationRows": 6521
+    },
+    "fingerprint": "3c356e06a3a258d9b12728a68176db374005da8457c606715c98730a34aa3845",
+    "events": [
+      {
+        "at": "2026-10-15T01:13:58.843Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQCCg8HCnUwYWXjRMqNU5LyJbImR60rvJgXReTvAm6_8KiCRf737VOSvEvZEdhpMw/pub?output=csv",
+        "snapshot": {
+          "checklistHash": "66a4831e9039764efdbb69c5932819e999489c248b89d4168298583ad50c697a",
+          "oddsHash": null,
+          "rows": 6521,
+          "odds": 0,
+          "specificationRows": 6521
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

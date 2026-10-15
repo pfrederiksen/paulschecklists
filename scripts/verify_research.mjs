@@ -6,7 +6,7 @@ for(const set of catalog.sets.filter(s=>s.tableData)){
  const source=JSON.parse(await readFile(set.tableData,'utf8'));
  const output=JSON.parse(await readFile(`data/research/${set.slug}.json`,'utf8'));
  assert.equal(history[set.slug].state.rows,source.rows.length,`Research must preserve imported row counts: ${set.title}`);
- assert.equal(history[set.slug].state.checklistHash,source.sha256??null,`A read failure must not become a removed-source revision: ${set.title}`);
+ assert.equal(history[set.slug].state.checklistHash,source.checklistFingerprint??source.sha256??null,`A read failure must not become a removed-source revision: ${set.title}`);
  if(source.odds?.length)assert(output.entries.length>=source.odds.length,`Imported odds must remain available in research: ${set.title}`);
 }
 const data=JSON.parse(await readFile('data/research/panini-2026-panini-national-silver-packs.json','utf8'));assert.equal(data.specs.reduce((n,s)=>n+s.rows.length,0),16);assert.equal(data.entries.filter(e=>!e.specificationOnly).length,0);assert(data.entries.every(e=>e.numbering));
