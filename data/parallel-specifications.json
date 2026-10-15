@@ -6489,6 +6489,14 @@
       "source": "https://www.topps.com/pages/garbage-pail-kids-halloween",
       "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
       "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
+    },
+    {
+      "slug": "topps-bowman-2025-topps-marvel-studios-chrome-sapphire",
+      "family": "Unresolved Sapphire numbering and release scope",
+      "gap": "Exact serial-number limits by family remain unverified; product-level 1/1 Padparadscha wording does not establish every family or other color limit. An exact calendar release date is unverified. Japan Product Year 2026 and the 2025 title remain separate. The published sketch artist list is not a numbered card roster; artwork uniqueness does not establish an artist print run.",
+      "source": "https://www.topps.com/pages/topps-marvel-studios-chrome-sapphire",
+      "evidenceFile": "data/parallel-audit-sources/marvel-studios-sapphire-2025-20261015.json",
+      "evidenceSha256": "9e0a67f401eda6a2748c6d2f4531b0f270ca57206e37dee311038cff0e044069"
     }
   ]
 }

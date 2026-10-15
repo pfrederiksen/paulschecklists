@@ -1,0 +1,39 @@
+{
+  "observed": "2026-10-15",
+  "productSource": "https://www.topps.com/pages/topps-marvel-studios-chrome-sapphire",
+  "regionalSource": "https://jp.topps.com/products/2025-marvel-studios-sapphire",
+  "method": "Official product-page web reads, fresh PDF downloads, physical MCID/column inspection and rendered checklist/odds comparison. No facts inferred from retailer listings.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Marvel_Studios_Chrome_Sapphire_Checklist.pdf?v=1767909774",
+  "checklistSha256": "0257428beba5d266c58988ecd8988c41e016adb0407d9b28001161ac2868ed40",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Marvel_Studios_Chrome_Sapphire_Odds.pdf?v=1767909773",
+  "oddsSha256": "ae83a094cdfffa661aa750e5c8757b78a69fdf5627cf05e067b53983754c1764",
+  "productFacts": {
+    "baseCards": 200,
+    "numberingStatement": "1/1 padparadscha parallel",
+    "numberingScope": "No exact card family specified in the product overview.",
+    "sketches": "hand-illustrated one-of-kind sketches"
+  },
+  "regionalFields": [
+    [
+      "Product title",
+      "2025 Marvel Studios - SAPPHIRE"
+    ],
+    [
+      "製品年 / Product Year",
+      "2026"
+    ],
+    [
+      "Cards per pack",
+      "4"
+    ],
+    [
+      "Packs per box",
+      "8"
+    ]
+  ],
+  "remainingGaps": [
+    "Exact serial-number limits by family remain unverified; product-level 1/1 Padparadscha wording does not establish every family or other color limit.",
+    "An exact calendar release date is unverified. Japan Product Year 2026 and the 2025 title remain separate.",
+    "The published sketch artist list is not a numbered card roster; artwork uniqueness does not establish an artist print run."
+  ]
+}

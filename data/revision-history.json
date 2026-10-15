@@ -4625,11 +4625,11 @@
     "state": {
       "checklistHash": "0257428beba5d266c58988ecd8988c41e016adb0407d9b28001161ac2868ed40",
       "oddsHash": "ae83a094cdfffa661aa750e5c8757b78a69fdf5627cf05e067b53983754c1764",
-      "rows": 334,
+      "rows": 452,
       "odds": 28,
-      "specificationRows": 0
+      "specificationRows": 7
     },
-    "fingerprint": "732a5ce73fc1decce19c206a4e723685d83b3c9a9fceafbc50a9ceb3e949542a",
+    "fingerprint": "c15a2d4f3c694d3097acc45cb06a081bfe97d328fc42cf7f82129c1d52420ab2",
     "events": [
       {
         "at": "2026-10-13T01:06:39.195Z",

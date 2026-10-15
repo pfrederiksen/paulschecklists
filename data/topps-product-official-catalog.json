@@ -1226,5 +1226,38 @@
     "catalogEvidence": "All 105 numbered card rows and 53 unnumbered sketch artists across six checklist sections retain the printed Subset, Name and Card Back / autograph-artist cells. The 50 Base, 25 C Names, ten Scream Queens, ten Art Variation and ten autograph rows remain distinct, including matching A/B codes and five blank Scream Queens backs. All 12 literal SINGLE BOX odds are imported from the product-page PDF, not converted to per-pack rates. Five Base Slime limits are joined only to the corresponding Base Foil odds names, preserving both published names and /50, /25, /10, /5 and /1 limits. Wrapper Rainbow Foil has no published limit; the 25-subject wrapper summary is not expanded into an inferred roster. Final Artwork Redemption is odds-only. Release is scheduled October 22; exhaustive parallel reconciliation remains unconfirmed.",
     "odds": 12,
     "formats": 1
+  },
+  {
+    "title": "2025 Topps Marvel Studios Chrome® Sapphire",
+    "manufacturer": "Topps / Bowman",
+    "sport": "marvel",
+    "year": "2025",
+    "sourcePage": "https://www.topps.com/pages/topps-marvel-studios-chrome-sapphire",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Marvel_Studios_Chrome_Sapphire_Checklist.pdf?v=1767909774",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "All 334 numbered subject rows plus 118 unnumbered sketch artists across six sections are reconciled to tagged physical PDF cells. The 200-card Base retains separate Name, Secondary Name, Property, Phase and Debut columns; actor first/last names and Character Name remain separate on autographs. All repeated dual and trio signers, overlapping Shang-Chi property glyphs, clipped Doctor Strange property text, apparent source spellings and literal DEBUT marks are retained. All 28 odds categories preserve the complete Sapphire Pack Rate header and literal ratios. The product page mentions a 1/1 Padparadscha parallel without an exact family scope; that statement stays qualified, not propagated to every Padpradascha family. Other serial limits and the exact calendar release date remain unverified; product year 2025 is separate from the 2026 catalog listing.",
+    "slug": "topps-bowman-2025-topps-marvel-studios-chrome-sapphire",
+    "page": "sets/topps-bowman-2025-topps-marvel-studios-chrome-sapphire.html",
+    "status": "Source table",
+    "verified": "2026-10-15",
+    "odds": 28,
+    "formats": 1,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Marvel_Studios_Chrome_Sapphire_Odds.pdf?v=1767909773",
+    "oddsImportIssues": 0,
+    "rowCount": 452,
+    "tableData": "data/imports/topps-bowman-2025-topps-marvel-studios-chrome-sapphire.json",
+    "sections": 6,
+    "importKind": "pdf",
+    "dataAudit": "All 334 numbered subject rows plus 118 unnumbered sketch artists across six sections are reconciled to tagged physical PDF cells. The 200-card Base retains separate Name, Secondary Name, Property, Phase and Debut columns; actor first/last names and Character Name remain separate on autographs. All repeated dual and trio signers, overlapping Shang-Chi property glyphs, clipped Doctor Strange property text, apparent source spellings and literal DEBUT marks are retained. All 28 odds categories preserve the complete Sapphire Pack Rate header and literal ratios. The product page mentions a 1/1 Padparadscha parallel without an exact family scope; that statement stays qualified, not propagated to every Padpradascha family. Other serial limits and the exact calendar release date remain unverified; product year 2025 is separate from the 2026 catalog listing.",
+    "dedicatedParser": "scripts/import_topps_marvel_studios_sapphire_2025.py",
+    "sha256": "0257428beba5d266c58988ecd8988c41e016adb0407d9b28001161ac2868ed40",
+    "oddsParser": "scripts/official_odds_layout.py",
+    "coverageComplete": true,
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/marvel-studios-sapphire-2025-20261015.json",
+      "sha256": "9e0a67f401eda6a2748c6d2f4531b0f270ca57206e37dee311038cff0e044069",
+      "source": "https://www.topps.com/pages/topps-marvel-studios-chrome-sapphire"
+    }
   }
 ]

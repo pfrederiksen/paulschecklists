@@ -1213,14 +1213,23 @@
       "slug": "topps-bowman-2025-topps-marvel-studios-chrome-sapphire",
       "title": "2025 Topps Marvel Studios Chrome® Sapphire",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-marvel-studios-chrome-sapphire",
       "oddsCategories": 28,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-topps-marvel-studios-chrome-sapphire",
+          "family": "Unresolved Sapphire numbering and release scope",
+          "gap": "Exact serial-number limits by family remain unverified; product-level 1/1 Padparadscha wording does not establish every family or other color limit. An exact calendar release date is unverified. Japan Product Year 2026 and the 2025 title remain separate. The published sketch artist list is not a numbered card roster; artwork uniqueness does not establish an artist print run.",
+          "source": "https://www.topps.com/pages/topps-marvel-studios-chrome-sapphire",
+          "evidenceFile": "data/parallel-audit-sources/marvel-studios-sapphire-2025-20261015.json",
+          "evidenceSha256": "9e0a67f401eda6a2748c6d2f4531b0f270ca57206e37dee311038cff0e044069"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-topps-marvel-the-collector",
