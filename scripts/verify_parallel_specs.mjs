@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
 import {reconcileParallels,categoryNumbering} from '../parallel-specs.mjs';
 const ag=JSON.parse(await readFile('data/allen-ginter-2026.json'));
 assert.equal(categoryNumbering(ag,'BASE CARDS ORANGE FOIL FILAGREE PARALLEL'),'/25');
@@ -15,6 +16,9 @@ console.log('Verified official numbering, exact family scopes and specification-
 const csv={publishedSpecifications:[{name:'Base Orange',headers:['Card number','Athlete','Published SEQUENCE'],rows:[['1','A','25'],['2','B','25']]}]};assert.equal(categoryNumbering(csv,'Base Orange'),'/25');
 
 const registry=JSON.parse(await readFile('data/parallel-specifications.json'));
+for(const conflict of registry.conflicts??[])if(conflict.evidenceFile)assert.equal(createHash('sha256').update(await readFile(conflict.evidenceFile)).digest('hex'),conflict.evidenceSha256,'Conflicting guide evidence must retain its verified hash');
+assert(registry.conflicts.some(c=>c.slug==='topps-bowman-2026-topps-chrome-baseball'&&c.family==='GOLD LOGOMAN RELICS'));
+assert(!(registry.sets['topps-bowman-2026-topps-chrome-baseball']??[]).some(s=>s.family==='GOLD LOGOMAN RELICS'),'Conflicting Gold Logoman limits must not be selected');
 for(const [slug,rows] of Object.entries(registry.sets)){const source=JSON.parse(await readFile(`data/imports/${slug}.json`));const reconciled=reconcileParallels(source);for(const row of rows){const o=reconciled.find(o=>row.oddsName?o.name===row.oddsName:o.specificationKey===row.family+'|'+row.name);assert(o,'Every official specification must appear in its shared parallel view');assert.equal(o.numbering,row.numbering);assert.equal(o.family,row.family);}}
 const {specificationRows}=await import('../parallel-specs.mjs');
 const leaf={headers:['Card number','Foil','Orange','Quantity','Additions'],rows:[['25','Prismatic',3,25,7]]};assert.deepEqual(specificationRows(leaf),[['25','Prismatic','/3',25,7]]);

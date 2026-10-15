@@ -398,11 +398,11 @@
       "manufacturer": "Topps / Bowman",
       "source": "https://www.topps.com/pages/checklists",
       "oddsCategories": 0,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "numberedOddsCategories": 33,
+      "supplementalSpecifications": 33,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
     },
     {
@@ -842,7 +842,18 @@
       "structuredNumbering": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-chrome-baseball",
+          "family": "GOLD LOGOMAN RELICS",
+          "gap": "The same official collector guide numbers Gold Logoman Relics to four in its main Gold Logoman section, but calls each a one-of-one in its FAQ. Neither value is selected; limits for separate dual/autograph programs do not resolve the single-relic conflict.",
+          "sources": [
+            "https://ripped.topps.com/2026-topps-chrome-baseball-card-collector-guide/"
+          ],
+          "evidenceFile": "data/parallel-audit-sources/chrome-baseball-logoman-conflict-20261014.json",
+          "evidenceSha256": "04c645476a6b26633859c2e268a7573e0833d96bc85ecf9be2fc7da47a0cda7f"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-chrome-baseball-logofractor-edition",

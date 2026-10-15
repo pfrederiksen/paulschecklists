@@ -621,12 +621,36 @@
     "state": {
       "checklistHash": "b2e5866c943e54d89dbff38b25285af3cd5c45395ae77f5502f9847d53e18bcc",
       "oddsHash": null,
-      "rows": 1384,
+      "rows": 1385,
       "odds": 0,
-      "specificationRows": 0
+      "specificationRows": 34,
+      "specificationHash": "5509657a7b700cb3109e52deba4c25dd524e1f6cb905bbf31be4af0b261162cb"
     },
-    "fingerprint": "4e2c682c45e51c538c11704f462953921c1c92d492ef2a574e46eec9aa82c202",
+    "fingerprint": "5d74cdc203d74628160759f775a01fa05605128579a8c0a40c6408e202aeff9c",
     "events": [
+      {
+        "at": "2026-10-15T02:16:14.741Z",
+        "changes": [
+          "Numbering specification rows: 0 → 34",
+          "Supplementary numbering evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Transcendent_Collection_Checklist_-_9_15_26.pdf?v=1789485749",
+        "snapshot": {
+          "checklistHash": "b2e5866c943e54d89dbff38b25285af3cd5c45395ae77f5502f9847d53e18bcc",
+          "oddsHash": null,
+          "rows": 1385,
+          "odds": 0,
+          "specificationRows": 34,
+          "specificationHash": "5509657a7b700cb3109e52deba4c25dd524e1f6cb905bbf31be4af0b261162cb"
+        },
+        "previousSnapshot": {
+          "checklistHash": "b2e5866c943e54d89dbff38b25285af3cd5c45395ae77f5502f9847d53e18bcc",
+          "oddsHash": null,
+          "rows": 1384,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.333Z",
         "changes": [

@@ -6,6 +6,8 @@ export function recordRevision(previous,state,source,at){
  // document. Update the current snapshot without inventing a source revision.
  if(previous&&['checklistHash','oddsHash','specificationHash'].every(key=>(previous.state[key]??null)===(state[key]??null)))return {...previous,state,fingerprint};
  const labels={rows:'Checklist entries',odds:'Published odds entries',specificationRows:'Numbering specification rows'};
- const changes=previous?Object.keys(state).filter(k=>state[k]!==previous.state[k]).map(k=>labels[k]?`${labels[k]}: ${previous.state[k]??0} → ${state[k]??0}`:k==='specificationHash'?'Official supplementary numbering specification changed.':k==='checklistHash'?'Official checklist or supplementary specification source changed.':'Official odds document changed.'):['Initial recorded snapshot; earlier revisions are not reconstructed.'];
+ // Importing new guide evidence can coincide with a checklist parser repair.
+ // Report counts as source changes only when their own source hash changes.
+ const changes=previous?Object.keys(state).filter(k=>state[k]!==previous.state[k]&&!(k==='rows'&&state.checklistHash===previous.state.checklistHash)&&!(k==='odds'&&state.oddsHash===previous.state.oddsHash)).map(k=>labels[k]?`${labels[k]}: ${previous.state[k]??0} → ${state[k]??0}`:k==='specificationHash'?(previous.state.specificationHash?'Official supplementary numbering specification changed.':'Supplementary numbering evidence imported.'):k==='checklistHash'?'Official checklist or supplementary specification source changed.':'Official odds document changed.'):['Initial recorded snapshot; earlier revisions are not reconstructed.'];
  return {state,fingerprint,events:[{at,changes,source,snapshot:state,previousSnapshot:previous?.state??null},...(previous?.events??[])]};
 }

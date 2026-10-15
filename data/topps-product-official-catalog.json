@@ -717,5 +717,28 @@
     "dedicatedParser": "scripts/import_topps_chrome_baseball_2026.py",
     "coverageComplete": true,
     "oddsParser": "scripts/import_topps_chrome_baseball_2026.py"
+  },
+  {
+    "title": "2025 Topps Transcendent Collection Baseball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "baseball",
+    "year": "2025",
+    "sourcePage": "https://www.topps.com/pages/checklists",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Transcendent_Collection_Checklist_-_9_15_26.pdf?v=1789485749",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+    "slug": "topps-bowman-2025-topps-transcendent-collection-baseball",
+    "page": "sets/topps-bowman-2025-topps-transcendent-collection-baseball.html",
+    "status": "Source table",
+    "verified": "2026-10-11",
+    "rowCount": 1385,
+    "tableData": "data/imports/topps-bowman-2025-topps-transcendent-collection-baseball.json",
+    "sections": 35,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 1,385 physical subject rows across 35 sections reconciled to original cell origins, including six Gemstones, year-leading autograph headings and 383 printed Rookie marks. Repeated card codes, apparent source name/code mismatches and printed rookie annotations are retained without correction. Parallel numbering is guide-scoped; pack odds and a calendar release date are not established.",
+    "parallelData": true,
+    "sha256": "b2e5866c943e54d89dbff38b25285af3cd5c45395ae77f5502f9847d53e18bcc",
+    "dedicatedParser": "scripts/import_topps_transcendent_2025.py"
   }
 ]

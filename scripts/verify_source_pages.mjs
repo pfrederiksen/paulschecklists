@@ -28,6 +28,25 @@ for(const set of cases){
  get('source-reset').onclick();assert.equal(get('source-sort').value,'checklist');assert.equal(get('source-section').value,'');
  assert(get('insights').innerHTML.includes('insight-grid'));
  get('source-odds-tab').onclick();assert.equal(get('source-cards-panel').hidden,true);assert.equal(get('source-specifications').hidden,false);get('source-cards-tab').onclick();assert.equal(get('source-specifications').hidden,true);
+ if(set.slug==='topps-bowman-2025-topps-transcendent-collection-baseball'){
+  assert.equal(get('source-format').disabled,true);
+  assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  get('source-section').value='GEMSTONES';get('source-section').onchange();
+  assert.equal(get('source-count').textContent,'6 official source rows');
+  get('source-search').value='CRCS';get('source-search').oninput();assert.equal(get('source-count').textContent,'2 official source rows');
+  assert(get('source-results').innerHTML.includes('Lou Gehrig')&&get('source-results').innerHTML.includes('Cal Ripken Jr.'));
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:String(data.rows.findIndex(r=>r[1]==='CRCS'))}})}});
+  assert(get('source-results').innerHTML.includes('One-of-one'));assert(!get('source-results').innerHTML.includes('1 in '));
+  get('source-reset').onclick();get('source-section').value='TRANSCENDENT ICONS CHROME BASE CARDS';get('source-section').onchange();
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});
+  assert(get('source-results').innerHTML.includes('/25')&&get('source-results').innerHTML.includes('/10'));
+  assert(!get('source-results').innerHTML.includes('VIP'));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-export').onclick();assert(csv.includes('"Name","Team","Rookie"'));assert(csv.includes('Shohei Ohtani'));
+  get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('/25 or less'));assert(get('source-specifications').innerHTML.includes('Limited to 25 copies'));
+  get('source-export').onclick();assert(csv.includes('/25 or less')&&csv.includes('Limited to 25 copies'));assert(csv.includes('One-of-one'));assert(csv.includes('serial marking is not'));
+  get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2026-topps-chrome-baseball'){
   get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'412 official source rows');get('source-reset').onclick();
   get('source-section').value='BASE CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'300 official source rows');
