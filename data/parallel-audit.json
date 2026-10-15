@@ -320,12 +320,22 @@
       "manufacturer": "Topps / Bowman",
       "source": "https://www.topps.com/pages/checklists",
       "oddsCategories": 143,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "numberedOddsCategories": 2,
+      "supplementalSpecifications": 2,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-tribute-baseball",
+          "family": "Career Achievement odds family reconciliation",
+          "gap": "The odds-only 2026 Tribute Career Achievement Award Continuity categories do not explicitly say Auto or Barry Bonds. They remain unjoined to the separately printed insert and autograph rosters.",
+          "sources": [
+            "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tribute_Baseball_Checklist_1.pdf?v=1782740369",
+            "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tirbute_Baseball_Odds.pdf?v=1785343913"
+          ]
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-topps-universe-wwe",

@@ -5734,6 +5734,28 @@
         "evidenceFile": "data/parallel-audit-sources/fantastic-four-2026-guide-20261015.json",
         "evidenceSha256": "74b0dd9757b3d61ec676d05829fbd46ac6cd549034c90a4fc1c9533010d93a6b"
       }
+    ],
+    "topps-bowman-2026-topps-tribute-baseball": [
+      {
+        "family": "BASE CARDS",
+        "name": "Blue",
+        "numbering": "/150",
+        "oddsName": "Base Cards Blue",
+        "qualification": "Base cards only; no matching color limit is inferred for any insert, autograph or relic family.",
+        "source": "https://ripped.topps.com/2026-topps-tribute-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/tribute-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "2f74299b04119c63f4fd7233925d727159e56ca835117714faca6aff21444eb9"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Black",
+        "numbering": "1/1",
+        "oddsName": "Base Cards Black",
+        "qualification": "Base cards only; no matching color limit is inferred for any insert, autograph or relic family.",
+        "source": "https://ripped.topps.com/2026-topps-tribute-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/tribute-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "2f74299b04119c63f4fd7233925d727159e56ca835117714faca6aff21444eb9"
+      }
     ]
   },
   "conflicts": [
@@ -5849,6 +5871,15 @@
       "source": "https://www.topps.com/pages/topps-heritage-baseball",
       "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
       "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-tribute-baseball",
+      "family": "Career Achievement odds family reconciliation",
+      "gap": "The odds-only 2026 Tribute Career Achievement Award Continuity categories do not explicitly say Auto or Barry Bonds. They remain unjoined to the separately printed insert and autograph rosters.",
+      "sources": [
+        "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tribute_Baseball_Checklist_1.pdf?v=1782740369",
+        "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tirbute_Baseball_Odds.pdf?v=1785343913"
+      ]
     }
   ]
 }

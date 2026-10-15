@@ -1,0 +1,24 @@
+{
+  "source": "https://ripped.topps.com/2026-topps-tribute-baseball-hobby-box-guide/",
+  "published": "2026-07-27",
+  "observed": "2026-10-15",
+  "method": "Actual official in-app browser read of the complete guide, including its base-parallel section and Key Facts. This hash verifies this factual observation snapshot, not raw HTML.",
+  "releaseDate": "2026-07-29",
+  "numbering": [
+    {"family": "BASE CARDS", "name": "Blue", "numbering": "/150", "oddsName": "Base Cards Blue"},
+    {"family": "BASE CARDS", "name": "Black", "numbering": "1/1", "oddsName": "Base Cards Black"}
+  ],
+  "boxContents": [
+    ["Hobby packs per box", "6"],
+    ["Cards per pack", "3"],
+    ["Autographs or autograph relics per box", "3"],
+    ["Relic cards per box", "3"]
+  ],
+  "remainingGaps": [
+    "The odds-only 2026 Tribute Career Achievement Award Continuity categories do not explicitly say Auto or Barry Bonds. They remain unjoined to the separately printed insert and autograph rosters.",
+    "Only the explicitly named Blue and Black base-parallel limits are reconciled; no limits are inferred for other colors, inserts or autograph/relic families.",
+    "Printing Plates are named next to Black in the guide, but no separate plate limit or color breakdown is imported from that ambiguous phrasing.",
+    "The sheet's literal Hobby ratios do not name a unit; box contents do not convert those ratios into per-pack odds.",
+    "The full parallel and numbering inventory remains unverified."
+  ]
+}

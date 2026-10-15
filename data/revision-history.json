@@ -489,10 +489,34 @@
       "oddsHash": "e7e9db3e81f8abab52d23beba1a343da56532f87d57325fcef1f47efda620055",
       "rows": 786,
       "odds": 143,
-      "specificationRows": 0
+      "specificationRows": 6,
+      "specificationHash": "c175ddd3f1c1c09cb31927a8650188f6acd86fb8f1d4ab198d7d65eda3872e68"
     },
-    "fingerprint": "15ae2236ffcc79077944e6b044683a114715e5d04f75e95562ed3c02c979965b",
+    "fingerprint": "fafe06aac1aabfb26e7387e6157b2ca9c086da0bab8cf3e29001ec7fa2efb633",
     "events": [
+      {
+        "at": "2026-10-15T11:20:05.633Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 6",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tribute_Baseball_Checklist_1.pdf?v=1782740369",
+        "snapshot": {
+          "checklistHash": "9b2d215dd334f868e7b0ae7f4bb0c70e511ac4674a652346f8f9ef216a1a735b",
+          "oddsHash": "e7e9db3e81f8abab52d23beba1a343da56532f87d57325fcef1f47efda620055",
+          "rows": 786,
+          "odds": 143,
+          "specificationRows": 6,
+          "specificationHash": "c175ddd3f1c1c09cb31927a8650188f6acd86fb8f1d4ab198d7d65eda3872e68"
+        },
+        "previousSnapshot": {
+          "checklistHash": "9b2d215dd334f868e7b0ae7f4bb0c70e511ac4674a652346f8f9ef216a1a735b",
+          "oddsHash": "e7e9db3e81f8abab52d23beba1a343da56532f87d57325fcef1f47efda620055",
+          "rows": 786,
+          "odds": 143,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.120Z",
         "changes": [
