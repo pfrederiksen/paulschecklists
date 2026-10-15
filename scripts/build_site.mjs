@@ -2,7 +2,7 @@ import {mkdir,copyFile,writeFile,cp,readdir} from 'node:fs/promises';
 import {readFile} from 'node:fs/promises';
 import {base,directorySEO,directoryLinks} from '../templates/seo.mjs';
 import {setFacts} from '../templates/set-page.mjs';
-import {renderCatalogRow} from '../catalog-model.mjs';
+import {renderCatalogRow,hasCards,compareSets} from '../catalog-model.mjs';
 import config from '../ads-config.js';
 import {createHash} from 'node:crypto';
 await mkdir('docs/data',{recursive:true});
@@ -39,7 +39,7 @@ await writeFile('docs/data/set-catalog.json',JSON.stringify(catalog,null,2)+'\n'
 let directory=await readFile('docs/index.html','utf8');
 directory=directory.replace('<title>Paul’s Checklists · Sports Card Checklists</title>','<title>Sports Card Checklists, Parallels &amp; Pack Odds | Paul’s Checklists</title>').replace(/<meta name="description"[^>]*>/,'').replace('</head>',directorySEO(catalog.sets)+'</head>').replace('</main>',directoryLinks(catalog.sets)+'</main>');
 const directorySets=catalog.sets.filter(s=>!s.ongoingSeries||s.slug==='topps-now-2026');
-directory=directory.replace('<!-- established-checklists -->',directorySets.filter(s=>s.status==='Searchable').map(renderCatalogRow).join(''));
+directory=directory.replace('<!-- established-checklists -->',directorySets.filter(hasCards).sort(compareSets).slice(0,40).map(renderCatalogRow).join(''));
 directory=directory.replace('id="catalog-total">2<',`id="catalog-total">${directorySets.length}<`).replace('id="catalog-searchable">2<',`id="catalog-searchable">${directorySets.filter(s=>s.status==='Searchable'||(s.tableData&&s.rosterPublished!==false)).length}<`);
 await writeFile('docs/index.html',directory);
 const urls=[base,...catalog.sets.map(s=>base+s.page)];
