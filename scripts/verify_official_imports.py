@@ -16,8 +16,16 @@ def verify(set):
    # A malformed literal must be verified inside its original physical value
    # cell, not promoted to a ratio or added from an arbitrary PDF number.
    page=pdf.pages[exception['page']-1]
-   matches=[row for table in page.find_tables() for row in table.extract()[1:] if ' '.join((row[0] or '').split())==exception['name']]
-   assert len(matches)==1 and ' '.join(matches[0][1].split())==exception['value'],(set['title'],exception)
+   if exception.get('valueBox'):
+    # A borderless multi-column row needs the recorded physical value box;
+    # the flattened table cell includes its caption and all six values.
+    name=' '.join((page.crop(tuple(exception['nameBox'])).extract_text() or '').split())
+    value=''.join(c['text'] for c in page.chars if exception['valueBox'][0]-.01<=c['x0'] and c['x1']<=exception['valueBox'][2]+.01 and exception['valueBox'][1]-.01<=c['top'] and c['bottom']<=exception['valueBox'][3]+.01)
+    assert name==exception['name'] and value==exception['value'],(set['title'],exception)
+    assert any(o['name']==name and o['values'][exception['format']]==value for o in data['odds'])
+   else:
+    matches=[row for table in page.find_tables() for row in table.extract()[1:] if ' '.join((row[0] or '').split())==exception['name']]
+    assert len(matches)==1 and ' '.join(matches[0][1].split())==exception['value'],(set['title'],exception)
    assert not re.fullmatch(r'[\d,.]+(?::[\d,.]+)+',exception['value'])
    original.update([exception['value']])
  source_rows=data.get('officialOddsTable',data['odds'])

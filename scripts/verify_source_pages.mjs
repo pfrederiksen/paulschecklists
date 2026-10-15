@@ -26,6 +26,19 @@ for(const set of cases){
  get('source-reset').onclick();assert.equal(get('source-sort').value,'checklist');assert.equal(get('source-section').value,'');
  assert(get('insights').innerHTML.includes('insight-grid'));
  get('source-odds-tab').onclick();assert.equal(get('source-cards-panel').hidden,true);assert.equal(get('source-specifications').hidden,false);get('source-cards-tab').onclick();assert.equal(get('source-specifications').hidden,true);
+ if(set.slug==='topps-bowman-2026-topps-chrome-baseball'){
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'412 official source rows');get('source-reset').onclick();
+  get('source-section').value='BASE CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'300 official source rows');
+  get('source-search').value='Samuel Basallo';get('source-search').oninput();assert(get('source-results').innerHTML.includes('Baltimore Orioles®'));get('source-reset').onclick();
+  get('source-section').value='1991 TOPPS BASEBALL';get('source-section').onchange();assert.equal(get('source-count').textContent,'30 official source rows');get('source-reset').onclick();
+  get('source-section').value='FANATICS AUTHENTICS REDEMPTION CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'30 official source rows');
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-export').onclick();assert(csv.includes('"Name","Team","Rookie"'));assert(csv.includes('"FANATICS AUTHENTICS REDEMPTION CARDS","","Chase Utley","Philadelphia Phillies®"'));get('source-reset').onclick();
+  get('source-section').value='2025 MLB COMMISSIONERS TROPHY';get('source-section').onchange();assert(get('source-results').innerHTML.includes('Name not published'));assert(get('source-results').innerHTML.includes('Los Angeles Dodgers®'));get('source-reset').onclick();
+  get('source-section').value='2025 WORLD CHAMPIONS AUTOGRAPH REFRACTOR';get('source-section').onchange();get('source-format').value=data.formats[4];get('source-format').onchange();get('source-odds-tab').onclick();
+  assert(get('source-specifications').innerHTML.includes('0.39374999999999999'));assert(get('source-specifications').innerHTML.includes('without a ratio separator'));assert(!get('source-specifications').innerHTML.includes('39.375%'));
+  get('source-export').onclick();assert(csv.includes('0.39374999999999999')&&csv.includes('not inferred'));get('source-reset').onclick();get('source-cards-tab').onclick();
+ }
  if(set.slug==='topps-bowman-2025-26-topps-hopps-basketball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);
   get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'384 official source rows');get('source-reset').onclick();
