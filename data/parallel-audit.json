@@ -1074,14 +1074,23 @@
       "slug": "topps-bowman-2025-topps-chrome-deadpool",
       "title": "2025 Topps Chrome® Deadpool",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/products/2025-topps-chrome%C2%AE-deadpool-hobby-box",
       "oddsCategories": 161,
       "numberedOddsCategories": 60,
       "supplementalSpecifications": 60,
       "structuredNumbering": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
-      "conflicts": []
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-topps-chrome-deadpool",
+          "family": "Incomplete guide/odds and release-date reconciliation",
+          "gap": "The guide names a Reflections TBC Parallel 1/1; its identity is not reconciled to the separately named odds-sheet Superfractor. Keep TBC specification-only; do not number the Superfractor from it. The 100-card base total agrees, but the guide subdivision (20/28/52) disagrees with the checklist (20/26/54); Best Bubs lists nine cards, not the guide’s ten. Preserve missing NC-7 and FO-8. The guide does not supply numbering for every published odds category; no other family receives a matching color’s limit. Exhaustive parallel reconciliation remains incomplete. The sheet names HOBBY, VALUE SE, VALUE BOX EA and VALUE BOX CEE without a general ratio unit. Guide pack units apply only to its named base Refractor and Prism examples, not to every sheet ratio. A general calendar release date remains unverified; keep store availability April 1, 2026 and Product Year 2026 separate from the 2025 checklist title.",
+          "source": "https://ripped.topps.com/2025-topps-chrome-deadpool-guide/",
+          "evidenceFile": "data/parallel-audit-sources/deadpool-2025-20261015.json",
+          "evidenceSha256": "addc20b813d79f7e1701317ada1d756796948fb9b1fe9554220804bee4baa970"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-chrome-disney",

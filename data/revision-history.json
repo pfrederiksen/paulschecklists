@@ -4191,12 +4191,12 @@
     "state": {
       "checklistHash": "5c26ecb9ead43e47c41b9f56db10e832806892403debad1ef26026c37f91ea28",
       "oddsHash": "34f3a54e3511e741869307e9c9914b1b7ad0c4d72689595d64309855e491936c",
-      "rows": 316,
+      "rows": 462,
       "odds": 161,
-      "specificationRows": 60,
-      "specificationHash": "5473a93ea420bb7e3f5543564ea6fc378c078369342a7eb6c3163a1b87d73005"
+      "specificationRows": 70,
+      "specificationHash": "7da8f23530c5c23d78ceb83d5d211bda80f8d1869662a80f12c6bef7adda4f35"
     },
-    "fingerprint": "94dc2dd6db484ab8a4dda966405374bd2c56fd35e53be14f468dbf99227e0a7a",
+    "fingerprint": "b56d06536502dd19fa6247cbd7685149cb2f0646ccc9f9d0cb43b9854114cbc1",
     "events": [
       {
         "at": "2026-10-14T01:05:02.080Z",

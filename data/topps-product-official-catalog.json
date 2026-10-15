@@ -1292,5 +1292,38 @@
       "sha256": "fce8351fbcc07ccb5bd6d5cea6d96fb8f1a1b2d77c54277a847853f4dd7e42f1",
       "source": "https://www.topps.com/products/2025-marvel-the-collector-hobby-box"
     }
+  },
+  {
+    "title": "2025 Topps Chrome® Deadpool",
+    "manufacturer": "Topps / Bowman",
+    "sport": "marvel",
+    "year": "2025",
+    "sourcePage": "https://www.topps.com/products/2025-topps-chrome%C2%AE-deadpool-hobby-box",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Deadpool_Checklist.pdf?v=1772559492",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "All 314 numbered subject rows and 148 unnumbered artists across 24 sections are reconciled from original PDF clipping cells. Separate actor/character columns and all repeated dual signers are retained. Numeric-leading 10005 FIRE is a caption; IQ and John-Paul Howard are artists, not a card row. All 161 odds categories retain four literal physical columns; repeated disclaimers and headers are excluded from format names. The official guide joins 59 numbering specifications to exact family odds; its Reflections TBC 1/1 stays separate from the odds Superfractor. All three base sections share the base odds through explicit aliases. Guide/checklist composition discrepancies and missing NC-7/FO-8 remain explicit. The guide does not establish exhaustive parallel numbering; no general ratio unit or calendar release date is inferred.",
+    "slug": "topps-bowman-2025-topps-chrome-deadpool",
+    "page": "sets/topps-bowman-2025-topps-chrome-deadpool.html",
+    "status": "Source table",
+    "verified": "2026-10-15",
+    "odds": 161,
+    "formats": 4,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Deadpool_Odds.pdf?v=1773762703",
+    "oddsImportIssues": 0,
+    "rowCount": 462,
+    "tableData": "data/imports/topps-bowman-2025-topps-chrome-deadpool.json",
+    "sections": 24,
+    "importKind": "pdf",
+    "dataAudit": "All 314 numbered subject rows and 148 unnumbered artists across 24 sections are reconciled from original PDF clipping cells. Separate actor/character columns and all repeated dual signers are retained. Numeric-leading 10005 FIRE is a caption; IQ and John-Paul Howard are artists, not a card row. All 161 odds categories retain four literal physical columns; repeated disclaimers and headers are excluded from format names. The official guide joins 59 numbering specifications to exact family odds; its Reflections TBC 1/1 stays separate from the odds Superfractor. All three base sections share the base odds through explicit aliases. Guide/checklist composition discrepancies and missing NC-7/FO-8 remain explicit. The guide does not establish exhaustive parallel numbering; no general ratio unit or calendar release date is inferred.",
+    "sha256": "5c26ecb9ead43e47c41b9f56db10e832806892403debad1ef26026c37f91ea28",
+    "dedicatedParser": "scripts/import_topps_deadpool_2025.py",
+    "coverageComplete": true,
+    "oddsParser": "scripts/import_topps_deadpool_2025.py",
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/deadpool-2025-20261015.json",
+      "sha256": "addc20b813d79f7e1701317ada1d756796948fb9b1fe9554220804bee4baa970",
+      "source": "https://www.topps.com/products/2025-topps-chrome%C2%AE-deadpool-hobby-box"
+    }
   }
 ]
