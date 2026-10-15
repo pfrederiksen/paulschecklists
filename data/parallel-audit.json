@@ -188,12 +188,29 @@
       "manufacturer": "Topps / Bowman",
       "source": "https://www.topps.com/pages/checklists",
       "oddsCategories": 230,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "numberedOddsCategories": 9,
+      "supplementalSpecifications": 9,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-heritage-baseball",
+          "family": "REAL ONE AUTOGRAPHS",
+          "gap": "The PDF annotates ROA-BR with Base unnumbered autos are all red ink. Ink color alone does not establish the hand-numbered Special Edition /77; do not number the ordinary autograph category from the product-page wording.",
+          "source": "https://www.topps.com/pages/topps-heritage-baseball",
+          "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+          "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-heritage-baseball",
+          "family": "LEAGUE CHAMPIONSHIP SERIES",
+          "gap": "The odds sheet calls one family LEAGUE CHAMPIONSHIP SERIES; the checklist labels separate AL CHAMPIONS and NL CHAMPIONS programs. Preserve the unmatched source family rather than silently merging those names.",
+          "source": "https://www.topps.com/pages/topps-heritage-baseball",
+          "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+          "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-heritage-football",

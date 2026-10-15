@@ -1,0 +1,30 @@
+{
+  "observed": "2026-10-15",
+  "method": "Factual snapshot of actual official product-page web reads; the snapshot hash verifies these retained observations, not raw page HTML.",
+  "productSource": "https://www.topps.com/pages/topps-heritage-baseball",
+  "hobbySource": "https://www.topps.com/products/2026-topps-heritage-baseball-hobby-box",
+  "valueSource": "https://www.topps.com/products/2026-topps-heritage-baseball-value-box",
+  "megaSource": "https://www.topps.com/products/2026-topps-heritage-baseball-mega-box",
+  "availability": "2026-03-18",
+  "configuration": [
+    ["Hobby", "8 cards per pack; 20 packs per box; 1 autograph or relic per box", "March 18, 2026", "https://www.topps.com/products/2026-topps-heritage-baseball-hobby-box"],
+    ["Value", "8 cards per pack; 8 packs per box", "March 18, 2026", "https://www.topps.com/products/2026-topps-heritage-baseball-value-box"],
+    ["Mega", "8 cards per pack; 17 packs per box", "March 18, 2026", "https://www.topps.com/products/2026-topps-heritage-baseball-mega-box"]
+  ],
+  "numbering": [
+    {"program": "400-card paper base program", "parallel": "Color of the Year / Heritage Orange", "numbering": "/77", "heading": "About the release / Description"},
+    {"program": "Real One Autographs Special Edition", "parallel": "Red Ink", "numbering": "/77", "qualification": "Hand-numbered; Mega description explicitly names Special Edition. Product-page art captions also name Real One Auto Special Edition Red Ink."}
+  ],
+  "formatParallels": [
+    ["Value", "Paper base", "Dark Green Bordered"],
+    ["Value", "Chrome variations", "Pink Sparkle"],
+    ["Mega", "Paper base", "Red Bordered"],
+    ["Mega", "Chrome variations", "Silver Sparkle"]
+  ],
+  "remainingGaps": [
+    "The PDF annotates ROA-BR with Base unnumbered autos are all red ink. Ink color alone does not establish the hand-numbered Special Edition /77; do not number the ordinary autograph category from the product-page wording.",
+    "The odds sheet calls one family LEAGUE CHAMPIONSHIP SERIES; the checklist labels separate AL CHAMPIONS and NL CHAMPIONS programs. Preserve the unmatched source family rather than silently merging those names.",
+    "The reviewed product pages do not provide an exhaustive numbered Chrome or paper parallel ladder. Published odds and guide additions do not establish complete parallel coverage.",
+    "The PDF's literal Rookie marks include established players. Retain those marks and original team assignments without corrections or inferred universal flags on multi-subject cards."
+  ]
+}

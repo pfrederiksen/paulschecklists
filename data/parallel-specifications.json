@@ -5589,6 +5589,107 @@
         "evidenceFile": "data/parallel-audit-sources/chrome-football-2025-guides-20261015.json",
         "evidenceSha256": "272cc029d2aba478454d81298b912ecbe8cc668aae8551068b8e2594922586bc"
       }
+    ],
+    "topps-bowman-2026-topps-heritage-baseball": [
+      {
+        "family": "BASE CARDS",
+        "name": "Heritage Orange / Color of the Year",
+        "numbering": "/77",
+        "oddsName": "BASE COLOR OF THE YEAR",
+        "source": "https://www.topps.com/pages/topps-heritage-baseball",
+        "sourceHeading": "About the release",
+        "qualification": "Paper base program only; retain the exact odds category and short-print scope. Individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+        "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+      },
+      {
+        "family": "LEAGUE LEADERS",
+        "name": "Heritage Orange / Color of the Year",
+        "numbering": "/77",
+        "oddsName": "LEAGUE LEADERS COLOR OF THE YEAR",
+        "source": "https://www.topps.com/pages/topps-heritage-baseball",
+        "sourceHeading": "About the release",
+        "qualification": "Paper base program only; retain the exact odds category and short-print scope. Individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+        "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+      },
+      {
+        "family": "RECORD BREAKERS",
+        "name": "Heritage Orange / Color of the Year",
+        "numbering": "/77",
+        "oddsName": "RECORD BREAKERS COLOR OF THE YEAR",
+        "source": "https://www.topps.com/pages/topps-heritage-baseball",
+        "sourceHeading": "About the release",
+        "qualification": "Paper base program only; retain the exact odds category and short-print scope. Individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+        "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+      },
+      {
+        "family": "LEAGUE CHAMPIONSHIP SERIES",
+        "name": "Heritage Orange / Color of the Year",
+        "numbering": "/77",
+        "oddsName": "LEAGUE CHAMPIONSHIP SERIES COLOR OF THE YEAR",
+        "source": "https://www.topps.com/pages/topps-heritage-baseball",
+        "sourceHeading": "About the release",
+        "qualification": "Paper base program only; retain the exact odds category and short-print scope. Individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+        "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Heritage Orange / Color of the Year",
+        "numbering": "/77",
+        "oddsName": "BASE SHORT PRINTS COLOR OF THE YEAR",
+        "source": "https://www.topps.com/pages/topps-heritage-baseball",
+        "sourceHeading": "About the release",
+        "qualification": "Paper base program only; retain the exact odds category and short-print scope. Individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+        "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+      },
+      {
+        "family": "WORLD SERIES HIGHLIGHTS",
+        "name": "Heritage Orange / Color of the Year",
+        "numbering": "/77",
+        "oddsName": "WORLD SERIES HIGHLIGHTS COLOR OF THE YEAR",
+        "source": "https://www.topps.com/pages/topps-heritage-baseball",
+        "sourceHeading": "About the release",
+        "qualification": "Paper base program only; retain the exact odds category and short-print scope. Individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+        "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+      },
+      {
+        "family": "TURN BACK THE CLOCK",
+        "name": "Heritage Orange / Color of the Year",
+        "numbering": "/77",
+        "oddsName": "TURN BACK THE CLOCK COLOR OF THE YEAR",
+        "source": "https://www.topps.com/pages/topps-heritage-baseball",
+        "sourceHeading": "About the release",
+        "qualification": "Paper base program only; retain the exact odds category and short-print scope. Individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+        "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+      },
+      {
+        "family": "QUAD ROOKIES",
+        "name": "Heritage Orange / Color of the Year",
+        "numbering": "/77",
+        "oddsName": "QUAD ROOKIES COLOR OF THE YEAR",
+        "source": "https://www.topps.com/pages/topps-heritage-baseball",
+        "sourceHeading": "About the release",
+        "qualification": "Paper base program only; retain the exact odds category and short-print scope. Individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+        "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+      },
+      {
+        "family": "REAL ONE AUTOGRAPHS",
+        "name": "Special Edition Red Ink",
+        "numbering": "/77",
+        "oddsName": "REAL ONE AUTOGRAPHS SPECIAL EDITION",
+        "source": "https://www.topps.com/products/2026-topps-heritage-baseball-mega-box",
+        "sourceHeading": "Description / Autograph content",
+        "qualification": "Hand-numbered Special Edition only. The PDF separately states that base unnumbered autos are all red ink; ink color alone does not establish /77.",
+        "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+        "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+      }
     ]
   },
   "conflicts": [
@@ -5688,6 +5789,22 @@
       ],
       "evidenceFile": "data/parallel-audit-sources/chrome-football-2025-guides-20261015.json",
       "evidenceSha256": "272cc029d2aba478454d81298b912ecbe8cc668aae8551068b8e2594922586bc"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-heritage-baseball",
+      "family": "REAL ONE AUTOGRAPHS",
+      "gap": "The PDF annotates ROA-BR with Base unnumbered autos are all red ink. Ink color alone does not establish the hand-numbered Special Edition /77; do not number the ordinary autograph category from the product-page wording.",
+      "source": "https://www.topps.com/pages/topps-heritage-baseball",
+      "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+      "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-heritage-baseball",
+      "family": "LEAGUE CHAMPIONSHIP SERIES",
+      "gap": "The odds sheet calls one family LEAGUE CHAMPIONSHIP SERIES; the checklist labels separate AL CHAMPIONS and NL CHAMPIONS programs. Preserve the unmatched source family rather than silently merging those names.",
+      "source": "https://www.topps.com/pages/topps-heritage-baseball",
+      "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
+      "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
     }
   ]
 }
