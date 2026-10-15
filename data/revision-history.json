@@ -11639,5 +11639,34 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-chrome-black-baseball": {
+    "state": {
+      "checklistHash": "d30287832de79c73120564d683451e3ebc4584aacad635489f1e8716f6622115",
+      "oddsHash": "8481bf0d89a1163334ae4fffe99eb5a05fd3f16cabadd7475e08d18f6e25004b",
+      "rows": 556,
+      "odds": 68,
+      "specificationRows": 41,
+      "specificationHash": "6af59a68d5481980b2ca3504541c29e7d022b934a02e27e0520409714222fe3f"
+    },
+    "fingerprint": "50efc2bdc47dc0f8bc2ef73a22a5911301f6fdf21de3671b06a6cf15c9bc81bb",
+    "events": [
+      {
+        "at": "2026-10-15T14:25:02.017Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Checklist_--Subject_to_Change.pdf?v=1773777736",
+        "snapshot": {
+          "checklistHash": "d30287832de79c73120564d683451e3ebc4584aacad635489f1e8716f6622115",
+          "oddsHash": "8481bf0d89a1163334ae4fffe99eb5a05fd3f16cabadd7475e08d18f6e25004b",
+          "rows": 556,
+          "odds": 68,
+          "specificationRows": 41,
+          "specificationHash": "6af59a68d5481980b2ca3504541c29e7d022b934a02e27e0520409714222fe3f"
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

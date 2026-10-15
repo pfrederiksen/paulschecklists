@@ -13684,6 +13684,51 @@
         "hasCards": true,
         "unit": "source rows"
       }
+    },
+    {
+      "title": "2026 Topps Chrome Black Baseball",
+      "manufacturer": "Topps / Bowman",
+      "sport": "baseball",
+      "year": "2026",
+      "slug": "topps-bowman-2026-topps-chrome-black-baseball",
+      "page": "sets/topps-bowman-2026-topps-chrome-black-baseball.html",
+      "sourcePage": "https://www.topps.com/pages/topps-chrome-black-baseball",
+      "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Checklist_--Subject_to_Change.pdf?v=1773777736",
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Odds.pdf?v=1777474592",
+      "releaseStatus": "Released",
+      "releaseDate": "2026-04-29",
+      "verified": "2026-10-15",
+      "catalogEvidence": "All 556 printed subject rows / 542 family-card identities across 11 sections retain physical Name, Team and Rookie cells, including 200 base numbers, 30 selected rookie-design variation numbers and 203 literal Rookie marks. Dual autographs retain both signer rows and original team values, including different clubs on PDPA-WW. No missing flags or team updates are inferred. All 68 categories retain literal Hobby ratios with unpublished units. Thirty exact guide specifications include 21 base limits and nine named insert/autograph limits; Blue and Green Mini Diamond base entries have no published odds and remain specification-only. Base limits never number rookie design variations or ordinary autographs. The guide announces April 29, 2026 arrival. Damascus has 30 checklist rows versus 31 in the guide, and Paint It has 19 versus 20; no subjects are added. Other numbering ladders remain unverified.",
+      "status": "Source table",
+      "rowCount": 556,
+      "tableData": "data/imports/topps-bowman-2026-topps-chrome-black-baseball.json",
+      "sections": 11,
+      "importKind": "topps-grid-pdf",
+      "dataAudit": "All 556 printed subject rows / 542 family-card identities across 11 sections retain physical Name, Team and Rookie cells, including 200 base numbers, 30 selected rookie-design variation numbers and 203 literal Rookie marks. Dual autographs retain both signer rows and original team values, including different clubs on PDPA-WW. No missing flags or team updates are inferred. All 68 categories retain literal Hobby ratios with unpublished units. Thirty exact guide specifications include 21 base limits and nine named insert/autograph limits; Blue and Green Mini Diamond base entries have no published odds and remain specification-only. Base limits never number rookie design variations or ordinary autographs. The guide announces April 29, 2026 arrival. Damascus has 30 checklist rows versus 31 in the guide, and Paint It has 19 versus 20; no subjects are added. Other numbering ladders remain unverified.",
+      "dedicatedParser": "scripts/import_topps_chrome_black_baseball_2026.py",
+      "sha256": "d30287832de79c73120564d683451e3ebc4584aacad635489f1e8716f6622115",
+      "odds": 68,
+      "formats": 1,
+      "oddsParser": "scripts/official_odds_layout.py",
+      "oddsImportIssues": 0,
+      "releaseSource": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+      "releaseEvidence": "The April 27 Collector Guide explicitly announces April 29, 2026 arrival.",
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "sha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "source": "https://www.topps.com/pages/topps-chrome-black-baseball"
+      },
+      "presentation": {
+        "rows": 556,
+        "sections": 11,
+        "formats": 1,
+        "specifications": true,
+        "featured": false,
+        "odds": 68,
+        "hasOdds": true,
+        "hasCards": true,
+        "unit": "source rows"
+      }
     }
   ],
   "coverage": {

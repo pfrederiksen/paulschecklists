@@ -1,0 +1,231 @@
+{
+  "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+  "productSource": "https://www.topps.com/pages/topps-chrome-black-baseball",
+  "hobbySource": "https://ripped.topps.com/2026-topps-chrome-black-baseball-hobby-box/",
+  "published": "2026-04-27",
+  "hobbyPublished": "2026-04-28",
+  "observed": "2026-10-15",
+  "method": "Actual official product-page web read and complete Collector Guide and Hobby Box Guide reads in the in-app browser. This factual observation snapshot is not a raw HTML hash.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Checklist_--Subject_to_Change.pdf?v=1773777736",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Odds.pdf?v=1777474592",
+  "releaseDate": "2026-04-29",
+  "releaseEvidence": "The April 27 Collector Guide explicitly announces April 29, 2026 arrival.",
+  "baseNumbering": [
+    [
+      "Refractor",
+      "/199",
+      "Base Cards Refractor"
+    ],
+    [
+      "Blue Refractor",
+      "/150",
+      "Base Cards Blue Refractor"
+    ],
+    [
+      "Blue Mini Diamond",
+      "/150",
+      null
+    ],
+    [
+      "Green Refractor",
+      "/99",
+      "Base Cards Green Refractor"
+    ],
+    [
+      "Green Mini Diamond Refractor",
+      "/99",
+      null
+    ],
+    [
+      "Purple Refractor",
+      "/75",
+      "Base Cards Purple Refractor"
+    ],
+    [
+      "Purple Mini-Diamond Refractor",
+      "/75",
+      "Base Cards Purple Mini-Diamond Refractor"
+    ],
+    [
+      "Purple Wave Refractor",
+      "/75",
+      "Base Cards Purple Wave Refractor"
+    ],
+    [
+      "Gold Refractor",
+      "/50",
+      "Base Cards Gold Refractor"
+    ],
+    [
+      "Gold Mini-Diamond Refractor",
+      "/50",
+      "Base Cards Gold Mini Diamond Refractor"
+    ],
+    [
+      "Gold Wave Refractor",
+      "/50",
+      "Base Cards Gold Wave Refractor"
+    ],
+    [
+      "Orange Refractor",
+      "/25",
+      "Base Cards Orange Refractor"
+    ],
+    [
+      "Orange Mini Diamond. Refractor",
+      "/25",
+      "Base Cards Orange Mini Diamond Refractor"
+    ],
+    [
+      "Orange Wave",
+      "/25",
+      "Base Cards Orange Wave Refractor"
+    ],
+    [
+      "Rose Gold Refractor",
+      "/10",
+      "Base Cards Rose Gold Refractor"
+    ],
+    [
+      "Rose Gold Mini Diamond Refractor",
+      "/10",
+      "Base Cards Rose Gold Mini Diamond Refractor"
+    ],
+    [
+      "Rose Gold Wave Refractor",
+      "/10",
+      "Base Cards Rose Gold Wave Refractor"
+    ],
+    [
+      "Red Refractor",
+      "/5",
+      "Base Cards Red Refractor"
+    ],
+    [
+      "Red Mini Diamond Refractor",
+      "/5",
+      "Base Cards Red Mini Diamond Refractor"
+    ],
+    [
+      "Red Wave Refractor",
+      "/5",
+      "Base Cards Red Wave Refractor"
+    ],
+    [
+      "Superfractor",
+      "1/1",
+      "Base Cards Superfractor"
+    ]
+  ],
+  "otherNumbering": [
+    [
+      "HOME FIELD",
+      "Black",
+      "1/1",
+      "Home Field Black Refractor"
+    ],
+    [
+      "DEPTH OF DARKNESS",
+      "Red Refractor",
+      "/5",
+      "Depth of Darkness Red Refractor"
+    ],
+    [
+      "DEPTH OF DARKNESS",
+      "Superfractor",
+      "1/1",
+      "Depth of Darkness Superfractor"
+    ],
+    [
+      "DAMASCUS",
+      "Superfractor",
+      "1/1",
+      "Damascus Superfractor"
+    ],
+    [
+      "PAINT IT",
+      "Red Refractor",
+      "/5",
+      "Paint It! Red Refractor"
+    ],
+    [
+      "PAINT IT",
+      "Superfractor",
+      "1/1",
+      "Paint It! Superfractor"
+    ],
+    [
+      "IVORY AUTOGRAPHS",
+      "Orange Trim Refractor",
+      "/25",
+      "Ivory Autographs Orange Trim"
+    ],
+    [
+      "IVORY AUTOGRAPHS",
+      "Red Trim Refractor",
+      "/5",
+      "Ivory Autographs Red Trim"
+    ],
+    [
+      "IVORY AUTOGRAPHS",
+      "Superfractor",
+      "1/1",
+      "Ivory Autographs Superfractor"
+    ]
+  ],
+  "boxContents": [
+    [
+      "Packs per Hobby box",
+      "2"
+    ],
+    [
+      "Cards per pack",
+      "6"
+    ],
+    [
+      "Additional encased on-card autograph",
+      "1"
+    ],
+    [
+      "Total cards per Hobby box",
+      "13"
+    ],
+    [
+      "Parallels per pack (product-page expectation)",
+      "1"
+    ]
+  ],
+  "guideCounts": [
+    [
+      "Base",
+      "200"
+    ],
+    [
+      "Home Field",
+      "20"
+    ],
+    [
+      "Depth of Darkness",
+      "20"
+    ],
+    [
+      "Damascus",
+      "31; checklist prints 30"
+    ],
+    [
+      "Paint It",
+      "20; checklist prints 19"
+    ],
+    [
+      "Ivory Autographs",
+      "36"
+    ]
+  ],
+  "remainingGaps": [
+    "The guide names Blue Mini Diamond /150 and Green Mini Diamond Refractor /99 base parallels absent from the odds sheet; retain specification-only entries with no odds.",
+    "The guide describes 31 Damascus and 20 Paint It entries, while the linked checklist prints 30 and 19 respectively. Preserve the official roster without adding subjects.",
+    "The full numbering ladders for rookie design variations, ordinary autographs, dual autographs, Super Futures and Nocturnal remain unverified. Base colors never number these families.",
+    "The odds header names Hobby but no ratio unit; product-page packs and box contents are separate specifications, not evidence that these ratios are per pack.",
+    "The Collector Guide includes unrelated Bowman program names in a generic insert paragraph; these are not imported into the Chrome Black checklist."
+  ]
+}

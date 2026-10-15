@@ -375,5 +375,11 @@
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Midnight_Basketball_Odds.pdf?v=1769113140",
     "source": "https://www.topps.com/pages/topps-midnight-basketball",
     "sha256": "497fa541b8f40a55fc11ec27c272e2e7237155951ef76f354c4e0ef9f19a5106"
+  },
+  {
+    "title": "2026 Topps Chrome Black Baseball",
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Odds.pdf?v=1777474592",
+    "source": "https://www.topps.com/pages/topps-chrome-black-baseball",
+    "sha256": "8481bf0d89a1163334ae4fffe99eb5a05fd3f16cabadd7475e08d18f6e25004b"
   }
 ]

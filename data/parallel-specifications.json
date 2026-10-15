@@ -5938,6 +5938,306 @@
         "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
         "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
       }
+    ],
+    "topps-bowman-2026-topps-chrome-black-baseball": [
+      {
+        "family": "BASE CARDS",
+        "name": "Refractor",
+        "numbering": "/199",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Blue Refractor",
+        "numbering": "/150",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Blue Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Blue Mini Diamond",
+        "numbering": "/150",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs. Named in the guide but absent from the odds sheet; no odds are inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Green Refractor",
+        "numbering": "/99",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Green Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Green Mini Diamond Refractor",
+        "numbering": "/99",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs. Named in the guide but absent from the odds sheet; no odds are inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Purple Refractor",
+        "numbering": "/75",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Purple Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Purple Mini-Diamond Refractor",
+        "numbering": "/75",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Purple Mini-Diamond Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Purple Wave Refractor",
+        "numbering": "/75",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Purple Wave Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Gold Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Gold Mini-Diamond Refractor",
+        "numbering": "/50",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Gold Mini Diamond Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Gold Wave Refractor",
+        "numbering": "/50",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Gold Wave Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Orange Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Orange Mini Diamond. Refractor",
+        "numbering": "/25",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Orange Mini Diamond Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Orange Wave",
+        "numbering": "/25",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Orange Wave Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Rose Gold Refractor",
+        "numbering": "/10",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Rose Gold Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Rose Gold Mini Diamond Refractor",
+        "numbering": "/10",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Rose Gold Mini Diamond Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Rose Gold Wave Refractor",
+        "numbering": "/10",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Rose Gold Wave Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Red Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Red Mini Diamond Refractor",
+        "numbering": "/5",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Red Mini Diamond Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Red Wave Refractor",
+        "numbering": "/5",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Red Wave Refractor"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "qualification": "Sequential numbering published for the base family only; not applied to rookie design variations, inserts or autographs.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6",
+        "oddsName": "Base Cards Superfractor"
+      },
+      {
+        "family": "HOME FIELD",
+        "name": "Black",
+        "numbering": "1/1",
+        "oddsName": "Home Field Black Refractor",
+        "qualification": "Published for this exact named family and parallel; individual-subject eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+      },
+      {
+        "family": "DEPTH OF DARKNESS",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "Depth of Darkness Red Refractor",
+        "qualification": "Published for this exact named family and parallel; individual-subject eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+      },
+      {
+        "family": "DEPTH OF DARKNESS",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Depth of Darkness Superfractor",
+        "qualification": "Published for this exact named family and parallel; individual-subject eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+      },
+      {
+        "family": "DAMASCUS",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Damascus Superfractor",
+        "qualification": "Published for this exact named family and parallel; individual-subject eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+      },
+      {
+        "family": "PAINT IT",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "Paint It! Red Refractor",
+        "qualification": "Published for this exact named family and parallel; individual-subject eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+      },
+      {
+        "family": "PAINT IT",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Paint It! Superfractor",
+        "qualification": "Published for this exact named family and parallel; individual-subject eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+      },
+      {
+        "family": "IVORY AUTOGRAPHS",
+        "name": "Orange Trim Refractor",
+        "numbering": "/25",
+        "oddsName": "Ivory Autographs Orange Trim",
+        "qualification": "Published for this exact named family and parallel; individual-subject eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+      },
+      {
+        "family": "IVORY AUTOGRAPHS",
+        "name": "Red Trim Refractor",
+        "numbering": "/5",
+        "oddsName": "Ivory Autographs Red Trim",
+        "qualification": "Published for this exact named family and parallel; individual-subject eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+      },
+      {
+        "family": "IVORY AUTOGRAPHS",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Ivory Autographs Superfractor",
+        "qualification": "Published for this exact named family and parallel; individual-subject eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+        "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+      }
     ]
   },
   "conflicts": [
@@ -6078,6 +6378,14 @@
       "source": "https://ripped.topps.com/2025-26-topps-midnight-basketball-checklist-spotlight/",
       "evidenceFile": "data/parallel-audit-sources/midnight-basketball-2025-26-guide-20261015.json",
       "evidenceSha256": "3721e6f889afc20b251b649feb3298e20376381c14880504cda4d302ae9c79fd"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-black-baseball",
+      "family": "Guide counts and incomplete numbering coverage",
+      "gap": "The guide names Blue Mini Diamond /150 and Green Mini Diamond Refractor /99 base parallels absent from the odds sheet; retain specification-only entries with no odds. The guide describes 31 Damascus and 20 Paint It entries, while the linked checklist prints 30 and 19 respectively. Preserve the official roster without adding subjects. The full numbering ladders for rookie design variations, ordinary autographs, dual autographs, Super Futures and Nocturnal remain unverified. Base colors never number these families. The odds header names Hobby but no ratio unit; product-page packs and box contents are separate specifications, not evidence that these ratios are per pack.",
+      "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+      "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+      "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
     }
   ]
 }

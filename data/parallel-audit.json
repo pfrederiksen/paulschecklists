@@ -4908,6 +4908,28 @@
           "evidenceSha256": "3721e6f889afc20b251b649feb3298e20376381c14880504cda4d302ae9c79fd"
         }
       ]
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-black-baseball",
+      "title": "2026 Topps Chrome Black Baseball",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/topps-chrome-black-baseball",
+      "oddsCategories": 68,
+      "numberedOddsCategories": 30,
+      "supplementalSpecifications": 30,
+      "structuredNumbering": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-chrome-black-baseball",
+          "family": "Guide counts and incomplete numbering coverage",
+          "gap": "The guide names Blue Mini Diamond /150 and Green Mini Diamond Refractor /99 base parallels absent from the odds sheet; retain specification-only entries with no odds. The guide describes 31 Damascus and 20 Paint It entries, while the linked checklist prints 30 and 19 respectively. Preserve the official roster without adding subjects. The full numbering ladders for rookie design variations, ordinary autographs, dual autographs, Super Futures and Nocturnal remain unverified. Base colors never number these families. The odds header names Hobby but no ratio unit; product-page packs and box contents are separate specifications, not evidence that these ratios are per pack.",
+          "source": "https://ripped.topps.com/2026-topps-chrome-black-baseball-collector-guide/",
+          "evidenceFile": "data/parallel-audit-sources/chrome-black-baseball-2026-guide-20261015.json",
+          "evidenceSha256": "5a9b904b8d6dbde3079f199d9fedcbb52cd5b5fea08c7a5cdca55133991330f6"
+        }
+      ]
     }
   ]
 }
