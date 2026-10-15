@@ -5713,6 +5713,27 @@
         "evidenceFile": "data/parallel-audit-sources/marvel-chrome-2026-guides-20261015.json",
         "evidenceSha256": "95d5d6238ee0d6da648237631b115e3b0500b2007931c3ba2d077f8418b052f8"
       }
+    ],
+    "topps-bowman-2026-topps-finest-fantastic-four": [
+      {
+        "family": "TRIBUTE TO FINEST ‘96",
+        "name": "Tribute to Finest '96",
+        "oddsName": "Tribute to Finest '96",
+        "numbering": "/96",
+        "qualification": "Tribute base variation only; no limits for its other named Refractors are inferred.",
+        "source": "https://ripped.topps.com/2026-topps-finest-fantastic-four-65th-anniversary-product-history/",
+        "evidenceFile": "data/parallel-audit-sources/fantastic-four-2026-guide-20261015.json",
+        "evidenceSha256": "74b0dd9757b3d61ec676d05829fbd46ac6cd549034c90a4fc1c9533010d93a6b"
+      },
+      {
+        "family": "FANTASTIC CREATORS",
+        "name": "Cut-signature relics",
+        "numbering": "1/1",
+        "qualification": "The guide names Jack Kirby and Stan Lee cut-signature relics; no other family is assigned this limit.",
+        "source": "https://ripped.topps.com/2026-topps-finest-fantastic-four-65th-anniversary-product-history/",
+        "evidenceFile": "data/parallel-audit-sources/fantastic-four-2026-guide-20261015.json",
+        "evidenceSha256": "74b0dd9757b3d61ec676d05829fbd46ac6cd549034c90a4fc1c9533010d93a6b"
+      }
     ]
   },
   "conflicts": [

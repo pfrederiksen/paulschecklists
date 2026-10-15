@@ -951,5 +951,32 @@
     "oddsParser": "scripts/official_odds_layout.py",
     "dedicatedParser": "scripts/import_topps_marvel_chrome_2026.py",
     "sha256": "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81"
+  },
+  {
+    "title": "2026 Topps Finest Fantastic Four",
+    "manufacturer": "Topps / Bowman",
+    "sport": "marvel",
+    "year": "2026",
+    "sourcePage": "https://www.topps.com/pages/checklists",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Fantastic_Four_Checklist.pdf?v=1773431109",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "All 704 numbered subject rows across 30 sections and 116 unnumbered sketch artists reconciled against physical cells. The three base tiers contain 100 subject rows but 98 distinct numeric identities: printed 34/034 and 41/041 repeat, while numeric 36 and 42 are absent. Preserve leading zeros and the published 19/46 forms. Blacklight, Negative Zone and Tribute each retain all 100 printed codes. Actor/character, artist and comic-issue cells remain separate unlabelled source fields. Repeated dual/triple/quad signer numbers and the missing FS-10 are retained. All 158 odds categories retain their complete wrapped names and literal Hobby ratios from ruled cells. The odds sheet names Hobby but does not state a ratio unit; no per-pack rate or probability is inferred. Only Tribute to Finest 96 /96 and Fantastic Creators 1/1 have guide-confirmed numbering; other parallel limits and a calendar release date remain unverified.",
+    "slug": "topps-bowman-2026-topps-finest-fantastic-four",
+    "page": "sets/topps-bowman-2026-topps-finest-fantastic-four.html",
+    "status": "Source table",
+    "verified": "2026-10-15",
+    "odds": 158,
+    "formats": 1,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Fantastic_Four_Odds.pdf?v=1773762703",
+    "oddsImportIssues": 0,
+    "rowCount": 704,
+    "tableData": "data/imports/topps-bowman-2026-topps-finest-fantastic-four.json",
+    "sections": 30,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 704 numbered subject rows across 30 sections and 116 unnumbered sketch artists reconciled against physical cells. The three base tiers contain 100 subject rows but 98 distinct numeric identities: printed 34/034 and 41/041 repeat, while numeric 36 and 42 are absent. Preserve leading zeros and the published 19/46 forms. Blacklight, Negative Zone and Tribute each retain all 100 printed codes. Actor/character, artist and comic-issue cells remain separate unlabelled source fields. Repeated dual/triple/quad signer numbers and the missing FS-10 are retained. All 158 odds categories retain their complete wrapped names and literal Hobby ratios from ruled cells. The odds sheet names Hobby but does not state a ratio unit; no per-pack rate or probability is inferred. Only Tribute to Finest 96 /96 and Fantastic Creators 1/1 have guide-confirmed numbering; other parallel limits and a calendar release date remain unverified.",
+    "dedicatedParser": "scripts/import_topps_fantastic_four_2026.py",
+    "sha256": "9bc71345b83ab0ec72bca8221d66c93f4c2b368556f778575a2a072dceb4ba07",
+    "oddsParser": "scripts/official_odds_layout.py"
   }
 ]

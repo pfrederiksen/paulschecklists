@@ -156,6 +156,11 @@ def read_ruled_cells(path):
             values = table.extract()
             if not values or len(values[0]) < 2 or any(cell is None for row in table.rows for cell in row.cells):
                 raise UnsupportedOddsLayout('Column borders are not published for every cell')
+            # Some official sheets put a production disclaimer and a blank
+            # spacer inside the first-page grid, above the actual headings.
+            # Accept only these exact non-data rows followed by a Cards header.
+            if pn == 1 and len(values) >= 4 and [normalized(v or '') for v in values[0]] == ['SUBJECT TO CHANGE', ''] and [normalized(v or '') for v in values[1]] == ['', ''] and normalized(values[2][0] or '') == 'Cards':
+                values = values[2:]
             header = [normalized(v or '') for v in values[0]]
             if header[0].lower() not in {'card', 'cards', 'description', 'component', 'all components'}:
                 raise UnsupportedOddsLayout('Unrecognized ruled-cell header')

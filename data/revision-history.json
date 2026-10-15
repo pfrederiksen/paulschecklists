@@ -4523,12 +4523,36 @@
     "state": {
       "checklistHash": "9bc71345b83ab0ec72bca8221d66c93f4c2b368556f778575a2a072dceb4ba07",
       "oddsHash": "4608301212840ff6e07ca011390a79b46fb7142a26d1e30afc5335caaa42fef1",
-      "rows": 705,
+      "rows": 704,
       "odds": 158,
-      "specificationRows": 0
+      "specificationRows": 118,
+      "specificationHash": "46575aab7234d6dfce66633f1d60139468e0368aea7098a562170983f4a9abe2"
     },
-    "fingerprint": "0cbbde6a8274d1ad55cf37f6c696395a66bb726dfbd96c2838d4ebec15a7d03f",
+    "fingerprint": "33ce620723f0d9718e719b34babcdae7a41b999629929036fd862c6e04f59fa4",
     "events": [
+      {
+        "at": "2026-10-15T10:17:57.840Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 118",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Fantastic_Four_Checklist.pdf?v=1773431109",
+        "snapshot": {
+          "checklistHash": "9bc71345b83ab0ec72bca8221d66c93f4c2b368556f778575a2a072dceb4ba07",
+          "oddsHash": "4608301212840ff6e07ca011390a79b46fb7142a26d1e30afc5335caaa42fef1",
+          "rows": 704,
+          "odds": 158,
+          "specificationRows": 118,
+          "specificationHash": "46575aab7234d6dfce66633f1d60139468e0368aea7098a562170983f4a9abe2"
+        },
+        "previousSnapshot": {
+          "checklistHash": "9bc71345b83ab0ec72bca8221d66c93f4c2b368556f778575a2a072dceb4ba07",
+          "oddsHash": "4608301212840ff6e07ca011390a79b46fb7142a26d1e30afc5335caaa42fef1",
+          "rows": 705,
+          "odds": 158,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T01:06:39.194Z",
         "changes": [

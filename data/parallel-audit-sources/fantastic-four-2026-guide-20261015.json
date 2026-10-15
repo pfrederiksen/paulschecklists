@@ -1,0 +1,20 @@
+{
+  "source": "https://ripped.topps.com/2026-topps-finest-fantastic-four-65th-anniversary-product-history/",
+  "observed": "2026-10-15",
+  "method": "Actual official page read in the in-app browser, including What am I Chasing and Key Facts; factual observation snapshot, not raw HTML.",
+  "facts": [
+    {"family": "TRIBUTE TO FINEST ‘96", "numbering": "/96", "scope": "The Tribute to Finest '96 base variation is described as numbered to 96. No limits for its other named Refractors are supplied by this guide."},
+    {"family": "FANTASTIC CREATORS", "numbering": "1/1", "scope": "The Jack Kirby and Stan Lee cut-signature relics are each described as numbered one of one."}
+  ],
+  "productSource": "https://www.topps.com/pages/topps-finest-fantastic-four",
+  "productFacts": [
+    "The official product page names Blacklight Lava and Negative Zone Kaleidoscope base variations but does not publish a complete serial-number ladder.",
+    "Finest Autographs are described as actors paired with their characters; original PDF columns remain separately preserved."
+  ],
+  "remainingGaps": [
+    "The complete parallel numbering ladder is not verified; no generic color limits are inferred.",
+    "No calendar release date is established by the guide or checklist publication.",
+    "The PDF's 100 base subject rows include duplicate numeric identities 34/034 and 41/041, and omit numeric 36 and 42; these printed values are retained.",
+    "Fantastic Science Autographs omits FS-10; no missing card or actor is invented."
+  ]
+}

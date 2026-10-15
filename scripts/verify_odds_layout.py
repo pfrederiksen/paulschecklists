@@ -14,7 +14,11 @@ for record in repaired:
     assert hashlib.sha256(path.read_bytes()).hexdigest() == data['oddsSha256']
     assert record['odds'] == len(data['odds']) and record['formats'] == len(data['formats'])
     with pdfplumber.open(path) as pdf:
-        header = pdf.pages[0].find_tables()[0].extract()[0]
+        header_rows = pdf.pages[0].find_tables()[0].extract()
+        header = header_rows[0]
+        if [' '.join((v or '').split()) for v in header] == ['SUBJECT TO CHANGE', '']:
+            assert header_rows[1] == ['', ''] and header_rows[2][0] == 'Cards'
+            header = header_rows[2]
         text = ' '.join(v or '' for v in header)
         if data.get('formatNamesPublished') is False:
             assert data['formats'] == ['Published odds (format not named)']
@@ -29,6 +33,13 @@ for record in repaired:
                 # and verify the left-to-right printed SKU order separately.
                 assert collections.Counter(text[caption.end():].split()) == collections.Counter(' '.join(data['formats']).split())
                 assert re.findall(r'\b(\d{4})\s+-', text) == [re.match(r'\d{4}', f)[0] for f in data['formats']]
+            elif record['slug'] == 'topps-bowman-2025-topps-chrome-football-sapphire':
+                # Retained full source headings wrap across all 14 columns;
+                # the public view intentionally exposes only Sapphire.
+                source_formats=data['officialOddsFormats']
+                assert len(source_formats)==14
+                assert collections.Counter(compact(text[caption.end():])) == collections.Counter(compact(' '.join(source_formats)))
+                assert re.findall(r'\b(\d{4})\s+-',text)==[re.match(r'\d{4}',f)[0] for f in source_formats]
             elif record['slug'] == 'topps-bowman-2026-topps-flagship-football':
                 # This dense wrapped header has no vertical separators. Text
                 # extraction reads by line and merges adjacent headings;
