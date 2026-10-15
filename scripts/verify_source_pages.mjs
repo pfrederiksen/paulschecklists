@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
-import {reconcileParallels,categoryNumbering,specificationRows} from '../parallel-specs.mjs';
+import {reconcileParallels,categoryNumbering,specificationRows,displayQualification} from '../parallel-specs.mjs';
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
 const code=(await readFile('source-page.js','utf8')).replace(/^import .*;\n/, '');
 const cases=['pdf','html','wildcard','xlsx','panini-pdf'].map(kind=>catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds))).concat(catalog.sets.filter(s=>s.importKind==='topps-grid-pdf'||s.dedicatedParser||['upper-deck-2025-26-stature','wild-card-2026-wild-card-alumination-just-the-hits-baseball-250th','wild-card-2026-wild-card-slimgem-variety-pack'].includes(s.slug)));
@@ -14,7 +14,7 @@ for(const set of cases){
   assert.equal(data.rows.length,95);assert.notEqual(set.rosterPublished,false);
  }
  const map=new Map(),get=id=>{if(!map.has(id))map.set(id,{value:'',options:id==='source-sort'?[{value:'checklist'},{value:'name'},{value:'rare'}]:[{}],setAttribute(k,v){this[k]=v;},focus(){},add(option){this.options.push(option);}});return map.get(id);};
- const context=vm.createContext({reconcileParallels,categoryNumbering,specificationRows,document:{body:{dataset:{table:set.tableData}},getElementById:get,addEventListener(){}},console,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>JSON.parse(JSON.stringify(data))})});
+ const context=vm.createContext({reconcileParallels,categoryNumbering,specificationRows,displayQualification,document:{body:{dataset:{table:set.tableData}},getElementById:get,addEventListener(){}},console,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>JSON.parse(JSON.stringify(data))})});
  await new vm.Script('(async()=>{'+code+'})()').runInContext(context);
  if(!data.rows.length){assert(get('source-results').innerHTML.includes('No matching'));assert.equal(set.rosterPublished,false);continue;}
  assert(get('source-results').innerHTML.includes('<table>'));
@@ -40,7 +40,7 @@ for(const set of cases){
   get('source-reset').onclick();get('source-section').value='TRANSCENDENT ICONS CHROME BASE CARDS';get('source-section').onchange();
   get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});
   assert(get('source-results').innerHTML.includes('/25')&&get('source-results').innerHTML.includes('/10'));
-  assert(!get('source-results').innerHTML.includes('VIP'));
+  assert(!get('source-results').innerHTML.includes('VIP'));assert(!get('source-results').innerHTML.includes('Published for the named family only;'));
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
   get('source-export').onclick();assert(csv.includes('"Name","Team","Rookie"'));assert(csv.includes('Shohei Ohtani'));
   get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('/25 or less'));assert(get('source-specifications').innerHTML.includes('Limited to 25 copies'));

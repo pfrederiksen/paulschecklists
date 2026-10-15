@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {reconcileParallels,categoryNumbering} from '../parallel-specs.mjs';
+import {reconcileParallels,categoryNumbering,displayQualification} from '../parallel-specs.mjs';
 const ag=JSON.parse(await readFile('data/allen-ginter-2026.json'));
 assert.equal(categoryNumbering(ag,'BASE CARDS ORANGE FOIL FILAGREE PARALLEL'),'/25');
 assert.equal(categoryNumbering(ag,'ALLEN & GINTER AUTOGRAPHED RELIC CARDS ORANGE FOIL FILAGREE PARALLEL'),'Not published');
@@ -32,3 +32,10 @@ assert.equal(categoryNumbering(vault,'Marvel Duos Autographs Base'),'Not publish
 assert.equal(categoryNumbering(vault,'Marvel Diamonds Base'),'/50','Preserve the prior authoritative hobby-guide Silver/base join');
 assert.equal(categoryNumbering(vault,'Vault Relics Base'),'/50');
 assert.equal(categoryNumbering(vault,'The Vault Autograph Relic Book'),'1/1');
+
+assert.equal(displayQualification('Published for this family; individual-card eligibility is not inferred.'),'');
+assert.equal(displayQualification('Published for the named family only; individual-card parallel eligibility is not inferred. Serial numbering is not stated.'),'Serial numbering is not stated.');
+assert.equal(displayQualification('Published for this family; individual-card eligibility is not inferred. Guide-only roster; /25 or less.'),'Guide-only roster; /25 or less.');
+assert.equal(displayQualification('Only selected subjects; see the official guide.'),'Only selected subjects; see the official guide.');
+
+const helperHash=createHash('sha256').update(await readFile('parallel-specs.mjs')).digest('hex').slice(0,12);for(const asset of ['source-page.js','research.js'])assert((await readFile('docs/'+asset,'utf8')).includes('./parallel-specs.mjs?v='+helperHash),'Both shared views must load the current numbering helper');
