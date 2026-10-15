@@ -1,0 +1,36 @@
+{
+  "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+  "productSource": "https://www.topps.com/pages/topps-pristine-baseball",
+  "published": "2026-08-06",
+  "observed": "2026-10-15",
+  "method": "Actual official product-page web read and complete official guide read in the in-app browser, including What's Inside and the box table. This is a factual observation snapshot, not a raw HTML hash.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Pristine_Checklist.pdf?v=1784559282",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pristine_Baseball_Odds.pdf?v=1786546346",
+  "baseNumbering": [
+    ["Aqua", "/199", "Base Cards Aqua Refractor"],
+    ["Green", "/150", "Base Cards Green Refractor"],
+    ["Purple", "/99", "Base Cards Purple Refactor"],
+    ["Blue", "/75", "Base Cards Blue Refractor"],
+    ["Gold", "/50", "Base Cards Gold Refractor"],
+    ["Orange", "/25", "Base Cards Orange Refractor"],
+    ["Pink", "/15", "Base Cards Pink Refractor"],
+    ["Primaries", "/10", "Base Cards Primaries Refractor"],
+    ["Red", "/5", "Base Cards Red Refractor"],
+    ["SuperFractor", "1/1", "Base Cards Superfractor"]
+  ],
+  "shortPrintSuperfractors": ["AMPED", "MONOGRAM", "PEARLESCENT", "PRISTINE POPS", "RUSHMORE", "TIMELESS CONNECTIONS"],
+  "autographRange": "The named autograph programs are collectively described as ranging from Green /150 to Black 1/1. Reconcile only the exact printed Pristine Autographs Green/Black categories; do not add nonexistent color categories or number other programs by color.",
+  "boxContents": [
+    ["Encased packs per Hobby box", "3; one card per pack"],
+    ["Additional packs per Hobby box", "6; seven cards per pack"],
+    ["On-card autographs per box", "2"],
+    ["Autograph relics per box", "1"]
+  ],
+  "qualifiedRelicNumbering": "The guide groups Pristine Pieces, Popular Demand and Rookie Jumbo autograph relics, then mentions a Pristine parallel numbered to 99 copies. It does not give an exact individual family/parallel join; retain the qualified statement without assigning /99 to the three rosters.",
+  "remainingGaps": [
+    "An exact calendar release date is not established by the product page or this guide's August 6 publication date.",
+    "The full parallel ladder across inserts and autograph/relic programs remains unverified; base color limits do not carry into those families.",
+    "Pristine /99 autograph-relic wording remains qualified and unjoined.",
+    "The product describes Paint the Corner, while the odds print Paint the Corners. Preserve both source wordings and the literal Purple Refactor spelling."
+  ]
+}

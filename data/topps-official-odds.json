@@ -362,5 +362,12 @@
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Football_Odds.pdf?v=1776193199",
     "sourcePage": "https://www.topps.com/pages/topps-chrome-football-sapphire",
     "scope": "6394 - NFL- CHROME 2025 SAPPHIRE HOBBY DISTRIBUTOR"
+  },
+  {
+    "title": "2026 Topps Pristine Baseball",
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pristine_Baseball_Odds.pdf?v=1786546346",
+    "source": "https://www.topps.com/pages/odds",
+    "productSource": "https://www.topps.com/pages/topps-pristine-baseball",
+    "sha256": "99014884e91f1b579561e8b74384f79f3e366886ed31f1a921ace0f7ad35604d"
   }
 ]

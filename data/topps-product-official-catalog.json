@@ -1011,5 +1011,37 @@
       "file": "data/parallel-audit-sources/tribute-baseball-2026-guide-20261015.json",
       "sha256": "2f74299b04119c63f4fd7233925d727159e56ca835117714faca6aff21444eb9"
     }
+  },
+  {
+    "title": "2026 Topps Pristine Baseball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "baseball",
+    "year": "2026",
+    "slug": "topps-bowman-2026-topps-pristine-baseball",
+    "page": "sets/topps-bowman-2026-topps-pristine-baseball.html",
+    "sourcePage": "https://www.topps.com/pages/topps-pristine-baseball",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Pristine_Checklist.pdf?v=1784559282",
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pristine_Baseball_Odds.pdf?v=1786546346",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-15",
+    "catalogEvidence": "Official product-page checklist: all 729 printed subject rows / 705 family-card identities across 18 sections, all 200 base numbers and 224 literal Rookie marks are retained. Rushmore prints four subjects per card and dual autographs retain both signer rows. Source team assignments and apparent rookie errors are not corrected or propagated. All 95 odds categories preserve both literal Encased Pack / Non-Encased Pack columns, blank cells and the spelling Refactor. Guide numbering uses exact source-family joins: ten base limits, six short-print Superfractors and Pristine Autographs Green/Black. Other color limits and the qualified autograph-relic Pristine /99 wording remain unjoined. This checklist was discovered on the product page, outside the global checklist directory. Guide publication is not a release date; exhaustive parallel numbering and an exact release date remain unverified.",
+    "status": "Source table",
+    "rowCount": 729,
+    "tableData": "data/imports/topps-bowman-2026-topps-pristine-baseball.json",
+    "sections": 18,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "Official product-page checklist: all 729 printed subject rows / 705 family-card identities across 18 sections, all 200 base numbers and 224 literal Rookie marks are retained. Rushmore prints four subjects per card and dual autographs retain both signer rows. Source team assignments and apparent rookie errors are not corrected or propagated. All 95 odds categories preserve both literal Encased Pack / Non-Encased Pack columns, blank cells and the spelling Refactor. Guide numbering uses exact source-family joins: ten base limits, six short-print Superfractors and Pristine Autographs Green/Black. Other color limits and the qualified autograph-relic Pristine /99 wording remain unjoined. This checklist was discovered on the product page, outside the global checklist directory. Guide publication is not a release date; exhaustive parallel numbering and an exact release date remain unverified.",
+    "dedicatedParser": "scripts/import_topps_pristine_2026.py",
+    "sha256": "35726164f498348bcf5b82075136d677f72fa6b282c9614a2a110a56fe9d87a7",
+    "odds": 95,
+    "formats": 2,
+    "oddsParser": "scripts/official_odds_layout.py",
+    "oddsImportIssues": 0,
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+      "sha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb",
+      "source": "https://www.topps.com/pages/topps-pristine-baseball"
+    }
   }
 ]

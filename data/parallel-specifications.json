@@ -5756,6 +5756,188 @@
         "evidenceFile": "data/parallel-audit-sources/tribute-baseball-2026-guide-20261015.json",
         "evidenceSha256": "2f74299b04119c63f4fd7233925d727159e56ca835117714faca6aff21444eb9"
       }
+    ],
+    "topps-bowman-2026-topps-pristine-baseball": [
+      {
+        "family": "BASE CARDS I",
+        "name": "Aqua",
+        "numbering": "/199",
+        "oddsName": "Base Cards Aqua Refractor",
+        "qualification": "Base family only; no base color limits are applied to inserts, autographs or relics.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Green",
+        "numbering": "/150",
+        "oddsName": "Base Cards Green Refractor",
+        "qualification": "Base family only; no base color limits are applied to inserts, autographs or relics.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Purple",
+        "numbering": "/99",
+        "oddsName": "Base Cards Purple Refactor",
+        "qualification": "Base family only; no base color limits are applied to inserts, autographs or relics.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Blue",
+        "numbering": "/75",
+        "oddsName": "Base Cards Blue Refractor",
+        "qualification": "Base family only; no base color limits are applied to inserts, autographs or relics.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Gold",
+        "numbering": "/50",
+        "oddsName": "Base Cards Gold Refractor",
+        "qualification": "Base family only; no base color limits are applied to inserts, autographs or relics.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Orange",
+        "numbering": "/25",
+        "oddsName": "Base Cards Orange Refractor",
+        "qualification": "Base family only; no base color limits are applied to inserts, autographs or relics.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Pink",
+        "numbering": "/15",
+        "oddsName": "Base Cards Pink Refractor",
+        "qualification": "Base family only; no base color limits are applied to inserts, autographs or relics.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Primaries",
+        "numbering": "/10",
+        "oddsName": "Base Cards Primaries Refractor",
+        "qualification": "Base family only; no base color limits are applied to inserts, autographs or relics.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Red",
+        "numbering": "/5",
+        "oddsName": "Base Cards Red Refractor",
+        "qualification": "Base family only; no base color limits are applied to inserts, autographs or relics.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Base Cards Superfractor",
+        "qualification": "Base family only; no base color limits are applied to inserts, autographs or relics.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "AMPED",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Amped Superfractor",
+        "qualification": "Guide explicitly names this short-print SuperFractor; no individual-subject eligibility is inferred.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "MONOGRAM",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Monogram Superfractor",
+        "qualification": "Guide explicitly names this short-print SuperFractor; no individual-subject eligibility is inferred.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "PEARLESCENT",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Pearlescent Superfractor",
+        "qualification": "Guide explicitly names this short-print SuperFractor; no individual-subject eligibility is inferred.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "PRISTINE POPS",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Pristine Pops Superfractor",
+        "qualification": "Guide explicitly names this short-print SuperFractor; no individual-subject eligibility is inferred.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "RUSHMORE",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Rushmore Superfractor",
+        "qualification": "Guide explicitly names this short-print SuperFractor; no individual-subject eligibility is inferred.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "TIMELESS CONNECTIONS",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Timeless Connections Superfractor",
+        "qualification": "Guide explicitly names this short-print SuperFractor; no individual-subject eligibility is inferred.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "PRISTINE AUTOGRAPHS",
+        "name": "Green Pristine Refractor",
+        "numbering": "/150",
+        "oddsName": "Pristine Autographs Green Pristine Refractor",
+        "qualification": "Exact Pristine Autographs category within the guide-described autograph range; other programs do not inherit this color limit.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      },
+      {
+        "family": "PRISTINE AUTOGRAPHS",
+        "name": "Black Pristine Refractor",
+        "numbering": "1/1",
+        "oddsName": "Pristine Autographs Black Pristine Refractor",
+        "qualification": "Exact Pristine Autographs category within the guide-described autograph range; other programs do not inherit this color limit.",
+        "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+        "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+      }
     ]
   },
   "conflicts": [
@@ -5880,6 +6062,14 @@
         "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tribute_Baseball_Checklist_1.pdf?v=1782740369",
         "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tirbute_Baseball_Odds.pdf?v=1785343913"
       ]
+    },
+    {
+      "slug": "topps-bowman-2026-topps-pristine-baseball",
+      "family": "Autograph relic Pristine /99 scope",
+      "gap": "The guide groups Pristine Pieces, Popular Demand and Rookie Jumbo autograph relics, then mentions a Pristine parallel numbered to 99 copies. It does not give an exact individual family/parallel join; retain the qualified statement without assigning /99 to the three rosters.",
+      "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+      "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+      "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
     }
   ]
 }

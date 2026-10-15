@@ -11583,5 +11583,34 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-pristine-baseball": {
+    "state": {
+      "checklistHash": "35726164f498348bcf5b82075136d677f72fa6b282c9614a2a110a56fe9d87a7",
+      "oddsHash": "99014884e91f1b579561e8b74384f79f3e366886ed31f1a921ace0f7ad35604d",
+      "rows": 729,
+      "odds": 95,
+      "specificationRows": 23,
+      "specificationHash": "7e20452f6b89a105e2a62c97f370a9bcda5c9351579c3ea4f1cefe2d6c07ed68"
+    },
+    "fingerprint": "65f317c4f9c6432fd2702427bb22d52710c87b48f35edd98596cdc8db759f78e",
+    "events": [
+      {
+        "at": "2026-10-15T12:24:33.436Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Pristine_Checklist.pdf?v=1784559282",
+        "snapshot": {
+          "checklistHash": "35726164f498348bcf5b82075136d677f72fa6b282c9614a2a110a56fe9d87a7",
+          "oddsHash": "99014884e91f1b579561e8b74384f79f3e366886ed31f1a921ace0f7ad35604d",
+          "rows": 729,
+          "odds": 95,
+          "specificationRows": 23,
+          "specificationHash": "7e20452f6b89a105e2a62c97f370a9bcda5c9351579c3ea4f1cefe2d6c07ed68"
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

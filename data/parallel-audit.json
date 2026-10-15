@@ -4864,6 +4864,28 @@
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-topps-pristine-baseball",
+      "title": "2026 Topps Pristine Baseball",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/topps-pristine-baseball",
+      "oddsCategories": 95,
+      "numberedOddsCategories": 18,
+      "supplementalSpecifications": 18,
+      "structuredNumbering": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-pristine-baseball",
+          "family": "Autograph relic Pristine /99 scope",
+          "gap": "The guide groups Pristine Pieces, Popular Demand and Rookie Jumbo autograph relics, then mentions a Pristine parallel numbered to 99 copies. It does not give an exact individual family/parallel join; retain the qualified statement without assigning /99 to the three rosters.",
+          "source": "https://ripped.topps.com/2026-topps-pristine-baseball-hobby-box-guide/",
+          "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2026-guide-20261015.json",
+          "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
+        }
+      ]
     }
   ]
 }
