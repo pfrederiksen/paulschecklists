@@ -11247,5 +11247,221 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "panini-2025-panini-court-kings-25-26-basketball": {
+    "state": {
+      "checklistHash": "8afd04ab7278c8b27d28ded2835a082f64377a87d756fb495759a2248e57e661",
+      "oddsHash": null,
+      "rows": 4573,
+      "odds": 0,
+      "specificationRows": 3682
+    },
+    "fingerprint": "1dc3afe74b37cdad8d77bf221e0623375c8efffac7d1f46619931fc99d7941aa",
+    "events": [
+      {
+        "at": "2026-10-15T06:18:19.711Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "8afd04ab7278c8b27d28ded2835a082f64377a87d756fb495759a2248e57e661",
+          "oddsHash": null,
+          "rows": 4573,
+          "odds": 0,
+          "specificationRows": 3682
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-euroleague-origins-25-26-basketball": {
+    "state": {
+      "checklistHash": "2b74afb68173eecb92cdab91348f5a48f7b66db634b24bcbd508551826670bdf",
+      "oddsHash": null,
+      "rows": 4237,
+      "odds": 0,
+      "specificationRows": 3621
+    },
+    "fingerprint": "0b945d57402e14be82110ec2feecc41eab188f8b984cbf85f3ba5a9674cc302b",
+    "events": [
+      {
+        "at": "2026-10-15T06:18:19.715Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "2b74afb68173eecb92cdab91348f5a48f7b66db634b24bcbd508551826670bdf",
+          "oddsHash": null,
+          "rows": 4237,
+          "odds": 0,
+          "specificationRows": 3621
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-euroleague-select-25-26-basketball": {
+    "state": {
+      "checklistHash": "e8cb8029595e3f065ee36bfe85a2622f423a0f7cdadcdd92a3534d3d00cf0360",
+      "oddsHash": null,
+      "rows": 13760,
+      "odds": 0,
+      "specificationRows": 8963
+    },
+    "fingerprint": "646739c3a36cd28fe7a89a85c5ea3944855a39683684eb4f18df48d05ce7d706",
+    "events": [
+      {
+        "at": "2026-10-15T06:18:19.729Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "e8cb8029595e3f065ee36bfe85a2622f423a0f7cdadcdd92a3534d3d00cf0360",
+          "oddsHash": null,
+          "rows": 13760,
+          "odds": 0,
+          "specificationRows": 8963
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-noir-25-26-basketball": {
+    "state": {
+      "checklistHash": "e1b8db7a239d23a3c88110f00f737612e9ef1469693780af50563309f199ba54",
+      "oddsHash": null,
+      "rows": 3512,
+      "odds": 0,
+      "specificationRows": 3512
+    },
+    "fingerprint": "c824a3639e163f10e25c5f5ba47078d9e3b6780b5817a09e576596cbc02dea7d",
+    "events": [
+      {
+        "at": "2026-10-15T06:18:19.734Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "e1b8db7a239d23a3c88110f00f737612e9ef1469693780af50563309f199ba54",
+          "oddsHash": null,
+          "rows": 3512,
+          "odds": 0,
+          "specificationRows": 3512
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-origins-25-26-basketball": {
+    "state": {
+      "checklistHash": "34ea276161d2eabf7acc532d456ca4e8e0b5e1b68c7cc42cdf6da79ca46a2c8f",
+      "oddsHash": null,
+      "rows": 5277,
+      "odds": 0,
+      "specificationRows": 4787
+    },
+    "fingerprint": "1d3702988c02bb1db784b659f83efb412c875302c4ad2ef99d06bb43392d114c",
+    "events": [
+      {
+        "at": "2026-10-15T06:18:19.740Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "34ea276161d2eabf7acc532d456ca4e8e0b5e1b68c7cc42cdf6da79ca46a2c8f",
+          "oddsHash": null,
+          "rows": 5277,
+          "odds": 0,
+          "specificationRows": 4787
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-prizm-25-26-basketball": {
+    "state": {
+      "checklistHash": "e7e06835c171b581eeaa02870d755de157bd9b8b23bbcb922d9f39c5436df0dd",
+      "oddsHash": null,
+      "rows": 16489,
+      "odds": 0,
+      "specificationRows": 12406
+    },
+    "fingerprint": "2def784e53a42aed6a6836f4d3ce34535210dc4fdd8b8693dc702be0e833bdb4",
+    "events": [
+      {
+        "at": "2026-10-15T06:18:19.754Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "e7e06835c171b581eeaa02870d755de157bd9b8b23bbcb922d9f39c5436df0dd",
+          "oddsHash": null,
+          "rows": 16489,
+          "odds": 0,
+          "specificationRows": 12406
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-select-25-26-basketball": {
+    "state": {
+      "checklistHash": "692a41f9c97ddbd63c549ea8702fc76a022c0d790723347d7a9b522d81bacad8",
+      "oddsHash": null,
+      "rows": 22370,
+      "odds": 0,
+      "specificationRows": 15877
+    },
+    "fingerprint": "e88c66cf86b275616dbfd2909c60a791f0c57a228779845cf6ad4796cdfffe53",
+    "events": [
+      {
+        "at": "2026-10-15T06:18:19.779Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "692a41f9c97ddbd63c549ea8702fc76a022c0d790723347d7a9b522d81bacad8",
+          "oddsHash": null,
+          "rows": 22370,
+          "odds": 0,
+          "specificationRows": 15877
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-signature-series-25-26-basketball": {
+    "state": {
+      "checklistHash": "2e361083a273128f8e900fff0fd8892ea9433673b59d0e8823c0d73261b1bac1",
+      "oddsHash": null,
+      "rows": 3064,
+      "odds": 0,
+      "specificationRows": 3039
+    },
+    "fingerprint": "e38cf4f2993ae0017ca80322f2ab0326ffb79e844e89023f6dab38e0f70ec690",
+    "events": [
+      {
+        "at": "2026-10-15T06:18:19.783Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "2e361083a273128f8e900fff0fd8892ea9433673b59d0e8823c0d73261b1bac1",
+          "oddsHash": null,
+          "rows": 3064,
+          "odds": 0,
+          "specificationRows": 3039
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

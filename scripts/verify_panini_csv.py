@@ -15,7 +15,14 @@ for record in records:
   assert normalized[4:]==printed
   assert normalized[:4]==[printed[4],printed[8],printed[5],printed[9]]
  expected=[(r[4],r[8],r[5],r[9]) for r in original[1:] if r[9]]
- observed=[(spec['name'],*r) for spec in data['publishedSpecifications'] for r in spec['rows']]
+ observed=[(spec['name'],*r) for spec in data['publishedSpecifications'] if spec['headers']==['Card number','Athlete','Published SEQUENCE'] for r in spec['rows']]
  assert sorted(expected)==sorted(observed)
  assert not data.get('odds') and not record.get('publishedOdds')
+ if data.get('sourceObservation'):
+  proof=data['sourceObservation'];assert hashlib.sha256((ROOT/proof['file']).read_bytes()).hexdigest()==proof['sha256']
+  assert record['releaseDate'] is None and data['checklistFirstObserved']=='2026-10-14'
+  assert record['sourceYear']=='2025' and record['year']=='2025-26'
+  assert '2025-26 Panini' in record['title']
+ for spec in data['publishedSpecifications']:
+  if spec.get('evidenceFile'):assert hashlib.sha256((ROOT/spec['evidenceFile']).read_bytes()).hexdigest()==spec['evidenceSha256']
 print(f"Verified {len(records)} official Panini exports and {sum(r['rowCount'] for r in records):,} original rows, hashes and numbering entries.")

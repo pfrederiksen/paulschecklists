@@ -1,0 +1,141 @@
+{
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "observed": "2026-10-14",
+  "method": "Actual official UI selections and Download Full Checklist actions; original UTF-8 CSV captured from the rendered data:attachment/csv export anchor because the browser download event was unavailable. No CSV reformatting or value normalization.",
+  "exports": [
+    {
+      "downloadName": "2025 Panini Court Kings (25-26) (Basketball).csv",
+      "rows": 4573,
+      "sha256": "8afd04ab7278c8b27d28ded2835a082f64377a87d756fb495759a2248e57e661",
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Court Kings (25-26)"
+      },
+      "slug": "panini-2025-panini-court-kings-25-26-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-court-kings-25-26-basketball.csv"
+    },
+    {
+      "downloadName": "2025 Panini EuroLeague Origins (25-26) (Basketball).csv",
+      "rows": 4237,
+      "sha256": "2b74afb68173eecb92cdab91348f5a48f7b66db634b24bcbd508551826670bdf",
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "EuroLeague Origins (25-26)"
+      },
+      "slug": "panini-2025-panini-euroleague-origins-25-26-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-euroleague-origins-25-26-basketball.csv"
+    },
+    {
+      "downloadName": "2025 Panini EuroLeague Select (25-26) (Basketball).csv",
+      "rows": 13760,
+      "sha256": "e8cb8029595e3f065ee36bfe85a2622f423a0f7cdadcdd92a3534d3d00cf0360",
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "EuroLeague Select (25-26)"
+      },
+      "slug": "panini-2025-panini-euroleague-select-25-26-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-euroleague-select-25-26-basketball.csv"
+    },
+    {
+      "downloadName": "2025 Panini Noir (25-26) (Basketball).csv",
+      "rows": 3512,
+      "sha256": "e1b8db7a239d23a3c88110f00f737612e9ef1469693780af50563309f199ba54",
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Noir (25-26)"
+      },
+      "slug": "panini-2025-panini-noir-25-26-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-noir-25-26-basketball.csv"
+    },
+    {
+      "downloadName": "2025 Panini Origins (25-26) (Basketball).csv",
+      "rows": 5277,
+      "sha256": "34ea276161d2eabf7acc532d456ca4e8e0b5e1b68c7cc42cdf6da79ca46a2c8f",
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Origins (25-26)"
+      },
+      "slug": "panini-2025-panini-origins-25-26-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-origins-25-26-basketball.csv"
+    },
+    {
+      "downloadName": "2025 Panini Prizm (25-26) (Basketball).csv",
+      "rows": 16489,
+      "sha256": "e7e06835c171b581eeaa02870d755de157bd9b8b23bbcb922d9f39c5436df0dd",
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Prizm (25-26)"
+      },
+      "slug": "panini-2025-panini-prizm-25-26-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-prizm-25-26-basketball.csv"
+    },
+    {
+      "downloadName": "2025 Panini Select (25-26) (Basketball).csv",
+      "rows": 22370,
+      "sha256": "692a41f9c97ddbd63c549ea8702fc76a022c0d790723347d7a9b522d81bacad8",
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Select (25-26)"
+      },
+      "slug": "panini-2025-panini-select-25-26-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-select-25-26-basketball.csv"
+    },
+    {
+      "downloadName": "2025 Panini Signature Series (25-26) (Basketball).csv",
+      "rows": 3064,
+      "sha256": "2e361083a273128f8e900fff0fd8892ea9433673b59d0e8823c0d73261b1bac1",
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Signature Series (25-26)"
+      },
+      "slug": "panini-2025-panini-signature-series-25-26-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-signature-series-25-26-basketball.csv"
+    }
+  ],
+  "releaseEvidence": [
+    {
+      "source": "https://blog.paniniamerica.net/search-for-amazing-autograph-gems-in-upcoming-panini-basketball-products/",
+      "published": "2026-08-24",
+      "fact": "Official 2026 announcement identifies Origins, Noir and Select as upcoming collections; this article date is not an exact release date."
+    },
+    {
+      "source": "https://blog.paniniamerica.net/where-legends-begin-2025-26-panini-origins-euroleague-basketball/",
+      "published": "2026-06-18",
+      "fact": "Official announcement describes the debut of 2025-26 Origins EuroLeague. The publication date is not asserted as the release date."
+    }
+  ],
+  "euroleagueOriginsSpecifications": [
+    [
+      "Autographs or memorabilia",
+      "Two per Hobby box on average"
+    ],
+    [
+      "Parallels",
+      "Three per box on average"
+    ],
+    [
+      "Published numbering range",
+      "125 down to 1; guide does not assign these limits to individual named parallels; use original card-specific SEQUENCE fields"
+    ],
+    [
+      "Named SSP inserts",
+      "Tiger Eyes; White Tiger Eyes; Blank Slate; no pack odds published in the announcement"
+    ]
+  ]
+}

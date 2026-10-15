@@ -1,3 +1,4 @@
 # Retain official source snapshots byte-for-byte for SHA-256 verification.
 data/official-leaf/** binary
 data/official-upperdeck/** binary
+data/official-panini/** binary
