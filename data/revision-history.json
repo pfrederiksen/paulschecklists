@@ -336,10 +336,34 @@
       "oddsHash": null,
       "rows": 640,
       "odds": 0,
-      "specificationRows": 0
+      "specificationRows": 23,
+      "specificationHash": "6a322e1bc147ebc00ae40b1df598edce834b42d4ab5d81ad5aa9a8d7918b4935"
     },
-    "fingerprint": "2fe27622874f8b60782a94ef9f8c6a9fbcc847f6b2e236afd0ae4da890ed14b0",
+    "fingerprint": "97e0e5673baf4b63f91046b7e997bf5efb30efd85e2cd4d0b06bed80e2a4a4be",
     "events": [
+      {
+        "at": "2026-10-15T04:12:39.847Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 23",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Holiday_Baseball_26THBW_-_Checklist.pdf?v=1789566977",
+        "snapshot": {
+          "checklistHash": "b1620c82da3e511fec6e000537d12ee0824ef51529f4e30fbc5427bc3c467f20",
+          "oddsHash": null,
+          "rows": 640,
+          "odds": 0,
+          "specificationRows": 23,
+          "specificationHash": "6a322e1bc147ebc00ae40b1df598edce834b42d4ab5d81ad5aa9a8d7918b4935"
+        },
+        "previousSnapshot": {
+          "checklistHash": "b1620c82da3e511fec6e000537d12ee0824ef51529f4e30fbc5427bc3c467f20",
+          "oddsHash": null,
+          "rows": 640,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.101Z",
         "changes": [

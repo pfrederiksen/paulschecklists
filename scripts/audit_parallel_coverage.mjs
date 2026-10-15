@@ -5,7 +5,7 @@ const registry=JSON.parse(await readFile('data/parallel-specifications.json','ut
 const audit=[];
 for(const set of catalog.sets){let data;try{data=JSON.parse(await readFile(set.tableData??`data/${set.page.replace('.html','.json')}`,'utf8'));}catch{}
  const odds=data?reconcileParallels(data):[];
- const known=odds.filter(o=>!['Not published','Not stated in imported sources'].includes(categoryNumbering({...data,odds},o.name))).length;
+ const known=odds.filter(o=>!/(?:not (?:published|stated)|unverified|unknown)/i.test(categoryNumbering({...data,odds},o.name))).length;
  const structured=!!(data?.serialColumn!=null||data?.publishedSpecifications?.length||data?.officialStructure||data?.parallelSpecifications?.length);
  audit.push({slug:set.slug,title:set.title,manufacturer:set.manufacturer,source:set.sourcePage,oddsCategories:(data?.odds??[]).length,numberedOddsCategories:known,supplementalSpecifications:data?.parallelSpecifications?.length??0,structuredNumbering:structured,ongoingSeries:!!set.ongoingSeries,status:!data?'Source import pending':structured?'Numbering evidence imported; exhaustive parallel reconciliation not confirmed':'Supplementary parallel and numbering review pending',conflicts:(registry.conflicts??[]).filter(c=>c.slug===set.slug)});
 }

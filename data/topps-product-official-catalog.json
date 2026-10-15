@@ -840,5 +840,30 @@
     "releaseStatus": "Upcoming",
     "releaseDate": "2026-11-04",
     "releaseEvidence": "https://www.topps.com/pages/topps-mint-disney"
+  },
+  {
+    "title": "2026 Topps Holiday Baseball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "baseball",
+    "year": "2026",
+    "sourcePage": "https://www.topps.com/pages/topps-holiday-baseball",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Holiday_Baseball_26THBW_-_Checklist.pdf?v=1789566977",
+    "releaseStatus": "Upcoming",
+    "releaseDate": "2026-10-21",
+    "catalogEvidence": "All 640 physical subject rows across 12 sections reconciled, retaining both 200-card base programs, 191 printed Rookie marks, five faux relic subjects with blank teams and the printed H202 variation. Official guide parallel programs and box/tin/calendar/case units are preserved separately from pack odds. The five-player Hidden Elf guide description conflicts with the 25 separately named PDF subjects; the guides also describe autographs absent from the current PDF roster. No serial limits or pack-odds PDF verified; exhaustive parallel reconciliation remains pending.",
+    "slug": "topps-bowman-2026-topps-holiday-baseball",
+    "page": "sets/topps-bowman-2026-topps-holiday-baseball.html",
+    "status": "Source table",
+    "verified": "2026-10-11",
+    "rowCount": 640,
+    "tableData": "data/imports/topps-bowman-2026-topps-holiday-baseball.json",
+    "sections": 12,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 640 physical subject rows across 12 sections reconciled, retaining both 200-card base programs, 191 printed Rookie marks, five faux relic subjects with blank teams and the printed H202 variation. Official guide parallel programs and box/tin/calendar/case units are preserved separately from pack odds. The five-player Hidden Elf guide description conflicts with the 25 separately named PDF subjects; the guides also describe autographs absent from the current PDF roster. No serial limits or pack-odds PDF verified; exhaustive parallel reconciliation remains pending.",
+    "parallelData": true,
+    "releaseEvidence": "https://ripped.topps.com/2026-topps-holiday-baseball-guide/",
+    "dedicatedParser": "scripts/import_topps_holiday_2026.py",
+    "sha256": "b1620c82da3e511fec6e000537d12ee0824ef51529f4e30fbc5427bc3c467f20",
+    "description": "Two 200-card paper and Chrome base programs, holiday variations, ornaments, Hidden Elf, Making the Nice List and relics. Browse original player, team and rookie fields, plus guide-described parallels and format-specific contents; numbering and pack odds remain unpublished."
   }
 ]

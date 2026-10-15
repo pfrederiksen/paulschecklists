@@ -16,6 +16,7 @@ console.log('Verified official numbering, exact family scopes and specification-
 const csv={publishedSpecifications:[{name:'Base Orange',headers:['Card number','Athlete','Published SEQUENCE'],rows:[['1','A','25'],['2','B','25']]}]};assert.equal(categoryNumbering(csv,'Base Orange'),'/25');
 
 const registry=JSON.parse(await readFile('data/parallel-specifications.json'));
+const holidayAudit=JSON.parse(await readFile('data/parallel-audit.json')).sets.find(s=>s.slug==='topps-bowman-2026-topps-holiday-baseball');assert.equal(holidayAudit.numberedOddsCategories,0,'Guide parallel names with unstated numbering must not count as verified numbering');
 for(const conflict of registry.conflicts??[])if(conflict.evidenceFile)assert.equal(createHash('sha256').update(await readFile(conflict.evidenceFile)).digest('hex'),conflict.evidenceSha256,'Conflicting guide evidence must retain its verified hash');
 assert(registry.conflicts.some(c=>c.slug==='topps-bowman-2026-topps-chrome-baseball'&&c.family==='GOLD LOGOMAN RELICS'));
 assert(!(registry.sets['topps-bowman-2026-topps-chrome-baseball']??[]).some(s=>s.family==='GOLD LOGOMAN RELICS'),'Conflicting Gold Logoman limits must not be selected');

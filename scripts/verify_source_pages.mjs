@@ -28,6 +28,15 @@ for(const set of cases){
  get('source-reset').onclick();assert.equal(get('source-sort').value,'checklist');assert.equal(get('source-section').value,'');
  assert(get('insights').innerHTML.includes('insight-grid'));
  get('source-odds-tab').onclick();assert.equal(get('source-cards-panel').hidden,true);assert.equal(get('source-specifications').hidden,false);get('source-cards-tab').onclick();assert.equal(get('source-specifications').hidden,true);
+ if(set.slug==='topps-bowman-2026-topps-holiday-baseball'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,true);
+  assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'51 official source rows');get('source-reset').onclick();
+  get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-team').value='Arizona Diamondbacks®';get('source-team').onchange();get('source-search').value='Nolan Arenado';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"H6","Nolan Arenado","Arizona Diamondbacks®",""'));
+  get('source-reset').onclick();get('source-section').value='BASE CARDS CHROME VARIATION';get('source-section').onchange();get('source-results').onclick({target:{closest:()=>({dataset:{row:'200'}})}});assert(get('source-results').innerHTML.includes('Refractor Plaid'));assert(!get('source-results').innerHTML.includes('Gingerbread'));
+  get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Advent Calendar exclusive'));get('source-reset').onclick();assert(get('source-specifications').innerHTML.includes('One per case'));assert(!get('source-specifications').innerHTML.includes('1 in '));get('source-export').onclick();assert(csv.includes('Numbering not stated'));assert(csv.includes('Advent Calendar exclusive'));get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-topps-chrome-football-sapphire'){
   assert.deepEqual(data.formats,[data.oddsScope]);assert.equal(data.odds.length,55);
   get('source-section').value='ROOKIE';get('source-section').onchange();assert.equal(get('source-count').textContent,'100 official source rows');

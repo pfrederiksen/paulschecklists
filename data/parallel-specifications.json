@@ -5243,6 +5243,148 @@
         "evidenceFile": "data/parallel-audit-sources/mint-disney-2026-product-20261014.json",
         "evidenceSha256": "7426ecf9edc069ef6ec0eda3a877acf734958cea61389fd18efb478a5042395c"
       }
+    ],
+    "topps-bowman-2026-topps-holiday-baseball": [
+      {
+        "family": "BASE CARDS",
+        "name": "Metallic Gingerbread Man",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "New base parallel; format not specified. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Snow Days",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "New base parallel; guide also names it in Advent Calendar base slots. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Glitter Holiday",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Hobby Mega Box exclusive parallel family. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Blue Metallic Glitter Holiday",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Named in the Hobby Mega Box description. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Light Blue and White Glitter Holiday",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Retain the single combined phrase printed in the Hobby Mega Box description; no separate color identities inferred. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Candy Cane",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Named as a Mega Box-only Metallic parallel; distinct from the Collector Tin Candy Cane-themed ornament insert. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Stocking",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Named as a Mega Box-only Metallic parallel. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Holly",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Named as a Mega Box-only Metallic parallel. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Exclusive Holiday Lights",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Collector Tin; six parallels per tin is a contents statement, not pack odds. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Holiday Plaid",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Advent Calendar exclusive. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Sticker",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Advent Calendar exclusive; retain sticker units. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS CHROME VARIATION",
+        "name": "Refractor",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Chrome counterpart family only. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS CHROME VARIATION",
+        "name": "Sparkle",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Chrome counterpart family only. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      },
+      {
+        "family": "BASE CARDS CHROME VARIATION",
+        "name": "Refractor Plaid",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+        "qualification": "Advent Calendar exclusive; guide names colors from Green to Red without an exhaustive individual color list or limits. Individual-card eligibility is not inferred.",
+        "sourceHeading": "What’s Inside / format descriptions / FAQs",
+        "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+      }
     ]
   },
   "conflicts": [
@@ -5284,6 +5426,22 @@
       ],
       "evidenceFile": "data/parallel-audit-sources/flagship-basketball-2026-guide-20261014.json",
       "evidenceSha256": "6e8f7d4caa377e62bf6263018bb9697af4141d1dfe34e8f84bd0f3fe565fc8a8"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-holiday-baseball",
+      "family": "HIDDEN ELF",
+      "issue": "The box guide describes five Hidden Elf players with five variations each, but the PDF lists 25 separately named subjects. The collector guide describes a 25-card checklist without making the five-player claim.",
+      "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+      "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+      "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-holiday-baseball",
+      "family": "AUTOGRAPHS",
+      "issue": "The collector guide and box guide discuss autographs, but this 14-page PDF contains no autograph section; no unpublished autograph roster is inferred.",
+      "source": "https://ripped.topps.com/2026-topps-holiday-baseball-guide/",
+      "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+      "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
     }
   ]
 }

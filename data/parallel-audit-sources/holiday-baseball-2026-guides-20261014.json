@@ -1,0 +1,46 @@
+{
+  "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+  "collectorGuide": "https://ripped.topps.com/2026-topps-holiday-baseball-guide/",
+  "productSource": "https://www.topps.com/pages/topps-holiday-baseball",
+  "observed": "2026-10-14",
+  "method": "Full official product, box-guide and collector-guide web reads, including FAQs; physical checklist PDF reconciled separately.",
+  "releaseDate": "2026-10-21",
+  "releaseStatus": "Upcoming",
+  "releaseEvidence": "The collector guide explicitly distinguishes October 21, 2026 release from September 21 online presales. The current product page also announces October 21 availability.",
+  "configuration": [
+    ["Hobby Mega Box", "10 packs; 10 base cards per pack; one autograph, relic, autographed relic or Base Chrome Variation per box; Oversized Die-Cut Ornament boxtopper"],
+    ["Collector Tin", "Three tins per box; 59 cards per tin; six Exclusive Holiday Lights parallels per tin; Holiday Variation Short Print; Candy Cane-themed Die-Cut Ornament in one of every three tins"],
+    ["Advent Calendar", "24 packs; five cards per pack; each pack has three base cards, one Holiday Plaid parallel and one rotating-content card; 18 Making the NICE List! die-cuts, two Holiday Variation Short Prints, two Chrome Plaid parallels and two Base Sticker cards across the calendar; Snow Days can occupy base slots"]
+  ],
+  "parallelPrograms": [
+    ["BASE CARDS", "Metallic Gingerbread Man", "Numbering not stated", "New base parallel; format not specified"],
+    ["BASE CARDS", "Snow Days", "Numbering not stated", "New base parallel; guide also names it in Advent Calendar base slots"],
+    ["BASE CARDS", "Glitter Holiday", "Numbering not stated", "Hobby Mega Box exclusive parallel family"],
+    ["BASE CARDS", "Blue Metallic Glitter Holiday", "Numbering not stated", "Named in the Hobby Mega Box description"],
+    ["BASE CARDS", "Light Blue and White Glitter Holiday", "Numbering not stated", "Retain the single combined phrase printed in the Hobby Mega Box description; no separate color identities inferred"],
+    ["BASE CARDS", "Candy Cane", "Numbering not stated", "Named as a Mega Box-only Metallic parallel; distinct from the Collector Tin Candy Cane-themed ornament insert"],
+    ["BASE CARDS", "Stocking", "Numbering not stated", "Named as a Mega Box-only Metallic parallel"],
+    ["BASE CARDS", "Holly", "Numbering not stated", "Named as a Mega Box-only Metallic parallel"],
+    ["BASE CARDS", "Exclusive Holiday Lights", "Numbering not stated", "Collector Tin; six parallels per tin is a contents statement, not pack odds"],
+    ["BASE CARDS", "Holiday Plaid", "Numbering not stated", "Advent Calendar exclusive"],
+    ["BASE CARDS", "Sticker", "Numbering not stated", "Advent Calendar exclusive; retain sticker units"],
+    ["BASE CARDS CHROME VARIATION", "Refractor", "Numbering not stated", "Chrome counterpart family only"],
+    ["BASE CARDS CHROME VARIATION", "Sparkle", "Numbering not stated", "Chrome counterpart family only"],
+    ["BASE CARDS CHROME VARIATION", "Refractor Plaid", "Numbering not stated", "Advent Calendar exclusive; guide names colors from Green to Red without an exhaustive individual color list or limits"]
+  ],
+  "distribution": [
+    ["HIDDEN ELF", "One per case", "Hobby Mega Box; FAQ statement, not a per-pack ratio"],
+    ["HIDDEN ELF", "Hobby Mega Box and Collector Tin exclusive", "The box guide describes five players with five variations each, while the PDF lists 25 separately named subjects; preserve the conflict and do not infer individual variant eligibility"],
+    ["HOLIDAY RELICS / HOLIDAY FAUX RELICS", "Hobby Mega Box exclusive", "Guide describes autographed variations; the current PDF does not supply an autograph roster"],
+    ["OVERSIZED DIE CUT ORNAMENT", "Hobby Mega Box exclusive", "Wreath-shaped boxtopper; separate from the smaller Collector Tin ornament"],
+    ["DIE CUT ORNAMENT", "One of every three tins", "Collector Tin; Candy Cane-themed insert; preserve tin units"],
+    ["MAKING THE NICE LIST", "Advent Calendar exclusive", "18 die-cuts per calendar; 25 numbered subjects in the PDF"]
+  ],
+  "remainingGaps": [
+    "No pack-odds PDF is linked on the current product page or global odds catalog. No serial-number limits are stated in these guides.",
+    "Guide-described parallel programs do not establish an exhaustive family/card-specific inventory; do not split ambiguous combined names or expand Green-to-Red into inferred colors.",
+    "The box guide describes five Hidden Elf players with five variations each, but the PDF lists 25 separately named subjects. The collector guide describes a 25-card checklist without making the five-player claim.",
+    "The collector guide and box guide discuss autographs, but this 14-page PDF contains no autograph section; no unpublished autograph roster is inferred.",
+    "HOLIDAY VARIATION SHORT PRINT includes printed H202 Jordan Walker; retain it even though the base list ends at H200."
+  ]
+}

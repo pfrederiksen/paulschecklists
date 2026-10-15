@@ -201,14 +201,31 @@
       "slug": "topps-bowman-2026-topps-holiday-baseball",
       "title": "2026 Topps Holiday Baseball",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-holiday-baseball",
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "supplementalSpecifications": 14,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-holiday-baseball",
+          "family": "HIDDEN ELF",
+          "issue": "The box guide describes five Hidden Elf players with five variations each, but the PDF lists 25 separately named subjects. The collector guide describes a 25-card checklist without making the five-player claim.",
+          "source": "https://ripped.topps.com/2026-topps-holiday-baseball-which-box-is-best/",
+          "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+          "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+        },
+        {
+          "slug": "topps-bowman-2026-topps-holiday-baseball",
+          "family": "AUTOGRAPHS",
+          "issue": "The collector guide and box guide discuss autographs, but this 14-page PDF contains no autograph section; no unpublished autograph roster is inferred.",
+          "source": "https://ripped.topps.com/2026-topps-holiday-baseball-guide/",
+          "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
+          "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-26-topps-hopps-basketball",
@@ -629,7 +646,7 @@
       "manufacturer": "Topps / Bowman",
       "source": "https://www.topps.com/pages/checklists",
       "oddsCategories": 107,
-      "numberedOddsCategories": 53,
+      "numberedOddsCategories": 52,
       "supplementalSpecifications": 53,
       "structuredNumbering": true,
       "ongoingSeries": false,
