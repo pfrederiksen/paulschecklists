@@ -924,5 +924,32 @@
       "sha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba",
       "source": "https://www.topps.com/pages/topps-heritage-baseball"
     }
+  },
+  {
+    "title": "2026 Topps Chrome® Marvel Comics",
+    "manufacturer": "Topps / Bowman",
+    "sport": "marvel",
+    "year": "2026",
+    "sourcePage": "https://www.topps.com/pages/checklists",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_HobbyValueMega_Checklist.pdf?v=1780349890",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "All 764 numbered subject rows in 31 sections reconciled, including both 200-card base and Clawed programs, 30 retail insert rows, the wrapped quad-facsimile heading and both printed inline cards 136 Mary Jane / 137 Misery. All 38 unlabelled additional cells retain their printed artist names or years without assigning new column roles. Artist Originals lists two unnumbered artists; the separate sketch roster retains 124 names, including IQ and the final Japanese/Latin name. No team or rookie fields are inferred. All 179 odds categories and seven literal columns remain unchanged, including three-part and period-separated ratios; those values are not converted to numeric hit rates. The guide describes the Stan Lee/Steve Ditko cut program and Artist Originals as one-of-one; these do not number the separate five-character The One and Only insert. Exhaustive parallel numbering and a release date remain unverified.",
+    "slug": "topps-bowman-2026-topps-chrome-marvel-comics",
+    "page": "sets/topps-bowman-2026-topps-chrome-marvel-comics.html",
+    "status": "Source table",
+    "verified": "2026-10-15",
+    "odds": 179,
+    "formats": 7,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Marvel_Comics_Chrome_Odds.pdf?v=1780349073",
+    "oddsImportIssues": 0,
+    "rowCount": 764,
+    "tableData": "data/imports/topps-bowman-2026-topps-chrome-marvel-comics.json",
+    "sections": 31,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 764 numbered subject rows in 31 sections reconciled, including both 200-card base and Clawed programs, 30 retail insert rows, the wrapped quad-facsimile heading and both printed inline cards 136 Mary Jane / 137 Misery. All 38 unlabelled additional cells retain their printed artist names or years without assigning new column roles. Artist Originals lists two unnumbered artists; the separate sketch roster retains 124 names, including IQ and the final Japanese/Latin name. No team or rookie fields are inferred. All 179 odds categories and seven literal columns remain unchanged, including three-part and period-separated ratios; those values are not converted to numeric hit rates. The guide describes the Stan Lee/Steve Ditko cut program and Artist Originals as one-of-one; these do not number the separate five-character The One and Only insert. Exhaustive parallel numbering and a release date remain unverified.",
+    "oddsParser": "scripts/official_odds_layout.py",
+    "dedicatedParser": "scripts/import_topps_marvel_chrome_2026.py",
+    "sha256": "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81"
   }
 ]

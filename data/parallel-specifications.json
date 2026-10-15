@@ -5690,6 +5690,29 @@
         "evidenceFile": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
         "evidenceSha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba"
       }
+    ],
+    "topps-bowman-2026-topps-chrome-marvel-comics": [
+      {
+        "family": "THE ONE AND ONLY STAN LEE AND STEVE DITKO",
+        "name": "Cut signatures",
+        "numbering": "1/1",
+        "qualification": "Named Stan Lee/Steve Ditko cut-signature program only; the separate five-character The One and Only insert is not assigned this limit.",
+        "sourceHeading": "Introduction / The One and Only cut signatures",
+        "source": "https://ripped.topps.com/2026-topps-chrome-marvel-comics-collector-guide-cards/",
+        "evidenceFile": "data/parallel-audit-sources/marvel-chrome-2026-guides-20261015.json",
+        "evidenceSha256": "95d5d6238ee0d6da648237631b115e3b0500b2007931c3ba2d077f8418b052f8"
+      },
+      {
+        "family": "ARTIST ORIGINALS",
+        "name": "Original hand-drawn artwork",
+        "numbering": "One-of-one original artwork",
+        "oddsName": "Artist Originals",
+        "qualification": "The guide describes artwork uniqueness; this is not a claim of printed serial numbering for the artist roster or other sketch programs.",
+        "sourceHeading": "Artist Originals / Collector FAQs",
+        "source": "https://ripped.topps.com/2026-topps-chrome-marvel-comics-collector-guide-cards/",
+        "evidenceFile": "data/parallel-audit-sources/marvel-chrome-2026-guides-20261015.json",
+        "evidenceSha256": "95d5d6238ee0d6da648237631b115e3b0500b2007931c3ba2d077f8418b052f8"
+      }
     ]
   },
   "conflicts": [

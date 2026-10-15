@@ -4268,12 +4268,36 @@
     "state": {
       "checklistHash": "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81",
       "oddsHash": "57cafc210c579f3c5c57cf33f75464afee3d503f379637714fc3989ddcd17a85",
-      "rows": 767,
+      "rows": 764,
       "odds": 179,
-      "specificationRows": 0
+      "specificationRows": 128,
+      "specificationHash": "f030a8f4120c71ed1424d112f578cd0fc0140c5ef218150abedc9dd779627d50"
     },
-    "fingerprint": "6d4ee465281b1d7f04a2b8ff54ecd5d311c2405f8079fc6d0f025c539695e67d",
+    "fingerprint": "fab2bf76bf2c7f1e1e2bb7d22e08075f67923d33d2a4808500d5015bd66d5280",
     "events": [
+      {
+        "at": "2026-10-15T09:23:58.338Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 128",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_HobbyValueMega_Checklist.pdf?v=1780349890",
+        "snapshot": {
+          "checklistHash": "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81",
+          "oddsHash": "57cafc210c579f3c5c57cf33f75464afee3d503f379637714fc3989ddcd17a85",
+          "rows": 764,
+          "odds": 179,
+          "specificationRows": 128,
+          "specificationHash": "f030a8f4120c71ed1424d112f578cd0fc0140c5ef218150abedc9dd779627d50"
+        },
+        "previousSnapshot": {
+          "checklistHash": "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81",
+          "oddsHash": "57cafc210c579f3c5c57cf33f75464afee3d503f379637714fc3989ddcd17a85",
+          "rows": 767,
+          "odds": 179,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T01:06:39.179Z",
         "changes": [

@@ -1,0 +1,17 @@
+{
+  "observed": "2026-10-15",
+  "method": "Factual snapshot from an actual read of the official collector guide. This snapshot's hash verifies the retained observation, not raw HTML.",
+  "source": "https://ripped.topps.com/2026-topps-chrome-marvel-comics-collector-guide-cards/",
+  "published": "2026-07-01",
+  "observations": [
+    {"heading": "Introduction", "family": "The One and Only: Stan Lee and Steve Ditko", "numbering": "1/1", "qualification": "The guide describes the cut signatures in this named program as one-of-one. This is separate from the five-character The One and Only insert."},
+    {"heading": "Artist Originals / Collector FAQs", "family": "Artist Originals", "publishedDescription": "One-of-one hand-drawn original artwork", "artists": ["Kevin Eastman", "Adi Granov"], "qualification": "Artwork uniqueness is not converted into a claim of printed serial numbering."},
+    {"heading": "Base Set", "baseCount": 200, "variation": "Clawed Chrome"}
+  ],
+  "remainingGaps": [
+    "The collector guide does not provide an exhaustive numbered base, autograph or insert parallel ladder. Card-specific chase examples must not assign limits to every card or unrelated family.",
+    "No regular Chrome numbering or format specification is copied to the separate Sapphire release.",
+    "The numbered PDF retains an unlabelled additional column containing artist names or comic years in four programs; these are not teams, rookie flags or product release years.",
+    "The PDF's Characters II cards 136 Mary Jane and 137 Misery share one physical line. Both numbers are printed; their cells are retained separately without deriving an ID from sequence."
+  ]
+}
