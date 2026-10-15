@@ -14048,6 +14048,57 @@
         "hasCards": true,
         "unit": "source rows"
       }
+    },
+    {
+      "title": "2026 Topps Vault Disney",
+      "manufacturer": "Topps / Bowman",
+      "sport": "disney",
+      "year": "2026",
+      "slug": "topps-bowman-2026-topps-vault-disney",
+      "page": "sets/topps-bowman-2026-topps-vault-disney.html",
+      "sourcePage": "https://www.topps.com/pages/topps-vault-disney",
+      "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DSNV_VERSION4.pdf?v=1792089594",
+      "releaseStatus": "Upcoming",
+      "releaseDate": "2026-10-21",
+      "verified": "2026-10-15",
+      "status": "Source table",
+      "rowCount": 510,
+      "tableData": "data/imports/topps-bowman-2026-topps-vault-disney.json",
+      "sections": 22,
+      "importKind": "pdf",
+      "dataAudit": "All 428 numbered subject rows / 383 family-card identities and 82 unnumbered artist entries across 22 sections are reconciled to original PDF text-object cells. Original unlabelled text columns remain separate from the adapter Actor, Character, Relic / prop and Artist fields. Repeated dual/triple signers, Christopher Daniel Barnes, printed Pocanhontas and Ian Mckellen, and both sketch rosters are retained. The October 21 release is upcoming. No official odds link was published in the checked global odds catalog or product page. One explicitly named Immortal Autographs SuperFractor limit is retained; unnamed card-specific guide examples and sketch artwork uniqueness do not number the other parallels or artist roster entries. Exhaustive parallel and numbering coverage remains unverified.",
+      "dedicatedParser": "scripts/import_topps_vault_disney_2026.py",
+      "sha256": "9835a0cde6f0ec32a63aceb419f78d1e182ba63139a5db6b59d526e6ad1c6dcf",
+      "coverageComplete": true,
+      "catalogEvidence": "All 428 numbered subject rows / 383 family-card identities and 82 unnumbered artist entries across 22 sections are reconciled to original PDF text-object cells. Original unlabelled text columns remain separate from the adapter Actor, Character, Relic / prop and Artist fields. Repeated dual/triple signers, Christopher Daniel Barnes, printed Pocanhontas and Ian Mckellen, and both sketch rosters are retained. The October 21 release is upcoming. No official odds link was published in the checked global odds catalog or product page. One explicitly named Immortal Autographs SuperFractor limit is retained; unnamed card-specific guide examples and sketch artwork uniqueness do not number the other parallels or artist roster entries. Exhaustive parallel and numbering coverage remains unverified.",
+      "odds": 0,
+      "formats": 0,
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/vault-disney-2026-20261015.json",
+        "sha256": "6067fc656ffc47092e814a315ae15d2a8bf37ec5a9905a07080762e743a2b891",
+        "source": "https://www.topps.com/pages/topps-vault-disney"
+      },
+      "verifiedRelease": {
+        "url": "https://www.topps.com/release-calendar",
+        "title": "Topps U.S. release calendar: 2026 Topps Vault Disney",
+        "observed": "2026-10-15",
+        "method": "Official release calendar read in the in-app browser; product page corroborates October 21 at 2pm ET on EQL",
+        "statement": "Wednesday, Oct 21 at 11:00 AM PDT 2026 Topps Vault Disney",
+        "scope": "U.S. release calendar; event is not marked Pre-order; scheduled dates subject to change",
+        "sha256": "00f4ead1ec995a2d7dacbb9410801cd2dd1a1f0d6e9cc1f457b25e9401e284a3",
+        "snapshotFile": "data/release-dates.json"
+      },
+      "presentation": {
+        "rows": 510,
+        "sections": 22,
+        "formats": 0,
+        "specifications": true,
+        "featured": false,
+        "odds": null,
+        "hasOdds": false,
+        "hasCards": true,
+        "unit": "source rows"
+      }
     }
   ],
   "coverage": {

@@ -4961,6 +4961,28 @@
           "evidenceSha256": "4a3d9e2471a6256352aeb7f5a9e8594729a30e7b8b24aba0fc3587cef33c6db8"
         }
       ]
+    },
+    {
+      "slug": "topps-bowman-2026-topps-vault-disney",
+      "title": "2026 Topps Vault Disney",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/topps-vault-disney",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 1,
+      "supplementalSpecifications": 1,
+      "structuredNumbering": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-vault-disney",
+          "family": "Unpublished pack odds and incomplete named-parallel inventory",
+          "gap": "No odds PDF linked by the current global odds catalog or product page; pack odds and pack formats remain unavailable. No exhaustive named parallel ladder or serial-number inventory is published in the checked guide/product text. Jude Law /50 and Lady and the Tramp 1/1 examples identify no parallel, so stay qualified card examples. Sketch 1/1 artwork claims are not serial-number specifications for artist roster entries.",
+          "source": "https://ripped.topps.com/2026-topps-vault-disney-collector-cards-guide/",
+          "evidenceFile": "data/parallel-audit-sources/vault-disney-2026-20261015.json",
+          "evidenceSha256": "6067fc656ffc47092e814a315ae15d2a8bf37ec5a9905a07080762e743a2b891"
+        }
+      ]
     }
   ]
 }

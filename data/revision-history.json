@@ -11741,5 +11741,34 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-vault-disney": {
+    "state": {
+      "checklistHash": "9835a0cde6f0ec32a63aceb419f78d1e182ba63139a5db6b59d526e6ad1c6dcf",
+      "oddsHash": null,
+      "rows": 510,
+      "odds": 0,
+      "specificationRows": 7,
+      "specificationHash": "9bc1ca21938ac5fe3dff8210084da0dc05e26442a5d2d72da6229db0a6acfeca"
+    },
+    "fingerprint": "b31f0c91a3caa252cb3d5fffc7ee5b94b64af498cc8b2decf41cb22dfe9c694a",
+    "events": [
+      {
+        "at": "2026-10-15T19:28:52.797Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DSNV_VERSION4.pdf?v=1792089594",
+        "snapshot": {
+          "checklistHash": "9835a0cde6f0ec32a63aceb419f78d1e182ba63139a5db6b59d526e6ad1c6dcf",
+          "oddsHash": null,
+          "rows": 510,
+          "odds": 0,
+          "specificationRows": 7,
+          "specificationHash": "9bc1ca21938ac5fe3dff8210084da0dc05e26442a5d2d72da6229db0a6acfeca"
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

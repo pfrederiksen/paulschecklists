@@ -2603,6 +2603,14 @@
       "manufacturer": "Topps / Bowman",
       "releaseDate": null,
       "status": "Exact release-date research pending"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-vault-disney",
+      "title": "2026 Topps Vault Disney",
+      "manufacturer": "Topps / Bowman",
+      "releaseDate": "2026-10-21",
+      "status": "Explicit official release statement verified",
+      "source": "https://www.topps.com/release-calendar"
     }
   ]
 }

@@ -199,6 +199,15 @@
       "statement": "Release Date: May 8, 2026",
       "scope": "Manufacturer U.S. guide; 2026 Chrome UFC only, not Sapphire",
       "sha256": "a670e9a62222825442e71ba627bb491057b4d433c70e93a37ddf27f7a90573e0"
+    },
+    {
+      "url": "https://www.topps.com/release-calendar",
+      "title": "Topps U.S. release calendar: 2026 Topps Vault Disney",
+      "observed": "2026-10-15",
+      "method": "Official release calendar read in the in-app browser; product page corroborates October 21 at 2pm ET on EQL",
+      "statement": "Wednesday, Oct 21 at 11:00 AM PDT 2026 Topps Vault Disney",
+      "scope": "U.S. release calendar; event is not marked Pre-order; scheduled dates subject to change",
+      "sha256": "00f4ead1ec995a2d7dacbb9410801cd2dd1a1f0d6e9cc1f457b25e9401e284a3"
     }
   ],
   "dates": [
@@ -333,6 +342,12 @@
       "releaseDate": "2026-05-08",
       "releaseStatus": "Released",
       "source": 21
+    },
+    {
+      "slug": "topps-bowman-2026-topps-vault-disney",
+      "releaseDate": "2026-10-21",
+      "releaseStatus": "Upcoming",
+      "source": 22
     }
   ],
   "unresolved": [

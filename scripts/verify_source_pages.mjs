@@ -34,6 +34,20 @@ for(const set of cases){
   get('source-section').value=numbered[0];get('source-section').onchange();get('source-team').value=numbered[10];get('source-team').onchange();get('source-search').value=numbered[2];get('source-search').oninput();assert(get('source-results').innerHTML.includes('title="/'+numbered[3]+'"'), 'Published SEQUENCE must display as out-of numbering');
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"SPORT","YEAR","BRAND","PROGRAM","CARD SET","ATHLETE","TEAM","POSITION","CARD NUMBER","SEQUENCE"'));assert(csv.includes('"'+String(numbered[2]).replaceAll('"','""')+'"'));get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2026-topps-vault-disney'){
+  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);
+  assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-search').value='RB-CDB';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');
+  const clipped=data.rows.findIndex(r=>r[1]==='RB-CDB');get('source-results').onclick({target:{closest:()=>({dataset:{row:String(clipped)}})}});
+  assert(get('source-results').innerHTML.includes('Christopher Daniel Barnes')&&get('source-results').innerHTML.includes('Prince Eric'));
+  get('source-export').onclick();assert(csv.includes('Official text column 1')&&csv.includes('Official text column 2')&&csv.includes('Christopher Daniel Barnes')&&csv.includes('Prince Eric'));
+  get('source-reset').onclick();get('source-section').value='DISNEY TRIPLES';get('source-section').onchange();get('source-search').value='DT-HCG';get('source-search').oninput();assert.equal(get('source-count').textContent,'3 official source rows');get('source-export').onclick();for(const name of ['Tom Hanks','Joan Cusack','Kelsey Grammer'])assert(csv.includes(name));
+  get('source-reset').onclick();get('source-section').value='IMMORTAL AUTOGRAPHS';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('SuperFractor')&&get('source-specifications').innerHTML.includes('1/1'));get('source-export').onclick();assert(csv.includes('SuperFractor')&&csv.includes('1/1'));
+  get('source-cards-tab').onclick();get('source-reset').onclick();get('source-section').value='DISNEY DIAMONDS';get('source-section').onchange();const base=data.rows.findIndex(r=>r[0]==='DISNEY DIAMONDS');get('source-results').onclick({target:{closest:()=>({dataset:{row:String(base)}})}});assert(!get('source-results').innerHTML.includes('1/1'),'Immortal numbering must not number Disney Diamonds');
+  get('source-reset').onclick();get('source-section').value='PREMIERE SKETCH CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'55 official source rows');get('source-export').onclick();assert(csv.includes('JohnruzelJimenez')&&!csv.includes('SuperFractor'));
+  get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('VAR-JL')&&get('source-specifications').innerHTML.includes('VRD-TT')&&get('source-specifications').innerHTML.includes('no parallel name supplied'));get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition'){
   assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
@@ -277,7 +291,8 @@ for(const set of cases){
   assert(get('source-results').innerHTML.includes('BASE CARD DUAL AUTO VARIATION PURPLE PARALLEL'));assert(!get('source-results').innerHTML.includes('26TDDB - BASE CARD BLACK PARALLEL'),'Autographs must not receive ordinary base parallels');
   get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('26TDDB - FENCE BUSTERS'));assert(!get('source-specifications').innerHTML.includes('DescriptionPacks'));get('source-cards-tab').onclick();
  }
- if(data.formatNamesPublished===false){
+ if(data.formatNamesPublished===false&&!data.odds?.some(o=>Object.values(o.values??{}).some(v=>v!=null))){assert.equal(get('source-format').disabled,true);assert(get('insights').innerHTML.includes('Format-specific pack odds are not separately published'));assert(!get('insights').innerHTML.includes('Published ratios are shown verbatim.'));}
+ if(data.formatNamesPublished===false&&data.odds?.some(o=>Object.values(o.values??{}).some(v=>v!=null))){
   assert.equal(get('source-format').disabled,true);assert(get('insights').innerHTML.includes('does not name a format or ratio unit'));
   get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Published odds (format not named)'));const literal=Object.values(data.odds[0].values).find(v=>v!==null);assert(get('source-specifications').innerHTML.includes(literal),'Unnamed odds must preserve the actual source ratio');if(data.odds.some(o=>Object.values(o.values).includes('3:1')))assert(get('source-specifications').innerHTML.includes('3:1'));assert(!get('source-specifications').innerHTML.includes('3 cards per pack'),'Unspecified units must remain literal');get('source-cards-tab').onclick();
  }
