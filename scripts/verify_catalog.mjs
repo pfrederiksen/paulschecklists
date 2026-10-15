@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFile,access} from 'node:fs/promises';
 import vm from 'node:vm';
+import {hasCards,hasOdds,categoryLabel,renderCatalogRow,matchesSet} from '../catalog-model.mjs';
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
 const pages=new Set();let tables=0;
 for(const set of catalog.sets){
@@ -14,8 +15,8 @@ for(const set of catalog.sets){
 const directorySets=catalog.sets.filter(s=>!s.ongoingSeries||s.slug==='topps-now-2026');
 const elements=new Map();const get=id=>{if(!elements.has(id))elements.set(id,{value:'',textContent:'',options:[{}],add(v){this.options.push(v);},remove(i){this.options.splice(i,1);},addEventListener(event,fn){this[event]=fn;}});return elements.get(id);};
 let output='';const document={getElementById:get,querySelectorAll:()=>[{remove(){output='';}}],querySelector:()=>({insertAdjacentHTML(_,s){output+=s;}})};
-const context=vm.createContext({document,console,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>structuredClone(catalog)})});
-await new vm.Script('(async()=>{'+await readFile('directory.js','utf8')+'})()').runInContext(context);
+const context=vm.createContext({document,console,hasCards,hasOdds,categoryLabel,renderCatalogRow,matchesSet,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>structuredClone(catalog)})});
+await new vm.Script('(async()=>{'+(await readFile('directory.js','utf8')).replace(/^import .*;\n/,'')+'})()').runInContext(context);
 assert.equal(get('catalog-total').textContent,directorySets.length);assert.equal((output.match(/class="catalog-row"/g)||[]).length,40);
 get('coverage-filter').value='released';get('coverage-filter').change();assert.equal(get('catalog-count').textContent,`${directorySets.filter(s=>s.releaseStatus==='Released').length} sets`);assert(output.includes('bowman-football-2026.html'));assert(output.includes('allen-ginter-2026.html'));
 get('catalog-reset').onclick();get('catalog-next').onclick();assert.equal(get('catalog-page').textContent,`Page 2 of ${Math.ceil(directorySets.filter(s=>s.status==='Searchable'||(s.tableData&&s.rosterPublished!==false)).length/40)}`);
@@ -30,3 +31,8 @@ console.log('Verified one-click cards + odds filter, availability counts and upc
 const ongoingInventory=JSON.parse(await readFile('data/topps-now-official-catalog.json','utf8'));
 for(const series of ongoingInventory){const published=catalog.sets.find(set=>set.slug===series.slug);assert(published,'Published NOW slug must survive discovery: '+series.slug);assert.equal(published.page,series.page);}
 console.log('Verified published NOW series slugs and page URLs remain stable.');
+
+assert(matchesSet({title:'2026 Topps Chrome® Baseball',manufacturer:'Topps / Bowman',sport:'baseball',year:'2026'},'Chrome Baseball'));
+assert(matchesSet({title:'2026 Chrome® Baseball',manufacturer:'Topps',sport:'baseball',year:'2026'},'baseball chrome 2026'));
+get('catalog-reset').onclick();get('set-search').value='Chrome Baseball';get('set-search').input();assert(output.includes('2026-topps-chrome-baseball.html'));
+console.log('Verified punctuation-tolerant and multi-word set search.');
