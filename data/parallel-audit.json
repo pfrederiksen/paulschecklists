@@ -8,12 +8,23 @@
       "manufacturer": "Topps / Bowman",
       "source": "https://www.topps.com/pages/checklists",
       "oddsCategories": 505,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "numberedOddsCategories": 1,
+      "supplementalSpecifications": 1,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-topps-chrome-football",
+          "family": "Hobby autograph box contents",
+          "gap": "The official Spotlight Hobby Box section says one autograph per box, but its FAQ and Key Facts say one per pack. No value is selected or converted into pack odds. Full parallel numbering reconciliation remains pending.",
+          "sources": [
+            "https://ripped.topps.com/2025-topps-chrome-football-checklist/"
+          ],
+          "evidenceFile": "data/parallel-audit-sources/chrome-football-2025-guides-20261015.json",
+          "evidenceSha256": "272cc029d2aba478454d81298b912ecbe8cc668aae8551068b8e2594922586bc"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-topps-chrome-football-sapphire",

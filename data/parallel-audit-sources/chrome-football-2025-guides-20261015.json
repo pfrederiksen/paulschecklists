@@ -1,0 +1,31 @@
+{
+  "observed": "2026-10-15",
+  "method": "Factual snapshot from official web reads of the named Topps Ripped articles; this file's SHA-256 verifies the retained observation, not raw page HTML.",
+  "sources": [
+    {
+      "url": "https://ripped.topps.com/2025-topps-chrome-football-checklist/",
+      "title": "2025 Topps Chrome Football Checklist Spotlight",
+      "published": "2026-04-08",
+      "observations": [
+        {"heading": "Box Configuration / Release", "releaseDate": "2026-04-15"},
+        {"heading": "Hobby Box", "cardsPerPack": 4, "packsPerBox": 20, "autographsPerBox": 1},
+        {"heading": "Collector FAQs / How many cards", "autographsPerPack": 1},
+        {"heading": "Key Facts / Collector Highlight", "autographsPerPack": 1}
+      ]
+    },
+    {
+      "url": "https://ripped.topps.com/2025-topps-chrome-football-checklist-guide/",
+      "title": "2025 Topps Chrome Football Collector's Guide",
+      "published": "2026-04-13",
+      "observations": [
+        {"heading": "Rookie Premiere Patch Autographs", "numbering": "1/1", "qualification": "The guide calls this named program one-of-one; the checklist prints ROOKIE PREM1ERE PATCH AUTOGRAPHS. This does not number the separate TOPPS CHROME ROOKIE PATCH AUTOGRAPHS program."},
+        {"heading": "Collector FAQs / Are there rookie patch autographs", "numbering": "1/1", "family": "Rookie Premiere Patch Autographs"}
+      ]
+    }
+  ],
+  "remainingGaps": [
+    "The Spotlight's Hobby Box section says one autograph per box; its FAQ and Key Facts instead say one per pack. Do not select or convert either claim into odds.",
+    "These articles do not establish the complete numbered parallel ladder for the 400-card base program, its distinct veteran and rookie families, inserts or autographs.",
+    "No card-specific colored-autograph examples or regular Chrome limits are assigned to unrelated families or to Sapphire."
+  ]
+}

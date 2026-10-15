@@ -8,13 +8,13 @@
       "year": "2025",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Checklist_040826.pdf?v=1775678965",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+      "releaseStatus": "Released",
+      "releaseDate": "2026-04-15",
+      "catalogEvidence": "The official Topps Checklist Spotlight explicitly gives April 15, 2026 as the release date for this 2025 product. This calendar-year date is separate from the product year.",
       "slug": "topps-bowman-2025-topps-chrome-football",
       "page": "sets/topps-bowman-2025-topps-chrome-football.html",
       "status": "Source table",
-      "verified": "2026-10-11",
+      "verified": "2026-10-15",
       "odds": 505,
       "formats": 14,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Football_Odds.pdf?v=1776193199",
@@ -23,8 +23,13 @@
       "tableData": "data/imports/topps-bowman-2025-topps-chrome-football.json",
       "sections": 40,
       "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "dataAudit": "Original checklist and all 505 odds categories remain retained. The official collector guide identifies Rookie Premiere Patch Autographs as 1/1; no limits are assigned to other families. The Spotlight conflicts on autograph box contents (one per box versus one per pack), so neither claim becomes odds. Full parallel numbering reconciliation remains pending.",
+      "parallelData": true,
+      "releaseSource": "https://ripped.topps.com/2025-topps-chrome-football-checklist/",
+      "releaseEvidence": {
+        "file": "data/parallel-audit-sources/chrome-football-2025-guides-20261015.json",
+        "sha256": "272cc029d2aba478454d81298b912ecbe8cc668aae8551068b8e2594922586bc"
+      }
     },
     {
       "title": "2025 Topps Chrome® Football Sapphire",

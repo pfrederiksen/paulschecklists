@@ -5,10 +5,34 @@
       "oddsHash": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
       "rows": 2390,
       "odds": 505,
-      "specificationRows": 0
+      "specificationRows": 1,
+      "specificationHash": "87ee4b23e44b8897d17e8e5e2d687653298e50ec708467e2793698368ca3ac98"
     },
-    "fingerprint": "3a81e6d00ffaf9eb924796b309ebd4a47b1df15ce25df1c66e026dc6b0142cc4",
+    "fingerprint": "eafe7fb86f85a883b6cbf74fd8622773d20f0b4b077e83f3d5f5de6ad2b6977f",
     "events": [
+      {
+        "at": "2026-10-15T07:14:56.406Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 1",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Checklist_040826.pdf?v=1775678965",
+        "snapshot": {
+          "checklistHash": "590ad763a6695b43db60dd1395a271c47b262f8084a40b2ef3511cd8001b9ae5",
+          "oddsHash": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
+          "rows": 2390,
+          "odds": 505,
+          "specificationRows": 1,
+          "specificationHash": "87ee4b23e44b8897d17e8e5e2d687653298e50ec708467e2793698368ca3ac98"
+        },
+        "previousSnapshot": {
+          "checklistHash": "590ad763a6695b43db60dd1395a271c47b262f8084a40b2ef3511cd8001b9ae5",
+          "oddsHash": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
+          "rows": 2390,
+          "odds": 505,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:31.933Z",
         "changes": [

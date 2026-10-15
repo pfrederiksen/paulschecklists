@@ -5577,6 +5577,18 @@
         "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
         "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
       }
+    ],
+    "topps-bowman-2025-topps-chrome-football": [
+      {
+        "family": "ROOKIE PREM1ERE PATCH AUTOGRAPHS",
+        "name": "Rookie Premiere Patch Autographs",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/2025-topps-chrome-football-checklist-guide/",
+        "qualification": "Published for the Rookie Premiere program, printed PREM1ERE in the checklist; separate Chrome Rookie Patch Autographs and colored autograph parallels are not assigned this limit. Pack odds are not inferred.",
+        "sourceHeading": "Rookie Premiere Patch Autographs; Collector FAQs",
+        "evidenceFile": "data/parallel-audit-sources/chrome-football-2025-guides-20261015.json",
+        "evidenceSha256": "272cc029d2aba478454d81298b912ecbe8cc668aae8551068b8e2594922586bc"
+      }
     ]
   },
   "conflicts": [
@@ -5666,6 +5678,16 @@
       "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Football_Checklist.pdf?v=1790800436",
       "evidenceFile": "data/parallel-audit-sources/heritage-football-2026-guides-20261014.json",
       "evidenceSha256": "7263452cb6fbdaeb97ff76c2f2845a40e2ef7755070735b721257bf6b1eac434"
+    },
+    {
+      "slug": "topps-bowman-2025-topps-chrome-football",
+      "family": "Hobby autograph box contents",
+      "gap": "The official Spotlight Hobby Box section says one autograph per box, but its FAQ and Key Facts say one per pack. No value is selected or converted into pack odds. Full parallel numbering reconciliation remains pending.",
+      "sources": [
+        "https://ripped.topps.com/2025-topps-chrome-football-checklist/"
+      ],
+      "evidenceFile": "data/parallel-audit-sources/chrome-football-2025-guides-20261015.json",
+      "evidenceSha256": "272cc029d2aba478454d81298b912ecbe8cc668aae8551068b8e2594922586bc"
     }
   ]
 }
