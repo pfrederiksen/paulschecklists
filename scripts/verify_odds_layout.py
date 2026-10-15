@@ -23,7 +23,13 @@ for record in repaired:
         if data.get('formatNamesPublished') is False:
             assert data['formats'] == ['Published odds (format not named)']
             assert data['oddsUnitsPublished'] is False
-            assert not text.startswith(('Card ', 'Cards ')), 'Do not mislabel a printed header as absent'
+            if data.get('formatHeaderIsProductTitle'):
+                assert compact(text)=='Card2025MarvelTheCollector'
+                assert data['officialOddsHeader']==['Card','2025 Marvel The Collector']
+                assert data['officialOddsFormats']==['2025 Marvel The Collector']
+                assert data['odds']==[{**row,'family':data['odds'][i]['family'],'values':{data['formats'][0]:row['values'][data['officialOddsFormats'][0]]}} for i,row in enumerate(data['officialOddsTable'])]
+            else:
+                assert not text.startswith(('Card ', 'Cards ')), 'Do not mislabel a printed header as absent'
         else:
             caption = re.match(r'^(All Components|Description|COMPONENT|Cards|Card)', text)
             assert caption, (record['title'], text)

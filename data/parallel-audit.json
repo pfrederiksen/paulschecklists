@@ -1235,14 +1235,23 @@
       "slug": "topps-bowman-2025-topps-marvel-the-collector",
       "title": "2025 Topps Marvel The Collector",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/products/2025-marvel-the-collector-hobby-box",
       "oddsCategories": 59,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-topps-marvel-the-collector",
+          "family": "Unverified numbering, odds units and calendar release date",
+          "gap": "Exact serial-number limits by family and exhaustive parallel coverage remain unverified; no limits are inferred from colors or retailer lists. The odds column repeats the product title without a pack format or ratio unit. Box configuration does not establish the unit of the published ratios. A general calendar release date remains unverified; preserve store Available From February 4, 2026 and Product Year 2026 separately from the 2025 title.",
+          "source": "https://www.topps.com/products/2025-marvel-the-collector-hobby-box",
+          "evidenceFile": "data/parallel-audit-sources/marvel-collector-2025-20261015.json",
+          "evidenceSha256": "fce8351fbcc07ccb5bd6d5cea6d96fb8f1a1b2d77c54277a847853f4dd7e42f1"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-star-wars-chrome",

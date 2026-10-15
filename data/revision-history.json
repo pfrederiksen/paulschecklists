@@ -4652,11 +4652,11 @@
     "state": {
       "checklistHash": "a9584a66039131becc3a1824d8a6a5c9968ffe997ecaf6ef9e5d6d701d537cfc",
       "oddsHash": "893ab7f1e1dd6f867887d27579a7855fa2d0a8a0b82d93a45cc49df64e09a1a2",
-      "rows": 261,
+      "rows": 296,
       "odds": 59,
-      "specificationRows": 0
+      "specificationRows": 8
     },
-    "fingerprint": "f2b2df0e930f7cc9f792bde3dbb6355beac5d29bbc9a61a1d86a1ab00f080d2e",
+    "fingerprint": "3ab878a5edb393aca4a943df196317c57afff7080fcb3131c6fe0cd96e7d44e9",
     "events": [
       {
         "at": "2026-10-13T01:06:39.195Z",

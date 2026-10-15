@@ -1,0 +1,59 @@
+{
+  "observed": "2026-10-15",
+  "productSource": "https://www.topps.com/products/2025-marvel-the-collector-hobby-box",
+  "guideSource": "https://ripped.topps.com/marvel-the-collector-cards-product-history/",
+  "method": "Actual official product-page web read, official guide read in the in-app browser, fresh PDFs, original clipping rectangles and rendered physical-cell comparison.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Marvel_The_Collector_Checklist.pdf?v=1770215891",
+  "checklistSha256": "a9584a66039131becc3a1824d8a6a5c9968ffe997ecaf6ef9e5d6d701d537cfc",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Marvel_The_Collector_Odds.pdf?v=1770229437",
+  "oddsSha256": "893ab7f1e1dd6f867887d27579a7855fa2d0a8a0b82d93a45cc49df64e09a1a2",
+  "productFields": [
+    [
+      "Product title",
+      "2025 Marvel the Collector - Hobby Box",
+      "Official U.S. store title"
+    ],
+    [
+      "Product Year",
+      "2026",
+      "Store field, separate from checklist title"
+    ],
+    [
+      "Available From",
+      "Feb 4, 2026",
+      "Store availability; not asserted as a general release date"
+    ],
+    [
+      "Cards per pack",
+      "1",
+      "Box configuration, not pack odds"
+    ],
+    [
+      "Packs per box",
+      "3",
+      "Box configuration, not pack odds"
+    ],
+    [
+      "Autographs per box",
+      "At least one",
+      "Box minimum, not category odds"
+    ]
+  ],
+  "guideFields": [
+    [
+      "Debut Year",
+      "2026",
+      "Brand debut year; no calendar release date stated"
+    ],
+    [
+      "Pack structure",
+      "Perfection Pack; Mystery Pack; Golden Pack",
+      "Named box components; the odds sheet does not map ratios to these packs"
+    ]
+  ],
+  "remainingGaps": [
+    "Exact serial-number limits by family and exhaustive parallel coverage remain unverified; no limits are inferred from colors or retailer lists.",
+    "The odds column repeats the product title without a pack format or ratio unit. Box configuration does not establish the unit of the published ratios.",
+    "A general calendar release date remains unverified; preserve store Available From February 4, 2026 and Product Year 2026 separately from the 2025 title."
+  ]
+}
