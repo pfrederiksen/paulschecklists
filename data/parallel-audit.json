@@ -4886,6 +4886,28 @@
           "evidenceSha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb"
         }
       ]
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-midnight-basketball",
+      "title": "2025-26 Topps Midnight Basketball",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/topps-midnight-basketball",
+      "oddsCategories": 219,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-26-topps-midnight-basketball",
+          "family": "Unverified numbering ladder and unlabelled odds units",
+          "gap": "Neither the product page nor the checklist spotlight publishes the named parallel numbering ladder; no limits are inferred from other sports, colors, odds or retailer descriptions. The odds PDF has no printed format or unit heading. The separate Hobby box configuration does not establish a per-pack unit for these ratios.",
+          "source": "https://ripped.topps.com/2025-26-topps-midnight-basketball-checklist-spotlight/",
+          "evidenceFile": "data/parallel-audit-sources/midnight-basketball-2025-26-guide-20261015.json",
+          "evidenceSha256": "3721e6f889afc20b251b649feb3298e20376381c14880504cda4d302ae9c79fd"
+        }
+      ]
     }
   ]
 }

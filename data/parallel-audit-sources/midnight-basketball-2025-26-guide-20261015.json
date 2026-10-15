@@ -1,0 +1,31 @@
+{
+  "source": "https://ripped.topps.com/2025-26-topps-midnight-basketball-checklist-spotlight/",
+  "productSource": "https://www.topps.com/pages/topps-midnight-basketball",
+  "published": "2026-01-12",
+  "observed": "2026-10-15",
+  "method": "Actual official U.S. product-page web read and complete official guide read in the in-app browser. This factual observation snapshot is not a raw HTML hash.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Midnight_Basketball_Checklist.pdf?v=1767709196",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Midnight_Basketball_Odds.pdf?v=1769113140",
+  "releaseDate": "2026-01-29",
+  "releaseEvidence": "Guide explicitly states January 29, 2026 release exclusively on EQL in its introduction, configuration and key facts.",
+  "boxContents": [
+    [
+      "Cards per pack",
+      "7"
+    ],
+    [
+      "Packs per Hobby box",
+      "1"
+    ],
+    [
+      "Autographs per box",
+      "3"
+    ]
+  ],
+  "remainingGaps": [
+    "Neither the product page nor the checklist spotlight publishes the named parallel numbering ladder; no limits are inferred from other sports, colors, odds or retailer descriptions.",
+    "The odds PDF has no printed format or unit heading. The separate Hobby box configuration does not establish a per-pack unit for these ratios.",
+    "The checklist prints NIGHT SHADE while the odds print Nightshade. Only that exact source-family spelling alias is reconciled.",
+    "Published historical team assignments and literal name/team spellings are retained without updates to current teams."
+  ]
+}

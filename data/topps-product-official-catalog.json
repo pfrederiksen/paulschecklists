@@ -1043,5 +1043,39 @@
       "sha256": "1b82b574b55cbddd667e7abfc0d6c7f8bc207374d4628657ed18184f1c53a3bb",
       "source": "https://www.topps.com/pages/topps-pristine-baseball"
     }
+  },
+  {
+    "title": "2025-26 Topps Midnight Basketball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "basketball",
+    "year": "2025-26",
+    "slug": "topps-bowman-2025-26-topps-midnight-basketball",
+    "page": "sets/topps-bowman-2025-26-topps-midnight-basketball.html",
+    "sourcePage": "https://www.topps.com/pages/topps-midnight-basketball",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Midnight_Basketball_Checklist.pdf?v=1767709196",
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Midnight_Basketball_Odds.pdf?v=1769113140",
+    "releaseStatus": "Released",
+    "releaseDate": "2026-01-29",
+    "verified": "2026-10-15",
+    "catalogEvidence": "All 593 printed subject rows across 22 sections retain their physical Name, Team and Rookie cells, including all 100 base numbers. Historical team assignments, accents, literal Minnesota Tmberwolves and Karl Anthony-Towns spellings are retained without correction. All 219 odds categories retain their literal unlabelled ratios; the PDF names neither format nor unit, so separate box configuration does not turn them into per-pack odds. The NIGHT SHADE / Nightshade spelling alias is exact and family-specific. The official January 12 guide confirms January 29, 2026 release despite the 2025-26 product label. Neither checked official page publishes a named numbering ladder; serial limits and exhaustive parallel numbering remain unverified.",
+    "status": "Source table",
+    "rowCount": 593,
+    "tableData": "data/imports/topps-bowman-2025-26-topps-midnight-basketball.json",
+    "sections": 22,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 593 printed subject rows across 22 sections retain their physical Name, Team and Rookie cells, including all 100 base numbers. Historical team assignments, accents, literal Minnesota Tmberwolves and Karl Anthony-Towns spellings are retained without correction. All 219 odds categories retain their literal unlabelled ratios; the PDF names neither format nor unit, so separate box configuration does not turn them into per-pack odds. The NIGHT SHADE / Nightshade spelling alias is exact and family-specific. The official January 12 guide confirms January 29, 2026 release despite the 2025-26 product label. Neither checked official page publishes a named numbering ladder; serial limits and exhaustive parallel numbering remain unverified.",
+    "dedicatedParser": "scripts/import_topps_midnight_basketball.py",
+    "sha256": "c1e1923aab6874071b81712ed262ab46017010a0997881fc0b553b7f0986ec0b",
+    "odds": 219,
+    "formats": 1,
+    "oddsParser": "scripts/official_odds_layout.py",
+    "oddsImportIssues": 0,
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/midnight-basketball-2025-26-guide-20261015.json",
+      "sha256": "3721e6f889afc20b251b649feb3298e20376381c14880504cda4d302ae9c79fd",
+      "source": "https://www.topps.com/pages/topps-midnight-basketball"
+    },
+    "releaseSource": "https://ripped.topps.com/2025-26-topps-midnight-basketball-checklist-spotlight/",
+    "releaseEvidence": "Guide explicitly states January 29, 2026 release exclusively on EQL in its introduction, configuration and key facts."
   }
 ]

@@ -11612,5 +11612,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2025-26-topps-midnight-basketball": {
+    "state": {
+      "checklistHash": "c1e1923aab6874071b81712ed262ab46017010a0997881fc0b553b7f0986ec0b",
+      "oddsHash": "497fa541b8f40a55fc11ec27c272e2e7237155951ef76f354c4e0ef9f19a5106",
+      "rows": 593,
+      "odds": 219,
+      "specificationRows": 3
+    },
+    "fingerprint": "3c657589f434d139251e598fe2d87e1cb9ceb4a66c47f13fdc7a6a1f8eeb6644",
+    "events": [
+      {
+        "at": "2026-10-15T13:24:20.328Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Midnight_Basketball_Checklist.pdf?v=1767709196",
+        "snapshot": {
+          "checklistHash": "c1e1923aab6874071b81712ed262ab46017010a0997881fc0b553b7f0986ec0b",
+          "oddsHash": "497fa541b8f40a55fc11ec27c272e2e7237155951ef76f354c4e0ef9f19a5106",
+          "rows": 593,
+          "odds": 219,
+          "specificationRows": 3
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

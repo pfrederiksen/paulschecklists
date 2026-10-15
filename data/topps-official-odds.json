@@ -369,5 +369,11 @@
     "source": "https://www.topps.com/pages/odds",
     "productSource": "https://www.topps.com/pages/topps-pristine-baseball",
     "sha256": "99014884e91f1b579561e8b74384f79f3e366886ed31f1a921ace0f7ad35604d"
+  },
+  {
+    "title": "2025-26 Topps Midnight Basketball",
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Midnight_Basketball_Odds.pdf?v=1769113140",
+    "source": "https://www.topps.com/pages/topps-midnight-basketball",
+    "sha256": "497fa541b8f40a55fc11ec27c272e2e7237155951ef76f354c4e0ef9f19a5106"
   }
 ]
