@@ -187,12 +187,36 @@
     "state": {
       "checklistHash": "7c856af7f10f4ea6d0aaf6012abcd63596a36a5c70c9c26bab768d01ea5f3cd4",
       "oddsHash": "36b1f88969ecb1ae0caddb69db2f6db72c2e557af055c41e3b6cc253bde0de77",
-      "rows": 709,
+      "rows": 707,
       "odds": 85,
-      "specificationRows": 0
+      "specificationRows": 5,
+      "specificationHash": "6dca651b46683e425e0091b2989e7fd1cbd41e12dab296601604a3e0e9d5531a"
     },
-    "fingerprint": "90b4b5c30c795b55b7f6b1aef0875eed5f054188584fe2886374008e9da103e1",
+    "fingerprint": "cc93b2ef0538ee85e162f6ee0e3d82cbb24d49b1fcf58b5084dd90f8b8cbc21b",
     "events": [
+      {
+        "at": "2026-10-16T13:48:23.639Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 5",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_U.S._Winter_Olympics_Paralympic_Team_Hopefuls_-_Checklist.pdf?v=1767731038",
+        "snapshot": {
+          "checklistHash": "7c856af7f10f4ea6d0aaf6012abcd63596a36a5c70c9c26bab768d01ea5f3cd4",
+          "oddsHash": "36b1f88969ecb1ae0caddb69db2f6db72c2e557af055c41e3b6cc253bde0de77",
+          "rows": 707,
+          "odds": 85,
+          "specificationRows": 5,
+          "specificationHash": "6dca651b46683e425e0091b2989e7fd1cbd41e12dab296601604a3e0e9d5531a"
+        },
+        "previousSnapshot": {
+          "checklistHash": "7c856af7f10f4ea6d0aaf6012abcd63596a36a5c70c9c26bab768d01ea5f3cd4",
+          "oddsHash": "36b1f88969ecb1ae0caddb69db2f6db72c2e557af055c41e3b6cc253bde0de77",
+          "rows": 709,
+          "odds": 85,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:31.966Z",
         "changes": [

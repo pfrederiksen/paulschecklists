@@ -7927,7 +7927,19 @@
       }
     ],
     "topps-bowman-topps-manchester-united-2025-26-team-set": [],
-    "topps-bowman-2025-26-topps-nbl-basketball": []
+    "topps-bowman-2025-26-topps-nbl-basketball": [],
+    "topps-bowman-2026-topps-chrome-u-s-winter-olympics-paralympic-team-hopefuls": [
+      {
+        "family": "UNJOINED GUIDE STATEMENT (CHECKLIST FAMILY NOT NAMED)",
+        "name": "Pink Refractors",
+        "numbering": "/250",
+        "qualification": "The 2026 guide publishes this numbering without naming a checklist family. Retain it as an unjoined product statement; do not assign it to individual cards or other colors.",
+        "source": "https://ripped.topps.com/topps-chrome-us-winter-olympics-paralympic-team-hopefuls-history/",
+        "sourceHeading": "What’s new in 2026",
+        "evidenceFile": "data/parallel-audit-sources/winter-olympics-2026-20261016.json",
+        "evidenceSha256": "85e3d5c1735199a8ff8895285bc2e839041f7cb0c1dc3c461e95bf526e6efbb0"
+      }
+    ]
   },
   "conflicts": [
     {
@@ -8235,6 +8247,14 @@
       "source": "https://www.topps.com/products/2025-26-topps-nbl-basketball-hobby-box",
       "evidenceFile": "data/parallel-audit-sources/nbl-basketball-2025-26-20261016.json",
       "evidenceSha256": "7c54c4b651ec23534b04d58e3b9d20c49ac36ce889bc82a33d02b01141af24c0"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-u-s-winter-olympics-paralympic-team-hopefuls",
+      "family": "Unjoined Pink /250, other serial limits, ratio units and store availability",
+      "gap": "The guide's Pink Refractors /250 statement does not explicitly identify a checklist family; exact family-scoped numbering remains unreconciled. Other serial limits and an exhaustive parallel inventory remain unverified. Product images and color names alone do not establish numbering. The odds sheet names Hobby-146, Value Box SE-148 and Value Box EA-147 but no ratio unit. Preserve all 85 categories and 255 original cells, including nulls and the literal Hobby Base Green 01:23:00. January 15, 2026 is U.S. store availability, not a verified general release announcement. Neither Team USA branding nor athlete identities establish per-card teams, sports or rookie fields.",
+      "source": "https://ripped.topps.com/topps-chrome-us-winter-olympics-paralympic-team-hopefuls-history/",
+      "evidenceFile": "data/parallel-audit-sources/winter-olympics-2026-20261016.json",
+      "evidenceSha256": "85e3d5c1735199a8ff8895285bc2e839041f7cb0c1dc3c461e95bf526e6efbb0"
     }
   ]
 }

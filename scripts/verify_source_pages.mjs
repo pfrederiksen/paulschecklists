@@ -34,6 +34,18 @@ for(const set of cases){
   get('source-section').value=numbered[0];get('source-section').onchange();get('source-team').value=numbered[10];get('source-team').onchange();get('source-search').value=numbered[2];get('source-search').oninput();assert(get('source-results').innerHTML.includes('title="/'+numbered[3]+'"'), 'Published SEQUENCE must display as out-of numbering');
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"SPORT","YEAR","BRAND","PROGRAM","CARD SET","ATHLETE","TEAM","POSITION","CARD NUMBER","SEQUENCE"'));assert(csv.includes('"'+String(numbered[2]).replaceAll('"','""')+'"'));get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2026-topps-chrome-u-s-winter-olympics-paralympic-team-hopefuls'){
+  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  for(const [family,count] of [['1986 TOPPS',40],['1986 TOPPS AUTOGRAPH VARIATION',10],['FOR PRIDE AND COUNTRY',25],['OLYMPIC CHAMPIONS',12],['BASE CARDS I',100],['BASE CARDS II',100]]){get('source-reset').onclick();get('source-section').value=family;get('source-section').onchange();assert.equal(get('source-count').textContent,count+' official source rows');}
+  get('source-search').value='Aaron Pike';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('137')&&csv.includes('Aaron Pike'));get('source-results').onclick({target:{closest:()=>({dataset:{row:String(data.rows.findIndex(r=>r[1]==='137'))}})}});assert(get('source-results').innerHTML.includes('01:23:00'));assert(!get('source-results').innerHTML.includes('/250'));
+  get('source-reset').onclick();get('source-search').value='DA-LG';get('source-search').oninput();assert.equal(get('source-count').textContent,'2 official source rows');get('source-export').onclick();assert(csv.includes('Alysa Liu')&&csv.includes('Amber Glenn'));
+  get('source-reset').onclick();get('source-search').value='1986';get('source-search').oninput();get('source-export').onclick();assert(!csv.includes('"1986","TOPPS"'));
+  get('source-reset').onclick();get('source-odds-tab').onclick();get('source-export').onclick();assert(csv.includes('Pink Refractors')&&csv.includes('/250')&&csv.includes('unjoined product statement'));assert(csv.includes('Hobby-146')&&!csv.includes('2026 Topps Chrome US Olympics CardsHobby'));
+  get('source-section').value='BASE CARDS II';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('Base Green Refractor Parallel')&&csv.includes('01:23:00'));assert(!csv.includes('/250'));
+  get('source-format').value='Value Box SE-148';get('source-format').onchange();get('source-search').value='Base Red, White and Blue';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('1:4'));
+  get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-26-topps-nbl-basketball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   assert.deepEqual(data.formats,['Hobby SKU']);

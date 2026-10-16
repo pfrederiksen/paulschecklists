@@ -1,0 +1,31 @@
+{
+  "observed": "2026-10-16",
+  "method": "Official Topps product and landing pages read through web; linked Ripped history guide read through the official browser page. Original checklist and odds PDFs downloaded, visually inspected and reconciled using physical glyph origins and ruled cells. Normalized factual snapshot hash is separate from PDF byte hashes.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-chrome-u-s-olympics",
+    "hobby": "https://www.topps.com/products/2026-topps-chrome-u-s-olympics-hobby-box",
+    "value": "https://www.topps.com/products/2026-topps-chrome-u-s-olympics-value-box",
+    "guide": "https://ripped.topps.com/topps-chrome-us-winter-olympics-paralympic-team-hopefuls-history/"
+  },
+  "checklistSha256": "7c856af7f10f4ea6d0aaf6012abcd63596a36a5c70c9c26bab768d01ea5f3cd4",
+  "oddsSha256": "36b1f88969ecb1ae0caddb69db2f6db72c2e557af055c41e3b6cc253bde0de77",
+  "configuration": [
+    ["Hobby", "8 cards per pack; 12 packs per box; two autographs and one relic per box", "Box configuration; not an odds ratio unit"],
+    ["Value", "4 cards per pack; 7 packs per box; two exclusive Red, White and Blue Refractors per box", "Published box contents; select athletes only; no individual eligibility is inferred"]
+  ],
+  "storeFields": [
+    ["Hobby", "FGC007146-DB", "2025", "2026-01-15", "U.S. store Product Year and Available From fields; checklist title remains 2026 and general release date remains unverified"],
+    ["Value", "FGC007148-DB", "2025", "2026-01-15", "Value product title; its original Sub Type / Product Type fields both say Hobby; do not relabel the original source fields"]
+  ],
+  "guideStatement": {
+    "parallel": "Pink Refractors",
+    "numbering": "/250",
+    "qualification": "The 2026 guide publishes this numbering without naming a checklist family. Retain it as an unjoined product statement; do not assign it to individual cards or other colors."
+  },
+  "remainingGaps": [
+    "The guide's Pink Refractors /250 statement does not explicitly identify a checklist family; exact family-scoped numbering remains unreconciled.",
+    "Other serial limits and an exhaustive parallel inventory remain unverified. Product images and color names alone do not establish numbering.",
+    "The odds sheet names Hobby-146, Value Box SE-148 and Value Box EA-147 but no ratio unit. Preserve all 85 categories and 255 original cells, including nulls and the literal Hobby Base Green 01:23:00.",
+    "January 15, 2026 is U.S. store availability, not a verified general release announcement. Neither Team USA branding nor athlete identities establish per-card teams, sports or rookie fields."
+  ]
+}
