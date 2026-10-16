@@ -1162,14 +1162,23 @@
       "slug": "topps-bowman-2026-topps-chrome-veefriends",
       "title": "2026 Topps Chrome® VeeFriends",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-chrome-veefriends",
       "oddsCategories": 104,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "numberedOddsCategories": 32,
+      "supplementalSpecifications": 34,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-chrome-veefriends",
+          "family": "Unjoined guide claims, specification-only Green and source units",
+          "gap": "All 711 numbered entries and 112 artist entries are reconciled. The fused SSA-100 code is retained separately from Zealous Zombie. Guide-only artist names and a MrBeast autograph claim have no printed card-code join; no new roster entries are invented. The combined odds sheet retains all 104 categories and eight literal formats, including Sapphire. No ratio unit is printed; only the separately sourced five variant statements explicitly name packs. Box/case averages remain separate and are not converted into pack rates. Balance Battles Green Refractor is named in the brand guide but has no matching odds row or stated number; it remains specification-only. Other unpublished limits, including Sapphire and most base colors, are unverified. The 1986 count is a print limit, not serial numbering. Exhaustive parallel coverage is not established. The brand confirms June 10 regular-Chrome global release separately from May presales. Sapphire launch timing is not established by that date.",
+          "source": "https://www.topps.com/pages/topps-chrome-veefriends",
+          "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+          "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-chrome-x-jennie",

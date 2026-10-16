@@ -16,7 +16,7 @@ for(const entry of registry.dates){
  const set=catalog.sets.find(s=>s.slug===entry.slug),live=deployed.sets.find(s=>s.slug===entry.slug),source=registry.sources[entry.source];
  const {sha256,...snapshot}=source;
  assert.equal(createHash('sha256').update(JSON.stringify(snapshot,Object.keys(snapshot).sort())).digest('hex'),sha256);
- assert(['ripped.topps.com','www.topps.com','upperdeck.com'].includes(new URL(source.url).hostname));
+ assert(['ripped.topps.com','www.topps.com','upperdeck.com','veefriends.com'].includes(new URL(source.url).hostname));
  assert.equal(set.releaseDate,entry.releaseDate);assert.equal(set.releaseStatus,entry.releaseStatus);
  assert.deepEqual(set.verifiedRelease,{...source,snapshotFile:'data/release-dates.json'});
  assert.equal(live.releaseDate,set.releaseDate);assert.deepEqual(live.verifiedRelease,set.verifiedRelease);
@@ -33,6 +33,8 @@ assert(masterworkHtml.includes('Exhaustive parallel-numbering coverage has not b
 assert(!masterworkHtml.includes('and a calendar release date have not been established'),'Release evidence must not erase the separate parallel audit gap');
 assert.equal(by('topps-bowman-2026-topps-stadium-club-wwe').releaseDate,'2026-10-23');
 assert.equal(by('topps-bowman-2026-topps-stadium-club-wwe').releaseStatus,'Upcoming');
+assert.equal(by('topps-bowman-2026-topps-chrome-veefriends').releaseDate,'2026-06-10');
+assert(by('topps-bowman-2026-topps-chrome-veefriends').verifiedRelease.scope.includes('Sapphire is explicitly a later launch'));
 assert.equal(by('topps-bowman-2026-topps-chrome-disney').releaseDate,'2026-06-17');
 assert.equal(by('topps-bowman-2026-topps-chrome-ufc').releaseDate,'2026-05-08');
 for(const slug of ['topps-bowman-2026-topps-chrome-disney-sapphire-edition','topps-bowman-2026-topps-chrome-ufc-sapphire-edition'])assert.equal(by(slug).releaseDate,null,'Regular Chrome dates do not establish Sapphire dates');

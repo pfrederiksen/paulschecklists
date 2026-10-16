@@ -6596,7 +6596,382 @@
         "evidenceSha256": "d6e3e547f6400f6ba72c010b8c648bbf7fb1908f6deaa55defaf4adb14b30607"
       }
     ],
-    "topps-bowman-2026-topps-chrome-disney": []
+    "topps-bowman-2026-topps-chrome-disney": [],
+    "topps-bowman-2026-topps-chrome-veefriends": [
+      {
+        "family": "BASE CARDS",
+        "name": "Black Cat Refractor",
+        "numbering": "/7",
+        "oddsName": "Base Set Black Cat Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. Topps names this base-set parallel; no limits are propagated to other colors or Sapphire.",
+        "source": "https://www.topps.com/pages/topps-chrome-veefriends",
+        "sourceHeading": "BASE CARDS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Blast Off",
+        "numbering": "1/1",
+        "oddsName": "Base Set Blast Off",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. Value Box exclusive; no Hobby or Sapphire ratio is published.",
+        "source": "https://www.topps.com/pages/topps-chrome-veefriends",
+        "sourceHeading": "BASE CARDS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "BASE CARDS GARY VEE AUTOGRAPH PARALLEL",
+        "name": "Gary Vee autograph",
+        "numbering": "/5",
+        "oddsName": "Base Set Gary Vee Autograph Parallel",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://www.topps.com/pages/topps-chrome-veefriends",
+        "sourceHeading": "BASE CARDS GARY VEE AUTOGRAPH PARALLEL",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "COMIC CLIPPINGS",
+        "name": "Comic Clippings",
+        "numbering": "1/1",
+        "oddsName": "Comic Clippings",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://www.topps.com/pages/topps-chrome-veefriends",
+        "sourceHeading": "COMIC CLIPPINGS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "ERUPT",
+        "name": "Black Lava Refractor",
+        "numbering": "/10",
+        "oddsName": "Erupt! Black Lava Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-erupt-insert-in-2026-topps-chrome-veefriends-6d99f7257e09",
+        "sourceHeading": "ERUPT",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "ERUPT",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Erupt! SuperFractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-erupt-insert-in-2026-topps-chrome-veefriends-6d99f7257e09",
+        "sourceHeading": "ERUPT",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "MANGA SPECKLE SET",
+        "name": "Base",
+        "numbering": "Unnumbered",
+        "oddsName": "Manga Speckle Set",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-manga-speckle-set-insert-in-topps-chrome-veefriends-2026-a51d0af08f2e",
+        "sourceHeading": "MANGA SPECKLE SET",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "MANGA SPECKLE SET",
+        "name": "Orange Speckle Refractor",
+        "numbering": "/25",
+        "oddsName": "Manga Speckle Set Orange Speckle Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-manga-speckle-set-insert-in-topps-chrome-veefriends-2026-a51d0af08f2e",
+        "sourceHeading": "MANGA SPECKLE SET",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "MANGA SPECKLE SET",
+        "name": "Purple Speckle Refractor",
+        "numbering": "/10",
+        "oddsName": "Manga Speckle Set Purple Speckle Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-manga-speckle-set-insert-in-topps-chrome-veefriends-2026-a51d0af08f2e",
+        "sourceHeading": "MANGA SPECKLE SET",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "MANGA SPECKLE SET",
+        "name": "Red Speckle Refractor",
+        "numbering": "/5",
+        "oddsName": "Manga Speckle Set Red Speckle Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-manga-speckle-set-insert-in-topps-chrome-veefriends-2026-a51d0af08f2e",
+        "sourceHeading": "MANGA SPECKLE SET",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "MANGA SPECKLE SET",
+        "name": "Black Speckle Refractor",
+        "numbering": "1/1",
+        "oddsName": "Manga Speckle Set Black Speckle Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-manga-speckle-set-insert-in-topps-chrome-veefriends-2026-a51d0af08f2e",
+        "sourceHeading": "MANGA SPECKLE SET",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "NEON LIGHTS",
+        "name": "VF Green Refractor",
+        "numbering": "/99",
+        "oddsName": "Neon Lights VF Green Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-neon-lights-insert-in-topps-chrome-veefriends-2026-84fa3d6e9fc9",
+        "sourceHeading": "NEON LIGHTS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "NEON LIGHTS",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "oddsName": "Neon Lights Gold Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-neon-lights-insert-in-topps-chrome-veefriends-2026-84fa3d6e9fc9",
+        "sourceHeading": "NEON LIGHTS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "NEON LIGHTS",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "oddsName": "Neon Lights Orange Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-neon-lights-insert-in-topps-chrome-veefriends-2026-84fa3d6e9fc9",
+        "sourceHeading": "NEON LIGHTS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "NEON LIGHTS",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "oddsName": "Neon Lights Black Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-neon-lights-insert-in-topps-chrome-veefriends-2026-84fa3d6e9fc9",
+        "sourceHeading": "NEON LIGHTS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "NEON LIGHTS",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "Neon Lights Red Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-neon-lights-insert-in-topps-chrome-veefriends-2026-84fa3d6e9fc9",
+        "sourceHeading": "NEON LIGHTS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "NEON LIGHTS",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Neon Lights SuperFractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-neon-lights-insert-in-topps-chrome-veefriends-2026-84fa3d6e9fc9",
+        "sourceHeading": "NEON LIGHTS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "STELLAR HAZE",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "oddsName": "Stellar Haze Gold Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-stellar-haze-insert-in-2026-topps-chrome-veefriends-7c91593d94c8",
+        "sourceHeading": "STELLAR HAZE",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "STELLAR HAZE",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "oddsName": "Stellar Haze Orange Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-stellar-haze-insert-in-2026-topps-chrome-veefriends-7c91593d94c8",
+        "sourceHeading": "STELLAR HAZE",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "STELLAR HAZE",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "oddsName": "Stellar Haze Black Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-stellar-haze-insert-in-2026-topps-chrome-veefriends-7c91593d94c8",
+        "sourceHeading": "STELLAR HAZE",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "STELLAR HAZE",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "Stellar Haze Red Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-stellar-haze-insert-in-2026-topps-chrome-veefriends-7c91593d94c8",
+        "sourceHeading": "STELLAR HAZE",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "STELLAR HAZE",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Stellar Haze SuperFractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-stellar-haze-insert-in-2026-topps-chrome-veefriends-7c91593d94c8",
+        "sourceHeading": "STELLAR HAZE",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "ORIGINAL SKETCH SELECTIONS",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "oddsName": "Original Sketch Selections Gold Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-sketch-cards-original-sketch-selections-in-topps-chrome-d56d52bfd404",
+        "sourceHeading": "ORIGINAL SKETCH SELECTIONS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "ORIGINAL SKETCH SELECTIONS",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "oddsName": "Original Sketch Selections Orange Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-sketch-cards-original-sketch-selections-in-topps-chrome-d56d52bfd404",
+        "sourceHeading": "ORIGINAL SKETCH SELECTIONS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "ORIGINAL SKETCH SELECTIONS",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "oddsName": "Original Sketch Selections Black Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-sketch-cards-original-sketch-selections-in-topps-chrome-d56d52bfd404",
+        "sourceHeading": "ORIGINAL SKETCH SELECTIONS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "ORIGINAL SKETCH SELECTIONS",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "Original Sketch Selections Red Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-sketch-cards-original-sketch-selections-in-topps-chrome-d56d52bfd404",
+        "sourceHeading": "ORIGINAL SKETCH SELECTIONS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "ORIGINAL SKETCH SELECTIONS",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Original Sketch Selections SuperFractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-sketch-cards-original-sketch-selections-in-topps-chrome-d56d52bfd404",
+        "sourceHeading": "ORIGINAL SKETCH SELECTIONS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "MEGAHEADS",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "MegaHeads Red Refractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-megaheads-insert-in-2026-topps-chrome-veefriends-482e5a87c97d",
+        "sourceHeading": "MEGAHEADS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "MEGAHEADS",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "MegaHeads SuperFractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-megaheads-insert-in-2026-topps-chrome-veefriends-482e5a87c97d",
+        "sourceHeading": "MEGAHEADS",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "TOPPS 1986 BASE SET VARIATION",
+        "name": "1986 base print limit",
+        "numbering": "Limited to 86 per character; serial numbering not stated",
+        "oddsName": "Topps 1986 Variation",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. The brand publishes a print limit, not a serial-number claim.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-1986-football-insert-in-topps-chrome-veefriends-2026-4cebf981577f",
+        "sourceHeading": "TOPPS 1986 BASE SET VARIATION",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "TOPPS 1986 BASE SET VARIATION",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Topps 1986 Variation SuperFractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-1986-football-insert-in-topps-chrome-veefriends-2026-4cebf981577f",
+        "sourceHeading": "TOPPS 1986 BASE SET VARIATION",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "BALANCE BATTLES",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Balance Battles SuperFractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-balance-battles-chalkboard-inserts-in-topps-chrome-veefriends-2026-3eacad562ed8",
+        "sourceHeading": "BALANCE BATTLES",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "CHALKBOARD",
+        "name": "SuperFractor",
+        "numbering": "1/1",
+        "oddsName": "Chalkboard SuperFractor",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-balance-battles-chalkboard-inserts-in-topps-chrome-veefriends-2026-3eacad562ed8",
+        "sourceHeading": "CHALKBOARD",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      },
+      {
+        "family": "BALANCE BATTLES",
+        "name": "Green Refractor",
+        "numbering": "Not published",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. Guide-only named parallel, absent from the checked PDF odds. No ratio or serial limit is published.",
+        "source": "https://veefriends.com/blog/road-to-chrome-spotlighting-balance-battles-chalkboard-inserts-in-topps-chrome-veefriends-2026-3eacad562ed8",
+        "sourceHeading": "BALANCE BATTLES",
+        "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+        "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+      }
+    ]
   },
   "conflicts": [
     {
@@ -6840,6 +7215,14 @@
       "source": "https://www.topps.com/pages/topps-chrome-disney",
       "evidenceFile": "data/parallel-audit-sources/disney-chrome-2026-20261015.json",
       "evidenceSha256": "5ed3abaad6a29b0264098ccba50fbffd9a8be64bef0a08dcc2c351099f938b3b"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-veefriends",
+      "family": "Unjoined guide claims, specification-only Green and source units",
+      "gap": "All 711 numbered entries and 112 artist entries are reconciled. The fused SSA-100 code is retained separately from Zealous Zombie. Guide-only artist names and a MrBeast autograph claim have no printed card-code join; no new roster entries are invented. The combined odds sheet retains all 104 categories and eight literal formats, including Sapphire. No ratio unit is printed; only the separately sourced five variant statements explicitly name packs. Box/case averages remain separate and are not converted into pack rates. Balance Battles Green Refractor is named in the brand guide but has no matching odds row or stated number; it remains specification-only. Other unpublished limits, including Sapphire and most base colors, are unverified. The 1986 count is a print limit, not serial numbering. Exhaustive parallel coverage is not established. The brand confirms June 10 regular-Chrome global release separately from May presales. Sapphire launch timing is not established by that date.",
+      "source": "https://www.topps.com/pages/topps-chrome-veefriends",
+      "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
+      "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
     }
   ]
 }

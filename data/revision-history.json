@@ -4370,12 +4370,36 @@
     "state": {
       "checklistHash": "f7c2308d337b009da1f540943b59c2e000662aaaff79a9d378bba4a99f11a876",
       "oddsHash": "76def45edfeeb297574e9296a4e5921cd041b3fecc46a6e32277972b6c471523",
-      "rows": 711,
+      "rows": 823,
       "odds": 104,
-      "specificationRows": 0
+      "specificationRows": 68,
+      "specificationHash": "77f7472823a89577b2a972b35d8e189a69420fd29abe644f694db4a1cca4543a"
     },
-    "fingerprint": "3714b17d53f824798c60185f74ae4faa2c90bbbe10e601bb6a2175bdf4b07849",
+    "fingerprint": "229d6865a75996febc08990a35681df2ccdaba7ca0d9ba9357e0ae32c24ab613",
     "events": [
+      {
+        "at": "2026-10-16T04:43:47.188Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 68",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_VeeFriends_Checklist.pdf?v=1778506125",
+        "snapshot": {
+          "checklistHash": "f7c2308d337b009da1f540943b59c2e000662aaaff79a9d378bba4a99f11a876",
+          "oddsHash": "76def45edfeeb297574e9296a4e5921cd041b3fecc46a6e32277972b6c471523",
+          "rows": 823,
+          "odds": 104,
+          "specificationRows": 68,
+          "specificationHash": "77f7472823a89577b2a972b35d8e189a69420fd29abe644f694db4a1cca4543a"
+        },
+        "previousSnapshot": {
+          "checklistHash": "f7c2308d337b009da1f540943b59c2e000662aaaff79a9d378bba4a99f11a876",
+          "oddsHash": "76def45edfeeb297574e9296a4e5921cd041b3fecc46a6e32277972b6c471523",
+          "rows": 711,
+          "odds": 104,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T01:06:39.183Z",
         "changes": [

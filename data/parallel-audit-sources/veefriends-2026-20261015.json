@@ -1,0 +1,465 @@
+{
+  "observed": "2026-10-15",
+  "method": "Fresh official PDF downloads; original glyph origins and physical row boxes reconciled. Topps landing and VeeFriends brand guides read directly with official web reads. Topps Ripped chase guide read in the in-app browser. Four brand guide HTML documents were read directly after the web extractor timed out.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-chrome-veefriends",
+    "chase": "https://ripped.topps.com/2026-topps-chrome-veefriends-chase-cards-guide/",
+    "brand": "https://veefriends.com/collectibles/cards/topps-chrome-2026",
+    "release": "https://veefriends.com/blog/how-to-buy-2026-topps-chrome-veefriends-before-june-10th-launch-date-presale-details-e137bd6a7c52",
+    "variants": "https://veefriends.com/blog/get-an-edge-on-2026-topps-chrome-veefriends-with-color-variant-chases-d5b4ee3e8513",
+    "erupt": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-erupt-insert-in-2026-topps-chrome-veefriends-6d99f7257e09",
+    "manga": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-manga-speckle-set-insert-in-topps-chrome-veefriends-2026-a51d0af08f2e",
+    "neon": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-neon-lights-insert-in-topps-chrome-veefriends-2026-84fa3d6e9fc9",
+    "stellar": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-stellar-haze-insert-in-2026-topps-chrome-veefriends-7c91593d94c8",
+    "balance": "https://veefriends.com/blog/road-to-chrome-spotlighting-balance-battles-chalkboard-inserts-in-topps-chrome-veefriends-2026-3eacad562ed8",
+    "football": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-1986-football-insert-in-topps-chrome-veefriends-2026-4cebf981577f",
+    "iconics": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-iconics-insert-in-topps-chrome-veefriends-2026-b75143ad3efe",
+    "mega": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-megaheads-insert-in-2026-topps-chrome-veefriends-482e5a87c97d",
+    "sketch": "https://veefriends.com/blog/road-to-chrome-spotlighting-the-sketch-cards-original-sketch-selections-in-topps-chrome-d56d52bfd404"
+  },
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_VeeFriends_Checklist.pdf?v=1778506125",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_VeeFriends_Odds.pdf?v=1778160123",
+  "checklistSha256": "f7c2308d337b009da1f540943b59c2e000662aaaff79a9d378bba4a99f11a876",
+  "oddsSha256": "76def45edfeeb297574e9296a4e5921cd041b3fecc46a6e32277972b6c471523",
+  "numbering": [
+    {
+      "family": "BASE CARDS",
+      "name": "Black Cat Refractor",
+      "numbering": "/7",
+      "guide": "landing",
+      "oddsName": "Base Set Black Cat Refractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred. Topps names this base-set parallel; no limits are propagated to other colors or Sapphire."
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Blast Off",
+      "numbering": "1/1",
+      "guide": "landing",
+      "oddsName": "Base Set Blast Off",
+      "qualification": "Published for this family; individual-card eligibility is not inferred. Value Box exclusive; no Hobby or Sapphire ratio is published."
+    },
+    {
+      "family": "BASE CARDS GARY VEE AUTOGRAPH PARALLEL",
+      "name": "Gary Vee autograph",
+      "numbering": "/5",
+      "guide": "landing",
+      "oddsName": "Base Set Gary Vee Autograph Parallel"
+    },
+    {
+      "family": "COMIC CLIPPINGS",
+      "name": "Comic Clippings",
+      "numbering": "1/1",
+      "guide": "landing",
+      "oddsName": "Comic Clippings"
+    },
+    {
+      "family": "ERUPT",
+      "name": "Black Lava Refractor",
+      "numbering": "/10",
+      "guide": "erupt",
+      "oddsName": "Erupt! Black Lava Refractor"
+    },
+    {
+      "family": "ERUPT",
+      "name": "SuperFractor",
+      "numbering": "1/1",
+      "guide": "erupt",
+      "oddsName": "Erupt! SuperFractor"
+    },
+    {
+      "family": "MANGA SPECKLE SET",
+      "name": "Base",
+      "numbering": "Unnumbered",
+      "guide": "manga",
+      "oddsName": "Manga Speckle Set"
+    },
+    {
+      "family": "MANGA SPECKLE SET",
+      "name": "Orange Speckle Refractor",
+      "numbering": "/25",
+      "guide": "manga",
+      "oddsName": "Manga Speckle Set Orange Speckle Refractor"
+    },
+    {
+      "family": "MANGA SPECKLE SET",
+      "name": "Purple Speckle Refractor",
+      "numbering": "/10",
+      "guide": "manga",
+      "oddsName": "Manga Speckle Set Purple Speckle Refractor"
+    },
+    {
+      "family": "MANGA SPECKLE SET",
+      "name": "Red Speckle Refractor",
+      "numbering": "/5",
+      "guide": "manga",
+      "oddsName": "Manga Speckle Set Red Speckle Refractor"
+    },
+    {
+      "family": "MANGA SPECKLE SET",
+      "name": "Black Speckle Refractor",
+      "numbering": "1/1",
+      "guide": "manga",
+      "oddsName": "Manga Speckle Set Black Speckle Refractor"
+    },
+    {
+      "family": "NEON LIGHTS",
+      "name": "VF Green Refractor",
+      "numbering": "/99",
+      "guide": "neon",
+      "oddsName": "Neon Lights VF Green Refractor"
+    },
+    {
+      "family": "NEON LIGHTS",
+      "name": "Gold Refractor",
+      "numbering": "/50",
+      "guide": "neon",
+      "oddsName": "Neon Lights Gold Refractor"
+    },
+    {
+      "family": "NEON LIGHTS",
+      "name": "Orange Refractor",
+      "numbering": "/25",
+      "guide": "neon",
+      "oddsName": "Neon Lights Orange Refractor"
+    },
+    {
+      "family": "NEON LIGHTS",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "guide": "neon",
+      "oddsName": "Neon Lights Black Refractor"
+    },
+    {
+      "family": "NEON LIGHTS",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "guide": "neon",
+      "oddsName": "Neon Lights Red Refractor"
+    },
+    {
+      "family": "NEON LIGHTS",
+      "name": "SuperFractor",
+      "numbering": "1/1",
+      "guide": "neon",
+      "oddsName": "Neon Lights SuperFractor"
+    },
+    {
+      "family": "STELLAR HAZE",
+      "name": "Gold Refractor",
+      "numbering": "/50",
+      "guide": "stellar",
+      "oddsName": "Stellar Haze Gold Refractor"
+    },
+    {
+      "family": "STELLAR HAZE",
+      "name": "Orange Refractor",
+      "numbering": "/25",
+      "guide": "stellar",
+      "oddsName": "Stellar Haze Orange Refractor"
+    },
+    {
+      "family": "STELLAR HAZE",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "guide": "stellar",
+      "oddsName": "Stellar Haze Black Refractor"
+    },
+    {
+      "family": "STELLAR HAZE",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "guide": "stellar",
+      "oddsName": "Stellar Haze Red Refractor"
+    },
+    {
+      "family": "STELLAR HAZE",
+      "name": "SuperFractor",
+      "numbering": "1/1",
+      "guide": "stellar",
+      "oddsName": "Stellar Haze SuperFractor"
+    },
+    {
+      "family": "ORIGINAL SKETCH SELECTIONS",
+      "name": "Gold Refractor",
+      "numbering": "/50",
+      "guide": "sketch",
+      "oddsName": "Original Sketch Selections Gold Refractor"
+    },
+    {
+      "family": "ORIGINAL SKETCH SELECTIONS",
+      "name": "Orange Refractor",
+      "numbering": "/25",
+      "guide": "sketch",
+      "oddsName": "Original Sketch Selections Orange Refractor"
+    },
+    {
+      "family": "ORIGINAL SKETCH SELECTIONS",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "guide": "sketch",
+      "oddsName": "Original Sketch Selections Black Refractor"
+    },
+    {
+      "family": "ORIGINAL SKETCH SELECTIONS",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "guide": "sketch",
+      "oddsName": "Original Sketch Selections Red Refractor"
+    },
+    {
+      "family": "ORIGINAL SKETCH SELECTIONS",
+      "name": "SuperFractor",
+      "numbering": "1/1",
+      "guide": "sketch",
+      "oddsName": "Original Sketch Selections SuperFractor"
+    },
+    {
+      "family": "MEGAHEADS",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "guide": "mega",
+      "oddsName": "MegaHeads Red Refractor"
+    },
+    {
+      "family": "MEGAHEADS",
+      "name": "SuperFractor",
+      "numbering": "1/1",
+      "guide": "mega",
+      "oddsName": "MegaHeads SuperFractor"
+    },
+    {
+      "family": "TOPPS 1986 BASE SET VARIATION",
+      "name": "1986 base print limit",
+      "numbering": "Limited to 86 per character; serial numbering not stated",
+      "guide": "football",
+      "oddsName": "Topps 1986 Variation",
+      "qualification": "Published for this family; individual-card eligibility is not inferred. The brand publishes a print limit, not a serial-number claim."
+    },
+    {
+      "family": "TOPPS 1986 BASE SET VARIATION",
+      "name": "SuperFractor",
+      "numbering": "1/1",
+      "guide": "football",
+      "oddsName": "Topps 1986 Variation SuperFractor"
+    },
+    {
+      "family": "BALANCE BATTLES",
+      "name": "SuperFractor",
+      "numbering": "1/1",
+      "guide": "balance",
+      "oddsName": "Balance Battles SuperFractor"
+    },
+    {
+      "family": "CHALKBOARD",
+      "name": "SuperFractor",
+      "numbering": "1/1",
+      "guide": "balance",
+      "oddsName": "Chalkboard SuperFractor"
+    },
+    {
+      "family": "BALANCE BATTLES",
+      "name": "Green Refractor",
+      "numbering": "Not published",
+      "guide": "balance",
+      "qualification": "Published for this family; individual-card eligibility is not inferred. Guide-only named parallel, absent from the checked PDF odds. No ratio or serial limit is published."
+    }
+  ],
+  "productFields": [
+    [
+      "Base characters",
+      "200",
+      "Topps landing; original PDF retains both the base and separate Gary Vee autograph roster"
+    ],
+    [
+      "Black Cat Refractor",
+      "/7",
+      "Exact named base parallel; other colors are not numbered from this claim"
+    ],
+    [
+      "Blast Off",
+      "1/1",
+      "Value Box exclusive"
+    ],
+    [
+      "Gary Vee base autograph",
+      "/5",
+      "Applies to the separately printed 200-entry autograph family"
+    ],
+    [
+      "Comic Clippings",
+      "1/1",
+      "Ten numbered issue entries; do not copy source-comic edition print runs into card data"
+    ]
+  ],
+  "guideFields": [
+    [
+      "Content Condors autograph discrepancy",
+      "MrBeast autograph is discussed in the Topps Ripped guide, but no MrBeast autograph row is printed in the PDF",
+      "Retain the six-person main roster and eight-person autograph roster; do not invent a missing signer code"
+    ],
+    [
+      "Sketch artwork",
+      "Brand describes one-of-one original artwork",
+      "112 artist entries are rosters; no artist is assigned a 1/1 serial-number limit"
+    ],
+    [
+      "Iconics",
+      "One Lava design per character",
+      "Design count is not a 1/1 print run; guide case average is separate from PDF odds"
+    ],
+    [
+      "Sketch roster discrepancy",
+      "Brand article includes artists absent from the PDF, including Chenduz and MUMBOT",
+      "Retain the complete 111-name printed roster and the separate Gary Vee Blank Canvas entry; guide-only roster names remain unjoined"
+    ],
+    [
+      "Sapphire",
+      "Sapphire is a separate later launch in the brand release guide",
+      "June 10 applies to regular Chrome, not a verified Sapphire release"
+    ]
+  ],
+  "formats": [
+    [
+      "Value Box",
+      "8 packs; 4 cards per pack; 4 Yellow Refractors per box",
+      "Configuration, not odds"
+    ],
+    [
+      "Mega Box",
+      "8 packs; 7 cards per pack; 4 X-Fractors and 1 MegaHeads per box",
+      "Configuration, not odds"
+    ],
+    [
+      "Hobby",
+      "18 packs; 4 cards per pack",
+      "Configuration, not odds"
+    ],
+    [
+      "Sapphire",
+      "8 packs; 4 cards per pack",
+      "Brand product page; separate launch timing"
+    ]
+  ],
+  "variantPackOdds": [
+    [
+      "VEEFRIENDS VARIANTS",
+      "Purple",
+      "155",
+      "240",
+      "644"
+    ],
+    [
+      "VEEFRIENDS VARIANTS",
+      "Green",
+      "1,240",
+      "1,916",
+      "5,150"
+    ],
+    [
+      "VEEFRIENDS VARIANTS - LAST GLASS STANDING",
+      "White",
+      "1,550",
+      "2,395",
+      "6,438"
+    ],
+    [
+      "VEEFRIENDS VARIANTS - LAST GLASS STANDING",
+      "Rosé",
+      "3,099",
+      "4,790",
+      "12,875"
+    ],
+    [
+      "VEEFRIENDS VARIANTS - GRITTY GHOST",
+      "No image",
+      "1,550",
+      "2,395",
+      "6,438"
+    ]
+  ],
+  "caseAverages": [
+    [
+      "ERUPT",
+      "Base",
+      "10 Hobby cases"
+    ],
+    [
+      "ERUPT",
+      "Black Lava /10",
+      "28 Hobby cases"
+    ],
+    [
+      "ERUPT",
+      "SuperFractor 1/1",
+      "320 Hobby cases"
+    ],
+    [
+      "ORIGINAL SKETCH SELECTIONS",
+      "Base",
+      "4 Hobby cases"
+    ],
+    [
+      "ORIGINAL SKETCH SELECTIONS",
+      "Gold /50",
+      "22 Hobby cases"
+    ],
+    [
+      "ORIGINAL SKETCH SELECTIONS",
+      "Orange /25",
+      "45 Hobby cases"
+    ],
+    [
+      "ORIGINAL SKETCH SELECTIONS",
+      "Black /10",
+      "115 Hobby cases"
+    ],
+    [
+      "ORIGINAL SKETCH SELECTIONS",
+      "Red /5",
+      "247 Hobby cases"
+    ],
+    [
+      "ORIGINAL SKETCH SELECTIONS",
+      "SuperFractor 1/1",
+      "2,718 Hobby cases"
+    ],
+    [
+      "ICONICS",
+      "Lava",
+      "3 cases; format not stated"
+    ]
+  ],
+  "boxAverages": [
+    [
+      "MANGA SPECKLE SET",
+      "Hobby",
+      "1 in 10 packs"
+    ],
+    [
+      "MANGA SPECKLE SET",
+      "Mega",
+      "1 in 2 boxes"
+    ],
+    [
+      "MANGA SPECKLE SET",
+      "Value / Blaster",
+      "1 in 3 boxes"
+    ],
+    [
+      "NEON LIGHTS",
+      "Hobby",
+      "2 per box"
+    ],
+    [
+      "MEGAHEADS",
+      "Mega",
+      "1 per box"
+    ]
+  ],
+  "remainingGaps": [
+    "All 711 numbered entries and 112 artist entries are reconciled. The fused SSA-100 code is retained separately from Zealous Zombie. Guide-only artist names and a MrBeast autograph claim have no printed card-code join; no new roster entries are invented.",
+    "The combined odds sheet retains all 104 categories and eight literal formats, including Sapphire. No ratio unit is printed; only the separately sourced five variant statements explicitly name packs. Box/case averages remain separate and are not converted into pack rates.",
+    "Balance Battles Green Refractor is named in the brand guide but has no matching odds row or stated number; it remains specification-only. Other unpublished limits, including Sapphire and most base colors, are unverified. The 1986 count is a print limit, not serial numbering. Exhaustive parallel coverage is not established.",
+    "The brand confirms June 10 regular-Chrome global release separately from May presales. Sapphire launch timing is not established by that date."
+  ]
+}

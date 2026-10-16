@@ -217,6 +217,15 @@
       "statement": "Release Date: October 22, 2026",
       "scope": "Manufacturer U.S. guide; scheduled release subject to change",
       "sha256": "dc43c18c13bc5f9ca3677cac8a5fad700b2ad6e5e8a5304e78734e37a3ddf80f"
+    },
+    {
+      "url": "https://veefriends.com/blog/how-to-buy-2026-topps-chrome-veefriends-before-june-10th-launch-date-presale-details-e137bd6a7c52",
+      "title": "How To Buy 2026 Topps Chrome VeeFriends Before June 10th Launch Date — Presale Details",
+      "observed": "2026-10-15",
+      "method": "Official VeeFriends brand launch announcement read directly; regular global release distinguished from May presales and later Sapphire launch",
+      "statement": "2026 Topps Chrome VeeFriends will be available for official public sale to U.S. and international residents beginning on June 10th.",
+      "scope": "Official licensed VeeFriends brand: June 10, 2026 regular Chrome global release. Sapphire is explicitly a later launch with separate timing.",
+      "sha256": "16f16b0f085a59c898f8eb1d9bd339c774641ed8473ac3bc5ea11052c25ea5f6"
     }
   ],
   "dates": [
@@ -363,6 +372,12 @@
       "releaseDate": "2026-10-22",
       "releaseStatus": "Upcoming",
       "source": 23
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-veefriends",
+      "releaseDate": "2026-06-10",
+      "releaseStatus": "Released",
+      "source": 24
     }
   ],
   "unresolved": [
