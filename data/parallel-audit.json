@@ -1030,15 +1030,24 @@
       "slug": "topps-bowman-2025-26-topps-definitive-basketball",
       "title": "2025-26 Topps Definitive Basketball",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-definitive-basketball",
       "oddsCategories": 141,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "numberedOddsCategories": 7,
+      "supplementalSpecifications": 7,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-26-topps-definitive-basketball",
+          "family": "Remaining parallel numbering and release-date evidence",
+          "gap": "Exhaustive parallel numbering is unverified; the five named Gold programs and two Nameplate programs alone have approved family-wide 1/1 joins. The Rookie Patch Autographs 35-to-1 range does not identify intermediate parallel values. Triple Autographs numbered to 10 does not name a specific parallel; preserve both as qualified program statements. Named-card guide examples remain card-specific. Cooper Flagg Defining Images Blue /2 and the later unnamed-parallel /5 pull are distinct source statements; no family-wide Blue or Red limit is inferred. Neither HOBBY nor FDI names a ratio unit in the odds PDF. Box contents and the First Day Issue category are separate from per-pack odds. September 3 guide publication, September 24 pull-report publication and indexed September 17 availability are not an explicit general release-date statement. Preorder configuration remains separate.",
+          "source": "https://ripped.topps.com/2025-26-topps-definitive-basketball-guide/",
+          "evidenceFile": "data/parallel-audit-sources/definitive-basketball-2025-26-20261016.json",
+          "evidenceSha256": "ac9c712a322b80efd3d415544876ddf9cb74a73a27a2f942bbe0ed6cc489e75f"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-allen-ginter-baseball",

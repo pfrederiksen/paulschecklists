@@ -1,0 +1,359 @@
+{
+  "observed": "2026-10-16",
+  "method": "Official product landing and preorder page read through web; full collector guide and early-pulls article read through the official browser. Physical PDF columns and rendered pages reconciled. Normalized factual snapshot hash is separate from the original PDF hashes.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-definitive-basketball",
+    "guide": "https://ripped.topps.com/2025-26-topps-definitive-basketball-guide/",
+    "pulls": "https://ripped.topps.com/2025-26-topps-definitive-basketball-biggest-pulls/",
+    "preorder": "https://launches.topps.com/en-US/launch/2025-26-topps-definitive-basketball-hobby-box-pre-order",
+    "checklist": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBK_VERSION4_1.pdf?v=1786549562",
+    "odds": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-16_2025-26-Topps-Definitive-Basketball_Odds_1.pdf?v=1789650301"
+  },
+  "checklistSha256": "0c7897c4f773221bc7f0a0537e4b4d394760a288c6f0cd3f65f32d9bca0a1ff2",
+  "oddsSha256": "8d19b092aa1f9c9ef742e284ac2679f088e6c65ee0047231d80a7edd5c06d319",
+  "approvedSpecifications": [
+    {
+      "family": "FRAMED LEGENDS AUTOGRAPH COLLECTION",
+      "name": "Gold",
+      "numbering": "1/1",
+      "oddsName": "FRAMED LEGENDS AUTOGRAPH COLLECTION GOLD",
+      "qualification": "Named Gold parallel only."
+    },
+    {
+      "family": "FRAMED ROOKIES AUTOGRAPH COLLECTION",
+      "name": "Gold",
+      "numbering": "1/1",
+      "oddsName": "FRAMED ROOKIES AUTOGRAPH COLLECTION GOLD",
+      "qualification": "Named Gold parallel only."
+    },
+    {
+      "family": "FRAMED VETERANS AUTOGRAPH COLLECTION",
+      "name": "Gold",
+      "numbering": "1/1",
+      "oddsName": "FRAMED VETERANS AUTOGRAPH COLLECTION GOLD",
+      "qualification": "Named Gold parallel only."
+    },
+    {
+      "family": "DEFINITIVE MOMENTS COLLECTION AUTOGRAPHS",
+      "name": "Gold",
+      "numbering": "1/1",
+      "oddsName": "DEFINITIVE MOMENTS COLLECTION AUTOGRAPHS GOLD",
+      "qualification": "Named Gold parallel only."
+    },
+    {
+      "family": "DEFINITIVE ROOKIE PATCH AUTOGRAPHS",
+      "name": "Gold",
+      "numbering": "1/1",
+      "oddsName": "DEFINITIVE ROOKIE PATCH AUTOGRAPHS GOLD",
+      "qualification": "Named Gold parallel only."
+    },
+    {
+      "family": "DEFINITIVE NAMEPLATE I",
+      "name": "Game-worn jersey letter",
+      "numbering": "1/1",
+      "oddsName": "DEFINITIVE NAMEPLATE ONE",
+      "qualification": "Individual jersey letters; separate checklist codes remain distinct."
+    },
+    {
+      "family": "DEFINITIVE NAMEPLATE II",
+      "name": "Game-worn jersey letter",
+      "numbering": "1/1",
+      "oddsName": "DEFINITIVE NAMEPLATE TWO",
+      "qualification": "Individual jersey letters; separate checklist codes remain distinct."
+    }
+  ],
+  "tables": [
+    {
+      "name": "Hobby preorder configuration",
+      "headers": [
+        "Published field",
+        "Published value",
+        "Scope"
+      ],
+      "rows": [
+        [
+          "Cards per pack",
+          "8",
+          "Box configuration; no ratio-unit inference"
+        ],
+        [
+          "Packs per box",
+          "1",
+          "Preorder Hobby configuration"
+        ],
+        [
+          "Autographs",
+          "Look for 6",
+          "Manufacturer wording; not a per-pack hit rate"
+        ],
+        [
+          "SKU",
+          "FGC006716-DB",
+          "Preorder Hobby product"
+        ]
+      ],
+      "sourceKey": "preorder"
+    },
+    {
+      "name": "DEFINITIVE ROOKIE PATCH AUTOGRAPHS",
+      "headers": [
+        "Published statement",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "Numbered from 35 down to Gold 1/1",
+          "Program range; intermediate parallel values are not identified"
+        ]
+      ],
+      "sourceKey": "landing"
+    },
+    {
+      "name": "TRIPLE AUTOGRAPHS",
+      "headers": [
+        "Published statement",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "Numbered to 10",
+          "Family statement; the specific parallel is not named. Separate from Triple Rookie Autographs."
+        ]
+      ],
+      "sourceKey": "landing"
+    },
+    {
+      "name": "AUTHENTIC RELIC AUTOGRAPHS",
+      "headers": [
+        "Card number",
+        "Name",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "ARA-CC",
+          "Cade Cunningham",
+          "Red",
+          "/5",
+          "Guide example applies to this named subject and parallel only."
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "DEFINABLE RELIC AUTOGRAPHS",
+      "headers": [
+        "Card number",
+        "Name",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "DEF-VW",
+          "Victor Wembanyama",
+          "Blue",
+          "/2",
+          "Guide example applies to this named subject and parallel only."
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "DEFINING IMAGES AUTOGRAPHS",
+      "headers": [
+        "Card number",
+        "Name",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "DIA-CF",
+          "Cooper Flagg",
+          "Blue",
+          "/2",
+          "Guide example applies to this named subject and parallel only."
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "DEFINITIVE MOMENTS COLLECTION AUTOGRAPHS",
+      "headers": [
+        "Card number",
+        "Name",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "MMA-SC",
+          "Stephen Curry",
+          "Gold",
+          "1/1",
+          "Guide example applies to this named subject and parallel only."
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "FRAMED LEGENDS AUTOGRAPH COLLECTION",
+      "headers": [
+        "Card number",
+        "Name",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "FLC-MJ",
+          "Magic Johnson",
+          "Gold",
+          "1/1",
+          "Guide example applies to this named subject and parallel only."
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "FRAMED ROOKIES AUTOGRAPH COLLECTION",
+      "headers": [
+        "Card number",
+        "Name",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "FRC-CF",
+          "Cooper Flagg",
+          "Blue",
+          "/2",
+          "Guide example applies to this named subject and parallel only."
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "FRAMED VETERANS AUTOGRAPH COLLECTION",
+      "headers": [
+        "Card number",
+        "Name",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "FVC-JT",
+          "Jayson Tatum",
+          "Black",
+          "/10",
+          "Guide example applies to this named subject and parallel only."
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "Official early-pull examples",
+      "headers": [
+        "Published program wording",
+        "Name / subjects",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "Rookie Patch Auto",
+          "Kon Knueppel",
+          "Not named",
+          "1/1",
+          "Exact parallel not stated"
+        ],
+        [
+          "Gold Relic Auto",
+          "Shai Gilgeous-Alexander",
+          "Gold",
+          "1/1",
+          "Exact checklist family not identified"
+        ],
+        [
+          "Defining Images Auto",
+          "Cooper Flagg",
+          "Not named",
+          "/5",
+          "Separate from the guide’s Blue /2 example; no color inferred"
+        ],
+        [
+          "Framed Veterans Autograph",
+          "Stephen Curry",
+          "Not named",
+          "1/1",
+          "Parallel not named"
+        ],
+        [
+          "Triple Auto",
+          "Cooper Flagg / Dylan Harper / Kon Knueppel",
+          "Not named",
+          "/10",
+          "Named rookie trio only; no family-wide parallel limit"
+        ]
+      ],
+      "sourceKey": "pulls"
+    },
+    {
+      "name": "Official guide program sizes",
+      "headers": [
+        "Checklist family",
+        "Published entries"
+      ],
+      "rows": [
+        [
+          "DEFINABLE RELIC AUTOGRAPHS",
+          "22"
+        ],
+        [
+          "DEFINING IMAGES AUTOGRAPHS",
+          "30"
+        ],
+        [
+          "DEFINITIVE MOMENTS COLLECTION AUTOGRAPHS",
+          "30"
+        ],
+        [
+          "DEFINITIVE ROOKIE PATCH AUTOGRAPHS",
+          "42"
+        ],
+        [
+          "FRAMED LEGENDS AUTOGRAPH COLLECTION",
+          "30"
+        ],
+        [
+          "FRAMED ROOKIES AUTOGRAPH COLLECTION",
+          "40"
+        ],
+        [
+          "FRAMED VETERANS AUTOGRAPH COLLECTION",
+          "29"
+        ]
+      ],
+      "sourceKey": "guide"
+    }
+  ],
+  "remainingGaps": [
+    "Exhaustive parallel numbering is unverified; the five named Gold programs and two Nameplate programs alone have approved family-wide 1/1 joins.",
+    "The Rookie Patch Autographs 35-to-1 range does not identify intermediate parallel values. Triple Autographs numbered to 10 does not name a specific parallel; preserve both as qualified program statements.",
+    "Named-card guide examples remain card-specific. Cooper Flagg Defining Images Blue /2 and the later unnamed-parallel /5 pull are distinct source statements; no family-wide Blue or Red limit is inferred.",
+    "Neither HOBBY nor FDI names a ratio unit in the odds PDF. Box contents and the First Day Issue category are separate from per-pack odds.",
+    "September 3 guide publication, September 24 pull-report publication and indexed September 17 availability are not an explicit general release-date statement. Preorder configuration remains separate."
+  ]
+}

@@ -1666,12 +1666,36 @@
     "state": {
       "checklistHash": "0c7897c4f773221bc7f0a0537e4b4d394760a288c6f0cd3f65f32d9bca0a1ff2",
       "oddsHash": "8d19b092aa1f9c9ef742e284ac2679f088e6c65ee0047231d80a7edd5c06d319",
-      "rows": 1025,
+      "rows": 1024,
       "odds": 141,
-      "specificationRows": 0
+      "specificationRows": 32,
+      "specificationHash": "48ea61e038759936def5fcedd4310f25ff894c5a29ba1c4dcfc3fcd53d48f500"
     },
-    "fingerprint": "08f8adbf5d83899e412069471ed42fb3978879fbce6353b64b43b6f4067d24b0",
+    "fingerprint": "656f17e6de3eea1dd73cbbad93716918e9b6559134a7b373403a4faec9a5d3f1",
     "events": [
+      {
+        "at": "2026-10-16T16:50:29.887Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 32",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBK_VERSION4_1.pdf?v=1786549562",
+        "snapshot": {
+          "checklistHash": "0c7897c4f773221bc7f0a0537e4b4d394760a288c6f0cd3f65f32d9bca0a1ff2",
+          "oddsHash": "8d19b092aa1f9c9ef742e284ac2679f088e6c65ee0047231d80a7edd5c06d319",
+          "rows": 1024,
+          "odds": 141,
+          "specificationRows": 32,
+          "specificationHash": "48ea61e038759936def5fcedd4310f25ff894c5a29ba1c4dcfc3fcd53d48f500"
+        },
+        "previousSnapshot": {
+          "checklistHash": "0c7897c4f773221bc7f0a0537e4b4d394760a288c6f0cd3f65f32d9bca0a1ff2",
+          "oddsHash": "8d19b092aa1f9c9ef742e284ac2679f088e6c65ee0047231d80a7edd5c06d319",
+          "rows": 1025,
+          "odds": 141,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.535Z",
         "changes": [
