@@ -1,0 +1,84 @@
+{
+  "observed": "2026-10-15",
+  "method": "Fresh official PDF downloads; original clipping rectangles and glyph draw order reconciled. Official landing page and Japan product read through web tools; U.S. collector/chase guides read in the in-app browser, including expanded release FAQ.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DNYC_Checklist.pdf?v=1779205893",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Disney_Chrome_Odds_1.pdf?v=1781705214",
+  "checklistSha256": "35b2f171d98e7f2829f91860cb1df9132833c3215a8850fae1ca20ea6748f57e",
+  "oddsSha256": "0b69662772fae339048241ee180400d828b8a0d514043cb370e5bf633ed0abfe",
+  "productSource": "https://www.topps.com/pages/topps-chrome-disney",
+  "guideSource": "https://ripped.topps.com/2026-topps-chrome-disney-chase-guide/",
+  "collectorGuideSource": "https://ripped.topps.com/2026-topps-chrome-disney-collector-guide/",
+  "regionalProductSource": "https://jp.topps.com/products/2026-topps-chrome-disney-hobby",
+  "productFields": [
+    [
+      "Base checklist",
+      "200 cards",
+      "Regular Chrome; no Sapphire numbering is inferred"
+    ],
+    [
+      "Mickey & Friends MLB Home Jersey Set",
+      "Three characters, ten home jerseys each",
+      "Printed roster has MLBH-31 through MLBH-60; both unlabelled columns are retained"
+    ],
+    [
+      "Art of Disney",
+      "James C. Mulligan; ten stories with 2026 anniversaries",
+      "Artist attribution is product-guide information, not a new checklist row"
+    ],
+    [
+      "Sketch artwork",
+      "Unique artwork, including Disney studio artists",
+      "Artwork uniqueness does not serial-number the artist roster"
+    ]
+  ],
+  "guideFields": [
+    [
+      "Base example",
+      "Mickey Mouse SuperFractor 1/1",
+      "Specific illustrated/named card; no family-wide numbering ladder is stated"
+    ],
+    [
+      "Themed base parallel",
+      "101 Dalmatians Black & White Shimmer Refractor",
+      "Exact name is retained; no serial limit is stated"
+    ],
+    [
+      "Disney Princess Autographs",
+      "Signed SuperFractors are featured",
+      "No explicit numeric limit is stated for this family"
+    ],
+    [
+      "Mickey and Friends Ukiyo-e",
+      "Ten-card Hobby-exclusive insert",
+      "Guide configuration qualifier; no per-pack rate is inferred"
+    ],
+    [
+      "Release date",
+      "June 17, 2026",
+      "Explicit U.S. collector-guide FAQ, independently rechecked; existing verified release evidence preserved"
+    ],
+    [
+      "Guide publication",
+      "June 10, 2026",
+      "Article date, distinct from release date"
+    ]
+  ],
+  "regionalFields": [
+    [
+      "Hobby box contents",
+      "6 cards per pack; 12 packs per box",
+      "Japanese store configuration, not odds"
+    ],
+    [
+      "Product Year",
+      "2026",
+      "Regional product field, not separate release-date evidence"
+    ]
+  ],
+  "remainingGaps": [
+    "Neither checked guide supplies an exhaustive serial-number ladder. The Mickey Mouse SuperFractor 1/1 example is retained as card-specific guide evidence, not assigned to all base or autograph categories. Color names alone do not establish limits.",
+    "All 210 odds categories and seven printed format columns are retained. No ratio unit is named; literal ratios are shown without computing pack probabilities.",
+    "The odds distinguish Disney Interal Artists Sketch and Pixar Interal Artists Sketch (printed spelling), while the checklist publishes one combined Disney & Pixar Studio Artist Sketch Cards roster. No individual artist is assigned to either odds category.",
+    "The MLB jersey roster has two unlabelled physical columns. Their exact team-like and division-like strings remain available in card details and CSV; no invented header or rookie field is added."
+  ]
+}

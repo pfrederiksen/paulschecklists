@@ -1424,5 +1424,48 @@
       "sha256": "d6e3e547f6400f6ba72c010b8c648bbf7fb1908f6deaa55defaf4adb14b30607",
       "source": "https://www.topps.com/products/2026-topps-chrome-star-wars-hobby-box-sealed-case"
     }
+  },
+  {
+    "title": "2026 Topps Chrome® Disney",
+    "manufacturer": "Topps / Bowman",
+    "sport": "disney",
+    "year": "2026",
+    "sourcePage": "https://www.topps.com/pages/topps-chrome-disney",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DNYC_Checklist.pdf?v=1779205893",
+    "releaseStatus": "Released",
+    "releaseDate": "2026-06-17",
+    "catalogEvidence": "All 640 numbered subject rows / 582 family-card identities and 101 unnumbered artists across 42 sections are reconciled from original clipping cells and glyph drawing order. All 200 base cards, the ten Disney Ink and Paint cards, complete wrapped IM-9 caption, DCA-VH, AA-JV and final TR-BLS signer are retained. Character/Subject/Property and autograph First Name/Last Name/Character Name cells stay separate; 20 literal DEBUT annotations are not rookie flags. All 210 odds categories and seven exact columns remain intact. Ratio units are unstated; guide numbering is card-specific and no universal color ladder is inferred. The combined studio artist roster cannot allocate Disney/Pixar odds to individual artists. The verified June 17 release date is preserved; exhaustive parallel numbering remains incomplete.",
+    "slug": "topps-bowman-2026-topps-chrome-disney",
+    "page": "sets/topps-bowman-2026-topps-chrome-disney.html",
+    "status": "Source table",
+    "verified": "2026-10-15",
+    "odds": 210,
+    "formats": 7,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Disney_Chrome_Odds_1.pdf?v=1781705214",
+    "oddsImportIssues": 0,
+    "rowCount": 741,
+    "tableData": "data/imports/topps-bowman-2026-topps-chrome-disney.json",
+    "sections": 42,
+    "importKind": "pdf",
+    "dataAudit": "All 640 numbered subject rows / 582 family-card identities and 101 unnumbered artists across 42 sections are reconciled from original clipping cells and glyph drawing order. All 200 base cards, the ten Disney Ink and Paint cards, complete wrapped IM-9 caption, DCA-VH, AA-JV and final TR-BLS signer are retained. Character/Subject/Property and autograph First Name/Last Name/Character Name cells stay separate; 20 literal DEBUT annotations are not rookie flags. All 210 odds categories and seven exact columns remain intact. Ratio units are unstated; guide numbering is card-specific and no universal color ladder is inferred. The combined studio artist roster cannot allocate Disney/Pixar odds to individual artists. The verified June 17 release date is preserved; exhaustive parallel numbering remains incomplete.",
+    "oddsParser": "scripts/official_odds_layout.py",
+    "verifiedRelease": {
+      "url": "https://ripped.topps.com/2026-topps-chrome-disney-collector-guide/",
+      "title": "2026 Topps Chrome Disney Collector Guide",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser; release FAQ expanded",
+      "statement": "2026 Topps Chrome Disney releases on June 17, 2026.",
+      "scope": "Manufacturer U.S. guide; regular Chrome only, not Sapphire",
+      "sha256": "61adfe912f2cf10dcd2f9499ae9298d7070caceb7bcb71a35556d91845dface0",
+      "snapshotFile": "data/release-dates.json"
+    },
+    "sha256": "35b2f171d98e7f2829f91860cb1df9132833c3215a8850fae1ca20ea6748f57e",
+    "dedicatedParser": "scripts/import_topps_disney_chrome_2026.py",
+    "coverageComplete": true,
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/disney-chrome-2026-20261015.json",
+      "sha256": "5ed3abaad6a29b0264098ccba50fbffd9a8be64bef0a08dcc2c351099f938b3b",
+      "source": "https://www.topps.com/pages/topps-chrome-disney"
+    }
   }
 ]

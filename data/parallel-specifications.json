@@ -6595,7 +6595,8 @@
         "evidenceFile": "data/parallel-audit-sources/star-wars-chrome-2026-20261015.json",
         "evidenceSha256": "d6e3e547f6400f6ba72c010b8c648bbf7fb1908f6deaa55defaf4adb14b30607"
       }
-    ]
+    ],
+    "topps-bowman-2026-topps-chrome-disney": []
   },
   "conflicts": [
     {
@@ -6831,6 +6832,14 @@
       "source": "https://www.topps.com/products/2026-topps-chrome-star-wars-hobby-box-sealed-case",
       "evidenceFile": "data/parallel-audit-sources/star-wars-chrome-2026-20261015.json",
       "evidenceSha256": "d6e3e547f6400f6ba72c010b8c648bbf7fb1908f6deaa55defaf4adb14b30607"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-disney",
+      "family": "Card-specific guide numbering, combined artist roster and odds units",
+      "gap": "Neither checked guide supplies an exhaustive serial-number ladder. The Mickey Mouse SuperFractor 1/1 example is retained as card-specific guide evidence, not assigned to all base or autograph categories. Color names alone do not establish limits. All 210 odds categories and seven printed format columns are retained. No ratio unit is named; literal ratios are shown without computing pack probabilities. The odds distinguish Disney Interal Artists Sketch and Pixar Interal Artists Sketch (printed spelling), while the checklist publishes one combined Disney & Pixar Studio Artist Sketch Cards roster. No individual artist is assigned to either odds category. The MLB jersey roster has two unlabelled physical columns. Their exact team-like and division-like strings remain available in card details and CSV; no invented header or rookie field is added.",
+      "source": "https://www.topps.com/pages/topps-chrome-disney",
+      "evidenceFile": "data/parallel-audit-sources/disney-chrome-2026-20261015.json",
+      "evidenceSha256": "5ed3abaad6a29b0264098ccba50fbffd9a8be64bef0a08dcc2c351099f938b3b"
     }
   ]
 }
