@@ -2029,5 +2029,39 @@
       "sha256": "cab1dc93142c636f346a3545dfc1640fe193b15d72e554ffc1f18733abf971b5",
       "source": "https://ripped.topps.com/2025-bowmans-best-baseball-collector-guide/"
     }
+  },
+  {
+    "title": "2025-26 Topps Cosmic Chrome® Basketball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "basketball",
+    "year": "2025-26",
+    "sourcePage": "https://www.topps.com/pages/topps-cosmic-chrome-basketball",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Checklist.pdf?v=1774549583",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "All 777 physical subject rows / 777 family-card identities across 19 sections are reconciled, with original Name/Team cells and 278 literal Rookie marks. The two 100-row base sections print number 101 twice (Nikola Jović / Darius Garland) and omit 48; original numbers, source spellings and historical team assignments remain unchanged. All 126 Hobby odds retain literal values, including Base 3:1; the sheet does not state a ratio unit. Both base sections share the exact Base odds family. The full official guide confirms April 29, 2026 release and 51 exact family numbering joins, including five Singularity Signatures limits. Guide-listed parallels without numbering remain unnumbered; the product’s /50-and-lower rare-insert statement has no individual parallel join. Exhaustive parallel coverage remains unverified.",
+    "slug": "topps-bowman-2025-26-topps-cosmic-chrome-basketball",
+    "page": "sets/topps-bowman-2025-26-topps-cosmic-chrome-basketball.html",
+    "status": "Source table",
+    "verified": "2026-10-16",
+    "odds": 126,
+    "formats": 1,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Odds.pdf?v=1774987789",
+    "oddsImportIssues": 0,
+    "rowCount": 777,
+    "tableData": "data/imports/topps-bowman-2025-26-topps-cosmic-chrome-basketball.json",
+    "sections": 19,
+    "importKind": "pdf",
+    "dataAudit": "All 777 physical subject rows / 777 family-card identities across 19 sections are reconciled, with original Name/Team cells and 278 literal Rookie marks. The two 100-row base sections print number 101 twice (Nikola Jović / Darius Garland) and omit 48; original numbers, source spellings and historical team assignments remain unchanged. All 126 Hobby odds retain literal values, including Base 3:1; the sheet does not state a ratio unit. Both base sections share the exact Base odds family. The full official guide confirms April 29, 2026 release and 51 exact family numbering joins, including five Singularity Signatures limits. Guide-listed parallels without numbering remain unnumbered; the product’s /50-and-lower rare-insert statement has no individual parallel join. Exhaustive parallel coverage remains unverified.",
+    "parallelData": true,
+    "sha256": "62528803b6b0c4f4f29adbba407c32adc4c8e7764e1198e917cea96b1b021734",
+    "dedicatedParser": "scripts/import_topps_cosmic_basketball_2025.py",
+    "coverageComplete": true,
+    "oddsParser": "scripts/official_odds_layout.py",
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/cosmic-basketball-2025-26-20261016.json",
+      "sha256": "5937bb43285d0aa81c8db3585e5618d5bc51e6c9b709237f562e6870d66f447c",
+      "source": "https://ripped.topps.com/2025-26-topps-cosmic-chrome-basketball-collector-card-guide/"
+    }
   }
 ]

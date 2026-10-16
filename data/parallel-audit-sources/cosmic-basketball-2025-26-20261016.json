@@ -1,0 +1,519 @@
+{
+  "observed": "2026-10-16",
+  "method": "Official full guide read in the in-app browser; product landing and linked PDFs read directly; original glyph origins and physical odds cells inspected.",
+  "sources": {
+    "guide": "https://ripped.topps.com/2025-26-topps-cosmic-chrome-basketball-collector-card-guide/",
+    "landing": "https://www.topps.com/pages/topps-cosmic-chrome-basketball"
+  },
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Checklist.pdf?v=1774549583",
+  "checklistSha256": "62528803b6b0c4f4f29adbba407c32adc4c8e7764e1198e917cea96b1b021734",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Odds.pdf?v=1774987789",
+  "oddsSha256": "27deb6b2a8ce4896f5b2cbbfa39671429b6559c360fca05261562f5078940d9a",
+  "guidePublished": "2026-04-28",
+  "releaseStatement": "2025–26 Topps Cosmic Chrome® Basketball, arriving April 29, 2026.",
+  "guideSpecifications": [
+    {
+      "family": "BASE CARDS",
+      "name": "Aqua Equinox Refractor",
+      "numbering": "/199",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set",
+      "oddsName": "Base Aqua Equinox Refractor"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Purple Nebula Refractor",
+      "numbering": "/150",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set",
+      "oddsName": "Base Purple Nebula Refractor"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Blue Moon Refractor",
+      "numbering": "/99",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set",
+      "oddsName": "Base Blue Moon Refractor"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Green Space Dust Refractor",
+      "numbering": "/75",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set",
+      "oddsName": "Base Green Space Dust Refractor"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Gold Interstellar Refractor",
+      "numbering": "/50",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set",
+      "oddsName": "Base Gold Interstellar Refractor"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Orange Galactic Refractor",
+      "numbering": "/25",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set",
+      "oddsName": "Base Orange Galactic Refractor"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Black Eclipse Refractor",
+      "numbering": "/10",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set",
+      "oddsName": "Base Black Eclipse Refractor"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Red Flare Refractor",
+      "numbering": "/5",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set",
+      "oddsName": "Base Red Flare Refractor"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set",
+      "oddsName": "Base SuperFractor"
+    },
+    {
+      "family": "PROPULSION",
+      "name": "Aqua Equinox Refractor",
+      "numbering": "/199",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Propulsions",
+      "oddsName": "Propulsion Aqua Equinox Refractor"
+    },
+    {
+      "family": "PROPULSION",
+      "name": "Purple Nebula Refractor",
+      "numbering": "/150",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Propulsions",
+      "oddsName": "Propulsion Purple Nebula Refractor"
+    },
+    {
+      "family": "PROPULSION",
+      "name": "Blue Moon Refractor",
+      "numbering": "/99",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Propulsions",
+      "oddsName": "Propulsion Blue Moon Refractor"
+    },
+    {
+      "family": "PROPULSION",
+      "name": "Green Space Dust Refractor",
+      "numbering": "/75",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Propulsions",
+      "oddsName": "Propulsion Green Space Dust Refractor"
+    },
+    {
+      "family": "PROPULSION",
+      "name": "Gold Interstellar Refractor",
+      "numbering": "/50",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Propulsions",
+      "oddsName": "Propulsion Gold Interstellar Refractor"
+    },
+    {
+      "family": "PROPULSION",
+      "name": "Orange Galactic Refractor",
+      "numbering": "/25",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Propulsions",
+      "oddsName": "Propulsion Orange Galactic Refractor"
+    },
+    {
+      "family": "PROPULSION",
+      "name": "Black Eclipse Refractor",
+      "numbering": "/10",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Propulsions",
+      "oddsName": "Propulsion Black Eclipse Refractor"
+    },
+    {
+      "family": "PROPULSION",
+      "name": "Red Flare Refractor",
+      "numbering": "/5",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Propulsions",
+      "oddsName": "Propulsion Red Flare Refractor"
+    },
+    {
+      "family": "PROPULSION",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Propulsions",
+      "oddsName": "Propulsion SuperFractor"
+    },
+    {
+      "family": "EXTRATERRESTRIAL TALENT",
+      "name": "Aqua Equinox Refractor",
+      "numbering": "/199",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Extraterrestrial Talent",
+      "oddsName": "Extraterrestrial Talent Aqua Equinox Refractor"
+    },
+    {
+      "family": "EXTRATERRESTRIAL TALENT",
+      "name": "Purple Nebula Refractor",
+      "numbering": "/150",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Extraterrestrial Talent",
+      "oddsName": "Extraterrestrial Talent Purple Nebula Refractor"
+    },
+    {
+      "family": "EXTRATERRESTRIAL TALENT",
+      "name": "Blue Moon Refractor",
+      "numbering": "/99",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Extraterrestrial Talent",
+      "oddsName": "Extraterrestrial Talent Blue Moon Refractor"
+    },
+    {
+      "family": "EXTRATERRESTRIAL TALENT",
+      "name": "Green Space Dust Refractor",
+      "numbering": "/75",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Extraterrestrial Talent",
+      "oddsName": "Extraterrestrial Talent Green Space Dust Refractor"
+    },
+    {
+      "family": "EXTRATERRESTRIAL TALENT",
+      "name": "Gold Interstellar Refractor",
+      "numbering": "/50",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Extraterrestrial Talent",
+      "oddsName": "Extraterrestrial Talent Gold Interstellar Refractor"
+    },
+    {
+      "family": "EXTRATERRESTRIAL TALENT",
+      "name": "Orange Galactic Refractor",
+      "numbering": "/25",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Extraterrestrial Talent",
+      "oddsName": "Extraterrestrial Talent Orange Galactic Refractor"
+    },
+    {
+      "family": "EXTRATERRESTRIAL TALENT",
+      "name": "Black Eclipse Refractor",
+      "numbering": "/10",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Extraterrestrial Talent",
+      "oddsName": "Extraterrestrial Talent Black Eclipse Refractor"
+    },
+    {
+      "family": "EXTRATERRESTRIAL TALENT",
+      "name": "Red Flare Refractor",
+      "numbering": "/5",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Extraterrestrial Talent",
+      "oddsName": "Extraterrestrial Talent Red Flare Refractor"
+    },
+    {
+      "family": "EXTRATERRESTRIAL TALENT",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Extraterrestrial Talent",
+      "oddsName": "Extraterrestrial Talent SuperFractor"
+    },
+    {
+      "family": "GALAXY GREATS",
+      "name": "Aqua Equinox Refractor",
+      "numbering": "/199",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Galaxy Greats",
+      "oddsName": "Galaxy Greats Aqua Equinox Refractor"
+    },
+    {
+      "family": "GALAXY GREATS",
+      "name": "Purple Nebula Refractor",
+      "numbering": "/150",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Galaxy Greats",
+      "oddsName": "Galaxy Greats Purple Nebula Refractor"
+    },
+    {
+      "family": "GALAXY GREATS",
+      "name": "Blue Moon Refractor",
+      "numbering": "/99",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Galaxy Greats",
+      "oddsName": "Galaxy Greats Blue Moon Refractor"
+    },
+    {
+      "family": "GALAXY GREATS",
+      "name": "Green Space Dust Refractor",
+      "numbering": "/75",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Galaxy Greats",
+      "oddsName": "Galaxy Greats Green Space Dust Refractor"
+    },
+    {
+      "family": "GALAXY GREATS",
+      "name": "Gold Interstellar Refractor",
+      "numbering": "/50",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Galaxy Greats",
+      "oddsName": "Galaxy Greats Gold Interstellar Refractor"
+    },
+    {
+      "family": "GALAXY GREATS",
+      "name": "Orange Galactic Refractor",
+      "numbering": "/25",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Galaxy Greats",
+      "oddsName": "Galaxy Greats Orange Galactic Refractor"
+    },
+    {
+      "family": "GALAXY GREATS",
+      "name": "Black Eclipse Refractor",
+      "numbering": "/10",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Galaxy Greats",
+      "oddsName": "Galaxy Greats Black Eclipse Refractor"
+    },
+    {
+      "family": "GALAXY GREATS",
+      "name": "Red Flare Refractor",
+      "numbering": "/5",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Galaxy Greats",
+      "oddsName": "Galaxy Greats Red Flare Refractor"
+    },
+    {
+      "family": "GALAXY GREATS",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Galaxy Greats",
+      "oddsName": "Galaxy Greats SuperFractor"
+    },
+    {
+      "family": "COSMIC CHROME AUTOGRAPH VARIATION",
+      "name": "Gold Interstellar Refractor",
+      "numbering": "/50",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Cosmic Chrome Autograph Variations",
+      "oddsName": "Cosmic Chrome Autograph Variation Gold Interstellar Refractor"
+    },
+    {
+      "family": "COSMIC CHROME AUTOGRAPH VARIATION",
+      "name": "Orange Galactic Refractor",
+      "numbering": "/25",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Cosmic Chrome Autograph Variations",
+      "oddsName": "Cosmic Chrome Autograph Variation Orange Galactic Refractor"
+    },
+    {
+      "family": "COSMIC CHROME AUTOGRAPH VARIATION",
+      "name": "Black Eclipse Refractor",
+      "numbering": "/10",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Cosmic Chrome Autograph Variations",
+      "oddsName": "Cosmic Chrome Autograph Variation Black Eclipse Refractor"
+    },
+    {
+      "family": "COSMIC CHROME AUTOGRAPH VARIATION",
+      "name": "Red Flare Refractor",
+      "numbering": "/5",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Cosmic Chrome Autograph Variations",
+      "oddsName": "Cosmic Chrome Autograph Variation Red Flare Refractor"
+    },
+    {
+      "family": "COSMIC CHROME AUTOGRAPH VARIATION",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Cosmic Chrome Autograph Variations",
+      "oddsName": "Cosmic Chrome Autograph Variation SuperFractor"
+    },
+    {
+      "family": "ELECTRO STATIC SIGNATURES REFRACTOR",
+      "name": "Gold Interstellar Refractor",
+      "numbering": "/50",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Electro-Static Signatures",
+      "oddsName": "Electro-Static Signatures Gold Interstellar Refractor"
+    },
+    {
+      "family": "ELECTRO STATIC SIGNATURES REFRACTOR",
+      "name": "Orange Galactic Refractor",
+      "numbering": "/25",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Electro-Static Signatures",
+      "oddsName": "Electro-Static Signatures Orange Galactic Refractor"
+    },
+    {
+      "family": "ELECTRO STATIC SIGNATURES REFRACTOR",
+      "name": "Black Eclipse Refractor",
+      "numbering": "/10",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Electro-Static Signatures",
+      "oddsName": "Electro-Static Signatures Black Eclipse Refractor"
+    },
+    {
+      "family": "ELECTRO STATIC SIGNATURES REFRACTOR",
+      "name": "Red Flare Refractor",
+      "numbering": "/5",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Electro-Static Signatures",
+      "oddsName": "Electro-Static Signatures Red Flare Refractor"
+    },
+    {
+      "family": "ELECTRO STATIC SIGNATURES REFRACTOR",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Electro-Static Signatures",
+      "oddsName": "Electro-Static Signatures SuperFractor"
+    },
+    {
+      "family": "SINGULARITY SIGNATURES",
+      "name": "Gold Interstellar Refractor",
+      "numbering": "/50",
+      "oddsName": "Singularity Signatures Gold Interstellar Refractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Singularity Signatures"
+    },
+    {
+      "family": "SINGULARITY SIGNATURES",
+      "name": "Orange Galactic Refractor",
+      "numbering": "/25",
+      "oddsName": "Singularity Signatures Orange Galactic Refractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Singularity Signatures"
+    },
+    {
+      "family": "SINGULARITY SIGNATURES",
+      "name": "Black Eclipse Refractor",
+      "numbering": "/10",
+      "oddsName": "Singularity Signatures Black Eclipse Refractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Singularity Signatures"
+    },
+    {
+      "family": "SINGULARITY SIGNATURES",
+      "name": "Red Flare Refractor",
+      "numbering": "/5",
+      "oddsName": "Singularity Signatures Red Flare Refractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Singularity Signatures"
+    },
+    {
+      "family": "SINGULARITY SIGNATURES",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "Singularity Signatures SuperFractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Singularity Signatures"
+    }
+  ],
+  "guideProgramSizes": [
+    [
+      "BASE CARDS / BASE CARDS II",
+      "200 cards",
+      "Two printed 100-row sections; 101 occurs in each while 48 is absent. Preserve the original numbers."
+    ],
+    [
+      "PROPULSION",
+      "25 cards",
+      "Guide plural Propulsions; checklist and odds singular Propulsion."
+    ],
+    [
+      "EXTRATERRESTRIAL TALENT",
+      "25 cards",
+      "Matches printed roster."
+    ],
+    [
+      "GALAXY GREATS",
+      "35 cards",
+      "Matches printed roster."
+    ],
+    [
+      "ELECTRO STATIC SIGNATURES REFRACTOR",
+      "30 cards",
+      "Guide Electro-Static Signatures; physical heading retains its original spelling."
+    ],
+    [
+      "SINGULARITY SIGNATURES",
+      "46 cards",
+      "Matches printed roster."
+    ]
+  ],
+  "unnumberedGuideNames": [
+    [
+      "BASE CARDS",
+      "Refractor"
+    ],
+    [
+      "BASE CARDS",
+      "Nucleus Refractor"
+    ],
+    [
+      "BASE CARDS",
+      "White Hole Refractor"
+    ],
+    [
+      "PROPULSION",
+      "Refractor"
+    ],
+    [
+      "EXTRATERRESTRIAL TALENT",
+      "Refractor"
+    ],
+    [
+      "GALAXY GREATS",
+      "Refractor"
+    ],
+    [
+      "COSMIC CHROME AUTOGRAPH VARIATION",
+      "Refractor"
+    ],
+    [
+      "ELECTRO STATIC SIGNATURES REFRACTOR",
+      "Refractor"
+    ],
+    [
+      "SINGULARITY SIGNATURES",
+      "Refractor"
+    ]
+  ],
+  "planetaryNames": [
+    "Sun",
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Pluto"
+  ],
+  "productQualifications": [
+    [
+      "Starfractor / Re-Entry / Geocentric / First Light",
+      "Rare inserts numbered /50 and lower",
+      "Aggregate product description; no exact parallel ladder is stated, and no common /50 is assigned to every category."
+    ]
+  ],
+  "remainingGaps": [
+    "Exhaustive parallel numbering remains unverified; unreviewed colors, First Flight, Alien Autographs, Space Walk and Cosmic Chrome Autograph Variation II receive no copied limits.",
+    "The landing page’s /50-and-lower rare-insert statement lacks exact parallel joins and stays qualified.",
+    "Hobby is named in the odds sheet, but a ratio unit is not stated. Preserve Base 3:1 without computing a per-pack rate.",
+    "The PDF prints base 101 Nikola Jović in BASE CARDS and 101 Darius Garland in BASE CARDS II, omitting 48. No number or team spelling is corrected."
+  ]
+}

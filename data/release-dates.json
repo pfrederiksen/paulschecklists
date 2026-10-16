@@ -262,6 +262,15 @@
       "statement": "RELEASE: JUNE 19, 2026",
       "scope": "Manufacturer U.S. guide; main 2025-26 release, separate from the All-Star product",
       "sha256": "f4e45fa3baf45e0493affaf0694347c17503f0d6bde8889cf67ab6f6b903c8a8"
+    },
+    {
+      "url": "https://ripped.topps.com/2025-26-topps-cosmic-chrome-basketball-collector-card-guide/",
+      "title": "2025-26 Topps Cosmic Chrome® Basketball Collector’s Guide",
+      "observed": "2026-10-16",
+      "method": "Official full guide read in the in-app browser",
+      "statement": "2025–26 Topps Cosmic Chrome® Basketball, arriving April 29, 2026.",
+      "scope": "Manufacturer U.S. guide; 2025-26 Cosmic Chrome Basketball only, separate from other sports and Sapphire variants",
+      "sha256": "ed54b659e50739113af8c6bd52c57b9d01d19fade7ff90961ca80d04134a96de"
     }
   ],
   "dates": [
@@ -438,6 +447,12 @@
       "releaseDate": "2026-06-19",
       "releaseStatus": "Released",
       "source": 28
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-cosmic-chrome-basketball",
+      "releaseDate": "2026-04-29",
+      "releaseStatus": "Released",
+      "source": 29
     }
   ],
   "unresolved": [

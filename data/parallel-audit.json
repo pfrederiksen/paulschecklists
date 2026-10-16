@@ -629,15 +629,24 @@
       "slug": "topps-bowman-2025-26-topps-cosmic-chrome-basketball",
       "title": "2025-26 Topps Cosmic Chrome® Basketball",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-cosmic-chrome-basketball",
       "oddsCategories": 126,
-      "numberedOddsCategories": 46,
-      "supplementalSpecifications": 46,
+      "numberedOddsCategories": 51,
+      "supplementalSpecifications": 51,
       "structuredNumbering": true,
       "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
-      "conflicts": []
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-26-topps-cosmic-chrome-basketball",
+          "family": "Other numbering and qualified product scope",
+          "gap": "Exhaustive parallel numbering remains unverified; unreviewed colors, First Flight, Alien Autographs, Space Walk and Cosmic Chrome Autograph Variation II receive no copied limits. The landing page’s /50-and-lower rare-insert statement lacks exact parallel joins and stays qualified. Hobby is named in the odds sheet, but a ratio unit is not stated. Preserve Base 3:1 without computing a per-pack rate. The PDF prints base 101 Nikola Jović in BASE CARDS and 101 Darius Garland in BASE CARDS II, omitting 48. No number or team spelling is corrected.",
+          "source": "https://ripped.topps.com/2025-26-topps-cosmic-chrome-basketball-collector-card-guide/",
+          "evidenceFile": "data/parallel-audit-sources/cosmic-basketball-2025-26-20261016.json",
+          "evidenceSha256": "5937bb43285d0aa81c8db3585e5618d5bc51e6c9b709237f562e6870d66f447c"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-topps-cosmic-chrome-football",

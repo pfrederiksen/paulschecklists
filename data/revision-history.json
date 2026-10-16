@@ -980,11 +980,35 @@
       "oddsHash": "27deb6b2a8ce4896f5b2cbbfa39671429b6559c360fca05261562f5078940d9a",
       "rows": 777,
       "odds": 126,
-      "specificationRows": 46,
-      "specificationHash": "5f1b1bcd8cfdc3ade7e9a5d365f96884666d6c6a99cd5a826aacba090d8b4891"
+      "specificationRows": 77,
+      "specificationHash": "1d2bed1616c9cad28c373a357ef2cfa53927de6211b1c70d40a4210db10ef586"
     },
-    "fingerprint": "b58c7bd4db7876f891b54a2df5cf0dabee602d7833c08a8cd458a36dd87bad4e",
+    "fingerprint": "4683542c1ced8f8e9fbec4a2e7542a5500dbddc9a11185b52e6ff73b78ce68bd",
     "events": [
+      {
+        "at": "2026-10-16T22:45:51.495Z",
+        "changes": [
+          "Supplementary specification rows: 46 → 77",
+          "Official supplementary specification changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Checklist.pdf?v=1774549583",
+        "snapshot": {
+          "checklistHash": "62528803b6b0c4f4f29adbba407c32adc4c8e7764e1198e917cea96b1b021734",
+          "oddsHash": "27deb6b2a8ce4896f5b2cbbfa39671429b6559c360fca05261562f5078940d9a",
+          "rows": 777,
+          "odds": 126,
+          "specificationRows": 77,
+          "specificationHash": "1d2bed1616c9cad28c373a357ef2cfa53927de6211b1c70d40a4210db10ef586"
+        },
+        "previousSnapshot": {
+          "checklistHash": "62528803b6b0c4f4f29adbba407c32adc4c8e7764e1198e917cea96b1b021734",
+          "oddsHash": "27deb6b2a8ce4896f5b2cbbfa39671429b6559c360fca05261562f5078940d9a",
+          "rows": 777,
+          "odds": 126,
+          "specificationRows": 46,
+          "specificationHash": "5f1b1bcd8cfdc3ade7e9a5d365f96884666d6c6a99cd5a826aacba090d8b4891"
+        }
+      },
       {
         "at": "2026-10-14T00:29:31.352Z",
         "changes": [
