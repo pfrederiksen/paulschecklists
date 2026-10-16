@@ -4,7 +4,7 @@ import vm from 'node:vm';
 import {reconcileParallels,categoryNumbering,specificationRows,displayQualification} from '../parallel-specs.mjs';
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
 const code=(await readFile('source-page.js','utf8')).replace(/^import .*;\n/, '');
-const cases=['pdf','html','wildcard','xlsx','panini-pdf'].map(kind=>catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds))).concat(catalog.sets.filter(s=>s.importKind==='topps-grid-pdf'||s.dedicatedParser||['upper-deck-2025-26-stature','wild-card-2026-wild-card-alumination-just-the-hits-baseball-250th','wild-card-2026-wild-card-slimgem-variety-pack'].includes(s.slug)));
+const cases=['pdf','html','wildcard','xlsx','panini-pdf'].map(kind=>catalog.sets.find(s=>s.importKind===kind&&s.tableData&&s.rosterPublished!==false&&(kind!=='pdf'||s.odds))).concat(catalog.sets.filter(s=>s.importKind==='topps-grid-pdf'||s.dedicatedParser||['leaf-2026-leaf-metal-st-patrick-s-day','upper-deck-2025-26-stature','wild-card-2026-wild-card-alumination-just-the-hits-baseball-250th','wild-card-2026-wild-card-slimgem-variety-pack'].includes(s.slug)));
 for(const set of catalog.sets.filter(s=>s.oddsParser))if(!cases.some(c=>c.slug===set.slug))cases.push(set);
 for(const set of cases){
  const kind=set.importKind;
@@ -14,6 +14,7 @@ for(const set of cases){
   assert.equal(data.rows.length,95);assert.notEqual(set.rosterPublished,false);
  }
  const map=new Map(),get=id=>{if(!map.has(id))map.set(id,{value:'',options:id==='source-sort'?[{value:'checklist'},{value:'name'},{value:'rare'}]:[{}],setAttribute(k,v){this[k]=v;},focus(){},add(option){this.options.push(option);}});return map.get(id);};
+ const primarySpecifications=()=>get('source-specifications').innerHTML.split('<details class="reference-details specification-context">')[0];
  const context=vm.createContext({reconcileParallels,categoryNumbering,specificationRows,displayQualification,document:{body:{dataset:{table:set.tableData}},getElementById:get,addEventListener(){}},console,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>JSON.parse(JSON.stringify(data))})});
  await new vm.Script('(async()=>{'+code+'})()').runInContext(context);
  if(!data.rows.length){assert(get('source-results').innerHTML.includes('No matching'));assert.equal(set.rosterPublished,false);continue;}
@@ -34,6 +35,14 @@ for(const set of cases){
   get('source-section').value=numbered[0];get('source-section').onchange();get('source-team').value=numbered[10];get('source-team').onchange();get('source-search').value=numbered[2];get('source-search').oninput();assert(get('source-results').innerHTML.includes('title="/'+numbered[3]+'"'), 'Published SEQUENCE must display as out-of numbering');
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"SPORT","YEAR","BRAND","PROGRAM","CARD SET","ATHLETE","TEAM","POSITION","CARD NUMBER","SEQUENCE"'));assert(csv.includes('"'+String(numbered[2]).replaceAll('"','""')+'"'));get('source-reset').onclick();
  }
+ if(set.slug==='leaf-2026-leaf-metal-st-patrick-s-day'){
+  get('source-odds-tab').onclick();
+  for(const name of ['Luck of the Irish','Luck of the irish']){
+   get('source-section').value=name;get('source-section').onchange();assert(primarySpecifications().includes('<h3>'+name+'</h3>'));
+   const other=name==='Luck of the Irish'?'Luck of the irish':'Luck of the Irish';assert(!primarySpecifications().includes('<h3>'+other+'</h3>'),'Distinct printed worksheet family names must not merge through case folding');assert.equal(get('source-count').textContent,'1 checklist family');
+  }
+  get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-26-topps-cosmic-chrome-basketball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
@@ -42,6 +51,11 @@ for(const set of cases){
   get('source-section').value='BASE CARDS II';get('source-section').onchange();get('source-search').value='Darius Garland';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('"101","Darius Garland"')&&csv.includes('Cleveland Cavaliers'));get('source-reset').onclick();
   get('source-section').value='BASE CARDS II';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('100 checklist rows · 15 published categories')&&get('source-specifications').innerHTML.includes('3:1'));assert(!get('source-specifications').innerHTML.includes('1 in 3 packs'));get('source-export').onclick();assert(csv.includes('Base Aqua Equinox Refractor')&&csv.includes('/199'));
   get('source-section').value='SINGULARITY SIGNATURES';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('Singularity Signatures Gold Interstellar Refractor')&&csv.includes('/50')&&csv.includes('1/1'));
+  assert.equal(get('source-count').textContent,'1 checklist family','Guide tables and source notes must not inflate the selected family count');
+  assert(primarySpecifications().includes('46 checklist rows · 6 published categories'));
+  assert(!primarySpecifications().includes('<h3>BASE CARDS</h3>')&&!primarySpecifications().includes('<h3>PROPULSION</h3>'),'Unrelated family guide tables must respect the subset filter');
+  assert(get('source-specifications').innerHTML.includes('<details class="reference-details specification-context"><summary>Set-wide manufacturer notes &amp; source context</summary>'),'Set-wide context remains available in a closed native disclosure after results');
+  get('source-reset').onclick();assert.equal(get('source-count').textContent,'19 checklist families','Count distinct displayed families, excluding metadata and duplicate guide tables');
   get('source-section').value='COSMIC CHROME AUTOGRAPH VARIATION II';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('Cosmic Chrome Autograph Variation II Refractor')&&!csv.includes('/50')&&!csv.includes('/25'),'Variation II must not inherit the separately named first autograph program limits');
   get('source-cards-tab').onclick();get('source-reset').onclick();
  }
@@ -76,6 +90,10 @@ for(const set of cases){
   const details=get('source-results').innerHTML;assert(details.includes('Denver Broncos')&&details.includes('/50 Gold Foil')&&details.includes('Oct 19, 2026'));assert(!details.includes('Josh Allen')&&!details.includes('Matthew Stafford'),'Expanded card specifications must exclude other card numbers in the same series');
   assert.equal((details.match(/60<\/td><td>Denver Broncos<\/td><td>\//g)||[]).length,5,'Only the five card-specific foil specification rows belong in this detail view');
   get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Josh Allen')&&get('source-specifications').innerHTML.includes('Denver Broncos'),'The series tab retains every card specification');get('source-cards-tab').onclick();get('source-reset').onclick();
+  get('source-odds-tab').onclick();get('source-search').value='Denver Broncos';get('source-search').oninput();assert(primarySpecifications().includes('Denver Broncos')&&!primarySpecifications().includes('Josh Allen')&&!primarySpecifications().includes('Matthew Stafford'),'A numbered specification table must respect card search');
+  assert.equal((primarySpecifications().match(/60<\/td><td>Denver Broncos<\/td><td>\//g)||[]).length,5);
+  get('source-search').value='no-card-matches-this-query';get('source-search').oninput();assert(primarySpecifications().includes('No matching parallels or odds. Try a broader search.'));assert.equal(get('source-count').textContent,'0 checklist families');
+  get('source-reset').onclick();assert(primarySpecifications().includes('Josh Allen')&&primarySpecifications().includes('Denver Broncos'),'Reset restores the complete series table');get('source-cards-tab').onclick();get('source-reset').onclick();
  }
  if(set.slug==='topps-bowman-2025-26-topps-signature-class-basketball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
@@ -466,8 +484,8 @@ for(const set of cases){
   get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-team').value='New England Patriots';get('source-team').onchange();get('source-search').value='201';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');assert(get('source-results').innerHTML.includes('Drake Maye'));assert(!get('source-results').innerHTML.includes('Matthew Stafford'));
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"201","Drake Maye","New England Patriots","","League Leaders"'));
   get('source-reset').onclick();get('source-section').value='HERITAGE ROOKIE AUTOGRAPHS';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('/50'));get('source-export').onclick();assert(csv.includes('/50')&&csv.includes('Gold'));
-  get('source-section').value='REAL ONE ROOKIE AUTOGRAPHS';get('source-section').onchange();assert(!get('source-specifications').innerHTML.includes('/50'));
-  get('source-section').value='CUT SIGNATURES';get('source-section').onchange();assert(get('source-specifications').innerHTML.includes('Numbered to 1'));assert(get('source-specifications').innerHTML.includes('CA-WP1 through CA-WP5'));assert(!get('source-specifications').innerHTML.includes('1/1'));
+  get('source-section').value='REAL ONE ROOKIE AUTOGRAPHS';get('source-section').onchange();assert(!primarySpecifications().includes('/50'));
+  get('source-section').value='CUT SIGNATURES';get('source-section').onchange();assert(get('source-specifications').innerHTML.includes('Numbered to 1'));assert(get('source-specifications').innerHTML.includes('CA-WP1 through CA-WP5'));assert(!primarySpecifications().includes('1/1'));
   get('source-cards-tab').onclick();get('source-reset').onclick();get('source-search').value='WPRR-1';get('source-search').oninput();assert(get('source-results').innerHTML.includes('1976 Topps Walter Payton PSA 10 Redemption'));get('source-export').onclick();assert(csv.includes('1976 Topps Walter Payton PSA 10 Redemption'));get('source-reset').onclick();
  }
  if(set.slug==='topps-bowman-2026-topps-holiday-baseball'){

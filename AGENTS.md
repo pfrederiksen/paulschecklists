@@ -10,6 +10,8 @@ Keep the same header, hero, statistics, insights, Cards / Parallels & pack odds 
 
 Expanded card details filter numbered specification tables by the exact printed card number within the matched family. Do not repeat the entire NOW series or another card's specifications inside a single card; the Parallels & pack odds tab retains the complete family tables. Unnumbered family-wide specifications remain visible without inferred card joins.
 
+The shared Parallels & pack odds tab applies subset filters to family guide tables and search to numbered specification rows. Reset restores complete family tables. Present matching odds before supplementary tables; retain set-wide manufacturer notes and unjoined source context in a closed native disclosure after results. Count distinct displayed families, excluding source explanations and duplicate tables. Preserve explicit family aliases and never turn a context statement into a selected family limit.
+
 For new sets and source updates, run `node scripts/verify_set_template.mjs`, `node scripts/verify_source_pages.mjs`, `node scripts/verify_ui.mjs`, `node scripts/verify_bowman.mjs`, and `node scripts/verify_catalog.mjs` after generating/building. Add new data through adapters and the shared template rather than introducing a new visual or interaction format.
 
 # Checklist SEO
