@@ -106,12 +106,36 @@
     "state": {
       "checklistHash": "e6f980058de10adee1ced6279e1d44c9ef0a2b59b07e0d6a75fc5caad3fb0754",
       "oddsHash": "b91685bb9b1ff4382c2d182414b80dd7ea0c1449a293382cebf03752fe179d62",
-      "rows": 565,
+      "rows": 593,
       "odds": 139,
-      "specificationRows": 0
+      "specificationRows": 17,
+      "specificationHash": "32adeafff5ff8173e80f39f672f90e25dbd78ecf63e748f3736712b9e9cc06fe"
     },
-    "fingerprint": "db2c4f4066ac230902afd6b53bdfd6dd9666edb0063db0958048aea73637d404",
+    "fingerprint": "cad5d15b55ddbdee2da3c891fabe397b4b9cd94d7ccc3d14516c01dd7b797f1b",
     "events": [
+      {
+        "at": "2026-10-16T07:48:59.978Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 17",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_Subject_to_Change_3ac890e7-2e2f-4550-89d8-59689322cd5c.pdf?v=1789050559",
+        "snapshot": {
+          "checklistHash": "e6f980058de10adee1ced6279e1d44c9ef0a2b59b07e0d6a75fc5caad3fb0754",
+          "oddsHash": "b91685bb9b1ff4382c2d182414b80dd7ea0c1449a293382cebf03752fe179d62",
+          "rows": 593,
+          "odds": 139,
+          "specificationRows": 17,
+          "specificationHash": "32adeafff5ff8173e80f39f672f90e25dbd78ecf63e748f3736712b9e9cc06fe"
+        },
+        "previousSnapshot": {
+          "checklistHash": "e6f980058de10adee1ced6279e1d44c9ef0a2b59b07e0d6a75fc5caad3fb0754",
+          "oddsHash": "b91685bb9b1ff4382c2d182414b80dd7ea0c1449a293382cebf03752fe179d62",
+          "rows": 565,
+          "odds": 139,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:31.947Z",
         "changes": [

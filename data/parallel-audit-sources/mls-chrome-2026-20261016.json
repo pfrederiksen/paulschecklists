@@ -1,0 +1,125 @@
+{
+  "observed": "2026-10-16",
+  "method": "Fresh official PDF downloads and product web reads; actual full official Collector Guide and Box Breakdown browser accessibility reads. Normalized factual observations, not raw HTML hashes. Documents supply source facts only.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-mls-chrome",
+    "product": "https://www.topps.com/products/2026-topps-chrome%C2%AE-mls-hobby-box",
+    "guide": "https://ripped.topps.com/2026-topps-chrome-mls-collector-guide-cards/",
+    "formats": "https://ripped.topps.com/topps-chrome-mls-2026-box-breakdown-hobby-mania-and-value-compared/"
+  },
+  "checklistSha256": "e6f980058de10adee1ced6279e1d44c9ef0a2b59b07e0d6a75fc5caad3fb0754",
+  "oddsSha256": "b91685bb9b1ff4382c2d182414b80dd7ea0c1449a293382cebf03752fe179d62",
+  "cardSpecific": [
+    {
+      "family": "BASE CARDS",
+      "cardNumber": "173",
+      "subjects": [
+        "David Beckham"
+      ],
+      "parallel": "Superfractor",
+      "statement": "Superfractor 1/1; the guide identifies this David Beckham example.",
+      "scope": "Only this card-specific example; no base-wide or Sapphire numbering inferred."
+    },
+    {
+      "family": "CHROME DUAL AUTOGRAPHS",
+      "cardNumber": "DA-MH",
+      "subjects": [
+        "Adri Mehmeti",
+        "Julian Hall"
+      ],
+      "parallel": "Black Refractor",
+      "statement": "Black Refractor limited to 10 copies; serial numbering is not stated.",
+      "scope": "Only this named pairing; no other dual or Black family limit inferred."
+    }
+  ],
+  "productFields": [
+    [
+      "Hobby configuration",
+      "20 packs per box; 4 cards per pack; 2 Chrome autograph cards per box",
+      "Original box units; not used to establish odds-PDF units."
+    ],
+    [
+      "Product Year",
+      "2026",
+      "Store metadata; printed set year 2026."
+    ],
+    [
+      "Available From",
+      "September 10, 2026",
+      "Store availability; separate explicit street-date statement appears in the format guide."
+    ]
+  ],
+  "formatFields": [
+    [
+      "Hobby",
+      "Box configuration",
+      "20 packs of 4 cards; 2 autographs; 12 parallels; 9 inserts",
+      "Published box counts, not pack probabilities."
+    ],
+    [
+      "Hobby",
+      "Detailed parallel list",
+      "5 numbered refractors; 3 refractors; 4 Prism parallels; 1 Lava parallel",
+      "The listed quantities total 13 despite the same guide stating 12 parallels. Preserve both without selecting a corrected configuration."
+    ],
+    [
+      "Hobby",
+      "Case contents",
+      "2 SP cards drawn from Pearlers, Helix and Shadow Etch; 1 Summer Clash autograph",
+      "Keep case-level distribution units; no inferred per-pack rates."
+    ],
+    [
+      "Hobby",
+      "MLS Trophy Superfractor",
+      "1-of-1",
+      "Exact MLS TROPHY family/parallel join only."
+    ],
+    [
+      "Mania",
+      "Box configuration",
+      "1 pack of 12 cards; 4 encased autographs; 3 base refractors; 3 numbered base parallels; 6 Mania Foil parallels",
+      "Published format guide statements retained independently; no inferred card-count correction."
+    ],
+    [
+      "Mania",
+      "Mania Autographs parallels",
+      "Black Prism, Red Lava, Black Lava, Pink Lava, Superfractor",
+      "Named parallels without printed numeric limits."
+    ],
+    [
+      "Mania",
+      "Chrome Autograph parallels",
+      "Red/white/blue X-Fractor, Shimmer, Refractor, Pulsar",
+      "Exact autograph-family names and Mania scope retained."
+    ],
+    [
+      "Value",
+      "Box configuration",
+      "7 inner packs of 4 cards; 1 sequentially numbered parallel; 4 Ray Wave parallels; 4 inserts",
+      "Box-level counts; no published numeric limit for the guaranteed parallel."
+    ],
+    [
+      "Value",
+      "Mini Diamonds",
+      "Aqua and Blue through Black and Red",
+      "Names and Value exclusivity do not establish numeric limits."
+    ],
+    [
+      "All formats",
+      "Street date",
+      "9/10/2026",
+      "Explicit official street-date statement, independent of guide publication and store availability."
+    ],
+    [
+      "Continuity insert",
+      "The Grail",
+      "9 cards across multiple Topps soccer releases",
+      "This checklist prints G-8 only; no other Grail roster inferred."
+    ]
+  ],
+  "remainingGaps": [
+    "Neither checked guide provides an exhaustive family-by-family numbering ladder. The David Beckham base Superfractor and DA-MH Black 10-copy examples remain card-specific; the only exact general family join imported here is MLS Trophy Superfractor 1/1. No 2025 or Sapphire ladder is copied.",
+    "The format guide states 12 Hobby parallels while its detailed list totals 13. Mania lists 12 cards alongside component counts that do not form an unambiguous additive configuration. Retain published statements without choosing corrected totals.",
+    "The odds PDF publishes Hobby, Value and Mania columns but does not state a ratio unit. Keep literal 3:1 and 6:1 cells and box/case units without computing probabilities. Exhaustive parallel coverage remains unverified."
+  ]
+}

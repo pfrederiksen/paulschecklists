@@ -38,6 +38,8 @@ assert(by('topps-bowman-2026-topps-chrome-veefriends').verifiedRelease.scope.inc
 assert.equal(by('topps-bowman-2026-topps-chrome-disney').releaseDate,'2026-06-17');
 assert.equal(by('topps-bowman-2026-topps-chrome-ufc').releaseDate,'2026-05-08');
 for(const slug of ['topps-bowman-2026-topps-chrome-disney-sapphire-edition','topps-bowman-2026-topps-chrome-ufc-sapphire-edition'])assert.equal(by(slug).releaseDate,null,'Regular Chrome dates do not establish Sapphire dates');
+assert.equal(by('topps-bowman-topps-chrome-major-league-soccer-2026').releaseDate,'2026-09-10');
+assert(by('topps-bowman-topps-chrome-major-league-soccer-2026').verifiedRelease.statement.includes('Street date'));
 assert.equal(by('topps-bowman-2026-topps-chrome-tennis').releaseDate,'2026-09-30','Presale September 1 is not release day');
 assert.equal(by('topps-bowman-2026-topps-museum-collection-baseball').releaseDate,'2026-11-11');
 assert.equal(by('topps-bowman-2026-topps-museum-collection-baseball').releaseStatus,'Upcoming');

@@ -56,14 +56,23 @@
       "slug": "topps-bowman-topps-chrome-major-league-soccer-2026",
       "title": "Topps Chrome® Major League Soccer 2026",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-mls-chrome",
       "oddsCategories": 139,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "numberedOddsCategories": 1,
+      "supplementalSpecifications": 1,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-topps-chrome-major-league-soccer-2026",
+          "family": "Other numbering, card-specific guide examples and box contents",
+          "gap": "Neither checked guide provides an exhaustive family-by-family numbering ladder. The David Beckham base Superfractor and DA-MH Black 10-copy examples remain card-specific; the only exact general family join imported here is MLS Trophy Superfractor 1/1. No 2025 or Sapphire ladder is copied. The format guide states 12 Hobby parallels while its detailed list totals 13. Mania lists 12 cards alongside component counts that do not form an unambiguous additive configuration. Retain published statements without choosing corrected totals. The odds PDF publishes Hobby, Value and Mania columns but does not state a ratio unit. Keep literal 3:1 and 6:1 cells and box/case units without computing probabilities. Exhaustive parallel coverage remains unverified.",
+          "source": "https://ripped.topps.com/2026-topps-chrome-mls-collector-guide-cards/",
+          "evidenceFile": "data/parallel-audit-sources/mls-chrome-2026-20261016.json",
+          "evidenceSha256": "150eddfcb254587d9c90537435fc2bb8d96be53a5e9c5e0444765f67b6638e97"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball",
