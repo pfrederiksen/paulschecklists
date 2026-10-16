@@ -17,7 +17,7 @@ for(const set of catalog.sets){
  if(data?.oddsColumn!=null){formats=['Official published odds'];entries=[...new Map(data.rows.map(row=>[JSON.stringify([row[0],row[data.oddsColumn]]),{family:row[0],name:row[0],values:{'Official published odds':row[data.oddsColumn]||'Not published'}}])).values()];}
  if(data?.serialColumn!=null){specs.push({name:'Official card numbering',headers:[data.headers[0],data.headers[1],data.headers[data.serialColumn]],rows:data.rows.filter(r=>r[data.serialColumn]).map(r=>[r[0],r[1],r[data.serialColumn]])});}
  for(const subset of data?.officialStructure?.subsets??[])for(const group of subset.groups??[])specs.push({name:subset.name,headers:['Board','Parallel','Unsigned numbering','Autograph numbering'],rows:(group.rows??[]).map(r=>[group.board,r.p??'',r.base??'Not published',r.au??'Not published'])});
- entries=entries.map(e=>({...e,numbering:categoryNumbering(data??{},e.name),family:e.family||'Unlabeled source section',name:e.name||'Unlabeled published category'}));
+ entries=entries.map(e=>({...e,numbering:categoryNumbering(data??{},e.name,e.family),family:e.family||'Unlabeled source section',name:e.name||'Unlabeled published category'}));
  const rows=featured?sections.flatMap(s=>s.cards.flatMap(c=>c.subjects.map(p=>[p.name,c.number,s.name]))):data?.rows??[];
  let ni=featured?0:(data?.headers??[]).findIndex(h=>/name|player|subject|description|decription/i.test(h));if(ni<0)ni=1;
  const names=[...new Set(rows.map(r=>String(r[ni]??'')).filter(Boolean))];if(names.length&&set.rosterPublished!==false)index.push({title:set.title,page:set.page,sport:set.sport,names});

@@ -7,6 +7,7 @@ const sitemap=await readFile('docs/sitemap.xml','utf8');
 const titles=new Set(),descriptions=new Set();let bytes=0;
 for(const page of ['index.html',...catalog.sets.map(s=>s.page)]){
  const html=await readFile('docs/'+page,'utf8');const url=base+(page==='index.html'?'':page);
+ assert(!html.includes('\0'),'Generated HTML contains NUL bytes: '+page);
  assert.equal((html.match(/rel="canonical"/g)||[]).length,1);assert(html.includes(`rel="canonical" href="${url}"`));
  const title=html.match(/<title>(.*?)<\/title>/s)?.[1];assert(title&&!titles.has(title),page+' title');titles.add(title);
  const description=html.match(/<meta name="description" content="([^"]+)"/s)?.[1];assert(description&&!descriptions.has(description),page+' description');descriptions.add(description);

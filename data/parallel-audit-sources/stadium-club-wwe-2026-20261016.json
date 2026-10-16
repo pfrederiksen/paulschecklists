@@ -1,0 +1,287 @@
+{
+  "observed": "2026-10-16",
+  "method": "October 16 collector guide and older product-history candidate read through official browser pages; FAQ expanded to verify the named Gold Rainbow Foilboard programs. Original PDFs freshly downloaded and fully compared. This normalized factual snapshot has its own hash, separate from the source document bytes.",
+  "sources": {
+    "guide": "https://ripped.topps.com/2026-topps-stadium-club-wwe-cards-collector-guide/",
+    "history": "https://ripped.topps.com/topps-stadium-club-wwe-history/",
+    "landing": "https://www.topps.com/pages/topps-stadium-club-wwe",
+    "checklist": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Stadium_Club_WWE_-_Checklist.pdf?v=1791221305",
+    "odds": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Stadium_Club_WWE_Odds.pdf?v=1791212522"
+  },
+  "checklistSha256": "e7fc883049de24ced4f271f75d432f49a4c3ac17155ab0ac12c0116c2940144d",
+  "oddsSha256": "714fdd3df3824ec6e2c175a6ab3ae867964e8d12d893a72369f59bb9fe8fb34f",
+  "approvedSpecifications": [
+    {
+      "family": "BASE CARDS AUTOGRAPH VARIATION",
+      "name": "Gold",
+      "numbering": "/50",
+      "sourceKey": "history",
+      "qualification": "Main Base Autograph program; separate from Variation II.",
+      "oddsName": "Base Card Autographs Gold"
+    },
+    {
+      "family": "INKED AUTOGRAPHS",
+      "name": "Purple",
+      "numbering": "/25",
+      "sourceKey": "history",
+      "qualification": "Named family and parallel only.",
+      "oddsName": "Inked Autographs Purple"
+    },
+    {
+      "family": "INKED AUTOGRAPHS",
+      "name": "Green",
+      "numbering": "/5",
+      "sourceKey": "history",
+      "qualification": "Named family and parallel only.",
+      "oddsName": "Inked Autographs Green"
+    },
+    {
+      "family": "MAIN STAGE AUTOGRAPHS",
+      "name": "Purple",
+      "numbering": "/25",
+      "sourceKey": "history",
+      "qualification": "Named family and parallel only.",
+      "oddsName": "Main Stage Autographs Purple"
+    },
+    {
+      "family": "MAIN STAGE AUTOGRAPHS",
+      "name": "Green",
+      "numbering": "/5",
+      "sourceKey": "history",
+      "qualification": "Named family and parallel only.",
+      "oddsName": "Main Stage Autographs Green"
+    },
+    {
+      "family": "THE AFTERMATH AUTOGRAPHS",
+      "name": "Purple",
+      "numbering": "/25",
+      "sourceKey": "history",
+      "qualification": "Named family and parallel only.",
+      "oddsName": "The Aftermath Autographs Purple"
+    },
+    {
+      "family": "THE AFTERMATH AUTOGRAPHS",
+      "name": "Green",
+      "numbering": "/5",
+      "sourceKey": "history",
+      "qualification": "Named family and parallel only.",
+      "oddsName": "The Aftermath Autographs Green"
+    },
+    {
+      "family": "INKED AUTOGRAPHS",
+      "name": "Gold Rainbow Foilboard",
+      "numbering": "1/1",
+      "sourceKey": "guide",
+      "qualification": "Named family and parallel only.",
+      "oddsName": "Inked Autographs Gold Rainbow Foilboard"
+    },
+    {
+      "family": "MAIN STAGE AUTOGRAPHS",
+      "name": "Gold Rainbow Foilboard",
+      "numbering": "1/1",
+      "sourceKey": "guide",
+      "qualification": "Named family and parallel only.",
+      "oddsName": "Main Stage Autographs Gold Rainbow Foilboard"
+    },
+    {
+      "family": "ABSTRACT AUTOGRAPHS",
+      "name": "Gold Rainbow Foilboard",
+      "numbering": "1/1",
+      "sourceKey": "guide",
+      "qualification": "Named family and parallel only.",
+      "oddsName": "Abstract Autographs Gold Rainbow Foilboard"
+    },
+    {
+      "family": "BASE CARDS CHROME AUTOGRAPH VARIATION",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "sourceKey": "guide",
+      "qualification": "Main Base Chrome Autograph program; the repeated later odds caption remains unjoined.",
+      "oddsName": "Base Chrome Autographs Superfractor"
+    },
+    {
+      "family": "BASE CARDS CHROME AUTOGRAPH VARIATION",
+      "name": "Pearl White",
+      "numbering": "/30",
+      "sourceKey": "guide",
+      "qualification": "Guide-only specification; matching pack odds are not published."
+    },
+    {
+      "family": "BASE CARDS CHROME AUTOGRAPH VARIATION",
+      "name": "Gold Minted",
+      "numbering": "Not stated",
+      "sourceKey": "guide",
+      "qualification": "Guide names this parallel without a numeric limit or matching odds row."
+    }
+  ],
+  "tables": [
+    {
+      "name": "Manufacturer box configuration",
+      "headers": [
+        "Published format",
+        "Published contents",
+        "Scope"
+      ],
+      "rows": [
+        [
+          "Hobby",
+          "16 packs × 8 cards; two autographs",
+          "Box contents, not numeric pack odds"
+        ],
+        [
+          "Mega",
+          "60 cards",
+          "Published box total"
+        ],
+        [
+          "Value",
+          "30 cards",
+          "Published box total"
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "CONCENTRATION AUTOGRAPHS",
+      "headers": [
+        "Published statement",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "Purple numbered to 25; Green numbered to five; Gold 1 of 1",
+          "History paragraph includes Concentration before three other named programs; exact scope and Gold/Rainbow Foilboard identity remain unreconciled."
+        ]
+      ],
+      "sourceKey": "history"
+    },
+    {
+      "name": "THE AFTERMATH AUTOGRAPHS",
+      "headers": [
+        "Published statement",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "Gold 1 of 1",
+          "History names Gold; odds names Gold Rainbow Foilboard. Exact identity is not established by the new FAQ, which names other programs."
+        ]
+      ],
+      "sourceKey": "history"
+    },
+    {
+      "name": "BASE CARDS AUTOGRAPH VARIATION",
+      "headers": [
+        "Card number",
+        "Name",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "SCA-USO",
+          "Jey Uso",
+          "Gold Rainbow Foilboard",
+          "1/1",
+          "Named-card example; not a numbering claim for Variation II."
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "DUAL AUTOGRAPHS",
+      "headers": [
+        "Card number",
+        "Names",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "DA-CA",
+          "Charlotte Flair / Alexa Bliss",
+          "Purple",
+          "/25",
+          "Named pair only; other duals are not numbered from this example."
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "INKED AUTOGRAPHS",
+      "headers": [
+        "Card number",
+        "Name",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "INK-RBR",
+          "Rhea Ripley",
+          "Not named in card description",
+          "1/1",
+          "Image design does not name a separate Black and White parallel."
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "ABSTRACT AUTOGRAPHS",
+      "headers": [
+        "Card number",
+        "Name",
+        "Parallel",
+        "Card-specific numbering",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "AA-LIV",
+          "Liv Morgan",
+          "Not named in card description",
+          "1/1",
+          "Image design does not name a separate Black and White parallel."
+        ]
+      ],
+      "sourceKey": "guide"
+    },
+    {
+      "name": "Guide introduction and release scope",
+      "headers": [
+        "Published field",
+        "Published statement",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "Autograph numbering overview",
+          "Purple /25; Green /5; Gold Rainbow Foilboard 1/1",
+          "General overview; exact family mappings require the named sections"
+        ],
+        [
+          "Base Chrome autograph parallel names",
+          "Orange; Gold Minted; Pearl White /30; SuperFractor 1/1",
+          "No Orange or Gold Minted numeric limit is stated"
+        ],
+        [
+          "Release date",
+          "2026-10-23",
+          "Scheduled; confirms existing verified release evidence, not October 16 publication"
+        ]
+      ],
+      "sourceKey": "guide"
+    }
+  ],
+  "remainingGaps": [
+    "Exhaustive numbering remains unconfirmed. General introduction Purple /25, Green /5 and Gold Rainbow Foilboard 1/1 wording is not a universal ladder for base, Chrome, autograph, anniversary or insert programs.",
+    "The history guide names Concentration before describing three other autograph programs with Purple /25, Green /5 and Gold 1/1. Its Concentration scope and Gold versus Gold Rainbow Foilboard identity remain qualified; no ambiguous joins are selected.",
+    "Base Card Autographs II is a separate checklist program; main Base Autograph limits do not propagate to it. Base Chrome Autographs II has three named odds rows but no matching printed checklist roster; two following Orange/Superfractor captions repeat the earlier names without II. All five remain unjoined.",
+    "Base Chrome Pearl White /30 and Gold Minted are published guide specifications without matching original odds categories. Gold Minted has no stated serial limit.",
+    "Dual Purple /25 is a Charlotte Flair/Alexa Bliss example; Jey Uso 1/1, Rhea Ripley 1/1 and Liv Morgan 1/1 descriptions remain named-card evidence. Black-and-white image design does not establish a parallel identity.",
+    "The original SKU headings do not state a ratio unit. Ratios, box configurations and scheduled release-date evidence remain separate."
+  ]
+}

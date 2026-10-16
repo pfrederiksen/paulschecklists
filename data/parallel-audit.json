@@ -1693,13 +1693,22 @@
       "manufacturer": "Topps / Bowman",
       "source": "https://www.topps.com/pages/topps-stadium-club-wwe",
       "oddsCategories": 122,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "numberedOddsCategories": 11,
+      "supplementalSpecifications": 13,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-stadium-club-wwe",
+          "family": "Unjoined Chrome II roster, guide-only categories and qualified numbering",
+          "gap": "Exhaustive numbering remains unconfirmed. General introduction Purple /25, Green /5 and Gold Rainbow Foilboard 1/1 wording is not a universal ladder for base, Chrome, autograph, anniversary or insert programs. The history guide names Concentration before describing three other autograph programs with Purple /25, Green /5 and Gold 1/1. Its Concentration scope and Gold versus Gold Rainbow Foilboard identity remain qualified; no ambiguous joins are selected. Base Card Autographs II is a separate checklist program; main Base Autograph limits do not propagate to it. Base Chrome Autographs II has three named odds rows but no matching printed checklist roster; two following Orange/Superfractor captions repeat the earlier names without II. All five remain unjoined. Base Chrome Pearl White /30 and Gold Minted are published guide specifications without matching original odds categories. Gold Minted has no stated serial limit. Dual Purple /25 is a Charlotte Flair/Alexa Bliss example; Jey Uso 1/1, Rhea Ripley 1/1 and Liv Morgan 1/1 descriptions remain named-card evidence. Black-and-white image design does not establish a parallel identity. The original SKU headings do not state a ratio unit. Ratios, box configurations and scheduled release-date evidence remain separate.",
+          "source": "https://ripped.topps.com/2026-topps-stadium-club-wwe-cards-collector-guide/",
+          "evidenceFile": "data/parallel-audit-sources/stadium-club-wwe-2026-20261016.json",
+          "evidenceSha256": "4e7fb8ca09e8e1649f783b1e27111bde3d5c4e634fb324c2b5138fd70b6f7c66"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-brooklyn-collection",

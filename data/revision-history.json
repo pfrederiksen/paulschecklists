@@ -6714,10 +6714,34 @@
       "oddsHash": "714fdd3df3824ec6e2c175a6ab3ae867964e8d12d893a72369f59bb9fe8fb34f",
       "rows": 938,
       "odds": 122,
-      "specificationRows": 0
+      "specificationRows": 25,
+      "specificationHash": "5909e66d347a08cb02255c7869c84424290ac012f7f2b9dd204a57800da817e1"
     },
-    "fingerprint": "7e3407b14f61695e3f151694a1ab0f71f2ae95ddd9fd631c67a25efb370f1dd6",
+    "fingerprint": "29bd5fb82a65bedca1f0b247b087d8835e710b97ea82d9404d3d4751ae6c0490",
     "events": [
+      {
+        "at": "2026-10-16T17:45:34.594Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 25",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Stadium_Club_WWE_-_Checklist.pdf?v=1791221305",
+        "snapshot": {
+          "checklistHash": "e7fc883049de24ced4f271f75d432f49a4c3ac17155ab0ac12c0116c2940144d",
+          "oddsHash": "714fdd3df3824ec6e2c175a6ab3ae867964e8d12d893a72369f59bb9fe8fb34f",
+          "rows": 938,
+          "odds": 122,
+          "specificationRows": 25,
+          "specificationHash": "5909e66d347a08cb02255c7869c84424290ac012f7f2b9dd204a57800da817e1"
+        },
+        "previousSnapshot": {
+          "checklistHash": "e7fc883049de24ced4f271f75d432f49a4c3ac17155ab0ac12c0116c2940144d",
+          "oddsHash": "714fdd3df3824ec6e2c175a6ab3ae867964e8d12d893a72369f59bb9fe8fb34f",
+          "rows": 938,
+          "odds": 122,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T03:05:40.526Z",
         "changes": [

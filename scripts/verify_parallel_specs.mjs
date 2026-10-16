@@ -11,6 +11,7 @@ data.odds=reconcileParallels(data);
 assert.equal(data.odds.length,3);assert.equal(categoryNumbering(data,'Base Orange'),'/25');assert.equal(categoryNumbering(data,'Autographs Orange'),'Not published');assert.equal(data.odds[2].specificationOnly,true);assert.deepEqual(data.odds[2].values,{});
 assert.equal(reconcileParallels(data).length,3,'Repeated reconciliation must not duplicate specification-only parallels');
 const panini={serialColumn:2,rows:[['Auto','A','10'],['Auto','B','25']]};assert.equal(categoryNumbering(panini,'Auto'),'Varies by card; see official card details');
+const repeated={odds:[{name:'Repeated Superfractor',family:'Main program',numbering:'1/1'},{name:'Repeated Superfractor',family:'Unjoined program'}]};assert.equal(categoryNumbering(repeated,'Repeated Superfractor','Main program'),'1/1');assert.equal(categoryNumbering(repeated,'Repeated Superfractor','Unjoined program'),'Not published','Repeated captions must not copy limits between source families');
 console.log('Verified official numbering, exact family scopes and specification-only parallels.');
 
 const csv={publishedSpecifications:[{name:'Base Orange',headers:['Card number','Athlete','Published SEQUENCE'],rows:[['1','A','25'],['2','B','25']]}]};assert.equal(categoryNumbering(csv,'Base Orange'),'/25');

@@ -34,8 +34,10 @@ export function reconcileParallels(data){
  }
  return odds;
 }
-export function categoryNumbering(data,name){
- const odd=(data.odds??[]).find(o=>parallelKey(o.name)===parallelKey(name));if(odd?.numbering)return odd.numbering;
+export function categoryNumbering(data,name,family){
+ // A publisher may repeat a caption in another program. Its limit belongs
+ // only to the reconciled family, including in exports and research views.
+ const odd=(data.odds??[]).find(o=>parallelKey(o.name)===parallelKey(name)&&(!family||!o.family||parallelKey(o.family)===parallelKey(family)));if(odd?.numbering)return odd.numbering;
  if(data.serialColumn!=null){const values=[...new Set((data.rows??[]).filter(r=>parallelKey(r[0])===parallelKey(name)&&r[data.serialColumn]).map(r=>publishedNumbering(r[data.serialColumn])))];if(values.length===1)return values[0];if(values.length>1)return 'Varies by card; see official card details';}
  for(const spec of data.publishedSpecifications??[]){if(parallelKey(spec.name)!==parallelKey(name))continue;const column=spec.headers.findIndex(h=>/^Published SEQUENCE$|^Published numbering$/i.test(h));if(column<0)continue;const values=[...new Set(spec.rows.filter(r=>r[column]).map(r=>publishedNumbering(r[column])))];if(values.length===1)return values[0];if(values.length>1)return 'Varies by card; see official card details';}
  return 'Not published';

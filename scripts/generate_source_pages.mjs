@@ -1,6 +1,13 @@
-import {readFile,mkdir,writeFile} from 'node:fs/promises';
+import {readFile,mkdir,writeFile,rename} from 'node:fs/promises';
 import {setPage,setOverview,setDataStory,researchView,setFacts,setStats,setHero,esc} from '../templates/set-page.mjs';
 import {setSEO} from '../templates/seo.mjs';
+async function writePage(path,html){
+ if(html.includes('\0'))throw Error('Refusing generated HTML containing NUL bytes: '+path);
+ const temporary=`${path}.${process.pid}.tmp`;
+ await writeFile(temporary,html);
+ if(await readFile(temporary,'utf8')!==html)throw Error('Generated HTML failed byte verification: '+path);
+ await rename(temporary,path);
+}
 // These modules mutate/read the same imports. Static imports with top-level
 // await can interleave their writes and reads, so complete each phase first.
 await import('./apply_parallel_specs.mjs');
@@ -13,7 +20,7 @@ for(const config of JSON.parse(await readFile('templates/featured-sets.json','ut
  const set={...catalog.sets.find(s=>s.page===config.page),description:config.description};
  const data=JSON.parse(await readFile('data/'+config.page.replace('.html','.json'),'utf8'));
  const facts=setFacts(set,data),narrative=setDataStory(set,data);
- await writeFile(config.page,setPage({...config,hero:setHero(set,{featured:true}),stats:setStats(set,data),story:narrative.summary,breakdown:narrative.breakdown,tools:researchView(set,research.get(set.slug)),overview:setOverview(set,{hasCards:facts.hasCards,hasOdds:facts.hasOdds,hasSpecifications:facts.specifications}),seo:setSEO(set,data)}));
+ await writePage(config.page,setPage({...config,hero:setHero(set,{featured:true}),stats:setStats(set,data),story:narrative.summary,breakdown:narrative.breakdown,tools:researchView(set,research.get(set.slug)),overview:setOverview(set,{hasCards:facts.hasCards,hasOdds:facts.hasOdds,hasSpecifications:facts.specifications}),seo:setSEO(set,data)}));
 }
 for(const set of catalog.sets){
  if(!set.page.startsWith('sets/'))continue;
@@ -30,6 +37,6 @@ for(const set of catalog.sets){
  const sources=`<div><p class="eyebrow">THE DETAILS MATTER</p><h2>Official data.<br>Clear expectations.</h2></div><div><p>“1 in 24 packs” means a card from that category, across all eligible subjects. It is not the chance of pulling a particular player. Serial numbering is a print run, not a pack hit rate.</p><p>Missing values are not estimates. Original manufacturer columns and notes remain available in card details. A listed subject is not guaranteed in every parallel. Imported odds categories alone do not establish an exhaustive parallel inventory.</p><p>${esc(checklistEvidence)}</p>${dateEvidence}${links}</div>`;
  const warning=set.ongoingSeries?'<p class="source-warning"><strong>Partial archive · ongoing series.</strong> The backfill starts January 1, 2026, using verified official sale dates. Entries with unverified dates and unresolved product details remain pending. Product year and season labels are preserved separately. Print runs appear only when Topps publishes them.</p>':set.coverageComplete===false?`<p class="source-warning"><strong>Partial import.</strong> ${esc(set.catalogEvidence)}</p>`:set.releaseStatus==='Upcoming'?'<p class="source-warning">This set is upcoming. Published contents and scheduled release dates may change.</p>':set.releaseStatus==='Released'?'':'<p class="source-warning">Release date has not been verified. Checklist availability does not mean the product has released.</p>';
  const empty=`<div class="empty"><p>${set.sourceUnavailable?'The manufacturer’s checklist link is currently unavailable.':'A verified searchable card import is pending.'} Published data will appear here when verified.</p>${links}</div>`;
- await writeFile(set.page,setPage({story:narrative.summary,breakdown:narrative.breakdown,tools:researchView(set,research.get(set.slug)),oddsUnitsPublished:data?.oddsUnitsPublished!==false,oddsUnitLabel:data?.oddsUnitLabel??'',overview:setOverview(set,{oddsUnitsPublished:data?.oddsUnitsPublished!==false,oddsUnitLabel:data?.oddsUnitLabel??'',hasCards:facts.hasCards,hasOdds:facts.hasOdds,hasSpecifications:facts.specifications}),page:set.page,title:set.title+" · Paul's Checklists",body:data?`data-table="../${esc(set.tableData)}"`:'',nav:'<a href="../">← All checklists</a>',breadcrumb:`${sport.toUpperCase()} <span>/</span> ${maker.toUpperCase()} <span>/</span> ${year}`,hero,stats,odds:set.odds??'',sources,warning,imported:true,hasData:!!data,empty,seo:setSEO(set,data)}));
+ await writePage(set.page,setPage({story:narrative.summary,breakdown:narrative.breakdown,tools:researchView(set,research.get(set.slug)),oddsUnitsPublished:data?.oddsUnitsPublished!==false,oddsUnitLabel:data?.oddsUnitLabel??'',overview:setOverview(set,{oddsUnitsPublished:data?.oddsUnitsPublished!==false,oddsUnitLabel:data?.oddsUnitLabel??'',hasCards:facts.hasCards,hasOdds:facts.hasOdds,hasSpecifications:facts.specifications}),page:set.page,title:set.title+" · Paul's Checklists",body:data?`data-table="../${esc(set.tableData)}"`:'',nav:'<a href="../">← All checklists</a>',breadcrumb:`${sport.toUpperCase()} <span>/</span> ${maker.toUpperCase()} <span>/</span> ${year}`,hero,stats,odds:set.odds??'',sources,warning,imported:true,hasData:!!data,empty,seo:setSEO(set,data)}));
 }
 console.log(`Generated ${catalog.sets.length} pages from the shared Allen & Ginter template.`);

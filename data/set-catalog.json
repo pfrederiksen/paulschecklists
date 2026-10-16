@@ -3049,9 +3049,9 @@
       "releaseStatus": "Upcoming",
       "releaseDate": "2026-10-23",
       "sha256": "e7fc883049de24ced4f271f75d432f49a4c3ac17155ab0ac12c0116c2940144d",
-      "verified": "2026-10-12",
-      "catalogEvidence": "Official product page lists October 23 availability. Physical name/designation columns overlap for long names in PDF text extraction; original glyph draw order preserves every printed character. Raw, Smackdown, NXT, Legend and other designations are preserved as published fields, not inferred teams. Source ratios such as 5:1 mean five cards per pack, not one-in-five pack odds.",
-      "dataAudit": "Physical glyph origins reconcile card number, name, designation and printed rookie values; 200 base cards and the overlapping Cody Rhodes row verified. All literal odds columns validated without alignment issues.",
+      "verified": "2026-10-16",
+      "catalogEvidence": "All 938 original subjects, 25 sections and 35 literal Rookie marks are retained. Published WWE designations remain separate from teams. All 122 odds rows and three SKU columns remain literal, including five unjoined Chrome Autographs II/repeated-caption rows with no verified roster join. The sheet names SKU formats but no ratio unit; 5:1 remains as printed without a per-pack estimate. Exact approved guide joins include Base Card Autographs Gold /50, the named Inked/Main Stage/Aftermath Purple /25 and Green /5 parallels, three named Gold Rainbow Foilboard 1/1 programs and the first Base Chrome Superfractor 1/1. Guide-only Base Chrome Pearl White /30 and Gold Minted have no published matching odds row; serial limits for other colors are not inferred. Jey Uso and Charlotte Flair/Alexa Bliss examples remain card-specific. Ambiguous Concentration/Gold wording and the rest of the numbering audit remain explicit. The October 16 guide confirms the scheduled October 23 release; the set remains Upcoming.",
+      "dataAudit": "All 938 original subjects, 25 sections and 35 literal Rookie marks are retained. Published WWE designations remain separate from teams. All 122 odds rows and three SKU columns remain literal, including five unjoined Chrome Autographs II/repeated-caption rows with no verified roster join. The sheet names SKU formats but no ratio unit; 5:1 remains as printed without a per-pack estimate. Exact approved guide joins include Base Card Autographs Gold /50, the named Inked/Main Stage/Aftermath Purple /25 and Green /5 parallels, three named Gold Rainbow Foilboard 1/1 programs and the first Base Chrome Superfractor 1/1. Guide-only Base Chrome Pearl White /30 and Gold Minted have no published matching odds row; serial limits for other colors are not inferred. Jey Uso and Charlotte Flair/Alexa Bliss examples remain card-specific. Ambiguous Concentration/Gold wording and the rest of the numbering audit remain explicit. The October 16 guide confirms the scheduled October 23 release; the set remains Upcoming.",
       "verifiedRelease": {
         "url": "https://www.topps.com/products/2026-topps-stadium-club-wwe-hobby-box-sealed-case",
         "title": "2026 Topps Stadium Club WWE - Hobby Box - Sealed Case",
@@ -3061,6 +3061,12 @@
         "scope": "U.S. Hobby release; scheduled date subject to change",
         "sha256": "efdcff7d9a3bf9d38c92853cb7db48dbda602d3f6ca2b6f942e93fc9730050cd",
         "snapshotFile": "data/release-dates.json"
+      },
+      "coverageComplete": true,
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/stadium-club-wwe-2026-20261016.json",
+        "sha256": "4e7fb8ca09e8e1649f783b1e27111bde3d5c4e634fb324c2b5138fd70b6f7c66",
+        "source": "https://ripped.topps.com/2026-topps-stadium-club-wwe-cards-collector-guide/"
       }
     },
     {

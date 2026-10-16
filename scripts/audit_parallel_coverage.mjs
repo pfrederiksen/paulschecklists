@@ -5,7 +5,7 @@ const registry=JSON.parse(await readFile('data/parallel-specifications.json','ut
 const audit=[];
 for(const set of catalog.sets){let data;try{data=JSON.parse(await readFile(set.tableData??`data/${set.page.replace('.html','.json')}`,'utf8'));}catch(error){if(set.tableData)throw new Error(`Cannot audit configured source table ${set.tableData}`,{cause:error});}
  const odds=data?reconcileParallels(data):[];
- const known=odds.filter(o=>!o.specificationOnly&&!/(?:not (?:published|stated)|unverified|unknown)/i.test(categoryNumbering({...data,odds},o.name))).length;
+ const known=odds.filter(o=>!o.specificationOnly&&!/(?:not (?:published|stated)|unverified|unknown)/i.test(categoryNumbering({...data,odds},o.name,o.family))).length;
  const stated=value=>String(value??'').trim()&&!/(?:not (?:published|stated)|unverified|unknown)/i.test(String(value));
  const structured=!!(known||data?.parallelSpecifications?.some(s=>stated(s.numbering))||data?.serialColumn!=null&&data.rows?.some(r=>stated(r[data.serialColumn]))||(data?.publishedSpecifications??[]).some(spec=>spec.headers.some((h,i)=>/^(?:Published (?:SEQUENCE|numbering)|(?:Unsigned|Autograph) numbering)$/i.test(h)&&spec.rows.some(r=>stated(r[i])))));
  const specifications=!!(data?.publishedSpecifications?.length||data?.officialStructure||data?.parallelSpecifications?.length);
