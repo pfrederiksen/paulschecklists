@@ -11,6 +11,7 @@
       "numberedOddsCategories": 1,
       "supplementalSpecifications": 1,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -35,6 +36,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -48,6 +50,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -61,6 +64,7 @@
       "numberedOddsCategories": 1,
       "supplementalSpecifications": 1,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -83,6 +87,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -96,6 +101,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -109,6 +115,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -122,6 +129,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -135,6 +143,7 @@
       "numberedOddsCategories": 3,
       "supplementalSpecifications": 3,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -148,6 +157,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -161,6 +171,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -173,9 +184,10 @@
       "oddsCategories": 115,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": [
         {
           "slug": "topps-bowman-topps-finest-premier-league-2026",
@@ -196,6 +208,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -209,6 +222,7 @@
       "numberedOddsCategories": 9,
       "supplementalSpecifications": 9,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -239,6 +253,7 @@
       "numberedOddsCategories": 1,
       "supplementalSpecifications": 19,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -284,9 +299,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 14,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": [
         {
           "slug": "topps-bowman-2026-topps-holiday-baseball",
@@ -315,6 +331,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -328,6 +345,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -341,6 +359,7 @@
       "numberedOddsCategories": 2,
       "supplementalSpecifications": 2,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -364,6 +383,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -377,6 +397,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -390,6 +411,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -403,6 +425,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -416,6 +439,7 @@
       "numberedOddsCategories": 17,
       "supplementalSpecifications": 17,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -429,6 +453,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -442,6 +467,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -455,6 +481,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -468,6 +495,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -481,6 +509,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -494,6 +523,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -507,6 +537,7 @@
       "numberedOddsCategories": 33,
       "supplementalSpecifications": 33,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -520,6 +551,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -533,6 +565,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -546,6 +579,7 @@
       "numberedOddsCategories": 33,
       "supplementalSpecifications": 33,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -568,6 +602,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -581,6 +616,7 @@
       "numberedOddsCategories": 46,
       "supplementalSpecifications": 46,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -594,6 +630,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -607,6 +644,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -620,6 +658,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -633,6 +672,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -646,6 +686,7 @@
       "numberedOddsCategories": 10,
       "supplementalSpecifications": 15,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -669,6 +710,7 @@
       "numberedOddsCategories": 9,
       "supplementalSpecifications": 9,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -682,6 +724,7 @@
       "numberedOddsCategories": 34,
       "supplementalSpecifications": 34,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -695,6 +738,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -708,6 +752,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -721,6 +766,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -734,6 +780,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -747,6 +794,7 @@
       "numberedOddsCategories": 52,
       "supplementalSpecifications": 53,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -760,6 +808,7 @@
       "numberedOddsCategories": 1,
       "supplementalSpecifications": 1,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -782,6 +831,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -795,6 +845,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -808,6 +859,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -821,6 +873,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -834,6 +887,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -846,9 +900,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": [
         {
           "slug": "topps-bowman-topps-manchester-united-2025-26-team-set",
@@ -868,9 +923,10 @@
       "oddsCategories": 86,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -882,6 +938,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -895,6 +952,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -903,14 +961,24 @@
       "slug": "topps-bowman-2025-26-topps-nbl-basketball",
       "title": "2025-26 Topps NBL Basketball",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-nbl-basketball",
       "oddsCategories": 48,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-26-topps-nbl-basketball",
+          "family": "Parallel numbering, ratio units and store availability",
+          "gap": "An exhaustive parallel-numbering inventory remains unverified: the reviewed official product, landing page and guide do not establish numeric serial limits for the 48 odds categories. The odds PDF names Hobby SKU but does not state a ratio unit. Preserve all 48 literal ratios, including Base 3:1, without computing pack rates. June 25, 2026 is the U.S. product Available From field; a general release-date statement remains unverified.",
+          "source": "https://www.topps.com/products/2025-26-topps-nbl-basketball-hobby-box",
+          "evidenceFile": "data/parallel-audit-sources/nbl-basketball-2025-26-20261016.json",
+          "evidenceSha256": "7c54c4b651ec23534b04d58e3b9d20c49ac36ce889bc82a33d02b01141af24c0"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-topps-pristine-baseball",
@@ -921,6 +989,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -934,6 +1003,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -947,6 +1017,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -960,6 +1031,7 @@
       "numberedOddsCategories": 17,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -973,6 +1045,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": [
@@ -997,6 +1070,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1010,6 +1084,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1023,6 +1098,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": [
@@ -1046,6 +1122,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1059,6 +1136,7 @@
       "numberedOddsCategories": 15,
       "supplementalSpecifications": 15,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1072,6 +1150,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1085,6 +1164,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1098,6 +1178,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1111,6 +1192,7 @@
       "numberedOddsCategories": 47,
       "supplementalSpecifications": 47,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -1133,6 +1215,7 @@
       "numberedOddsCategories": 60,
       "supplementalSpecifications": 60,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -1154,9 +1237,10 @@
       "oddsCategories": 210,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": [
         {
           "slug": "topps-bowman-2026-topps-chrome-disney",
@@ -1177,6 +1261,7 @@
       "numberedOddsCategories": 2,
       "supplementalSpecifications": 2,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1190,6 +1275,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": [
@@ -1212,6 +1298,7 @@
       "numberedOddsCategories": 32,
       "supplementalSpecifications": 34,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -1234,6 +1321,7 @@
       "numberedOddsCategories": 51,
       "supplementalSpecifications": 51,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -1255,9 +1343,10 @@
       "oddsCategories": 108,
       "numberedOddsCategories": 1,
       "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
     },
     {
@@ -1269,6 +1358,7 @@
       "numberedOddsCategories": 8,
       "supplementalSpecifications": 9,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1282,6 +1372,7 @@
       "numberedOddsCategories": 2,
       "supplementalSpecifications": 2,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1295,6 +1386,7 @@
       "numberedOddsCategories": 2,
       "supplementalSpecifications": 2,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -1316,9 +1408,10 @@
       "oddsCategories": 28,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": [
         {
           "slug": "topps-bowman-2025-topps-marvel-studios-chrome-sapphire",
@@ -1338,9 +1431,10 @@
       "oddsCategories": 59,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": [
         {
           "slug": "topps-bowman-2025-topps-marvel-the-collector",
@@ -1361,6 +1455,7 @@
       "numberedOddsCategories": 1,
       "supplementalSpecifications": 1,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -1383,6 +1478,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1396,6 +1492,7 @@
       "numberedOddsCategories": 28,
       "supplementalSpecifications": 28,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1409,6 +1506,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1422,6 +1520,7 @@
       "numberedOddsCategories": 4,
       "supplementalSpecifications": 4,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1434,9 +1533,10 @@
       "oddsCategories": 28,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -1447,9 +1547,10 @@
       "oddsCategories": 140,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -1460,9 +1561,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -1473,9 +1575,10 @@
       "oddsCategories": 77,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -1487,6 +1590,7 @@
       "numberedOddsCategories": 6,
       "supplementalSpecifications": 6,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1500,6 +1604,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1513,6 +1618,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1526,6 +1632,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1539,6 +1646,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1552,6 +1660,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1565,6 +1674,7 @@
       "numberedOddsCategories": 1,
       "supplementalSpecifications": 1,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1578,6 +1688,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1591,6 +1702,7 @@
       "numberedOddsCategories": 36,
       "supplementalSpecifications": 35,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1604,6 +1716,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1617,6 +1730,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -1629,9 +1743,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
     },
     {
@@ -1643,6 +1758,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1656,6 +1772,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1669,6 +1786,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1682,6 +1800,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1695,6 +1814,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1708,6 +1828,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1721,6 +1842,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1734,6 +1856,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1746,9 +1869,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
     },
     {
@@ -1760,6 +1884,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1773,6 +1898,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1786,6 +1912,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1799,6 +1926,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1812,6 +1940,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1825,6 +1954,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1838,6 +1968,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1851,6 +1982,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1864,6 +1996,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1877,6 +2010,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1890,6 +2024,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1903,6 +2038,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1916,6 +2052,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1929,6 +2066,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1942,6 +2080,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1955,6 +2094,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1968,6 +2108,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1981,6 +2122,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -1994,6 +2136,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2007,6 +2150,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2020,6 +2164,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2033,6 +2178,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2046,6 +2192,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2059,6 +2206,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2072,6 +2220,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2085,6 +2234,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2098,6 +2248,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2111,6 +2262,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2124,6 +2276,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2137,6 +2290,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2150,6 +2304,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2163,6 +2318,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2176,6 +2332,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2189,6 +2346,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2202,6 +2360,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2215,6 +2374,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2228,6 +2388,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2241,6 +2402,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2254,6 +2416,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2267,6 +2430,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2280,6 +2444,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2293,6 +2458,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2306,6 +2472,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
@@ -2319,6 +2486,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2332,6 +2500,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2345,6 +2514,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2358,6 +2528,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2371,6 +2542,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2384,6 +2556,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2397,6 +2570,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2409,9 +2583,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
     },
     {
@@ -2422,9 +2597,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2435,9 +2611,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2448,9 +2625,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2461,9 +2639,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2474,9 +2653,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2487,9 +2667,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2500,9 +2681,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2513,9 +2695,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2526,9 +2709,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2539,9 +2723,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2552,9 +2737,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2565,9 +2751,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2578,9 +2765,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2591,9 +2779,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2604,9 +2793,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2617,9 +2807,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2630,9 +2821,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2643,9 +2835,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2656,9 +2849,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2669,9 +2863,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2682,9 +2877,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2695,9 +2891,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2708,9 +2905,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2721,9 +2919,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2734,9 +2933,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2747,9 +2947,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2760,9 +2961,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2773,9 +2975,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2786,9 +2989,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2799,9 +3003,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2812,9 +3017,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2825,9 +3031,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2838,9 +3045,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2851,9 +3059,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2864,9 +3073,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2877,9 +3087,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2890,9 +3101,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2903,9 +3115,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2916,9 +3129,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2929,9 +3143,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2942,9 +3157,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2955,9 +3171,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": true,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -2969,6 +3186,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2982,6 +3200,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -2995,6 +3214,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3008,6 +3228,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3021,6 +3242,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3034,6 +3256,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3047,6 +3270,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3060,6 +3284,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3073,6 +3298,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3086,6 +3312,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3099,6 +3326,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3112,6 +3340,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3125,6 +3354,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3138,6 +3368,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3151,6 +3382,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3164,6 +3396,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3177,6 +3410,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3190,6 +3424,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3203,6 +3438,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3216,6 +3452,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3229,6 +3466,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3242,6 +3480,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3255,6 +3494,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3268,6 +3508,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3281,6 +3522,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3294,6 +3536,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3307,6 +3550,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3320,6 +3564,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3333,6 +3578,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3346,6 +3592,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3359,6 +3606,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3372,6 +3620,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3385,6 +3634,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3398,6 +3648,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3411,6 +3662,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3424,6 +3676,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3437,6 +3690,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3450,6 +3704,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3463,6 +3718,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3476,6 +3732,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3489,6 +3746,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3502,6 +3760,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3515,6 +3774,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3528,6 +3788,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3541,6 +3802,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3554,6 +3816,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3567,6 +3830,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3580,6 +3844,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3593,6 +3858,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -3605,9 +3871,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3618,9 +3885,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3631,9 +3899,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3644,9 +3913,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3657,9 +3927,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3670,9 +3941,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3683,9 +3955,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3696,9 +3969,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3709,9 +3983,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3722,9 +3997,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3735,9 +4011,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3748,9 +4025,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3761,9 +4039,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3774,9 +4053,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3787,9 +4067,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3800,9 +4081,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3813,9 +4095,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3826,9 +4109,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3839,9 +4123,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3852,9 +4137,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3865,9 +4151,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3878,9 +4165,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3891,9 +4179,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3904,9 +4193,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3917,9 +4207,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3930,9 +4221,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3943,9 +4235,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3956,9 +4249,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3969,9 +4263,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3982,9 +4277,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -3995,9 +4291,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4008,9 +4305,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4021,9 +4319,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4034,9 +4333,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4047,9 +4347,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4060,9 +4361,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4073,9 +4375,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4086,9 +4389,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4099,9 +4403,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4112,9 +4417,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4125,9 +4431,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4138,9 +4445,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4151,9 +4459,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4164,9 +4473,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4177,9 +4487,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4190,9 +4501,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4203,9 +4515,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4216,9 +4529,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4229,9 +4543,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4242,9 +4557,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4255,9 +4571,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4269,6 +4586,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Source import pending",
       "conflicts": []
@@ -4282,6 +4600,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Source import pending",
       "conflicts": []
@@ -4294,9 +4613,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4307,9 +4627,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4320,9 +4641,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4334,6 +4656,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Source import pending",
       "conflicts": []
@@ -4347,6 +4670,7 @@
       "numberedOddsCategories": 58,
       "supplementalSpecifications": 58,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4360,6 +4684,7 @@
       "numberedOddsCategories": 1,
       "supplementalSpecifications": 1,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4373,6 +4698,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4385,9 +4711,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4398,9 +4725,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4411,9 +4739,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4424,9 +4753,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4437,9 +4767,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4450,9 +4781,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4463,9 +4795,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4476,9 +4809,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4489,9 +4823,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4502,9 +4837,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4515,9 +4851,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4528,9 +4865,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4541,9 +4879,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4554,9 +4893,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4567,9 +4907,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4580,9 +4921,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4593,9 +4935,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4606,9 +4949,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4619,9 +4963,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4632,9 +4977,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4645,9 +4991,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4658,9 +5005,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4671,9 +5019,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4684,9 +5033,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4697,9 +5047,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4710,9 +5061,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4723,9 +5075,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4736,9 +5089,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4749,9 +5103,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4762,9 +5117,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4775,9 +5131,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4788,9 +5145,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4801,9 +5159,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4814,9 +5173,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
     },
     {
@@ -4828,6 +5188,7 @@
       "numberedOddsCategories": 14,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4841,6 +5202,7 @@
       "numberedOddsCategories": 12,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4854,6 +5216,7 @@
       "numberedOddsCategories": 5,
       "supplementalSpecifications": 5,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4867,6 +5230,7 @@
       "numberedOddsCategories": 2,
       "supplementalSpecifications": 2,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -4892,6 +5256,7 @@
       "numberedOddsCategories": 1,
       "supplementalSpecifications": 1,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4905,6 +5270,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4918,6 +5284,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4931,6 +5298,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4944,6 +5312,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4957,6 +5326,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4970,6 +5340,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4983,6 +5354,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -4996,6 +5368,7 @@
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
@@ -5009,6 +5382,7 @@
       "numberedOddsCategories": 18,
       "supplementalSpecifications": 18,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -5030,9 +5404,10 @@
       "oddsCategories": 219,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": [
         {
           "slug": "topps-bowman-2025-26-topps-midnight-basketball",
@@ -5053,6 +5428,7 @@
       "numberedOddsCategories": 30,
       "supplementalSpecifications": 30,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -5074,9 +5450,10 @@
       "oddsCategories": 54,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": [
         {
           "slug": "topps-bowman-2026-topps-chrome-disney-sapphire-edition",
@@ -5097,6 +5474,7 @@
       "numberedOddsCategories": 1,
       "supplementalSpecifications": 1,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [
@@ -5118,9 +5496,10 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": true,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": [
         {
           "slug": "topps-bowman-2026-topps-chrome-football",
@@ -5141,6 +5520,7 @@
       "numberedOddsCategories": 5,
       "supplementalSpecifications": 5,
       "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": [

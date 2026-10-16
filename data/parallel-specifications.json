@@ -7926,7 +7926,8 @@
         "oddsName": "RUBY SSP AUTOGRAPHS SUPERFRACTOR PARALLEL"
       }
     ],
-    "topps-bowman-topps-manchester-united-2025-26-team-set": []
+    "topps-bowman-topps-manchester-united-2025-26-team-set": [],
+    "topps-bowman-2025-26-topps-nbl-basketball": []
   },
   "conflicts": [
     {
@@ -8226,6 +8227,14 @@
       "source": "https://ripped.topps.com/uk/dropping-soon-manchester-united-2025-26-team-set/",
       "evidenceFile": "data/parallel-audit-sources/manchester-united-team-2025-26-20261016.json",
       "evidenceSha256": "bb2898c6b84475fb629247f3f295cfbffd77038b3f36666de0f725df3dcd8bca"
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-nbl-basketball",
+      "family": "Parallel numbering, ratio units and store availability",
+      "gap": "An exhaustive parallel-numbering inventory remains unverified: the reviewed official product, landing page and guide do not establish numeric serial limits for the 48 odds categories. The odds PDF names Hobby SKU but does not state a ratio unit. Preserve all 48 literal ratios, including Base 3:1, without computing pack rates. June 25, 2026 is the U.S. product Available From field; a general release-date statement remains unverified.",
+      "source": "https://www.topps.com/products/2025-26-topps-nbl-basketball-hobby-box",
+      "evidenceFile": "data/parallel-audit-sources/nbl-basketball-2025-26-20261016.json",
+      "evidenceSha256": "7c54c4b651ec23534b04d58e3b9d20c49ac36ce889bc82a33d02b01141af24c0"
     }
   ]
 }

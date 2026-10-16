@@ -34,6 +34,17 @@ for(const set of cases){
   get('source-section').value=numbered[0];get('source-section').onchange();get('source-team').value=numbered[10];get('source-team').onchange();get('source-search').value=numbered[2];get('source-search').oninput();assert(get('source-results').innerHTML.includes('title="/'+numbered[3]+'"'), 'Published SEQUENCE must display as out-of numbering');
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"SPORT","YEAR","BRAND","PROGRAM","CARD SET","ATHLETE","TEAM","POSITION","CARD NUMBER","SEQUENCE"'));assert(csv.includes('"'+String(numbered[2]).replaceAll('"','""')+'"'));get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2025-26-topps-nbl-basketball'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  assert.deepEqual(data.formats,['Hobby SKU']);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-team').value='Melbourne Tigers';get('source-team').onchange();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('Warrick Giddey')&&!csv.includes('Chris Goulding'));
+  get('source-reset').onclick();get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'18 official source rows');get('source-export').onclick();assert(csv.includes('Dash Daniels')&&csv.includes('Noa Kouakou-Heugue')&&!csv.includes('Karim Lopez'));
+  get('source-reset').onclick();get('source-section').value='BASE CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'100 official source rows');get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});assert(get('source-results').innerHTML.includes('3:1'));assert(!get('source-results').innerHTML.includes('1 in 3 packs'));
+  get('source-reset').onclick();get('source-odds-tab').onclick();get('source-export').onclick();assert(csv.includes('Hobby SKU')&&csv.includes('1:1794')&&!csv.includes('on, but actual contents'));assert(!csv.includes('/50'));
+  get('source-section').value='ALL TIME GREATS AUTOGRAPH';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('All-Time Greats Autographs')&&csv.includes('1:126'));
+  get('source-cards-tab').onclick();get('source-reset').onclick();get('source-search').value='NR-ZC';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('Zylan Cheatham')&&csv.includes('Adelaide 36ers'));get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-topps-manchester-united-2025-26-team-set'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,true);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});

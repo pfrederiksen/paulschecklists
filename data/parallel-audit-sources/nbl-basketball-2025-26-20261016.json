@@ -1,0 +1,32 @@
+{
+  "observed": "2026-10-16",
+  "method": "Official product and landing pages read through web; official Ripped guide read through the browser. Both product-linked PDFs downloaded and reconciled against physical cells and rendered pages. This normalized factual snapshot is hash-checked separately from the original PDF bytes.",
+  "sources": {
+    "product": "https://www.topps.com/products/2025-26-topps-nbl-basketball-hobby-box",
+    "landing": "https://www.topps.com/pages/topps-nbl-basketball",
+    "guide": "https://ripped.topps.com/topps-nbl-chrome-history/",
+    "checklist": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26NBLC_Checklist_Final_29be8f17-a9e2-44ce-801e-686536bd8b42.pdf?v=1787972617",
+    "odds": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/NBL_ODDS.pdf?v=1787972525"
+  },
+  "checklistSha256": "42f587cfbdfcf24ec467d69c6108b299ea7f0fbb2a2fb10bf59459b020476695",
+  "oddsSha256": "3787336a9e0e4f44eab4b2704448f2d15583d7abd984ee964c3be47a71968b8c",
+  "productFields": [
+    ["Cards per pack", "4", "Product configuration; not an odds ratio unit"],
+    ["Packs per box", "20", "Product configuration; no conversion of the PDF ratios"],
+    ["Autographs per box", "1", "Published box contents; not per-pack odds"],
+    ["SKU", "FGC008003-DB", "Hobby product"],
+    ["Product Year", "2026", "Store field; checklist title remains 2025-26"],
+    ["Available From", "2026-06-25", "U.S. store availability; general release date remains unverified"]
+  ],
+  "landingFields": [
+    ["Autograph content", "All-Time Greats Autographs Refractors; NBL Autographs Refractors", "Product wording; no numeric serial limit is published"],
+    ["Memorabilia content", "NBL Relics Refractors; authentic game-used memorabilia", "Product wording; not a numbering specification"],
+    ["SSP case hits", "Atlas; Next Stars; Glass & Grit; Locals Only", "Qualitative manufacturer description; no numeric case rate is stated"]
+  ],
+  "guideReview": "The Ripped guide names 2025/26 Topps NBL Chrome and discusses Refractor parallels, Big Topps, The Roar, Oohs and Ahhs, Next Stars, All-Time Greats Autograph Refractors, NBL Relic Refractors and NBL Autograph Refractors. It supplies no numeric parallel ladder or release-date statement. Its Chrome wording does not authorize importing limits from another NBL product or year.",
+  "remainingGaps": [
+    "An exhaustive parallel-numbering inventory remains unverified: the reviewed official product, landing page and guide do not establish numeric serial limits for the 48 odds categories.",
+    "The odds PDF names Hobby SKU but does not state a ratio unit. Preserve all 48 literal ratios, including Base 3:1, without computing pack rates.",
+    "June 25, 2026 is the U.S. product Available From field; a general release-date statement remains unverified."
+  ]
+}

@@ -18,6 +18,8 @@ Keep metadata and crawlable checklist content in `templates/seo.mjs`, applied th
 
 # Dedicated official imports
 
+Refresh 2025–26 Topps NBL Basketball with `scripts/import_topps_nbl_2025.py` using bundled pdfplumber; preserve its dedicatedParser marker. Original text-object origins preserve all 323 entries, 12 sections, separate Name/Team cells, 18 literal Rookie marks, historical Melbourne Tigers and final-page NR-ZC. Keep all 48 ruled Hobby SKU odds, including Base 3:1; the header does not state a ratio unit. Do not turn the production disclaimer into a pack format. The product-linked PDF URLs have the same checked bytes as the global catalog sources. June 25 U.S. store availability, Product Year 2026 and box contents remain separate from the 2025–26 title, general release date and pack odds. Reviewed product/landing/Chrome-history guide wording supplies no numeric numbering ladder; retain the incomplete parallel audit. Run `scripts/verify_topps_nbl_2025.py`, shared UI/CSV checks and full official odds-literal comparisons.
+
 Refresh the Panini National Silver Packs PDF with `scripts/import_panini_national.py` using the bundled pdfplumber Python runtime. Its physical-column parser preserves every printed card number and numbering specification. The generic catalog importer must preserve `panini-pdf` imports; do not replace them with generic PDF text extraction. Run this dedicated refresh when checking official source revisions. Also refresh the Soccer Player of the Day source with `scripts/import_panini_soccer_pod.py`; it uses its own physical-column and published-country alignment checks. Both dedicated parsers use the preserved `panini-pdf` import kind.
 
 # Shared research views
