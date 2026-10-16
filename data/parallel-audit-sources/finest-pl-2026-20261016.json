@@ -1,0 +1,84 @@
+{
+  "observed": "2026-10-16",
+  "method": "Fresh official PDF downloads and official product/landing web reads; actual full UK Collector Guide and Chase Guide browser accessibility reads. Normalized factual evidence, not raw HTML hashes. Source content supplies facts only.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-finest-premier-league",
+    "product": "https://www.topps.com/products/topps-finest-premier-league-2026hobby-box",
+    "guide": "https://ripped.topps.com/uk/topps-finest-premier-league-2026-collectors-guide/",
+    "chase": "https://ripped.topps.com/uk/topps-finest-premier-league-2026-chase-guide-top-cards-more/"
+  },
+  "checklistSha256": "c1f073945ae930fbed41f3c740f526908c52d586d79c54139c10aaeaf60b9592",
+  "oddsSha256": "348c236cd217734635e1c7a85356ecc925e9ec770dbfeffa0dea664283b89d5c",
+  "cardSpecific": [
+    {
+      "family": "FINEST PARTNERSHIPS",
+      "cardNumber": "FP-SM",
+      "subjects": [
+        "Sadio Mané",
+        "Mohamed Salah"
+      ],
+      "statement": "The guide identifies this named dual autograph as 1/1; no parallel name is stated.",
+      "scope": "Only this exact pairing. Do not number every Partnership Superfractor or another code from this example."
+    },
+    {
+      "family": "FINEST SEASONS 1995 96",
+      "cardNumber": "FS-IW",
+      "subjects": [
+        "Ian Wright"
+      ],
+      "statement": "The guide’s red color-match example is limited to five copies; serial numbering is not stated.",
+      "scope": "Only Ian Wright in the guide/checklist 1995/96 program. The differently dated 1996/97 odds group remains unjoined."
+    }
+  ],
+  "productFields": [
+    [
+      "Hobby configuration",
+      "10 cards per pack; 6 packs per box; 2 Chrome autographs per box",
+      "Box contents, not odds or a definition of the PDF ratio unit."
+    ],
+    [
+      "Product Year",
+      "2026",
+      "Store metadata; original checklist year retained."
+    ],
+    [
+      "Available From",
+      "April 23, 2026",
+      "Store availability only; no general release date inferred."
+    ]
+  ],
+  "guideFields": [
+    [
+      "Base structure",
+      "300 cards across Common, Uncommon and Rare",
+      "The checklist prints 100 entries in each tier; no color-based serial limits are published in the checked guide text."
+    ],
+    [
+      "Finest Idols",
+      "5 subjects in Bronze, Silver and Gold versions",
+      "Metal names are not inferred /99, /50 or other print limits."
+    ],
+    [
+      "Finest Fans",
+      "Celebrity supporters including Anne Hathaway and LeBron James",
+      "Published club cells describe source associations, not playing status; Charlize Theron’s club is blank in the PDF."
+    ],
+    [
+      "Collector Guide publication",
+      "April 21, 2026",
+      "Publication date, not release evidence."
+    ],
+    [
+      "Chase Guide publication",
+      "April 28, 2026",
+      "Actual browser page date; no general release date inferred."
+    ]
+  ],
+  "remainingGaps": [
+    "Six COMMON INSERTS (FIVE THEMES) categories do not name their five roster themes. Preserve those aggregate odds separately; do not infer exact family aliases from the number of insert rosters.",
+    "The checklist and guide name Finest Seasons 1995/96, while seven odds categories print FINEST SEASONS - 1996/97. Preserve both year labels and leave their odds join unresolved.",
+    "The two checked numbering examples remain card-specific. The FP-SM guide does not name its 1/1 parallel; FS-IW is a five-copy red color-match example without an explicit serial-number statement. Neither establishes a family-wide numbering ladder.",
+    "PL FINEST 2026 is the product-title odds column, not a named pack format. No ratio unit is stated. Product-page Hobby contents do not turn those ratios, including 2:1, into per-pack rates.",
+    "April 23 store availability and April 21 / April 28 guide publication dates do not establish a general calendar release date. Exhaustive parallel coverage and other numbering remain unverified."
+  ]
+}

@@ -460,6 +460,27 @@
           "method": "Actual official browser accessibility read."
         }
       ]
+    },
+    {
+      "slug": "topps-bowman-topps-finest-premier-league-2026",
+      "gap": "April 23 is official store availability; the checked guides give publication dates, without an explicit general release date.",
+      "sources": [
+        {
+          "url": "https://www.topps.com/products/topps-finest-premier-league-2026hobby-box",
+          "statement": "Available From April 23, 2026.",
+          "method": "Actual official product web read."
+        },
+        {
+          "url": "https://ripped.topps.com/uk/topps-finest-premier-league-2026-collectors-guide/",
+          "statement": "Published April 21, 2026; no explicit general release date in the full guide.",
+          "method": "Actual official browser accessibility read."
+        },
+        {
+          "url": "https://ripped.topps.com/uk/topps-finest-premier-league-2026-chase-guide-top-cards-more/",
+          "statement": "Published April 28, 2026; no explicit general release date in the full guide.",
+          "method": "Actual official browser accessibility read."
+        }
+      ]
     }
   ]
 }

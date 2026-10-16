@@ -7362,7 +7362,8 @@
         "evidenceFile": "data/parallel-audit-sources/mls-chrome-2026-20261016.json",
         "evidenceSha256": "150eddfcb254587d9c90537435fc2bb8d96be53a5e9c5e0444765f67b6638e97"
       }
-    ]
+    ],
+    "topps-bowman-topps-finest-premier-league-2026": []
   },
   "conflicts": [
     {
@@ -7638,6 +7639,14 @@
       "source": "https://ripped.topps.com/2026-topps-chrome-mls-collector-guide-cards/",
       "evidenceFile": "data/parallel-audit-sources/mls-chrome-2026-20261016.json",
       "evidenceSha256": "150eddfcb254587d9c90537435fc2bb8d96be53a5e9c5e0444765f67b6638e97"
+    },
+    {
+      "slug": "topps-bowman-topps-finest-premier-league-2026",
+      "family": "Unnamed five-theme insert group, Seasons year and card-specific guide examples",
+      "gap": "Six COMMON INSERTS (FIVE THEMES) categories do not name their five roster themes. Preserve those aggregate odds separately; do not infer exact family aliases from the number of insert rosters. The checklist and guide name Finest Seasons 1995/96, while seven odds categories print FINEST SEASONS - 1996/97. Preserve both year labels and leave their odds join unresolved. The two checked numbering examples remain card-specific. The FP-SM guide does not name its 1/1 parallel; FS-IW is a five-copy red color-match example without an explicit serial-number statement. Neither establishes a family-wide numbering ladder. PL FINEST 2026 is the product-title odds column, not a named pack format. No ratio unit is stated. Product-page Hobby contents do not turn those ratios, including 2:1, into per-pack rates. April 23 store availability and April 21 / April 28 guide publication dates do not establish a general calendar release date. Exhaustive parallel coverage and other numbering remain unverified.",
+      "source": "https://ripped.topps.com/uk/topps-finest-premier-league-2026-chase-guide-top-cards-more/",
+      "evidenceFile": "data/parallel-audit-sources/finest-pl-2026-20261016.json",
+      "evidenceSha256": "02f6cea24ee0dd14061845daf22b23f0a1d5511eae84576a7caedd0234154bba"
     }
   ]
 }

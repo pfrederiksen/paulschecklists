@@ -48,6 +48,14 @@ def build(slugs=()):
     for record, (entries, formats, raw, fingerprint) in zip(targets, prepared):
         data_path = ROOT / record['tableData']
         data = json.loads(data_path.read_text())
+        # A printed product title is retained as original evidence, not
+        # reintroduced as a pack format by a later generic odds repair.
+        if data.get('formatHeaderIsProductTitle'):
+            assert data['officialOddsFormats'] == formats and fingerprint == data['oddsSha256'], ('Refresh the dedicated product-title adapter before repairing changed odds', record['slug'])
+            data['officialOddsTable'] = json.loads(json.dumps(entries))
+            source_format = formats[0]
+            formats = ['Published odds (format not named)']
+            entries = [{**entry, 'values': {formats[0]: entry['values'][source_format]}} for entry in entries]
         names = {entry['name'] for entry in entries}
         for specification in registry['sets'].get(record['slug'], []):
             assert not specification.get('oddsName') or specification['oddsName'] in names, ('Reconcile the approved exact guide join before importing', record['slug'], specification)
@@ -55,7 +63,7 @@ def build(slugs=()):
         if fingerprint == data['oddsSha256']:
             for entry in entries:
                 old = old_by_name.get(entry['name'], {})
-                for field in ['family', 'familyAliases', 'numbering', 'numberingSource', 'qualification']:
+                for field in ['family', 'familyAliases', 'familyBase', 'numbering', 'numberingSource', 'qualification']:
                     if field in old:
                         entry[field] = old[field]
         data.update(odds=entries, formats=formats, oddsRawPages=raw, oddsSha256=fingerprint, oddsIssues=[], oddsParser=PARSER)

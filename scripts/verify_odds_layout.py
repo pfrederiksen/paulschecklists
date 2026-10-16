@@ -24,10 +24,10 @@ for record in repaired:
             assert data['formats'] == ['Published odds (format not named)']
             assert data['oddsUnitsPublished'] is False
             if data.get('formatHeaderIsProductTitle'):
-                assert compact(text)=='Card2025MarvelTheCollector'
-                assert data['officialOddsHeader']==['Card','2025 Marvel The Collector']
-                assert data['officialOddsFormats']==['2025 Marvel The Collector']
-                assert data['odds']==[{**row,'family':data['odds'][i]['family'],'values':{data['formats'][0]:row['values'][data['officialOddsFormats'][0]]}} for i,row in enumerate(data['officialOddsTable'])]
+                title={'topps-bowman-2025-topps-marvel-the-collector':'2025 Marvel The Collector','topps-bowman-topps-finest-premier-league-2026':'PL FINEST 2026'}[record['slug']]
+                assert compact(text)==compact('Card'+title)
+                assert data['officialOddsHeader']==['Card',title] and data['officialOddsFormats']==[title]
+                assert [(row['name'],row['page'],row['values']) for row in data['odds']]==[(row['name'],row['page'],{data['formats'][0]:row['values'][title]}) for row in data['officialOddsTable']]
             else:
                 assert not text.startswith(('Card ', 'Cards ')), 'Do not mislabel a printed header as absent'
         else:

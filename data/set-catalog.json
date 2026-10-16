@@ -324,26 +324,55 @@
       "manufacturer": "Topps / Bowman",
       "sport": "soccer",
       "year": "2026",
-      "sourcePage": "https://www.topps.com/pages/checklists",
+      "sourcePage": "https://www.topps.com/pages/topps-finest-premier-league",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Finest_Premier_League_Checklist.pdf?v=1774359572",
       "releaseStatus": "Unverified",
       "releaseDate": null,
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+      "catalogEvidence": "All 767 physical subject rows / 752 family-card identities across 23 sections are reconciled. Fifteen second signers retain their preceding printed partnership code for grouping and their original blank code cells. All 300 base numbers remain split into Common, Uncommon and Rare; (xB) EXPECTED BRILLIANCE is its own 40-card program. Names, original club spellings, Charlize Theron’s blank club and 156 literal Rookie marks are preserved. LeBron James’s On-Card annotation is separate from Rookie. All 115 odds values retain their original PL FINEST 2026 product-title column; the sheet names neither format nor ratio unit. The six common-insert group rows remain unjoined because the five themes are unnamed; seven 1996/97 odds rows remain separate from the checklist’s 1995/96 program. Only the named FP-SM 1/1 dual example and FS-IW five-copy red example receive card-specific guide statements, with no inferred parallel names or family-wide serial limits. April 23 store availability is not a verified general release date. Other numbering and exhaustive parallel coverage remain unverified.",
       "slug": "topps-bowman-topps-finest-premier-league-2026",
       "page": "sets/topps-bowman-topps-finest-premier-league-2026.html",
       "status": "Source table",
-      "verified": "2026-10-11",
+      "verified": "2026-10-16",
       "odds": 115,
       "formats": 1,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/PL_FINEST_ODDS_Official.pdf?v=1774262754",
       "oddsImportIssues": 0,
-      "rowCount": 752,
+      "rowCount": 767,
       "tableData": "data/imports/topps-bowman-topps-finest-premier-league-2026.json",
       "sections": 23,
       "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "dataAudit": "All 767 physical subject rows / 752 family-card identities across 23 sections are reconciled. Fifteen second signers retain their preceding printed partnership code for grouping and their original blank code cells. All 300 base numbers remain split into Common, Uncommon and Rare; (xB) EXPECTED BRILLIANCE is its own 40-card program. Names, original club spellings, Charlize Theron’s blank club and 156 literal Rookie marks are preserved. LeBron James’s On-Card annotation is separate from Rookie. All 115 odds values retain their original PL FINEST 2026 product-title column; the sheet names neither format nor ratio unit. The six common-insert group rows remain unjoined because the five themes are unnamed; seven 1996/97 odds rows remain separate from the checklist’s 1995/96 program. Only the named FP-SM 1/1 dual example and FS-IW five-copy red example receive card-specific guide statements, with no inferred parallel names or family-wide serial limits. April 23 store availability is not a verified general release date. Other numbering and exhaustive parallel coverage remain unverified.",
       "parallelData": true,
-      "oddsParser": "scripts/official_odds_layout.py"
+      "oddsParser": "scripts/official_odds_layout.py",
+      "sha256": "c1f073945ae930fbed41f3c740f526908c52d586d79c54139c10aaeaf60b9592",
+      "dedicatedParser": "scripts/import_topps_finest_pl_2026.py",
+      "coverageComplete": true,
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/finest-pl-2026-20261016.json",
+        "sha256": "02f6cea24ee0dd14061845daf22b23f0a1d5511eae84576a7caedd0234154bba",
+        "source": "https://www.topps.com/pages/topps-finest-premier-league"
+      },
+      "releaseDateGap": {
+        "gap": "April 23 is official store availability; the checked guides give publication dates, without an explicit general release date.",
+        "sources": [
+          {
+            "url": "https://www.topps.com/products/topps-finest-premier-league-2026hobby-box",
+            "statement": "Available From April 23, 2026.",
+            "method": "Actual official product web read."
+          },
+          {
+            "url": "https://ripped.topps.com/uk/topps-finest-premier-league-2026-collectors-guide/",
+            "statement": "Published April 21, 2026; no explicit general release date in the full guide.",
+            "method": "Actual official browser accessibility read."
+          },
+          {
+            "url": "https://ripped.topps.com/uk/topps-finest-premier-league-2026-chase-guide-top-cards-more/",
+            "statement": "Published April 28, 2026; no explicit general release date in the full guide.",
+            "method": "Actual official browser accessibility read."
+          }
+        ],
+        "observed": "2026-10-15"
+      }
     },
     {
       "title": "2026 Topps Flagship Football",
