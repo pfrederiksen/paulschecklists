@@ -1061,14 +1061,23 @@
       "slug": "topps-bowman-2025-topps-30-years-of-toy-story",
       "title": "2025 Topps 30 Years of Toy Story",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/products/2025-topps-30-years-of-toy-story-hobby-box-sealed-case",
       "oddsCategories": 104,
-      "numberedOddsCategories": 18,
-      "supplementalSpecifications": 18,
+      "numberedOddsCategories": 47,
+      "supplementalSpecifications": 47,
       "structuredNumbering": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
-      "conflicts": []
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-topps-30-years-of-toy-story",
+          "family": "Unjoined guide parallels, sketch odds and release-date audit",
+          "gap": "Sid Has Your Cards Black /10, Red /5 and Superfractor 1/1 are guide-only specifications without separate odds rows; do not fabricate ratios. The dual-autograph guide names Woody’s Cowboy Hat Shimmer /99 and Gold Refractor /50; neither is a separate category in this odds PDF. Keep both specification-only. The odds sheet names Hobby without a ratio unit. Box contents do not establish per-pack units or probabilities for these ratios. No odds row is explicitly joined to Executive Studio Creations Sketch Card; the separately named Studio Creations row is not silently extended to it. Numbering for other families and exhaustive parallel reconciliation remain unverified; matching colors never establish numbering across families. A general calendar release date remains unverified; keep store Available From May 6, 2026 and Product Year 2026 separate from the 2025 checklist title.",
+          "source": "https://ripped.topps.com/2025-topps-30-years-of-toy-story-collector-card-guide/",
+          "evidenceFile": "data/parallel-audit-sources/toy-story-2025-20261015.json",
+          "evidenceSha256": "670d6a679ce81c8f8dc31c24f555bbc538405ec28feeee34b61647503ebc9b5f"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-topps-chrome-deadpool",

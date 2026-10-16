@@ -1,0 +1,371 @@
+{
+  "observed": "2026-10-15",
+  "productSource": "https://www.topps.com/products/2025-topps-30-years-of-toy-story-hobby-box-sealed-case",
+  "guideSource": "https://ripped.topps.com/2025-topps-30-years-of-toy-story-collector-card-guide/",
+  "method": "Fresh official product-page web read and complete collector-guide read in the in-app browser; fresh PDF bytes, original text-object column origins and rendered/physical cell comparisons.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_30_Years_of_Toy_Story_Checklist.pdf?v=1775137646",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_30_Years_of_Toy_Story_Odds.pdf?v=1775137644",
+  "productFields": [
+    [
+      "Product Year",
+      "2026",
+      "Store field, separate from the 2025 checklist title"
+    ],
+    [
+      "Available From",
+      "May 6, 2026",
+      "Store availability; not asserted as a general calendar release date"
+    ],
+    [
+      "Cards per pack",
+      "4",
+      "Box configuration, not category odds"
+    ],
+    [
+      "Packs per box",
+      "8",
+      "Box configuration, not category odds"
+    ],
+    [
+      "Boxes per case",
+      "12",
+      "Case configuration, not category odds"
+    ],
+    [
+      "Numbered Base or Insert Parallel Cards per box",
+      "4",
+      "Box contents, not card-level numbering or pack odds"
+    ],
+    [
+      "Autograph or Sketch Card per box",
+      "1",
+      "Box contents, not category odds"
+    ],
+    [
+      "Base Card Variation Image Variations per box",
+      "1",
+      "Literal store wording; box contents, not category odds"
+    ],
+    [
+      "Insert Cards per box",
+      "8",
+      "Box contents, not category odds"
+    ]
+  ],
+  "guideFields": [
+    [
+      "Publication",
+      "Apr 30, 2026",
+      "Publication, not release date"
+    ],
+    [
+      "Base set",
+      "100 cards",
+      "The BASE checklist contains numbers 1–100"
+    ],
+    [
+      "Sketch cards",
+      "One-of-one hand-drawn artwork",
+      "Artwork uniqueness, not serial numbering assigned to artist entries"
+    ],
+    [
+      "Autograph example discrepancy",
+      "Guide names Woody Allen and Kelsey Grammar; checklist prints Tim Allen and Kelsey Grammer",
+      "Preserve the checklist’s actual First Name / Last Name fields; do not infer guide-only subjects"
+    ]
+  ],
+  "guideNumbering": [
+    {
+      "family": "BASE",
+      "name": "Aqua Foil Parallel",
+      "numbering": "/199",
+      "sourceHeading": "Base Set"
+    },
+    {
+      "family": "BASE",
+      "name": "Blue Foil Parallel",
+      "numbering": "/150",
+      "sourceHeading": "Base Set"
+    },
+    {
+      "family": "BASE",
+      "name": "Green Foil Parallel",
+      "numbering": "/99",
+      "sourceHeading": "Base Set"
+    },
+    {
+      "family": "BASE",
+      "name": "Purple Foil Parallel",
+      "numbering": "/75",
+      "sourceHeading": "Base Set"
+    },
+    {
+      "family": "BASE",
+      "name": "Rose Gold Foil Parallel",
+      "numbering": "/50",
+      "sourceHeading": "Base Set"
+    },
+    {
+      "family": "BASE",
+      "name": "Orange Foil Parallel",
+      "numbering": "/25",
+      "sourceHeading": "Base Set"
+    },
+    {
+      "family": "BASE",
+      "name": "Black Foil Parallel",
+      "numbering": "/10",
+      "sourceHeading": "Base Set"
+    },
+    {
+      "family": "BASE",
+      "name": "Red Foil Parallel",
+      "numbering": "/5",
+      "sourceHeading": "Base Set"
+    },
+    {
+      "family": "BASE",
+      "name": "Gold Foil Parallel",
+      "numbering": "1/1",
+      "sourceHeading": "Base Set"
+    },
+    {
+      "family": "SO PLAY NICE",
+      "name": "Woody’s Cowboy Hat Shimmer Refractor Parallel",
+      "numbering": "/99",
+      "sourceHeading": "Inserts — So Play Nice"
+    },
+    {
+      "family": "SO PLAY NICE",
+      "name": "Gold Refractor Parallel",
+      "numbering": "/50",
+      "sourceHeading": "Inserts — So Play Nice"
+    },
+    {
+      "family": "SO PLAY NICE",
+      "name": "Toy Story 30th Anniversary Refractor Parallel",
+      "numbering": "/30",
+      "sourceHeading": "Inserts — So Play Nice"
+    },
+    {
+      "family": "SO PLAY NICE",
+      "name": "Orange Refractor Parallel",
+      "numbering": "/25",
+      "sourceHeading": "Inserts — So Play Nice"
+    },
+    {
+      "family": "SO PLAY NICE",
+      "name": "Black Refractor Parallel",
+      "numbering": "/10",
+      "sourceHeading": "Inserts — So Play Nice"
+    },
+    {
+      "family": "SO PLAY NICE",
+      "name": "Red Refractor Parallel",
+      "numbering": "/5",
+      "sourceHeading": "Inserts — So Play Nice"
+    },
+    {
+      "family": "SO PLAY NICE",
+      "name": "Superfractor Parallel",
+      "numbering": "1/1",
+      "sourceHeading": "Inserts — So Play Nice"
+    },
+    {
+      "family": "TOY TAAFFEITE",
+      "name": "Black Refractor Parallel",
+      "numbering": "/10",
+      "sourceHeading": "Inserts — Toy Taaffeite"
+    },
+    {
+      "family": "TOY TAAFFEITE",
+      "name": "Red Refractor Parallel",
+      "numbering": "/5",
+      "sourceHeading": "Inserts — Toy Taaffeite"
+    },
+    {
+      "family": "TOY TAAFFEITE",
+      "name": "Superfractor Parallel",
+      "numbering": "1/1",
+      "sourceHeading": "Inserts — Toy Taaffeite"
+    },
+    {
+      "family": "TOPPS 1995",
+      "name": "Black Refractor Parallel",
+      "numbering": "/10",
+      "sourceHeading": "Inserts — Topps 1995"
+    },
+    {
+      "family": "TOPPS 1995",
+      "name": "Red Refractor Parallel",
+      "numbering": "/5",
+      "sourceHeading": "Inserts — Topps 1995"
+    },
+    {
+      "family": "TOPPS 1995",
+      "name": "Superfractor Parallel",
+      "numbering": "1/1",
+      "sourceHeading": "Inserts — Topps 1995"
+    },
+    {
+      "family": "YOU. ARE. A. TOY... STORY AUTOGRAPH CARD",
+      "name": "Blue Sky Refractor Parallel",
+      "numbering": "/150",
+      "sourceHeading": "Autographs — You. Are. A. Toy. Story Autograph Cards"
+    },
+    {
+      "family": "YOU. ARE. A. TOY... STORY AUTOGRAPH CARD",
+      "name": "Woody’s Cowboy Hat Shimmer Refractor Parallel",
+      "numbering": "/99",
+      "sourceHeading": "Autographs — You. Are. A. Toy. Story Autograph Cards"
+    },
+    {
+      "family": "YOU. ARE. A. TOY... STORY AUTOGRAPH CARD",
+      "name": "Buzz Lightyear Shimmer Refractor Parallel",
+      "numbering": "/75",
+      "sourceHeading": "Autographs — You. Are. A. Toy. Story Autograph Cards"
+    },
+    {
+      "family": "YOU. ARE. A. TOY... STORY AUTOGRAPH CARD",
+      "name": "Gold Refractor Parallel",
+      "numbering": "/50",
+      "sourceHeading": "Autographs — You. Are. A. Toy. Story Autograph Cards"
+    },
+    {
+      "family": "YOU. ARE. A. TOY... STORY AUTOGRAPH CARD",
+      "name": "Toy Story 30th Anniversary Refractor Parallel",
+      "numbering": "/30",
+      "sourceHeading": "Autographs — You. Are. A. Toy. Story Autograph Cards"
+    },
+    {
+      "family": "YOU. ARE. A. TOY... STORY AUTOGRAPH CARD",
+      "name": "Orange Refractor Parallel",
+      "numbering": "/25",
+      "sourceHeading": "Autographs — You. Are. A. Toy. Story Autograph Cards"
+    },
+    {
+      "family": "YOU. ARE. A. TOY... STORY AUTOGRAPH CARD",
+      "name": "Black Refractor Parallel",
+      "numbering": "/10",
+      "sourceHeading": "Autographs — You. Are. A. Toy. Story Autograph Cards"
+    },
+    {
+      "family": "YOU. ARE. A. TOY... STORY AUTOGRAPH CARD",
+      "name": "Red Refractor Parallel",
+      "numbering": "/5",
+      "sourceHeading": "Autographs — You. Are. A. Toy. Story Autograph Cards"
+    },
+    {
+      "family": "YOU. ARE. A. TOY... STORY AUTOGRAPH CARD",
+      "name": "Superfractor Parallel",
+      "numbering": "1/1",
+      "sourceHeading": "Autographs — You. Are. A. Toy. Story Autograph Cards"
+    },
+    {
+      "family": "YOU'VE GOT A FRIEND IN ME DUAL AUTOGRAPH",
+      "name": "Woody’s Cowboy Hat Shimmer Refractor Parallel",
+      "numbering": "/99",
+      "sourceHeading": "Autographs — You’ve Got a Friend In Me Dual Autograph Cards"
+    },
+    {
+      "family": "YOU'VE GOT A FRIEND IN ME DUAL AUTOGRAPH",
+      "name": "Gold Refractor Parallel",
+      "numbering": "/50",
+      "sourceHeading": "Autographs — You’ve Got a Friend In Me Dual Autograph Cards"
+    },
+    {
+      "family": "YOU'VE GOT A FRIEND IN ME DUAL AUTOGRAPH",
+      "name": "Toy Story 30th Anniversary Refractor Parallel",
+      "numbering": "/30",
+      "sourceHeading": "Autographs — You’ve Got a Friend In Me Dual Autograph Cards"
+    },
+    {
+      "family": "YOU'VE GOT A FRIEND IN ME DUAL AUTOGRAPH",
+      "name": "Orange Refractor Parallel",
+      "numbering": "/25",
+      "sourceHeading": "Autographs — You’ve Got a Friend In Me Dual Autograph Cards"
+    },
+    {
+      "family": "YOU'VE GOT A FRIEND IN ME DUAL AUTOGRAPH",
+      "name": "Black Refractor Parallel",
+      "numbering": "/10",
+      "sourceHeading": "Autographs — You’ve Got a Friend In Me Dual Autograph Cards"
+    },
+    {
+      "family": "YOU'VE GOT A FRIEND IN ME DUAL AUTOGRAPH",
+      "name": "Red Refractor Parallel",
+      "numbering": "/5",
+      "sourceHeading": "Autographs — You’ve Got a Friend In Me Dual Autograph Cards"
+    },
+    {
+      "family": "YOU'VE GOT A FRIEND IN ME DUAL AUTOGRAPH",
+      "name": "Superfractor Parallel",
+      "numbering": "1/1",
+      "sourceHeading": "Autographs — You’ve Got a Friend In Me Dual Autograph Cards"
+    },
+    {
+      "family": "SID HAS YOUR CARDS",
+      "name": "Black Refractor Parallel",
+      "numbering": "/10",
+      "sourceHeading": "Sid Has Your Cards"
+    },
+    {
+      "family": "SID HAS YOUR CARDS",
+      "name": "Red Refractor Parallel",
+      "numbering": "/5",
+      "sourceHeading": "Sid Has Your Cards"
+    },
+    {
+      "family": "SID HAS YOUR CARDS",
+      "name": "Superfractor Parallel",
+      "numbering": "1/1",
+      "sourceHeading": "Sid Has Your Cards"
+    },
+    {
+      "family": "AL'S TOY BARN",
+      "name": "Black Refractor Parallel",
+      "numbering": "/10",
+      "sourceHeading": "Al’s Toy Barn"
+    },
+    {
+      "family": "AL'S TOY BARN",
+      "name": "Red Refractor Parallel",
+      "numbering": "/5",
+      "sourceHeading": "Al’s Toy Barn"
+    },
+    {
+      "family": "AL'S TOY BARN",
+      "name": "Superfractor Parallel",
+      "numbering": "1/1",
+      "sourceHeading": "Al’s Toy Barn"
+    },
+    {
+      "family": "ART OF TOY STORY",
+      "name": "Black Refractor Parallel",
+      "numbering": "/10",
+      "sourceHeading": "Art of Toy Story"
+    },
+    {
+      "family": "ART OF TOY STORY",
+      "name": "Red Refractor Parallel",
+      "numbering": "/5",
+      "sourceHeading": "Art of Toy Story"
+    },
+    {
+      "family": "ART OF TOY STORY",
+      "name": "Superfractor Parallel",
+      "numbering": "1/1",
+      "sourceHeading": "Art of Toy Story"
+    }
+  ],
+  "remainingGaps": [
+    "Sid Has Your Cards Black /10, Red /5 and Superfractor 1/1 are guide-only specifications without separate odds rows; do not fabricate ratios.",
+    "The dual-autograph guide names Woody’s Cowboy Hat Shimmer /99 and Gold Refractor /50; neither is a separate category in this odds PDF. Keep both specification-only.",
+    "The odds sheet names Hobby without a ratio unit. Box contents do not establish per-pack units or probabilities for these ratios.",
+    "No odds row is explicitly joined to Executive Studio Creations Sketch Card; the separately named Studio Creations row is not silently extended to it.",
+    "Numbering for other families and exhaustive parallel reconciliation remain unverified; matching colors never establish numbering across families.",
+    "A general calendar release date remains unverified; keep store Available From May 6, 2026 and Product Year 2026 separate from the 2025 checklist title."
+  ],
+  "checklistSha256": "98ffb70e072e0efe8e9266430c3b85717496cf8d0a68719e50d05aa2f9f91e9e",
+  "oddsSha256": "a22367f7a78de805e942e87f946d4a357eafec2a272d7ae768676e8d4c069b8c"
+}
