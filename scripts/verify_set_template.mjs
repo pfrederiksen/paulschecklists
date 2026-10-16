@@ -33,4 +33,9 @@ for(const set of catalog.sets){
 const ag=JSON.parse(await readFile('data/allen-ginter-2026.json','utf8'));
 assert.equal(setFacts(catalog.sets.find(s=>s.page==='allen-ginter-2026.html'),ag).rows,2915);
 assert(setStats({},ag).includes('grouped entries'));
+const nbl=JSON.parse(await readFile('data/imports/topps-bowman-2025-26-topps-nbl-basketball.json','utf8'));
+assert.equal(setFacts({},nbl).specifications,false,'Box configuration and store dates must not announce parallel limits');
+assert.equal(setFacts({},ag).specifications,true,'Published family numbering must remain available');
+assert.equal(setFacts({},{publishedSpecifications:[{headers:['Published parallel'],rows:[['Rainbow foil — card-specific terms']]}]}).specifications,true,'Card-specific parallel terms remain available');
+assert((await readFile('sets/topps-bowman-2025-26-topps-nbl-basketball.html','utf8')).includes('Parallel names; limits pending'));
 console.log('Verified consistent source counts, pending imports and made-to-order semantics across set summaries and directory rows.');

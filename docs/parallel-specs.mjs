@@ -1,6 +1,13 @@
 // Exact family + parallel joins only. A color is never a universal print run.
 export const parallelKey=value=>String(value??'').toUpperCase().replace(/FILAGREE/g,'FILIGREE').replace(/\bPARALLEL\b/g,'').replace(/[^A-Z0-9]/g,'');
 export function publishedNumbering(value){const s=String(value??'').trim();return /^\d+$/.test(s)?`/${s}`:s||'Not published';}
+// Configuration, availability and a subject roster do not establish parallel
+// terms. Require a populated, explicitly labelled source field or mapped limit.
+export function hasParallelSpecifications(data){
+ if(!data)return false;
+ if(data.parallelSpecifications?.length||data.odds?.some(o=>o.numbering)||data.serialColumn!=null&&data.rows?.some(r=>r[data.serialColumn]))return true;
+ return (data.publishedSpecifications??[]).some(spec=>spec.headers.some((header,i)=>/parallel|numbering|sequence|\bfoil\b|\bquantity\b|print run|^Published (?:statement|term)$/i.test(header)&&spec.rows.some(row=>String(row[i]??'').trim())));
+}
 // The shared view already explains family scope. Keep substantive source
 // qualifiers while removing only the repeated introductory disclaimer.
 export function displayQualification(value){return String(value??'').replace(/^Published for (?:this|the named) family(?: only)?; individual-card (?:parallel )?eligibility is not inferred\.\s*/,'').trim();}

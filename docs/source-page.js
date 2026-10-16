@@ -1,4 +1,4 @@
-import {reconcileParallels,categoryNumbering,specificationRows,displayQualification} from './parallel-specs.mjs?v=6a5c57d400e7';
+import {reconcileParallels,categoryNumbering,specificationRows,displayQualification} from './parallel-specs.mjs?v=f663b5cd6e6f';
 const $=id=>document.getElementById(id),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const normalize=s=>String(s).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
 let data,filtered=[],page=1,view="cards";const size=40;

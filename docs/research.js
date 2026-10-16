@@ -1,4 +1,4 @@
-import {displayQualification} from './parallel-specs.mjs?v=6a5c57d400e7';
+import {displayQualification} from './parallel-specs.mjs?v=f663b5cd6e6f';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const table=(headers,rows)=>`<div class="table-scroll"><table><thead><tr>${headers.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(v=>`<td>${esc(v??'Not published')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
 const panel=document.getElementById('set-research');
