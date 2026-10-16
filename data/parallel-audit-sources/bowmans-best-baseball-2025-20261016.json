@@ -1,0 +1,484 @@
+{
+  "slug": "topps-bowman-2025-bowman-s-best-baseball",
+  "observed": "2026-10-16",
+  "sources": {
+    "checklist": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Checklist.pdf?v=1772217092",
+    "odds": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Baseball_Odds.pdf?v=1773183175",
+    "landing": "https://www.topps.com/pages/bowmans-best-baseball",
+    "guide": "https://ripped.topps.com/2025-bowmans-best-baseball-collector-guide/"
+  },
+  "checklistSha256": "6415c21127d8d80e2d400c3d9e526698056f24306e6e498a42361670ecb05de6",
+  "oddsSha256": "092d74e474f05d67da1be0924b8ae727280c67e05a922b55174faad98a074c03",
+  "guideSpecifications": [
+    {
+      "family": "BASE CARDS",
+      "name": "Lazer Refractor parallel",
+      "numbering": "/350",
+      "qualification": "NEW!",
+      "sourceHeading": "Base Set and Parallels",
+      "oddsName": "Base Cards Lazer"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Mini-Diamond Refractor",
+      "numbering": "/299",
+      "oddsName": "Base Cards Mini-Diamond",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Purple Mojo",
+      "numbering": "/250",
+      "oddsName": "Base Cards Purple Mojo",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Purple Lazer",
+      "numbering": "/250",
+      "oddsName": "Base Cards Purple Lazer",
+      "qualification": "NEW!",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Purple Refractor",
+      "numbering": "/250",
+      "oddsName": "Base Cards Purple",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Aqua Lava Refractor",
+      "numbering": "/199",
+      "oddsName": "Base Cards Aqua Lava",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Aqua Refractor",
+      "numbering": "/199",
+      "oddsName": "Base Cards Aqua",
+      "qualification": "NEW!",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Blue X-Fractor",
+      "numbering": "/150",
+      "oddsName": "Base Cards Blue X-fractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Blue Refractor",
+      "numbering": "/150",
+      "oddsName": "Base Cards Blue",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Blue Lazer",
+      "numbering": "/150",
+      "oddsName": "Base Cards Blue Lazer",
+      "qualification": "NEW!",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Green Refractor",
+      "numbering": "/99",
+      "oddsName": "Base Cards Green",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Green Mini-Diamond Refractor",
+      "numbering": "/99",
+      "oddsName": "Base Cards Green Mini-Diamond",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Yellow Lazer Refractor",
+      "numbering": "/75",
+      "oddsName": "Base Cards Yellow Lazer",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Yellow Refractor",
+      "numbering": "/75",
+      "oddsName": "Base Cards Yellow",
+      "qualification": "NEW!",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Gold Lava Refractor",
+      "numbering": "/50",
+      "oddsName": "Base Cards Gold Lava",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Gold Refractor",
+      "numbering": "/50",
+      "oddsName": "Base Cards Gold",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Orange Refractor",
+      "numbering": "/25",
+      "oddsName": "Base Cards Orange",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "oddsName": "Base Cards Black",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "oddsName": "Base Cards Red",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Red Lava Refractor",
+      "numbering": "/5",
+      "oddsName": "Base Cards Red Lava",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "Base Cards Superfractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Base Set and Parallels"
+    },
+    {
+      "family": "STROKES OF GOLD",
+      "name": "Gold Parallel",
+      "numbering": "/50",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Strokes of Gold"
+    },
+    {
+      "family": "STROKES OF GOLD",
+      "name": "Orange Parallel",
+      "numbering": "/25",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Strokes of Gold"
+    },
+    {
+      "family": "STROKES OF GOLD",
+      "name": "Black Parallel",
+      "numbering": "/10",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Strokes of Gold"
+    },
+    {
+      "family": "STROKES OF GOLD",
+      "name": "Red Parallel",
+      "numbering": "/5",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Strokes of Gold"
+    },
+    {
+      "family": "STROKES OF GOLD",
+      "name": "Foilfractor Parallel",
+      "numbering": "1/1",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Strokes of Gold"
+    },
+    {
+      "family": "BEST TEK",
+      "name": "Sterling-Tek",
+      "numbering": "/99",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best-Tek"
+    },
+    {
+      "family": "BEST TEK",
+      "name": "Blue Parallel",
+      "numbering": "/75",
+      "oddsName": "Best-Tek Blue",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best-Tek"
+    },
+    {
+      "family": "BEST TEK",
+      "name": "Gold Parallel",
+      "numbering": "/50",
+      "oddsName": "Best-Tek Gold",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best-Tek"
+    },
+    {
+      "family": "BEST TEK",
+      "name": "Orange Parallel",
+      "numbering": "/25",
+      "oddsName": "Best-Tek Orange",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best-Tek"
+    },
+    {
+      "family": "BEST TEK",
+      "name": "Red Parallel",
+      "numbering": "/5",
+      "oddsName": "Best-Tek Red",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best-Tek"
+    },
+    {
+      "family": "BEST TEK",
+      "name": "Black Parallel",
+      "numbering": "1/1",
+      "oddsName": "Best-Tek Black",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best-Tek"
+    },
+    {
+      "family": "PIXEL PORTRAITS",
+      "name": "Lava Refractor",
+      "numbering": "/50",
+      "oddsName": "Pixel Portraits Lava",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Pixel Portraits"
+    },
+    {
+      "family": "PIXEL PORTRAITS",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "Pixel Portraits SuperFractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Pixel Portraits"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Refractor",
+      "numbering": "Limited to 500; serial numbering not stated",
+      "oddsName": "Best of 2025 Autographs Refractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Blue Refractor",
+      "numbering": "/150",
+      "oddsName": "Best of 2025 Autographs Blue",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Green Refractor",
+      "numbering": "/99",
+      "oddsName": "Best of 2025 Autographs Green",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Purple Refractor",
+      "numbering": "/75",
+      "oddsName": "Best of 2025 Autographs Purple",
+      "qualification": "NEW!",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Gold Mini-Diamond Refractor",
+      "numbering": "/50",
+      "oddsName": "Best of 2025 Autographs Gold Mini-Diamond",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Gold Refractor",
+      "numbering": "/50",
+      "oddsName": "Best of 2025 Autographs Gold",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Orange Refractor",
+      "numbering": "/25",
+      "oddsName": "Best of 2025 Autographs Orange",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Orange X-Fractor",
+      "numbering": "/25",
+      "oddsName": "Best of 2025 Autographs Orange X-Fractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Teal Refractor",
+      "numbering": "/15",
+      "oddsName": "Best of 2025 Autographs Teal",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "oddsName": "Best of 2025 Autographs Black",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Black X-Fractor",
+      "numbering": "/10",
+      "oddsName": "Best of 2025 Autographs Black X-Fractor",
+      "qualification": "NEW!",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "oddsName": "Best of 2025 Autographs Red",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Red X-Fractor",
+      "numbering": "/5",
+      "oddsName": "Best of 2025 Autographs Red X-Fractor",
+      "qualification": "NEW!",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "Best of 2025 Autographs Superfractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "BEST OF 2025 AUTOGRAPHS",
+      "name": "Printing Plates",
+      "numbering": "1/1",
+      "oddsName": "Best of 2025 Autographs Printing Plates",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Best of 2025 Autographs"
+    },
+    {
+      "family": "PROSPECT PATCH AUTOGRAPHS",
+      "name": "Orange Refractor",
+      "numbering": "/25",
+      "oddsName": "Prospect Patch Autograph Orange",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Prospect Patch Autographs"
+    },
+    {
+      "family": "PROSPECT PATCH AUTOGRAPHS",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "oddsName": "Prospect Patch Autograph Black",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Prospect Patch Autographs"
+    },
+    {
+      "family": "PROSPECT PATCH AUTOGRAPHS",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "oddsName": "Prospect Patch Autograph Red",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Prospect Patch Autographs"
+    },
+    {
+      "family": "PROSPECT PATCH AUTOGRAPHS",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "Prospect Patch Autograph Superfractor",
+      "qualification": "Published for this family; individual-card eligibility is not inferred.",
+      "sourceHeading": "Prospect Patch Autographs"
+    }
+  ],
+  "guideDistribution": [
+    [
+      "BASE CARDS",
+      "Refractor",
+      "1 per pack"
+    ],
+    [
+      "BASE CARDS",
+      "Wave Refractor parallel",
+      "1 per box"
+    ],
+    [
+      "PIXEL PORTRAITS",
+      "Mini-Diamond Refractor",
+      "1 per case"
+    ],
+    [
+      "Hobby Box",
+      "Chrome autograph cards",
+      "4 per Hobby Box"
+    ]
+  ],
+  "guideProgramSizes": [
+    [
+      "BASE CARDS",
+      "100",
+      "70 veterans/rookies and 30 prospects"
+    ],
+    [
+      "STROKES OF GOLD",
+      "25",
+      "Published insert program size"
+    ],
+    [
+      "BEST TEK",
+      "30",
+      "Published insert program size"
+    ],
+    [
+      "BEST MIX AUTOGRAPHS",
+      "50 players",
+      "PDF retains 52 named subject rows; guide discrepancy remains explicit"
+    ]
+  ],
+  "remainingGaps": [
+    "The guide describes 50 Best Mix Autographs players; the physical checklist prints 52 entries.",
+    "The guide-only Strokes of Gold parallel names have no matching colored odds categories. Sterling-Tek /99 has no exactly named odds row; do not number the generic Best-Tek category.",
+    "Reviewed guides do not establish exhaustive numbering for the other insert, dual/triple/quad or autograph programs.",
+    "The odds PDF names HOBBY but does not state a ratio unit. Guide pack, box and case distribution statements retain their original units separately.",
+    "The Best of 2025 Autographs Refractor is limited to 500; serial marking is not stated. Do not convert that statement into /500.",
+    "The March 10 guide publication date is not a verified general release date."
+  ]
+}

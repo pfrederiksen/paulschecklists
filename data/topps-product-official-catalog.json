@@ -1995,5 +1995,39 @@
       "sha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f",
       "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905"
     }
+  },
+  {
+    "title": "2025 Bowman's Best Baseball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "baseball",
+    "year": "2025",
+    "sourcePage": "https://www.topps.com/pages/bowmans-best-baseball",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Checklist.pdf?v=1772217092",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "All 697 physical subject rows / 594 family-card identities across 20 sections are reconciled, retaining 123 literal Rookie marks, original names and team trademarks. The year-leading 2025 MLB ALL STAR FUTURES GAME heading is a caption, not card 2025; its 20 National/American League values remain league designations, not teams. Previously omitted B25-ÉP Émilien Pitre is restored with its original accented code, keeping the net row count unchanged. All repeated dual, triple, quad and Family Tree subjects remain separate. All 107 odds categories retain the literal HOBBY header and values, including Best of 2025 Autographs 1:07. No ratio unit is printed. All 53 reviewed guide numbering statements are retained with exact scope; Lazer /350 now joins Base Cards Lazer without a duplicate specification-only category. Guide pack, box and case distributions retain their separate units. The Refractor limit of 500 has no stated serial marking; Sterling-Tek and Strokes of Gold named parallels remain guide-only. The guide describes 50 Best Mix players but the PDF publishes 52 entries. Exhaustive parallel numbering and general release date remain unverified.",
+    "slug": "topps-bowman-2025-bowman-s-best-baseball",
+    "page": "sets/topps-bowman-2025-bowman-s-best-baseball.html",
+    "status": "Source table",
+    "verified": "2026-10-16",
+    "odds": 107,
+    "formats": 1,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Baseball_Odds.pdf?v=1773183175",
+    "oddsImportIssues": 0,
+    "rowCount": 697,
+    "tableData": "data/imports/topps-bowman-2025-bowman-s-best-baseball.json",
+    "sections": 20,
+    "importKind": "pdf",
+    "dataAudit": "All 697 physical subject rows / 594 family-card identities across 20 sections are reconciled, retaining 123 literal Rookie marks, original names and team trademarks. The year-leading 2025 MLB ALL STAR FUTURES GAME heading is a caption, not card 2025; its 20 National/American League values remain league designations, not teams. Previously omitted B25-ÉP Émilien Pitre is restored with its original accented code, keeping the net row count unchanged. All repeated dual, triple, quad and Family Tree subjects remain separate. All 107 odds categories retain the literal HOBBY header and values, including Best of 2025 Autographs 1:07. No ratio unit is printed. All 53 reviewed guide numbering statements are retained with exact scope; Lazer /350 now joins Base Cards Lazer without a duplicate specification-only category. Guide pack, box and case distributions retain their separate units. The Refractor limit of 500 has no stated serial marking; Sterling-Tek and Strokes of Gold named parallels remain guide-only. The guide describes 50 Best Mix players but the PDF publishes 52 entries. Exhaustive parallel numbering and general release date remain unverified.",
+    "parallelData": true,
+    "sha256": "6415c21127d8d80e2d400c3d9e526698056f24306e6e498a42361670ecb05de6",
+    "dedicatedParser": "scripts/import_bowmans_best_2025.py",
+    "coverageComplete": true,
+    "oddsParser": "scripts/import_bowmans_best_2025.py",
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/bowmans-best-baseball-2025-20261016.json",
+      "sha256": "cab1dc93142c636f346a3545dfc1640fe193b15d72e554ffc1f18733abf971b5",
+      "source": "https://ripped.topps.com/2025-bowmans-best-baseball-collector-guide/"
+    }
   }
 ]

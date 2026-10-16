@@ -34,6 +34,17 @@ for(const set of cases){
   get('source-section').value=numbered[0];get('source-section').onchange();get('source-team').value=numbered[10];get('source-team').onchange();get('source-search').value=numbered[2];get('source-search').oninput();assert(get('source-results').innerHTML.includes('title="/'+numbered[3]+'"'), 'Published SEQUENCE must display as out-of numbering');
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"SPORT","YEAR","BRAND","PROGRAM","CARD SET","ATHLETE","TEAM","POSITION","CARD NUMBER","SEQUENCE"'));assert(csv.includes('"'+String(numbered[2]).replaceAll('"','""')+'"'));get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2025-bowman-s-best-baseball'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);assert(!get('source-team').options.some(o=>/^(NATIONAL|AMERICAN) LEAGUE$/.test(o.value)));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'123 official source rows');get('source-reset').onclick();
+  get('source-search').value='Émilien Pitre';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('B25-ÉP')&&csv.includes('Émilien Pitre')&&csv.includes('Tampa Bay Rays™'));get('source-reset').onclick();
+  get('source-section').value='2025 MLB ALL STAR FUTURES GAME';get('source-section').onchange();get('source-search').value='NATIONAL LEAGUE';get('source-search').oninput();assert.equal(get('source-count').textContent,'10 official source rows');get('source-export').onclick();assert(csv.includes('Published league designation')&&csv.includes('Jonah Tong'));get('source-reset').onclick();
+  get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-odds-tab').onclick();get('source-export').onclick();assert(csv.includes('"Base Cards Lazer","/350"'));assert(!csv.includes('BASE CARDS Lazer Refractor parallel'),'The exact Lazer join must not leave a duplicate guide-only category');
+  get('source-section').value='BEST OF 2025 AUTOGRAPHS';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('Limited to 500; serial numbering not stated')&&csv.includes('1:07'));assert(!csv.includes('/500'));
+  get('source-section').value='BEST TEK';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('Sterling-Tek')&&csv.includes('/99')&&csv.includes('/75'));assert(!csv.includes('"Best-Tek","/99"'));
+  get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-now-2026-27-nfl-topps-now'){
   const index=data.rows.findIndex(r=>r[1]==='60');assert(index>=0);
   get('source-search').value='Denver Broncos';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');

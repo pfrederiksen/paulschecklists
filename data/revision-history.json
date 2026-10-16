@@ -1304,11 +1304,35 @@
       "oddsHash": "092d74e474f05d67da1be0924b8ae727280c67e05a922b55174faad98a074c03",
       "rows": 697,
       "odds": 107,
-      "specificationRows": 53,
-      "specificationHash": "5c0d6b93404f8ce4bed3c45273b93216b2e7eca757d96914619f3774e6bc840e"
+      "specificationRows": 61,
+      "specificationHash": "ca87b78bdb1da3cb87fa19588ca0e4501d3c6161de8028b5fb8532e623334604"
     },
-    "fingerprint": "67b63da1c502ce7042899bc1b6d4486c5aaac9d74e280392a050fd75e2c6ba0b",
+    "fingerprint": "4e332ea19ab92cae424fec28d47e91ea9a4d9ba44db20fc533a507da16e2bea6",
     "events": [
+      {
+        "at": "2026-10-16T20:51:08.458Z",
+        "changes": [
+          "Supplementary specification rows: 53 → 61",
+          "Official supplementary specification changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Checklist.pdf?v=1772217092",
+        "snapshot": {
+          "checklistHash": "6415c21127d8d80e2d400c3d9e526698056f24306e6e498a42361670ecb05de6",
+          "oddsHash": "092d74e474f05d67da1be0924b8ae727280c67e05a922b55174faad98a074c03",
+          "rows": 697,
+          "odds": 107,
+          "specificationRows": 61,
+          "specificationHash": "ca87b78bdb1da3cb87fa19588ca0e4501d3c6161de8028b5fb8532e623334604"
+        },
+        "previousSnapshot": {
+          "checklistHash": "6415c21127d8d80e2d400c3d9e526698056f24306e6e498a42361670ecb05de6",
+          "oddsHash": "092d74e474f05d67da1be0924b8ae727280c67e05a922b55174faad98a074c03",
+          "rows": 697,
+          "odds": 107,
+          "specificationRows": 53,
+          "specificationHash": "5c0d6b93404f8ce4bed3c45273b93216b2e7eca757d96914619f3774e6bc840e"
+        }
+      },
       {
         "at": "2026-10-14T01:05:01.712Z",
         "changes": [

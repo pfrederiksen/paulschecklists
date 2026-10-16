@@ -807,15 +807,24 @@
       "slug": "topps-bowman-2025-bowman-s-best-baseball",
       "title": "2025 Bowman's Best Baseball",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/bowmans-best-baseball",
       "oddsCategories": 107,
-      "numberedOddsCategories": 45,
+      "numberedOddsCategories": 46,
       "supplementalSpecifications": 53,
       "structuredNumbering": true,
       "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
-      "conflicts": []
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-bowman-s-best-baseball",
+          "family": "Guide-only programs, other numbering and general release date",
+          "gap": "The guide describes 50 Best Mix Autographs players; the physical checklist prints 52 entries. The guide-only Strokes of Gold parallel names have no matching colored odds categories. Sterling-Tek /99 has no exactly named odds row; do not number the generic Best-Tek category. Reviewed guides do not establish exhaustive numbering for the other insert, dual/triple/quad or autograph programs. The odds PDF names HOBBY but does not state a ratio unit. Guide pack, box and case distribution statements retain their original units separately. The Best of 2025 Autographs Refractor is limited to 500; serial marking is not stated. Do not convert that statement into /500. The March 10 guide publication date is not a verified general release date.",
+          "source": "https://ripped.topps.com/2025-bowmans-best-baseball-collector-guide/",
+          "evidenceFile": "data/parallel-audit-sources/bowmans-best-baseball-2025-20261016.json",
+          "evidenceSha256": "cab1dc93142c636f346a3545dfc1640fe193b15d72e554ffc1f18733abf971b5"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-26-bowman-university-best-basketball",

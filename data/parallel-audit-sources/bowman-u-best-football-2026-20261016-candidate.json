@@ -1,0 +1,40 @@
+{
+  "source": "https://ripped.topps.com/2026-bowman-u-best-football-top-cards-collector-guide/",
+  "observed": "2026-10-16",
+  "sourceKind": "official-browser-guide",
+  "status": "Discovery evidence only; pending exact card-code reconciliation. No numbering approved from these examples.",
+  "examples": [
+    {
+      "guideFamily": "Base Set",
+      "subject": "LaNorris Sellers",
+      "parallel": "Red Refractor",
+      "publishedStatement": "Limited to only five copies",
+      "qualification": "Named card example; serial marking is not stated; do not number the full base family."
+    },
+    {
+      "guideFamily": "Best of 2026 Autographs",
+      "subject": "Kamario Taylor",
+      "parallel": null,
+      "publishedStatement": "Autographed card limited to only 10 copies",
+      "qualification": "Named card example without a named parallel; do not assign a color or /10 to the autograph family."
+    },
+    {
+      "guideFamily": "Best of Mascots",
+      "subject": "Brutus the Buckeye",
+      "parallel": "Red",
+      "publishedStatement": "Limited to only five copies",
+      "qualification": "Named mascot card example; serial marking is not stated; do not number all mascot cards."
+    }
+  ],
+  "programStatements": [
+    [
+      "Base Set",
+      "100 cards"
+    ],
+    [
+      "Campus Crests",
+      "34 players"
+    ]
+  ],
+  "remainingGap": "Reconcile exact physical family/card identities before adding card-specific published specifications through the dedicated October backfill importer; publication date is not a release date."
+}
