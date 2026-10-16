@@ -34,6 +34,19 @@ for(const set of cases){
   get('source-section').value=numbered[0];get('source-section').onchange();get('source-team').value=numbered[10];get('source-team').onchange();get('source-search').value=numbered[2];get('source-search').oninput();assert(get('source-results').innerHTML.includes('title="/'+numbered[3]+'"'), 'Published SEQUENCE must display as out-of numbering');
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"SPORT","YEAR","BRAND","PROGRAM","CARD SET","ATHLETE","TEAM","POSITION","CARD NUMBER","SEQUENCE"'));assert(csv.includes('"'+String(numbered[2]).replaceAll('"','""')+'"'));get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2026-topps-chrome-x-jennie'){
+  assert(get('source-results').innerHTML.includes('Jennie (&quot;Mantra&quot; 1)'), 'The shared Subject column must supply displayed names');
+  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);assert(!get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-section').value='RUBY SUPER SHORT PRINT';get('source-section').onchange();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('RSSP')&&csv.includes('Jennie'));
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:String(data.rows.findIndex(r=>r[1]==='RSSP'))}})}});assert(get('source-results').innerHTML.includes('1 in 155 packs'));assert(!get('source-results').innerHTML.includes('/299'));
+  get('source-reset').onclick();get('source-section').value='BASE';get('source-section').onchange();assert.equal(get('source-count').textContent,'30 official source rows');get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});assert(get('source-results').innerHTML.includes('TEAL REFRACTOR PARALLEL</td><td>/299'));
+  get('source-odds-tab').onclick();get('source-export').onclick();assert(csv.includes('/225')&&csv.includes('/25'));
+  get('source-section').value='MONOCHROME MEMENTOS INSERT';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('MONOCHROME MEMENTOS SUPERFRACTOR PARALLEL')&&csv.includes('1:15,000')&&csv.includes('/1'));
+  get('source-section').value='CONCERT AUTOGRAPH-RELICS';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('AUTOGRAPH RELIC FOILFRACTOR PARALLEL')&&csv.includes('CONCERT AUTOGRAPH-RELICS Superfractor'));
+  assert(!csv.includes('"AUTOGRAPH RELIC FOILFRACTOR PARALLEL","/1"'),'The product Superfractor limit must not number the differently named Foilfractor');
+  get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-topps-finest-premier-league-2026'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,true);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
@@ -467,8 +480,8 @@ for(const set of cases){
  }
  if(data.formatNamesPublished===false&&!data.odds?.some(o=>Object.values(o.values??{}).some(v=>v!=null))){assert.equal(get('source-format').disabled,true);assert(get('insights').innerHTML.includes('Format-specific pack odds are not separately published'));assert(!get('insights').innerHTML.includes('Published ratios are shown verbatim.'));}
  if(data.formatNamesPublished===false&&data.odds?.some(o=>Object.values(o.values??{}).some(v=>v!=null))){
-  assert.equal(get('source-format').disabled,true);assert(get('insights').innerHTML.includes('does not name a format or ratio unit'));
-  get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Published odds (format not named)'));const literal=Object.values(data.odds[0].values).find(v=>v!==null);assert(get('source-specifications').innerHTML.includes(literal),'Unnamed odds must preserve the actual source ratio');if(data.odds.some(o=>Object.values(o.values).includes('3:1')))assert(get('source-specifications').innerHTML.includes('3:1'));assert(!get('source-specifications').innerHTML.includes('3 cards per pack'),'Unspecified units must remain literal');get('source-cards-tab').onclick();
+  assert.equal(get('source-format').disabled,true);assert(get('insights').innerHTML.includes(data.oddsUnitsPublished===false?'does not name a format or ratio unit':'does not name a pack format. Published odds are per pack.'));
+  get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes(data.oddsUnitsPublished===false?'Published odds (format not named)':data.formats[0]));const literal=Object.values(data.odds[0].values).find(v=>v!==null);assert(get('source-specifications').innerHTML.includes(data.oddsUnitsPublished===false?literal:'1 in '+Number(literal.split(':')[1].replaceAll(',','')).toLocaleString()+' packs'),'Unnamed formats must preserve the published odds and their stated unit');if(data.oddsUnitsPublished===false&&data.odds.some(o=>Object.values(o.values).includes('3:1')))assert(get('source-specifications').innerHTML.includes('3:1'));assert(!get('source-specifications').innerHTML.includes('3 cards per pack'),'Unspecified units must remain literal');get('source-cards-tab').onclick();
  }
  if(set.slug==='topps-bowman-2026-topps-chrome-black-basketball'){
   get('source-section').value='BASE CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'100 official source rows');

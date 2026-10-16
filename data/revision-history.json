@@ -4493,12 +4493,36 @@
     "state": {
       "checklistHash": "2c05e7b1f58fcd362b8aa6bed5e3ba9f0da113fb14616db940281d1f4a0a4d5a",
       "oddsHash": "768dbe3f041fc8a40a0acaf1a8e18b19662a6948d729b2f0bef3003a5c9709b0",
-      "rows": 67,
-      "odds": 57,
-      "specificationRows": 0
+      "rows": 68,
+      "odds": 58,
+      "specificationRows": 63,
+      "specificationHash": "0cac6e6d775c56e13385be26fd48f3c59289dad314f3e114fd3758b621a36443"
     },
-    "fingerprint": "a62de824884e0d694bdc8f5c13091288037fcb21c22d902a9540902e16e5c9bd",
+    "fingerprint": "8cd84c5c9e0da85928791d24125d6e95c76287ba47850f940e6c743b7f3892db",
     "events": [
+      {
+        "at": "2026-10-16T10:48:55.689Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 63",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_x_Jennie_Checklist.pdf?v=1787173303",
+        "snapshot": {
+          "checklistHash": "2c05e7b1f58fcd362b8aa6bed5e3ba9f0da113fb14616db940281d1f4a0a4d5a",
+          "oddsHash": "768dbe3f041fc8a40a0acaf1a8e18b19662a6948d729b2f0bef3003a5c9709b0",
+          "rows": 68,
+          "odds": 58,
+          "specificationRows": 63,
+          "specificationHash": "0cac6e6d775c56e13385be26fd48f3c59289dad314f3e114fd3758b621a36443"
+        },
+        "previousSnapshot": {
+          "checklistHash": "2c05e7b1f58fcd362b8aa6bed5e3ba9f0da113fb14616db940281d1f4a0a4d5a",
+          "oddsHash": "768dbe3f041fc8a40a0acaf1a8e18b19662a6948d729b2f0bef3003a5c9709b0",
+          "rows": 67,
+          "odds": 57,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T01:06:39.183Z",
         "changes": [

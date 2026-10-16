@@ -1,0 +1,330 @@
+{
+  "observed": "2026-10-16",
+  "method": "Factual snapshot of actual official product Description/Overview reads in the in-app browser. This file hash verifies the normalized observation, not raw HTML. Original PDF cells were visually inspected.",
+  "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+  "landing": "https://www.topps.com/pages/topps-chrome-jennie",
+  "checklistSha256": "2c05e7b1f58fcd362b8aa6bed5e3ba9f0da113fb14616db940281d1f4a0a4d5a",
+  "oddsSha256": "768dbe3f041fc8a40a0acaf1a8e18b19662a6948d729b2f0bef3003a5c9709b0",
+  "oddsSource": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_x_Jennie.pdf?v=1790191321",
+  "numbering": [
+    {
+      "family": "BASE",
+      "heading": "Base Parallels",
+      "entries": [
+        [
+          "Refractor",
+          ""
+        ],
+        [
+          "Teal Refractor",
+          "/299"
+        ],
+        [
+          "Yellow Refractor",
+          "/275"
+        ],
+        [
+          "Pink Refractor",
+          "/250"
+        ],
+        [
+          "Pink Wave Refractor",
+          "/225"
+        ],
+        [
+          "Aqua Refractor",
+          "/199"
+        ],
+        [
+          "Blue Refractor",
+          "/150"
+        ],
+        [
+          "Blue Wave Refractor",
+          "/125"
+        ],
+        [
+          "Green Refractor",
+          "/99"
+        ],
+        [
+          "Purple Refractor",
+          "/75"
+        ],
+        [
+          "Gold Refractor",
+          "/50"
+        ],
+        [
+          "Orange Refractor",
+          "/25"
+        ],
+        [
+          "Black Refractor",
+          "/10"
+        ],
+        [
+          "Red Refractor",
+          "/5"
+        ],
+        [
+          "Superfractor",
+          "/1"
+        ]
+      ]
+    },
+    {
+      "family": "CHROMIUM CLOSE-UPS INSERT",
+      "heading": "Inserts / Insert Parallels",
+      "entries": [
+        [
+          "Aqua Refractor",
+          "/199"
+        ],
+        [
+          "Blue Refractor",
+          "/150"
+        ],
+        [
+          "Blue Wave Refractor",
+          "/125"
+        ],
+        [
+          "Green Refractor",
+          "/99"
+        ],
+        [
+          "Purple Refractor",
+          "/75"
+        ],
+        [
+          "Gold Refractor",
+          "/50"
+        ],
+        [
+          "Orange Refractor",
+          "/25"
+        ],
+        [
+          "Black Refractor",
+          "/10"
+        ],
+        [
+          "Red Refractor",
+          "/5"
+        ],
+        [
+          "Superfractor",
+          "/1"
+        ]
+      ]
+    },
+    {
+      "family": "MONOCHROME MEMENTOS INSERT",
+      "heading": "Inserts / Insert Parallels",
+      "entries": [
+        [
+          "Aqua Refractor",
+          "/199"
+        ],
+        [
+          "Blue Refractor",
+          "/150"
+        ],
+        [
+          "Blue Wave Refractor",
+          "/125"
+        ],
+        [
+          "Green Refractor",
+          "/99"
+        ],
+        [
+          "Purple Refractor",
+          "/75"
+        ],
+        [
+          "Gold Refractor",
+          "/50"
+        ],
+        [
+          "Orange Refractor",
+          "/25"
+        ],
+        [
+          "Black Refractor",
+          "/10"
+        ],
+        [
+          "Red Refractor",
+          "/5"
+        ],
+        [
+          "Superfractor",
+          "/1"
+        ]
+      ]
+    },
+    {
+      "family": "CONCERT RELICS",
+      "heading": "Concert Relics / Parallels",
+      "entries": [
+        [
+          "Base",
+          ""
+        ],
+        [
+          "Purple Foil",
+          "/75"
+        ],
+        [
+          "Gold Foil",
+          "/50"
+        ],
+        [
+          "Orange Foil",
+          "/25"
+        ],
+        [
+          "Black Foil",
+          "/10"
+        ],
+        [
+          "Red Foil",
+          "/5"
+        ],
+        [
+          "FoilFractor",
+          "/1"
+        ]
+      ]
+    },
+    {
+      "family": "BASE AUTOGRAPH VARIATIONS",
+      "heading": "Base Autograph Variations / Parallels",
+      "entries": [
+        [
+          "Base",
+          ""
+        ],
+        [
+          "Black Refractor",
+          "/10"
+        ],
+        [
+          "Red Refractor",
+          "/5"
+        ],
+        [
+          "Superfractor",
+          "/1"
+        ]
+      ]
+    },
+    {
+      "family": "RUBY SP AUTOGRAPH VARIATIONS",
+      "heading": "Ruby SP Autograph Variations / Parallels",
+      "entries": [
+        [
+          "Black Refractor",
+          "/10"
+        ],
+        [
+          "Red Refractor",
+          "/5"
+        ],
+        [
+          "Superfractor",
+          "/1"
+        ]
+      ]
+    },
+    {
+      "family": "CONCERT AUTOGRAPH-RELICS",
+      "heading": "Concert Autograph-Relics / Parallels",
+      "entries": [
+        [
+          "Black Refractor",
+          "/10"
+        ],
+        [
+          "Red Refractor",
+          "/5"
+        ],
+        [
+          "Superfractor",
+          "/1"
+        ]
+      ]
+    },
+    {
+      "family": "RUBY SSP AUTOGRAPH VARIATION",
+      "heading": "Ruby SSP Autograph Variations / Parallels",
+      "entries": [
+        [
+          "Red Refractor",
+          "/5"
+        ],
+        [
+          "Superfractor",
+          "/1"
+        ]
+      ]
+    }
+  ],
+  "productFields": [
+    [
+      "Base Cards",
+      "30 subjects"
+    ],
+    [
+      "Chromium Close-Ups",
+      "10 subjects"
+    ],
+    [
+      "Monochrome Mementos",
+      "10 subjects"
+    ],
+    [
+      "Ruby Short Prints",
+      "2 subjects"
+    ],
+    [
+      "Ruby Super Short Prints",
+      "1 subject"
+    ],
+    [
+      "Concert Relics",
+      "1 subject"
+    ],
+    [
+      "Base Autograph Variations",
+      "10 subjects"
+    ],
+    [
+      "Ruby SP Autograph Variations",
+      "2 subjects"
+    ],
+    [
+      "Concert Autograph-Relics",
+      "1 subject"
+    ],
+    [
+      "Ruby SSP Autograph Variations",
+      "1 subject"
+    ],
+    [
+      "Box contents",
+      "10 cards: 6 Base, 2 Inserts, 2 Base Parallels"
+    ],
+    [
+      "Scheduled release",
+      "October 20, 2026; preorder shipping is separate"
+    ]
+  ],
+  "remainingGaps": [
+    "The product Description lists Concert Autograph-Relics Superfractor /1, but the odds PDF prints AUTOGRAPH RELIC FOILFRACTOR PARALLEL. Keep the named Superfractor specification without odds and the Foilfractor odds without an inferred limit; neither source overrides the other.",
+    "The plain Base Refractor, Ruby Short Prints and Ruby Super Short Print have no published numbering in the checked product list. Do not apply the base-color ladder to these or other families.",
+    "Per-pack odds are explicitly published, but the odds PDF does not name a pack format. Product box contents are retained separately. Exhaustive parallel coverage remains unconfirmed."
+  ]
+}

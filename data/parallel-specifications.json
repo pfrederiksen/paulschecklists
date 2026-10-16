@@ -7363,7 +7363,569 @@
         "evidenceSha256": "150eddfcb254587d9c90537435fc2bb8d96be53a5e9c5e0444765f67b6638e97"
       }
     ],
-    "topps-bowman-topps-finest-premier-league-2026": []
+    "topps-bowman-topps-finest-premier-league-2026": [],
+    "topps-bowman-2026-topps-chrome-x-jennie": [
+      {
+        "family": "BASE",
+        "name": "Teal Refractor",
+        "numbering": "/299",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS TEAL REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Yellow Refractor",
+        "numbering": "/275",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS YELLOW REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Pink Refractor",
+        "numbering": "/250",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS PINK REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Pink Wave Refractor",
+        "numbering": "/225",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS PINK WAVE REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Aqua Refractor",
+        "numbering": "/199",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS AQUA REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Blue Refractor",
+        "numbering": "/150",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS BLUE REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Blue Wave Refractor",
+        "numbering": "/125",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS BLUE WAVE REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Green Refractor",
+        "numbering": "/99",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS GREEN REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Purple Refractor",
+        "numbering": "/75",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS PURPLE REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS GOLD REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS ORANGE REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS BLACK REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS RED REFRACTOR PARALLEL"
+      },
+      {
+        "family": "BASE",
+        "name": "Superfractor",
+        "numbering": "/1",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE CARDS SUPERFRACTOR PARALLEL"
+      },
+      {
+        "family": "CHROMIUM CLOSE-UPS INSERT",
+        "name": "Aqua Refractor",
+        "numbering": "/199",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CHROMIUM CLOSE-UPS AQUA PARALLEL"
+      },
+      {
+        "family": "CHROMIUM CLOSE-UPS INSERT",
+        "name": "Blue Refractor",
+        "numbering": "/150",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CHROMIUM CLOSE-UPS BLUE PARALLEL"
+      },
+      {
+        "family": "CHROMIUM CLOSE-UPS INSERT",
+        "name": "Blue Wave Refractor",
+        "numbering": "/125",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CHROMIUM CLOSE-UPS BLUE WAVE PARALLEL"
+      },
+      {
+        "family": "CHROMIUM CLOSE-UPS INSERT",
+        "name": "Green Refractor",
+        "numbering": "/99",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CHROMIUM CLOSE-UPS GREEN PARALLEL"
+      },
+      {
+        "family": "CHROMIUM CLOSE-UPS INSERT",
+        "name": "Purple Refractor",
+        "numbering": "/75",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CHROMIUM CLOSE-UPS PURPLE PARALLEL"
+      },
+      {
+        "family": "CHROMIUM CLOSE-UPS INSERT",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CHROMIUM CLOSE-UPS GOLD PARALLEL"
+      },
+      {
+        "family": "CHROMIUM CLOSE-UPS INSERT",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CHROMIUM CLOSE-UPS ORANGE PARALLEL"
+      },
+      {
+        "family": "CHROMIUM CLOSE-UPS INSERT",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CHROMIUM CLOSE-UPS BLACK PARALLEL"
+      },
+      {
+        "family": "CHROMIUM CLOSE-UPS INSERT",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CHROMIUM CLOSE-UPS RED PARALLEL"
+      },
+      {
+        "family": "CHROMIUM CLOSE-UPS INSERT",
+        "name": "Superfractor",
+        "numbering": "/1",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CHROMIUM CLOSE-UPS SUPERFRACTOR PARALLEL"
+      },
+      {
+        "family": "MONOCHROME MEMENTOS INSERT",
+        "name": "Aqua Refractor",
+        "numbering": "/199",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "MONOCHROME MEMENTOS AQUA PARALLEL"
+      },
+      {
+        "family": "MONOCHROME MEMENTOS INSERT",
+        "name": "Blue Refractor",
+        "numbering": "/150",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "MONOCHROME MEMENTOS BLUE PARALLEL"
+      },
+      {
+        "family": "MONOCHROME MEMENTOS INSERT",
+        "name": "Blue Wave Refractor",
+        "numbering": "/125",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "MONOCHROME MEMENTOS BLUE WAVE PARALLEL"
+      },
+      {
+        "family": "MONOCHROME MEMENTOS INSERT",
+        "name": "Green Refractor",
+        "numbering": "/99",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "MONOCHROME MEMENTOS GREEN PARALLEL"
+      },
+      {
+        "family": "MONOCHROME MEMENTOS INSERT",
+        "name": "Purple Refractor",
+        "numbering": "/75",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "MONOCHROME MEMENTOS PURPLE PARALLEL"
+      },
+      {
+        "family": "MONOCHROME MEMENTOS INSERT",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "MONOCHROME MEMENTOS GOLD PARALLEL"
+      },
+      {
+        "family": "MONOCHROME MEMENTOS INSERT",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "MONOCHROME MEMENTOS ORANGE PARALLEL"
+      },
+      {
+        "family": "MONOCHROME MEMENTOS INSERT",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "MONOCHROME MEMENTOS BLACK PARALLEL"
+      },
+      {
+        "family": "MONOCHROME MEMENTOS INSERT",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "MONOCHROME MEMENTOS RED PARALLEL"
+      },
+      {
+        "family": "MONOCHROME MEMENTOS INSERT",
+        "name": "Superfractor",
+        "numbering": "/1",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Inserts / Insert Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "MONOCHROME MEMENTOS SUPERFRACTOR PARALLEL"
+      },
+      {
+        "family": "CONCERT RELICS",
+        "name": "Purple Foil",
+        "numbering": "/75",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Concert Relics / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CONCERT RELICS PURPLE FOIL"
+      },
+      {
+        "family": "CONCERT RELICS",
+        "name": "Gold Foil",
+        "numbering": "/50",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Concert Relics / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CONCERT RELICS GOLD FOIL"
+      },
+      {
+        "family": "CONCERT RELICS",
+        "name": "Orange Foil",
+        "numbering": "/25",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Concert Relics / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CONCERT RELICS ORANGE FOIL"
+      },
+      {
+        "family": "CONCERT RELICS",
+        "name": "Black Foil",
+        "numbering": "/10",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Concert Relics / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CONCERT RELICS BLACK FOIL"
+      },
+      {
+        "family": "CONCERT RELICS",
+        "name": "Red Foil",
+        "numbering": "/5",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Concert Relics / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CONCERT RELICS RED FOIL"
+      },
+      {
+        "family": "CONCERT RELICS",
+        "name": "FoilFractor",
+        "numbering": "/1",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Concert Relics / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "CONCERT RELICS FOILFRACTOR"
+      },
+      {
+        "family": "BASE AUTOGRAPH VARIATIONS",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Autograph Variations / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE AUTOGRAPHS BLACK PARALLEL"
+      },
+      {
+        "family": "BASE AUTOGRAPH VARIATIONS",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Autograph Variations / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE AUTOGRAPHS RED PARALLEL"
+      },
+      {
+        "family": "BASE AUTOGRAPH VARIATIONS",
+        "name": "Superfractor",
+        "numbering": "/1",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Base Autograph Variations / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "BASE AUTOGRAPHS SUPERFRACTOR PARALLEL"
+      },
+      {
+        "family": "RUBY SP AUTOGRAPH VARIATIONS",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Ruby SP Autograph Variations / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "RUBY SP AUTOGRAPHS BLACK PARALLEL"
+      },
+      {
+        "family": "RUBY SP AUTOGRAPH VARIATIONS",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Ruby SP Autograph Variations / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "RUBY SP AUTOGRAPHS RED PARALLEL"
+      },
+      {
+        "family": "RUBY SP AUTOGRAPH VARIATIONS",
+        "name": "Superfractor",
+        "numbering": "/1",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Ruby SP Autograph Variations / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "RUBY SP AUTOGRAPHS SUPERFRACTOR PARALLEL"
+      },
+      {
+        "family": "CONCERT AUTOGRAPH-RELICS",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Concert Autograph-Relics / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "AUTOGRAPH RELIC BLACK PARALLEL"
+      },
+      {
+        "family": "CONCERT AUTOGRAPH-RELICS",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Concert Autograph-Relics / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "AUTOGRAPH RELIC RED PARALLEL"
+      },
+      {
+        "family": "CONCERT AUTOGRAPH-RELICS",
+        "name": "Superfractor",
+        "numbering": "/1",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Concert Autograph-Relics / Parallels",
+        "qualification": "Product Description names Superfractor /1; the odds PDF names Foilfractor instead. No equivalence or shared limit is inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b"
+      },
+      {
+        "family": "RUBY SSP AUTOGRAPH VARIATION",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Ruby SSP Autograph Variations / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "RUBY SSP AUTOGRAPHS RED PARALLEL"
+      },
+      {
+        "family": "RUBY SSP AUTOGRAPH VARIATION",
+        "name": "Superfractor",
+        "numbering": "/1",
+        "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+        "sourceHeading": "Ruby SSP Autograph Variations / Parallels",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+        "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b",
+        "oddsName": "RUBY SSP AUTOGRAPHS SUPERFRACTOR PARALLEL"
+      }
+    ]
   },
   "conflicts": [
     {
@@ -7647,6 +8209,14 @@
       "source": "https://ripped.topps.com/uk/topps-finest-premier-league-2026-chase-guide-top-cards-more/",
       "evidenceFile": "data/parallel-audit-sources/finest-pl-2026-20261016.json",
       "evidenceSha256": "02f6cea24ee0dd14061845daf22b23f0a1d5511eae84576a7caedd0234154bba"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-x-jennie",
+      "family": "Concert Autograph-Relics / Superfractor versus Foilfractor",
+      "gap": "The product Description lists Concert Autograph-Relics Superfractor /1, but the odds PDF prints AUTOGRAPH RELIC FOILFRACTOR PARALLEL. Keep the named Superfractor specification without odds and the Foilfractor odds without an inferred limit; neither source overrides the other. The plain Base Refractor, Ruby Short Prints and Ruby Super Short Print have no published numbering in the checked product list. Do not apply the base-color ladder to these or other families. Per-pack odds are explicitly published, but the odds PDF does not name a pack format. Product box contents are retained separately. Exhaustive parallel coverage remains unconfirmed.",
+      "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+      "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+      "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b"
     }
   ]
 }

@@ -1220,14 +1220,23 @@
       "slug": "topps-bowman-2026-topps-chrome-x-jennie",
       "title": "2026 Topps Chrome® x Jennie",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
-      "oddsCategories": 57,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "source": "https://www.topps.com/pages/topps-chrome-jennie",
+      "oddsCategories": 58,
+      "numberedOddsCategories": 51,
+      "supplementalSpecifications": 51,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-chrome-x-jennie",
+          "family": "Concert Autograph-Relics / Superfractor versus Foilfractor",
+          "gap": "The product Description lists Concert Autograph-Relics Superfractor /1, but the odds PDF prints AUTOGRAPH RELIC FOILFRACTOR PARALLEL. Keep the named Superfractor specification without odds and the Foilfractor odds without an inferred limit; neither source overrides the other. The plain Base Refractor, Ruby Short Prints and Ruby Super Short Print have no published numbering in the checked product list. Do not apply the base-color ladder to these or other families. Per-pack odds are explicitly published, but the odds PDF does not name a pack format. Product box contents are retained separately. Exhaustive parallel coverage remains unconfirmed.",
+          "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-x-jennie",
+          "evidenceFile": "data/parallel-audit-sources/jennie-2026-20261016.json",
+          "evidenceSha256": "66ba762334a403229d61ca57827c86d3b4df6c047c5dc4a4bf93522d029a8c3b"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-disney-neon",
