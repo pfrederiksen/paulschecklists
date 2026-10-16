@@ -1,0 +1,36 @@
+{
+  "observed": "2026-10-16",
+  "method": "Actual official Topps landing-page web read and complete official Ripped collector-guide and checklist-spotlight browser reads. Original PDF glyph origins, vertically offset odds cells and rendered pages reconciled. This normalized factual snapshot is hash-checked separately from the PDF bytes.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-chrome-cactus-jack-basketball",
+    "guide": "https://ripped.topps.com/2025-26-topps-chrome-cactus-jack-basketball-collector-guide/",
+    "spotlight": "https://ripped.topps.com/2025-26-topps-chrome-cactus-jack-basketball-checklist/"
+  },
+  "checklistSha256": "85441058b917bf023b733d8234a8aa4542cad12971f1ec75b1df643a5002887d",
+  "oddsSha256": "32d873f739be55dbab954fdf1ee26720ad21e9e98f76dde0978ddea9008dc9fa",
+  "release": {
+    "date": "2026-06-19",
+    "statement": "RELEASE: JUNE 19, 2026",
+    "scope": "Main 2025-26 Topps Chrome Cactus Jack Basketball release; the separate All-Star product is outside this statement's scope"
+  },
+  "configuration": [
+    ["Hobby", "4 cards per pack", "Published box configuration; not an odds ratio unit"],
+    ["Hobby", "20 packs per box", "Published box configuration"],
+    ["Hobby", "12 boxes per case", "Published case configuration; no numeric case-hit rate is inferred"]
+  ],
+  "guideFamilies": [
+    ["BASE CARDS", "100", "Base set"],
+    ["UTOPIA HIGHLIGHTS", "40", "Insert"],
+    ["JACKED UP", "40", "Insert"],
+    ["LA FLAME LEGENDS", "20", "Insert"],
+    ["ASTROVISION", "20", "Super Short Print / case hit descriptions; no numeric case rate"],
+    ["CACTUS MODE", "20", "Super Short Print / case hit descriptions; no numeric case rate"],
+    ["BASE AUTOGRAPH VARIATION", "49", "Autograph subset"],
+    ["CACTUS INK", "49", "Autograph subset"]
+  ],
+  "remainingGaps": [
+    "The reviewed landing page, collector guide and checklist spotlight do not publish a numeric serial-number ladder. Parallel names and product images do not establish limits or exhaustive eligibility.",
+    "The odds PDF prints only Odds: it names neither a format nor a ratio unit. Preserve all 60 values, including Base 4:1, without treating them as pack rates.",
+    "The main release and the separate NBA All-Star product retain separate scope; All-Star limits and dates are not applied to this checklist."
+  ]
+}

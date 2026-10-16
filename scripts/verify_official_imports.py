@@ -11,7 +11,7 @@ def verify(set):
  original=collections.Counter()
  with pdfplumber.open(path) as pdf:
   for page in pdf.pages:
-   original.update(word['text'] for word in page.extract_words(x_tolerance=tolerance,use_text_flow=data.get('oddsParser') in {'scripts/import_topps_star_wars_backfills.py','scripts/import_topps_jennie_2026.py'}) if re.fullmatch(r'[\d,.]+(?::[\d,.]+)+',word['text']))
+   original.update(word['text'] for word in page.extract_words(x_tolerance=tolerance,use_text_flow=data.get('oddsParser') in {'scripts/import_topps_star_wars_backfills.py','scripts/import_topps_jennie_2026.py','scripts/import_topps_cactus_jack_2025.py'}) if re.fullmatch(r'[\d,.]+(?::[\d,.]+)+',word['text']))
   for exception in data.get('oddsLiteralExceptions',[]):
    # A malformed literal must be verified inside its original physical value
    # cell, not promoted to a ratio or added from an arbitrary PDF number.

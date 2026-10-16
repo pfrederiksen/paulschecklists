@@ -28,7 +28,7 @@ if(config.publisherId){
 // Bust browser/CDN asset caches whenever shared application code changes.
 for(const html of ['index.html','allen-ginter-2026.html','bowman-football-2026.html','privacy.html',...(await readdir('sets')).filter(f=>f.endsWith('.html')).map(f=>'sets/'+f)]){
  const {readFile}=await import('node:fs/promises');let text=await readFile(`docs/${html}`,'utf8');
- for(const asset of ['app.js','directory.js','catalog-model.mjs','research.js','source-page.js','parallel-specs.mjs','styles.css','ads.js']){const hash=createHash('sha256').update(await readFile(asset)).update(['source-page.js','research.js'].includes(asset)?parallelHash:'').digest('hex').slice(0,12);text=text.replaceAll(`"${asset}"`,`"${asset}?v=${hash}"`).replaceAll(`"../${asset}"`,`"../${asset}?v=${hash}"`);}
+ for(const asset of ['app.js','directory.js','catalog-model.mjs','research.js','source-page.js','parallel-specs.mjs','styles.css','ads.js']){const hash=createHash('sha256').update(await readFile(asset)).update(['source-page.js','research.js'].includes(asset)?parallelHash:asset==='directory.js'?catalogModelHash:'').digest('hex').slice(0,12);text=text.replaceAll(`"${asset}"`,`"${asset}?v=${hash}"`).replaceAll(`"../${asset}"`,`"../${asset}?v=${hash}"`);}
  await writeFile(`docs/${html}`,text);
 }
 console.log('Static site packaged in docs/ for GitHub Pages.');

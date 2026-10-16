@@ -3,6 +3,8 @@ import {readFile,access} from 'node:fs/promises';
 import vm from 'node:vm';
 import {hasCards,hasOdds,categoryLabel,renderCatalogRow,matchesSet,compareSets} from '../catalog-model.mjs';
 const catalog=JSON.parse(await readFile('data/set-catalog.json','utf8'));
+const unnamed=renderCatalogRow({title:'Unnamed odds source',manufacturer:'Topps',sport:'basketball',year:'2026',page:'test.html',odds:60,formats:1,presentation:{formats:0}});assert(unnamed.includes('60 categories · format not named')&&!unnamed.includes('0 formats'),'Unavailable source formats must not be presented as zero');
+assert(renderCatalogRow({title:'Named odds source',manufacturer:'Topps',sport:'basketball',year:'2026',page:'test.html',odds:60,formats:1}).includes('60 categories · 1 format'));
 const pages=new Set();let tables=0;
 for(const set of catalog.sets){
  assert(!pages.has(set.page),`Duplicate page ${set.page}`);pages.add(set.page);

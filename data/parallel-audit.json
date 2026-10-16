@@ -1168,15 +1168,24 @@
       "slug": "topps-bowman-2025-26-topps-chrome-cactus-jack-basketball",
       "title": "2025-26 Topps Chrome® Cactus Jack Basketball",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-chrome-cactus-jack-basketball",
       "oddsCategories": 60,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-26-topps-chrome-cactus-jack-basketball",
+          "family": "Unverified main-release numbering and unnamed odds format/unit",
+          "gap": "The reviewed landing page, collector guide and checklist spotlight do not publish a numeric serial-number ladder. Parallel names and product images do not establish limits or exhaustive eligibility. The odds PDF prints only Odds: it names neither a format nor a ratio unit. Preserve all 60 values, including Base 4:1, without treating them as pack rates. The main release and the separate NBA All-Star product retain separate scope; All-Star limits and dates are not applied to this checklist.",
+          "source": "https://ripped.topps.com/2025-26-topps-chrome-cactus-jack-basketball-collector-guide/",
+          "evidenceFile": "data/parallel-audit-sources/cactus-jack-basketball-2025-26-20261016.json",
+          "evidenceSha256": "ca717458ae866d6dae73bf5ac1667a5b85b502abefde44747578a0e61c0c8fb8"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-star-wars-masterwork",

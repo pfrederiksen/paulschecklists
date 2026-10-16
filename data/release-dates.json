@@ -253,6 +253,15 @@
       "statement": "2026 Topps Heritage Baseball releases March 18 with a 400-card base set.",
       "scope": "Manufacturer U.S. March 16, 2026 article explicitly announces March 18, 2026 for regular Heritage Baseball; not Heritage Football, High Number or another year",
       "sha256": "534e9300458285f7a42f8c53db16af653876e862ab8cbb5ff838ff3516b93c4c"
+    },
+    {
+      "url": "https://ripped.topps.com/2025-26-topps-chrome-cactus-jack-basketball-checklist/",
+      "title": "2025-26 Topps Chrome Cactus Jack Basketball Checklist Spotlight",
+      "observed": "2026-10-16",
+      "method": "Complete official page read in the in-app browser",
+      "statement": "RELEASE: JUNE 19, 2026",
+      "scope": "Manufacturer U.S. guide; main 2025-26 release, separate from the All-Star product",
+      "sha256": "f4e45fa3baf45e0493affaf0694347c17503f0d6bde8889cf67ab6f6b903c8a8"
     }
   ],
   "dates": [
@@ -423,6 +432,12 @@
       "releaseDate": "2026-03-18",
       "releaseStatus": "Released",
       "source": 27
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-chrome-cactus-jack-basketball",
+      "releaseDate": "2026-06-19",
+      "releaseStatus": "Released",
+      "source": 28
     }
   ],
   "unresolved": [

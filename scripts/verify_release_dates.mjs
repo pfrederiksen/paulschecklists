@@ -27,6 +27,9 @@ for(const entry of registry.dates){
  if(set.releaseStatus==='Upcoming')assert(html.includes('Upcoming')&&html.includes('scheduled release'));
 }
 const by=slug=>catalog.sets.find(s=>s.slug===slug);
+assert.equal(by('topps-bowman-2025-26-topps-chrome-cactus-jack-basketball').releaseDate,'2026-06-19');
+assert.equal(by('topps-bowman-2025-26-topps-chrome-cactus-jack-basketball').year,'2025-26');
+assert(by('topps-bowman-2025-26-topps-chrome-cactus-jack-basketball').verifiedRelease.scope.includes('separate from the All-Star product'));
 assert.equal(by('topps-bowman-2025-star-wars-masterwork').releaseDate,'2026-06-03','Product year 2025 remains separate from the official 2026 release');
 const masterworkHtml=await readFile('docs/'+by('topps-bowman-2025-star-wars-masterwork').page,'utf8');
 assert(masterworkHtml.includes('Exhaustive parallel-numbering coverage has not been established.'));
