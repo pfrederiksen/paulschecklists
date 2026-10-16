@@ -1,0 +1,54 @@
+{
+  "observed": "2026-10-15",
+  "productSource": "https://www.topps.com/products/2026-topps-chrome-star-wars-hobby-box-sealed-case",
+  "method": "Fresh official product-page web read and fresh official PDFs; original glyph drawing order, physical column origins, rendered pages and full physical odds-cell comparisons.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26SWCM3.pdf?v=1790701893",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-29_2026-Topps-Chrome-Star-Wars_Odds-2.pdf?v=1790777195",
+  "productFields": [
+    [
+      "Available From",
+      "Sep 30, 2026",
+      "Store availability; not asserted as a general calendar release date"
+    ],
+    [
+      "Product Year",
+      "2026",
+      "Store field"
+    ],
+    [
+      "Cards per pack",
+      "10",
+      "Box configuration, not category odds"
+    ],
+    [
+      "Packs per box",
+      "10",
+      "Box configuration, not category odds"
+    ],
+    [
+      "Autograph per box",
+      "1",
+      "Box configuration, not category odds"
+    ],
+    [
+      "Boxes per case",
+      "8",
+      "Case configuration, not category odds"
+    ],
+    [
+      "Printing Plate Book Cards",
+      "One-of-one",
+      "Explicit named product program; not a limit applied to other families"
+    ]
+  ],
+  "remainingGaps": [
+    "Characters Design Variation and Kyber Carvings odds do not establish separate subject rosters in the checked checklist; preserve those odds-only families without inferred card eligibility.",
+    "Other parallel numbering and exhaustive parallel reconciliation remain unverified; no matching color limit is copied between Chrome, Sapphire, inserts or autographs.",
+    "The five named odds formats do not state a ratio unit. Keep literal ratios, including cards-per-unit values such as 3:1, without deriving per-pack probabilities.",
+    "The PDF retains original unlabelled text columns and DEBUT annotations. DEBUT is not a rookie flag; apparent source names/spellings are not corrected from inferred identities.",
+    "A general calendar release date remains unverified; store September 30 availability is kept separate.",
+    "The printing-plate roster prints PALTE-194, not PLATE-194; retain that literal code without correcting it from sequence."
+  ],
+  "checklistSha256": "294447a54d3b541b73682dfb6044692e4cd8f50fda290969e23b7f9ceb248edc",
+  "oddsSha256": "3304c072fa00eb23ba6e034d7f047c0be62ca894a99f879e0888741cb7ca9e25"
+}

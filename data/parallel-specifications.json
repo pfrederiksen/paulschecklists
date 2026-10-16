@@ -6583,6 +6583,18 @@
         "evidenceSha256": "ec2131cb638b85bef13d562f058679f5263aa6fd5b05164814a4b00e93009285",
         "qualification": "Published for this family; individual-card eligibility is not inferred."
       }
+    ],
+    "topps-bowman-2026-topps-star-wars-chrome": [
+      {
+        "family": "BASE PRINTING PLATE BOOK CARDS I",
+        "name": "Printing Plate Book Card",
+        "numbering": "1/1",
+        "oddsName": "PRINTING PLATE BOOK CARD",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "source": "https://www.topps.com/products/2026-topps-chrome-star-wars-hobby-box-sealed-case",
+        "evidenceFile": "data/parallel-audit-sources/star-wars-chrome-2026-20261015.json",
+        "evidenceSha256": "d6e3e547f6400f6ba72c010b8c648bbf7fb1908f6deaa55defaf4adb14b30607"
+      }
     ]
   },
   "conflicts": [
@@ -6811,6 +6823,14 @@
       "source": "https://ripped.topps.com/2026-topps-mars-attacks-christmas-cards-collector-guide/",
       "evidenceFile": "data/parallel-audit-sources/mars-christmas-2026-20261015.json",
       "evidenceSha256": "ec2131cb638b85bef13d562f058679f5263aa6fd5b05164814a4b00e93009285"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-star-wars-chrome",
+      "family": "Unjoined odds-only rosters, unverified numbering and ratio units",
+      "gap": "Characters Design Variation and Kyber Carvings odds do not establish separate subject rosters in the checked checklist; preserve those odds-only families without inferred card eligibility. Other parallel numbering and exhaustive parallel reconciliation remain unverified; no matching color limit is copied between Chrome, Sapphire, inserts or autographs. The five named odds formats do not state a ratio unit. Keep literal ratios, including cards-per-unit values such as 3:1, without deriving per-pack probabilities. The PDF retains original unlabelled text columns and DEBUT annotations. DEBUT is not a rookie flag; apparent source names/spellings are not corrected from inferred identities. A general calendar release date remains unverified; store September 30 availability is kept separate. The printing-plate roster prints PALTE-194, not PLATE-194; retain that literal code without correcting it from sequence.",
+      "source": "https://www.topps.com/products/2026-topps-chrome-star-wars-hobby-box-sealed-case",
+      "evidenceFile": "data/parallel-audit-sources/star-wars-chrome-2026-20261015.json",
+      "evidenceSha256": "d6e3e547f6400f6ba72c010b8c648bbf7fb1908f6deaa55defaf4adb14b30607"
     }
   ]
 }

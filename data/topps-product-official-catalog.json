@@ -1391,5 +1391,38 @@
       "sha256": "ec2131cb638b85bef13d562f058679f5263aa6fd5b05164814a4b00e93009285",
       "source": "https://www.topps.com/pages/topps-mars-attacks-christmas"
     }
+  },
+  {
+    "title": "2026 Topps Star Wars Chrome®",
+    "manufacturer": "Topps / Bowman",
+    "sport": "star-wars",
+    "year": "2026",
+    "sourcePage": "https://www.topps.com/products/2026-topps-chrome-star-wars-hobby-box-sealed-case",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26SWCM3.pdf?v=1790701893",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "All 1,369 coded subject rows and 133 unnumbered artists across 29 sections are reconciled using original glyph drawing order and physical column origins. All four 200-card programs remain separate, including the printed PALTE-194 code; actor/character cells and literal DEBUT columns are retained without rookie flags. GMAX-CHEWIE Chewbacca is restored, long actor names retain their overlapping source cells, and every duo/triple signer is kept. All 186 named odds categories retain five literal format columns; 11 entirely unnamed spacer rows are retained as source notes, not invented categories. Printing Plate Book Cards alone retain the product’s explicit 1/1 claim. Other numbering, odds-only roster joins, ratio units and a general calendar release date remain unverified.",
+    "slug": "topps-bowman-2026-topps-star-wars-chrome",
+    "page": "sets/topps-bowman-2026-topps-star-wars-chrome.html",
+    "status": "Source table",
+    "verified": "2026-10-15",
+    "rowCount": 1502,
+    "tableData": "data/imports/topps-bowman-2026-topps-star-wars-chrome.json",
+    "sections": 29,
+    "importKind": "pdf",
+    "dataAudit": "All 1,369 coded subject rows and 133 unnumbered artists across 29 sections are reconciled using original glyph drawing order and physical column origins. All four 200-card programs remain separate, including the printed PALTE-194 code; actor/character cells and literal DEBUT columns are retained without rookie flags. GMAX-CHEWIE Chewbacca is restored, long actor names retain their overlapping source cells, and every duo/triple signer is kept. All 186 named odds categories retain five literal format columns; 11 entirely unnamed spacer rows are retained as source notes, not invented categories. Printing Plate Book Cards alone retain the product’s explicit 1/1 claim. Other numbering, odds-only roster joins, ratio units and a general calendar release date remain unverified.",
+    "odds": 186,
+    "formats": 5,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-29_2026-Topps-Chrome-Star-Wars_Odds-2.pdf?v=1790777195",
+    "oddsImportIssues": 0,
+    "sha256": "294447a54d3b541b73682dfb6044692e4cd8f50fda290969e23b7f9ceb248edc",
+    "dedicatedParser": "scripts/import_topps_star_wars_chrome_2026.py",
+    "coverageComplete": true,
+    "oddsParser": "scripts/import_topps_star_wars_chrome_2026.py",
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/star-wars-chrome-2026-20261015.json",
+      "sha256": "d6e3e547f6400f6ba72c010b8c648bbf7fb1908f6deaa55defaf4adb14b30607",
+      "source": "https://www.topps.com/products/2026-topps-chrome-star-wars-hobby-box-sealed-case"
+    }
   }
 ]

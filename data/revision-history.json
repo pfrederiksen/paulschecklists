@@ -4705,12 +4705,36 @@
     "state": {
       "checklistHash": "294447a54d3b541b73682dfb6044692e4cd8f50fda290969e23b7f9ceb248edc",
       "oddsHash": "3304c072fa00eb23ba6e034d7f047c0be62ca894a99f879e0888741cb7ca9e25",
-      "rows": 1368,
+      "rows": 1502,
       "odds": 186,
-      "specificationRows": 0
+      "specificationRows": 8,
+      "specificationHash": "563f56ab1dc7c7c4be2837050428a7e8508adbd2804e9898e84f5920bc4a2af2"
     },
-    "fingerprint": "ebbfe213adac6edda89674af9c6cadb88c70e9d1397426e40220259923b64775",
+    "fingerprint": "b7a1358b2ef61324b1b0e06d35589171d54a3d575c7403f6258653da23ac35ef",
     "events": [
+      {
+        "at": "2026-10-16T02:41:24.165Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 8",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26SWCM3.pdf?v=1790701893",
+        "snapshot": {
+          "checklistHash": "294447a54d3b541b73682dfb6044692e4cd8f50fda290969e23b7f9ceb248edc",
+          "oddsHash": "3304c072fa00eb23ba6e034d7f047c0be62ca894a99f879e0888741cb7ca9e25",
+          "rows": 1502,
+          "odds": 186,
+          "specificationRows": 8,
+          "specificationHash": "563f56ab1dc7c7c4be2837050428a7e8508adbd2804e9898e84f5920bc4a2af2"
+        },
+        "previousSnapshot": {
+          "checklistHash": "294447a54d3b541b73682dfb6044692e4cd8f50fda290969e23b7f9ceb248edc",
+          "oddsHash": "3304c072fa00eb23ba6e034d7f047c0be62ca894a99f879e0888741cb7ca9e25",
+          "rows": 1368,
+          "odds": 186,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T01:06:39.207Z",
         "changes": [
