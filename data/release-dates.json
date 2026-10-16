@@ -1,5 +1,5 @@
 {
-  "observed": "2026-10-15",
+  "observed": "2026-10-16",
   "note": "Factual snapshots of explicit official release statements, not raw HTML hashes. Product years, article dates, preorder starts and generic store availability are not substituted for release dates. Exact set variants remain separate.",
   "sources": [
     {
@@ -235,6 +235,24 @@
       "statement": "Street date: 9/10/2026.",
       "scope": "Manufacturer U.S. regular Chrome MLS guide; not the separately released Sapphire edition",
       "sha256": "2bdfad5b8bbdf42eeb836c4d53bbb83d2152d94d960c806587868f4b4fd8f869"
+    },
+    {
+      "url": "https://ripped.topps.com/topps-collectors-kit-2026/",
+      "title": "Topps Collector Kit Is Built for Your First Rip",
+      "observed": "2026-10-16",
+      "method": "Actual full official page read in the in-app browser",
+      "statement": "The Topps Collector Kit will be released on March 25.",
+      "scope": "Manufacturer U.S. March 24, 2026 launch guide for the original 2026 Collector Kit; not Collector Kit Wave 2 or the individual included pack releases",
+      "sha256": "a793f0b2e7f2bb3682be4174be99a24d7015bc54d85a30e77362cd2b0cef44d6"
+    },
+    {
+      "url": "https://ripped.topps.com/best-topps-heritage-baseball-rookie-cards-collect/",
+      "title": "The Best Topps Heritage Rookie Cards of All Time",
+      "observed": "2026-10-16",
+      "method": "Actual full official page read in the in-app browser",
+      "statement": "2026 Topps Heritage Baseball releases March 18 with a 400-card base set.",
+      "scope": "Manufacturer U.S. March 16, 2026 article explicitly announces March 18, 2026 for regular Heritage Baseball; not Heritage Football, High Number or another year",
+      "sha256": "534e9300458285f7a42f8c53db16af653876e862ab8cbb5ff838ff3516b93c4c"
     }
   ],
   "dates": [
@@ -393,6 +411,18 @@
       "releaseDate": "2026-09-10",
       "releaseStatus": "Released",
       "source": 25
+    },
+    {
+      "slug": "topps-bowman-2026-topps-collector-kit",
+      "releaseDate": "2026-03-25",
+      "releaseStatus": "Released",
+      "source": 26
+    },
+    {
+      "slug": "topps-bowman-2026-topps-heritage-baseball",
+      "releaseDate": "2026-03-18",
+      "releaseStatus": "Released",
+      "source": 27
     }
   ],
   "unresolved": [

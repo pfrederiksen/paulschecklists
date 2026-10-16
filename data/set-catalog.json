@@ -371,7 +371,7 @@
             "method": "Actual official browser accessibility read."
           }
         ],
-        "observed": "2026-10-15"
+        "observed": "2026-10-16"
       }
     },
     {
@@ -420,7 +420,7 @@
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Checklist_26THBB_3.20.pdf?v=1774362662",
       "releaseStatus": "Released",
-      "releaseDate": null,
+      "releaseDate": "2026-03-18",
       "catalogEvidence": "All 1,542 physical subject rows across 40 sections reconciled, with separate name/team cells, 315 literal Rookie marks, 148 subject/team asterisks and both Back Variation annotations. Each paper and Chrome base program retains 400 distinct numbers across 456 subject rows. Repeated multi-player numbers, ten blank team cells, original marks on established players and 77RO autograph codes are retained. Repeated disclaimers are source notes, not card sections. All 230 odds categories and 12 original SKU columns remain literal; the category-heading disclaimer is separated from the first format. Color of the Year /77 applies only to the paper base program; hand-numbered Special Edition Red Ink /77 is separate from the PDF note about unnumbered red-ink base autographs. LCS/AL-NL family joins and exhaustive parallel numbering remain unresolved. March 18, 2026 is verified U.S. store availability; a universal release date is not asserted. Store availability and box contents are not pack odds.",
       "slug": "topps-bowman-2026-topps-heritage-baseball",
       "page": "sets/topps-bowman-2026-topps-heritage-baseball.html",
@@ -444,6 +444,16 @@
         "file": "data/parallel-audit-sources/heritage-baseball-2026-guides-20261015.json",
         "sha256": "78058a9e1eeb436f79fea68694279a8652702f562515d2f8277cda00cf5e1cba",
         "source": "https://www.topps.com/pages/topps-heritage-baseball"
+      },
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/best-topps-heritage-baseball-rookie-cards-collect/",
+        "title": "The Best Topps Heritage Rookie Cards of All Time",
+        "observed": "2026-10-16",
+        "method": "Actual full official page read in the in-app browser",
+        "statement": "2026 Topps Heritage Baseball releases March 18 with a 400-card base set.",
+        "scope": "Manufacturer U.S. March 16, 2026 article explicitly announces March 18, 2026 for regular Heritage Baseball; not Heritage Football, High Number or another year",
+        "sha256": "534e9300458285f7a42f8c53db16af653876e862ab8cbb5ff838ff3516b93c4c",
+        "snapshotFile": "data/release-dates.json"
       }
     },
     {
@@ -638,7 +648,7 @@
             "method": "Actual official web read"
           }
         ],
-        "observed": "2026-10-15"
+        "observed": "2026-10-16"
       }
     },
     {
@@ -1243,7 +1253,7 @@
             "method": "Actual official browser read"
           }
         ],
-        "observed": "2026-10-15"
+        "observed": "2026-10-16"
       }
     },
     {
@@ -1456,7 +1466,7 @@
             "method": "Actual official browser accessibility read."
           }
         ],
-        "observed": "2026-10-15"
+        "observed": "2026-10-16"
       }
     },
     {
@@ -1812,7 +1822,7 @@
             "method": "Actual official web read"
           }
         ],
-        "observed": "2026-10-15"
+        "observed": "2026-10-16"
       }
     },
     {
@@ -1940,7 +1950,7 @@
             "method": "Actual official browser read"
           }
         ],
-        "observed": "2026-10-15"
+        "observed": "2026-10-16"
       }
     },
     {
@@ -3091,8 +3101,8 @@
       "year": "2026",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Collector_Kit_1.pdf?v=1774449045",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-03-25",
       "verified": "2026-10-13",
       "status": "Source table",
       "tableData": "data/imports/topps-bowman-2026-topps-collector-kit.json",
@@ -3105,7 +3115,17 @@
       "parallelData": false,
       "publishedOdds": false,
       "catalogEvidence": "Official 2026 checklist verified against its product page or manufacturer catalog. Release date is not inferred from checklist availability. Printed roster and available odds are imported; additional parallel numbering specifications still require reconciliation for every family.",
-      "dataAudit": "Dedicated physical rows preserve blank names, wrapped player cells and unnumbered artist entries. Original source fields and odds units are retained; parallel numbering is not inferred."
+      "dataAudit": "Dedicated physical rows preserve blank names, wrapped player cells and unnumbered artist entries. Original source fields and odds units are retained; parallel numbering is not inferred.",
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/topps-collectors-kit-2026/",
+        "title": "Topps Collector Kit Is Built for Your First Rip",
+        "observed": "2026-10-16",
+        "method": "Actual full official page read in the in-app browser",
+        "statement": "The Topps Collector Kit will be released on March 25.",
+        "scope": "Manufacturer U.S. March 24, 2026 launch guide for the original 2026 Collector Kit; not Collector Kit Wave 2 or the individual included pack releases",
+        "sha256": "a793f0b2e7f2bb3682be4174be99a24d7015bc54d85a30e77362cd2b0cef44d6",
+        "snapshotFile": "data/release-dates.json"
+      }
     },
     {
       "title": "2026-27 Tim Horton’s",
