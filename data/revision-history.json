@@ -11693,10 +11693,10 @@
       "oddsHash": null,
       "rows": 756,
       "odds": 0,
-      "specificationRows": 15,
+      "specificationRows": 18,
       "specificationHash": "ef4af79bbe60b87e3f2e800adde9c4176a7fb5f3b2e9790fa737aebdad40d53d"
     },
-    "fingerprint": "36dceb534c1fa8a49ac20b34b37309fd2fefdd407cd78fa0ce9d0e81476fd760",
+    "fingerprint": "8fc144857f0427bb0b62cfb183f64f580fb6e9487e2042e471d6216a6d8a53b2",
     "events": [
       {
         "at": "2026-10-15T03:26:33.757Z",

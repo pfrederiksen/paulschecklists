@@ -55,6 +55,16 @@ for slug,cfg in CONFIG.items():
   assert 'Rookie' not in d['headers'] and not d.get('odds')
   assert [r[2] for r in rows if r[1]=='HEX-DL'][-1]=='Tyrique Tucker','Preserve the checklist spelling'
   assert [v['text'] for v in d['unassignedPhysicalText']]==['®','®']
+  examples=[s for s in d['publishedSpecifications'] if 'Card number' in s['headers']]
+  assert [(s['name'],s['rows'][0][:4]) for s in examples]==[
+   ('BASE CARDS',['16','LaNorris Sellers','Red Refractor','Limited to only five copies']),
+   ('BEST OF 2026 AUTOGRAPHS',['BOA-KT','Kamario Taylor','Not named in guide','Autographed card limited to only 10 copies']),
+   ('BEST OF MASCOTS',['BM-OSU','Brutus Buckeye™','Red','Limited to only five copies'])]
+  for spec in examples:
+   assert len(spec['rows'])==1
+   assert hashlib.sha256((ROOT/spec['evidenceFile']).read_bytes()).hexdigest()==spec['evidenceSha256']
+   assert 'serial marking is not stated' in spec['rows'][0][4]
+  assert not any(s['family']!='BASE CARDS' for s in d['parallelSpecifications']),'Named examples must never create family-wide limits'
  elif slug==BASKETBALL:
   assert len({(r[0],r[1]) for r in rows})==3244
   assert [int(r[1]) for r in rows if r[0]=='BASE CARDS']==list(range(1,301))

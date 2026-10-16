@@ -71,9 +71,22 @@ def read_cards(path,slug,cfg):
 
 def proof_table(name,headers,rows,proof,source):
  return {'name':name,'worksheet':'Official guide; retain source units and scope','headers':headers,'rows':rows,'evidenceFile':str(proof.relative_to(ROOT)),'evidenceSha256':hashlib.sha256(proof.read_bytes()).hexdigest(),'source':source}
-def build():
+def bowman_card_examples(rows,sha):
+ proof=ROOT/'data/parallel-audit-sources/bowman-u-best-football-2026-20261016-candidate.json'
+ facts=json.loads(proof.read_text());assert facts['checklistSha256']==sha
+ tables=[]
+ for example in facts['examples']:
+  identity=example['checklistIdentity']
+  expected=[identity[k] for k in ['family','cardNumber','subject','team','sourcePage']]
+  assert rows.count(expected)==1,expected
+  tables.append(proof_table(identity['family'],['Card number','Subject','Parallel / variation','Published statement','Qualification','Official source'],[[identity['cardNumber'],identity['subject'],example['parallel'] or 'Not named in guide',example['publishedStatement'],example['qualification'],facts['source']]],proof,facts['source']))
+ assert sum(r[0]=='CAMPUS CRESTS' for r in rows)==34
+ return tables
+
+def build(slugs=None):
  cp=ROOT/'data/set-catalog.json';catalog=json.loads(cp.read_text());known={s['slug']:s for s in catalog['sets']};replacements={}
  for slug,cfg in CONFIG.items():
+  if slugs is not None and slug not in slugs:continue
   path=ROOT/'data/catalog-sources/downloads'/(slug+'.pdf');sha=acquire(cfg['url'],path)
   rows,raw,unassigned=read_cards(path,slug,cfg)
   record=known.get(slug,{'title':cfg['title'],'manufacturer':'Topps / Bowman','sport':cfg['sport'],'year':cfg['year'],'slug':slug,'page':'sets/'+slug+'.html','verified':'2026-10-14'})
@@ -100,8 +113,10 @@ def build():
    note='All 740 printed subject rows and 14 sections reconciled, including 300 Base Cards, 100 Rookie rows, 252 printed Rookie marks and all repeated dual signers. The year-leading 1990 autograph heading is a caption. Only the 55 published Sapphire-column odds are displayed; all 505 categories and 14 original columns are retained. Exhaustive parallel-numbering review and calendar release date remain unverified.'
   elif slug==BOWMAN:
    specs=[proof_table('Hobby box configuration (contents, not pack odds)',['Published field','Published value','Official source'],[[*r,source] for r in facts['configuration']],proof,source)]
+   specs.extend(bowman_card_examples(rows,sha))
    note='All 756 physical subject rows across 22 sections reconciled, representing 676 distinct family/card-number pairs; repeated dual, quad and six-signer rows remain separate. All 100 base numbers and original school spellings are retained. Trailing pages contain only unattached trademark glyphs, preserved separately. No rookie field is published. Five guide-scoped base limits and box contents are imported; no pack-odds PDF verified and the full parallel inventory remains pending.'
    record['description']='A 100-card college football base set, school and mascot inserts, and autographs with up to six printed signers. Published base parallel limits and Hobby box contents are available; pack odds and the full parallel audit remain pending.'
+   note+=' The October 16 collector guide’s three named print-limit examples are reconciled only to base 16, BOA-KT and BM-OSU; no serial marking or family-wide limits are inferred.'
   elif slug==BASKETBALL:
    specs=[proof_table('Box configurations (contents, not pack odds)',['Published format','Published configuration','Official source'],[[*r,source] for r in facts['configuration']],proof,source),proof_table('Guide-described parallel programs',['Published program','Published limit','Source qualification','Official source'],[[*r,source] for r in facts['parallelPrograms']],proof,source)]
    note='All 3,254 physical subject rows across 64 sections reconciled, retaining 300 base numbers, all 45 printed base Rookie marks and 60 numbered Fanatics Authentic Redemption entries. Bold headings that cross the Name origin remain captions. Printed team assignments and repeated signers remain unchanged. The guide describes 40 base rookies, while the PDF marks 45; the PDF flags are retained. Box contents and qualified guide specifications are not pack odds; exhaustive parallel reconciliation is pending.'
@@ -126,6 +141,9 @@ def build():
   if not any(r['url']==cfg['url'] for r in inventory):inventory.append({'id':slug,'title':cfg['title'],'url':cfg['url']})
  p.write_text(json.dumps(inventory,ensure_ascii=False,indent=2)+'\n')
  p=ROOT/'data/topps-official-odds.json';registry=json.loads(p.read_text())
- if not any(r['title']==CONFIG[SAPPHIRE]['title'] for r in registry):registry.append({'title':CONFIG[SAPPHIRE]['title'],'url':replacements[SAPPHIRE]['oddsUrl'],'sourcePage':CONFIG[SAPPHIRE]['source'],'scope':'6394 - NFL- CHROME 2025 SAPPHIRE HOBBY DISTRIBUTOR'})
+ if SAPPHIRE in replacements and not any(r['title']==CONFIG[SAPPHIRE]['title'] for r in registry):registry.append({'title':CONFIG[SAPPHIRE]['title'],'url':replacements[SAPPHIRE]['oddsUrl'],'sourcePage':CONFIG[SAPPHIRE]['source'],'scope':'6394 - NFL- CHROME 2025 SAPPHIRE HOBBY DISTRIBUTOR'})
  p.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
-if __name__=='__main__':build()
+if __name__=='__main__':
+ import argparse
+ parser=argparse.ArgumentParser();parser.add_argument('--slug',choices=CONFIG,action='append')
+ build(parser.parse_args().slug)

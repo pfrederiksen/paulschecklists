@@ -34,6 +34,19 @@ for(const set of cases){
   get('source-section').value=numbered[0];get('source-section').onchange();get('source-team').value=numbered[10];get('source-team').onchange();get('source-search').value=numbered[2];get('source-search').oninput();assert(get('source-results').innerHTML.includes('title="/'+numbered[3]+'"'), 'Published SEQUENCE must display as out-of numbering');
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"SPORT","YEAR","BRAND","PROGRAM","CARD SET","ATHLETE","TEAM","POSITION","CARD NUMBER","SEQUENCE"'));assert(csv.includes('"'+String(numbered[2]).replaceAll('"','""')+'"'));get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2026-bowman-u-best-football'){
+  for(const [family,number,statement] of [['BASE CARDS','16','Limited to only five copies'],['BEST OF 2026 AUTOGRAPHS','BOA-KT','Autographed card limited to only 10 copies'],['BEST OF MASCOTS','BM-OSU','Limited to only five copies']]){
+   get('source-section').value=family;get('source-section').onchange();get('source-search').value=number;get('source-search').oninput();
+   const index=data.rows.findIndex(r=>r[0]===family&&r[1]===number);assert(index>=0);
+   get('source-results').onclick({target:{closest:()=>({dataset:{row:String(index)}})}});
+   assert(get('source-results').innerHTML.includes(statement));assert(get('source-results').innerHTML.includes('serial marking is not stated'));
+   get('source-reset').onclick();
+  }
+  const index=data.rows.findIndex(r=>r[0]==='BASE CARDS'&&r[1]==='43');get('source-search').value='43';get('source-search').oninput();
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:String(index)}})}});
+  assert(!get('source-results').innerHTML.includes('Limited to only five copies')&&!get('source-results').innerHTML.includes('limited to only 10 copies'),'Another card or autograph example must not appear on Taylor base 43');
+  get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('BOA-KT')&&get('source-specifications').innerHTML.includes('BM-OSU'));get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-bowman-s-best-baseball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);assert(!get('source-team').options.some(o=>/^(NATIONAL|AMERICAN) LEAGUE$/.test(o.value)));
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});

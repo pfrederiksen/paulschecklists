@@ -2,28 +2,49 @@
   "source": "https://ripped.topps.com/2026-bowman-u-best-football-top-cards-collector-guide/",
   "observed": "2026-10-16",
   "sourceKind": "official-browser-guide",
-  "status": "Discovery evidence only; pending exact card-code reconciliation. No numbering approved from these examples.",
+  "status": "Reconciled card-specific guide examples; published print limits are not serial-number claims or family-wide ladders.",
   "examples": [
     {
       "guideFamily": "Base Set",
       "subject": "LaNorris Sellers",
       "parallel": "Red Refractor",
       "publishedStatement": "Limited to only five copies",
-      "qualification": "Named card example; serial marking is not stated; do not number the full base family."
+      "qualification": "Named card example; serial marking is not stated; do not number the full base family.",
+      "checklistIdentity": {
+        "family": "BASE CARDS",
+        "cardNumber": "16",
+        "subject": "LaNorris Sellers",
+        "team": "South Carolina®",
+        "sourcePage": "1"
+      }
     },
     {
       "guideFamily": "Best of 2026 Autographs",
       "subject": "Kamario Taylor",
       "parallel": null,
       "publishedStatement": "Autographed card limited to only 10 copies",
-      "qualification": "Named card example without a named parallel; do not assign a color or /10 to the autograph family."
+      "qualification": "Named card example without a named parallel; do not assign a color or /10 to the autograph family. The serial marking is not stated.",
+      "checklistIdentity": {
+        "family": "BEST OF 2026 AUTOGRAPHS",
+        "cardNumber": "BOA-KT",
+        "subject": "Kamario Taylor",
+        "team": "Mississippi State®",
+        "sourcePage": "8"
+      }
     },
     {
       "guideFamily": "Best of Mascots",
       "subject": "Brutus the Buckeye",
       "parallel": "Red",
       "publishedStatement": "Limited to only five copies",
-      "qualification": "Named mascot card example; serial marking is not stated; do not number all mascot cards."
+      "qualification": "Named mascot card example; serial marking is not stated; do not number all mascot cards. The guide names Brutus the Buckeye; the Ohio State checklist prints Brutus Buckeye™. This match applies only to BEST OF MASCOTS, not its autograph variation.",
+      "checklistIdentity": {
+        "family": "BEST OF MASCOTS",
+        "cardNumber": "BM-OSU",
+        "subject": "Brutus Buckeye™",
+        "team": "Ohio State®",
+        "sourcePage": "3"
+      }
     }
   ],
   "programStatements": [
@@ -36,5 +57,7 @@
       "34 players"
     ]
   ],
-  "remainingGap": "Reconcile exact physical family/card identities before adding card-specific published specifications through the dedicated October backfill importer; publication date is not a release date."
+  "remainingGap": "No pack-odds PDF or exhaustive parallel inventory verified. Kamario Taylor’s example names no parallel; serial marking is unstated for all three examples. October 16 guide publication is not a release date.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_U_Best_FB_Checklist.pdf?v=1791206274",
+  "checklistSha256": "d3f571605df35fcdf175765ded7e0e2c988324f1df58e73c23e0f5ec745db10d"
 }
