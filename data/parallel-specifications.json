@@ -6559,6 +6559,30 @@
         "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
         "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
       }
+    ],
+    "topps-bowman-2026-topps-mars-attacks-christmas": [
+      {
+        "family": "BASE CARDS",
+        "name": "Candy Cane Parallel",
+        "numbering": "/299",
+        "oddsName": "Base Cards Candy Cane Parallel",
+        "source": "https://ripped.topps.com/2026-topps-mars-attacks-christmas-cards-collector-guide/",
+        "sourceHeading": "Base Set / Key Facts",
+        "evidenceFile": "data/parallel-audit-sources/mars-christmas-2026-20261015.json",
+        "evidenceSha256": "ec2131cb638b85bef13d562f058679f5263aa6fd5b05164814a4b00e93009285",
+        "qualification": "Published for this family; individual-card eligibility is not inferred."
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Snowcaps Parallel",
+        "numbering": "/5",
+        "oddsName": "Base Cards Snowcaps Parallel",
+        "source": "https://www.topps.com/pages/topps-mars-attacks-christmas",
+        "sourceHeading": "What to look for? — Base Cards",
+        "evidenceFile": "data/parallel-audit-sources/mars-christmas-2026-20261015.json",
+        "evidenceSha256": "ec2131cb638b85bef13d562f058679f5263aa6fd5b05164814a4b00e93009285",
+        "qualification": "Published for this family; individual-card eligibility is not inferred."
+      }
     ]
   },
   "conflicts": [
@@ -6779,6 +6803,14 @@
       "source": "https://ripped.topps.com/2025-topps-30-years-of-toy-story-collector-card-guide/",
       "evidenceFile": "data/parallel-audit-sources/toy-story-2025-20261015.json",
       "evidenceSha256": "670d6a679ce81c8f8dc31c24f555bbc538405ec28feeee34b61647503ebc9b5f"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-mars-attacks-christmas",
+      "family": "Extended character scope, illustrated insert numbering and ratio units",
+      "gap": "The guide extends Candy Cane /299 to a 25-character subset, but the checklist prints distinct Characters A and B rosters; their distribution is not resolved. Keep the extended-subset claim qualified without applying it to either physical program. Snowcap /5 insert illustrations are card-specific examples. The guide’s general multiple-insert statement does not identify an exhaustive family list; no numbering is propagated to other rows or relics. Other serial-number ladders and exhaustive parallel coverage remain unverified; color names alone never establish limits. All 70 Hobby categories are retained, including five Present Mini categories with literal dashes. No ratio unit is named, and the box-topper, rip-card and mini distribution units remain unverified; do not compute per-pack rates. A general calendar release date remains unverified; store October 6 availability and September 23 guide publication are separate facts.",
+      "source": "https://ripped.topps.com/2026-topps-mars-attacks-christmas-cards-collector-guide/",
+      "evidenceFile": "data/parallel-audit-sources/mars-christmas-2026-20261015.json",
+      "evidenceSha256": "ec2131cb638b85bef13d562f058679f5263aa6fd5b05164814a4b00e93009285"
     }
   ]
 }

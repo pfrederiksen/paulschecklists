@@ -4597,13 +4597,39 @@
   "topps-bowman-2026-topps-mars-attacks-christmas": {
     "state": {
       "checklistHash": "4943af9e6048a54cf6cf3cd88a6477b8b6010c8b070e4cf8e67a61ba4a6e5e6a",
-      "oddsHash": null,
-      "rows": 238,
-      "odds": 0,
-      "specificationRows": 0
+      "oddsHash": "b4414d308d538eafd1e69c40e28d91e10f76a56713f8e7a53ca938cd7f0bc18e",
+      "rows": 316,
+      "odds": 70,
+      "specificationRows": 18,
+      "specificationHash": "606fd392b7bbb967742fac79a2110b7952dda88e2d4059336ae550c480125f20"
     },
-    "fingerprint": "7268ecba94e7fc6a5330c78f22a6486cf5ce9bca2588d30c9cdfb87951bfc0c3",
+    "fingerprint": "82b3bfa91281a643620c5d008af08aeb3fa86dd40444c419303d0b225106abbe",
     "events": [
+      {
+        "at": "2026-10-16T01:37:48.429Z",
+        "changes": [
+          "Official odds document imported.",
+          "Published odds entries: 0 → 70",
+          "Supplementary specification rows: 0 → 18",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Mars_Attacks_Xmas_24MARS_CHECKLIST_FINAL.pdf?v=1788874979",
+        "snapshot": {
+          "checklistHash": "4943af9e6048a54cf6cf3cd88a6477b8b6010c8b070e4cf8e67a61ba4a6e5e6a",
+          "oddsHash": "b4414d308d538eafd1e69c40e28d91e10f76a56713f8e7a53ca938cd7f0bc18e",
+          "rows": 316,
+          "odds": 70,
+          "specificationRows": 18,
+          "specificationHash": "606fd392b7bbb967742fac79a2110b7952dda88e2d4059336ae550c480125f20"
+        },
+        "previousSnapshot": {
+          "checklistHash": "4943af9e6048a54cf6cf3cd88a6477b8b6010c8b070e4cf8e67a61ba4a6e5e6a",
+          "oddsHash": null,
+          "rows": 238,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T01:06:39.194Z",
         "changes": [

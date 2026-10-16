@@ -1358,5 +1358,38 @@
       "sha256": "670d6a679ce81c8f8dc31c24f555bbc538405ec28feeee34b61647503ebc9b5f",
       "source": "https://www.topps.com/products/2025-topps-30-years-of-toy-story-hobby-box-sealed-case"
     }
+  },
+  {
+    "title": "2026 Topps Mars Attacks Christmas",
+    "manufacturer": "Topps / Bowman",
+    "sport": "entertainment",
+    "year": "2026",
+    "sourcePage": "https://www.topps.com/pages/topps-mars-attacks-christmas",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Mars_Attacks_Xmas_24MARS_CHECKLIST_FINAL.pdf?v=1788874979",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "All 239 coded subject rows and 77 unnumbered sketch artists across 16 sections are reconciled against original physical PDF rows. LC Lump of Coal is retained; the 50-card base and both 25-row Characters A/B lists remain separate. The wrapped Jordan \"Slippa Chervascus\" Gumbrell artist is a single entry. Printed CCA-GTA and CCA-MRO differ from their non-autograph codes; all original titles and spellings are retained. The official product landing page supplies odds absent from the global catalog: all 70 Hobby categories retain 65 literal ratios and five unlisted Present Mini values. No ratio unit is named. Exact guide joins number only Base Cards Candy Cane /299 and Snowcaps /5; extended character allocation, illustrated insert examples and other numbering remain qualified. Box contents and store availability are not pack odds or a verified general release date. Exhaustive parallel reconciliation remains incomplete.",
+    "slug": "topps-bowman-2026-topps-mars-attacks-christmas",
+    "page": "sets/topps-bowman-2026-topps-mars-attacks-christmas.html",
+    "status": "Source table",
+    "verified": "2026-10-15",
+    "rowCount": 316,
+    "tableData": "data/imports/topps-bowman-2026-topps-mars-attacks-christmas.json",
+    "sections": 16,
+    "importKind": "pdf",
+    "dataAudit": "All 239 coded subject rows and 77 unnumbered sketch artists across 16 sections are reconciled against original physical PDF rows. LC Lump of Coal is retained; the 50-card base and both 25-row Characters A/B lists remain separate. The wrapped Jordan \"Slippa Chervascus\" Gumbrell artist is a single entry. Printed CCA-GTA and CCA-MRO differ from their non-autograph codes; all original titles and spellings are retained. The official product landing page supplies odds absent from the global catalog: all 70 Hobby categories retain 65 literal ratios and five unlisted Present Mini values. No ratio unit is named. Exact guide joins number only Base Cards Candy Cane /299 and Snowcaps /5; extended character allocation, illustrated insert examples and other numbering remain qualified. Box contents and store availability are not pack odds or a verified general release date. Exhaustive parallel reconciliation remains incomplete.",
+    "sha256": "4943af9e6048a54cf6cf3cd88a6477b8b6010c8b070e4cf8e67a61ba4a6e5e6a",
+    "dedicatedParser": "scripts/import_topps_mars_christmas_2026.py",
+    "coverageComplete": true,
+    "odds": 70,
+    "formats": 1,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/24MARS_-_2026_Mars_Attacks_Xmas_ODDS_FINAL.pdf?v=1791218758",
+    "oddsParser": "scripts/import_topps_mars_christmas_2026.py",
+    "oddsImportIssues": 0,
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/mars-christmas-2026-20261015.json",
+      "sha256": "ec2131cb638b85bef13d562f058679f5263aa6fd5b05164814a4b00e93009285",
+      "source": "https://www.topps.com/pages/topps-mars-attacks-christmas"
+    }
   }
 ]

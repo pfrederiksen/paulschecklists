@@ -1,0 +1,125 @@
+{
+  "observed": "2026-10-15",
+  "productSource": "https://www.topps.com/products/2026-topps-mars-attacks-christmas-hobby-box-sealed-case",
+  "landingSource": "https://www.topps.com/pages/topps-mars-attacks-christmas",
+  "guideSource": "https://ripped.topps.com/2026-topps-mars-attacks-christmas-cards-collector-guide/",
+  "method": "Fresh official product and landing-page web reads, complete collector guide read in the in-app browser, fresh checklist and landing-linked odds PDF bytes, rendered pages and original physical row/column reconciliation.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Mars_Attacks_Xmas_24MARS_CHECKLIST_FINAL.pdf?v=1788874979",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/24MARS_-_2026_Mars_Attacks_Xmas_ODDS_FINAL.pdf?v=1791218758",
+  "productFields": [
+    [
+      "Available From",
+      "Oct 6, 2026",
+      "Store availability; not asserted as a general calendar release date"
+    ],
+    [
+      "Product Year",
+      "2026",
+      "Official store field"
+    ],
+    [
+      "Cards per pack",
+      "5",
+      "Box contents, not category odds"
+    ],
+    [
+      "Packs per box",
+      "10",
+      "Box contents, not category odds"
+    ],
+    [
+      "Greeting Card Box Topper or Present Rip Card per box",
+      "1",
+      "Box contents; no ratio unit is named on the odds PDF"
+    ],
+    [
+      "Numbered parallels per box",
+      "2",
+      "Box contents, not individual numbering or category odds"
+    ],
+    [
+      "Boxes per case",
+      "20",
+      "Case configuration, not category odds"
+    ]
+  ],
+  "guideFields": [
+    [
+      "Guide publication",
+      "Sep 23, 2026",
+      "Publication, not release date"
+    ],
+    [
+      "Base story set",
+      "50 cards",
+      "BASE CARDS physical roster"
+    ],
+    [
+      "Extended character subset",
+      "25 characters",
+      "The PDF prints separate 25-row A and B lists; no parallel distribution between those lists is stated"
+    ],
+    [
+      "Extended base Candy Cane",
+      "/299",
+      "Guide explicitly includes the extended subset, without distinguishing A/B allocation; not assigned to either separate physical roster"
+    ],
+    [
+      "Snowcap across multiple inserts",
+      "/5",
+      "Guide names multiple inserts without an exhaustive family list; do not copy the limit to every insert or relic"
+    ],
+    [
+      "Relics",
+      "Manufactured relics / physical swatches",
+      "Guide describes fictional battle-themed material; do not infer actual player or event use"
+    ]
+  ],
+  "illustratedExamples": [
+    [
+      "Battle Ready — Santa’s Helpers",
+      "Snowcap",
+      "/5",
+      "Only the named guide illustration; not a family-wide numbering assignment"
+    ],
+    [
+      "Cryptids Alliance — Abominable Snowman",
+      "Snowcap",
+      "/5",
+      "Only the named guide illustration; not a family-wide numbering assignment"
+    ],
+    [
+      "Caught in the Crossfire Autographs — Tony Hawk",
+      "Red Refractor",
+      "Not stated",
+      "Only the named guide illustration; no serial limit is supplied"
+    ]
+  ],
+  "guideNumbering": [
+    {
+      "family": "BASE CARDS",
+      "name": "Candy Cane Parallel",
+      "numbering": "/299",
+      "oddsName": "Base Cards Candy Cane Parallel",
+      "source": "https://ripped.topps.com/2026-topps-mars-attacks-christmas-cards-collector-guide/",
+      "sourceHeading": "Base Set / Key Facts"
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Snowcaps Parallel",
+      "numbering": "/5",
+      "oddsName": "Base Cards Snowcaps Parallel",
+      "source": "https://www.topps.com/pages/topps-mars-attacks-christmas",
+      "sourceHeading": "What to look for? — Base Cards"
+    }
+  ],
+  "remainingGaps": [
+    "The guide extends Candy Cane /299 to a 25-character subset, but the checklist prints distinct Characters A and B rosters; their distribution is not resolved. Keep the extended-subset claim qualified without applying it to either physical program.",
+    "Snowcap /5 insert illustrations are card-specific examples. The guide’s general multiple-insert statement does not identify an exhaustive family list; no numbering is propagated to other rows or relics.",
+    "Other serial-number ladders and exhaustive parallel coverage remain unverified; color names alone never establish limits.",
+    "All 70 Hobby categories are retained, including five Present Mini categories with literal dashes. No ratio unit is named, and the box-topper, rip-card and mini distribution units remain unverified; do not compute per-pack rates.",
+    "A general calendar release date remains unverified; store October 6 availability and September 23 guide publication are separate facts."
+  ],
+  "checklistSha256": "4943af9e6048a54cf6cf3cd88a6477b8b6010c8b070e4cf8e67a61ba4a6e5e6a",
+  "oddsSha256": "b4414d308d538eafd1e69c40e28d91e10f76a56713f8e7a53ca938cd7f0bc18e"
+}
