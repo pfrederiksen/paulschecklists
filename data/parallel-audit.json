@@ -1007,15 +1007,24 @@
       "slug": "topps-bowman-2025-topps-resurgence-football",
       "title": "2025 Topps Resurgence Football",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-resurgence-football",
       "oddsCategories": 249,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "numberedOddsCategories": 2,
+      "supplementalSpecifications": 3,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-topps-resurgence-football",
+          "family": "Remaining numbering, source discrepancies and release-date evidence",
+          "gap": "Exhaustive parallel numbering remains unverified; only two base Crimson Surge /199 joins and the explicitly qualified Neon Initiates 50-copy print limit are approved. One-of-one guide examples and the interview guest’s Jalen Hurts /15 statement remain card-specific; they do not number every card in an autograph family. The guide describes 201 base cards / 101 rookies; the physical PDF prints 200 entries / 100 rookies with numbers 106 and 183 absent and 201/202 present. Preserve both sources. Base Prism Mega prints 0.05; it is neither corrected to a ratio nor interpreted as a probability. The reviewed guides supply publication dates and configuration facts, without an explicit general release-date statement. Keep releaseDate unverified.",
+          "source": "https://ripped.topps.com/how-to-collect-2025-topps-resurgence-football/",
+          "evidenceFile": "data/parallel-audit-sources/resurgence-football-2025-20261016.json",
+          "evidenceSha256": "964d5d2c8256b105c6128d0bb482da09fcf95d432a8a784e378075f2a648963d"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-26-topps-definitive-basketball",

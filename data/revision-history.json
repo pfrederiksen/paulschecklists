@@ -1625,10 +1625,34 @@
       "oddsHash": "93bbbe1d3338e78bde0aaecd4f4b261ff7d5f1a0df78ead38d49050ce7063707",
       "rows": 749,
       "odds": 249,
-      "specificationRows": 0
+      "specificationRows": 20,
+      "specificationHash": "8d5987e0c04e35fa82ee881fdfa3c3dcffb0e641266666e327ae478d67d06e50"
     },
-    "fingerprint": "2764c62a69a865419401cc62030c10baf3d5a4e40b92e66645db24fb5dda9eff",
+    "fingerprint": "427f367a66a1de04685ea537f570be79bf1609dc6a158afd898845b4a69e36c2",
     "events": [
+      {
+        "at": "2026-10-16T15:48:27.119Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 20",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Resurgence_Football_Checklist.pdf?v=1782407891",
+        "snapshot": {
+          "checklistHash": "1a3cd494e4f678a1c19c297281f14e04cc8d557c6de1bbf176f0f8dff8b6448e",
+          "oddsHash": "93bbbe1d3338e78bde0aaecd4f4b261ff7d5f1a0df78ead38d49050ce7063707",
+          "rows": 749,
+          "odds": 249,
+          "specificationRows": 20,
+          "specificationHash": "8d5987e0c04e35fa82ee881fdfa3c3dcffb0e641266666e327ae478d67d06e50"
+        },
+        "previousSnapshot": {
+          "checklistHash": "1a3cd494e4f678a1c19c297281f14e04cc8d557c6de1bbf176f0f8dff8b6448e",
+          "oddsHash": "93bbbe1d3338e78bde0aaecd4f4b261ff7d5f1a0df78ead38d49050ce7063707",
+          "rows": 749,
+          "odds": 249,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.526Z",
         "changes": [

@@ -1,0 +1,156 @@
+{
+  "observed": "2026-10-16",
+  "method": "Official landing and box guide read through web; collector guide and expert interview read through official browser pages. PDF bytes downloaded, physical columns reconciled and rendered pages inspected. This normalized factual snapshot is hash-checked separately from original PDF bytes.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-resurgence-football",
+    "guide": "https://ripped.topps.com/how-to-collect-2025-topps-resurgence-football/",
+    "preview": "https://ripped.topps.com/piece-of-the-game-2025-topps-resurgence-football-preview/",
+    "boxGuide": "https://ripped.topps.com/2025-topps-resurgence-football-box-guide/",
+    "checklist": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Resurgence_Football_Checklist.pdf?v=1782407891",
+    "odds": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Resurgence_Football_Odds_1.pdf?v=1785355384"
+  },
+  "checklistSha256": "1a3cd494e4f678a1c19c297281f14e04cc8d557c6de1bbf176f0f8dff8b6448e",
+  "oddsSha256": "93bbbe1d3338e78bde0aaecd4f4b261ff7d5f1a0df78ead38d49050ce7063707",
+  "configuration": [
+    [
+      "Hobby",
+      "12 packs × 6 cards; one autograph and one Rookie Relic Autograph per box",
+      "Box contents; not odds"
+    ],
+    [
+      "Delight",
+      "1 pack × 8 cards; two autographs, including one format-exclusive and one Rookie Relic Autograph",
+      "Box contents; not odds"
+    ],
+    [
+      "Value",
+      "8 packs × 4 cards; Sky Blue and Pink Shock parallels",
+      "Format scope; autographs possible, not guaranteed"
+    ],
+    [
+      "Mega",
+      "6 packs × 8 cards; Blue and Orange Spark parallels",
+      "Format scope; autographs possible, not guaranteed"
+    ],
+    [
+      "Hobby / Delight",
+      "Perfect Fits; Wired; String Theory",
+      "Guide case-hit designation; no numeric case rate"
+    ],
+    [
+      "Value / Mega",
+      "Electro Lights",
+      "Guide exclusive case-hit designation; no numeric case rate"
+    ],
+    [
+      "Delight",
+      "Static parallels; Electron and Proton Radial Rookie Relic autograph parallels",
+      "Guide format terms; no numeric serial limits"
+    ]
+  ],
+  "guideTerms": [
+    [
+      "BASE / ROOKIES",
+      "Base family, not inserts or autographs",
+      "Crimson Surge",
+      "Numbered to 199",
+      "Exact base family joins only"
+    ],
+    [
+      "NEON INITIATES",
+      "Named autograph family",
+      "Gold Power Surge",
+      "Limited to 50 copies",
+      "Serial-number marking is not stated"
+    ],
+    [
+      "Rookie Signatures",
+      "Jaxson Dart only",
+      "SuperFractor",
+      "One-of-one",
+      "Guide names base auto; exact numeric identity not stated in prose; no family-wide limit"
+    ],
+    [
+      "ROOKIES",
+      "Tyler Shough only",
+      "SuperFractor",
+      "One-of-one",
+      "Card example only; no other rookie or family limits inferred"
+    ],
+    [
+      "THERMAL RED INK AUTOGRAPHS",
+      "Tom Brady only",
+      "SuperFractor",
+      "SuperFractor card example",
+      "One-of-one wording occurs in the guide introduction; no family-wide limit inferred"
+    ],
+    [
+      "RESURGENCE ROOKIE RELIC SIGNATURES",
+      "Jaxson Dart only",
+      "SuperFractor",
+      "One-of-one; league shield patch",
+      "Card-specific example; no other subjects numbered"
+    ],
+    [
+      "Base Signatures",
+      "Dak Prescott and Justin Herbert examples",
+      "Static parallels",
+      "Delight exclusive",
+      "No numeric limit in this guide statement"
+    ]
+  ],
+  "interviewTerms": [
+    [
+      "Base Signatures",
+      "79",
+      "Jalen Hurts",
+      "Lime Green Power Surge",
+      "/15",
+      "Interview guest names this card only; do not number the entire family or non-autograph parallels"
+    ]
+  ],
+  "counts": [
+    [
+      "Collector guide",
+      "201",
+      "101",
+      "Plus 100 veterans; guide publication July 17 is not a release date"
+    ],
+    [
+      "Physical checklist PDF",
+      "200",
+      "100",
+      "100 BASE + 100 ROOKIES; printed 1–202 omits 106 and 183"
+    ]
+  ],
+  "approvedSpecifications": [
+    {
+      "family": "BASE",
+      "name": "Crimson Surge",
+      "numbering": "/199",
+      "oddsName": "Base Crimson Surge",
+      "qualification": "Guide base parallel statement only; no matching color limits are inferred for inserts, signatures or relics."
+    },
+    {
+      "family": "ROOKIES",
+      "name": "Crimson Surge",
+      "numbering": "/199",
+      "oddsName": "Rookies Crimson Surge",
+      "qualification": "Guide base parallel statement includes veteran and rookie base programs; no autograph or insert limits are inferred."
+    },
+    {
+      "family": "NEON INITIATES",
+      "name": "Gold Power Surge",
+      "numbering": "Limited to 50 copies (serial numbering not stated)",
+      "oddsName": "Neon Initiates Gold Power Surge",
+      "qualification": "The guide gives a print limit for this named family, without explicitly stating serial-number marking. Do not convert to /50 or number other Gold parallels."
+    }
+  ],
+  "remainingGaps": [
+    "Exhaustive parallel numbering remains unverified; only two base Crimson Surge /199 joins and the explicitly qualified Neon Initiates 50-copy print limit are approved.",
+    "One-of-one guide examples and the interview guest’s Jalen Hurts /15 statement remain card-specific; they do not number every card in an autograph family.",
+    "The guide describes 201 base cards / 101 rookies; the physical PDF prints 200 entries / 100 rookies with numbers 106 and 183 absent and 201/202 present. Preserve both sources.",
+    "Base Prism Mega prints 0.05; it is neither corrected to a ratio nor interpreted as a probability.",
+    "The reviewed guides supply publication dates and configuration facts, without an explicit general release-date statement. Keep releaseDate unverified."
+  ]
+}
