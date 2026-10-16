@@ -34,6 +34,18 @@ for(const set of cases){
   get('source-section').value=numbered[0];get('source-section').onchange();get('source-team').value=numbered[10];get('source-team').onchange();get('source-search').value=numbered[2];get('source-search').oninput();assert(get('source-results').innerHTML.includes('title="/'+numbered[3]+'"'), 'Published SEQUENCE must display as out-of numbering');
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"SPORT","YEAR","BRAND","PROGRAM","CARD SET","ATHLETE","TEAM","POSITION","CARD NUMBER","SEQUENCE"'));assert(csv.includes('"'+String(numbered[2]).replaceAll('"','""')+'"'));get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2025-26-topps-signature-class-basketball'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'439 official source rows');get('source-reset').onclick();
+  get('source-team').value='San Antonio Spurs';get('source-team').onchange();get('source-search').value='TA-SZA';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('Stephon Castle')&&!csv.includes('Alex Sarr'));get('source-reset').onclick();
+  get('source-section').value='BASE CARDS I';get('source-section').onchange();assert.equal(get('source-count').textContent,'99 official source rows');get('source-odds-tab').onclick();get('source-export').onclick();assert(csv.includes('/399')&&csv.includes('Not serial-numbered (published)'));
+  get('source-section').value='BASE CARDS I CHROME VARIATION';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('/275')&&!csv.includes('/399'));
+  get('source-section').value='BASE VETERAN CLASS CHROME AUTOGRAPHS';get('source-section').onchange();get('source-export').onclick();assert(!csv.includes('/275')&&!csv.includes('/50'));
+  get('source-section').value='ROOKIE CLASS CRYSTAL CLEAR AUTOGRAPHS';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('/5')&&csv.includes('1/1'));
+  get('source-section').value='BASE CARDS II';get('source-section').onchange();get('source-format').value='Odds Hobby Jumbo:';get('source-format').onchange();get('source-export').onclick();assert(csv.includes('2.1')&&!csv.includes('1 in 2'));
+  get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2026-topps-stadium-club-wwe'){
   const unjoined='Base Chrome Autographs II / repeated captions (roster join unverified)';
   assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);

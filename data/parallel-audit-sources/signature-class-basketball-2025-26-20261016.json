@@ -1,0 +1,269 @@
+{
+  "slug": "topps-bowman-2025-26-topps-signature-class-basketball",
+  "observed": "2026-10-16",
+  "sources": {
+    "checklist": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+    "odds": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Odds.pdf?v=1777313248",
+    "education": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+    "landing": "https://www.topps.com/pages/topps-signature-class-basketball",
+    "guide": "https://ripped.topps.com/2025-26-topps-signature-class-basketball-chase-cards-guide/"
+  },
+  "checklistSha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+  "oddsSha256": "bcaf92c47bae5fa7a1f0b14a9711946e106eb6a27a8a7aecec5af807a9b61b82",
+  "educationFile": "data/catalog-sources/downloads/topps-bowman-2025-26-topps-signature-class-basketball-education.pdf",
+  "educationSha256": "6c43af4539a9ef0baecd55219ef373d5a33df527e0f2e9fd0ea50906ac7e7600",
+  "educationParallelTables": {
+    "paper": [
+      [
+        "Base",
+        "Non-#'d"
+      ],
+      [
+        "Blue & Orange",
+        "Non-#'d"
+      ],
+      [
+        "Bronze",
+        "Non-#'d"
+      ],
+      [
+        "Yellow",
+        "/399"
+      ],
+      [
+        "Coral",
+        "/299"
+      ],
+      [
+        "Magenta",
+        "/250"
+      ],
+      [
+        "Teal",
+        "/225"
+      ],
+      [
+        "Lime",
+        "/175"
+      ],
+      [
+        "Green",
+        "/150"
+      ],
+      [
+        "Purple",
+        "/100"
+      ],
+      [
+        "Pink",
+        "/75"
+      ],
+      [
+        "Orange",
+        "/50"
+      ],
+      [
+        "Red",
+        "/25"
+      ],
+      [
+        "Red Lava",
+        "/25"
+      ],
+      [
+        "Black",
+        "/10"
+      ],
+      [
+        "Black Gold",
+        "/10"
+      ],
+      [
+        "Blue",
+        "/5"
+      ],
+      [
+        "FoilFractor",
+        "/1"
+      ]
+    ],
+    "chrome": [
+      [
+        "Base",
+        "Non-#'d"
+      ],
+      [
+        "Refractor",
+        "Non-#'d"
+      ],
+      [
+        "Pandora",
+        "Non-#'d"
+      ],
+      [
+        "Pandora Yellow",
+        "Non-#'d"
+      ],
+      [
+        "Yellow",
+        "/275"
+      ],
+      [
+        "Magenta",
+        "/250"
+      ],
+      [
+        "Teal",
+        "/225"
+      ],
+      [
+        "Lime",
+        "/175"
+      ],
+      [
+        "Green",
+        "/150"
+      ],
+      [
+        "Purple",
+        "/100"
+      ],
+      [
+        "Pink",
+        "/75"
+      ],
+      [
+        "Orange",
+        "/50"
+      ],
+      [
+        "Red",
+        "/25"
+      ],
+      [
+        "Red Lava",
+        "/25"
+      ],
+      [
+        "Gold",
+        "/10"
+      ],
+      [
+        "Blue",
+        "/5"
+      ],
+      [
+        "Superfractor",
+        "/1"
+      ]
+    ],
+    "crystal": [
+      [
+        "Base",
+        "Non-#'d"
+      ],
+      [
+        "Monarch",
+        "/5"
+      ],
+      [
+        "Milkweed",
+        "/1"
+      ]
+    ]
+  },
+  "configuration": [
+    [
+      "Hobby Box",
+      "4 cards per pack; 8 packs per box; 2 autos per box",
+      "Education sheet page 1; box collation is not pack odds"
+    ],
+    [
+      "Hobby Jumbo Box",
+      "10 cards per pack; 4 packs per box; 4 autos per box",
+      "Education sheet page 1; box collation is not pack odds"
+    ],
+    [
+      "Value Box",
+      "7 cards per pack; 6 packs per box",
+      "Education sheet page 1"
+    ],
+    [
+      "Mega Box",
+      "8 cards per pack; 10 packs per box",
+      "Education sheet page 1"
+    ]
+  ],
+  "distribution": [
+    [
+      "Veteran Class Crystal Clear Autographs",
+      "Hobby only"
+    ],
+    [
+      "Veteran Class Chrome Autographs",
+      "All SKUs"
+    ],
+    [
+      "Eternity Marks",
+      "All SKUs; printed wording differs from ETERNAL MARKS checklist"
+    ],
+    [
+      "Legends of Their Class Crystal Clear Autographs",
+      "Hobby only"
+    ],
+    [
+      "Rookie Class Chrome Autographs",
+      "All SKUs"
+    ],
+    [
+      "Monarchs of the Game",
+      "Hobby only"
+    ],
+    [
+      "Leviathans",
+      "Hobby only"
+    ],
+    [
+      "Aristocrats",
+      "Retail only; described as retail case hits in Value/Mega boxes"
+    ],
+    [
+      "Odyssey",
+      "Retail only; described as retail case hits in Value/Mega boxes"
+    ],
+    [
+      "Pressure Points",
+      "Retail only; described as retail case hits in Value/Mega boxes"
+    ]
+  ],
+  "guideFacts": [
+    [
+      "Base set",
+      "150 cards: 100 veterans and 50 rookies",
+      "The physical paper checklist has 148 numbers, omitting 68 and 150; Chrome has all 150"
+    ],
+    [
+      "Aristocrats",
+      "25 NBA stars",
+      "The physical checklist has 20 Aristocrats rows; preserve discrepancy"
+    ],
+    [
+      "Crystal Clear Autographs",
+      "Stephen Curry 1-of-1 example",
+      "Named card example does not number every parallel"
+    ],
+    [
+      "Legends of Their Class Autographs",
+      "Kevin Garnett 1-of-1 example",
+      "Named card example; exact limits come from the education sheet"
+    ]
+  ],
+  "remainingGaps": [
+    "The education sheet numbers only the named paper base, Chrome base and Crystal Clear Autographs programs; other autograph and insert ladders remain unverified.",
+    "Paper omits numbers 68 and 150, while Chrome publishes all 150; retain both source programs without filling omissions.",
+    "The chase guide describes 25 Aristocrats subjects but the checklist prints 20; no extra subjects are inferred.",
+    "The odds headers name four formats but no ratio unit. Rookie Class Base Hobby Jumbo prints 2.1; preserve the period and do not calculate a hit rate.",
+    "No reviewed official statement establishes a general calendar release date.",
+    "The education sheet labels Eternity Marks while the checklist and odds print Eternal Marks; retain original wording without inferring a new program."
+  ]
+}

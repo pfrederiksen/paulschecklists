@@ -8174,6 +8174,798 @@
         "evidenceFile": "data/parallel-audit-sources/stadium-club-wwe-2026-20261016.json",
         "evidenceSha256": "4e7fb8ca09e8e1649f783b1e27111bde3d5c4e634fb324c2b5138fd70b6f7c66"
       }
+    ],
+    "topps-bowman-2025-26-topps-signature-class-basketball": [
+      {
+        "family": "BASE CARDS I",
+        "name": "Base",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Veteran Class Base",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Blue & Orange",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Veteran Class Base Blue & Orange",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Bronze",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Veteran Class Base Bronze",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Coral",
+        "numbering": "/299",
+        "oddsName": "Veteran Class Base Coral",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Magenta",
+        "numbering": "/250",
+        "oddsName": "Veteran Class Base Magenta",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Teal",
+        "numbering": "/225",
+        "oddsName": "Veteran Class Base Teal",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Lime",
+        "numbering": "/175",
+        "oddsName": "Veteran Class Base Lime",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Green",
+        "numbering": "/150",
+        "oddsName": "Veteran Class Base Green",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Purple",
+        "numbering": "/100",
+        "oddsName": "Veteran Class Base Purple",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Orange",
+        "numbering": "/50",
+        "oddsName": "Veteran Class Base Orange",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Red",
+        "numbering": "/25",
+        "oddsName": "Veteran Class Base Red",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Red Lava",
+        "numbering": "/25",
+        "oddsName": "Veteran Class Base Red Lava",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Black",
+        "numbering": "/10",
+        "oddsName": "Veteran Class Base Black",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Black Gold",
+        "numbering": "/10",
+        "oddsName": "Veteran Class Base Black Gold",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Blue",
+        "numbering": "/5",
+        "oddsName": "Veteran Class Base Blue",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "FoilFractor",
+        "numbering": "1/1",
+        "oddsName": "Veteran Class Base FoilFractor",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Pink",
+        "numbering": "/75",
+        "oddsName": "Veteran Class Base Pink",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Yellow",
+        "numbering": "/399",
+        "oddsName": "Veteran Class Base Yellow",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Base",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Rookie Class Base",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Blue & Orange",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Rookie Class Base Blue & Orange",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Bronze",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Rookie Class Base Bronze",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Coral",
+        "numbering": "/299",
+        "oddsName": "Rookie Class Base Coral",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Magenta",
+        "numbering": "/250",
+        "oddsName": "Rookie Class Base Magenta",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Teal",
+        "numbering": "/225",
+        "oddsName": "Rookie Class Base Teal",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Lime",
+        "numbering": "/175",
+        "oddsName": "Rookie Class Base Lime",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Green",
+        "numbering": "/150",
+        "oddsName": "Rookie Class Base Green",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Purple",
+        "numbering": "/100",
+        "oddsName": "Rookie Class Base Purple",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Orange",
+        "numbering": "/50",
+        "oddsName": "Rookie Class Base Orange",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Red",
+        "numbering": "/25",
+        "oddsName": "Rookie Class Base Red",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Red Lava",
+        "numbering": "/25",
+        "oddsName": "Rookie Class Base Red Lava",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Black",
+        "numbering": "/10",
+        "oddsName": "Rookie Class Base Black",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Black Gold",
+        "numbering": "/10",
+        "oddsName": "Rookie Class Base Black Gold",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Blue",
+        "numbering": "/5",
+        "oddsName": "Rookie Class Base Blue",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "FoilFractor",
+        "numbering": "1/1",
+        "oddsName": "Rookie Class Base FoilFractor",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Pink",
+        "numbering": "/75",
+        "oddsName": "Rookie Class Base Pink",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II",
+        "name": "Yellow",
+        "numbering": "/399",
+        "oddsName": "Rookie Class Base Yellow",
+        "qualification": "Education sheet page 2: paper ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Base",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Veteran Class Chrome Base",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Refractor",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Veteran Class Chrome Base Refractor",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Pandora",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Veteran Class Chrome Base Pandora",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Pandora Yellow",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Veteran Class Chrome Base Pandora Yellow",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Magenta",
+        "numbering": "/250",
+        "oddsName": "Veteran Class Chrome Base Magenta",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Teal",
+        "numbering": "/225",
+        "oddsName": "Veteran Class Chrome Base Teal",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Lime",
+        "numbering": "/175",
+        "oddsName": "Veteran Class Chrome Base Lime",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Green",
+        "numbering": "/150",
+        "oddsName": "Veteran Class Chrome Base Green",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Purple",
+        "numbering": "/100",
+        "oddsName": "Veteran Class Chrome Base Purple",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Orange",
+        "numbering": "/50",
+        "oddsName": "Veteran Class Chrome Base Orange",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Red",
+        "numbering": "/25",
+        "oddsName": "Veteran Class Chrome Base Red",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Red Lava",
+        "numbering": "/25",
+        "oddsName": "Veteran Class Chrome Base Red Lava",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Gold",
+        "numbering": "/10",
+        "oddsName": "Veteran Class Chrome Base Gold",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Blue",
+        "numbering": "/5",
+        "oddsName": "Veteran Class Chrome Base Blue",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Veteran Class Chrome Base Superfractor",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Pink",
+        "numbering": "/75",
+        "oddsName": "Veteran Class Chrome Base Pink",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Base",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Rookie Class Chrome Base",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Refractor",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Rookie Class Chrome Base Refractor",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Pandora",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Rookie Class Chrome Base Pandora",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Pandora Yellow",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Rookie Class Chrome Base Pandora Yellow",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Magenta",
+        "numbering": "/250",
+        "oddsName": "Rookie Class Chrome Base Magenta",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Teal",
+        "numbering": "/225",
+        "oddsName": "Rookie Class Chrome Base Teal",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Lime",
+        "numbering": "/175",
+        "oddsName": "Rookie Class Chrome Base Lime",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Green",
+        "numbering": "/150",
+        "oddsName": "Rookie Class Chrome Base Green",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Purple",
+        "numbering": "/100",
+        "oddsName": "Rookie Class Chrome Base Purple",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Orange",
+        "numbering": "/50",
+        "oddsName": "Rookie Class Chrome Base Orange",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Red",
+        "numbering": "/25",
+        "oddsName": "Rookie Class Chrome Base Red",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Red Lava",
+        "numbering": "/25",
+        "oddsName": "Rookie Class Chrome Base Red Lava",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Gold",
+        "numbering": "/10",
+        "oddsName": "Rookie Class Chrome Base Gold",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Blue",
+        "numbering": "/5",
+        "oddsName": "Rookie Class Chrome Base Blue",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Rookie Class Chrome Base Superfractor",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Pink",
+        "numbering": "/75",
+        "oddsName": "Rookie Class Chrome Base Pink",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "VETERAN CLASS CRYSTAL CLEAR AUTOGRAPHS",
+        "name": "Base",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Veteran Class Crystal Clear Autographs",
+        "qualification": "Education sheet page 2: crystal ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "ROOKIE CLASS CRYSTAL CLEAR AUTOGRAPHS",
+        "name": "Base",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Rookie Class Crystal Clear Autographs",
+        "qualification": "Education sheet page 2: crystal ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "LEGENDS OF THEIR CLASS CRYSTAL CLEAR AUTOGRAPHS",
+        "name": "Base",
+        "numbering": "Not serial-numbered (published)",
+        "oddsName": "Legends of Their Class Crystal Clear Autographs",
+        "qualification": "Education sheet page 2: crystal ladder only; never applied to other insert or autograph families. Original printed value: /Non-#'d",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "VETERAN CLASS CRYSTAL CLEAR AUTOGRAPHS",
+        "name": "Monarch",
+        "numbering": "/5",
+        "oddsName": "Veteran Class Crystal Clear Autographs Monarch",
+        "qualification": "Education sheet page 2: crystal ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "ROOKIE CLASS CRYSTAL CLEAR AUTOGRAPHS",
+        "name": "Monarch",
+        "numbering": "/5",
+        "oddsName": "Rookie Class Crystal Clear Autographs Monarch",
+        "qualification": "Education sheet page 2: crystal ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "LEGENDS OF THEIR CLASS CRYSTAL CLEAR AUTOGRAPHS",
+        "name": "Monarch",
+        "numbering": "/5",
+        "oddsName": "Legends of Their Class Crystal Clear Autographs Monarch",
+        "qualification": "Education sheet page 2: crystal ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "VETERAN CLASS CRYSTAL CLEAR AUTOGRAPHS",
+        "name": "Milkweed",
+        "numbering": "1/1",
+        "oddsName": "Veteran Class Crystal Clear Autographs Milkweed",
+        "qualification": "Education sheet page 2: crystal ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "ROOKIE CLASS CRYSTAL CLEAR AUTOGRAPHS",
+        "name": "Milkweed",
+        "numbering": "1/1",
+        "oddsName": "Rookie Class Crystal Clear Autographs Milkweed",
+        "qualification": "Education sheet page 2: crystal ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "LEGENDS OF THEIR CLASS CRYSTAL CLEAR AUTOGRAPHS",
+        "name": "Milkweed",
+        "numbering": "1/1",
+        "oddsName": "Legends of Their Class Crystal Clear Autographs Milkweed",
+        "qualification": "Education sheet page 2: crystal ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS I CHROME VARIATION",
+        "name": "Yellow",
+        "numbering": "/275",
+        "oddsName": "Veteran Class Chrome Base Yellow",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      },
+      {
+        "family": "BASE CARDS II CHROME VARIATION",
+        "name": "Yellow",
+        "numbering": "/275",
+        "oddsName": "Rookie Class Chrome Base Yellow",
+        "qualification": "Education sheet page 2: chrome ladder only; never applied to other insert or autograph families.",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+        "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+        "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
+      }
     ]
   },
   "conflicts": [
@@ -8522,6 +9314,14 @@
       "source": "https://ripped.topps.com/2026-topps-stadium-club-wwe-cards-collector-guide/",
       "evidenceFile": "data/parallel-audit-sources/stadium-club-wwe-2026-20261016.json",
       "evidenceSha256": "4e7fb8ca09e8e1649f783b1e27111bde3d5c4e634fb324c2b5138fd70b6f7c66"
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-signature-class-basketball",
+      "family": "Other parallel numbering, source omissions and release date",
+      "gap": "The education sheet numbers only the named paper base, Chrome base and Crystal Clear Autographs programs; other autograph and insert ladders remain unverified. Paper omits numbers 68 and 150, while Chrome publishes all 150; retain both source programs without filling omissions. The chase guide describes 25 Aristocrats subjects but the checklist prints 20; no extra subjects are inferred. The odds headers name four formats but no ratio unit. Rookie Class Base Hobby Jumbo prints 2.1; preserve the period and do not calculate a hit rate. No reviewed official statement establishes a general calendar release date. The education sheet labels Eternity Marks while the checklist and odds print Eternal Marks; retain original wording without inferring a new program.",
+      "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905",
+      "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+      "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
     }
   ]
 }

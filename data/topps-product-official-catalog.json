@@ -1961,5 +1961,39 @@
       "sha256": "ac9c712a322b80efd3d415544876ddf9cb74a73a27a2f942bbe0ed6cc489e75f",
       "source": "https://ripped.topps.com/2025-26-topps-definitive-basketball-guide/"
     }
+  },
+  {
+    "title": "2025-26 Topps Signature Class Basketball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "basketball",
+    "year": "2025-26",
+    "sourcePage": "https://www.topps.com/pages/topps-signature-class-basketball",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "All 1,097 numbered subject rows across 31 sections are reconciled with separate Name/Team cells and 439 literal Rookie marks. Paper has 148 numbers (68 and 150 absent), while Chrome has all 150; no missing subjects are invented. Four unnumbered packaging subjects are retained separately. All 199 odds categories retain four literal format headings and original cells, including Rookie Class Base Hobby Jumbo 2.1. The headers do not state a ratio unit; no pack rate is computed. The education sheet supplies 79 exact paper base, Chrome base and Crystal Clear parallel terms, including explicitly unnumbered cards. These limits do not apply to other autograph or insert programs. The guide describes 25 Aristocrats subjects but the checklist prints 20; the discrepancy remains explicit. Other parallel ladders and a general release date remain unverified.",
+    "slug": "topps-bowman-2025-26-topps-signature-class-basketball",
+    "page": "sets/topps-bowman-2025-26-topps-signature-class-basketball.html",
+    "status": "Source table",
+    "verified": "2026-10-16",
+    "odds": 199,
+    "formats": 4,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Odds.pdf?v=1777313248",
+    "oddsImportIssues": 0,
+    "rowCount": 1097,
+    "tableData": "data/imports/topps-bowman-2025-26-topps-signature-class-basketball.json",
+    "sections": 31,
+    "importKind": "pdf",
+    "dataAudit": "All 1,097 numbered subject rows across 31 sections are reconciled with separate Name/Team cells and 439 literal Rookie marks. Paper has 148 numbers (68 and 150 absent), while Chrome has all 150; no missing subjects are invented. Four unnumbered packaging subjects are retained separately. All 199 odds categories retain four literal format headings and original cells, including Rookie Class Base Hobby Jumbo 2.1. The headers do not state a ratio unit; no pack rate is computed. The education sheet supplies 79 exact paper base, Chrome base and Crystal Clear parallel terms, including explicitly unnumbered cards. These limits do not apply to other autograph or insert programs. The guide describes 25 Aristocrats subjects but the checklist prints 20; the discrepancy remains explicit. Other parallel ladders and a general release date remain unverified.",
+    "parallelData": true,
+    "sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+    "dedicatedParser": "scripts/import_topps_signature_basketball_2025.py",
+    "coverageComplete": true,
+    "oddsParser": "scripts/import_topps_signature_basketball_2025.py",
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
+      "sha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f",
+      "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Sig_Class_BK_Education_Sheet-_FINAL.pdf?v=1779819905"
+    }
   }
 ]

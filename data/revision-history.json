@@ -718,10 +718,34 @@
       "oddsHash": "bcaf92c47bae5fa7a1f0b14a9711946e106eb6a27a8a7aecec5af807a9b61b82",
       "rows": 1097,
       "odds": 199,
-      "specificationRows": 0
+      "specificationRows": 101,
+      "specificationHash": "9ed9a4aa5d01a9a4ab7c678218a03ad20492e22d0128a0ef3907fb5e4f5ee173"
     },
-    "fingerprint": "620477d7e2213f9d5b794305af5cdb65c9e332de70b031248553c4d3fdd58f2b",
+    "fingerprint": "fa68bf80a3e6882d860d6a2e1f3a7c7ccfb898e87a86da2c365013aae82006d8",
     "events": [
+      {
+        "at": "2026-10-16T18:51:55.475Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 101",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+        "snapshot": {
+          "checklistHash": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+          "oddsHash": "bcaf92c47bae5fa7a1f0b14a9711946e106eb6a27a8a7aecec5af807a9b61b82",
+          "rows": 1097,
+          "odds": 199,
+          "specificationRows": 101,
+          "specificationHash": "9ed9a4aa5d01a9a4ab7c678218a03ad20492e22d0128a0ef3907fb5e4f5ee173"
+        },
+        "previousSnapshot": {
+          "checklistHash": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+          "oddsHash": "bcaf92c47bae5fa7a1f0b14a9711946e106eb6a27a8a7aecec5af807a9b61b82",
+          "rows": 1097,
+          "odds": 199,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.281Z",
         "changes": [
