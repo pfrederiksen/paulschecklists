@@ -34,6 +34,14 @@ for(const set of cases){
   get('source-section').value=numbered[0];get('source-section').onchange();get('source-team').value=numbered[10];get('source-team').onchange();get('source-search').value=numbered[2];get('source-search').oninput();assert(get('source-results').innerHTML.includes('title="/'+numbered[3]+'"'), 'Published SEQUENCE must display as out-of numbering');
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"SPORT","YEAR","BRAND","PROGRAM","CARD SET","ATHLETE","TEAM","POSITION","CARD NUMBER","SEQUENCE"'));assert(csv.includes('"'+String(numbered[2]).replaceAll('"','""')+'"'));get('source-reset').onclick();
  }
+ if(set.slug==='topps-now-2026-27-nfl-topps-now'){
+  const index=data.rows.findIndex(r=>r[1]==='60');assert(index>=0);
+  get('source-search').value='Denver Broncos';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');
+  get('source-results').onclick({target:{closest:()=>({dataset:{row:String(index)}})}});
+  const details=get('source-results').innerHTML;assert(details.includes('Denver Broncos')&&details.includes('/50 Gold Foil')&&details.includes('Oct 19, 2026'));assert(!details.includes('Josh Allen')&&!details.includes('Matthew Stafford'),'Expanded card specifications must exclude other card numbers in the same series');
+  assert.equal((details.match(/60<\/td><td>Denver Broncos<\/td><td>\//g)||[]).length,5,'Only the five card-specific foil specification rows belong in this detail view');
+  get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Josh Allen')&&get('source-specifications').innerHTML.includes('Denver Broncos'),'The series tab retains every card specification');get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-26-topps-signature-class-basketball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
