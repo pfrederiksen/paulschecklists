@@ -429,6 +429,22 @@
           "method": "Actual official web read"
         }
       ]
+    },
+    {
+      "slug": "topps-bowman-2025-26-bowman-university-best-basketball",
+      "gap": "May 15 is published store availability and guide publication; a general calendar release date remains unverified.",
+      "sources": [
+        {
+          "url": "https://www.topps.com/products/2025-26-bowman-university-best-basketball-hobby-box-sealed-case",
+          "statement": "Available From May 15, 2026; store Product Year 2026, printed title 2025-26.",
+          "method": "Fresh official product web read."
+        },
+        {
+          "url": "https://ripped.topps.com/2025-26-bowman-university-best-basketball-chase-cards-guide/",
+          "statement": "Guide publication May 15, 2026; no explicit release date in the full guide.",
+          "method": "Actual official browser accessibility read."
+        }
+      ]
     }
   ]
 }

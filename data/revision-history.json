@@ -1272,12 +1272,36 @@
     "state": {
       "checklistHash": "b50a72d4e164388cf0da7decbf535607cdc90bfb6487f668c94bf058665db266",
       "oddsHash": "85c6cc5964056973f000dab43d996dd5dfd93e62c0a9dd3cc7fc1f1bd28522d2",
-      "rows": 617,
+      "rows": 658,
       "odds": 133,
-      "specificationRows": 0
+      "specificationRows": 10,
+      "specificationHash": "40e5eb0b2d89ec60e875b631128f86a2cc204e264db970d6fc94836d2fdc0f29"
     },
-    "fingerprint": "29a609937f58e81d0381177f86f1c72442b89f295f071a683c3d51b6c076538c",
+    "fingerprint": "fcdd1a1ce4bd3d7d646e3fbc977800923751f0ca7edb7f0549e275121e7d4768",
     "events": [
+      {
+        "at": "2026-10-16T05:45:30.142Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 10",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26BUBB_VERSION2.pdf?v=1776781082",
+        "snapshot": {
+          "checklistHash": "b50a72d4e164388cf0da7decbf535607cdc90bfb6487f668c94bf058665db266",
+          "oddsHash": "85c6cc5964056973f000dab43d996dd5dfd93e62c0a9dd3cc7fc1f1bd28522d2",
+          "rows": 658,
+          "odds": 133,
+          "specificationRows": 10,
+          "specificationHash": "40e5eb0b2d89ec60e875b631128f86a2cc204e264db970d6fc94836d2fdc0f29"
+        },
+        "previousSnapshot": {
+          "checklistHash": "b50a72d4e164388cf0da7decbf535607cdc90bfb6487f668c94bf058665db266",
+          "oddsHash": "85c6cc5964056973f000dab43d996dd5dfd93e62c0a9dd3cc7fc1f1bd28522d2",
+          "rows": 617,
+          "odds": 133,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.476Z",
         "changes": [

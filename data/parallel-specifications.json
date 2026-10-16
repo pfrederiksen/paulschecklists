@@ -6971,6 +6971,19 @@
         "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
         "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
       }
+    ],
+    "topps-bowman-2025-26-bowman-university-best-basketball": [
+      {
+        "family": "LETS GO",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "LET'S GO Superfractor",
+        "source": "https://ripped.topps.com/2025-26-bowman-university-best-basketball-chase-cards-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Crossover Chase: Let’s Go",
+        "evidenceFile": "data/parallel-audit-sources/bowman-u-best-basketball-2025-26-20261015.json",
+        "evidenceSha256": "df085ebc759ee328fc241bb5f2551bb5e8b927220135b0665f63506016b55828"
+      }
     ]
   },
   "conflicts": [
@@ -7223,6 +7236,14 @@
       "source": "https://www.topps.com/pages/topps-chrome-veefriends",
       "evidenceFile": "data/parallel-audit-sources/veefriends-2026-20261015.json",
       "evidenceSha256": "880d7cc24355b7d8dfad92005ea04e0060c011f0358c46a2ea11d68407b56c0a"
+    },
+    {
+      "slug": "topps-bowman-2025-26-bowman-university-best-basketball",
+      "family": "Other numbering and card-specific guide example",
+      "gap": "The official guide does not provide an exhaustive family-by-family parallel numbering ladder. The AJ Dybantsa BYU Blue 150-copy example does not establish serial numbering or limits for other base cards. The Hobby odds PDF names a format but no ratio unit; pack probabilities and per-card eligibility remain unverified. May 15 is published store availability and guide publication; a general calendar release date remains unverified.",
+      "source": "https://ripped.topps.com/2025-26-bowman-university-best-basketball-chase-cards-guide/",
+      "evidenceFile": "data/parallel-audit-sources/bowman-u-best-basketball-2025-26-20261015.json",
+      "evidenceSha256": "df085ebc759ee328fc241bb5f2551bb5e8b927220135b0665f63506016b55828"
     }
   ]
 }

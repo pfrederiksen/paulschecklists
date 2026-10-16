@@ -1,0 +1,67 @@
+{
+  "observed": "2026-10-15",
+  "method": "Fresh official checklist and odds downloads; official product/landing web reads and full guide browser accessibility read. Source content supplies facts only.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26BUBB_VERSION2.pdf?v=1776781082",
+  "checklistSha256": "b50a72d4e164388cf0da7decbf535607cdc90bfb6487f668c94bf058665db266",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25_26_Bowman_U_Best_Basketball_Odds.pdf?v=1778857649",
+  "oddsSha256": "85c6cc5964056973f000dab43d996dd5dfd93e62c0a9dd3cc7fc1f1bd28522d2",
+  "sources": {
+    "landing": "https://www.topps.com/pages/bowman-university-best-basketball",
+    "product": "https://www.topps.com/products/2025-26-bowman-university-best-basketball-hobby-box-sealed-case",
+    "guide": "https://ripped.topps.com/2025-26-bowman-university-best-basketball-chase-cards-guide/"
+  },
+  "productFields": [
+    [
+      "Product Year",
+      "2026",
+      "Store metadata; the printed checklist season/title is 2025-26."
+    ],
+    [
+      "Available From",
+      "May 15, 2026",
+      "Official store availability; no general release date is asserted."
+    ],
+    [
+      "Hobby configuration",
+      "10 cards per pack; 4 packs per box; 12 boxes per case",
+      "Box contents, not pack odds."
+    ],
+    [
+      "Autographs",
+      "4 per box: 1 relic autograph and 3 additional autographs",
+      "Published box configuration; no conversion to pack probabilities."
+    ]
+  ],
+  "guideFields": [
+    [
+      "Base checklist",
+      "100 cards",
+      "Matches the 100 printed base numbers."
+    ],
+    [
+      "AJ Dybantsa BYU Blue example",
+      "Limited to 150 copies",
+      "Card-specific example; serial numbering is not stated. No base-wide /150 specification is inferred."
+    ],
+    [
+      "Let’s Go SuperFractors",
+      "1-of-1",
+      "Exact Let’s Go family/parallel join only; no other Superfractor limits inferred."
+    ],
+    [
+      "Guide publication",
+      "May 15, 2026",
+      "Publication date, not explicit release-date evidence."
+    ],
+    [
+      "Coaches Ink",
+      "5 cards",
+      "Matches the five printed entries."
+    ]
+  ],
+  "remainingGaps": [
+    "The official guide does not provide an exhaustive family-by-family parallel numbering ladder. The AJ Dybantsa BYU Blue 150-copy example does not establish serial numbering or limits for other base cards.",
+    "The Hobby odds PDF names a format but no ratio unit; pack probabilities and per-card eligibility remain unverified.",
+    "May 15 is published store availability and guide publication; a general calendar release date remains unverified."
+  ]
+}
