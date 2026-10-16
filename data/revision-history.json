@@ -844,12 +844,36 @@
     "state": {
       "checklistHash": "324210889dbe0dae22582720a58dccd4eda9a62d7dfcab9de95d21ca38661dd9",
       "oddsHash": "21683f175f079808e5f21c49d4b48c37f7bb949dc32f4ab179c9cfccea3ca0f9",
-      "rows": 1114,
+      "rows": 1137,
       "odds": 410,
-      "specificationRows": 0
+      "specificationRows": 42,
+      "specificationHash": "3637277be0ca20fce213408ca99b9e160c0f7391dfb37b6a7a6bbe45afcc6bdf"
     },
-    "fingerprint": "d21a496e9622036a887bdff6c0067f48cede90591d3d9914518f2e4f2853f4cb",
+    "fingerprint": "bda32587734172a64fb1d4d587b3f781417857f3dc694c84af2f38e5fb574778",
     "events": [
+      {
+        "at": "2026-10-16T06:46:10.601Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 42",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_26CWWE_ChromeWWE.pdf?v=1775658305",
+        "snapshot": {
+          "checklistHash": "324210889dbe0dae22582720a58dccd4eda9a62d7dfcab9de95d21ca38661dd9",
+          "oddsHash": "21683f175f079808e5f21c49d4b48c37f7bb949dc32f4ab179c9cfccea3ca0f9",
+          "rows": 1137,
+          "odds": 410,
+          "specificationRows": 42,
+          "specificationHash": "3637277be0ca20fce213408ca99b9e160c0f7391dfb37b6a7a6bbe45afcc6bdf"
+        },
+        "previousSnapshot": {
+          "checklistHash": "324210889dbe0dae22582720a58dccd4eda9a62d7dfcab9de95d21ca38661dd9",
+          "oddsHash": "21683f175f079808e5f21c49d4b48c37f7bb949dc32f4ab179c9cfccea3ca0f9",
+          "rows": 1114,
+          "odds": 410,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.373Z",
         "changes": [

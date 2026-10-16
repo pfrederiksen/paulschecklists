@@ -1,0 +1,273 @@
+{
+  "observed": "2026-10-15",
+  "method": "Fresh official PDF downloads, official product web reads, and actual full official Collector Guide / Box Guide browser accessibility reads. Normalized factual evidence; not a raw HTML hash. Source documents supply facts only.",
+  "checklistSha256": "324210889dbe0dae22582720a58dccd4eda9a62d7dfcab9de95d21ca38661dd9",
+  "oddsSha256": "21683f175f079808e5f21c49d4b48c37f7bb949dc32f4ab179c9cfccea3ca0f9",
+  "sources": {
+    "landing": "https://www.topps.com/pages/wwe-chrome",
+    "product": "https://www.topps.com/products/2026-topps-chrome-wwe-hobby-box",
+    "guide": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+    "formats": "https://ripped.topps.com/2026-topps-chrome-wwe-best-box/"
+  },
+  "numbering": [
+    {
+      "family": "BASE CARDS I",
+      "name": "Magenta Refractor",
+      "numbering": "/399",
+      "oddsName": "BASE MAGENTA REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Teal Refractor",
+      "numbering": "/299",
+      "oddsName": "BASE TEAL REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Yellow Refractor",
+      "numbering": "/275",
+      "oddsName": "BASE YELLOW REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Pink Refractor",
+      "numbering": "/250",
+      "oddsName": "BASE PINK REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Aqua Refractor",
+      "numbering": "/199",
+      "oddsName": "BASE AQUA REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Blue Refractor",
+      "numbering": "/150",
+      "oddsName": "BASE BLUE REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Green Refractor",
+      "numbering": "/99",
+      "oddsName": "BASE GREEN REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Purple Refractor",
+      "numbering": "/75",
+      "oddsName": "BASE PURPLE REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Gold Refractor",
+      "numbering": "/50",
+      "oddsName": "BASE GOLD REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Orange Refractor",
+      "numbering": "/25",
+      "oddsName": "BASE ORANGE REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "oddsName": "BASE BLACK REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "oddsName": "BASE RED REFRACTOR"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "BASE SUPERFRACTOR"
+    },
+    {
+      "family": "AUSTIN 3 16 (HOBBY, FDI)",
+      "name": "Gold Refractor",
+      "numbering": "/50",
+      "oddsName": "AUSTIN 3:16 GOLD REFRACTOR"
+    },
+    {
+      "family": "AUSTIN 3 16 (HOBBY, FDI)",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "oddsName": "AUSTIN 3:16 BLACK REFRACTOR"
+    },
+    {
+      "family": "AUSTIN 3 16 (HOBBY, FDI)",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "oddsName": "AUSTIN 3:16 RED REFRACTOR"
+    },
+    {
+      "family": "AUSTIN 3 16 (HOBBY, FDI)",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "AUSTIN 3:16 SUPERFRACTOR"
+    },
+    {
+      "family": "FAMILY TREE (HOBBY, FDI)",
+      "name": "Gold Refractor",
+      "numbering": "/50",
+      "oddsName": "FAMILY TREE GOLD REFRACTOR"
+    },
+    {
+      "family": "FAMILY TREE (HOBBY, FDI)",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "oddsName": "FAMILY TREE BLACK REFRACTOR"
+    },
+    {
+      "family": "FAMILY TREE (HOBBY, FDI)",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "oddsName": "FAMILY TREE RED REFRACTOR"
+    },
+    {
+      "family": "FAMILY TREE (HOBBY, FDI)",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "FAMILY TREE SUPERFRACTOR"
+    },
+    {
+      "family": "GPK",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "oddsName": "GPK BLACK REFRACTOR"
+    },
+    {
+      "family": "GPK",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "oddsName": "GPK RED REFRACTOR"
+    },
+    {
+      "family": "GPK",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "GPK SUPERFRACTOR"
+    },
+    {
+      "family": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+      "name": "Gold Refractor",
+      "numbering": "/50",
+      "oddsName": "THE ROCK: DIAMOND LEGACY GOLD REFRACTOR"
+    },
+    {
+      "family": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "oddsName": "THE ROCK: DIAMOND LEGACY BLACK REFRACTOR"
+    },
+    {
+      "family": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "oddsName": "THE ROCK: DIAMOND LEGACY RED REFRACTOR"
+    },
+    {
+      "family": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "THE ROCK: DIAMOND LEGACY SUPERFRACTOR"
+    },
+    {
+      "family": "MARKS OF CHAMPIONS",
+      "name": "Gold Refractor",
+      "numbering": "/50",
+      "oddsName": "MARKS OF CHAMPIONS AUTOGRAPHS GOLD REFRACTOR"
+    },
+    {
+      "family": "MARKS OF CHAMPIONS",
+      "name": "Orange Refractor",
+      "numbering": "/25",
+      "oddsName": "MARKS OF CHAMPIONS AUTOGRAPHS ORANGE REFRACTOR"
+    },
+    {
+      "family": "MARKS OF CHAMPIONS",
+      "name": "Black Refractor",
+      "numbering": "/10",
+      "oddsName": "MARKS OF CHAMPIONS AUTOGRAPHS BLACK REFRACTOR"
+    },
+    {
+      "family": "MARKS OF CHAMPIONS",
+      "name": "Red Refractor",
+      "numbering": "/5",
+      "oddsName": "MARKS OF CHAMPIONS AUTOGRAPHS RED REFRACTOR"
+    },
+    {
+      "family": "MARKS OF CHAMPIONS",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "MARKS OF CHAMPIONS AUTOGRAPHS SUPERFRACTOR"
+    }
+  ],
+  "productFields": [
+    [
+      "Hobby configuration",
+      "8 cards per pack; 12 packs per box; 2 Chrome autograph cards per box",
+      "Box contents; not used to establish PDF ratio units."
+    ],
+    [
+      "Product Year",
+      "2026",
+      "Store metadata."
+    ],
+    [
+      "Available From",
+      "April 10, 2026",
+      "Store availability; independent previously verified release statement retained."
+    ]
+  ],
+  "formatFields": [
+    [
+      "Hobby",
+      "Box configuration",
+      "12 packs; 8 cards per pack; 2 autographs; 12 refractors; 12 inserts; 4 numbered parallels",
+      "Published box contents; no per-pack conversion."
+    ],
+    [
+      "Hobby",
+      "Exclusive refractors",
+      "Prism, Negative, Sonar, Steel Cage",
+      "Guide format qualifiers; no new numbering inferred."
+    ],
+    [
+      "Hobby",
+      "FrozenFractors",
+      "#’d/5",
+      "Printed guide statement retained without a checklist-family join or generalized print-limit inference."
+    ],
+    [
+      "Delight",
+      "Box configuration",
+      "1 pack of 12 cards; 3 autographs; at least 1 Geometric autograph; multiple numbered parallels; a Geometric base parallel",
+      "Box-level distribution, not independent odds."
+    ],
+    [
+      "Value",
+      "Box configuration",
+      "7 packs of 4 cards; 7 inserts; 3 Diamond Plate parallels; 1 base refractor",
+      "Guide calls Diamond Plate exclusive to Value."
+    ],
+    [
+      "Mega",
+      "Box configuration",
+      "6 packs of 8 cards; 10 X-Fractors; 6 inserts; 1 numbered parallel",
+      "Guide also names Mini Diamonds without numerical limits."
+    ]
+  ],
+  "remainingGaps": [
+    "The guide’s 200-card base ladder joins only BASE CARDS I and II (printed numbers 1–200), not the separate BASE CARDS III 301 row, alternate personas, autograph, geometric, Logo or Sapphire categories. Other family/parallel limits remain unverified.",
+    "The format guide prints FrozenFractors #’d/5, but does not explicitly identify its checklist-family scope; retain the literal statement separately without choosing a broader numbering claim.",
+    "Combined-odds categories for Sapphire Selections, Infinite, Hidden Gems, non-autograph nWo, Logofractor autographs and non-autograph 2025 buybacks have no exact subject-family reconciliation in this PDF. The combined odds sheet remains intact, without invented rosters.",
+    "The combined PDF names 11 formats but no ratio unit. Keep literal three-part/period-separated values; box and format-guide contents do not establish pack probabilities. Exhaustive parallel coverage remains unverified."
+  ]
+}

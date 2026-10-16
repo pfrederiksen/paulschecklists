@@ -523,14 +523,23 @@
       "slug": "topps-bowman-2026-topps-chrome-wwe",
       "title": "2026 Topps Chrome® WWE",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/wwe-chrome",
       "oddsCategories": 410,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "numberedOddsCategories": 33,
+      "supplementalSpecifications": 33,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-chrome-wwe",
+          "family": "Other numbering, combined odds rosters and FrozenFractors",
+          "gap": "The guide’s 200-card base ladder joins only BASE CARDS I and II (printed numbers 1–200), not the separate BASE CARDS III 301 row, alternate personas, autograph, geometric, Logo or Sapphire categories. Other family/parallel limits remain unverified. The format guide prints FrozenFractors #’d/5, but does not explicitly identify its checklist-family scope; retain the literal statement separately without choosing a broader numbering claim. Combined-odds categories for Sapphire Selections, Infinite, Hidden Gems, non-autograph nWo, Logofractor autographs and non-autograph 2025 buybacks have no exact subject-family reconciliation in this PDF. The combined odds sheet remains intact, without invented rosters. The combined PDF names 11 formats but no ratio unit. Keep literal three-part/period-separated values; box and format-guide contents do not establish pack probabilities. Exhaustive parallel coverage remains unverified.",
+          "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+          "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+          "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-cosmic-chrome-baseball",

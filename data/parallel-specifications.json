@@ -6984,6 +6984,371 @@
         "evidenceFile": "data/parallel-audit-sources/bowman-u-best-basketball-2025-26-20261015.json",
         "evidenceSha256": "df085ebc759ee328fc241bb5f2551bb5e8b927220135b0665f63506016b55828"
       }
+    ],
+    "topps-bowman-2026-topps-chrome-wwe": [
+      {
+        "family": "BASE CARDS I",
+        "name": "Magenta Refractor",
+        "numbering": "/399",
+        "oddsName": "BASE MAGENTA REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Teal Refractor",
+        "numbering": "/299",
+        "oddsName": "BASE TEAL REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Yellow Refractor",
+        "numbering": "/275",
+        "oddsName": "BASE YELLOW REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Pink Refractor",
+        "numbering": "/250",
+        "oddsName": "BASE PINK REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Aqua Refractor",
+        "numbering": "/199",
+        "oddsName": "BASE AQUA REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Blue Refractor",
+        "numbering": "/150",
+        "oddsName": "BASE BLUE REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Green Refractor",
+        "numbering": "/99",
+        "oddsName": "BASE GREEN REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Purple Refractor",
+        "numbering": "/75",
+        "oddsName": "BASE PURPLE REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "oddsName": "BASE GOLD REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "oddsName": "BASE ORANGE REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "oddsName": "BASE BLACK REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "BASE RED REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "BASE SUPERFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "Base Set and Parallels",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "AUSTIN 3 16 (HOBBY, FDI)",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "oddsName": "AUSTIN 3:16 GOLD REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "AUSTIN 3 16 (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "AUSTIN 3 16 (HOBBY, FDI)",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "oddsName": "AUSTIN 3:16 BLACK REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "AUSTIN 3 16 (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "AUSTIN 3 16 (HOBBY, FDI)",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "AUSTIN 3:16 RED REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "AUSTIN 3 16 (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "AUSTIN 3 16 (HOBBY, FDI)",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "AUSTIN 3:16 SUPERFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "AUSTIN 3 16 (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "FAMILY TREE (HOBBY, FDI)",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "oddsName": "FAMILY TREE GOLD REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "FAMILY TREE (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "FAMILY TREE (HOBBY, FDI)",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "oddsName": "FAMILY TREE BLACK REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "FAMILY TREE (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "FAMILY TREE (HOBBY, FDI)",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "FAMILY TREE RED REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "FAMILY TREE (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "FAMILY TREE (HOBBY, FDI)",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "FAMILY TREE SUPERFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "FAMILY TREE (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "GPK",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "oddsName": "GPK BLACK REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "GPK",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "GPK",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "GPK RED REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "GPK",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "GPK",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "GPK SUPERFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "GPK",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "oddsName": "THE ROCK: DIAMOND LEGACY GOLD REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "oddsName": "THE ROCK: DIAMOND LEGACY BLACK REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "THE ROCK: DIAMOND LEGACY RED REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "THE ROCK: DIAMOND LEGACY SUPERFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "THE ROCK DIAMOND LEGACY (HOBBY, FDI)",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "MARKS OF CHAMPIONS",
+        "name": "Gold Refractor",
+        "numbering": "/50",
+        "oddsName": "MARKS OF CHAMPIONS AUTOGRAPHS GOLD REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "MARKS OF CHAMPIONS",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "MARKS OF CHAMPIONS",
+        "name": "Orange Refractor",
+        "numbering": "/25",
+        "oddsName": "MARKS OF CHAMPIONS AUTOGRAPHS ORANGE REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "MARKS OF CHAMPIONS",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "MARKS OF CHAMPIONS",
+        "name": "Black Refractor",
+        "numbering": "/10",
+        "oddsName": "MARKS OF CHAMPIONS AUTOGRAPHS BLACK REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "MARKS OF CHAMPIONS",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "MARKS OF CHAMPIONS",
+        "name": "Red Refractor",
+        "numbering": "/5",
+        "oddsName": "MARKS OF CHAMPIONS AUTOGRAPHS RED REFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "MARKS OF CHAMPIONS",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      },
+      {
+        "family": "MARKS OF CHAMPIONS",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "MARKS OF CHAMPIONS AUTOGRAPHS SUPERFRACTOR",
+        "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred.",
+        "sourceHeading": "MARKS OF CHAMPIONS",
+        "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+        "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
+      }
     ]
   },
   "conflicts": [
@@ -7244,6 +7609,14 @@
       "source": "https://ripped.topps.com/2025-26-bowman-university-best-basketball-chase-cards-guide/",
       "evidenceFile": "data/parallel-audit-sources/bowman-u-best-basketball-2025-26-20261015.json",
       "evidenceSha256": "df085ebc759ee328fc241bb5f2551bb5e8b927220135b0665f63506016b55828"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-wwe",
+      "family": "Other numbering, combined odds rosters and FrozenFractors",
+      "gap": "The guide’s 200-card base ladder joins only BASE CARDS I and II (printed numbers 1–200), not the separate BASE CARDS III 301 row, alternate personas, autograph, geometric, Logo or Sapphire categories. Other family/parallel limits remain unverified. The format guide prints FrozenFractors #’d/5, but does not explicitly identify its checklist-family scope; retain the literal statement separately without choosing a broader numbering claim. Combined-odds categories for Sapphire Selections, Infinite, Hidden Gems, non-autograph nWo, Logofractor autographs and non-autograph 2025 buybacks have no exact subject-family reconciliation in this PDF. The combined odds sheet remains intact, without invented rosters. The combined PDF names 11 formats but no ratio unit. Keep literal three-part/period-separated values; box and format-guide contents do not establish pack probabilities. Exhaustive parallel coverage remains unverified.",
+      "source": "https://ripped.topps.com/2026-topps-chrome-wwe-collector-guide/",
+      "evidenceFile": "data/parallel-audit-sources/chrome-wwe-2026-20261015.json",
+      "evidenceSha256": "a14099d032706647f7faa598599618575f3c9ee8fb802c351b8713f2d8053ef0"
     }
   ]
 }
