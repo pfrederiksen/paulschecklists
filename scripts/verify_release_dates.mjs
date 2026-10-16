@@ -53,6 +53,8 @@ assert.equal(by('topps-bowman-2026-bowman-baseball').releaseDate,null,'Conflicti
 assert(by('topps-bowman-2026-bowman-baseball').releaseDateGap.gap.includes('May 6 versus May 13'));
 for(const slug of ['topps-bowman-2026-bowman-chrome-baseball-mega-box','topps-bowman-2026-bowman-chrome-baseball-sapphire-edition','topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition'])assert.equal(by(slug).releaseDate,null,'Dates must not propagate to other variants');
 for(const set of catalog.sets.filter(s=>s.ongoingSeries))assert.equal(set.releaseDate,null,'NOW dates belong to individual cards');
+assert.equal(by('topps-bowman-topps-manchester-united-2025-26-team-set').releaseDate,null,'UK evidence must not become a universal release date');
+assert.equal(by('topps-bowman-topps-manchester-united-2025-26-team-set').regionalReleaseEvidence.date,'2026-02-12');
 const sorted=catalog.sets.filter(s=>(!s.ongoingSeries||s.slug==='topps-now-2026')&&hasCards(s)).toSorted(compareSets);
 const latest=sorted[0];assert.equal(latest.releaseStatus,'Released');assert(sorted.every(s=>s.releaseStatus!=='Released'||!s.releaseDate||s.releaseDate<=latest.releaseDate));
 const html=await readFile('docs/index.html','utf8');assert.equal([...html.matchAll(/<h3><a href="([^"]+)"/g)][0][1],latest.page);

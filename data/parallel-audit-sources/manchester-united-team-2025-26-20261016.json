@@ -1,0 +1,23 @@
+{
+  "observed": "2026-10-16",
+  "method": "Normalized factual snapshot of the complete official UK guide read in the in-app browser, supported by original PDF physical-column inspection. File hash verifies this observation, not raw HTML.",
+  "source": "https://ripped.topps.com/uk/dropping-soon-manchester-united-2025-26-team-set/",
+  "checklistSha256": "8ee87ca83e94f99816ba95fddf88895319832485ac13c38182a09493ab0e0b10",
+  "regionalRelease": {"date": "2026-02-12", "market": "United Kingdom", "statement": "On 12th February 2026, Topps is releasing the Manchester United 2025/26 Team Set.", "qualification": "Official UK guide announcement; a universal release date is not established."},
+  "configuration": [
+    ["Packs per box", "6", "Box configuration"],
+    ["Cards per pack", "5", "Pack contents, not category odds"],
+    ["Halo parallels", "3 per box", "No exact checklist-family scope or print limit is supplied"],
+    ["Sequentially numbered parallels", "2 per box", "No parallel names or individual limits are supplied"],
+    ["Static Foil parallel", "1 per box", "No exact checklist-family scope or print limit is supplied"],
+    ["Autograph distribution", "1 in every 2 boxes", "Published box unit; no per-pack conversion"],
+    ["Rainbow Flick distribution", "1 card per case", "Published case unit; no individual-card eligibility or per-pack rate inferred"]
+  ],
+  "cardSpecific": {"family": "BASE CARDS AUTOGRAPH VARIATION", "cardNumber": "AU-AF", "subject": "Sir Alex Ferguson", "statement": "1/1 Sir Alex Ferguson Base Autograph", "qualification": "Named card example only; no parallel name or family-wide limit is stated."},
+  "remainingGaps": [
+    "The checked UK guide publishes no family-by-family serial-number ladder. Halo, Static Foil and sequentially numbered box contents do not establish per-card eligibility or numbering.",
+    "The UK February 12, 2026 announcement is retained as regional release evidence; the shared general release-date field remains unverified.",
+    "No per-pack odds document was found for this exact set in the checked global odds listing. The UK landing page exposes no product-specific odds link; the corresponding UK product path returns 404 and the indexed India product redirects to its closed-store notice. Indexed product snippets are not imported evidence.",
+    "Exhaustive parallel coverage remains unconfirmed."
+  ]
+}

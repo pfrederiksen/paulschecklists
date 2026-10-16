@@ -846,10 +846,19 @@
       "oddsCategories": 0,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
-      "structuredNumbering": false,
+      "structuredNumbering": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-topps-manchester-united-2025-26-team-set",
+          "family": "Card-specific autograph example, distribution units and regional release",
+          "gap": "The checked UK guide publishes no family-by-family serial-number ladder. Halo, Static Foil and sequentially numbered box contents do not establish per-card eligibility or numbering. The UK February 12, 2026 announcement is retained as regional release evidence; the shared general release-date field remains unverified. No per-pack odds document was found for this exact set in the checked global odds listing. The UK landing page exposes no product-specific odds link; the corresponding UK product path returns 404 and the indexed India product redirects to its closed-store notice. Indexed product snippets are not imported evidence. Exhaustive parallel coverage remains unconfirmed.",
+          "source": "https://ripped.topps.com/uk/dropping-soon-manchester-united-2025-26-team-set/",
+          "evidenceFile": "data/parallel-audit-sources/manchester-united-team-2025-26-20261016.json",
+          "evidenceSha256": "bb2898c6b84475fb629247f3f295cfbffd77038b3f36666de0f725df3dcd8bca"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-midnight-ufc",

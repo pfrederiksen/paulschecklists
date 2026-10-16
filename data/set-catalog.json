@@ -1595,17 +1595,46 @@
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Manchester_United_Team_Set_2025-26_Checklist.pdf?v=1770828538",
       "releaseStatus": "Unverified",
       "releaseDate": null,
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+      "catalogEvidence": "All 119 physical entries across eight exact checklist sections are reconciled, with separate names, original club assignments and nine printed Rookie marks. The six Manchester United Women rows remain distinct from Manchester United; no rookie flags are propagated between subjects. All 50 numeric base entries, 25 Rainbow Flick cards, 32 Base autograph variations and 12 Bonafide Baller autograph variations are retained. Only AU-AF Sir Alex Ferguson receives the guide’s card-specific 1/1 example; no named parallel or family-wide numbering is inferred. Box contents, one autograph per two boxes and one Rainbow Flick card per case retain their published units, without invented pack odds. The UK guide announces February 12, 2026; this regional date is separate from the unverified general release date. Exhaustive parallel numbering remains unconfirmed.",
       "slug": "topps-bowman-topps-manchester-united-2025-26-team-set",
       "page": "sets/topps-bowman-topps-manchester-united-2025-26-team-set.html",
       "status": "Source table",
-      "verified": "2026-10-11",
+      "verified": "2026-10-16",
       "rowCount": 119,
       "tableData": "data/imports/topps-bowman-topps-manchester-united-2025-26-team-set.json",
       "sections": 8,
       "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "dataAudit": "All 119 physical entries across eight exact checklist sections are reconciled, with separate names, original club assignments and nine printed Rookie marks. The six Manchester United Women rows remain distinct from Manchester United; no rookie flags are propagated between subjects. All 50 numeric base entries, 25 Rainbow Flick cards, 32 Base autograph variations and 12 Bonafide Baller autograph variations are retained. Only AU-AF Sir Alex Ferguson receives the guide’s card-specific 1/1 example; no named parallel or family-wide numbering is inferred. Box contents, one autograph per two boxes and one Rainbow Flick card per case retain their published units, without invented pack odds. The UK guide announces February 12, 2026; this regional date is separate from the unverified general release date. Exhaustive parallel numbering remains unconfirmed.",
+      "parallelData": true,
+      "sha256": "8ee87ca83e94f99816ba95fddf88895319832485ac13c38182a09493ab0e0b10",
+      "dedicatedParser": "scripts/import_topps_united_team_2025.py",
+      "coverageComplete": true,
+      "regionalReleaseEvidence": {
+        "date": "2026-02-12",
+        "market": "United Kingdom",
+        "statement": "On 12th February 2026, Topps is releasing the Manchester United 2025/26 Team Set.",
+        "qualification": "Official UK guide announcement; a universal release date is not established.",
+        "source": "https://ripped.topps.com/uk/dropping-soon-manchester-united-2025-26-team-set/",
+        "evidenceFile": "data/parallel-audit-sources/manchester-united-team-2025-26-20261016.json",
+        "evidenceSha256": "bb2898c6b84475fb629247f3f295cfbffd77038b3f36666de0f725df3dcd8bca"
+      },
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/manchester-united-team-2025-26-20261016.json",
+        "sha256": "bb2898c6b84475fb629247f3f295cfbffd77038b3f36666de0f725df3dcd8bca",
+        "source": "https://ripped.topps.com/uk/dropping-soon-manchester-united-2025-26-team-set/"
+      },
+      "releaseDateGap": {
+        "gap": "Official UK guide announces February 12, 2026. Regional release evidence is retained in the shared source fields; a universal release date remains unverified.",
+        "sources": [
+          {
+            "url": "https://ripped.topps.com/uk/dropping-soon-manchester-united-2025-26-team-set/",
+            "statement": "On 12th February 2026, Topps is releasing the Manchester United 2025/26 Team Set.",
+            "scope": "United Kingdom",
+            "method": "Actual complete official guide read in the in-app browser"
+          }
+        ],
+        "observed": "2026-10-16"
+      }
     },
     {
       "title": "2026 Topps Midnight UFC",
