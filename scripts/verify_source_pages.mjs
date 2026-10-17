@@ -43,6 +43,14 @@ for(const set of cases){
   }
   get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2025-26-topps-finest-basketball'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-team').value='Philadelpia 76ers';get('source-team').onchange();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('Allen Iverson')&&csv.includes('191')&&csv.includes('Philadelpia 76ers'));get('source-reset').onclick();
+  get('source-team').value='Seattle Supersonics';get('source-team').onchange();assert.equal(get('source-count').textContent,'3 official source rows');get('source-export').onclick();assert(csv.includes('Ray Allen'));get('source-reset').onclick();
+  get('source-search').value='Hugo González';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('117')&&csv.includes('Boston Celtics'));get('source-reset').onclick();
+  get('source-section').value='BASE COMMON';get('source-section').onchange();get('source-odds-tab').onclick();assert(primarySpecifications().includes('5:1')&&!primarySpecifications().includes('5 cards per pack'));get('source-format').value='Breaker';get('source-format').onchange();get('source-export').onclick();assert(csv.includes('Base Common Geometric')&&csv.includes('2:1')&&!csv.includes('1/1'));assert(!primarySpecifications().includes('Cooper Flagg pull-report example'),'The unjoined Flagg pull must remain separate from a selected tier');get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-topps-finest-football'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});

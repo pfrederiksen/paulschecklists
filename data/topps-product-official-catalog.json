@@ -2143,5 +2143,49 @@
       "sha256": "bd9906f08df1a93d812b7844d62cd84b7ff96bcf7ffa1416acf6d7be5365c6b7",
       "source": "https://ripped.topps.com/2025-topps-finest-football-cards-chase-guide/"
     }
+  },
+  {
+    "title": "2025-26 Topps Finest Basketball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "basketball",
+    "year": "2025-26",
+    "sourcePage": "https://www.topps.com/pages/topps-finest-basketball",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+    "releaseStatus": "Released",
+    "releaseDate": "2026-02-26",
+    "catalogEvidence": "All 764 original subject rows across 17 sections are reconciled to physical Name/Team cell origins. All 300 tiered base numbers remain intact. The PDF publishes no Rookie column: the shared rookie control stays disabled, while guide annotations remain separate. All 217 odds categories retain original Hobby/Breaker columns, blank cells, literal Base Common 5:1 and Geometric 2:1; the sheet names no ratio unit. Combining accents, printed Cade Cunnigham, Philadelpia 76ers, Seattle Supersonics and Portland Trailblazers spellings remain unchanged. The official Flagg Black Geometric 1/1 pull lacks an exact printed number/tier join and remains qualified. Historical rookie-card limits never number this release. February 26, 2026 release evidence is retained separately; exhaustive parallel numbering remains unverified.",
+    "slug": "topps-bowman-2025-26-topps-finest-basketball",
+    "page": "sets/topps-bowman-2025-26-topps-finest-basketball.html",
+    "status": "Source table",
+    "verified": "2026-10-16",
+    "odds": 217,
+    "formats": 2,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Odds.pdf?v=1771360733",
+    "oddsImportIssues": 0,
+    "rowCount": 764,
+    "tableData": "data/imports/topps-bowman-2025-26-topps-finest-basketball.json",
+    "sections": 17,
+    "importKind": "pdf",
+    "dataAudit": "All 764 original subject rows across 17 sections are reconciled to physical Name/Team cell origins. All 300 tiered base numbers remain intact. The PDF publishes no Rookie column: the shared rookie control stays disabled, while guide annotations remain separate. All 217 odds categories retain original Hobby/Breaker columns, blank cells, literal Base Common 5:1 and Geometric 2:1; the sheet names no ratio unit. Combining accents, printed Cade Cunnigham, Philadelpia 76ers, Seattle Supersonics and Portland Trailblazers spellings remain unchanged. The official Flagg Black Geometric 1/1 pull lacks an exact printed number/tier join and remains qualified. Historical rookie-card limits never number this release. February 26, 2026 release evidence is retained separately; exhaustive parallel numbering remains unverified.",
+    "parallelData": true,
+    "verifiedRelease": {
+      "url": "https://ripped.topps.com/2025-26-topps-finest-basketball-checklist/",
+      "title": "2025-26 Topps Finest Basketball Checklist Spotlight",
+      "observed": "2026-10-15",
+      "method": "Official page read in the in-app browser",
+      "statement": "Release Date: February 26, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "c913945379f0d70b5946b5fa2891634295187f4b9d0a203c135aee445948a813",
+      "snapshotFile": "data/release-dates.json"
+    },
+    "sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+    "dedicatedParser": "scripts/import_topps_finest_basketball_2025.py",
+    "coverageComplete": true,
+    "oddsParser": "scripts/import_topps_finest_basketball_2025.py",
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/finest-basketball-2025-26-20261016.json",
+      "sha256": "ac0497838cc57c65d59853410e15071d114c09f3d45c6b72fe6153a97fe17b51",
+      "source": "https://ripped.topps.com/2025-26-topps-finest-basketball-checklist/"
+    }
   }
 ]

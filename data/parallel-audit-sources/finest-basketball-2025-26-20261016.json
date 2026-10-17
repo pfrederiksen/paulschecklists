@@ -1,0 +1,57 @@
+{
+  "observed": "2026-10-16",
+  "method": "Product-page links and original PDFs refreshed; full official spotlight, pull report and historical-rookie article read in the in-app browser; physical text-object starts and rendered odds columns inspected.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-finest-basketball",
+    "spotlight": "https://ripped.topps.com/2025-26-topps-finest-basketball-checklist/",
+    "pullReport": "https://ripped.topps.com/collector-pulls-cooper-flagg-1-of-1-2025-26-topps-finest-basketball-release-day/",
+    "rookieHistory": "https://ripped.topps.com/best-topps-finest-basketball-rookie-cards-ever/"
+  },
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+  "checklistSha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Odds.pdf?v=1771360733",
+  "oddsSha256": "4724d47e53cb58ed800057b4be345b121f923b1e39edeab804f03b1043bbb8f6",
+  "guidePublications": {
+    "spotlight": "2026-02-25",
+    "pullReport": "2026-03-06",
+    "rookieHistory": "2026-02-20"
+  },
+  "factualObservations": {
+    "subjects": 764,
+    "sections": 17,
+    "baseNumbers": 300,
+    "rookieFieldPublished": false,
+    "oddsCategories": 217,
+    "oddsFormats": [
+      "Hobby",
+      "Breaker"
+    ],
+    "ratioUnitPublished": false,
+    "hobbyConfiguration": {
+      "packsPerBox": 6,
+      "cardsPerPack": 10,
+      "cardsPerBox": 60
+    },
+    "pullExample": {
+      "subject": "Cooper Flagg",
+      "parallel": "Black Geometric",
+      "numbering": "1/1",
+      "format": "Breaker’s Delight",
+      "printedCardNumber": null,
+      "tier": null
+    },
+    "reportedShopClaim": "The pull-report interview describes three autographs per Breaker’s Delight box; this is retained as a reported shop statement, not used as manufacturer pack odds."
+  },
+  "candidateReview": {
+    "inventory": "data/parallel-audit-sources/candidates.json",
+    "source": "https://ripped.topps.com/best-topps-finest-basketball-rookie-cards-ever/",
+    "resolution": "The 250-copy candidate is for LeBron James 2003-04 card 133. Other numeric examples concern older releases. None establishes a 2025-26 parallel limit. The current release’s Cooper Flagg card 1 is named as RC without a numeric parallel limit."
+  },
+  "remainingGaps": [
+    "Exhaustive parallel numbering remains unverified; no color-based limits are inferred from odds names.",
+    "The Flagg Black Geometric 1/1 pull report does not identify Common / Uncommon / Rare or a printed card number; no numeric limit is assigned to a family or all Flagg cards.",
+    "Historical rookie-article /250, /25, /29 and /5 examples belong to older products and are not imported as current-release numbering.",
+    "The checklist PDF does not publish Rookie flags; its ROOKIE AUTOGRAPHS heading and guide card annotations do not establish row-level flags for all subjects.",
+    "The odds header names Hobby and Breaker but does not state ratio units. Keep literal 5:1 and 2:1; box configuration is separate."
+  ]
+}

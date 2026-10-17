@@ -294,9 +294,9 @@
       "oddsHash": "4724d47e53cb58ed800057b4be345b121f923b1e39edeab804f03b1043bbb8f6",
       "rows": 764,
       "odds": 217,
-      "specificationRows": 0
+      "specificationRows": 9
     },
-    "fingerprint": "0d08590e2fcfd3ba27da782943282e5b581f369b33befb640969aeb6fe772642",
+    "fingerprint": "24256a5457ab4781860353bc6e057390710890210a4d48255fabdca89cda1cb7",
     "events": [
       {
         "at": "2026-10-11T21:53:31.990Z",

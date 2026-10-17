@@ -9022,7 +9022,8 @@
         "evidenceFile": "data/parallel-audit-sources/f1-2026-product-odds-20261016.json",
         "evidenceSha256": "5def66988ec3a3494ffebcd8e5b2f85bd841a60c263cf445e20226155c8a955b"
       }
-    ]
+    ],
+    "topps-bowman-2025-26-topps-finest-basketball": []
   },
   "conflicts": [
     {
@@ -9418,6 +9419,14 @@
       "source": "https://ripped.topps.com/2026-topps-chrome-formula-1-what-box-is-best/",
       "evidenceFile": "data/parallel-audit-sources/f1-2026-product-odds-20261016.json",
       "evidenceSha256": "5def66988ec3a3494ffebcd8e5b2f85bd841a60c263cf445e20226155c8a955b"
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-finest-basketball",
+      "family": "Unjoined card example and remaining numbering",
+      "gap": "Exhaustive parallel numbering remains unverified; no color-based limits are inferred from odds names. The Flagg Black Geometric 1/1 pull report does not identify Common / Uncommon / Rare or a printed card number; no numeric limit is assigned to a family or all Flagg cards. Historical rookie-article /250, /25, /29 and /5 examples belong to older products and are not imported as current-release numbering. The checklist PDF does not publish Rookie flags; its ROOKIE AUTOGRAPHS heading and guide card annotations do not establish row-level flags for all subjects. The odds header names Hobby and Breaker but does not state ratio units. Keep literal 5:1 and 2:1; box configuration is separate.",
+      "source": "https://ripped.topps.com/collector-pulls-cooper-flagg-1-of-1-2025-26-topps-finest-basketball-release-day/",
+      "evidenceFile": "data/parallel-audit-sources/finest-basketball-2025-26-20261016.json",
+      "evidenceSha256": "ac0497838cc57c65d59853410e15071d114c09f3d45c6b72fe6153a97fe17b51"
     }
   ]
 }
