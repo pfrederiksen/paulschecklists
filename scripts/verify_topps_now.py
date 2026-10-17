@@ -34,7 +34,7 @@ for snapshot in (root/'data/catalog-sources').glob('topps-now-backfill-browser-*
     for product in retained['products']:
         lines=[line.strip() for line in product['lines']]
         browser_hashes.add((product['url'],hashlib.sha256('\n'.join(lines).encode()).hexdigest()))
-        assert ' - Card ' in lines[0] or ' - Sticker # ' in lines[0]
+        assert re.search(r' (?:- )?Card ',lines[0]) or ' - Sticker # ' in lines[0]
 for snapshot in (root/'data/catalog-sources').glob('topps-now-backfill-regional*.txt'):
     raw=snapshot.read_text()
     starts=list(re.finditer(r'^[^\n]*\((https://(?:www|uk|uk-next|fr)\.topps\.com/products/[^)]+)\)\n',raw,re.M))
@@ -319,3 +319,29 @@ if kyle_source.exists():
     gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
     assert not any(g['series']==card['series'] and g['number']=='57' for g in gaps['pendingSaleDates'])
     print('Verified NFL NOW 57 sale start from both the official sentence and Specs; published in both shared tables with no inferred print run or pack odds.')
+
+punctuation_source=root/'data/catalog-sources/topps-now-backfill-browser-20261017-2300-title-punctuation.json'
+if punctuation_source.exists():
+    retained=json.loads(punctuation_source.read_text());assert len(retained['products'])==4
+    expected={('2026-27 UCL Topps NOW®','1'):('Paris Saint-Germain','1326','2026-08-17','Aug 24, 2026'),('2026-27 UCL Topps NOW®','3'):('Khvicha Kvaratskhelia','2832','2026-08-17','Aug 24, 2026'),('2026-27 UCL Topps NOW®','4'):('Brian Madjo','8275','2026-08-17','Aug 24, 2026'),('2026 Topps NOW®','A201'):('Artemis II','24420','2026-04-02','Apr 5, 2026')}
+    for product in retained['products']:
+        lines=[line.strip() for line in product['lines']]
+        assert 'NOW® Card ' in lines[0] and 'NOW® - Card ' not in lines[0]
+        number=re.search(r' Card ([A-Za-z0-9]+) - PR:',lines[0])[1]
+        key=next(key for key in expected if key[1]==number);card=by_key[key]
+        assert (card['name'],card['printRun'],card['saleFromISO'],card['saleUntil'])==expected[key]
+        assert card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+        assert card['evidence']['snapshotFile']==str(punctuation_source.relative_to(root))
+        original_terms=[line.removeprefix('* ') for line in lines[lines.index('Overview')+1:lines.index('Parallels:')] if line.startswith('* ')]
+        assert card['terms'].splitlines()[0]=='Published card types: '+'; '.join(original_terms)
+        data=json.loads((root/'data/imports/topps-now-2026.json').read_text())
+        assert sum(r[0]==key[0] and r[1]==number for r in data['rows'])==1
+        if number!='A201':
+            assert len(card['parallels'])==4 and not any('/50' in p for p in card['parallels'])
+            assert ('/5 Relic Redemption Card' in card['terms'])==(number=='4')
+            assert ('/5 Auto-Relic Redemption Card' in card['terms'])==(number=='3')
+        else:
+            assert len(card['parallels'])==5 and 'Artemis II Image Variation Super Short Prints' in card['terms']
+    entertainment=next(s for s in inventory if s['title']=='2026 Topps NOW®')
+    assert entertainment['sport']=='entertainment' and entertainment['coverageComplete'] is False
+    print('Verified hyphenless official Card labels for UCL 1/3/4 and Artemis II A201, exact dates/runs, card-specific terms and published entertainment classification.')

@@ -1,0 +1,252 @@
+{
+  "reviewed": "2026-10-17",
+  "sourceKind": "retained-archive-title-reconciliation",
+  "archiveSnapshot": "data/topps-now-archive-index.json",
+  "archiveSnapshotSha256": "d3494018e774127288a5165d5c0f85a0f399d3abacdc4de437d43d2605e28a44",
+  "archiveObserved": "2026-10-13",
+  "historyComplete": false,
+  "resolvedByFreshProductSnapshot": "data/catalog-sources/topps-now-backfill-browser-20261017-2300-title-punctuation.json",
+  "pendingProductReviews": [
+    {
+      "title": "2026 Marvel Topps NOW: Avengers End Game Encore - PR: 35984",
+      "url": "https://www.topps.com/products/2026-marvel-topps-now-avengers-end-game-encore",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Marvel Topps Now®: Wolverine - PR: 15885",
+      "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-wolverine",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Marvel Topps Now® Spider-Man Brand New Day - PR: 33838",
+      "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-spider-man-brand-new-day",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 All-Star Game Set - MLS Topps NOW® - 11 Card Set - PR: 2677",
+      "url": "https://www.topps.com/products/2026-all-star-game-set-mls-topps-now%C2%AE-11-card-set-1",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 All-Star Game Set - MLB Topps NOW® - 19 Card Set - PR: 16306",
+      "url": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "Shohei Ohtani - 2026 MLB Topps NOW® Card 428 - Collector's Edition # to 99",
+      "url": "https://www.topps.com/products/shohei-ohtani-2026-mlb-topps-now%C2%AE-card-428-collectors-edition-to-99",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Disney Topps Now®: Moana Live Action - PR: 2665",
+      "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-moana-live-action",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Marvel Topps Now® X-Men 97 Season 2 - PR: 5770",
+      "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-x-men-97-season-2",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Disney Topps NOW® – Toy Story 5 - PR: 18319",
+      "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-toy-story-5",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 NBA Champions - New York Knicks - NBA Topps NOW® 16-Card Team Set - PR: 65941",
+      "url": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "Premier League Team of the Season - Premier League Topps NOW® 12-Card Set",
+      "url": "https://www.topps.com/products/premier-league-team-of-the-season-premier-league-topps-now%C2%AE-12-card-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "Caleb Williams - 2027 MADDEN NFL Cover Topps NOW® - PR: 47655",
+      "url": "https://www.topps.com/products/caleb-williams-2026-nfl-topps-now%C2%AE-card-madd",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Star Wars Topps NOW® – The Mandalorian and Grogu - PR: 28832",
+      "url": "https://www.topps.com/products/2026-star-wars-topps-now%C2%AE-the-mandalorian-and-grogu",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Marvel Topps NOW® The Punisher: One Last Kill - PR: 5073",
+      "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-the-punisher-one-last-kill",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "Anthony Edwards - 2025-26 NBA Topps NOW® - Card - PR: 1057",
+      "url": "https://www.topps.com/products/anthony-edwards-2025-26-nba-topps-now%C2%AE-card-294",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2025-26 NHL Topps NOW® Rookie Collection 10-Sticker Set - PR: 600",
+      "url": "https://www.topps.com/products/2025-26-nhl-topps-now%C2%AE-rookie-collection-10-sticker-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 WrestleMania Vegas Set – WWE Topps NOW® - 15-Card Set - PR: 5847",
+      "url": "https://www.topps.com/products/2026-wrestlemania-vegas-set-wwe-topps-now%C2%AE-15-card-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Star Wars Topps NOW® Maul – Shadow Lord - PR: 11984",
+      "url": "https://www.topps.com/products/2026-star-wars-topps-now%C2%AE-maul-shadow-lord",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "Chase Burns - 2026 MLB Topps NOW® - Card 29 - PR: 3477 - PR: 236",
+      "url": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Marvel Topps NOW® Daredevil: Born Again Season 2 - PR: 8482",
+      "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-daredevil-born-again-season-2",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Los Angeles Dodgers MLB Topps NOW® Road To Opening Day 10-Card Team Set - Japan Edition - PR: 4693",
+      "url": "https://www.topps.com/products/2026-los-angeles-dodgers-mlb-topps-now%C2%AE-road-to-opening-day-10-card-team-set-japan-edition",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 MLB Topps NOW® Road To Opening Day – Autograph Collector’s Box",
+      "url": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Washington Nationals MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 649",
+      "url": "https://www.topps.com/products/2026-washington-nationals-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Miami Marlins MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 541",
+      "url": "https://www.topps.com/products/2026-miami-marlins-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Baltimore Orioles MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1141",
+      "url": "https://www.topps.com/products/2026-baltimore-orioles-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Los Angeles Dodgers MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 5721",
+      "url": "https://www.topps.com/products/2026-los-angeles-dodgers-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 San Diego Padres MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 796",
+      "url": "https://www.topps.com/products/2026-san-diego-padres-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Arizona Diamondbacks MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 643",
+      "url": "https://www.topps.com/products/2026-arizona-diamondbacks-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Texas Rangers MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 705",
+      "url": "https://www.topps.com/products/2026-texas-rangers-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Toronto Blue Jays MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 731",
+      "url": "https://www.topps.com/products/2026-toronto-blue-jays-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Atlanta Braves MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1095",
+      "url": "https://www.topps.com/products/2026-atlanta-braves-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Houston Astros MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 759",
+      "url": "https://www.topps.com/products/2026-houston-astros-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Athletics MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 921",
+      "url": "https://www.topps.com/products/2026-athletics-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 New York Mets MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1301",
+      "url": "https://www.topps.com/products/2026-new-york-mets-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Angels MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 720",
+      "url": "https://www.topps.com/products/2026-angels-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team Venezuela – World Baseball Classic Championship Set - PR:1084",
+      "url": "https://www.topps.com/products/2026-topps-now%C2%AE-baseball-team-venezuela-world-baseball-classic-championship-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "Patrice Čović- 2025-26 Bundesliga Topps NOW® - Card 145 - PR:742",
+      "url": "https://www.topps.com/products/patrice-covic-2025-26-bundesliga-topps-now%C2%AE-card-145",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team United States – World Baseball Classic Team Sets - PR: 20322",
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-united-states-world-baseball-classic-team-sets",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team Venezuela – World Baseball Classic Team Sets - PR: 1424",
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-venezuela-world-baseball-classic-team-sets",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team Dominican Republic – World Baseball Classic Team Sets - PR: 4207",
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-dominican-republic-world-baseball-classic-team-sets",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team Japan – World Baseball Classic Team Sets - PR: 34993",
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-japan-world-baseball-classic-team-sets",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team Korea – World Baseball Classic Team Sets - PR: 1086",
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-korea-world-baseball-classic-team-sets",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Disney Topps NOW® Hoppers - PR: 3592",
+      "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-hoppers",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "Arijon Ibrahimović- 2025-26 Bundesliga Topps NOW® - Card 132 - PR: 115",
+      "url": "https://www.topps.com/products/arijon-ibrahimovic-2025-26-bundesliga-topps-now%C2%AE-card-132",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "Fábio Silva- 2025-26 Bundesliga Topps NOW® - Card 131 - PR: 295",
+      "url": "https://www.topps.com/products/fabio-silva-2025-26-bundesliga-topps-now%C2%AE-card-131",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 Rising Stars Set - NBA Topps NOW® - 22 Card Set - PR: 7287",
+      "url": "https://www.topps.com/products/2026-rising-stars-set-nba-topps-now%C2%AE-22-card-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 All-Star Game Set - NBA Topps NOW® - 26 Card Set - PR: 4967",
+      "url": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    },
+    {
+      "title": "2026 MLB The Show Cover Topps NOW® - Aaron Judge - PR: 16091",
+      "url": "https://www.topps.com/products/2026-mlb-the-show-cover-topps-now-aaron-judge",
+      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
+    }
+  ],
+  "notes": "This review reconciles only retained title text, not all fields or reported archive products. Existing 95-page checkpoint and partial-history labels remain unchanged. Unnumbered entertainment products and multi-card bundles need dedicated roster/date parsing; Anthony Edwards has a blank printed title number that cannot be filled from its URL."
+}

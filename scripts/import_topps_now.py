@@ -43,10 +43,10 @@ products={};unparsed=[];unverified_print_runs=[]
 for url,block,document in blocks:
  lines=[x.strip() for x in re.split(r'L\d+(?:@P\d+)?:\s*',block)[1:]]
  lines=[re.sub(r'\ue200cite\ue202[^\ue201]*\ue201','',x).strip() for x in lines]
- titles=[x for x in lines if (' - Card ' in x or ' - Sticker # ' in x) and re.search(r' - 20\d\d.*NOW®',x)]
+ titles=[x for x in lines if (' Card ' in x or ' - Sticker # ' in x) and re.search(r' - 20\d\d.*NOW®',x)]
  title=next((x.removeprefix('## ') for x in titles if x.startswith('## ')),titles[0] if titles else None)
  if not title:continue
- match=re.fullmatch(r'(.+?) - (20\d\d(?:-\d\d)? .+?NOW®.*?) - (?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
+ match=re.fullmatch(r'(.+?) - (20\d\d(?:-\d\d)? .+?NOW®.*?) (?:- )?(?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
  unlabelled_suffix=None
  if not match:
   # An explicit Card number remains usable when an unlabelled numeric
@@ -138,7 +138,7 @@ if archive_index.exists():
    title=line.split(', Value:',1)[0]
    title=re.sub(r'^(?:\d+ link )','',title)
    title=re.sub(r' (?:Look for .*?|Sold out)(?: Sold out)?$','',title)
-   match=re.fullmatch(r'(.+?) - (20\d\d(?:-\d\d)? .+?NOW®.*?) - (?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
+   match=re.fullmatch(r'(.+?) - (20\d\d(?:-\d\d)? .+?NOW®.*?) (?:- )?(?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
    if not match:continue
    name,series,number,pr=match.groups();number=number.rstrip('-');key=(series,number)
    if not number:continue
@@ -194,7 +194,7 @@ def publish(slug,title,items,sport,year):
 records=[publish('topps-now-2026','2026 Topps NOW & Bowman NOW',products,'multi-sport','2026')]
 for series in dict.fromkeys(p['series'] for p in products):
  year=re.match(r'20\d\d(?:-\d\d)?',series)[0]
- sport='tennis' if 'Tennis' in series else 'wrestling' if 'WWE' in series else 'baseball' if any(x in series for x in ['MLB','World Baseball Classic']) else 'hockey' if 'NHL' in series else 'soccer' if any(x in series for x in ['MLS','UCL','UWCL','UECL','UEL','Premier League','Bundesliga','UEFA Nations League','FC Barcelona','Chelsea FC','Liverpool FC','Paris Saint-Germain','Argentina']) else 'basketball' if any(x in series for x in ['NBA','Basketball']) else 'football' if any(x in series for x in ['NFL','Football']) else 'multi-sport'
+ sport='tennis' if 'Tennis' in series else 'wrestling' if 'WWE' in series else 'baseball' if any(x in series for x in ['MLB','World Baseball Classic']) else 'hockey' if 'NHL' in series else 'soccer' if any(x in series for x in ['MLS','UCL','UWCL','UECL','UEL','Premier League','Bundesliga','UEFA Nations League','FC Barcelona','Chelsea FC','Liverpool FC','Paris Saint-Germain','Argentina']) else 'basketball' if any(x in series for x in ['NBA','Basketball']) else 'football' if any(x in series for x in ['NFL','Football']) else 'entertainment' if all(p['evidence'].get('fields',{}).get('Category')=='Entertainment' for p in products if p['series']==series) else 'multi-sport'
  records.append(publish('topps-now-'+re.sub('[^a-z0-9]+','-',series.lower()).strip('-'),series,[p for p in products if p['series']==series],sport,year))
 previous_inventory=[s for s in json.loads((ROOT/'data/set-catalog.json').read_text())['sets'] if s.get('ongoingSeries')]
 for old in previous_inventory:

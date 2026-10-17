@@ -70152,6 +70152,46 @@
   },
   {
     "series": "2026 Topps NOW®",
+    "number": "A201",
+    "name": "Artemis II",
+    "printRun": "24420",
+    "saleFrom": "Apr 2, 2026",
+    "saleUntil": "Apr 5, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; Artemis II Image Variation Short Prints; Artemis II Image Variation Super Short Prints\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/artemis-ii-2026-topps-now%C2%AE-card-a201",
+    "evidence": {
+      "url": "https://www.topps.com/products/artemis-ii-2026-topps-now%C2%AE-card-a201",
+      "sha256": "ba742f61003e0a05c4bf0b72a8166844c26b5d82a46021d3e9e37689ede1c4b3",
+      "observed": "2026-10-17",
+      "title": "Artemis II - 2026 Topps NOW® Card A201 - PR: 24420",
+      "fields": {
+        "SKU": "ART-16C2S-26TN-A201-QTY1",
+        "Category": "Entertainment",
+        "Sub Categories": "Other",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Artemis II",
+        "Product Type": "Print on Demand",
+        "Available From": "Apr 2, 2026",
+        "Available Until": "Apr 5, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; Artemis II Image Variation Short Prints; Artemis II Image Variation Super Short Prints\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-2300-title-punctuation.json"
+    },
+    "saleFromISO": "2026-04-02"
+  },
+  {
+    "series": "2026 Topps NOW®",
     "number": "A250",
     "name": "America 250",
     "printRun": "25817",
@@ -86383,6 +86423,126 @@
       "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-active.json"
     },
     "saleFromISO": "2026-10-14"
+  },
+  {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "1",
+    "name": "Paris Saint-Germain",
+    "printRun": "1326",
+    "saleFrom": "Aug 17, 2026",
+    "saleUntil": "Aug 24, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/paris-saint-germain-2026-27-ucl-topps-now%C2%AE-card-1",
+    "evidence": {
+      "url": "https://www.topps.com/products/paris-saint-germain-2026-27-ucl-topps-now%C2%AE-card-1",
+      "sha256": "c06cf477295e302905d8ccceb313ead576f3ad540786b978eba4769cd1dd4538",
+      "observed": "2026-10-17",
+      "title": "Paris Saint-Germain - 2026-27 UCL Topps NOW® Card 1 - PR: 1326",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0001-QTY1",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Paris Saint-Germain",
+        "Properties": "Paris Saint-Germain",
+        "Product Type": "Print on Demand",
+        "Available From": "Aug 17, 2026",
+        "Available Until": "Aug 24, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-2300-title-punctuation.json"
+    },
+    "saleFromISO": "2026-08-17"
+  },
+  {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "3",
+    "name": "Khvicha Kvaratskhelia",
+    "printRun": "2832",
+    "saleFrom": "Aug 17, 2026",
+    "saleUntil": "Aug 24, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower; /5 Auto-Relic Redemption Card; /1 Auto-Relic Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/khvicha-kvaratskhelia-2026-27-ucl-topps-now%C2%AE-card-3",
+    "evidence": {
+      "url": "https://www.topps.com/products/khvicha-kvaratskhelia-2026-27-ucl-topps-now%C2%AE-card-3",
+      "sha256": "cd6b8cd02f929649fdbce4290438b239e26d45b7d313370fc6b3fe17ce97e577",
+      "observed": "2026-10-17",
+      "title": "Khvicha Kvaratskhelia - 2026-27 UCL Topps NOW® Card 3 - PR: 2832",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0003-QTY1",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Khvicha Kvaratskhelia",
+        "Properties": "Paris Saint-Germain",
+        "Product Type": "Print on Demand",
+        "Available From": "Aug 17, 2026",
+        "Available Until": "Aug 24, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower; /5 Auto-Relic Redemption Card; /1 Auto-Relic Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-2300-title-punctuation.json"
+    },
+    "saleFromISO": "2026-08-17"
+  },
+  {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "4",
+    "name": "Brian Madjo",
+    "printRun": "8275",
+    "saleFrom": "Aug 17, 2026",
+    "saleUntil": "Aug 24, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower; /5 Relic Redemption Card; /1 Relic Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/brian-madjo-2026-27-ucl-topps-now%C2%AE-card-4",
+    "evidence": {
+      "url": "https://www.topps.com/products/brian-madjo-2026-27-ucl-topps-now%C2%AE-card-4",
+      "sha256": "979f09aeb6b475701a1e1cb8e1062acd4580ad955142c8f0f5c1d5ca5e1c9c54",
+      "observed": "2026-10-17",
+      "title": "Brian Madjo - 2026-27 UCL Topps NOW® Card 4 - PR: 8275",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0004-QTY1",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Brian Madjo",
+        "Properties": "Aston Villa",
+        "Product Type": "Print on Demand",
+        "Available From": "Aug 17, 2026",
+        "Available Until": "Aug 24, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower; /5 Relic Redemption Card; /1 Relic Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-2300-title-punctuation.json"
+    },
+    "saleFromISO": "2026-08-17"
   },
   {
     "series": "2026-27 UCL Topps NOW®",
