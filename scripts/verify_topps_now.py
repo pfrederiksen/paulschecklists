@@ -146,3 +146,29 @@ if new_mlb_source.exists():
             for limit in ['10','5','1']:assert '/'+limit+' Autograph Redemption Card' in card['terms']
         else:assert 'Autograph Redemption' not in card['terms']
     print('Verified MLB NOW 791–793: exact official subjects, October 15–16 sale dates, five foil parallels and card-specific Chourio autograph redemption terms.')
+
+bowman_source=root/'data/catalog-sources/topps-now-backfill-20261017-bowman-football.txt'
+if bowman_source.exists():
+    raw=bowman_source.read_text();starts=list(re.finditer(r'^[^\n]*\((https://www\.topps\.com/products/[^)]+)\)\n',raw,re.M));assert len(starts)==18
+    expected_runs={'2':'989','3':'1294','4':'790','6':'939','8':'895','9':'1409','10':'665','11':'754','12':'1243','13':'559','14':'576','15':'521','16':'2279','17':'4264','18':'695','19':'616','20':'549','21':'415'}
+    for i,match in enumerate(starts):
+        block=raw[match.start():starts[i+1].start() if i+1<len(starts) else len(raw)]
+        lines=[line.strip() for line in re.split(r'L\d+:\s*',block)[1:]]
+        title=next(line for line in lines if line.startswith('## '));number=re.search(r' - Card (\d+) - PR:',title)[1]
+        card=by_key[('2026-27 Bowman U NOW® Football',number)]
+        assert card['source']==match[1] and card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+        assert card['printRun']==expected_runs[number]
+        date='2026-09-08' if int(number)<=4 else '2026-09-14' if int(number)<=8 else '2026-09-21' if int(number)<=12 else '2026-09-28' if int(number)<=16 else '2026-10-05'
+        assert card['saleFromISO']==date and card['saleFrom']==card['evidence']['fields']['Available From'] and card['saleUntil']==card['evidence']['fields']['Available Until']
+        assert card['parallels']==['/50 Gold Foil','/25 Orange\u00a0Foil','/10 Black\u00a0Foil','/5 Red\u00a0Foil','/1 FoilFractor']
+        assert all(tier+'+ Print Run:' in card['terms'] for tier in ['50,000','100,000','250,000','500,000'])
+        assert ('Relic Redemption Card' in card['terms'])==(number=='12')
+        assert ('Autograph Card' in card['terms'])==(number=='17')
+        assert ('Image Variation Short Prints' in card['terms'])==(number=='16')
+        assert 'Numeric pack odds are not published.' in card['terms']
+    bowman=next(s for s in inventory if s['title']=='2026-27 Bowman U NOW® Football')
+    assert bowman['rowCount']>=23 and bowman['coverageComplete'] is False
+    assert by_key[('2026-27 Bowman U NOW® Football','12')]['saleFrom']=='21 set 2026','Retain the literal localized official date'
+    assert by_key[('2026-27 Bowman U NOW® Football','14')]['name']=='Mestemaker/Hawkins/Young','Do not infer expanded names'
+    assert by_key[('2026-27 Bowman U NOW® Football','4')]['evidence']['fields']['Properties']=='Arizona State','Retain source assignments without inferred corrections'
+    print('Verified 18 Bowman U NOW Football backfills: exact product-title runs, official sale dates, five foil parallels, four qualified print-run thresholds and isolated autograph/relic/image-variation terms; the 23-card series remains partial.')

@@ -43,6 +43,13 @@ for(const set of cases){
   }
   get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-now-2026-27-bowman-u-now-football'){
+  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-search').value='Jared Curtis';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('1243')&&csv.includes('21 set 2026')&&csv.includes('/10 Relic Redemption Card')&&!csv.includes('/5 Autograph Card'));get('source-reset').onclick();
+  get('source-search').value='CJ Carr';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('4264')&&csv.includes('Oct 5, 2026')&&csv.includes('/5 Autograph Card')&&!csv.includes('Relic Redemption Card'));get('source-reset').onclick();
+  get('source-search').value='Kamario Taylor';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('2279')&&csv.includes('Image Variation Short Prints')&&!csv.includes('Relic Redemption Card'));get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-topps-universe-wwe'){
   assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,true);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
