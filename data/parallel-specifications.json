@@ -9136,7 +9136,8 @@
         "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
       }
     ],
-    "topps-bowman-2025-topps-stadium-club-baseball": []
+    "topps-bowman-2025-topps-stadium-club-baseball": [],
+    "topps-bowman-2025-topps-chrome-black-football": []
   },
   "conflicts": [
     {
@@ -9564,6 +9565,14 @@
       "source": "https://www.topps.com/pages/topps-stadium-club-baseball",
       "evidenceFile": "data/parallel-audit-sources/stadium-baseball-2025-20261016.json",
       "evidenceSha256": "d9c93a28ddc7b83c101d434910de3b2b2b387a284626640550ec39cc8851a173"
+    },
+    {
+      "slug": "topps-bowman-2025-topps-chrome-black-football",
+      "family": "Card-specific guide scope and remaining numbering",
+      "gap": "Exhaustive parallel numbering remains unverified. No base-wide numeric ladder is established by the checked official product-specific pages; other sports, other Chrome products and color names do not establish limits. Four pull-report examples apply only to PBDA-DMTB, PBDA-JDCW, IA-JD and BL-6. The Orange /25 heading and copy-limit body remain qualified; no family-wide numbering is inferred. The launch article numbers Jaxson Dart Rookie Autograph to ten copies without naming its parallel; keep this RAU-JD example separate from all odds names. The Hobby heading names a format but no ratio unit; Base 3:1 and Rookie 2:1 remain literal, without computed pack rates. Original flags are card-specific: Cam Ward on PBDA-JDCW and Luther Burden III on PBDA-CWLB are blank despite printed Rookie marks elsewhere. Historical Houston Oilers and Los Angeles Raiders names and SFA-THE TREVEYON spelling remain unchanged.",
+      "source": "https://ripped.topps.com/2025-topps-chrome-black-football-best-cards/",
+      "evidenceFile": "data/parallel-audit-sources/chrome-black-football-2025-20261016.json",
+      "evidenceSha256": "2bfe360c33f187880d55734bfacfec18c3095afdf71adea3cce5fee1440c93f8"
     }
   ]
 }

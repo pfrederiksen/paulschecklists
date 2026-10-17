@@ -2022,9 +2022,9 @@
       "oddsHash": "5cef4154ced54a9c5da22cf4605ac4f702ffbe1435b147f44403d87233522e37",
       "rows": 475,
       "odds": 84,
-      "specificationRows": 0
+      "specificationRows": 10
     },
-    "fingerprint": "0cb1cf939d306ace94a004374ccf658efde299822e606cab267e285b48bfadf1",
+    "fingerprint": "3efa5d12133d75908fbaf89ba066916e1a4e69ed218e8aba1da5ff09cf5675cf",
     "events": [
       {
         "at": "2026-10-11T21:53:32.578Z",

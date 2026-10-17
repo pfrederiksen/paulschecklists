@@ -1,0 +1,114 @@
+{
+  "observed": "2026-10-16",
+  "method": "Fresh official landing/store web reads and actual in-app browser reads of the launch, pull report, product history and Black Lightning design guide. Original glyph origins and rendered checklist/odds pages inspected. Exact-product candidate reconciled; no search snippet or cross-product numbering imported.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-chrome-black-football",
+    "product": "https://www.topps.com/products/2025-topps-chrome%C2%AE-black-football-hobby-box-sealed-case",
+    "launch": "https://ripped.topps.com/2025-topps-chrome-black-football-best-cards/",
+    "pulls": "https://ripped.topps.com/biggest-pulls-2025-topps-chrome-black-football/",
+    "history": "https://ripped.topps.com/topps-chrome-black-football-history/",
+    "design": "https://ripped.topps.com/2025-topps-chrome-black-football-black-lightning-insert-design/"
+  },
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Checklist.pdf?v=1780925886",
+  "checklistSha256": "12f1b80a28d8870af48d683ca17ecd2cae441bb4d30407fc1f9a1e9d44ac50fd",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Odds.pdf?v=1783543006",
+  "oddsSha256": "5cef4154ced54a9c5da22cf4605ac4f702ffbe1435b147f44403d87233522e37",
+  "productOddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Odds.pdf?v=1787973778",
+  "releaseStatement": "The release of 2025 Topps Chrome Black Football goes live here at noon ET on Friday, July 10. The release will also be available at local card shops around the world.",
+  "releaseContext": "Official launch article displayed Jul 10, 2026; the body explicitly identifies the exact product and Friday July 10 launch, independently of store availability.",
+  "productFields": [
+    [
+      "Product Year",
+      "2026",
+      "Store metadata; checklist title remains 2025"
+    ],
+    [
+      "Available From",
+      "Jul 10, 2026",
+      "Store availability, separate from explicit release evidence"
+    ],
+    [
+      "Cards per pack",
+      "6",
+      "Hobby configuration; not category odds"
+    ],
+    [
+      "Packs per box",
+      "2",
+      "Hobby configuration"
+    ],
+    [
+      "Boxes per case",
+      "12",
+      "Case configuration"
+    ]
+  ],
+  "cardExamples": [
+    [
+      "PITCH BLACK PAIRINGS DUAL AUTOGRAPHS",
+      "PBDA-DMTB",
+      "Drake Maye / Tom Brady",
+      "SuperFractor",
+      "1/1",
+      "Only the named dual card; no family-wide numbering inferred."
+    ],
+    [
+      "PITCH BLACK PAIRINGS DUAL AUTOGRAPHS",
+      "PBDA-JDCW",
+      "Jayden Daniels / Cam Ward",
+      "Orange",
+      "/25; body says limited to 25 copies",
+      "Retain the published Orange caption and print-limit wording; no unnamed-card or Orange Refractor family limit inferred."
+    ],
+    [
+      "IVORY AUTOGRAPHS",
+      "IA-JD",
+      "Jaxson Dart",
+      "Red Refractor",
+      "/5; body says limited to five copies",
+      "Only the named card; no family-wide numbering inferred."
+    ],
+    [
+      "BLACK LIGHTNING",
+      "BL-6",
+      "Caleb Williams",
+      "SuperFractor",
+      "1/1",
+      "Only the named card; no family-wide numbering inferred."
+    ]
+  ],
+  "unnamedExample": [
+    [
+      "RAU-JD",
+      "Jaxson Dart",
+      "Not named",
+      "Numbered to only 10 copies",
+      "Launch article card-specific example; do not infer a parallel name or a family-wide /10 limit."
+    ]
+  ],
+  "factualObservations": {
+    "physicalRows": 475,
+    "familyCardIdentities": 458,
+    "sections": 12,
+    "numericBaseNumbers": 150,
+    "rookieMarks": 189,
+    "dualCards": 17,
+    "dualSubjectRows": 34,
+    "oddsCategories": 84,
+    "oddsFormats": [
+      "Hobby"
+    ],
+    "oddsUnitPublished": false
+  },
+  "candidateReview": {
+    "inventory": "data/parallel-audit-sources/candidates.json",
+    "resolution": "Batch 17 launch-article Jaxson Dart ten-copy candidate was reread in the actual official browser. It joins only RAU-JD without a named parallel. Other Chrome Football, Finest Football and Cosmic Football candidates describe distinct products and are not imported here. The four official product-category articles were read; history/design/landing/store text does not publish a numeric base ladder or link an education sheet."
+  },
+  "remainingGaps": [
+    "Exhaustive parallel numbering remains unverified. No base-wide numeric ladder is established by the checked official product-specific pages; other sports, other Chrome products and color names do not establish limits.",
+    "Four pull-report examples apply only to PBDA-DMTB, PBDA-JDCW, IA-JD and BL-6. The Orange /25 heading and copy-limit body remain qualified; no family-wide numbering is inferred.",
+    "The launch article numbers Jaxson Dart Rookie Autograph to ten copies without naming its parallel; keep this RAU-JD example separate from all odds names.",
+    "The Hobby heading names a format but no ratio unit; Base 3:1 and Rookie 2:1 remain literal, without computed pack rates.",
+    "Original flags are card-specific: Cam Ward on PBDA-JDCW and Luther Burden III on PBDA-CWLB are blank despite printed Rookie marks elsewhere. Historical Houston Oilers and Los Angeles Raiders names and SFA-THE TREVEYON spelling remain unchanged."
+  ]
+}

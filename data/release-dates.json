@@ -300,6 +300,15 @@
       "statement": "When does 2025 Topps Chrome® McDonald’s All-American Basketball Release? March 12, 2026.",
       "scope": "Manufacturer U.S. guide; product year 2025 is separate from the 2026 release",
       "sha256": "c064be5ea7df4e439e424b4e58092f731eb0d00c3616945f501d9143b1566893"
+    },
+    {
+      "url": "https://ripped.topps.com/2025-topps-chrome-black-football-best-cards/",
+      "title": "Topps Chrome Black Football Delivers First-Ever Tom Brady & Drake Maye Dual Auto",
+      "observed": "2026-10-16",
+      "method": "Official launch article read in the in-app browser; explicit release sentence and displayed 2026 article year verified",
+      "statement": "The release of 2025 Topps Chrome Black Football goes live here at noon ET on Friday, July 10. The release will also be available at local card shops around the world.",
+      "scope": "Exact 2025 Chrome Black Football release; July 10, 2026 at noon ET, with local card shops worldwide. Store Product Year 2026 and checklist title 2025 remain separate.",
+      "sha256": "1e76b570e8199ee8f4ca8144f3b2743df91094497fbce94452c78e9a63a8e0b6"
     }
   ],
   "dates": [
@@ -500,6 +509,12 @@
       "releaseDate": "2026-03-12",
       "releaseStatus": "Released",
       "source": 32
+    },
+    {
+      "slug": "topps-bowman-2025-topps-chrome-black-football",
+      "releaseDate": "2026-07-10",
+      "releaseStatus": "Released",
+      "source": 33
     }
   ],
   "unresolved": [

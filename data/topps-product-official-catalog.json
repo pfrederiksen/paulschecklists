@@ -2299,5 +2299,39 @@
       "sha256": "d9c93a28ddc7b83c101d434910de3b2b2b387a284626640550ec39cc8851a173",
       "source": "https://www.topps.com/products/2025-topps-stadium-club-baseball-hobby-box-sealed-case"
     }
+  },
+  {
+    "title": "2025 Topps Chrome® Black Football",
+    "manufacturer": "Topps / Bowman",
+    "sport": "football",
+    "year": "2025",
+    "sourcePage": "https://www.topps.com/pages/topps-chrome-black-football",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Checklist.pdf?v=1780925886",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "All 475 physical subject rows / 458 family-card identities across 12 sections retain original Name/Team/Rookie cells, 150 numeric base entries, 189 literal Rookie marks and both signers on 17 dual cards. Historical team names, original spellings and card-specific blank Rookie cells are preserved. All 84 Hobby odds retain literal values, including Base 3:1 and Rookie 2:1; the sheet states no ratio unit. Four exact pull-report card examples and the unnamed-parallel Jaxson Dart ten-copy example stay card-specific without numbering entire families. The official launch article explicitly announces July 10, 2026; product year 2025 and store Product Year 2026 remain separate. Exhaustive parallel numbering remains unverified.",
+    "slug": "topps-bowman-2025-topps-chrome-black-football",
+    "page": "sets/topps-bowman-2025-topps-chrome-black-football.html",
+    "status": "Source table",
+    "verified": "2026-10-16",
+    "odds": 84,
+    "formats": 1,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Odds.pdf?v=1783543006",
+    "oddsImportIssues": 0,
+    "rowCount": 475,
+    "tableData": "data/imports/topps-bowman-2025-topps-chrome-black-football.json",
+    "sections": 12,
+    "importKind": "pdf",
+    "dataAudit": "All 475 physical subject rows / 458 family-card identities across 12 sections retain original Name/Team/Rookie cells, 150 numeric base entries, 189 literal Rookie marks and both signers on 17 dual cards. Historical team names, original spellings and card-specific blank Rookie cells are preserved. All 84 Hobby odds retain literal values, including Base 3:1 and Rookie 2:1; the sheet states no ratio unit. Four exact pull-report card examples and the unnamed-parallel Jaxson Dart ten-copy example stay card-specific without numbering entire families. The official launch article explicitly announces July 10, 2026; product year 2025 and store Product Year 2026 remain separate. Exhaustive parallel numbering remains unverified.",
+    "parallelData": true,
+    "sha256": "12f1b80a28d8870af48d683ca17ecd2cae441bb4d30407fc1f9a1e9d44ac50fd",
+    "dedicatedParser": "scripts/import_topps_chrome_black_football_2025.py",
+    "coverageComplete": true,
+    "oddsParser": "scripts/import_topps_chrome_black_football_2025.py",
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/chrome-black-football-2025-20261016.json",
+      "sha256": "2bfe360c33f187880d55734bfacfec18c3095afdf71adea3cce5fee1440c93f8",
+      "source": "https://ripped.topps.com/2025-topps-chrome-black-football-best-cards/"
+    }
   }
 ]
