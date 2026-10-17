@@ -667,20 +667,20 @@
       "manufacturer": "Topps / Bowman",
       "sport": "wrestling",
       "year": "2025",
-      "sourcePage": "https://www.topps.com/pages/checklists",
+      "sourcePage": "https://www.topps.com/products/2025-universe-wwe-hobby-box",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Universe_WWE_-_CheckList_25UWWE.pdf?v=1771878230",
       "releaseStatus": "Released",
       "releaseDate": "2026-02-27",
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+      "catalogEvidence": "All 846 physical subject rows / 820 family-card identities across 32 sections retain separate original Name/Designation/Rookie cells. The three base programs retain 100 numbers each (1–100, 101–200 and 201–300); 16 Tag Team relic cards retain both signers, including TTA-ANF across pages 15–16. Only Zaria 109 and Jordynne Grace 118 have printed Rookie marks; no flags are inferred for other cards. Original Raw, Smackdown, NXT, Legend, Legends and WWE designations are not teams. Long names are preserved from their original text objects without interleaving designation glyphs. Official Hobby/Value box and case distributions retain their units and do not establish pack odds or numeric serial limits. The 2025 product page and two official guides supply no verified 2025 pack-odds link; the current Universe landing page describes 2026, whose odds cannot fill this gap. The verified February 27, 2026 release remains distinct from product year 2025. Exhaustive parallel numbering remains unverified.",
       "slug": "topps-bowman-2025-topps-universe-wwe",
       "page": "sets/topps-bowman-2025-topps-universe-wwe.html",
       "status": "Source table",
-      "verified": "2026-10-11",
+      "verified": "2026-10-17",
       "rowCount": 846,
       "tableData": "data/imports/topps-bowman-2025-topps-universe-wwe.json",
       "sections": 32,
       "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
+      "dataAudit": "All 846 physical subject rows / 820 family-card identities across 32 sections retain separate original Name/Designation/Rookie cells. The three base programs retain 100 numbers each (1–100, 101–200 and 201–300); 16 Tag Team relic cards retain both signers, including TTA-ANF across pages 15–16. Only Zaria 109 and Jordynne Grace 118 have printed Rookie marks; no flags are inferred for other cards. Original Raw, Smackdown, NXT, Legend, Legends and WWE designations are not teams. Long names are preserved from their original text objects without interleaving designation glyphs. Official Hobby/Value box and case distributions retain their units and do not establish pack odds or numeric serial limits. The 2025 product page and two official guides supply no verified 2025 pack-odds link; the current Universe landing page describes 2026, whose odds cannot fill this gap. The verified February 27, 2026 release remains distinct from product year 2025. Exhaustive parallel numbering remains unverified.",
       "parallelData": true,
       "verifiedRelease": {
         "url": "https://ripped.topps.com/2025-topps-universe-wwe-checklist-spotlight/",
@@ -691,6 +691,14 @@
         "scope": "Exact 2025 Universe WWE debut released in calendar year 2026. The printed 2025 product year is separate; this does not date 2026 Universe WWE or Royalty WWE.",
         "sha256": "2ed38571feff8fbb6805326614a5382431af1975f56f9a3c4e2d841c11c01386",
         "snapshotFile": "data/release-dates.json"
+      },
+      "sha256": "ea4d0c9c0060fefd3ba351abe92e7006d3c2bcc7cd4dc138bebb04575a319d12",
+      "dedicatedParser": "scripts/import_topps_universe_wwe_2025.py",
+      "coverageComplete": true,
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/universe-wwe-2025-physical-20261017.json",
+        "sha256": "d2f998e542badc50e729aaf36b63475cdcb39724ba1474951626006d65582cb8",
+        "source": "https://www.topps.com/products/2025-universe-wwe-hobby-box"
       }
     },
     {

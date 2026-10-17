@@ -1,0 +1,155 @@
+{
+  "observed": "2026-10-17",
+  "method": "Fresh official U.S. product Overview/Description/Specs and full U.S. collector spotlight / Hobby-vs-Value guide read in in-app browser; original PDF physical text origins reconciled independently with pypdf.",
+  "sources": {
+    "product": "https://www.topps.com/products/2025-universe-wwe-hobby-box",
+    "spotlight": "https://ripped.topps.com/2025-topps-universe-wwe-checklist-spotlight/",
+    "formatGuide": "https://ripped.topps.com/2025-topps-universe-wwe-hobby-vs-value/",
+    "currentLanding": "https://www.topps.com/pages/topps-universe-wwe"
+  },
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Universe_WWE_-_CheckList_25UWWE.pdf?v=1771878230",
+  "checklistSha256": "ea4d0c9c0060fefd3ba351abe92e7006d3c2bcc7cd4dc138bebb04575a319d12",
+  "originalColumnStarts": {
+    "Name": 132.62,
+    "Published designation": 269.45,
+    "Rookie": 421.27
+  },
+  "hobbyConfiguration": [
+    [
+      "Cards per pack",
+      "12",
+      "Cards / pack"
+    ],
+    [
+      "Packs per box",
+      "10",
+      "Packs / Hobby box"
+    ],
+    [
+      "Autographs",
+      "2",
+      "Per Hobby box"
+    ],
+    [
+      "Relic cards",
+      "1",
+      "Per Hobby box"
+    ],
+    [
+      "Numbered parallels",
+      "3",
+      "Per Hobby box; numeric serial limits not stated"
+    ],
+    [
+      "Ring parallel",
+      "1",
+      "Per Hobby box; family / numeric limit not stated"
+    ],
+    [
+      "Additional parallels",
+      "3",
+      "Per Hobby box; family / numeric limits not stated"
+    ],
+    [
+      "Insert cards",
+      "12",
+      "Per Hobby box"
+    ]
+  ],
+  "valueConfiguration": [
+    [
+      "Cards per pack",
+      "6",
+      "Cards / pack"
+    ],
+    [
+      "Packs per box",
+      "6",
+      "Packs / Value box"
+    ],
+    [
+      "Numbered parallel",
+      "1",
+      "Per Value box; numeric serial limit not stated"
+    ],
+    [
+      "Exclusive Galaxy parallels",
+      "2",
+      "Per Value box; family / numeric limits not stated"
+    ],
+    [
+      "Insert cards",
+      "3",
+      "Per Value box"
+    ]
+  ],
+  "caseConfiguration": [
+    [
+      "Base RWB Stars parallel",
+      "A Base RWB Stars parallel at case level",
+      "The guide does not give a numeric serial limit or a per-pack ratio"
+    ],
+    [
+      "SP inserts",
+      "One of WWE Then, WWE Now, WWE Forever, WWE Together or Masked at case level",
+      "No individual insert pack odds or player eligibility are stated"
+    ]
+  ],
+  "productMetadata": [
+    [
+      "Product Year",
+      "2025",
+      "Printed product year; release is February 27, 2026"
+    ],
+    [
+      "Available From",
+      "Feb 27, 2026",
+      "Store availability; independent explicit release evidence is retained in release-dates.json"
+    ],
+    [
+      "SKU",
+      "FGC006181-DB",
+      "U.S. Hobby product"
+    ]
+  ],
+  "parallelContext": [
+    [
+      "Ring",
+      "One Ring parallel per Hobby box",
+      "No numeric serial limit or exact roster family allocation published"
+    ],
+    [
+      "Galaxy",
+      "Two Exclusive Galaxy parallels per Value box",
+      "Retail format qualifier; no numeric serial limit or exact roster family allocation published"
+    ],
+    [
+      "Base RWB Stars",
+      "Available at the Hobby case level",
+      "No numeric serial limit or per-pack ratio published"
+    ]
+  ],
+  "sourceObservations": [
+    "Product page Overview: 12 cards per pack; 10 packs per box; 2 autographs and 1 relic card per box. No Download odds link is exposed.",
+    "Format guide publication: March 1, 2026; Hobby / Value distributions are not pack odds.",
+    "Spotlight publication: February 27, 2026; explicit release February 27, 2026. Rage 30, Masked 10 and Legends Autographs 30 reconcile to the PDF.",
+    "The current U.S. Universe landing page explicitly names 2026 and links the 2026 XLS/odds. It cannot establish a 2025 odds source.",
+    "India landing redirected to the official store-closed notice; indexed 2025 wording is not used as fresh evidence."
+  ],
+  "candidateReconciliation": {
+    "file": "data/parallel-audit-sources/candidates.json",
+    "result": "Existing Universe candidates name the separate 2026 product; none supplies an approved 2025 numbering or odds join."
+  },
+  "remainingGaps": [
+    "No verified official pack-odds source for the 2025 product was linked in the checked current U.S. product / guide pages or global odds directory. The 2026 odds source is a different product.",
+    "Ring, Galaxy and Base RWB Stars distribution statements have no numeric serial limits or explicit section-by-section eligibility; preserve them as unjoined format context.",
+    "Published box/case counts are not per-pack probabilities. Full parallel numbering and individual-card eligibility remain unverified."
+  ],
+  "spotlightConfiguration": [
+    [
+      "Boxes per case",
+      "12",
+      "Boxes / Hobby case; official spotlight"
+    ]
+  ]
+}

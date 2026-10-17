@@ -580,9 +580,9 @@
       "oddsHash": null,
       "rows": 846,
       "odds": 0,
-      "specificationRows": 0
+      "specificationRows": 22
     },
-    "fingerprint": "c1bb20b1fcd0db1f3eb06e93918a067a31834f88d2c2fcae8fa3da5f3424d689",
+    "fingerprint": "0928d3a737d3e43307558341113baf0048fa3dec031ef48372f31da2bd190183",
     "events": [
       {
         "at": "2026-10-11T21:53:32.122Z",

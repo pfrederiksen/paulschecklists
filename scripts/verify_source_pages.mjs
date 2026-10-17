@@ -43,6 +43,14 @@ for(const set of cases){
   }
   get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2025-topps-universe-wwe'){
+  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,true);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'2 official source rows');get('source-export').onclick();assert(csv.includes('Zaria')&&csv.includes('Jordynne Grace')&&!csv.includes('Stephanie Vaquer'));get('source-reset').onclick();
+  get('source-search').value='Cody Rhodes';get('source-search').oninput();assert.equal(get('source-count').textContent,'10 official source rows');get('source-export').onclick();assert(csv.includes('Cody Rhodes')&&csv.includes('Smackdown')&&!csv.includes('SCmodayc'));assert(csv.includes('Published designation (source column 3)'));get('source-reset').onclick();
+  get('source-section').value='TAG TEAM RELIC AUTOGRAPHS';get('source-section').onchange();get('source-search').value='TTA-ANF';get('source-search').oninput();assert.equal(get('source-count').textContent,'2 official source rows');get('source-export').onclick();assert(csv.includes('Nathan Frazer')&&csv.includes('Axiom')&&csv.includes('NXT'));get('source-reset').onclick();
+  get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('Exclusive Galaxy parallels')&&get('source-specifications').innerHTML.includes('No numeric serial limit'));get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-topps-pristine-baseball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').value,'FGC006155 Hobby');assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});

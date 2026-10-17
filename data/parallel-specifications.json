@@ -9870,6 +9870,14 @@
       "source": "https://ripped.topps.com/uk/2025-topps-royalty-wwe-collectors-guide/",
       "evidenceFile": "data/parallel-audit-sources/royalty-wwe-2025-guide-20261017.json",
       "evidenceSha256": "be2b5e4fd91f8b0285b8a4797253a00eacecf4f3d44375b1c259fa99f4cd2dd2"
+    },
+    {
+      "slug": "topps-bowman-2025-topps-universe-wwe",
+      "family": "Remaining 2025 odds and parallel numbering",
+      "gap": "No verified official pack-odds source for the 2025 product was linked in the checked current U.S. product / guide pages or global odds directory. The 2026 odds source is a different product. Ring, Galaxy and Base RWB Stars distribution statements have no numeric serial limits or explicit section-by-section eligibility; preserve them as unjoined format context. Published box/case counts are not per-pack probabilities. Full parallel numbering and individual-card eligibility remain unverified.",
+      "source": "https://ripped.topps.com/2025-topps-universe-wwe-hobby-vs-value/",
+      "evidenceFile": "data/parallel-audit-sources/universe-wwe-2025-physical-20261017.json",
+      "evidenceSha256": "d2f998e542badc50e729aaf36b63475cdcb39724ba1474951626006d65582cb8"
     }
   ]
 }
