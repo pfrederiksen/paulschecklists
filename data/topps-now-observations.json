@@ -60361,7 +60361,7 @@
     "series": "2026 MLB Topps NOW®",
     "number": "782",
     "name": "Christian Yelich",
-    "printRun": "",
+    "printRun": "2169",
     "saleFrom": "Oct 13, 2026",
     "saleUntil": "Oct 14, 2026",
     "parallels": [
@@ -60375,9 +60375,9 @@
     "source": "https://www.topps.com/products/christian-yelich-2026-mlb-topps-now-r-card-782",
     "evidence": {
       "url": "https://www.topps.com/products/christian-yelich-2026-mlb-topps-now-r-card-782",
-      "sha256": "c73caa66fa18e7a983dc94aa75314806b9953bab087f293703b1441734be22d0",
-      "observed": "2026-10-13",
-      "title": "Christian Yelich - 2026 MLB Topps NOW® - Card 782",
+      "sha256": "2b86e6c73dc9fded38c8a412e947884c48db490e85ea2ede5e9880cca67d8879",
+      "observed": "2026-10-17",
+      "title": "Christian Yelich - 2026 MLB Topps NOW® - Card 782 - PR: 2169",
       "fields": {
         "SKU": "ARTBB-16C2S-26TN-0782",
         "Category": "Sports",
@@ -60392,7 +60392,9 @@
         "Available From": "Oct 13, 2026",
         "Available Until": "Oct 14, 2026"
       },
-      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-1700-print-runs.json"
     },
     "saleFromISO": "2026-10-13"
   },
@@ -60400,7 +60402,7 @@
     "series": "2026 MLB Topps NOW®",
     "number": "783",
     "name": "William Contreras",
-    "printRun": "",
+    "printRun": "5691",
     "saleFrom": "Oct 13, 2026",
     "saleUntil": "Oct 14, 2026",
     "parallels": [
@@ -60414,9 +60416,9 @@
     "source": "https://www.topps.com/products/william-contreras-2026-mlb-topps-now-r-card-783",
     "evidence": {
       "url": "https://www.topps.com/products/william-contreras-2026-mlb-topps-now-r-card-783",
-      "sha256": "0b77f4509be2a1f2bc72df112fc7620b5400e0ff026f836e0932d4513e22a27e",
-      "observed": "2026-10-13",
-      "title": "William Contreras - 2026 MLB Topps NOW® - Card 783",
+      "sha256": "1f5cc85c7fdd1a2134cfaffd759985e65466e896b245f92a5605a400f212dc85",
+      "observed": "2026-10-17",
+      "title": "William Contreras - 2026 MLB Topps NOW® - Card 783 - PR: 5691",
       "fields": {
         "SKU": "ARTBB-16C2S-26TN-0783",
         "Category": "Sports",
@@ -60431,7 +60433,9 @@
         "Available From": "Oct 13, 2026",
         "Available Until": "Oct 14, 2026"
       },
-      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; William Contreras Image Variation Short Prints\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; William Contreras Image Variation Short Prints\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-1700-print-runs.json"
     },
     "saleFromISO": "2026-10-13"
   },
@@ -60439,7 +60443,7 @@
     "series": "2026 MLB Topps NOW®",
     "number": "784",
     "name": "Milwaukee Brewers",
-    "printRun": "",
+    "printRun": "1858",
     "saleFrom": "Oct 13, 2026",
     "saleUntil": "Oct 14, 2026",
     "parallels": [
@@ -60453,9 +60457,9 @@
     "source": "https://www.topps.com/products/milwaukee-brewers-2026-mlb-topps-now-r-card-784",
     "evidence": {
       "url": "https://www.topps.com/products/milwaukee-brewers-2026-mlb-topps-now-r-card-784",
-      "sha256": "30a4f0be6f32446d55f5acb53646f0da57d6ae3d999bb949c0d501f23bd2082a",
-      "observed": "2026-10-13",
-      "title": "Milwaukee Brewers - 2026 MLB Topps NOW® - Card 784",
+      "sha256": "6a19f1ff12983e26729f532f134777378709b32d5d2e8472365e81f9861acfd7",
+      "observed": "2026-10-17",
+      "title": "Milwaukee Brewers - 2026 MLB Topps NOW® - Card 784 - PR: 1858",
       "fields": {
         "SKU": "ARTBB-16C2S-26TN-0784",
         "Category": "Sports",
@@ -60470,7 +60474,9 @@
         "Available From": "Oct 13, 2026",
         "Available Until": "Oct 14, 2026"
       },
-      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-1700-print-runs.json"
     },
     "saleFromISO": "2026-10-13"
   },
@@ -60478,7 +60484,7 @@
     "series": "2026 MLB Topps NOW®",
     "number": "785",
     "name": "Chase DeLauter",
-    "printRun": "",
+    "printRun": "1770",
     "saleFrom": "Oct 13, 2026",
     "saleUntil": "Oct 14, 2026",
     "parallels": [
@@ -60492,9 +60498,9 @@
     "source": "https://www.topps.com/products/chase-delauter-2026-mlb-topps-now-r-card-785",
     "evidence": {
       "url": "https://www.topps.com/products/chase-delauter-2026-mlb-topps-now-r-card-785",
-      "sha256": "66e9f3fc1f6478fba26e2f3c384f11d9765dfd5bc8e52c47dd193cac7e30c851",
-      "observed": "2026-10-13",
-      "title": "Chase DeLauter - 2026 MLB Topps NOW® - Card 785",
+      "sha256": "e47128b94d892d89e403ff076f83116053d5c17f2ba008dfab42a82eb90c942e",
+      "observed": "2026-10-17",
+      "title": "Chase DeLauter - 2026 MLB Topps NOW® - Card 785 - PR: 1770",
       "fields": {
         "SKU": "ARTBB-16C2S-26TN-0785",
         "Category": "Sports",
@@ -60509,7 +60515,9 @@
         "Available From": "Oct 13, 2026",
         "Available Until": "Oct 14, 2026"
       },
-      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-1700-print-runs.json"
     },
     "saleFromISO": "2026-10-13"
   },
@@ -60517,7 +60525,7 @@
     "series": "2026 MLB Topps NOW®",
     "number": "786",
     "name": "Patrick Bailey",
-    "printRun": "",
+    "printRun": "584",
     "saleFrom": "Oct 13, 2026",
     "saleUntil": "Oct 14, 2026",
     "parallels": [
@@ -60531,9 +60539,9 @@
     "source": "https://www.topps.com/products/patrick-bailey-2026-mlb-topps-now-r-card-786",
     "evidence": {
       "url": "https://www.topps.com/products/patrick-bailey-2026-mlb-topps-now-r-card-786",
-      "sha256": "9748bff76bfbe52ff9970d1a8b2fd0099d9bd84f0f5ed1462b5650a2ba94df1a",
-      "observed": "2026-10-13",
-      "title": "Patrick Bailey - 2026 MLB Topps NOW® - Card 786",
+      "sha256": "ab21100c98a12728cb326e348d1093b5cfcf90ac93cf19e1a1da081d7453c7cf",
+      "observed": "2026-10-17",
+      "title": "Patrick Bailey - 2026 MLB Topps NOW® - Card 786 - PR: 584",
       "fields": {
         "SKU": "ARTBB-16C2S-26TN-0786",
         "Category": "Sports",
@@ -60548,7 +60556,9 @@
         "Available From": "Oct 13, 2026",
         "Available Until": "Oct 14, 2026"
       },
-      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-1700-print-runs.json"
     },
     "saleFromISO": "2026-10-13"
   },
@@ -60556,7 +60566,7 @@
     "series": "2026 MLB Topps NOW®",
     "number": "787",
     "name": "Nathaniel Lowe",
-    "printRun": "",
+    "printRun": "573",
     "saleFrom": "Oct 13, 2026",
     "saleUntil": "Oct 14, 2026",
     "parallels": [
@@ -60570,9 +60580,9 @@
     "source": "https://www.topps.com/products/nathaniel-lowe-2026-mlb-topps-now-r-card-787",
     "evidence": {
       "url": "https://www.topps.com/products/nathaniel-lowe-2026-mlb-topps-now-r-card-787",
-      "sha256": "3176327559bf8e0e051bad2096965447e92514d1b714f0c49e944d0c8c401e93",
-      "observed": "2026-10-13",
-      "title": "Nathaniel Lowe - 2026 MLB Topps NOW® - Card 787",
+      "sha256": "2e2d2369a7add9d29f75c765102d4551c2f9b4ec2b2c59d9fee8a47e80e44fec",
+      "observed": "2026-10-17",
+      "title": "Nathaniel Lowe - 2026 MLB Topps NOW® - Card 787 - PR: 573",
       "fields": {
         "SKU": "ARTBB-16C2S-26TN-0787",
         "Category": "Sports",
@@ -60587,7 +60597,9 @@
         "Available From": "Oct 13, 2026",
         "Available Until": "Oct 14, 2026"
       },
-      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-1700-print-runs.json"
     },
     "saleFromISO": "2026-10-13"
   },

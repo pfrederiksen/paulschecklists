@@ -1,7 +1,9 @@
 """Reconcile the official Samurai Japan checklist's physical columns and odds."""
 import collections, hashlib, json, re, subprocess
+from datetime import date
 from pathlib import Path
 import pdfplumber
+from import_official_catalog import odds_pdf
 
 ROOT = Path(__file__).resolve().parents[1]
 SLUG = 'topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection'
@@ -53,6 +55,23 @@ def parse_cards(path):
     return rows, raw, notes
 
 def parse_odds(path):
+    with pdfplumber.open(path) as pdf:
+        revised = len(pdf.pages) == 1
+    if revised:
+        entries, formats, raw, issues = odds_pdf(path)
+        assert formats == ['ONE PACK', 'COLLECTORS BOX'] and len(entries) == 48 and not issues
+        mappings = [('BASE CARD SHORT PRINT', 'Base Card Short Prints'),
+                    ('BASE CARD', 'Base Cards'),
+                    ('AUTOGRAPH', 'Base Card Autograph Parallel'),
+                    ('SENSATIONAL SAMURAI', 'Sensational Samurai Insert'),
+                    ('GENERATIONAL GREATS', 'Generational Greats Insert'),
+                    ('SAMURAI SPIRIT', 'Samurai Spirit Insert')]
+        for odd in entries:
+            for prefix, family in mappings:
+                if odd['name'] == prefix or odd['name'].startswith(prefix + ' '):
+                    odd.update(family=family, familyBase=odd['name'] == prefix)
+                    break
+        return entries, formats, raw
     odds, raw = [], []
     format_name = 'Odds (Per Pack)'
     mappings = [
@@ -105,18 +124,21 @@ def build():
                'rawPages': raw, 'unclassifiedLines': notes, 'importKind': 'pdf', 'sectionColumn': 0,
                'odds': odds, 'formats': formats, 'oddsSource': record['oddsUrl'], 'oddsSha256': odds_hash,
                'oddsRawPages': odds_raw, 'oddsIssues': [], 'coverageComplete': False,
-               'dedicatedParser': 'scripts/import_topps_samurai_2026.py'}
+               'dedicatedParser': 'scripts/import_topps_samurai_2026.py',
+               'oddsUnitsPublished': formats == ['Odds (Per Pack)'],
+               'oddsParser': 'scripts/official_odds_layout.py'}
     (ROOT / record['tableData']).write_text(json.dumps(payload, ensure_ascii=False) + '\n')
-    record.update(rowCount=124, sections=8, odds=42, formats=1, sha256=card_hash,
+    record.update(verified=date.today().isoformat(),rowCount=124, sections=8, odds=len(odds), formats=len(formats), sha256=card_hash,
                   dedicatedParser=payload['dedicatedParser'], coverageComplete=False,
-                  dataAudit='All 124 printed rows, eight literal subset headings, physical subject/team/position columns and 42 per-pack odds values reconciled to the official PDFs. Six 75SP–80SP short prints retained. No inferred rookie flags, serial limits or cross-subset mappings.',
-                  catalogEvidence='Listed in Topps’ 2026 checklist catalog; an exact release date is not verified. The checklist and odds documents use different names for several insert families: Samurai Sluggers, Samurai Strikers and Championship Memories in the odds have no same-named checklist section. Those odds are retained separately, and are not assigned to Generational Greats, Neon Nights or Samurai Spirit. Published categories alone do not establish exhaustive parallel or numbering coverage.')
+                  oddsParser=payload['oddsParser'],
+                  dataAudit='All 124 printed rows, eight literal subset headings and physical subject/team/position columns reconciled. The current indexed odds sheet supplies 48 categories and 96 literal values across ONE PACK / COLLECTORS BOX; no ratio unit is stated. Six 75SP–80SP short prints retained. No inferred rookie flags or serial limits.',
+                  catalogEvidence='Listed in Topps’ 2026 checklist catalog; an exact release date is not verified. The October 17 source review replaces the older 42-category single-column odds sheet with the current indexed 48-category two-format sheet. TOKYO NEON NIGHTS and DUAL AUTOGRAPHS lack an exact printed checklist-family name and remain unjoined. Source format headings do not establish a ratio unit. Published categories alone do not establish exhaustive parallel or numbering coverage.')
     catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n')
     inventory_path = ROOT / 'data/topps-product-official-catalog.json'
     inventory = json.loads(inventory_path.read_text())
     inventory = [r for r in inventory if r['slug'] != SLUG] + [record]
     inventory_path.write_text(json.dumps(inventory, ensure_ascii=False, indent=2) + '\n')
-    print('Imported 124 Samurai Japan rows, eight subsets and 42 literal per-pack odds values.')
+    print('Imported 124 Samurai Japan rows, eight subsets and 96 literal values across two formats; ratio units are not stated.')
 
 if __name__ == '__main__':
     build()

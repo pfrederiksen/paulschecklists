@@ -85,6 +85,8 @@ for slug,cfg in CONFIG.items():
   assert [int(r[1]) for r in paper]==list(range(1,126)) and [int(r[1]) for r in chrome]==list(range(1,126))
   assert [r[2:5] for r in rows if r[1]=='CA-TH']==[['Tom Hanks','Woody','Toy Story 3']]
   assert [r[2:5] for r in rows if r[1]=='CA-JD']==[['Johnny Depp','Jack Sparrow','Pirates of the Caribbean: On Str']]
+  assert [r[0:5] for r in rows if r[1]=='CS-CN']==[['CLARENCE NASH DONALD DUCK CUT SIGNATURE','CS-CN','Clarence Nash','Donald Duck','']]
+  assert [r[3] for r in rows if r[1]=='MM-PL']==['Mickey & Friends']
   assert [r[2] for r in rows if r[1]=='64']==['22','22']
   assert 'Team' not in d['headers'] and 'Rookie' not in d['headers'] and not d.get('odds')
  print('Verified',slug,len(rows),'physical subject rows, original fields and exact source hashes.')

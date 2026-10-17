@@ -731,13 +731,6 @@
       "status": "Exact release-date research pending"
     },
     {
-      "slug": "topps-bowman-2026-topps-universe-wwe",
-      "title": "2026 Topps Universe WWE",
-      "manufacturer": "Topps / Bowman",
-      "releaseDate": null,
-      "status": "Exact release-date research pending"
-    },
-    {
       "slug": "topps-bowman-2026-topps-stadium-club-wwe",
       "title": "2026 Topps Stadium Club WWE",
       "manufacturer": "Topps / Bowman",
@@ -2653,6 +2646,13 @@
       "manufacturer": "Topps / Bowman",
       "releaseDate": null,
       "status": "Card-specific sale dates"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-universe-wwe",
+      "title": "2026 Topps Universe WWE",
+      "manufacturer": "Topps / Bowman",
+      "releaseDate": null,
+      "status": "Exact release-date research pending"
     }
   ]
 }

@@ -221,3 +221,16 @@ if active_source.exists():
         assert by_key[('2026 MLS Topps NOW®',number)]['saleFromISO']=='2026-10-15'
     assert next(s for s in inventory if s['title']=='2026-27 UEFA Nations League Topps NOW®')['sport']=='soccer'
     print('Verified all 29 active products against fresh official snapshots, including exact per-card dates, subjects, foil ladders and conditional terms.')
+
+run_source=root/'data/catalog-sources/topps-now-backfill-browser-20261017-1700-print-runs.json'
+if run_source.exists():
+    retained=json.loads(run_source.read_text());assert len(retained['products'])==6
+    expected={'782':'2169','783':'5691','784':'1858','785':'1770','786':'584','787':'573'}
+    for product in retained['products']:
+        lines=[s.strip() for s in product['lines']]
+        number=re.search(r' - Card (\d+) - PR:',lines[0])[1]
+        card=by_key[('2026 MLB Topps NOW®',number)]
+        assert card['printRun']==expected[number]
+        assert card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+        assert card['saleFromISO']=='2026-10-13' and card['saleUntil']=='Oct 14, 2026'
+    print('Verified six freshly published MLB NOW print runs from exact official product titles; no pack odds inferred.')

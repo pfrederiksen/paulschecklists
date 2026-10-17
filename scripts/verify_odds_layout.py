@@ -46,6 +46,9 @@ for record in repaired:
                 assert len(source_formats)==14
                 assert collections.Counter(compact(text[caption.end():])) == collections.Counter(compact(' '.join(source_formats)))
                 assert re.findall(r'\b(\d{4})\s+-',text)==[re.match(r'\d{4}',f)[0] for f in source_formats]
+            elif record['slug'] == 'topps-bowman-2026-topps-update-series-baseball':
+                assert collections.Counter(compact(text[caption.end():])) == collections.Counter(compact(' '.join(data['formats'])))
+                assert len(data['formats']) == 9
             elif record['slug'] == 'topps-bowman-2026-topps-flagship-football':
                 # This dense wrapped header has no vertical separators. Text
                 # extraction reads by line and merges adjacent headings;

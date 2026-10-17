@@ -1,5 +1,6 @@
 """Reconcile October checklist additions and product-linked Sapphire odds."""
 import collections,hashlib,json,re,subprocess
+from datetime import date
 from pathlib import Path
 import pdfplumber
 from import_official_catalog import odds_pdf
@@ -13,7 +14,7 @@ CONFIG={
  SAPPHIRE:dict(title='2025 Topps Chrome® Football Sapphire',year='2025',sport='football',origins=[132.62,269.45,421.27],columns=['Name','Team','Rookie'],pages=15,skip=105,count=740,sections=14,proof='football-sapphire-2025-product-20261014.json',source='https://www.topps.com/pages/topps-chrome-football-sapphire',url='https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Sapphire_Checklist_042926.pdf?v=1778615660'),
  BOWMAN:dict(title='2026 Bowman U Best Football',year='2026',sport='football',origins=[133.32,351.96],columns=['Name','Team'],pages=29,skip=100,count=756,sections=22,proof='bowman-u-best-2026-guide-20261014.json',source='https://www.topps.com/pages/bowman-u-best-football',url='https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_U_Best_FB_Checklist.pdf?v=1791206274'),
  BASKETBALL:dict(title='2026-27 Topps Flagship Basketball',year='2026-27',sport='basketball',origins=[128,257,400],columns=['Name','Team','Rookie'],pages=57,skip=100,count=3254,sections=64,proof='flagship-basketball-2026-guide-20261014.json',source='https://www.topps.com/pages/topps-flagship-basketball',url='https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Copy_of_2026-27_Topps_Flagship_Basketball_Checklist_10-9-26.xls_-_Compatibility_Mode.pdf?v=1791570579'),
- DISNEY:dict(title='2026 Topps Mint Disney',year='2026',sport='disney',origins=[95.64,246.36,366.24],columns=['Name','Official text column 2','Official text column 3'],pages=10,skip=100,count=442,sections=15,proof='mint-disney-2026-product-20261014.json',source='https://www.topps.com/pages/topps-mint-disney',url='https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL.pdf?v=1791896818'),
+ DISNEY:dict(title='2026 Topps Mint Disney',year='2026',sport='disney',origins=[95.64,246.36,366.24],columns=['Name','Official text column 2','Official text column 3'],pages=10,skip=100,count=442,sections=15,proof='mint-disney-2026-product-20261014.json',source='https://www.topps.com/pages/topps-mint-disney',url='https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL_a5705acd-5d63-43f2-b4f6-ce1f457e2deb.pdf?v=1792171539'),
 }
 OUTER={'BASE','INSERT','INSERTS','AUTOGRAPH','AUTOGRAPHS','RELIC','RELICS','AUTOGRAPH RELIC','SKETCH'}
 ARTISTS='SKETCH CARDS & MINTED SKETCH CARDS - ARTISTS'
@@ -55,7 +56,7 @@ def read_cards(path,slug,cfg):
      continue
     starts=[]
     for col,x in enumerate(cfg['origins'],1):
-     matches=[i for i,c in enumerate(chars) if abs(c['x0']-x)<.03]
+     matches=[i for i,c in enumerate(chars) if abs(c['x0']-x)<.03 or slug==DISNEY and col==2 and abs(c['x0']-246.304)<.005]
      if matches:starts.append((max(matches),col))
     assert starts and starts[0][1]==1,(slug,pn,y,text)
     cells=[''.join(c['text'] for c in chars[:starts[0][0]]).strip()]+['']*len(cfg['origins'])
@@ -126,7 +127,7 @@ def build(slugs=None):
    record['description']='Four paper base tiers and their separate Chrome variations, Minted Posters, Minted in Magic, actor autographs and an unnumbered sketch-artist roster. Published Platinum starting numbering is available; pack odds and further parallel limits remain pending.'
   data.update(title=cfg['title'],headers=['Checklist section','Card number',*cfg['columns'],'Source page'],rows=rows,rawPages=raw,unassignedPhysicalText=unassigned,unclassifiedLines=[],source=cfg['url'],sha256=sha,sectionColumn=0,importKind='topps-grid-pdf',dedicatedParser=PARSER,publishedSpecifications=specs,productConfigurationEvidence={'file':str(proof.relative_to(ROOT)),'sha256':hashlib.sha256(proof.read_bytes()).hexdigest(),'source':source},sourceSheets=[{'name':'Official source reconciliation','notes':[[note]]}])
   dp.write_text(json.dumps(data,ensure_ascii=False)+'\n')
-  record.update(sourcePage=cfg['source'],checklistUrl=cfg['url'],status='Source table',tableData=str(dp.relative_to(ROOT)),rowCount=len(rows),sections=cfg['sections'],sha256=sha,importKind=data['importKind'],dedicatedParser=PARSER,catalogEvidence=note,dataAudit=note)
+  record.update(verified=date.today().isoformat(),sourcePage=cfg['source'],checklistUrl=cfg['url'],status='Source table',tableData=str(dp.relative_to(ROOT)),rowCount=len(rows),sections=cfg['sections'],sha256=sha,importKind=data['importKind'],dedicatedParser=PARSER,catalogEvidence=note,dataAudit=note)
   if 'releaseDate' in facts:record.update(releaseStatus='Upcoming',releaseDate=facts['releaseDate'],releaseEvidence=source)
   else:record.update(releaseStatus='Unverified',releaseDate=None)
   replacements[slug]=record

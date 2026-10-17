@@ -595,14 +595,36 @@
   },
   "topps-bowman-2026-topps-update-series-baseball": {
     "state": {
-      "checklistHash": "6c734888ab92ea613fa783b53c559d1b8d7592520986de70c2163f65f4e46a5c",
+      "checklistHash": "9fb7df274e22d2c1f4180c7eeb65cd02d274ec3f6bc74717058b5456f7892e41",
       "oddsHash": "7b360b3df10d29698488d3e8aea5713e0e91aefe2e0491a2b039ad7183ab61b2",
-      "rows": 3284,
+      "rows": 3795,
       "odds": 281,
       "specificationRows": 0
     },
-    "fingerprint": "200e6bd3cd1e9353b3de11092afbacfef0360f1f2331f40f2ecf8ce0c70126e4",
+    "fingerprint": "e419727bdaeb4845d9e5d2197ed0c386f9f74af1fa0fe698fc6418dd89dfaef7",
     "events": [
+      {
+        "at": "2026-10-17T17:17:13.407Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 3284 → 3795"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Update_Series_Baseball_Checklist_10-12.pdf?v=1791908509",
+        "snapshot": {
+          "checklistHash": "9fb7df274e22d2c1f4180c7eeb65cd02d274ec3f6bc74717058b5456f7892e41",
+          "oddsHash": "7b360b3df10d29698488d3e8aea5713e0e91aefe2e0491a2b039ad7183ab61b2",
+          "rows": 3795,
+          "odds": 281,
+          "specificationRows": 0
+        },
+        "previousSnapshot": {
+          "checklistHash": "6c734888ab92ea613fa783b53c559d1b8d7592520986de70c2163f65f4e46a5c",
+          "oddsHash": "7b360b3df10d29698488d3e8aea5713e0e91aefe2e0491a2b039ad7183ab61b2",
+          "rows": 3284,
+          "odds": 281,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.159Z",
         "changes": [
@@ -1985,13 +2007,35 @@
   "topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection": {
     "state": {
       "checklistHash": "dc380e38333069ad72e3bb4f5a103f8cf01d33e87d98df457d6a5f0788aa4546",
-      "oddsHash": "4883af3bc2b32c6d83e2e8ff496681f8c75c0091637de648e71539ad7fc1afdc",
+      "oddsHash": "4acfa230435e2b8612f6e5ac58f0328586aba17dd126642c5ff8a03377b8551e",
       "rows": 124,
-      "odds": 42,
+      "odds": 48,
       "specificationRows": 0
     },
-    "fingerprint": "171fa0fe08bb6bbf0fc1edd38473c3a5e76c5ae11b538294576ad2edb8935442",
+    "fingerprint": "6f788d6393f126ae2ed2267d80a5e43117ea114ec1a68162e7dd2f9077c4a3bc",
     "events": [
+      {
+        "at": "2026-10-17T17:17:14.475Z",
+        "changes": [
+          "Official odds document changed.",
+          "Published odds entries: 42 → 48"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Samurai_Japan_Checklist_update_8.26_1.pdf?v=1787762012",
+        "snapshot": {
+          "checklistHash": "dc380e38333069ad72e3bb4f5a103f8cf01d33e87d98df457d6a5f0788aa4546",
+          "oddsHash": "4acfa230435e2b8612f6e5ac58f0328586aba17dd126642c5ff8a03377b8551e",
+          "rows": 124,
+          "odds": 48,
+          "specificationRows": 0
+        },
+        "previousSnapshot": {
+          "checklistHash": "dc380e38333069ad72e3bb4f5a103f8cf01d33e87d98df457d6a5f0788aa4546",
+          "oddsHash": "4883af3bc2b32c6d83e2e8ff496681f8c75c0091637de648e71539ad7fc1afdc",
+          "rows": 124,
+          "odds": 42,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.572Z",
         "changes": [
@@ -5584,14 +5628,35 @@
   },
   "topps-now-2026": {
     "state": {
-      "checklistHash": "0bb44a2a6dc2d0f68be66085c4c4f01dc8e7f5572fefd45b748b9211a374cc26",
+      "checklistHash": "c5e37e73db69ba71fa1242900ff66c384f59f4f1d60d1a3899653fb972150474",
       "oddsHash": null,
       "rows": 2152,
       "odds": 0,
       "specificationRows": 9758
     },
-    "fingerprint": "82887b118148961a3e932c851deeed5db8399c3a39a4e1e5c0af34ddecb7a5e8",
+    "fingerprint": "6c6cdc3fd12d658d62c652169da7fb0648d4b43aad42a431e7fc920d31d6e097",
     "events": [
+      {
+        "at": "2026-10-17T17:17:20.547Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "c5e37e73db69ba71fa1242900ff66c384f59f4f1d60d1a3899653fb972150474",
+          "oddsHash": null,
+          "rows": 2152,
+          "odds": 0,
+          "specificationRows": 9758
+        },
+        "previousSnapshot": {
+          "checklistHash": "0bb44a2a6dc2d0f68be66085c4c4f01dc8e7f5572fefd45b748b9211a374cc26",
+          "oddsHash": null,
+          "rows": 2152,
+          "odds": 0,
+          "specificationRows": 9758
+        }
+      },
       {
         "at": "2026-10-17T16:09:34.229Z",
         "changes": [
@@ -5932,14 +5997,35 @@
   },
   "topps-now-2026-mlb-topps-now": {
     "state": {
-      "checklistHash": "c344ec6ecfe325b623a95a1f69fe398370073b8a5a5732de8bae6377449af267",
+      "checklistHash": "92602ca183b51d38033247d747565e10aeff1d9d1dd17c219c251cae8ae372f2",
       "oddsHash": null,
       "rows": 742,
       "odds": 0,
       "specificationRows": 3710
     },
-    "fingerprint": "599e53a7a70bd2d149b8c5b6f09c13cfe90b20b1563ba3566062afe2af13ebf8",
+    "fingerprint": "c3c4d70807fbdd326e722f6e6f50de15bc235ba5ca40e059e5ceaf9a6b87bb72",
     "events": [
+      {
+        "at": "2026-10-17T17:17:20.571Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "92602ca183b51d38033247d747565e10aeff1d9d1dd17c219c251cae8ae372f2",
+          "oddsHash": null,
+          "rows": 742,
+          "odds": 0,
+          "specificationRows": 3710
+        },
+        "previousSnapshot": {
+          "checklistHash": "c344ec6ecfe325b623a95a1f69fe398370073b8a5a5732de8bae6377449af267",
+          "oddsHash": null,
+          "rows": 742,
+          "odds": 0,
+          "specificationRows": 3710
+        }
+      },
       {
         "at": "2026-10-17T16:09:34.299Z",
         "changes": [
@@ -7059,14 +7145,35 @@
   },
   "topps-bowman-2026-topps-universe-wwe": {
     "state": {
-      "checklistHash": "8b46f5ac8dea783ee62b1fe577be7efa79b504eeab76d986df136d81a4977ed9",
+      "checklistHash": "1ed54faa451de91248f10c8e75d84bd5a3205b8725782d3fe8ff4f0871cecade",
       "oddsHash": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
       "rows": 922,
       "odds": 323,
       "specificationRows": 0
     },
-    "fingerprint": "29ae6889920b7919a0520aa0f7618dcdb1c727ebc80bf2cca8885a4b27b807f2",
+    "fingerprint": "fbbbe8e1c8a9460521ecaf9df7aa50f3e4a3db3a852ef66af8c1fb6e37e1b5e4",
     "events": [
+      {
+        "at": "2026-10-17T17:17:21.921Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26UWWE_-_2026_Topps_Universe_WWE_Checklist_8700b54a-0ec9-4ab7-87b2-47b4e40862a0.xls?v=1786542209",
+        "snapshot": {
+          "checklistHash": "1ed54faa451de91248f10c8e75d84bd5a3205b8725782d3fe8ff4f0871cecade",
+          "oddsHash": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
+          "rows": 922,
+          "odds": 323,
+          "specificationRows": 0
+        },
+        "previousSnapshot": {
+          "checklistHash": "8b46f5ac8dea783ee62b1fe577be7efa79b504eeab76d986df136d81a4977ed9",
+          "oddsHash": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
+          "rows": 922,
+          "odds": 323,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-13T02:07:57.962Z",
         "changes": [
@@ -12119,15 +12226,38 @@
   },
   "topps-bowman-2026-topps-mint-disney": {
     "state": {
-      "checklistHash": "073d2a49589813460b69bc57e1eca1f41f13f5dc774415e8a3585dab7a1d0304",
+      "checklistHash": "45753eb8b8036024c39e9b4a1b2aa66665ce1d9ddc3aa85d2a9535ca55a4e737",
       "oddsHash": null,
       "rows": 442,
       "odds": 0,
       "specificationRows": 1,
       "specificationHash": "f1fcc31231f26e24b4791ff0e4f3bfa26e75dd839a48d5eb0ce826971b80180c"
     },
-    "fingerprint": "e558fc50bafe470beda06c55eba1749438eb55b8c68e22bf885a8af0fd7eecb0",
+    "fingerprint": "83bc6c7e3842fa749687aec32b87d2709d0910627c7a6cfa668cdb4efc633c6a",
     "events": [
+      {
+        "at": "2026-10-17T17:17:21.778Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL_a5705acd-5d63-43f2-b4f6-ce1f457e2deb.pdf?v=1792171539",
+        "snapshot": {
+          "checklistHash": "45753eb8b8036024c39e9b4a1b2aa66665ce1d9ddc3aa85d2a9535ca55a4e737",
+          "oddsHash": null,
+          "rows": 442,
+          "odds": 0,
+          "specificationRows": 1,
+          "specificationHash": "f1fcc31231f26e24b4791ff0e4f3bfa26e75dd839a48d5eb0ce826971b80180c"
+        },
+        "previousSnapshot": {
+          "checklistHash": "073d2a49589813460b69bc57e1eca1f41f13f5dc774415e8a3585dab7a1d0304",
+          "oddsHash": null,
+          "rows": 442,
+          "odds": 0,
+          "specificationRows": 1,
+          "specificationHash": "f1fcc31231f26e24b4791ff0e4f3bfa26e75dd839a48d5eb0ce826971b80180c"
+        }
+      },
       {
         "at": "2026-10-15T03:26:33.759Z",
         "changes": [

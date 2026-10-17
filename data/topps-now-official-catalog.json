@@ -22,7 +22,7 @@
     "sections": 42,
     "parallelData": true,
     "publishedOdds": false,
-    "sha256": "0bb44a2a6dc2d0f68be66085c4c4f01dc8e7f5572fefd45b748b9211a374cc26",
+    "sha256": "c5e37e73db69ba71fa1242900ff66c384f59f4f1d60d1a3899653fb972150474",
     "verified": "2026-10-17",
     "catalogEvidence": "Partial calendar-year archive: only entries with a verified official sale date on or after January 1, 2026 are included. Entries without a verified sale date remain pending. Official active products, individual product pages and captured pages of the Product Year 2026 archive supply the evidence. All 95 archive pages have been visited; individual entries and product details still require reconciliation, and some product pages return only a loading shell. Archive-only observations retain the printed number, subject and print run; dates and parallel terms appear only where verified on the product page. Non-numbered bundles and entertainment products need separate reconciliation. Product year and season labels do not establish a calendar-year release date. Blank print runs mean not published in the observed source. Print runs are not pack odds.",
     "dataAudit": "Each imported number, subject, date, print run and parallel is reconciled to retained official product text; duplicate archive listings merge by series and card number."
@@ -470,7 +470,7 @@
     "sections": 1,
     "parallelData": true,
     "publishedOdds": false,
-    "sha256": "c344ec6ecfe325b623a95a1f69fe398370073b8a5a5732de8bae6377449af267",
+    "sha256": "92602ca183b51d38033247d747565e10aeff1d9d1dd17c219c251cae8ae372f2",
     "verified": "2026-10-17",
     "catalogEvidence": "Partial calendar-year archive: only entries with a verified official sale date on or after January 1, 2026 are included. Entries without a verified sale date remain pending. Official active products, individual product pages and captured pages of the Product Year 2026 archive supply the evidence. All 95 archive pages have been visited; individual entries and product details still require reconciliation, and some product pages return only a loading shell. Archive-only observations retain the printed number, subject and print run; dates and parallel terms appear only where verified on the product page. Non-numbered bundles and entertainment products need separate reconciliation. Product year and season labels do not establish a calendar-year release date. Blank print runs mean not published in the observed source. Print runs are not pack odds.",
     "dataAudit": "Each imported number, subject, date, print run and parallel is reconciled to retained official product text; duplicate archive listings merge by series and card number."
