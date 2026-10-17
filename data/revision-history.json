@@ -5628,14 +5628,37 @@
   },
   "topps-now-2026": {
     "state": {
-      "checklistHash": "c5e37e73db69ba71fa1242900ff66c384f59f4f1d60d1a3899653fb972150474",
+      "checklistHash": "703ea619f228e18f95a3f8b3b5bcaf38adbe6637b385ce83f41378783aeffb88",
       "oddsHash": null,
-      "rows": 2152,
+      "rows": 2179,
       "odds": 0,
-      "specificationRows": 9758
+      "specificationRows": 9893
     },
-    "fingerprint": "6c6cdc3fd12d658d62c652169da7fb0648d4b43aad42a431e7fc920d31d6e097",
+    "fingerprint": "4286e958c07fcd02a2db12996204f18817bd77713894290c4f71fb64e8cdc64c",
     "events": [
+      {
+        "at": "2026-10-17T18:07:07.302Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 2152 → 2179",
+          "Supplementary specification rows: 9758 → 9893"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "703ea619f228e18f95a3f8b3b5bcaf38adbe6637b385ce83f41378783aeffb88",
+          "oddsHash": null,
+          "rows": 2179,
+          "odds": 0,
+          "specificationRows": 9893
+        },
+        "previousSnapshot": {
+          "checklistHash": "c5e37e73db69ba71fa1242900ff66c384f59f4f1d60d1a3899653fb972150474",
+          "oddsHash": null,
+          "rows": 2152,
+          "odds": 0,
+          "specificationRows": 9758
+        }
+      },
       {
         "at": "2026-10-17T17:17:20.547Z",
         "changes": [
@@ -12711,6 +12734,33 @@
           "rows": 1,
           "odds": 0,
           "specificationRows": 4
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2025-26-bowman-u-now-basketball": {
+    "state": {
+      "checklistHash": "7ad2a4c89ff5f8fc5346d69c718b2725ea02e6d797723a0c856d378c520294dc",
+      "oddsHash": null,
+      "rows": 27,
+      "odds": 0,
+      "specificationRows": 135
+    },
+    "fingerprint": "d8d6d3a3c81cd04750c0a9fa5c8ddea6284d04cc070aa109b9e7b26254e397b0",
+    "events": [
+      {
+        "at": "2026-10-17T18:07:08.637Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "7ad2a4c89ff5f8fc5346d69c718b2725ea02e6d797723a0c856d378c520294dc",
+          "oddsHash": null,
+          "rows": 27,
+          "odds": 0,
+          "specificationRows": 135
         },
         "previousSnapshot": null
       }

@@ -234,3 +234,32 @@ if run_source.exists():
         assert card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
         assert card['saleFromISO']=='2026-10-13' and card['saleUntil']=='Oct 14, 2026'
     print('Verified six freshly published MLB NOW print runs from exact official product titles; no pack odds inferred.')
+
+basketball_source=root/'data/catalog-sources/topps-now-backfill-browser-20261017-1800-bowman-basketball.json'
+if basketball_source.exists():
+    retained=json.loads(basketball_source.read_text());assert len(retained['products'])==27
+    expected_runs=['1196','2049','5885','495','641','708','715','833','1297','332','520','1118','1484','1705','693','1011','779','1278','573','633','264','297','287','1333','733','3995','1517']
+    expected_starts=['2026-03-20']+['2026-03-21']*3+['2026-03-22']*4+['2026-03-23']*3+['2026-03-24']+['2026-03-27']*2+['2026-03-28']*2+['2026-03-29']*2+['2026-03-30']*2+['2026-03-31']*2+['2026-04-04']+['2026-04-06']*2+['2026-04-07']*2
+    for product in retained['products']:
+        lines=[line.strip() for line in product['lines']]
+        number=re.search(r' - Card (\d+) - PR:',lines[0])[1]
+        card=by_key[('2025-26 Bowman U NOW® Basketball',number)]
+        fields=dict(line.split('  | ',1) for line in lines if '  | ' in line)
+        assert card['source']==product['url'] and card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+        assert card['name']==fields['Subjects'] and card['printRun']==expected_runs[int(number)-100]
+        assert card['saleFromISO']==expected_starts[int(number)-100]
+        assert card['saleFrom']==fields['Available From'] and card['saleUntil']==fields['Available Until']
+        assert card['parallels']==['/50 Gold Foil','/25 Orange Foil','/10 Black Foil','/5 Red Foil','/1 FoilFractor']
+        for line in lines:
+            if line.startswith('* ') or re.match(r'^[\d,]+\+ Print Run:',line):assert line.removeprefix('* ') in card['terms']
+        assert bool(re.search(r'/\d+ Relic Redemption Card',card['terms']))==(number in {'123','125','126'})
+        assert ('Auto-Relic Redemption Card' in card['terms'])==(number in {'102','124'})
+        assert ('Autograph Card' in card['terms'])==(number in {'101','107','111','112','113','116'})
+        assert ('Inscribed Autograph Redemption Card' in card['terms'])==(number=='108')
+        assert all(tier+'+ Print Run:' in card['terms'] for tier in ['50,000','100,000','250,000','500,000'])
+        assert 'Numeric pack odds are not published.' in card['terms']
+    basketball=next(s for s in inventory if s['title']=='2025-26 Bowman U NOW® Basketball')
+    assert basketball['rowCount']>=27 and basketball['coverageComplete'] is False and basketball['sport']=='basketball'
+    assert by_key[('2025-26 Bowman U NOW® Basketball','118')]['name']=='Sarah Strong, Tarris Reed Jr.'
+    assert by_key[('2025-26 Bowman U NOW® Basketball','122')]['name']=="Agot Makeer, Ta'Niya Latson"
+    print('Verified 27 Bowman U NOW Basketball cards: official March/April sale windows, published print runs, five foil parallels, exact multi-subject cells and isolated autograph/relic terms; archive coverage remains partial.')

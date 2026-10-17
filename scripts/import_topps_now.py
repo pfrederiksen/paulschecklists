@@ -182,7 +182,7 @@ def publish(slug,title,items,sport,year):
 records=[publish('topps-now-2026','2026 Topps NOW & Bowman NOW',products,'multi-sport','2026')]
 for series in dict.fromkeys(p['series'] for p in products):
  year=re.match(r'20\d\d(?:-\d\d)?',series)[0]
- sport='tennis' if 'Tennis' in series else 'wrestling' if 'WWE' in series else 'baseball' if any(x in series for x in ['MLB','World Baseball Classic']) else 'hockey' if 'NHL' in series else 'soccer' if any(x in series for x in ['MLS','UCL','UWCL','UECL','UEL','Premier League','Bundesliga','UEFA Nations League','FC Barcelona','Chelsea FC','Liverpool FC','Paris Saint-Germain','Argentina']) else 'basketball' if 'NBA' in series else 'football' if any(x in series for x in ['NFL','Football']) else 'multi-sport'
+ sport='tennis' if 'Tennis' in series else 'wrestling' if 'WWE' in series else 'baseball' if any(x in series for x in ['MLB','World Baseball Classic']) else 'hockey' if 'NHL' in series else 'soccer' if any(x in series for x in ['MLS','UCL','UWCL','UECL','UEL','Premier League','Bundesliga','UEFA Nations League','FC Barcelona','Chelsea FC','Liverpool FC','Paris Saint-Germain','Argentina']) else 'basketball' if any(x in series for x in ['NBA','Basketball']) else 'football' if any(x in series for x in ['NFL','Football']) else 'multi-sport'
  records.append(publish('topps-now-'+re.sub('[^a-z0-9]+','-',series.lower()).strip('-'),series,[p for p in products if p['series']==series],sport,year))
 previous_inventory=[s for s in json.loads((ROOT/'data/set-catalog.json').read_text())['sets'] if s.get('ongoingSeries')]
 for old in previous_inventory:
