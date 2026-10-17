@@ -535,15 +535,24 @@
       "slug": "topps-bowman-2025-topps-stadium-club-baseball",
       "title": "2025 Topps Stadium Club Baseball",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-stadium-club-baseball",
       "oddsCategories": 80,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-topps-stadium-club-baseball",
+          "family": "Remaining numbering and source scope",
+          "gap": "Exhaustive parallel numbering remains unverified. Checked official product text supplies no numeric serial ladder; colors and rarity names do not establish limits. The 2025 checklist title remains separate from store Product Year 2026 and February 18, 2026 availability. No explicit general calendar release statement is verified. The seven odds headings name formats but no ratio unit; preserve literal values and unavailable cells without calculating pack rates. Base Card Autograps is the literal base odds caption. Exact aliases join it and named Base Card Autographs colors to BASE CARDS I AUTOGRAPH VARIATION, without correcting source text. Base Chrome Autographs joins only CHROME BASE CARDS AUTOGRAPH VARIATION; it does not establish a separate Chrome base roster or copy paper-base limits.",
+          "source": "https://www.topps.com/pages/topps-stadium-club-baseball",
+          "evidenceFile": "data/parallel-audit-sources/stadium-baseball-2025-20261016.json",
+          "evidenceSha256": "d9c93a28ddc7b83c101d434910de3b2b2b387a284626640550ec39cc8851a173"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-26-topps-three-basketball",

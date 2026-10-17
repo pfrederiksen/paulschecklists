@@ -1,0 +1,76 @@
+{
+  "observed": "2026-10-16",
+  "method": "Official product landing and store pages refreshed, product-specific checklist/odds links followed, PDF glyph origins and rendered checklist/odds pages inspected. Exact-product candidates and current official guide/education links reviewed; no unverified reseller sell-sheet limits imported.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-stadium-club-baseball",
+    "product": "https://www.topps.com/products/2025-topps-stadium-club-baseball-hobby-box-sealed-case"
+  },
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Stadium_Club_Baseball_Checklist.pdf?v=1769109095",
+  "checklistSha256": "10719b2f1638e91dbf3489044ef5b500871fc9460381e680cf34ac467b6eae95",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Stadium_Club_Baseball_Odds.pdf?v=1769442573",
+  "oddsSha256": "a5101be6c79a7276c918d88e44b6930041503f3dd777741534b1e63b196c4034",
+  "productOddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Stadium_Club_Baseball_Odds.pdf?v=1787961038",
+  "productFields": [
+    [
+      "Product Year",
+      "2026",
+      "Store metadata; checklist title remains 2025"
+    ],
+    [
+      "Available From",
+      "Feb 18, 2026",
+      "Store availability, separate from an explicit general release date"
+    ],
+    [
+      "Cards per pack",
+      "8",
+      "Hobby configuration; not category odds"
+    ],
+    [
+      "Packs per box",
+      "16",
+      "Hobby configuration"
+    ],
+    [
+      "Autograph",
+      "1 per box",
+      "Box configuration, separate from category odds"
+    ],
+    [
+      "Boxes per case",
+      "16",
+      "Case configuration"
+    ]
+  ],
+  "factualObservations": {
+    "physicalRows": 649,
+    "familyCardIdentities": 640,
+    "sections": 14,
+    "baseNumbers": 200,
+    "rookieMarks": 233,
+    "dualCards": 9,
+    "dualSubjectRows": 18,
+    "oddsCategories": 80,
+    "oddsFormats": [
+      "Hobby",
+      "Value SE",
+      "Value EA",
+      "Mega SE",
+      "Mega EA",
+      "Fat Pack SE",
+      "Fat Pack EA"
+    ],
+    "oddsUnitPublished": false
+  },
+  "candidateReview": {
+    "inventory": "data/parallel-audit-sources/candidates.json",
+    "resolution": "No exact-product numbering candidate is present. The checked official landing/store pages link checklist and odds, but no product-specific education sheet or numeric parallel ladder. Stadium Club WWE/UFC and other years are distinct releases; their limits are not copied. Search results and unverified reseller-hosted sell sheets are not imported evidence."
+  },
+  "remainingGaps": [
+    "Exhaustive parallel numbering remains unverified. Checked official product text supplies no numeric serial ladder; colors and rarity names do not establish limits.",
+    "The 2025 checklist title remains separate from store Product Year 2026 and February 18, 2026 availability. No explicit general calendar release statement is verified.",
+    "The seven odds headings name formats but no ratio unit; preserve literal values and unavailable cells without calculating pack rates.",
+    "Base Card Autograps is the literal base odds caption. Exact aliases join it and named Base Card Autographs colors to BASE CARDS I AUTOGRAPH VARIATION, without correcting source text.",
+    "Base Chrome Autographs joins only CHROME BASE CARDS AUTOGRAPH VARIATION; it does not establish a separate Chrome base roster or copy paper-base limits."
+  ]
+}

@@ -891,15 +891,15 @@
       "manufacturer": "Topps / Bowman",
       "sport": "baseball",
       "year": "2025",
-      "sourcePage": "https://www.topps.com/pages/checklists",
+      "sourcePage": "https://www.topps.com/pages/topps-stadium-club-baseball",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Stadium_Club_Baseball_Checklist.pdf?v=1769109095",
       "releaseStatus": "Unverified",
       "releaseDate": null,
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+      "catalogEvidence": "All 649 physical subject rows / 640 family-card identities across 14 sections are reconciled to original Name/Team/Rookie cell origins. All 200 base numbers, 233 printed Rookie marks and both signers on nine dual cards remain intact, including trademarks, historical teams and original spellings. All 80 odds categories retain seven original Hobby/Value/Mega/Fat Pack columns and null cells. The source names no ratio unit. Base Card Autograps remains literal, with exact paper/chrome/insert autograph aliases. The checked official product text publishes no numeric parallel ladder. Store February 18, 2026 availability and Product Year 2026 are separate from the 2025 checklist title. General release date and exhaustive parallel numbering remain unverified.",
       "slug": "topps-bowman-2025-topps-stadium-club-baseball",
       "page": "sets/topps-bowman-2025-topps-stadium-club-baseball.html",
       "status": "Source table",
-      "verified": "2026-10-11",
+      "verified": "2026-10-16",
       "odds": 80,
       "formats": 7,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Stadium_Club_Baseball_Odds.pdf?v=1769442573",
@@ -908,8 +908,28 @@
       "tableData": "data/imports/topps-bowman-2025-topps-stadium-club-baseball.json",
       "sections": 14,
       "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true
+      "dataAudit": "All 649 physical subject rows / 640 family-card identities across 14 sections are reconciled to original Name/Team/Rookie cell origins. All 200 base numbers, 233 printed Rookie marks and both signers on nine dual cards remain intact, including trademarks, historical teams and original spellings. All 80 odds categories retain seven original Hobby/Value/Mega/Fat Pack columns and null cells. The source names no ratio unit. Base Card Autograps remains literal, with exact paper/chrome/insert autograph aliases. The checked official product text publishes no numeric parallel ladder. Store February 18, 2026 availability and Product Year 2026 are separate from the 2025 checklist title. General release date and exhaustive parallel numbering remain unverified.",
+      "parallelData": true,
+      "sha256": "10719b2f1638e91dbf3489044ef5b500871fc9460381e680cf34ac467b6eae95",
+      "dedicatedParser": "scripts/import_topps_stadium_baseball_2025.py",
+      "coverageComplete": true,
+      "oddsParser": "scripts/official_odds_layout.py",
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/stadium-baseball-2025-20261016.json",
+        "sha256": "d9c93a28ddc7b83c101d434910de3b2b2b387a284626640550ec39cc8851a173",
+        "source": "https://www.topps.com/products/2025-topps-stadium-club-baseball-hobby-box-sealed-case"
+      },
+      "releaseDateGap": {
+        "gap": "Official store availability is February 18, 2026; an explicit general release-date statement remains unverified.",
+        "sources": [
+          {
+            "url": "https://www.topps.com/products/2025-topps-stadium-club-baseball-hobby-box-sealed-case",
+            "statement": "Available From Feb 18, 2026; Product Year 2026, printed title 2025.",
+            "method": "Fresh official product web read"
+          }
+        ],
+        "observed": "2026-10-16"
+      }
     },
     {
       "title": "2025-26 Topps Three Basketball",

@@ -616,6 +616,17 @@
           "method": "Actual complete official browser read"
         }
       ]
+    },
+    {
+      "slug": "topps-bowman-2025-topps-stadium-club-baseball",
+      "gap": "Official store availability is February 18, 2026; an explicit general release-date statement remains unverified.",
+      "sources": [
+        {
+          "url": "https://www.topps.com/products/2025-topps-stadium-club-baseball-hobby-box-sealed-case",
+          "statement": "Available From Feb 18, 2026; Product Year 2026, printed title 2025.",
+          "method": "Fresh official product web read"
+        }
+      ]
     }
   ]
 }
