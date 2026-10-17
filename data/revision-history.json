@@ -1047,10 +1047,34 @@
       "oddsHash": "c21866224c88d0ade01c0e6ae04b48e82b1a3145f46813e10c4315e3d36caa8b",
       "rows": 878,
       "odds": 113,
-      "specificationRows": 0
+      "specificationRows": 39,
+      "specificationHash": "5ad95cf9fe94ac70556bc24ef9f45d38454821686cd68f711fa246bc24ff372d"
     },
-    "fingerprint": "0fc1f87e8e4f85ad63b9ed3278bac434457e153a05891f9941aeff376e64bc9e",
+    "fingerprint": "51ebd799223aa6e72c69cf6872e655b1698d2ef1028a3d4ac0c395eeb713a8f7",
     "events": [
+      {
+        "at": "2026-10-17T00:50:09.246Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 39",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Cosmic_Chrome_Checklist_051826.pdf?v=1779115984",
+        "snapshot": {
+          "checklistHash": "2536b9096c2bfca0a8f57ed46cda951d94d1536e5d31e47ebace4dba71beea84",
+          "oddsHash": "c21866224c88d0ade01c0e6ae04b48e82b1a3145f46813e10c4315e3d36caa8b",
+          "rows": 878,
+          "odds": 113,
+          "specificationRows": 39,
+          "specificationHash": "5ad95cf9fe94ac70556bc24ef9f45d38454821686cd68f711fa246bc24ff372d"
+        },
+        "previousSnapshot": {
+          "checklistHash": "2536b9096c2bfca0a8f57ed46cda951d94d1536e5d31e47ebace4dba71beea84",
+          "oddsHash": "c21866224c88d0ade01c0e6ae04b48e82b1a3145f46813e10c4315e3d36caa8b",
+          "rows": 878,
+          "odds": 113,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.389Z",
         "changes": [

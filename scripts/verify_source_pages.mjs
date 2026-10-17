@@ -59,6 +59,19 @@ for(const set of cases){
   get('source-section').value='COSMIC CHROME AUTOGRAPH VARIATION II';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('Cosmic Chrome Autograph Variation II Refractor')&&!csv.includes('/50')&&!csv.includes('/25'),'Variation II must not inherit the separately named first autograph program limits');
   get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2025-topps-cosmic-chrome-football'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'373 official source rows');get('source-reset').onclick();
+  get('source-section').value='STAR CLUSTERS';get('source-section').onchange();get('source-team').value='Chicago Bears';get('source-team').onchange();get('source-export').onclick();assert(csv.includes('SC-1')&&csv.includes('Caleb Williams')&&!csv.includes('Cam Ward'));get('source-reset').onclick();
+  for(const [number,statement,other] of [['EQA-TB','Five-copy print limit','Numbered to 25'],['EQA-CWI','Numbered to 25','Five-copy print limit']]){
+   get('source-search').value=number;get('source-search').oninput();const index=data.rows.findIndex(r=>r[1]===number);
+   get('source-results').onclick({target:{closest:()=>({dataset:{row:String(index)}})}});assert(get('source-results').innerHTML.includes(statement)&&!get('source-results').innerHTML.includes(other),'Autograph statements must retain exact card scope');
+   get('source-odds-tab').onclick();assert(primarySpecifications().includes(statement)&&!primarySpecifications().includes(other));get('source-cards-tab').onclick();get('source-reset').onclick();
+  }
+  get('source-section').value='ROOKIES';get('source-section').onchange();get('source-format').value='Lunar';get('source-format').onchange();get('source-odds-tab').onclick();get('source-export').onclick();assert(csv.includes('Rookies Aqua Equinox Refractor')&&csv.includes('/199')&&csv.includes('1:12'));assert(!get('source-specifications').innerHTML.includes('1 in 12 packs'));get('source-reset').onclick();
+  get('source-section').value='EQUINOX AUTOGRAPHS';get('source-section').onchange();get('source-export').onclick();assert(!csv.includes('"/25"')&&!csv.includes('"/5"'),'A named autograph example must not number the entire family');get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2026-bowman-u-best-football'){
   for(const [family,number,statement] of [['BASE CARDS','16','Limited to only five copies'],['BEST OF 2026 AUTOGRAPHS','BOA-KT','Autographed card limited to only 10 copies'],['BEST OF MASCOTS','BM-OSU','Limited to only five copies']]){
    get('source-section').value=family;get('source-section').onchange();get('source-search').value=number;get('source-search').oninput();

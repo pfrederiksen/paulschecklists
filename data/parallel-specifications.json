@@ -8923,6 +8923,52 @@
         "evidenceFile": "data/parallel-audit-sources/signature-class-basketball-2025-26-20261016.json",
         "evidenceSha256": "e60604bf3534fdd89d89e91fa37ffe15a944214a15c6d87ade2490577ec7e44f"
       }
+    ],
+    "topps-bowman-2025-topps-cosmic-chrome-football": [
+      {
+        "family": "BASE CARDS",
+        "name": "Aqua Equinox Refractor",
+        "numbering": "/199",
+        "oddsName": "Base Aqua Equinox Refractor",
+        "sourceHeading": "A Parallel Rainbow Built for Chrome Collectors",
+        "qualification": "Published for the 200-card base program, reconciled to its separate 100-card BASE CARDS and ROOKIES sections. Individual-card eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2025-topps-cosmic-chrome-football-hobby-box-breakdown/",
+        "evidenceFile": "data/parallel-audit-sources/cosmic-football-2025-20261016.json",
+        "evidenceSha256": "04e97990508c957b77a6c665ffd253962b309ef2c43e54c291fb93ddfc972c62"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Base Superfractor",
+        "sourceHeading": "A Parallel Rainbow Built for Chrome Collectors",
+        "qualification": "Published for the 200-card base program, reconciled to its separate 100-card BASE CARDS and ROOKIES sections. Individual-card eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2025-topps-cosmic-chrome-football-hobby-box-breakdown/",
+        "evidenceFile": "data/parallel-audit-sources/cosmic-football-2025-20261016.json",
+        "evidenceSha256": "04e97990508c957b77a6c665ffd253962b309ef2c43e54c291fb93ddfc972c62"
+      },
+      {
+        "family": "ROOKIES",
+        "name": "Aqua Equinox Refractor",
+        "numbering": "/199",
+        "oddsName": "Rookies Aqua Equinox Refractor",
+        "sourceHeading": "A Parallel Rainbow Built for Chrome Collectors",
+        "qualification": "Published for the 200-card base program, reconciled to its separate 100-card BASE CARDS and ROOKIES sections. Individual-card eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2025-topps-cosmic-chrome-football-hobby-box-breakdown/",
+        "evidenceFile": "data/parallel-audit-sources/cosmic-football-2025-20261016.json",
+        "evidenceSha256": "04e97990508c957b77a6c665ffd253962b309ef2c43e54c291fb93ddfc972c62"
+      },
+      {
+        "family": "ROOKIES",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Rookies Superfractor",
+        "sourceHeading": "A Parallel Rainbow Built for Chrome Collectors",
+        "qualification": "Published for the 200-card base program, reconciled to its separate 100-card BASE CARDS and ROOKIES sections. Individual-card eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2025-topps-cosmic-chrome-football-hobby-box-breakdown/",
+        "evidenceFile": "data/parallel-audit-sources/cosmic-football-2025-20261016.json",
+        "evidenceSha256": "04e97990508c957b77a6c665ffd253962b309ef2c43e54c291fb93ddfc972c62"
+      }
     ]
   },
   "conflicts": [
@@ -9295,6 +9341,14 @@
       "source": "https://ripped.topps.com/2025-26-topps-cosmic-chrome-basketball-collector-card-guide/",
       "evidenceFile": "data/parallel-audit-sources/cosmic-basketball-2025-26-20261016.json",
       "evidenceSha256": "5937bb43285d0aa81c8db3585e5618d5bc51e6c9b709237f562e6870d66f447c"
+    },
+    {
+      "slug": "topps-bowman-2025-topps-cosmic-chrome-football",
+      "family": "Other numbering and card-specific guide scope",
+      "gap": "Exhaustive parallel numbering remains unverified. Only Aqua Equinox /199 and Superfractor 1/1 are stated for the full 200-card base program; no limits are copied to other colors, inserts or autographs. Tom Brady EQA-TB Red Flare is a five-copy print-limit example, not evidence of serial marking or a family-wide /5 ladder. Caleb Williams EQA-CWI Orange Galactic is explicitly numbered to 25 only for that example. Jaxson Dart First Flight Superfractor is named without a numerical limit in the guide; no base 1/1 limit is copied to it. The odds sheet names Hobby and Lunar but does not state a ratio unit; literal Base 3:1 is not converted to a rate. Box contents remain separate. The guides publish May 18 and June 3, 2026 dates, but neither establishes a calendar release date.",
+      "source": "https://ripped.topps.com/2025-topps-cosmic-chrome-football-hobby-box-breakdown/",
+      "evidenceFile": "data/parallel-audit-sources/cosmic-football-2025-20261016.json",
+      "evidenceSha256": "04e97990508c957b77a6c665ffd253962b309ef2c43e54c291fb93ddfc972c62"
     }
   ]
 }

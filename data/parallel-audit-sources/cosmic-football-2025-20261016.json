@@ -1,0 +1,128 @@
+{
+  "observed": "2026-10-16",
+  "method": "Official full guides read in the in-app browser; linked PDFs read directly and visually inspected; original glyph origins and physical odds cells reconciled.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-cosmic-chrome-football",
+    "chaseGuide": "https://ripped.topps.com/2025-26-topps-cosmic-chrome-football-guide/",
+    "hobbyGuide": "https://ripped.topps.com/2025-topps-cosmic-chrome-football-hobby-box-breakdown/"
+  },
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Cosmic_Chrome_Checklist_051826.pdf?v=1779115984",
+  "checklistSha256": "2536b9096c2bfca0a8f57ed46cda951d94d1536e5d31e47ebace4dba71beea84",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Cosmic_Chrome_Football_Odds.pdf?v=1781722934",
+  "oddsSha256": "c21866224c88d0ade01c0e6ae04b48e82b1a3145f46813e10c4315e3d36caa8b",
+  "guidePublications": {
+    "chaseGuide": "2026-05-18",
+    "hobbyGuide": "2026-06-03"
+  },
+  "guideSpecifications": [
+    {
+      "family": "BASE CARDS",
+      "name": "Aqua Equinox Refractor",
+      "numbering": "/199",
+      "oddsName": "Base Aqua Equinox Refractor",
+      "sourceHeading": "A Parallel Rainbow Built for Chrome Collectors",
+      "qualification": "Published for the 200-card base program, reconciled to its separate 100-card BASE CARDS and ROOKIES sections. Individual-card eligibility is not inferred."
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "Base Superfractor",
+      "sourceHeading": "A Parallel Rainbow Built for Chrome Collectors",
+      "qualification": "Published for the 200-card base program, reconciled to its separate 100-card BASE CARDS and ROOKIES sections. Individual-card eligibility is not inferred."
+    },
+    {
+      "family": "ROOKIES",
+      "name": "Aqua Equinox Refractor",
+      "numbering": "/199",
+      "oddsName": "Rookies Aqua Equinox Refractor",
+      "sourceHeading": "A Parallel Rainbow Built for Chrome Collectors",
+      "qualification": "Published for the 200-card base program, reconciled to its separate 100-card BASE CARDS and ROOKIES sections. Individual-card eligibility is not inferred."
+    },
+    {
+      "family": "ROOKIES",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "Rookies Superfractor",
+      "sourceHeading": "A Parallel Rainbow Built for Chrome Collectors",
+      "qualification": "Published for the 200-card base program, reconciled to its separate 100-card BASE CARDS and ROOKIES sections. Individual-card eligibility is not inferred."
+    }
+  ],
+  "cardExamples": [
+    [
+      "EQA-TB",
+      "Tom Brady",
+      "Red Flare Refractor",
+      "Five-copy print limit",
+      "Card-specific guide example; serial marking is not stated. No limit assigned to other Equinox cards."
+    ],
+    [
+      "EQA-CWI",
+      "Caleb Williams",
+      "Orange Galactic Parallel",
+      "Numbered to 25",
+      "Card-specific guide example; not a family-wide limit."
+    ]
+  ],
+  "boxContents": [
+    [
+      "Packs",
+      "20",
+      "Per Hobby box"
+    ],
+    [
+      "Cards",
+      "4",
+      "Per pack; box configuration, not a category odds ratio"
+    ],
+    [
+      "Cards",
+      "80",
+      "Per Hobby box"
+    ],
+    [
+      "Numbered parallels",
+      "2",
+      "Per Hobby box"
+    ],
+    [
+      "Inserts",
+      "10",
+      "Per Hobby box"
+    ],
+    [
+      "Base parallels",
+      "3",
+      "Per Hobby box: one Nucleus Refractor and two additional Refractors"
+    ]
+  ],
+  "unnumberedBaseNames": [
+    "Purple Nebula",
+    "Blue Moon",
+    "Green Space Dust",
+    "Gold Interstellar",
+    "Orange Galactic",
+    "Black Eclipse",
+    "Lunar Eclipse",
+    "Red Flare"
+  ],
+  "planetaryNames": [
+    "Sun",
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Pluto"
+  ],
+  "remainingGaps": [
+    "Exhaustive parallel numbering remains unverified. Only Aqua Equinox /199 and Superfractor 1/1 are stated for the full 200-card base program; no limits are copied to other colors, inserts or autographs.",
+    "Tom Brady EQA-TB Red Flare is a five-copy print-limit example, not evidence of serial marking or a family-wide /5 ladder. Caleb Williams EQA-CWI Orange Galactic is explicitly numbered to 25 only for that example.",
+    "Jaxson Dart First Flight Superfractor is named without a numerical limit in the guide; no base 1/1 limit is copied to it.",
+    "The odds sheet names Hobby and Lunar but does not state a ratio unit; literal Base 3:1 is not converted to a rate. Box contents remain separate.",
+    "The guides publish May 18 and June 3, 2026 dates, but neither establishes a calendar release date."
+  ]
+}
