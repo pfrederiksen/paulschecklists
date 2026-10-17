@@ -43,6 +43,22 @@ for(const set of cases){
   }
   get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2025-topps-finest-football'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'212 official source rows');get('source-reset').onclick();
+  get('source-section').value='92 FINEST';get('source-section').onchange();assert.equal(get('source-count').textContent,'44 official source rows');get('source-export').onclick();assert(csv.includes('92-1')&&csv.includes('Trey McBride'));get('source-reset').onclick();
+  get('source-section').value='FINEST FANS AUTOGRAPHS';get('source-section').onchange();get('source-search').value='FAN-SC';get('source-search').oninput();const index=data.rows.findIndex(r=>r[1]==='FAN-SC');get('source-results').onclick({target:{closest:()=>({dataset:{row:String(index)}})}});assert(get('source-results').innerHTML.includes('/50')&&get('source-results').innerHTML.includes('Named card in the official pull report'));get('source-export').onclick();assert(csv.includes('Stephen Curry')&&csv.includes('Carolina Panthers'));get('source-reset').onclick();
+  get('source-section').value='FINEST FANS AUTOGRAPHS';get('source-section').onchange();get('source-search').value='FAN-MT';get('source-search').oninput();const trout=data.rows.findIndex(r=>r[1]==='FAN-MT');get('source-results').onclick({target:{closest:()=>({dataset:{row:String(trout)}})}});assert(!get('source-results').innerHTML.includes('Named card in the official pull report'),'Curry numbering must not appear on Mike Trout');get('source-reset').onclick();
+  get('source-section').value='BASE CARDS COMMON';get('source-section').onchange();get('source-odds-tab').onclick();assert(primarySpecifications().includes('6:1')&&!primarySpecifications().includes('6 cards per pack'));get('source-export').onclick();assert(csv.includes('Base Common')&&csv.includes('6:1'));get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
+ if(set.slug==='topps-bowman-2026-topps-chrome-formula-1'){
+  assert.equal(get('source-format').disabled,false);assert.deepEqual(get('source-format').options.map(o=>o.value),data.formats);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-section').value='BASE CARDS - F2™ DRIVERS';get('source-section').onchange();get('source-odds-tab').onclick();assert(primarySpecifications().includes('BASE FULL GRID REFRACTOR PARALLEL')&&primarySpecifications().includes('BASE SUPERFRACTOR PARALLEL'));get('source-export').onclick();assert(csv.includes('BASE FULL GRID REFRACTOR PARALLEL')&&csv.includes('/22')&&csv.includes('1/1'));get('source-reset').onclick();
+  get('source-section').value='VUELTA 1 AUTOGRAPHS';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('1:51,909'));get('source-format').value='SAPPHIRE';get('source-format').onchange();get('source-export').onclick();assert(csv.includes('Not listed for this format')&&!csv.includes('1:51,909'));assert(primarySpecifications().includes('Not listed for this format'));
+  get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-26-topps-cosmic-chrome-basketball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});

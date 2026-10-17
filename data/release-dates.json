@@ -271,6 +271,26 @@
       "statement": "2025–26 Topps Cosmic Chrome® Basketball, arriving April 29, 2026.",
       "scope": "Manufacturer U.S. guide; 2025-26 Cosmic Chrome Basketball only, separate from other sports and Sapphire variants",
       "sha256": "ed54b659e50739113af8c6bd52c57b9d01d19fade7ff90961ca80d04134a96de"
+    },
+    {
+      "url": "https://ripped.topps.com/2025-topps-finest-football-best-pulls/",
+      "title": "2025 Topps Finest Football | Biggest Pulls So Far",
+      "observed": "2026-10-16",
+      "method": "Official full article read in the in-app browser",
+      "statement": "2025 Topps Finest Football dropped on May 15",
+      "published": "2026-05-22",
+      "scope": "Manufacturer U.S. pull report explicitly dates the release; its May 22, 2026 publication establishes calendar-year context separately from product year 2025. Named pulls do not number other subjects.",
+      "sha256": "2e0e5f11c4b53e89f86296d4d778f2647a5ad7a3638cf01757db6be9efc8aed4"
+    },
+    {
+      "url": "https://ripped.topps.com/2026-topps-chrome-formula-1-what-box-is-best/",
+      "title": "Which 2026 Topps Chrome Formula 1 Box is Best For You?",
+      "observed": "2026-10-16",
+      "method": "Official full article read in the in-app browser",
+      "statement": "Street date: October 15, 2026",
+      "published": "2026-09-15",
+      "scope": "Main Chrome street date, shared by Hongbao. First Day Issue is described as earlier without an exact date; Logofractor October 29 and Sapphire November 12 are later variant dates, not this release date.",
+      "sha256": "dd879fcea5ffa2b0ae38251fa838c81c07c8265a6f34cc5574ce57af7a5532ad"
     }
   ],
   "dates": [
@@ -453,6 +473,18 @@
       "releaseDate": "2026-04-29",
       "releaseStatus": "Released",
       "source": 29
+    },
+    {
+      "slug": "topps-bowman-2025-topps-finest-football",
+      "releaseDate": "2026-05-15",
+      "releaseStatus": "Released",
+      "source": 30
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-formula-1",
+      "releaseDate": "2026-10-15",
+      "releaseStatus": "Released",
+      "source": 31
     }
   ],
   "unresolved": [

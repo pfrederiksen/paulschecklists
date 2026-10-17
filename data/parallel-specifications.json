@@ -8969,6 +8969,59 @@
         "evidenceFile": "data/parallel-audit-sources/cosmic-football-2025-20261016.json",
         "evidenceSha256": "04e97990508c957b77a6c665ffd253962b309ef2c43e54c291fb93ddfc972c62"
       }
+    ],
+    "topps-bowman-2025-topps-finest-football": [],
+    "topps-bowman-2026-topps-chrome-formula-1": [
+      {
+        "family": "BASE CARDS - F1® DRIVERS",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "BASE SUPERFRACTOR PARALLEL",
+        "qualification": "Base-program statement; explicit aliases cover the 12 printed base subsets. No insert or autograph limits are inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-formula-1-collector-cards-guide/",
+        "evidenceFile": "data/parallel-audit-sources/f1-2026-product-odds-20261016.json",
+        "evidenceSha256": "5def66988ec3a3494ffebcd8e5b2f85bd841a60c263cf445e20226155c8a955b"
+      },
+      {
+        "family": "BASE CARDS - F1® DRIVERS",
+        "name": "Full Grid Refractor",
+        "numbering": "/22",
+        "oddsName": "BASE FULL GRID REFRACTOR PARALLEL",
+        "qualification": "Published for the Base Full Grid category, described as featuring the current F1 driver lineup. Exact base-family aliases retain the printed program scope; individual-card eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-formula-1-collector-cards-guide/",
+        "evidenceFile": "data/parallel-audit-sources/f1-2026-product-odds-20261016.json",
+        "evidenceSha256": "5def66988ec3a3494ffebcd8e5b2f85bd841a60c263cf445e20226155c8a955b"
+      },
+      {
+        "family": "BASE CARDS - F1® DRIVERS",
+        "name": "Molten Mercury",
+        "numbering": "/15",
+        "oddsName": "BASE MOLTEN MERCURY PARALLEL",
+        "qualification": "First Day Issue base parallel statement; the odds row has FDI values only. Individual eligibility is not inferred.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-formula-1-what-box-is-best/",
+        "evidenceFile": "data/parallel-audit-sources/f1-2026-product-odds-20261016.json",
+        "evidenceSha256": "5def66988ec3a3494ffebcd8e5b2f85bd841a60c263cf445e20226155c8a955b"
+      },
+      {
+        "family": "CHROME AUTOGRAPHS",
+        "name": "Molten Mercury",
+        "numbering": "/15",
+        "oddsName": "CHROME AUTOGRAPHS MOLTEN MERCURY PARALLEL",
+        "qualification": "First Day Issue exclusive autograph statement names F1 drivers and legends; no eligibility is assigned to every signer.",
+        "source": "https://ripped.topps.com/2026-topps-chrome-formula-1-what-box-is-best/",
+        "evidenceFile": "data/parallel-audit-sources/f1-2026-product-odds-20261016.json",
+        "evidenceSha256": "5def66988ec3a3494ffebcd8e5b2f85bd841a60c263cf445e20226155c8a955b"
+      },
+      {
+        "family": "F1® DEBUT PATCH AUTOGRAPHS",
+        "name": "Arvid Lindblad Debut Patch",
+        "numbering": "1/1",
+        "oddsName": "F1 DEBUT PATCH AUTOGRAPH REDEMPTIONS",
+        "qualification": "Named Arvid Lindblad card only; the checklist contains one subject in this program.",
+        "source": "https://www.topps.com/pages/topps-chrome-formula-1",
+        "evidenceFile": "data/parallel-audit-sources/f1-2026-product-odds-20261016.json",
+        "evidenceSha256": "5def66988ec3a3494ffebcd8e5b2f85bd841a60c263cf445e20226155c8a955b"
+      }
     ]
   },
   "conflicts": [
@@ -9349,6 +9402,22 @@
       "source": "https://ripped.topps.com/2025-topps-cosmic-chrome-football-hobby-box-breakdown/",
       "evidenceFile": "data/parallel-audit-sources/cosmic-football-2025-20261016.json",
       "evidenceSha256": "04e97990508c957b77a6c665ffd253962b309ef2c43e54c291fb93ddfc972c62"
+    },
+    {
+      "slug": "topps-bowman-2025-topps-finest-football",
+      "family": "Other numbering and card-specific guide scope",
+      "gap": "Exhaustive parallel numbering remains unverified. Card-specific pull-report values never number other base cards or autograph subjects. The mixed Rookie Finest / Finest Freshman paragraph does not establish a unique family join for Blue 99-copy or Black numbered-to-10 examples. Bo Nix Flashback is a 25-copy print-limit example with no explicitly named parallel or serial marking. The two printed format names do not state a ratio unit; retain Base Common 6:1 literally without computing a per-pack probability.",
+      "source": "https://ripped.topps.com/2025-topps-finest-football-cards-chase-guide/",
+      "evidenceFile": "data/parallel-audit-sources/finest-football-2025-20261016.json",
+      "evidenceSha256": "bd9906f08df1a93d812b7844d62cd84b7ff96bcf7ffa1416acf6d7be5365c6b7"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-formula-1",
+      "family": "Format scope and remaining numbering",
+      "gap": "Exhaustive parallel numbering is not confirmed. Other color limits and per-subject eligibility remain unverified. Hobby Purple /75 is described as exclusive, while the odds table also prints FDI Purple ratios. Keep this unresolved format qualifier rather than assigning a universal limit. Hongbao 28-or-8, Logofractor /99 and 1/1, and Sapphire 1/1 statements are format-specific; no numeric limits are copied to regular Chrome parallels. SAPPHIRE, HONGBAO and LOGOFRACTOR columns contain no published values in this grid. Future variant release dates do not supply missing odds. The odds header names seven formats but no ratio unit. Box, pack, case and prize statements remain separate from odds. Full Grid is described as featuring the current F1 driver lineup; individual-card eligibility is not stated. The Grail prize has no printed code join.",
+      "source": "https://ripped.topps.com/2026-topps-chrome-formula-1-what-box-is-best/",
+      "evidenceFile": "data/parallel-audit-sources/f1-2026-product-odds-20261016.json",
+      "evidenceSha256": "5def66988ec3a3494ffebcd8e5b2f85bd841a60c263cf445e20226155c8a955b"
     }
   ]
 }

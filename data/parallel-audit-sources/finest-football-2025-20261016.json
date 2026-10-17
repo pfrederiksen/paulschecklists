@@ -1,0 +1,79 @@
+{
+  "observed": "2026-10-16",
+  "method": "Official full chase guide and pull report read in the in-app browser; product page PDF links verified; original PDF glyph origins and physical odds grid reconciled.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-finest-football",
+    "chaseGuide": "https://ripped.topps.com/2025-topps-finest-football-cards-chase-guide/",
+    "pulls": "https://ripped.topps.com/2025-topps-finest-football-best-pulls/"
+  },
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Finest_Checklist_042326.pdf?v=1776986521",
+  "checklistSha256": "d5273ca214cfc2b4e864041fa20f0a67200d5f05b31489e30c9d7df31c9ff82e",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0871/8916/0120/files/2025_Topps_Finest_Football_Odds.pdf?v=1782311781",
+  "oddsSha256": "15e0b719e4c67c5d2b7b0844ad8492afe6cf7f59c300214d986ccb0fe118507d",
+  "guidePublications": {
+    "chaseGuide": "2026-05-15",
+    "pulls": "2026-05-22"
+  },
+  "cardExamples": [
+    [
+      "BASE CARDS UNCOMMON",
+      "197",
+      "Tom Brady",
+      "SuperFractor",
+      "1/1",
+      "Named card in the official pull report; no other base card receives this limit."
+    ],
+    [
+      "ROOKIE FINEST AUTOGRAPHS",
+      "RFA-JD",
+      "Jaxson Dart",
+      "Red Refractor",
+      "/5",
+      "Named card in the official pull report; no family-wide limit."
+    ],
+    [
+      "HEADLINERS",
+      "H-8",
+      "Derrick Henry",
+      "SuperFractor",
+      "1/1",
+      "Named card in the official pull report; no family-wide limit."
+    ],
+    [
+      "FINEST FANS AUTOGRAPHS",
+      "FAN-SC",
+      "Stephen Curry",
+      "Gold Auto",
+      "/50",
+      "Named card in the official pull report; no family-wide limit."
+    ],
+    [
+      "FLASHBACK AUTOGRAPHS",
+      "FBA-BN",
+      "Bo Nix",
+      "Parallel not named",
+      "Limited to 25 copies",
+      "Card-specific guide example; serial marking and exact parallel name are not stated."
+    ]
+  ],
+  "unjoinedExamples": [
+    [
+      "Cam Skattebo / Jaxson Dart",
+      "Blue",
+      "Limited to 99 copies",
+      "The paragraph discusses Rookie Finest and Finest Freshman Autographs together; exact family join and serial marking remain unverified."
+    ],
+    [
+      "Ashton Jeanty",
+      "Black",
+      "Numbered to 10",
+      "The paragraph discusses Rookie Finest and Finest Freshman Autographs together; exact family join remains unverified."
+    ]
+  ],
+  "remainingGaps": [
+    "Exhaustive parallel numbering remains unverified. Card-specific pull-report values never number other base cards or autograph subjects.",
+    "The mixed Rookie Finest / Finest Freshman paragraph does not establish a unique family join for Blue 99-copy or Black numbered-to-10 examples.",
+    "Bo Nix Flashback is a 25-copy print-limit example with no explicitly named parallel or serial marking.",
+    "The two printed format names do not state a ratio unit; retain Base Common 6:1 literally without computing a per-pack probability."
+  ]
+}

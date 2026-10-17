@@ -78,8 +78,9 @@
       "slug": "topps-bowman-2025-topps-finest-football",
       "title": "2025 Topps Finest Football",
       "manufacturer": "Topps / Bowman",
-      "releaseDate": null,
-      "status": "Exact release-date research pending"
+      "releaseDate": "2026-05-15",
+      "status": "Explicit official release statement verified",
+      "source": "https://ripped.topps.com/2025-topps-finest-football-best-pulls/"
     },
     {
       "slug": "topps-bowman-topps-finest-premier-league-2026",
@@ -703,7 +704,8 @@
       "title": "2026 Topps Chrome Formula 1",
       "manufacturer": "Topps / Bowman",
       "releaseDate": "2026-10-15",
-      "status": "Existing dated release; original source retained"
+      "status": "Explicit official release statement verified",
+      "source": "https://ripped.topps.com/2026-topps-chrome-formula-1-what-box-is-best/"
     },
     {
       "slug": "topps-bowman-2026-topps-midnight-football",

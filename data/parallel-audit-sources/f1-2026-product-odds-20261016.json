@@ -1,0 +1,168 @@
+{
+  "observed": "2026-10-16",
+  "method": "Product page and linked PDF read directly; full SKU guide read in the in-app browser; physical odds grid visually inspected and every cell parsed by printed borders.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-chrome-formula-1",
+    "boxGuide": "https://ripped.topps.com/2026-topps-chrome-formula-1-what-box-is-best/",
+    "collectorGuide": "https://ripped.topps.com/2026-topps-chrome-formula-1-collector-cards-guide/"
+  },
+  "checklistSha256": "13fc764936e039f5139076ebf093e65928b2ef3c3ebbb117352c72178cca2304",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2026-10-08_2026-Topps-Chrome-Formula-1_Odds.pdf?v=1792065217",
+  "oddsSha256": "a47ded9bf38dcc0ffbd0c3b6f3f0e21a625af1061171f04db4ff1a0cde223001",
+  "guideSpecifications": [
+    {
+      "family": "BASE CARDS - F1® DRIVERS",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "BASE SUPERFRACTOR PARALLEL",
+      "sourceKey": "collectorGuide",
+      "qualification": "Base-program statement; explicit aliases cover the 12 printed base subsets. No insert or autograph limits are inferred."
+    },
+    {
+      "family": "BASE CARDS - F1® DRIVERS",
+      "name": "Full Grid Refractor",
+      "numbering": "/22",
+      "oddsName": "BASE FULL GRID REFRACTOR PARALLEL",
+      "sourceKey": "collectorGuide",
+      "qualification": "Published for the Base Full Grid category, described as featuring the current F1 driver lineup. Exact base-family aliases retain the printed program scope; individual-card eligibility is not inferred."
+    },
+    {
+      "family": "BASE CARDS - F1® DRIVERS",
+      "name": "Molten Mercury",
+      "numbering": "/15",
+      "oddsName": "BASE MOLTEN MERCURY PARALLEL",
+      "sourceKey": "boxGuide",
+      "qualification": "First Day Issue base parallel statement; the odds row has FDI values only. Individual eligibility is not inferred."
+    },
+    {
+      "family": "CHROME AUTOGRAPHS",
+      "name": "Molten Mercury",
+      "numbering": "/15",
+      "oddsName": "CHROME AUTOGRAPHS MOLTEN MERCURY PARALLEL",
+      "sourceKey": "boxGuide",
+      "qualification": "First Day Issue exclusive autograph statement names F1 drivers and legends; no eligibility is assigned to every signer."
+    },
+    {
+      "family": "F1® DEBUT PATCH AUTOGRAPHS",
+      "name": "Arvid Lindblad Debut Patch",
+      "numbering": "1/1",
+      "oddsName": "F1 DEBUT PATCH AUTOGRAPH REDEMPTIONS",
+      "sourceKey": "landing",
+      "qualification": "Named Arvid Lindblad card only; the checklist contains one subject in this program."
+    }
+  ],
+  "configurations": [
+    [
+      "Hobby",
+      "20",
+      "4",
+      "12",
+      "1 autograph; 4 Prism Refractors; 3 or more numbered parallels per box"
+    ],
+    [
+      "First Day Issue",
+      "20",
+      "4",
+      "12",
+      "5 numbered parallels, including 2 Molten Mercury; 1 Molten Mercury autograph per box"
+    ],
+    [
+      "Hongbao Edition",
+      "1",
+      "8",
+      "12",
+      "6 Red/Gold Foil base parallels and 2 numbered cards per box"
+    ],
+    [
+      "Value Box",
+      "7",
+      "4",
+      "40",
+      "4 B&W RayWave Refractors; 2 Refractors; 2 retail inserts per box; 1 Art Du Grand Prix SP per case"
+    ],
+    [
+      "Mega Box",
+      "6",
+      "7",
+      "20",
+      "8 Checker Flag base parallels; 1 numbered Checker Flag; 2 Base Refractors; 2 retail inserts per box"
+    ],
+    [
+      "Logofractor Edition",
+      "6",
+      "5",
+      "20",
+      "2 Logofractor cards per pack; 3 numbered Logofractor parallels per box"
+    ],
+    [
+      "Sapphire Edition",
+      "8",
+      "4",
+      "10",
+      "1 autograph and 3 numbered Sapphire Refractors per box; 1 Infinite Sapphire per case"
+    ]
+  ],
+  "qualifiedGuideTerms": [
+    [
+      "Hobby",
+      "Purple Refractor",
+      "Numbered to 75",
+      "Guide calls it Hobby-exclusive, but the official odds grid also lists FDI Purple ratios. Preserve the format discrepancy; no universal Purple /75 join."
+    ],
+    [
+      "Hongbao Edition",
+      "Numbered cards",
+      "Numbered to 28 or 8",
+      "No exact parallel-to-limit join; not pack odds. Red/Gold autograph parallel has no numeric limit stated."
+    ],
+    [
+      "Logofractor Edition",
+      "Green F1 Logofractor",
+      "Numbered to 99",
+      "Variant-specific statement; not regular Chrome Green."
+    ],
+    [
+      "Logofractor Edition",
+      "Rose Gold F1 Logofractor",
+      "1/1",
+      "Variant-specific statement; odds grid lists no Logofractor ratios."
+    ],
+    [
+      "Sapphire Edition",
+      "Padparadscha Sapphire",
+      "1/1",
+      "Variant-specific statement; not regular Chrome Superfractor. Green/Purple Sapphire have no numeric limits stated."
+    ],
+    [
+      "Hobby / The Grail",
+      "Grand Prize / Driver’s Champion",
+      "24k gold 1/1",
+      "Prize statement has no code join to printed G-1, G-4 or G-7. Preserve both captions without inventing a prize roster."
+    ]
+  ],
+  "formatDates": [
+    [
+      "Main Chrome / Hongbao",
+      "2026-10-15",
+      "Explicit manufacturer street date; First Day Issue is described as earlier without an exact date."
+    ],
+    [
+      "Logofractor Edition",
+      "2026-10-29",
+      "Later variant date; not the main release date."
+    ],
+    [
+      "Sapphire Edition",
+      "2026-11-12",
+      "Later variant date; not the main release date."
+    ]
+  ],
+  "remainingGaps": [
+    "Exhaustive parallel numbering is not confirmed. Other color limits and per-subject eligibility remain unverified.",
+    "Hobby Purple /75 is described as exclusive, while the odds table also prints FDI Purple ratios. Keep this unresolved format qualifier rather than assigning a universal limit.",
+    "Hongbao 28-or-8, Logofractor /99 and 1/1, and Sapphire 1/1 statements are format-specific; no numeric limits are copied to regular Chrome parallels.",
+    "SAPPHIRE, HONGBAO and LOGOFRACTOR columns contain no published values in this grid. Future variant release dates do not supply missing odds.",
+    "The odds header names seven formats but no ratio unit. Box, pack, case and prize statements remain separate from odds.",
+    "Full Grid is described as featuring the current F1 driver lineup; individual-card eligibility is not stated. The Grail prize has no printed code join."
+  ]
+}

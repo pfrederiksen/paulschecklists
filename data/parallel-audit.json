@@ -175,15 +175,24 @@
       "slug": "topps-bowman-2025-topps-finest-football",
       "title": "2025 Topps Finest Football",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-finest-football",
       "oddsCategories": 228,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-topps-finest-football",
+          "family": "Other numbering and card-specific guide scope",
+          "gap": "Exhaustive parallel numbering remains unverified. Card-specific pull-report values never number other base cards or autograph subjects. The mixed Rookie Finest / Finest Freshman paragraph does not establish a unique family join for Blue 99-copy or Black numbered-to-10 examples. Bo Nix Flashback is a 25-copy print-limit example with no explicitly named parallel or serial marking. The two printed format names do not state a ratio unit; retain Base Common 6:1 literally without computing a per-pack probability.",
+          "source": "https://ripped.topps.com/2025-topps-finest-football-cards-chase-guide/",
+          "evidenceFile": "data/parallel-audit-sources/finest-football-2025-20261016.json",
+          "evidenceSha256": "bd9906f08df1a93d812b7844d62cd84b7ff96bcf7ffa1416acf6d7be5365c6b7"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-topps-finest-premier-league-2026",
@@ -1672,14 +1681,23 @@
       "title": "2026 Topps Chrome Formula 1",
       "manufacturer": "Topps / Bowman",
       "source": "https://www.topps.com/pages/topps-chrome-formula-1",
-      "oddsCategories": 0,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
+      "oddsCategories": 174,
+      "numberedOddsCategories": 5,
+      "supplementalSpecifications": 5,
       "structuredNumbering": true,
       "publishedSpecifications": true,
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
-      "conflicts": []
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-chrome-formula-1",
+          "family": "Format scope and remaining numbering",
+          "gap": "Exhaustive parallel numbering is not confirmed. Other color limits and per-subject eligibility remain unverified. Hobby Purple /75 is described as exclusive, while the odds table also prints FDI Purple ratios. Keep this unresolved format qualifier rather than assigning a universal limit. Hongbao 28-or-8, Logofractor /99 and 1/1, and Sapphire 1/1 statements are format-specific; no numeric limits are copied to regular Chrome parallels. SAPPHIRE, HONGBAO and LOGOFRACTOR columns contain no published values in this grid. Future variant release dates do not supply missing odds. The odds header names seven formats but no ratio unit. Box, pack, case and prize statements remain separate from odds. Full Grid is described as featuring the current F1 driver lineup; individual-card eligibility is not stated. The Grail prize has no printed code join.",
+          "source": "https://ripped.topps.com/2026-topps-chrome-formula-1-what-box-is-best/",
+          "evidenceFile": "data/parallel-audit-sources/f1-2026-product-odds-20261016.json",
+          "evidenceSha256": "5def66988ec3a3494ffebcd8e5b2f85bd841a60c263cf445e20226155c8a955b"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-midnight-football",

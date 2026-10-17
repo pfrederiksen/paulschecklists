@@ -311,11 +311,11 @@
     "state": {
       "checklistHash": "d5273ca214cfc2b4e864041fa20f0a67200d5f05b31489e30c9d7df31c9ff82e",
       "oddsHash": "15e0b719e4c67c5d2b7b0844ad8492afe6cf7f59c300214d986ccb0fe118507d",
-      "rows": 789,
+      "rows": 788,
       "odds": 228,
-      "specificationRows": 0
+      "specificationRows": 7
     },
-    "fingerprint": "55518d0d2ed249e81f140f5b51075eedaf0b0a4aee0e16cdeb9047843cf5ebb3",
+    "fingerprint": "a0dda36ff8afd18c38a9f1b75eee838cd54b2dbed7b4176cb47eb0feff70d4c9",
     "events": [
       {
         "at": "2026-10-11T21:53:31.998Z",
@@ -4055,13 +4055,39 @@
   "topps-bowman-2026-topps-chrome-formula-1": {
     "state": {
       "checklistHash": "13fc764936e039f5139076ebf093e65928b2ef3c3ebbb117352c72178cca2304",
-      "oddsHash": null,
+      "oddsHash": "a47ded9bf38dcc0ffbd0c3b6f3f0e21a625af1061171f04db4ff1a0cde223001",
       "rows": 604,
-      "odds": 0,
-      "specificationRows": 22
+      "odds": 174,
+      "specificationRows": 43,
+      "specificationHash": "467497b620a870f0d50bbac387fcdad9e5e4522495e0438d30d7dbbc9596e8ad"
     },
-    "fingerprint": "fe92df01ca65e1ed608d715293e13345988a5ae31ddd7f9e607fc5395ff2adc6",
+    "fingerprint": "4419837d3b596ca81214a0aee8178532366b49a1c77e09225c8575e1f4990512",
     "events": [
+      {
+        "at": "2026-10-17T01:52:16.533Z",
+        "changes": [
+          "Official odds document imported.",
+          "Published odds entries: 0 → 174",
+          "Supplementary specification rows: 22 → 43",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TCF1_CHECKLIST.xlsx_-_Read-Only.pdf?v=1791482940",
+        "snapshot": {
+          "checklistHash": "13fc764936e039f5139076ebf093e65928b2ef3c3ebbb117352c72178cca2304",
+          "oddsHash": "a47ded9bf38dcc0ffbd0c3b6f3f0e21a625af1061171f04db4ff1a0cde223001",
+          "rows": 604,
+          "odds": 174,
+          "specificationRows": 43,
+          "specificationHash": "467497b620a870f0d50bbac387fcdad9e5e4522495e0438d30d7dbbc9596e8ad"
+        },
+        "previousSnapshot": {
+          "checklistHash": "13fc764936e039f5139076ebf093e65928b2ef3c3ebbb117352c72178cca2304",
+          "oddsHash": null,
+          "rows": 604,
+          "odds": 0,
+          "specificationRows": 22
+        }
+      },
       {
         "at": "2026-10-12T02:39:57.205Z",
         "changes": [
