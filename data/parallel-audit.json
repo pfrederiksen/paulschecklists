@@ -566,7 +566,16 @@
       "publishedSpecifications": false,
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-26-topps-three-basketball",
+          "family": "Named card examples; physical reconciliation pending",
+          "gap": "The official chase guide supplies seven named-card numbering examples. They remain discovery evidence pending physical checklist reconciliation, without importing a family-wide ladder or guessing unnamed parallels. March 5 release evidence is verified separately.",
+          "source": "https://ripped.topps.com/2025-26-topps-three-basketball-chase-cards/",
+          "evidenceFile": "data/parallel-audit-sources/three-basketball-2025-26-release-review-20261017.json",
+          "evidenceSha256": "7ee26e97f771304a9ff51a5f747dc71d94cb6fbb05b6264f05a1e2833cc03df7"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-tier-one-baseball",

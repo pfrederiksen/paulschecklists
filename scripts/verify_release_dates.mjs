@@ -27,6 +27,14 @@ for(const entry of registry.dates){
  if(set.releaseStatus==='Upcoming')assert(html.includes('Upcoming')&&html.includes('scheduled release'));
 }
 const by=slug=>catalog.sets.find(s=>s.slug===slug);
+assert.equal(by('topps-bowman-2025-topps-pristine-baseball').releaseDate,'2026-02-04');
+assert.equal(by('topps-bowman-2025-topps-pristine-baseball').year,'2025');
+assert(by('topps-bowman-2025-topps-pristine-baseball').verifiedRelease.statement.includes('FEBRUARY 4, 2026'));
+assert.equal(by('topps-bowman-2025-26-topps-three-basketball').releaseDate,'2026-03-05');
+assert.equal(by('topps-bowman-2025-26-topps-three-basketball').year,'2025-26');
+assert(by('topps-bowman-2025-26-topps-three-basketball').verifiedRelease.statement.includes('returns March 5, 2026'));
+assert.equal(by('topps-bowman-2025-topps-inception-baseball').releaseDate,null,'Guide publication is not a release-date statement');
+assert.equal(by('topps-bowman-2025-topps-inception-baseball').releaseDateGap.observed,'2026-10-17','A new pending-source observation retains its own date');
 assert.equal(by('topps-bowman-2025-topps-chrome-black-football').releaseDate,'2026-07-10');
 assert.equal(by('topps-bowman-2025-topps-chrome-black-football').year,'2025');
 assert(by('topps-bowman-2025-topps-chrome-black-football').verifiedRelease.statement.includes('noon ET on Friday, July 10'));

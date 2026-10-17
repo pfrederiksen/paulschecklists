@@ -1,0 +1,52 @@
+{
+  "observed": "2026-10-17",
+  "source": "https://ripped.topps.com/2025-26-topps-three-basketball-chase-cards/",
+  "method": "Full official article read in the in-app browser. Release statement is approved separately in data/release-dates.json; card examples remain discovery evidence pending physical checklist reconciliation.",
+  "releaseStatement": "Topps Three Basketball returns March 5, 2026.",
+  "candidateRows": [
+    [
+      "RELICS AUTOGRAPHS PRIME",
+      "RAP-CF",
+      "Cooper Flagg",
+      "/15"
+    ],
+    [
+      "ROOKIE 3 PATCH AUTOGRAPHS VERTICAL",
+      "RPV-KK",
+      "Kon Knueppel",
+      "/10"
+    ],
+    [
+      "THUNDERDUNK SIGNATURES",
+      "TD-LJ",
+      "LeBron James",
+      "1/1; body describes Superfractor"
+    ],
+    [
+      "VETERAN 3 PATCH AUTOGRAPHS",
+      "V3A-VW",
+      "Victor Wembanyama",
+      "/10"
+    ],
+    [
+      "CITY DRIP SIGNATURES",
+      "CD-HO",
+      "Hakeem Olajuwon",
+      "/3"
+    ],
+    [
+      "RAINDROPS SIGNATURES",
+      "RS-SC",
+      "Stephen Curry",
+      "/15"
+    ],
+    [
+      "ROOKIEVERSE AUTOGRAPHS",
+      "RV-DH",
+      "Dylan Harper",
+      "1/1"
+    ]
+  ],
+  "qualification": "These are named-card examples, not family-wide serial ladders. Most captions do not name a parallel. TRA-CKK is also pictured/described but has no published limit. Retained generic PDF rows are preliminary joins; original physical cells and card identities must be verified before importing these specifications.",
+  "status": "Discovery evidence only; not an approved numbering import"
+}

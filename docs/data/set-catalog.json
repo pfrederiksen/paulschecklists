@@ -804,6 +804,17 @@
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
       "oddsParser": "scripts/official_odds_layout.py",
+      "releaseDateGap": {
+        "gap": "The official chase guide was read in full on October 17. Its May 18, 2026 article publication is not an explicit product release date; exact calendar release remains unverified.",
+        "sources": [
+          {
+            "url": "https://ripped.topps.com/2025-topps-inception-baseball-chase-guide-top-autos-insert-cards/",
+            "statement": "Article displays May 18, 2026 and describes chase content without an explicit calendar release statement.",
+            "method": "Actual official in-app browser read"
+          }
+        ],
+        "observed": "2026-10-17"
+      },
       "presentation": {
         "rows": 702,
         "sections": 20,
@@ -1246,8 +1257,8 @@
       "year": "2025-26",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-03-05",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-26-topps-three-basketball",
       "page": "sets/topps-bowman-2025-26-topps-three-basketball.html",
@@ -1263,6 +1274,16 @@
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2025-26-topps-three-basketball-chase-cards/",
+        "title": "Top Cards to Chase in 2025–26 Topps Three Basketball",
+        "observed": "2026-10-17",
+        "method": "Full official chase guide read in the in-app browser; explicit return sentence and release-date Key Facts agree",
+        "statement": "Topps Three Basketball returns March 5, 2026. Key Facts: Product: 2025–26 Topps Three Basketball; Release date: March 5, 2026.",
+        "scope": "Exact 2025–26 Topps Three Basketball release, distinct from the March 6 article publication date and any earlier preorder.",
+        "sha256": "6057670712222e8eef909ee32a3a35ca83c3d0032ff65e99aa91d232ab0d0878",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 1172,
         "sections": 27,
@@ -2562,8 +2583,8 @@
       "year": "2025",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Pristine_Checklist.pdf?v=1767627098",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-02-04",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-pristine-baseball",
       "page": "sets/topps-bowman-2025-topps-pristine-baseball.html",
@@ -2579,6 +2600,16 @@
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2025-topps-pristine-baseball-checklist/",
+        "title": "2025 Topps Pristine Baseball Checklist Spotlight",
+        "observed": "2026-10-17",
+        "method": "Full official checklist spotlight read in the in-app browser; release section and Key Facts agree",
+        "statement": "2025 Topps Pristine Baseball Box Configuration — RELEASE • FEBRUARY 4, 2026. Key Facts: Release Date: February 4, 2026.",
+        "scope": "Exact 2025 Pristine Baseball release in calendar year 2026. January 12 article publication is separate; this does not date 2026 Pristine Baseball or other variants.",
+        "sha256": "f67991a839173adc6fd43740d8c6a49ad2839abd52b60c15b9bec65848749f4f",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 814,
         "sections": 18,

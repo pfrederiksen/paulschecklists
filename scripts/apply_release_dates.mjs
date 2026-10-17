@@ -27,7 +27,7 @@ for(const entry of registry.dates){
 for(const pending of registry.unresolved){
  const set=bySlug.get(pending.slug);assert(set);
  assert(!seen.has(pending.slug),'Conflicting dates must not be imported');
- set.releaseDateGap={gap:pending.gap,sources:pending.sources,observed:registry.observed};
+ set.releaseDateGap={gap:pending.gap,sources:pending.sources,observed:pending.observed??registry.observed};
 }
 await writeFile('data/set-catalog.json',JSON.stringify(catalog,null,2)+'\n');
 const audit={observed:registry.observed,note:'Official release dates only. Product year, checklist publication, preorder starts, regional availability and e-Pack launches are separate. Unreviewed sets remain pending.',
