@@ -9877,7 +9877,7 @@
       "gap": "No verified official pack-odds source for the 2025 product was linked in the checked current U.S. product / guide pages or global odds directory. The 2026 odds source is a different product. Ring, Galaxy and Base RWB Stars distribution statements have no numeric serial limits or explicit section-by-section eligibility; preserve them as unjoined format context. Published box/case counts are not per-pack probabilities. Full parallel numbering and individual-card eligibility remain unverified.",
       "source": "https://ripped.topps.com/2025-topps-universe-wwe-hobby-vs-value/",
       "evidenceFile": "data/parallel-audit-sources/universe-wwe-2025-physical-20261017.json",
-      "evidenceSha256": "d2f998e542badc50e729aaf36b63475cdcb39724ba1474951626006d65582cb8"
+      "evidenceSha256": "62ebfb2ef1e4f5d7e8bdbd50a5cb95793982d2908b6b976e8d0d00247531bdba"
     }
   ]
 }

@@ -2470,7 +2470,7 @@
     "coverageComplete": true,
     "sourceObservation": {
       "file": "data/parallel-audit-sources/universe-wwe-2025-physical-20261017.json",
-      "sha256": "d2f998e542badc50e729aaf36b63475cdcb39724ba1474951626006d65582cb8",
+      "sha256": "62ebfb2ef1e4f5d7e8bdbd50a5cb95793982d2908b6b976e8d0d00247531bdba",
       "source": "https://www.topps.com/products/2025-universe-wwe-hobby-box"
     }
   }
