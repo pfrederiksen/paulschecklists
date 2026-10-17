@@ -9137,7 +9137,8 @@
       }
     ],
     "topps-bowman-2025-topps-stadium-club-baseball": [],
-    "topps-bowman-2025-topps-chrome-black-football": []
+    "topps-bowman-2025-topps-chrome-black-football": [],
+    "topps-bowman-2025-26-topps-three-basketball": []
   },
   "conflicts": [
     {
@@ -9576,11 +9577,11 @@
     },
     {
       "slug": "topps-bowman-2025-26-topps-three-basketball",
-      "family": "Named card examples; physical reconciliation pending",
-      "gap": "The official chase guide supplies seven named-card numbering examples. They remain discovery evidence pending physical checklist reconciliation, without importing a family-wide ladder or guessing unnamed parallels. March 5 release evidence is verified separately.",
+      "family": "Card-specific examples reconciled; remaining numbering review",
+      "gap": "Exhaustive parallel numbering remains unverified. The seven named examples never number entire families or colors. Six examples name no parallel; preserve their published limits without selecting an odds category. The guide identifies TD-LJ as a Superfractor 1/1 example. The odds names Platinum instead; keep that distinction without assigning its limit to Platinum. The /49-or-less statement belongs to a multi-year brand-history description without exact 2025–26 family/color joins; keep it qualified, not a universal category limit. The source PDF has no Rookie column. Do not derive row flags from rookie-family names, player identities or article RC descriptions. Hobby/FDI are published formats but no ratio unit is named; preserve literal odds without computing pack rates. Box contents remain separate. Preserve original team assignments and printed names, including Kevin Durant Houston Rockets on base 6 versus Phoenix Suns on IW-25, NIque Clifford, mixed-case TP-Td and differing Yanic Konan-Niederhaüser / Konan-Niederhäuser spellings.",
       "source": "https://ripped.topps.com/2025-26-topps-three-basketball-chase-cards/",
-      "evidenceFile": "data/parallel-audit-sources/three-basketball-2025-26-release-review-20261017.json",
-      "evidenceSha256": "7ee26e97f771304a9ff51a5f747dc71d94cb6fbb05b6264f05a1e2833cc03df7"
+      "evidenceFile": "data/parallel-audit-sources/three-basketball-2025-26-physical-20261017.json",
+      "evidenceSha256": "00e72510b4662f42cb5b0328d513b79cbe1a6b75e5acb0ebd7a608dc01037e68"
     }
   ]
 }

@@ -28,6 +28,12 @@ def verify(set):
     assert len(matches)==1 and ' '.join(matches[0][1].split())==exception['value'],(set['title'],exception)
    assert not re.fullmatch(r'[\d,.]+(?::[\d,.]+)+',exception['value'])
    original.update([exception['value']])
+ if data.get('oddsParser')=='scripts/import_topps_three_basketball_2025.py':
+  # Overlapping Platinum text merges with a numeric word even in pdfplumber's
+  # text-flow mode. Independently read every original text object with pypdf;
+  # the dedicated verifier also compares each full caption/value/page line.
+  from pypdf import PdfReader
+  original=collections.Counter(value for page in PdfReader(path).pages for value in re.findall(r'[\d,]+(?::[\d,]+)+',page.extract_text()))
  source_rows=data.get('officialOddsTable',data['odds'])
  imported=collections.Counter(value for row in source_rows for value in row['values'].values() if value)
  if data.get('oddsParser')=='scripts/official_odds_layout.py':
