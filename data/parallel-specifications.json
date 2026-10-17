@@ -9138,7 +9138,69 @@
     ],
     "topps-bowman-2025-topps-stadium-club-baseball": [],
     "topps-bowman-2025-topps-chrome-black-football": [],
-    "topps-bowman-2025-26-topps-three-basketball": []
+    "topps-bowman-2025-26-topps-three-basketball": [],
+    "topps-bowman-2025-topps-pristine-baseball": [
+      {
+        "family": "BASE CARDS",
+        "name": "Pristine Black Refractor",
+        "numbering": "1/1",
+        "oddsName": "Base Pristine Black Refractor Parallel",
+        "qualification": "Product description explicitly calls the base Black finish 1-of-1; no other base or autograph color limit is inferred.",
+        "source": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2025-20261017.json",
+        "evidenceSha256": "f7ee6ab050fcee93c64d85cb144527f6da6c5fe772ac842041fc7153001b71ff"
+      },
+      {
+        "family": "PEARLESCENT",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Pearlescent Superfractor Parallel",
+        "qualification": "The product description explicitly names this short-print program with a 1-of-1 Superfractor; no other insert family inherits the statement.",
+        "source": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2025-20261017.json",
+        "evidenceSha256": "f7ee6ab050fcee93c64d85cb144527f6da6c5fe772ac842041fc7153001b71ff"
+      },
+      {
+        "family": "AMPED",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Amped Superfractor Parallel",
+        "qualification": "The product description explicitly names this short-print program with a 1-of-1 Superfractor; no other insert family inherits the statement.",
+        "source": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2025-20261017.json",
+        "evidenceSha256": "f7ee6ab050fcee93c64d85cb144527f6da6c5fe772ac842041fc7153001b71ff"
+      },
+      {
+        "family": "PROWLERS",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Prowlers Superfractor Parallel",
+        "qualification": "The product description explicitly names this short-print program with a 1-of-1 Superfractor; no other insert family inherits the statement.",
+        "source": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2025-20261017.json",
+        "evidenceSha256": "f7ee6ab050fcee93c64d85cb144527f6da6c5fe772ac842041fc7153001b71ff"
+      },
+      {
+        "family": "MONOGRAM",
+        "name": "Superfractor",
+        "numbering": "1/1",
+        "oddsName": "Monogram Superfractor Parallel",
+        "qualification": "The product description explicitly names this short-print program with a 1-of-1 Superfractor; no other insert family inherits the statement.",
+        "source": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2025-20261017.json",
+        "evidenceSha256": "f7ee6ab050fcee93c64d85cb144527f6da6c5fe772ac842041fc7153001b71ff"
+      },
+      {
+        "family": "ALL STAR GAME PRISTINE PIECES AUTOGRAPH RELIC",
+        "name": "Base Set",
+        "numbering": "1/1",
+        "oddsName": "All Star Game Pristine Pieces Auto Relic Base Set",
+        "qualification": "Product description explicitly describes the All-Star Game program as 1-of-1; regular Pristine Pieces and other relic families remain unnumbered.",
+        "source": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box",
+        "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2025-20261017.json",
+        "evidenceSha256": "f7ee6ab050fcee93c64d85cb144527f6da6c5fe772ac842041fc7153001b71ff"
+      }
+    ]
   },
   "conflicts": [
     {
@@ -9582,6 +9644,14 @@
       "source": "https://ripped.topps.com/2025-26-topps-three-basketball-chase-cards/",
       "evidenceFile": "data/parallel-audit-sources/three-basketball-2025-26-physical-20261017.json",
       "evidenceSha256": "00e72510b4662f42cb5b0328d513b79cbe1a6b75e5acb0ebd7a608dc01037e68"
+    },
+    {
+      "slug": "topps-bowman-2025-topps-pristine-baseball",
+      "family": "Remaining numbering and pack configuration scope",
+      "gap": "Exhaustive parallel numbering remains unverified. Product description gives only the six imported 1/1 joins; no other color limits are inferred, including the base Superfractor whose numeric limit is unstated in the checked wording. The 27 All-Star Game subject rows join only their separate All Star Game Pristine Pieces program; its 1/1 statement never numbers regular Pristine Pieces. The spotlight gives 10 cards per tri-pack, while the store gives 8 cards per pack. Preserve each source and its pack unit; do not choose a corrected count or derive category odds. The odds header names FGC006155 Hobby but no ratio unit. Preserve all 89 literal values, especially three-part cells, without computing per-pack probabilities. Keep February 12 store availability / store Product Year 2026 separate from the 2025 title and existing explicit February 4, 2026 release evidence.",
+      "source": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box",
+      "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2025-20261017.json",
+      "evidenceSha256": "f7ee6ab050fcee93c64d85cb144527f6da6c5fe772ac842041fc7153001b71ff"
     }
   ]
 }

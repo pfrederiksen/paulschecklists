@@ -43,6 +43,16 @@ for(const set of cases){
   }
   get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2025-topps-pristine-baseball'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').value,'FGC006155 Hobby');assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'224 official source rows');get('source-reset').onclick();
+  get('source-search').value='PPDA-ED';get('source-search').oninput();assert.equal(get('source-count').textContent,'2 official source rows');get('source-team').value='Kansas City Royals®';get('source-team').onchange();get('source-export').onclick();assert(csv.includes('Bobby Witt Jr.')&&!csv.includes('Elly De La Cruz'));get('source-reset').onclick();
+  get('source-section').value='ALL STAR GAME PRISTINE PIECES AUTOGRAPH RELIC';get('source-section').onchange();get('source-search').value='ASGPP-JS';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('Juan Soto')&&csv.includes('New York Yankees®')&&!csv.includes('New York Mets®'));get('source-reset').onclick();
+  get('source-odds-tab').onclick();get('source-section').value='PRISTINE AUTOGRAPHS';get('source-section').onchange();get('source-search').value='Green';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('01:16:00')&&csv.includes('Not published')&&!csv.includes('/150'));assert(primarySpecifications().includes('UNIT NOT NAMED'));get('source-reset').onclick();
+  get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-search').value='Black';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('Base Pristine Black Refractor Parallel')&&csv.includes('1/1')&&!csv.includes('Pristine Autographs Black'));get('source-reset').onclick();
+  get('source-section').value='ALL STAR GAME PRISTINE PIECES AUTOGRAPH RELIC';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('1/1')&&csv.includes('1:7,145'));get('source-section').value='PRISTINE PIECES AUTOGRAPH RELIC';get('source-section').onchange();get('source-export').onclick();assert(!csv.includes('1/1'),'All-Star limit must never number regular Pristine Pieces');get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-26-topps-three-basketball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});

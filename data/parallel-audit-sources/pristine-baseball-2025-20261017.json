@@ -1,0 +1,154 @@
+{
+  "observed": "2026-10-17",
+  "method": "Full official spotlight and expanded product Description / Overview / Specs read in the in-app browser; both global and product-linked PDFs downloaded and SHA-256 compared; physical cells reconciled independently.",
+  "sources": {
+    "product": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box",
+    "guide": "https://ripped.topps.com/2025-topps-pristine-baseball-checklist/",
+    "globalChecklist": "https://www.topps.com/pages/checklists",
+    "globalOdds": "https://www.topps.com/pages/odds"
+  },
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Pristine_Checklist.pdf?v=1767627098",
+  "checklistSha256": "01e0efe5d1a50828a02f365c9e768b26d6b7d2c5f09ccb730511ec0eea50515c",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025ToppsPristineBaseballOdds.pdf?v=1770915274",
+  "oddsSha256": "48dc1db53097029aa38e907eb5c248438d54ea8234c1fec8e357e5e5ecc05893",
+  "productChecklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Pristine_Checklist.pdf?v=1787959904",
+  "productOddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025ToppsPristineBaseballOdds.pdf?v=1787962041",
+  "productLinksMatchGlobalBytes": true,
+  "physicalChecklist": {
+    "pages": 16,
+    "subjectRows": 814,
+    "familyCardIdentities": 808,
+    "sections": 18,
+    "baseNumbers": 300,
+    "rookieMarks": 224,
+    "dualCards": 6,
+    "cellOrigins": {
+      "Name": 132.62,
+      "Team": 269.45,
+      "Rookie": 421.27
+    },
+    "policy": "Original glyph drawing order delimits physical cells; do not infer or propagate a subject’s team or Rookie value."
+  },
+  "physicalOdds": {
+    "pages": 2,
+    "categories": 89,
+    "header": [
+      "Cards",
+      "FGC006155 Hobby"
+    ],
+    "unitsPublished": false,
+    "threePartLiterals": [
+      "01:16:00",
+      "01:22:00",
+      "01:28:00",
+      "01:41:00"
+    ]
+  },
+  "productEvidence": [
+    {
+      "scope": "Base",
+      "statement": "The 300-card base set names Aqua, Pristine Aqua, Pristine Primaries, Red, Black 1-of-1 and Superfractor finishes. Only Black has an explicit numeric limit in that sentence."
+    },
+    {
+      "scope": "Short-print inserts",
+      "statement": "Pearlescent, Amped, Prowlers, and Monogram, each culminating in a 1-of-1 Superfractor."
+    },
+    {
+      "scope": "All-Star Game autograph relics",
+      "statement": "All-Star Game Pristine Pieces Autograph Relic 1-of-1."
+    },
+    {
+      "scope": "Store fields",
+      "statement": "Printed 2025 product title; Product Year 2026; Available From Feb 12, 2026."
+    }
+  ],
+  "guideSpecifications": [
+    {
+      "family": "BASE CARDS",
+      "name": "Pristine Black Refractor",
+      "numbering": "1/1",
+      "oddsName": "Base Pristine Black Refractor Parallel",
+      "qualification": "Product description explicitly calls the base Black finish 1-of-1; no other base or autograph color limit is inferred."
+    },
+    {
+      "family": "PEARLESCENT",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "Pearlescent Superfractor Parallel",
+      "qualification": "The product description explicitly names this short-print program with a 1-of-1 Superfractor; no other insert family inherits the statement."
+    },
+    {
+      "family": "AMPED",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "Amped Superfractor Parallel",
+      "qualification": "The product description explicitly names this short-print program with a 1-of-1 Superfractor; no other insert family inherits the statement."
+    },
+    {
+      "family": "PROWLERS",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "Prowlers Superfractor Parallel",
+      "qualification": "The product description explicitly names this short-print program with a 1-of-1 Superfractor; no other insert family inherits the statement."
+    },
+    {
+      "family": "MONOGRAM",
+      "name": "Superfractor",
+      "numbering": "1/1",
+      "oddsName": "Monogram Superfractor Parallel",
+      "qualification": "The product description explicitly names this short-print program with a 1-of-1 Superfractor; no other insert family inherits the statement."
+    },
+    {
+      "family": "ALL STAR GAME PRISTINE PIECES AUTOGRAPH RELIC",
+      "name": "Base Set",
+      "numbering": "1/1",
+      "oddsName": "All Star Game Pristine Pieces Auto Relic Base Set",
+      "qualification": "Product description explicitly describes the All-Star Game program as 1-of-1; regular Pristine Pieces and other relic families remain unnumbered."
+    }
+  ],
+  "boxContents": [
+    [
+      "Product Overview",
+      "Cards per Pack",
+      "8"
+    ],
+    [
+      "Product Overview",
+      "Packs per Box",
+      "6"
+    ],
+    [
+      "Product Overview",
+      "Autograph Cards per Box",
+      "2"
+    ],
+    [
+      "Product Overview",
+      "Auto Relic Cards per Box",
+      "1"
+    ],
+    [
+      "Official spotlight",
+      "Cards per Tri-Pack",
+      "10"
+    ],
+    [
+      "Official spotlight",
+      "Tri-Packs per Hobby Box",
+      "6"
+    ],
+    [
+      "Official spotlight",
+      "Boxes per Case",
+      "10"
+    ]
+  ],
+  "candidateReconciliation": "No 2025 Pristine candidate rows exist in candidates.json. Six new product-specific terms were reconciled to exact physical checklist families and original odds captions before import; no 2026 Pristine ladder was reused.",
+  "remainingGaps": [
+    "Exhaustive parallel numbering remains unverified. Product description gives only the six imported 1/1 joins; no other color limits are inferred, including the base Superfractor whose numeric limit is unstated in the checked wording.",
+    "The 27 All-Star Game subject rows join only their separate All Star Game Pristine Pieces program; its 1/1 statement never numbers regular Pristine Pieces.",
+    "The spotlight gives 10 cards per tri-pack, while the store gives 8 cards per pack. Preserve each source and its pack unit; do not choose a corrected count or derive category odds.",
+    "The odds header names FGC006155 Hobby but no ratio unit. Preserve all 89 literal values, especially three-part cells, without computing per-pack probabilities.",
+    "Keep February 12 store availability / store Product Year 2026 separate from the 2025 title and existing explicit February 4, 2026 release evidence."
+  ]
+}

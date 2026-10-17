@@ -1726,10 +1726,34 @@
       "oddsHash": "48dc1db53097029aa38e907eb5c248438d54ea8234c1fec8e357e5e5ecc05893",
       "rows": 814,
       "odds": 89,
-      "specificationRows": 0
+      "specificationRows": 20,
+      "specificationHash": "3a036de73f7413b9351019568bf0915fe647a42613f74282c984ca887c7d9e04"
     },
-    "fingerprint": "205eb6da880fb7a23a7ba8bcad23a1ee970815a5278edcbc09c18e06cebab604",
+    "fingerprint": "66e322545948cf6120007295b3b129dbc41615f1fffbdbf74eb519650697f574",
     "events": [
+      {
+        "at": "2026-10-17T11:01:50.478Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 20",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Pristine_Checklist.pdf?v=1767627098",
+        "snapshot": {
+          "checklistHash": "01e0efe5d1a50828a02f365c9e768b26d6b7d2c5f09ccb730511ec0eea50515c",
+          "oddsHash": "48dc1db53097029aa38e907eb5c248438d54ea8234c1fec8e357e5e5ecc05893",
+          "rows": 814,
+          "odds": 89,
+          "specificationRows": 20,
+          "specificationHash": "3a036de73f7413b9351019568bf0915fe647a42613f74282c984ca887c7d9e04"
+        },
+        "previousSnapshot": {
+          "checklistHash": "01e0efe5d1a50828a02f365c9e768b26d6b7d2c5f09ccb730511ec0eea50515c",
+          "oddsHash": "48dc1db53097029aa38e907eb5c248438d54ea8234c1fec8e357e5e5ecc05893",
+          "rows": 814,
+          "odds": 89,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.519Z",
         "changes": [

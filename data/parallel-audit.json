@@ -1083,15 +1083,24 @@
       "slug": "topps-bowman-2025-topps-pristine-baseball",
       "title": "2025 Topps Pristine Baseball",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box",
       "oddsCategories": 89,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "numberedOddsCategories": 6,
+      "supplementalSpecifications": 6,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-topps-pristine-baseball",
+          "family": "Remaining numbering and pack configuration scope",
+          "gap": "Exhaustive parallel numbering remains unverified. Product description gives only the six imported 1/1 joins; no other color limits are inferred, including the base Superfractor whose numeric limit is unstated in the checked wording. The 27 All-Star Game subject rows join only their separate All Star Game Pristine Pieces program; its 1/1 statement never numbers regular Pristine Pieces. The spotlight gives 10 cards per tri-pack, while the store gives 8 cards per pack. Preserve each source and its pack unit; do not choose a corrected count or derive category odds. The odds header names FGC006155 Hobby but no ratio unit. Preserve all 89 literal values, especially three-part cells, without computing per-pack probabilities. Keep February 12 store availability / store Product Year 2026 separate from the 2025 title and existing explicit February 4, 2026 release evidence.",
+          "source": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box",
+          "evidenceFile": "data/parallel-audit-sources/pristine-baseball-2025-20261017.json",
+          "evidenceSha256": "f7ee6ab050fcee93c64d85cb144527f6da6c5fe772ac842041fc7153001b71ff"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-topps-resurgence-football",

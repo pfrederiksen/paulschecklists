@@ -2377,5 +2377,49 @@
       "sha256": "00e72510b4662f42cb5b0328d513b79cbe1a6b75e5acb0ebd7a608dc01037e68",
       "source": "https://ripped.topps.com/2025-26-topps-three-basketball-chase-cards/"
     }
+  },
+  {
+    "title": "2025 Topps Pristine Baseball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "baseball",
+    "year": "2025",
+    "sourcePage": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Pristine_Checklist.pdf?v=1767627098",
+    "releaseStatus": "Released",
+    "releaseDate": "2026-02-04",
+    "catalogEvidence": "All 814 physical subject rows / 808 family-card identities across 18 sections retain original Name/Team cells, 300 base numbers and 224 literal Rookie marks. All six dual cards retain both signers. Historical teams, trademarks and card-specific assignments remain unchanged. All 89 odds categories retain the literal FGC006155 Hobby header and values, including 01:16:00; no ratio unit is printed. Six product-description 1/1 terms join only Base Pristine Black, the four named short-print Superfractors and All Star Game Pristine Pieces. Other color limits are not inferred. The guide’s 10 cards per tri-pack and store’s 8 cards per pack retain their original units without choosing a corrected count. February 12 store availability and Product Year 2026 remain separate from the 2025 title and verified February 4, 2026 release. Exhaustive parallel numbering remains unverified.",
+    "slug": "topps-bowman-2025-topps-pristine-baseball",
+    "page": "sets/topps-bowman-2025-topps-pristine-baseball.html",
+    "status": "Source table",
+    "verified": "2026-10-17",
+    "odds": 89,
+    "formats": 1,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025ToppsPristineBaseballOdds.pdf?v=1770915274",
+    "oddsImportIssues": 0,
+    "rowCount": 814,
+    "tableData": "data/imports/topps-bowman-2025-topps-pristine-baseball.json",
+    "sections": 18,
+    "importKind": "pdf",
+    "dataAudit": "All 814 physical subject rows / 808 family-card identities across 18 sections retain original Name/Team cells, 300 base numbers and 224 literal Rookie marks. All six dual cards retain both signers. Historical teams, trademarks and card-specific assignments remain unchanged. All 89 odds categories retain the literal FGC006155 Hobby header and values, including 01:16:00; no ratio unit is printed. Six product-description 1/1 terms join only Base Pristine Black, the four named short-print Superfractors and All Star Game Pristine Pieces. Other color limits are not inferred. The guide’s 10 cards per tri-pack and store’s 8 cards per pack retain their original units without choosing a corrected count. February 12 store availability and Product Year 2026 remain separate from the 2025 title and verified February 4, 2026 release. Exhaustive parallel numbering remains unverified.",
+    "parallelData": true,
+    "verifiedRelease": {
+      "url": "https://ripped.topps.com/2025-topps-pristine-baseball-checklist/",
+      "title": "2025 Topps Pristine Baseball Checklist Spotlight",
+      "observed": "2026-10-17",
+      "method": "Full official checklist spotlight read in the in-app browser; release section and Key Facts agree",
+      "statement": "2025 Topps Pristine Baseball Box Configuration — RELEASE • FEBRUARY 4, 2026. Key Facts: Release Date: February 4, 2026.",
+      "scope": "Exact 2025 Pristine Baseball release in calendar year 2026. January 12 article publication is separate; this does not date 2026 Pristine Baseball or other variants.",
+      "sha256": "f67991a839173adc6fd43740d8c6a49ad2839abd52b60c15b9bec65848749f4f",
+      "snapshotFile": "data/release-dates.json"
+    },
+    "sha256": "01e0efe5d1a50828a02f365c9e768b26d6b7d2c5f09ccb730511ec0eea50515c",
+    "dedicatedParser": "scripts/import_topps_pristine_2025.py",
+    "coverageComplete": true,
+    "oddsParser": "scripts/official_odds_layout.py",
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/pristine-baseball-2025-20261017.json",
+      "sha256": "f7ee6ab050fcee93c64d85cb144527f6da6c5fe772ac842041fc7153001b71ff",
+      "source": "https://www.topps.com/products/2025-topps-pristine-baseball-hobby-box"
+    }
   }
 ]
