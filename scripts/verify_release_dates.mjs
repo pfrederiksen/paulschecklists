@@ -27,6 +27,13 @@ for(const entry of registry.dates){
  if(set.releaseStatus==='Upcoming')assert(html.includes('Upcoming')&&html.includes('scheduled release'));
 }
 const by=slug=>catalog.sets.find(s=>s.slug===slug);
+assert.equal(by('topps-bowman-2025-topps-universe-wwe').releaseDate,'2026-02-27');
+assert.equal(by('topps-bowman-2025-topps-universe-wwe').year,'2025');
+assert(by('topps-bowman-2025-topps-universe-wwe').verifiedRelease.url.includes('/2025-topps-universe-wwe-checklist-spotlight/'));
+assert.equal(by('topps-bowman-2025-topps-royalty-wwe').releaseDate,null,'UK Royalty guide date remains regional');
+assert.equal(by('topps-bowman-2025-topps-royalty-wwe').regionalReleaseEvidence.date,'2026-05-01');
+assert.equal(by('topps-bowman-2025-topps-royalty-wwe').regionalReleaseEvidence.region,'UK');
+assert.equal(by('topps-bowman-2025-topps-royalty-wwe').releaseDateGap.observed,'2026-10-17');
 assert.equal(by('topps-bowman-2025-topps-pristine-baseball').releaseDate,'2026-02-04');
 assert.equal(by('topps-bowman-2025-topps-pristine-baseball').year,'2025');
 assert(by('topps-bowman-2025-topps-pristine-baseball').verifiedRelease.statement.includes('FEBRUARY 4, 2026'));

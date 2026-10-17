@@ -327,6 +327,15 @@
       "statement": "Topps Three Basketball returns March 5, 2026. Key Facts: Product: 2025–26 Topps Three Basketball; Release date: March 5, 2026.",
       "scope": "Exact 2025–26 Topps Three Basketball release, distinct from the March 6 article publication date and any earlier preorder.",
       "sha256": "6057670712222e8eef909ee32a3a35ca83c3d0032ff65e99aa91d232ab0d0878"
+    },
+    {
+      "url": "https://ripped.topps.com/2025-topps-universe-wwe-checklist-spotlight/",
+      "title": "2025 Topps Universe WWE Checklist Spotlight",
+      "observed": "2026-10-17",
+      "method": "Full official U.S. spotlight read in the in-app browser; release section and Key Facts agree",
+      "statement": "2025 Topps Universe WWE Box Configuration: RELEASE — FEBRUARY 27, 2026. Key Facts: Release Date: February 27, 2026.",
+      "scope": "Exact 2025 Universe WWE debut released in calendar year 2026. The printed 2025 product year is separate; this does not date 2026 Universe WWE or Royalty WWE.",
+      "sha256": "2ed38571feff8fbb6805326614a5382431af1975f56f9a3c4e2d841c11c01386"
     }
   ],
   "dates": [
@@ -545,6 +554,12 @@
       "releaseDate": "2026-03-05",
       "releaseStatus": "Released",
       "source": 35
+    },
+    {
+      "slug": "topps-bowman-2025-topps-universe-wwe",
+      "releaseDate": "2026-02-27",
+      "releaseStatus": "Released",
+      "source": 36
     }
   ],
   "unresolved": [
@@ -684,6 +699,18 @@
         }
       ],
       "observed": "2026-10-17"
+    },
+    {
+      "slug": "topps-bowman-2025-topps-royalty-wwe",
+      "observed": "2026-10-17",
+      "gap": "The official guide redirects to its UK edition and explicitly announces May 1, 2026. Retain this as UK regional evidence; an explicit general release date remains unverified. May 5 is article publication, not release.",
+      "sources": [
+        {
+          "url": "https://ripped.topps.com/uk/2025-topps-royalty-wwe-collectors-guide/",
+          "statement": "2025 Topps Royalty Collection WWE, releasing May 1, 2026. Article date: 5 May 2026.",
+          "method": "Actual full official browser read; requested U.S. path redirected to UK edition"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,200 @@
+{
+  "observed": "2026-10-17",
+  "method": "Full official UK guide read in the in-app browser after the requested U.S. URL redirected; landing page read through official web access; candidate rows reconciled with physical checklist families and exact odds captions.",
+  "source": "https://ripped.topps.com/uk/2025-topps-royalty-wwe-collectors-guide/",
+  "landing": "https://www.topps.com/pages/topps-royalty-wwe",
+  "checklistSha256": "41e0b69b736673d7b0e692a6ba09ae7b7a1505136d0042b777432d49d44fc5e5",
+  "oddsSha256": "cd5c1390520bae547a59e136999a086d6d32df5699f5cdb1cad88515129466ae",
+  "regionalRelease": {
+    "date": "2026-05-01",
+    "region": "UK",
+    "statement": "2025 Topps Royalty Collection WWE, releasing May 1, 2026."
+  },
+  "guideTerms": [
+    {
+      "family": "BASE CARDS",
+      "name": "Purple",
+      "numbering": "/50",
+      "oddsName": "Base Purple",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Blue",
+      "numbering": "/25",
+      "oddsName": "Base Blue",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Silver",
+      "numbering": "/10",
+      "oddsName": "Base Silver",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "BASE CARDS",
+      "name": "Platinum",
+      "numbering": "1/1",
+      "oddsName": "Base Platinum",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "WRESTLEMANIA PATCH AUTOGRAPHS",
+      "name": "Base",
+      "numbering": "1/1",
+      "oddsName": "Wrestlemania Patch Autographs",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "CROWNING ACHIEVEMENTS",
+      "name": "Base",
+      "numbering": "/25",
+      "oddsName": "Crowning Achievements",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "CROWNING ACHIEVEMENTS",
+      "name": "Platinum",
+      "numbering": "1/1",
+      "oddsName": "Crowning Achievements Platinum",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "U CANT SEE ME RELICS",
+      "name": "Base",
+      "numbering": "/25",
+      "oddsName": "U Can't See Me Relics",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "U CANT SEE ME RELICS",
+      "name": "Silver",
+      "numbering": "/10",
+      "oddsName": "U Can't See Me Relics Silver",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "U CANT SEE ME RELICS",
+      "name": "Platinum",
+      "numbering": "1/1",
+      "oddsName": "U Can't See Me Relics Platinum",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "REGALIA RELIC SIGNATURES",
+      "name": "Base",
+      "numbering": "/99",
+      "oddsName": "Regalia Relic Signatures",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "REGALIA RELIC SIGNATURES",
+      "name": "Purple",
+      "numbering": "/50",
+      "oddsName": "Regalia Relic Signatures Purple",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "REGALIA RELIC SIGNATURES",
+      "name": "Blue",
+      "numbering": "/25",
+      "oddsName": "Regalia Relic Signatures Blue",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "REGALIA RELIC SIGNATURES",
+      "name": "Silver",
+      "numbering": "/10",
+      "qualification": "Official UK guide only; no matching odds caption is published. Do not number the separately printed Gold category."
+    },
+    {
+      "family": "REGALIA RELIC SIGNATURES",
+      "name": "Green",
+      "numbering": "/5",
+      "qualification": "Official UK guide only; no matching odds caption is published. Do not number the separately printed Gold category."
+    },
+    {
+      "family": "REGALIA RELIC SIGNATURES",
+      "name": "Platinum",
+      "numbering": "1/1",
+      "oddsName": "Regalia Relic Signatures Platinum",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "INFLUENTIAL INK",
+      "name": "Base",
+      "numbering": "/99",
+      "oddsName": "Influential Ink",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "INFLUENTIAL INK",
+      "name": "Blue",
+      "numbering": "/25",
+      "oddsName": "Influential Ink Blue",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "INFLUENTIAL INK",
+      "name": "Silver",
+      "numbering": "/10",
+      "oddsName": "Influential Ink Silver",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "INFLUENTIAL INK",
+      "name": "Green",
+      "numbering": "/5",
+      "oddsName": "Influential Ink Green",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    },
+    {
+      "family": "INFLUENTIAL INK",
+      "name": "Platinum",
+      "numbering": "1/1",
+      "oddsName": "Influential Ink Platinum",
+      "qualification": "Official UK guide, exact named family only; no limits are propagated to other programs."
+    }
+  ],
+  "guideCounts": [
+    [
+      "BASE CARDS",
+      "100",
+      "100"
+    ],
+    [
+      "WRESTLEMANIA PATCH AUTOGRAPHS",
+      "50",
+      "31"
+    ],
+    [
+      "REGALIA RELIC SIGNATURES",
+      "50",
+      "42"
+    ],
+    [
+      "ROYAL DECREE",
+      "20",
+      "20"
+    ],
+    [
+      "U CANT SEE ME RELICS",
+      "5",
+      "5"
+    ]
+  ],
+  "sourceQualifications": [
+    "The article title and introduction identify 2025 Royalty WWE, but the Autographs and Relics and Collector’s Takeaway paragraphs say 2026. Preserve this inconsistency without relabeling the checklist.",
+    "The generic Key Facts describes a /99-to-1/1 Superfractor rainbow; it does not identify families or override named Platinum ladders. No generic limits are imported."
+  ],
+  "candidateReconciliation": "The two existing batch-5 WrestleMania Patch Autographs 1/1 candidate statements were re-read and joined only to the exact 2025 physical program; the source prints 31 subjects versus 50 in the guide. Other newly read ladders require explicit family joins.",
+  "remainingGaps": [
+    "Exhaustive parallel numbering remains unverified. No generic /99-to-1/1 Superfractor ladder or unreviewed family color limits are inferred.",
+    "Regalia Relics Signatures wording joins the physical REGALIA RELIC SIGNATURES program only. Its Silver /10 and Green /5 are guide-only: the PDF has Gold instead of Silver and no Green category. Gold remains unnumbered.",
+    "The guide describes 50 WrestleMania Patch subjects and 50 Regalia Relics Signatures subjects, while the physical checklist prints 31 and 42. Preserve both counts without inventing missing subjects or individual parallel eligibility.",
+    "The article mixes 2025 and 2026 labels; exact joins are scoped to its 2025 title, introduction, landing link and matching physical families.",
+    "The odds-only Liquid Gold program has no verified roster join. Its ratio remains separate; no Silver roster or numbering is inferred.",
+    "May 1, 2026 is retained only as UK regional release evidence. May 5 publication and the general release date remain distinct."
+  ]
+}

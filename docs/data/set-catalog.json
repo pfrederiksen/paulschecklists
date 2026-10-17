@@ -878,8 +878,8 @@
       "year": "2025",
       "sourcePage": "https://www.topps.com/pages/checklists",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Universe_WWE_-_CheckList_25UWWE.pdf?v=1771878230",
-      "releaseStatus": "Unverified",
-      "releaseDate": null,
+      "releaseStatus": "Released",
+      "releaseDate": "2026-02-27",
       "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
       "slug": "topps-bowman-2025-topps-universe-wwe",
       "page": "sets/topps-bowman-2025-topps-universe-wwe.html",
@@ -891,6 +891,16 @@
       "importKind": "pdf",
       "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
       "parallelData": true,
+      "verifiedRelease": {
+        "url": "https://ripped.topps.com/2025-topps-universe-wwe-checklist-spotlight/",
+        "title": "2025 Topps Universe WWE Checklist Spotlight",
+        "observed": "2026-10-17",
+        "method": "Full official U.S. spotlight read in the in-app browser; release section and Key Facts agree",
+        "statement": "2025 Topps Universe WWE Box Configuration: RELEASE — FEBRUARY 27, 2026. Key Facts: Release Date: February 27, 2026.",
+        "scope": "Exact 2025 Universe WWE debut released in calendar year 2026. The printed 2025 product year is separate; this does not date 2026 Universe WWE or Royalty WWE.",
+        "sha256": "2ed38571feff8fbb6805326614a5382431af1975f56f9a3c4e2d841c11c01386",
+        "snapshotFile": "data/release-dates.json"
+      },
       "presentation": {
         "rows": 846,
         "sections": 32,
@@ -991,11 +1001,11 @@
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25RWWE_f1866dc1-a96b-4573-9ba9-780a73093535.pdf?v=1777641349",
       "releaseStatus": "Unverified",
       "releaseDate": null,
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+      "catalogEvidence": "All 739 physical subject rows / 34 sections and original designation/Rookie cells remain unchanged. All 118 Pack Odds values remain literal. Pack Odds states a pack unit but names no format; the format selector remains disabled. The UK guide supplies 21 exact-family numbering terms, including 19 odds joins and two guide-only Regalia Silver/Green entries. Regalia Gold remains unnumbered. The guide’s 50-versus-31 WrestleMania and 50-versus-42 Regalia subject counts remain explicit. Mixed 2025/2026 prose and generic Superfractor wording do not relabel the source or number unreviewed families. May 1 is UK regional release evidence, separate from May 5 publication and an unverified general release date. Exhaustive parallel numbering remains incomplete.",
       "slug": "topps-bowman-2025-topps-royalty-wwe",
       "page": "sets/topps-bowman-2025-topps-royalty-wwe.html",
       "status": "Source table",
-      "verified": "2026-10-11",
+      "verified": "2026-10-17",
       "odds": 118,
       "formats": 1,
       "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_WWE_Royalty_Odds.pdf?v=1777649182",
@@ -1004,15 +1014,39 @@
       "tableData": "data/imports/topps-bowman-2025-topps-royalty-wwe.json",
       "sections": 34,
       "importKind": "topps-grid-pdf",
-      "dataAudit": "All 739 physical card rows and base numbers 1–100 reconciled to original glyph cell origins. Published names and rookie fields retained. Raw/Smackdown/NXT/Legend/WWE designations and apparent source spelling errors remain separate from teams. Repeated printed card numbers are retained.",
+      "dataAudit": "All 739 physical subject rows / 34 sections and original designation/Rookie cells remain unchanged. All 118 Pack Odds values remain literal. Pack Odds states a pack unit but names no format; the format selector remains disabled. The UK guide supplies 21 exact-family numbering terms, including 19 odds joins and two guide-only Regalia Silver/Green entries. Regalia Gold remains unnumbered. The guide’s 50-versus-31 WrestleMania and 50-versus-42 Regalia subject counts remain explicit. Mixed 2025/2026 prose and generic Superfractor wording do not relabel the source or number unreviewed families. May 1 is UK regional release evidence, separate from May 5 publication and an unverified general release date. Exhaustive parallel numbering remains incomplete.",
       "parallelData": true,
       "sha256": "41e0b69b736673d7b0e692a6ba09ae7b7a1505136d0042b777432d49d44fc5e5",
       "dedicatedParser": "scripts/import_topps_combat_backfills.py",
+      "regionalReleaseEvidence": {
+        "date": "2026-05-01",
+        "region": "UK",
+        "statement": "2025 Topps Royalty Collection WWE, releasing May 1, 2026.",
+        "source": "https://ripped.topps.com/uk/2025-topps-royalty-wwe-collectors-guide/",
+        "evidenceFile": "data/parallel-audit-sources/royalty-wwe-2025-guide-20261017.json",
+        "evidenceSha256": "be2b5e4fd91f8b0285b8a4797253a00eacecf4f3d44375b1c259fa99f4cd2dd2"
+      },
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/royalty-wwe-2025-guide-20261017.json",
+        "sha256": "be2b5e4fd91f8b0285b8a4797253a00eacecf4f3d44375b1c259fa99f4cd2dd2",
+        "source": "https://ripped.topps.com/uk/2025-topps-royalty-wwe-collectors-guide/"
+      },
+      "releaseDateGap": {
+        "gap": "The official guide redirects to its UK edition and explicitly announces May 1, 2026. Retain this as UK regional evidence; an explicit general release date remains unverified. May 5 is article publication, not release.",
+        "sources": [
+          {
+            "url": "https://ripped.topps.com/uk/2025-topps-royalty-wwe-collectors-guide/",
+            "statement": "2025 Topps Royalty Collection WWE, releasing May 1, 2026. Article date: 5 May 2026.",
+            "method": "Actual full official browser read; requested U.S. path redirected to UK edition"
+          }
+        ],
+        "observed": "2026-10-17"
+      },
       "presentation": {
         "rows": 739,
         "sections": 34,
-        "formats": 1,
-        "specifications": false,
+        "formats": 0,
+        "specifications": true,
         "featured": false,
         "odds": 118,
         "hasOdds": true,

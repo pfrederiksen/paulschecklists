@@ -637,10 +637,34 @@
       "oddsHash": "cd5c1390520bae547a59e136999a086d6d32df5699f5cdb1cad88515129466ae",
       "rows": 739,
       "odds": 118,
-      "specificationRows": 0
+      "specificationRows": 29,
+      "specificationHash": "9d1242e4f9cee347421c6a511d2af7542553825a0f1345309f7e82c85380c7f1"
     },
-    "fingerprint": "88752102afd25de9c4cdfbda4d19449350dac8fe76e90b8d379a1bef939147d1",
+    "fingerprint": "df56faf66ee9d2bfa673e6219a4241beb3151976bd0edf3ef496c051097334d8",
     "events": [
+      {
+        "at": "2026-10-17T12:03:27.640Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 29",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25RWWE_f1866dc1-a96b-4573-9ba9-780a73093535.pdf?v=1777641349",
+        "snapshot": {
+          "checklistHash": "41e0b69b736673d7b0e692a6ba09ae7b7a1505136d0042b777432d49d44fc5e5",
+          "oddsHash": "cd5c1390520bae547a59e136999a086d6d32df5699f5cdb1cad88515129466ae",
+          "rows": 739,
+          "odds": 118,
+          "specificationRows": 29,
+          "specificationHash": "9d1242e4f9cee347421c6a511d2af7542553825a0f1345309f7e82c85380c7f1"
+        },
+        "previousSnapshot": {
+          "checklistHash": "41e0b69b736673d7b0e692a6ba09ae7b7a1505136d0042b777432d49d44fc5e5",
+          "oddsHash": "cd5c1390520bae547a59e136999a086d6d32df5699f5cdb1cad88515129466ae",
+          "rows": 739,
+          "odds": 118,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.163Z",
         "changes": [

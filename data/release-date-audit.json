@@ -147,8 +147,9 @@
       "slug": "topps-bowman-2025-topps-universe-wwe",
       "title": "2025 Topps Universe WWE",
       "manufacturer": "Topps / Bowman",
-      "releaseDate": null,
-      "status": "Exact release-date research pending"
+      "releaseDate": "2026-02-27",
+      "status": "Explicit official release statement verified",
+      "source": "https://ripped.topps.com/2025-topps-universe-wwe-checklist-spotlight/"
     },
     {
       "slug": "topps-bowman-2026-topps-update-series-baseball",
@@ -170,7 +171,8 @@
       "title": "2025 Topps Royalty WWE",
       "manufacturer": "Topps / Bowman",
       "releaseDate": null,
-      "status": "Exact release-date research pending"
+      "status": "Exact release-date research pending",
+      "gap": "The official guide redirects to its UK edition and explicitly announces May 1, 2026. Retain this as UK regional evidence; an explicit general release date remains unverified. May 5 is article publication, not release."
     },
     {
       "slug": "topps-bowman-2026-topps-series-1-baseball",

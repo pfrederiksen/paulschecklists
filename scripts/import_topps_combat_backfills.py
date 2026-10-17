@@ -69,6 +69,10 @@ def build():
    if note not in record['catalogEvidence']:record['catalogEvidence']+=' '+note
   data_path.write_text(json.dumps(data,ensure_ascii=False)+'\n')
   record.update(rowCount=len(rows),sections=config['sections'],sha256=data['sha256'],importKind=data['importKind'],dedicatedParser=PARSER,dataAudit=f"All {len(rows)} physical card rows and base numbers 1–100 reconciled to original glyph cell origins. Published names and rookie fields retained."+(' Raw/Smackdown/NXT/Legend/WWE designations and apparent source spelling errors remain separate from teams. Repeated printed card numbers are retained.' if 'royalty' in slug else ' Teams are not separately published.'))
+  if slug=='topps-bowman-2025-topps-royalty-wwe':
+   from import_topps_royalty_wwe_specs_2025 import supplement
+   data,meta=supplement(data);record.update(meta)
+   data_path.write_text(json.dumps(data,ensure_ascii=False)+'\n')
   replacements[slug]=record
   print(record['title'],len(rows),'rows and all 100 printed base numbers.')
  for name in ['set-catalog.json','topps-product-official-catalog.json']:
