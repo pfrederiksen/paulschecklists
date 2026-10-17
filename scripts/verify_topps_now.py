@@ -220,7 +220,7 @@ if active_source.exists():
     for number in ['94','95','96']:
         assert by_key[('2026 MLS Topps NOW®',number)]['saleFromISO']=='2026-10-15'
     assert next(s for s in inventory if s['title']=='2026-27 UEFA Nations League Topps NOW®')['sport']=='soccer'
-    print('Verified all 29 active products against fresh official snapshots, including exact per-card dates, subjects, foil ladders and conditional terms.')
+    print('Verified all 29 products in the retained October 17 product snapshot, including exact per-card dates, subjects, foil ladders and conditional terms; current active coverage is checked separately.')
 
 run_source=root/'data/catalog-sources/topps-now-backfill-browser-20261017-1700-print-runs.json'
 if run_source.exists():

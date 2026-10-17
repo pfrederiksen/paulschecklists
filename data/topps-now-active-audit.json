@@ -1,33 +1,8 @@
 {
   "observed": "2026-10-17",
-  "listingSha256": "15aaa666714904618701db156567b1fa0663ab98a8799440f8992db16b2ee916",
+  "listingSha256": "d26df92f6c2d6ae05db44874ba3c7ffc7238fae03ee7f0e1604a260831036e47",
   "historicalCoverageComplete": false,
   "products": [
-    {
-      "url": "https://www.topps.com/products/milwaukee-brewers-2026-mlb-topps-now-r-card-798",
-      "title": "Milwaukee Brewers - 2026 MLB Topps NOW® - Card 798",
-      "status": "published"
-    },
-    {
-      "url": "https://www.topps.com/products/garrett-mitchell-2026-mlb-topps-now-r-card-797",
-      "title": "Garrett Mitchell - 2026 MLB Topps NOW® - Card 797",
-      "status": "published"
-    },
-    {
-      "url": "https://www.topps.com/products/jake-bauers-2026-mlb-topps-now-r-card-796",
-      "title": "Jake Bauers - 2026 MLB Topps NOW® - Card 796",
-      "status": "published"
-    },
-    {
-      "url": "https://www.topps.com/products/gavin-williams-2026-mlb-topps-now-r-card-795",
-      "title": "Gavin Williams - 2026 MLB Topps NOW® - Card 795",
-      "status": "published"
-    },
-    {
-      "url": "https://www.topps.com/products/petey-halpin-2026-mlb-topps-now-r-card-794",
-      "title": "Petey Halpin - 2026 MLB Topps NOW® - Card 794",
-      "status": "published"
-    },
     {
       "url": "https://www.topps.com/products/denver-broncos-2026-27-nfl-topps-now-r-card-60",
       "title": "Denver Broncos - 2026-27 NFL Topps NOW® - Card 60",
@@ -149,6 +124,6 @@
       "status": "published"
     }
   ],
-  "publishedCount": 29,
+  "publishedCount": 24,
   "remaining": []
 }
