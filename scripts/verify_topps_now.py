@@ -1,5 +1,5 @@
 """Reconcile NOW shared tables against retained official observations."""
-import json, hashlib, re
+import json, hashlib, re, runpy
 from urllib.parse import urlparse
 from pathlib import Path
 
@@ -9,6 +9,23 @@ inventory = json.loads((root / 'data/topps-now-official-catalog.json').read_text
 keys = [(p['series'], p['number']) for p in observations]
 assert len(keys) == len(set(keys)), 'Duplicate series/card numbers'
 assert all(p['number'] and p['evidence']['title'] for p in observations)
+listing_path=root/'data/topps-now-active-listings.json'
+if listing_path.exists():
+    listing=json.loads(listing_path.read_text())
+    aggregate=json.loads((root/'data/imports/topps-now-2026.json').read_text())
+    reconcile=runpy.run_path(str(root/'scripts/audit_topps_now_active.py'))['reconcile']
+    active=reconcile(listing,observations,aggregate)
+    audit=json.loads((root/'data/topps-now-active-audit.json').read_text())
+    assert audit['listingSha256']==hashlib.sha256(listing_path.read_bytes()).hexdigest()
+    assert audit['products']==active and not audit['historicalCoverageComplete']
+    assert not any(p['status'].startswith('missing-') for p in active)
+    # An unchanged listing must still reveal a missing public row.
+    published_index=next((i for i,p in enumerate(active) if p['status']=='published'),None)
+    if published_index is not None:
+        sample=next(p for p in observations if p['source']==active[published_index]['url'])
+        reduced={**aggregate,'rows':[r for r in aggregate['rows'] if (r[0],r[1])!=(sample['series'],sample['number'])]}
+        assert reconcile(listing,observations,reduced)[published_index]['status']=='missing-published-row'
+        assert reconcile(listing,[p for p in observations if p is not sample],aggregate)[published_index]['status']=='missing-observation'
 regional_hashes=set()
 browser_hashes=set()
 for snapshot in (root/'data/catalog-sources').glob('topps-now-backfill-browser-*.json'):
@@ -172,3 +189,35 @@ if bowman_source.exists():
     assert by_key[('2026-27 Bowman U NOW® Football','14')]['name']=='Mestemaker/Hawkins/Young','Do not infer expanded names'
     assert by_key[('2026-27 Bowman U NOW® Football','4')]['evidence']['fields']['Properties']=='Arizona State','Retain source assignments without inferred corrections'
     print('Verified 18 Bowman U NOW Football backfills: exact product-title runs, official sale dates, five foil parallels, four qualified print-run thresholds and isolated autograph/relic/image-variation terms; the 23-card series remains partial.')
+
+active_source=root/'data/catalog-sources/topps-now-backfill-browser-20261017-active.json'
+if active_source.exists():
+    retained=json.loads(active_source.read_text());assert len(retained['products'])==29
+    by_url={p['source']:p for p in observations}
+    for product in retained['products']:
+        lines=[line.strip() for line in product['lines']];card=by_url[product['url']]
+        if card['evidence'].get('snapshotFile')!=str(active_source.relative_to(root)):continue
+        fields=dict(line.split('  | ',1) for line in lines if '  | ' in line)
+        assert card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+        assert card['name']==fields['Subjects']
+        assert card['saleFrom']==fields['Available From'] and card['saleUntil']==fields['Available Until']
+        start=lines.index('Parallels:')+1;expected=[]
+        for line in lines[start:]:
+            if not re.match(r'^/\d+\s+',line):break
+            expected.append(line)
+        assert card['parallels']==expected
+        for line in lines:
+            if line.startswith('* ') or re.match(r'^[\d,]+\+ Print Run:',line):
+                assert line.removeprefix('* ') in card['terms']
+        if card['printRun']:
+            assert card.get('fieldEvidence',{}).get('printRun') or fields.get('Print Run'),'A later run needs its own official evidence; conditional thresholds are not a run'
+    for number in ['794','795','796','797','798']:
+        card=by_key[('2026 MLB Topps NOW®',number)]
+        if card['evidence'].get('snapshotFile')!=str(active_source.relative_to(root)):continue
+        assert card['saleFromISO']=='2026-10-16'
+        assert ('Autograph Redemption Card' in card['terms'])==(number in {'794','797'})
+        assert ('/44 Milwaukee Brewers Image Variation Short Prints' in card['terms'])==(number=='798')
+    for number in ['94','95','96']:
+        assert by_key[('2026 MLS Topps NOW®',number)]['saleFromISO']=='2026-10-15'
+    assert next(s for s in inventory if s['title']=='2026-27 UEFA Nations League Topps NOW®')['sport']=='soccer'
+    print('Verified all 29 active products against fresh official snapshots, including exact per-card dates, subjects, foil ladders and conditional terms.')

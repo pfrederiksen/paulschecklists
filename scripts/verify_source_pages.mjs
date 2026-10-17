@@ -43,6 +43,11 @@ for(const set of cases){
   }
   get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-now-2026-mlb-topps-now'){
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-search').value='Petey Halpin';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('"794"')&&csv.includes('Oct 16, 2026')&&csv.includes('/10 Autograph Redemption Card')&&!csv.includes('/44 Milwaukee Brewers'));get('source-reset').onclick();
+  get('source-odds-tab').onclick();get('source-search').value='798';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('"798"')&&csv.includes('/50 Gold Foil')&&!csv.includes('"794"'),'Numbered NOW specifications must honor exact card search');get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-now-2026-27-bowman-u-now-football'){
   assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});

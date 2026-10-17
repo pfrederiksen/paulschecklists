@@ -5713,6 +5713,20 @@
           "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
         }
       ]
+    },
+    {
+      "slug": "topps-now-2026-27-uefa-nations-league-topps-now",
+      "title": "2026-27 UEFA Nations League Topps NOW®",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/collections/topps-now",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
+      "ongoingSeries": true,
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": []
     }
   ]
 }
