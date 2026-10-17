@@ -84477,7 +84477,7 @@
     "number": "57",
     "name": "Kyle Hamilton",
     "printRun": "",
-    "saleFrom": "",
+    "saleFrom": "Oct 12, 2026",
     "saleUntil": "Oct 15, 2026",
     "parallels": [
       "/50 Gold Foil",
@@ -84490,8 +84490,8 @@
     "source": "https://www.topps.com/products/kyle-hamilton-2026-27-nfl-topps-now-r-card-57",
     "evidence": {
       "url": "https://www.topps.com/products/kyle-hamilton-2026-27-nfl-topps-now-r-card-57",
-      "sha256": "86f315a082ef4127b5aa1ab44e373e65beec1df949819e53e174c013b5c29c0c",
-      "observed": "2026-10-13",
+      "sha256": "8ceea451681a79ce9855427f46f921b055cdfaa90a3b6c6ff886e64b87105e06",
+      "observed": "2026-10-17",
       "title": "Kyle Hamilton - 2026-27 NFL Topps NOW® - Card 57",
       "fields": {
         "SKU": "ARTFB-16C2S-26TN-0057",
@@ -84504,11 +84504,14 @@
         "Subjects": "Kyle Hamilton",
         "Properties": "Baltimore Ravens",
         "Product Type": "Print on Demand",
+        "Available From": "Oct 12, 2026",
         "Available Until": "Oct 15, 2026"
       },
-      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-2100-kyle-hamilton.json"
     },
-    "saleFromISO": null
+    "saleFromISO": "2026-10-12"
   },
   {
     "series": "2026-27 NFL Topps NOW®",

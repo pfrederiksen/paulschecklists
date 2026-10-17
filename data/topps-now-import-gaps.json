@@ -28,15 +28,7 @@
       "gap": "The official title does not label this numeric suffix as a print run; no print run is assigned from it."
     }
   ],
-  "pendingSaleDates": [
-    {
-      "series": "2026-27 NFL Topps NOW®",
-      "number": "57",
-      "url": "https://www.topps.com/products/kyle-hamilton-2026-27-nfl-topps-now-r-card-57",
-      "saleFrom": "",
-      "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
-    }
-  ],
+  "pendingSaleDates": [],
   "excludedBeforeCutoff": [
     {
       "series": "2025-26 Bowman U NOW® Basketball",

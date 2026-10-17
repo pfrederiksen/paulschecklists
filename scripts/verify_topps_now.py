@@ -118,7 +118,8 @@ if browser_source.exists():
     bailey=by_key[('2026-27 NFL Topps NOW®','53')]
     assert bailey['source'].startswith('https://fr.topps.com/') and bailey['saleFromISO']=='2026-10-12'
     assert bailey['evidence']['fields']['Disponible À Partir De']==bailey['saleFrom']
-    assert not by_key[('2026-27 NFL Topps NOW®','57')]['saleFromISO'],'An end date must not imply a sale start'
+    if not (root/'data/catalog-sources/topps-now-backfill-browser-20261017-2100-kyle-hamilton.json').exists():
+        assert not by_key[('2026-27 NFL Topps NOW®','57')]['saleFromISO'],'An end date must not imply a sale start'
 new_mlb_source=root/'data/catalog-sources/topps-now-backfill-20261014-new-mlb.txt'
 if new_mlb_source.exists():
     raw=new_mlb_source.read_text()
@@ -296,3 +297,25 @@ if basketball_backfill.exists():
     assert by_key[('2025-26 Bowman U NOW® Basketball','41')]['saleFromISO']=='2025-12-30'
     assert len(data['rows'])>=84 and data['coverageComplete'] is False
     print('Verified 57 further calendar-year Bowman Basketball cards, 13 excluded December sale starts, exact card-specific terms and an explicitly unverified unlabelled title suffix on card 94.')
+
+kyle_source=root/'data/catalog-sources/topps-now-backfill-browser-20261017-2100-kyle-hamilton.json'
+if kyle_source.exists():
+    retained=json.loads(kyle_source.read_text());assert len(retained['products'])==1
+    product=retained['products'][0];lines=[line.strip() for line in product['lines']]
+    card=by_key[('2026-27 NFL Topps NOW®','57')]
+    assert card['source']==product['url'] and card['name']=='Kyle Hamilton'
+    assert card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+    assert 'Product is available from Oct 12, 2026' in lines and 'Available From  | Oct 12, 2026' in lines
+    assert card['saleFromISO']=='2026-10-12' and card['saleUntil']=='Oct 15, 2026'
+    assert card['printRun']=='','Conditional print-run thresholds do not establish an actual run'
+    assert card['parallels']==['/50 Gold Foil','/25 Orange\u00a0Foil','/10 Black\u00a0Foil','/5 Red\u00a0Foil','/1 FoilFractor']
+    assert all(tier+'+ Print Run:' in card['terms'] for tier in ['50,000','100,000','250,000','500,000'])
+    assert 'Autograph' not in card['terms'] and 'Relic' not in card['terms']
+    for slug in ['topps-now-2026','topps-now-2026-27-nfl-topps-now']:
+        data=json.loads((root/'data/imports'/(slug+'.json')).read_text())
+        rows=[r for r in data['rows'] if r[0]==card['series'] and r[1]=='57']
+        assert len(rows)==1 and rows[0][2:6]==['Kyle Hamilton','','Oct 12, 2026','Oct 15, 2026']
+        assert data['coverageComplete'] is False
+    gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
+    assert not any(g['series']==card['series'] and g['number']=='57' for g in gaps['pendingSaleDates'])
+    print('Verified NFL NOW 57 sale start from both the official sentence and Specs; published in both shared tables with no inferred print run or pack odds.')
