@@ -20,7 +20,10 @@ let output='';const document={getElementById:get,querySelectorAll:()=>[{remove()
 const context=vm.createContext({document,console,hasCards,hasOdds,categoryLabel,renderCatalogRow,matchesSet,compareSets,Option:function(text,value){return {text,value};},fetch:async()=>({ok:true,json:async()=>structuredClone(catalog)})});
 await new vm.Script('(async()=>{'+(await readFile('directory.js','utf8')).replace(/^import .*;\n/,'')+'})()').runInContext(context);
 assert.equal(get('catalog-total').textContent,directorySets.length);assert.equal((output.match(/class="catalog-row"/g)||[]).length,40);
-get('coverage-filter').value='released';get('coverage-filter').change();assert.equal(get('catalog-count').textContent,`${directorySets.filter(s=>s.releaseStatus==='Released').length} sets`);assert(output.includes('bowman-football-2026.html'));assert(output.includes('2026-topps-tribute-baseball.html'));
+get('coverage-filter').value='released';get('coverage-filter').change();assert.equal(get('catalog-count').textContent,`${directorySets.filter(s=>s.releaseStatus==='Released').length} sets`);
+// Dated backfills can move older releases beyond the first 40 results.
+get('set-search').value='Bowman Football';get('set-search').input();assert(output.includes('bowman-football-2026.html'));
+get('set-search').value='2026 Tribute Baseball';get('set-search').input();assert(output.includes('2026-topps-tribute-baseball.html'));
 get('catalog-reset').onclick();get('catalog-next').onclick();assert.equal(get('catalog-page').textContent,`Page 2 of ${Math.ceil(directorySets.filter(s=>s.status==='Searchable'||(s.tableData&&s.rosterPublished!==false)).length/40)}`);
 get('set-search').value='this-does-not-exist';get('set-search').input();assert.equal(get('catalog-count').textContent,'0 sets');assert(get('catalog-empty').hidden===false);
 console.log(`Verified ${catalog.sets.length} unique official-source pages, ${tables} preserved tables, shared tracking/ads, and directory filters/pagination.`);

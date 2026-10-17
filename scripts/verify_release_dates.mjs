@@ -27,6 +27,8 @@ for(const entry of registry.dates){
  if(set.releaseStatus==='Upcoming')assert(html.includes('Upcoming')&&html.includes('scheduled release'));
 }
 const by=slug=>catalog.sets.find(s=>s.slug===slug);
+assert.equal(by('topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball').releaseDate,'2026-03-12');
+assert.equal(by('topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball').year,'2025');
 assert.equal(by('topps-bowman-2025-topps-finest-football').releaseDate,'2026-05-15');
 assert.equal(by('topps-bowman-2025-topps-finest-football').year,'2025');
 assert.equal(by('topps-bowman-2026-topps-chrome-formula-1').releaseDate,'2026-10-15');

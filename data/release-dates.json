@@ -291,6 +291,15 @@
       "published": "2026-09-15",
       "scope": "Main Chrome street date, shared by Hongbao. First Day Issue is described as earlier without an exact date; Logofractor October 29 and Sapphire November 12 are later variant dates, not this release date.",
       "sha256": "dd879fcea5ffa2b0ae38251fa838c81c07c8265a6f34cc5574ce57af7a5532ad"
+    },
+    {
+      "url": "https://ripped.topps.com/2025-topps-chrome-mcdonalds-all-american-autos-collect/",
+      "title": "2025 Topps Chrome McDonald’s All-American Basketball Autos to Collect",
+      "observed": "2026-10-16",
+      "method": "Official guide read in the in-app browser; release FAQ expanded",
+      "statement": "When does 2025 Topps Chrome® McDonald’s All-American Basketball Release? March 12, 2026.",
+      "scope": "Manufacturer U.S. guide; product year 2025 is separate from the 2026 release",
+      "sha256": "c064be5ea7df4e439e424b4e58092f731eb0d00c3616945f501d9143b1566893"
     }
   ],
   "dates": [
@@ -485,6 +494,12 @@
       "releaseDate": "2026-10-15",
       "releaseStatus": "Released",
       "source": 31
+    },
+    {
+      "slug": "topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball",
+      "releaseDate": "2026-03-12",
+      "releaseStatus": "Released",
+      "source": 32
     }
   ],
   "unresolved": [

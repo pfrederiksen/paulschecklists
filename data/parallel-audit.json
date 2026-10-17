@@ -82,15 +82,24 @@
       "slug": "topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball",
       "title": "2025 Topps Chrome® McDonald's All-American Basketball",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-chrome-mcdonalds-all-american-basketball",
       "oddsCategories": 73,
       "numberedOddsCategories": 0,
       "supplementalSpecifications": 0,
       "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball",
+          "family": "Unscoped parallel descriptions and unjoined odds",
+          "gap": "Exhaustive parallel numbering remains unverified; the checked official guides and product page publish no numeric parallel ladder. The checklist has no printed column headers. Name and Published East/West designation are descriptive adapter labels for physical cells, not inferred NBA teams or rookie flags. Concrete Canvas has 20 checklist entries but no corresponding odds category in the linked sheet; no odds are invented. Event Autogrpahs is the literal odds caption and joins EVENT AUTOGRAPHS only through an explicit spelling alias. The Hobby header names a format but no ratio unit. Base 9:1 remains literal; 15 cards per pack is separate box configuration.",
+          "source": "https://ripped.topps.com/topps-chrome-mcdonalds-all-american-basketball-history/",
+          "evidenceFile": "data/parallel-audit-sources/mcdonalds-basketball-2025-20261016.json",
+          "evidenceSha256": "358684efd33be2441475cf237c40929c355c072ab2371187ee8d84c391d4817e"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-topps-chrome-platinum-baseball",

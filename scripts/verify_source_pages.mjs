@@ -43,6 +43,14 @@ for(const set of cases){
   }
   get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball'){
+  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-search').value='HR-27';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-results').onclick({target:{closest:()=>({dataset:{row:String(data.rows.findIndex(r=>r[1]==='HR-27'))}})}});assert(get('source-results').innerHTML.includes('OFFICIAL Published East/West designation')&&get('source-results').innerHTML.includes('ZAKiyah Johnson'));get('source-export').onclick();assert(csv.includes('ZAKiyah Johnson')&&csv.includes('East')&&!csv.includes('Team'));get('source-reset').onclick();
+  get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-search').value='West';get('source-search').oninput();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>r[0]==='BASE CARDS'&&r[4]==='West').length} official source rows`);get('source-reset').onclick();
+  get('source-section').value='EVENT AUTOGRAPHS';get('source-section').onchange();get('source-odds-tab').onclick();assert(primarySpecifications().includes('Event Autogrpahs')&&primarySpecifications().includes('1:6'));get('source-reset').onclick();get('source-section').value='BASE CARDS';get('source-section').onchange();assert(primarySpecifications().includes('9:1')&&!primarySpecifications().includes('9 cards per pack'));get('source-export').onclick();assert(csv.includes('Base McFlurry')&&csv.includes('9:1'));get('source-cards-tab').onclick();get('source-reset').onclick();
+  get('source-section').value='CONCRETE CANVAS';get('source-section').onchange();assert.equal(get('source-count').textContent,'20 official source rows');get('source-odds-tab').onclick();assert(!primarySpecifications().includes('1:48'),'All-American Drip odds do not apply to Concrete Canvas');get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2025-26-topps-finest-basketball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});

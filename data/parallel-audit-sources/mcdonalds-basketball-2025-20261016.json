@@ -1,0 +1,83 @@
+{
+  "observed": "2026-10-16",
+  "method": "Official product landing and store pages refreshed; full official autograph and product-history guides read in the in-app browser, including the expanded release FAQ. Original PDF glyph origins and rendered checklist/odds pages inspected.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-chrome-mcdonalds-all-american-basketball",
+    "product": "https://www.topps.com/products/2025-topps-chrome%C2%AE-mcdonalds-all-american-basketball-hobby-box",
+    "guide": "https://ripped.topps.com/2025-topps-chrome-mcdonalds-all-american-autos-collect/",
+    "history": "https://ripped.topps.com/topps-chrome-mcdonalds-all-american-basketball-history/"
+  },
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Checklist.pdf?v=1770740329",
+  "checklistSha256": "2175670434849c8a8d58c7068130ec9d035ebfc51edca70610b78051643ee8a4",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Odds.pdf?v=1775071299",
+  "oddsSha256": "bd1cc7ba86e1dc19bbb029da3cd2efbb5c6fb2d590496cd3cdad6afc77bfe9ff",
+  "productOddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Odds.pdf?v=1787965249",
+  "productOddsSha256": "bd1cc7ba86e1dc19bbb029da3cd2efbb5c6fb2d590496cd3cdad6afc77bfe9ff",
+  "guidePublished": "2026-03-11",
+  "releaseStatement": {
+    "question": "When does 2025 Topps Chrome® McDonald’s All-American Basketball Release?",
+    "answer": "March 12, 2026."
+  },
+  "productFields": [
+    [
+      "Product Year",
+      "2026",
+      "Store metadata; checklist title remains 2025"
+    ],
+    [
+      "Available From",
+      "Mar 12, 2026",
+      "Store availability; the separate official guide explicitly establishes release"
+    ],
+    [
+      "Cards per pack",
+      "15",
+      "Hobby configuration, not category odds"
+    ],
+    [
+      "Packs per box",
+      "4",
+      "Hobby configuration"
+    ],
+    [
+      "Autographs",
+      "Look for 3 autographs per box",
+      "Preserve Look for wording; not a category ratio"
+    ]
+  ],
+  "guideCounts": [
+    [
+      "EVENT AUTOGRAPHS",
+      "38"
+    ],
+    [
+      "BILLBOARD INK",
+      "38"
+    ]
+  ],
+  "parallelDescriptions": [
+    [
+      "McDonald’s Logo Refractor",
+      "Named in product description; family scope and serial numbering unstated"
+    ],
+    [
+      "McFlurry",
+      "Named in product description; family scope and serial numbering unstated"
+    ],
+    [
+      "Tie-Dye",
+      "Named in product description; family scope and serial numbering unstated"
+    ]
+  ],
+  "candidateReview": {
+    "inventory": "data/parallel-audit-sources/candidates.json",
+    "resolution": "No product-specific candidate exists in the current inventory. Official linked autograph and history guides and the product description were reviewed; they name parallels without a serial-number ladder. No numeric limit is inferred from colors or other releases."
+  },
+  "remainingGaps": [
+    "Exhaustive parallel numbering remains unverified; the checked official guides and product page publish no numeric parallel ladder.",
+    "The checklist has no printed column headers. Name and Published East/West designation are descriptive adapter labels for physical cells, not inferred NBA teams or rookie flags.",
+    "Concrete Canvas has 20 checklist entries but no corresponding odds category in the linked sheet; no odds are invented.",
+    "Event Autogrpahs is the literal odds caption and joins EVENT AUTOGRAPHS only through an explicit spelling alias.",
+    "The Hobby header names a format but no ratio unit. Base 9:1 remains literal; 15 cards per pack is separate box configuration."
+  ]
+}

@@ -151,9 +151,9 @@
       "oddsHash": "bd1cc7ba86e1dc19bbb029da3cd2efbb5c6fb2d590496cd3cdad6afc77bfe9ff",
       "rows": 400,
       "odds": 73,
-      "specificationRows": 0
+      "specificationRows": 10
     },
-    "fingerprint": "cb63d256be83acbe6ca65e82c0497b179e4a27260249abc4e02e6030ae8be580",
+    "fingerprint": "415b9fd1bbfe96c3501dc9c39eadf9d399e95105d8179e089542e2359ea5ba6a",
     "events": [
       {
         "at": "2026-10-11T21:53:31.949Z",
