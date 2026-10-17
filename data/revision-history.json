@@ -5628,14 +5628,37 @@
   },
   "topps-now-2026": {
     "state": {
-      "checklistHash": "703ea619f228e18f95a3f8b3b5bcaf38adbe6637b385ce83f41378783aeffb88",
+      "checklistHash": "87e33a59a2ba229e8447ba35a959fc324381dff3520ce9601d9fc04d8d88b546",
       "oddsHash": null,
-      "rows": 2179,
+      "rows": 2236,
       "odds": 0,
-      "specificationRows": 9893
+      "specificationRows": 10178
     },
-    "fingerprint": "4286e958c07fcd02a2db12996204f18817bd77713894290c4f71fb64e8cdc64c",
+    "fingerprint": "2f3d1e9d0bf83cdf599bd352d781396d39f19d9243b868b7c23f6c71fb8a4f8d",
     "events": [
+      {
+        "at": "2026-10-17T19:08:00.593Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 2179 → 2236",
+          "Supplementary specification rows: 9893 → 10178"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "87e33a59a2ba229e8447ba35a959fc324381dff3520ce9601d9fc04d8d88b546",
+          "oddsHash": null,
+          "rows": 2236,
+          "odds": 0,
+          "specificationRows": 10178
+        },
+        "previousSnapshot": {
+          "checklistHash": "703ea619f228e18f95a3f8b3b5bcaf38adbe6637b385ce83f41378783aeffb88",
+          "oddsHash": null,
+          "rows": 2179,
+          "odds": 0,
+          "specificationRows": 9893
+        }
+      },
       {
         "at": "2026-10-17T18:07:07.302Z",
         "changes": [
@@ -12741,14 +12764,37 @@
   },
   "topps-now-2025-26-bowman-u-now-basketball": {
     "state": {
-      "checklistHash": "7ad2a4c89ff5f8fc5346d69c718b2725ea02e6d797723a0c856d378c520294dc",
+      "checklistHash": "a7a760acd4eff8149623e6d0bfba5dab20cbfe37fd08e7171bc4919cad9b9df5",
       "oddsHash": null,
-      "rows": 27,
+      "rows": 84,
       "odds": 0,
-      "specificationRows": 135
+      "specificationRows": 420
     },
-    "fingerprint": "d8d6d3a3c81cd04750c0a9fa5c8ddea6284d04cc070aa109b9e7b26254e397b0",
+    "fingerprint": "e5898c2d2f9d0d284015bcc4969f84bf31b21ffcd117cd26698b150db09699c5",
     "events": [
+      {
+        "at": "2026-10-17T19:08:01.910Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 27 → 84",
+          "Supplementary specification rows: 135 → 420"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "a7a760acd4eff8149623e6d0bfba5dab20cbfe37fd08e7171bc4919cad9b9df5",
+          "oddsHash": null,
+          "rows": 84,
+          "odds": 0,
+          "specificationRows": 420
+        },
+        "previousSnapshot": {
+          "checklistHash": "7ad2a4c89ff5f8fc5346d69c718b2725ea02e6d797723a0c856d378c520294dc",
+          "oddsHash": null,
+          "rows": 27,
+          "odds": 0,
+          "specificationRows": 135
+        }
+      },
       {
         "at": "2026-10-17T18:07:08.637Z",
         "changes": [

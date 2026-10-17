@@ -18,6 +18,16 @@
       "gap": "Regional product series or card number conflicts with the retained U.S. archive identity for the same product path; do not merge its dates or create a duplicate card."
     }
   ],
+  "unverifiedPrintRuns": [
+    {
+      "url": "https://www.topps.com/products/aj-dybantsa-kevin-durant-2025-26-bowman-u-now%C2%AE-basketball-card-94",
+      "title": "AJ Dybantsa / Kevin Durant - 2025-26 Bowman U NOW® Basketball - Card 94 - 5738",
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "94",
+      "unlabelledValue": "5738",
+      "gap": "The official title does not label this numeric suffix as a print run; no print run is assigned from it."
+    }
+  ],
   "pendingSaleDates": [
     {
       "series": "2026-27 NFL Topps NOW®",
@@ -27,7 +37,86 @@
       "gap": "Official sale date not yet verified; excluded from the calendar-year backfill."
     }
   ],
-  "excludedBeforeCutoff": [],
+  "excludedBeforeCutoff": [
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "29",
+      "saleFromISO": "2025-12-12",
+      "url": "https://www.topps.com/products/braden-smith-2025-26-bowman-u-now%C2%AE-basketball-card-29"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "30",
+      "saleFromISO": "2025-12-12",
+      "url": "https://www.topps.com/products/madison-booker-2025-26-bowman-u-now%C2%AE-basketball-card-30"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "31",
+      "saleFromISO": "2025-12-16",
+      "url": "https://www.topps.com/products/xaivian-lee-2025-26-bowman-u-now%C2%AE-basketball-card-31"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "32",
+      "saleFromISO": "2025-12-16",
+      "url": "https://www.topps.com/products/brayden-burries-2025-26-bowman-u-now%C2%AE-basketball-card-32"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "33",
+      "saleFromISO": "2025-12-19",
+      "url": "https://www.topps.com/products/jon-scheyer-2025-26-bowman-u-now%C2%AE-basketball-card-33"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "34",
+      "saleFromISO": "2025-12-19",
+      "url": "https://www.topps.com/products/sienna-betts-2025-26-bowman-u-now%C2%AE-basketball-card-34"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "35",
+      "saleFromISO": "2025-12-23",
+      "url": "https://www.topps.com/products/aj-dybantsa-2025-26-bowman-u-now%C2%AE-basketball-card-35"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "36",
+      "saleFromISO": "2025-12-23",
+      "url": "https://www.topps.com/products/kaelyn-carroll-2025-26-bowman-u-now%C2%AE-basketball-card-36"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "37",
+      "saleFromISO": "2025-12-23",
+      "url": "https://www.topps.com/products/christian-anderson-2025-26-bowman-u-now%C2%AE-basketball-card-37"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "38",
+      "saleFromISO": "2025-12-23",
+      "url": "https://www.topps.com/products/caleb-wilson-2025-26-bowman-u-now%C2%AE-basketball-card-38"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "39",
+      "saleFromISO": "2025-12-23",
+      "url": "https://www.topps.com/products/aj-dybantsa-2025-26-bowman-u-now%C2%AE-basketball-card-39"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "40",
+      "saleFromISO": "2025-12-30",
+      "url": "https://www.topps.com/products/bennett-stirtz-2025-26-bowman-u-now%C2%AE-basketball-card-40"
+    },
+    {
+      "series": "2025-26 Bowman U NOW® Basketball",
+      "number": "41",
+      "saleFromISO": "2025-12-30",
+      "url": "https://www.topps.com/products/tounde-yessoufou-2025-26-bowman-u-now%C2%AE-basketball-card-41"
+    }
+  ],
   "archivePaginationScanComplete": true,
   "remaining": "Missing product URLs, unverified sale dates, renderer-only product pages, non-numbered bundles and entertainment products still require reconciliation."
 }

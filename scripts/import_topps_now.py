@@ -39,7 +39,7 @@ for document in documents:
   continue
  raw=document.read_text();starts=list(re.finditer(r'^[^\n]*\((https://(?:www|uk|uk-next|fr)\.topps\.com/products/[^)]+)\)\n',raw,re.M))
  for i,m in enumerate(starts):blocks.append((m[1],raw[m.start():starts[i+1].start() if i+1<len(starts) else len(raw)],document))
-products={};unparsed=[]
+products={};unparsed=[];unverified_print_runs=[]
 for url,block,document in blocks:
  lines=[x.strip() for x in re.split(r'L\d+(?:@P\d+)?:\s*',block)[1:]]
  lines=[re.sub(r'\ue200cite\ue202[^\ue201]*\ue201','',x).strip() for x in lines]
@@ -47,10 +47,19 @@ for url,block,document in blocks:
  title=next((x.removeprefix('## ') for x in titles if x.startswith('## ')),titles[0] if titles else None)
  if not title:continue
  match=re.fullmatch(r'(.+?) - (20\d\d(?:-\d\d)? .+?NOW®.*?) - (?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
+ unlabelled_suffix=None
  if not match:
+  # An explicit Card number remains usable when an unlabelled numeric
+  # suffix follows it. That suffix is not a published print-run claim.
+  suffix_match=re.fullmatch(r'(.+?) - (20\d\d(?:-\d\d)? .+?NOW®.*?) - Card ([A-Za-z0-9-]+?) - ([\d,]+)',title)
+  if suffix_match:
+   name,series,number,unlabelled_suffix=suffix_match.groups();pr=None
+   unverified_print_runs.append({'url':url,'title':title,'series':series,'number':number,'unlabelledValue':unlabelled_suffix,'gap':'The official title does not label this numeric suffix as a print run; no print run is assigned from it.'})
+ if not match and unlabelled_suffix is None:
   unparsed.append({'url':url,'title':title,'gap':'Official title lacks a validated number or has conflicting/unrecognized numbering or print-run text; preserve the gap instead of inferring from the URL.'})
   continue
- name,series,number,pr=match.groups();number=number.rstrip('-');fields={}
+ if match:name,series,number,pr=match.groups()
+ number=number.rstrip('-');fields={}
  if not number:
   unparsed.append({'url':url,'title':title,'gap':'Card number is blank in the official product title.'});continue
  for line in lines:
@@ -81,6 +90,8 @@ for url,block,document in blocks:
   unit='sticker' if 'non-base sticker' in overview else 'card'
   factual.append(f'A non-base {unit} replaces the ordered base {unit}; allocation depends on total orders. Numeric pack odds are not published.')
  factual.extend(tiers)
+ if unlabelled_suffix is not None:
+  factual.append(f'Official title ends with unlabelled value {unlabelled_suffix}; its meaning is unverified and no print run is assigned from it.')
  if urlparse(url).hostname=='fr.topps.com':
   factual.extend(x for x in lines[begin+1:end] if x.startswith('*Les cartes parallèles') or x.startswith('Tirage de '))
  overview='\n'.join(factual)
@@ -105,6 +116,7 @@ for url,block,document in blocks:
   unparsed.append({'url':url,'title':title,'gap':'Regional product series or card number conflicts with the retained U.S. archive identity for the same product path; do not merge its dates or create a duplicate card.'})
   continue
  evidence={'url':url,'sha256':hashlib.sha256('\n'.join(lines).encode()).hexdigest(),'observed':datetime.datetime.fromtimestamp(document.stat().st_mtime).date().isoformat(),'title':title,'fields':fields,'overview':overview}
+ if unlabelled_suffix is not None:evidence['unlabelledTitleSuffix']=unlabelled_suffix
  if document.suffix=='.json':evidence.update(sourceKind='official-browser-product',snapshotFile=str(document.relative_to(ROOT)))
  p={'series':series,'number':number,'name':name,'printRun':pr,'saleFrom':fields.get('Available From',''),'saleUntil':fields.get('Available Until',''),'parallels':parallels,'terms':overview,'source':url,'evidence':evidence}
  if key in products:
@@ -162,7 +174,7 @@ store.write_text(json.dumps(products,ensure_ascii=False,indent=2)+'\n')
 cutoff='2026-01-01'
 pending=[{'series':p['series'],'number':p['number'],'url':p['source'],'saleFrom':p['saleFrom'],'gap':'Official sale date not yet verified; excluded from the calendar-year backfill.'} for p in products if not p['saleFromISO']]
 excluded=[{'series':p['series'],'number':p['number'],'saleFromISO':p['saleFromISO'],'url':p['source']} for p in products if p['saleFromISO'] and p['saleFromISO']<cutoff]
-(ROOT/'data/topps-now-import-gaps.json').write_text(json.dumps({'coverageComplete':False,'backfillStart':cutoff,'unparsedNumberedTitles':unparsed,'pendingSaleDates':pending,'excludedBeforeCutoff':excluded,'archivePaginationScanComplete':bool(archive.get('paginationScanComplete')) if archive_index.exists() else False,'remaining':'Missing product URLs, unverified sale dates, renderer-only product pages, non-numbered bundles and entertainment products still require reconciliation.'},ensure_ascii=False,indent=2)+'\n')
+(ROOT/'data/topps-now-import-gaps.json').write_text(json.dumps({'coverageComplete':False,'backfillStart':cutoff,'unparsedNumberedTitles':unparsed,'unverifiedPrintRuns':unverified_print_runs,'pendingSaleDates':pending,'excludedBeforeCutoff':excluded,'archivePaginationScanComplete':bool(archive.get('paginationScanComplete')) if archive_index.exists() else False,'remaining':'Missing product URLs, unverified sale dates, renderer-only product pages, non-numbered bundles and entertainment products still require reconciliation.'},ensure_ascii=False,indent=2)+'\n')
 products=[p for p in products if p['saleFromISO'] and p['saleFromISO']>=cutoff]
 headers=['Checklist section','Card number','Player / subjects','Published print run','Available From','Available Until','Published parallels','Official distribution terms','Official product URL']
 def publish(slug,title,items,sport,year):

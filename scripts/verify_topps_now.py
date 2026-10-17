@@ -263,3 +263,36 @@ if basketball_source.exists():
     assert by_key[('2025-26 Bowman U NOW® Basketball','118')]['name']=='Sarah Strong, Tarris Reed Jr.'
     assert by_key[('2025-26 Bowman U NOW® Basketball','122')]['name']=="Agot Makeer, Ta'Niya Latson"
     print('Verified 27 Bowman U NOW Basketball cards: official March/April sale windows, published print runs, five foil parallels, exact multi-subject cells and isolated autograph/relic terms; archive coverage remains partial.')
+
+basketball_backfill=root/'data/catalog-sources/topps-now-backfill-browser-20261017-1900-bowman-basketball.json'
+if basketball_backfill.exists():
+    retained=json.loads(basketball_backfill.read_text());assert len(retained['products'])==70
+    data=json.loads((root/'data/imports/topps-now-2025-26-bowman-u-now-basketball.json').read_text())
+    public_numbers={r[1] for r in data['rows']};eligible=0;excluded=0
+    for product in retained['products']:
+        lines=[line.strip() for line in product['lines']]
+        number=re.search(r' - Card (\d+) - ',lines[0])[1]
+        card=by_key[('2025-26 Bowman U NOW® Basketball',number)]
+        fields=dict(line.split('  | ',1) for line in lines if '  | ' in line)
+        assert card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+        assert card['name']==fields['Subjects'] and card['saleFrom']==fields['Available From'] and card['saleUntil']==fields['Available Until']
+        run=re.search(r' - PR: (\d+)$',lines[0])
+        assert card['printRun']==(run[1] if run else '')
+        assert card['parallels']==['/50 Gold Foil','/25 Orange Foil','/10 Black Foil','/5 Red Foil','/1 FoilFractor']
+        source_terms=[line.removeprefix('* ') for line in lines[lines.index('Overview')+1:lines.index('Parallels:')] if line.startswith('* ')]
+        assert card['terms'].splitlines()[0]=='Published card types: '+'; '.join(source_terms),'Keep each redemption, autograph and variation term attached to its printed card'
+        if card['saleFromISO']>='2026-01-01':
+            assert number in public_numbers;eligible+=1
+        else:
+            assert number not in public_numbers;excluded+=1
+    assert eligible==57 and excluded==13
+    ambiguous=by_key[('2025-26 Bowman U NOW® Basketball','94')]
+    assert ambiguous['name']=='AJ Dybantsa, Kevin Durant' and ambiguous['printRun']==''
+    assert ambiguous['evidence']['unlabelledTitleSuffix']=='5738' and 'unlabelled value 5738' in ambiguous['terms']
+    gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
+    assert any(g['number']=='94' and g['unlabelledValue']=='5738' for g in gaps['unverifiedPrintRuns'])
+    assert by_key[('2025-26 Bowman U NOW® Basketball','99')]['saleFromISO']=='2026-03-16'
+    assert by_key[('2025-26 Bowman U NOW® Basketball','42')]['saleFromISO']=='2026-01-02'
+    assert by_key[('2025-26 Bowman U NOW® Basketball','41')]['saleFromISO']=='2025-12-30'
+    assert len(data['rows'])>=84 and data['coverageComplete'] is False
+    print('Verified 57 further calendar-year Bowman Basketball cards, 13 excluded December sale starts, exact card-specific terms and an explicitly unverified unlabelled title suffix on card 94.')
