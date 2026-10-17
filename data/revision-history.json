@@ -1526,10 +1526,34 @@
       "oddsHash": "83fee7e2f00b750cac8c22a47c1da28a158cbc70150da921f59fcf60ada99d0c",
       "rows": 488,
       "odds": 91,
-      "specificationRows": 0
+      "specificationRows": 20,
+      "specificationHash": "f1a43117ea58fae69e724f2a91b25f147d635aa006f7b95efbffa8e4b3fc49da"
     },
-    "fingerprint": "b02a2437f4016eafd245706df134a6bcf89164dd353064afafd514210a3f3621",
+    "fingerprint": "afe53aaafa086b241ab685723216214c69603496fb49c56ca326b812982501e5",
     "events": [
+      {
+        "at": "2026-10-17T04:56:35.639Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 20",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Checklist.pdf?v=1781789274",
+        "snapshot": {
+          "checklistHash": "1bbac417f95546b5cef88eba0694daca7cea5272f829878582061b8a8a83a6af",
+          "oddsHash": "83fee7e2f00b750cac8c22a47c1da28a158cbc70150da921f59fcf60ada99d0c",
+          "rows": 488,
+          "odds": 91,
+          "specificationRows": 20,
+          "specificationHash": "f1a43117ea58fae69e724f2a91b25f147d635aa006f7b95efbffa8e4b3fc49da"
+        },
+        "previousSnapshot": {
+          "checklistHash": "1bbac417f95546b5cef88eba0694daca7cea5272f829878582061b8a8a83a6af",
+          "oddsHash": "83fee7e2f00b750cac8c22a47c1da28a158cbc70150da921f59fcf60ada99d0c",
+          "rows": 488,
+          "odds": 91,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-11T21:53:32.486Z",
         "changes": [

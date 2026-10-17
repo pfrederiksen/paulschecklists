@@ -600,6 +600,22 @@
           "method": "Actual complete official guide read in the in-app browser"
         }
       ]
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-inception-basketball",
+      "gap": "July 23 is store availability and guide/interview publication. The interview celebrates release day without explicitly stating a calendar release date; no general date is inferred.",
+      "sources": [
+        {
+          "url": "https://www.topps.com/products/2025-26-topps-inception-basketball-hobby-box",
+          "statement": "Available From Jul 23, 2026; Product Year 2026, printed title 2025-26.",
+          "method": "Actual official web read"
+        },
+        {
+          "url": "https://ripped.topps.com/2025-26-topps-inception-basketball-viprips/",
+          "statement": "Published Jul 23, 2026; introductory release-day wording has no explicit calendar date.",
+          "method": "Actual complete official browser read"
+        }
+      ]
     }
   ]
 }

@@ -2231,5 +2231,39 @@
       "sha256": "358684efd33be2441475cf237c40929c355c072ab2371187ee8d84c391d4817e",
       "source": "https://ripped.topps.com/2025-topps-chrome-mcdonalds-all-american-autos-collect/"
     }
+  },
+  {
+    "title": "2025-26 Topps Inception Basketball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "basketball",
+    "year": "2025-26",
+    "sourcePage": "https://www.topps.com/pages/topps-inception-basketball",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Checklist.pdf?v=1781789274",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "All 488 physical subject rows / 458 family-card identities and 17 sections are reconciled, including 268 literal Rookie marks. Original Name/Team/Rookie cells, repeated dual/booklet signers, historical team assignments, Portland Trailblazers and Persistant Marks wording remain intact. All 91 Hobby/FDI odds retain original literals and nulls with unstated ratio units. Ten exact guide specifications include nine odds joins; Holo Gold /50 remains separate from Gold Electricity. Base Inception is a qualified one-copy print limit, not inferred serial marking. Cedric Coward DG-CC Blue /25 stays card-specific. Store July 23 availability and guide/interview publication do not establish an explicit general release date; other numbering and exhaustive parallel coverage remain unverified.",
+    "slug": "topps-bowman-2025-26-topps-inception-basketball",
+    "page": "sets/topps-bowman-2025-26-topps-inception-basketball.html",
+    "status": "Source table",
+    "verified": "2026-10-16",
+    "odds": 91,
+    "formats": 2,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Odds.pdf?v=1783522877",
+    "oddsImportIssues": 0,
+    "rowCount": 488,
+    "tableData": "data/imports/topps-bowman-2025-26-topps-inception-basketball.json",
+    "sections": 17,
+    "importKind": "pdf",
+    "dataAudit": "All 488 physical subject rows / 458 family-card identities and 17 sections are reconciled, including 268 literal Rookie marks. Original Name/Team/Rookie cells, repeated dual/booklet signers, historical team assignments, Portland Trailblazers and Persistant Marks wording remain intact. All 91 Hobby/FDI odds retain original literals and nulls with unstated ratio units. Ten exact guide specifications include nine odds joins; Holo Gold /50 remains separate from Gold Electricity. Base Inception is a qualified one-copy print limit, not inferred serial marking. Cedric Coward DG-CC Blue /25 stays card-specific. Store July 23 availability and guide/interview publication do not establish an explicit general release date; other numbering and exhaustive parallel coverage remain unverified.",
+    "parallelData": true,
+    "oddsParser": "scripts/official_odds_layout.py",
+    "sha256": "1bbac417f95546b5cef88eba0694daca7cea5272f829878582061b8a8a83a6af",
+    "dedicatedParser": "scripts/import_topps_inception_basketball_2025.py",
+    "coverageComplete": true,
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+      "sha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970",
+      "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/"
+    }
   }
 ]

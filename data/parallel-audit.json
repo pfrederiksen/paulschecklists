@@ -926,15 +926,24 @@
       "slug": "topps-bowman-2025-26-topps-inception-basketball",
       "title": "2025-26 Topps Inception Basketball",
       "manufacturer": "Topps / Bowman",
-      "source": "https://www.topps.com/pages/checklists",
+      "source": "https://www.topps.com/pages/topps-inception-basketball",
       "oddsCategories": 91,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "numberedOddsCategories": 9,
+      "supplementalSpecifications": 10,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2025-26-topps-inception-basketball",
+          "family": "Unjoined names, card examples and print limits",
+          "gap": "Exhaustive parallel numbering remains unverified. The guide describes seven base parallels, while the odds include additional Green and Sky Blue categories; no missing limits are inferred. Guide Holo Gold /50 is retained under its exact name without an odds join to the separately named Base Gold Electricity category. The base Inception sentence publishes a one-copy limit without explicitly stating serial marking; no serial number is assigned to Base Inception from that sentence. Cedric Coward DG-CC Blue /25 is card-specific; other Dawn subjects and colors remain unnumbered. Interview first-milestone 5-and-1 statements have no exact parallel joins; no Sky Blue or Inception limits are inferred from those guest remarks. The Hobby/FDI odds header does not state ratio units. Store July 23 availability, guide/interview publication and release-day wording remain separate from an explicit general calendar release date.",
+          "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+          "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+          "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2026-topps-inception-football",

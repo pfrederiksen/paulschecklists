@@ -1,0 +1,137 @@
+{
+  "observed": "2026-10-16",
+  "method": "Official landing/product links refreshed; full collector guide and VIPRIPS interview read in the in-app browser. Original PDF glyph origins, physical rookie cells and rendered checklist/odds pages inspected.",
+  "sources": {
+    "landing": "https://www.topps.com/pages/topps-inception-basketball",
+    "product": "https://www.topps.com/products/2025-26-topps-inception-basketball-hobby-box",
+    "guide": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+    "interview": "https://ripped.topps.com/2025-26-topps-inception-basketball-viprips/"
+  },
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Checklist.pdf?v=1781789274",
+  "checklistSha256": "1bbac417f95546b5cef88eba0694daca7cea5272f829878582061b8a8a83a6af",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Odds.pdf?v=1783522877",
+  "oddsSha256": "83fee7e2f00b750cac8c22a47c1da28a158cbc70150da921f59fcf60ada99d0c",
+  "productOddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Odds.pdf?v=1787973758",
+  "guidePublished": "2026-07-23",
+  "interviewPublished": "2026-07-23",
+  "productFields": [
+    [
+      "Product Year",
+      "2026",
+      "Store metadata; printed title remains 2025-26"
+    ],
+    [
+      "Available From",
+      "Jul 23, 2026",
+      "Store availability; not substituted for an explicit general release statement"
+    ],
+    [
+      "Cards per pack",
+      "7",
+      "Hobby configuration, not a category ratio"
+    ],
+    [
+      "Packs per box",
+      "1",
+      "Hobby configuration"
+    ],
+    [
+      "Autograph or autograph relic",
+      "Look for 1 per box",
+      "Preserve Look for wording; box contents are separate from category odds"
+    ]
+  ],
+  "baseGuide": [
+    [
+      "Purple",
+      "/150"
+    ],
+    [
+      "Pink",
+      "/99"
+    ],
+    [
+      "Red",
+      "/75"
+    ],
+    [
+      "Holo Gold",
+      "/50"
+    ],
+    [
+      "Blue",
+      "/25"
+    ],
+    [
+      "Camo",
+      "/10"
+    ],
+    [
+      "Inception",
+      "Limited to one-of-one; serial marking is not stated in this sentence"
+    ]
+  ],
+  "otherGuide": [
+    [
+      "INCEPTION SILVER SIGNINGS",
+      "Gold Ink Inscription",
+      "1/1",
+      "The guide explicitly says numbered 1-of-1; the interview separately identifies Silver Signings Gold Ink."
+    ],
+    [
+      "ROOKIE AUTOGRAPHS",
+      "Red Electricity",
+      "/16",
+      "The guide names this family; do not apply to Horizontal Variations."
+    ],
+    [
+      "ROOKIE JUMBO RELIC AUTOGRAPHS",
+      "Blue",
+      "/25",
+      "Family-wide Blue statement includes Kon Knueppel as an example."
+    ],
+    [
+      "FRANCHISE FUNDAMENTAL RELIC AUTOGRAPHS",
+      "Inception",
+      "1/1",
+      "Named family-wide parallel includes Paolo Banchero as an example."
+    ]
+  ],
+  "cardExample": [
+    "DAWN OF GREATNESS AUTOGRAPHS",
+    "DG-CC",
+    "Cedric Coward",
+    "Blue",
+    "/25",
+    "The guide names this subject only; do not number other Dawn subjects."
+  ],
+  "interviewFields": [
+    [
+      "NBA FIRST MILESTONE AUTOGRAPH RELICS",
+      "5 and 1",
+      "Guest-reported numbering; no exact parallel or printed card number joins are supplied."
+    ],
+    [
+      "INCEPTION SILVER SIGNINGS",
+      "Gold Ink 1/1; Jayson Tatum example",
+      "Guest description supports the exact family identity; the manufacturer guide independently states Gold Ink numbering."
+    ],
+    [
+      "Publication / release wording",
+      "Jul 23, 2026; celebrates release day",
+      "Retain publication and wording separately; no explicit calendar date is stated as the general release."
+    ]
+  ],
+  "candidateReview": {
+    "inventory": "data/parallel-audit-sources/candidates.json",
+    "resolution": "All five current Inception Basketball candidates were checked against the complete actual guide. Gold Ink, Rookie Autographs Red Electricity, Rookie Jumbo Blue and Franchise Inception statements retain exact family scope; the Cedric Coward Dawn Blue example remains card-specific. Base Holo Gold stays specification-only, separate from odds Gold Electricity. Base Inception is a qualified print-limit statement, not inferred serial marking."
+  },
+  "remainingGaps": [
+    "Exhaustive parallel numbering remains unverified. The guide describes seven base parallels, while the odds include additional Green and Sky Blue categories; no missing limits are inferred.",
+    "Guide Holo Gold /50 is retained under its exact name without an odds join to the separately named Base Gold Electricity category.",
+    "The base Inception sentence publishes a one-copy limit without explicitly stating serial marking; no serial number is assigned to Base Inception from that sentence.",
+    "Cedric Coward DG-CC Blue /25 is card-specific; other Dawn subjects and colors remain unnumbered.",
+    "Interview first-milestone 5-and-1 statements have no exact parallel joins; no Sky Blue or Inception limits are inferred from those guest remarks.",
+    "The Hobby/FDI odds header does not state ratio units. Store July 23 availability, guide/interview publication and release-day wording remain separate from an explicit general calendar release date."
+  ]
+}

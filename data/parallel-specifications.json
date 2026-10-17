@@ -9024,7 +9024,118 @@
       }
     ],
     "topps-bowman-2025-26-topps-finest-basketball": [],
-    "topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball": []
+    "topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball": [],
+    "topps-bowman-2025-26-topps-inception-basketball": [
+      {
+        "family": "BASE CARDS",
+        "name": "Purple",
+        "numbering": "/150",
+        "oddsName": "Base Purple",
+        "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. Guide-published base value; never applied to autograph families.",
+        "sourceHeading": "For Set Builders: Collect the Colorful World of Inception",
+        "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+        "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Pink",
+        "numbering": "/99",
+        "oddsName": "Base Pink",
+        "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. Guide-published base value; never applied to autograph families.",
+        "sourceHeading": "For Set Builders: Collect the Colorful World of Inception",
+        "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+        "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Red",
+        "numbering": "/75",
+        "oddsName": "Base Red",
+        "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. Guide-published base value; never applied to autograph families.",
+        "sourceHeading": "For Set Builders: Collect the Colorful World of Inception",
+        "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+        "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Holo Gold",
+        "numbering": "/50",
+        "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. Guide-only Holo Gold is not joined to the differently named Base Gold Electricity odds.",
+        "sourceHeading": "For Set Builders: Collect the Colorful World of Inception",
+        "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+        "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Blue",
+        "numbering": "/25",
+        "oddsName": "Base Blue",
+        "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. Guide-published base value; never applied to autograph families.",
+        "sourceHeading": "For Set Builders: Collect the Colorful World of Inception",
+        "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+        "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Camo",
+        "numbering": "/10",
+        "oddsName": "Base Camo",
+        "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+        "qualification": "Published for this family; individual-card eligibility is not inferred. Guide-published base value; never applied to autograph families.",
+        "sourceHeading": "For Set Builders: Collect the Colorful World of Inception",
+        "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+        "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
+      },
+      {
+        "family": "INCEPTION SILVER SIGNINGS",
+        "name": "Gold Ink Inscription",
+        "numbering": "1/1",
+        "oddsName": "Inception Silver Signings Gold Ink Inscription",
+        "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+        "qualification": "The guide explicitly says numbered 1-of-1; the interview separately identifies Silver Signings Gold Ink.",
+        "sourceHeading": "For Autograph Collectors: Discover Dynamic Ink",
+        "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+        "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
+      },
+      {
+        "family": "ROOKIE AUTOGRAPHS",
+        "name": "Red Electricity",
+        "numbering": "/16",
+        "oddsName": "Rookie Autographs Red Electricity",
+        "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+        "qualification": "The guide names this family; do not apply to Horizontal Variations.",
+        "sourceHeading": "For Autograph Collectors: Discover Dynamic Ink",
+        "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+        "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
+      },
+      {
+        "family": "ROOKIE JUMBO RELIC AUTOGRAPHS",
+        "name": "Blue",
+        "numbering": "/25",
+        "oddsName": "Rookie Jumbo Relic Autographs Blue",
+        "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+        "qualification": "Family-wide Blue statement includes Kon Knueppel as an example.",
+        "sourceHeading": "Relics: Rookies & More",
+        "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+        "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
+      },
+      {
+        "family": "FRANCHISE FUNDAMENTAL RELIC AUTOGRAPHS",
+        "name": "Inception",
+        "numbering": "1/1",
+        "oddsName": "Franchise Fundamental Relic Autographs Inception",
+        "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+        "qualification": "Named family-wide parallel includes Paolo Banchero as an example.",
+        "sourceHeading": "Relics: Rookies & More",
+        "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+        "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
+      }
+    ]
   },
   "conflicts": [
     {
@@ -9436,6 +9547,14 @@
       "source": "https://ripped.topps.com/topps-chrome-mcdonalds-all-american-basketball-history/",
       "evidenceFile": "data/parallel-audit-sources/mcdonalds-basketball-2025-20261016.json",
       "evidenceSha256": "358684efd33be2441475cf237c40929c355c072ab2371187ee8d84c391d4817e"
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-inception-basketball",
+      "family": "Unjoined names, card examples and print limits",
+      "gap": "Exhaustive parallel numbering remains unverified. The guide describes seven base parallels, while the odds include additional Green and Sky Blue categories; no missing limits are inferred. Guide Holo Gold /50 is retained under its exact name without an odds join to the separately named Base Gold Electricity category. The base Inception sentence publishes a one-copy limit without explicitly stating serial marking; no serial number is assigned to Base Inception from that sentence. Cedric Coward DG-CC Blue /25 is card-specific; other Dawn subjects and colors remain unnumbered. Interview first-milestone 5-and-1 statements have no exact parallel joins; no Sky Blue or Inception limits are inferred from those guest remarks. The Hobby/FDI odds header does not state ratio units. Store July 23 availability, guide/interview publication and release-day wording remain separate from an explicit general calendar release date.",
+      "source": "https://ripped.topps.com/2025-26-topps-inception-basketball-cards-collector-guide/",
+      "evidenceFile": "data/parallel-audit-sources/inception-basketball-2025-26-20261016.json",
+      "evidenceSha256": "320d538aa27847dd7c2459d7b08b6469d4f503c097e14f9c8e304ffada4a7970"
     }
   ]
 }
