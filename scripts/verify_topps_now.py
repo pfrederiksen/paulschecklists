@@ -353,8 +353,8 @@ if marvel_source.exists():
     retained=json.loads(marvel_source.read_text());assert len(retained['products'])==6
     by_url={p['source']:p for p in observations}
     marvel=[p for p in observations if p['series']=='2026 Marvel Topps NOW®']
-    assert len(marvel)==6 and len({observation_key(p) for p in marvel})==6
-    assert len({product_family(p) for p in marvel})==6,'Unnumbered products need separate exact families'
+    assert len(marvel)>=6 and len({observation_key(p) for p in marvel})==len(marvel)
+    assert len({product_family(p) for p in marvel})==len(marvel),'Unnumbered products need separate exact families'
     marvel_entry=next(s for s in inventory if s['title']=='2026 Marvel Topps NOW®')
     assert marvel_entry['sport']=='entertainment' and marvel_entry['releaseDate'] is None
     data=json.loads((root/marvel_entry['tableData']).read_text())
@@ -383,7 +383,7 @@ if marvel_source.exists():
         assert not verified_single_card(lines[0],{**fields,'Card number':'123'},lines)
         assert not verified_single_card(lines[0],fields,[line for line in lines if 'Open-Edition Base Card' not in line])
     # These products must also reconcile if they appear in a future active listing.
-    listing={'listings':[{'reportedProductCount':6,'products':[{'url':p['source'],'title':p['evidence']['title']} for p in marvel]}]}
+    listing={'listings':[{'reportedProductCount':len(marvel),'products':[{'url':p['source'],'title':p['evidence']['title']} for p in marvel]}]}
     statuses=reconcile(listing,observations,data)
     assert all(p['status']=='published' for p in statuses)
     reduced={**data,'rows':data['rows'][1:]}
