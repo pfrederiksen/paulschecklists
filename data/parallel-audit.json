@@ -5862,6 +5862,20 @@
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-nba-topps-now-all-star-game-set",
+      "title": "2026 All-Star Game Set - NBA Topps NOW®",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 6,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
     }
   ]
 }

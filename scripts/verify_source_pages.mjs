@@ -43,6 +43,14 @@ for(const set of cases){
   }
   get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2026-nba-topps-now-all-star-game-set'){
+  assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-team').value='World';get('source-team').onchange();assert.equal(get('source-count').textContent,'14 official source rows');get('source-export').onclick();assert(csv.includes('Luka Dončić')&&csv.includes('Nikola Jokić')&&!csv.includes('Stephen Curry'));get('source-reset').onclick();
+  get('source-section').value='AUTOGRAPH SUBJECTS';get('source-section').onchange();get('source-search').value='21-A';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('Chet Holmgren')&&csv.includes('USA Stars')&&csv.includes('"2"'));get('source-reset').onclick();
+  get('source-odds-tab').onclick();get('source-section').value='AUTOGRAPH SUBJECTS';get('source-section').onchange();assert(primarySpecifications().includes('/5 or lower')&&!primarySpecifications().includes('Gold Foil')&&!primarySpecifications().includes('<td>/50</td>'),'Base foil limits must not number autograph redemptions');
+  get('source-section').value='BASE CARDS';get('source-section').onchange();assert(primarySpecifications().includes('Gold Foil')&&primarySpecifications().includes('/50')&&primarySpecifications().includes('All-Star Parallel')&&primarySpecifications().includes('Not stated'));get('source-reset').onclick();get('source-cards-tab').onclick();
+ }
  if(set.slug==='topps-bowman-2026-mlb-topps-now-all-star-game-set'){
   assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,true);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});

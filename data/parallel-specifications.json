@@ -9482,6 +9482,68 @@
         "evidenceFile": "data/parallel-audit-sources/mlb-now-all-star-2026-product-20261017.json",
         "evidenceSha256": "218b32923d07348b9a9621bd274bda599cf41eb1ad37bb67d0f72d5541fb698c"
       }
+    ],
+    "topps-bowman-2026-nba-topps-now-all-star-game-set": [
+      {
+        "family": "BASE CARDS",
+        "name": "All-Star Parallel",
+        "numbering": "Not stated",
+        "qualification": "The official page names All-Star Parallel without a numeric limit or an explicitly unnumbered status.",
+        "sourceHeading": "Parallels:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
+        "evidenceFile": "data/parallel-audit-sources/nba-now-all-star-2026-product-20261018.json",
+        "evidenceSha256": "69279cbeddf3319add6b52852963ef28be3ddbdd49b7d97c7b43eccea7e437c6"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Gold Foil",
+        "numbering": "/50",
+        "qualification": "Base-card parallel program only; individual-card eligibility is not inferred. Autograph redemptions have a separate /5-or-lower statement without named color joins.",
+        "sourceHeading": "Parallels:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
+        "evidenceFile": "data/parallel-audit-sources/nba-now-all-star-2026-product-20261018.json",
+        "evidenceSha256": "69279cbeddf3319add6b52852963ef28be3ddbdd49b7d97c7b43eccea7e437c6"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Orange Foil",
+        "numbering": "/25",
+        "qualification": "Base-card parallel program only; individual-card eligibility is not inferred. Autograph redemptions have a separate /5-or-lower statement without named color joins.",
+        "sourceHeading": "Parallels:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
+        "evidenceFile": "data/parallel-audit-sources/nba-now-all-star-2026-product-20261018.json",
+        "evidenceSha256": "69279cbeddf3319add6b52852963ef28be3ddbdd49b7d97c7b43eccea7e437c6"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Black Foil",
+        "numbering": "/10",
+        "qualification": "Base-card parallel program only; individual-card eligibility is not inferred. Autograph redemptions have a separate /5-or-lower statement without named color joins.",
+        "sourceHeading": "Parallels:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
+        "evidenceFile": "data/parallel-audit-sources/nba-now-all-star-2026-product-20261018.json",
+        "evidenceSha256": "69279cbeddf3319add6b52852963ef28be3ddbdd49b7d97c7b43eccea7e437c6"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "Red Foil",
+        "numbering": "/5",
+        "qualification": "Base-card parallel program only; individual-card eligibility is not inferred. Autograph redemptions have a separate /5-or-lower statement without named color joins.",
+        "sourceHeading": "Parallels:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
+        "evidenceFile": "data/parallel-audit-sources/nba-now-all-star-2026-product-20261018.json",
+        "evidenceSha256": "69279cbeddf3319add6b52852963ef28be3ddbdd49b7d97c7b43eccea7e437c6"
+      },
+      {
+        "family": "BASE CARDS",
+        "name": "FoilFractor",
+        "numbering": "/1",
+        "qualification": "Base-card parallel program only; individual-card eligibility is not inferred. Autograph redemptions have a separate /5-or-lower statement without named color joins.",
+        "sourceHeading": "Parallels:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
+        "evidenceFile": "data/parallel-audit-sources/nba-now-all-star-2026-product-20261018.json",
+        "evidenceSha256": "69279cbeddf3319add6b52852963ef28be3ddbdd49b7d97c7b43eccea7e437c6"
+      }
     ]
   },
   "conflicts": [

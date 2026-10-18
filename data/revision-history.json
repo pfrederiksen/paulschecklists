@@ -13282,5 +13282,34 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-nba-topps-now-all-star-game-set": {
+    "state": {
+      "checklistHash": "ca862bb5956945cc2e9b0bdaee09b6f4809e7c1461082c4889fe3fd3d24ba34f",
+      "oddsHash": null,
+      "rows": 37,
+      "odds": 0,
+      "specificationRows": 25,
+      "specificationHash": "af661d7b54f0864d1421f95483205df9734de635771757d80377b0d5ed5b60d9"
+    },
+    "fingerprint": "b69ad91166791911b0b4f88ddc6633ab426959ccb66561f011eaf9a579ddd6c1",
+    "events": [
+      {
+        "at": "2026-10-18T07:13:10.160Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_NBA_Topps_Now_All-Star_Game_Set_-_Checklist.pdf?v=1787961796",
+        "snapshot": {
+          "checklistHash": "ca862bb5956945cc2e9b0bdaee09b6f4809e7c1461082c4889fe3fd3d24ba34f",
+          "oddsHash": null,
+          "rows": 37,
+          "odds": 0,
+          "specificationRows": 25,
+          "specificationHash": "af661d7b54f0864d1421f95483205df9734de635771757d80377b0d5ed5b60d9"
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

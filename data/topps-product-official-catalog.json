@@ -2576,5 +2576,30 @@
     "sha256": "646cf0118660be5a44de3afb0392d4e7a09a14e43620689f5115662e1992be41",
     "description": "A made-to-order 19-card bundle: 18 base cards plus one additional parallel or autograph redemption. The PDF lists 35 entries across two programs. Base foil numbering and an unnumbered LogoFractor are published; autograph numbering remains a qualified upper bound. Bundle print run 16306 and July 9–16 sale dates remain product-level facts.",
     "catalogEvidence": "All 35 product-linked PDF entries retain original Player, Team, Pos. and eight literal unlabelled RC marks. Exact base foil terms /99, /50, /25, /10, /5 and /1 do not apply to AUTOGRAPH CONTENT. Autograph redemptions have a /10-or-lower upper bound without named parallel joins. Bundle PR16306 is not a per-card print run or pack probability. July 9–16, 2026 store availability establishes calendar-year scope, not a verified general release date. Numeric pack odds and exhaustive parallel eligibility remain unverified; historical NOW coverage stays partial."
+  },
+  {
+    "title": "2026 All-Star Game Set - NBA Topps NOW®",
+    "manufacturer": "Topps / Bowman",
+    "sport": "basketball",
+    "year": "2026",
+    "slug": "topps-bowman-2026-nba-topps-now-all-star-game-set",
+    "page": "sets/topps-bowman-2026-nba-topps-now-all-star-game-set.html",
+    "sourcePage": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_NBA_Topps_Now_All-Star_Game_Set_-_Checklist.pdf?v=1787961796",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-18",
+    "status": "Source table",
+    "rowCount": 37,
+    "tableData": "data/imports/topps-bowman-2026-nba-topps-now-all-star-game-set.json",
+    "sections": 2,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 25 base and 12 autograph rows reconcile with independent PDF text. The year-leading title is not a card; accents, positions and All-Star team cells remain literal. No teams, rookies, print runs, autograph ladders or odds are inferred.",
+    "dedicatedParser": "scripts/import_topps_now_nba_allstar_2026.py",
+    "parallelData": true,
+    "publishedOdds": false,
+    "sha256": "ca862bb5956945cc2e9b0bdaee09b6f4809e7c1461082c4889fe3fd3d24ba34f",
+    "description": "A made-to-order 26-card bundle: 25 selected All-Stars plus one additional parallel or autograph redemption. The PDF lists 37 entries across two programs, with literal USA Stars, USA Stripes and World teams. Five base foil limits are published; All-Star Parallel numbering and exact autograph numbering remain unstated. Bundle print run 4967 and February 9–16 sale dates remain product-level facts.",
+    "catalogEvidence": "All 37 original PDF rows retain Player, Position and Team, including the second-page Chet Holmgren 21-A continuation. USA Stars, USA Stripes and World are the published teams; NBA club assignments and rookie flags are not supplied. Five foil limits /50, /25, /10, /5 and /1 stay in BASE CARDS. All-Star Parallel has no published numbering status; AUTOGRAPH SUBJECTS retains only the qualified /5-or-lower upper bound. Bundle PR4967 and February 9–16, 2026 availability do not establish per-card print runs, pack odds or a general release date. Exhaustive eligibility and historical NOW coverage remain unverified."
   }
 ]

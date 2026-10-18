@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-10-17",
+  "reviewed": "2026-10-18",
   "sourceKind": "retained-archive-title-reconciliation",
   "archiveSnapshot": "data/topps-now-archive-index.json",
   "archiveSnapshotSha256": "d3494018e774127288a5165d5c0f85a0f399d3abacdc4de437d43d2605e28a44",
@@ -146,11 +146,6 @@
       "title": "2026 Rising Stars Set - NBA Topps NOW® - 22 Card Set - PR: 7287",
       "url": "https://www.topps.com/products/2026-rising-stars-set-nba-topps-now%C2%AE-22-card-set",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 All-Star Game Set - NBA Topps NOW® - 26 Card Set - PR: 4967",
-      "url": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     }
   ],
   "notes": "This review reconciles only retained title text, not all fields or reported archive products. Existing 95-page checkpoint and partial-history labels remain unchanged. Unnumbered entertainment products and multi-card bundles need dedicated roster/date parsing; Anthony Edwards has a blank printed title number that cannot be filled from its URL.",
@@ -277,5 +272,14 @@
     "checklistSha256": "646cf0118660be5a44de3afb0392d4e7a09a14e43620689f5115662e1992be41",
     "publishedSet": "topps-bowman-2026-mlb-topps-now-all-star-game-set",
     "resolution": "All 35 original PDF entries imported: 18 base and 17 autograph, eight literal RC marks, separate Player/Team/Pos. fields. Six exact base foil limits and unnumbered LogoFractor retain base scope; autograph /10-or-lower remains a qualified upper bound. Bundle PR16306 and July 9–16 store dates are not per-card print runs, pack odds or a general release date. Historical coverage remains partial."
+  },
+  "resolvedNbaAllStarBundle": {
+    "url": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
+    "title": "2026 All-Star Game Set - NBA Topps NOW® - 26 Card Set - PR: 4967",
+    "snapshot": "data/parallel-audit-sources/nba-now-all-star-2026-product-20261018.json",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_NBA_Topps_Now_All-Star_Game_Set_-_Checklist.pdf?v=1787961796",
+    "checklistSha256": "ca862bb5956945cc2e9b0bdaee09b6f4809e7c1461082c4889fe3fd3d24ba34f",
+    "publishedSet": "topps-bowman-2026-nba-topps-now-all-star-game-set",
+    "resolution": "All 37 physical rows imported: 25 base and 12 autograph, including page-two 21-A. Player/Position/Team preserve literal All-Star teams and accents; no rookie flags or NBA clubs supplied. Five base foil limits are exact; All-Star Parallel numbering remains unstated, not explicitly unnumbered. Autograph /5-or-lower stays qualified. Bundle PR4967 and February 9–16 store dates do not establish per-card print runs, pack odds or a general release. Historical coverage remains partial."
   }
 }
