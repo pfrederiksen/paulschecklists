@@ -10888,6 +10888,31 @@
       "verified": "2026-10-17",
       "catalogEvidence": "Partial calendar-year archive: only entries with a verified official sale date on or after January 1, 2026 are included. Entries without a verified sale date remain pending. Official active products, individual product pages and captured pages of the Product Year 2026 archive supply the evidence. All 95 archive pages have been visited; individual entries and product details still require reconciliation, and some product pages return only a loading shell. Archive-only observations retain the printed number, subject and print run; dates and parallel terms appear only where verified on the product page. Multi-card bundles and other unverified product scopes need separate reconciliation. Reviewed single-card products without a published number retain a blank number and their exact product family. Product year and season labels do not establish a calendar-year release date. Blank print runs mean not published in the observed source. Print runs are not pack odds.",
       "dataAudit": "Each imported number, subject, date, print run and parallel is reconciled to retained official product text; duplicate numbered archive listings merge by series and card number. Reviewed single-card products without published numbers merge by official product URL, never by an invented card number."
+    },
+    {
+      "title": "2026 All-Star Game Set - MLS Topps NOW®",
+      "manufacturer": "Topps / Bowman",
+      "sport": "soccer",
+      "year": "2026",
+      "slug": "topps-bowman-2026-mls-topps-now-all-star-game-set",
+      "page": "sets/topps-bowman-2026-mls-topps-now-all-star-game-set.html",
+      "sourcePage": "https://www.topps.com/products/2026-all-star-game-set-mls-topps-now%C2%AE-11-card-set-1",
+      "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/ASG_MLS_26_Checklist_1.pdf?v=1787975005",
+      "releaseStatus": "Unverified",
+      "releaseDate": null,
+      "verified": "2026-10-17",
+      "status": "Source table",
+      "rowCount": 26,
+      "tableData": "data/imports/topps-bowman-2026-mls-topps-now-all-star-game-set.json",
+      "sections": 4,
+      "importKind": "topps-grid-pdf",
+      "dataAudit": "All 26 physical rows reconcile to independent PDF text: 10 Base cards, 5 Base Autographs, 9 Net-Jewel Autograph-Relic Cards and 2 Net-Jewel Relic Cards. Original Subject/Team cells are separate; no rookie flags or per-card print runs are inferred.",
+      "dedicatedParser": "scripts/import_topps_now_mls_allstar_2026.py",
+      "parallelData": true,
+      "publishedOdds": false,
+      "sha256": "e1fe6d548fae18eff76be196af42efb4dd5993892ce079a70bcc61be81ba7c24",
+      "description": "A made-to-order 11-card bundle: ten base cards plus one additional card. The official checklist lists 26 entries across four programs. Bundle print run 2677 and July 27–August 3 sale dates remain product-level facts; pack odds and exhaustive parallel eligibility are unverified.",
+      "catalogEvidence": "Official product page links the complete 26-entry PDF. All printed card numbers, subjects and teams are imported. Available From July 27, 2026 establishes calendar-year inclusion, not a general release date. The product-level net-jewel 1/1 wording stays qualified and unjoined to individual families. No numeric pack odds or named base/autograph parallel ladder is published in the checked product page or current global odds catalog. Historical NOW series coverage remains partial."
     }
   ],
   "coverage": {

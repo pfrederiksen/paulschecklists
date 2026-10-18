@@ -5834,6 +5834,20 @@
       "ongoingSeries": true,
       "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-mls-topps-now-all-star-game-set",
+      "title": "2026 All-Star Game Set - MLS Topps NOW®",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2026-all-star-game-set-mls-topps-now%C2%AE-11-card-set-1",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": []
     }
   ]
 }
