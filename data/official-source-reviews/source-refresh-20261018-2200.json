@@ -1,0 +1,52 @@
+{
+  "observed": "2026-10-18",
+  "heartbeatStartedUtc": "2026-10-18T22:29:42.497Z",
+  "checkedUtc": "2026-10-18T22:33:03.471620+00:00",
+  "sourceKind": "partial-official-source-refresh",
+  "browserCheckpoint": {
+    "freshActiveNowUiRead": false,
+    "freshGlobalChecklistAndOddsUiRead": false,
+    "reason": "CUA inventory reported that the Mac is locked and automatic unlock failed. The prior request to unlock remains outstanding.",
+    "lastActualUiReview": "data/official-source-reviews/topps-index-links-20261018-2100.json",
+    "activeCheckpoint": "data/topps-now-active-listings.json",
+    "coverageAdvanced": false
+  },
+  "knownSourceChecks": {
+    "urls": 261,
+    "unchanged": 261,
+    "changed": 0,
+    "observedDigestSetSha256": "7137890816051530d0bd56dc58515fdfcb8d222271f302f65cb650cf3beb4d11",
+    "retainedExpectedValues": "data/official-source-reviews/topps-index-links-20261018-2100.json / knownSourceHashChecks",
+    "limitation": "Previously imported URLs only; these checks do not discover new global URLs or refresh NOW/Panini interface observations."
+  },
+  "manufacturerChecks": {
+    "leaf": {
+      "productPages": 616,
+      "checklistSources": 46,
+      "changed": 0
+    },
+    "upperDeckNewCurrentDirectoryChecklists": 0,
+    "wildCardOfficial2026Entries": 42,
+    "wildCardChanged": false,
+    "paniniNational": "113 physical rows and 16 numbering rows unchanged",
+    "paniniSoccerPod": "136 physical rows and 14 numbering rows unchanged"
+  },
+  "parallelSourceReview": {
+    "file": "data/parallel-audit-sources/panini-guide-reconciliation-20261018-2200.json",
+    "sha256": "53be6a4b24f4c7592c3b815dc9f41e3878c3f6f5d4d9e644d675f530ab888c7c",
+    "result": "Three Score-A-Treat guide quantities match existing CSV SEQUENCE values. Golf product and FOTL specification candidates remain explicitly pending family/roster adaptation; no limits or release dates selected from search results."
+  },
+  "retainedValidation": {
+    "activePublished": 24,
+    "activeProducts": 24,
+    "freshActiveCoverageVerified": false,
+    "nowObservations": 2276,
+    "nowSharedTables": 50,
+    "paniniFullExports": 61,
+    "paniniOriginalRows": 569588,
+    "paniniHeaderOnlySourcePrograms": 1,
+    "historicalCoverageComplete": false
+  },
+  "publicDataChanged": false,
+  "result": "No new publication verified in available checks. Fresh NOW, global index and Panini interface checkpoints remain blocked; retained coverage labels are not advanced."
+}

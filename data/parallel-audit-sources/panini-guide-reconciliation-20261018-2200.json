@@ -1,0 +1,234 @@
+{
+  "observed": "2026-10-18",
+  "checkedUtc": "2026-10-18T22:33:03.471620+00:00",
+  "status": "Reconciled guide quantities and retained pending source-family candidates; no public import change",
+  "snapshots": [
+    {
+      "source": "https://blog.paniniamerica.net/all-treat-no-tricks-panini-score-a-treat-returns-for-2026/",
+      "observed": "2026-10-18",
+      "sourceKind": "official-web-factual-excerpt",
+      "hashKind": "normalized factual JSON; not raw HTML",
+      "sha256": "088fb0b44b192530f20c6a4c40b87b245b83de454c38915127c9676e0cc9ba0d",
+      "facts": {
+        "title": "All Treat, No Tricks: Panini Score-A-Treat Returns for 2026",
+        "articlePublished": "2026-10-01",
+        "publishedParallelQuantities": [
+          [
+            "Holo Black Cats",
+            "175"
+          ],
+          [
+            "Holo Skeletons",
+            "149"
+          ],
+          [
+            "Holo Spooky",
+            "99"
+          ]
+        ],
+        "namedAutographPrograms": [
+          "Base Holo Autographs",
+          "Haunted House Holo Autographs",
+          "Monster Bash Holo Autographs"
+        ],
+        "newInsert": "HEXED",
+        "scope": "Multi-sport 2026 Score-A-Treat. The paragraph names Base and the Haunted House / Monster Bash subsets but does not explicitly join each quantity to each printed CSV family.",
+        "releaseDatePublished": false
+      }
+    },
+    {
+      "source": "https://www.paniniamerica.net/2026-panini-par-three-liv-golf-trading-card-box-hobby.html",
+      "observed": "2026-10-18",
+      "sourceKind": "official-web-factual-excerpt",
+      "hashKind": "normalized factual JSON; not raw HTML",
+      "sha256": "563832014521f1c460948c6690e15cd3c04704474ec246535b9c7cf876ef1144",
+      "facts": {
+        "title": "2026 Panini Par Three LIV Golf Trading Card Box (Hobby)",
+        "sku": "2-19756-10",
+        "statusText": "Coming soon",
+        "configuration": {
+          "cardsPerPack": 3,
+          "packsPerBox": 1,
+          "boxesPerCase": 10
+        },
+        "boxAverages": [
+          "1 Slabbed Autograph",
+          "1 Slabbed Base/Base Parallel",
+          "1 Slabbed Memorabilia Card/Insert"
+        ],
+        "goldParallelNumbering": "/10",
+        "goldParallelNamedPrograms": [
+          "Downtown",
+          "Downtown Tournament Champions"
+        ],
+        "namedSignaturePrograms": [
+          "Clubhouse Collection Signatures",
+          "LIV Tournament Champions Signatures",
+          "LIV Moments Signatures"
+        ],
+        "exampleSubjects": [
+          "Bubba Watson",
+          "Bryson DeChambeau",
+          "Phil Mickelson"
+        ],
+        "checklistSelection": {
+          "sport": "GOLF",
+          "year": "2026",
+          "brand": "Panini",
+          "program": "Par Three LIV",
+          "cardsets": "No data found",
+          "athletes": "No data found"
+        },
+        "releaseDatePublished": false
+      }
+    },
+    {
+      "source": "https://www.paniniamerica.net/1st-off-the-line-2026-panini-par-three-liv-golf-trading-card-box.html",
+      "observed": "2026-10-18",
+      "sourceKind": "official-web-factual-excerpt",
+      "hashKind": "normalized factual JSON; not raw HTML",
+      "sha256": "07bf811fa8ea84adf3e060d7d4b4b4a79b1ef93455e96cdeb508320ad1ee57eb",
+      "facts": {
+        "title": "1st off the Line 2026 Panini Par Three LIV Golf Trading Card Box",
+        "sku": "2-19759-10",
+        "configuration": {
+          "cardsPerPack": 3,
+          "packsPerBox": 1,
+          "boxesPerCase": 10
+        },
+        "fotlExclusiveTerms": [
+          [
+            "Purple Autograph",
+            "/6"
+          ],
+          [
+            "Purple Base Parallel",
+            "/11"
+          ]
+        ],
+        "boxQualification": "One of each named FOTL term plus one memorabilia card or insert, per box on average. These are box distributions, not pack odds.",
+        "goldParallelNumbering": "/10",
+        "goldParallelNamedPrograms": [
+          "Downtown",
+          "Downtown Tournament Champions"
+        ],
+        "auctionStartStatements": [
+          "10/15/2026 | 04:00 PM",
+          "October 15th, 2026 @ 11 AM CDT"
+        ],
+        "dateQualification": "Auction start statements are retained separately and do not establish a general calendar release date.",
+        "releaseDatePublished": false
+      }
+    }
+  ],
+  "scoreReconciliation": {
+    "slug": "panini-2026-panini-score-a-treat-miscellaneous",
+    "retainedCsv": "data/official-panini/panini-2026-panini-score-a-treat-miscellaneous.csv",
+    "retainedCsvSha256": "aa6d79c7163e86a6195f7ef52653d7a3426c4039af53e1009830cafb0269a19e",
+    "terms": [
+      {
+        "guideCaption": "Holo Black Cats",
+        "guideQuantity": "175",
+        "csvMatches": [
+          {
+            "csvFamily": "Base Holo Black Cats",
+            "publishedSequenceValues": [
+              "175"
+            ],
+            "numberedRows": 199
+          },
+          {
+            "csvFamily": "Haunted House Holo Black Cats",
+            "publishedSequenceValues": [
+              "175"
+            ],
+            "numberedRows": 49
+          },
+          {
+            "csvFamily": "Monster Bash Holo Black Cats",
+            "publishedSequenceValues": [
+              "175"
+            ],
+            "numberedRows": 49
+          }
+        ],
+        "mappingStatus": "Existing literal CSV quantities agree. No new guide-to-family mapping is approved because the guide does not explicitly identify every CSV family."
+      },
+      {
+        "guideCaption": "Holo Skeletons",
+        "guideQuantity": "149",
+        "csvMatches": [
+          {
+            "csvFamily": "Base Holo Skeletons",
+            "publishedSequenceValues": [
+              "149"
+            ],
+            "numberedRows": 199
+          },
+          {
+            "csvFamily": "Haunted House Holo Skeletons",
+            "publishedSequenceValues": [
+              "149"
+            ],
+            "numberedRows": 49
+          },
+          {
+            "csvFamily": "Monster Bash Holo Skeletons",
+            "publishedSequenceValues": [
+              "149"
+            ],
+            "numberedRows": 49
+          }
+        ],
+        "mappingStatus": "Existing literal CSV quantities agree. No new guide-to-family mapping is approved because the guide does not explicitly identify every CSV family."
+      },
+      {
+        "guideCaption": "Holo Spooky",
+        "guideQuantity": "99",
+        "csvMatches": [
+          {
+            "csvFamily": "Base Holo Spooky",
+            "publishedSequenceValues": [
+              "99"
+            ],
+            "numberedRows": 199
+          },
+          {
+            "csvFamily": "Haunted House Holo Spooky",
+            "publishedSequenceValues": [
+              "99"
+            ],
+            "numberedRows": 49
+          },
+          {
+            "csvFamily": "Monster Bash Holo Spooky",
+            "publishedSequenceValues": [
+              "99"
+            ],
+            "numberedRows": 49
+          }
+        ],
+        "mappingStatus": "Existing literal CSV quantities agree. No new guide-to-family mapping is approved because the guide does not explicitly identify every CSV family."
+      }
+    ],
+    "exhaustiveAuditComplete": false
+  },
+  "golfPending": {
+    "slug": "panini-2026-panini-par-three-liv-golf",
+    "status": "Source-only; official embedded checklist still exposes no cardsets or athletes in the web read.",
+    "remainingGap": "The published product specifications have no validated roster/family-table adapter yet. Preserve these candidates without synthetic card rows; card numbers, eligibility, exact CSV family mappings, and general release remain unverified. Add the product-only terms to the shared specification view while preserving unavailable card counts when that adapter is validated.",
+    "qualifiers": [
+      "Do not copy FOTL Purple /6 or /11 to regular Hobby.",
+      "The Purple autograph term does not name every autograph program.",
+      "Example subjects are not a complete roster.",
+      "Box averages/configuration are not pack odds.",
+      "Gold /10 names Downtown and Downtown Tournament Champions only."
+    ]
+  },
+  "unverifiedIndexedProductCandidate": {
+    "source": "https://www.paniniamerica.net/2026-panini-score-a-treat-bundle",
+    "status": "Search index exposes product prose, but the fresh opened page returned only the application shell. Do not import indexed quantities as verified product facts.",
+    "remainingGap": "Fresh rendered product details are needed, including possible Bundle-specific quantity differences from the retained CSV. Native UI reads are blocked by the locked Mac."
+  },
+  "preservedConflicts": "Existing approved registry, literal CSV values, incomplete audits and the Exalted WWE conflict are unchanged."
+}
