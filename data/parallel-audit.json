@@ -5904,6 +5904,20 @@
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-premier-league-topps-now-team-of-the-season-set",
+      "title": "Premier League Team of the Season - Premier League Topps NOW® 12-Card Set",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/premier-league-team-of-the-season-premier-league-topps-now%C2%AE-12-card-set",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
     }
   ]
 }

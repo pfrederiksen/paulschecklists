@@ -13369,5 +13369,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-premier-league-topps-now-team-of-the-season-set": {
+    "state": {
+      "checklistHash": "c2badc1f7844194c3e775b01ccdc9fcb2c2e2e8535836dce83fae615e273fbbf",
+      "oddsHash": null,
+      "rows": 11,
+      "odds": 0,
+      "specificationRows": 25
+    },
+    "fingerprint": "3b817ecc41f0f4ca8d978cef00ba62e72ea32936cab15cfc6a58d76b6577dfa0",
+    "events": [
+      {
+        "at": "2026-10-18T10:16:47.306Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/premier-league-team-of-the-season-premier-league-topps-now%C2%AE-12-card-set",
+        "snapshot": {
+          "checklistHash": "c2badc1f7844194c3e775b01ccdc9fcb2c2e2e8535836dce83fae615e273fbbf",
+          "oddsHash": null,
+          "rows": 11,
+          "odds": 0,
+          "specificationRows": 25
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

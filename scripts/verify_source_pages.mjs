@@ -29,6 +29,11 @@ for(const set of cases){
   get('source-section').value='Autograph Subjects:';get('source-section').onchange();get('source-search').value='Miles McBride';get('source-search').oninput();
   assert.equal(get('source-count').textContent,'1 official source rows');assert(get('source-results').innerHTML.includes('Miles\u00a0McBride'));get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2026-premier-league-topps-now-team-of-the-season-set'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);assert(data.rows.every(row=>row[1]===''));
+  get('source-search').value="Nico O'Reilly";get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');assert(get('source-results').innerHTML.includes('Nico O’Reilly'));get('source-reset').onclick();
+  get('source-team').value='Arsenal';get('source-team').onchange();assert.equal(get('source-count').textContent,'5 official source rows');get('source-reset').onclick();
+ }
  assert(get('source-results').innerHTML.includes('PLAYER / SUBJECT'));assert(get('source-results').innerHTML.includes('View family details'));
  get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});assert(get('source-results').innerHTML.includes('OFFICIAL '+data.headers[0]));assert(get('source-results').innerHTML.includes('Hide family details'));
  get('source-sort').value='name';get('source-sort').onchange();assert(get('source-results').innerHTML.includes('<table>'));

@@ -8,11 +8,6 @@
   "resolvedByFreshProductSnapshot": "data/catalog-sources/topps-now-backfill-browser-20261017-2300-title-punctuation.json",
   "pendingProductReviews": [
     {
-      "title": "Premier League Team of the Season - Premier League Topps NOW® 12-Card Set",
-      "url": "https://www.topps.com/products/premier-league-team-of-the-season-premier-league-topps-now%C2%AE-12-card-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "Anthony Edwards - 2025-26 NBA Topps NOW® - Card - PR: 1057",
       "url": "https://www.topps.com/products/anthony-edwards-2025-26-nba-topps-now%C2%AE-card-294",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -287,5 +282,12 @@
     "snapshot": "data/parallel-audit-sources/nba-now-knicks-champions-2026-product-20261018.json",
     "publishedSet": "topps-bowman-2026-nba-topps-now-knicks-champions-team-set",
     "resolution": "All 32 rows from three literal official subject lists and three named redemption captions imported. Card numbers remain blank; no document is linked on the reviewed page. Three named 1/1 redemptions have isolated joins; seven foil limits lack exact family headings and stay unjoined. Knicks Starting 5 stays a collective caption without inferred names. Bundle PR65941 and June 13–20 sale dates do not supply per-card runs, odds or general release. Historical coverage and exhaustive foil eligibility remain partial."
+  },
+  "resolvedPremierTotsBundle": {
+    "url": "https://www.topps.com/products/premier-league-team-of-the-season-premier-league-topps-now%C2%AE-12-card-set",
+    "title": "Premier League Team of the Season - Premier League Topps NOW® 12-Card Set",
+    "snapshot": "data/parallel-audit-sources/premier-now-tots-2026-product-20261018.json",
+    "publishedSet": "topps-bowman-2026-premier-league-topps-now-team-of-the-season-set",
+    "resolution": "All eleven literal fixed-base subject/club pairs imported with blank IDs and original parenthetical cells. Six unnamed Parallel limits, two Auto limits and one explicitly unnumbered term remain unjoined: no colors, autograph roster or per-player chase eligibility are inferred. Product Year 2026, season 2025/26 and June 11–18 sale dates remain distinct. Actual print run, card numbers, autograph roster, pack odds and general release are unpublished or unverified; historical coverage stays partial."
   }
 }
