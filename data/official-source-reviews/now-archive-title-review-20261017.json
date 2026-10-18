@@ -23,16 +23,6 @@
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
-      "title": "2026 Disney Topps Now®: Moana Live Action - PR: 2665",
-      "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-moana-live-action",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Disney Topps NOW® – Toy Story 5 - PR: 18319",
-      "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-toy-story-5",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "2026 NBA Champions - New York Knicks - NBA Topps NOW® 16-Card Team Set - PR: 65941",
       "url": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -48,11 +38,6 @@
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
-      "title": "2026 Star Wars Topps NOW® – The Mandalorian and Grogu - PR: 28832",
-      "url": "https://www.topps.com/products/2026-star-wars-topps-now%C2%AE-the-mandalorian-and-grogu",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "Anthony Edwards - 2025-26 NBA Topps NOW® - Card - PR: 1057",
       "url": "https://www.topps.com/products/anthony-edwards-2025-26-nba-topps-now%C2%AE-card-294",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -65,11 +50,6 @@
     {
       "title": "2026 WrestleMania Vegas Set – WWE Topps NOW® - 15-Card Set - PR: 5847",
       "url": "https://www.topps.com/products/2026-wrestlemania-vegas-set-wwe-topps-now%C2%AE-15-card-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Star Wars Topps NOW® Maul – Shadow Lord - PR: 11984",
-      "url": "https://www.topps.com/products/2026-star-wars-topps-now%C2%AE-maul-shadow-lord",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
@@ -188,11 +168,6 @@
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
-      "title": "2026 Disney Topps NOW® Hoppers - PR: 3592",
-      "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-hoppers",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "Arijon Ibrahimović- 2025-26 Bundesliga Topps NOW® - Card 132 - PR: 115",
       "url": "https://www.topps.com/products/arijon-ibrahimovic-2025-26-bundesliga-topps-now%C2%AE-card-132",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -251,6 +226,36 @@
         "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-daredevil-born-again-season-2",
         "title": "2026 Marvel Topps NOW® Daredevil: Born Again Season 2 - PR: 8482",
         "resolution": "Official page explicitly describes one Open-Edition Base Card and publishes Subjects, sale dates, print run and product-specific parallel terms. Card number remains blank; official product URL supplies only internal identity."
+      }
+    ]
+  },
+  "resolvedDisneyStarWarsProducts": {
+    "snapshot": "data/catalog-sources/topps-now-backfill-browser-20261018-0100-disney-star-wars.json",
+    "products": [
+      {
+        "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-moana-live-action",
+        "title": "2026 Disney Topps Now®: Moana Live Action - PR: 2665",
+        "resolution": "Official product page explicitly describes one Open-Edition Base Card and publishes Subjects, sale windows, labelled print run and product-specific terms. Card number remains blank; URL supplies internal identity only."
+      },
+      {
+        "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-toy-story-5",
+        "title": "2026 Disney Topps NOW® – Toy Story 5 - PR: 18319",
+        "resolution": "Official product page explicitly describes one Open-Edition Base Card and publishes Subjects, sale windows, labelled print run and product-specific terms. Card number remains blank; URL supplies internal identity only."
+      },
+      {
+        "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-hoppers",
+        "title": "2026 Disney Topps NOW® Hoppers - PR: 3592",
+        "resolution": "Official product page explicitly describes one Open-Edition Base Card and publishes Subjects, sale windows, labelled print run and product-specific terms. Card number remains blank; URL supplies internal identity only."
+      },
+      {
+        "url": "https://www.topps.com/products/2026-star-wars-topps-now%C2%AE-the-mandalorian-and-grogu",
+        "title": "2026 Star Wars Topps NOW® – The Mandalorian and Grogu - PR: 28832",
+        "resolution": "Official product page explicitly describes one Open-Edition Base Card and publishes Subjects, sale windows, labelled print run and product-specific terms. Card number remains blank; URL supplies internal identity only."
+      },
+      {
+        "url": "https://www.topps.com/products/2026-star-wars-topps-now%C2%AE-maul-shadow-lord",
+        "title": "2026 Star Wars Topps NOW® Maul – Shadow Lord - PR: 11984",
+        "resolution": "Official product page explicitly describes one Open-Edition Base Card and publishes Subjects, sale windows, labelled print run and product-specific terms. Card number remains blank; URL supplies internal identity only."
       }
     ]
   }

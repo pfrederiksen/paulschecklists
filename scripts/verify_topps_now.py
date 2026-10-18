@@ -395,3 +395,54 @@ if marvel_source.exists():
     gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
     assert not {p['url'] for p in retained['products']} & {p['url'] for p in gaps['unparsedNumberedTitles']}
     print('Verified six unnumbered Marvel NOW single-card products: URL identities, blank published numbers, exact product families, official sale windows/runs, seven foil parallels and isolated autograph/SP terms; active reconciliation detects missing rows without number guesses.')
+
+entertainment_source=root/'data/catalog-sources/topps-now-backfill-browser-20261018-0100-disney-star-wars.json'
+if entertainment_source.exists():
+    retained=json.loads(entertainment_source.read_text());assert len(retained['products'])==5
+    by_url={p['source']:p for p in observations}
+    expected_runs=['2665','18319','3592','28832','11984']
+    expected_starts=['2026-07-08','2026-06-17','2026-03-04','2026-05-20','2026-04-06']
+    aggregate=json.loads((root/'data/imports/topps-now-2026.json').read_text())
+    reviewed=[]
+    for i,product in enumerate(retained['products']):
+        lines=[line.strip() for line in product['lines']]
+        fields=dict(line.split('  | ',1) for line in lines if '  | ' in line)
+        card=by_url[product['url']];reviewed.append(card)
+        identity=verified_single_card(lines[0],fields,lines)
+        assert identity and card['identityKind']=='official-single-card-product' and card['number']==''
+        assert card['family']==identity['family'] and card['family']==re.sub(r' - PR: [\d,]+$','',lines[0])
+        assert card['series']==('2026 Disney Topps NOW®' if i<3 else '2026 Star Wars Topps NOW®')
+        assert card['printRun']==expected_runs[i] and card['saleFromISO']==expected_starts[i]
+        assert card['name']==fields['Subjects'] and card['saleFrom']==fields['Available From'] and card['saleUntil']==fields['Available Until']
+        assert card['evidence']['fields']==fields and card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+        assert card['parallels']==['/99 Green Foil','/75 Blue Foil','/50 Gold Foil','/25 Orange Foil','/10 Black Foil','/5 Red Foil','1/1 FoilFractor']
+        for line in lines:
+            if line.startswith('* ') or line.startswith('*Parallels') or re.match(r'^[\d,]+\+ Print Run:',line):assert line.removeprefix('* ') in card['terms']
+        assert ('Tim Allen' in card['terms'])==(i==1) and ('Tom Hanks' in card['terms'])==(i==1)
+        assert ('Pedro Pascal' in card['terms'])==(i==3) and ('Sam Witwer' in card['terms'])==(i==4)
+        assert all(tier+'+ Print Run:' in card['terms'] for tier in ['50,000','100,000','250,000','500,000'])
+        assert 'Numeric pack odds are not published.' in card['terms']
+        if i<3:assert 'Properties' not in fields,'Do not invent a Disney Properties cell'
+        entry=next(s for s in inventory if s['title']==card['series'])
+        assert entry['sport']=='entertainment' and entry['releaseStatus']=='Ongoing' and entry['releaseDate'] is None
+        table=json.loads((root/entry['tableData']).read_text())
+        for data in [aggregate,table]:
+            specs=[s for s in data['publishedSpecifications'] if s['name']==card['family']]
+            assert len(specs)==1 and len(specs[0]['rows'])==7
+            assert all(r[0]=='' and r[1]==card['name'] and r[3]==card['source'] for r in specs[0]['rows'])
+        assert not verified_single_card(lines[0],{**fields,'Category':'Sports'},lines)
+        assert not verified_single_card(lines[0],{**fields,'Subjects':''},lines)
+        assert not verified_single_card('2026 Disney Topps NOW® 11-Card Team Set - PR: 1',fields,lines)
+    assert len({observation_key(p) for p in reviewed})==5
+    listing={'listings':[{'reportedProductCount':5,'products':[{'url':p['source'],'title':p['evidence']['title']} for p in reviewed]}]}
+    assert all(p['status']=='published' for p in reconcile(listing,observations,aggregate))
+    first=reviewed[0]
+    reduced={**aggregate,'rows':[r for r in aggregate['rows'] if r[8]!=first['source']]}
+    assert reconcile(listing,observations,reduced)[0]['status']=='missing-published-row'
+    review=json.loads((root/'data/official-source-reviews/now-archive-title-review-20261017.json').read_text())
+    gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
+    urls={p['source'] for p in reviewed}
+    assert not urls & {p['url'] for p in review['pendingProductReviews']}
+    assert not urls & {p['url'] for p in gaps['unparsedNumberedTitles']}
+    assert any('Anthony Edwards' in p['title'] for p in review['pendingProductReviews'])
+    print('Verified five Disney/Star Wars NOW single-card backfills: exact subjects, sale dates, labelled runs, seven foil parallels, literal conditional thresholds, separate product families, isolated Tim Allen/Tom Hanks/Pedro Pascal/Sam Witwer terms and blank card numbers; no complete-history or pack-odds claim.')

@@ -33254,6 +33254,138 @@
     "saleFromISO": "2026-03-10"
   },
   {
+    "series": "2026 Disney Topps NOW®",
+    "number": "",
+    "name": "Hoppers",
+    "printRun": "3592",
+    "saleFrom": "Mar 4, 2026",
+    "saleUntil": "Mar 11, 2026",
+    "parallels": [
+      "/99 Green Foil",
+      "/75 Blue Foil",
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "1/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /99 and lower; Short Print featuring Alternate Poster Artwork\nCard number is not published in the reviewed official title or specifications.\n*Parallels and short prints will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.\nNumeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-hoppers",
+    "evidence": {
+      "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-hoppers",
+      "sha256": "4c7a9e21c58147e9ab70ecd74c8649f2de5e8931d12a33762905a2651e8b9cac",
+      "observed": "2026-10-17",
+      "title": "2026 Disney Topps NOW® Hoppers - PR: 3592",
+      "fields": {
+        "SKU": "ARTDI-16C2S-26TN-HOPP-QTY1",
+        "Category": "Entertainment",
+        "Sub Categories": "Movie",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Hoppers",
+        "Product Type": "Print on Demand",
+        "Available From": "Mar 4, 2026",
+        "Available Until": "Mar 11, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /99 and lower; Short Print featuring Alternate Poster Artwork\nCard number is not published in the reviewed official title or specifications.\n*Parallels and short prints will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.\nNumeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-0100-disney-star-wars.json"
+    },
+    "identityKind": "official-single-card-product",
+    "family": "2026 Disney Topps NOW® Hoppers",
+    "saleFromISO": "2026-03-04"
+  },
+  {
+    "series": "2026 Disney Topps NOW®",
+    "number": "",
+    "name": "Moana / Maui",
+    "printRun": "2665",
+    "saleFrom": "Jul 8, 2026",
+    "saleUntil": "Jul 15, 2026",
+    "parallels": [
+      "/99 Green Foil",
+      "/75 Blue Foil",
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "1/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /99 and lower; Moana Image Variation Short Prints\nCard number is not published in the reviewed official title or specifications.\n*Parallels and short prints will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.\nNumeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-moana-live-action",
+    "evidence": {
+      "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-moana-live-action",
+      "sha256": "c96cac49eb7e67cdb6a066bc3bcac7d9d30845175b468e44626de7c5c1b48219",
+      "observed": "2026-10-17",
+      "title": "2026 Disney Topps Now®: Moana Live Action - PR: 2665",
+      "fields": {
+        "SKU": "ARTDI-16C2S-26TN-MOA1-QTY1",
+        "Category": "Entertainment",
+        "Sub Categories": "Movie",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Moana / Maui",
+        "Product Type": "Print on Demand",
+        "Available From": "Jul 8, 2026",
+        "Available Until": "Jul 15, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /99 and lower; Moana Image Variation Short Prints\nCard number is not published in the reviewed official title or specifications.\n*Parallels and short prints will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.\nNumeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-0100-disney-star-wars.json"
+    },
+    "identityKind": "official-single-card-product",
+    "family": "2026 Disney Topps Now®: Moana Live Action",
+    "saleFromISO": "2026-07-08"
+  },
+  {
+    "series": "2026 Disney Topps NOW®",
+    "number": "",
+    "name": "Toy Story",
+    "printRun": "18319",
+    "saleFrom": "Jun 17, 2026",
+    "saleUntil": "Jun 24, 2026",
+    "parallels": [
+      "/99 Green Foil",
+      "/75 Blue Foil",
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "1/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /99 and lower; Back Pack Image Variation Short Prints; IPad Image Variation Super Short Prints; /1 Tim Allen Autograph Card; /1 Tom Hanks Autograph Card\nCard number is not published in the reviewed official title or specifications.\n*Parallels and short prints will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.\nNumeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-toy-story-5",
+    "evidence": {
+      "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-toy-story-5",
+      "sha256": "f7e4abe8faf3e7770e8f0b575e9b8e142db2874d0592a4a9e6022922029ab17c",
+      "observed": "2026-10-17",
+      "title": "2026 Disney Topps NOW® – Toy Story 5 - PR: 18319",
+      "fields": {
+        "SKU": "ARTDI-16C2S-26TN-TS01-QTY1",
+        "Category": "Entertainment",
+        "Sub Categories": "Movie",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Toy Story",
+        "Product Type": "Print on Demand",
+        "Available From": "Jun 17, 2026",
+        "Available Until": "Jun 24, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /99 and lower; Back Pack Image Variation Short Prints; IPad Image Variation Super Short Prints; /1 Tim Allen Autograph Card; /1 Tom Hanks Autograph Card\nCard number is not published in the reviewed official title or specifications.\n*Parallels and short prints will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.\nNumeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-0100-disney-star-wars.json"
+    },
+    "identityKind": "official-single-card-product",
+    "family": "2026 Disney Topps NOW® – Toy Story 5",
+    "saleFromISO": "2026-06-17"
+  },
+  {
     "series": "2026 FC Barcelona Topps NOW®",
     "number": "5",
     "name": "Lamine Yamal",
@@ -70302,6 +70434,96 @@
       "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; Dro Image Variation Short Print\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
     },
     "saleFromISO": "2026-02-04"
+  },
+  {
+    "series": "2026 Star Wars Topps NOW®",
+    "number": "",
+    "name": "Darth Maul",
+    "printRun": "11984",
+    "saleFrom": "Apr 6, 2026",
+    "saleUntil": "Apr 13, 2026",
+    "parallels": [
+      "/99 Green Foil",
+      "/75 Blue Foil",
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "1/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /99 and lower; Short Print featuring Alternate Poster Artwork; /10 Sam Witwer Autograph Card; /5 Sam Witwer Autograph Card; /1 Sam Witwer Autograph Card\nCard number is not published in the reviewed official title or specifications.\n*Parallels and short prints will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.\nNumeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/2026-star-wars-topps-now%C2%AE-maul-shadow-lord",
+    "evidence": {
+      "url": "https://www.topps.com/products/2026-star-wars-topps-now%C2%AE-maul-shadow-lord",
+      "sha256": "fd0034d86b87b39b275a92b1677ae3f643523f873997b905684024390ff091a3",
+      "observed": "2026-10-17",
+      "title": "2026 Star Wars Topps NOW® Maul – Shadow Lord - PR: 11984",
+      "fields": {
+        "SKU": "ARTDI-16C2S-26TN-DMSW-QTY1",
+        "Category": "Entertainment",
+        "Sub Categories": "Movie",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Darth Maul",
+        "Properties": "Star Wars: Maul – Shadow Lord",
+        "Product Type": "Print on Demand",
+        "Available From": "Apr 6, 2026",
+        "Available Until": "Apr 13, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /99 and lower; Short Print featuring Alternate Poster Artwork; /10 Sam Witwer Autograph Card; /5 Sam Witwer Autograph Card; /1 Sam Witwer Autograph Card\nCard number is not published in the reviewed official title or specifications.\n*Parallels and short prints will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.\nNumeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-0100-disney-star-wars.json"
+    },
+    "identityKind": "official-single-card-product",
+    "family": "2026 Star Wars Topps NOW® Maul – Shadow Lord",
+    "saleFromISO": "2026-04-06"
+  },
+  {
+    "series": "2026 Star Wars Topps NOW®",
+    "number": "",
+    "name": "The Mandalorian and Grogu",
+    "printRun": "28832",
+    "saleFrom": "May 20, 2026",
+    "saleUntil": "May 27, 2026",
+    "parallels": [
+      "/99 Green Foil",
+      "/75 Blue Foil",
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "1/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /99 and lower; Multiple Characters Poster Image Variation Short Print; The Mandalorian and Grogu Second Poster Image Variation Short Print; Grogu Meditation Poster Image Variation Super Short Print; The Mandalorian Poster Image Variation Super Short Print; /1 Pedro Pascal Autograph Card\nCard number is not published in the reviewed official title or specifications.\n*Parallels and short prints will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.\nNumeric pack odds are not published.\n50,000+ Print Run: Look for Chrome® parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome® parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome® parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome® + lower parallel structure.",
+    "source": "https://www.topps.com/products/2026-star-wars-topps-now%C2%AE-the-mandalorian-and-grogu",
+    "evidence": {
+      "url": "https://www.topps.com/products/2026-star-wars-topps-now%C2%AE-the-mandalorian-and-grogu",
+      "sha256": "6ec033c9047791538ecf21a12aaaa7d493828680d33263ef0522eac08dd7c2c8",
+      "observed": "2026-10-17",
+      "title": "2026 Star Wars Topps NOW® – The Mandalorian and Grogu - PR: 28832",
+      "fields": {
+        "SKU": "ARTDI-16C2S-26TN-MG01-QTY1",
+        "Category": "Entertainment",
+        "Sub Categories": "Movie",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "The Mandalorian and Grogu",
+        "Properties": "The Mandalorian and Grogu",
+        "Product Type": "Print on Demand",
+        "Available From": "May 20, 2026",
+        "Available Until": "May 27, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /99 and lower; Multiple Characters Poster Image Variation Short Print; The Mandalorian and Grogu Second Poster Image Variation Short Print; Grogu Meditation Poster Image Variation Super Short Print; The Mandalorian Poster Image Variation Super Short Print; /1 Pedro Pascal Autograph Card\nCard number is not published in the reviewed official title or specifications.\n*Parallels and short prints will replace the base card in your order. Odds of hitting a non-base card are based on total cards ordered.\nNumeric pack odds are not published.\n50,000+ Print Run: Look for Chrome® parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome® parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome® parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome® + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-0100-disney-star-wars.json"
+    },
+    "identityKind": "official-single-card-product",
+    "family": "2026 Star Wars Topps NOW® – The Mandalorian and Grogu",
+    "saleFromISO": "2026-05-20"
   },
   {
     "series": "2026 Tennis Topps NOW®",

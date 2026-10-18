@@ -5628,14 +5628,37 @@
   },
   "topps-now-2026": {
     "state": {
-      "checklistHash": "bde615c98aa27f8b7a925dbb54f3a9903713cd8b8b48a9a163b67995dd33866e",
+      "checklistHash": "1e67147e5e7c2dab3b99cf793b67d691f7b8f252464428f754522f7dec2b8d99",
       "oddsHash": null,
-      "rows": 2247,
+      "rows": 2252,
       "odds": 0,
-      "specificationRows": 10242
+      "specificationRows": 10277
     },
-    "fingerprint": "0ea42f88e56a03d1142bcb9c3ac6326acfad750d4621468baa1fc24a2483293a",
+    "fingerprint": "3ed20c6626ac859e9b0fa3933effcd1bb4a8dee4240610d328c1bfdc5e034378",
     "events": [
+      {
+        "at": "2026-10-18T01:08:24.288Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 2247 → 2252",
+          "Supplementary specification rows: 10242 → 10277"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "1e67147e5e7c2dab3b99cf793b67d691f7b8f252464428f754522f7dec2b8d99",
+          "oddsHash": null,
+          "rows": 2252,
+          "odds": 0,
+          "specificationRows": 10277
+        },
+        "previousSnapshot": {
+          "checklistHash": "bde615c98aa27f8b7a925dbb54f3a9903713cd8b8b48a9a163b67995dd33866e",
+          "oddsHash": null,
+          "rows": 2247,
+          "odds": 0,
+          "specificationRows": 10242
+        }
+      },
       {
         "at": "2026-10-18T00:15:01.109Z",
         "changes": [
@@ -12972,6 +12995,60 @@
           "rows": 6,
           "odds": 0,
           "specificationRows": 42
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-disney-topps-now": {
+    "state": {
+      "checklistHash": "de246b3978273bee90119cb17fca87a94e6df0c284faf9ea9a038757580ec1a1",
+      "oddsHash": null,
+      "rows": 3,
+      "odds": 0,
+      "specificationRows": 21
+    },
+    "fingerprint": "29710356fb1262d577e2edc52185ca82f225281ba61846bea91a2f8b57fb7884",
+    "events": [
+      {
+        "at": "2026-10-18T01:08:25.669Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "de246b3978273bee90119cb17fca87a94e6df0c284faf9ea9a038757580ec1a1",
+          "oddsHash": null,
+          "rows": 3,
+          "odds": 0,
+          "specificationRows": 21
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-star-wars-topps-now": {
+    "state": {
+      "checklistHash": "c979bba655fed2eccbe656e4fac0660812cb16e4b9bdce68443b6bed0e9c08bb",
+      "oddsHash": null,
+      "rows": 2,
+      "odds": 0,
+      "specificationRows": 14
+    },
+    "fingerprint": "5de8c2db1fdfd1e853b97a0885313d3e91a7fa478af39ef25bb4167f12eaf19b",
+    "events": [
+      {
+        "at": "2026-10-18T01:08:25.669Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "c979bba655fed2eccbe656e4fac0660812cb16e4b9bdce68443b6bed0e9c08bb",
+          "oddsHash": null,
+          "rows": 2,
+          "odds": 0,
+          "specificationRows": 14
         },
         "previousSnapshot": null
       }
