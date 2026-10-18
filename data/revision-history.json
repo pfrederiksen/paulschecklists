@@ -13425,5 +13425,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-nhl-topps-now-rookie-collection": {
+    "state": {
+      "checklistHash": "de33b432927ef5c1c5745c165f9258b0aec641fbabd4c66d86ab5b245ba2d7b2",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 21
+    },
+    "fingerprint": "a6db7bb00cde8488c0cf3f37dfed8633f4bb9f11a35e971c5cfae60c69273f1d",
+    "events": [
+      {
+        "at": "2026-10-18T12:27:01.862Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2025-26-nhl-topps-now%C2%AE-rookie-collection-10-sticker-set",
+        "snapshot": {
+          "checklistHash": "de33b432927ef5c1c5745c165f9258b0aec641fbabd4c66d86ab5b245ba2d7b2",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 21
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

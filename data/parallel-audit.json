@@ -5932,6 +5932,20 @@
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-nhl-topps-now-rookie-collection",
+      "title": "2025-26 NHL Topps NOW® Rookie Collection 10-Sticker Set - PR: 600",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2025-26-nhl-topps-now%C2%AE-rookie-collection-10-sticker-set",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
     }
   ]
 }

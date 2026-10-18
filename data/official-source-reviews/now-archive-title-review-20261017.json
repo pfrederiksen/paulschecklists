@@ -13,11 +13,6 @@
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
-      "title": "2025-26 NHL Topps NOW® Rookie Collection 10-Sticker Set - PR: 600",
-      "url": "https://www.topps.com/products/2025-26-nhl-topps-now%C2%AE-rookie-collection-10-sticker-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "Chase Burns - 2026 MLB Topps NOW® - Card 29 - PR: 3477 - PR: 236",
       "url": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -293,5 +288,12 @@
     "checklistSha256": "0ace98eda6dd6ffc86d0e34091de7afbfbddc274c6b309e24b58c78c924b9dcb",
     "publishedSet": "topps-bowman-2026-wwe-topps-now-wrestlemania-vegas-set",
     "resolution": "All forty physical number/Subject rows imported: 14 base, seven Legend short prints, twelve base autographs and seven Legend autographs. Cody nickname quote differences and the omitted Hart in LSP-4A remain literal. Five base-only foil limits never number the other programs; two autograph /5-or-lower statements stay separate and qualified. Bundle PR5847, April 13–20 sale dates and April 18–19 event context do not establish per-card runs, pack odds or general release. Exhaustive eligibility and historical coverage remain partial."
+  },
+  "resolvedNhlRookieCollection": {
+    "url": "https://www.topps.com/products/2025-26-nhl-topps-now%C2%AE-rookie-collection-10-sticker-set",
+    "title": "2025-26 NHL Topps NOW® Rookie Collection 10-Sticker Set - PR: 600",
+    "snapshot": "data/parallel-audit-sources/nhl-now-rookie-collection-product-20261018.json",
+    "publishedSet": "topps-bowman-2026-nhl-topps-now-rookie-collection",
+    "resolution": "All ten original subject/team pairs imported from fresh official Overview paragraphs, preserving Montréal and the complete double-hyphen cells. Printed sticker IDs and per-row Rookie fields are absent and not inferred. PR600 labels the whole bundle; the literal ten stickers PLUS one parallel configuration is retained. Four Ice look-for terms stay qualified without per-subject eligibility joins. April 20–27 sale dates, the 2025–26 title and Product Year 2026 remain separate from an unverified general release. No pack odds is published; history remains partial."
   }
 }

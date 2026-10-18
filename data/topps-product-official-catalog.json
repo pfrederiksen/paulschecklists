@@ -2704,5 +2704,31 @@
     "coverageComplete": false,
     "description": "A made-to-order 15-card bundle: fourteen base cards plus one additional parallel, Legend short print, autograph or redemption. The PDF lists forty numbered entries across four programs. Five base-only foil limits are published; both autograph programs retain separate /5-or-lower qualifications. Bundle PR5847 and April 13–20 sale dates are product-level facts; WrestleMania event dates are not a general release date.",
     "catalogEvidence": "All forty physical number/Subject cells retain the four exact program headings. Base 1 closes Cody Rhodes’s nickname with a double quote; autograph 1-A prints a closing apostrophe. LSP-4A prints Bret \"Hit Man\" without Hart; do not copy the surname from LSP-4. Five base foil limits /50,/25,/10,/5,/1 never number Legend short prints or either autograph program. Separate qualified /5-or-lower terms apply to BASE AUTOGRAPH VARIATIONS and LEGEND SP AUTOGRAPH VARIATIONS without named color joins. No teams, rookie flags, pack formats, pack odds, per-card print runs or general release are invented. Exhaustive eligibility and historical NOW coverage remain unverified."
+  },
+  {
+    "title": "2025-26 NHL Topps NOW® Rookie Collection 10-Sticker Set - PR: 600",
+    "manufacturer": "Topps / Bowman",
+    "sport": "hockey",
+    "year": "2026",
+    "slug": "topps-bowman-2026-nhl-topps-now-rookie-collection",
+    "page": "sets/topps-bowman-2026-nhl-topps-now-rookie-collection.html",
+    "sourcePage": "https://www.topps.com/products/2025-26-nhl-topps-now%C2%AE-rookie-collection-10-sticker-set",
+    "checklistUrl": "https://www.topps.com/products/2025-26-nhl-topps-now%C2%AE-rookie-collection-10-sticker-set",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-18",
+    "tableData": "data/imports/topps-bowman-2026-nhl-topps-now-rookie-collection.json",
+    "status": "Source table",
+    "importKind": "topps-web-roster",
+    "dedicatedParser": "scripts/import_topps_now_nhl_rookies_2026.py",
+    "rowCount": 10,
+    "sections": 1,
+    "parallelData": true,
+    "publishedOdds": false,
+    "sha256": "de33b432927ef5c1c5745c165f9258b0aec641fbabd4c66d86ab5b245ba2d7b2",
+    "coverageComplete": false,
+    "description": "All ten official sticker subjects and teams are imported, retaining blank unpublished sticker numbers and the original subject/team cells. The bundle includes ten stickers PLUS one parallel; PR600 belongs to the bundle. Unnumbered, Black Ice /10, Red Ice /5 and Gold Ice /1 terms remain qualified product context without inferred individual eligibility. The 2025–26 title, Product Year 2026 and April 20–27 sale dates remain separate; general release and historical coverage are unverified.",
+    "catalogEvidence": "Fresh official product Overview publishes ten subject/team pairs, four look-for terms and the literal PLUS configuration. Preserve Montréal Canadiens and the complete double-hyphen subject cells. No sticker IDs or row-level Rookie marks are supplied. The title labels bundle PR600; do not assign 600 to each subject. Product-level Ice terms lack per-subject eligibility and remain unjoined. No checklist document or pack odds is linked in the reviewed page.",
+    "dataAudit": "Ten original official DOM paragraph cells reconcile independently with the full Overview text; literal subjects, teams and delimiters remain visible and exportable. Product-year, season, sale dates, bundle run and qualified Ice limits retain their original scope. Missing numbers and rookie flags are not inferred."
   }
 ]
