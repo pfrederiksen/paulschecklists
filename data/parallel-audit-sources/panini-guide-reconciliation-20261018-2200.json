@@ -1,7 +1,7 @@
 {
   "observed": "2026-10-18",
   "checkedUtc": "2026-10-18T22:33:03.471620+00:00",
-  "status": "Reconciled guide quantities and retained pending source-family candidates; no public import change",
+  "status": "Score guide quantities reconciled; Golf product-only context imported on the shared source-only page without card rows or inferred family eligibility",
   "snapshots": [
     {
       "source": "https://blog.paniniamerica.net/all-treat-no-tricks-panini-score-a-treat-returns-for-2026/",
@@ -87,7 +87,7 @@
       "observed": "2026-10-18",
       "sourceKind": "official-web-factual-excerpt",
       "hashKind": "normalized factual JSON; not raw HTML",
-      "sha256": "07bf811fa8ea84adf3e060d7d4b4b4a79b1ef93455e96cdeb508320ad1ee57eb",
+      "sha256": "65e0ea547d8598b2046f6fe9bd1aebe7814ea16b3f6f98f1aaf0111f4472077f",
       "facts": {
         "title": "1st off the Line 2026 Panini Par Three LIV Golf Trading Card Box",
         "sku": "2-19759-10",
@@ -117,7 +117,15 @@
           "October 15th, 2026 @ 11 AM CDT"
         ],
         "dateQualification": "Auction start statements are retained separately and do not establish a general calendar release date.",
-        "releaseDatePublished": false
+        "releaseDatePublished": false,
+        "keyAthletes": [
+          "Bryson DeChambeau",
+          "Joaquinn Niemann",
+          "Jon Rahm",
+          "Anthony Kim",
+          "Bubba Watson",
+          "Phil Mickelson"
+        ]
       }
     }
   ],
@@ -216,7 +224,7 @@
   "golfPending": {
     "slug": "panini-2026-panini-par-three-liv-golf",
     "status": "Source-only; official embedded checklist still exposes no cardsets or athletes in the web read.",
-    "remainingGap": "The published product specifications have no validated roster/family-table adapter yet. Preserve these candidates without synthetic card rows; card numbers, eligibility, exact CSV family mappings, and general release remain unverified. Add the product-only terms to the shared specification view while preserving unavailable card counts when that adapter is validated.",
+    "remainingGap": "Published guide facts are retained as product-only context in the source-only record and shared source explanation. Card numbers, complete roster, eligibility, exact CSV family mappings and a general release date remain unverified; structured card-family reconciliation awaits published rows.",
     "qualifiers": [
       "Do not copy FOTL Purple /6 or /11 to regular Hobby.",
       "The Purple autograph term does not name every autograph program.",

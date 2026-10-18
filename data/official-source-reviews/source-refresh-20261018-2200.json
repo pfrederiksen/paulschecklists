@@ -33,8 +33,8 @@
   },
   "parallelSourceReview": {
     "file": "data/parallel-audit-sources/panini-guide-reconciliation-20261018-2200.json",
-    "sha256": "53be6a4b24f4c7592c3b815dc9f41e3878c3f6f5d4d9e644d675f530ab888c7c",
-    "result": "Three Score-A-Treat guide quantities match existing CSV SEQUENCE values. Golf product and FOTL specification candidates remain explicitly pending family/roster adaptation; no limits or release dates selected from search results."
+    "sha256": "4cd93a10891d723fc7e6793158a8ccb0433418fcde16cdb2f3654a9de32ef696",
+    "result": "Three Score-A-Treat guide quantities agree with retained CSV values. Golf guide-only product context is imported with separate Hobby/FOTL qualifiers, exact named programs and no synthetic card rows or selected release date."
   },
   "retainedValidation": {
     "activePublished": 24,
@@ -47,6 +47,24 @@
     "paniniHeaderOnlySourcePrograms": 1,
     "historicalCoverageComplete": false
   },
-  "publicDataChanged": false,
-  "result": "No new publication verified in available checks. Fresh NOW, global index and Panini interface checkpoints remain blocked; retained coverage labels are not advanced."
+  "publicDataChanged": true,
+  "result": "Golf source-only page now retains verified product-guide context. Fresh NOW/global index/Panini interface checkpoints remain blocked by the locked Mac; no current-UI or historical coverage labels were advanced.",
+  "publicationValidation": {
+    "sharedGenerationBuild": "pass",
+    "sharedChecks": [
+      "verify_set_template.mjs",
+      "verify_source_pages.mjs",
+      "verify_ui.mjs",
+      "verify_bowman.mjs",
+      "verify_catalog.mjs",
+      "verify_seo.mjs",
+      "verify_parallel_specs.mjs",
+      "verify_research.mjs",
+      "verify_release_dates.mjs"
+    ],
+    "result": "All required checks pass. Panini verifier hash-checks the exact normalized Hobby/FOTL guide snapshots while keeping the header-only card import incomplete.",
+    "sourceOnlyChecks": "Source-only label, unavailable card table, all ten disabled common card controls, literal terms/qualifiers and both clickable official guide links verified in generated HTML.",
+    "nativeBrowserVerification": "Blocked by the locked Mac; no fresh NOW or global-index UI coverage claimed.",
+    "sourceScope": "No card rows, CSV SEQUENCE values, approved parallel joins, exact release dates, print runs or pack odds were added or changed."
+  }
 }

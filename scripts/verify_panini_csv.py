@@ -41,4 +41,13 @@ for record in pending:
  observation=json.loads((ROOT/proof['file']).read_text())
  assert any(o['sha256']==record['sha256'] and o['sourceSelection']==record['sourceSelection'] and o['rows']==o['families']==0 for o in observation['exports'])
  assert 'header-only' in record['importIssue'] and 'Source-only' in record['catalogEvidence']
+ if record.get('productGuideContext'):
+  guide=record['productGuideObservation'];blob=(ROOT/guide['file']).read_bytes()
+  assert hashlib.sha256(blob).hexdigest()==guide['sha256']
+  retained=json.loads(blob)['snapshots']
+  for snapshot in record['productGuideContext']:
+   assert snapshot in retained
+   facts=json.dumps(snapshot['facts'],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
+   assert hashlib.sha256(facts).hexdigest()==snapshot['sha256']
+  assert 'FOTL' in record['catalogEvidence'] and 'Box averages are not pack odds' in record['catalogEvidence']
 print(f"Verified {len(pending)} explicit source-only Panini programs with header-only exports; card coverage remains incomplete.")

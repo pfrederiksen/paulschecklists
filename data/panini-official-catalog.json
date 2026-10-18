@@ -2121,8 +2121,117 @@
       "source": "https://www.paniniamerica.net/checklist.html",
       "method": "Fresh official checklist UI reads through native Safari accessibility controls. Each sport/year/brand/program was selected and Download Full Checklist was clicked. Original UTF-8 CSV files were read from the filenames displayed in Safari Downloads; bytes are retained unchanged."
     },
-    "description": "Source-only: Panini lists this program, but its current full checklist export contains only column headers. Card subjects, numbers and specifications are not yet available.",
-    "catalogEvidence": "Source-only page. The official Golf / 2026 / Panini / Par Three LIV selection lists zero cardsets (NO DATA FOUND); its full CSV exports ten headers and no card rows. No card roster, numbering or pack odds can be imported from that export. Product year and first observation do not establish release date. Recheck the official interface for published card rows.",
-    "importIssue": "Official program listed; cardset selector is empty and full CSV is header-only. Awaiting published card rows, not a completed card import."
+    "description": "Source-only: the official card checklist is empty. Separately published Hobby and FOTL product specifications appear in the source explanation; no card roster or eligibility is inferred.",
+    "catalogEvidence": "Source-only page. The official Golf / 2026 / Panini / Par Three LIV selection lists no cardsets; its full CSV has ten headers and no card rows. The Hobby product page separately publishes Gold numbered /10 for Downtown and Downtown Tournament Champions only. FOTL product context separately names Purple Autograph /6 and Purple Base Parallel /11; those FOTL terms do not apply to regular Hobby or every autograph program. Both product configurations state 3 cards per pack, 1 pack per box and 10 boxes per case. Hobby box averages are one slabbed autograph, one slabbed base/base parallel and one slabbed memorabilia card or insert; FOTL substitutes its two named Purple terms. Box averages are not pack odds. Named signature programs are Clubhouse Collection Signatures, LIV Tournament Champions Signatures and LIV Moments Signatures. Bubba Watson, Bryson DeChambeau and Phil Mickelson are product examples, not a complete autograph roster. FOTL key-athlete examples also list printed Joaquinn Niemann, Jon Rahm and Anthony Kim; no card numbers or eligibility are inferred. Product pages say Coming soon; their countdowns, last-updated dates and October 15 FOTL auction start do not establish a general release date. A complete card roster, exact source-family joins, pack odds and exhaustive numbering remain unavailable or unverified.",
+    "importIssue": "Official program listed; cardset selector is empty and full CSV is header-only. Awaiting published card rows, not a completed card import.",
+    "productGuideObservation": {
+      "file": "data/parallel-audit-sources/panini-guide-reconciliation-20261018-2200.json",
+      "sha256": "4cd93a10891d723fc7e6793158a8ccb0433418fcde16cdb2f3654a9de32ef696",
+      "hashKind": "retained normalized official web factual excerpts; not raw HTML"
+    },
+    "productGuideContext": [
+      {
+        "source": "https://www.paniniamerica.net/2026-panini-par-three-liv-golf-trading-card-box-hobby.html",
+        "observed": "2026-10-18",
+        "sourceKind": "official-web-factual-excerpt",
+        "hashKind": "normalized factual JSON; not raw HTML",
+        "sha256": "563832014521f1c460948c6690e15cd3c04704474ec246535b9c7cf876ef1144",
+        "facts": {
+          "title": "2026 Panini Par Three LIV Golf Trading Card Box (Hobby)",
+          "sku": "2-19756-10",
+          "statusText": "Coming soon",
+          "configuration": {
+            "cardsPerPack": 3,
+            "packsPerBox": 1,
+            "boxesPerCase": 10
+          },
+          "boxAverages": [
+            "1 Slabbed Autograph",
+            "1 Slabbed Base/Base Parallel",
+            "1 Slabbed Memorabilia Card/Insert"
+          ],
+          "goldParallelNumbering": "/10",
+          "goldParallelNamedPrograms": [
+            "Downtown",
+            "Downtown Tournament Champions"
+          ],
+          "namedSignaturePrograms": [
+            "Clubhouse Collection Signatures",
+            "LIV Tournament Champions Signatures",
+            "LIV Moments Signatures"
+          ],
+          "exampleSubjects": [
+            "Bubba Watson",
+            "Bryson DeChambeau",
+            "Phil Mickelson"
+          ],
+          "checklistSelection": {
+            "sport": "GOLF",
+            "year": "2026",
+            "brand": "Panini",
+            "program": "Par Three LIV",
+            "cardsets": "No data found",
+            "athletes": "No data found"
+          },
+          "releaseDatePublished": false
+        }
+      },
+      {
+        "source": "https://www.paniniamerica.net/1st-off-the-line-2026-panini-par-three-liv-golf-trading-card-box.html",
+        "observed": "2026-10-18",
+        "sourceKind": "official-web-factual-excerpt",
+        "hashKind": "normalized factual JSON; not raw HTML",
+        "sha256": "65e0ea547d8598b2046f6fe9bd1aebe7814ea16b3f6f98f1aaf0111f4472077f",
+        "facts": {
+          "title": "1st off the Line 2026 Panini Par Three LIV Golf Trading Card Box",
+          "sku": "2-19759-10",
+          "configuration": {
+            "cardsPerPack": 3,
+            "packsPerBox": 1,
+            "boxesPerCase": 10
+          },
+          "fotlExclusiveTerms": [
+            [
+              "Purple Autograph",
+              "/6"
+            ],
+            [
+              "Purple Base Parallel",
+              "/11"
+            ]
+          ],
+          "boxQualification": "One of each named FOTL term plus one memorabilia card or insert, per box on average. These are box distributions, not pack odds.",
+          "goldParallelNumbering": "/10",
+          "goldParallelNamedPrograms": [
+            "Downtown",
+            "Downtown Tournament Champions"
+          ],
+          "auctionStartStatements": [
+            "10/15/2026 | 04:00 PM",
+            "October 15th, 2026 @ 11 AM CDT"
+          ],
+          "dateQualification": "Auction start statements are retained separately and do not establish a general calendar release date.",
+          "releaseDatePublished": false,
+          "keyAthletes": [
+            "Bryson DeChambeau",
+            "Joaquinn Niemann",
+            "Jon Rahm",
+            "Anthony Kim",
+            "Bubba Watson",
+            "Phil Mickelson"
+          ]
+        }
+      }
+    ],
+    "additionalSources": [
+      {
+        "label": "Official Hobby product guide",
+        "url": "https://www.paniniamerica.net/2026-panini-par-three-liv-golf-trading-card-box-hobby.html"
+      },
+      {
+        "label": "Official FOTL product guide",
+        "url": "https://www.paniniamerica.net/1st-off-the-line-2026-panini-par-three-liv-golf-trading-card-box.html"
+      }
+    ]
   }
 ]
