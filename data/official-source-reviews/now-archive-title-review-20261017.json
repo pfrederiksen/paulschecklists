@@ -18,11 +18,6 @@
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
-      "title": "Shohei Ohtani - 2026 MLB Topps NOW® Card 428 - Collector's Edition # to 99",
-      "url": "https://www.topps.com/products/shohei-ohtani-2026-mlb-topps-now%C2%AE-card-428-collectors-edition-to-99",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "2026 NBA Champions - New York Knicks - NBA Topps NOW® 16-Card Team Set - PR: 65941",
       "url": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -268,5 +263,11 @@
         "resolution": "Official page explicitly describes one Open-Edition Base Card, with Subjects, sale dates, labelled print run and product-specific foil terms. No card number is published; never use MADD or OS19 from URL/SKU as a number. Preserve printed title year separately from official Product Year 2026 and verified 2026 sale windows."
       }
     ]
+  },
+  "resolvedCollectorEditionProduct": {
+    "snapshot": "data/catalog-sources/topps-now-backfill-browser-20261018-0400-ohtani-collector.json",
+    "url": "https://www.topps.com/products/shohei-ohtani-2026-mlb-topps-now%C2%AE-card-428-collectors-edition-to-99",
+    "title": "Shohei Ohtani - 2026 MLB Topps NOW® Card 428 - Collector's Edition # to 99",
+    "resolution": "Official Specs verifies July 8, 2026 sale start and Shohei Ohtani. Explicit Collector's Edition card 428 retains its numbered-to-99, gold foil and 130pt statement in a separate edition series. Regular card 428 remains unchanged. No actual print run or sale-end date is published in the reviewed page; those fields remain blank. History remains partial."
   }
 }

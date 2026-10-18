@@ -81,7 +81,9 @@ function specifications(){const out=[],context=[],supplementary=[],q=normalize($
 
  if(data.importKind==='html'){const sections=[...new Set(data.rows.map(row=>row[0]))],indices=data.headers.map((h,i)=>i).filter(i=>i===0||i===data.oddsColumn||i===data.serialColumn||/sp|auto|mem/i.test(data.headers[i]));const families=new Map();for(const section of sections){const parent=sections.filter(p=>p!==section&&section.startsWith(p+' ')).sort((a,b)=>b.length-a.length)[0]??section;if(!families.has(parent))families.set(parent,[]);families.get(parent).push(section);}for(const [name,variants]of families){const unique=new Map();for(const row of data.rows.filter(row=>variants.includes(row[0]))){const vals=indices.map(i=>row[i]);unique.set(JSON.stringify(vals),vals);}out.push(group(name,table(indices.map(i=>data.headers[i]),[...unique.values()]),`${variants.length} checklist groups`));} }
  out.push(...supplementary);
- let visible=data.importKind==='pdf'?out:out.filter(html=>(!q||normalize(html).includes(q))&&(!selected||normalize(html).includes(normalize(selected))));
+ // Compare against the same escaped representation used by the rendered tables.
+ // Literal apostrophes and ampersands in a family must survive filtering.
+ let visible=data.importKind==='pdf'?out:out.filter(html=>(!q||normalize(html).includes(normalize(esc(q))))&&(!selected||normalize(html).includes(normalize(esc(selected)))));
  if($('source-sort').value==='name')visible.sort((a,b)=>a.localeCompare(b));if($('source-sort').value==='rare')visible.sort((a,b)=>{const family=html=>html.match(/<h3>(.*?)<\/h3>/)?.[1]??'';return rarity(family(b))-rarity(family(a));});
  const count=new Set(visible.map(html=>html.match(/<h3>(.*?)<\/h3>/)?.[1]).filter(Boolean)).size;
  if(view==='odds')$('source-count').textContent=`${count.toLocaleString()} checklist ${count===1?'family':'families'}`;

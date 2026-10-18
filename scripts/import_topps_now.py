@@ -6,7 +6,7 @@ as evidence; re-running this parser alone does not constitute a fresh source che
 import re,json,hashlib,datetime
 from pathlib import Path
 from urllib.parse import urlparse,unquote
-from topps_now_identity import observation_key, product_family, unnumbered_product_title, verified_single_card
+from topps_now_identity import observation_key, product_family, unnumbered_product_title, verified_single_card, verified_collector_edition
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE='https://www.topps.com/collections/topps-now'
 ARCHIVE=SOURCE+'-archive'
@@ -53,6 +53,7 @@ for url,block,document in blocks:
  if not title:continue
  match=re.fullmatch(r'(.+?)\s*-\s*(20\d\d(?:-\d\d)? .+?NOW®.*?) (?:- )?(?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
  single=verified_single_card(title,fields,lines) if document.suffix=='.json' else None
+ edition=verified_collector_edition(title,fields,lines) if document.suffix=='.json' else None
  unlabelled_suffix=None
  if not match:
   # An explicit Card number remains usable when an unlabelled numeric
@@ -61,12 +62,14 @@ for url,block,document in blocks:
   if suffix_match:
    name,series,number,unlabelled_suffix=suffix_match.groups();pr=None
    unverified_print_runs.append({'url':url,'title':title,'series':series,'number':number,'unlabelledValue':unlabelled_suffix,'gap':'The official title does not label this numeric suffix as a print run; no print run is assigned from it.'})
- if not match and unlabelled_suffix is None and not single:
+ if not match and unlabelled_suffix is None and not single and not edition:
   unparsed.append({'url':url,'title':title,'gap':'Official title lacks a validated number or has conflicting/unrecognized numbering or print-run text; preserve the gap instead of inferring from the URL.'})
   continue
  if match:name,series,number,pr=match.groups()
  if single:
   series,pr=single['series'],single['printRun'];name=fields['Subjects'];number=''
+ if edition:
+  series,number=edition['series'],edition['number'];name=fields['Subjects'];pr=None
  number=number.rstrip('-')
  if not number and not single:
   unparsed.append({'url':url,'title':title,'gap':'Card number is blank in the official product title.'});continue
@@ -90,6 +93,8 @@ for url,block,document in blocks:
  look_for=[x.removeprefix('* ') for x in lines[begin+1:min(end,parallel_heading)] if (x.startswith('* ') or re.match(r'^/\d+\s+.*(?:Redemption|Card)',x)) and not x.startswith('*Parallels')] if begin is not None else []
  tiers=[x for x in lines[begin+1:end] if re.match(r'^[\d,]+\+ Print Run:',x)] if begin is not None else []
  factual=[]
+ if edition:
+  factual.append('The numbered-to-'+edition['limit']+' specification applies only to this Collector\'s Edition card. A print run and numeric pack odds are not published in the reviewed official page.')
  if look_for:factual.append(('Published sticker types: ' if ' - Sticker # ' in title else 'Published card types: ')+ '; '.join(look_for))
  if '*Parallels or other non-base' in overview:
   unit='sticker' if 'non-base sticker' in overview else 'card'
@@ -122,6 +127,7 @@ for url,block,document in blocks:
    # the literal named foil/ice parallels; redemption-card limits are
    # separate Look for terms and must not become parallel names.
    parallels=[x.removeprefix('* ').strip() for x in lines[begin+1:end] if re.match(r'^/\d+\s+',x.removeprefix('* ')) and ('Foil' in x or 'FoilFractor' in x or 'Ice Parallel' in x or urlparse(url).hostname=='fr.topps.com' and re.search(r'Feuille|foil',x,re.I))]
+ if edition:parallels=[edition['specification']]
  identity={'series':series,'number':number,'source':url}
  if single:identity.update(identityKind='official-single-card-product',family=single['family'])
  key=observation_key(identity)
@@ -186,10 +192,12 @@ def official_sale_date(value):
 for product in products:product['saleFromISO']=official_sale_date(product['saleFrom'])
 store.write_text(json.dumps(products,ensure_ascii=False,indent=2)+'\n')
 single_products={p['source']:p for p in products if p.get('identityKind')=='official-single-card-product'}
+edition_products={p['source']:p for p in products if verified_collector_edition(p['evidence']['title'],p['evidence'].get('fields',{}),[v for v in p['parallels']])}
 # Earlier archive-only snapshots cannot validate a single-card scope. A later
 # full product read resolves that gap without inventing a printed number.
 unparsed=[gap for gap in unparsed if not (gap['url'] in single_products and
           (unnumbered_product_title(gap['title']) or {}).get('family')==product_family(single_products[gap['url']]))]
+unparsed=[gap for gap in unparsed if not (gap['url'] in edition_products and gap['title']==edition_products[gap['url']]['evidence']['title'])]
 cutoff='2026-01-01'
 pending=[{'series':p['series'],'number':p['number'],'url':p['source'],'saleFrom':p['saleFrom'],'gap':'Official sale date not yet verified; excluded from the calendar-year backfill.'} for p in products if not p['saleFromISO']]
 excluded=[{'series':p['series'],'number':p['number'],'saleFromISO':p['saleFromISO'],'url':p['source']} for p in products if p['saleFromISO'] and p['saleFromISO']<cutoff]

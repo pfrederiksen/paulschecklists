@@ -2,7 +2,7 @@
 import json, hashlib, re, runpy
 from urllib.parse import urlparse
 from pathlib import Path
-from topps_now_identity import observation_key, product_family, verified_single_card
+from topps_now_identity import observation_key, product_family, verified_single_card, verified_collector_edition
 
 root = Path(__file__).resolve().parents[1]
 observations = json.loads((root / 'data/topps-now-observations.json').read_text())
@@ -525,3 +525,36 @@ if gaming_source.exists():
     gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
     assert not {p['source'] for p in cards} & {p['url'] for p in gaps['unparsedNumberedTitles']}
     print('Verified Madden/MLB The Show NOW cover cards: blank printed numbers, literal five-foil terms, official sale windows/runs, exact product families and separate 2027 title/2026 Product Year; SKU/URL codes never supply card numbers and thresholds never become actual print runs or pack odds.')
+
+collector_source=root/'data/catalog-sources/topps-now-backfill-browser-20261018-0400-ohtani-collector.json'
+if collector_source.exists():
+    snapshot=json.loads(collector_source.read_text());assert len(snapshot['products'])==1
+    product=snapshot['products'][0];lines=product['lines']
+    fields=dict(line.split('  | ',1) for line in lines if '  | ' in line)
+    identity=verified_collector_edition(lines[0],fields,lines)
+    assert identity and identity['series']=="2026 MLB Topps NOW® Collector's Edition" and identity['number']=='428'
+    card=by_key[(identity['series'],'428')]
+    assert card['source']==product['url'] and card['name']=='Shohei Ohtani'
+    assert card['saleFrom']=='Jul 8, 2026' and card['saleFromISO']=='2026-07-08' and card['saleUntil']==''
+    assert card['printRun']=='' and 'Print Run' not in fields
+    assert card['parallels']==["Collector's Edition numbered to 99, featuring gold foil details and 130pt premium stock!"]
+    regular=by_key[('2026 MLB Topps NOW®','428')]
+    assert regular['source']!=card['source'] and 'Collector' not in '; '.join(regular['parallels'])
+    assert regular['evidence']['title']!=card['evidence']['title']
+    entry=next(s for s in inventory if s['title']==identity['series'])
+    assert entry['sport']=='baseball' and entry['rowCount']==1 and entry['coverageComplete'] is False
+    aggregate=json.loads((root/'data/imports/topps-now-2026.json').read_text())
+    for data in [aggregate,json.loads((root/entry['tableData']).read_text())]:
+        specs=[s for s in data['publishedSpecifications'] if s['name']==identity['series']]
+        assert len(specs)==1 and specs[0]['rows']==[['428','Shohei Ohtani',card['parallels'][0],card['source']]]
+        rows=[r for r in data['rows'] if r[8]==card['source']]
+        assert len(rows)==1 and rows[0][3]=='' and rows[0][5]==''
+    assert not verified_collector_edition(lines[0],fields,[line for line in lines if line!=card['parallels'][0]])
+    assert not verified_collector_edition(lines[0].replace('# to 99','# to 50'),fields,lines)
+    assert not verified_collector_edition(lines[0],{**fields,'Product Year':'2025'},lines)
+    listing={'listings':[{'reportedProductCount':1,'products':[{'url':card['source'],'title':lines[0]}]}]}
+    assert reconcile(listing,observations,aggregate)[0]['status']=='published'
+    reduced={**aggregate,'rows':[r for r in aggregate['rows'] if r[8]!=card['source']]}
+    assert reconcile(listing,observations,reduced)[0]['status']=='missing-published-row'
+    assert not any(p['url']==card['source'] for p in json.loads((root/'data/topps-now-import-gaps.json').read_text())['unparsedNumberedTitles'])
+    print('Verified Ohtani Collector\'s Edition 428: exact numbered-to-99 specification, July 8 sale start, separate regular/edition identities and blank unpublished print run/end date; no pack odds or complete-history claim.')

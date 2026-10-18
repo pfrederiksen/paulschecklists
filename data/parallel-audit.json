@@ -5820,6 +5820,20 @@
       "ongoingSeries": true,
       "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
+    },
+    {
+      "slug": "topps-now-2026-mlb-topps-now-collector-s-edition",
+      "title": "2026 MLB Topps NOW® Collector's Edition",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/collections/topps-now",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
+      "ongoingSeries": true,
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": []
     }
   ]
 }

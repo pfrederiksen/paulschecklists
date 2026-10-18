@@ -9,6 +9,29 @@ GAMING_SCOPES = {
     '2026 MLB The Show Cover Topps NOW®': {'Category': 'Sports', 'Sub Categories': 'Baseball', 'Product Year': '2026'},
 }
 
+
+def collector_edition_title(title):
+    """Keep the explicitly named MLB edition separate from the regular number."""
+    match = re.fullmatch(r"(.+?) - (2026 MLB Topps NOW®) Card ([A-Za-z0-9-]+) - (Collector's Edition) # to (\d+)", title)
+    if not match:
+        return None
+    subject, base_series, number, edition, limit = match.groups()
+    return {'series': base_series + ' ' + edition, 'number': number,
+            'subject': subject, 'limit': limit}
+
+
+def verified_collector_edition(title, fields, lines):
+    identity = collector_edition_title(title)
+    if not identity:
+        return None
+    required = {'Category': 'Sports', 'Sub Categories': 'Baseball', 'Brand': 'Topps',
+                'Sub Brand': 'Topps NOW®', 'Sub Type': 'Cards',
+                'Product Type': 'Print on Demand', 'Product Year': '2026'}
+    specification = f"Collector's Edition numbered to {identity['limit']}, featuring gold foil details and 130pt premium stock!"
+    if specification not in lines or not fields.get('Subjects') or any(fields.get(k) != v for k, v in required.items()):
+        return None
+    return {**identity, 'specification': specification}
+
 def product_family(product):
     return product.get('family', product['series'])
 

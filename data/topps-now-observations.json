@@ -65319,6 +65319,42 @@
     "saleFromISO": "2026-10-16"
   },
   {
+    "series": "2026 MLB Topps NOW® Collector's Edition",
+    "number": "428",
+    "name": "Shohei Ohtani",
+    "printRun": "",
+    "saleFrom": "Jul 8, 2026",
+    "saleUntil": "",
+    "parallels": [
+      "Collector's Edition numbered to 99, featuring gold foil details and 130pt premium stock!"
+    ],
+    "terms": "The numbered-to-99 specification applies only to this Collector's Edition card. A print run and numeric pack odds are not published in the reviewed official page.",
+    "source": "https://www.topps.com/products/shohei-ohtani-2026-mlb-topps-now%C2%AE-card-428-collectors-edition-to-99",
+    "evidence": {
+      "url": "https://www.topps.com/products/shohei-ohtani-2026-mlb-topps-now%C2%AE-card-428-collectors-edition-to-99",
+      "sha256": "26e7a40cb6bd42276c180aeedcfbd529ca9844f6fa34d06bf733e2726d91d631",
+      "observed": "2026-10-17",
+      "title": "Shohei Ohtani - 2026 MLB Topps NOW® Card 428 - Collector's Edition # to 99",
+      "fields": {
+        "SKU": "ARTBB-130RF-26TN-0428",
+        "Category": "Sports",
+        "Sub Categories": "Baseball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Shohei Ohtani",
+        "Properties": "Los Angeles Dodgers",
+        "Product Type": "Print on Demand",
+        "Available From": "Jul 8, 2026"
+      },
+      "overview": "The numbered-to-99 specification applies only to this Collector's Edition card. A print run and numeric pack odds are not published in the reviewed official page.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-0400-ohtani-collector.json"
+    },
+    "saleFromISO": "2026-07-08"
+  },
+  {
     "series": "2026 MLS Topps NOW®",
     "number": "1",
     "name": "Son Heung-min, Lionel Messi",

@@ -43,6 +43,13 @@ for(const set of cases){
   }
   get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-now-2026-mlb-topps-now-collector-s-edition'){
+  get('source-odds-tab').onclick();get('source-section').value="2026 MLB Topps NOW® Collector's Edition";get('source-section').onchange();
+  get('source-search').value='428';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 checklist family');assert(primarySpecifications().includes('numbered to 99')&&primarySpecifications().includes('130pt'));
+  get('source-search').value="Collector's";get('source-search').oninput();assert.equal(get('source-count').textContent,'1 checklist family','Literal apostrophe searches must match escaped family tables');
+  get('source-search').value='429';get('source-search').oninput();assert.equal(get('source-count').textContent,'0 checklist families');get('source-reset').onclick();assert.equal(get('source-count').textContent,'1 checklist family');
+  get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-now-2026-mlb-topps-now'){
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
   get('source-search').value='Petey Halpin';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('"794"')&&csv.includes('Oct 16, 2026')&&csv.includes('/10 Autograph Redemption Card')&&!csv.includes('/44 Milwaukee Brewers'));get('source-reset').onclick();
