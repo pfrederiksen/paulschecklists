@@ -26,71 +26,6 @@
       "title": "2026 MLB Topps NOW® Road To Opening Day – Autograph Collector’s Box",
       "url": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Washington Nationals MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 649",
-      "url": "https://www.topps.com/products/2026-washington-nationals-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Miami Marlins MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 541",
-      "url": "https://www.topps.com/products/2026-miami-marlins-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Baltimore Orioles MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1141",
-      "url": "https://www.topps.com/products/2026-baltimore-orioles-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Los Angeles Dodgers MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 5721",
-      "url": "https://www.topps.com/products/2026-los-angeles-dodgers-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 San Diego Padres MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 796",
-      "url": "https://www.topps.com/products/2026-san-diego-padres-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Arizona Diamondbacks MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 643",
-      "url": "https://www.topps.com/products/2026-arizona-diamondbacks-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Texas Rangers MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 705",
-      "url": "https://www.topps.com/products/2026-texas-rangers-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Toronto Blue Jays MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 731",
-      "url": "https://www.topps.com/products/2026-toronto-blue-jays-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Atlanta Braves MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1095",
-      "url": "https://www.topps.com/products/2026-atlanta-braves-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Houston Astros MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 759",
-      "url": "https://www.topps.com/products/2026-houston-astros-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Athletics MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 921",
-      "url": "https://www.topps.com/products/2026-athletics-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 New York Mets MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1301",
-      "url": "https://www.topps.com/products/2026-new-york-mets-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Angels MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 720",
-      "url": "https://www.topps.com/products/2026-angels-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     }
   ],
   "notes": "This review reconciles only retained title text, not all fields or reported archive products. Existing 95-page checkpoint and partial-history labels remain unchanged. Unnumbered entertainment products and multi-card bundles need dedicated roster/date parsing; Anthony Edwards has a blank printed title number that cannot be filled from its URL.",
@@ -308,6 +243,99 @@
       "snapshot": "data/parallel-audit-sources/wbc-now-team-korea-2026-product-20261018.json",
       "publishedSet": "topps-bowman-2026-wbc-topps-now-team-korea",
       "resolution": "All three literal base/parallel/autograph rosters imported with blank unpublished IDs. Distinct program memberships, original accents, bundle PR and March 5–16 sale window retained. Six foil limits and explicitly unnumbered WBC Logo remain qualified product context without subject/color or autograph-limit inference. These team sets remain separate from the Venezuela championship product; history remains partial."
+    }
+  ],
+  "resolvedRtodTeamSets": [
+    {
+      "url": "https://www.topps.com/products/2026-washington-nationals-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 Washington Nationals MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 649",
+      "snapshot": "data/parallel-audit-sources/rtod-now-washington-nationals-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-washington-nationals",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-miami-marlins-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 Miami Marlins MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 541",
+      "snapshot": "data/parallel-audit-sources/rtod-now-miami-marlins-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-miami-marlins",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-baltimore-orioles-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 Baltimore Orioles MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1141",
+      "snapshot": "data/parallel-audit-sources/rtod-now-baltimore-orioles-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-baltimore-orioles",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-los-angeles-dodgers-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 Los Angeles Dodgers MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 5721",
+      "snapshot": "data/parallel-audit-sources/rtod-now-los-angeles-dodgers-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-los-angeles-dodgers",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-san-diego-padres-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 San Diego Padres MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 796",
+      "snapshot": "data/parallel-audit-sources/rtod-now-san-diego-padres-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-san-diego-padres",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-arizona-diamondbacks-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 Arizona Diamondbacks MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 643",
+      "snapshot": "data/parallel-audit-sources/rtod-now-arizona-diamondbacks-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-arizona-diamondbacks",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-texas-rangers-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 Texas Rangers MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 705",
+      "snapshot": "data/parallel-audit-sources/rtod-now-texas-rangers-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-texas-rangers",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-toronto-blue-jays-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 Toronto Blue Jays MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 731",
+      "snapshot": "data/parallel-audit-sources/rtod-now-toronto-blue-jays-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-toronto-blue-jays",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-atlanta-braves-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 Atlanta Braves MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1095",
+      "snapshot": "data/parallel-audit-sources/rtod-now-atlanta-braves-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-atlanta-braves",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-houston-astros-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 Houston Astros MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 759",
+      "snapshot": "data/parallel-audit-sources/rtod-now-houston-astros-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-houston-astros",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-athletics-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 Athletics MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 921",
+      "snapshot": "data/parallel-audit-sources/rtod-now-athletics-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-athletics",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-new-york-mets-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 New York Mets MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1301",
+      "snapshot": "data/parallel-audit-sources/rtod-now-new-york-mets-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-new-york-mets",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-angels-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "title": "2026 Angels MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 720",
+      "snapshot": "data/parallel-audit-sources/rtod-now-angels-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-rtod-topps-now-angels",
+      "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
     }
   ]
 }

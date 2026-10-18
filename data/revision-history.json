@@ -13614,5 +13614,356 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-rtod-topps-now-washington-nationals": {
+    "state": {
+      "checklistHash": "1eef7bf1f5dcf20575fd033ce6ee1e2cfbecaa965c1c8a9b2fbd7ade1ec17486",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "80e45b0b4cc087ad43764e04e8ec97d3360a1cc580c4516fed36df5ef23bd315",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.934Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-washington-nationals-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "1eef7bf1f5dcf20575fd033ce6ee1e2cfbecaa965c1c8a9b2fbd7ade1ec17486",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-miami-marlins": {
+    "state": {
+      "checklistHash": "f95e8dcafe01a1d0a6112d4ce4d2107cbac1f07b73da8f8dc22fbc9a615f2cd8",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "c32d9fa080ec5c40bfee97de1a45232b6fed2eed9a44d84b3bf133b50c02dd50",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.934Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-miami-marlins-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "f95e8dcafe01a1d0a6112d4ce4d2107cbac1f07b73da8f8dc22fbc9a615f2cd8",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-baltimore-orioles": {
+    "state": {
+      "checklistHash": "eacaab036d807cfd9fce0be8ac3615b840795f1e5b6c1d93130d9be405eb8c59",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "4813600e70f4e619e14d00b1db066e5ba359eebcba10cc4033bc1d5e9df867b8",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.934Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-baltimore-orioles-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "eacaab036d807cfd9fce0be8ac3615b840795f1e5b6c1d93130d9be405eb8c59",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-los-angeles-dodgers": {
+    "state": {
+      "checklistHash": "0bef5bb1d8989b404190e9a257c59adb66caae1354ab9b52ab9ed5c7befef60a",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 31
+    },
+    "fingerprint": "56b946d2393ab67ac69d9d80688ded82a3422c4507dbc3ebe8756addccf592e0",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.934Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-los-angeles-dodgers-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "0bef5bb1d8989b404190e9a257c59adb66caae1354ab9b52ab9ed5c7befef60a",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 31
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-san-diego-padres": {
+    "state": {
+      "checklistHash": "f0355792d6aa89f5315188223fe6dec401c24d86f6da3fcb7084e24c7f72b605",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "8b81c8bd57b845884ec64045495ba3e4b1853cb9a193bf337708eba6551fdd1c",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.934Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-san-diego-padres-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "f0355792d6aa89f5315188223fe6dec401c24d86f6da3fcb7084e24c7f72b605",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-arizona-diamondbacks": {
+    "state": {
+      "checklistHash": "ad77199960f91134b8e018a2e4667032db06391e61b57c4ed42eb0b634221ded",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "2705c9e901886c030d2e93adf9b663e3b9a4c419e97071b333bd63778d1f9853",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.935Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-arizona-diamondbacks-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "ad77199960f91134b8e018a2e4667032db06391e61b57c4ed42eb0b634221ded",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-texas-rangers": {
+    "state": {
+      "checklistHash": "aa61e6c847f11f55e323ef0d0d0e38a83e6063639bc0a4c0302826178a11086f",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "4b043d1982afb171631506c9d46646b8262dba16ce2db9e16e291cce19582a8f",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.935Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-texas-rangers-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "aa61e6c847f11f55e323ef0d0d0e38a83e6063639bc0a4c0302826178a11086f",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-toronto-blue-jays": {
+    "state": {
+      "checklistHash": "8ea9f57145c439e123029c10986baee23cdf64300eacfb4baa150c2943fe1b3b",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "3441e29dec8f3ce0000afbf9c31aaa210bb23a9060cfbfa40123a68b10560948",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.935Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-toronto-blue-jays-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "8ea9f57145c439e123029c10986baee23cdf64300eacfb4baa150c2943fe1b3b",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-atlanta-braves": {
+    "state": {
+      "checklistHash": "52c572e127c97773e19b6009de3db1d2aa6aa186269acb0a43d18b3d00881964",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "fb09d7a78a606e1cfc28ce3285dc264726afb2b1341c5009424950b8c247d39d",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.935Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-atlanta-braves-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "52c572e127c97773e19b6009de3db1d2aa6aa186269acb0a43d18b3d00881964",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-houston-astros": {
+    "state": {
+      "checklistHash": "66cc219fd32ecea19fb80f9ec6912d6fc40bfe9dcce70c4428e02838a9ad7422",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "3f535880be4a8341a6c1058d21e98701180388ef7abad76a568d9bb5ae1a7912",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.935Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-houston-astros-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "66cc219fd32ecea19fb80f9ec6912d6fc40bfe9dcce70c4428e02838a9ad7422",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-athletics": {
+    "state": {
+      "checklistHash": "94ad22f620a0b7e9ee440c5bced99510104bd9e3b26743bc9bec7dc1e436336a",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "c9e240e3cbe74c7ec5684ec5502f948796056991281a3b4632160c970f34a05c",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.936Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-athletics-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "94ad22f620a0b7e9ee440c5bced99510104bd9e3b26743bc9bec7dc1e436336a",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-new-york-mets": {
+    "state": {
+      "checklistHash": "8a43bcc644310ad39b0f132542c9e975d63115e96fcf0f1b5313f5efb073214c",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "09bc881940bf727c7dc2e67f59a9434d30601196a14ef468fa6e5c016028ddd1",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.936Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-new-york-mets-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "8a43bcc644310ad39b0f132542c9e975d63115e96fcf0f1b5313f5efb073214c",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-angels": {
+    "state": {
+      "checklistHash": "4e31f6bc5d5333254f64514145bfe896de5ffe7cfaff795d7bab36d3632d5ebd",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 29
+    },
+    "fingerprint": "2bfe6744fb3cc3a506d9d9ffe216973fbae939f453830425a1787226ae5e28a7",
+    "events": [
+      {
+        "at": "2026-10-18T15:23:47.936Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-angels-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+        "snapshot": {
+          "checklistHash": "4e31f6bc5d5333254f64514145bfe896de5ffe7cfaff795d7bab36d3632d5ebd",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }
