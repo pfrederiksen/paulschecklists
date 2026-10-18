@@ -2678,5 +2678,31 @@
     "description": "A made-to-order 12-card bundle: eleven fixed base cards plus one guaranteed chase card. All eleven published subjects and clubs are imported with blank card numbers. Six unnamed Parallel limits, two Auto limits and an explicitly unnumbered parallel remain unjoined product terms. The Description names the 2025/26 season; Specs publishes Product Year 2026 and June 11–18 sale dates. Print run, autograph roster and general release remain unverified.",
     "catalogEvidence": "The official product Description publishes eleven fixed-base subject/club pairs. Preserve Gabriel Magalhães, Jurriën Timber, Nico O’Reilly, Liverpool FC and the complete original parenthetical cells. No card numbers, print run or checklist document are published in the reviewed page. Parallel: /1,/5,/10,/25,/50,/99 and or Auto /1,/5 retain their literal headings; the unnamed unnumbered parallel stays separate. No colors, exact family joins or autograph eligibility are inferred. Product configuration is not pack odds, store dates are not general release, and historical NOW coverage remains partial.",
     "dataAudit": "Eleven official DOM paragraph roster cells reconcile independently with the retained Description text. Original subjects and parenthetical clubs remain visible and exportable. Missing numbers, rookies, print runs, colors, autograph subjects and pack odds are not invented."
+  },
+  {
+    "title": "2026 WrestleMania Vegas Set – WWE Topps NOW® - 15-Card Set",
+    "manufacturer": "Topps / Bowman",
+    "sport": "wrestling",
+    "year": "2026",
+    "slug": "topps-bowman-2026-wwe-topps-now-wrestlemania-vegas-set",
+    "page": "sets/topps-bowman-2026-wwe-topps-now-wrestlemania-vegas-set.html",
+    "sourcePage": "https://www.topps.com/products/2026-wrestlemania-vegas-set-wwe-topps-now%C2%AE-15-card-set",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_WWE_Topps_Now_WrestleMania_Vegas_Checklist_1.pdf?v=1787965944",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-18",
+    "status": "Source table",
+    "rowCount": 40,
+    "tableData": "data/imports/topps-bowman-2026-wwe-topps-now-wrestlemania-vegas-set.json",
+    "sections": 4,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 14 base, seven Legend short print, twelve base autograph and seven Legend autograph rows reconcile with independent PDF text. The year-leading title is not a card; original quote differences and the omitted autograph surname remain literal.",
+    "dedicatedParser": "scripts/import_topps_now_wrestlemania_2026.py",
+    "parallelData": true,
+    "publishedOdds": false,
+    "sha256": "0ace98eda6dd6ffc86d0e34091de7afbfbddc274c6b309e24b58c78c924b9dcb",
+    "coverageComplete": false,
+    "description": "A made-to-order 15-card bundle: fourteen base cards plus one additional parallel, Legend short print, autograph or redemption. The PDF lists forty numbered entries across four programs. Five base-only foil limits are published; both autograph programs retain separate /5-or-lower qualifications. Bundle PR5847 and April 13–20 sale dates are product-level facts; WrestleMania event dates are not a general release date.",
+    "catalogEvidence": "All forty physical number/Subject cells retain the four exact program headings. Base 1 closes Cody Rhodes’s nickname with a double quote; autograph 1-A prints a closing apostrophe. LSP-4A prints Bret \"Hit Man\" without Hart; do not copy the surname from LSP-4. Five base foil limits /50,/25,/10,/5,/1 never number Legend short prints or either autograph program. Separate qualified /5-or-lower terms apply to BASE AUTOGRAPH VARIATIONS and LEGEND SP AUTOGRAPH VARIATIONS without named color joins. No teams, rookie flags, pack formats, pack odds, per-card print runs or general release are invented. Exhaustive eligibility and historical NOW coverage remain unverified."
   }
 ]

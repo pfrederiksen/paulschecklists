@@ -13396,5 +13396,34 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-wwe-topps-now-wrestlemania-vegas-set": {
+    "state": {
+      "checklistHash": "0ace98eda6dd6ffc86d0e34091de7afbfbddc274c6b309e24b58c78c924b9dcb",
+      "oddsHash": null,
+      "rows": 40,
+      "odds": 0,
+      "specificationRows": 26,
+      "specificationHash": "ceb4c006370e73fe56d321b57762883f993ed71bde25a5c99bb123629c6b807e"
+    },
+    "fingerprint": "26c37b90af2ea679afbd48fbe9812530afca7e911531af211d8401ce02cfbd6d",
+    "events": [
+      {
+        "at": "2026-10-18T11:25:55.767Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_WWE_Topps_Now_WrestleMania_Vegas_Checklist_1.pdf?v=1787965944",
+        "snapshot": {
+          "checklistHash": "0ace98eda6dd6ffc86d0e34091de7afbfbddc274c6b309e24b58c78c924b9dcb",
+          "oddsHash": null,
+          "rows": 40,
+          "odds": 0,
+          "specificationRows": 26,
+          "specificationHash": "ceb4c006370e73fe56d321b57762883f993ed71bde25a5c99bb123629c6b807e"
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

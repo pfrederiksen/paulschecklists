@@ -18,11 +18,6 @@
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
-      "title": "2026 WrestleMania Vegas Set – WWE Topps NOW® - 15-Card Set - PR: 5847",
-      "url": "https://www.topps.com/products/2026-wrestlemania-vegas-set-wwe-topps-now%C2%AE-15-card-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "Chase Burns - 2026 MLB Topps NOW® - Card 29 - PR: 3477 - PR: 236",
       "url": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -289,5 +284,14 @@
     "snapshot": "data/parallel-audit-sources/premier-now-tots-2026-product-20261018.json",
     "publishedSet": "topps-bowman-2026-premier-league-topps-now-team-of-the-season-set",
     "resolution": "All eleven literal fixed-base subject/club pairs imported with blank IDs and original parenthetical cells. Six unnamed Parallel limits, two Auto limits and one explicitly unnumbered term remain unjoined: no colors, autograph roster or per-player chase eligibility are inferred. Product Year 2026, season 2025/26 and June 11–18 sale dates remain distinct. Actual print run, card numbers, autograph roster, pack odds and general release are unpublished or unverified; historical coverage stays partial."
+  },
+  "resolvedWrestlemaniaVegasBundle": {
+    "url": "https://www.topps.com/products/2026-wrestlemania-vegas-set-wwe-topps-now%C2%AE-15-card-set",
+    "title": "2026 WrestleMania Vegas Set – WWE Topps NOW® - 15-Card Set - PR: 5847",
+    "snapshot": "data/parallel-audit-sources/wwe-now-wrestlemania-2026-product-20261018.json",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_WWE_Topps_Now_WrestleMania_Vegas_Checklist_1.pdf?v=1787965944",
+    "checklistSha256": "0ace98eda6dd6ffc86d0e34091de7afbfbddc274c6b309e24b58c78c924b9dcb",
+    "publishedSet": "topps-bowman-2026-wwe-topps-now-wrestlemania-vegas-set",
+    "resolution": "All forty physical number/Subject rows imported: 14 base, seven Legend short prints, twelve base autographs and seven Legend autographs. Cody nickname quote differences and the omitted Hart in LSP-4A remain literal. Five base-only foil limits never number the other programs; two autograph /5-or-lower statements stay separate and qualified. Bundle PR5847, April 13–20 sale dates and April 18–19 event context do not establish per-card runs, pack odds or general release. Exhaustive eligibility and historical coverage remain partial."
   }
 }
