@@ -1,0 +1,3244 @@
+{
+  "observed": "2026-10-18",
+  "heartbeatStartedUtc": "2026-10-18T20:20:42.865Z",
+  "checkedUtc": "2026-10-18T20:25:22.620953+00:00",
+  "sourceKind": "partial-official-source-refresh",
+  "status": "current-browser-ui-checkpoints-blocked",
+  "browserCheckpoint": {
+    "freshActiveNowUiRead": false,
+    "freshGlobalChecklistAndOddsUiRead": false,
+    "freshPaniniAllSportUiRead": false,
+    "evidence": "The current CUA surface inventory returned browsers: []. The in-app-browser open request was queued and did not provide a browser handle or source content.",
+    "lastActualUiReview": "data/official-source-reviews/topps-index-links-20261018-1900.json",
+    "retainedActiveListing": "data/topps-now-active-listings.json",
+    "remainingGap": "Re-read every active NOW/Bowman NOW listing page and product, current global checklist/odds title-URL arrays, and the remaining Panini all-sport inventory when the browser provider is available. Retained hashes and active-audit success do not establish a fresh current UI checkpoint."
+  },
+  "knownSourceRevisionChecks": {
+    "unchanged": 261,
+    "changed": 0,
+    "sources": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBK_VERSION4_1.pdf?v=1786549562",
+        "hashes": {
+          "0c7897c4f773221bc7f0a0537e4b4d394760a288c6f0cd3f65f32d9bca0a1ff2": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-definitive-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "0c7897c4f773221bc7f0a0537e4b4d394760a288c6f0cd3f65f32d9bca0a1ff2",
+        "bytes": 104358
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-16_2025-26-Topps-Definitive-Basketball_Odds_1.pdf?v=1789650301",
+        "hashes": {
+          "8d19b092aa1f9c9ef742e284ac2679f088e6c65ee0047231d80a7edd5c06d319": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-definitive-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "8d19b092aa1f9c9ef742e284ac2679f088e6c65ee0047231d80a7edd5c06d319",
+        "bytes": 383862
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2ZIkbw1x1lvAnIhBb5u155h0pei_3A2vVQPbBEzhdbukh63N977-yddiEHhOpTA/pub?output=csv",
+        "hashes": {
+          "84a5545e3e2070e6cba4e3e49705546f83e60d2fbf066d55c29f86382497cda6": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-trinity-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "84a5545e3e2070e6cba4e3e49705546f83e60d2fbf066d55c29f86382497cda6",
+        "bytes": 147822
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Checklist.pdf?v=1775743176",
+        "hashes": {
+          "07b758501b766aa6bc55c14f9fc024097c0bb4cff5d754c2f9c6984455e8a06d": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-bowman-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "07b758501b766aa6bc55c14f9fc024097c0bb4cff5d754c2f9c6984455e8a06d",
+        "bytes": 126076
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Odds.pdf?v=1776345050",
+        "hashes": {
+          "5bd1cf7d59aba1856b3af7390726d4f5086b6c7d72d4f81b4f07412886997056": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-bowman-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "5bd1cf7d59aba1856b3af7390726d4f5086b6c7d72d4f81b4f07412886997056",
+        "bytes": 227762
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQb6t3Ttwyq26TguG_X0yjKPELD_tZbzUV8niFFk_luWwBolpuz7ZPeSGZBiLKo-Q/pub?output=csv",
+        "hashes": {
+          "62731d83839f2af7db83d58c9f37bc325c1c1f41d829b2f4d6c5490e040c2a19": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-spectacular-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "62731d83839f2af7db83d58c9f37bc325c1c1f41d829b2f4d6c5490e040c2a19",
+        "bytes": 75611
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_U.S._Winter_Olympics_Paralympic_Team_Hopefuls_-_Checklist.pdf?v=1767731038",
+        "hashes": {
+          "7c856af7f10f4ea6d0aaf6012abcd63596a36a5c70c9c26bab768d01ea5f3cd4": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-u-s-winter-olympics-paralympic-team-hopefuls.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "7c856af7f10f4ea6d0aaf6012abcd63596a36a5c70c9c26bab768d01ea5f3cd4",
+        "bytes": 211148
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_US_Olympics_Odds.pdf?v=1787595621",
+        "hashes": {
+          "36b1f88969ecb1ae0caddb69db2f6db72c2e557af055c41e3b6cc253bde0de77": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-u-s-winter-olympics-paralympic-team-hopefuls.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "36b1f88969ecb1ae0caddb69db2f6db72c2e557af055c41e3b6cc253bde0de77",
+        "bytes": 185177
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "hashes": {
+          "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-rtod-topps-now-san-diego-padres.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-baltimore-orioles.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-new-york-mets.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-athletics.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-atlanta-braves.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-texas-rangers.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-washington-nationals.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-angels.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-team-sets.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-toronto-blue-jays.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-miami-marlins.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-los-angeles-dodgers.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-arizona-diamondbacks.json",
+          "data/imports/topps-bowman-2026-rtod-topps-now-houston-astros.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+        "bytes": 92328
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Resurgence_Football_Checklist.pdf?v=1782407891",
+        "hashes": {
+          "1a3cd494e4f678a1c19c297281f14e04cc8d557c6de1bbf176f0f8dff8b6448e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-resurgence-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1a3cd494e4f678a1c19c297281f14e04cc8d557c6de1bbf176f0f8dff8b6448e",
+        "bytes": 339601
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Resurgence_Football_Odds_1.pdf?v=1785355384",
+        "hashes": {
+          "93bbbe1d3338e78bde0aaecd4f4b261ff7d5f1a0df78ead38d49050ce7063707": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-resurgence-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "93bbbe1d3338e78bde0aaecd4f4b261ff7d5f1a0df78ead38d49050ce7063707",
+        "bytes": 54757
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/698cc15bb6764277bdb56f56_2026_Leaf_PayDirt_Football_CL_Final.xlsx",
+        "hashes": {
+          "6e37e52b59961a051f1fd03eb0173708090660411f0ce6ba3d48629a7a4d358a": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-paydirt-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6e37e52b59961a051f1fd03eb0173708090660411f0ce6ba3d48629a7a4d358a",
+        "bytes": 147121
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Manchester_United_Team_Set_2025-26_Checklist.pdf?v=1770828538",
+        "hashes": {
+          "8ee87ca83e94f99816ba95fddf88895319832485ac13c38182a09493ab0e0b10": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-topps-manchester-united-2025-26-team-set.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "8ee87ca83e94f99816ba95fddf88895319832485ac13c38182a09493ab0e0b10",
+        "bytes": 87914
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKbmeF0NOpw2uI62uPselbXJzjdcYF54VACjKSi0Q-xzVaOlpx4ixh3XLEgXLc3Q/pub?output=csv",
+        "hashes": {
+          "ddc00db155db2b05beb5f6955d4158afe6703a91b942d516380302c7be075df8": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-independence-day.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "ddc00db155db2b05beb5f6955d4158afe6703a91b942d516380302c7be075df8",
+        "bytes": 192616
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Transcendent_Collection_Checklist_-_9_15_26.pdf?v=1789485749",
+        "hashes": {
+          "b2e5866c943e54d89dbff38b25285af3cd5c45395ae77f5502f9847d53e18bcc": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-transcendent-collection-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b2e5866c943e54d89dbff38b25285af3cd5c45395ae77f5502f9847d53e18bcc",
+        "bytes": 146633
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Logofractor_Checklist.pdf?v=1786996133",
+        "hashes": {
+          "01746306c96f50ae6473d9fd7f8f719e0780ac33c213a0265bfb36755c304d68": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-baseball-logofractor-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "01746306c96f50ae6473d9fd7f8f719e0780ac33c213a0265bfb36755c304d68",
+        "bytes": 93542
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Logofractor_Odds.pdf?v=1787676101",
+        "hashes": {
+          "2994a508286bb2e6a0523d1d819eb65039f0044e07966cd05d6a7332f6207fc4": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-baseball-logofractor-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "2994a508286bb2e6a0523d1d819eb65039f0044e07966cd05d6a7332f6207fc4",
+        "bytes": 196513
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQCCg8HCnUwYWXjRMqNU5LyJbImR60rvJgXReTvAm6_8KiCRf737VOSvEvZEdhpMw/pub?output=csv",
+        "hashes": {
+          "9ba855b08a2cc362eab1577305226b27463c2166f490b778c37a31d404bbd030": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-pro-set-metal-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "9ba855b08a2cc362eab1577305226b27463c2166f490b778c37a31d404bbd030",
+        "bytes": 773684
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TCF1_CHECKLIST.xlsx_-_Read-Only.pdf?v=1791482940",
+        "hashes": {
+          "13fc764936e039f5139076ebf093e65928b2ef3c3ebbb117352c72178cca2304": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-formula-1.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "13fc764936e039f5139076ebf093e65928b2ef3c3ebbb117352c72178cca2304",
+        "bytes": 146415
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2026-10-08_2026-Topps-Chrome-Formula-1_Odds.pdf?v=1792065217",
+        "hashes": {
+          "a47ded9bf38dcc0ffbd0c3b6f3f0e21a625af1061171f04db4ff1a0cde223001": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-formula-1.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "a47ded9bf38dcc0ffbd0c3b6f3f0e21a625af1061171f04db4ff1a0cde223001",
+        "bytes": 48434
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Finest_Checklist_042326.pdf?v=1776986521",
+        "hashes": {
+          "d5273ca214cfc2b4e864041fa20f0a67200d5f05b31489e30c9d7df31c9ff82e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-finest-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "d5273ca214cfc2b4e864041fa20f0a67200d5f05b31489e30c9d7df31c9ff82e",
+        "bytes": 349211
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0871/8916/0120/files/2025_Topps_Finest_Football_Odds.pdf?v=1782311781",
+        "hashes": {
+          "15e0b719e4c67c5d2b7b0844ad8492afe6cf7f59c300214d986ccb0fe118507d": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-finest-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "15e0b719e4c67c5d2b7b0844ad8492afe6cf7f59c300214d986ccb0fe118507d",
+        "bytes": 194642
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69a20059d32ea88b8fd5c956_2025_Leaf_Optichrome_Baseball_CL_Final.xlsx",
+        "hashes": {
+          "bc85e7a4834c45bfe1503eaa4dc307599b3f28d76ecaa27a59990f60f2072c56": 1
+        },
+        "files": [
+          "data/imports/leaf-2025-leaf-optichrome-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "bc85e7a4834c45bfe1503eaa4dc307599b3f28d76ecaa27a59990f60f2072c56",
+        "bytes": 533841
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_x_Jennie_Checklist.pdf?v=1787173303",
+        "hashes": {
+          "2c05e7b1f58fcd362b8aa6bed5e3ba9f0da113fb14616db940281d1f4a0a4d5a": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-x-jennie.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "2c05e7b1f58fcd362b8aa6bed5e3ba9f0da113fb14616db940281d1f4a0a4d5a",
+        "bytes": 46976
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_x_Jennie.pdf?v=1790191321",
+        "hashes": {
+          "768dbe3f041fc8a40a0acaf1a8e18b19662a6948d729b2f0bef3003a5c9709b0": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-x-jennie.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "768dbe3f041fc8a40a0acaf1a8e18b19662a6948d729b2f0bef3003a5c9709b0",
+        "bytes": 188303
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6984fedfe685edaaade3ae25_2026_Leaf_Presidents%27_Day_CL_Final.xlsx",
+        "hashes": {
+          "ff6861efad3e9499bd20c7075f7304dab237470d9463bf5641e4c37426e25f0b": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-presidents-day.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "ff6861efad3e9499bd20c7075f7304dab237470d9463bf5641e4c37426e25f0b",
+        "bytes": 421266
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0B4o0z_hTQGh3UEgPIrCWSjC7HN8rOSq1XiHIIyDQ65ZNNHA0SHLUA0VopSZ4Xw/pub?output=csv",
+        "hashes": {
+          "1fbb518828cfa6e37a1d968469353baefc4d4eb300273e485ba1271d26bf8d97": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-decadence-multi-sport.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1fbb518828cfa6e37a1d968469353baefc4d4eb300273e485ba1271d26bf8d97",
+        "bytes": 33760
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Inception_Football_CheckList_26TIFB_VERSION.pdf?v=1790715925",
+        "hashes": {
+          "e913ed2cc504976f4ec1b3e58165f74cc15547d60e90544c95f79e0f4c8746fa": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-inception-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e913ed2cc504976f4ec1b3e58165f74cc15547d60e90544c95f79e0f4c8746fa",
+        "bytes": 249710
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQXrbvyzpcPegcCJxBa2B8vEjAFmEH6jNNkZmnqP_y60JaVwTxVkv6ytuRppMW-uA/pub?output=csv",
+        "hashes": {
+          "804015ed1e855f3c4d4da862c4f7c76dd938fdacea89f739d5d6dd4e93585219": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-pro-set-metal-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "804015ed1e855f3c4d4da862c4f7c76dd938fdacea89f739d5d6dd4e93585219",
+        "bytes": 758396
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Marvel_Studios_Chrome_Sapphire_Checklist.pdf?v=1767909774",
+        "hashes": {
+          "0257428beba5d266c58988ecd8988c41e016adb0407d9b28001161ac2868ed40": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-marvel-studios-chrome-sapphire.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "0257428beba5d266c58988ecd8988c41e016adb0407d9b28001161ac2868ed40",
+        "bytes": 266379
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Marvel_Studios_Chrome_Sapphire_Odds.pdf?v=1767909773",
+        "hashes": {
+          "ae83a094cdfffa661aa750e5c8757b78a69fdf5627cf05e067b53983754c1764": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-marvel-studios-chrome-sapphire.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "ae83a094cdfffa661aa750e5c8757b78a69fdf5627cf05e067b53983754c1764",
+        "bytes": 32307
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJp-TZXpAWT85GKYPE_KRDPkz7JIpLlU_xRpq1BJXPjqrWj_V5DpG7PaUakuFvCQ/pub?output=csv",
+        "hashes": {
+          "1e9d4dad125df0112e9c5d02cdf1f50467c4514d1d7532a2d33d425154907b36": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-seasons-in-the-sun-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1e9d4dad125df0112e9c5d02cdf1f50467c4514d1d7532a2d33d425154907b36",
+        "bytes": 77727
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_Sapphire_Checklist.pdf?v=1785177723",
+        "hashes": {
+          "8565d125fc26b766d7517874a3a41caf7fb187a0163b557f89d98fa2fb90d25a": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "8565d125fc26b766d7517874a3a41caf7fb187a0163b557f89d98fa2fb90d25a",
+        "bytes": 94021
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Marvel_Comics_Chrome_Odds_517c8f23-9e04-4c43-aeaf-f9bd9c4ee70b.pdf?v=1785939128",
+        "hashes": {
+          "c8d2ca31f7367f5fe377e60f2eb9270a99388b63e3e9c3552cd646fc88f44956": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "c8d2ca31f7367f5fe377e60f2eb9270a99388b63e3e9c3552cd646fc88f44956",
+        "bytes": 180116
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9AsMbzjcH2SOEYMaOOy0IHz6tclQ5KltUYu1hvsjQOMwS3evglFnQQlkqSBsD9g/pub?output=csv",
+        "hashes": {
+          "370aa6a188bde5f449469285c892dd04509f3a805de24fb49074c8f9cece9240": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-bonus-pack.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "370aa6a188bde5f449469285c892dd04509f3a805de24fb49074c8f9cece9240",
+        "bytes": 22468
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Mars_Attacks_Xmas_24MARS_CHECKLIST_FINAL.pdf?v=1788874979",
+        "hashes": {
+          "4943af9e6048a54cf6cf3cd88a6477b8b6010c8b070e4cf8e67a61ba4a6e5e6a": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-mars-attacks-christmas.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "4943af9e6048a54cf6cf3cd88a6477b8b6010c8b070e4cf8e67a61ba4a6e5e6a",
+        "bytes": 103487
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/24MARS_-_2026_Mars_Attacks_Xmas_ODDS_FINAL.pdf?v=1791218758",
+        "hashes": {
+          "b4414d308d538eafd1e69c40e28d91e10f76a56713f8e7a53ca938cd7f0bc18e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-mars-attacks-christmas.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b4414d308d538eafd1e69c40e28d91e10f76a56713f8e7a53ca938cd7f0bc18e",
+        "bytes": 64707
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSeG6Jhwo2or9uMP60ZibeoJXp2Iq1datwI2U_7r_pvBRtbrP1SYwoQNJdcW0LTXg/pub?output=csv",
+        "hashes": {
+          "3cf8048844f753a1872768879d9f43892660352b24556f026dade6dc6d20a15f": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-slideshow.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "3cf8048844f753a1872768879d9f43892660352b24556f026dade6dc6d20a15f",
+        "bytes": 50797
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25RUFC_2025_Topps_Royalty_UFC.pdf?v=1770129272",
+        "hashes": {
+          "c0dea275922e8d932d5a5de7010a3ad68ad0859e191c060e0bac328baadd2d84": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-royalty-ufc.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "c0dea275922e8d932d5a5de7010a3ad68ad0859e191c060e0bac328baadd2d84",
+        "bytes": 277188
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Mega_Box_Checklist_1.pdf?v=1786458909",
+        "hashes": {
+          "bf23ee12196c0190c0868da37e300757e7fd3aac098b7f62e01b0fcdabd285c6": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-bowman-chrome-baseball-mega-box.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "bf23ee12196c0190c0868da37e300757e7fd3aac098b7f62e01b0fcdabd285c6",
+        "bytes": 83025
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6994eee350006bd4e98d39f5_2026_Leaf_Metal_St._Patrick%27s_Day_CL_F.xlsx",
+        "hashes": {
+          "73a0c3bc5ebf0803b3952c549127c48ddde989973519d52be81a1a07765b982f": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-st-patrick-s-day.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "73a0c3bc5ebf0803b3952c549127c48ddde989973519d52be81a1a07765b982f",
+        "bytes": 114279
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Update_Series_Baseball_Checklist_10-12.pdf?v=1791908509",
+        "hashes": {
+          "9fb7df274e22d2c1f4180c7eeb65cd02d274ec3f6bc74717058b5456f7892e41": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-update-series-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "9fb7df274e22d2c1f4180c7eeb65cd02d274ec3f6bc74717058b5456f7892e41",
+        "bytes": 365392
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Updates_Series_Odds.pdf?v=1790610141",
+        "hashes": {
+          "7b360b3df10d29698488d3e8aea5713e0e91aefe2e0491a2b039ad7183ab61b2": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-update-series-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "7b360b3df10d29698488d3e8aea5713e0e91aefe2e0491a2b039ad7183ab61b2",
+        "bytes": 234597
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26UWWE_-_2026_Topps_Universe_WWE_Checklist_8700b54a-0ec9-4ab7-87b2-47b4e40862a0.xls?v=1786542209",
+        "hashes": {
+          "1ed54faa451de91248f10c8e75d84bd5a3205b8725782d3fe8ff4f0871cecade": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-universe-wwe.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1ed54faa451de91248f10c8e75d84bd5a3205b8725782d3fe8ff4f0871cecade",
+        "bytes": 97792
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_Odds.pdf?v=1789484084",
+        "hashes": {
+          "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-universe-wwe.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
+        "bytes": 219088
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQZlDE-w0G2ApDJHIG2K2u9_WfCNi6qwsdAQ66yefGwPN84lPO5TbNJUFjVmVWn0w/pub?output=csv",
+        "hashes": {
+          "808c79a6c973712577f33aad7ecc079ba291307780f5a82fa73116229190dc9d": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-golden-set-tennis.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "808c79a6c973712577f33aad7ecc079ba291307780f5a82fa73116229190dc9d",
+        "bytes": 114118
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25TDBB.pdf?v=1779119079",
+        "hashes": {
+          "879fe52a1e68f74db26bf8086845e4b4fc281ee25f8b9d0e6b7d6a5ba3ea00a8": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-dynasty-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "879fe52a1e68f74db26bf8086845e4b4fc281ee25f8b9d0e6b7d6a5ba3ea00a8",
+        "bytes": 160446
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Dynasty_Baseball_Odds.pdf?v=1783625122",
+        "hashes": {
+          "78853052b6e2e3251c8bc4443d6e189b54f73ec165b909731ab8c7ab3cd01c3f": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-dynasty-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "78853052b6e2e3251c8bc4443d6e189b54f73ec165b909731ab8c7ab3cd01c3f",
+        "bytes": 191068
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-woytWziDCo7bXitvV4BwBlCPREIZPvWjpFfDR9ls0FdcPi465mjMeb-duSLWqw/pub?output=csv",
+        "hashes": {
+          "cabedf4504e636e27bf14ccd667d752e414748e1e2e356b69c55b4f54eda084f": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-autograph-collection-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "cabedf4504e636e27bf14ccd667d752e414748e1e2e356b69c55b4f54eda084f",
+        "bytes": 407627
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26NBLC_Checklist_Final_29be8f17-a9e2-44ce-801e-686536bd8b42.pdf?v=1787972617",
+        "hashes": {
+          "42f587cfbdfcf24ec467d69c6108b299ea7f0fbb2a2fb10bf59459b020476695": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-nbl-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "42f587cfbdfcf24ec467d69c6108b299ea7f0fbb2a2fb10bf59459b020476695",
+        "bytes": 157987
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/NBL_ODDS.pdf?v=1787972525",
+        "hashes": {
+          "3787336a9e0e4f44eab4b2704448f2d15583d7abd984ee964c3be47a71968b8c": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-nbl-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "3787336a9e0e4f44eab4b2704448f2d15583d7abd984ee964c3be47a71968b8c",
+        "bytes": 408473
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26SWCM3.pdf?v=1790701893",
+        "hashes": {
+          "294447a54d3b541b73682dfb6044692e4cd8f50fda290969e23b7f9ceb248edc": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-star-wars-chrome.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "294447a54d3b541b73682dfb6044692e4cd8f50fda290969e23b7f9ceb248edc",
+        "bytes": 1351297
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-29_2026-Topps-Chrome-Star-Wars_Odds-2.pdf?v=1790777195",
+        "hashes": {
+          "3304c072fa00eb23ba6e034d7f047c0be62ca894a99f879e0888741cb7ca9e25": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-star-wars-chrome.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "3304c072fa00eb23ba6e034d7f047c0be62ca894a99f879e0888741cb7ca9e25",
+        "bytes": 147678
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQomcv5GDYApZI5HCWu99vpYevAFxOnjblfETbhR50I5Wv7JgKAAROuiGeT5VTUZQ/pub?output=csv",
+        "hashes": {
+          "bfed6f64e179005d8612b42eac10c1c51b4d9367fc06fbbd0ccb75ee2e1cfe39": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-ring-kings.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "bfed6f64e179005d8612b42eac10c1c51b4d9367fc06fbbd0ccb75ee2e1cfe39",
+        "bytes": 108035
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_2_Baseball_Checklist_5-11.pdf?v=1778521905",
+        "hashes": {
+          "051d3f6885bd85feccdb9a451983d4a2467101426d8851c6bbca177ab9cc5560": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-series-2-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "051d3f6885bd85feccdb9a451983d4a2467101426d8851c6bbca177ab9cc5560",
+        "bytes": 314305
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Series_2_Odds.pdf?v=1781724617",
+        "hashes": {
+          "d3f924a9eb9835488ff68e28645a7c1baf7814114f2b14b7823fdaf880e18f6e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-series-2-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "d3f924a9eb9835488ff68e28645a7c1baf7814114f2b14b7823fdaf880e18f6e",
+        "bytes": 290565
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6jUWYUq_aVYVuABpsGxWdyMkIARx6Ki9m4Bj4aXjvuIals9N8YtOXvm6SrxEhfA/pub?output=csv",
+        "hashes": {
+          "f7ba374090b5f2dfd6c2fdf997a930964fa73adf88edd9ebcc6c56844b4a08bb": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-vivid-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "f7ba374090b5f2dfd6c2fdf997a930964fa73adf88edd9ebcc6c56844b4a08bb",
+        "bytes": 364876
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tribute_Baseball_Checklist_1.pdf?v=1782740369",
+        "hashes": {
+          "9b2d215dd334f868e7b0ae7f4bb0c70e511ac4674a652346f8f9ef216a1a735b": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-tribute-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "9b2d215dd334f868e7b0ae7f4bb0c70e511ac4674a652346f8f9ef216a1a735b",
+        "bytes": 106108
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tirbute_Baseball_Odds.pdf?v=1785343913",
+        "hashes": {
+          "e7e9db3e81f8abab52d23beba1a343da56532f87d57325fcef1f47efda620055": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-tribute-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e7e9db3e81f8abab52d23beba1a343da56532f87d57325fcef1f47efda620055",
+        "bytes": 197205
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_U_Best_FB_Checklist.pdf?v=1791206274",
+        "hashes": {
+          "d3f571605df35fcdf175765ded7e0e2c988324f1df58e73c23e0f5ec745db10d": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-bowman-u-best-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "d3f571605df35fcdf175765ded7e0e2c988324f1df58e73c23e0f5ec745db10d",
+        "bytes": 183345
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Universe_WWE_-_CheckList_25UWWE.pdf?v=1771878230",
+        "hashes": {
+          "ea4d0c9c0060fefd3ba351abe92e7006d3c2bcc7cd4dc138bebb04575a319d12": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-universe-wwe.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "ea4d0c9c0060fefd3ba351abe92e7006d3c2bcc7cd4dc138bebb04575a319d12",
+        "bytes": 322974
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26T1BB.pdf?v=1779804529",
+        "hashes": {
+          "e8faa4fb604cffa20858f1ef206cd0d93a36a6e5ff2c4e4d5ff38744c9aee6e6": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-tier-one-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e8faa4fb604cffa20858f1ef206cd0d93a36a6e5ff2c4e4d5ff38744c9aee6e6",
+        "bytes": 687012
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Tier_One_Baseball_Odds.pdf?v=1783625109",
+        "hashes": {
+          "b8db55e7a37e174f57b8ec0a014c87d43287b3dae17e8cf4a096aa36575200ab": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-tier-one-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b8db55e7a37e174f57b8ec0a014c87d43287b3dae17e8cf4a096aa36575200ab",
+        "bytes": 202731
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792077449",
+        "hashes": {
+          "a7991e92ea751031ec29b51c27d7d2156fe09db1b13ceb25d3c8644c50ec35d5": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "a7991e92ea751031ec29b51c27d7d2156fe09db1b13ceb25d3c8644c50ec35d5",
+        "bytes": 450239
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_RTOD_Autograph_Collectors_Box_Subject_List.pdf?v=1773955084",
+        "hashes": {
+          "b16831c45302272f26b2e8bf0b94752cac94e28403eb355745f99468c562b03c": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-rtod-topps-now-autograph-collectors-box.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b16831c45302272f26b2e8bf0b94752cac94e28403eb355745f99468c562b03c",
+        "bytes": 67567
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_2026_TOPPS_CHROME_UFC_V2.xls?v=1779204573",
+        "hashes": {
+          "1e31d4cfdefd9b2d97238119754bfc42e4f50003db5030353620e96b6d7a77a4": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-ufc.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1e31d4cfdefd9b2d97238119754bfc42e4f50003db5030353620e96b6d7a77a4",
+        "bytes": 86016
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_UFC_Chrome_Odds.pdf?v=1779134050",
+        "hashes": {
+          "31f41eda8fa7c110e4ff2b5a0e9c668187fe5911a4c186ccba9121a409de8994": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-ufc.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "31f41eda8fa7c110e4ff2b5a0e9c668187fe5911a4c186ccba9121a409de8994",
+        "bytes": 204657
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSuPkUT2uAJbNuJaeNiQPq9EC-Eq0LVQsJq10T9ZU0RwX3fom19uo3xmaVyG921FQ/pub?output=csv",
+        "hashes": {
+          "6df8515490003e334ee9998560f5a50bd8b2aa3d6c712a55162722ea87fa72a7": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metallic-imaginations-series-3.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6df8515490003e334ee9998560f5a50bd8b2aa3d6c712a55162722ea87fa72a7",
+        "bytes": 12371
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWs_Checklist.pdf?v=1784208798",
+        "hashes": {
+          "067c54587e3d2c21631dcb3d2178106b62acd0ae9f93c5de5da94c722468a35b": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-mlb-x-kaws.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "067c54587e3d2c21631dcb3d2178106b62acd0ae9f93c5de5da94c722468a35b",
+        "bytes": 43466
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWS_Odds.pdf?v=1784559267",
+        "hashes": {
+          "7d53f1fa1535a812520a3a4611e57da0661e3d2e26536c703d0cf3802ded2ef1": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-mlb-x-kaws.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "7d53f1fa1535a812520a3a4611e57da0661e3d2e26536c703d0cf3802ded2ef1",
+        "bytes": 545741
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Museum_Collection_Baseball_Checklist.pdf?v=1770050312",
+        "hashes": {
+          "8f3db4ac0660d7a58d5036374afefd53233976a3b15c7d159dabf7bdf8fd67f1": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-museum-collection-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "8f3db4ac0660d7a58d5036374afefd53233976a3b15c7d159dabf7bdf8fd67f1",
+        "bytes": 152576
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Museum_Collection_Baseball_Odds.pdf?v=1770050312",
+        "hashes": {
+          "b80561158762b88b2d45de29bef65b6d5db0ed7d42d0c21621e33805e246619f": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-museum-collection-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b80561158762b88b2d45de29bef65b6d5db0ed7d42d0c21621e33805e246619f",
+        "bytes": 188458
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Now_MLB_ASG_Set_Checklist.pdf?v=1787973837",
+        "hashes": {
+          "646cf0118660be5a44de3afb0392d4e7a09a14e43620689f5115662e1992be41": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-mlb-topps-now-all-star-game-set.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "646cf0118660be5a44de3afb0392d4e7a09a14e43620689f5115662e1992be41",
+        "bytes": 32258
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJVhFq_4dY97Uh1Ru2YQ1bLhyGRj5Gixh9KGJqLb6jAM6lKHrBLvDOfkqsvEbqJw/pub?output=csv",
+        "hashes": {
+          "9ca343b8bf56823ec68bf035e2312988a38f1f1e4eee50eb7fc6518e273a640c": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-anime-nation-ova.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "9ca343b8bf56823ec68bf035e2312988a38f1f1e4eee50eb7fc6518e273a640c",
+        "bytes": 1689
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Triumphant_Tennis_Checklist.pdf?v=1788367130",
+        "hashes": {
+          "76ff17addebf8aa40b2bf06be602f824c0be5ceb1b7ad6d3bd63669e83cfd26b": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-triumphant-tennis.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "76ff17addebf8aa40b2bf06be602f824c0be5ceb1b7ad6d3bd63669e83cfd26b",
+        "bytes": 87733
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Triumphant_Tennis_Odds.pdf?v=1789673527",
+        "hashes": {
+          "01e4c0fb69cf284fad61a56bd44edd081a33738ccd340ecb9c3e1e04852aca2d": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-triumphant-tennis.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "01e4c0fb69cf284fad61a56bd44edd081a33738ccd340ecb9c3e1e04852aca2d",
+        "bytes": 193153
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Baseball_Checklist_Final_7.22.pdf?v=1785169183",
+        "hashes": {
+          "55bf1f46983c20bf23e8331c6da87e627020ddf02296ecf989f07afe98d17f10": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "55bf1f46983c20bf23e8331c6da87e627020ddf02296ecf989f07afe98d17f10",
+        "bytes": 199186
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Baseball_Odds.pdf?v=1784729528",
+        "hashes": {
+          "5d8ef198e8c34179b2641ea2a49718f07e17198bd40bd33f06e4af67f51bcf49": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "5d8ef198e8c34179b2641ea2a49718f07e17198bd40bd33f06e4af67f51bcf49",
+        "bytes": 230465
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Museum_Baseball_Checklist.pdf?v=1788204579",
+        "hashes": {
+          "0f2cdb7496ae528747f572e576400e9d9364f61549fc7677cfc74b2d8acbe196": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-museum-collection-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "0f2cdb7496ae528747f572e576400e9d9364f61549fc7677cfc74b2d8acbe196",
+        "bytes": 162932
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Museum_Baseball_Odds.pdf?v=1789484095",
+        "hashes": {
+          "b3112527140a36a8da58f84e73e370432dd9e3430353cd318fb1195a9d86d177": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-museum-collection-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b3112527140a36a8da58f84e73e370432dd9e3430353cd318fb1195a9d86d177",
+        "bytes": 202538
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_Draft_Baseball_Checklist_-_Sapphire_Edition_1.pdf?v=1770914875",
+        "hashes": {
+          "9697eb5e720454a4927d5cf911e12aeda79bf1a40e73f80146ffc0cf59544eb5": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-bowman-draft-baseball-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "9697eb5e720454a4927d5cf911e12aeda79bf1a40e73f80146ffc0cf59544eb5",
+        "bytes": 65266
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_Draft_Baseball_Odds.pdf?v=1770925127",
+        "hashes": {
+          "7edc272048de72dc8e6b3f3a09e0b812dd74e1a4958cb9f24ca2e8841e4c36b3": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-bowman-draft-baseball-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "7edc272048de72dc8e6b3f3a09e0b812dd74e1a4958cb9f24ca2e8841e4c36b3",
+        "bytes": 194620
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26BUBB_VERSION2.pdf?v=1776781082",
+        "hashes": {
+          "b50a72d4e164388cf0da7decbf535607cdc90bfb6487f668c94bf058665db266": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-bowman-university-best-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b50a72d4e164388cf0da7decbf535607cdc90bfb6487f668c94bf058665db266",
+        "bytes": 90042
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25_26_Bowman_U_Best_Basketball_Odds.pdf?v=1778857649",
+        "hashes": {
+          "85c6cc5964056973f000dab43d996dd5dfd93e62c0a9dd3cc7fc1f1bd28522d2": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-bowman-university-best-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "85c6cc5964056973f000dab43d996dd5dfd93e62c0a9dd3cc7fc1f1bd28522d2",
+        "bytes": 188228
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQqM5EvHr-A8ouZwQer17W2_SveCfVB51gvWtzjCHRA-Hdl0hUaImCd8QqqaIZm9A/pub?output=csv",
+        "hashes": {
+          "abaa21cb4ae4e81a2a9c7edf55d4822e25d9610055ac521ab6665abc29ba80ad": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "abaa21cb4ae4e81a2a9c7edf55d4822e25d9610055ac521ab6665abc29ba80ad",
+        "bytes": 50845
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Copy_of_2026-27_Topps_Flagship_Basketball_Checklist_10-9-26.xls_-_Compatibility_Mode.pdf?v=1791570579",
+        "hashes": {
+          "12ebf08ff5bb7abdbe1aedbd8cc93778881fd7fe7714e8d1cb88d232263a0e29": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-27-topps-flagship-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "12ebf08ff5bb7abdbe1aedbd8cc93778881fd7fe7714e8d1cb88d232263a0e29",
+        "bytes": 487382
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69989d19a6f67ee8b7f8396c_2025-26_Leaf_Boozer_Twins_CL_Working.xlsx",
+        "hashes": {
+          "6445ed240349769df80ca398b26ce96ebb9cf0ba407d1329e2e7e75377a8d1c7": 1
+        },
+        "files": [
+          "data/imports/leaf-2025-26-leaf-boozer-twins.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6445ed240349769df80ca398b26ce96ebb9cf0ba407d1329e2e7e75377a8d1c7",
+        "bytes": 11537
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+        "hashes": {
+          "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-flagship-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+        "bytes": 297278
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Football_Odds.pdf?v=1789491381",
+        "hashes": {
+          "0c59cf1159b88e59a12bea8c7a8982d50f3f154156e9312d302addab6e378925": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-flagship-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "0c59cf1159b88e59a12bea8c7a8982d50f3f154156e9312d302addab6e378925",
+        "bytes": 409790
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_VeeFriends_Checklist.pdf?v=1778506125",
+        "hashes": {
+          "f7c2308d337b009da1f540943b59c2e000662aaaff79a9d378bba4a99f11a876": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-veefriends.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "f7c2308d337b009da1f540943b59c2e000662aaaff79a9d378bba4a99f11a876",
+        "bytes": 137260
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_VeeFriends_Odds.pdf?v=1778160123",
+        "hashes": {
+          "76def45edfeeb297574e9296a4e5921cd041b3fecc46a6e32277972b6c471523": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-veefriends.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "76def45edfeeb297574e9296a4e5921cd041b3fecc46a6e32277972b6c471523",
+        "bytes": 141551
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTTkbp8meeuSot2JDY2scCHj1WKIzapnSPMI1znO2dZvNbmRufR-K_aSqJ5p4EmvQ/pub?output=csv",
+        "hashes": {
+          "de03452672fe7cc073839eeceb291d07e819f36cd5920f6d18a8a92715216147": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-art-of-sport.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "de03452672fe7cc073839eeceb291d07e819f36cd5920f6d18a8a92715216147",
+        "bytes": 50363
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_1_Baseball_Checklist_2-23.pdf?v=1772557808",
+        "hashes": {
+          "03e93e14977de6ca253f27e1d94f36c754033b2c6c03beaa15871890513f07a1": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-series-1-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "03e93e14977de6ca253f27e1d94f36c754033b2c6c03beaa15871890513f07a1",
+        "bytes": 307695
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Series_1_Odds.pdf?v=1771951813",
+        "hashes": {
+          "e2be54403aed5a5404b6434986278f798d1ee178fca3b1e4da5c3821d1e933f8": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-series-1-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e2be54403aed5a5404b6434986278f798d1ee178fca3b1e4da5c3821d1e933f8",
+        "bytes": 316957
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Final_CheckList_26CUBK.pdf?v=1783360479",
+        "hashes": {
+          "7010b390246c9297ab213abf22fdef2408ce76d7d54b21966d0c63ba8e9e4fc2": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-chrome-updates-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "7010b390246c9297ab213abf22fdef2408ce76d7d54b21966d0c63ba8e9e4fc2",
+        "bytes": 297352
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Updates_Basketball_odds.pdf?v=1786020446",
+        "hashes": {
+          "b4f08a7b42a432d762d2bf9c8f34d252a47b61477c84e66549649d70158fb817": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-chrome-updates-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b4f08a7b42a432d762d2bf9c8f34d252a47b61477c84e66549649d70158fb817",
+        "bytes": 242261
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26SWCGCHECKLISTUPDATE.pdf?v=1787977075",
+        "hashes": {
+          "5f1188e5b9569d16b86616b8d61771e1cfbeb5b503743dd99df9304db5585e3e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-star-wars-chrome-galaxy.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "5f1188e5b9569d16b86616b8d61771e1cfbeb5b503743dd99df9304db5585e3e",
+        "bytes": 218262
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Stars_Wars_Chrome_Galaxy.pdf?v=1787977079",
+        "hashes": {
+          "81c612e3b2ba9164c990abdf2ee91d7fa21661c3253aba34d6054be6b996b7ea": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-star-wars-chrome-galaxy.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "81c612e3b2ba9164c990abdf2ee91d7fa21661c3253aba34d6054be6b996b7ea",
+        "bytes": 198668
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8d0yWlmJt4GS8MfjYzZBg8daNGaRydeQskO9DSDXjKQ1RFje1C-DJtGPoZQl-Zg/pub?output=csv",
+        "hashes": {
+          "e11fe63e34c23e2a7ef57bf07ac036bf47e42d95fe2e94ae5c68fa3cda26688c": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-m-lange.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e11fe63e34c23e2a7ef57bf07ac036bf47e42d95fe2e94ae5c68fa3cda26688c",
+        "bytes": 128747
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTKZk6qr4d2cgAL0GK0Apn7kA1IMosSrEVr0UHljB_wb-6VehBjoJ018Jd-IAZUdg/pub?output=csv",
+        "hashes": {
+          "cd7a9d20269b4f7e7629ba8cd817fc856cfadfeddc7dc4b23e6be4d736adef8f": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-magnificence-multi-sport.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "cd7a9d20269b4f7e7629ba8cd817fc856cfadfeddc7dc4b23e6be4d736adef8f",
+        "bytes": 48891
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTm_eEpP8THuhfcnblo4a9RK1M-L4yyJEUWr1NHqD9gXHFtsiqmqolxOD2S3IoeNw/pub?output=csv",
+        "hashes": {
+          "de1a319ff7261f53088618134d413e7667afad170957db4e4cf6366430656e57": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-women-of-sport.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "de1a319ff7261f53088618134d413e7667afad170957db4e4cf6366430656e57",
+        "bytes": 589530
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CHECKLIST_2025EXALTEDWWE.pdf?v=1774986961",
+        "hashes": {
+          "310c2090d0cc60153364431ea53103e54118b1768e410217a247f5da994f184b": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-exalted-wwe.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "310c2090d0cc60153364431ea53103e54118b1768e410217a247f5da994f184b",
+        "bytes": 229012
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_WWE_Exalted_Odds.pdf?v=1775050238",
+        "hashes": {
+          "f719cd18cf613cbda82a03738cedf60988fb493d12ebe4261548c7cd99d849ca": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-exalted-wwe.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "f719cd18cf613cbda82a03738cedf60988fb493d12ebe4261548c7cd99d849ca",
+        "bytes": 187054
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25TCTN_SAPPHIRE_FINAL_SUBJECT_TO_CHANGE.pdf?v=1774023689",
+        "hashes": {
+          "40f9ce3fba7a14be3eb45622ded8d35e18be616a2a0796ace233c36a168ebd3e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-tennis-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "40f9ce3fba7a14be3eb45622ded8d35e18be616a2a0796ace233c36a168ebd3e",
+        "bytes": 69713
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFtTI1rwMDbwmCXmdxMIJ3POkagvzEkowkTfDcdNYTXPVOjejaZSxO1pRROLcCAg/pub?output=csv",
+        "hashes": {
+          "479f289ab541c2a6ff1de857a3643700666bc6e7883e115ac28031ded71f0ba1": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-glory-of-the-game-soccer.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "479f289ab541c2a6ff1de857a3643700666bc6e7883e115ac28031ded71f0ba1",
+        "bytes": 94437
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Smugglers_Outpost_Checklist.pdf?v=1770909931",
+        "hashes": {
+          "6b73423d85bd1735f08b2a10db13833ec5646e48b2e1834a5cb7ca739f5724d6": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-star-wars-smugglers-outpost.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6b73423d85bd1735f08b2a10db13833ec5646e48b2e1834a5cb7ca739f5724d6",
+        "bytes": 315637
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Smugglers_Outpost_Odds.pdf?v=1770757598",
+        "hashes": {
+          "96a09d1649f79dff235af447ff10b0545d1a6cd33e823c355ddaa9b7f9da8f79": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-star-wars-smugglers-outpost.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "96a09d1649f79dff235af447ff10b0545d1a6cd33e823c355ddaa9b7f9da8f79",
+        "bytes": 108975
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25RWWE_f1866dc1-a96b-4573-9ba9-780a73093535.pdf?v=1777641349",
+        "hashes": {
+          "41e0b69b736673d7b0e692a6ba09ae7b7a1505136d0042b777432d49d44fc5e5": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-royalty-wwe.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "41e0b69b736673d7b0e692a6ba09ae7b7a1505136d0042b777432d49d44fc5e5",
+        "bytes": 91668
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_WWE_Royalty_Odds.pdf?v=1777649182",
+        "hashes": {
+          "cd5c1390520bae547a59e136999a086d6d32df5699f5cdb1cad88515129466ae": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-royalty-wwe.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "cd5c1390520bae547a59e136999a086d6d32df5699f5cdb1cad88515129466ae",
+        "bytes": 187154
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25MARV_Checklist_1.pdf?v=1785864090",
+        "hashes": {
+          "7f810561b8f3979d4188140ed9c603520cfbe7a6b43c3b3371f48e68032be66f": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-vault-marvel.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "7f810561b8f3979d4188140ed9c603520cfbe7a6b43c3b3371f48e68032be66f",
+        "bytes": 272742
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Marvel_Vault_Odds.pdf?v=1786546333",
+        "hashes": {
+          "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-vault-marvel.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1",
+        "bytes": 196215
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFRKuyzpftuTY9gFV02g47hsBlvewnn1KmFgjl0Z2xIG1CP6vcMIXTt6OxGjlCtw/pub?output=csv",
+        "hashes": {
+          "b972870eb31f0a5062a97a194fa2a3b5a141c529397b6e339630a6a24ce9e7d1": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-electrum-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b972870eb31f0a5062a97a194fa2a3b5a141c529397b6e339630a6a24ce9e7d1",
+        "bytes": 95811
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Stadium_Club_WWE_-_Checklist.pdf?v=1791221305",
+        "hashes": {
+          "e7fc883049de24ced4f271f75d432f49a4c3ac17155ab0ac12c0116c2940144d": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-stadium-club-wwe.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e7fc883049de24ced4f271f75d432f49a4c3ac17155ab0ac12c0116c2940144d",
+        "bytes": 376769
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Stadium_Club_WWE_Odds.pdf?v=1791212522",
+        "hashes": {
+          "714fdd3df3824ec6e2c175a6ab3ae867964e8d12d893a72369f59bb9fe8fb34f": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-stadium-club-wwe.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "714fdd3df3824ec6e2c175a6ab3ae867964e8d12d893a72369f59bb9fe8fb34f",
+        "bytes": 206141
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSPk3Mea2Qxs-DA1zmEBG0B97VyWIBOyFJRbIBkkAZeUOAOFTVAJ2OFgBFfj_izw/pub?output=csv",
+        "hashes": {
+          "2713ff3c982dea919b0829be8155827a61cb38f761eeabc1c134a69a2e57166c": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-baseball-nation.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "2713ff3c982dea919b0829be8155827a61cb38f761eeabc1c134a69a2e57166c",
+        "bytes": 361372
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/698ce978ba4ec33c73ec8882_2025_Leaf_In_The_Game_Used_Sports_CL_Final.xlsx",
+        "hashes": {
+          "d26a8f4de39064f40c485f1d8b209f43b4f369a37a8ada332a7e925453a75877": 1
+        },
+        "files": [
+          "data/imports/leaf-2025-leaf-in-the-game-used-sports.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "d26a8f4de39064f40c485f1d8b209f43b4f369a37a8ada332a7e925453a75877",
+        "bytes": 70549
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025_Topps_Chrome_F1_Sapphire_Edition_Checklist.pdf?v=1770631422",
+        "hashes": {
+          "ab4a63032c53738e9ccd9bb7e16168694c26a6ebc19e9427dc0afcdc723eb068": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-formula-1-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "ab4a63032c53738e9ccd9bb7e16168694c26a6ebc19e9427dc0afcdc723eb068",
+        "bytes": 244173
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Topps_Chrome_F1_2025_Odds_8bbac9c4-bcdd-418b-9001-bfe3218c8827.pdf?v=1770631422",
+        "hashes": {
+          "decac0f134a90d3f86a2705ed9b6402a64e70450ba3fd4d078651b1576e00a7e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-formula-1-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "decac0f134a90d3f86a2705ed9b6402a64e70450ba3fd4d078651b1576e00a7e",
+        "bytes": 108671
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2B7hqmxD-OsDjvg8qtgE1zG01sLtyvmtUsaILa4xNkFnqZSSbDi-LQBEE5LlnSg/pub?output=csv",
+        "hashes": {
+          "6f0d33ab7d375e11c97d5bf587311b941103b10518af2d0f092bd040e512370a": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-city-of-champions.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6f0d33ab7d375e11c97d5bf587311b941103b10518af2d0f092bd040e512370a",
+        "bytes": 82035
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Checklist_--Subject_to_Change.pdf?v=1773777736",
+        "hashes": {
+          "d30287832de79c73120564d683451e3ebc4584aacad635489f1e8716f6622115": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-black-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "d30287832de79c73120564d683451e3ebc4584aacad635489f1e8716f6622115",
+        "bytes": 100734
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Odds.pdf?v=1777474592",
+        "hashes": {
+          "8481bf0d89a1163334ae4fffe99eb5a05fd3f16cabadd7475e08d18f6e25004b": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-black-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "8481bf0d89a1163334ae4fffe99eb5a05fd3f16cabadd7475e08d18f6e25004b",
+        "bytes": 183909
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBB_VERSION1.pdf?v=1775567097",
+        "hashes": {
+          "2d1a4889a10b192852d7f3aa3024ecbe35eb91f208e2e8e8b6311e7e9a39a012": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-definitive-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "2d1a4889a10b192852d7f3aa3024ecbe35eb91f208e2e8e8b6311e7e9a39a012",
+        "bytes": 171802
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Definitive_Baseball_Odds.pdf?v=1777493204",
+        "hashes": {
+          "1a5388e2907d1b23adb9cfbe06d91ab39ec9f1e65956b90a27473404a1f74300": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-definitive-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1a5388e2907d1b23adb9cfbe06d91ab39ec9f1e65956b90a27473404a1f74300",
+        "bytes": 186740
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Deadpool_Checklist.pdf?v=1772559492",
+        "hashes": {
+          "5c26ecb9ead43e47c41b9f56db10e832806892403debad1ef26026c37f91ea28": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-deadpool.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "5c26ecb9ead43e47c41b9f56db10e832806892403debad1ef26026c37f91ea28",
+        "bytes": 117969
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Deadpool_Odds.pdf?v=1773762703",
+        "hashes": {
+          "34f3a54e3511e741869307e9c9914b1b7ad0c4d72689595d64309855e491936c": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-deadpool.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "34f3a54e3511e741869307e9c9914b1b7ad0c4d72689595d64309855e491936c",
+        "bytes": 232610
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Brooklyn_Collection_Checklist.pdf?v=1772572812",
+        "hashes": {
+          "7fd3b7361592cdd8db083067a0c824eafec2f8c67b599e417f8686c078273721": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-brooklyn-collection.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "7fd3b7361592cdd8db083067a0c824eafec2f8c67b599e417f8686c078273721",
+        "bytes": 132826
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Brooklyn_Collection_Odds.pdf?v=1772572812",
+        "hashes": {
+          "53a0271edf2d2975add61422c41cf74f6ceb4c7168d03ceeb0f3cc770c916d42": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-brooklyn-collection.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "53a0271edf2d2975add61422c41cf74f6ceb4c7168d03ceeb0f3cc770c916d42",
+        "bytes": 96068
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_HobbyValueMega_Checklist.pdf?v=1780349890",
+        "hashes": {
+          "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-marvel-comics.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81",
+        "bytes": 248666
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Marvel_Comics_Chrome_Odds.pdf?v=1780349073",
+        "hashes": {
+          "57cafc210c579f3c5c57cf33f75464afee3d503f379637714fc3989ddcd17a85": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-marvel-comics.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "57cafc210c579f3c5c57cf33f75464afee3d503f379637714fc3989ddcd17a85",
+        "bytes": 201457
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Cosmic_Chrome_Checklist_051826.pdf?v=1779115984",
+        "hashes": {
+          "2536b9096c2bfca0a8f57ed46cda951d94d1536e5d31e47ebace4dba71beea84": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-cosmic-chrome-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "2536b9096c2bfca0a8f57ed46cda951d94d1536e5d31e47ebace4dba71beea84",
+        "bytes": 383937
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Cosmic_Chrome_Football_Odds.pdf?v=1781722934",
+        "hashes": {
+          "c21866224c88d0ade01c0e6ae04b48e82b1a3145f46813e10c4315e3d36caa8b": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-cosmic-chrome-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "c21866224c88d0ade01c0e6ae04b48e82b1a3145f46813e10c4315e3d36caa8b",
+        "bytes": 189351
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26GPK_Halloween_Checklist.pdf?v=1792021294",
+        "hashes": {
+          "4502f08f35c9acc68103620917f75e7c55227c12bb94a11af08947c095232831": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-garbage-pail-kids-halloween.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "4502f08f35c9acc68103620917f75e7c55227c12bb94a11af08947c095232831",
+        "bytes": 292728
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-10-14_GPK-Halloween-2026_Odds.pdf?v=1792071104",
+        "hashes": {
+          "7a9e1f5fea82af1909a52c65884e4a5cb76d148a48417580d1f6956fdbc61748": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-garbage-pail-kids-halloween.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "7a9e1f5fea82af1909a52c65884e4a5cb76d148a48417580d1f6956fdbc61748",
+        "bytes": 36536
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRRCxJ3abLkopf5cXiJ8ZbG0R4EATGmkegBfJGqCS36gAOBpCqKPu4t4IzILwL0qQ/pub?output=csv",
+        "hashes": {
+          "e276e66167b510527dca1bf52820cb8c2a0ebaa8fa3241a7784658831313a71e": 1
+        },
+        "files": [
+          "data/imports/leaf-2025-leaf-glory-of-the-game-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e276e66167b510527dca1bf52820cb8c2a0ebaa8fa3241a7784658831313a71e",
+        "bytes": 60222
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Finest_Premier_League_Checklist.pdf?v=1774359572",
+        "hashes": {
+          "c1f073945ae930fbed41f3c740f526908c52d586d79c54139c10aaeaf60b9592": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-topps-finest-premier-league-2026.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "c1f073945ae930fbed41f3c740f526908c52d586d79c54139c10aaeaf60b9592",
+        "bytes": 128878
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/PL_FINEST_ODDS_Official.pdf?v=1774262754",
+        "hashes": {
+          "348c236cd217734635e1c7a85356ecc925e9ec770dbfeffa0dea664283b89d5c": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-topps-finest-premier-league-2026.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "348c236cd217734635e1c7a85356ecc925e9ec770dbfeffa0dea664283b89d5c",
+        "bytes": 34391
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MARM_Checklist.pdf?v=1784816709",
+        "hashes": {
+          "d6e00bc1e01fe33821aad67d57d5e1bc896e4a40065abd0a16bf61494949b28e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-mint-marvel.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "d6e00bc1e01fe33821aad67d57d5e1bc896e4a40065abd0a16bf61494949b28e",
+        "bytes": 113732
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Mint_Marvel_Odds.pdf?v=1787676114",
+        "hashes": {
+          "a5b8beba22465ab2cbf802ef236a21df7ee97ccac0b8811f4375e59757bf552e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-mint-marvel.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "a5b8beba22465ab2cbf802ef236a21df7ee97ccac0b8811f4375e59757bf552e",
+        "bytes": 196708
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Chrome_MLS_2025_Checklist.pdf?v=1787962193",
+        "hashes": {
+          "29c0267fcfa424bf98bb0567318dfe487d932c17282b53e020c595d28c7cda26": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-mls.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "29c0267fcfa424bf98bb0567318dfe487d932c17282b53e020c595d28c7cda26",
+        "bytes": 134173
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_MLS_Chrome_Odds.pdf?v=1787967049",
+        "hashes": {
+          "31a967fe90427c3c35e2eca4b392330a4f01bcad61d430fabf730889c6cd5d01": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-mls.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "31a967fe90427c3c35e2eca4b392330a4f01bcad61d430fabf730889c6cd5d01",
+        "bytes": 197665
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Disney_Neon_Checklist.pdf?v=1773149064",
+        "hashes": {
+          "89810bb1e3450d1f09a6f7d4771593c925d9ac7b8e0be2d57d0cc8d5600f9bc5": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-disney-neon.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "89810bb1e3450d1f09a6f7d4771593c925d9ac7b8e0be2d57d0cc8d5600f9bc5",
+        "bytes": 89815
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Disney_Neon_Odds.pdf?v=1773149064",
+        "hashes": {
+          "6bc692b68d34cf639fac05c43afa22e7f576620af819aa79e94bc35c3e19e902": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-disney-neon.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6bc692b68d34cf639fac05c43afa22e7f576620af819aa79e94bc35c3e19e902",
+        "bytes": 175277
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Stadium_Club_Baseball_Checklist.pdf?v=1769109095",
+        "hashes": {
+          "10719b2f1638e91dbf3489044ef5b500871fc9460381e680cf34ac467b6eae95": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-stadium-club-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "10719b2f1638e91dbf3489044ef5b500871fc9460381e680cf34ac467b6eae95",
+        "bytes": 92851
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Stadium_Club_Baseball_Odds.pdf?v=1769442573",
+        "hashes": {
+          "a5101be6c79a7276c918d88e44b6930041503f3dd777741534b1e63b196c4034": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-stadium-club-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "a5101be6c79a7276c918d88e44b6930041503f3dd777741534b1e63b196c4034",
+        "bytes": 188434
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Cactus_Jack_Basketball_Checklist.pdf?v=1777925174",
+        "hashes": {
+          "85441058b917bf023b733d8234a8aa4542cad12971f1ec75b1df643a5002887d": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-chrome-cactus-jack-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "85441058b917bf023b733d8234a8aa4542cad12971f1ec75b1df643a5002887d",
+        "bytes": 176689
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Cactus_Jack_Basketball_Odds.pdf?v=1777925174",
+        "hashes": {
+          "32d873f739be55dbab954fdf1ee26720ad21e9e98f76dde0978ddea9008dc9fa": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-chrome-cactus-jack-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "32d873f739be55dbab954fdf1ee26720ad21e9e98f76dde0978ddea9008dc9fa",
+        "bytes": 66723
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/ASG_MLS_26_Checklist_1.pdf?v=1787975005",
+        "hashes": {
+          "e1fe6d548fae18eff76be196af42efb4dd5993892ce079a70bcc61be81ba7c24": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-mls-topps-now-all-star-game-set.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e1fe6d548fae18eff76be196af42efb4dd5993892ce079a70bcc61be81ba7c24",
+        "bytes": 30690
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Holiday_Baseball_26THBW_-_Checklist.pdf?v=1789566977",
+        "hashes": {
+          "b1620c82da3e511fec6e000537d12ee0824ef51529f4e30fbc5427bc3c467f20": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-holiday-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b1620c82da3e511fec6e000537d12ee0824ef51529f4e30fbc5427bc3c467f20",
+        "bytes": 99444
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Samurai_Japan_Checklist_update_8.26_1.pdf?v=1787762012",
+        "hashes": {
+          "dc380e38333069ad72e3bb4f5a103f8cf01d33e87d98df457d6a5f0788aa4546": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "dc380e38333069ad72e3bb4f5a103f8cf01d33e87d98df457d6a5f0788aa4546",
+        "bytes": 129195
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-10-14_MLB-JAPAN-SAMURAI-2026_Odds_2_1.pdf?v=1792078823",
+        "hashes": {
+          "4acfa230435e2b8612f6e5ac58f0328586aba17dd126642c5ff8a03377b8551e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-baseball-team-samurai-japan-collection.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "4acfa230435e2b8612f6e5ac58f0328586aba17dd126642c5ff8a03377b8551e",
+        "bytes": 37697
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_Subject_to_Change_3ac890e7-2e2f-4550-89d8-59689322cd5c.pdf?v=1789050559",
+        "hashes": {
+          "e6f980058de10adee1ced6279e1d44c9ef0a2b59b07e0d6a75fc5caad3fb0754": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-topps-chrome-major-league-soccer-2026.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e6f980058de10adee1ced6279e1d44c9ef0a2b59b07e0d6a75fc5caad3fb0754",
+        "bytes": 288195
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_MLS_Chrome_Odds_bfbe76ad-f5f8-448d-8d8a-7a61ca01a257.pdf?v=1789050564",
+        "hashes": {
+          "b91685bb9b1ff4382c2d182414b80dd7ea0c1449a293382cebf03752fe179d62": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-topps-chrome-major-league-soccer-2026.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b91685bb9b1ff4382c2d182414b80dd7ea0c1449a293382cebf03752fe179d62",
+        "bytes": 203529
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025-26_Manchester_United_Collector_Tin_Checklist.pdf?v=1758044356",
+        "hashes": {
+          "148605e28436b5f664e81a2a5a3c247f52c3d2d1708d0e57ab5cdc8e891b046d": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-manchester-united-collector-tin.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "148605e28436b5f664e81a2a5a3c247f52c3d2d1708d0e57ab5cdc8e891b046d",
+        "bytes": 61101
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTnin4li3T3Y7RGdPVka9OY9VxD4XJy_Yx7bdo9gqK3V9FKng567CwGOGDT90uM-A/pub?output=csv",
+        "hashes": {
+          "1d1a001d8e78ce1610232448b760c1fd0ee77954a78ca5dec8b04482a138344b": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-ultimate-sports.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1d1a001d8e78ce1610232448b760c1fd0ee77954a78ca5dec8b04482a138344b",
+        "bytes": 47175
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_NBA_Topps_Now_All-Star_Game_Set_-_Checklist.pdf?v=1787961796",
+        "hashes": {
+          "ca862bb5956945cc2e9b0bdaee09b6f4809e7c1461082c4889fe3fd3d24ba34f": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-nba-topps-now-all-star-game-set.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "ca862bb5956945cc2e9b0bdaee09b6f4809e7c1461082c4889fe3fd3d24ba34f",
+        "bytes": 122930
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Dynamic_Duals_Baseball_Checklist.pdf?v=1781536739",
+        "hashes": {
+          "888f5143354f080e73c69f4fa30303de8924b7e10382a4d573b1805c1758ce3f": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-dynamic-duals-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "888f5143354f080e73c69f4fa30303de8924b7e10382a4d573b1805c1758ce3f",
+        "bytes": 65490
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Dynamic_Duals_Odds.pdf?v=1781536733",
+        "hashes": {
+          "3df67d572561b79f9104d4bd79c9f34f651186028889df601c6a439065765d01": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-dynamic-duals-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "3df67d572561b79f9104d4bd79c9f34f651186028889df601c6a439065765d01",
+        "bytes": 41066
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6VjuhDWueHyJFOLMK_hkUr6GDPn4ldiyeuAM9arPPhDaxIiy4u5kFMXQ9fQVkAQ/pub?output=csv",
+        "hashes": {
+          "46951eed4ee7fcbbdd6457fbfc8ef19d811747f454422b85b96fdd78f182d857": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-hockey.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "46951eed4ee7fcbbdd6457fbfc8ef19d811747f454422b85b96fdd78f182d857",
+        "bytes": 182551
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Checklist.pdf?v=1781789274",
+        "hashes": {
+          "1bbac417f95546b5cef88eba0694daca7cea5272f829878582061b8a8a83a6af": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-inception-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1bbac417f95546b5cef88eba0694daca7cea5272f829878582061b8a8a83a6af",
+        "bytes": 236513
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Odds.pdf?v=1783522877",
+        "hashes": {
+          "83fee7e2f00b750cac8c22a47c1da28a158cbc70150da921f59fcf60ada99d0c": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-inception-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "83fee7e2f00b750cac8c22a47c1da28a158cbc70150da921f59fcf60ada99d0c",
+        "bytes": 196859
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQX3uaKCTUMGIcrQU_3u8ajWh9s8lmmvOsnIryQbxkLswUmZMu8b-cUCTdSk7Armw/pub?output=csv",
+        "hashes": {
+          "b68fec30a8b716809f883b5ccc59bd8e9560b3680e724aaa373eb9567446b494": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-signature-series-sports.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b68fec30a8b716809f883b5ccc59bd8e9560b3680e724aaa373eb9567446b494",
+        "bytes": 458330
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Checklist.pdf?v=1774549583",
+        "hashes": {
+          "62528803b6b0c4f4f29adbba407c32adc4c8e7764e1198e917cea96b1b021734": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-cosmic-chrome-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "62528803b6b0c4f4f29adbba407c32adc4c8e7764e1198e917cea96b1b021734",
+        "bytes": 199294
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Odds.pdf?v=1774987789",
+        "hashes": {
+          "27deb6b2a8ce4896f5b2cbbfa39671429b6559c360fca05261562f5078940d9a": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-cosmic-chrome-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "27deb6b2a8ce4896f5b2cbbfa39671429b6559c360fca05261562f5078940d9a",
+        "bytes": 189705
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DSNV_VERSION4.pdf?v=1792089594",
+        "hashes": {
+          "9835a0cde6f0ec32a63aceb419f78d1e182ba63139a5db6b59d526e6ad1c6dcf": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-vault-disney.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "9835a0cde6f0ec32a63aceb419f78d1e182ba63139a5db6b59d526e6ad1c6dcf",
+        "bytes": 111299
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TCTN_-_2026_Topps_Chrome_Tennis_Checklist_V2.xls?v=1790700549",
+        "hashes": {
+          "fb1ed17c8c92c583c595862591c0a2501e066331553596ca38836a1441f41f1b": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-tennis.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "fb1ed17c8c92c583c595862591c0a2501e066331553596ca38836a1441f41f1b",
+        "bytes": 71168
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Tennis_Odds.pdf?v=1790602639",
+        "hashes": {
+          "c366d274e346721ec6259249d9e1e4b687e702f5b8e94d2c863c20291653d6eb": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-tennis.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "c366d274e346721ec6259249d9e1e4b687e702f5b8e94d2c863c20291653d6eb",
+        "bytes": 206354
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Checklist_1.pdf?v=1786458901",
+        "hashes": {
+          "3197399f57e3cb63d9d76aaa5a284d72725ca5ea16d0f8fc40acb7e75e19291b": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-bowman-chrome-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "3197399f57e3cb63d9d76aaa5a284d72725ca5ea16d0f8fc40acb7e75e19291b",
+        "bytes": 138695
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Odds.pdf?v=1791472292",
+        "hashes": {
+          "1b6a354462ed7f42c84a6f3ec06dea294667a09115d89fbb5b547d5c8cbd1eb4": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-bowman-chrome-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1b6a354462ed7f42c84a6f3ec06dea294667a09115d89fbb5b547d5c8cbd1eb4",
+        "bytes": 221330
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DNYC_Checklist.pdf?v=1779205893",
+        "hashes": {
+          "35b2f171d98e7f2829f91860cb1df9132833c3215a8850fae1ca20ea6748f57e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-disney.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "35b2f171d98e7f2829f91860cb1df9132833c3215a8850fae1ca20ea6748f57e",
+        "bytes": 189823
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Disney_Chrome_Odds_1.pdf?v=1781705214",
+        "hashes": {
+          "0b69662772fae339048241ee180400d828b8a0d514043cb370e5bf633ed0abfe": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-disney.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "0b69662772fae339048241ee180400d828b8a0d514043cb370e5bf633ed0abfe",
+        "bytes": 205713
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+        "hashes": {
+          "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-hopps-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+        "bytes": 471604
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Odds.pdf?v=1777298833",
+        "hashes": {
+          "453416fa10c8c1b2e17076e5d890c35bb5ccf88191024f84f88c5439d03eed1a": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-hopps-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "453416fa10c8c1b2e17076e5d890c35bb5ccf88191024f84f88c5439d03eed1a",
+        "bytes": 195480
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT26FUhJN1kZ7lFs9Yg475NQlDNsUV1p8Di55II3g6AkRvSJXsULMjFri812vU77A/pub?output=csv",
+        "hashes": {
+          "ff4da232b48ecb3e47b12195d01dc5ec13c8aeb9cff4df83f1997bf95d90aaf1": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-national-redemption.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "ff4da232b48ecb3e47b12195d01dc5ec13c8aeb9cff4df83f1997bf95d90aaf1",
+        "bytes": 44854
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Graphite_Tennis_Checklist_v2.pdf?v=1773948520",
+        "hashes": {
+          "6b68179a68be61e69702e02390cb8763ec3c35340f4d76deadfbe5910c212bfc": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-graphite-tennis.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6b68179a68be61e69702e02390cb8763ec3c35340f4d76deadfbe5910c212bfc",
+        "bytes": 80289
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Graphite_Tennis_Odds.pdf?v=1777049989",
+        "hashes": {
+          "6d14845139af572e47d4d30e44df7d9598721a0a676760bf37288459f08f153f": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-graphite-tennis.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6d14845139af572e47d4d30e44df7d9598721a0a676760bf37288459f08f153f",
+        "bytes": 188442
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25MLSC_SAPPHIRE_1.pdf?v=1787963932",
+        "hashes": {
+          "a01319619177ee4a18af1cdf56e7419b30e009730e77f6d65c2288a05cfaa382": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-mls-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "a01319619177ee4a18af1cdf56e7419b30e009730e77f6d65c2288a05cfaa382",
+        "bytes": 70664
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_MLS_Chrome_Sapphire_Odds.pdf?v=1787963938",
+        "hashes": {
+          "9706c8b666d920b903d22c08e52e34e27c5d61c89779415cb2a6ac0efb785f50": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-mls-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "9706c8b666d920b903d22c08e52e34e27c5d61c89779415cb2a6ac0efb785f50",
+        "bytes": 196774
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+        "hashes": {
+          "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-finest-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+        "bytes": 297787
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Odds.pdf?v=1771360733",
+        "hashes": {
+          "4724d47e53cb58ed800057b4be345b121f923b1e39edeab804f03b1043bbb8f6": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-finest-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "4724d47e53cb58ed800057b4be345b121f923b1e39edeab804f03b1043bbb8f6",
+        "bytes": 105159
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DNYC_Sapphire_Checklist.pdf?v=1784648190",
+        "hashes": {
+          "7c20d9f35ffcf26555ab39821fc997dd6112603b162575e8cfd4a7d344bdc6b8": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-disney-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "7c20d9f35ffcf26555ab39821fc997dd6112603b162575e8cfd4a7d344bdc6b8",
+        "bytes": 121640
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Disney_Sapphire_Odds.pdf?v=1784729760",
+        "hashes": {
+          "cd402ed845ef90b80de5d2ba0907b04d2bc2d0d22529e33e6b6a67d550e13773": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-disney-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "cd402ed845ef90b80de5d2ba0907b04d2bc2d0d22529e33e6b6a67d550e13773",
+        "bytes": 194992
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_30_Years_of_Toy_Story_Checklist.pdf?v=1775137646",
+        "hashes": {
+          "98ffb70e072e0efe8e9266430c3b85717496cf8d0a68719e50d05aa2f9f91e9e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-30-years-of-toy-story.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "98ffb70e072e0efe8e9266430c3b85717496cf8d0a68719e50d05aa2f9f91e9e",
+        "bytes": 79761
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_30_Years_of_Toy_Story_Odds.pdf?v=1775137644",
+        "hashes": {
+          "a22367f7a78de805e942e87f946d4a357eafec2a272d7ae768676e8d4c069b8c": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-30-years-of-toy-story.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "a22367f7a78de805e942e87f946d4a357eafec2a272d7ae768676e8d4c069b8c",
+        "bytes": 61522
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL_a5705acd-5d63-43f2-b4f6-ce1f457e2deb.pdf?v=1792171539",
+        "hashes": {
+          "45753eb8b8036024c39e9b4a1b2aa66665ce1d9ddc3aa85d2a9535ca55a4e737": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-mint-disney.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "45753eb8b8036024c39e9b4a1b2aa66665ce1d9ddc3aa85d2a9535ca55a4e737",
+        "bytes": 194557
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Marvel_The_Collector_Checklist.pdf?v=1770215891",
+        "hashes": {
+          "a9584a66039131becc3a1824d8a6a5c9968ffe997ecaf6ef9e5d6d701d537cfc": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-marvel-the-collector.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "a9584a66039131becc3a1824d8a6a5c9968ffe997ecaf6ef9e5d6d701d537cfc",
+        "bytes": 85342
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Marvel_The_Collector_Odds.pdf?v=1770229437",
+        "hashes": {
+          "893ab7f1e1dd6f867887d27579a7855fa2d0a8a0b82d93a45cc49df64e09a1a2": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-marvel-the-collector.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "893ab7f1e1dd6f867887d27579a7855fa2d0a8a0b82d93a45cc49df64e09a1a2",
+        "bytes": 174884
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Finest_Baseball_FDI_Checklist.pdf?v=1780433969",
+        "hashes": {
+          "963b9f79bc7ed57ae97b0151cad2a1cddc07551cc2588b657d72c0996f5c1092": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-finest-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "963b9f79bc7ed57ae97b0151cad2a1cddc07551cc2588b657d72c0996f5c1092",
+        "bytes": 134631
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Baseball_Odds.pdf?v=1783437319",
+        "hashes": {
+          "5773f0acb8dadc45b379f1a860739053c516003ab162739f99536a61881c1541": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-finest-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "5773f0acb8dadc45b379f1a860739053c516003ab162739f99536a61881c1541",
+        "bytes": 213826
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Checklist.pdf?v=1780925886",
+        "hashes": {
+          "12f1b80a28d8870af48d683ca17ecd2cae441bb4d30407fc1f9a1e9d44ac50fd": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-black-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "12f1b80a28d8870af48d683ca17ecd2cae441bb4d30407fc1f9a1e9d44ac50fd",
+        "bytes": 87984
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Odds.pdf?v=1783543006",
+        "hashes": {
+          "5cef4154ced54a9c5da22cf4605ac4f702ffbe1435b147f44403d87233522e37": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-black-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "5cef4154ced54a9c5da22cf4605ac4f702ffbe1435b147f44403d87233522e37",
+        "bytes": 57689
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26CUBK_SAPPHIRE_FINAL.pdf?v=1787941231",
+        "hashes": {
+          "c420c4185435d5d7b223c4801bc2875105348608ab5a0e472dda2ea12f1daf7f": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-chrome-updates-basketball-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "c420c4185435d5d7b223c4801bc2875105348608ab5a0e472dda2ea12f1daf7f",
+        "bytes": 198977
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25_26_Topps_Chrome_Updates_Basketball_Sapphire_Odds.pdf?v=1788294895",
+        "hashes": {
+          "7dd858f348c2f0579222e4f9c9b2447e915ae54f6dc589bc228e519e971afd6a": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-chrome-updates-basketball-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "7dd858f348c2f0579222e4f9c9b2447e915ae54f6dc589bc228e519e971afd6a",
+        "bytes": 189840
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Pristine_Checklist.pdf?v=1767627098",
+        "hashes": {
+          "01e0efe5d1a50828a02f365c9e768b26d6b7d2c5f09ccb730511ec0eea50515c": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-pristine-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "01e0efe5d1a50828a02f365c9e768b26d6b7d2c5f09ccb730511ec0eea50515c",
+        "bytes": 104118
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025ToppsPristineBaseballOdds.pdf?v=1770915274",
+        "hashes": {
+          "48dc1db53097029aa38e907eb5c248438d54ea8234c1fec8e357e5e5ecc05893": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-pristine-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "48dc1db53097029aa38e907eb5c248438d54ea8234c1fec8e357e5e5ecc05893",
+        "bytes": 183334
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8e_tya-pT85xuzZ41qCbTUNpFV0wjZ69uWy15DbGNs8r_QsyHqeWFznicOmYFEg/pub?output=csv",
+        "hashes": {
+          "34e652fc5f96573cc44bcf8dbda95a99c1c380f57075fb4d2c7752a9fedf8aa0": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-draft-edition-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "34e652fc5f96573cc44bcf8dbda95a99c1c380f57075fb4d2c7752a9fedf8aa0",
+        "bytes": 119793
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQtUQSY-jIHFA0dOg6fk9dlaA-K5D-nit8_ZIfH02xltz3mS5y3NWtEgJ4swUzlJw/pub?output=csv",
+        "hashes": {
+          "d29b0bd945dcd0c7adcd9bba030b6c5f6d21596a4490450397e4122419425c38": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "d29b0bd945dcd0c7adcd9bba030b6c5f6d21596a4490450397e4122419425c38",
+        "bytes": 872127
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Masterwork_Checklist.pdf?v=1777400855",
+        "hashes": {
+          "5369458990a683f342c3983cf517f7820d1b8339c3a76cde03c99456f2904ace": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-star-wars-masterwork.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "5369458990a683f342c3983cf517f7820d1b8339c3a76cde03c99456f2904ace",
+        "bytes": 371489
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Masterwork_Odds.pdf?v=1777320886",
+        "hashes": {
+          "01f6753be19d9c786158a857563de829eb67d41eabf5e819140f08c8cb9fce2e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-star-wars-masterwork.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "01f6753be19d9c786158a857563de829eb67d41eabf5e819140f08c8cb9fce2e",
+        "bytes": 113493
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69f500d7b489df389e824062_2026_Leaf_Metal_Pop_Century_CL_F.xlsx",
+        "hashes": {
+          "b967903b947aa856f62b3b0e2b0b88af0fb5e7260a7db19305bc5856be222a32": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-pop-century.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b967903b947aa856f62b3b0e2b0b88af0fb5e7260a7db19305bc5856be222a32",
+        "bytes": 280488
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Checklist_26THBB_3.20.pdf?v=1774362662",
+        "hashes": {
+          "4ad60fa68d1429519f9ceeee11188663d9b3c64b2a5e387112f1bb857d967c8a": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-heritage-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "4ad60fa68d1429519f9ceeee11188663d9b3c64b2a5e387112f1bb857d967c8a",
+        "bytes": 155523
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Baseball_Odds.pdf?v=1773779345",
+        "hashes": {
+          "9cb3f9053d3f335dc74e26c1378b5a9dcbe61e1cfde11d561c27760b3f906b96": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-heritage-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "9cb3f9053d3f335dc74e26c1378b5a9dcbe61e1cfde11d561c27760b3f906b96",
+        "bytes": 217473
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_2026_TOPPS_CHROME_SAPPHIRE_UFC.xls?v=1779982792",
+        "hashes": {
+          "ec333ca57f553c6f936eedbf00380db771c0493d5fded481622b40f638401c60": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-ufc-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "ec333ca57f553c6f936eedbf00380db771c0493d5fded481622b40f638401c60",
+        "bytes": 54272
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_UFC_Sapphire.pdf?v=1781705060",
+        "hashes": {
+          "c7675652c9a5edf831a2bd6711de426c171db46fd696714e350cc23dbd33cdaf": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-ufc-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "c7675652c9a5edf831a2bd6711de426c171db46fd696714e350cc23dbd33cdaf",
+        "bytes": 183303
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Cosmic_Chrome_Baseball_-_Checklist.pdf?v=1790609925",
+        "hashes": {
+          "16c0ecb860ab0fc413e3a727b73c55dcc87dc27ef769b08a50a7f62963c3e93e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-cosmic-chrome-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "16c0ecb860ab0fc413e3a727b73c55dcc87dc27ef769b08a50a7f62963c3e93e",
+        "bytes": 115266
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-28_2026-Topps-Cosmic-Chrome-Baseball_Odds.pdf?v=1790610132",
+        "hashes": {
+          "e891b61a1075f175b14fb82211de359ebadafb93619d9cfe379e87ee70b12e68": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-cosmic-chrome-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e891b61a1075f175b14fb82211de359ebadafb93619d9cfe379e87ee70b12e68",
+        "bytes": 42164
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MidnightUFC_Checklist_Final.pdf?v=1776702978",
+        "hashes": {
+          "e1d60232c671a9cd8288d493541f19a32799a2319d4202d7df8162095677d002": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-midnight-ufc.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e1d60232c671a9cd8288d493541f19a32799a2319d4202d7df8162095677d002",
+        "bytes": 77181
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_UFC_Midnight_Odds_44ec7b6e-a24d-419f-9fa1-5d04003c62aa.pdf?v=1779223098",
+        "hashes": {
+          "d0c7e07c0ef2330afde797aadcb1b4468110fb5495b6727b65c6ff0615aae6f7": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-midnight-ufc.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "d0c7e07c0ef2330afde797aadcb1b4468110fb5495b6727b65c6ff0615aae6f7",
+        "bytes": 186001
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Basketball_Sapphire_Checklist.pdf?v=1768338554",
+        "hashes": {
+          "6f3377c09b44c43734953cc111d8f9b9452a807e135f53bda551f383e05e8d2c": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-chrome-basketball-sapphire.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6f3377c09b44c43734953cc111d8f9b9452a807e135f53bda551f383e05e8d2c",
+        "bytes": 243577
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Basketball_Sapphire_Odds.pdf?v=1768338554",
+        "hashes": {
+          "7f52ed7968ed6845955ce3747ff1c395ba780a8a6175d577e2222442ce9b7009": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-chrome-basketball-sapphire.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "7f52ed7968ed6845955ce3747ff1c395ba780a8a6175d577e2222442ce9b7009",
+        "bytes": 31219
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Checklist_25CSFB_VERSION2.pdf?v=1777921828",
+        "hashes": {
+          "123e84d39eb87c3e6a3a3f2e78cc45faf3bfdc2ec3e6543a14487f7b62586787": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-signature-class-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "123e84d39eb87c3e6a3a3f2e78cc45faf3bfdc2ec3e6543a14487f7b62586787",
+        "bytes": 655666
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Signature_Class_Football_Odds.pdf?v=1781876271",
+        "hashes": {
+          "3b3321e28520dc7104a9a5f80a95513cf73c21ceca6d6770ade37e20564dac65": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-signature-class-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "3b3321e28520dc7104a9a5f80a95513cf73c21ceca6d6770ade37e20564dac65",
+        "bytes": 218878
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Collector_Kit_Wave_2_Checklist.pdf?v=1790604076",
+        "hashes": {
+          "f2bbac0a48cfdcc62e70e0df293413ca3b3061616853fbc8c0536ffcf6b0b184": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-collector-kit-wave-2.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "f2bbac0a48cfdcc62e70e0df293413ca3b3061616853fbc8c0536ffcf6b0b184",
+        "bytes": 46087
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Platinum_Baseball_Checklist.pdf?v=1777494180",
+        "hashes": {
+          "ee15344bdbfe64744ffc6a60ba06c7400a02a7379051ad6fe26e85a7308b5b13": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-platinum-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "ee15344bdbfe64744ffc6a60ba06c7400a02a7379051ad6fe26e85a7308b5b13",
+        "bytes": 124500
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Platinum55_Baseball_Odds.pdf?v=1781723903",
+        "hashes": {
+          "b71707e1d4450b141d1cec57194c1292625af060444970bab41183e76167fbab": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-platinum-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b71707e1d4450b141d1cec57194c1292625af060444970bab41183e76167fbab",
+        "bytes": 515314
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69710719f2eda73284051440_2026_Leaf_Sport_Heroes_CL_Final.xlsx",
+        "hashes": {
+          "6e60c66ad57460dd8f15268ae324d5483bcf5157ef84fce36f9687b2cde50c07": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-sports-heroes.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6e60c66ad57460dd8f15268ae324d5483bcf5157ef84fce36f9687b2cde50c07",
+        "bytes": 212984
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TUCC_ChromeChecklist_FINAL.pdf?v=1775059905",
+        "hashes": {
+          "e799f58f7d5ce5e5bb5ca68f713da04cbc3436059dbb1df20100e99ac47ce734": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-topps-chrome-uefa-club-competitions-2025-26.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "e799f58f7d5ce5e5bb5ca68f713da04cbc3436059dbb1df20100e99ac47ce734",
+        "bytes": 479868
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/699898fbc90d04104d74709a_2026_Leaf_Sold_on_the_Web_CL_Working.xlsx",
+        "hashes": {
+          "6b04b9e00e0672c3ebb0f6b01048444e7513aed29755ec5fe85058518375ee86": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-sold-on-the-web.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6b04b9e00e0672c3ebb0f6b01048444e7513aed29755ec5fe85058518375ee86",
+        "bytes": 10493
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/695c1fc9ba8e567de0f30d69_2025_Leaf_Red_Carpet_Collection_CL_F.xlsx",
+        "hashes": {
+          "1ae38465ff0d8e15927d58a64090cf1faecc5a1fcffc72c89cb0be8fecf640a6": 1
+        },
+        "files": [
+          "data/imports/leaf-2025-leaf-red-carpet-collection.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1ae38465ff0d8e15927d58a64090cf1faecc5a1fcffc72c89cb0be8fecf640a6",
+        "bytes": 41679
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSQ4Rj_bY2ldLWL3RholrZBl62FX_5Kn4xRcM1I6ceIf4nkDgBhgNyBETWAhSFytw/pub?output=csv",
+        "hashes": {
+          "1ce840289c346a05f493a6aa788dcda684a773e8e1675e2db2be2b6cf3295474": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-halloween.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1ce840289c346a05f493a6aa788dcda684a773e8e1675e2db2be2b6cf3295474",
+        "bytes": 374194
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_26CWWE_ChromeWWE.pdf?v=1775658305",
+        "hashes": {
+          "324210889dbe0dae22582720a58dccd4eda9a62d7dfcab9de95d21ca38661dd9": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-wwe.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "324210889dbe0dae22582720a58dccd4eda9a62d7dfcab9de95d21ca38661dd9",
+        "bytes": 474621
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_WWE_Odds.pdf?v=1775834666",
+        "hashes": {
+          "21683f175f079808e5f21c49d4b48c37f7bb949dc32f4ab179c9cfccea3ca0f9": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-wwe.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "21683f175f079808e5f21c49d4b48c37f7bb949dc32f4ab179c9cfccea3ca0f9",
+        "bytes": 245605
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Checklist.pdf?v=1770740329",
+        "hashes": {
+          "2175670434849c8a8d58c7068130ec9d035ebfc51edca70610b78051643ee8a4": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "2175670434849c8a8d58c7068130ec9d035ebfc51edca70610b78051643ee8a4",
+        "bytes": 170547
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Odds.pdf?v=1775071299",
+        "hashes": {
+          "bd1cc7ba86e1dc19bbb029da3cd2efbb5c6fb2d590496cd3cdad6afc77bfe9ff": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-mcdonald-s-all-american-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "bd1cc7ba86e1dc19bbb029da3cd2efbb5c6fb2d590496cd3cdad6afc77bfe9ff",
+        "bytes": 183696
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Fantastic_Four_Checklist.pdf?v=1773431109",
+        "hashes": {
+          "9bc71345b83ab0ec72bca8221d66c93f4c2b368556f778575a2a072dceb4ba07": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-finest-fantastic-four.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "9bc71345b83ab0ec72bca8221d66c93f4c2b368556f778575a2a072dceb4ba07",
+        "bytes": 143579
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Fantastic_Four_Odds.pdf?v=1773762703",
+        "hashes": {
+          "4608301212840ff6e07ca011390a79b46fb7142a26d1e30afc5335caaa42fef1": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-finest-fantastic-four.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "4608301212840ff6e07ca011390a79b46fb7142a26d1e30afc5335caaa42fef1",
+        "bytes": 188207
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Midnight_Football_checklist_ae614b15-64bd-4427-bebc-baa904c7368c.pdf?v=1791410806",
+        "hashes": {
+          "b3260e9bc604b899abb57173ec7530fd10911613edb0bd0bf050359bdd4d5389": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-midnight-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b3260e9bc604b899abb57173ec7530fd10911613edb0bd0bf050359bdd4d5389",
+        "bytes": 112503
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767",
+        "hashes": {
+          "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-bowman-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+        "bytes": 367011
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Odds.pdf?v=1776281698",
+        "hashes": {
+          "3b67cfcaa2f44afba3b287abbd2b6ce77cb24dd6a13e1806e20caf4dec9a1758": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-bowman-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "3b67cfcaa2f44afba3b287abbd2b6ce77cb24dd6a13e1806e20caf4dec9a1758",
+        "bytes": 217087
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Sapphire_Edition_Checklist.pdf?v=1790956155",
+        "hashes": {
+          "45be2acc2da76c2a64a4768e44b5a045830f35c614a86f2cb97c4a006cef630a": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-bowman-chrome-baseball-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "45be2acc2da76c2a64a4768e44b5a045830f35c614a86f2cb97c4a006cef630a",
+        "bytes": 67887
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Collector_Kit_1.pdf?v=1774449045",
+        "hashes": {
+          "684817271227eb518b31da8e45ec9cfb9e04a6b1486be26680d618fc935175c5": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-collector-kit.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "684817271227eb518b31da8e45ec9cfb9e04a6b1486be26680d618fc935175c5",
+        "bytes": 41462
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Disneyland_70th_Anniversary_Checklist.pdf?v=1771355640",
+        "hashes": {
+          "3e6f30cdfcdffb2c0e60986ec8583d5f39d9a42e59997ed33da02e6d70162453": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-disneyland-70th-anniversary.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "3e6f30cdfcdffb2c0e60986ec8583d5f39d9a42e59997ed33da02e6d70162453",
+        "bytes": 137041
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Disneyland_70th_Anniversary_Odds.pdf?v=1770391017",
+        "hashes": {
+          "47321ff45c524e85d392777ab956cb78f404c3adcc74d8c8ccd887b4fd4a6184": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-disneyland-70th-anniversary.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "47321ff45c524e85d392777ab956cb78f404c3adcc74d8c8ccd887b4fd4a6184",
+        "bytes": 67087
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_National_Sports_Collectors_Convention_26NSCC_-_Checklist_1.pdf?v=1785264843",
+        "hashes": {
+          "550a590840eb9bcfb0775970a9043148ff12845030c832109c5f6ceadeabb7ef": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-national-sports-collectors-convention.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "550a590840eb9bcfb0775970a9043148ff12845030c832109c5f6ceadeabb7ef",
+        "bytes": 94308
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Cheklist_chrome_black.pdf?v=1785244468",
+        "hashes": {
+          "50e690e09a0f022fb09479bb0020f4683283e1e852fd0f28f3a4d7e23e922730": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-black-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "50e690e09a0f022fb09479bb0020f4683283e1e852fd0f28f3a4d7e23e922730",
+        "bytes": 79667
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Odds.pdf?v=1788295188",
+        "hashes": {
+          "c13233a6be8ce3b2f1000295306e235a4d5326b1f35a2fb14784082e3695008b": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-black-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "c13233a6be8ce3b2f1000295306e235a4d5326b1f35a2fb14784082e3695008b",
+        "bytes": 197885
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Pristine_Checklist.pdf?v=1784559282",
+        "hashes": {
+          "35726164f498348bcf5b82075136d677f72fa6b282c9614a2a110a56fe9d87a7": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-pristine-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "35726164f498348bcf5b82075136d677f72fa6b282c9614a2a110a56fe9d87a7",
+        "bytes": 109608
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pristine_Baseball_Odds.pdf?v=1786546346",
+        "hashes": {
+          "99014884e91f1b579561e8b74384f79f3e366886ed31f1a921ace0f7ad35604d": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-pristine-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "99014884e91f1b579561e8b74384f79f3e366886ed31f1a921ace0f7ad35604d",
+        "bytes": 196627
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+        "hashes": {
+          "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-three-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+        "bytes": 435039
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Odds.pdf?v=1771339442",
+        "hashes": {
+          "1e27450fe3bb36c0434255c6e0607292f078a5a6d4e309ff50d4ef5a52cf38ba": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-three-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1e27450fe3bb36c0434255c6e0607292f078a5a6d4e309ff50d4ef5a52cf38ba",
+        "bytes": 122508
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_NBA_Topps_Now_Rising_Stars_Set_-_Checklist.pdf?v=1787961796",
+        "hashes": {
+          "eea2d2c30cd3a395b907c17659498bd8d587b4efe53f4113cdd5248973aaaf70": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-nba-topps-now-rising-stars-set.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "eea2d2c30cd3a395b907c17659498bd8d587b4efe53f4113cdd5248973aaaf70",
+        "bytes": 125836
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9Nb7AgXUpV6nExmcgL5cQYV-V9_MraxeGmB3T-lHA0mP1PSq4099GGc7cJurdbg/pub?output=csv",
+        "hashes": {
+          "055ba4afdceae82938eb6dfc755249fd2f99fd715989fde0889c318612dcde54": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-optichrome-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "055ba4afdceae82938eb6dfc755249fd2f99fd715989fde0889c318612dcde54",
+        "bytes": 721346
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6961269cc03f1bfbeb77f6e2_2025_Leaf_Electrum_Multi-Sport_CL_F.xlsx",
+        "hashes": {
+          "c13ad3c998950053167cffd45572c08a1592baa0ae10d8231a730acf34104d85": 1
+        },
+        "files": [
+          "data/imports/leaf-2025-leaf-electrum-multi-sport.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "c13ad3c998950053167cffd45572c08a1592baa0ae10d8231a730acf34104d85",
+        "bytes": 69542
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_WWE_Topps_Now_WrestleMania_Vegas_Checklist_1.pdf?v=1787965944",
+        "hashes": {
+          "0ace98eda6dd6ffc86d0e34091de7afbfbddc274c6b309e24b58c78c924b9dcb": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-wwe-topps-now-wrestlemania-vegas-set.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "0ace98eda6dd6ffc86d0e34091de7afbfbddc274c6b309e24b58c78c924b9dcb",
+        "bytes": 67118
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Sapphire_Checklist.pdf?v=1786996122",
+        "hashes": {
+          "1e2dbcb26be3a07b9d5eab384828fec4eab14c3cad41cc54c12b0714ad78391e": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-baseball-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1e2dbcb26be3a07b9d5eab384828fec4eab14c3cad41cc54c12b0714ad78391e",
+        "bytes": 84383
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Sapphire_Odds.pdf?v=1787676129",
+        "hashes": {
+          "b5ae5ea9afbe482977dc6eda0a316722fbab438c3424c1daa5eb78befa581171": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-baseball-sapphire-edition.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b5ae5ea9afbe482977dc6eda0a316722fbab438c3424c1daa5eb78befa581171",
+        "bytes": 192881
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Checklist_040826.pdf?v=1775678965",
+        "hashes": {
+          "590ad763a6695b43db60dd1395a271c47b262f8084a40b2ef3511cd8001b9ae5": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "590ad763a6695b43db60dd1395a271c47b262f8084a40b2ef3511cd8001b9ae5",
+        "bytes": 938947
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Football_Odds.pdf?v=1776193199",
+        "hashes": {
+          "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-football.json",
+          "data/imports/topps-bowman-2025-topps-chrome-football-sapphire.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
+        "bytes": 291852
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Checklist.pdf?v=1772217092",
+        "hashes": {
+          "6415c21127d8d80e2d400c3d9e526698056f24306e6e498a42361670ecb05de6": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-bowman-s-best-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6415c21127d8d80e2d400c3d9e526698056f24306e6e498a42361670ecb05de6",
+        "bytes": 101783
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Baseball_Odds.pdf?v=1773183175",
+        "hashes": {
+          "092d74e474f05d67da1be0924b8ae727280c67e05a922b55174faad98a074c03": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-bowman-s-best-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "092d74e474f05d67da1be0924b8ae727280c67e05a922b55174faad98a074c03",
+        "bytes": 189034
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69c3ef26953b763f1879a6ae_2026_Leaf_Metal_Football_CL_F.xlsx",
+        "hashes": {
+          "37d70039b1cd282d5d56dc635d5ad9f2252f007e66d6b660110850d6363ff86e": 1
+        },
+        "files": [
+          "data/imports/leaf-2026-leaf-metal-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "37d70039b1cd282d5d56dc635d5ad9f2252f007e66d6b660110850d6363ff86e",
+        "bytes": 482947
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+        "hashes": {
+          "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-signature-class-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+        "bytes": 460279
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Odds.pdf?v=1777313248",
+        "hashes": {
+          "bcaf92c47bae5fa7a1f0b14a9711946e106eb6a27a8a7aecec5af807a9b61b82": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-signature-class-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "bcaf92c47bae5fa7a1f0b14a9711946e106eb6a27a8a7aecec5af807a9b61b82",
+        "bytes": 58740
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTaSchNPJPtveCR5gAGfV683mdG8do38cdWc5Ycddq0P-QafeS9yMtQEBjYfDgO-w/pub?output=csv",
+        "hashes": {
+          "1096753a4f8086ca2904231c73879ee8e835737890d4f52d3317df4e39889065": 1
+        },
+        "files": [
+          "data/imports/leaf-2025-leaf-eclectic-signature-series-joe-montana-celebration.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "1096753a4f8086ca2904231c73879ee8e835737890d4f52d3317df4e39889065",
+        "bytes": 9926
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Midnight_Basketball_Checklist.pdf?v=1767709196",
+        "hashes": {
+          "c1e1923aab6874071b81712ed262ab46017010a0997881fc0b553b7f0986ec0b": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-midnight-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "c1e1923aab6874071b81712ed262ab46017010a0997881fc0b553b7f0986ec0b",
+        "bytes": 272572
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Midnight_Basketball_Odds.pdf?v=1769113140",
+        "hashes": {
+          "497fa541b8f40a55fc11ec27c272e2e7237155951ef76f354c4e0ef9f19a5106": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-26-topps-midnight-basketball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "497fa541b8f40a55fc11ec27c272e2e7237155951ef76f354c4e0ef9f19a5106",
+        "bytes": 60476
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Sapphire_Checklist_042926.pdf?v=1778615660",
+        "hashes": {
+          "b90ab799ca671a04e302d220f73cc5c0f40de3fab2cce4ae23b29aba9fb8eb18": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-chrome-football-sapphire.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "b90ab799ca671a04e302d220f73cc5c0f40de3fab2cce4ae23b29aba9fb8eb18",
+        "bytes": 320363
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Inception_Baseball_25TIBB_-_Checklist_5.18.pdf?v=1779116690",
+        "hashes": {
+          "668584ba47bdc772b82c3593bcd93d10c4059e245ce8c5ee6da94e81051c2465": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-inception-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "668584ba47bdc772b82c3593bcd93d10c4059e245ce8c5ee6da94e81051c2465",
+        "bytes": 180522
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Inception_Baseball_Odds.pdf?v=1783625098",
+        "hashes": {
+          "5fc4b2037b1ef435d10c513ac71e86c75e673063139e36c367238fb837632fbf": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2025-topps-inception-baseball.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "5fc4b2037b1ef435d10c513ac71e86c75e673063139e36c367238fb837632fbf",
+        "bytes": 197356
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps-Chrome-Sapphire-MLS-2026-Checklist-Subject-to-Change.pdf?v=1791312276",
+        "hashes": {
+          "a9995b9e9ad9bacdc34997b0b6f95d20965687a81b0d87eb00683cc158cb1301": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-mls-sapphire.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "a9995b9e9ad9bacdc34997b0b6f95d20965687a81b0d87eb00683cc158cb1301",
+        "bytes": 168501
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps-Chrome-Sapphire-MLS-2026-Odds-Subject-to-Change.pdf?v=1791312256",
+        "hashes": {
+          "6d766ddfe09d3e8d7513a9a97649968b4b8d633480fa04e2bfeb37ee6a3a7fbf": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-chrome-mls-sapphire.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "6d766ddfe09d3e8d7513a9a97649968b4b8d633480fa04e2bfeb37ee6a3a7fbf",
+        "bytes": 188941
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Football_Checklist.pdf?v=1790800436",
+        "hashes": {
+          "2dc486d62a6623c189b60b47a5317f71a5e936d3f572ec19b359ade37b79a5f5": 1
+        },
+        "files": [
+          "data/imports/topps-bowman-2026-topps-heritage-football.json"
+        ],
+        "status": "unchanged",
+        "freshSha256": "2dc486d62a6623c189b60b47a5317f71a5e936d3f572ec19b359ade37b79a5f5",
+        "bytes": 216353
+      }
+    ],
+    "limitation": "Checks retained imported URLs; this does not discover new or revised URLs and does not refresh NOW product observations or Panini interface-generated CSV exports."
+  },
+  "manufacturerChecks": {
+    "leaf": {
+      "pages": 616,
+      "sources": 46,
+      "changes": []
+    },
+    "upperDeck": {
+      "newCurrentDirectoryChecklists": 0
+    },
+    "wildCard": {
+      "official2026Entries": 42,
+      "changed": false
+    },
+    "paniniDedicatedPdfs": {
+      "nationalCards": 113,
+      "nationalNumberingRows": 16,
+      "soccerPodCards": 136,
+      "soccerPodNumberingRows": 14,
+      "sourceHashesAndPhysicalRows": "unchanged",
+      "catalogMetadataAndOrder": "preserved"
+    }
+  },
+  "retainedDataValidation": {
+    "activeAudit": {
+      "published": 27,
+      "retainedActiveProducts": 27,
+      "explicitPendingGaps": 0,
+      "freshUiCoverageVerified": false
+    },
+    "nowVerifier": {
+      "observations": 2276,
+      "sharedTables": 50,
+      "result": "pass",
+      "historyCoverage": "partial"
+    },
+    "paniniCsvVerifier": {
+      "exports": 59,
+      "originalRows": 556474,
+      "result": "pass"
+    },
+    "seoVerifier": {
+      "uniquePageMetadataAndSitemapUrls": 412,
+      "result": "pass"
+    },
+    "publicChecklistChanges": false,
+    "parallelAudits": "Incomplete statuses and the Exalted WWE conflict are preserved; no new guide facts were imported."
+  },
+  "robotsValidation": {
+    "observedUtc": "2026-10-18T20:25:22.620953+00:00",
+    "url": "https://paulfrederiksen.com/robots.txt",
+    "status": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "sha256": "0b6fb87e44057ad9e52a87b9ef85e68e387569058a0d5b967811c8665894a101",
+    "content": "User-agent: *\nAllow: /\n\nSitemap: https://paulfrederiksen.com/sitemap-index.xml\n\nSitemap: https://paulfrederiksen.com/checklists/sitemap.xml\n",
+    "crawlPolicy": "All public photography and checklist paths are permitted for general, search, image and advertising crawlers.",
+    "sitemaps": [
+      {
+        "url": "https://paulfrederiksen.com/sitemap-index.xml",
+        "status": 200,
+        "root": "{http://www.sitemaps.org/schemas/sitemap/0.9}sitemapindex",
+        "bytes": 190,
+        "sha256": "f460243d3cbc309beb0493a837bc1a7929186db0797a86d6e38844380352525f"
+      },
+      {
+        "url": "https://paulfrederiksen.com/checklists/sitemap.xml",
+        "status": 200,
+        "root": "{http://www.sitemaps.org/schemas/sitemap/0.9}urlset",
+        "bytes": 46390,
+        "sha256": "c1dea790980b50ac5eab8e2482754dfe426f19fc0c92cceb4ef846c7587b391c"
+      }
+    ],
+    "adsTxtSha256": "789b102b3c617fdfaff82d155add79179ecf1cad375c0e0b87aa30def8a4a7d9",
+    "changed": false
+  },
+  "result": "No changed source bytes or public data verified in the available checks. Current NOW, global-link discovery and broader Panini UI coverage remain unrefreshed because the browser provider is unavailable. No source observation or coverage label was advanced."
+}
