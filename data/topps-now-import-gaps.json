@@ -3,16 +3,6 @@
   "backfillStart": "2026-01-01",
   "unparsedNumberedTitles": [
     {
-      "url": "https://www.topps.com/products/anthony-edwards-2025-26-nba-topps-now%C2%AE-card-294",
-      "title": "Anthony Edwards - 2025-26 NBA Topps NOW® - Card - PR: 1057",
-      "gap": "Card number is blank in the official product title."
-    },
-    {
-      "url": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
-      "title": "Chase Burns - 2026 MLB Topps NOW® - Card 29 - PR: 3477 - PR: 236",
-      "gap": "Official title lacks a validated number or has conflicting/unrecognized numbering or print-run text; preserve the gap instead of inferring from the URL."
-    },
-    {
       "url": "https://uk.topps.com/products/mike-evans-2026-nfl-topps-now%C2%AE-card-5",
       "title": "Mike Evans - 2026 NFL Topps NOW® - Card 5",
       "gap": "Regional product series or card number conflicts with the retained U.S. archive identity for the same product path; do not merge its dates or create a duplicate card."
@@ -26,6 +16,17 @@
       "number": "94",
       "unlabelledValue": "5738",
       "gap": "The official title does not label this numeric suffix as a print run; no print run is assigned from it."
+    },
+    {
+      "url": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
+      "title": "Chase Burns - 2026 MLB Topps NOW® - Card 29 - PR: 3477 - PR: 236",
+      "series": "2026 MLB Topps NOW®",
+      "number": "29",
+      "conflictingValues": [
+        "3477",
+        "236"
+      ],
+      "gap": "The official title publishes two conflicting labelled print runs. Neither value is selected; the imported print run remains blank."
     }
   ],
   "pendingSaleDates": [],

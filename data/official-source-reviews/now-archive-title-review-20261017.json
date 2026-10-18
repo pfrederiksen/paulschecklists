@@ -6,19 +6,8 @@
   "archiveObserved": "2026-10-13",
   "historyComplete": false,
   "resolvedByFreshProductSnapshot": "data/catalog-sources/topps-now-backfill-browser-20261017-2300-title-punctuation.json",
-  "pendingProductReviews": [
-    {
-      "title": "Anthony Edwards - 2025-26 NBA Topps NOW® - Card - PR: 1057",
-      "url": "https://www.topps.com/products/anthony-edwards-2025-26-nba-topps-now%C2%AE-card-294",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "Chase Burns - 2026 MLB Topps NOW® - Card 29 - PR: 3477 - PR: 236",
-      "url": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    }
-  ],
-  "notes": "This review reconciles only retained title text, not all fields or reported archive products. Existing 95-page checkpoint and partial-history labels remain unchanged. Unnumbered entertainment products and multi-card bundles need dedicated roster/date parsing; Anthony Edwards has a blank printed title number that cannot be filled from its URL.",
+  "pendingProductReviews": [],
+  "notes": "This review reconciles only retained title text, not all fields or reported archive products. Existing 95-page checkpoint and partial-history labels remain unchanged. Unnumbered entertainment products and multi-card bundles need dedicated roster/date parsing; Anthony Edwards has a blank printed title number that cannot be filled from its URL. The final two title formats now publish only verified fields, with a blank NBA number and an unresolved MLB print-run conflict.",
   "resolvedSingleCardProducts": {
     "snapshot": "data/catalog-sources/topps-now-backfill-browser-20261018-0000-marvel.json",
     "products": [
@@ -364,5 +353,23 @@
     ],
     "notes": "Fresh actual official UI links outside the global checklist catalog. Both complete PDFs parsed by physical columns and checked against independent original word flow. No revised manufacturer drop is inferred from this discovery.",
     "teamPageReconciliation": "All 130 web names join exact printed team/name cells across thirteen existing team pages. Numbers, literal teams, positions, RC and PARALLELS now come from the PDF. Angels PDF marks OD-111 Mike Trout and OD-112 Christian Moore; its web roster has no inline marks. Both columns remain separate. No Japan Edition number or color inheritance."
+  },
+  "unresolvedFieldReviews": [
+    {
+      "title": "Anthony Edwards - 2025-26 NBA Topps NOW® - Card - PR: 1057",
+      "url": "https://www.topps.com/products/anthony-edwards-2025-26-nba-topps-now%C2%AE-card-294",
+      "gap": "The official title and Specs publish no card number. One verified Open-Edition Base Card is imported with a blank number, exact product family and published PR1057; URL/SKU digits never supply an ID.",
+      "snapshot": "data/catalog-sources/topps-now-backfill-browser-20261018-1700-title-fields.json"
+    },
+    {
+      "title": "Chase Burns - 2026 MLB Topps NOW® - Card 29 - PR: 3477 - PR: 236",
+      "url": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
+      "gap": "Printed MLB card 29, subject, March 31–April 1 dates, five foil parallels and three auto-relic terms are imported. Labelled print runs 3477 and 236 conflict; neither is selected and the print-run cell remains blank.",
+      "snapshot": "data/catalog-sources/topps-now-backfill-browser-20261018-1700-title-fields.json"
+    }
+  ],
+  "reconciledTitleFields": {
+    "snapshot": "data/catalog-sources/topps-now-backfill-browser-20261018-1700-title-fields.json",
+    "notes": "All retained title-format review candidates have now received product-level reconciliation. Two unresolved source fields remain explicit; this does not establish full 95-page historical product/date/term coverage."
   }
 }

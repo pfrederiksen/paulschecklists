@@ -16927,6 +16927,49 @@
   },
   {
     "series": "2025-26 NBA Topps NOW®",
+    "number": "",
+    "name": "Anthony Edwards",
+    "printRun": "1057",
+    "saleFrom": "May 5, 2026",
+    "saleUntil": "May 7, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\nCard number is not published in the reviewed official title or specifications.\nOfficial Product Year: 2026. The 2025 year appears in the official product title; calendar-year inclusion uses the verified sale date.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/anthony-edwards-2025-26-nba-topps-now%C2%AE-card-294",
+    "evidence": {
+      "url": "https://www.topps.com/products/anthony-edwards-2025-26-nba-topps-now%C2%AE-card-294",
+      "sha256": "f3157f2c49e53c175bea9f1d5fa66e6a23b7f5669223669d92ba31827b7f7f04",
+      "observed": "2026-10-18",
+      "title": "Anthony Edwards - 2025-26 NBA Topps NOW® - Card - PR: 1057",
+      "fields": {
+        "SKU": "ARTBK-16C2S-26TN-0294-QTY1",
+        "Category": "Sports",
+        "Sub Categories": "Basketball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Anthony Edwards",
+        "Properties": "Minnesota Timberwolves",
+        "Product Type": "Print on Demand",
+        "Available From": "May 5, 2026",
+        "Available Until": "May 7, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\nCard number is not published in the reviewed official title or specifications.\nOfficial Product Year: 2026. The 2025 year appears in the official product title; calendar-year inclusion uses the verified sale date.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-1700-title-fields.json"
+    },
+    "identityKind": "official-single-card-product",
+    "family": "Anthony Edwards - 2025-26 NBA Topps NOW® - Card",
+    "saleFromISO": "2026-05-05"
+  },
+  {
+    "series": "2025-26 NBA Topps NOW®",
     "number": "6MOY",
     "name": "Keldon Johnson",
     "printRun": "2100",
@@ -36962,6 +37005,55 @@
       "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
     },
     "saleFromISO": "2026-03-30"
+  },
+  {
+    "series": "2026 MLB Topps NOW®",
+    "number": "29",
+    "name": "Chase Burns",
+    "printRun": "",
+    "saleFrom": "Mar 31, 2026",
+    "saleUntil": "Apr 1, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "The official title publishes conflicting print-run claims 3477 and 236; neither is selected and the actual print run remains unverified.\nPublished card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; /10 Auto-Relic Redemption Card; /5 Auto-Relic Redemption Card; /1 Auto-Relic Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
+    "evidence": {
+      "url": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
+      "sha256": "7592cbc6de14419148f23efacff8c7692a9f0227ce9d544b9ff1ae4f5b713ad8",
+      "observed": "2026-10-18",
+      "title": "Chase Burns - 2026 MLB Topps NOW® - Card 29 - PR: 3477 - PR: 236",
+      "fields": {
+        "SKU": "ARTBB-16C2S-26TN-0029-QTY1",
+        "Category": "Sports",
+        "Sub Categories": "Baseball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Chase Burns",
+        "Properties": "Cincinnati Reds",
+        "Product Type": "Print on Demand",
+        "Available From": "Mar 31, 2026",
+        "Available Until": "Apr 1, 2026"
+      },
+      "overview": "The official title publishes conflicting print-run claims 3477 and 236; neither is selected and the actual print run remains unverified.\nPublished card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; /10 Auto-Relic Redemption Card; /5 Auto-Relic Redemption Card; /1 Auto-Relic Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-1700-title-fields.json",
+      "conflictingPrintRuns": [
+        "3477",
+        "236"
+      ]
+    },
+    "printRunConflict": [
+      "3477",
+      "236"
+    ],
+    "saleFromISO": "2026-03-31"
   },
   {
     "series": "2026 MLB Topps NOW®",

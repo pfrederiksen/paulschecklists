@@ -60,6 +60,12 @@ def unnumbered_product_title(title):
     identity = unnumbered_entertainment_title(title)
     if identity:
         return identity
+    # The reviewed NBA title explicitly prints an empty Card label. Preserve
+    # that blank; the URL/SKU are identity keys, never a source for its number.
+    blank = re.fullmatch(r'(.+?) - (2025-26 NBA Topps NOW®) - Card - PR: ([\d,]+)', title)
+    if blank:
+        return {'series': blank[2], 'family': re.sub(r' - PR: [\d,]+$', '', title),
+                'printRun': blank[3], 'subject': blank[1], 'blankPrintedNumber': True}
     for series in GAMING_SCOPES:
         caption = re.escape(series)
         pattern = rf'.+? - ({caption})(?: - PR:\s*([\d,]+))?' if 'MADDEN' in series else rf'({caption}) - .+?(?: - PR:\s*([\d,]+))?'
@@ -77,6 +83,9 @@ def verified_single_card(title, fields, lines):
                 'Sub Type': 'Cards', 'Product Type': 'Print on Demand',
                 'Product Year': identity['series'][:4]}
     required.update(GAMING_SCOPES.get(identity['series'], {}))
+    if identity.get('blankPrintedNumber'):
+        required.update({'Category': 'Sports', 'Sub Categories': 'Basketball',
+                         'Product Year': '2026', 'Subjects': identity['subject']})
     # Marvel publishes this property explicitly. Disney's reviewed products do
     # not publish a Properties cell; their official title supplies the series.
     if ' Marvel ' in identity['series']:
@@ -87,3 +96,19 @@ def verified_single_card(title, fields, lines):
     if bundle or printed_number or not single_base or not fields.get('Subjects') or any(fields.get(k) != v for k, v in required.items()):
         return None
     return identity
+
+
+def verified_print_run_conflict(title, fields, lines):
+    """Retain a printed MLB identity while selecting neither conflicting run."""
+    match = re.fullmatch(r'(.+?) - (2026 MLB Topps NOW®) - Card (\d+) - PR: ([\d,]+) - PR: ([\d,]+)', title)
+    if not match or match[4] == match[5]:
+        return None
+    required = {'Category': 'Sports', 'Sub Categories': 'Baseball', 'Brand': 'Topps',
+                'Sub Brand': 'Topps NOW®', 'Sub Type': 'Cards',
+                'Product Type': 'Print on Demand', 'Product Year': '2026',
+                'Subjects': match[1]}
+    single_base = any(re.fullmatch(r'(?:\* )?Open[- ]Edition Base Card', line, re.I) for line in lines)
+    if not single_base or any(fields.get(k) != v for k, v in required.items()):
+        return None
+    return {'series': match[2], 'number': match[3], 'subject': match[1],
+            'conflictingPrintRuns': [match[4], match[5]]}

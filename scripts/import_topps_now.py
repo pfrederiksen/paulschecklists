@@ -6,7 +6,7 @@ as evidence; re-running this parser alone does not constitute a fresh source che
 import re,json,hashlib,datetime
 from pathlib import Path
 from urllib.parse import urlparse,unquote
-from topps_now_identity import observation_key, product_family, unnumbered_product_title, verified_single_card, verified_collector_edition
+from topps_now_identity import observation_key, product_family, unnumbered_product_title, verified_single_card, verified_collector_edition, verified_print_run_conflict
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE='https://www.topps.com/collections/topps-now'
 ARCHIVE=SOURCE+'-archive'
@@ -19,6 +19,7 @@ blocks=[]
 def preserve_missing_fields(product, old):
  """Carry forward published facts together with their original evidence."""
  for field in ['printRun','saleFrom','saleUntil','parallels','terms']:
+  if field=='printRun' and product.get('printRunConflict'):continue
   if not product[field] and old[field]:
    product[field]=old[field]
    proof=old.get('fieldEvidence',{}).get(field,old['evidence'])
@@ -54,6 +55,7 @@ for url,block,document in blocks:
  match=re.fullmatch(r'(.+?)\s*-\s*(20\d\d(?:-\d\d)? .+?NOW®.*?) (?:- )?(?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
  single=verified_single_card(title,fields,lines) if document.suffix=='.json' else None
  edition=verified_collector_edition(title,fields,lines) if document.suffix=='.json' else None
+ conflict=verified_print_run_conflict(title,fields,lines) if document.suffix=='.json' else None
  unlabelled_suffix=None
  if not match:
   # An explicit Card number remains usable when an unlabelled numeric
@@ -62,7 +64,7 @@ for url,block,document in blocks:
   if suffix_match:
    name,series,number,unlabelled_suffix=suffix_match.groups();pr=None
    unverified_print_runs.append({'url':url,'title':title,'series':series,'number':number,'unlabelledValue':unlabelled_suffix,'gap':'The official title does not label this numeric suffix as a print run; no print run is assigned from it.'})
- if not match and unlabelled_suffix is None and not single and not edition:
+ if not match and unlabelled_suffix is None and not single and not edition and not conflict:
   unparsed.append({'url':url,'title':title,'gap':'Official title lacks a validated number or has conflicting/unrecognized numbering or print-run text; preserve the gap instead of inferring from the URL.'})
   continue
  if match:name,series,number,pr=match.groups()
@@ -70,6 +72,9 @@ for url,block,document in blocks:
   series,pr=single['series'],single['printRun'];name=fields['Subjects'];number=''
  if edition:
   series,number=edition['series'],edition['number'];name=fields['Subjects'];pr=None
+ if conflict:
+  series,number,name=conflict['series'],conflict['number'],conflict['subject'];pr=None
+  unverified_print_runs.append({'url':url,'title':title,'series':series,'number':number,'conflictingValues':conflict['conflictingPrintRuns'],'gap':'The official title publishes two conflicting labelled print runs. Neither value is selected; the imported print run remains blank.'})
  number=number.rstrip('-')
  if not number and not single:
   unparsed.append({'url':url,'title':title,'gap':'Card number is blank in the official product title.'});continue
@@ -83,6 +88,7 @@ for url,block,document in blocks:
   if sale_start:fields.setdefault('Available From',sale_start[1])
  if fields.get('Subjects'):name=fields['Subjects']
  pr=pr or fields.get('Print Run','')
+ if conflict:pr=''
  if pr and not re.fullmatch(r'[\d,]+',pr):raise ValueError('Unrecognized print run '+pr)
  # Preserve the literal source overview, including per-card thresholds and qualifiers.
  begin=next((j for j,x in enumerate(lines) if x=='Overview'),None)
@@ -93,6 +99,8 @@ for url,block,document in blocks:
  look_for=[x.removeprefix('* ') for x in lines[begin+1:min(end,parallel_heading)] if (x.startswith('* ') or re.match(r'^/\d+\s+.*(?:Redemption|Card)',x)) and not x.startswith('*Parallels')] if begin is not None else []
  tiers=[x for x in lines[begin+1:end] if re.match(r'^[\d,]+\+ Print Run:',x)] if begin is not None else []
  factual=[]
+ if conflict:
+  factual.append('The official title publishes conflicting print-run claims '+ ' and '.join(conflict['conflictingPrintRuns'])+'; neither is selected and the actual print run remains unverified.')
  if edition:
   factual.append('The numbered-to-'+edition['limit']+' specification applies only to this Collector\'s Edition card. A print run and numeric pack odds are not published in the reviewed official page.')
  if look_for:factual.append(('Published sticker types: ' if ' - Sticker # ' in title else 'Published card types: ')+ '; '.join(look_for))
@@ -137,13 +145,15 @@ for url,block,document in blocks:
  evidence={'url':url,'sha256':hashlib.sha256('\n'.join(lines).encode()).hexdigest(),'observed':datetime.datetime.fromtimestamp(document.stat().st_mtime).date().isoformat(),'title':title,'fields':fields,'overview':overview}
  if unlabelled_suffix is not None:evidence['unlabelledTitleSuffix']=unlabelled_suffix
  if document.suffix=='.json':evidence.update(sourceKind='official-browser-product',snapshotFile=str(document.relative_to(ROOT)))
+ if conflict:evidence['conflictingPrintRuns']=conflict['conflictingPrintRuns']
  p={'series':series,'number':number,'name':name,'printRun':pr,'saleFrom':fields.get('Available From',''),'saleUntil':fields.get('Available Until',''),'parallels':parallels,'terms':overview,'source':url,'evidence':evidence}
+ if conflict:p['printRunConflict']=conflict['conflictingPrintRuns']
  if single:p.update(identityKind=identity['identityKind'],family=identity['family'])
  if key in products:
   old=products[key]
   # Official Subjects cells supersede abbreviated product titles.
   if old['name']!=name and not fields.get('Subjects'):p['name']=old['name']
-  if old['printRun'] and not pr:
+  if old['printRun'] and not pr and not conflict:
    if not any(p[f] and not old[f] for f in ['saleFrom','saleUntil','parallels','terms']):continue
   preserve_missing_fields(p,old)
  products[key]=p
@@ -173,7 +183,7 @@ for key,p in products.items():
  if key in merged:
   old=merged[key]
   if p['evidence'].get('sourceKind')=='official-archive-title' and old['evidence'].get('sourceKind')!='official-archive-title':
-   if not old['printRun'] and p['printRun']:old['printRun']=p['printRun'];old.setdefault('archiveEvidence',[]).append(p['evidence'])
+   if not old['printRun'] and p['printRun'] and not old.get('printRunConflict'):old['printRun']=p['printRun'];old.setdefault('archiveEvidence',[]).append(p['evidence'])
    continue
   preserve_missing_fields(p,old)
  merged[key]=p
@@ -198,6 +208,8 @@ edition_products={p['source']:p for p in products if verified_collector_edition(
 unparsed=[gap for gap in unparsed if not (gap['url'] in single_products and
           (unnumbered_product_title(gap['title']) or {}).get('family')==product_family(single_products[gap['url']]))]
 unparsed=[gap for gap in unparsed if not (gap['url'] in edition_products and gap['title']==edition_products[gap['url']]['evidence']['title'])]
+conflict_products={p['source']:p for p in products if p.get('printRunConflict')}
+unparsed=[gap for gap in unparsed if not (gap['url'] in conflict_products and gap['title']==conflict_products[gap['url']]['evidence']['title'])]
 cutoff='2026-01-01'
 pending=[{'series':p['series'],'number':p['number'],'url':p['source'],'saleFrom':p['saleFrom'],'gap':'Official sale date not yet verified; excluded from the calendar-year backfill.'} for p in products if not p['saleFromISO']]
 excluded=[{'series':p['series'],'number':p['number'],'saleFromISO':p['saleFromISO'],'url':p['source']} for p in products if p['saleFromISO'] and p['saleFromISO']<cutoff]

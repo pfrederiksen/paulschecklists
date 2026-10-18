@@ -444,7 +444,7 @@ if entertainment_source.exists():
     urls={p['source'] for p in reviewed}
     assert not urls & {p['url'] for p in review['pendingProductReviews']}
     assert not urls & {p['url'] for p in gaps['unparsedNumberedTitles']}
-    assert any('Anthony Edwards' in p['title'] for p in review['pendingProductReviews'])
+    assert any('Anthony Edwards' in p['title'] for p in review.get('unresolvedFieldReviews',review['pendingProductReviews']))
     print('Verified five Disney/Star Wars NOW single-card backfills: exact subjects, sale dates, labelled runs, seven foil parallels, literal conditional thresholds, separate product families, isolated Tim Allen/Tom Hanks/Pedro Pascal/Sam Witwer terms and blank card numbers; no complete-history or pack-odds claim.')
 
 bundesliga_source=root/'data/catalog-sources/topps-now-backfill-browser-20261018-0200-bundesliga.json'
@@ -474,7 +474,7 @@ if bundesliga_source.exists():
     assert all(p['status']=='published' for p in reconcile(listing,observations,aggregate))
     gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
     assert not {p['source'] for p in cards} & {p['url'] for p in gaps['unparsedNumberedTitles']}
-    assert any('Chase Burns' in p['title'] for p in gaps['unparsedNumberedTitles']),'Conflicting double-PR text must remain unresolved'
+    assert any('Chase Burns' in p['title'] for p in gaps['unparsedNumberedTitles']+gaps['unverifiedPrintRuns']),'Conflicting double-PR text must remain unresolved'
     entry=next(s for s in inventory if s['title']=='2025-26 Bundesliga Topps NOW®')
     assert entry['sport']=='soccer' and entry['rowCount']>=102 and not entry['coverageComplete']
     print('Verified Bundesliga NOW 131/132/145: literal missing-space titles, printed numbers, accented Subjects, February/March sale dates, runs295/115/742, five foil terms and conditional thresholds; no URL-derived facts or pack odds.')
@@ -558,3 +558,55 @@ if collector_source.exists():
     assert reconcile(listing,observations,reduced)[0]['status']=='missing-published-row'
     assert not any(p['url']==card['source'] for p in json.loads((root/'data/topps-now-import-gaps.json').read_text())['unparsedNumberedTitles'])
     print('Verified Ohtani Collector\'s Edition 428: exact numbered-to-99 specification, July 8 sale start, separate regular/edition identities and blank unpublished print run/end date; no pack odds or complete-history claim.')
+
+
+title_fields_source=root/'data/catalog-sources/topps-now-backfill-browser-20261018-1700-title-fields.json'
+if title_fields_source.exists():
+    from topps_now_identity import verified_print_run_conflict,unnumbered_product_title
+    retained=json.loads(title_fields_source.read_text());assert len(retained['products'])==2
+    by_source={p['source']:p for p in observations}
+    review=json.loads((root/'data/official-source-reviews/now-archive-title-review-20261017.json').read_text())
+    gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
+    cards=[]
+    for product in retained['products']:
+        lines=product['lines'];fields=dict(line.split('  | ',1) for line in lines if '  | ' in line)
+        card=by_source[product['url']];cards.append(card)
+        assert card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+        assert card['evidence']['title']==lines[0] and card['name']==fields['Subjects']
+        assert card['saleFrom']==fields['Available From'] and card['saleUntil']==fields['Available Until']
+        assert len(card['parallels'])==5 and card['parallels'][0]=='/50 Gold Foil' and card['parallels'][-1]=='/1 FoilFractor'
+        assert 'Numeric pack odds are not published.' in card['terms']
+        assert any(x['url']==card['source'] for x in review['unresolvedFieldReviews'])
+        assert not any(x['url']==card['source'] for x in gaps['unparsedNumberedTitles'])
+        if fields['Subjects']=='Anthony Edwards':
+            assert verified_single_card(lines[0],fields,lines)
+            assert card['number']=='' and card['printRun']=='1057' and card['saleFromISO']=='2026-05-05'
+            assert card['series']=='2025-26 NBA Topps NOW®' and card['identityKind']=='official-single-card-product'
+            assert card['family']=='Anthony Edwards - 2025-26 NBA Topps NOW® - Card'
+            assert '294' not in card['number'] and 'Card number is not published' in card['terms']
+            assert not verified_single_card(lines[0],{**fields,'Card number':'294'},lines)
+            assert not verified_single_card(lines[0],{**fields,'Product Type':'Multi-card Set'},lines)
+            assert not verified_single_card(lines[0],{**fields,'Subjects':'Another player'},lines)
+            assert not verified_single_card(lines[0],fields,[x for x in lines if 'Open-Edition Base Card' not in x])
+            assert 'Auto-Relic' not in card['terms']
+        else:
+            conflict=verified_print_run_conflict(lines[0],fields,lines)
+            assert conflict and conflict['conflictingPrintRuns']==['3477','236']
+            assert card['series']=='2026 MLB Topps NOW®' and card['number']=='29' and card['printRun']==''
+            assert card['saleFromISO']=='2026-03-31' and card['saleUntil']=='Apr 1, 2026'
+            assert card['printRunConflict']==card['evidence']['conflictingPrintRuns']==['3477','236']
+            assert not card.get('fieldEvidence',{}).get('printRun')
+            assert any(g['url']==card['source'] and g.get('conflictingValues')==['3477','236'] for g in gaps['unverifiedPrintRuns'])
+            assert '3477 and 236' in card['terms'] and 'neither is selected' in card['terms']
+            assert all(n+' Auto-Relic Redemption Card' in card['terms'] for n in ['/10','/5','/1'])
+            assert not unnumbered_product_title(lines[0])
+            assert not verified_print_run_conflict(lines[0],{**fields,'Sub Categories':'Basketball'},lines)
+            assert not verified_print_run_conflict(lines[0],fields,[x for x in lines if 'Open-Edition Base Card' not in x])
+    aggregate=json.loads((root/'data/imports/topps-now-2026.json').read_text())
+    listing={'listings':[{'reportedProductCount':2,'products':[{'url':p['source'],'title':p['evidence']['title']} for p in cards]}]}
+    assert all(p['status']=='published' for p in reconcile(listing,observations,aggregate))
+    for card in cards:
+        reduced={**aggregate,'rows':[r for r in aggregate['rows'] if r[8]!=card['source']]}
+        assert sum(p['status']=='missing-published-row' for p in reconcile(listing,observations,reduced))==1
+    assert not review['pendingProductReviews'] and not review['historyComplete']
+    print('Verified Anthony Edwards with a blank printed number and PR1057; Chase Burns printed card29 with both conflicting runs retained and no selected print run. Exact dates, five foils each and three isolated auto-relic terms reconcile with fresh official UI evidence; history stays partial.')
