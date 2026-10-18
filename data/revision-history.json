@@ -13452,5 +13452,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-venezuela-wbc-championship-topps-now": {
+    "state": {
+      "checklistHash": "5041b1c9ba03e90e75a0b9cc4f7ada13eb8a50760fdecbd94ddae35ae83cd319",
+      "oddsHash": null,
+      "rows": 27,
+      "odds": 0,
+      "specificationRows": 25
+    },
+    "fingerprint": "b3881a654cf3c791b6b09abf559c1a315cc56acc2aa10590b05a66fd595bfe81",
+    "events": [
+      {
+        "at": "2026-10-18T13:26:01.261Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-topps-now%C2%AE-baseball-team-venezuela-world-baseball-classic-championship-set",
+        "snapshot": {
+          "checklistHash": "5041b1c9ba03e90e75a0b9cc4f7ada13eb8a50760fdecbd94ddae35ae83cd319",
+          "oddsHash": null,
+          "rows": 27,
+          "odds": 0,
+          "specificationRows": 25
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

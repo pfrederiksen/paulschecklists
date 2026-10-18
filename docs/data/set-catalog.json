@@ -15349,6 +15349,43 @@
         "hasCards": true,
         "unit": "source rows"
       }
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team Venezuela – World Baseball Classic Championship Set - PR:1084",
+      "manufacturer": "Topps / Bowman",
+      "sport": "baseball",
+      "year": "2026",
+      "slug": "topps-bowman-2026-venezuela-wbc-championship-topps-now",
+      "page": "sets/topps-bowman-2026-venezuela-wbc-championship-topps-now.html",
+      "sourcePage": "https://www.topps.com/products/2026-topps-now%C2%AE-baseball-team-venezuela-world-baseball-classic-championship-set",
+      "checklistUrl": "https://www.topps.com/products/2026-topps-now%C2%AE-baseball-team-venezuela-world-baseball-classic-championship-set",
+      "releaseStatus": "Unverified",
+      "releaseDate": null,
+      "verified": "2026-10-18",
+      "tableData": "data/imports/topps-bowman-2026-venezuela-wbc-championship-topps-now.json",
+      "status": "Source table",
+      "importKind": "topps-web-roster",
+      "dedicatedParser": "scripts/import_topps_now_venezuela_champions_2026.py",
+      "rowCount": 27,
+      "sections": 4,
+      "parallelData": true,
+      "publishedOdds": false,
+      "sha256": "5041b1c9ba03e90e75a0b9cc4f7ada13eb8a50760fdecbd94ddae35ae83cd319",
+      "coverageComplete": false,
+      "description": "The official championship product publishes 15 base subjects, four Parallel Subjects, four image-variation subjects and four autograph subjects. All 27 entries are imported under their original headings with blank unpublished card numbers. Six product foil limits /99 to /1 retain their scope without inferred subject/color joins. PR1084 and March 18–25 sale dates belong to the bundle; general release and historical coverage remain unverified.",
+      "catalogEvidence": "Fresh official Description paragraphs publish four distinct rosters, preserving Ronald Acuña Jr., Eugenio Suárez, separate William/Willson Contreras names and the collective Team Venezuela base entry. Maikel Garcia is in Parallel Subjects but not the image/autograph lists; Wilyer Abreu is in the autograph list but not Parallel Subjects. No card numbers, team columns, Rookie marks or linked checklist document are published on the reviewed page. Six foil limits and image-variation context remain qualified; no autograph ladder or short-print quantity is invented. Bundle configuration, bundle PR1084, sale dates and general release remain separate.",
+      "dataAudit": "All 27 original DOM paragraph subject cells reconcile independently with the complete Description text. The six original foil/number pairs reconcile with Overview paragraph cells. Exact roster membership and accents remain visible and exportable; no numbering, teams, rookies, pack odds or subject/color combinations are inferred.",
+      "presentation": {
+        "rows": 27,
+        "sections": 4,
+        "formats": 0,
+        "specifications": true,
+        "featured": false,
+        "odds": null,
+        "hasOdds": false,
+        "hasCards": true,
+        "unit": "source rows"
+      }
     }
   ],
   "coverage": {

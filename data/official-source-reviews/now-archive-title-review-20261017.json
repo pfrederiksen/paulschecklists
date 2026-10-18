@@ -93,11 +93,6 @@
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
-      "title": "2026 Topps NOW® Baseball – Team Venezuela – World Baseball Classic Championship Set - PR:1084",
-      "url": "https://www.topps.com/products/2026-topps-now%C2%AE-baseball-team-venezuela-world-baseball-classic-championship-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "2026 Topps NOW® Baseball – Team United States – World Baseball Classic Team Sets - PR: 20322",
       "url": "https://www.topps.com/products/2026-topps-now-baseball-team-united-states-world-baseball-classic-team-sets",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -295,5 +290,12 @@
     "snapshot": "data/parallel-audit-sources/nhl-now-rookie-collection-product-20261018.json",
     "publishedSet": "topps-bowman-2026-nhl-topps-now-rookie-collection",
     "resolution": "All ten original subject/team pairs imported from fresh official Overview paragraphs, preserving Montréal and the complete double-hyphen cells. Printed sticker IDs and per-row Rookie fields are absent and not inferred. PR600 labels the whole bundle; the literal ten stickers PLUS one parallel configuration is retained. Four Ice look-for terms stay qualified without per-subject eligibility joins. April 20–27 sale dates, the 2025–26 title and Product Year 2026 remain separate from an unverified general release. No pack odds is published; history remains partial."
+  },
+  "resolvedVenezuelaWbcChampionship": {
+    "url": "https://www.topps.com/products/2026-topps-now%C2%AE-baseball-team-venezuela-world-baseball-classic-championship-set",
+    "title": "2026 Topps NOW® Baseball – Team Venezuela – World Baseball Classic Championship Set - PR:1084",
+    "snapshot": "data/parallel-audit-sources/venezuela-wbc-championship-now-2026-product-20261018.json",
+    "publishedSet": "topps-bowman-2026-venezuela-wbc-championship-topps-now",
+    "resolution": "All 27 original Description entries imported under four literal headings: fifteen base, four Parallel Subjects, four image-variation subjects and four autograph subjects. Blank unpublished IDs and distinct roster memberships are preserved, including Maikel Garcia and Wilyer Abreu scope differences. Six product foil limits remain qualified without subject/color joins; image-variation quantity and autograph limits are unstated. Bundle PR1084 and March 18–25 sale dates do not supply per-card runs, pack odds or general release. Historical coverage stays partial."
   }
 }

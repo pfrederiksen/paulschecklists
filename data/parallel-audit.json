@@ -5946,6 +5946,20 @@
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-venezuela-wbc-championship-topps-now",
+      "title": "2026 Topps NOW® Baseball – Team Venezuela – World Baseball Classic Championship Set - PR:1084",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2026-topps-now%C2%AE-baseball-team-venezuela-world-baseball-classic-championship-set",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
     }
   ]
 }
