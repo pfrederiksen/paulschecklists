@@ -5862,6 +5862,88 @@
   },
   {
     "series": "2025-26 Bundesliga Topps NOW®",
+    "number": "131",
+    "name": "Fábio Silva",
+    "printRun": "295",
+    "saleFrom": "Feb 23, 2026",
+    "saleUntil": "Mar 2, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/fabio-silva-2025-26-bundesliga-topps-now%C2%AE-card-131",
+    "evidence": {
+      "url": "https://www.topps.com/products/fabio-silva-2025-26-bundesliga-topps-now%C2%AE-card-131",
+      "sha256": "6494962e541cc7b42ab83bd7c67cfc2ac898e10410d89ddce407a3feb63eb9a2",
+      "observed": "2026-10-17",
+      "title": "Fábio Silva- 2025-26 Bundesliga Topps NOW® - Card 131 - PR: 295",
+      "fields": {
+        "SKU": "ARTBL-16C2S-26TN-0131-QTY1",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Fábio Silva",
+        "Properties": "Borussia Dortmund",
+        "Product Type": "Print on Demand",
+        "Available From": "Feb 23, 2026",
+        "Available Until": "Mar 2, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-0200-bundesliga.json"
+    },
+    "saleFromISO": "2026-02-23"
+  },
+  {
+    "series": "2025-26 Bundesliga Topps NOW®",
+    "number": "132",
+    "name": "Arijon Ibrahimović",
+    "printRun": "115",
+    "saleFrom": "Feb 23, 2026",
+    "saleUntil": "Mar 2, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/arijon-ibrahimovic-2025-26-bundesliga-topps-now%C2%AE-card-132",
+    "evidence": {
+      "url": "https://www.topps.com/products/arijon-ibrahimovic-2025-26-bundesliga-topps-now%C2%AE-card-132",
+      "sha256": "ad429121105fff9c1f9812225f223a53f657c6c0f80463ca9f97370b13a94362",
+      "observed": "2026-10-17",
+      "title": "Arijon Ibrahimović- 2025-26 Bundesliga Topps NOW® - Card 132 - PR: 115",
+      "fields": {
+        "SKU": "ARTBL-16C2S-26TN-0132-QTY1",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Arijon Ibrahimović",
+        "Properties": "1. FC Heidenheim 1846",
+        "Product Type": "Print on Demand",
+        "Available From": "Feb 23, 2026",
+        "Available Until": "Mar 2, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-0200-bundesliga.json"
+    },
+    "saleFromISO": "2026-02-23"
+  },
+  {
+    "series": "2025-26 Bundesliga Topps NOW®",
     "number": "133",
     "name": "Marlon Ritter",
     "printRun": "483",
@@ -6325,6 +6407,47 @@
         "Available Until": "Mar 17, 2026"
       },
       "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
+    },
+    "saleFromISO": "2026-03-10"
+  },
+  {
+    "series": "2025-26 Bundesliga Topps NOW®",
+    "number": "145",
+    "name": "Patrice Čović",
+    "printRun": "742",
+    "saleFrom": "Mar 10, 2026",
+    "saleUntil": "Mar 17, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/patrice-covic-2025-26-bundesliga-topps-now%C2%AE-card-145",
+    "evidence": {
+      "url": "https://www.topps.com/products/patrice-covic-2025-26-bundesliga-topps-now%C2%AE-card-145",
+      "sha256": "9e9b8307eee0ddacaed97ef10bbf0bf6bbb9a47ef00c5516fdffbadcaabaf2ef",
+      "observed": "2026-10-17",
+      "title": "Patrice Čović- 2025-26 Bundesliga Topps NOW® - Card 145 - PR:742",
+      "fields": {
+        "SKU": "ARTBL-16C2S-26TN-0145-QTY1",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Patrice Čović",
+        "Properties": "SV Werder Bremen",
+        "Product Type": "Print on Demand",
+        "Available From": "Mar 10, 2026",
+        "Available Until": "Mar 17, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-0200-bundesliga.json"
     },
     "saleFromISO": "2026-03-10"
   },

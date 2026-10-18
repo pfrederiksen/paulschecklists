@@ -48,16 +48,16 @@ for url,block,document in blocks:
  for line in lines:
   if '  | ' in line:
    key,value=line.split('  | ',1);fields[key.strip()]=value.splitlines()[0].strip()
- titles=[x for x in lines if ((' Card ' in x or ' - Sticker # ' in x) and re.search(r' - 20\d\d.*NOW®',x)) or unnumbered_entertainment_title(x.removeprefix('## '))]
+ titles=[x for x in lines if ((' Card ' in x or ' - Sticker # ' in x) and re.search(r'\s*-\s*20\d\d.*NOW®',x)) or unnumbered_entertainment_title(x.removeprefix('## '))]
  title=next((x.removeprefix('## ') for x in titles if x.startswith('## ')),titles[0] if titles else None)
  if not title:continue
- match=re.fullmatch(r'(.+?) - (20\d\d(?:-\d\d)? .+?NOW®.*?) (?:- )?(?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
+ match=re.fullmatch(r'(.+?)\s*-\s*(20\d\d(?:-\d\d)? .+?NOW®.*?) (?:- )?(?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
  single=verified_single_card(title,fields,lines) if document.suffix=='.json' else None
  unlabelled_suffix=None
  if not match:
   # An explicit Card number remains usable when an unlabelled numeric
   # suffix follows it. That suffix is not a published print-run claim.
-  suffix_match=re.fullmatch(r'(.+?) - (20\d\d(?:-\d\d)? .+?NOW®.*?) - Card ([A-Za-z0-9-]+?) - ([\d,]+)',title)
+  suffix_match=re.fullmatch(r'(.+?)\s*-\s*(20\d\d(?:-\d\d)? .+?NOW®.*?) - Card ([A-Za-z0-9-]+?) - ([\d,]+)',title)
   if suffix_match:
    name,series,number,unlabelled_suffix=suffix_match.groups();pr=None
    unverified_print_runs.append({'url':url,'title':title,'series':series,'number':number,'unlabelledValue':unlabelled_suffix,'gap':'The official title does not label this numeric suffix as a print run; no print run is assigned from it.'})
@@ -150,7 +150,7 @@ if archive_index.exists():
    title=line.split(', Value:',1)[0]
    title=re.sub(r'^(?:\d+ link )','',title)
    title=re.sub(r' (?:Look for .*?|Sold out)(?: Sold out)?$','',title)
-   match=re.fullmatch(r'(.+?) - (20\d\d(?:-\d\d)? .+?NOW®.*?) (?:- )?(?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
+   match=re.fullmatch(r'(.+?)\s*-\s*(20\d\d(?:-\d\d)? .+?NOW®.*?) (?:- )?(?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
    if not match:continue
    name,series,number,pr=match.groups();number=number.rstrip('-');key=(series,number)
    if not number:continue

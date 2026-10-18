@@ -446,3 +446,35 @@ if entertainment_source.exists():
     assert not urls & {p['url'] for p in gaps['unparsedNumberedTitles']}
     assert any('Anthony Edwards' in p['title'] for p in review['pendingProductReviews'])
     print('Verified five Disney/Star Wars NOW single-card backfills: exact subjects, sale dates, labelled runs, seven foil parallels, literal conditional thresholds, separate product families, isolated Tim Allen/Tom Hanks/Pedro Pascal/Sam Witwer terms and blank card numbers; no complete-history or pack-odds claim.')
+
+bundesliga_source=root/'data/catalog-sources/topps-now-backfill-browser-20261018-0200-bundesliga.json'
+if bundesliga_source.exists():
+    retained=json.loads(bundesliga_source.read_text());assert len(retained['products'])==3
+    by_url={p['source']:p for p in observations}
+    expected=[('145','Patrice Čović','742','2026-03-10','Mar 17, 2026','SV Werder Bremen'),('132','Arijon Ibrahimović','115','2026-02-23','Mar 2, 2026','1. FC Heidenheim 1846'),('131','Fábio Silva','295','2026-02-23','Mar 2, 2026','Borussia Dortmund')]
+    cards=[]
+    for product,(number,subject,print_run,start,end,properties) in zip(retained['products'],expected):
+        lines=[line.strip() for line in product['lines']]
+        fields=dict(line.split('  | ',1) for line in lines if '  | ' in line)
+        card=by_url[product['url']];cards.append(card)
+        assert card['series']=='2025-26 Bundesliga Topps NOW®' and card['number']==number
+        assert card['name']==subject==fields['Subjects'] and card['printRun']==print_run
+        assert card['saleFromISO']==start and card['saleUntil']==end
+        assert card['saleFrom']==fields['Available From'] and card['saleUntil']==fields['Available Until']
+        assert card['evidence']['fields']==fields and fields['Properties']==properties
+        assert card['evidence']['title']==lines[0] and subject+'- 2025-26' in lines[0]
+        assert card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+        assert card['parallels']==['/50 Gold Foil','/25 Orange Foil','/10 Black Foil','/5 Red Foil','/1 FoilFractor']
+        for line in lines:
+            if line.startswith('* ') or re.match(r'^[\d,]+\+ Print Run:',line):assert line.removeprefix('* ') in card['terms']
+        assert 'Numeric pack odds are not published.' in card['terms']
+        assert 'Autograph' not in card['terms']
+    listing={'listings':[{'reportedProductCount':3,'products':[{'url':p['source'],'title':p['evidence']['title']} for p in cards]}]}
+    aggregate=json.loads((root/'data/imports/topps-now-2026.json').read_text())
+    assert all(p['status']=='published' for p in reconcile(listing,observations,aggregate))
+    gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
+    assert not {p['source'] for p in cards} & {p['url'] for p in gaps['unparsedNumberedTitles']}
+    assert any('Chase Burns' in p['title'] for p in gaps['unparsedNumberedTitles']),'Conflicting double-PR text must remain unresolved'
+    entry=next(s for s in inventory if s['title']=='2025-26 Bundesliga Topps NOW®')
+    assert entry['sport']=='soccer' and entry['rowCount']>=102 and not entry['coverageComplete']
+    print('Verified Bundesliga NOW 131/132/145: literal missing-space titles, printed numbers, accented Subjects, February/March sale dates, runs295/115/742, five foil terms and conditional thresholds; no URL-derived facts or pack odds.')

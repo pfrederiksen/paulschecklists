@@ -138,11 +138,6 @@
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
-      "title": "Patrice Čović- 2025-26 Bundesliga Topps NOW® - Card 145 - PR:742",
-      "url": "https://www.topps.com/products/patrice-covic-2025-26-bundesliga-topps-now%C2%AE-card-145",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "2026 Topps NOW® Baseball – Team United States – World Baseball Classic Team Sets - PR: 20322",
       "url": "https://www.topps.com/products/2026-topps-now-baseball-team-united-states-world-baseball-classic-team-sets",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -165,16 +160,6 @@
     {
       "title": "2026 Topps NOW® Baseball – Team Korea – World Baseball Classic Team Sets - PR: 1086",
       "url": "https://www.topps.com/products/2026-topps-now-baseball-team-korea-world-baseball-classic-team-sets",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "Arijon Ibrahimović- 2025-26 Bundesliga Topps NOW® - Card 132 - PR: 115",
-      "url": "https://www.topps.com/products/arijon-ibrahimovic-2025-26-bundesliga-topps-now%C2%AE-card-132",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "Fábio Silva- 2025-26 Bundesliga Topps NOW® - Card 131 - PR: 295",
-      "url": "https://www.topps.com/products/fabio-silva-2025-26-bundesliga-topps-now%C2%AE-card-131",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
@@ -256,6 +241,26 @@
         "url": "https://www.topps.com/products/2026-star-wars-topps-now%C2%AE-maul-shadow-lord",
         "title": "2026 Star Wars Topps NOW® Maul – Shadow Lord - PR: 11984",
         "resolution": "Official product page explicitly describes one Open-Edition Base Card and publishes Subjects, sale windows, labelled print run and product-specific terms. Card number remains blank; URL supplies internal identity only."
+      }
+    ]
+  },
+  "resolvedBundesligaTitles": {
+    "snapshot": "data/catalog-sources/topps-now-backfill-browser-20261018-0200-bundesliga.json",
+    "products": [
+      {
+        "url": "https://www.topps.com/products/patrice-covic-2025-26-bundesliga-topps-now%C2%AE-card-145",
+        "title": "Patrice Čović- 2025-26 Bundesliga Topps NOW® - Card 145 - PR:742",
+        "resolution": "Fresh official product Specs verifies Subjects and sale dates; literal title prints the series, card number and labelled print run. Preserve the missing separator space and source accents; no URL-derived identity."
+      },
+      {
+        "url": "https://www.topps.com/products/arijon-ibrahimovic-2025-26-bundesliga-topps-now%C2%AE-card-132",
+        "title": "Arijon Ibrahimović- 2025-26 Bundesliga Topps NOW® - Card 132 - PR: 115",
+        "resolution": "Fresh official product Specs verifies Subjects and sale dates; literal title prints the series, card number and labelled print run. Preserve the missing separator space and source accents; no URL-derived identity."
+      },
+      {
+        "url": "https://www.topps.com/products/fabio-silva-2025-26-bundesliga-topps-now%C2%AE-card-131",
+        "title": "Fábio Silva- 2025-26 Bundesliga Topps NOW® - Card 131 - PR: 295",
+        "resolution": "Fresh official product Specs verifies Subjects and sale dates; literal title prints the series, card number and labelled print run. Preserve the missing separator space and source accents; no URL-derived identity."
       }
     ]
   }
