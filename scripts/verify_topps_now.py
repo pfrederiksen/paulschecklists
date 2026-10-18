@@ -1,6 +1,6 @@
 """Reconcile NOW shared tables against retained official observations."""
 import json, hashlib, re, runpy
-from urllib.parse import urlparse
+from urllib.parse import urlparse, unquote
 from pathlib import Path
 from topps_now_identity import observation_key, product_family, verified_single_card, verified_collector_edition
 
@@ -23,7 +23,10 @@ if listing_path.exists():
     # An unchanged listing must still reveal a missing public row.
     published_index=next((i for i,p in enumerate(active) if p['status']=='published'),None)
     if published_index is not None:
-        sample=next(p for p in observations if p['source']==active[published_index]['url'])
+        active_url=urlparse(active[published_index]['url'])
+        assert active_url.hostname in {'www.topps.com','topps.com'}
+        sample=next(p for p in observations if urlparse(p['source']).hostname=='www.topps.com' and
+                    unquote(urlparse(p['source']).path).rstrip('/')==unquote(active_url.path).rstrip('/'))
         reduced={**aggregate,'rows':[r for r in aggregate['rows'] if (r[0],r[1])!=(sample['series'],sample['number'])]}
         assert reconcile(listing,observations,reduced)[published_index]['status']=='missing-published-row'
         assert reconcile(listing,[p for p in observations if p is not sample],aggregate)[published_index]['status']=='missing-observation'

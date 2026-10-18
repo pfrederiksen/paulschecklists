@@ -14490,5 +14490,86 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "panini-2026-panini-score-a-treat-miscellaneous": {
+    "state": {
+      "checklistHash": "aa6d79c7163e86a6195f7ef52653d7a3426c4039af53e1009830cafb0269a19e",
+      "oddsHash": null,
+      "rows": 4502,
+      "odds": 0,
+      "specificationRows": 2970
+    },
+    "fingerprint": "ddd67f8ab829448efb6a4c47b2b4ef722c941c371f0e1b607b79e2537a3560d3",
+    "events": [
+      {
+        "at": "2026-10-18T21:39:44.528Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "aa6d79c7163e86a6195f7ef52653d7a3426c4039af53e1009830cafb0269a19e",
+          "oddsHash": null,
+          "rows": 4502,
+          "odds": 0,
+          "specificationRows": 2970
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-donruss-racing": {
+    "state": {
+      "checklistHash": "336626f4d219589322e829da7b62b1332855d5ae9efae3635f66419ca5be6799",
+      "oddsHash": null,
+      "rows": 8612,
+      "odds": 0,
+      "specificationRows": 6622
+    },
+    "fingerprint": "9f7875dd2228ff146d6ce53493981976a0018e839bb7d0dc13c4a73ea133996c",
+    "events": [
+      {
+        "at": "2026-10-18T21:39:44.538Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "336626f4d219589322e829da7b62b1332855d5ae9efae3635f66419ca5be6799",
+          "oddsHash": null,
+          "rows": 8612,
+          "odds": 0,
+          "specificationRows": 6622
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-par-three-liv-golf": {
+    "state": {
+      "checklistHash": null,
+      "oddsHash": null,
+      "rows": 0,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "events": [
+      {
+        "at": "2026-10-18T21:39:44.541Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

@@ -1,0 +1,413 @@
+{
+  "observed": "2026-10-18",
+  "heartbeatStartedUtc": "2026-10-18T21:21:57.788Z",
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "method": "Fresh official checklist UI reads through native Safari accessibility controls. Each sport/year/brand/program was selected and Download Full Checklist was clicked. Original UTF-8 CSV files were read from the filenames displayed in Safari Downloads; bytes are retained unchanged.",
+  "inventory2026": [
+    {
+      "sport": "Baseball",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss",
+        "Elite"
+      ]
+    },
+    {
+      "sport": "Baseball",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Immaculate Collection",
+        "Prizm",
+        "Stars and Stripes Prizm"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "WNBA Donruss"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "WNBA Prizm"
+      ]
+    },
+    {
+      "sport": "Fight",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "MLW Ring Royalty",
+        "PFL Contenders"
+      ]
+    },
+    {
+      "sport": "Football",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss"
+      ]
+    },
+    {
+      "sport": "Football",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Obsidian"
+      ]
+    },
+    {
+      "sport": "Golf",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Contenders",
+        "Par Three LIV"
+      ]
+    },
+    {
+      "sport": "Miscellaneous",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "90’s Pop Culture Box Set"
+      ]
+    },
+    {
+      "sport": "Miscellaneous",
+      "year": "2026",
+      "brand": "Score",
+      "programs": [
+        "Score-A-Treat"
+      ]
+    },
+    {
+      "sport": "Racing",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss"
+      ]
+    },
+    {
+      "sport": "Racing",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Select",
+        "Track Kings",
+        "Turn Four"
+      ]
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss NWSL"
+      ]
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Luminance England",
+        "Luminance France",
+        "Luminance Germany",
+        "Obsidian K League",
+        "Panini Intl England",
+        "Panini Intl France",
+        "Panini Intl Germany",
+        "Panini Intl Mexico",
+        "Prizm World Cup (25-26)",
+        "Revolution K League"
+      ]
+    }
+  ],
+  "availableYears": [
+    {
+      "sport": "Baseball",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008",
+        "2005",
+        "2004"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009"
+      ]
+    },
+    {
+      "sport": "Entertainment",
+      "years": [
+        "2025",
+        "2024",
+        "2023",
+        "2021",
+        "2020",
+        "2019",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008",
+        "2007"
+      ]
+    },
+    {
+      "sport": "Fight",
+      "years": [
+        "2026",
+        "2025"
+      ]
+    },
+    {
+      "sport": "Football",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008",
+        "2007",
+        "2006",
+        "2005",
+        "2004"
+      ]
+    },
+    {
+      "sport": "Golf",
+      "years": [
+        "2026",
+        "2025",
+        "2024"
+      ]
+    },
+    {
+      "sport": "Hockey",
+      "years": [
+        "2013",
+        "2012",
+        "2011",
+        "2010"
+      ]
+    },
+    {
+      "sport": "Miscellaneous",
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "sport": "Racing",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016"
+      ]
+    },
+    {
+      "sport": "Soccer",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015"
+      ]
+    },
+    {
+      "sport": "UFC",
+      "years": [
+        "2023",
+        "2022",
+        "2021"
+      ]
+    },
+    {
+      "sport": "WWE",
+      "years": [
+        "2024",
+        "2023",
+        "2022"
+      ]
+    }
+  ],
+  "exports": [
+    {
+      "sourceSelection": {
+        "sport": "Miscellaneous",
+        "year": "2026",
+        "brand": "Score",
+        "program": "Score-A-Treat"
+      },
+      "filename": "2026 Score Score-A-Treat (Miscellaneous).csv",
+      "sha256": "aa6d79c7163e86a6195f7ef52653d7a3426c4039af53e1009830cafb0269a19e",
+      "rows": 4502,
+      "families": 48,
+      "numberedRows": 2970,
+      "headers": [
+        "SPORT",
+        "YEAR",
+        "BRAND",
+        "PROGRAM",
+        "CARD SET",
+        "ATHLETE",
+        "TEAM",
+        "POSITION",
+        "CARD NUMBER",
+        "SEQUENCE"
+      ],
+      "retainedCsv": "data/official-panini/panini-2026-panini-score-a-treat-miscellaneous.csv",
+      "bytes": 504047,
+      "officialCardsetCount": 48
+    },
+    {
+      "sourceSelection": {
+        "sport": "Racing",
+        "year": "2026",
+        "brand": "Donruss",
+        "program": "Donruss"
+      },
+      "filename": "2026 Donruss Donruss (Racing).csv",
+      "sha256": "336626f4d219589322e829da7b62b1332855d5ae9efae3635f66419ca5be6799",
+      "rows": 8612,
+      "families": 240,
+      "numberedRows": 6622,
+      "headers": [
+        "SPORT",
+        "YEAR",
+        "BRAND",
+        "PROGRAM",
+        "CARD SET",
+        "ATHLETE",
+        "TEAM",
+        "POSITION",
+        "CARD NUMBER",
+        "SEQUENCE"
+      ],
+      "retainedCsv": "data/official-panini/panini-2026-panini-donruss-racing.csv",
+      "bytes": 1152355,
+      "officialCardsetCount": 240
+    },
+    {
+      "sourceSelection": {
+        "sport": "Golf",
+        "year": "2026",
+        "brand": "Panini",
+        "program": "Par Three LIV"
+      },
+      "filename": "2026 Panini Par Three LIV (Golf).csv",
+      "sha256": "686188d1aa115b1eb78922d8c0502b7aceccde3ab17fb63607ad7953ecd01f95",
+      "rows": 0,
+      "families": 0,
+      "numberedRows": 0,
+      "headers": [
+        "SPORT",
+        "YEAR",
+        "BRAND",
+        "PROGRAM",
+        "CARD SET",
+        "ATHLETE",
+        "TEAM",
+        "POSITION",
+        "CARD NUMBER",
+        "SEQUENCE"
+      ],
+      "retainedCsv": "data/official-panini/pending/panini-2026-panini-par-three-liv-golf.csv",
+      "bytes": 96,
+      "officialCardsetCount": 0
+    }
+  ],
+  "golfGap": {
+    "sourceSelection": {
+      "sport": "Golf",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Par Three LIV"
+    },
+    "officialCardsetCount": 0,
+    "emptyState": "NO DATA FOUND",
+    "exportRows": 0,
+    "gap": "The official program selector lists Par Three LIV, but its cardset selector has zero suggestions and its full CSV contains only headers. Published card subjects, numbers, parallels and sequence values are unavailable; retain a source-only page and recheck the official source."
+  },
+  "coverage": "All 12 official sport selectors and every visible 2026 brand/program combination were read. No 2026 year was listed for Entertainment, Hockey, UFC or WWE. This checkpoint does not establish all older-product-year releases in calendar 2026 or refresh every previously retained CSV export."
+}

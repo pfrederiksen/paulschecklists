@@ -6282,6 +6282,48 @@
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
+    },
+    {
+      "slug": "panini-2026-panini-score-a-treat-miscellaneous",
+      "title": "2026 Panini Score-A-Treat Miscellaneous",
+      "manufacturer": "Panini",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "panini-2026-panini-donruss-racing",
+      "title": "2026 Panini Donruss Racing",
+      "manufacturer": "Panini",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "panini-2026-panini-par-three-liv-golf",
+      "title": "2026 Panini Par Three LIV Golf",
+      "manufacturer": "Panini",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": false,
+      "ongoingSeries": false,
+      "status": "Source import pending",
+      "conflicts": []
     }
   ]
 }
