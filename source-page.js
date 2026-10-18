@@ -1,6 +1,6 @@
 import {reconcileParallels,categoryNumbering,specificationRows,displayQualification} from './parallel-specs.mjs';
 const $=id=>document.getElementById(id),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const normalize=s=>String(s).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
+const normalize=s=>String(s).normalize('NFD').replace(/\p{Diacritic}/gu,'').replace(/\s+/gu,' ').toLowerCase();
 let data,filtered=[],page=1,view="cards";const size=40;
 let familyCache=new Map(),familyIndex=[],expanded=new Set(),teamColumn=-1,rookieColumn=-1,numberColumn=-1,nameColumn=1;
 const isPackOdds=()=>data.oddsUnitsPublished!==false&&!data.oddsUnitLabel;
