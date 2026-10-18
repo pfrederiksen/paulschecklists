@@ -91,31 +91,6 @@
       "title": "2026 Angels MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 720",
       "url": "https://www.topps.com/products/2026-angels-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Topps NOW® Baseball – Team United States – World Baseball Classic Team Sets - PR: 20322",
-      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-united-states-world-baseball-classic-team-sets",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Topps NOW® Baseball – Team Venezuela – World Baseball Classic Team Sets - PR: 1424",
-      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-venezuela-world-baseball-classic-team-sets",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Topps NOW® Baseball – Team Dominican Republic – World Baseball Classic Team Sets - PR: 4207",
-      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-dominican-republic-world-baseball-classic-team-sets",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Topps NOW® Baseball – Team Japan – World Baseball Classic Team Sets - PR: 34993",
-      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-japan-world-baseball-classic-team-sets",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Topps NOW® Baseball – Team Korea – World Baseball Classic Team Sets - PR: 1086",
-      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-korea-world-baseball-classic-team-sets",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     }
   ],
   "notes": "This review reconciles only retained title text, not all fields or reported archive products. Existing 95-page checkpoint and partial-history labels remain unchanged. Unnumbered entertainment products and multi-card bundles need dedicated roster/date parsing; Anthony Edwards has a blank printed title number that cannot be filled from its URL.",
@@ -297,5 +272,42 @@
     "snapshot": "data/parallel-audit-sources/venezuela-wbc-championship-now-2026-product-20261018.json",
     "publishedSet": "topps-bowman-2026-venezuela-wbc-championship-topps-now",
     "resolution": "All 27 original Description entries imported under four literal headings: fifteen base, four Parallel Subjects, four image-variation subjects and four autograph subjects. Blank unpublished IDs and distinct roster memberships are preserved, including Maikel Garcia and Wilyer Abreu scope differences. Six product foil limits remain qualified without subject/color joins; image-variation quantity and autograph limits are unstated. Bundle PR1084 and March 18–25 sale dates do not supply per-card runs, pack odds or general release. Historical coverage stays partial."
-  }
+  },
+  "resolvedWbcTeamSets": [
+    {
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-united-states-world-baseball-classic-team-sets",
+      "title": "2026 Topps NOW® Baseball – Team United States – World Baseball Classic Team Sets - PR: 20322",
+      "snapshot": "data/parallel-audit-sources/wbc-now-team-united-states-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-wbc-topps-now-team-united-states",
+      "resolution": "All three literal base/parallel/autograph rosters imported with blank unpublished IDs. Distinct program memberships, original accents, bundle PR and March 5–16 sale window retained. Six foil limits and explicitly unnumbered WBC Logo remain qualified product context without subject/color or autograph-limit inference. These team sets remain separate from the Venezuela championship product; history remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-venezuela-world-baseball-classic-team-sets",
+      "title": "2026 Topps NOW® Baseball – Team Venezuela – World Baseball Classic Team Sets - PR: 1424",
+      "snapshot": "data/parallel-audit-sources/wbc-now-team-venezuela-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-wbc-topps-now-team-venezuela",
+      "resolution": "All three literal base/parallel/autograph rosters imported with blank unpublished IDs. Distinct program memberships, original accents, bundle PR and March 5–16 sale window retained. Six foil limits and explicitly unnumbered WBC Logo remain qualified product context without subject/color or autograph-limit inference. These team sets remain separate from the Venezuela championship product; history remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-dominican-republic-world-baseball-classic-team-sets",
+      "title": "2026 Topps NOW® Baseball – Team Dominican Republic – World Baseball Classic Team Sets - PR: 4207",
+      "snapshot": "data/parallel-audit-sources/wbc-now-team-dominican-republic-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-wbc-topps-now-team-dominican-republic",
+      "resolution": "All three literal base/parallel/autograph rosters imported with blank unpublished IDs. Distinct program memberships, original accents, bundle PR and March 5–16 sale window retained. Six foil limits and explicitly unnumbered WBC Logo remain qualified product context without subject/color or autograph-limit inference. These team sets remain separate from the Venezuela championship product; history remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-japan-world-baseball-classic-team-sets",
+      "title": "2026 Topps NOW® Baseball – Team Japan – World Baseball Classic Team Sets - PR: 34993",
+      "snapshot": "data/parallel-audit-sources/wbc-now-team-japan-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-wbc-topps-now-team-japan",
+      "resolution": "All three literal base/parallel/autograph rosters imported with blank unpublished IDs. Distinct program memberships, original accents, bundle PR and March 5–16 sale window retained. Six foil limits and explicitly unnumbered WBC Logo remain qualified product context without subject/color or autograph-limit inference. These team sets remain separate from the Venezuela championship product; history remains partial."
+    },
+    {
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-korea-world-baseball-classic-team-sets",
+      "title": "2026 Topps NOW® Baseball – Team Korea – World Baseball Classic Team Sets - PR: 1086",
+      "snapshot": "data/parallel-audit-sources/wbc-now-team-korea-2026-product-20261018.json",
+      "publishedSet": "topps-bowman-2026-wbc-topps-now-team-korea",
+      "resolution": "All three literal base/parallel/autograph rosters imported with blank unpublished IDs. Distinct program memberships, original accents, bundle PR and March 5–16 sale window retained. Six foil limits and explicitly unnumbered WBC Logo remain qualified product context without subject/color or autograph-limit inference. These team sets remain separate from the Venezuela championship product; history remains partial."
+    }
+  ]
 }

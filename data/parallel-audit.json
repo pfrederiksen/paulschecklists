@@ -5960,6 +5960,76 @@
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-wbc-topps-now-team-united-states",
+      "title": "2026 Topps NOW® Baseball – Team United States – World Baseball Classic Team Sets - PR: 20322",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2026-topps-now-baseball-team-united-states-world-baseball-classic-team-sets",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-wbc-topps-now-team-venezuela",
+      "title": "2026 Topps NOW® Baseball – Team Venezuela – World Baseball Classic Team Sets - PR: 1424",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2026-topps-now-baseball-team-venezuela-world-baseball-classic-team-sets",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-wbc-topps-now-team-dominican-republic",
+      "title": "2026 Topps NOW® Baseball – Team Dominican Republic – World Baseball Classic Team Sets - PR: 4207",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2026-topps-now-baseball-team-dominican-republic-world-baseball-classic-team-sets",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-wbc-topps-now-team-japan",
+      "title": "2026 Topps NOW® Baseball – Team Japan – World Baseball Classic Team Sets - PR: 34993",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2026-topps-now-baseball-team-japan-world-baseball-classic-team-sets",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-wbc-topps-now-team-korea",
+      "title": "2026 Topps NOW® Baseball – Team Korea – World Baseball Classic Team Sets - PR: 1086",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2026-topps-now-baseball-team-korea-world-baseball-classic-team-sets",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
     }
   ]
 }

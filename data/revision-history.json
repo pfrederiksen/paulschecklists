@@ -13479,5 +13479,140 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-wbc-topps-now-team-united-states": {
+    "state": {
+      "checklistHash": "e5c7e81761dc3791eab52dfc379971960d5d9575f7ae5da955411c1094c1009c",
+      "oddsHash": null,
+      "rows": 28,
+      "odds": 0,
+      "specificationRows": 24
+    },
+    "fingerprint": "4e5004a5f2a0c9bc5df60b11c5c78db431dbe0cc4fa85708526ce2c6693621f9",
+    "events": [
+      {
+        "at": "2026-10-18T14:25:28.807Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-topps-now-baseball-team-united-states-world-baseball-classic-team-sets",
+        "snapshot": {
+          "checklistHash": "e5c7e81761dc3791eab52dfc379971960d5d9575f7ae5da955411c1094c1009c",
+          "oddsHash": null,
+          "rows": 28,
+          "odds": 0,
+          "specificationRows": 24
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-wbc-topps-now-team-venezuela": {
+    "state": {
+      "checklistHash": "f44748dc7f15deec2128ba76bfa969fa488dcc05c0ab6d151a6fa9fb82634496",
+      "oddsHash": null,
+      "rows": 18,
+      "odds": 0,
+      "specificationRows": 24
+    },
+    "fingerprint": "0ffa93d576948433be39c38ab40b898b867f31c4995cfe82aa5b5119df485388",
+    "events": [
+      {
+        "at": "2026-10-18T14:25:28.807Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-topps-now-baseball-team-venezuela-world-baseball-classic-team-sets",
+        "snapshot": {
+          "checklistHash": "f44748dc7f15deec2128ba76bfa969fa488dcc05c0ab6d151a6fa9fb82634496",
+          "oddsHash": null,
+          "rows": 18,
+          "odds": 0,
+          "specificationRows": 24
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-wbc-topps-now-team-dominican-republic": {
+    "state": {
+      "checklistHash": "f0e9564763b651e202449642dd9a16ca1eb0c3e449801e361d32cca582f3b0f7",
+      "oddsHash": null,
+      "rows": 19,
+      "odds": 0,
+      "specificationRows": 24
+    },
+    "fingerprint": "df5b263583d5c9a0cd77bf24faad28437ce03c495e8b391b90ff07158564c84c",
+    "events": [
+      {
+        "at": "2026-10-18T14:25:28.807Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-topps-now-baseball-team-dominican-republic-world-baseball-classic-team-sets",
+        "snapshot": {
+          "checklistHash": "f0e9564763b651e202449642dd9a16ca1eb0c3e449801e361d32cca582f3b0f7",
+          "oddsHash": null,
+          "rows": 19,
+          "odds": 0,
+          "specificationRows": 24
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-wbc-topps-now-team-japan": {
+    "state": {
+      "checklistHash": "e98f94999963bf342737461f41b271d7605cb536c4655d314e2030098212d7b5",
+      "oddsHash": null,
+      "rows": 28,
+      "odds": 0,
+      "specificationRows": 24
+    },
+    "fingerprint": "f6fec65f74af23478bb62a4dee84fd024aea97b7ad55b222a427ac62fb48f4de",
+    "events": [
+      {
+        "at": "2026-10-18T14:25:28.808Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-topps-now-baseball-team-japan-world-baseball-classic-team-sets",
+        "snapshot": {
+          "checklistHash": "e98f94999963bf342737461f41b271d7605cb536c4655d314e2030098212d7b5",
+          "oddsHash": null,
+          "rows": 28,
+          "odds": 0,
+          "specificationRows": 24
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-wbc-topps-now-team-korea": {
+    "state": {
+      "checklistHash": "d2af0aa5349786c1d053b193636d8ceab4254e2d303bb0659c33e1582dbe9326",
+      "oddsHash": null,
+      "rows": 13,
+      "odds": 0,
+      "specificationRows": 24
+    },
+    "fingerprint": "e711755559df7d6d414b510e21614cedd801ac9f8dcb71c36713f96048294226",
+    "events": [
+      {
+        "at": "2026-10-18T14:25:28.808Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-topps-now-baseball-team-korea-world-baseball-classic-team-sets",
+        "snapshot": {
+          "checklistHash": "d2af0aa5349786c1d053b193636d8ceab4254e2d303bb0659c33e1582dbe9326",
+          "oddsHash": null,
+          "rows": 13,
+          "odds": 0,
+          "specificationRows": 24
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }
