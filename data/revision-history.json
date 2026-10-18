@@ -13311,5 +13311,34 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-nba-topps-now-rising-stars-set": {
+    "state": {
+      "checklistHash": "eea2d2c30cd3a395b907c17659498bd8d587b4efe53f4113cdd5248973aaaf70",
+      "oddsHash": null,
+      "rows": 37,
+      "odds": 0,
+      "specificationRows": 25,
+      "specificationHash": "20926e58153891a08231b4e7466d507ff2ac5311a3b21b9e3b1be61f00762f02"
+    },
+    "fingerprint": "f42c338513c9c5d2e8494d80461dece3ce26f492bf2624bdf6b5db443113fe82",
+    "events": [
+      {
+        "at": "2026-10-18T08:22:15.094Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_NBA_Topps_Now_Rising_Stars_Set_-_Checklist.pdf?v=1787961796",
+        "snapshot": {
+          "checklistHash": "eea2d2c30cd3a395b907c17659498bd8d587b4efe53f4113cdd5248973aaaf70",
+          "oddsHash": null,
+          "rows": 37,
+          "odds": 0,
+          "specificationRows": 25,
+          "specificationHash": "20926e58153891a08231b4e7466d507ff2ac5311a3b21b9e3b1be61f00762f02"
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

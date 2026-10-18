@@ -2601,5 +2601,30 @@
     "sha256": "ca862bb5956945cc2e9b0bdaee09b6f4809e7c1461082c4889fe3fd3d24ba34f",
     "description": "A made-to-order 26-card bundle: 25 selected All-Stars plus one additional parallel or autograph redemption. The PDF lists 37 entries across two programs, with literal USA Stars, USA Stripes and World teams. Five base foil limits are published; All-Star Parallel numbering and exact autograph numbering remain unstated. Bundle print run 4967 and February 9–16 sale dates remain product-level facts.",
     "catalogEvidence": "All 37 original PDF rows retain Player, Position and Team, including the second-page Chet Holmgren 21-A continuation. USA Stars, USA Stripes and World are the published teams; NBA club assignments and rookie flags are not supplied. Five foil limits /50, /25, /10, /5 and /1 stay in BASE CARDS. All-Star Parallel has no published numbering status; AUTOGRAPH SUBJECTS retains only the qualified /5-or-lower upper bound. Bundle PR4967 and February 9–16, 2026 availability do not establish per-card print runs, pack odds or a general release date. Exhaustive eligibility and historical NOW coverage remain unverified."
+  },
+  {
+    "title": "2026 Rising Stars Set - NBA Topps NOW®",
+    "manufacturer": "Topps / Bowman",
+    "sport": "basketball",
+    "year": "2026",
+    "slug": "topps-bowman-2026-nba-topps-now-rising-stars-set",
+    "page": "sets/topps-bowman-2026-nba-topps-now-rising-stars-set.html",
+    "sourcePage": "https://www.topps.com/products/2026-rising-stars-set-nba-topps-now%C2%AE-22-card-set",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_NBA_Topps_Now_Rising_Stars_Set_-_Checklist.pdf?v=1787961796",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-18",
+    "status": "Source table",
+    "rowCount": 37,
+    "tableData": "data/imports/topps-bowman-2026-nba-topps-now-rising-stars-set.json",
+    "sections": 2,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 21 base and 16 autograph rows reconcile with independent PDF text. The year-leading title is not a card; original Egor Dёmin spelling, positions, RC marks and Rising Stars team cells remain literal. No team assignments, rookie marks, print runs, autograph ladders or odds are inferred.",
+    "dedicatedParser": "scripts/import_topps_now_nba_rising_stars_2026.py",
+    "parallelData": true,
+    "publishedOdds": false,
+    "sha256": "eea2d2c30cd3a395b907c17659498bd8d587b4efe53f4113cdd5248973aaaf70",
+    "description": "A made-to-order 22-card bundle: 21 selected Rising Stars plus one additional parallel or autograph redemption. The PDF lists 37 entries across two programs, with literal Team Melo, Team T-Mac and Team Vince teams. Five base foil limits are published; Rising Stars Parallel numbering and exact autograph numbering remain unstated. Bundle print run 7287 and February 9–16 sale dates remain product-level facts.",
+    "catalogEvidence": "All 37 original PDF rows retain Player, Position, Status and Team, including the second-page Kyshawn George 21-A continuation. Team Melo, Team T-Mac and Team Vince are the published teams; NBA club assignments are not supplied. The original Status column retains 17 literal RC marks and 20 blanks. Five foil limits /50, /25, /10, /5 and /1 stay in BASE CARDS. Rising Stars Parallel has no published numbering status; AUTOGRAPH SUBJECTS retains only the qualified /5-or-lower upper bound. Bundle PR7287 and February 9–16, 2026 availability do not establish per-card print runs, pack odds or a general release date. Exhaustive eligibility and historical NOW coverage remain unverified."
   }
 ]

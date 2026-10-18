@@ -94,7 +94,7 @@ function specifications(){const out=[],context=[],supplementary=[],q=normalize($
 try{const response=await fetch(document.body.dataset.table,{cache:'no-cache'});if(!response.ok)throw Error(response.status);data=await response.json();data.odds=reconcileParallels(data);familyIndex=[...new Set(data.rows.map(r=>r[0]))].map(name=>({name,key:canonical(name)})).sort((a,b)=>b.key.length-a.key.length);for(const odd of data.odds??[]){const family=odd.family??familyFor(odd.name);if(!familyCache.has(family))familyCache.set(family,[]);familyCache.get(family).push(odd);for(const alias of odd.familyAliases??[]){if(!familyCache.has(alias))familyCache.set(alias,[]);familyCache.get(alias).push(odd);}}
  numberColumn=data.headers.findIndex(h=>/^(card|card number|number)$/i.test(h));
  nameColumn=data.headers.findIndex(h=>/description|decription|player|subjects?|^name$/i.test(h));if(nameColumn<0)nameColumn=1;
- teamColumn=data.teamColumns?.[0]??data.headers.findIndex(h=>/^team name$|^team$/i.test(h));rookieColumn=data.headers.findIndex(h=>/^rookie$|^rc$/i.test(h));
+ teamColumn=data.teamColumns?.[0]??data.headers.findIndex(h=>/^team name$|^team$/i.test(h));rookieColumn=data.rookieColumn??data.headers.findIndex(h=>/^rookie$|^rc$/i.test(h));
  $('source-team').disabled=teamColumn<0;$('source-rookie').disabled=rookieColumn<0;
  if(teamColumn>=0)for(const team of [...new Set(data.rows.flatMap(publishedTeams))].sort())$('source-team').add(new Option(team,team));
  for(const option of $('source-sort').options)if(option.value==='rare')option.disabled=!isPackOdds()||!data.odds?.some(o=>!o.specificationOnly&&Object.values(o.values??{}).some(Boolean));

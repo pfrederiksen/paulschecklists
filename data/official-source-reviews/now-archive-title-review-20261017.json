@@ -141,11 +141,6 @@
       "title": "2026 Topps NOW® Baseball – Team Korea – World Baseball Classic Team Sets - PR: 1086",
       "url": "https://www.topps.com/products/2026-topps-now-baseball-team-korea-world-baseball-classic-team-sets",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Rising Stars Set - NBA Topps NOW® - 22 Card Set - PR: 7287",
-      "url": "https://www.topps.com/products/2026-rising-stars-set-nba-topps-now%C2%AE-22-card-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     }
   ],
   "notes": "This review reconciles only retained title text, not all fields or reported archive products. Existing 95-page checkpoint and partial-history labels remain unchanged. Unnumbered entertainment products and multi-card bundles need dedicated roster/date parsing; Anthony Edwards has a blank printed title number that cannot be filled from its URL.",
@@ -281,5 +276,14 @@
     "checklistSha256": "ca862bb5956945cc2e9b0bdaee09b6f4809e7c1461082c4889fe3fd3d24ba34f",
     "publishedSet": "topps-bowman-2026-nba-topps-now-all-star-game-set",
     "resolution": "All 37 physical rows imported: 25 base and 12 autograph, including page-two 21-A. Player/Position/Team preserve literal All-Star teams and accents; no rookie flags or NBA clubs supplied. Five base foil limits are exact; All-Star Parallel numbering remains unstated, not explicitly unnumbered. Autograph /5-or-lower stays qualified. Bundle PR4967 and February 9–16 store dates do not establish per-card print runs, pack odds or a general release. Historical coverage remains partial."
+  },
+  "resolvedNbaRisingStarsBundle": {
+    "url": "https://www.topps.com/products/2026-rising-stars-set-nba-topps-now%C2%AE-22-card-set",
+    "title": "2026 Rising Stars Set - NBA Topps NOW® - 22 Card Set - PR: 7287",
+    "snapshot": "data/parallel-audit-sources/nba-now-rising-stars-2026-product-20261018.json",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_NBA_Topps_Now_Rising_Stars_Set_-_Checklist.pdf?v=1787961796",
+    "checklistSha256": "eea2d2c30cd3a395b907c17659498bd8d587b4efe53f4113cdd5248973aaaf70",
+    "publishedSet": "topps-bowman-2026-nba-topps-now-rising-stars-set",
+    "resolution": "All 37 physical rows imported: 21 base and 16 autograph, including page-two Kyshawn George 21-A. Original Player/Position/Status/Team cells retain 17 literal RC marks and Rising Stars teams. Five base foil limits are exact; Rising Stars Parallel numbering remains unstated, not explicitly unnumbered. Autograph /5-or-lower stays qualified. Bundle PR7287 and February 9–16 store dates do not establish per-card print runs, pack odds or a general release. Historical coverage remains partial."
   }
 }
