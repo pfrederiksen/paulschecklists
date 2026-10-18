@@ -9606,6 +9606,38 @@
         "evidenceFile": "data/parallel-audit-sources/nba-now-rising-stars-2026-product-20261018.json",
         "evidenceSha256": "1185254b2ea8fca4d12d70a7f3eb8462bc7bb2fbc8f6f94a49e13b7a8185767e"
       }
+    ],
+    "topps-bowman-2026-nba-topps-now-knicks-champions-team-set": [
+      {
+        "family": "Jalen Brunson/Karl-Anthony Towns 1/1 Dual Autograph Redemption",
+        "name": "Named redemption",
+        "numbering": "1/1",
+        "qualification": "Exact named redemption only; no other autograph or subject inherits 1/1.",
+        "sourceHeading": "Look For:",
+        "source": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
+        "evidenceFile": "data/parallel-audit-sources/nba-now-knicks-champions-2026-product-20261018.json",
+        "evidenceSha256": "c2c96d39d3bca98e7eda5deb781347c14a265d291fa641c81c4e0f55debe022f"
+      },
+      {
+        "family": "Jalen Brunson/Walt Frazier 1/1 Dual Autograph-Relic Redemption",
+        "name": "Named redemption",
+        "numbering": "1/1",
+        "qualification": "Exact named redemption only; no other autograph or subject inherits 1/1.",
+        "sourceHeading": "Look For:",
+        "source": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
+        "evidenceFile": "data/parallel-audit-sources/nba-now-knicks-champions-2026-product-20261018.json",
+        "evidenceSha256": "c2c96d39d3bca98e7eda5deb781347c14a265d291fa641c81c4e0f55debe022f"
+      },
+      {
+        "family": "Knicks Starting 5 1/1 Quintuple Autograph Redemption",
+        "name": "Named redemption",
+        "numbering": "1/1",
+        "qualification": "Exact named redemption only; no other autograph or subject inherits 1/1. The five individual signers are not named in this source and remain unexpanded.",
+        "sourceHeading": "Look For:",
+        "source": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
+        "evidenceFile": "data/parallel-audit-sources/nba-now-knicks-champions-2026-product-20261018.json",
+        "evidenceSha256": "c2c96d39d3bca98e7eda5deb781347c14a265d291fa641c81c4e0f55debe022f"
+      }
     ]
   },
   "conflicts": [

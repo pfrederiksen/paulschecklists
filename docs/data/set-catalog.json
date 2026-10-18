@@ -15201,6 +15201,43 @@
         "hasCards": true,
         "unit": "source rows"
       }
+    },
+    {
+      "title": "2026 NBA Champions - New York Knicks - NBA Topps NOW® 16-Card Team Set",
+      "manufacturer": "Topps / Bowman",
+      "sport": "basketball",
+      "year": "2026",
+      "slug": "topps-bowman-2026-nba-topps-now-knicks-champions-team-set",
+      "page": "sets/topps-bowman-2026-nba-topps-now-knicks-champions-team-set.html",
+      "sourcePage": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
+      "checklistUrl": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
+      "releaseStatus": "Unverified",
+      "releaseDate": null,
+      "verified": "2026-10-18",
+      "tableData": "data/imports/topps-bowman-2026-nba-topps-now-knicks-champions-team-set.json",
+      "status": "Source table",
+      "importKind": "topps-web-roster",
+      "dedicatedParser": "scripts/import_topps_now_knicks_champions_2026.py",
+      "rowCount": 35,
+      "sections": 6,
+      "parallelData": true,
+      "publishedOdds": false,
+      "sha256": "c2c96d39d3bca98e7eda5deb781347c14a265d291fa641c81c4e0f55debe022f",
+      "coverageComplete": false,
+      "description": "A made-to-order 16-card bundle with 15 base cards and one additional parallel, SP, autograph or autograph-relic. The official page supplies 15 base, eight image-variation and nine autograph subject rows, plus three named redemption programs. All card numbers remain blank. Seven unjoined foil limits and three exact named 1/1 redemptions are retained; bundle PR65941 and June 13–20 sale dates are product-level facts.",
+      "catalogEvidence": "The complete published web subject lists are imported with their exact headings and literal names, including Pacôme Dadiet and the autograph list’s Miles McBride nonbreaking space. No checklist document is linked on the reviewed product page. Seven foil limits lack an exact family heading and remain unjoined context. The three named 1/1 redemptions have isolated family mappings; Knicks Starting 5 remains a collective caption without inferred signer names. On-card autograph /10-or-less is an upper bound. Printed IDs, individual quintuple signers, exhaustive eligibility, pack odds, general release and historical NOW coverage remain unverified.",
+      "dataAudit": "35 source entries: 32 rows across three literal published subject lists and three named redemption captions. Independent DOM paragraph boundaries match the retained description text. Every card number remains blank; no teams, rookie flags, per-card print runs or pack odds are invented.",
+      "presentation": {
+        "rows": 35,
+        "sections": 6,
+        "formats": 0,
+        "specifications": true,
+        "featured": false,
+        "odds": null,
+        "hasOdds": false,
+        "hasCards": true,
+        "unit": "source rows"
+      }
     }
   ],
   "coverage": {

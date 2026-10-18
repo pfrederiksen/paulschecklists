@@ -5890,6 +5890,20 @@
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-nba-topps-now-knicks-champions-team-set",
+      "title": "2026 NBA Champions - New York Knicks - NBA Topps NOW® 16-Card Team Set",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 3,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
     }
   ]
 }

@@ -13340,5 +13340,34 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-nba-topps-now-knicks-champions-team-set": {
+    "state": {
+      "checklistHash": "c2c96d39d3bca98e7eda5deb781347c14a265d291fa641c81c4e0f55debe022f",
+      "oddsHash": null,
+      "rows": 35,
+      "odds": 0,
+      "specificationRows": 30,
+      "specificationHash": "3f1a889c7873222e98e5fd81bac42659d27a31d2f2c1dbff00cbf19c89e1dfc1"
+    },
+    "fingerprint": "5db62812998c3746537f8bb107d3ad08b11d4af7cf482c1e75b2f49adfcf7a62",
+    "events": [
+      {
+        "at": "2026-10-18T09:23:17.328Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
+        "snapshot": {
+          "checklistHash": "c2c96d39d3bca98e7eda5deb781347c14a265d291fa641c81c4e0f55debe022f",
+          "oddsHash": null,
+          "rows": 35,
+          "odds": 0,
+          "specificationRows": 30,
+          "specificationHash": "3f1a889c7873222e98e5fd81bac42659d27a31d2f2c1dbff00cbf19c89e1dfc1"
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }
