@@ -47,7 +47,7 @@ function includeCardSpecifications(rows){
 }
 function retainedFieldSources(row){
  if(data.importKind!=='topps-now')return '';
- const proofs=(data.supplementarySourceProducts??[]).filter(p=>p.series===row[0]&&p.number===row[1]);
+ const proofs=(data.supplementarySourceProducts??[]).filter(p=>(p.family??p.series)===row[0]&&p.number===row[1]);
  const names={printRun:'Print run',saleFrom:'Sale start',saleUntil:'Sale end',parallels:'Parallel terms',terms:'Distribution terms'};
  return proofs.length?`<details class="numbering-evidence"><summary>Official sources for retained fields</summary><p>Published facts retained from earlier official observations keep their original source. Regional distribution terms belong to the linked regional product page.</p>${table(['Published field','Published value','Official product URL'],proofs.map(p=>[names[p.field],Array.isArray(p.value)?p.value.join('; '):p.value,p.evidence.url]))}</details>`:'';
 }

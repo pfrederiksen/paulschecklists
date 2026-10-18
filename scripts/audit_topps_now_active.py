@@ -8,6 +8,7 @@ import json
 import re
 from pathlib import Path
 from urllib.parse import unquote, urlparse
+from topps_now_identity import product_family, unnumbered_marvel_title
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -25,12 +26,16 @@ def reconcile(listing, observations, published):
         for item in source['products']:
             p = by_url.get(path(item['url']))
             status = 'missing-observation'
-            title_identity = re.search(r' - (20\d\d.*?NOW®.*?) - (?:Card |Sticker # )([A-Za-z0-9-]+)', item['title'])
-            if p and (not title_identity or (p['series'], p['number']) != (title_identity[1], title_identity[2].rstrip('-'))):
+            title_identity = re.search(r' - (20\d\d.*?NOW®.*?) (?:- )?(?:Card |Sticker # )([A-Za-z0-9-]+)', item['title'])
+            single = unnumbered_marvel_title(item['title'])
+            identity_matches = p and (bool(title_identity) and (p['series'], p['number']) == (title_identity[1], title_identity[2].rstrip('-')) or
+                                     bool(single) and p.get('identityKind') == 'official-single-card-product' and
+                                     not p['number'] and single['family'] == product_family(p))
+            if p and not identity_matches:
                 results.append({**item, 'status': 'missing-current-identity'})
                 continue
             if p:
-                key = (p['series'], p['number'])
+                key = (product_family(p), p['number'])
                 if not p['saleFromISO']:
                     status = 'pending-official-sale-date'
                 elif p['saleFromISO'] < '2026-01-01':
@@ -38,7 +43,7 @@ def reconcile(listing, observations, published):
                 elif key not in rows:
                     status = 'missing-published-row'
                 else:
-                    expected = [p['series'], p['number'], p['name'], p['printRun'], p['saleFrom'], p['saleUntil'], '; '.join(p['parallels']), p['terms'], p['source']]
+                    expected = [product_family(p), p['number'], p['name'], p['printRun'], p['saleFrom'], p['saleUntil'], '; '.join(p['parallels']), p['terms'], p['source']]
                     assert rows[key] == expected, 'Published active card differs from its observation: ' + item['title']
                     status = 'published'
             results.append({**item, 'status': status})

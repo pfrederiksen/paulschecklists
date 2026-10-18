@@ -8,21 +8,6 @@
   "resolvedByFreshProductSnapshot": "data/catalog-sources/topps-now-backfill-browser-20261017-2300-title-punctuation.json",
   "pendingProductReviews": [
     {
-      "title": "2026 Marvel Topps NOW: Avengers End Game Encore - PR: 35984",
-      "url": "https://www.topps.com/products/2026-marvel-topps-now-avengers-end-game-encore",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Marvel Topps Now®: Wolverine - PR: 15885",
-      "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-wolverine",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Marvel Topps Now® Spider-Man Brand New Day - PR: 33838",
-      "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-spider-man-brand-new-day",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "2026 All-Star Game Set - MLS Topps NOW® - 11 Card Set - PR: 2677",
       "url": "https://www.topps.com/products/2026-all-star-game-set-mls-topps-now%C2%AE-11-card-set-1",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -40,11 +25,6 @@
     {
       "title": "2026 Disney Topps Now®: Moana Live Action - PR: 2665",
       "url": "https://www.topps.com/products/2026-disney-topps-now%C2%AE-moana-live-action",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Marvel Topps Now® X-Men 97 Season 2 - PR: 5770",
-      "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-x-men-97-season-2",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
@@ -73,11 +53,6 @@
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
-      "title": "2026 Marvel Topps NOW® The Punisher: One Last Kill - PR: 5073",
-      "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-the-punisher-one-last-kill",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "Anthony Edwards - 2025-26 NBA Topps NOW® - Card - PR: 1057",
       "url": "https://www.topps.com/products/anthony-edwards-2025-26-nba-topps-now%C2%AE-card-294",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -100,11 +75,6 @@
     {
       "title": "Chase Burns - 2026 MLB Topps NOW® - Card 29 - PR: 3477 - PR: 236",
       "url": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Marvel Topps NOW® Daredevil: Born Again Season 2 - PR: 8482",
-      "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-daredevil-born-again-season-2",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
@@ -248,5 +218,40 @@
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     }
   ],
-  "notes": "This review reconciles only retained title text, not all fields or reported archive products. Existing 95-page checkpoint and partial-history labels remain unchanged. Unnumbered entertainment products and multi-card bundles need dedicated roster/date parsing; Anthony Edwards has a blank printed title number that cannot be filled from its URL."
+  "notes": "This review reconciles only retained title text, not all fields or reported archive products. Existing 95-page checkpoint and partial-history labels remain unchanged. Unnumbered entertainment products and multi-card bundles need dedicated roster/date parsing; Anthony Edwards has a blank printed title number that cannot be filled from its URL.",
+  "resolvedSingleCardProducts": {
+    "snapshot": "data/catalog-sources/topps-now-backfill-browser-20261018-0000-marvel.json",
+    "products": [
+      {
+        "url": "https://www.topps.com/products/2026-marvel-topps-now-avengers-end-game-encore",
+        "title": "2026 Marvel Topps NOW: Avengers End Game Encore - PR: 35984",
+        "resolution": "Official page explicitly describes one Open-Edition Base Card and publishes Subjects, sale dates, print run and product-specific parallel terms. Card number remains blank; official product URL supplies only internal identity."
+      },
+      {
+        "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-wolverine",
+        "title": "2026 Marvel Topps Now®: Wolverine - PR: 15885",
+        "resolution": "Official page explicitly describes one Open-Edition Base Card and publishes Subjects, sale dates, print run and product-specific parallel terms. Card number remains blank; official product URL supplies only internal identity."
+      },
+      {
+        "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-spider-man-brand-new-day",
+        "title": "2026 Marvel Topps Now® Spider-Man Brand New Day - PR: 33838",
+        "resolution": "Official page explicitly describes one Open-Edition Base Card and publishes Subjects, sale dates, print run and product-specific parallel terms. Card number remains blank; official product URL supplies only internal identity."
+      },
+      {
+        "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-x-men-97-season-2",
+        "title": "2026 Marvel Topps Now® X-Men 97 Season 2 - PR: 5770",
+        "resolution": "Official page explicitly describes one Open-Edition Base Card and publishes Subjects, sale dates, print run and product-specific parallel terms. Card number remains blank; official product URL supplies only internal identity."
+      },
+      {
+        "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-the-punisher-one-last-kill",
+        "title": "2026 Marvel Topps NOW® The Punisher: One Last Kill - PR: 5073",
+        "resolution": "Official page explicitly describes one Open-Edition Base Card and publishes Subjects, sale dates, print run and product-specific parallel terms. Card number remains blank; official product URL supplies only internal identity."
+      },
+      {
+        "url": "https://www.topps.com/products/2026-marvel-topps-now%C2%AE-daredevil-born-again-season-2",
+        "title": "2026 Marvel Topps NOW® Daredevil: Born Again Season 2 - PR: 8482",
+        "resolution": "Official page explicitly describes one Open-Edition Base Card and publishes Subjects, sale dates, print run and product-specific parallel terms. Card number remains blank; official product URL supplies only internal identity."
+      }
+    ]
+  }
 }

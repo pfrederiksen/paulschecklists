@@ -5628,14 +5628,37 @@
   },
   "topps-now-2026": {
     "state": {
-      "checklistHash": "ba60345c8264abf2f72ef1d1a3866801232adf5761156000ac5947b7f4f71ede",
+      "checklistHash": "bde615c98aa27f8b7a925dbb54f3a9903713cd8b8b48a9a163b67995dd33866e",
       "oddsHash": null,
-      "rows": 2241,
+      "rows": 2247,
       "odds": 0,
-      "specificationRows": 10200
+      "specificationRows": 10242
     },
-    "fingerprint": "a8fb819205d5a4f257db76ca09ed0986a400891834523d6e6fe6f2504c85eea1",
+    "fingerprint": "0ea42f88e56a03d1142bcb9c3ac6326acfad750d4621468baa1fc24a2483293a",
     "events": [
+      {
+        "at": "2026-10-18T00:15:01.109Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 2241 → 2247",
+          "Supplementary specification rows: 10200 → 10242"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "bde615c98aa27f8b7a925dbb54f3a9903713cd8b8b48a9a163b67995dd33866e",
+          "oddsHash": null,
+          "rows": 2247,
+          "odds": 0,
+          "specificationRows": 10242
+        },
+        "previousSnapshot": {
+          "checklistHash": "ba60345c8264abf2f72ef1d1a3866801232adf5761156000ac5947b7f4f71ede",
+          "oddsHash": null,
+          "rows": 2241,
+          "odds": 0,
+          "specificationRows": 10200
+        }
+      },
       {
         "at": "2026-10-17T23:11:10.824Z",
         "changes": [
@@ -12922,6 +12945,33 @@
           "rows": 27,
           "odds": 0,
           "specificationRows": 135
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-marvel-topps-now": {
+    "state": {
+      "checklistHash": "943d32a633bc8fa5ae6f799924181e7dcc3fc1205854697b74987bfed9808553",
+      "oddsHash": null,
+      "rows": 6,
+      "odds": 0,
+      "specificationRows": 42
+    },
+    "fingerprint": "44464d74ac15894dd21c3e209da0106905bd1d4059acc41586a022d9fa3c624b",
+    "events": [
+      {
+        "at": "2026-10-18T00:15:02.662Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "943d32a633bc8fa5ae6f799924181e7dcc3fc1205854697b74987bfed9808553",
+          "oddsHash": null,
+          "rows": 6,
+          "odds": 0,
+          "specificationRows": 42
         },
         "previousSnapshot": null
       }

@@ -2,13 +2,14 @@
 import json, hashlib, re, runpy
 from urllib.parse import urlparse
 from pathlib import Path
+from topps_now_identity import observation_key, product_family, verified_single_card
 
 root = Path(__file__).resolve().parents[1]
 observations = json.loads((root / 'data/topps-now-observations.json').read_text())
 inventory = json.loads((root / 'data/topps-now-official-catalog.json').read_text())
-keys = [(p['series'], p['number']) for p in observations]
+keys = [observation_key(p) for p in observations]
 assert len(keys) == len(set(keys)), 'Duplicate series/card numbers'
-assert all(p['number'] and p['evidence']['title'] for p in observations)
+assert all((p['number'] or p.get('identityKind') == 'official-single-card-product') and p['evidence']['title'] for p in observations)
 listing_path=root/'data/topps-now-active-listings.json'
 if listing_path.exists():
     listing=json.loads(listing_path.read_text())
@@ -34,7 +35,8 @@ for snapshot in (root/'data/catalog-sources').glob('topps-now-backfill-browser-*
     for product in retained['products']:
         lines=[line.strip() for line in product['lines']]
         browser_hashes.add((product['url'],hashlib.sha256('\n'.join(lines).encode()).hexdigest()))
-        assert re.search(r' (?:- )?Card ',lines[0]) or ' - Sticker # ' in lines[0]
+        fields=dict(line.split('  | ',1) for line in lines if '  | ' in line)
+        assert re.search(r' (?:- )?Card ',lines[0]) or ' - Sticker # ' in lines[0] or verified_single_card(lines[0],fields,lines)
 for snapshot in (root/'data/catalog-sources').glob('topps-now-backfill-regional*.txt'):
     raw=snapshot.read_text()
     starts=list(re.finditer(r'^[^\n]*\((https://(?:www|uk|uk-next|fr)\.topps\.com/products/[^)]+)\)\n',raw,re.M))
@@ -70,20 +72,20 @@ for entry in inventory:
     data = json.loads((root / entry['tableData']).read_text())
     eligible = [p for p in observations if p.get('saleFromISO') and p['saleFromISO'] >= '2026-01-01']
     selected = eligible if entry['slug'] == 'topps-now-2026' else [p for p in eligible if p['series'] == entry['title']]
-    expected = [[p['series'], p['number'], p['name'], p['printRun'], p['saleFrom'], p['saleUntil'], '; '.join(p['parallels']), p['terms'], p['source']] for p in selected]
+    expected = [[product_family(p), p['number'], p['name'], p['printRun'], p['saleFrom'], p['saleUntil'], '; '.join(p['parallels']), p['terms'], p['source']] for p in selected]
     assert data['rows'] == expected, entry['slug']
     assert entry['rowCount'] == len(expected)
     assert entry['backfillStart'] == '2026-01-01'
     assert entry['coverageComplete'] is False and data['coverageComplete'] is False
     assert entry['publishedOdds'] is False, 'Made-to-order runs are not pack odds'
     assert data['sourceProducts'] == [p['evidence'] for p in selected]
-    expected_supplementary=[{'series':p['series'],'number':p['number'],'field':field,'value':p[field],'evidence':proof} for p in selected for field,proof in sorted(p.get('fieldEvidence',{}).items())]
+    expected_supplementary=[{'series':p['series'],**({'family':p['family']} if p.get('family') else {}),'number':p['number'],'field':field,'value':p[field],'evidence':proof} for p in selected for field,proof in sorted(p.get('fieldEvidence',{}).items())]
     assert data.get('supplementarySourceProducts',[])==expected_supplementary
     fingerprints=[(p['source'],p['evidence']['sha256'],*[(field,proof['url'],proof['sha256']) for field,proof in sorted(p.get('fieldEvidence',{}).items())]) for p in selected]
     assert data['sha256']==hashlib.sha256(json.dumps(fingerprints,ensure_ascii=False).encode()).hexdigest()
     for specification in data['publishedSpecifications']:
         for number, subject, parallel, source in specification['rows']:
-            assert any(p['series'] == specification['name'] and p['number'] == number and p['name'] == subject and parallel in p['parallels'] and p['source'] == source for p in selected)
+            assert any(product_family(p) == specification['name'] and p['number'] == number and p['name'] == subject and parallel in p['parallels'] and p['source'] == source for p in selected)
 archive = json.loads((root / 'data/topps-now-archive-index.json').read_text())
 assert archive['coverageComplete'] is False
 assert [p['start'] for p in archive['pages']] == list(range(1, archive['pages'][-1]['start'] + 1, 24))
@@ -345,3 +347,51 @@ if punctuation_source.exists():
     entertainment=next(s for s in inventory if s['title']=='2026 Topps NOW®')
     assert entertainment['sport']=='entertainment' and entertainment['coverageComplete'] is False
     print('Verified hyphenless official Card labels for UCL 1/3/4 and Artemis II A201, exact dates/runs, card-specific terms and published entertainment classification.')
+
+marvel_source=root/'data/catalog-sources/topps-now-backfill-browser-20261018-0000-marvel.json'
+if marvel_source.exists():
+    retained=json.loads(marvel_source.read_text());assert len(retained['products'])==6
+    by_url={p['source']:p for p in observations}
+    marvel=[p for p in observations if p['series']=='2026 Marvel Topps NOW®']
+    assert len(marvel)==6 and len({observation_key(p) for p in marvel})==6
+    assert len({product_family(p) for p in marvel})==6,'Unnumbered products need separate exact families'
+    marvel_entry=next(s for s in inventory if s['title']=='2026 Marvel Topps NOW®')
+    assert marvel_entry['sport']=='entertainment' and marvel_entry['releaseDate'] is None
+    data=json.loads((root/marvel_entry['tableData']).read_text())
+    expected_runs=['35984','15885','33838','5770','5073','8482']
+    expected_dates=['2026-09-23','2026-09-15','2026-07-29','2026-07-01','2026-05-12','2026-03-24']
+    for i,product in enumerate(retained['products']):
+        lines=[line.strip() for line in product['lines']]
+        fields=dict(line.split('  | ',1) for line in lines if '  | ' in line)
+        card=by_url[product['url']]
+        assert card['number']=='' and card['identityKind']=='official-single-card-product'
+        identity=verified_single_card(lines[0],fields,lines)
+        assert identity and identity['family']==card['family']
+        assert card['name']==fields['Subjects'] and card['printRun']==expected_runs[i]
+        assert card['saleFromISO']==expected_dates[i]
+        assert card['saleFrom']==fields['Available From'] and card['saleUntil']==fields['Available Until']
+        assert card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+        assert card['parallels']==['/99 Green Foil','/75 Blue Foil','/50 Gold Foil','/25 Orange Foil','/10 Black Foil','/5 Red Foil','1/1 FoilFractor']
+        for line in lines:
+            if line.startswith('* ') or line.startswith('*Parallels') or re.match(r'^[\d,]+\+ Print Run:',line):assert line.removeprefix('* ') in card['terms']
+        assert ('Jon Bernthal' in card['terms'])==(i==4)
+        assert ('Vincent D\'Onofrio' in card['terms'])==(i==5)
+        specs=[s for s in data['publishedSpecifications'] if s['name']==card['family']]
+        assert len(specs)==1 and len(specs[0]['rows'])==7
+        assert all(r[0]=='' and r[1]==card['name'] and r[3]==card['source'] for r in specs[0]['rows'])
+        assert not verified_single_card(lines[0],{**fields,'Product Type':'Multi-card Set'},lines)
+        assert not verified_single_card(lines[0],{**fields,'Card number':'123'},lines)
+        assert not verified_single_card(lines[0],fields,[line for line in lines if 'Open-Edition Base Card' not in line])
+    # These products must also reconcile if they appear in a future active listing.
+    listing={'listings':[{'reportedProductCount':6,'products':[{'url':p['source'],'title':p['evidence']['title']} for p in marvel]}]}
+    statuses=reconcile(listing,observations,data)
+    assert all(p['status']=='published' for p in statuses)
+    reduced={**data,'rows':data['rows'][1:]}
+    assert sum(p['status']=='missing-published-row' for p in reconcile(listing,observations,reduced))==1
+    assert sum(p['status']=='missing-observation' for p in reconcile(listing,[p for p in observations if p is not marvel[0]],data))==1
+    assert not verified_single_card('Anthony Edwards - 2025-26 NBA Topps NOW® - Card - PR: 1057',fields,lines)
+    review=json.loads((root/'data/official-source-reviews/now-archive-title-review-20261017.json').read_text())
+    assert not {p['url'] for p in retained['products']} & {p['url'] for p in review['pendingProductReviews']}
+    gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
+    assert not {p['url'] for p in retained['products']} & {p['url'] for p in gaps['unparsedNumberedTitles']}
+    print('Verified six unnumbered Marvel NOW single-card products: URL identities, blank published numbers, exact product families, official sale windows/runs, seven foil parallels and isolated autograph/SP terms; active reconciliation detects missing rows without number guesses.')

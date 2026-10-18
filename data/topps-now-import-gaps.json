@@ -110,5 +110,5 @@
     }
   ],
   "archivePaginationScanComplete": true,
-  "remaining": "Missing product URLs, unverified sale dates, renderer-only product pages, non-numbered bundles and entertainment products still require reconciliation."
+  "remaining": "Missing product URLs, unverified sale dates, renderer-only product pages, multi-card bundles and other unverified product scopes still require reconciliation."
 }
