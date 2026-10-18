@@ -7,8 +7,7 @@ catalog_path=ROOT/'data/set-catalog.json'
 catalog=json.loads(catalog_path.read_text())
 inventory_path=ROOT/'data/panini-official-catalog.json'
 inventory=json.loads(inventory_path.read_text())
-observation_file=ROOT/'data/official-panini/basketball-2025-26-observations-20261014.json'
-observations=json.loads(observation_file.read_text()) if observation_file.exists() else {}
+observation_sources=[(p,json.loads(p.read_text())) for p in sorted((ROOT/'data/official-panini').glob('*observations*.json'))]
 for filename in sys.argv[1:]:
  source=Path(filename);raw=source.read_bytes()
  reader=csv.reader(raw.decode('utf-8-sig').splitlines());headers=next(reader);original=list(reader)
@@ -35,8 +34,10 @@ for filename in sys.argv[1:]:
  record={'title':title,'slug':slug,'page':f'sets/{slug}.html','manufacturer':'Panini','sport':sport.lower(),'year':year,'sourcePage':SOURCE,'checklistUrl':SOURCE,'releaseStatus':'Unverified','releaseDate':None,'verified':'2026-10-13','status':'Source table','tableData':path,'rowCount':len(rows),'sections':len(set(r[0] for r in rows)),'parallelData':True,'publishedOdds':False,'importKind':'panini-csv','dedicatedParser':'scripts/import_panini_csv.py','sha256':digest,'coverageComplete':True,'sourceExport':str(archive.relative_to(ROOT)),'sourceSelection':payload['sourceSelection'],'catalogEvidence':audit,'dataAudit':audit}
  if product_year!=year:
   record.update(year=product_year,sourceYear=year);payload.update(sourceYear=year,productYear=product_year)
- observation=next((o for o in observations.get('exports',[]) if o['sha256']==digest and o['sourceSelection']==payload['sourceSelection']),None)
+ matched=next(((p,document,o) for p,document in observation_sources for o in document.get('exports',[]) if o['sha256']==digest and o['sourceSelection']==payload['sourceSelection']),None)
+ observation=matched[2] if matched else None
  if observation:
+  observation_file,observations,_=matched
   evidence={'file':str(observation_file.relative_to(ROOT)),'sha256':hashlib.sha256(observation_file.read_bytes()).hexdigest(),'source':SOURCE,'method':observations['method']}
   payload.update(sourceObservation=evidence,checklistFirstObserved=observations['observed'])
   record.update(verified=observations['observed'],checklistFirstObserved=observations['observed'],sourceObservation=evidence)

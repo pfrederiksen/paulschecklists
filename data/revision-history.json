@@ -14436,5 +14436,59 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "panini-2026-panini-donruss-football": {
+    "state": {
+      "checklistHash": "6fb47aa12e05a019e87ad1d782cd9d2c5e7dc89323542deb182c9d5e212e5c7d",
+      "oddsHash": null,
+      "rows": 19548,
+      "odds": 0,
+      "specificationRows": 12944
+    },
+    "fingerprint": "2dcda983e639b166dafec4ae64a35443093a7b696bc66fe7c09b1ccd1d72f8db",
+    "events": [
+      {
+        "at": "2026-10-18T19:36:42.360Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "6fb47aa12e05a019e87ad1d782cd9d2c5e7dc89323542deb182c9d5e212e5c7d",
+          "oddsHash": null,
+          "rows": 19548,
+          "odds": 0,
+          "specificationRows": 12944
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2026-panini-obsidian-football": {
+    "state": {
+      "checklistHash": "b1d42a7e45e641a279b7b63898f6cecdd2705f68b0b64463ad4f96f79c52558b",
+      "oddsHash": null,
+      "rows": 4174,
+      "odds": 0,
+      "specificationRows": 3451
+    },
+    "fingerprint": "08ee39e776aa2a2e10a9245651214a72232c3d0dc0e11667180b1ab7abca157f",
+    "events": [
+      {
+        "at": "2026-10-18T19:36:42.365Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "b1d42a7e45e641a279b7b63898f6cecdd2705f68b0b64463ad4f96f79c52558b",
+          "oddsHash": null,
+          "rows": 4174,
+          "odds": 0,
+          "specificationRows": 3451
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

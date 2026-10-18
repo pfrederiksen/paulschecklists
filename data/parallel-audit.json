@@ -6254,6 +6254,34 @@
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
+    },
+    {
+      "slug": "panini-2026-panini-donruss-football",
+      "title": "2026 Panini Donruss Football",
+      "manufacturer": "Panini",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "panini-2026-panini-obsidian-football",
+      "title": "2026 Panini Obsidian Football",
+      "manufacturer": "Panini",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
     }
   ]
 }

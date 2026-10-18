@@ -1,0 +1,28 @@
+{
+  "observed": "2026-10-18",
+  "sourceKind": "official-browser-guide-factual-excerpts",
+  "hashQualification": "Normalized factual excerpts from actual official guide UI reads, not raw HTML.",
+  "collector": {
+    "baseLines": [
+      "Base Aqua: sequentially numbered to 150",
+      "Base Green: sequentially numbered to 75",
+      "Base Blue: sequentially numbered to 50",
+      "Base White: sequentially numbered to 25"
+    ],
+    "title": "2025 Topps Exalted WWE Collector’s Guide",
+    "url": "https://ripped.topps.com/2025-topps-exalted-wwe-collectors-guide/"
+  },
+  "hobby": {
+    "baseLines": [
+      "Aqua /99",
+      "Green /50",
+      "Blue /25",
+      "Red /5",
+      "Black 1/1"
+    ],
+    "familyHeading": "2025 Topps Exalted WWE Base Set Breakdown",
+    "title": "Breaking Down the 2025 Topps Exalted WWE Hobby Box",
+    "url": "https://ripped.topps.com/2025-topps-exalted-wwe-hobby-box/"
+  },
+  "resolution": "The previously recorded base-ladder conflict remains present. No conflicting value is selected or propagated into another family."
+}

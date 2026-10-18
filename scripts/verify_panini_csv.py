@@ -20,9 +20,13 @@ for record in records:
  assert not data.get('odds') and not record.get('publishedOdds')
  if data.get('sourceObservation'):
   proof=data['sourceObservation'];assert hashlib.sha256((ROOT/proof['file']).read_bytes()).hexdigest()==proof['sha256']
-  assert record['releaseDate'] is None and data['checklistFirstObserved']=='2026-10-14'
-  assert record['sourceYear']=='2025' and record['year']=='2025-26'
-  assert '2025-26 Panini' in record['title']
+  observation=json.loads((ROOT/proof['file']).read_text())
+  assert record['releaseDate'] is None and data['checklistFirstObserved']==record['checklistFirstObserved']==observation['observed']
+  assert any(o['sha256']==data['sha256'] and o['sourceSelection']==data['sourceSelection'] for o in observation['exports'])
+  if proof['file'].endswith('basketball-2025-26-observations-20261014.json'):
+   assert data['checklistFirstObserved']=='2026-10-14'
+   assert record['sourceYear']=='2025' and record['year']=='2025-26'
+   assert '2025-26 Panini' in record['title']
  for spec in data['publishedSpecifications']:
   if spec.get('evidenceFile'):assert hashlib.sha256((ROOT/spec['evidenceFile']).read_bytes()).hexdigest()==spec['evidenceSha256']
 print(f"Verified {len(records)} official Panini exports and {sum(r['rowCount'] for r in records):,} original rows, hashes and numbering entries.")

@@ -1,0 +1,78 @@
+{
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "observed": "2026-10-18",
+  "sourceKind": "official-ui-generated-csv",
+  "method": "Actual official checklist UI reads selected Football, Year 2026, then Donruss / Donruss and Panini / Obsidian. Each real Download Full Checklist action generated an a[download] data URI; its percent-encoded UTF-8 payload was decoded without content changes and retained as the original CSV bytes. The export filename and all original SPORT/YEAR/BRAND/PROGRAM cells independently identify the selection.",
+  "releaseQualification": "First observation and the CSV Product Year do not establish a calendar release date. Numeric pack odds are not published in these exports.",
+  "football2026Programs": [
+    {
+      "brand": "Donruss",
+      "programs": [
+        "Donruss"
+      ]
+    },
+    {
+      "brand": "Panini",
+      "programs": [
+        "Obsidian"
+      ]
+    }
+  ],
+  "inventoryCoverage": "Both 2026 football brands and their sole visible program were reviewed. The broader all-sport inventory pass was interrupted when the browser provider became unavailable; no complete new all-sport inventory is claimed.",
+  "exports": [
+    {
+      "sourceSelection": {
+        "sport": "Football",
+        "year": "2026",
+        "brand": "Donruss",
+        "program": "Donruss"
+      },
+      "filename": "2026 Donruss Donruss (Football).csv",
+      "sha256": "6fb47aa12e05a019e87ad1d782cd9d2c5e7dc89323542deb182c9d5e212e5c7d",
+      "rows": 19548,
+      "families": 199,
+      "numberedRows": 12944,
+      "headers": [
+        "SPORT",
+        "YEAR",
+        "BRAND",
+        "PROGRAM",
+        "CARD SET",
+        "ATHLETE",
+        "TEAM",
+        "POSITION",
+        "CARD NUMBER",
+        "SEQUENCE"
+      ],
+      "retainedCsv": "data/official-panini/panini-2026-panini-donruss-football.csv",
+      "bytes": 2026757
+    },
+    {
+      "sourceSelection": {
+        "sport": "Football",
+        "year": "2026",
+        "brand": "Panini",
+        "program": "Obsidian"
+      },
+      "filename": "2026 Panini Obsidian (Football).csv",
+      "sha256": "b1d42a7e45e641a279b7b63898f6cecdd2705f68b0b64463ad4f96f79c52558b",
+      "rows": 4174,
+      "families": 143,
+      "numberedRows": 3451,
+      "headers": [
+        "SPORT",
+        "YEAR",
+        "BRAND",
+        "PROGRAM",
+        "CARD SET",
+        "ATHLETE",
+        "TEAM",
+        "POSITION",
+        "CARD NUMBER",
+        "SEQUENCE"
+      ],
+      "retainedCsv": "data/official-panini/panini-2026-panini-obsidian-football.csv",
+      "bytes": 476426
+    }
+  ]
+}

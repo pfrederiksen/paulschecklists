@@ -2912,6 +2912,20 @@
       "manufacturer": "Topps / Bowman",
       "releaseDate": null,
       "status": "Exact release-date research pending"
+    },
+    {
+      "slug": "panini-2026-panini-donruss-football",
+      "title": "2026 Panini Donruss Football",
+      "manufacturer": "Panini",
+      "releaseDate": null,
+      "status": "Exact release-date research pending"
+    },
+    {
+      "slug": "panini-2026-panini-obsidian-football",
+      "title": "2026 Panini Obsidian Football",
+      "manufacturer": "Panini",
+      "releaseDate": null,
+      "status": "Exact release-date research pending"
     }
   ]
 }
