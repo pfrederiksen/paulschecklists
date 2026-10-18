@@ -478,3 +478,50 @@ if bundesliga_source.exists():
     entry=next(s for s in inventory if s['title']=='2025-26 Bundesliga Topps NOW®')
     assert entry['sport']=='soccer' and entry['rowCount']>=102 and not entry['coverageComplete']
     print('Verified Bundesliga NOW 131/132/145: literal missing-space titles, printed numbers, accented Subjects, February/March sale dates, runs295/115/742, five foil terms and conditional thresholds; no URL-derived facts or pack odds.')
+
+gaming_source=root/'data/catalog-sources/topps-now-backfill-browser-20261018-0300-gaming-covers.json'
+if gaming_source.exists():
+    retained=json.loads(gaming_source.read_text());assert len(retained['products'])==2
+    by_url={p['source']:p for p in observations};cards=[]
+    expected=[('Caleb Williams','2027 MADDEN NFL Cover Topps NOW®','47655','2026-06-03','Jun 6, 2026','football'),('Aaron Judge','2026 MLB The Show Cover Topps NOW®','16091','2026-01-27','Jan 30, 2026','baseball')]
+    aggregate=json.loads((root/'data/imports/topps-now-2026.json').read_text())
+    for product,(subject,series,pr,start,end,sport) in zip(retained['products'],expected):
+        lines=[line.strip() for line in product['lines']];fields=dict(line.split('  | ',1) for line in lines if '  | ' in line)
+        card=by_url[product['url']];cards.append(card)
+        identity=verified_single_card(lines[0],fields,lines)
+        assert identity and card['identityKind']=='official-single-card-product' and card['number']==''
+        assert card['series']==series and card['family']==re.sub(r' - PR:\s*[\d,]+$','',lines[0])
+        assert identity['printRun']==pr
+        assert card['name']==subject==fields['Subjects'] and card['printRun']==pr
+        assert card['saleFromISO']==start and card['saleUntil']==end and card['saleFrom']==fields['Available From']
+        assert card['evidence']['fields']==fields and fields['Product Year']=='2026'
+        assert card['evidence']['sha256']==hashlib.sha256('\n'.join(lines).encode()).hexdigest()
+        assert card['parallels']==['/50 Gold Foil','/25 Orange\u00a0Foil','/10 Black\u00a0Foil','/5 Red\u00a0Foil','/1 FoilFractor']
+        for line in lines:
+            if line.startswith('* ') or re.match(r'^[\d,]+\+ Print Run:',line):assert line.removeprefix('* ') in card['terms']
+        assert card['terms'].count('Numeric pack odds are not published.')==1
+        assert 'Autograph' not in card['terms']
+        if subject=='Caleb Williams':
+            assert 'Official Product Year: 2026.' in card['terms'] and '2027 year appears in the official product title' in card['terms']
+            assert 'MADD' in fields['SKU'] and card['number']!='MADD'
+        else:assert 'OS19' in fields['SKU'] and card['number']!='OS19'
+        entry=next(s for s in inventory if s['title']==series)
+        assert entry['sport']==sport and entry['year']==series[:4]
+        assert entry['releaseDate'] is None and entry['releaseStatus']=='Ongoing' and not entry['coverageComplete']
+        for data in [aggregate,json.loads((root/entry['tableData']).read_text())]:
+            specs=[s for s in data['publishedSpecifications'] if s['name']==card['family']]
+            assert len(specs)==1 and len(specs[0]['rows'])==5
+            assert all(r[0]=='' and r[1]==subject and r[3]==card['source'] for r in specs[0]['rows'])
+        assert not verified_single_card(lines[0],{**fields,'Sub Categories':'Movie'},lines)
+        assert not verified_single_card(lines[0],{**fields,'Card number':'MADD'},lines)
+        assert not verified_single_card(lines[0]+' - PR: 999',fields,lines),'Conflicting published print runs must not select a value'
+        active_title=re.sub(r' - PR:\s*[\d,]+$','',lines[0])
+        active_identity=verified_single_card(active_title,fields,lines)
+        assert active_identity and active_identity['family']==card['family'] and active_identity['printRun']==''
+    listing={'listings':[{'reportedProductCount':2,'products':[{'url':p['source'],'title':re.sub(r' - PR:\s*[\d,]+$','',p['evidence']['title'])} for p in cards]}]}
+    assert all(p['status']=='published' for p in reconcile(listing,observations,aggregate))
+    reduced={**aggregate,'rows':[r for r in aggregate['rows'] if r[8]!=cards[0]['source']]}
+    assert reconcile(listing,observations,reduced)[0]['status']=='missing-published-row'
+    gaps=json.loads((root/'data/topps-now-import-gaps.json').read_text())
+    assert not {p['source'] for p in cards} & {p['url'] for p in gaps['unparsedNumberedTitles']}
+    print('Verified Madden/MLB The Show NOW cover cards: blank printed numbers, literal five-foil terms, official sale windows/runs, exact product families and separate 2027 title/2026 Product Year; SKU/URL codes never supply card numbers and thresholds never become actual print runs or pack odds.')

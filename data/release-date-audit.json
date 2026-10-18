@@ -2681,6 +2681,20 @@
       "manufacturer": "Topps / Bowman",
       "releaseDate": null,
       "status": "Card-specific sale dates"
+    },
+    {
+      "slug": "topps-now-2026-mlb-the-show-cover-topps-now",
+      "title": "2026 MLB The Show Cover Topps NOW®",
+      "manufacturer": "Topps / Bowman",
+      "releaseDate": null,
+      "status": "Card-specific sale dates"
+    },
+    {
+      "slug": "topps-now-2027-madden-nfl-cover-topps-now",
+      "title": "2027 MADDEN NFL Cover Topps NOW®",
+      "manufacturer": "Topps / Bowman",
+      "releaseDate": null,
+      "status": "Card-specific sale dates"
     }
   ]
 }

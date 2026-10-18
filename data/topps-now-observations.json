@@ -35868,6 +35868,49 @@
     "saleFromISO": "2026-10-13"
   },
   {
+    "series": "2026 MLB The Show Cover Topps NOW®",
+    "number": "",
+    "name": "Aaron Judge",
+    "printRun": "16091",
+    "saleFrom": "Jan 27, 2026",
+    "saleUntil": "Jan 30, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\nCard number is not published in the reviewed official title or specifications.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/2026-mlb-the-show-cover-topps-now-aaron-judge",
+    "evidence": {
+      "url": "https://www.topps.com/products/2026-mlb-the-show-cover-topps-now-aaron-judge",
+      "sha256": "495b33eabb3271de5573713a64957d7413bbb4540adfa5002aa6bb32cba77f3a",
+      "observed": "2026-10-17",
+      "title": "2026 MLB The Show Cover Topps NOW® - Aaron Judge - PR: 16091",
+      "fields": {
+        "SKU": "ARTBB-16C2S-25TN-OS19",
+        "Category": "Sports",
+        "Sub Categories": "Baseball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Aaron Judge",
+        "Properties": "New York Yankees",
+        "Product Type": "Print on Demand",
+        "Available From": "Jan 27, 2026",
+        "Available Until": "Jan 30, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\nCard number is not published in the reviewed official title or specifications.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-0300-gaming-covers.json"
+    },
+    "identityKind": "official-single-card-product",
+    "family": "2026 MLB The Show Cover Topps NOW® - Aaron Judge",
+    "saleFromISO": "2026-01-27"
+  },
+  {
     "series": "2026 MLB Topps NOW®",
     "number": "1",
     "name": "New York Yankees, San Francisco Giants",
@@ -88272,5 +88315,48 @@
       "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /10 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure."
     },
     "saleFromISO": "2026-10-06"
+  },
+  {
+    "series": "2027 MADDEN NFL Cover Topps NOW®",
+    "number": "",
+    "name": "Caleb Williams",
+    "printRun": "47655",
+    "saleFrom": "Jun 3, 2026",
+    "saleUntil": "Jun 6, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\nCard number is not published in the reviewed official title or specifications.\nOfficial Product Year: 2026. The 2027 year appears in the official product title; calendar-year inclusion uses the verified sale date.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/caleb-williams-2026-nfl-topps-now%C2%AE-card-madd",
+    "evidence": {
+      "url": "https://www.topps.com/products/caleb-williams-2026-nfl-topps-now%C2%AE-card-madd",
+      "sha256": "2a55a07338e7070ee14fffc64e4b786adaeeb3c773ec8a8250793c2448c7895b",
+      "observed": "2026-10-17",
+      "title": "Caleb Williams - 2027 MADDEN NFL Cover Topps NOW® - PR: 47655",
+      "fields": {
+        "SKU": "ARTFB-16C2S-26TN-MADD-QTY1",
+        "Category": "Sports",
+        "Sub Categories": "Football",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Caleb Williams",
+        "Properties": "Chicago Bears",
+        "Product Type": "Print on Demand",
+        "Available From": "Jun 3, 2026",
+        "Available Until": "Jun 6, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\nCard number is not published in the reviewed official title or specifications.\nOfficial Product Year: 2026. The 2027 year appears in the official product title; calendar-year inclusion uses the verified sale date.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261018-0300-gaming-covers.json"
+    },
+    "identityKind": "official-single-card-product",
+    "family": "Caleb Williams - 2027 MADDEN NFL Cover Topps NOW®",
+    "saleFromISO": "2026-06-03"
   }
 ]

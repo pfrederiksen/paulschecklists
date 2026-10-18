@@ -5628,14 +5628,37 @@
   },
   "topps-now-2026": {
     "state": {
-      "checklistHash": "9e747ab8935949d6b8111d83cb26fdb525a1247dbd18021109b7e89c2d44ee07",
+      "checklistHash": "b8d597d48b733ee26f66e6023623a7c051d6d51e9a1c86f79f732271a341c692",
       "oddsHash": null,
-      "rows": 2255,
+      "rows": 2257,
       "odds": 0,
-      "specificationRows": 10292
+      "specificationRows": 10302
     },
-    "fingerprint": "ba7a26bfbfd917e5d8d3b27b0c92fed9a5562a32f8d0521b251c07d09c889812",
+    "fingerprint": "cd47d3196242a4c2657b511669107336ca734b37249060cee16efdbc3ed79be2",
     "events": [
+      {
+        "at": "2026-10-18T03:08:24.631Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 2255 → 2257",
+          "Supplementary specification rows: 10292 → 10302"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "b8d597d48b733ee26f66e6023623a7c051d6d51e9a1c86f79f732271a341c692",
+          "oddsHash": null,
+          "rows": 2257,
+          "odds": 0,
+          "specificationRows": 10302
+        },
+        "previousSnapshot": {
+          "checklistHash": "9e747ab8935949d6b8111d83cb26fdb525a1247dbd18021109b7e89c2d44ee07",
+          "oddsHash": null,
+          "rows": 2255,
+          "odds": 0,
+          "specificationRows": 10292
+        }
+      },
       {
         "at": "2026-10-18T02:10:13.970Z",
         "changes": [
@@ -13095,6 +13118,60 @@
           "rows": 2,
           "odds": 0,
           "specificationRows": 14
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2026-mlb-the-show-cover-topps-now": {
+    "state": {
+      "checklistHash": "15c39e20e1f98d3bc001be56717402b0d51072c5d233bfe2803bd35b2d6bae4a",
+      "oddsHash": null,
+      "rows": 1,
+      "odds": 0,
+      "specificationRows": 5
+    },
+    "fingerprint": "54bb1e27c170eb25450841087c68a4801e623c0eedc222dfd59dcae621e5a7ce",
+    "events": [
+      {
+        "at": "2026-10-18T03:08:25.963Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "15c39e20e1f98d3bc001be56717402b0d51072c5d233bfe2803bd35b2d6bae4a",
+          "oddsHash": null,
+          "rows": 1,
+          "odds": 0,
+          "specificationRows": 5
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-now-2027-madden-nfl-cover-topps-now": {
+    "state": {
+      "checklistHash": "f61db298fa45e79264884fe83f8a5e3fdc08f66dbb75599025a8430898428b65",
+      "oddsHash": null,
+      "rows": 1,
+      "odds": 0,
+      "specificationRows": 5
+    },
+    "fingerprint": "344719750ced17707b6254f6a13dbaa139bf1ec393b9420cd0b5b7dd625e0194",
+    "events": [
+      {
+        "at": "2026-10-18T03:08:25.963Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "f61db298fa45e79264884fe83f8a5e3fdc08f66dbb75599025a8430898428b65",
+          "oddsHash": null,
+          "rows": 1,
+          "odds": 0,
+          "specificationRows": 5
         },
         "previousSnapshot": null
       }

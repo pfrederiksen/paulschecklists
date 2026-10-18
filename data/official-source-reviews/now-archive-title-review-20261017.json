@@ -33,11 +33,6 @@
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     },
     {
-      "title": "Caleb Williams - 2027 MADDEN NFL Cover Topps NOW® - PR: 47655",
-      "url": "https://www.topps.com/products/caleb-williams-2026-nfl-topps-now%C2%AE-card-madd",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "Anthony Edwards - 2025-26 NBA Topps NOW® - Card - PR: 1057",
       "url": "https://www.topps.com/products/anthony-edwards-2025-26-nba-topps-now%C2%AE-card-294",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -171,11 +166,6 @@
       "title": "2026 All-Star Game Set - NBA Topps NOW® - 26 Card Set - PR: 4967",
       "url": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 MLB The Show Cover Topps NOW® - Aaron Judge - PR: 16091",
-      "url": "https://www.topps.com/products/2026-mlb-the-show-cover-topps-now-aaron-judge",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     }
   ],
   "notes": "This review reconciles only retained title text, not all fields or reported archive products. Existing 95-page checkpoint and partial-history labels remain unchanged. Unnumbered entertainment products and multi-card bundles need dedicated roster/date parsing; Anthony Edwards has a blank printed title number that cannot be filled from its URL.",
@@ -261,6 +251,21 @@
         "url": "https://www.topps.com/products/fabio-silva-2025-26-bundesliga-topps-now%C2%AE-card-131",
         "title": "Fábio Silva- 2025-26 Bundesliga Topps NOW® - Card 131 - PR: 295",
         "resolution": "Fresh official product Specs verifies Subjects and sale dates; literal title prints the series, card number and labelled print run. Preserve the missing separator space and source accents; no URL-derived identity."
+      }
+    ]
+  },
+  "resolvedGamingCoverProducts": {
+    "snapshot": "data/catalog-sources/topps-now-backfill-browser-20261018-0300-gaming-covers.json",
+    "products": [
+      {
+        "url": "https://www.topps.com/products/caleb-williams-2026-nfl-topps-now%C2%AE-card-madd",
+        "title": "Caleb Williams - 2027 MADDEN NFL Cover Topps NOW® - PR: 47655",
+        "resolution": "Official page explicitly describes one Open-Edition Base Card, with Subjects, sale dates, labelled print run and product-specific foil terms. No card number is published; never use MADD or OS19 from URL/SKU as a number. Preserve printed title year separately from official Product Year 2026 and verified 2026 sale windows."
+      },
+      {
+        "url": "https://www.topps.com/products/2026-mlb-the-show-cover-topps-now-aaron-judge",
+        "title": "2026 MLB The Show Cover Topps NOW® - Aaron Judge - PR: 16091",
+        "resolution": "Official page explicitly describes one Open-Edition Base Card, with Subjects, sale dates, labelled print run and product-specific foil terms. No card number is published; never use MADD or OS19 from URL/SKU as a number. Preserve printed title year separately from official Product Year 2026 and verified 2026 sale windows."
       }
     ]
   }

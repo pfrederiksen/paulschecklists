@@ -5792,6 +5792,34 @@
       "ongoingSeries": true,
       "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
+    },
+    {
+      "slug": "topps-now-2026-mlb-the-show-cover-topps-now",
+      "title": "2026 MLB The Show Cover Topps NOW®",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/collections/topps-now",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
+      "ongoingSeries": true,
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": []
+    },
+    {
+      "slug": "topps-now-2027-madden-nfl-cover-topps-now",
+      "title": "2027 MADDEN NFL Cover Topps NOW®",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/collections/topps-now",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
+      "ongoingSeries": true,
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": []
     }
   ]
 }

@@ -6,7 +6,7 @@ as evidence; re-running this parser alone does not constitute a fresh source che
 import re,json,hashlib,datetime
 from pathlib import Path
 from urllib.parse import urlparse,unquote
-from topps_now_identity import observation_key, product_family, unnumbered_entertainment_title, verified_single_card
+from topps_now_identity import observation_key, product_family, unnumbered_product_title, verified_single_card
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE='https://www.topps.com/collections/topps-now'
 ARCHIVE=SOURCE+'-archive'
@@ -48,7 +48,7 @@ for url,block,document in blocks:
  for line in lines:
   if '  | ' in line:
    key,value=line.split('  | ',1);fields[key.strip()]=value.splitlines()[0].strip()
- titles=[x for x in lines if ((' Card ' in x or ' - Sticker # ' in x) and re.search(r'\s*-\s*20\d\d.*NOW®',x)) or unnumbered_entertainment_title(x.removeprefix('## '))]
+ titles=[x for x in lines if ((' Card ' in x or ' - Sticker # ' in x) and re.search(r'\s*-\s*20\d\d.*NOW®',x)) or unnumbered_product_title(x.removeprefix('## '))]
  title=next((x.removeprefix('## ') for x in titles if x.startswith('## ')),titles[0] if titles else None)
  if not title:continue
  match=re.fullmatch(r'(.+?)\s*-\s*(20\d\d(?:-\d\d)? .+?NOW®.*?) (?:- )?(?:Card |Sticker # )([A-Za-z0-9-]+?)(?: \([^)]*\))?(?: Pack)?\s*(?:-?\s*PR:\s*([\d,]+))?(?: Pack)?',title)
@@ -97,7 +97,9 @@ for url,block,document in blocks:
  if single:
   factual.append('Card number is not published in the reviewed official title or specifications.')
   factual.extend(x for x in lines[begin+1:end] if x.startswith('*Parallels and short prints'))
-  factual.append('Numeric pack odds are not published.')
+  if not any('Numeric pack odds are not published.' in item for item in factual):factual.append('Numeric pack odds are not published.')
+  if fields.get('Product Year') and fields['Product Year']!=series[:4]:
+   factual.append(f"Official Product Year: {fields['Product Year']}. The {series[:4]} year appears in the official product title; calendar-year inclusion uses the verified sale date.")
  factual.extend(tiers)
  if unlabelled_suffix is not None:
   factual.append(f'Official title ends with unlabelled value {unlabelled_suffix}; its meaning is unverified and no print run is assigned from it.')
@@ -187,7 +189,7 @@ single_products={p['source']:p for p in products if p.get('identityKind')=='offi
 # Earlier archive-only snapshots cannot validate a single-card scope. A later
 # full product read resolves that gap without inventing a printed number.
 unparsed=[gap for gap in unparsed if not (gap['url'] in single_products and
-          (unnumbered_entertainment_title(gap['title']) or {}).get('family')==product_family(single_products[gap['url']]))]
+          (unnumbered_product_title(gap['title']) or {}).get('family')==product_family(single_products[gap['url']]))]
 cutoff='2026-01-01'
 pending=[{'series':p['series'],'number':p['number'],'url':p['source'],'saleFrom':p['saleFrom'],'gap':'Official sale date not yet verified; excluded from the calendar-year backfill.'} for p in products if not p['saleFromISO']]
 excluded=[{'series':p['series'],'number':p['number'],'saleFromISO':p['saleFromISO'],'url':p['source']} for p in products if p['saleFromISO'] and p['saleFromISO']<cutoff]

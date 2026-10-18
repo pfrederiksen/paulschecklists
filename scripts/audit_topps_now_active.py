@@ -8,7 +8,7 @@ import json
 import re
 from pathlib import Path
 from urllib.parse import unquote, urlparse
-from topps_now_identity import product_family, unnumbered_entertainment_title
+from topps_now_identity import product_family, unnumbered_product_title
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -27,7 +27,7 @@ def reconcile(listing, observations, published):
             p = by_url.get(path(item['url']))
             status = 'missing-observation'
             title_identity = re.search(r'\s*-\s*(20\d\d.*?NOW®.*?) (?:- )?(?:Card |Sticker # )([A-Za-z0-9-]+)', item['title'])
-            single = unnumbered_entertainment_title(item['title'])
+            single = unnumbered_product_title(item['title'])
             identity_matches = p and (bool(title_identity) and (p['series'], p['number']) == (title_identity[1], title_identity[2].rstrip('-')) or
                                      bool(single) and p.get('identityKind') == 'official-single-card-product' and
                                      not p['number'] and single['family'] == product_family(p))

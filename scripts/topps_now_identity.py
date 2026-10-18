@@ -2,6 +2,12 @@
 import re
 from urllib.parse import unquote, urlparse
 
+# Reviewed cover-card scopes. The Madden title prints 2027, while its official
+# Specs explicitly publishes Product Year 2026; never derive either from a URL.
+GAMING_SCOPES = {
+    '2027 MADDEN NFL Cover Topps NOW®': {'Category': 'Sports', 'Sub Categories': 'Football', 'Product Year': '2026'},
+    '2026 MLB The Show Cover Topps NOW®': {'Category': 'Sports', 'Sub Categories': 'Baseball', 'Product Year': '2026'},
+}
 
 def product_family(product):
     return product.get('family', product['series'])
@@ -25,13 +31,29 @@ def unnumbered_entertainment_title(title):
             'printRun': print_run or ''}
 
 
-def verified_single_card(title, fields, lines):
+def unnumbered_product_title(title):
+    if len(re.findall(r'\bPR\s*:', title, re.I)) > 1:
+        return None
     identity = unnumbered_entertainment_title(title)
+    if identity:
+        return identity
+    for series in GAMING_SCOPES:
+        caption = re.escape(series)
+        pattern = rf'.+? - ({caption})(?: - PR:\s*([\d,]+))?' if 'MADDEN' in series else rf'({caption}) - .+?(?: - PR:\s*([\d,]+))?'
+        match = re.fullmatch(pattern, title)
+        if match:
+            return {'series': series, 'family': re.sub(r' - PR:\s*[\d,]+$', '', title), 'printRun': match[2] or ''}
+    return None
+
+
+def verified_single_card(title, fields, lines):
+    identity = unnumbered_product_title(title)
     if not identity:
         return None
     required = {'Category': 'Entertainment', 'Brand': 'Topps', 'Sub Brand': 'Topps NOW®',
                 'Sub Type': 'Cards', 'Product Type': 'Print on Demand',
                 'Product Year': identity['series'][:4]}
+    required.update(GAMING_SCOPES.get(identity['series'], {}))
     # Marvel publishes this property explicitly. Disney's reviewed products do
     # not publish a Properties cell; their official title supplies the series.
     if ' Marvel ' in identity['series']:
