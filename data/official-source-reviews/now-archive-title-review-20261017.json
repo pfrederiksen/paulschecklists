@@ -8,11 +8,6 @@
   "resolvedByFreshProductSnapshot": "data/catalog-sources/topps-now-backfill-browser-20261017-2300-title-punctuation.json",
   "pendingProductReviews": [
     {
-      "title": "2026 All-Star Game Set - MLB Topps NOW® - 19 Card Set - PR: 16306",
-      "url": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
       "title": "2026 NBA Champions - New York Knicks - NBA Topps NOW® 16-Card Team Set - PR: 65941",
       "url": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
@@ -273,5 +268,14 @@
     "checklistSha256": "e1fe6d548fae18eff76be196af42efb4dd5993892ce079a70bcc61be81ba7c24",
     "publishedSet": "topps-bowman-2026-mls-topps-now-all-star-game-set",
     "resolution": "All 26 physical PDF rows imported across four programs. The 11-card bundle contains ten base cards plus one additional card; neither bundle PR2677 nor unjoined net-jewel 1/1 context assigns a print run/limit to every roster entry. July 27–August 3 official sale dates retained separately from an unverified general release. No pack odds published. Historical NOW coverage remains partial."
+  },
+  "resolvedMlbAllStarBundle": {
+    "url": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
+    "title": "2026 All-Star Game Set - MLB Topps NOW® - 19 Card Set - PR: 16306",
+    "snapshot": "data/parallel-audit-sources/mlb-now-all-star-2026-product-20261017.json",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Now_MLB_ASG_Set_Checklist.pdf?v=1787973837",
+    "checklistSha256": "646cf0118660be5a44de3afb0392d4e7a09a14e43620689f5115662e1992be41",
+    "publishedSet": "topps-bowman-2026-mlb-topps-now-all-star-game-set",
+    "resolution": "All 35 original PDF entries imported: 18 base and 17 autograph, eight literal RC marks, separate Player/Team/Pos. fields. Six exact base foil limits and unnumbered LogoFractor retain base scope; autograph /10-or-lower remains a qualified upper bound. Bundle PR16306 and July 9–16 store dates are not per-card print runs, pack odds or a general release date. Historical coverage remains partial."
   }
 }

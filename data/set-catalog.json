@@ -10913,6 +10913,31 @@
       "sha256": "e1fe6d548fae18eff76be196af42efb4dd5993892ce079a70bcc61be81ba7c24",
       "description": "A made-to-order 11-card bundle: ten base cards plus one additional card. The official checklist lists 26 entries across four programs. Bundle print run 2677 and July 27–August 3 sale dates remain product-level facts; pack odds and exhaustive parallel eligibility are unverified.",
       "catalogEvidence": "Official product page links the complete 26-entry PDF. All printed card numbers, subjects and teams are imported. Available From July 27, 2026 establishes calendar-year inclusion, not a general release date. The product-level net-jewel 1/1 wording stays qualified and unjoined to individual families. No numeric pack odds or named base/autograph parallel ladder is published in the checked product page or current global odds catalog. Historical NOW series coverage remains partial."
+    },
+    {
+      "title": "2026 All-Star Game Set - MLB Topps NOW®",
+      "manufacturer": "Topps / Bowman",
+      "sport": "baseball",
+      "year": "2026",
+      "slug": "topps-bowman-2026-mlb-topps-now-all-star-game-set",
+      "page": "sets/topps-bowman-2026-mlb-topps-now-all-star-game-set.html",
+      "sourcePage": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
+      "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Now_MLB_ASG_Set_Checklist.pdf?v=1787973837",
+      "releaseStatus": "Unverified",
+      "releaseDate": null,
+      "verified": "2026-10-17",
+      "status": "Source table",
+      "rowCount": 35,
+      "tableData": "data/imports/topps-bowman-2026-mlb-topps-now-all-star-game-set.json",
+      "sections": 2,
+      "importKind": "topps-grid-pdf",
+      "dataAudit": "Every physical cell reconciles with independent PDF text. The source has 18 base entries and 17 autograph entries, eight RC marks and Ohtani P/DH in base versus DH in autographs. No teams, flags, print runs or autograph color numbering are inferred.",
+      "dedicatedParser": "scripts/import_topps_now_mlb_allstar_2026.py",
+      "parallelData": true,
+      "publishedOdds": false,
+      "sha256": "646cf0118660be5a44de3afb0392d4e7a09a14e43620689f5115662e1992be41",
+      "description": "A made-to-order 19-card bundle: 18 base cards plus one additional parallel or autograph redemption. The PDF lists 35 entries across two programs. Base foil numbering and an unnumbered LogoFractor are published; autograph numbering remains a qualified upper bound. Bundle print run 16306 and July 9–16 sale dates remain product-level facts.",
+      "catalogEvidence": "All 35 product-linked PDF entries retain original Player, Team, Pos. and eight literal unlabelled RC marks. Exact base foil terms /99, /50, /25, /10, /5 and /1 do not apply to AUTOGRAPH CONTENT. Autograph redemptions have a /10-or-lower upper bound without named parallel joins. Bundle PR16306 is not a per-card print run or pack probability. July 9–16, 2026 store availability establishes calendar-year scope, not a verified general release date. Numeric pack odds and exhaustive parallel eligibility remain unverified; historical NOW coverage stays partial."
     }
   ],
   "coverage": {

@@ -9410,6 +9410,78 @@
         "evidenceFile": "data/parallel-audit-sources/royalty-wwe-2025-guide-20261017.json",
         "evidenceSha256": "be2b5e4fd91f8b0285b8a4797253a00eacecf4f3d44375b1c259fa99f4cd2dd2"
       }
+    ],
+    "topps-bowman-2026-mlb-topps-now-all-star-game-set": [
+      {
+        "family": "2026 Topps NOW MLB All-Star Game Set",
+        "name": "Green Foil",
+        "numbering": "/99",
+        "qualification": "Only the base-card parallel program; individual-card eligibility in every color is not inferred. Autograph redemptions have a separate /10-or-lower statement with no named color ladder.",
+        "sourceHeading": "Foil-Numbered Parallel Card numbered to /99 or lower:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
+        "evidenceFile": "data/parallel-audit-sources/mlb-now-all-star-2026-product-20261017.json",
+        "evidenceSha256": "218b32923d07348b9a9621bd274bda599cf41eb1ad37bb67d0f72d5541fb698c"
+      },
+      {
+        "family": "2026 Topps NOW MLB All-Star Game Set",
+        "name": "Gold Foil",
+        "numbering": "/50",
+        "qualification": "Only the base-card parallel program; individual-card eligibility in every color is not inferred. Autograph redemptions have a separate /10-or-lower statement with no named color ladder.",
+        "sourceHeading": "Foil-Numbered Parallel Card numbered to /99 or lower:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
+        "evidenceFile": "data/parallel-audit-sources/mlb-now-all-star-2026-product-20261017.json",
+        "evidenceSha256": "218b32923d07348b9a9621bd274bda599cf41eb1ad37bb67d0f72d5541fb698c"
+      },
+      {
+        "family": "2026 Topps NOW MLB All-Star Game Set",
+        "name": "Orange Foil",
+        "numbering": "/25",
+        "qualification": "Only the base-card parallel program; individual-card eligibility in every color is not inferred. Autograph redemptions have a separate /10-or-lower statement with no named color ladder.",
+        "sourceHeading": "Foil-Numbered Parallel Card numbered to /99 or lower:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
+        "evidenceFile": "data/parallel-audit-sources/mlb-now-all-star-2026-product-20261017.json",
+        "evidenceSha256": "218b32923d07348b9a9621bd274bda599cf41eb1ad37bb67d0f72d5541fb698c"
+      },
+      {
+        "family": "2026 Topps NOW MLB All-Star Game Set",
+        "name": "Black Foil",
+        "numbering": "/10",
+        "qualification": "Only the base-card parallel program; individual-card eligibility in every color is not inferred. Autograph redemptions have a separate /10-or-lower statement with no named color ladder.",
+        "sourceHeading": "Foil-Numbered Parallel Card numbered to /99 or lower:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
+        "evidenceFile": "data/parallel-audit-sources/mlb-now-all-star-2026-product-20261017.json",
+        "evidenceSha256": "218b32923d07348b9a9621bd274bda599cf41eb1ad37bb67d0f72d5541fb698c"
+      },
+      {
+        "family": "2026 Topps NOW MLB All-Star Game Set",
+        "name": "Red Foil",
+        "numbering": "/5",
+        "qualification": "Only the base-card parallel program; individual-card eligibility in every color is not inferred. Autograph redemptions have a separate /10-or-lower statement with no named color ladder.",
+        "sourceHeading": "Foil-Numbered Parallel Card numbered to /99 or lower:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
+        "evidenceFile": "data/parallel-audit-sources/mlb-now-all-star-2026-product-20261017.json",
+        "evidenceSha256": "218b32923d07348b9a9621bd274bda599cf41eb1ad37bb67d0f72d5541fb698c"
+      },
+      {
+        "family": "2026 Topps NOW MLB All-Star Game Set",
+        "name": "FoilFractor",
+        "numbering": "/1",
+        "qualification": "Only the base-card parallel program; individual-card eligibility in every color is not inferred. Autograph redemptions have a separate /10-or-lower statement with no named color ladder.",
+        "sourceHeading": "Foil-Numbered Parallel Card numbered to /99 or lower:",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
+        "evidenceFile": "data/parallel-audit-sources/mlb-now-all-star-2026-product-20261017.json",
+        "evidenceSha256": "218b32923d07348b9a9621bd274bda599cf41eb1ad37bb67d0f72d5541fb698c"
+      },
+      {
+        "family": "2026 Topps NOW MLB All-Star Game Set",
+        "name": "All-Star Game LogoFractor",
+        "numbering": "Unnumbered",
+        "qualification": "Explicitly unnumbered; individual-card eligibility is not inferred.",
+        "sourceHeading": "Unnumbered All-Star Game LogoFractor",
+        "source": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
+        "evidenceFile": "data/parallel-audit-sources/mlb-now-all-star-2026-product-20261017.json",
+        "evidenceSha256": "218b32923d07348b9a9621bd274bda599cf41eb1ad37bb67d0f72d5541fb698c"
+      }
     ]
   },
   "conflicts": [

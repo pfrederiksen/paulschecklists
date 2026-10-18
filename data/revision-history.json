@@ -13253,5 +13253,34 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-mlb-topps-now-all-star-game-set": {
+    "state": {
+      "checklistHash": "646cf0118660be5a44de3afb0392d4e7a09a14e43620689f5115662e1992be41",
+      "oddsHash": null,
+      "rows": 35,
+      "odds": 0,
+      "specificationRows": 27,
+      "specificationHash": "c8ced3bcf0eb9417bfa7147df7e0079f4f66203a0a00bba2c2e735bfa88da86d"
+    },
+    "fingerprint": "01d5793ac7e1944b824ade92d3c7cc47eef8ed08f832ff2eb056565dc62bf193",
+    "events": [
+      {
+        "at": "2026-10-18T06:17:21.167Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Now_MLB_ASG_Set_Checklist.pdf?v=1787973837",
+        "snapshot": {
+          "checklistHash": "646cf0118660be5a44de3afb0392d4e7a09a14e43620689f5115662e1992be41",
+          "oddsHash": null,
+          "rows": 35,
+          "odds": 0,
+          "specificationRows": 27,
+          "specificationHash": "c8ced3bcf0eb9417bfa7147df7e0079f4f66203a0a00bba2c2e735bfa88da86d"
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }
