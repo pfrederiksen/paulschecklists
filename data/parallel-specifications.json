@@ -9711,7 +9711,101 @@
     "topps-bowman-2026-rtod-topps-now-houston-astros": [],
     "topps-bowman-2026-rtod-topps-now-athletics": [],
     "topps-bowman-2026-rtod-topps-now-new-york-mets": [],
-    "topps-bowman-2026-rtod-topps-now-angels": []
+    "topps-bowman-2026-rtod-topps-now-angels": [],
+    "topps-bowman-2026-rtod-topps-now-dodgers-japan-edition": [],
+    "topps-bowman-2026-rtod-topps-now-autograph-collectors-box": [
+      {
+        "family": "2026 Topps NOW Road to Opening Day - Autograph Collector's Box Subjects",
+        "name": "Green Foil",
+        "numbering": "/99",
+        "qualification": "Exact named product program mapped to the corresponding PDF roster; no numbering transfers across families.",
+        "sourceHeading": "On-card Autographs:",
+        "source": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+        "evidenceFile": "data/parallel-audit-sources/rtod-now-collector-box-2026-product-20261018.json",
+        "evidenceSha256": "d970005d2c7b976cfc62a5d5cc11c9164ba8283067b03977767ccbcdcd62ee18"
+      },
+      {
+        "family": "2026 Topps NOW Road to Opening Day - Autograph Collector's Box Subjects",
+        "name": "Gold Foil",
+        "numbering": "/50",
+        "qualification": "Exact named product program mapped to the corresponding PDF roster; no numbering transfers across families.",
+        "sourceHeading": "On-card Autographs:",
+        "source": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+        "evidenceFile": "data/parallel-audit-sources/rtod-now-collector-box-2026-product-20261018.json",
+        "evidenceSha256": "d970005d2c7b976cfc62a5d5cc11c9164ba8283067b03977767ccbcdcd62ee18"
+      },
+      {
+        "family": "2026 Topps NOW Road to Opening Day - Autograph Collector's Box Subjects",
+        "name": "Orange Foil",
+        "numbering": "/25",
+        "qualification": "Exact named product program mapped to the corresponding PDF roster; no numbering transfers across families.",
+        "sourceHeading": "On-card Autographs:",
+        "source": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+        "evidenceFile": "data/parallel-audit-sources/rtod-now-collector-box-2026-product-20261018.json",
+        "evidenceSha256": "d970005d2c7b976cfc62a5d5cc11c9164ba8283067b03977767ccbcdcd62ee18"
+      },
+      {
+        "family": "2026 Topps NOW Road to Opening Day - Autograph Collector's Box Subjects",
+        "name": "Black Foil",
+        "numbering": "/10",
+        "qualification": "Exact named product program mapped to the corresponding PDF roster; no numbering transfers across families.",
+        "sourceHeading": "On-card Autographs:",
+        "source": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+        "evidenceFile": "data/parallel-audit-sources/rtod-now-collector-box-2026-product-20261018.json",
+        "evidenceSha256": "d970005d2c7b976cfc62a5d5cc11c9164ba8283067b03977767ccbcdcd62ee18"
+      },
+      {
+        "family": "2026 Topps NOW Road to Opening Day - Autograph Collector's Box Subjects",
+        "name": "Red Foil",
+        "numbering": "/5",
+        "qualification": "Exact named product program mapped to the corresponding PDF roster; no numbering transfers across families.",
+        "sourceHeading": "On-card Autographs:",
+        "source": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+        "evidenceFile": "data/parallel-audit-sources/rtod-now-collector-box-2026-product-20261018.json",
+        "evidenceSha256": "d970005d2c7b976cfc62a5d5cc11c9164ba8283067b03977767ccbcdcd62ee18"
+      },
+      {
+        "family": "2026 Topps NOW Road to Opening Day - Autograph Collector's Box Subjects",
+        "name": "FoilFractor",
+        "numbering": "1/1",
+        "qualification": "Exact named product program mapped to the corresponding PDF roster; no numbering transfers across families.",
+        "sourceHeading": "On-card Autographs:",
+        "source": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+        "evidenceFile": "data/parallel-audit-sources/rtod-now-collector-box-2026-product-20261018.json",
+        "evidenceSha256": "d970005d2c7b976cfc62a5d5cc11c9164ba8283067b03977767ccbcdcd62ee18"
+      },
+      {
+        "family": "2026 Topps NOW Road to Opening Day - Autograph Collector's Box Dual-Auto Subjects",
+        "name": "Red Foil",
+        "numbering": "/5",
+        "qualification": "Exact named product program mapped to the corresponding PDF roster; no numbering transfers across families.",
+        "sourceHeading": "On-card Dual Autographs",
+        "source": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+        "evidenceFile": "data/parallel-audit-sources/rtod-now-collector-box-2026-product-20261018.json",
+        "evidenceSha256": "d970005d2c7b976cfc62a5d5cc11c9164ba8283067b03977767ccbcdcd62ee18"
+      },
+      {
+        "family": "2026 Topps NOW Road to Opening Day - Autograph Collector's Box Dual-Auto Subjects",
+        "name": "FoilFractor",
+        "numbering": "1/1",
+        "qualification": "Exact named product program mapped to the corresponding PDF roster; no numbering transfers across families.",
+        "sourceHeading": "On-card Dual Autographs",
+        "source": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+        "evidenceFile": "data/parallel-audit-sources/rtod-now-collector-box-2026-product-20261018.json",
+        "evidenceSha256": "d970005d2c7b976cfc62a5d5cc11c9164ba8283067b03977767ccbcdcd62ee18"
+      },
+      {
+        "family": "2026 Topps NOW Road to Opening Day - Autograph Collector's Box Exclusive Gold Foil Parallels",
+        "name": "Gold Foil",
+        "numbering": "/26",
+        "qualification": "Exact named product program mapped to the corresponding PDF roster; no numbering transfers across families.",
+        "sourceHeading": "Exclusive Base Parallel (1 per box)",
+        "source": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+        "evidenceFile": "data/parallel-audit-sources/rtod-now-collector-box-2026-product-20261018.json",
+        "evidenceSha256": "d970005d2c7b976cfc62a5d5cc11c9164ba8283067b03977767ccbcdcd62ee18"
+      }
+    ],
+    "topps-bowman-2026-rtod-topps-now-team-sets": []
   },
   "conflicts": [
     {

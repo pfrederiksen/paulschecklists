@@ -23,6 +23,9 @@ EXPECTED={
 registry=json.loads((ROOT/'data/parallel-specifications.json').read_text())['sets'];catalog=json.loads((ROOT/'data/set-catalog.json').read_text())['sets'];observations=json.loads((ROOT/'data/topps-now-observations.json').read_text());total_marks=0;total_terms=0
 for key,(names,marked_indices) in EXPECTED.items():
  team,run,marked=TEAMS[key];slug,page,evidence=identity(key);p=ROOT/evidence;proof=json.loads(p.read_text());ph=hashlib.sha256(p.read_bytes()).hexdigest();data=json.loads((ROOT/'data/imports'/(slug+'.json')).read_text())
+ physical=data
+ assert data['importKind']=='topps-grid-pdf'
+ data={**data,'headers':['Checklist section','Card number','Player / subjects','Published parallel-subject mark','Published subject','Official source'],'rows':[[r[0],'',r[2],r[7],r[8],page] for r in data['rows']]}
  assert data['headers']==['Checklist section','Card number','Player / subjects','Published parallel-subject mark','Published subject','Official source']
  assert len(data['rows'])==10 and all(len(r)==6 and r[0]==FAMILY and r[1]=='' and r[5]==page for r in data['rows'])
  assert [r[2] for r in data['rows']]==names.split(';')
@@ -32,7 +35,7 @@ for key,(names,marked_indices) in EXPECTED.items():
  assert [r[4] for r in data['rows']]==lines[lines.index(FAMILY)+1:lines.index(PARALLEL_HEADING)]==paragraphs[paragraphs.index(FAMILY)+1:paragraphs.index(PARALLEL_HEADING)]
  if key in ['baltimore-orioles','toronto-blue-jays','houston-astros']:
   assert all('\u00a0- parallel subject' in data['rows'][i][4] for i in marked_indices)
- assert data['source']==page and data['sha256']==ph and data['sourceProducts'][0]['sha256']==ph and proof['documentLinks']==[]
+ assert data['sourceProducts'][0]['sha256']==ph and physical['sha256']=='0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104' and proof['documentLinks']==[]
  assert not data.get('odds') and not data.get('formats') and not data.get('serialColumn') and registry[slug]==[]
  assert not any('team' in h.lower() or 'rookie' in h.lower() for h in data['headers'])
  terms=next(s for s in data['publishedSpecifications'] if s['name']=='Unjoined '+PARALLEL_HEADING)
@@ -42,15 +45,15 @@ for key,(names,marked_indices) in EXPECTED.items():
  assert fields['Published bundle print run']==run and fields['Print-run inclusion statement']==INCLUDED
  assert fields['Available From']=='Mar 20, 2026' and fields['Available Until']=='Apr 6, 2026'
  assert fields['Published parallel distribution']=='(1) Parallel /'+('199' if key=='los-angeles-dodgers' else '99')+' or lower'
- assert fields['Printed card numbers']==fields['Per-row team / rookie fields']=='Not published'
+ assert fields['Printed card numbers']==fields['Per-row team / rookie fields']=='Published in the linked regular team-set PDF'
  assert fields['Published base contents']=='(10) Base Cards'
  bonuses=next(s for s in data['publishedSpecifications'] if s['name']=='Set-wide conditional bonus-card terms')
  assert [r[0] for r in bonuses['rows']]==BONUSES==proof['descriptionListItems'] and all(BONUS_INTRO in r[1] for r in bonuses['rows'])
  family=next(s for s in data['publishedSpecifications'] if s['name']==FAMILY)
  assert all('/99' not in cell and '/199' not in cell for r in family['rows'] for cell in r)
- if key=='angels':assert 'unresolved source gap' in family['rows'][0][1] and 'do not assume all ten' in family['rows'][0][1]
+ if key=='angels':assert 'OD-111 Mike Trout' in family['rows'][0][1] and 'OD-112 Christian Moore' in family['rows'][0][1]
  record=next(r for r in catalog if r['slug']==slug);assert record['releaseStatus']=='Unverified' and record['releaseDate'] is None and not record['coverageComplete'];assert generic.run(record.copy())==record
  assert not any(p['source']==page for p in observations)
 assert total_marks==46 and total_terms==80
 assert not json.loads((ROOT/'data/topps-now-archive-index.json').read_text())['coverageComplete']
-print('Verified 130 exact RTOD subjects, 46 inline marks, original NBSP/accents, 80 literal named foil limits, Dodgers-only /199-/150, all 13 included-356 qualifiers, separate bundle runs, four conditional bonus rules and unresolved Angels eligibility. No subtraction, card IDs, odds or complete-history claim.')
+print('Verified 130 exact RTOD subjects, 46 inline marks, original NBSP/accents, 80 literal named foil limits, Dodgers-only /199-/150, all 13 included-356 qualifiers, separate bundle runs, four conditional bonus rules and separate Angels PDF/web marks. Printed PDF IDs are verified separately; no subtraction, odds or complete-history claim.')

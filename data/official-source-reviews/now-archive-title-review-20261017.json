@@ -16,16 +16,6 @@
       "title": "Chase Burns - 2026 MLB Topps NOW® - Card 29 - PR: 3477 - PR: 236",
       "url": "https://www.topps.com/products/chase-burns-2026-mlb-topps-now%C2%AE-card-29",
       "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 Los Angeles Dodgers MLB Topps NOW® Road To Opening Day 10-Card Team Set - Japan Edition - PR: 4693",
-      "url": "https://www.topps.com/products/2026-los-angeles-dodgers-mlb-topps-now%C2%AE-road-to-opening-day-10-card-team-set-japan-edition",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
-    },
-    {
-      "title": "2026 MLB Topps NOW® Road To Opening Day – Autograph Collector’s Box",
-      "url": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
-      "gap": "Retained archive title requires fresh product-level reconciliation. Do not infer a missing printed number, subject roster or sale date from its URL."
     }
   ],
   "notes": "This review reconciles only retained title text, not all fields or reported archive products. Existing 95-page checkpoint and partial-history labels remain unchanged. Unnumbered entertainment products and multi-card bundles need dedicated roster/date parsing; Anthony Edwards has a blank printed title number that cannot be filled from its URL.",
@@ -337,5 +327,42 @@
       "publishedSet": "topps-bowman-2026-rtod-topps-now-angels",
       "resolution": "All ten literal roster cells imported with blank IDs, original inline parallel-subject labels and source whitespace/accents. Named base-parallel terms retain exact product scope; Dodgers Aqua /199 and Blue /150 never transfer. Bundle PR includes the stated 356 Collector’s Box contribution without subtraction. Qualified parallel distribution, March 20–April 6 sale dates and four conditional seasonal bonus milestones remain distinct from pack odds, per-card runs and general release. Angels eligibility remains unresolved because its roster has no inline marks. History remains partial."
     }
-  ]
+  ],
+  "resolvedRtodJapanEdition": {
+    "url": "https://www.topps.com/products/2026-los-angeles-dodgers-mlb-topps-now%C2%AE-road-to-opening-day-10-card-team-set-japan-edition",
+    "title": "2026 Los Angeles Dodgers MLB Topps NOW® Road To Opening Day 10-Card Team Set - Japan Edition - PR: 4693",
+    "snapshot": "data/parallel-audit-sources/rtod-now-dodgers-japan-2026-product-20261018.json",
+    "publishedSet": "topps-bowman-2026-rtod-topps-now-dodgers-japan-edition",
+    "resolution": "Ten literal English-language subject cells imported for the explicitly Japanese-language ten-base-card edition. Blank unpublished card IDs, bundle PR4693 and March 20–April 6 sale dates retain edition scope. No regular eleven-card product foil ladder, bonus milestones, extra-card guarantee or included-356 term is transferred. No pack odds or general release is inferred; history remains partial."
+  },
+  "resolvedRtodCollectorsBox": {
+    "url": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+    "title": "2026 MLB Topps NOW® Road To Opening Day – Autograph Collector’s Box",
+    "snapshot": "data/parallel-audit-sources/rtod-now-collector-box-2026-product-20261018.json",
+    "publishedSet": "topps-bowman-2026-rtod-topps-now-autograph-collectors-box",
+    "resolution": "Imported all 259 published PDF entries (56 autographs, nine dual cards, 194 exclusive Gold Foil rows) from the separate official RTOD landing-page link. Nine exact product-guide terms map only to corresponding PDF programs; exclusive base Gold /26 does not number autographs. The 300-player base claim remains distinct from the published PDF scope. Actual box print run, pack odds, general release and exhaustive historical/eligibility coverage remain unverified."
+  },
+  "resolvedRtodLandingDocuments": {
+    "source": "https://www.topps.com/pages/topps-now-road-to-opening-day",
+    "snapshot": "data/official-source-reviews/rtod-2026-landing-20261018.json",
+    "snapshotSha256": "e46c72e85efe738cf958121b73f222f2c99f6d3fa44bfbf764b8ee7fea9c628f",
+    "documents": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "sha256": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+        "path": "data/catalog-sources/downloads/rtod-2026-teams-0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104.pdf",
+        "publishedSet": "topps-bowman-2026-rtod-topps-now-team-sets",
+        "importedRows": 300
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_RTOD_Autograph_Collectors_Box_Subject_List.pdf?v=1773955084",
+        "sha256": "b16831c45302272f26b2e8bf0b94752cac94e28403eb355745f99468c562b03c",
+        "path": "data/catalog-sources/downloads/rtod-2026-box-b16831c45302272f26b2e8bf0b94752cac94e28403eb355745f99468c562b03c.pdf",
+        "publishedSet": "topps-bowman-2026-rtod-topps-now-autograph-collectors-box",
+        "importedRows": 259
+      }
+    ],
+    "notes": "Fresh actual official UI links outside the global checklist catalog. Both complete PDFs parsed by physical columns and checked against independent original word flow. No revised manufacturer drop is inferred from this discovery.",
+    "teamPageReconciliation": "All 130 web names join exact printed team/name cells across thirteen existing team pages. Numbers, literal teams, positions, RC and PARALLELS now come from the PDF. Angels PDF marks OD-111 Mike Trout and OD-112 Christian Moore; its web roster has no inline marks. Both columns remain separate. No Japan Edition number or color inheritance."
+  }
 }

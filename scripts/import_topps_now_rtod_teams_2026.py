@@ -103,18 +103,8 @@ def build_one(key):
 
 
 def build():
-    results=[build_one(key) for key in TEAMS]
-    for record,payload in results:(ROOT/record['tableData']).write_text(json.dumps(payload,ensure_ascii=False)+'\n')
-    for name in ['topps-product-official-catalog.json','set-catalog.json']:
-        p=ROOT/'data'/name;catalog=json.loads(p.read_text());sets=catalog['sets'] if isinstance(catalog,dict) else catalog
-        for record,_ in results:
-            i=next((i for i,s in enumerate(sets) if s['slug']==record['slug']),None)
-            if i is None:sets.append(record)
-            else:sets[i]=record
-        p.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
-    p=ROOT/'data/parallel-specifications.json';registry=json.loads(p.read_text())
-    for record,_ in results:registry['sets'][record['slug']]=[]
-    p.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
-    print('Imported 13 RTOD team sets: 130 literal subjects, 46 printed parallel-subject marks and 80 named foil terms. Bundle/Collector’s Box scope, conditional bonuses and Angels eligibility gap retained; history remains partial.')
+    # Validate and construct all physical and web joins before replacing prior imports.
+    from import_topps_now_rtod_pdf_2026 import build as apply_pdf
+    apply_pdf()
 
 if __name__=='__main__':build()

@@ -6212,6 +6212,48 @@
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-rtod-topps-now-dodgers-japan-edition",
+      "title": "2026 Los Angeles Dodgers MLB Topps NOW® Road To Opening Day 10-Card Team Set - Japan Edition - PR: 4693",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2026-los-angeles-dodgers-mlb-topps-now%C2%AE-road-to-opening-day-10-card-team-set-japan-edition",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-rtod-topps-now-autograph-collectors-box",
+      "title": "2026 MLB Topps NOW® Road To Opening Day – Autograph Collector’s Box",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 9,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-rtod-topps-now-team-sets",
+      "title": "2026 Topps NOW Road to Opening Day Team Sets",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/topps-now-road-to-opening-day",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": false,
+      "ongoingSeries": false,
+      "status": "Supplementary parallel and numbering review pending",
+      "conflicts": []
     }
   ]
 }

@@ -13617,14 +13617,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-washington-nationals": {
     "state": {
-      "checklistHash": "1eef7bf1f5dcf20575fd033ce6ee1e2cfbecaa965c1c8a9b2fbd7ade1ec17486",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "80e45b0b4cc087ad43764e04e8ec97d3360a1cc580c4516fed36df5ef23bd315",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.373Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "1eef7bf1f5dcf20575fd033ce6ee1e2cfbecaa965c1c8a9b2fbd7ade1ec17486",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.934Z",
         "changes": [
@@ -13644,14 +13665,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-miami-marlins": {
     "state": {
-      "checklistHash": "f95e8dcafe01a1d0a6112d4ce4d2107cbac1f07b73da8f8dc22fbc9a615f2cd8",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "c32d9fa080ec5c40bfee97de1a45232b6fed2eed9a44d84b3bf133b50c02dd50",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.374Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "f95e8dcafe01a1d0a6112d4ce4d2107cbac1f07b73da8f8dc22fbc9a615f2cd8",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.934Z",
         "changes": [
@@ -13671,14 +13713,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-baltimore-orioles": {
     "state": {
-      "checklistHash": "eacaab036d807cfd9fce0be8ac3615b840795f1e5b6c1d93130d9be405eb8c59",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "4813600e70f4e619e14d00b1db066e5ba359eebcba10cc4033bc1d5e9df867b8",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.374Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "eacaab036d807cfd9fce0be8ac3615b840795f1e5b6c1d93130d9be405eb8c59",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.934Z",
         "changes": [
@@ -13698,14 +13761,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-los-angeles-dodgers": {
     "state": {
-      "checklistHash": "0bef5bb1d8989b404190e9a257c59adb66caae1354ab9b52ab9ed5c7befef60a",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 31
     },
-    "fingerprint": "56b946d2393ab67ac69d9d80688ded82a3422c4507dbc3ebe8756addccf592e0",
+    "fingerprint": "5d4fb3f5ee9a0c023edfb04230ec5d954cc45f1e6abc7929412de1bca90ada6d",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.374Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 31
+        },
+        "previousSnapshot": {
+          "checklistHash": "0bef5bb1d8989b404190e9a257c59adb66caae1354ab9b52ab9ed5c7befef60a",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 31
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.934Z",
         "changes": [
@@ -13725,14 +13809,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-san-diego-padres": {
     "state": {
-      "checklistHash": "f0355792d6aa89f5315188223fe6dec401c24d86f6da3fcb7084e24c7f72b605",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "8b81c8bd57b845884ec64045495ba3e4b1853cb9a193bf337708eba6551fdd1c",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.375Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "f0355792d6aa89f5315188223fe6dec401c24d86f6da3fcb7084e24c7f72b605",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.934Z",
         "changes": [
@@ -13752,14 +13857,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-arizona-diamondbacks": {
     "state": {
-      "checklistHash": "ad77199960f91134b8e018a2e4667032db06391e61b57c4ed42eb0b634221ded",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "2705c9e901886c030d2e93adf9b663e3b9a4c419e97071b333bd63778d1f9853",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.375Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "ad77199960f91134b8e018a2e4667032db06391e61b57c4ed42eb0b634221ded",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.935Z",
         "changes": [
@@ -13779,14 +13905,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-texas-rangers": {
     "state": {
-      "checklistHash": "aa61e6c847f11f55e323ef0d0d0e38a83e6063639bc0a4c0302826178a11086f",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "4b043d1982afb171631506c9d46646b8262dba16ce2db9e16e291cce19582a8f",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.375Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "aa61e6c847f11f55e323ef0d0d0e38a83e6063639bc0a4c0302826178a11086f",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.935Z",
         "changes": [
@@ -13806,14 +13953,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-toronto-blue-jays": {
     "state": {
-      "checklistHash": "8ea9f57145c439e123029c10986baee23cdf64300eacfb4baa150c2943fe1b3b",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "3441e29dec8f3ce0000afbf9c31aaa210bb23a9060cfbfa40123a68b10560948",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.376Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "8ea9f57145c439e123029c10986baee23cdf64300eacfb4baa150c2943fe1b3b",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.935Z",
         "changes": [
@@ -13833,14 +14001,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-atlanta-braves": {
     "state": {
-      "checklistHash": "52c572e127c97773e19b6009de3db1d2aa6aa186269acb0a43d18b3d00881964",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "fb09d7a78a606e1cfc28ce3285dc264726afb2b1341c5009424950b8c247d39d",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.376Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "52c572e127c97773e19b6009de3db1d2aa6aa186269acb0a43d18b3d00881964",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.935Z",
         "changes": [
@@ -13860,14 +14049,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-houston-astros": {
     "state": {
-      "checklistHash": "66cc219fd32ecea19fb80f9ec6912d6fc40bfe9dcce70c4428e02838a9ad7422",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "3f535880be4a8341a6c1058d21e98701180388ef7abad76a568d9bb5ae1a7912",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.376Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "66cc219fd32ecea19fb80f9ec6912d6fc40bfe9dcce70c4428e02838a9ad7422",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.935Z",
         "changes": [
@@ -13887,14 +14097,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-athletics": {
     "state": {
-      "checklistHash": "94ad22f620a0b7e9ee440c5bced99510104bd9e3b26743bc9bec7dc1e436336a",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "c9e240e3cbe74c7ec5684ec5502f948796056991281a3b4632160c970f34a05c",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.377Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "94ad22f620a0b7e9ee440c5bced99510104bd9e3b26743bc9bec7dc1e436336a",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.936Z",
         "changes": [
@@ -13914,14 +14145,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-new-york-mets": {
     "state": {
-      "checklistHash": "8a43bcc644310ad39b0f132542c9e975d63115e96fcf0f1b5313f5efb073214c",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "09bc881940bf727c7dc2e67f59a9434d30601196a14ef468fa6e5c016028ddd1",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.377Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "8a43bcc644310ad39b0f132542c9e975d63115e96fcf0f1b5313f5efb073214c",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.936Z",
         "changes": [
@@ -13941,14 +14193,35 @@
   },
   "topps-bowman-2026-rtod-topps-now-angels": {
     "state": {
-      "checklistHash": "4e31f6bc5d5333254f64514145bfe896de5ffe7cfaff795d7bab36d3632d5ebd",
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
       "oddsHash": null,
       "rows": 10,
       "odds": 0,
       "specificationRows": 29
     },
-    "fingerprint": "2bfe6744fb3cc3a506d9d9ffe216973fbae939f453830425a1787226ae5e28a7",
+    "fingerprint": "3b775059d3b363d8c9633f4a2bfe7acbd39a1e9a38f2b07f4f508c736b9bbe66",
     "events": [
+      {
+        "at": "2026-10-18T16:44:08.377Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        },
+        "previousSnapshot": {
+          "checklistHash": "4e31f6bc5d5333254f64514145bfe896de5ffe7cfaff795d7bab36d3632d5ebd",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 29
+        }
+      },
       {
         "at": "2026-10-18T15:23:47.936Z",
         "changes": [
@@ -13961,6 +14234,89 @@
           "rows": 10,
           "odds": 0,
           "specificationRows": 29
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-dodgers-japan-edition": {
+    "state": {
+      "checklistHash": "d61e62875b83446e55d434283b83905c67b173da49a3c565c779d305bedb7d2f",
+      "oddsHash": null,
+      "rows": 10,
+      "odds": 0,
+      "specificationRows": 16
+    },
+    "fingerprint": "b63c0b3a977e3f6115534018aa63cac92db282029189ad58cef981a0309899b7",
+    "events": [
+      {
+        "at": "2026-10-18T16:30:26.701Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.topps.com/products/2026-los-angeles-dodgers-mlb-topps-now%C2%AE-road-to-opening-day-10-card-team-set-japan-edition",
+        "snapshot": {
+          "checklistHash": "d61e62875b83446e55d434283b83905c67b173da49a3c565c779d305bedb7d2f",
+          "oddsHash": null,
+          "rows": 10,
+          "odds": 0,
+          "specificationRows": 16
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-team-sets": {
+    "state": {
+      "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+      "oddsHash": null,
+      "rows": 300,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "bc7f2ddb23648a831fd753d593ab5ae1a42c4b4231c9e7b9136ff5a4a937e40d",
+    "events": [
+      {
+        "at": "2026-10-18T16:44:08.379Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Road_to_Opening_Day_Team_Sets_Checklist.pdf?v=1773955098",
+        "snapshot": {
+          "checklistHash": "0dad58e985573cbff62ac41adc3ce7f19736446e094c6a326bc82196d201c104",
+          "oddsHash": null,
+          "rows": 300,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-rtod-topps-now-autograph-collectors-box": {
+    "state": {
+      "checklistHash": "b16831c45302272f26b2e8bf0b94752cac94e28403eb355745f99468c562b03c",
+      "oddsHash": null,
+      "rows": 259,
+      "odds": 0,
+      "specificationRows": 34,
+      "specificationHash": "4ed0e77d95a1653c2a2f3881433b069a40195ef742a6c9d9c9205c0665ff5270"
+    },
+    "fingerprint": "f00d3b3a49d14e7d272070356d459b64e1a3e139187cb059a636d56569d42583",
+    "events": [
+      {
+        "at": "2026-10-18T16:46:34.962Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_RTOD_Autograph_Collectors_Box_Subject_List.pdf?v=1773955084",
+        "snapshot": {
+          "checklistHash": "b16831c45302272f26b2e8bf0b94752cac94e28403eb355745f99468c562b03c",
+          "oddsHash": null,
+          "rows": 259,
+          "odds": 0,
+          "specificationRows": 34,
+          "specificationHash": "4ed0e77d95a1653c2a2f3881433b069a40195ef742a6c9d9c9205c0665ff5270"
         },
         "previousSnapshot": null
       }
