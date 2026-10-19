@@ -543,8 +543,12 @@ for(const set of cases){
   get('source-odds-tab').onclick();get('source-section').value='BASE';get('source-section').onchange();get('source-search').value='Padpradascha';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('1:420')&&csv.includes('Sapphire Pack Rate'));get('source-cards-tab').onclick();get('source-reset').onclick();
  }
  if(set.slug==='topps-bowman-2026-topps-chrome-football'){
+  assert.equal(new Set(data.rows.map(r=>r[0])).size,55);
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,true);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-section').value='ROOKIE VARIATION AUTOGRAPHS';get('source-section').onchange();assert.equal(get('source-count').textContent,'135 official source rows');
+  get('source-search').value='RRA-AA';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('ROOKIE VARIATION AUTOGRAPHS')&&csv.includes('Aaron Anderson')&&csv.includes('Cleveland Browns')&&!csv.includes('RETAIL ROOKIE AUTOGRAPHS'));
+  get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('November 18, 2026')&&get('source-specifications').innerHTML.includes('December 2, 2026'));get('source-cards-tab').onclick();get('source-reset').onclick();
   get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'644 official source rows');
   for(const family of ['BASE CARDS','BASE CARDS LIGHTBOARD LOGO VARIATION','BASE CARDS TEAM CAMO VARIATION','ROOKIE','ROOKIE LIGHTBOARD LOGO VARIATION','ROOKIE TEAM CAMO VARIATION']){get('source-reset').onclick();get('source-section').value=family;get('source-section').onchange();assert.equal(get('source-count').textContent,(family.startsWith('ROOKIE')?'100':'300')+' official source rows');}
   get('source-reset').onclick();get('source-search').value='LT-1';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');assert(get('source-results').innerHTML.includes('Name not published'));get('source-export').onclick();assert(csv.includes('"LT-1","","Seattle Seahawks"'));

@@ -36,7 +36,7 @@ for slug in [F,G]:
             continue
         assert actual==expected,(slug,pn,'Independent full-page glyph comparison')
     if slug==F:
-        assert len(d['rows'])==2382 and len(families)==56 and sum(r[4]=='Rookie' for r in d['rows'])==644
+        assert len(d['rows'])==2382 and len(families)==55 and sum(r[4]=='Rookie' for r in d['rows'])==644
         assert sum(not r[1] for r in d['rows'])==93
         for family,start,end in [('BASE CARDS',1,300),('BASE CARDS LIGHTBOARD LOGO VARIATION',1,300),('BASE CARDS TEAM CAMO VARIATION',1,300),('ROOKIE',301,400),('ROOKIE LIGHTBOARD LOGO VARIATION',301,400),('ROOKIE TEAM CAMO VARIATION',301,400)]:
             assert {int(r[1]) for r in d['rows'] if r[0]==family}==set(range(start,end+1))
@@ -48,6 +48,28 @@ for slug in [F,G]:
         assert all(r[1] not in {'1991','2016','2017','2018'} for r in d['rows'])
         assert d['odds']==[] and d['formats']==[] and not d.get('parallelSpecifications')
         assert catalog[slug]['releaseStatus']=='Upcoming' and catalog[slug]['releaseDate'] is None
+        revision=ROOT/'data/parallel-audit-sources/chrome-football-2026-revision-20261019.json'
+        reviewed=json.loads(revision.read_text());revision_hash=hashlib.sha256(revision.read_bytes()).hexdigest()
+        assert d['source']==catalog[slug]['checklistUrl']==reviewed['current']['url']
+        assert d['sha256']==reviewed['current']['sha256']
+        assert hashlib.sha256(json.dumps(sorted(r[1:5] for r in d['rows']),ensure_ascii=False).encode()).hexdigest()==reviewed['unchangedCardCellsSha256']
+        assert len(reviewed['removedFamilyRows'])==len(reviewed['addedFamilyRows'])==43
+        assert 'RETAILROOKIEAUTOGRAPHS' not in families
+        combined=[r for r in d['rows'] if r[0]=='ROOKIE VARIATION AUTOGRAPHS'];assert len(combined)==135
+        rra=[r[:5] for r in combined if r[1].startswith('RRA-')]
+        assert rra==reviewed['addedFamilyRows']
+        assert all(a[1:]==b[1:] for a,b in zip(reviewed['removedFamilyRows'],reviewed['addedFamilyRows']))
+        assert d['sourceRevision']['evidenceSha256']==revision_hash
+        for specification,product in zip(reviewed['retailSpecifications'],reviewed['retailProducts']):
+            actual=next(s for s in d['publishedSpecifications'] if s['name']==specification['name'])
+            assert actual['rows']==specification['rows'] and actual['source']==product['url'] and actual['evidenceSha256']==revision_hash
+            assert specification['rows'][0][1] in product['overview']
+            assert specification['rows'][1][1] in product['overview']
+            assert 'product release date, '+specification['rows'][2][1] in product['overview']
+            assert specification['rows'][3][1]==dict(product['specs'])['Available From']
+            assert specification['rows'][4][1]==dict(product['specs'])['SKU']
+            assert not any('odds' in link['title'].lower() for link in product['links'])
+        assert [s['rows'][2][1] for s in reviewed['retailSpecifications']]==['December 2, 2026','November 18, 2026','November 18, 2026']
     else:
         assert len(d['rows'])==158 and len(families)==6
         assert sum(bool(r[1]) for r in d['rows'])==105

@@ -1,0 +1,1003 @@
+{
+  "observed": "2026-10-19",
+  "sourceKind": "official-browser-and-physical-pdf-revision",
+  "method": "Fresh complete official index and product-page links; both PDFs hash-checked. Original glyph-column parser and independent pypdf full-page comparisons; normalized UI observations are not raw HTML hashes.",
+  "previous": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792077449",
+    "sha256": "a7991e92ea751031ec29b51c27d7d2156fe09db1b13ceb25d3c8644c50ec35d5",
+    "rows": 2382,
+    "sections": 56,
+    "retainedLocalFile": "data/catalog-sources/downloads/topps-bowman-2026-topps-chrome-football-a7991e92.pdf"
+  },
+  "current": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792444820",
+    "sha256": "8a0d71bc77404525a0c94d1dcbdf2a200276810072ed41cfc9c7272a1ee25a43",
+    "rows": 2382,
+    "sections": 55
+  },
+  "unchangedCardCellsSha256": "3cf129dd6472b029e14ded125740de9ac4349d82b6ed833832e6aceca79a8cd7",
+  "removedFamilyRows": [
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-AA",
+      "Aaron Anderson",
+      "Cleveland Browns",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-AH",
+      "Anthony Hill Jr.",
+      "Tennessee Titans",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-AK",
+      "Athan Kaliakmanis",
+      "Washington Commanders",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-AR",
+      "Adam Randall",
+      "Baltimore Ravens",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-AS",
+      "Anthony Smith",
+      "Dallas Cowboys",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-BM",
+      "Blake Miller",
+      "Detroit Lions",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-CA",
+      "Cyrus Allen",
+      "Kansas City Chiefs",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-CB",
+      "Chase Bisontis",
+      "Arizona Cardinals",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-CC",
+      "Caden Curry",
+      "Indianapolis Colts",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-CT",
+      "Caleb Tiernan",
+      "Minnesota Vikings",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-DJ",
+      "Domani Jackson",
+      "Green Bay Packers",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-DL",
+      "Deontae Lawson",
+      "Philadelphia Eagles",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-DPO",
+      "D'Angelo Ponds",
+      "New York Jets",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-EH",
+      "Emmanuel Henderson Jr.",
+      "Seattle Seahawks",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-EP",
+      "Ephesians Prysock",
+      "San Francisco 49ers",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-IW",
+      "Isaiah World",
+      "Los Angeles Chargers",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-JC",
+      "Josh Cuevas",
+      "Baltimore Ravens",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-JD",
+      "Jalon Daniels",
+      "Tampa Bay Buccaneers",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-JE",
+      "Jack Endries",
+      "Cincinnati Bengals",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-JK",
+      "Jalon Kilgore",
+      "Buffalo Bills",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-JR",
+      "Joe Royer",
+      "Cleveland Browns",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-JS",
+      "Jake Slaughter",
+      "Los Angeles Chargers",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-JT",
+      "J'Mari Taylor",
+      "Jacksonville Jaguars",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-KC",
+      "Kevin Coleman Jr.",
+      "Miami Dolphins",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-LA",
+      "Luke Altmyer",
+      "Detroit Lions",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-LB",
+      "Lewis Bond",
+      "Houston Texans",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-LMC",
+      "Lake McRee",
+      "Pittsburgh Steelers",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-LO",
+      "LT Overton",
+      "Dallas Cowboys",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-MF",
+      "Monroe Freeling",
+      "Carolina Panthers",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-MM",
+      "Miller Moss",
+      "Chicago Bears",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-MMU",
+      "Malik Muhammad",
+      "Chicago Bears",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-MT",
+      "Michael Trigg",
+      "Dallas Cowboys",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-NW",
+      "Noah Whittington",
+      "Houston Texans",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-OD",
+      "Oscar Delp",
+      "New Orleans Saints",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-RH",
+      "Roman Hemby",
+      "Las Vegas Raiders",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-RHJ",
+      "Robert Henry Jr.",
+      "Washington Commanders",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-SF",
+      "Spencer Fano",
+      "Cleveland Browns",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-SM",
+      "Seth McGowan",
+      "Indianapolis Colts",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-TK",
+      "Tanner Koziol",
+      "Jacksonville Jaguars",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-TK3",
+      "Tim Keenan III",
+      "Los Angeles Rams",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-TY",
+      "Taurean York",
+      "Denver Broncos",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-ZD",
+      "Zane Durant",
+      "Buffalo Bills",
+      "Rookie"
+    ],
+    [
+      "RETAIL ROOKIE AUTOGRAPHS",
+      "RRA-ZW",
+      "Zakee Wheatley",
+      "Carolina Panthers",
+      "Rookie"
+    ]
+  ],
+  "addedFamilyRows": [
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-AA",
+      "Aaron Anderson",
+      "Cleveland Browns",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-AH",
+      "Anthony Hill Jr.",
+      "Tennessee Titans",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-AK",
+      "Athan Kaliakmanis",
+      "Washington Commanders",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-AR",
+      "Adam Randall",
+      "Baltimore Ravens",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-AS",
+      "Anthony Smith",
+      "Dallas Cowboys",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-BM",
+      "Blake Miller",
+      "Detroit Lions",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-CA",
+      "Cyrus Allen",
+      "Kansas City Chiefs",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-CB",
+      "Chase Bisontis",
+      "Arizona Cardinals",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-CC",
+      "Caden Curry",
+      "Indianapolis Colts",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-CT",
+      "Caleb Tiernan",
+      "Minnesota Vikings",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-DJ",
+      "Domani Jackson",
+      "Green Bay Packers",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-DL",
+      "Deontae Lawson",
+      "Philadelphia Eagles",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-DPO",
+      "D'Angelo Ponds",
+      "New York Jets",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-EH",
+      "Emmanuel Henderson Jr.",
+      "Seattle Seahawks",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-EP",
+      "Ephesians Prysock",
+      "San Francisco 49ers",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-IW",
+      "Isaiah World",
+      "Los Angeles Chargers",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-JC",
+      "Josh Cuevas",
+      "Baltimore Ravens",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-JD",
+      "Jalon Daniels",
+      "Tampa Bay Buccaneers",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-JE",
+      "Jack Endries",
+      "Cincinnati Bengals",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-JK",
+      "Jalon Kilgore",
+      "Buffalo Bills",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-JR",
+      "Joe Royer",
+      "Cleveland Browns",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-JS",
+      "Jake Slaughter",
+      "Los Angeles Chargers",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-JT",
+      "J'Mari Taylor",
+      "Jacksonville Jaguars",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-KC",
+      "Kevin Coleman Jr.",
+      "Miami Dolphins",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-LA",
+      "Luke Altmyer",
+      "Detroit Lions",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-LB",
+      "Lewis Bond",
+      "Houston Texans",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-LMC",
+      "Lake McRee",
+      "Pittsburgh Steelers",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-LO",
+      "LT Overton",
+      "Dallas Cowboys",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-MF",
+      "Monroe Freeling",
+      "Carolina Panthers",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-MM",
+      "Miller Moss",
+      "Chicago Bears",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-MMU",
+      "Malik Muhammad",
+      "Chicago Bears",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-MT",
+      "Michael Trigg",
+      "Dallas Cowboys",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-NW",
+      "Noah Whittington",
+      "Houston Texans",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-OD",
+      "Oscar Delp",
+      "New Orleans Saints",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-RH",
+      "Roman Hemby",
+      "Las Vegas Raiders",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-RHJ",
+      "Robert Henry Jr.",
+      "Washington Commanders",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-SF",
+      "Spencer Fano",
+      "Cleveland Browns",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-SM",
+      "Seth McGowan",
+      "Indianapolis Colts",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-TK",
+      "Tanner Koziol",
+      "Jacksonville Jaguars",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-TK3",
+      "Tim Keenan III",
+      "Los Angeles Rams",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-TY",
+      "Taurean York",
+      "Denver Broncos",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-ZD",
+      "Zane Durant",
+      "Buffalo Bills",
+      "Rookie"
+    ],
+    [
+      "ROOKIE VARIATION AUTOGRAPHS",
+      "RRA-ZW",
+      "Zakee Wheatley",
+      "Carolina Panthers",
+      "Rookie"
+    ]
+  ],
+  "statement": "The revised document places the 43 RRA-coded subjects after the RVA-coded subjects under ROOKIE VARIATION AUTOGRAPHS. All 2,382 card-number/name/team/rookie tuples are unchanged as a multiset. The 43-row block moves and source pages reflow; the combined family contains 135 rows. No numeric parallel ladder or odds document is published in the checked index/landing/three retail pages.",
+  "landing": {
+    "links": [
+      {
+        "title": "Download Checklist",
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792444820"
+      },
+      {
+        "title": "PRE-ORDER",
+        "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-mega-box"
+      },
+      {
+        "title": "2026 Topps Chrome® Football - Mega Box\n$79.99\n\n7 cards per pack\n\n6 packs per box\n\nLook for exclusive x-fractors",
+        "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-mega-box"
+      },
+      {
+        "title": "PRE-ORDER",
+        "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-value-box"
+      },
+      {
+        "title": "2026 Topps Chrome® Football - Value Box\n$44.99\n\n4 cards per pack\n\n7 packs per box\n\nLook for red white & blue refractors",
+        "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-value-box"
+      },
+      {
+        "title": "PRE-ORDER",
+        "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-hanger-box"
+      },
+      {
+        "title": "2026 Topps Chrome® Football - Hanger Box\n$19.99\n\n14 cards per pack\n\n1 pack per box\n\nLook for pulsar parallels",
+        "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-hanger-box"
+      }
+    ],
+    "text": "Available for pre-order now\n2026 Topps Chrome® Football\nCollect the NFL’s biggest rookies, stars, and legends with stunning Chrome® designs.\nDownload Checklist\nVariations available\nPRE-ORDER\n2026 Topps Chrome® Football - Mega Box\n$79.99\n\n7 cards per pack\n\n6 packs per box\n\nLook for exclusive x-fractors\n\nAdd to cart\nPRE-ORDER\n2026 Topps Chrome® Football - Value Box\n$44.99\n\n4 cards per pack\n\n7 packs per box\n\nLook for red white & blue refractors\n\nAdd to cart\nPRE-ORDER\n2026 Topps Chrome® Football - Hanger Box\n$19.99\n\n14 cards per pack\n\n1 pack per box\n\nLook for pulsar parallels\n\nAdd to cart\nAbout the release\n\n2026 Topps Chrome® Football returns to establish Chrome® as the premier annual release for NFL collectors.\n\nThe product pairs industry-defining Chrome® Rookie Cards of the 2026 Draft Class with a deep lineup of active stars and NFL legends. Chase Rookie Cards of Fernando Mendoza, Jeremiyah Love, Carnell Tate, Jordyn Tyson, and Caleb Downs alongside stars including Josh Allen, CeeDee Lamb, Jahymr Gibbs, and Myles Garrett.\n\nSignature Short Prints bring even more personality to the product. Returning Chrome® favorites Helix, Ultra Violet, and Chrome® Radiating Rookies join football-specific chases including Game Genies, Kaiju, and Tecmo, plus new addition Glass Canvas, Madden 99 Club, and Super Bowl at Night.\n\nPremium autograph content spans rookies, veterans, and legends, delivering must-have signatures from some of the game’s biggest names, highlighted by NFL Honors Gold Shield Autographs and even more high-impact chases throughout Chrome® Football.\n\nClose\nAbout the brand\n\nTopps Chrome® is one of the most iconic trading card brands in the hobby. Renowned for its vibrant refractors, expansive rainbow chases, and premium autograph content, Topps Chrome® has helped define modern collecting across sports and entertainment.",
+    "url": "https://www.topps.com/pages/topps-chrome-football"
+  },
+  "retailProducts": [
+    {
+      "description": "2026 Topps Chrome Football returns to establish Chrome as the premier annual release for NFL collectors.\n\nThe product pairs industry-defining Chrome Rookie Cards of the 2026 Draft Class with a deep lineup of active stars and NFL legends. Chase Rookie Cards of Fernando Mendoza, Jeremiyah Love, Carnell Tate, Jordyn Tyson, and Caleb Downs alongside stars including Josh Allen, CeeDee Lamb, Jahymr Gibbs, and Myles Garrett.",
+      "links": [
+        {
+          "title": "All Products",
+          "url": "https://www.topps.com/collections/all-products"
+        },
+        {
+          "title": "Home",
+          "url": "https://www.topps.com/"
+        },
+        {
+          "title": "Topps",
+          "url": "https://www.topps.com/collections/topps"
+        },
+        {
+          "title": "All Products",
+          "url": "https://www.topps.com/collections/all-products"
+        },
+        {
+          "title": "Topps Cards & Collectibles",
+          "url": "https://www.topps.com/collections/cards-collectibles"
+        },
+        {
+          "title": "Download checklist",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792444820"
+        }
+      ],
+      "overview": "7 Cards Per Pack. 6 Packs Per Box.\n\nLook for Exclusive X-Fractors.\n\nPRE-ORDER DETAILS:\n\nOrders placed during the pre-order window are scheduled to begin shipping in advance of the product release date, December 2, 2026, in an effort to ensure delivery by that date. While we strive to have pre-orders arrive on or before the release date within the continental US, we cannot guarantee delivery on the release date. Release dates are subject to change.\n\nPre-order items will ship separate from other items in an order.\n\nPayment is captured at the time of checkout.\n\n*Required to be logged into your account to purchase\n\nAll sales are final. Art subject to change. Not responsible for typographical/printer errors.",
+      "specs": [
+        [
+          "SKU",
+          "FGC007318-DB"
+        ],
+        [
+          "Category",
+          "Sports"
+        ],
+        [
+          "Sub Categories",
+          "Football"
+        ],
+        [
+          "Sub Type",
+          "Hobby"
+        ],
+        [
+          "Product Year",
+          "2026"
+        ],
+        [
+          "Brand",
+          "Topps"
+        ],
+        [
+          "Sub Brand",
+          "Chrome®"
+        ],
+        [
+          "Product Type",
+          "Hobby"
+        ],
+        [
+          "Available From",
+          "Dec 2, 2026"
+        ]
+      ],
+      "title": "2026 Topps Chrome® Football - Mega Box",
+      "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-mega-box"
+    },
+    {
+      "description": "2026 Topps Chrome Football returns to establish Chrome as the premier annual release for NFL collectors.\n\nThe product pairs industry-defining Chrome Rookie Cards of the 2026 Draft Class with a deep lineup of active stars and NFL legends. Chase Rookie Cards of Fernando Mendoza, Jeremiyah Love, Carnell Tate, Jordyn Tyson, and Caleb Downs alongside stars including Josh Allen, CeeDee Lamb, Jahymr Gibbs, and Myles Garrett.",
+      "links": [
+        {
+          "title": "All Products",
+          "url": "https://www.topps.com/collections/all-products"
+        },
+        {
+          "title": "Home",
+          "url": "https://www.topps.com/"
+        },
+        {
+          "title": "Topps",
+          "url": "https://www.topps.com/collections/topps"
+        },
+        {
+          "title": "All Products",
+          "url": "https://www.topps.com/collections/all-products"
+        },
+        {
+          "title": "Topps Cards & Collectibles",
+          "url": "https://www.topps.com/collections/cards-collectibles"
+        },
+        {
+          "title": "Value Box",
+          "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-value-box"
+        },
+        {
+          "title": "Hanger Box",
+          "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-hanger-box"
+        },
+        {
+          "title": "Download checklist",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792444820"
+        }
+      ],
+      "overview": "4 Cards Per Pack. 7 Packs Per Box.\n\nLook for Red White & Blue Refractors.\n\nPRE-ORDER DETAILS:\n\nOrders placed during the pre-order window are scheduled to begin shipping in advance of the product release date, November 18, 2026, in an effort to ensure delivery by that date. While we strive to have pre-orders arrive on or before the release date within the continental US, we cannot guarantee delivery on the release date. Release dates are subject to change.\n\nPre-order items will ship separate from other items in an order.\n\nPayment is captured at the time of checkout.\n\n*Required to be logged into your account to purchase\n\nAll sales are final. Art subject to change. Not responsible for typographical/printer errors.",
+      "specs": [
+        [
+          "SKU",
+          "FGC007315-DB"
+        ],
+        [
+          "Category",
+          "Sports"
+        ],
+        [
+          "Sub Categories",
+          "Football"
+        ],
+        [
+          "Sub Type",
+          "Hobby"
+        ],
+        [
+          "Product Year",
+          "2026"
+        ],
+        [
+          "Brand",
+          "Topps"
+        ],
+        [
+          "Sub Brand",
+          "Chrome®"
+        ],
+        [
+          "Product Type",
+          "Hobby"
+        ],
+        [
+          "Available From",
+          "Nov 18, 2026"
+        ]
+      ],
+      "title": "2026 Topps Chrome® Football - Value Box",
+      "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-value-box"
+    },
+    {
+      "description": "2026 Topps Chrome Football returns to establish Chrome as the premier annual release for NFL collectors.\n\nThe product pairs industry-defining Chrome Rookie Cards of the 2026 Draft Class with a deep lineup of active stars and NFL legends. Chase Rookie Cards of Fernando Mendoza, Jeremiyah Love, Carnell Tate, Jordyn Tyson, and Caleb Downs alongside stars including Josh Allen, CeeDee Lamb, Jahymr Gibbs, and Myles Garrett.",
+      "links": [
+        {
+          "title": "All Products",
+          "url": "https://www.topps.com/collections/all-products"
+        },
+        {
+          "title": "Home",
+          "url": "https://www.topps.com/"
+        },
+        {
+          "title": "Topps",
+          "url": "https://www.topps.com/collections/topps"
+        },
+        {
+          "title": "All Products",
+          "url": "https://www.topps.com/collections/all-products"
+        },
+        {
+          "title": "Topps Cards & Collectibles",
+          "url": "https://www.topps.com/collections/cards-collectibles"
+        },
+        {
+          "title": "Value Box",
+          "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-value-box"
+        },
+        {
+          "title": "Hanger Box",
+          "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-hanger-box"
+        },
+        {
+          "title": "Download checklist",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792444820"
+        }
+      ],
+      "overview": "14 Cards Per Pack. 1 Packs Per Box.\n\nLook for Pulsar Parallels.\n\nPRE-ORDER DETAILS:\n\nOrders placed during the pre-order window are scheduled to begin shipping in advance of the product release date, November 18, 2026, in an effort to ensure delivery by that date. While we strive to have pre-orders arrive on or before the release date within the continental US, we cannot guarantee delivery on the release date. Release dates are subject to change.\n\nPre-order items will ship separate from other items in an order.\n\nPayment is captured at the time of checkout.\n\n*Required to be logged into your account to purchase\n\nAll sales are final. Art subject to change. Not responsible for typographical/printer errors.",
+      "specs": [
+        [
+          "SKU",
+          "FGC007321-DB"
+        ],
+        [
+          "Category",
+          "Sports"
+        ],
+        [
+          "Sub Categories",
+          "Football"
+        ],
+        [
+          "Sub Type",
+          "Hobby"
+        ],
+        [
+          "Product Year",
+          "2026"
+        ],
+        [
+          "Brand",
+          "Topps"
+        ],
+        [
+          "Sub Brand",
+          "Chrome®"
+        ],
+        [
+          "Product Type",
+          "Hobby"
+        ],
+        [
+          "Available From",
+          "Nov 18, 2026"
+        ]
+      ],
+      "title": "2026 Topps Chrome® Football - Hanger Box",
+      "url": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-hanger-box"
+    }
+  ],
+  "retailSpecifications": [
+    {
+      "name": "Mega Box configuration and scheduled date",
+      "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-mega-box",
+      "headers": [
+        "Published field",
+        "Published value",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "Box contents",
+          "7 Cards Per Pack. 6 Packs Per Box.",
+          "Published configuration; not pack odds"
+        ],
+        [
+          "Published retail chase",
+          "Look for Exclusive X-Fractors.",
+          "Only this named format; numbering and exact card eligibility are unstated"
+        ],
+        [
+          "Explicit scheduled product release",
+          "December 2, 2026",
+          "Mega Box only; subject to change; not a general or FDI release date"
+        ],
+        [
+          "Original Specs Available From",
+          "Dec 2, 2026",
+          "Kept separately from the explicit release statement"
+        ],
+        [
+          "Original SKU",
+          "FGC007318-DB",
+          "Original field; does not define a pack format or numbering claim"
+        ]
+      ]
+    },
+    {
+      "name": "Value Box configuration and scheduled date",
+      "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-value-box",
+      "headers": [
+        "Published field",
+        "Published value",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "Box contents",
+          "4 Cards Per Pack. 7 Packs Per Box.",
+          "Published configuration; not pack odds"
+        ],
+        [
+          "Published retail chase",
+          "Look for Red White & Blue Refractors.",
+          "Only this named format; numbering and exact card eligibility are unstated"
+        ],
+        [
+          "Explicit scheduled product release",
+          "November 18, 2026",
+          "Value Box only; subject to change; not a general or FDI release date"
+        ],
+        [
+          "Original Specs Available From",
+          "Nov 18, 2026",
+          "Kept separately from the explicit release statement"
+        ],
+        [
+          "Original SKU",
+          "FGC007315-DB",
+          "Original field; does not define a pack format or numbering claim"
+        ]
+      ]
+    },
+    {
+      "name": "Hanger Box configuration and scheduled date",
+      "source": "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-hanger-box",
+      "headers": [
+        "Published field",
+        "Published value",
+        "Qualification"
+      ],
+      "rows": [
+        [
+          "Box contents",
+          "14 Cards Per Pack. 1 Packs Per Box.",
+          "Published configuration; not pack odds"
+        ],
+        [
+          "Published retail chase",
+          "Look for Pulsar Parallels.",
+          "Only this named format; numbering and exact card eligibility are unstated"
+        ],
+        [
+          "Explicit scheduled product release",
+          "November 18, 2026",
+          "Hanger Box only; subject to change; not a general or FDI release date"
+        ],
+        [
+          "Original Specs Available From",
+          "Nov 18, 2026",
+          "Kept separately from the explicit release statement"
+        ],
+        [
+          "Original SKU",
+          "FGC007321-DB",
+          "Original field; does not define a pack format or numbering claim"
+        ]
+      ]
+    }
+  ],
+  "remainingGaps": [
+    "The Value and Hanger pages explicitly schedule November 18, 2026; Mega explicitly schedules December 2, 2026. These format-specific dates do not establish one general or FDI release date.",
+    "X-Fractors, Red White & Blue Refractors and Pulsar Parallels have stated retail configuration scopes, but no numeric limits or exact card-family eligibility are supplied.",
+    "Pack odds and exhaustive parallel-numbering reconciliation remain pending."
+  ]
+}

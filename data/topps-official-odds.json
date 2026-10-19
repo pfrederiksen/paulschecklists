@@ -38,7 +38,7 @@
   {
     "id": 9,
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Odds.pdf?v=1788295188",
-    "title": "2026 Topps Chrome® Black Basketball",
+    "title": "2025-26 Topps Chrome® Black Basketball",
     "source": "https://www.topps.com/pages/odds"
   },
   {
@@ -98,7 +98,7 @@
   {
     "id": 33,
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Odds.pdf?v=1775071299",
-    "title": "2025 Topps Chrome® McDonald's All-American Basketball",
+    "title": "2025 Topps Chrome® McDonald’s All-American Basketball",
     "source": "https://www.topps.com/pages/odds"
   },
   {
@@ -194,7 +194,7 @@
   {
     "id": 57,
     "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/PL_FINEST_ODDS_Official.pdf?v=1774262754",
-    "title": "Topps® Finest Premier League 2026",
+    "title": "Topps Finest Premier League 2026",
     "source": "https://www.topps.com/pages/odds"
   },
   {
@@ -206,7 +206,7 @@
   {
     "id": 61,
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Odds.pdf?v=1777298833",
-    "title": "2025-26 Topps Hopps Basketball",
+    "title": "2025-26 Topps Hoops Basketball",
     "source": "https://www.topps.com/pages/odds"
   },
   {
@@ -366,7 +366,7 @@
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_MLS_Chrome_Sapphire_Odds.pdf?v=1787963938"
   },
   {
-    "title": "2025 Topps Chrome® Football Sapphire",
+    "title": "2025 Topps Chrome® Football",
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Football_Odds.pdf?v=1776193199",
     "sourcePage": "https://www.topps.com/pages/topps-chrome-football-sapphire",
     "scope": "6394 - NFL- CHROME 2025 SAPPHIRE HOBBY DISTRIBUTOR"
@@ -385,13 +385,13 @@
     "sha256": "497fa541b8f40a55fc11ec27c272e2e7237155951ef76f354c4e0ef9f19a5106"
   },
   {
-    "title": "2026 Topps Chrome Black Baseball",
+    "title": "2026 Topps Chrome® Black Baseball",
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Odds.pdf?v=1777474592",
     "source": "https://www.topps.com/pages/topps-chrome-black-baseball",
     "sha256": "8481bf0d89a1163334ae4fffe99eb5a05fd3f16cabadd7475e08d18f6e25004b"
   },
   {
-    "title": "2026 Topps Chrome Disney Sapphire Edition",
+    "title": "2026 Topps Chrome® Disney Sapphire Edition",
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Disney_Sapphire_Odds.pdf?v=1784729760",
     "source": "https://www.topps.com/pages/disney-chrome-sapphire",
     "sha256": "cd402ed845ef90b80de5d2ba0907b04d2bc2d0d22529e33e6b6a67d550e13773"
@@ -414,7 +414,7 @@
     "source": "https://www.topps.com/pages/odds"
   },
   {
-    "title": "2025 Bowman Draft Baseball",
+    "title": "2025 Bowman Draft Baseball Sapphire Edition",
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_Draft_Baseball_Odds.pdf?v=1770925127",
     "source": "https://www.topps.com/pages/odds"
   },

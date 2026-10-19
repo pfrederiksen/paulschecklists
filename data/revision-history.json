@@ -13395,14 +13395,36 @@
   },
   "topps-bowman-2026-topps-chrome-football": {
     "state": {
-      "checklistHash": "a7991e92ea751031ec29b51c27d7d2156fe09db1b13ceb25d3c8644c50ec35d5",
+      "checklistHash": "8a0d71bc77404525a0c94d1dcbdf2a200276810072ed41cfc9c7272a1ee25a43",
       "oddsHash": null,
       "rows": 2382,
       "odds": 0,
-      "specificationRows": 4
+      "specificationRows": 19
     },
-    "fingerprint": "8f131c9fed80eb9257a2aad71c453cd5abcbe10b849e0b2cebd191c5884b4880",
+    "fingerprint": "ed04c1dcf6ac1b867d0da403a39e1cc3c4b596e0f1ebfe2a4f55572f5924c125",
     "events": [
+      {
+        "at": "2026-10-19T22:12:12.591Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Supplementary specification rows: 4 → 19"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792444820",
+        "snapshot": {
+          "checklistHash": "8a0d71bc77404525a0c94d1dcbdf2a200276810072ed41cfc9c7272a1ee25a43",
+          "oddsHash": null,
+          "rows": 2382,
+          "odds": 0,
+          "specificationRows": 19
+        },
+        "previousSnapshot": {
+          "checklistHash": "a7991e92ea751031ec29b51c27d7d2156fe09db1b13ceb25d3c8644c50ec35d5",
+          "oddsHash": null,
+          "rows": 2382,
+          "odds": 0,
+          "specificationRows": 4
+        }
+      },
       {
         "at": "2026-10-15T20:33:38.836Z",
         "changes": [

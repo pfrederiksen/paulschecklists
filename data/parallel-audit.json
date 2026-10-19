@@ -5679,10 +5679,10 @@
         {
           "slug": "topps-bowman-2026-topps-chrome-football",
           "family": "Outstanding source reconciliation",
-          "gap": "October 16 is an FDI preorder, not a verified calendar release date. No 2026 Chrome Football odds link appears on the current product page or global odds catalog. No serial-number ladder was published in the checked page; 2025 color limits are not reused.",
+          "gap": "The Value and Hanger pages explicitly schedule November 18, 2026; Mega explicitly schedules December 2, 2026. These format-specific dates do not establish one general or FDI release date. X-Fractors, Red White & Blue Refractors and Pulsar Parallels have stated retail configuration scopes, but no numeric limits or exact card-family eligibility are supplied. Pack odds and exhaustive parallel-numbering reconciliation remain pending.",
           "source": "https://www.topps.com/pages/topps-chrome-football",
-          "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
-          "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
+          "evidenceFile": "data/parallel-audit-sources/chrome-football-2026-revision-20261019.json",
+          "evidenceSha256": "96a4af3ddcb856567252527d90fdd7f676e7d57659584b4f453afb33c99e0734"
         }
       ]
     },

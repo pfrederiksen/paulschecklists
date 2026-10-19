@@ -711,6 +711,16 @@
           "method": "Actual full official browser read; requested U.S. path redirected to UK edition"
         }
       ]
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-football",
+      "observed": "2026-10-19",
+      "gap": "Official U.S. Value and Hanger product pages explicitly schedule November 18, 2026, while Mega explicitly schedules December 2, 2026. These format-specific statements and the earlier FDI preorder do not establish one general or FDI release date. Exact statements, original fields and source hashes are retained in the Chrome Football revision evidence.",
+      "sources": [
+        "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-mega-box",
+        "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-value-box",
+        "https://www.topps.com/products/2026-topps-chrome%C2%AE-football-hanger-box"
+      ]
     }
   ]
 }

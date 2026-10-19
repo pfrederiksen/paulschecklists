@@ -10069,22 +10069,6 @@
       "evidenceSha256": "6067fc656ffc47092e814a315ae15d2a8bf37ec5a9905a07080762e743a2b891"
     },
     {
-      "slug": "topps-bowman-2026-topps-chrome-football",
-      "family": "Outstanding source reconciliation",
-      "gap": "October 16 is an FDI preorder, not a verified calendar release date. No 2026 Chrome Football odds link appears on the current product page or global odds catalog. No serial-number ladder was published in the checked page; 2025 color limits are not reused.",
-      "source": "https://www.topps.com/pages/topps-chrome-football",
-      "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
-      "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
-    },
-    {
-      "slug": "topps-bowman-2026-garbage-pail-kids-halloween",
-      "family": "Outstanding source reconciliation",
-      "gap": "Wrapper summary prints 25 Subjects / All above subjects without a separately numbered roster; no identities or eligibility are inferred. Final Artwork Redemption is an odds category without a separately numbered checklist roster. Rainbow Foil is the wrapper parallel, with no published limit; no base Rainbow Foil or color-based limits on inserts/autographs are inferred. 1/1 Sketches describes unique artwork, not serial numbering for artist roster entries. The complete named parallel inventory beyond the checked published rows remains under review.",
-      "source": "https://www.topps.com/pages/garbage-pail-kids-halloween",
-      "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
-      "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
-    },
-    {
       "slug": "topps-bowman-2025-topps-marvel-studios-chrome-sapphire",
       "family": "Unresolved Sapphire numbering and release scope",
       "gap": "Exact serial-number limits by family remain unverified; product-level 1/1 Padparadscha wording does not establish every family or other color limit. An exact calendar release date is unverified. Japan Product Year 2026 and the 2025 title remain separate. The published sketch artist list is not a numbered card roster; artwork uniqueness does not establish an artist print run.",
@@ -10387,6 +10371,22 @@
       "source": "https://ripped.topps.com/uk/topps-museum-collection-ucc-2025-26-collector-guide-dual-autos-jumbo-patches-more/",
       "evidenceFile": "data/parallel-audit-sources/museum-ucc-2025-26-20261019.json",
       "evidenceSha256": "e46958b2de9946bf327762ea1eaf3c81bc8e8912d43d329a07c4b7462606b565"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-chrome-football",
+      "family": "Outstanding source reconciliation",
+      "gap": "The Value and Hanger pages explicitly schedule November 18, 2026; Mega explicitly schedules December 2, 2026. These format-specific dates do not establish one general or FDI release date. X-Fractors, Red White & Blue Refractors and Pulsar Parallels have stated retail configuration scopes, but no numeric limits or exact card-family eligibility are supplied. Pack odds and exhaustive parallel-numbering reconciliation remain pending.",
+      "source": "https://www.topps.com/pages/topps-chrome-football",
+      "evidenceFile": "data/parallel-audit-sources/chrome-football-2026-revision-20261019.json",
+      "evidenceSha256": "96a4af3ddcb856567252527d90fdd7f676e7d57659584b4f453afb33c99e0734"
+    },
+    {
+      "slug": "topps-bowman-2026-garbage-pail-kids-halloween",
+      "family": "Outstanding source reconciliation",
+      "gap": "Wrapper summary prints 25 Subjects / All above subjects without a separately numbered roster; no identities or eligibility are inferred. Final Artwork Redemption is an odds category without a separately numbered checklist roster. Rainbow Foil is the wrapper parallel, with no published limit; no base Rainbow Foil or color-based limits on inserts/autographs are inferred. 1/1 Sketches describes unique artwork, not serial numbering for artist roster entries. The complete named parallel inventory beyond the checked published rows remains under review.",
+      "source": "https://www.topps.com/pages/garbage-pail-kids-halloween",
+      "evidenceFile": "data/parallel-audit-sources/topps-october15-2026-products.json",
+      "evidenceSha256": "a60af13b5092a22424da5675d5870d85870b85d5f9c40159987df3f0a84da925"
     }
   ]
 }

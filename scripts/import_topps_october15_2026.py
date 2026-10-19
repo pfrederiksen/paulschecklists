@@ -11,6 +11,7 @@ from official_odds_layout import physical_odds_pdf
 
 ROOT=Path(__file__).resolve().parents[1];PARSER='scripts/import_topps_october15_2026.py'
 PROOF=ROOT/'data/parallel-audit-sources/topps-october15-2026-products.json'
+FOOTBALL_REVISION=ROOT/'data/parallel-audit-sources/chrome-football-2026-revision-20261019.json'
 FOOTBALL='topps-bowman-2026-topps-chrome-football'
 GPK='topps-bowman-2026-garbage-pail-kids-halloween'
 
@@ -32,7 +33,7 @@ def football_rows(path):
                 assert rookie in {'','Rookie'} and team,(pn,line,rookie)
                 assert re.fullmatch(r'\d+|[A-Z0-9]+-[A-Z0-9]+',number) or (not number and family=='FANATICS AUTHENTICS REDEMPTION CARD'),(pn,line)
                 rows.append([family,number,name,team,rookie,str(pn)])
-    assert len(rows)==2382 and len({r[0] for r in rows})==56
+    assert len(rows)==2382 and len({r[0] for r in rows})==55
     assert sum(r[4]=='Rookie' for r in rows)==644
     return ['Checklist section','Card number','Name','Team','Rookie','Source page'],rows,notes,[]
 
@@ -68,9 +69,14 @@ def gpk_rows(path):
 
 def build():
     proof=json.loads(PROOF.read_text());evidence=dict(evidenceFile=str(PROOF.relative_to(ROOT)),evidenceSha256=hashlib.sha256(PROOF.read_bytes()).hexdigest())
+    revision=json.loads(FOOTBALL_REVISION.read_text())
+    revision_evidence=dict(evidenceFile=str(FOOTBALL_REVISION.relative_to(ROOT)),evidenceSha256=hashlib.sha256(FOOTBALL_REVISION.read_bytes()).hexdigest())
     cp=ROOT/'data/set-catalog.json';catalog=json.loads(cp.read_text());records=[]
     for slug,parser in [(FOOTBALL,football_rows),(GPK,gpk_rows)]:
-        src=proof[slug];path=ROOT/'data/catalog-sources/downloads'/(slug+'.pdf');digest=acquire(src['checklistUrl'],path)
+        src=dict(proof[slug])
+        if slug==FOOTBALL:src['checklistUrl']=revision['current']['url']
+        path=ROOT/'data/catalog-sources/downloads'/(slug+'.pdf');digest=acquire(src['checklistUrl'],path)
+        if slug==FOOTBALL:assert digest==revision['current']['sha256']
         headers,rows,notes,specs=parser(path)
         record=next((s for s in catalog['sets'] if s['slug']==slug),None)
         if record is None:
@@ -78,17 +84,23 @@ def build():
               page='sets/'+slug+'.html',sourcePage=src['source'],checklistUrl=src['checklistUrl'],releaseStatus='Upcoming',releaseDate=None,verified=proof['observed'])
             record=run(record);assert record.get('tableData');catalog['sets'].append(record)
         data=json.loads((ROOT/record['tableData']).read_text())
-        data.update(headers=headers,rows=rows,originalSubjectHeaders=headers,originalSubjectRows=rows,sha256=digest,
+        data.update(headers=headers,rows=rows,originalSubjectHeaders=headers,originalSubjectRows=rows,sha256=digest,source=src['checklistUrl'],
           dedicatedParser=PARSER,sectionColumn=0,unclassifiedLines=[],sourceDocumentNotes=notes,coverageComplete=True,
           odds=[],formats=[],formatNamesPublished=False,oddsUnitsPublished=False)
         ev=dict(source=src['source'],**evidence)
         if slug==FOOTBALL:
-            note=('All 2,382 original subject rows across 56 sections retain Name, Team and 644 literal Rookie marks. '
+            note=('All 2,382 original subject rows across 55 distinct sections retain Name, Team and 644 literal Rookie marks. '
               'Three 300-card veteran programs and three 100-card rookie programs remain separate. All 93 unnumbered Fanatics '
               'Authentics redemption subjects, repeated dual signers, printed team differences and numeric 1991/2016/2017/2018 '
-              'section headings are preserved. The October 16 FDI auction is explicitly a preorder, not a verified release date. '
-              'No odds PDF or serial-number ladder is linked by the checked product page or global odds catalog; those audits remain pending.')
+              'section headings are preserved. The revised PDF moves 43 RRA-coded subjects into ROOKIE VARIATION AUTOGRAPHS, '
+              'now 135 rows; the prior Retail Rookie heading remains in retained revision evidence. '
+              'Value and Hanger schedule November 18, while Mega schedules December 2, 2026. These exact-format dates '
+              'and the October 16 FDI preorder do not establish a general release date. '
+              'No odds PDF or serial-number ladder is linked by the checked product pages or global odds catalog; those audits remain pending.')
             data['publishedSpecifications']=[dict(name='First Day Issue box configuration',worksheet='FDI product page only; box contents are not pack odds',headers=['Published field','Published value'],rows=src['boxContents'],**ev)]
+            data['publishedSpecifications'] += [dict(name=s['name'],worksheet='Exact named retail format only; configuration and scheduled dates are not pack odds',headers=s['headers'],rows=s['rows'],source=s['source'],**revision_evidence) for s in revision['retailSpecifications']]
+            data['sourceRevision']=dict(previous=revision['previous'],current=revision['current'],statement=revision['statement'],**revision_evidence)
+            src['remainingGaps']=revision['remainingGaps']
             data['importKind']='topps-grid-pdf'
         else:
             op=path.with_name(slug+'-odds.pdf');oh=acquire(src['oddsUrl'],op);odds,formats,raw,issues=physical_odds_pdf(op)
@@ -115,15 +127,21 @@ def build():
         record.update(status='Source table',rowCount=len(rows),sections=len({r[0] for r in rows}),sha256=digest,
           importKind=data['importKind'],dedicatedParser=PARSER,coverageComplete=True,verified=proof['observed'],
           catalogEvidence=note,dataAudit=note,odds=len(data['odds']),formats=len(data['formats']))
+        if slug==FOOTBALL:
+            record.update(checklistUrl=src['checklistUrl'],verified=revision['observed'])
         records.append(record)
         print(src['title'],len(rows),'source rows;',len(data['odds']),'published odds categories')
     cp.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
     p=ROOT/'data/topps-product-official-catalog.json';inventory=json.loads(p.read_text())
-    for record in records:
-        inventory=[r for r in inventory if r['slug']!=record['slug']]+[record]
+    refreshed={r['slug']:r for r in records};known={r['slug'] for r in inventory}
+    inventory=[refreshed.get(r['slug'],r) for r in inventory]+[r for r in records if r['slug'] not in known]
     p.write_text(json.dumps(inventory,ensure_ascii=False,indent=2)+'\n')
     for slug,filename in [(FOOTBALL,'topps-official-catalog.json'),(GPK,'entertainment-topps-catalog.json')]:
         p=ROOT/'data'/filename;inventory=json.loads(p.read_text());src=proof[slug]
+        if slug==FOOTBALL:
+            src={**src,'checklistUrl':revision['current']['url']}
+            for item in inventory:
+                if item['url']==revision['previous']['url']:item['url']=src['checklistUrl']
         if not any(r['url']==src['checklistUrl'] for r in inventory):inventory.append(dict(title=src['title'],url=src['checklistUrl'],observed=proof['observed']))
         p.write_text(json.dumps(inventory,ensure_ascii=False,indent=2)+'\n')
     p=ROOT/'data/topps-official-odds.json';inventory=json.loads(p.read_text());src=proof[GPK]
@@ -134,7 +152,10 @@ def build():
       oddsName=odds_name,source=proof[GPK]['checklistUrl'],qualification='Base subjects only. Checklist Slime wording and the corresponding base Foil odds name are retained; no other family receives this limit.',**evidence)
       for color,number,odds_name in [('Gold','/50','BASE CARDS GOLD FOIL PARALLEL'),('Orange','/25','BASE CARDS ORANGE FOIL PARALLEL'),('Black','/10','BASE CARDS BLACK FOIL PARALLEL'),('Red','/5','BASE CARDS RED FOIL PARALLEL'),('Foil Fractor','/1','BASE CARDS FOILFRACTOR PARALLEL')]]
     registry['conflicts']=[c for c in registry['conflicts'] if c['slug'] not in {FOOTBALL,GPK}]
-    for slug in [FOOTBALL,GPK]:registry['conflicts'].append(dict(slug=slug,family='Outstanding source reconciliation',gap=' '.join(proof[slug]['remainingGaps']),source=proof[slug]['source'],**evidence))
+    for slug in [FOOTBALL,GPK]:
+        gaps=revision['remainingGaps'] if slug==FOOTBALL else proof[slug]['remainingGaps']
+        ev=revision_evidence if slug==FOOTBALL else evidence
+        registry['conflicts'].append(dict(slug=slug,family='Outstanding source reconciliation',gap=' '.join(gaps),source=proof[slug]['source'],**ev))
     p.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
 
 if __name__=='__main__':build()
