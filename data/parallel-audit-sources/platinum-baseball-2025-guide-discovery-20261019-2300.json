@@ -1,0 +1,24 @@
+{
+  "observed": "2026-10-19",
+  "checkedUtc": "2026-10-19T23:07:38.175272+00:00",
+  "slug": "topps-bowman-2025-topps-chrome-platinum-baseball",
+  "sourceKind": "official-domain-guide-discovery",
+  "query": "site:ripped.topps.com \"2025\" \"Chrome Platinum\" parallels",
+  "candidateSources": [
+    {
+      "url": "https://ripped.topps.com/rise-super-short-print-card-culture/",
+      "scopeGap": "Generic SSP discussion with a 2022 Chrome Platinum example; no exact 2025 product-family ladder verified."
+    },
+    {
+      "url": "https://ripped.topps.com/how-to-collect-los-angeles-dodgers-culture/",
+      "scopeGap": "Team collecting article with older Chrome Platinum examples; not an exact 2025 product guide."
+    },
+    {
+      "url": "https://ripped.topps.com/return-top-players-recovered-tommy-john-surgery-culture/",
+      "scopeGap": "Card-specific 2023 product example; not 2025-family evidence."
+    }
+  ],
+  "approvedNumericMappings": [],
+  "publicDataChanged": false,
+  "remainingGap": "No exact 2025 Chrome Platinum family ladder or general release statement was verified by this focused official-domain discovery. Search snippets and older product years are not imported as numbering or release evidence; exhaustive review remains pending."
+}
