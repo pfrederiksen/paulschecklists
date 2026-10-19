@@ -1,0 +1,173 @@
+{
+  "observed": "2026-10-19",
+  "checkedUtc": "2026-10-19T13:49:01.475788+00:00",
+  "slug": "leaf-2026-leaf-metal-pop-century",
+  "method": "Normalized factual snapshot from a fresh complete official web text read, linked official workbook hash refresh and retained adapter table alignment. factsSha256 is a normalized factual hash, not raw HTML.",
+  "facts": {
+    "productTitle": "2026 Leaf Metal Pop Century",
+    "officialProductUrl": "https://www.leaftradingcards.com/products/2026-leaf-pop-century",
+    "officialChecklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69f500d7b489df389e824062_2026_Leaf_Metal_Pop_Century_CL_F.xlsx",
+    "officialChecklistSha256": "b967903b947aa856f62b3b0e2b0b88af0fb5e7260a7db19305bc5856be222a32",
+    "productTextReview": {
+      "category": "Celebrity",
+      "productYear": 2026,
+      "statusLabel": "RELEASED",
+      "configuration": [
+        {
+          "quantity": 4,
+          "unit": "Autos per box"
+        },
+        {
+          "quantity": 2,
+          "unit": "Proofs Per Box"
+        },
+        {
+          "quantity": 10,
+          "unit": "BOXES PER CASE"
+        }
+      ],
+      "caseStatements": "One to two on-card signatures per case; two cards from the listed notable-name group per case. These are separate published case statements, without inferred pack odds.",
+      "numericSerialLadderInReviewedProductText": false,
+      "generalReleaseDateInReviewedProductText": false
+    },
+    "retainedChecklist": {
+      "sourceRows": 4551,
+      "publishedFamilyTables": 28,
+      "publishedTableRows": 4551,
+      "originalNamedAndUnlabelledColumnsPreserved": true,
+      "sourceWorksheets": [
+        {
+          "name": "Metal",
+          "headers": [
+            "Set",
+            "Subset",
+            "Name",
+            "Checklist",
+            "Foil",
+            "Silver",
+            "Platinum",
+            "Purple",
+            "Pink",
+            "Dark Blue",
+            "Orange",
+            "Green",
+            "Red",
+            "White",
+            "Gold",
+            "Black",
+            "MEM",
+            "BASE"
+          ],
+          "rawHeaders": [
+            "Set",
+            "Subset",
+            "Name",
+            "Checklist",
+            "Foil",
+            "Silver",
+            "Platinum",
+            "Purple",
+            "Pink",
+            "Dark Blue",
+            "Orange",
+            "Green",
+            "Red",
+            "White",
+            "Gold",
+            "Black",
+            "MEM",
+            "BASE"
+          ],
+          "headerAnnotations": [],
+          "rowCount": 4273,
+          "unlabelledColumns": false
+        },
+        {
+          "name": "Pearl",
+          "headers": [
+            "Set",
+            "Subset",
+            "Name",
+            "Checklist",
+            "Blue Spectrum",
+            "Silver Glitter",
+            "Rainbow Kaleidoscope",
+            "Purple Spectrum",
+            "Green Spectrum",
+            "Red Spectrum",
+            "Black Spectrum",
+            "Gold Spectrum",
+            "MEM",
+            "BASE"
+          ],
+          "rawHeaders": [
+            "Set",
+            "Subset",
+            "Name",
+            "Checklist",
+            "Blue Spectrum",
+            "Silver Glitter",
+            "Rainbow Kaleidoscope",
+            "Purple Spectrum",
+            "Green Spectrum",
+            "Red Spectrum",
+            "Black Spectrum",
+            "Gold Spectrum",
+            "MEM",
+            "BASE"
+          ],
+          "headerAnnotations": [],
+          "rowCount": 115,
+          "unlabelledColumns": false
+        },
+        {
+          "name": "Additions",
+          "headers": [
+            "Unlabelled source column 1 [column 1]",
+            "Unlabelled source column 2 [column 2]",
+            "Unlabelled source column 3 [column 3]",
+            "Unlabelled source column 4 [column 4]",
+            "Silver",
+            "White",
+            "Orange",
+            "Platinum",
+            "Blue",
+            "Pink",
+            "Green",
+            "Red",
+            "Purple",
+            "Gold",
+            "Black"
+          ],
+          "rawHeaders": [
+            null,
+            null,
+            null,
+            null,
+            "Silver",
+            "White",
+            "Orange",
+            "Platinum",
+            "Blue",
+            "Pink",
+            "Green",
+            "Red",
+            "Purple",
+            "Gold",
+            "Black"
+          ],
+          "headerAnnotations": [],
+          "rowCount": 163,
+          "unlabelledColumns": true
+        }
+      ]
+    },
+    "scope": "Fresh official product text and retained source-table reconciliation. Gallery images were not transcribed; no assertion of exhaustive guide/parallel coverage."
+  },
+  "factsSha256": "1d984364dd8f34cf57783f119b55119b900cd4a0e9f44d509dd656143809fb3d",
+  "importedDataFile": "data/imports/leaf-2026-leaf-metal-pop-century.json",
+  "importedDataSha256": "0463653e9d8356fef48220f3ca9dff0e4912a34bfac797c05a07842116bdbed9",
+  "approvedNumericMappings": [],
+  "publicDataChanged": false,
+  "remainingGap": "Exact row-level foil/color quantities remain preserved in original checklist tables. Reviewed product text does not establish serial marking, a numeric serial ladder, an explicit release date or pack-odds units. Gallery/other guide reconciliation and exhaustive eligibility remain incomplete; no quantity is relabelled as a serial number."
+}

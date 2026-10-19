@@ -1,0 +1,73 @@
+{
+  "observed": "2026-10-19",
+  "checkedUtc": "2026-10-19T13:48:00.840014+00:00",
+  "sourceKind": "official-browser-native-factual-excerpts",
+  "method": "Fresh native UI read of the product removed from the active listing, including sold-out state, Overview, expanded Description and original Specs cells. This factual snapshot is not raw HTML.",
+  "product": {
+    "url": "https://topps.com/products/viktor-gyoekeres-2026-27-uefa-nations-league-topps-now-r-card-10",
+    "title": "Viktor Gyökeres - 2026-27 UEFA Nations League Topps NOW® - Card 10",
+    "sale": "Product is available from Oct 12, 2026",
+    "overview": "Look for:\n• Open-Edition Base Card\nFoil Parallels Numbered to /25 and lower\nParallels:\n/25 Orange Foil\n/10 Black Foil\n/5 Red Foil\n/1 FoilFractor\n*Parallels or other non-base card will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.\nThe processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.",
+    "description": "Chrome Parallel Cards\nUltra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure\nCapturing all the excitement of UEFA Nations League - Topps NOW® brings the biggest moments directly to your collection!\nYour Hero. Your Team. Your Moment. ™\nTopps NOW® celebrates the greatest moments... as they happen! Only available at Topps.com.\nPlease note that orders of multiple print on demand products will be consolidated in your delivery. The latest timer expiry will be used for the above shipping times. If you order a print on demand product with a stock item (retail product) this will be fulfilled from different facilities and the order may split.",
+    "specs": [
+      [
+        "SKU",
+        "ARTEUNL-16C2S-26TN-0010"
+      ],
+      [
+        "Category",
+        "Sports"
+      ],
+      [
+        "Sub Categories",
+        "Soccer"
+      ],
+      [
+        "Sub Type",
+        "Cards"
+      ],
+      [
+        "Product Year",
+        "2026"
+      ],
+      [
+        "Brand",
+        "Topps"
+      ],
+      [
+        "Sub Brand",
+        "Topps NOW®"
+      ],
+      [
+        "Subjects",
+        "Viktor Gyökeres"
+      ],
+      [
+        "Properties",
+        "Sweden National Team"
+      ],
+      [
+        "Product Type",
+        "Print on Demand"
+      ],
+      [
+        "Available From",
+        "Oct 12, 2026"
+      ],
+      [
+        "Available Until",
+        "Oct 19, 2026"
+      ]
+    ]
+  },
+  "soldOut": true,
+  "comparison": {
+    "previousReview": "data/official-source-reviews/topps-now-expired-viktor-20261019-1200.json",
+    "titleSaleOverviewDescriptionAndEverySpecsCellUnchanged": true,
+    "qualification": "Original Specs still explicitly retain the verified October 12–19 sale window. No actual print run is published in the reviewed title or Specs; the historical row remains unchanged."
+  },
+  "actualPrintRunPublishedInReviewedTitleOrSpecs": false,
+  "retainedPrintRun": "",
+  "retainedHistoricalObservationAndPublishedRow": true,
+  "remainingGap": "Actual made-to-order print run remains unpublished in the reviewed title and Specs; no quantity, pack odds or serial limit is inferred."
+}
