@@ -114,6 +114,11 @@ for url,block,document in blocks:
   if fields.get('Product Year') and fields['Product Year']!=series[:4]:
    factual.append(f"Official Product Year: {fields['Product Year']}. The {series[:4]} year appears in the official product title; calendar-year inclusion uses the verified sale date.")
  factual.extend(tiers)
+ # Normalized browser snapshots label reconciliation notes explicitly. Keep
+ # original conflicting fields visible without silently correcting the series,
+ # subject, team or an unpublished sale end.
+ if document.suffix=='.json':
+  factual.extend(x for x in lines if x.startswith('Source qualification: '))
  if unlabelled_suffix is not None:
   factual.append(f'Official title ends with unlabelled value {unlabelled_suffix}; its meaning is unverified and no print run is assigned from it.')
  if urlparse(url).hostname=='fr.topps.com':
@@ -213,7 +218,8 @@ unparsed=[gap for gap in unparsed if not (gap['url'] in conflict_products and ga
 cutoff='2026-01-01'
 pending=[{'series':p['series'],'number':p['number'],'url':p['source'],'saleFrom':p['saleFrom'],'gap':'Official sale date not yet verified; excluded from the calendar-year backfill.'} for p in products if not p['saleFromISO']]
 excluded=[{'series':p['series'],'number':p['number'],'saleFromISO':p['saleFromISO'],'url':p['source']} for p in products if p['saleFromISO'] and p['saleFromISO']<cutoff]
-(ROOT/'data/topps-now-import-gaps.json').write_text(json.dumps({'coverageComplete':False,'backfillStart':cutoff,'unparsedNumberedTitles':unparsed,'unverifiedPrintRuns':unverified_print_runs,'pendingSaleDates':pending,'excludedBeforeCutoff':excluded,'archivePaginationScanComplete':bool(archive.get('paginationScanComplete')) if archive_index.exists() else False,'remaining':'Missing product URLs, unverified sale dates, renderer-only product pages, multi-card bundles and other unverified product scopes still require reconciliation.'},ensure_ascii=False,indent=2)+'\n')
+qualified=[{'series':p['series'],'number':p['number'],'url':p['source'],'gap':line.removeprefix('Source qualification: '),'evidence':p['evidence']} for p in products for line in p['terms'].splitlines() if line.startswith('Source qualification: ')]
+(ROOT/'data/topps-now-import-gaps.json').write_text(json.dumps({'coverageComplete':False,'backfillStart':cutoff,'unparsedNumberedTitles':unparsed,'unverifiedPrintRuns':unverified_print_runs,'pendingSaleDates':pending,'sourceFieldQualifications':qualified,'excludedBeforeCutoff':excluded,'archivePaginationScanComplete':bool(archive.get('paginationScanComplete')) if archive_index.exists() else False,'remaining':'Missing product URLs, unverified sale dates, source identity conflicts, unpublished sale ends, renderer-only product pages, multi-card bundles and other unverified product scopes still require reconciliation.'},ensure_ascii=False,indent=2)+'\n')
 products=[p for p in products if p['saleFromISO'] and p['saleFromISO']>=cutoff]
 headers=['Checklist section','Card number','Player / subjects','Published print run','Available From','Available Until','Published parallels','Official distribution terms','Official product URL']
 def publish(slug,title,items,sport,year):

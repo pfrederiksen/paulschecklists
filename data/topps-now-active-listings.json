@@ -1,15 +1,71 @@
 {
   "observed": "2026-10-19",
   "sourceKind": "official-browser-active-listing",
-  "checkedUtc": "2026-10-19T18:54:43.836Z",
+  "checkedUtc": "2026-10-19T19:57:18.453Z",
   "freshListingReadsComplete": true,
   "pendingFreshListingReads": [],
   "listings": [
     {
       "url": "https://www.topps.com/collections/topps-now",
       "pagesObserved": 2,
-      "reportedProductCount": 31,
+      "reportedProductCount": 45,
       "products": [
+        {
+          "title": "Rueben Bain Jr - 2026-27 NFL Topps NOW® - Card 63",
+          "url": "https://www.topps.com/products/rueben-bain-jr-2026-27-nfl-topps-now-r-card-63"
+        },
+        {
+          "title": "Patrick Mahomes II / Tom Brady - 2026 NFL Topps NOW® - Card 74",
+          "url": "https://www.topps.com/products/patrick-mahomes-ii-tom-brady-2026-nfl-topps-now-r-card-74"
+        },
+        {
+          "title": "Josh Allen / Jim Kelly - 2026 NFL Topps NOW® - Card 73",
+          "url": "https://www.topps.com/products/josh-allen-jim-kelly-2026-nfl-topps-now-r-card-73"
+        },
+        {
+          "title": "J.J. McCarthy - 2026 NFL Topps NOW® - Card 72",
+          "url": "https://www.topps.com/products/j-j-mccarthy-2026-nfl-topps-now-r-card-72"
+        },
+        {
+          "title": "Arizona Cardinals - 2026 NFL Topps NOW® - Card 71",
+          "url": "https://www.topps.com/products/arizona-cardinals-2026-nfl-topps-now-r-card-71"
+        },
+        {
+          "title": "Puka Nacua - 2025-26 NBA Topps NOW® - Card 70",
+          "url": "https://www.topps.com/products/puka-nacua-2025-26-nba-topps-now-r-card-70"
+        },
+        {
+          "title": "Caleb Williams - 2026-27 NFL Topps NOW® - Card 69",
+          "url": "https://www.topps.com/products/caleb-williams-2026-27-nfl-topps-now-r-card-69"
+        },
+        {
+          "title": "Jonathan Taylor - 2026-27 NFL Topps NOW® - Card 68",
+          "url": "https://www.topps.com/products/jonathan-taylor-2026-27-nfl-topps-now-r-card-68"
+        },
+        {
+          "title": "Alvin Kamara - 2026-27 NFL Topps NOW® - Card 67",
+          "url": "https://www.topps.com/products/alvin-kamara-2026-27-nfl-topps-now-r-card-67"
+        },
+        {
+          "title": "Carnell Tate - 2026-27 NFL Topps NOW® - Card 66",
+          "url": "https://www.topps.com/products/carnell-tate-2026-27-nfl-topps-now-r-card-66"
+        },
+        {
+          "title": "Omar Cooper Jr. - 2026-27 NFL Topps NOW® - Card 65",
+          "url": "https://www.topps.com/products/omar-cooper-jr-2026-27-nfl-topps-now-r-card-65"
+        },
+        {
+          "title": "Germie Bernard - 2026-27 NFL Topps NOW® - Card 64",
+          "url": "https://www.topps.com/products/germie-bernard-2026-27-nfl-topps-now-r-card-64"
+        },
+        {
+          "title": "Chris Boswell - 2026-27 NFL Topps NOW® - Card 62",
+          "url": "https://www.topps.com/products/chris-boswell-2026-27-nfl-topps-now-r-card-62"
+        },
+        {
+          "title": "Travis Hunter - 2026-27 NFL Topps NOW® - Card 61",
+          "url": "https://www.topps.com/products/travis-hunter-2026-27-nfl-topps-now-r-card-61"
+        },
         {
           "title": "Lionel Messi - 2026 MLS Topps NOW® - Card 97",
           "url": "https://www.topps.com/products/lionel-messi-2026-mls-topps-now-r-card-97"
@@ -135,7 +191,7 @@
           "url": "https://www.topps.com/products/max-verstappen-2026-formula-1-r-topps-now-r-card-67"
         }
       ],
-      "checkedUtc": "2026-10-19T18:54:43.836Z",
+      "checkedUtc": "2026-10-19T19:57:18.453Z",
       "refreshedThisRun": true
     },
     {
@@ -143,7 +199,7 @@
       "pagesObserved": 1,
       "reportedProductCount": 0,
       "products": [],
-      "checkedUtc": "2026-10-19T18:56:30.013Z",
+      "checkedUtc": "2026-10-19T19:59:43.896Z",
       "refreshedThisRun": true
     }
   ]

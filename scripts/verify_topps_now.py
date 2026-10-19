@@ -639,3 +639,34 @@ for p in active_drop_cards:
 barcola=next(p for p in active_drop_cards if p['series']=='2026-27 UCL Topps NOW®' and p['number']=='25')
 assert barcola['evidence']['fields']['Properties']=='Liverpool FC'
 print('Verified 17 October 19 active drops: original dates/subjects, distinct MLB/MLS/UCL/UEL foil ladders, blank actual print runs, conditional thresholds and isolated Haaland/Mbappé terms.')
+
+football_snapshot=json.loads((root/'data/catalog-sources/topps-now-backfill-browser-20261019-1900-active-football.json').read_text())
+football_urls={r['url'] for r in football_snapshot['products']}
+football_products=[r for r in observations if r['source'] in football_urls]
+assert len(football_products)==14
+assert sorted(int(r['number']) for r in football_products)==list(range(61,75))
+for p in football_products:
+    assert p['saleFromISO']=='2026-10-19' and p['saleFrom']=='Oct 19, 2026'
+    assert not p['printRun'] and len(p['parallels'])==5
+    assert [x.split(' ',1)[0] for x in p['parallels']]==['/50','/25','/10','/5','/1']
+    assert len(re.findall(r'(?m)^[\d,]+\+ Print Run:',p['terms']))==4
+    assert p['evidence']['fields']['Sub Categories']=='Football'
+    if p['number']!='63':assert p['saleUntil']=='Oct 22, 2026'
+by_number={p['number']:p for p in football_products}
+assert by_number['63']['saleUntil']=='' and 'Available Until' not in by_number['63']['evidence']['fields']
+assert 'sale end remains unpublished' in by_number['63']['terms']
+assert by_number['70']['series']=='2025-26 NBA Topps NOW®' and by_number['70']['name']=='Puka Nacua'
+assert by_number['70']['evidence']['fields']['Properties']=='Los Angeles Rams'
+assert 'no corrected NFL series is inferred' in by_number['70']['terms']
+assert by_number['72']['series']=='2026 NFL Topps NOW®' and by_number['72']['name']=='J.J. McCarthy'
+assert by_number['72']['evidence']['fields']['Properties']=='New York Giants'
+assert 'Subjects' not in by_number['72']['evidence']['fields'] and 'source identity conflict remains unresolved' in by_number['72']['terms']
+assert by_number['73']['name']=='Josh Allen, Jim Kelly'
+assert by_number['74']['name']=='Patrick Mahomes II, Tom Brady'
+for p in football_products:
+    if p['number'] in {'64','66'}:
+        assert '/5 Autograph Redemption Card' in p['terms'] and '/1 Inscribed Autograph Redemption Card' in p['terms']
+    else:assert 'Autograph Redemption Card' not in p['terms']
+qualifications=json.loads((root/'data/topps-now-import-gaps.json').read_text())['sourceFieldQualifications']
+assert {q['number'] for q in qualifications if q['url'] in football_urls}=={'63','70','72'}
+print('Verified 14 new active football-source products: exact printed series/fields, dates, five foils, conditional thresholds and isolated Tate/Bernard autographs; Rueben sale end and Puka/McCarthy source conflicts remain explicit.')
