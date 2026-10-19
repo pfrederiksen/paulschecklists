@@ -4,9 +4,57 @@
   "listings": [
     {
       "url": "https://www.topps.com/collections/topps-now",
-      "pagesObserved": 1,
-      "reportedProductCount": 23,
+      "pagesObserved": 2,
+      "reportedProductCount": 30,
       "products": [
+        {
+          "url": "https://topps.com/products/jules-ahoka-2026-27-uel-topps-now-r-card-8",
+          "title": "Jules Ahoka - 2026-27 UEL Topps NOW® - Card 8"
+        },
+        {
+          "url": "https://topps.com/products/alphadjo-cisse-2026-27-uel-topps-now-r-card-6",
+          "title": "Alphadjo Cisse - 2026-27 UEL Topps NOW® - Card 6"
+        },
+        {
+          "url": "https://topps.com/products/noah-sadiki-2026-27-uel-topps-now-r-card-7",
+          "title": "Noah Sadiki - 2026-27 UEL Topps NOW® - Card 7"
+        },
+        {
+          "url": "https://topps.com/products/desire-doue-2026-27-ucl-topps-now%C2%AE-card-29",
+          "title": "Désiré Doué - 2026-27 UCL Topps NOW® - Card 29"
+        },
+        {
+          "url": "https://topps.com/products/lewis-koumas-2026-27-ucl-topps-now%C2%AE-card-28",
+          "title": "Lewis Koumas - 2026-27 UCL Topps NOW® - Card 28"
+        },
+        {
+          "url": "https://topps.com/products/samuele-inacio-2026-27-ucl-topps-now%C2%AE-card-30",
+          "title": "Samuele Inácio - 2026-27 UCL Topps NOW® - Card 30"
+        },
+        {
+          "url": "https://topps.com/products/antonio-rudiger-2026-27-ucl-topps-now%C2%AE-card-31",
+          "title": "Antonio Rüdiger - 2026-27 UCL Topps NOW® - Card 31"
+        },
+        {
+          "url": "https://topps.com/products/kylian-mbappe-2026-27-ucl-topps-now%C2%AE-card-32",
+          "title": "Kylian Mbappé - 2026-27 UCL Topps NOW® - Card 32"
+        },
+        {
+          "url": "https://topps.com/products/johan-manzambi-2026-27-ucl-topps-now%C2%AE-card-26",
+          "title": "Johan Manzambi - 2026-27 UCL Topps NOW® - Card 26"
+        },
+        {
+          "url": "https://topps.com/products/carlos-espi-2026-27-ucl-topps-now%C2%AE-card-27",
+          "title": "Carlos Espí - 2026-27 UCL Topps NOW® - Card 27"
+        },
+        {
+          "url": "https://topps.com/products/erling-haaland-2026-27-ucl-topps-now%C2%AE-card-24",
+          "title": "Erling Haaland - 2026-27 UCL Topps NOW® - Card 24"
+        },
+        {
+          "url": "https://topps.com/products/bradley-barcola-2026-27-ucl-topps-now%C2%AE-card-25",
+          "title": "Bradley Barcola - 2026-27 UCL Topps NOW® - Card 25"
+        },
         {
           "url": "https://topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-801",
           "title": "Yandy Díaz - 2026 MLB Topps NOW® - Card 801"
@@ -78,26 +126,6 @@
         {
           "url": "https://topps.com/products/max-verstappen-2026-formula-1-r-topps-now-r-card-67",
           "title": "Max Verstappen - 2026 Formula 1® Topps NOW® - Card 67"
-        },
-        {
-          "url": "https://topps.com/products/said-el-mala-2026-27-bundesliga-topps-now%C2%AE-card-32",
-          "title": "Saïd El Mala - 2026-27 Bundesliga Topps NOW® - Card 32"
-        },
-        {
-          "url": "https://topps.com/products/keisuke-goto-2026-27-bundesliga-topps-now%C2%AE-card-31",
-          "title": "Keisuke Gotō - 2026-27 Bundesliga Topps NOW® - Card 31"
-        },
-        {
-          "url": "https://topps.com/products/christopher-nkunku-2026-27-bundesliga-topps-now%C2%AE-card-30",
-          "title": "Christopher Nkunku - 2026-27 Bundesliga Topps NOW® - Card 30"
-        },
-        {
-          "url": "https://topps.com/products/robin-fellhauer-2026-27-bundesliga-topps-now%C2%AE-card-28",
-          "title": "Robin Fellhauer - 2026-27 Bundesliga Topps NOW® - Card 28"
-        },
-        {
-          "url": "https://topps.com/products/robert-andrich-2026-27-bundesliga-topps-now%C2%AE-card-29",
-          "title": "Robert Andrich - 2026-27 Bundesliga Topps NOW® - Card 29"
         }
       ]
     },
@@ -108,5 +136,5 @@
       "products": []
     }
   ],
-  "checkedUtc": "2026-10-19T14:50:01.845461+00:00"
+  "checkedUtc": "2026-10-19T16:45:41.257570+00:00"
 }
