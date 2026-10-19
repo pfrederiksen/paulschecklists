@@ -14737,5 +14737,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2025-26-topps-museum-uefa-club-competitions": {
+    "state": {
+      "checklistHash": "9501c7d842a2afbbc87483071a4bfe4350a7c38ece1857d364a93406356a7b2b",
+      "oddsHash": "c9fe6f6306c47b472cb7c1daf8d0e56aa9a2950677425e4cca3c0d4229f628b5",
+      "rows": 756,
+      "odds": 147,
+      "specificationRows": 9
+    },
+    "fingerprint": "15529ab683fd81070a5d810ac283f75e08702a4527938a6a6da1bb32eaa56bfe",
+    "events": [
+      {
+        "at": "2026-10-19T19:03:58.507Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Museum_Checklist_Subject_to_Change.pdf?v=1789660179",
+        "snapshot": {
+          "checklistHash": "9501c7d842a2afbbc87483071a4bfe4350a7c38ece1857d364a93406356a7b2b",
+          "oddsHash": "c9fe6f6306c47b472cb7c1daf8d0e56aa9a2950677425e4cca3c0d4229f628b5",
+          "rows": 756,
+          "odds": 147,
+          "specificationRows": 9
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

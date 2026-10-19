@@ -34,6 +34,16 @@ for(const set of cases){
   get('source-search').value="Nico O'Reilly";get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');assert(get('source-results').innerHTML.includes('Nico O’Reilly'));get('source-reset').onclick();
   get('source-team').value='Arsenal';get('source-team').onchange();assert.equal(get('source-count').textContent,'5 official source rows');get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2025-26-topps-museum-uefa-club-competitions'){
+  assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-team').disabled,false);assert.equal(get('source-format').disabled,false);
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'102 official source rows');get('source-reset').onclick();
+  get('source-search').value='HTA-AGC';get('source-search').oninput();assert.equal(get('source-count').textContent,'3 official source rows');assert(get('source-results').innerHTML.includes('Jamie Carragher'));
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-export').onclick();assert(csv.includes('Xabi Alonso')&&csv.includes('Steven Gerrard')&&csv.includes('Jamie Carragher'));get('source-reset').onclick();
+  get('source-odds-tab').onclick();get('source-section').value='BASE CARDS';get('source-section').onchange();assert(primarySpecifications().includes('4:1')&&!primarySpecifications().includes('1 in 4 packs'),'Unstated Museum units must remain literal');
+  get('source-section').value='MUSEUM ROLL OF HONOR';get('source-section').onchange();assert(primarySpecifications().includes('Limited to 25 copies')&&!primarySpecifications().includes('<td>/25</td>'));
+  get('source-reset').onclick();get('source-cards-tab').onclick();
+ }
  assert(get('source-results').innerHTML.includes('PLAYER / SUBJECT'));assert(get('source-results').innerHTML.includes('View family details'));
  get('source-results').onclick({target:{closest:()=>({dataset:{row:'0'}})}});assert(get('source-results').innerHTML.includes('OFFICIAL '+data.headers[0]));assert(get('source-results').innerHTML.includes('Hide family details'));
  get('source-sort').value='name';get('source-sort').onchange();assert(get('source-results').innerHTML.includes('<table>'));

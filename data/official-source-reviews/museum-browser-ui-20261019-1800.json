@@ -1,0 +1,19 @@
+{
+  "checkedUtc": "2026-10-19T19:09:22.142Z",
+  "triple": {
+    "count": "3 official source rows",
+    "results": "CARD #\tPLAYER / SUBJECT\tSUBSET\tCATEGORY ODDS & PARALLELS\nHTA-AGC\t\nXabi Alonso\nLiverpool FC\n\t\nHat-Trick Triple Autographs\n\t\n1:56\nHide family details −\nHat-Trick Triple Autographs · published family details\n\nCategories apply to the checklist family. Subject eligibility in every parallel is not guaranteed.\n\nCATEGORY / PARALLEL\tPUBLISHED NUMBERING\tPUBLISHED ODDS\nHat-Trick Triple Autographs\tNot published\t1:56\nHat-Trick Triple Autographs Black Diamond\tNot published\t1:69\nHat-Trick Triple Autographs Emerald\tNot published\t1:578\nOFFICIAL Checklist section\tOFFICIAL Card number\tOFFICIAL Name\tOFFICIAL Team\tOFFICIAL Rookie\tOFFICIAL Source page\nHAT-TRICK TRIPLE AUTOGRAPHS\tHTA-AGC\tXabi Alonso\tLiverpool FC\t—\t7\n\nHTA-AGC\t\nSteven Gerrard\nLiverpool FC\n\t\nHat-Trick Triple Autographs\n\t\n1:56\nView family details +\nHTA-AGC\t\nJamie Carragher\nLiverpool FC\n\t\nHat-Trick Triple Autographs\n\t\n1:56\nView family details +"
+  },
+  "guide": {
+    "count": "1 checklist family",
+    "text": "MUSEUM ROLL OF HONOR\n\n5 checklist rows · 8 published categories\n\nHobby\nPARALLEL / VARIATION\tPUBLISHED NUMBERING\tPUBLISHED ODDS\tRATE (UNIT NOT NAMED)\nMuseum Roll of Honor Gold\tNot published\t1:24\t—\nMuseum Roll of Honor Sapphire\tNot published\t1:40\t—\nMuseum Roll of Honor Amethyst\tNot published\t1:60\t—\nMuseum Roll of Honor Turquoise\tNot published\t1:118\t—\nMuseum Roll of Honor Blue Topaz\tNot published\t1:237\t—\nMuseum Roll of Honor Black Diamond\tNot published\t1:600\t—\nMuseum Roll of Honor Diamond\tNot published\t1:1,282\t—\nMuseum Roll of Honor Emerald\tNot published\t1:5,640\t—\nMUSEUM ROLL OF HONOR\n\nHobby\n\nOfficial guide; exact card scope retained · Manufacturer specifications. Values retain the units and scope in each column; box contents and numbering are not pack odds.\n\nCard number\tName\tParallel / variation\tPublished statement\tQualification\nROH-1\tDiego Maradona\tParallel not named\tLimited to 25 copies\tNamed card only; parallel and serial marking are unstated.\nSet-wide manufacturer notes & source context"
+  },
+  "rookieCount": 102,
+  "csvSha256": "ee9c74470b5acb1a563a56f8db4ff5559d879e6c0eb7cf07c2820fc8c5597ae0",
+  "csvPhysicalSignerNamesVerified": [
+    "Xabi Alonso",
+    "Steven Gerrard",
+    "Jamie Carragher"
+  ],
+  "method": "Real in-app-browser interactions against generated static HTML: exact code search, named format selection, expanded family details, CSV download, reset, Rookie filter and selected-family guide/odds tab."
+}

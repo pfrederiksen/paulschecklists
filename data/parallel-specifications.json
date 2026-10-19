@@ -9885,7 +9885,8 @@
         "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
       }
     ],
-    "topps-bowman-2026-topps-pro-debut-baseball": []
+    "topps-bowman-2026-topps-pro-debut-baseball": [],
+    "topps-bowman-2025-26-topps-museum-uefa-club-competitions": []
   },
   "conflicts": [
     {
@@ -10378,6 +10379,14 @@
       "source": "https://www.topps.com/pages/topps-pro-debut-baseball",
       "evidenceFile": "data/parallel-audit-sources/pro-debut-baseball-2026-product-20261019.json",
       "evidenceSha256": "4a1c029f669a96f5f1b0d4e6c0ffe6974b81d04d3fde66cdfa143c6d0a66aafe"
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-museum-uefa-club-competitions",
+      "family": "Remaining numbering and eligibility",
+      "gap": "Exhaustive parallel ladders and individual-card eligibility are unverified. The odds table names Hobby and Hat-Trick but does not state a ratio unit; no computed per-pack odds. September 18 availability is announced by the UK edition with a UK product link; general release date remains unverified. The 25-copy Diego Maradona example names no color or serial marking; never convert it to /25. The PDF and product disclaimer says subject inclusion does not guarantee every parallel or variation.",
+      "source": "https://ripped.topps.com/uk/topps-museum-collection-ucc-2025-26-collector-guide-dual-autos-jumbo-patches-more/",
+      "evidenceFile": "data/parallel-audit-sources/museum-ucc-2025-26-20261019.json",
+      "evidenceSha256": "e46958b2de9946bf327762ea1eaf3c81bc8e8912d43d329a07c4b7462606b565"
     }
   ]
 }

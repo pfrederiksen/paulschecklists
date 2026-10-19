@@ -1,184 +1,164 @@
 {
   "observed": "2026-10-19",
-  "listingSha256": "e014f519199347493fbd00b9bad891ad58e3c3c335e6745688a1609b2ef4fd96",
+  "listingSha256": "712b2c723b444c9f028c92e02281c8276cbd502059ffab3ce8535daf4d0d36c3",
   "historicalCoverageComplete": false,
   "products": [
     {
-      "url": "https://topps.com/products/lionel-messi-2026-mls-topps-now-r-card-97",
       "title": "Lionel Messi - 2026 MLS Topps NOW® - Card 97",
+      "url": "https://www.topps.com/products/lionel-messi-2026-mls-topps-now-r-card-97",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/antoine-griezmann-2026-mls-topps-now-r-card-98",
       "title": "Antoine Griezmann - 2026 MLS Topps NOW® - Card 98",
+      "url": "https://www.topps.com/products/antoine-griezmann-2026-mls-topps-now-r-card-98",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/martin-ojeda-2026-mls-topps-now-r-card-99",
       "title": "Martín Ojeda - 2026 MLS Topps NOW® - Card 99",
+      "url": "https://www.topps.com/products/martin-ojeda-2026-mls-topps-now-r-card-99",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-803",
       "title": "Yandy Díaz - 2026 MLB Topps NOW® - Card 803",
+      "url": "https://www.topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-803",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/drew-rasmussen-2026-mlb-topps-now-r-card-802",
       "title": "Drew Rasmussen - 2026 MLB Topps NOW® - Card 802",
+      "url": "https://www.topps.com/products/drew-rasmussen-2026-mlb-topps-now-r-card-802",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/jules-ahoka-2026-27-uel-topps-now-r-card-8",
       "title": "Jules Ahoka - 2026-27 UEL Topps NOW® - Card 8",
+      "url": "https://www.topps.com/products/jules-ahoka-2026-27-uel-topps-now-r-card-8",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/alphadjo-cisse-2026-27-uel-topps-now-r-card-6",
       "title": "Alphadjo Cisse - 2026-27 UEL Topps NOW® - Card 6",
+      "url": "https://www.topps.com/products/alphadjo-cisse-2026-27-uel-topps-now-r-card-6",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/noah-sadiki-2026-27-uel-topps-now-r-card-7",
       "title": "Noah Sadiki - 2026-27 UEL Topps NOW® - Card 7",
+      "url": "https://www.topps.com/products/noah-sadiki-2026-27-uel-topps-now-r-card-7",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/desire-doue-2026-27-ucl-topps-now%C2%AE-card-29",
       "title": "Désiré Doué - 2026-27 UCL Topps NOW® - Card 29",
+      "url": "https://www.topps.com/products/desire-doue-2026-27-ucl-topps-now%C2%AE-card-29",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/lewis-koumas-2026-27-ucl-topps-now%C2%AE-card-28",
       "title": "Lewis Koumas - 2026-27 UCL Topps NOW® - Card 28",
+      "url": "https://www.topps.com/products/lewis-koumas-2026-27-ucl-topps-now%C2%AE-card-28",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/samuele-inacio-2026-27-ucl-topps-now%C2%AE-card-30",
       "title": "Samuele Inácio - 2026-27 UCL Topps NOW® - Card 30",
+      "url": "https://www.topps.com/products/samuele-inacio-2026-27-ucl-topps-now%C2%AE-card-30",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/antonio-rudiger-2026-27-ucl-topps-now%C2%AE-card-31",
       "title": "Antonio Rüdiger - 2026-27 UCL Topps NOW® - Card 31",
+      "url": "https://www.topps.com/products/antonio-rudiger-2026-27-ucl-topps-now%C2%AE-card-31",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/kylian-mbappe-2026-27-ucl-topps-now%C2%AE-card-32",
       "title": "Kylian Mbappé - 2026-27 UCL Topps NOW® - Card 32",
+      "url": "https://www.topps.com/products/kylian-mbappe-2026-27-ucl-topps-now%C2%AE-card-32",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/johan-manzambi-2026-27-ucl-topps-now%C2%AE-card-26",
       "title": "Johan Manzambi - 2026-27 UCL Topps NOW® - Card 26",
+      "url": "https://www.topps.com/products/johan-manzambi-2026-27-ucl-topps-now%C2%AE-card-26",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/carlos-espi-2026-27-ucl-topps-now%C2%AE-card-27",
       "title": "Carlos Espí - 2026-27 UCL Topps NOW® - Card 27",
+      "url": "https://www.topps.com/products/carlos-espi-2026-27-ucl-topps-now%C2%AE-card-27",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/erling-haaland-2026-27-ucl-topps-now%C2%AE-card-24",
       "title": "Erling Haaland - 2026-27 UCL Topps NOW® - Card 24",
+      "url": "https://www.topps.com/products/erling-haaland-2026-27-ucl-topps-now%C2%AE-card-24",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/bradley-barcola-2026-27-ucl-topps-now%C2%AE-card-25",
       "title": "Bradley Barcola - 2026-27 UCL Topps NOW® - Card 25",
+      "url": "https://www.topps.com/products/bradley-barcola-2026-27-ucl-topps-now%C2%AE-card-25",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-801",
-      "title": "Yandy Díaz - 2026 MLB Topps NOW® - Card 801",
-      "status": "published"
-    },
-    {
-      "url": "https://topps.com/products/junior-caminero-2026-mlb-topps-now-r-card-800",
-      "title": "Junior Caminero - 2026 MLB Topps NOW® - Card 800",
-      "status": "published"
-    },
-    {
-      "url": "https://topps.com/products/jonathan-aranda-2026-mlb-topps-now-r-card-799",
-      "title": "Jonathan Aranda - 2026 MLB Topps NOW® - Card 799",
-      "status": "published"
-    },
-    {
-      "url": "https://topps.com/products/denver-broncos-2026-27-nfl-topps-now-r-card-60",
-      "title": "Denver Broncos - 2026-27 NFL Topps NOW® - Card 60",
-      "status": "published"
-    },
-    {
-      "url": "https://topps.com/products/anthony-gordon-2026-27-ucl-topps-now-r-card-23",
       "title": "Anthony Gordon - 2026-27 UCL Topps NOW® - Card 23",
+      "url": "https://www.topps.com/products/anthony-gordon-2026-27-ucl-topps-now-r-card-23",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/herman-haugen-2026-27-ucl-topps-now-r-card-22",
       "title": "Herman Haugen - 2026-27 UCL Topps NOW® - Card 22",
+      "url": "https://www.topps.com/products/herman-haugen-2026-27-ucl-topps-now-r-card-22",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/bukayo-saka-2026-27-ucl-topps-now-r-card-21",
       "title": "Bukayo Saka - 2026-27 UCL Topps NOW® - Card 21",
+      "url": "https://www.topps.com/products/bukayo-saka-2026-27-ucl-topps-now-r-card-21",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/nicolo-tresoldi-2026-27-ucl-topps-now-r-card-20",
       "title": "Nicolò Tresoldi - 2026-27 UCL Topps NOW® - Card 20",
+      "url": "https://www.topps.com/products/nicolo-tresoldi-2026-27-ucl-topps-now-r-card-20",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/issa-doumbia-2026-27-ucl-topps-now-r-card-19",
       "title": "Issa Doumbia - 2026-27 UCL Topps NOW® - Card 19",
+      "url": "https://www.topps.com/products/issa-doumbia-2026-27-ucl-topps-now-r-card-19",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/jesse-derry-2026-27-ucl-topps-now-r-card-18",
       "title": "Jesse Derry - 2026-27 UCL Topps NOW® - Card 18",
+      "url": "https://www.topps.com/products/jesse-derry-2026-27-ucl-topps-now-r-card-18",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/dara-o-shea-2026-27-premier-league-topps-now-r-card-38",
       "title": "Dara O'Shea - 2026-27 Premier League Topps NOW® - Card 38",
+      "url": "https://www.topps.com/products/dara-o-shea-2026-27-premier-league-topps-now-r-card-38",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/jordan-henderson-2026-27-premier-league-topps-now-r-card-39",
       "title": "Jordan Henderson - 2026-27 Premier League Topps NOW® - Card 39",
+      "url": "https://www.topps.com/products/jordan-henderson-2026-27-premier-league-topps-now-r-card-39",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/jaouen-hadjam-2026-27-premier-league-topps-now-r-card-40",
       "title": "Jaouen Hadjam - 2026-27 Premier League Topps NOW® - Card 40",
+      "url": "https://www.topps.com/products/jaouen-hadjam-2026-27-premier-league-topps-now-r-card-40",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/dominic-solanke-2026-27-premier-league-topps-now-r-card-41",
       "title": "Dominic Solanke - 2026-27 Premier League Topps NOW® - Card 41",
+      "url": "https://www.topps.com/products/dominic-solanke-2026-27-premier-league-topps-now-r-card-41",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/jeremy-doku-2026-27-premier-league-topps-now-r-card-42",
       "title": "Jérémy Doku - 2026-27 Premier League Topps NOW® - Card 42",
+      "url": "https://www.topps.com/products/jeremy-doku-2026-27-premier-league-topps-now-r-card-42",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/stephen-mfuni-2026-27-premier-league-topps-now-r-card-43",
       "title": "Stephen Mfuni - 2026-27 Premier League Topps NOW® - Card 43",
+      "url": "https://www.topps.com/products/stephen-mfuni-2026-27-premier-league-topps-now-r-card-43",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/coventry-city-2026-27-premier-league-topps-now-r-card-44",
       "title": "Coventry City - 2026-27 Premier League Topps NOW® - Card 44",
+      "url": "https://www.topps.com/products/coventry-city-2026-27-premier-league-topps-now-r-card-44",
       "status": "published"
     },
     {
-      "url": "https://topps.com/products/max-verstappen-2026-formula-1-r-topps-now-r-card-67",
       "title": "Max Verstappen - 2026 Formula 1® Topps NOW® - Card 67",
+      "url": "https://www.topps.com/products/max-verstappen-2026-formula-1-r-topps-now-r-card-67",
       "status": "published"
     }
   ],
-  "publishedCount": 35,
+  "publishedCount": 31,
   "remaining": []
 }

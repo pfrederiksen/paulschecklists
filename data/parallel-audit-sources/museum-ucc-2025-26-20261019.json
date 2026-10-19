@@ -1,0 +1,87 @@
+{
+  "observed": "2026-10-19",
+  "sourceKind": "official-browser-normalized-facts",
+  "method": "Fresh in-app-browser product landing, collector guide and regional announcement reads; normalized factual excerpts, not raw HTML hashes. Physical PDF columns are separately hash checked.",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Museum_Checklist_Subject_to_Change.pdf?v=1789660179",
+  "checklistSha256": "9501c7d842a2afbbc87483071a4bfe4350a7c38ece1857d364a93406356a7b2b",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025-26_Topps_UCC_Museum_Collection_Odds_-_Subject_to_Change.pdf?v=1789660179",
+  "oddsSha256": "c9fe6f6306c47b472cb7c1daf8d0e56aa9a2950677425e4cca3c0d4229f628b5",
+  "product": {
+    "checkedUtc": "2026-10-19T18:58:28.016Z",
+    "configuration": "Topps is pleased to announce the new Topps Museum Collection UEFA Club Competitions 2025/26! The collection captures the biggest stars across UEFA Club Competitions with a mix of seasoned veterans, young stars on the rise, and legends of the pitch. Inside each Hobby Box you will find 1 Sequentially Numbered Base Card Parallel, 1 Autograph Card, 1 Relic Card, and 1 Autograph-Relic Card. One pack per box. Eight cards per pack.",
+    "links": [
+      {
+        "title": "Download checklist",
+        "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Museum_Checklist_Subject_to_Change.pdf?v=1789660179"
+      },
+      {
+        "title": "Download odds",
+        "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025-26_Topps_UCC_Museum_Collection_Odds_-_Subject_to_Change.pdf?v=1789660179"
+      }
+    ],
+    "title": "Topps® Museum UEFA Club Competitions 2025/26",
+    "url": "https://www.topps.com/pages/topps-museum-ucc"
+  },
+  "guide": {
+    "checkedUtc": "2026-10-19T18:58:04.946Z",
+    "paragraphs": [
+      "Topps Museum Collection UEFA Club Competitions 2025/26 brings the brand’s signature focus on autographs and elite memorabilia to the best and brightest in European soccer, delivering a 100-card base checklist alongside quality ink, jumbo relics, and nameplate relic cards that highlight some of the sport’s greatest talents.",
+      "Topps Museum Collection UEFA Club Competitions 2025/26 combines a 100-card base set with quality autographs, jumbo game-used memorabilia, and relic cards spotlighting European soccer’s top rookies, stars, and legends. Collectors can discover Museum Rookie Autographs, Roll of Honor, Momentous Material Patch Autographs, Archival Dual Relics, Legacy Boot Relics, Museum Nameplate Relics, and more.",
+      "Topps Museum Collection UCC 2025/26 brings an exciting 100-card base set that lays the foundation for a fantastic collecting experience. Clean elegance in design is met by a beautiful parallel structure, from Gold to Emerald.",
+      "Dowman’s brilliant Emerald 1/1 is undoubtedly one of the most sought-after cards in the entire set.",
+      "An elegant and distinguished design makes its debut in Topps Museum Collection UCC 2025/26 with Roll of Honor. The insert features players who have etched their names into the very history of the world’s most popular sport, with a gorgeous run of parallels include this stunning Diego Maradona card, limited to only 25 copies.",
+      "Topps Museum Collection UCC 2025/26 carries on the brand’s legacy of astonishing memorabilia throughout the checklist. Momentous Material Jumbo Patch Autographs are a prime example, bringing collectors brilliant offerings from the likes of top all-time Liverpool Champions League goal-scorer Mohamed Salah, including this Emerald 1/1."
+    ],
+    "title": "Topps Museum Collection UCC 2025/26 Collector Guide: Dual Autos, Jumbo Patches & More",
+    "url": "https://ripped.topps.com/uk/topps-museum-collection-ucc-2025-26-collector-guide-dual-autos-jumbo-patches-more/"
+  },
+  "regionalRelease": {
+    "checkedUtc": "2026-10-19T18:58:35.403Z",
+    "links": [
+      {
+        "title": "Topps.com",
+        "url": "https://uk.topps.com/pages/topps-museum-ucc"
+      }
+    ],
+    "statements": [
+      "Topps® Museum UEFA Club Competitions 2025/26 arrives on 18th September, bringing together premium autographs, football memorabilia and stars from across UEFA’s leading club competitions.",
+      "Topps® Museum UEFA Club Competitions 2025/26 will be available from Topps.com on 18 September at 14:00."
+    ],
+    "title": "Dropping Soon: Topps® Museum UEFA Club Competitions 2025/26",
+    "url": "https://ripped.topps.com/uk/dropping-soon-topps-museum-uefa-club-competitions-2025-26/"
+  },
+  "cardExamples": [
+    [
+      "MUSEUM ROOKIE AUTOGRAPHS",
+      "MRA-MD",
+      "Max Dowman",
+      "Emerald",
+      "1/1",
+      "Named Max Dowman example only; no family-wide Emerald limit inferred."
+    ],
+    [
+      "MUSEUM ROLL OF HONOR",
+      "ROH-1",
+      "Diego Maradona",
+      "Parallel not named",
+      "Limited to 25 copies",
+      "Named card only; parallel and serial marking are unstated."
+    ],
+    [
+      "MOMENTOUS MATERIAL JUMBO AUTOGRAPHS",
+      "MMJA-MO",
+      "Mohamed Salah",
+      "Emerald",
+      "1/1",
+      "The guide calls this Momentous Material Jumbo Patch Autographs; exact named card only."
+    ]
+  ],
+  "approvedNumericMappings": [],
+  "remainingGaps": [
+    "Exhaustive parallel ladders and individual-card eligibility are unverified.",
+    "The odds table names Hobby and Hat-Trick but does not state a ratio unit; no computed per-pack odds.",
+    "September 18 availability is announced by the UK edition with a UK product link; general release date remains unverified.",
+    "The 25-copy Diego Maradona example names no color or serial marking; never convert it to /25.",
+    "The PDF and product disclaimer says subject inclusion does not guarantee every parallel or variation."
+  ]
+}

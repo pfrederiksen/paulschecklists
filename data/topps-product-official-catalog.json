@@ -3349,5 +3349,48 @@
     "odds": 0,
     "formats": 0,
     "description": "Separate 200-card paper and Chrome base programs, Minor League inserts and multi-signer autographs. Browse original names and teams; October 19 is a preorder. Pack odds and numeric parallel limits remain unavailable."
+  },
+  {
+    "title": "Topps® Museum UEFA Club Competitions 2025/26",
+    "manufacturer": "Topps / Bowman",
+    "sport": "soccer",
+    "year": "2025-26",
+    "slug": "topps-bowman-2025-26-topps-museum-uefa-club-competitions",
+    "page": "sets/topps-bowman-2025-26-topps-museum-uefa-club-competitions.html",
+    "sourcePage": "https://www.topps.com/pages/topps-museum-ucc",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Museum_Checklist_Subject_to_Change.pdf?v=1789660179",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-19",
+    "status": "Source table",
+    "rowCount": 756,
+    "tableData": "data/imports/topps-bowman-2025-26-topps-museum-uefa-club-competitions.json",
+    "sections": 35,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 756 physical subject rows / 686 family-card identities across 35 sections retain original Name, Team and 102 literal Rookie marks. Fifteen dual and fourteen triple autograph cards and three ten-subject books retain every signer, including the page-seven/eight continuation. All 147 odds categories retain Hobby / Hat-Trick columns and nulls. The sheet names no ratio unit; Base Card 4:1 remains literal. Three guide examples stay card-specific; a 25-copy statement does not establish serial marking or an unnamed color. September 18 UK availability is regional evidence, not a verified general release. Exhaustive parallel eligibility and numbering remain unverified.",
+    "dedicatedParser": "scripts/import_topps_museum_ucc_2025.py",
+    "coverageComplete": true,
+    "sha256": "9501c7d842a2afbbc87483071a4bfe4350a7c38ece1857d364a93406356a7b2b",
+    "odds": 147,
+    "formats": 2,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025-26_Topps_UCC_Museum_Collection_Odds_-_Subject_to_Change.pdf?v=1789660179",
+    "oddsImportIssues": 0,
+    "catalogEvidence": "All 756 physical subject rows / 686 family-card identities across 35 sections retain original Name, Team and 102 literal Rookie marks. Fifteen dual and fourteen triple autograph cards and three ten-subject books retain every signer, including the page-seven/eight continuation. All 147 odds categories retain Hobby / Hat-Trick columns and nulls. The sheet names no ratio unit; Base Card 4:1 remains literal. Three guide examples stay card-specific; a 25-copy statement does not establish serial marking or an unnamed color. September 18 UK availability is regional evidence, not a verified general release. Exhaustive parallel eligibility and numbering remain unverified.",
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/museum-ucc-2025-26-20261019.json",
+      "sha256": "e46958b2de9946bf327762ea1eaf3c81bc8e8912d43d329a07c4b7462606b565",
+      "source": "https://www.topps.com/pages/topps-museum-ucc"
+    },
+    "description": "Browse 100 base cards, multi-signer autographs and memorabilia, with original clubs, Rookie marks and two published odds columns. General release and exhaustive parallel numbering remain unverified.",
+    "additionalSources": [
+      {
+        "title": "Official collector guide",
+        "url": "https://ripped.topps.com/uk/topps-museum-collection-ucc-2025-26-collector-guide-dual-autos-jumbo-patches-more/"
+      },
+      {
+        "title": "UK release announcement (regional)",
+        "url": "https://ripped.topps.com/uk/dropping-soon-topps-museum-uefa-club-competitions-2025-26/"
+      }
+    ]
   }
 ]
