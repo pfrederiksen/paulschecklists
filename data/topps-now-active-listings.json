@@ -1,38 +1,54 @@
 {
   "observed": "2026-10-19",
   "sourceKind": "official-browser-active-listing",
-  "checkedUtc": "2026-10-19T19:57:18.453Z",
+  "checkedUtc": "2026-10-19T21:04:08.994455+00:00",
   "freshListingReadsComplete": true,
   "pendingFreshListingReads": [],
   "listings": [
     {
       "url": "https://www.topps.com/collections/topps-now",
-      "pagesObserved": 2,
-      "reportedProductCount": 45,
+      "pagesObserved": 3,
+      "reportedProductCount": 49,
       "products": [
+        {
+          "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
+          "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30"
+        },
+        {
+          "title": "Bear Bachmeier - 2026-27 Bowman U NOW® Football - Card 29",
+          "url": "https://www.topps.com/products/bear-bachmeier-2026-27-bowman-u-now-r-football-card-29"
+        },
+        {
+          "title": "Darian Mensah - 2026-27 Bowman U NOW® Football - Card 28",
+          "url": "https://www.topps.com/products/darian-mensah-2026-27-bowman-u-now-r-football-card-28"
+        },
+        {
+          "title": "Bo Jackson - 2026-27 Bowman U NOW® Football - Card 27",
+          "url": "https://www.topps.com/products/bo-jackson-2026-27-bowman-u-now-r-football-card-27"
+        },
         {
           "title": "Rueben Bain Jr - 2026-27 NFL Topps NOW® - Card 63",
           "url": "https://www.topps.com/products/rueben-bain-jr-2026-27-nfl-topps-now-r-card-63"
         },
         {
-          "title": "Patrick Mahomes II / Tom Brady - 2026 NFL Topps NOW® - Card 74",
+          "title": "Patrick Mahomes / Tom Brady - 2026-27 NFL Topps NOW® - Card 74",
           "url": "https://www.topps.com/products/patrick-mahomes-ii-tom-brady-2026-nfl-topps-now-r-card-74"
         },
         {
-          "title": "Josh Allen / Jim Kelly - 2026 NFL Topps NOW® - Card 73",
-          "url": "https://www.topps.com/products/josh-allen-jim-kelly-2026-nfl-topps-now-r-card-73"
+          "title": "Josh Allen / Jim Kelly - 2026-27 NFL Topps NOW® - Card 73",
+          "url": "https://www.topps.com/products/josh-allen-jim-kelly-2026-27-nfl-topps-now-r-card-73"
         },
         {
-          "title": "J.J. McCarthy - 2026 NFL Topps NOW® - Card 72",
+          "title": "J.J. McCarthy - 2026-27 NFL Topps NOW® - Card 72",
           "url": "https://www.topps.com/products/j-j-mccarthy-2026-nfl-topps-now-r-card-72"
         },
         {
-          "title": "Arizona Cardinals - 2026 NFL Topps NOW® - Card 71",
+          "title": "Arizona Cardinals - 2026-27 NFL Topps NOW® - Card 71",
           "url": "https://www.topps.com/products/arizona-cardinals-2026-nfl-topps-now-r-card-71"
         },
         {
-          "title": "Puka Nacua - 2025-26 NBA Topps NOW® - Card 70",
-          "url": "https://www.topps.com/products/puka-nacua-2025-26-nba-topps-now-r-card-70"
+          "title": "Puka Nacua - 2026-27 NFL Topps NOW® - Card 70",
+          "url": "https://www.topps.com/products/puka-nacua-2026-27-nfl-topps-now-r-card-70"
         },
         {
           "title": "Caleb Williams - 2026-27 NFL Topps NOW® - Card 69",
@@ -190,17 +206,30 @@
           "title": "Max Verstappen - 2026 Formula 1® Topps NOW® - Card 67",
           "url": "https://www.topps.com/products/max-verstappen-2026-formula-1-r-topps-now-r-card-67"
         }
-      ],
-      "checkedUtc": "2026-10-19T19:57:18.453Z",
-      "refreshedThisRun": true
+      ]
     },
     {
       "url": "https://www.topps.com/collections/bowman-u-now",
       "pagesObserved": 1,
-      "reportedProductCount": 0,
-      "products": [],
-      "checkedUtc": "2026-10-19T19:59:43.896Z",
-      "refreshedThisRun": true
+      "reportedProductCount": 4,
+      "products": [
+        {
+          "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
+          "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30"
+        },
+        {
+          "title": "Bear Bachmeier - 2026-27 Bowman U NOW® Football - Card 29",
+          "url": "https://www.topps.com/products/bear-bachmeier-2026-27-bowman-u-now-r-football-card-29"
+        },
+        {
+          "title": "Darian Mensah - 2026-27 Bowman U NOW® Football - Card 28",
+          "url": "https://www.topps.com/products/darian-mensah-2026-27-bowman-u-now-r-football-card-28"
+        },
+        {
+          "title": "Bo Jackson - 2026-27 Bowman U NOW® Football - Card 27",
+          "url": "https://www.topps.com/products/bo-jackson-2026-27-bowman-u-now-r-football-card-27"
+        }
+      ]
     }
   ]
 }

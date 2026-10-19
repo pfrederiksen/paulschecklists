@@ -6,7 +6,7 @@ as evidence; re-running this parser alone does not constitute a fresh source che
 import re,json,hashlib,datetime
 from pathlib import Path
 from urllib.parse import urlparse,unquote
-from topps_now_identity import observation_key, product_family, unnumbered_product_title, verified_single_card, verified_collector_edition, verified_print_run_conflict
+from topps_now_identity import observation_key, product_family, unnumbered_product_title, verified_single_card, verified_collector_edition, verified_print_run_conflict, apply_identity_revisions
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE='https://www.topps.com/collections/topps-now'
 ARCHIVE=SOURCE+'-archive'
@@ -205,7 +205,11 @@ def official_sale_date(value):
  if month not in months:return None
  return datetime.date(int(year),months[month],int(day)).isoformat()
 for product in products:product['saleFromISO']=official_sale_date(product['saleFrom'])
+apply_identity_revisions(ROOT,products)
 store.write_text(json.dumps(products,ensure_ascii=False,indent=2)+'\n')
+# Retain superseded observations as history, never duplicate public cards.
+superseded=[{'series':p['series'],'number':p['number'],'url':p['source'],'current':p['supersededBy'],'evidence':p['evidence']} for p in products if p.get('supersededBy')]
+products=[p for p in products if not p.get('supersededBy')]
 single_products={p['source']:p for p in products if p.get('identityKind')=='official-single-card-product'}
 edition_products={p['source']:p for p in products if verified_collector_edition(p['evidence']['title'],p['evidence'].get('fields',{}),[v for v in p['parallels']])}
 # Earlier archive-only snapshots cannot validate a single-card scope. A later
@@ -219,7 +223,7 @@ cutoff='2026-01-01'
 pending=[{'series':p['series'],'number':p['number'],'url':p['source'],'saleFrom':p['saleFrom'],'gap':'Official sale date not yet verified; excluded from the calendar-year backfill.'} for p in products if not p['saleFromISO']]
 excluded=[{'series':p['series'],'number':p['number'],'saleFromISO':p['saleFromISO'],'url':p['source']} for p in products if p['saleFromISO'] and p['saleFromISO']<cutoff]
 qualified=[{'series':p['series'],'number':p['number'],'url':p['source'],'gap':line.removeprefix('Source qualification: '),'evidence':p['evidence']} for p in products for line in p['terms'].splitlines() if line.startswith('Source qualification: ')]
-(ROOT/'data/topps-now-import-gaps.json').write_text(json.dumps({'coverageComplete':False,'backfillStart':cutoff,'unparsedNumberedTitles':unparsed,'unverifiedPrintRuns':unverified_print_runs,'pendingSaleDates':pending,'sourceFieldQualifications':qualified,'excludedBeforeCutoff':excluded,'archivePaginationScanComplete':bool(archive.get('paginationScanComplete')) if archive_index.exists() else False,'remaining':'Missing product URLs, unverified sale dates, source identity conflicts, unpublished sale ends, renderer-only product pages, multi-card bundles and other unverified product scopes still require reconciliation.'},ensure_ascii=False,indent=2)+'\n')
+(ROOT/'data/topps-now-import-gaps.json').write_text(json.dumps({'coverageComplete':False,'backfillStart':cutoff,'unparsedNumberedTitles':unparsed,'unverifiedPrintRuns':unverified_print_runs,'pendingSaleDates':pending,'sourceFieldQualifications':qualified,'supersededIdentities':superseded,'excludedBeforeCutoff':excluded,'archivePaginationScanComplete':bool(archive.get('paginationScanComplete')) if archive_index.exists() else False,'remaining':'Missing product URLs, unverified sale dates, source identity conflicts, unpublished sale ends, renderer-only product pages, multi-card bundles and other unverified product scopes still require reconciliation.'},ensure_ascii=False,indent=2)+'\n')
 products=[p for p in products if p['saleFromISO'] and p['saleFromISO']>=cutoff]
 headers=['Checklist section','Card number','Player / subjects','Published print run','Available From','Available Until','Published parallels','Official distribution terms','Official product URL']
 def publish(slug,title,items,sport,year):

@@ -1,8 +1,8 @@
 """Reconcile NOW shared tables against retained official observations."""
-import json, hashlib, re, runpy
+import json, hashlib, re, runpy, copy
 from urllib.parse import urlparse, unquote
 from pathlib import Path
-from topps_now_identity import observation_key, product_family, verified_single_card, verified_collector_edition
+from topps_now_identity import observation_key, product_family, verified_single_card, verified_collector_edition, apply_identity_revisions
 
 root = Path(__file__).resolve().parents[1]
 observations = json.loads((root / 'data/topps-now-observations.json').read_text())
@@ -25,7 +25,7 @@ if listing_path.exists():
     if published_index is not None:
         active_url=urlparse(active[published_index]['url'])
         assert active_url.hostname in {'www.topps.com','topps.com'}
-        sample=next(p for p in observations if urlparse(p['source']).hostname=='www.topps.com' and
+        sample=next(p for p in observations if not p.get('supersededBy') and urlparse(p['source']).hostname=='www.topps.com' and
                     unquote(urlparse(p['source']).path).rstrip('/')==unquote(active_url.path).rstrip('/'))
         reduced={**aggregate,'rows':[r for r in aggregate['rows'] if (r[0],r[1])!=(sample['series'],sample['number'])]}
         assert reconcile(listing,observations,reduced)[published_index]['status']=='missing-published-row'
@@ -73,7 +73,7 @@ for p in observations:
             assert proof['fields'].get('Print Run')==p[field] or re.search(r'PR:\s*([\d,]+)',proof['title'])[1]==p[field]
 for entry in inventory:
     data = json.loads((root / entry['tableData']).read_text())
-    eligible = [p for p in observations if p.get('saleFromISO') and p['saleFromISO'] >= '2026-01-01']
+    eligible = [p for p in observations if not p.get('supersededBy') and p.get('saleFromISO') and p['saleFromISO'] >= '2026-01-01']
     selected = eligible if entry['slug'] == 'topps-now-2026' else [p for p in eligible if p['series'] == entry['title']]
     expected = [[product_family(p), p['number'], p['name'], p['printRun'], p['saleFrom'], p['saleUntil'], '; '.join(p['parallels']), p['terms'], p['source']] for p in selected]
     assert data['rows'] == expected, entry['slug']
@@ -642,7 +642,7 @@ print('Verified 17 October 19 active drops: original dates/subjects, distinct ML
 
 football_snapshot=json.loads((root/'data/catalog-sources/topps-now-backfill-browser-20261019-1900-active-football.json').read_text())
 football_urls={r['url'] for r in football_snapshot['products']}
-football_products=[r for r in observations if r['source'] in football_urls]
+football_products=[r for r in observations if r['source'] in football_urls and (r.get('supersededBy') or r['number'] not in {'70','71','72','73','74'})]
 assert len(football_products)==14
 assert sorted(int(r['number']) for r in football_products)==list(range(61,75))
 for p in football_products:
@@ -653,8 +653,12 @@ for p in football_products:
     assert p['evidence']['fields']['Sub Categories']=='Football'
     if p['number']!='63':assert p['saleUntil']=='Oct 22, 2026'
 by_number={p['number']:p for p in football_products}
-assert by_number['63']['saleUntil']=='' and 'Available Until' not in by_number['63']['evidence']['fields']
-assert 'sale end remains unpublished' in by_number['63']['terms']
+assert by_number['63']['saleUntil']=='Oct 22, 2026'
+assert by_number['63']['evidence']['fields']['Available Until']=='Oct 22, 2026'
+assert 'sale end remains unpublished' not in by_number['63']['terms']
+prior_rueben=next(p for p in football_snapshot['products'] if p['url']==by_number['63']['source'])
+assert not any(line.startswith('Available Until  | ') for line in prior_rueben['lines'])
+assert any('sale end remains unpublished' in line for line in prior_rueben['lines'])
 assert by_number['70']['series']=='2025-26 NBA Topps NOW®' and by_number['70']['name']=='Puka Nacua'
 assert by_number['70']['evidence']['fields']['Properties']=='Los Angeles Rams'
 assert 'no corrected NFL series is inferred' in by_number['70']['terms']
@@ -668,5 +672,42 @@ for p in football_products:
         assert '/5 Autograph Redemption Card' in p['terms'] and '/1 Inscribed Autograph Redemption Card' in p['terms']
     else:assert 'Autograph Redemption Card' not in p['terms']
 qualifications=json.loads((root/'data/topps-now-import-gaps.json').read_text())['sourceFieldQualifications']
-assert {q['number'] for q in qualifications if q['url'] in football_urls}=={'63','70','72'}
-print('Verified 14 new active football-source products: exact printed series/fields, dates, five foils, conditional thresholds and isolated Tate/Bernard autographs; Rueben sale end and Puka/McCarthy source conflicts remain explicit.')
+assert not any(q['number']=='63' and q['url']==by_number['63']['source'] for q in qualifications)
+print('Verified October 19 football snapshots and retained prior identity conflicts; Rueben sale end now reconciles to the current official Specs.')
+
+# Reviewed same-SKU source revisions retain history without duplicate public cards.
+apply_identity_revisions(root,observations)
+revisions=json.loads((root/'data/topps-now-identity-revisions.json').read_text())['revisions']
+assert len(revisions)==5
+unrelated=copy.deepcopy(observations)
+target=revisions[0]['current']
+next(p for p in unrelated if (p['series'],p['number'])==(target['series'],target['number']))['evidence']['fields']['SKU']='unrelated-product'
+try:
+    apply_identity_revisions(root,unrelated)
+except AssertionError:
+    pass
+else:
+    raise AssertionError('A different SKU must fail reviewed identity reconciliation')
+aggregate=json.loads((root/'data/imports/topps-now-2026.json').read_text())
+for revision in revisions:
+    before=by_key[(revision['previous']['series'],revision['previous']['number'])]
+    current=by_key[(revision['current']['series'],revision['current']['number'])]
+    assert before['supersededBy']==revision['current'] and not current.get('supersededBy')
+    assert current['evidence']['fields']['SKU']==before['evidence']['fields']['SKU']==revision['sku']
+    assert current['series']=='2026-27 NFL Topps NOW®' and current['saleUntil']=='Oct 22, 2026'
+    assert any(r[0]==current['series'] and r[1]==current['number'] for r in aggregate['rows'])
+    assert not any(r[0]==before['series'] and r[1]==before['number'] for r in aggregate['rows'])
+assert by_key[('2026-27 NFL Topps NOW®','74')]['name']=='Patrick Mahomes II, Tom Brady'
+assert by_key[('2026-27 NFL Topps NOW®','73')]['name']=='Josh Allen, Jim Kelly'
+assert 'source identity conflict remains unresolved' in by_key[('2026-27 NFL Topps NOW®','72')]['terms']
+assert 'residual caption conflict' in by_key[('2026-27 NFL Topps NOW®','70')]['terms']
+for number,name in [('27','Bo Jackson'),('28','Darian Mensah'),('29','Bear Bachmeier'),('30','KJ Duff')]:
+    card=by_key[('2026-27 Bowman U NOW® Football',number)]
+    assert card['name']==name and card['saleFromISO']=='2026-10-19' and card['saleUntil']=='Oct 22, 2026'
+    assert not card['printRun'] and len(card['parallels'])==5
+    assert len(re.findall(r'(?m)^[\d,]+\+ Print Run:',card['terms']))==4
+    assert ('/5 Autograph Card' in card['terms'])==(number=='30')
+    assert ('/1 Autograph Card' in card['terms'])==(number=='30')
+    assert ('/5 Auto-Helmet Decal Relic Redemption Card' in card['terms'])==(number=='29')
+    assert ('/1 Auto-Helmet Decal Relic Redemption Card' in card['terms'])==(number=='29')
+print('Verified four Bowman additions, isolated autograph/relic terms and five hash-checked same-SKU identity revisions without duplicate public cards.')

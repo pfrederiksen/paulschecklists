@@ -1,5 +1,7 @@
 """Official NOW identities; a product URL never supplies a printed card number."""
 import re
+import json
+import hashlib
 from urllib.parse import unquote, urlparse
 
 # Reviewed cover-card scopes. The Madden title prints 2027, while its official
@@ -41,6 +43,44 @@ def observation_key(product):
         return product['series'], product['number']
     assert product.get('identityKind') == 'official-single-card-product'
     return product['series'], unquote(urlparse(product['source']).path).rstrip('/')
+
+
+def apply_identity_revisions(root, products):
+    """Retain reviewed earlier identities without publishing duplicate cards.
+
+    Both factual snapshots must hash-check and print the same SKU. A shared
+    number or similar name is insufficient; no automatic identity joins occur.
+    """
+    registry = root / 'data/topps-now-identity-revisions.json'
+    if not registry.exists():
+        return
+    reviewed = json.loads(registry.read_text())
+    assert reviewed['sourceKind'] == 'reviewed-official-product-identity-revisions'
+    by_key = {observation_key(p): p for p in products}
+    seen = set()
+    for revision in reviewed['revisions']:
+        pair = []
+        for side in ['previous', 'current']:
+            ref = revision[side]
+            key = (ref['series'], ref['number'])
+            product = by_key[key]
+            assert product['source'] == ref['url']
+            if side == 'previous':
+                assert product['evidence']['sha256'] == ref['sha256']
+            snapshot = json.loads((root / ref['snapshotFile']).read_text())
+            assert snapshot['sourceKind'] == 'official-browser-product'
+            lines = next(p['lines'] for p in snapshot['products'] if p['url'] == ref['url'])
+            lines = [line.strip() for line in lines]
+            assert hashlib.sha256('\n'.join(lines).encode()).hexdigest() == ref['sha256']
+            fields = dict(line.split('  | ', 1) for line in lines if '  | ' in line)
+            assert fields['SKU'] == revision['sku'] == product['evidence']['fields']['SKU']
+            assert re.search(r' - ' + re.escape(ref['series']) + r' - Card ' + re.escape(ref['number']) + r'$', lines[0])
+            pair.append(product)
+        before, current = pair
+        assert before['number'] == current['number'] and observation_key(before) != observation_key(current)
+        assert observation_key(before) not in seen and not current.get('supersededBy')
+        seen.add(observation_key(before))
+        before['supersededBy'] = revision['current']
 
 
 def unnumbered_entertainment_title(title):

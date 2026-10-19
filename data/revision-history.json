@@ -5628,14 +5628,37 @@
   },
   "topps-now-2026": {
     "state": {
-      "checklistHash": "bb7b77998ba0b98db97263055fa718ec5a0d65507b393f356f790dc45b21c352",
+      "checklistHash": "58bd97abdd72cafa575d3d86dbb1b411c8df80b712c7dae599fddb63cc371c0b",
       "oddsHash": null,
-      "rows": 2294,
+      "rows": 2298,
       "odds": 0,
-      "specificationRows": 10465
+      "specificationRows": 10485
     },
-    "fingerprint": "50bbf4852ec66c93da29d9bb0f7fb42c269b223fd7b1584fe3eea2f699ee5fde",
+    "fingerprint": "3619f28d2caf11fd8e213dd64bd4481edef03cbe7452f01a146d81435d33f1a4",
     "events": [
+      {
+        "at": "2026-10-19T21:05:23.886Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 2294 → 2298",
+          "Supplementary specification rows: 10465 → 10485"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "58bd97abdd72cafa575d3d86dbb1b411c8df80b712c7dae599fddb63cc371c0b",
+          "oddsHash": null,
+          "rows": 2298,
+          "odds": 0,
+          "specificationRows": 10485
+        },
+        "previousSnapshot": {
+          "checklistHash": "bb7b77998ba0b98db97263055fa718ec5a0d65507b393f356f790dc45b21c352",
+          "oddsHash": null,
+          "rows": 2294,
+          "odds": 0,
+          "specificationRows": 10465
+        }
+      },
       {
         "at": "2026-10-19T20:02:57.299Z",
         "changes": [
@@ -6852,14 +6875,37 @@
   },
   "topps-now-2026-nfl-topps-now": {
     "state": {
-      "checklistHash": "5197846ee84093c12becf62211ca3dfad8966bca4b4e8176c14f2b366f92f847",
+      "checklistHash": "38def6cad583daf46ec6085efb49e3219f9f7f5e2a4fd1e89ceef5e59deeeaaa",
       "oddsHash": null,
-      "rows": 24,
+      "rows": 20,
       "odds": 0,
-      "specificationRows": 120
+      "specificationRows": 100
     },
-    "fingerprint": "ec331fc2fa172345355b4afc047f3d38afafb52eba2c3383ce7cff748bfbba37",
+    "fingerprint": "20fcb30881f86e5c2e26cbd4c33544598191a4adfb81e29cc778984651a04f7b",
     "events": [
+      {
+        "at": "2026-10-19T21:05:23.928Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 24 → 20",
+          "Supplementary specification rows: 120 → 100"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "38def6cad583daf46ec6085efb49e3219f9f7f5e2a4fd1e89ceef5e59deeeaaa",
+          "oddsHash": null,
+          "rows": 20,
+          "odds": 0,
+          "specificationRows": 100
+        },
+        "previousSnapshot": {
+          "checklistHash": "5197846ee84093c12becf62211ca3dfad8966bca4b4e8176c14f2b366f92f847",
+          "oddsHash": null,
+          "rows": 24,
+          "odds": 0,
+          "specificationRows": 120
+        }
+      },
       {
         "at": "2026-10-19T20:02:57.327Z",
         "changes": [
@@ -7135,14 +7181,37 @@
   },
   "topps-now-2026-27-bowman-u-now-football": {
     "state": {
-      "checklistHash": "b14dc547469d5bfbe30c90968c4a7794caebbbaa75488ee86a1cb193f786f3e7",
+      "checklistHash": "9c59aa4b1fa846004eed5c414865f7a0735c1a38ceb9e0a373cf903485317da1",
       "oddsHash": null,
-      "rows": 23,
+      "rows": 27,
       "odds": 0,
-      "specificationRows": 115
+      "specificationRows": 135
     },
-    "fingerprint": "8868deb89634cbb90f35b6256b0d14be27c52b15aa2dad1452cdd4889de1aa62",
+    "fingerprint": "04c3f03eceade31a6f82b4431e38ca57e7865786b54074bfce398c563be37b17",
     "events": [
+      {
+        "at": "2026-10-19T21:05:23.932Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 23 → 27",
+          "Supplementary specification rows: 115 → 135"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "9c59aa4b1fa846004eed5c414865f7a0735c1a38ceb9e0a373cf903485317da1",
+          "oddsHash": null,
+          "rows": 27,
+          "odds": 0,
+          "specificationRows": 135
+        },
+        "previousSnapshot": {
+          "checklistHash": "b14dc547469d5bfbe30c90968c4a7794caebbbaa75488ee86a1cb193f786f3e7",
+          "oddsHash": null,
+          "rows": 23,
+          "odds": 0,
+          "specificationRows": 115
+        }
+      },
       {
         "at": "2026-10-17T15:02:13.202Z",
         "changes": [
@@ -7206,14 +7275,37 @@
   },
   "topps-now-2026-27-nfl-topps-now": {
     "state": {
-      "checklistHash": "5a7c8f64e5e47de0d0aec46b60685977f6ca72b0c7de3fac808899b04fec5ee1",
+      "checklistHash": "672b367c8021f1efb766e386bbd310086314457972e71940f6aa2af40ed525b5",
       "oddsHash": null,
-      "rows": 64,
+      "rows": 69,
       "odds": 0,
-      "specificationRows": 320
+      "specificationRows": 345
     },
-    "fingerprint": "6e1b10f5b995001dab48c1d3a6b667939cb9239fad7616167a16e8b91176d04f",
+    "fingerprint": "bb2ce5bada169b5027817d3da5a155cb40160353d231dc42206856d0ccfb272b",
     "events": [
+      {
+        "at": "2026-10-19T21:05:23.934Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 64 → 69",
+          "Supplementary specification rows: 320 → 345"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "672b367c8021f1efb766e386bbd310086314457972e71940f6aa2af40ed525b5",
+          "oddsHash": null,
+          "rows": 69,
+          "odds": 0,
+          "specificationRows": 345
+        },
+        "previousSnapshot": {
+          "checklistHash": "5a7c8f64e5e47de0d0aec46b60685977f6ca72b0c7de3fac808899b04fec5ee1",
+          "oddsHash": null,
+          "rows": 64,
+          "odds": 0,
+          "specificationRows": 320
+        }
+      },
       {
         "at": "2026-10-19T20:02:57.336Z",
         "changes": [
@@ -9459,14 +9551,37 @@
   },
   "topps-now-2025-26-nba-topps-now": {
     "state": {
-      "checklistHash": "c734769e792f7678aa84a1c83e50983e44f91a89edb56a8195571a6515cd550b",
+      "checklistHash": "0b428cc0d490c265bca69da1c8cc12fefe1ccd817d4718de3ec54c627bf9ded0",
       "oddsHash": null,
-      "rows": 244,
+      "rows": 243,
       "odds": 0,
-      "specificationRows": 1220
+      "specificationRows": 1215
     },
-    "fingerprint": "37685ccbdc96240fc49e79c862b9f9e589fede3c7846e0fee097dec4831b40b5",
+    "fingerprint": "b61303946e6026d61ca1c60cd75efb452924368cf1a733b80b31695484da013f",
     "events": [
+      {
+        "at": "2026-10-19T21:05:23.912Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 244 → 243",
+          "Supplementary specification rows: 1220 → 1215"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "0b428cc0d490c265bca69da1c8cc12fefe1ccd817d4718de3ec54c627bf9ded0",
+          "oddsHash": null,
+          "rows": 243,
+          "odds": 0,
+          "specificationRows": 1215
+        },
+        "previousSnapshot": {
+          "checklistHash": "c734769e792f7678aa84a1c83e50983e44f91a89edb56a8195571a6515cd550b",
+          "oddsHash": null,
+          "rows": 244,
+          "odds": 0,
+          "specificationRows": 1220
+        }
+      },
       {
         "at": "2026-10-19T20:02:57.311Z",
         "changes": [

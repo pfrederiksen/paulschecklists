@@ -26,11 +26,13 @@ for(const set of cases){
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
   if(set.slug==='topps-now-2026-27-nfl-topps-now'){
    get('source-search').value='Carnell Tate';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('/5 Autograph Redemption Card')&&csv.includes('/1 Inscribed Autograph Redemption Card')&&!csv.includes('Germie Bernard'));
-   get('source-search').value='Rueben Bain';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('sale end remains unpublished')&&csv.includes('Oct 19, 2026')&&!csv.includes('Oct 22, 2026'));
-  }else if(set.slug==='topps-now-2026-nfl-topps-now'){
+   get('source-search').value='Rueben Bain';get('source-search').oninput();get('source-export').onclick();assert(!csv.includes('sale end remains unpublished')&&csv.includes('Oct 19, 2026')&&csv.includes('Oct 22, 2026'));
    get('source-search').value='J.J. McCarthy';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('New York Giants')&&csv.includes('source identity conflict remains unresolved'));
+   get('source-search').value='Puka Nacua';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('2026-27 NFL Topps NOW')&&csv.includes('residual caption conflict'));
+  }else if(set.slug==='topps-now-2026-nfl-topps-now'){
+   get('source-search').value='J.J. McCarthy';get('source-search').oninput();assert.equal(get('source-count').textContent,'0 official source rows');
   }else{
-   get('source-search').value='Puka Nacua';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('2025-26 NBA Topps NOW')&&csv.includes('Sub Categories Football')&&csv.includes('no corrected NFL series is inferred'));
+   get('source-search').value='Puka Nacua';get('source-search').oninput();assert.equal(get('source-count').textContent,'0 official source rows');
   }
   get('source-reset').onclick();
  }

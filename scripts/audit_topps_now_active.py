@@ -17,7 +17,7 @@ def reconcile(listing, observations, published):
     def path(url):
         return unquote(urlparse(url).path).rstrip('/')
     by_url = {path(p['source']): p for p in observations
-              if urlparse(p['source']).hostname == 'www.topps.com'}
+              if urlparse(p['source']).hostname == 'www.topps.com' and not p.get('supersededBy')}
     rows = {(r[0], r[1]): r for r in published['rows']}
     results = []
     for source in listing['listings']:
@@ -61,10 +61,11 @@ def main():
     report = {'observed': listing['observed'], 'listingSha256': hashlib.sha256(checkpoint.read_bytes()).hexdigest(),
               'historicalCoverageComplete': False, 'products': results,
               'publishedCount': sum(p['status'] == 'published' for p in results),
+              'uniquePublishedCount': len({p['url'] for p in results if p['status'] == 'published'}),
               'remaining': [p for p in results if p['status'] not in {'published', 'outside-calendar-scope'}]}
     (ROOT / 'data/topps-now-active-audit.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     assert not any(p['status'].startswith('missing-') for p in results), 'Active NOW products are missing from observations or published rows'
-    print(f"Active NOW checkpoint {listing['observed']}: {report['publishedCount']}/{len(results)} published; {len(report['remaining'])} explicit pending gaps. Historical coverage remains partial.")
+    print(f"Active NOW checkpoint {listing['observed']}: {report['publishedCount']}/{len(results)} published; {report['uniquePublishedCount']} unique products; {len(report['remaining'])} explicit pending gaps. Historical coverage remains partial.")
 
 
 if __name__ == '__main__':

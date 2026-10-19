@@ -1,0 +1,100 @@
+{
+  "sourceKind": "reviewed-official-product-identity-revisions",
+  "revisions": [
+    {
+      "previous": {
+        "series": "2026 NFL Topps NOW®",
+        "number": "74",
+        "url": "https://www.topps.com/products/patrick-mahomes-ii-tom-brady-2026-nfl-topps-now-r-card-74",
+        "sha256": "d6335884706885db28619375ef321bc5da3fa4f49b6cd56ee17723e1585daee8",
+        "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1900-active-football.json"
+      },
+      "current": {
+        "series": "2026-27 NFL Topps NOW®",
+        "number": "74",
+        "url": "https://www.topps.com/products/patrick-mahomes-ii-tom-brady-2026-nfl-topps-now-r-card-74",
+        "sha256": "5ece06aec91c044982d786486676a6fbf9400a4a3e410bdd2b7fa8f1fdda5a1b",
+        "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-2000-active-revisions.json"
+      },
+      "sku": "ARTFB-16C2S-26TN-0074",
+      "observed": "2026-10-19",
+      "basis": "Fresh official product heading and original Specs SKU; listing text agrees. Prior fields and captions remain retained rather than corrected from inference."
+    },
+    {
+      "previous": {
+        "series": "2026 NFL Topps NOW®",
+        "number": "73",
+        "url": "https://www.topps.com/products/josh-allen-jim-kelly-2026-nfl-topps-now-r-card-73",
+        "sha256": "f53ccb76f878c1a5457b8e154d03c94fb49f1f00bdf9d03f395515f6e5c93b93",
+        "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1900-active-football.json"
+      },
+      "current": {
+        "series": "2026-27 NFL Topps NOW®",
+        "number": "73",
+        "url": "https://www.topps.com/products/josh-allen-jim-kelly-2026-27-nfl-topps-now-r-card-73",
+        "sha256": "5e1107f8e71b6e7791d033b0b703e38a64c2cafcc0d8829d8dd5b050a2e11383",
+        "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-2000-active-revisions.json"
+      },
+      "sku": "ARTFB-16C2S-26TN-0073",
+      "observed": "2026-10-19",
+      "basis": "Fresh official product heading and original Specs SKU; listing text agrees. Prior fields and captions remain retained rather than corrected from inference."
+    },
+    {
+      "previous": {
+        "series": "2026 NFL Topps NOW®",
+        "number": "72",
+        "url": "https://www.topps.com/products/j-j-mccarthy-2026-nfl-topps-now-r-card-72",
+        "sha256": "fc1b8d0bd4658dacf9f37e7e9ba56937114d5245349b99734af682fb84cabe6f",
+        "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1900-active-football.json"
+      },
+      "current": {
+        "series": "2026-27 NFL Topps NOW®",
+        "number": "72",
+        "url": "https://www.topps.com/products/j-j-mccarthy-2026-nfl-topps-now-r-card-72",
+        "sha256": "71565d3f46ba877918f678cfc69e37187a07d1b55e5f5b3cdfd2f924b5874aed",
+        "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-2000-active-revisions.json"
+      },
+      "sku": "ARTFB-16C2S-26TN-0072",
+      "observed": "2026-10-19",
+      "basis": "Fresh official product heading and original Specs SKU; listing text agrees. Prior fields and captions remain retained rather than corrected from inference."
+    },
+    {
+      "previous": {
+        "series": "2026 NFL Topps NOW®",
+        "number": "71",
+        "url": "https://www.topps.com/products/arizona-cardinals-2026-nfl-topps-now-r-card-71",
+        "sha256": "95068ab9863809d7b4659f72975065da9793875a682c06e5eef0ff11206a997e",
+        "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1900-active-football.json"
+      },
+      "current": {
+        "series": "2026-27 NFL Topps NOW®",
+        "number": "71",
+        "url": "https://www.topps.com/products/arizona-cardinals-2026-nfl-topps-now-r-card-71",
+        "sha256": "09876c8186276e3763363e301f6825f85056230e16916cf4e0fb9a9844413e2c",
+        "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-2000-active-revisions.json"
+      },
+      "sku": "ARTFB-16C2S-26TN-0071",
+      "observed": "2026-10-19",
+      "basis": "Fresh official product heading and original Specs SKU; listing text agrees. Prior fields and captions remain retained rather than corrected from inference."
+    },
+    {
+      "previous": {
+        "series": "2025-26 NBA Topps NOW®",
+        "number": "70",
+        "url": "https://www.topps.com/products/puka-nacua-2025-26-nba-topps-now-r-card-70",
+        "sha256": "95e01a3bcf5c7985155ef512f6c4c7851226002ae3f1c67edb43236afbd1f3db",
+        "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1900-active-football.json"
+      },
+      "current": {
+        "series": "2026-27 NFL Topps NOW®",
+        "number": "70",
+        "url": "https://www.topps.com/products/puka-nacua-2026-27-nfl-topps-now-r-card-70",
+        "sha256": "9f27daee0afe53c0733b1b6d62748808be3515498df9e14862c0e68ea1d54468",
+        "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-2000-active-revisions.json"
+      },
+      "sku": "ARTFB-16C2S-26TN-0070",
+      "observed": "2026-10-19",
+      "basis": "Fresh official product heading and original Specs SKU; listing text agrees. Prior fields and captions remain retained rather than corrected from inference."
+    }
+  ]
+}
