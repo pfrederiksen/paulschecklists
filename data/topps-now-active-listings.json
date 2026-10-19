@@ -5,7 +5,7 @@
     {
       "url": "https://www.topps.com/collections/topps-now",
       "pagesObserved": 1,
-      "reportedProductCount": 24,
+      "reportedProductCount": 23,
       "products": [
         {
           "url": "https://topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-801",
@@ -98,10 +98,6 @@
         {
           "url": "https://topps.com/products/robert-andrich-2026-27-bundesliga-topps-now%C2%AE-card-29",
           "title": "Robert Andrich - 2026-27 Bundesliga Topps NOW® - Card 29"
-        },
-        {
-          "url": "https://topps.com/products/viktor-gyoekeres-2026-27-uefa-nations-league-topps-now-r-card-10",
-          "title": "Viktor Gyökeres - 2026-27 UEFA Nations League Topps NOW® - Card 10"
         }
       ]
     },
@@ -112,5 +108,5 @@
       "products": []
     }
   ],
-  "checkedUtc": "2026-10-19T10:44:31.669868+00:00"
+  "checkedUtc": "2026-10-19T11:45:13.270639+00:00"
 }

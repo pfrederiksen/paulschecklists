@@ -1,6 +1,6 @@
 {
   "observed": "2026-10-19",
-  "listingSha256": "04bb6ae22c9ebe95d5f25c382bfdcc8444931bd833367154c04ebf0f9f59cd1f",
+  "listingSha256": "06ead2d3703c734c93076a45f1ceb36378de7980109b6d6a69a96bad743314f4",
   "historicalCoverageComplete": false,
   "products": [
     {
@@ -117,13 +117,8 @@
       "url": "https://topps.com/products/robert-andrich-2026-27-bundesliga-topps-now%C2%AE-card-29",
       "title": "Robert Andrich - 2026-27 Bundesliga Topps NOW® - Card 29",
       "status": "published"
-    },
-    {
-      "url": "https://topps.com/products/viktor-gyoekeres-2026-27-uefa-nations-league-topps-now-r-card-10",
-      "title": "Viktor Gyökeres - 2026-27 UEFA Nations League Topps NOW® - Card 10",
-      "status": "published"
     }
   ],
-  "publishedCount": 24,
+  "publishedCount": 23,
   "remaining": []
 }
