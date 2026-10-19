@@ -1,0 +1,156 @@
+{
+  "observed": "2026-10-19",
+  "heartbeatStartedUtc": "2026-10-19T03:37:55.800Z",
+  "checkedUtc": "2026-10-19T03:42:15.321822+00:00",
+  "sourceKind": "partial-official-source-refresh",
+  "browserCheckpoint": {
+    "freshActiveNowUiRead": false,
+    "freshGlobalChecklistAndOddsUiRead": false,
+    "reason": "The Mac was unlocked. A complete one-page Topps NOW listing was read, but Safari user-activity guards interrupted two attempts to continue in the monitoring tab. The monitoring tab was closed; Bowman NOW, product details and global index UI arrays remain unrefreshed.",
+    "lastActualUiReview": "data/official-source-reviews/topps-index-links-20261018-2100.json",
+    "activeCheckpoint": "data/topps-now-active-listings.json",
+    "coverageAdvanced": false,
+    "freshToppsNowListingUiRead": true,
+    "freshBowmanNowListingUiRead": false,
+    "partialNowReview": {
+      "file": "data/official-source-reviews/topps-now-partial-native-20261019-0300.json",
+      "sha256": "7ff0f4ba70705d83b33d515b95a8bd319e22b159a7ff1f58c5cbff1e8ab522ae"
+    }
+  },
+  "knownSourceChecks": {
+    "urls": 261,
+    "unchanged": 261,
+    "changed": 0,
+    "observedDigestSetSha256": "76dd4cd77e4b6ba36cac90e90fbccdb39d1f61b5591b882851fc9a451372947a",
+    "retainedExpectedValues": "Current retained imports, including the repaired product-linked Universe WWE odds source.",
+    "limitation": "Fresh bytes from retained URLs only. This does not discover new official index URLs or establish current NOW, Bowman NOW or Panini UI coverage."
+  },
+  "alternateDocumentChecks": [
+    {
+      "title": "2026 Topps Chrome® UFC - Sapphire Edition",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_2026_TOPPS_CHROME_SAPPHIRE_UFC.xls?v=1785266255",
+      "kind": "catalog",
+      "sha256": "ec333ca57f553c6f936eedbf00380db771c0493d5fded481622b40f638401c60",
+      "bytes": 54272,
+      "status": "unchanged"
+    },
+    {
+      "title": "2026 Topps Mint Disney",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL_a5705acd-5d63-43f2-b4f6-ce1f457e2deb.pdf?v=1792171539",
+      "kind": "catalog",
+      "sha256": "45753eb8b8036024c39e9b4a1b2aa66665ce1d9ddc3aa85d2a9535ca55a4e737",
+      "bytes": 194557,
+      "status": "unchanged"
+    },
+    {
+      "title": "2026 Topps Universe WWE",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26UWWE_-_2026_Topps_Universe_WWE_Checklist_8700b54a-0ec9-4ab7-87b2-47b4e40862a0.xls?v=1786542209",
+      "kind": "catalog",
+      "sha256": "1ed54faa451de91248f10c8e75d84bd5a3205b8725782d3fe8ff4f0871cecade",
+      "bytes": 97792,
+      "status": "unchanged"
+    },
+    {
+      "title": "2026 Topps Update Series Baseball",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Update_Series_Baseball_Checklist_10-12.pdf?v=1791908509",
+      "kind": "catalog",
+      "sha256": "9fb7df274e22d2c1f4180c7eeb65cd02d274ec3f6bc74717058b5456f7892e41",
+      "bytes": 365392,
+      "status": "unchanged"
+    },
+    {
+      "title": "2026 Topps Vault Disney",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DSNV_VERSION4.pdf?v=1792171527",
+      "kind": "catalog",
+      "sha256": "9835a0cde6f0ec32a63aceb419f78d1e182ba63139a5db6b59d526e6ad1c6dcf",
+      "bytes": 111299,
+      "status": "unchanged"
+    },
+    {
+      "title": "2026 Bowman Baseball Sapphire Edition",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Sapphire_Odds.pdf?v=1781646322",
+      "kind": "odds",
+      "sha256": "a3e0e4ca75c04843ee14c204f431ba3c2b4c29dbdf66ea8f03e8977bb49c349a",
+      "bytes": 499303,
+      "status": "unchanged"
+    },
+    {
+      "title": "2026 Bowman Football",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Bowman_Football_Odds.pdf?v=1790713108",
+      "kind": "odds",
+      "sha256": "be655670066b1c9533721288929bb22949bcd2383aa973cb919db0f638c9c775",
+      "bytes": 242298,
+      "status": "unchanged"
+    },
+    {
+      "title": "2026 Topps Allen & Ginter Baseball",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-29_MLB-ALLEN-_-GINTER-2026_Odds.pdf?v=1790697457",
+      "kind": "odds",
+      "sha256": "65a721d07e8530e5cf40fd0d483c1b4aec289e5a86afe6858e6b925f201b7dd4",
+      "bytes": 42327,
+      "status": "unchanged"
+    },
+    {
+      "title": "2026 Topps Chrome® Baseball – Team Samurai Japan Collection",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-10-14_MLB-JAPAN-SAMURAI-2026_Odds_2_1.pdf?v=1792078823",
+      "kind": "odds",
+      "sha256": "4acfa230435e2b8612f6e5ac58f0328586aba17dd126642c5ff8a03377b8551e",
+      "bytes": 37697,
+      "status": "unchanged"
+    },
+    {
+      "title": "Topps Chrome® MLS 2025",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_MLS_Chrome_Odds.pdf?v=1777050150",
+      "kind": "odds",
+      "sha256": "31a967fe90427c3c35e2eca4b392330a4f01bcad61d430fabf730889c6cd5d01",
+      "bytes": 197665,
+      "status": "unchanged"
+    },
+    {
+      "title": "2025-26 Topps UEFA Club Competitions",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_UCC_Club_Competitions_Odds_v2.pdf?v=1769110018",
+      "kind": "odds",
+      "sha256": "6eebedef2ca56c4b5b2b93af86ffaede106105b94891f45b06219905b6489151",
+      "bytes": 204703,
+      "status": "unchanged"
+    }
+  ],
+  "alternateDocumentLimitation": "Eleven previously observed alternate URLs were freshly hash-checked. Both complete current global index UI URL arrays remain pending; unchanged retained document hashes do not establish current catalog or NOW coverage.",
+  "manufacturerChecks": {
+    "leaf": {
+      "productPages": 616,
+      "checklistSources": 46,
+      "changed": 0
+    },
+    "upperDeckNewCurrentDirectoryChecklists": 0,
+    "wildCardOfficial2026Entries": 42,
+    "wildCardChanged": false,
+    "paniniNational": "113 physical rows and 16 numbering rows unchanged",
+    "paniniSoccerPod": "136 physical rows and 14 numbering rows unchanged",
+    "paniniUiFresh": false
+  },
+  "retainedValidation": {
+    "activePublished": 24,
+    "activeProducts": 24,
+    "freshActiveCoverageVerified": false,
+    "nowObservations": 2276,
+    "nowSharedTables": 50,
+    "paniniFullExports": 61,
+    "paniniOriginalRows": 569588,
+    "paniniHeaderOnlySourcePrograms": 1,
+    "historicalCoverageComplete": false,
+    "checksPassed": [
+      "audit_topps_now_active.py",
+      "verify_topps_now.py (bundled pdfplumber runtime)",
+      "verify_panini_csv.py",
+      "verify_parallel_specs.mjs",
+      "verify_topps_universe_wwe_specs_2026.py (retained guide/source evidence)"
+    ],
+    "limitation": "These validators reconcile retained observations and imports; they do not refresh official source observations.",
+    "freshToppsNowListedProducts": 24,
+    "freshToppsNowPublishedProducts": 24,
+    "freshBowmanNowCoverageVerified": false
+  },
+  "publicDataChanged": false,
+  "result": "Fresh official Topps NOW listing: 24 products on one complete page, exact title/URL match to retained observations; all 24 published calendar-year rows reconcile. No new verified card or document changes. Bowman NOW, current product-detail terms and full global catalog UI reads remain pending after Safari user-activity guards. The previous complete active checkpoint and historical partial labels are preserved."
+}
