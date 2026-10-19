@@ -223,9 +223,17 @@
   },
   {
     "id": 66,
-    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_UFC_Midnight_Odds.pdf?v=1776194785",
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_UFC_Midnight_Odds_44ec7b6e-a24d-419f-9fa1-5d04003c62aa.pdf?v=1779223098",
     "title": "2026 Topps Midnight UFC",
-    "source": "https://www.topps.com/pages/odds"
+    "source": "https://www.topps.com/pages/topps-midnight-ufc",
+    "globalCatalogSource": "https://www.topps.com/pages/odds",
+    "globalCatalogUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_UFC_Midnight_Odds.pdf?v=1776194785",
+    "globalCatalogPrintedFormat": "2025 TOPPS MIDNIGHT UFC HOBBY",
+    "globalCatalogScope": "Retained 2025 document; do not join its 91 rows to the 2026 roster",
+    "sourceReview": {
+      "file": "data/official-source-reviews/topps-index-links-20261019-0400.json",
+      "sha256": "330a8c29a08916c31fecacd8ebe6aff3ee6c1baffda6540f2ce252b4b357c516"
+    }
   },
   {
     "id": 69,
@@ -566,10 +574,15 @@
     "source": "https://www.topps.com/products/2026-topps-universe-wwe-mega-box",
     "globalCatalogSource": "https://www.topps.com/pages/odds",
     "globalCatalogUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_Odds.pdf?v=1789484084",
-    "globalCatalogStatus": 404,
+    "globalCatalogStatus": 200,
     "sourceReview": {
       "file": "data/official-source-reviews/universe-wwe-2026-odds-link-20261019-0100.json",
       "sha256": "3402f5cf4bdada49a43ac7a8f46f6a69e30265bf42ea0df263ac92196a6d7ff5"
+    },
+    "globalCatalogStatusObserved": "2026-10-19T04:48:12.163639+00:00",
+    "globalCatalogStatusReview": {
+      "file": "data/official-source-reviews/topps-index-links-20261019-0400.json",
+      "sha256": "330a8c29a08916c31fecacd8ebe6aff3ee6c1baffda6540f2ce252b4b357c516"
     }
   },
   {
