@@ -1,0 +1,53 @@
+{
+  "observed": "2026-10-19",
+  "checkedUtc": "2026-10-19T07:43:02.886498+00:00",
+  "sourceKind": "official-browser-partial-inventory",
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "sportsRead": [
+    "Baseball",
+    "Basketball",
+    "Entertainment",
+    "Fight",
+    "Football",
+    "Golf",
+    "Hockey",
+    "Miscellaneous",
+    "Racing",
+    "Soccer",
+    "UFC",
+    "WWE"
+  ],
+  "availableYearsRead": [
+    {
+      "sport": "Baseball",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008",
+        "2005",
+        "2004"
+      ]
+    }
+  ],
+  "inventory2026": [],
+  "complete": false,
+  "reason": "The active browser surface changed during the inventory refresh; stopped and closed only the monitoring tab. No current brand/program or CSV refresh is claimed.",
+  "retainedCompleteInventory": "data/official-panini/all-sport-2026-observations-20261018-2100.json",
+  "calendarYearCoverageComplete": false
+}
