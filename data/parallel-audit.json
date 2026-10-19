@@ -5729,13 +5729,22 @@
       "manufacturer": "Topps / Bowman",
       "source": "https://www.topps.com/pages/topps-universe-wwe",
       "oddsCategories": 323,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "numberedOddsCategories": 7,
+      "supplementalSpecifications": 7,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-universe-wwe",
+          "family": "Card-specific examples and remaining numbering review",
+          "gap": "The guide does not publish a complete numeric ladder for every color or program. Exhaustive parallel numbering and individual-card eligibility remain unverified. Danhausen’s five-copy example names no color in the prose. Berto, Stephanie Vaquer, ZaRUCA, Liv Morgan and Tiffany Stratton limits remain isolated to the exact named cards. Box configuration, article date and available-now wording do not establish general release date or odds units. The odds sheet’s ratio unit remains unstated.",
+          "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/",
+          "evidenceFile": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
+          "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
+        }
+      ]
     },
     {
       "slug": "topps-now-2025-26-bowman-u-now-basketball",

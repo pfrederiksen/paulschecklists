@@ -1,0 +1,127 @@
+{
+  "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/",
+  "observed": "2026-10-19",
+  "method": "Fresh full official collector-guide web read. Normalized factual snapshot, not a raw HTML hash. Card identities are joined only after checking literal workbook families, numbers and names; no facts are taken from image OCR.",
+  "normalizedFacts": {
+    "baseProgram": {
+      "traditionalCards": 200,
+      "peakPerformanceCards": 100,
+      "total": 300,
+      "parallel": "FoilFractor",
+      "numbering": "1/1",
+      "scope": "The Base Set section and Key Facts explicitly cover the 300-card base program. Other autograph, insert and relic programs are outside this family-wide statement."
+    },
+    "cardExamples": [
+      [
+        "BASE CARDS II",
+        "199",
+        [
+          "Danhausen"
+        ],
+        "Not named in guide",
+        "Numbered to 5 copies",
+        "Only the pictured Danhausen base example; the prose names no parallel. No Red Magma or other color join is inferred."
+      ],
+      [
+        "LUCHA LUCHA LUCHA",
+        "LLL-2",
+        [
+          "Berto"
+        ],
+        "Black Portal",
+        "Numbered to 5 copies",
+        "Berto example only; do not number other subjects or all Black Portal categories."
+      ],
+      [
+        "DAZZLING DEBUTS",
+        "DD-2",
+        [
+          "Stephanie Vaquer"
+        ],
+        "Black Portal",
+        "Numbered to 5 copies",
+        "Stephanie Vaquer example only; do not number other subjects or all Black Portal categories."
+      ],
+      [
+        "TAG TEAM RELIC AUTOGRAPHS",
+        "TTR-ZR",
+        [
+          "Sol Ruca",
+          "Zaria"
+        ],
+        "Red Magma",
+        "Numbered to 10 copies",
+        "The named ZaRUCA dual-card example only; both printed signers remain attached."
+      ],
+      [
+        "SUPERSTAR RELIC SIGNATURES",
+        "SRS-LM",
+        [
+          "Liv Morgan"
+        ],
+        "FoilFractor",
+        "1/1",
+        "Liv Morgan example only; no family-wide autograph or relic limit is inferred."
+      ],
+      [
+        "TITLE MARKS RELIC SIGNATURES",
+        "TMR-TS",
+        [
+          "Tiffany Stratton"
+        ],
+        "FoilFractor",
+        "1/1",
+        "Tiffany Stratton example only; the guide also describes an It's Tiffy Time! inscription. No family-wide limit is inferred."
+      ]
+    ],
+    "guideProgramSizes": [
+      [
+        "ALIAS",
+        30
+      ],
+      [
+        "LUCHA LUCHA LUCHA",
+        13
+      ],
+      [
+        "DAZZLING DEBUTS",
+        15
+      ],
+      [
+        "SUPERSTAR TRIPLE RELICS",
+        14
+      ],
+      [
+        "TAG TEAM RELIC AUTOGRAPHS",
+        18
+      ],
+      [
+        "SUPERSTAR RELIC SIGNATURES",
+        37
+      ],
+      [
+        "TITLE MARKS RELIC SIGNATURES",
+        15
+      ]
+    ],
+    "firstInPackExample": "Danhausen; this statement does not establish a Rookie flag.",
+    "articleDate": "2026-08-28",
+    "releaseDateQualification": "Article publication is not a calendar release statement."
+  },
+  "normalizedFactsSha256": "0a5240359ee56a47717d2df8f79556d11bb285ef767501238f2052afba77864a",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26UWWE_-_2026_Topps_Universe_WWE_Checklist_8700b54a-0ec9-4ab7-87b2-47b4e40862a0.xls?v=1786542209",
+  "checklistSha256": "1ed54faa451de91248f10c8e75d84bd5a3205b8725782d3fe8ff4f0871cecade",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_odds.pdf?v=1790191410",
+  "oddsSha256": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
+  "exactOddsAliases": {
+    "BASE": "BASE CARDS I / BASE CARDS II",
+    "BASE (LGD/SPD/PWR/AGI/MIC/REF)": "The corresponding printed PEAK PERFORMANCE suffix program only",
+    "TITLE MARKS RELIC AUTOGRAPHS": "TITLE MARKS RELIC SIGNATURES",
+    "\"STONE COLD\" STEVE AUSTIN 30TH ANNIVERSARY AUTOGRAPHS": "STONE COLD STEVE AUSTIN 30TH ANNIVERSARY AUTOGRAPHS"
+  },
+  "remainingGaps": [
+    "The guide does not publish a complete numeric ladder for every color or program. Exhaustive parallel numbering and individual-card eligibility remain unverified.",
+    "Danhausen’s five-copy example names no color in the prose. Berto, Stephanie Vaquer, ZaRUCA, Liv Morgan and Tiffany Stratton limits remain isolated to the exact named cards.",
+    "Box configuration, article date and available-now wording do not establish general release date or odds units. The odds sheet’s ratio unit remains unstated."
+  ]
+}

@@ -14770,18 +14770,23 @@
       "releaseStatus": "Released",
       "releaseDate": null,
       "sha256": "1ed54faa451de91248f10c8e75d84bd5a3205b8725782d3fe8ff4f0871cecade",
-      "verified": "2026-10-17",
-      "catalogEvidence": "Official product page labels this release available now. The workbook preserves 200 base rows and 100 Peak Performance rows plus inserts, autographs and relics. Printed WWE designations remain original source fields and are not inferred teams. Exact calendar release date is not verified.",
-      "dataAudit": "All populated card rows reconcile to the original four workbook columns; 40 printed Rookie flags verified. Physical odds columns validated with no alignment issues.",
+      "verified": "2026-10-19",
+      "catalogEvidence": "All 922 original workbook subjects / 39 families, 40 literal Rookie flags and 323 three-format odds rows are preserved. The official guide supplies seven FoilFractor 1/1 odds joins covering the 300-card base program through eight explicit source families. Six named-card examples retain exact card-number scope: Danhausen, Berto, Stephanie Vaquer, Sol Ruca/Zaria, Liv Morgan and Tiffany Stratton. Danhausen’s parallel is unnamed; no example becomes a family-wide color limit. Guide program sizes reconcile by distinct printed card identities. Raw/Smackdown/NXT/Legend/WWE are designations, not inferred teams. The odds ratio unit, general release date and exhaustive parallel eligibility remain unverified.",
+      "dataAudit": "All 922 original workbook subjects / 39 families, 40 literal Rookie flags and 323 three-format odds rows are preserved. The official guide supplies seven FoilFractor 1/1 odds joins covering the 300-card base program through eight explicit source families. Six named-card examples retain exact card-number scope: Danhausen, Berto, Stephanie Vaquer, Sol Ruca/Zaria, Liv Morgan and Tiffany Stratton. Danhausen’s parallel is unnamed; no example becomes a family-wide color limit. Guide program sizes reconcile by distinct printed card identities. Raw/Smackdown/NXT/Legend/WWE are designations, not inferred teams. The odds ratio unit, general release date and exhaustive parallel eligibility remain unverified.",
       "oddsSourceReview": {
         "file": "data/official-source-reviews/universe-wwe-2026-odds-link-20261019-0100.json",
         "sha256": "3402f5cf4bdada49a43ac7a8f46f6a69e30265bf42ea0df263ac92196a6d7ff5"
+      },
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
+        "sha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1",
+        "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/"
       },
       "presentation": {
         "rows": 922,
         "sections": 39,
         "formats": 3,
-        "specifications": false,
+        "specifications": true,
         "featured": false,
         "odds": 323,
         "hasOdds": true,

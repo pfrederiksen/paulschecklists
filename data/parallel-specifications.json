@@ -9805,7 +9805,86 @@
         "evidenceSha256": "d970005d2c7b976cfc62a5d5cc11c9164ba8283067b03977767ccbcdcd62ee18"
       }
     ],
-    "topps-bowman-2026-rtod-topps-now-team-sets": []
+    "topps-bowman-2026-rtod-topps-now-team-sets": [],
+    "topps-bowman-2026-topps-universe-wwe": [
+      {
+        "family": "BASE CARDS I",
+        "name": "FoilFractor",
+        "numbering": "1/1",
+        "oddsName": "BASE FOILFRACTOR",
+        "sourceHeading": "Base Set / Key Facts",
+        "qualification": "Published for the 300-card base program (200 traditional base and 100 Peak Performance). No insert, autograph or relic limit is inferred; individual-card eligibility is not independently audited.",
+        "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/",
+        "evidenceFile": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
+        "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
+      },
+      {
+        "family": "PEAK PERFORMANCE LGD",
+        "name": "FoilFractor",
+        "numbering": "1/1",
+        "oddsName": "BASE FOILFRACTOR (LGD)",
+        "sourceHeading": "Base Set / Key Facts",
+        "qualification": "Published for the 300-card base program (200 traditional base and 100 Peak Performance). No insert, autograph or relic limit is inferred; individual-card eligibility is not independently audited.",
+        "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/",
+        "evidenceFile": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
+        "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
+      },
+      {
+        "family": "PEAK PERFORMANCE SPD",
+        "name": "FoilFractor",
+        "numbering": "1/1",
+        "oddsName": "BASE FOILFRACTOR (SPD)",
+        "sourceHeading": "Base Set / Key Facts",
+        "qualification": "Published for the 300-card base program (200 traditional base and 100 Peak Performance). No insert, autograph or relic limit is inferred; individual-card eligibility is not independently audited.",
+        "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/",
+        "evidenceFile": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
+        "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
+      },
+      {
+        "family": "PEAK PERFORMANCE PWR",
+        "name": "FoilFractor",
+        "numbering": "1/1",
+        "oddsName": "BASE FOILFRACTOR (PWR)",
+        "sourceHeading": "Base Set / Key Facts",
+        "qualification": "Published for the 300-card base program (200 traditional base and 100 Peak Performance). No insert, autograph or relic limit is inferred; individual-card eligibility is not independently audited.",
+        "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/",
+        "evidenceFile": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
+        "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
+      },
+      {
+        "family": "PEAK PERFORMANCE AGI",
+        "name": "FoilFractor",
+        "numbering": "1/1",
+        "oddsName": "BASE FOILFRACTOR (AGI)",
+        "sourceHeading": "Base Set / Key Facts",
+        "qualification": "Published for the 300-card base program (200 traditional base and 100 Peak Performance). No insert, autograph or relic limit is inferred; individual-card eligibility is not independently audited.",
+        "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/",
+        "evidenceFile": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
+        "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
+      },
+      {
+        "family": "PEAK PERFORMANCE MIC",
+        "name": "FoilFractor",
+        "numbering": "1/1",
+        "oddsName": "BASE FOILFRACTOR (MIC)",
+        "sourceHeading": "Base Set / Key Facts",
+        "qualification": "Published for the 300-card base program (200 traditional base and 100 Peak Performance). No insert, autograph or relic limit is inferred; individual-card eligibility is not independently audited.",
+        "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/",
+        "evidenceFile": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
+        "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
+      },
+      {
+        "family": "PEAK PERFORMANCE REF",
+        "name": "FoilFractor",
+        "numbering": "1/1",
+        "oddsName": "BASE FOILFRACTOR (REF)",
+        "sourceHeading": "Base Set / Key Facts",
+        "qualification": "Published for the 300-card base program (200 traditional base and 100 Peak Performance). No insert, autograph or relic limit is inferred; individual-card eligibility is not independently audited.",
+        "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/",
+        "evidenceFile": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
+        "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
+      }
+    ]
   },
   "conflicts": [
     {
@@ -10282,6 +10361,14 @@
       "source": "https://ripped.topps.com/2025-topps-universe-wwe-hobby-vs-value/",
       "evidenceFile": "data/parallel-audit-sources/universe-wwe-2025-physical-20261017.json",
       "evidenceSha256": "62ebfb2ef1e4f5d7e8bdbd50a5cb95793982d2908b6b976e8d0d00247531bdba"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-universe-wwe",
+      "family": "Card-specific examples and remaining numbering review",
+      "gap": "The guide does not publish a complete numeric ladder for every color or program. Exhaustive parallel numbering and individual-card eligibility remain unverified. Danhausen’s five-copy example names no color in the prose. Berto, Stephanie Vaquer, ZaRUCA, Liv Morgan and Tiffany Stratton limits remain isolated to the exact named cards. Box configuration, article date and available-now wording do not establish general release date or odds units. The odds sheet’s ratio unit remains unstated.",
+      "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/",
+      "evidenceFile": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
+      "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
     }
   ]
 }

@@ -114,6 +114,21 @@ for(const set of cases){
   get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-search').value='Black';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('Base Pristine Black Refractor Parallel')&&csv.includes('1/1')&&!csv.includes('Pristine Autographs Black'));get('source-reset').onclick();
   get('source-section').value='ALL STAR GAME PRISTINE PIECES AUTOGRAPH RELIC';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('1/1')&&csv.includes('1:7,145'));get('source-section').value='PRISTINE PIECES AUTOGRAPH RELIC';get('source-section').onchange();get('source-export').onclick();assert(!csv.includes('1/1'),'All-Star limit must never number regular Pristine Pieces');get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2026-topps-universe-wwe'){
+  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,false);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'40 official source rows');get('source-reset').onclick();
+  for(const [family,number,present] of [['BASE CARDS II','199',true],['BASE CARDS II','182',false]]){
+   get('source-section').value=family;get('source-section').onchange();get('source-search').value=number;get('source-search').oninput();
+   const index=data.rows.findIndex(r=>r[0]===family&&r[1]===number);get('source-results').onclick({target:{closest:()=>({dataset:{row:String(index)}})}});
+   assert.equal(get('source-results').innerHTML.includes('Numbered to 5 copies'),present,'Danhausen example must remain tied to printed card 199');get('source-reset').onclick();
+  }
+  get('source-search').value='TTR-ZR';get('source-search').oninput();assert.equal(get('source-count').textContent,'2 official source rows');get('source-export').onclick();assert(csv.includes('Sol Ruca')&&csv.includes('Zaria'));get('source-reset').onclick();
+  get('source-odds-tab').onclick();get('source-section').value='BASE CARDS II';get('source-section').onchange();get('source-search').value='Foilfractor';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('"BASE FOILFRACTOR","1/1"')&&!csv.includes('BASE FOILFRACTOR (LGD)'),'The second base section shares only the explicit Base odds alias');get('source-reset').onclick();
+  get('source-section').value='PEAK PERFORMANCE LGD';get('source-section').onchange();get('source-search').value='Foilfractor';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('"BASE FOILFRACTOR (LGD)","1/1"')&&!csv.includes('BASE FOILFRACTOR (SPD)'));get('source-reset').onclick();
+  get('source-section').value='LUCHA LUCHA LUCHA';get('source-section').onchange();get('source-search').value='Black Portal';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('"LUCHA LUCHA LUCHA BLACK PORTAL","Not published"')&&csv.includes('LLL-2')&&csv.includes('Numbered to 5 copies'),'Berto’s named-card statement must not number the family-wide odds category');
+  get('source-search').value='LLL-3';get('source-search').oninput();get('source-export').onclick();assert(!csv.includes('Numbered to 5 copies')&&!csv.includes('LLL-2'),'Numbered guide rows must respect exact printed card search');get('source-reset').onclick();get('source-cards-tab').onclick();
+ }
  if(set.slug==='topps-bowman-2025-26-topps-three-basketball'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});

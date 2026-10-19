@@ -7471,10 +7471,34 @@
       "oddsHash": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
       "rows": 922,
       "odds": 323,
-      "specificationRows": 0
+      "specificationRows": 22,
+      "specificationHash": "d2dae7fbf61307b7cc14210ba2cd14ddc40a56718f8285300395cb63c0a00829"
     },
-    "fingerprint": "fbbbe8e1c8a9460521ecaf9df7aa50f3e4a3db3a852ef66af8c1fb6e37e1b5e4",
+    "fingerprint": "77499e72a487928f1bb043f42bafc8cc4d1c474ad81c4d6bcd5f56a5e60ab472",
     "events": [
+      {
+        "at": "2026-10-19T02:38:43.933Z",
+        "changes": [
+          "Supplementary specification rows: 0 → 22",
+          "Supplementary specification evidence imported."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26UWWE_-_2026_Topps_Universe_WWE_Checklist_8700b54a-0ec9-4ab7-87b2-47b4e40862a0.xls?v=1786542209",
+        "snapshot": {
+          "checklistHash": "1ed54faa451de91248f10c8e75d84bd5a3205b8725782d3fe8ff4f0871cecade",
+          "oddsHash": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
+          "rows": 922,
+          "odds": 323,
+          "specificationRows": 22,
+          "specificationHash": "d2dae7fbf61307b7cc14210ba2cd14ddc40a56718f8285300395cb63c0a00829"
+        },
+        "previousSnapshot": {
+          "checklistHash": "1ed54faa451de91248f10c8e75d84bd5a3205b8725782d3fe8ff4f0871cecade",
+          "oddsHash": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
+          "rows": 922,
+          "odds": 323,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-17T17:17:21.921Z",
         "changes": [
