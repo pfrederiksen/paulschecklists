@@ -6333,6 +6333,29 @@
       "ongoingSeries": false,
       "status": "Source import pending",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-topps-pro-debut-baseball",
+      "title": "2026 Topps Pro Debut Baseball",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/topps-pro-debut-baseball",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": false,
+      "ongoingSeries": false,
+      "status": "Supplementary parallel and numbering review pending",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-pro-debut-baseball",
+          "family": "Unpublished pack odds and numeric parallel ladder",
+          "gap": "The checked current official product and global odds index do not publish pack odds or a numeric parallel ladder. October 19 is a preorder; general release and exhaustive eligibility remain unverified.",
+          "source": "https://www.topps.com/pages/topps-pro-debut-baseball",
+          "evidenceFile": "data/parallel-audit-sources/pro-debut-baseball-2026-product-20261019.json",
+          "evidenceSha256": "4a1c029f669a96f5f1b0d4e6c0ffe6974b81d04d3fde66cdfa143c6d0a66aafe"
+        }
+      ]
     }
   ]
 }

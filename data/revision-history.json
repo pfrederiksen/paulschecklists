@@ -14595,5 +14595,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-pro-debut-baseball": {
+    "state": {
+      "checklistHash": "3f98609d8e9ac0eaecbc5edaf4a3bf0de370c865d08622b5dec4954a60ffc597",
+      "oddsHash": null,
+      "rows": 1044,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "c2877af933c70452fd43f5ea1f25d9cc4a5cf5d64ffb0f724dc4ed117cc4988d",
+    "events": [
+      {
+        "at": "2026-10-19T14:50:56.334Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pro_Debut_Checklist.pdf?v=1792417707",
+        "snapshot": {
+          "checklistHash": "3f98609d8e9ac0eaecbc5edaf4a3bf0de370c865d08622b5dec4954a60ffc597",
+          "oddsHash": null,
+          "rows": 1044,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

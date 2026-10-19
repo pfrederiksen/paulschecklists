@@ -810,7 +810,7 @@
     "year": "2026",
     "slug": "topps-bowman-2026-topps-mint-disney",
     "page": "sets/topps-bowman-2026-topps-mint-disney.html",
-    "verified": "2026-10-17",
+    "verified": "2026-10-19",
     "description": "Four paper base tiers and their separate Chrome variations, Minted Posters, Minted in Magic, actor autographs and an unnumbered sketch-artist roster. Published Platinum starting numbering is available; pack odds and further parallel limits remain pending.",
     "sourcePage": "https://www.topps.com/pages/topps-mint-disney",
     "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL_a5705acd-5d63-43f2-b4f6-ce1f457e2deb.pdf?v=1792171539",
@@ -825,7 +825,14 @@
     "dataAudit": "All 374 numbered Disney entries and 68 unnumbered sketch artists are reconciled, retaining actor/character/property text columns and the full sketch-artist roster, including mixed Japanese/Latin names. Paper and Chrome base tiers remain separate; apparent printed spellings, case and clipped property text are preserved. Only the product-page Platinum starting numbering is imported; pack odds and exhaustive parallel-numbering reconciliation remain pending.",
     "releaseStatus": "Upcoming",
     "releaseDate": "2026-11-04",
-    "releaseEvidence": "https://www.topps.com/pages/topps-mint-disney"
+    "releaseEvidence": "https://www.topps.com/pages/topps-mint-disney",
+    "additionalSources": [
+      {
+        "label": "Official global checklist variant",
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL.pdf?v=1791896818"
+      }
+    ],
+    "globalCatalogUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL.pdf?v=1791896818"
   },
   {
     "title": "2026 Topps Holiday Baseball",
@@ -3311,5 +3318,36 @@
     "description": "All 300 printed OD-1–OD-300 entries across thirty MLB team sets, with original Player, Team, Pos., RC and Parallels? columns. The PDF marks 110 parallel subjects and 50 rookies. Repeated Iván Herrera subjects retain distinct numbers and positions. This document does not publish a universal color ladder, pack odds or general release; exact product-specific terms remain on the reviewed team pages.",
     "catalogEvidence": "The official RTOD landing page links this complete team-set checklist outside the global catalog. PARALLELS marks remain literal eligibility annotations without inferred color combinations. This is the regular team-set PDF; no numbers or parallel terms transfer to the separate Japan Edition or to a missing box base program. Historical NOW coverage and exhaustive numbering audits remain partial.",
     "dataAudit": "All seven pages, 300 consecutive printed OD numbers, thirty ten-row team rosters, 110 PARALLELS and 50 RC marks reconcile by physical cells and independent word flow. OD-277 is split at its actual column boundary. OD-243/244 Iván Herrera retain OF and C/DH respectively."
+  },
+  {
+    "title": "2026 Topps Pro Debut Baseball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "baseball",
+    "year": "2026",
+    "slug": "topps-bowman-2026-topps-pro-debut-baseball",
+    "page": "sets/topps-bowman-2026-topps-pro-debut-baseball.html",
+    "sourcePage": "https://www.topps.com/pages/topps-pro-debut-baseball",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pro_Debut_Checklist.pdf?v=1792417707",
+    "releaseStatus": "Upcoming",
+    "releaseDate": null,
+    "verified": "2026-10-19",
+    "status": "Source table",
+    "rowCount": 1044,
+    "tableData": "data/imports/topps-bowman-2026-topps-pro-debut-baseball.json",
+    "sections": 16,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 1,044 physical subject rows / 977 family-card identities across 16 sections are reconciled to separate original Name and Team cells. Both 200-card paper and Chrome base programs, all 24 two-subject Pipeline Pairings, 15 dual autograph cards and 14 triple autograph cards are retained. The 2025 Arizona Fall League headings belong to this 2026 product. No rookie field is published. October 19 is explicitly a preorder, not a general release date. No official odds link or numeric parallel ladder was published in the checked current product/global sources; exhaustive parallel and release coverage remain unverified.",
+    "sha256": "3f98609d8e9ac0eaecbc5edaf4a3bf0de370c865d08622b5dec4954a60ffc597",
+    "dedicatedParser": "scripts/import_topps_pro_debut_2026.py",
+    "coverageComplete": true,
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/pro-debut-baseball-2026-product-20261019.json",
+      "sha256": "4a1c029f669a96f5f1b0d4e6c0ffe6974b81d04d3fde66cdfa143c6d0a66aafe",
+      "source": "https://www.topps.com/pages/topps-pro-debut-baseball"
+    },
+    "catalogEvidence": "All 1,044 physical subject rows / 977 family-card identities across 16 sections are reconciled to separate original Name and Team cells. Both 200-card paper and Chrome base programs, all 24 two-subject Pipeline Pairings, 15 dual autograph cards and 14 triple autograph cards are retained. The 2025 Arizona Fall League headings belong to this 2026 product. No rookie field is published. October 19 is explicitly a preorder, not a general release date. No official odds link or numeric parallel ladder was published in the checked current product/global sources; exhaustive parallel and release coverage remain unverified.",
+    "odds": 0,
+    "formats": 0,
+    "description": "Separate 200-card paper and Chrome base programs, Minor League inserts and multi-signer autographs. Browse original names and teams; October 19 is a preorder. Pack odds and numeric parallel limits remain unavailable."
   }
 ]

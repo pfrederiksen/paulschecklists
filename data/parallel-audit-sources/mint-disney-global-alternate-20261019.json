@@ -1,0 +1,58 @@
+{
+  "observed": "2026-10-19",
+  "checkedUtc": "2026-10-19T14:49:40.543614+00:00",
+  "method": "Fresh native Safari global-index Page Source export; fresh official product web read confirms its exact linked checklist URL. Both complete PDFs parsed with the dedicated physical-column parser.",
+  "facts": {
+    "primaryProductSource": "https://www.topps.com/pages/topps-mint-disney",
+    "primaryUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL_a5705acd-5d63-43f2-b4f6-ce1f457e2deb.pdf?v=1792171539",
+    "primarySha256": "45753eb8b8036024c39e9b4a1b2aa66665ce1d9ddc3aa85d2a9535ca55a4e737",
+    "globalSource": "https://www.topps.com/pages/checklists",
+    "globalUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL.pdf?v=1791896818",
+    "globalSha256": "073d2a49589813460b69bc57e1eca1f41f13f5dc774415e8a3585dab7a1d0304",
+    "rowsPerDocument": 442,
+    "sectionsPerDocument": 15,
+    "differences": [
+      {
+        "rowIndex": 299,
+        "primary": [
+          "MINTED IN MAGIC",
+          "MM-PL",
+          "Pluto",
+          "Mickey & Friends",
+          "",
+          "7"
+        ],
+        "globalAlternate": [
+          "MINTED IN MAGIC",
+          "MM-PL",
+          "Pluto",
+          "Mickey and Friends",
+          "",
+          "7"
+        ]
+      },
+      {
+        "rowIndex": 372,
+        "primary": [
+          "CLARENCE NASH DONALD DUCK CUT SIGNATURE",
+          "CS-CN",
+          "Clarence Nash",
+          "Donald Duck",
+          "",
+          "8"
+        ],
+        "globalAlternate": [
+          "CLEARANCE NASH DONALD DUCK CUT SIGNATURE",
+          "CS-CN",
+          "Clarence Nash",
+          "Donald Duck",
+          "",
+          "8"
+        ]
+      }
+    ],
+    "selection": "Retain the existing product-linked primary and every literal alternate difference. The current global index supplies an alternate; it does not resolve the conflicting captions/property wording."
+  },
+  "factsSha256": "3b1d9773e10c109d50e9298f8887be61940b98167491a5340950c067d9476345",
+  "remainingGap": "Two official document text variants remain; no authority statement resolving them was published in reviewed sources. Pack odds and exhaustive parallel numbering remain unverified."
+}

@@ -367,11 +367,18 @@
   {
     "id": "topps-bowman-2026-topps-mint-disney",
     "title": "2026 Topps Mint Disney",
-    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL_a5705acd-5d63-43f2-b4f6-ce1f457e2deb.pdf?v=1792171539"
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL_a5705acd-5d63-43f2-b4f6-ce1f457e2deb.pdf?v=1792171539",
+    "globalCatalogUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL.pdf?v=1791896818",
+    "globalCatalogObserved": "2026-10-19"
   },
   {
     "title": "2026 Topps Chrome Football",
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792077449",
     "observed": "2026-10-15"
+  },
+  {
+    "id": "topps-bowman-2026-topps-pro-debut-baseball",
+    "title": "2026 Topps Pro Debut Baseball",
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pro_Debut_Checklist.pdf?v=1792417707"
   }
 ]

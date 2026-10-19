@@ -690,6 +690,15 @@ for(const set of cases){
   get('source-section').value='FANATICS AUTHENTIC REDEMPTION';get('source-section').onchange();assert.equal(get('source-count').textContent,'60 official source rows');assert(get('source-results').innerHTML.includes('FR-1'));get('source-reset').onclick();
   get('source-section').value='BASE CARDS CLEAR VARIATION';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('/10'));get('source-cards-tab').onclick();get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2026-topps-pro-debut-baseball'){
+  assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);
+  get('source-section').value='BASE CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'200 official source rows');
+  get('source-team').value='Bowling Green Hot Rods™';get('source-team').onchange();get('source-search').value='Émilien Pitre';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"PD-28","Émilien Pitre","Bowling Green Hot Rods™"'));
+  get('source-reset').onclick();get('source-section').value='2025 ARIZONA FALL LEAGUE STARS';get('source-section').onchange();assert.equal(get('source-count').textContent,'20 official source rows');
+  get('source-reset').onclick();get('source-section').value='PRO DEBUT TRIPLE AUTOGRAPHS';get('source-section').onchange();get('source-search').value='PDT-WHP';get('source-search').oninput();assert.equal(get('source-count').textContent,'3 official source rows');assert(get('source-results').innerHTML.includes('Ethan Holliday')&&get('source-results').innerHTML.includes('JoJo Parker'));
+  get('source-export').onclick();assert.equal((csv.match(/PDT-WHP/g)||[]).length,3);get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2026-topps-mint-disney'){
   assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);
   get('source-search').value='CA-TH';get('source-search').oninput();assert(get('source-results').innerHTML.includes('Tom Hanks'));

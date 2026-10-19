@@ -126,6 +126,24 @@ def build(slugs=None):
    note='All 374 numbered Disney entries and 68 unnumbered sketch artists are reconciled, retaining actor/character/property text columns and the full sketch-artist roster, including mixed Japanese/Latin names. Paper and Chrome base tiers remain separate; apparent printed spellings, case and clipped property text are preserved. Only the product-page Platinum starting numbering is imported; pack odds and exhaustive parallel-numbering reconciliation remain pending.'
    record['description']='Four paper base tiers and their separate Chrome variations, Minted Posters, Minted in Magic, actor autographs and an unnumbered sketch-artist roster. Published Platinum starting numbering is available; pack odds and further parallel limits remain pending.'
   data.update(title=cfg['title'],headers=['Checklist section','Card number',*cfg['columns'],'Source page'],rows=rows,rawPages=raw,unassignedPhysicalText=unassigned,unclassifiedLines=[],source=cfg['url'],sha256=sha,sectionColumn=0,importKind='topps-grid-pdf',dedicatedParser=PARSER,publishedSpecifications=specs,productConfigurationEvidence={'file':str(proof.relative_to(ROOT)),'sha256':hashlib.sha256(proof.read_bytes()).hexdigest(),'source':source},sourceSheets=[{'name':'Official source reconciliation','notes':[[note]]}])
+  if slug==DISNEY:
+   alternate_proof=ROOT/'data/parallel-audit-sources/mint-disney-global-alternate-20261019.json'
+   alternate=json.loads(alternate_proof.read_text())['facts']
+   alternate_path=path.with_name(slug+'-global-alternate.pdf')
+   assert acquire(alternate['globalUrl'],alternate_path)==alternate['globalSha256']
+   alternate_rows,_,_=read_cards(alternate_path,slug,cfg)
+   differences=[dict(rowIndex=i,primary=a,globalAlternate=b) for i,(a,b) in enumerate(zip(rows,alternate_rows)) if a!=b]
+   assert len(alternate_rows)==len(rows)==442 and differences==alternate['differences']
+   assert sha==alternate['primarySha256'] and cfg['url']==alternate['primaryUrl']
+   data['sourceVariantReview']=dict(file=str(alternate_proof.relative_to(ROOT)),sha256=hashlib.sha256(alternate_proof.read_bytes()).hexdigest())
+   data['sourceVariantDifferences']=differences
+   data['sourceSheets'].append(dict(name='Official global/product checklist variants',notes=[
+    ['The product page still links this imported primary PDF. The current global checklist index links a different PDF with the same 442 rows and 15 sections. Both are retained without silently resolving their text differences.'],
+    ['MINTED IN MAGIC MM-PL Pluto: the primary prints Mickey & Friends; the global alternate prints Mickey and Friends.'],
+    ['CS-CN Clarence Nash: the primary heading prints CLARENCE NASH DONALD DUCK CUT SIGNATURE; the global alternate heading prints CLEARANCE NASH DONALD DUCK CUT SIGNATURE.'],
+    ['No other original card/name/property/artist cells differ in the complete physical-column comparison.']]))
+   record['additionalSources']=[dict(label='Official global checklist variant',url=alternate['globalUrl'])]
+   record['globalCatalogUrl']=alternate['globalUrl']
   dp.write_text(json.dumps(data,ensure_ascii=False)+'\n')
   record.update(verified=date.today().isoformat(),sourcePage=cfg['source'],checklistUrl=cfg['url'],status='Source table',tableData=str(dp.relative_to(ROOT)),rowCount=len(rows),sections=cfg['sections'],sha256=sha,importKind=data['importKind'],dedicatedParser=PARSER,catalogEvidence=note,dataAudit=note)
   if 'releaseDate' in facts:record.update(releaseStatus='Upcoming',releaseDate=facts['releaseDate'],releaseEvidence=source)

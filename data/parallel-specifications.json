@@ -9884,7 +9884,8 @@
         "evidenceFile": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
         "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
       }
-    ]
+    ],
+    "topps-bowman-2026-topps-pro-debut-baseball": []
   },
   "conflicts": [
     {
@@ -10369,6 +10370,14 @@
       "source": "https://ripped.topps.com/2026-topps-universe-wwe-collector-card-guide/",
       "evidenceFile": "data/parallel-audit-sources/universe-wwe-2026-guide-20261019.json",
       "evidenceSha256": "8f4afaddde5174be7687769db9201b514fa2138fd80be9d8b0e7309dc42d5ce1"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-pro-debut-baseball",
+      "family": "Unpublished pack odds and numeric parallel ladder",
+      "gap": "The checked current official product and global odds index do not publish pack odds or a numeric parallel ladder. October 19 is a preorder; general release and exhaustive eligibility remain unverified.",
+      "source": "https://www.topps.com/pages/topps-pro-debut-baseball",
+      "evidenceFile": "data/parallel-audit-sources/pro-debut-baseball-2026-product-20261019.json",
+      "evidenceSha256": "4a1c029f669a96f5f1b0d4e6c0ffe6974b81d04d3fde66cdfa143c6d0a66aafe"
     }
   ]
 }

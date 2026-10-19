@@ -1,0 +1,52 @@
+{
+  "observed": "2026-10-19",
+  "checkedUtc": "2026-10-19T14:47:51.691922+00:00",
+  "source": "https://www.topps.com/pages/topps-pro-debut-baseball",
+  "sourceKind": "official-web-factual-snapshot",
+  "method": "Fresh complete official product and release-calendar web reads plus the native Safari global checklist/odds index exports. Normalized factual hash, not raw HTML.",
+  "facts": {
+    "productSource": "https://www.topps.com/pages/topps-pro-debut-baseball",
+    "productYear": 2026,
+    "preorderStatement": "Available for pre-order October 19 at 12pm ET",
+    "calendarSource": "https://www.topps.com/release-calendar",
+    "calendarEvent": "Monday, Oct 19 at 4:00 PM UTC 2026 Topps Pro Debut Baseball",
+    "calendarEventLabel": "Pre-order",
+    "baseSetSize": 200,
+    "productPrograms": [
+      "Arizona Fall League Stars",
+      "Pipeline Pairings",
+      "Pro Debut Gamers",
+      "Stars of MiLB",
+      "Ballpark Promos",
+      "Future Cornerstones",
+      "Dual and Triple Autographs",
+      "Jumbo Autograph Relics"
+    ],
+    "numericParallelLadderPublishedInReviewedText": false,
+    "oddsLinkOnReviewedProductPage": false,
+    "oddsEntryInFreshGlobalIndex": false,
+    "generalReleaseDateVerified": false
+  },
+  "factsSha256": "b7c022de13e1857e05690ff804bab6f8ce60b6ded97c11b036244d2d739b290f",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pro_Debut_Checklist.pdf?v=1792417707",
+  "checklistSha256": "3f98609d8e9ac0eaecbc5edaf4a3bf0de370c865d08622b5dec4954a60ffc597",
+  "physicalAudit": {
+    "pages": 20,
+    "rows": 1044,
+    "familyCardIdentities": 977,
+    "sections": 16,
+    "baseRows": 200,
+    "chromeBaseRows": 200,
+    "pipelinePairingsPhysicalRows": 48,
+    "dualAutographPhysicalRows": 30,
+    "tripleAutographPhysicalRows": 42,
+    "rookieColumnPublished": false
+  },
+  "approvedNumericMappings": [],
+  "remainingGaps": [
+    "General release date unverified; October 19 is explicitly a preorder.",
+    "No pack-odds source or ratio unit published in checked product/current global odds pages.",
+    "No numeric parallel ladder or exhaustive eligibility verified.",
+    "The official Ripped product-history URL returned a source access failure; it was not treated as reviewed guide evidence."
+  ]
+}
