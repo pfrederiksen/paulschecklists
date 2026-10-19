@@ -1,0 +1,49 @@
+{
+  "observed": "2026-10-19",
+  "checkedUtc": "2026-10-19T06:39:39.277027+00:00",
+  "slug": "topps-bowman-2025-topps-chrome-football-sapphire",
+  "method": "Normalized factual snapshot from complete official web page reads, reconciled with downloaded official checklist/odds hashes. The factual snapshot SHA-256 is not a raw HTML hash.",
+  "facts": {
+    "productYear": 2025,
+    "sources": [
+      {
+        "url": "https://www.topps.com/pages/topps-chrome-football-sapphire",
+        "observations": {
+          "presentation": "Sapphire-specific landing page with linked checklist and combined odds document",
+          "parallelStatements": "Prospective exclusive parallels, limited production and low-numbered colors are described without a numeric family ladder.",
+          "namedPrograms": [
+            "Sapphire Selection Autographs",
+            "Infinite Sapphire",
+            "Rookie Autograph Variation Sapphire Edition",
+            "Chromographs Sapphire Edition"
+          ],
+          "numericFamilyLimitsPublishedInReviewedText": false,
+          "explicitGeneralReleaseDatePublishedInReviewedText": false
+        }
+      },
+      {
+        "url": "https://launches.topps.com/en-US/launch/2025-topps-chrome-football-sapphire-hobby-box",
+        "observations": {
+          "sku": "FGC006394-DB",
+          "presentation": "Official launch listing repeats the same prospective product description and links the same two documents.",
+          "numericFamilyLimitsPublishedInReviewedText": false,
+          "explicitGeneralReleaseDatePublishedInReviewedText": false
+        }
+      }
+    ],
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Sapphire_Checklist_042926.pdf?v=1778615660",
+    "checklistSha256": "b90ab799ca671a04e302d220f73cc5c0f40de3fab2cce4ae23b29aba9fb8eb18",
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Football_Odds.pdf?v=1776193199",
+    "oddsSha256": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
+    "displayedOddsScope": "6394 - NFL- CHROME 2025 SAPPHIRE HOBBY DISTRIBUTOR",
+    "displayedOddsCategories": 55
+  },
+  "factsSha256": "cdad3eb0b0f64518674b7ef8bccd6fcdbae4486f6125bc62aa853e8feb4a3bfa",
+  "priorProductReview": {
+    "file": "data/parallel-audit-sources/football-sapphire-2025-product-20261014.json",
+    "sha256": "2905e51a5cc0b84e0115281de39578ebacbe4d5340742eb75c55bc5b14f1811e"
+  },
+  "approvedNumericMappings": [],
+  "remainingGap": "These exact-product pages do not establish a numeric family ladder or an explicit calendar release date. Image asset names and regular Chrome guide limits do not authorize Sapphire numbering or per-card eligibility. Exhaustive parallel review remains pending.",
+  "publicDataChanged": false
+}
