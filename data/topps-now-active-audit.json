@@ -1,67 +1,92 @@
 {
   "observed": "2026-10-19",
-  "listingSha256": "eda85124fc05eb5e9a4faa9cb40456863caff47bd2150c953b9ffc376d530681",
+  "listingSha256": "e014f519199347493fbd00b9bad891ad58e3c3c335e6745688a1609b2ef4fd96",
   "historicalCoverageComplete": false,
   "products": [
     {
+      "url": "https://topps.com/products/lionel-messi-2026-mls-topps-now-r-card-97",
+      "title": "Lionel Messi - 2026 MLS Topps NOW® - Card 97",
+      "status": "published"
+    },
+    {
+      "url": "https://topps.com/products/antoine-griezmann-2026-mls-topps-now-r-card-98",
+      "title": "Antoine Griezmann - 2026 MLS Topps NOW® - Card 98",
+      "status": "published"
+    },
+    {
+      "url": "https://topps.com/products/martin-ojeda-2026-mls-topps-now-r-card-99",
+      "title": "Martín Ojeda - 2026 MLS Topps NOW® - Card 99",
+      "status": "published"
+    },
+    {
+      "url": "https://topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-803",
+      "title": "Yandy Díaz - 2026 MLB Topps NOW® - Card 803",
+      "status": "published"
+    },
+    {
+      "url": "https://topps.com/products/drew-rasmussen-2026-mlb-topps-now-r-card-802",
+      "title": "Drew Rasmussen - 2026 MLB Topps NOW® - Card 802",
+      "status": "published"
+    },
+    {
       "url": "https://topps.com/products/jules-ahoka-2026-27-uel-topps-now-r-card-8",
       "title": "Jules Ahoka - 2026-27 UEL Topps NOW® - Card 8",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/alphadjo-cisse-2026-27-uel-topps-now-r-card-6",
       "title": "Alphadjo Cisse - 2026-27 UEL Topps NOW® - Card 6",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/noah-sadiki-2026-27-uel-topps-now-r-card-7",
       "title": "Noah Sadiki - 2026-27 UEL Topps NOW® - Card 7",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/desire-doue-2026-27-ucl-topps-now%C2%AE-card-29",
       "title": "Désiré Doué - 2026-27 UCL Topps NOW® - Card 29",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/lewis-koumas-2026-27-ucl-topps-now%C2%AE-card-28",
       "title": "Lewis Koumas - 2026-27 UCL Topps NOW® - Card 28",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/samuele-inacio-2026-27-ucl-topps-now%C2%AE-card-30",
       "title": "Samuele Inácio - 2026-27 UCL Topps NOW® - Card 30",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/antonio-rudiger-2026-27-ucl-topps-now%C2%AE-card-31",
       "title": "Antonio Rüdiger - 2026-27 UCL Topps NOW® - Card 31",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/kylian-mbappe-2026-27-ucl-topps-now%C2%AE-card-32",
       "title": "Kylian Mbappé - 2026-27 UCL Topps NOW® - Card 32",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/johan-manzambi-2026-27-ucl-topps-now%C2%AE-card-26",
       "title": "Johan Manzambi - 2026-27 UCL Topps NOW® - Card 26",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/carlos-espi-2026-27-ucl-topps-now%C2%AE-card-27",
       "title": "Carlos Espí - 2026-27 UCL Topps NOW® - Card 27",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/erling-haaland-2026-27-ucl-topps-now%C2%AE-card-24",
       "title": "Erling Haaland - 2026-27 UCL Topps NOW® - Card 24",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/bradley-barcola-2026-27-ucl-topps-now%C2%AE-card-25",
       "title": "Bradley Barcola - 2026-27 UCL Topps NOW® - Card 25",
-      "status": "missing-observation"
+      "status": "published"
     },
     {
       "url": "https://topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-801",
@@ -154,67 +179,6 @@
       "status": "published"
     }
   ],
-  "publishedCount": 18,
-  "remaining": [
-    {
-      "url": "https://topps.com/products/jules-ahoka-2026-27-uel-topps-now-r-card-8",
-      "title": "Jules Ahoka - 2026-27 UEL Topps NOW® - Card 8",
-      "status": "missing-observation"
-    },
-    {
-      "url": "https://topps.com/products/alphadjo-cisse-2026-27-uel-topps-now-r-card-6",
-      "title": "Alphadjo Cisse - 2026-27 UEL Topps NOW® - Card 6",
-      "status": "missing-observation"
-    },
-    {
-      "url": "https://topps.com/products/noah-sadiki-2026-27-uel-topps-now-r-card-7",
-      "title": "Noah Sadiki - 2026-27 UEL Topps NOW® - Card 7",
-      "status": "missing-observation"
-    },
-    {
-      "url": "https://topps.com/products/desire-doue-2026-27-ucl-topps-now%C2%AE-card-29",
-      "title": "Désiré Doué - 2026-27 UCL Topps NOW® - Card 29",
-      "status": "missing-observation"
-    },
-    {
-      "url": "https://topps.com/products/lewis-koumas-2026-27-ucl-topps-now%C2%AE-card-28",
-      "title": "Lewis Koumas - 2026-27 UCL Topps NOW® - Card 28",
-      "status": "missing-observation"
-    },
-    {
-      "url": "https://topps.com/products/samuele-inacio-2026-27-ucl-topps-now%C2%AE-card-30",
-      "title": "Samuele Inácio - 2026-27 UCL Topps NOW® - Card 30",
-      "status": "missing-observation"
-    },
-    {
-      "url": "https://topps.com/products/antonio-rudiger-2026-27-ucl-topps-now%C2%AE-card-31",
-      "title": "Antonio Rüdiger - 2026-27 UCL Topps NOW® - Card 31",
-      "status": "missing-observation"
-    },
-    {
-      "url": "https://topps.com/products/kylian-mbappe-2026-27-ucl-topps-now%C2%AE-card-32",
-      "title": "Kylian Mbappé - 2026-27 UCL Topps NOW® - Card 32",
-      "status": "missing-observation"
-    },
-    {
-      "url": "https://topps.com/products/johan-manzambi-2026-27-ucl-topps-now%C2%AE-card-26",
-      "title": "Johan Manzambi - 2026-27 UCL Topps NOW® - Card 26",
-      "status": "missing-observation"
-    },
-    {
-      "url": "https://topps.com/products/carlos-espi-2026-27-ucl-topps-now%C2%AE-card-27",
-      "title": "Carlos Espí - 2026-27 UCL Topps NOW® - Card 27",
-      "status": "missing-observation"
-    },
-    {
-      "url": "https://topps.com/products/erling-haaland-2026-27-ucl-topps-now%C2%AE-card-24",
-      "title": "Erling Haaland - 2026-27 UCL Topps NOW® - Card 24",
-      "status": "missing-observation"
-    },
-    {
-      "url": "https://topps.com/products/bradley-barcola-2026-27-ucl-topps-now%C2%AE-card-25",
-      "title": "Bradley Barcola - 2026-27 UCL Topps NOW® - Card 25",
-      "status": "missing-observation"
-    }
-  ]
+  "publishedCount": 35,
+  "remaining": []
 }

@@ -613,3 +613,29 @@ if title_fields_source.exists():
         assert sum(p['status']=='missing-published-row' for p in reconcile(listing,observations,reduced))==1
     assert not review['pendingProductReviews'] and not review['historyComplete']
     print('Verified Anthony Edwards with a blank printed number and PR1057; Chase Burns printed card29 with both conflicting runs retained and no selected print run. Exact dates, five foils each and three isolated auto-relic terms reconcile with fresh official UI evidence; history stays partial.')
+
+# October 19 active releases retain distinct manufacturer ladders and named-card terms.
+active_drop=json.loads((root/'data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json').read_text())
+active_drop_by_url={p['source']:p for p in observations}
+active_drop_cards=[active_drop_by_url[p['url']] for p in active_drop['products']]
+assert len(active_drop_cards)==17
+for p in active_drop_cards:
+    assert p['saleFromISO']=='2026-10-19' and not p['printRun']
+    assert sum(' Print Run:' in line for line in p['terms'].splitlines())==4
+    if p['series']=='2026 MLB Topps NOW®':
+        assert p['number'] in {'802','803'} and p['saleUntil']=='Oct 20, 2026' and len(p['parallels'])==5
+    elif p['series']=='2026 MLS Topps NOW®':
+        assert p['number'] in {'97','98','99'} and p['saleUntil']=='Oct 22, 2026'
+        assert p['parallels']==['/25 Orange','/10 Black','/5 Red','/1 FoilFractor']
+    elif p['series']=='2026-27 UEL Topps NOW®':
+        assert p['number'] in {'6','7','8'} and p['saleUntil']=='Oct 26, 2026'
+        assert p['parallels']==['/10 Black Foil','/5 Red Foil','/1 FoilFractor']
+    else:
+        assert p['series']=='2026-27 UCL Topps NOW®' and 24<=int(p['number'])<=32 and p['saleUntil']=='Oct 26, 2026'
+        assert p['parallels']==['/25 Orange Foil','/10 Black Foil','/5 Red Foil','/1 FoilFractor']
+    assert ('/1 Autograph Card' in p['terms'])==(p['series']=='2026-27 UCL Topps NOW®' and p['number']=='24')
+    assert ('/1 Relic Redemption Card' in p['terms'])==(p['series']=='2026-27 UCL Topps NOW®' and p['number']=='32')
+    assert ('Kylian Mbappé Image Variation Short Prints' in p['terms'])==(p['series']=='2026-27 UCL Topps NOW®' and p['number']=='32')
+barcola=next(p for p in active_drop_cards if p['series']=='2026-27 UCL Topps NOW®' and p['number']=='25')
+assert barcola['evidence']['fields']['Properties']=='Liverpool FC'
+print('Verified 17 October 19 active drops: original dates/subjects, distinct MLB/MLS/UCL/UEL foil ladders, blank actual print runs, conditional thresholds and isolated Haaland/Mbappé terms.')

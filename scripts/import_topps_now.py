@@ -96,7 +96,7 @@ for url,block,document in blocks:
  overview='\n'.join(lines[begin+1:end]) if begin is not None else ''
  # Publish concise factual specifications, not the store's marketing copy.
  parallel_heading=next((j for j,x in enumerate(lines) if x.startswith('Parallels:') or x in {'Parallels :','Parallèles :'}),end)
- look_for=[x.removeprefix('* ') for x in lines[begin+1:min(end,parallel_heading)] if (x.startswith('* ') or re.match(r'^/\d+\s+.*(?:Redemption|Card)',x)) and not x.startswith('*Parallels')] if begin is not None else []
+ look_for=[x.removeprefix('* ') for x in lines[begin+1:min(end,parallel_heading)] if (x.startswith('* ') or re.match(r'^/\d+\s+.*(?:Redemption|Card)',x) or fields.get('Subjects') and x==fields['Subjects']+' Image Variation Short Prints') and not x.startswith('*Parallels')] if begin is not None else []
  tiers=[x for x in lines[begin+1:end] if re.match(r'^[\d,]+\+ Print Run:',x)] if begin is not None else []
  factual=[]
  if conflict:

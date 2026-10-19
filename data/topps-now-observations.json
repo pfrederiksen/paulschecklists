@@ -65534,6 +65534,88 @@
     "saleFromISO": "2026-10-18"
   },
   {
+    "series": "2026 MLB Topps NOW®",
+    "number": "802",
+    "name": "Drew Rasmussen",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 20, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/drew-rasmussen-2026-mlb-topps-now-r-card-802",
+    "evidence": {
+      "url": "https://www.topps.com/products/drew-rasmussen-2026-mlb-topps-now-r-card-802",
+      "sha256": "788f9b28bbe78c294e0600e689a0365e1dd59b07b5a65eecf10cb99fa9af8c79",
+      "observed": "2026-10-19",
+      "title": "Drew Rasmussen - 2026 MLB Topps NOW® - Card 802",
+      "fields": {
+        "SKU": "ARTBB-16C2S-26TN-0802",
+        "Category": "Sports",
+        "Sub Categories": "Baseball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Drew Rasmussen",
+        "Properties": "Tampa Bay Rays",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 20, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026 MLB Topps NOW®",
+    "number": "803",
+    "name": "Yandy Díaz",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 20, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-803",
+    "evidence": {
+      "url": "https://www.topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-803",
+      "sha256": "ea928aee515a8f086eefe9241d3ae85b2eae85f7d987ff8f820fd21fba32dd68",
+      "observed": "2026-10-19",
+      "title": "Yandy Díaz - 2026 MLB Topps NOW® - Card 803",
+      "fields": {
+        "SKU": "ARTBB-16C2S-26TN-0803",
+        "Category": "Sports",
+        "Sub Categories": "Baseball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Yandy Díaz",
+        "Properties": "Tampa Bay Rays",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 20, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
     "series": "2026 MLB Topps NOW® Collector's Edition",
     "number": "428",
     "name": "Shohei Ohtani",
@@ -68817,6 +68899,126 @@
       "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261017-active.json"
     },
     "saleFromISO": "2026-10-15"
+  },
+  {
+    "series": "2026 MLS Topps NOW®",
+    "number": "97",
+    "name": "Lionel Messi",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 22, 2026",
+    "parallels": [
+      "/25 Orange",
+      "/10 Black",
+      "/5 Red",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/lionel-messi-2026-mls-topps-now-r-card-97",
+    "evidence": {
+      "url": "https://www.topps.com/products/lionel-messi-2026-mls-topps-now-r-card-97",
+      "sha256": "e80444f92204822a1b45be5fd712d157576fef3f4ee007ffccf2b1a6931caff1",
+      "observed": "2026-10-19",
+      "title": "Lionel Messi - 2026 MLS Topps NOW® - Card 97",
+      "fields": {
+        "SKU": "ARTMLS-16C2S-26TN-0097",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Lionel Messi",
+        "Properties": "Inter Miami CF",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 22, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026 MLS Topps NOW®",
+    "number": "98",
+    "name": "Antoine Griezmann",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 22, 2026",
+    "parallels": [
+      "/25 Orange",
+      "/10 Black",
+      "/5 Red",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/antoine-griezmann-2026-mls-topps-now-r-card-98",
+    "evidence": {
+      "url": "https://www.topps.com/products/antoine-griezmann-2026-mls-topps-now-r-card-98",
+      "sha256": "aeba6a4f5fd3f235e88ca4298f093a8782cd0ddd5adafc245c90f9d7ca1fc4d6",
+      "observed": "2026-10-19",
+      "title": "Antoine Griezmann - 2026 MLS Topps NOW® - Card 98",
+      "fields": {
+        "SKU": "ARTMLS-16C2S-26TN-0098",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Antoine Griezmann",
+        "Properties": "Orlando City SC",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 22, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026 MLS Topps NOW®",
+    "number": "99",
+    "name": "Martín Ojeda",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 22, 2026",
+    "parallels": [
+      "/25 Orange",
+      "/10 Black",
+      "/5 Red",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/martin-ojeda-2026-mls-topps-now-r-card-99",
+    "evidence": {
+      "url": "https://www.topps.com/products/martin-ojeda-2026-mls-topps-now-r-card-99",
+      "sha256": "5086a68eb8912c7eae5fefe77cc8999c0db4dc4f817f9a1577859b519477def0",
+      "observed": "2026-10-19",
+      "title": "Martín Ojeda - 2026 MLS Topps NOW® - Card 99",
+      "fields": {
+        "SKU": "ARTMLS-16C2S-26TN-0099",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Martín Ojeda",
+        "Properties": "Orlando City SC",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 22, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 or less\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
   },
   {
     "series": "2026 MLS Topps NOW®",
@@ -88188,6 +88390,366 @@
     "saleFromISO": "2026-10-16"
   },
   {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "24",
+    "name": "Erling Haaland",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower; /1 Autograph Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/erling-haaland-2026-27-ucl-topps-now%C2%AE-card-24",
+    "evidence": {
+      "url": "https://www.topps.com/products/erling-haaland-2026-27-ucl-topps-now%C2%AE-card-24",
+      "sha256": "9b8c5127c994fe9903931acdb22beecba15152c155e22dbf4cef5708828d3b7b",
+      "observed": "2026-10-19",
+      "title": "Erling Haaland - 2026-27 UCL Topps NOW® - Card 24",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0024",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Erling Haaland",
+        "Properties": "Manchester City",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower; /1 Autograph Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "25",
+    "name": "Bradley Barcola",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/bradley-barcola-2026-27-ucl-topps-now%C2%AE-card-25",
+    "evidence": {
+      "url": "https://www.topps.com/products/bradley-barcola-2026-27-ucl-topps-now%C2%AE-card-25",
+      "sha256": "a70d0dcbce910e66d69365b9c0ce680671054178bf589e36906ed21bbc1a8dd0",
+      "observed": "2026-10-19",
+      "title": "Bradley Barcola - 2026-27 UCL Topps NOW® - Card 25",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0025",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Bradley Barcola",
+        "Properties": "Liverpool FC",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "26",
+    "name": "Johan Manzambi",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/johan-manzambi-2026-27-ucl-topps-now%C2%AE-card-26",
+    "evidence": {
+      "url": "https://www.topps.com/products/johan-manzambi-2026-27-ucl-topps-now%C2%AE-card-26",
+      "sha256": "0d563b20b8b3437e84868bad620f7213cc78b963aefeddfd21d5032503c17ff2",
+      "observed": "2026-10-19",
+      "title": "Johan Manzambi - 2026-27 UCL Topps NOW® - Card 26",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0026",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Johan Manzambi",
+        "Properties": "Aston Villa",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "27",
+    "name": "Carlos Espí",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/carlos-espi-2026-27-ucl-topps-now%C2%AE-card-27",
+    "evidence": {
+      "url": "https://www.topps.com/products/carlos-espi-2026-27-ucl-topps-now%C2%AE-card-27",
+      "sha256": "6b9e4b7af9aadfa95485ba415a2d238ac5be2dad9b3ba09cb2e930590b23a61f",
+      "observed": "2026-10-19",
+      "title": "Carlos Espí - 2026-27 UCL Topps NOW® - Card 27",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0027",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Carlos Espí",
+        "Properties": "Real Madrid C.F.",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "28",
+    "name": "Lewis Koumas",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/lewis-koumas-2026-27-ucl-topps-now%C2%AE-card-28",
+    "evidence": {
+      "url": "https://www.topps.com/products/lewis-koumas-2026-27-ucl-topps-now%C2%AE-card-28",
+      "sha256": "f99f0f7046ab23246005dad3142c83ce60f54bf0d00f7c6e544cbd0895898f42",
+      "observed": "2026-10-19",
+      "title": "Lewis Koumas - 2026-27 UCL Topps NOW® - Card 28",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0028",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Lewis Koumas",
+        "Properties": "Liverpool FC",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "29",
+    "name": "Désiré Doué",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/desire-doue-2026-27-ucl-topps-now%C2%AE-card-29",
+    "evidence": {
+      "url": "https://www.topps.com/products/desire-doue-2026-27-ucl-topps-now%C2%AE-card-29",
+      "sha256": "d493f64b426365add49ed76c128c0b3e79c840afb325c618c3fd6e3f236398bd",
+      "observed": "2026-10-19",
+      "title": "Désiré Doué - 2026-27 UCL Topps NOW® - Card 29",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0029",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Désiré Doué",
+        "Properties": "Paris Saint-Germain",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "30",
+    "name": "Samuele Inácio",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/samuele-inacio-2026-27-ucl-topps-now%C2%AE-card-30",
+    "evidence": {
+      "url": "https://www.topps.com/products/samuele-inacio-2026-27-ucl-topps-now%C2%AE-card-30",
+      "sha256": "8ea29bb273e6157ac6b4a4a485d2a424fd17fb84d973686e9180dda0f4b481c1",
+      "observed": "2026-10-19",
+      "title": "Samuele Inácio - 2026-27 UCL Topps NOW® - Card 30",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0030",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Samuele Inácio",
+        "Properties": "Borussia Dortmund",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "31",
+    "name": "Antonio Rüdiger",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/antonio-rudiger-2026-27-ucl-topps-now%C2%AE-card-31",
+    "evidence": {
+      "url": "https://www.topps.com/products/antonio-rudiger-2026-27-ucl-topps-now%C2%AE-card-31",
+      "sha256": "9fe979566f57b4a746cb771e3d83288890771fed4182337a70407a2259dbac09",
+      "observed": "2026-10-19",
+      "title": "Antonio Rüdiger - 2026-27 UCL Topps NOW® - Card 31",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0031",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Antonio Rüdiger",
+        "Properties": "Real Madrid C.F.",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026-27 UCL Topps NOW®",
+    "number": "32",
+    "name": "Kylian Mbappé",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower; /1 Relic Redemption Card; Kylian Mbappé Image Variation Short Prints\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/kylian-mbappe-2026-27-ucl-topps-now%C2%AE-card-32",
+    "evidence": {
+      "url": "https://www.topps.com/products/kylian-mbappe-2026-27-ucl-topps-now%C2%AE-card-32",
+      "sha256": "aca2d04a81b8fa0eb36e65551b5ed5e8905afc6fed0c6532011adfbbe34fdc30",
+      "observed": "2026-10-19",
+      "title": "Kylian Mbappé - 2026-27 UCL Topps NOW® - Card 32",
+      "fields": {
+        "SKU": "ARTCL-16C2S-27TN-0032",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Kylian Mbappé",
+        "Properties": "Real Madrid C.F.",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower; /1 Relic Redemption Card; Kylian Mbappé Image Variation Short Prints\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
     "series": "2026-27 UEFA Nations League Topps NOW®",
     "number": "10",
     "name": "Viktor Gyökeres",
@@ -88369,6 +88931,123 @@
       }
     },
     "saleFromISO": "2026-09-21"
+  },
+  {
+    "series": "2026-27 UEL Topps NOW®",
+    "number": "6",
+    "name": "Alphadjo Cisse",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /10 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/alphadjo-cisse-2026-27-uel-topps-now-r-card-6",
+    "evidence": {
+      "url": "https://www.topps.com/products/alphadjo-cisse-2026-27-uel-topps-now-r-card-6",
+      "sha256": "53348e43550652a6621fe3cd56a751d799e6111d58cf5682dd3e688faf7601a5",
+      "observed": "2026-10-19",
+      "title": "Alphadjo Cisse - 2026-27 UEL Topps NOW® - Card 6",
+      "fields": {
+        "SKU": "ARTEL-16C2S-27TN-0006",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Alphadjo Cisse",
+        "Properties": "AC Milan",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /10 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026-27 UEL Topps NOW®",
+    "number": "7",
+    "name": "Noah Sadiki",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /10 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/noah-sadiki-2026-27-uel-topps-now-r-card-7",
+    "evidence": {
+      "url": "https://www.topps.com/products/noah-sadiki-2026-27-uel-topps-now-r-card-7",
+      "sha256": "216dbe7c07348adee0fe8784dea7a17f59ba2be428619f578ea8944d3d524ecf",
+      "observed": "2026-10-19",
+      "title": "Noah Sadiki - 2026-27 UEL Topps NOW® - Card 7",
+      "fields": {
+        "SKU": "ARTEL-16C2S-27TN-0007",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Noah Sadiki",
+        "Properties": "Sunderland AFC",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /10 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026-27 UEL Topps NOW®",
+    "number": "8",
+    "name": "Jules Ahoka",
+    "printRun": "",
+    "saleFrom": "Oct 19, 2026",
+    "saleUntil": "Oct 26, 2026",
+    "parallels": [
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /10 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/jules-ahoka-2026-27-uel-topps-now-r-card-8",
+    "evidence": {
+      "url": "https://www.topps.com/products/jules-ahoka-2026-27-uel-topps-now-r-card-8",
+      "sha256": "ebdd5b3dbe42699f4459b61d188b9724e84a12f69c7870cb4534a844d58433af",
+      "observed": "2026-10-19",
+      "title": "Jules Ahoka - 2026-27 UEL Topps NOW® - Card 8",
+      "fields": {
+        "SKU": "ARTEL-16C2S-27TN-0008",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Jules Ahoka",
+        "Properties": "Sunderland AFC",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 19, 2026",
+        "Available Until": "Oct 26, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /10 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-1700-new-active.json"
+    },
+    "saleFromISO": "2026-10-19"
   },
   {
     "series": "2026-27 UWCL Topps NOW®",

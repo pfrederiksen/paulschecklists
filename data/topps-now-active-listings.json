@@ -5,8 +5,28 @@
     {
       "url": "https://www.topps.com/collections/topps-now",
       "pagesObserved": 2,
-      "reportedProductCount": 30,
+      "reportedProductCount": 35,
       "products": [
+        {
+          "url": "https://topps.com/products/lionel-messi-2026-mls-topps-now-r-card-97",
+          "title": "Lionel Messi - 2026 MLS Topps NOW® - Card 97"
+        },
+        {
+          "url": "https://topps.com/products/antoine-griezmann-2026-mls-topps-now-r-card-98",
+          "title": "Antoine Griezmann - 2026 MLS Topps NOW® - Card 98"
+        },
+        {
+          "url": "https://topps.com/products/martin-ojeda-2026-mls-topps-now-r-card-99",
+          "title": "Martín Ojeda - 2026 MLS Topps NOW® - Card 99"
+        },
+        {
+          "url": "https://topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-803",
+          "title": "Yandy Díaz - 2026 MLB Topps NOW® - Card 803"
+        },
+        {
+          "url": "https://topps.com/products/drew-rasmussen-2026-mlb-topps-now-r-card-802",
+          "title": "Drew Rasmussen - 2026 MLB Topps NOW® - Card 802"
+        },
         {
           "url": "https://topps.com/products/jules-ahoka-2026-27-uel-topps-now-r-card-8",
           "title": "Jules Ahoka - 2026-27 UEL Topps NOW® - Card 8"
@@ -127,14 +147,21 @@
           "url": "https://topps.com/products/max-verstappen-2026-formula-1-r-topps-now-r-card-67",
           "title": "Max Verstappen - 2026 Formula 1® Topps NOW® - Card 67"
         }
-      ]
+      ],
+      "checkedUtc": "2026-10-19T17:48:33.664762+00:00"
     },
     {
       "url": "https://www.topps.com/collections/bowman-u-now",
       "pagesObserved": 1,
       "reportedProductCount": 0,
-      "products": []
+      "products": [],
+      "checkedUtc": "2026-10-19T16:40:19.170106+00:00",
+      "refreshedThisRun": false
     }
   ],
-  "checkedUtc": "2026-10-19T16:45:41.257570+00:00"
+  "checkedUtc": "2026-10-19T18:07:47.953680+00:00",
+  "freshListingReadsComplete": false,
+  "pendingFreshListingReads": [
+    "Bowman U NOW listing recheck interrupted by browser timeout/context change; prior empty observation retained explicitly."
+  ]
 }
