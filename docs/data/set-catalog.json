@@ -14756,7 +14756,7 @@
       "page": "sets/topps-bowman-2026-topps-universe-wwe.html",
       "sourcePage": "https://www.topps.com/pages/topps-universe-wwe",
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26UWWE_-_2026_Topps_Universe_WWE_Checklist_8700b54a-0ec9-4ab7-87b2-47b4e40862a0.xls?v=1786542209",
-      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_Odds.pdf?v=1789484084",
+      "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_odds.pdf?v=1790191410",
       "tableData": "data/imports/topps-bowman-2026-topps-universe-wwe.json",
       "status": "Source table",
       "importKind": "xls",
@@ -14773,6 +14773,10 @@
       "verified": "2026-10-17",
       "catalogEvidence": "Official product page labels this release available now. The workbook preserves 200 base rows and 100 Peak Performance rows plus inserts, autographs and relics. Printed WWE designations remain original source fields and are not inferred teams. Exact calendar release date is not verified.",
       "dataAudit": "All populated card rows reconcile to the original four workbook columns; 40 printed Rookie flags verified. Physical odds columns validated with no alignment issues.",
+      "oddsSourceReview": {
+        "file": "data/official-source-reviews/universe-wwe-2026-odds-link-20261019-0100.json",
+        "sha256": "3402f5cf4bdada49a43ac7a8f46f6a69e30265bf42ea0df263ac92196a6d7ff5"
+      },
       "presentation": {
         "rows": 922,
         "sections": 39,

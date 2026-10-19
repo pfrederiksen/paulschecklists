@@ -4,7 +4,7 @@ from datetime import date
 import import_official_catalog as g
 ROOT=g.ROOT;slug='topps-bowman-2026-topps-universe-wwe';page='https://www.topps.com/pages/topps-universe-wwe'
 url='https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26UWWE_-_2026_Topps_Universe_WWE_Checklist_8700b54a-0ec9-4ab7-87b2-47b4e40862a0.xls?v=1786542209'
-odd='https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_Odds.pdf?v=1789484084'
+odd='https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_odds.pdf?v=1790191410'
 blob=urllib.request.urlopen(url,timeout=30).read();s=xlrd.open_workbook(file_contents=blob).sheet_by_index(0);rows=[];section='Checklist';original=[]
 for rn in range(s.nrows):
  vals=s.row_values(rn);original.append(vals)

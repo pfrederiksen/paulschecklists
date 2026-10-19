@@ -1,0 +1,41 @@
+{
+  "observedUtc": "2026-10-19T01:37:18.869735+00:00",
+  "sourceKind": "official-product-linked-identical-odds-relocation",
+  "slug": "topps-bowman-2026-topps-universe-wwe",
+  "originalGlobalSource": {
+    "index": "https://www.topps.com/pages/odds",
+    "landingPage": "https://www.topps.com/pages/topps-universe-wwe",
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_Odds.pdf?v=1789484084",
+    "observedStatus": 404,
+    "method": "Fresh official web-reader link follows from global odds and landing pages, plus two direct HTTP fetch attempts. Both public page links still target the missing file.",
+    "retainedSha256": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658"
+  },
+  "replacementSource": {
+    "productPage": "https://www.topps.com/products/2026-topps-universe-wwe-mega-box",
+    "linkLabel": "Download odds",
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_odds.pdf?v=1790191410",
+    "observedStatus": 200,
+    "bytes": 219088,
+    "sha256": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
+    "method": "Followed the Download odds link on the official Mega Box product page; downloaded actual PDF bytes."
+  },
+  "validation": {
+    "bytesIdenticalToRetainedImport": true,
+    "pages": 6,
+    "oddsRows": 323,
+    "formats": [
+      "WWE-UNIVERSE 2026 HOBBY",
+      "WWE-UNIVERSE 2026 VALUE",
+      "WWE-UNIVERSE 2026 MEGA"
+    ],
+    "checklistRowsPreserved": 922,
+    "literalPhysicalComparison": "All 323 names, all three literal value/null columns and original repeated format headers match independent pypdf text extraction from every physical page. The shared physical-column odds parser independently matches every retained odds entry and raw page.",
+    "oddsUnitsPublished": false,
+    "documentRevision": false,
+    "sourceLinkRepairOnly": true
+  },
+  "limitations": [
+    "The entire current global checklist/odds URL arrays could not be refreshed through actual UI while the Mac remains locked. These targeted official web reads establish the two exact link targets only.",
+    "The replacement supplies identical published values, not new odds, numbering or release evidence. Existing incomplete parallel audits and historical coverage remain unchanged."
+  ]
+}
