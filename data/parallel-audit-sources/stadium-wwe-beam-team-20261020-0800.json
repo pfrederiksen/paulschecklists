@@ -1,0 +1,57 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T08:16:20.783121+00:00",
+  "sourceKind": "official-browser-design-interview",
+  "method": "Fresh complete official article read; normalized factual snapshot, not a raw HTML hash. Published card roster independently reconciled to the retained checklist PDF.",
+  "facts": {
+    "source": "https://ripped.topps.com/2026-topps-stadium-club-beam-team-design/",
+    "articlePublication": "2026-10-18",
+    "family": "BEAM TEAM",
+    "publishedDistribution": "One per case",
+    "publishedSize": "20 Superstars",
+    "publishedFinish": "Laser foilboard",
+    "namedExamples": [
+      "Roman Reigns",
+      "CM Punk",
+      "Cody Rhodes",
+      "Rhea Ripley",
+      "Seth Rollins"
+    ],
+    "formatScope": "No specific box format or case configuration is named in the distribution statement."
+  },
+  "factsSha256": "5f121eb601cc9e6b72aad859a1df4dd37bc3dd4e44a140cd1380fdb7cc7a570d",
+  "checklistSha256": "e7fc883049de24ced4f271f75d432f49a4c3ac17155ab0ac12c0116c2940144d",
+  "oddsSha256": "714fdd3df3824ec6e2c175a6ab3ae867964e8d12d893a72369f59bb9fe8fb34f",
+  "tables": [
+    {
+      "name": "BEAM TEAM",
+      "headers": [
+        "Published field",
+        "Published value",
+        "Scope"
+      ],
+      "rows": [
+        [
+          "Distribution",
+          "One per case",
+          "Manufacturer statement; box format and case configuration are not specified. This is not a per-pack rate."
+        ],
+        [
+          "Checklist size",
+          "20 Superstars",
+          "Matches the 20 imported BEAM TEAM checklist rows; no additional subject eligibility is inferred."
+        ],
+        [
+          "Finish",
+          "Laser foilboard",
+          "Published design description; no numeric serial limit is stated."
+        ]
+      ]
+    }
+  ],
+  "approvedAdditionalNumericMappings": [],
+  "remainingGaps": [
+    "One-per-case distribution does not establish a format-specific pack rate, numeric serial limit or parallel eligibility.",
+    "Other numbering, unjoined Chrome II captions and all earlier guide qualifications remain unresolved."
+  ]
+}

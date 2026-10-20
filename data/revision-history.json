@@ -7773,10 +7773,10 @@
       "oddsHash": "714fdd3df3824ec6e2c175a6ab3ae867964e8d12d893a72369f59bb9fe8fb34f",
       "rows": 938,
       "odds": 122,
-      "specificationRows": 25,
+      "specificationRows": 28,
       "specificationHash": "5909e66d347a08cb02255c7869c84424290ac012f7f2b9dd204a57800da817e1"
     },
-    "fingerprint": "29bd5fb82a65bedca1f0b247b087d8835e710b97ea82d9404d3d4751ae6c0490",
+    "fingerprint": "b2edcf5855b58ce936258baa7e2c3f5aba4a3e0daf74b12d81aa50b0f5ce81b4",
     "events": [
       {
         "at": "2026-10-16T17:45:34.594Z",

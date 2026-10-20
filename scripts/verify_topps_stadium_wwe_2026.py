@@ -32,6 +32,11 @@ assert not any(s['family'] in {'BASE CARDS','BASE CARDS AUTOGRAPH VARIATION II',
 assert any(s['name']=='Pearl White' and s['numbering']=='/30' and not s.get('oddsName') for s in d['parallelSpecifications'])
 assert any(s['name']=='Gold Minted' and s['numbering']=='Not stated' for s in d['parallelSpecifications'])
 for t in d['publishedSpecifications']:assert hashlib.sha256((ROOT/t['evidenceFile']).read_bytes()).hexdigest()==t['evidenceSha256']
+beam=next(t for t in d['publishedSpecifications'] if t['name']=='BEAM TEAM')
+assert len([r for r in d['rows'] if r[0]=='BEAM TEAM'])==20
+assert beam['rows'][0]==['Distribution','One per case','Manufacturer statement; box format and case configuration are not specified. This is not a per-pack rate.']
+assert beam['rows'][1][1]=='20 Superstars' and beam['rows'][2][1]=='Laser foilboard'
+assert not any(s['family']=='BEAM TEAM' for s in d['parallelSpecifications'])
 r=next(r for r in json.loads((ROOT/'data/set-catalog.json').read_text())['sets'] if r['slug']==SLUG);assert r['releaseDate']=='2026-10-23' and r['releaseStatus']=='Upcoming' and r['verifiedRelease']
 sys.path.insert(0,str(ROOT/'scripts'));from import_official_catalog import run
 assert run(copy.deepcopy(r))==r
