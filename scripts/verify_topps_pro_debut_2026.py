@@ -63,7 +63,9 @@ assert any(r[1:4] == ['PDJAR-MS', 'Mike Sirota', 'Great Lake Loons™'] for r in
 assert not data['odds'] and not data['formats'] and not data['publishedSpecifications']
 assert data['formatNamesPublished'] is False and data['oddsUnitsPublished'] is False
 record = next(r for r in json.loads((ROOT / 'data/set-catalog.json').read_text())['sets'] if r['slug'] == SLUG)
-assert record['releaseStatus'] == 'Upcoming' and record['releaseDate'] is None
+assert record['releaseStatus'] == 'Upcoming' and record['releaseDate'] == '2026-11-18'
+assert record['verifiedRelease']['url'] == 'https://www.topps.com/release-calendar'
+assert 'not marked Pre-order' in record['verifiedRelease']['scope']
 proof = json.loads((ROOT / data['sourceObservation']['file']).read_text())
 assert proof['facts']['calendarEventLabel'] == 'Pre-order'
 assert proof['facts']['generalReleaseDateVerified'] is False

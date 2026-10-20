@@ -86,6 +86,8 @@ def build():
     assert proof['checklistSha256'] == digest
     evidence = dict(file=str(PROOF.relative_to(ROOT)),
                     sha256=hashlib.sha256(PROOF.read_bytes()).hexdigest(), source=PRODUCT)
+    release_registry = json.loads((ROOT / 'data/release-dates.json').read_text())
+    release = next((r for r in release_registry['dates'] if r['slug'] == SLUG), None)
     note = ('All 1,044 physical subject rows / 977 family-card identities across 16 sections '
             'are reconciled to separate original Name and Team cells. Both 200-card paper and '
             'Chrome base programs, all 24 two-subject Pipeline Pairings, 15 dual autograph cards '
@@ -94,6 +96,14 @@ def build():
             'a preorder, not a general release date. No official odds link or numeric parallel '
             'ladder was published in the checked current product/global sources; exhaustive '
             'parallel and release coverage remain unverified.')
+    gaps = proof['remainingGaps']
+    if release:
+        note = note.replace('exhaustive parallel and release coverage remain unverified.',
+                            'exhaustive parallel coverage remains unverified. The current official '
+                            'U.S. release calendar separately schedules November 18, 2026; '
+                            'the product landing page corroborates that date. Scheduled dates are subject to change.')
+        gaps = [g for g in gaps if not g.startswith('General release date unverified;')
+                and 'product-history URL returned a source access failure' not in g]
     data = dict(title=record['title'], headers=HEADERS, rows=rows,
                 originalSubjectHeaders=HEADERS, originalSubjectRows=rows,
                 rawPages=raw, sourceDocumentNotes=notes, unclassifiedLines=[],
@@ -102,7 +112,7 @@ def build():
                 odds=[], formats=[], formatNamesPublished=False, oddsUnitsPublished=False,
                 publishedSpecifications=[], sourceObservation=evidence,
                 sourceSheets=[dict(name='Official source reconciliation',
-                                   notes=[[note], *[[g] for g in proof['remainingGaps']]])])
+                                   notes=[[note], *[[g] for g in gaps]])])
     dp = ROOT / 'data/imports' / (SLUG + '.json')
     dp.write_text(json.dumps(data, ensure_ascii=False) + '\n')
     record.update(status='Source table', tableData=str(dp.relative_to(ROOT)), rowCount=len(rows),

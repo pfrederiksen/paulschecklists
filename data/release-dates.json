@@ -336,6 +336,15 @@
       "statement": "2025 Topps Universe WWE Box Configuration: RELEASE — FEBRUARY 27, 2026. Key Facts: Release Date: February 27, 2026.",
       "scope": "Exact 2025 Universe WWE debut released in calendar year 2026. The printed 2025 product year is separate; this does not date 2026 Universe WWE or Royalty WWE.",
       "sha256": "2ed38571feff8fbb6805326614a5382431af1975f56f9a3c4e2d841c11c01386"
+    },
+    {
+      "url": "https://www.topps.com/release-calendar",
+      "title": "Topps U.S. release calendar: 2026 Topps Pro Debut Baseball",
+      "observed": "2026-10-20",
+      "method": "Fresh official IAB release spotlight read; product landing page independently says Available November 18",
+      "statement": "Wednesday, Nov 18 2026 Topps Pro Debut Baseball",
+      "scope": "U.S. release spotlight; event is not marked Pre-order; November 18, 2026 scheduled release is subject to change. October 19 was the separate preorder.",
+      "sha256": "c793f3dbc04f2d52187314aeb2129040036855d1acb32c1d1a09335a42b3362b"
     }
   ],
   "dates": [
@@ -560,6 +569,12 @@
       "releaseDate": "2026-02-27",
       "releaseStatus": "Released",
       "source": 36
+    },
+    {
+      "slug": "topps-bowman-2026-topps-pro-debut-baseball",
+      "releaseDate": "2026-11-18",
+      "releaseStatus": "Upcoming",
+      "source": 37
     }
   ],
   "unresolved": [

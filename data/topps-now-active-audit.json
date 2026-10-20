@@ -1,6 +1,6 @@
 {
   "observed": "2026-10-20",
-  "listingSha256": "9dbfdda3d90d4240250d5952df0ddef9d24465a44cf034becee833faf5271b5a",
+  "listingSha256": "f05ae98ed5b7cc5037b7c1b79f505d00c45d8a34121c69f48c5bef96752e3a3e",
   "historicalCoverageComplete": false,
   "products": [
     {
@@ -204,11 +204,6 @@
       "status": "published"
     },
     {
-      "title": "Jesse Derry - 2026-27 UCL Topps NOW® - Card 18",
-      "url": "https://www.topps.com/products/jesse-derry-2026-27-ucl-topps-now-r-card-18",
-      "status": "published"
-    },
-    {
       "title": "Dara O'Shea - 2026-27 Premier League Topps NOW® - Card 38",
       "url": "https://www.topps.com/products/dara-o-shea-2026-27-premier-league-topps-now-r-card-38",
       "status": "published"
@@ -269,7 +264,7 @@
       "status": "published"
     }
   ],
-  "publishedCount": 53,
-  "uniquePublishedCount": 49,
+  "publishedCount": 52,
+  "uniquePublishedCount": 48,
   "remaining": []
 }
