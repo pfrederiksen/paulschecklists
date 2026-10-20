@@ -37,6 +37,14 @@ for(const set of cases){
   get('source-reset').onclick();
  }
  if(kind==='topps-grid-pdf'||(set.dedicatedParser&&data.headers.includes('Name')&&data.headers.includes('Rookie'))){const nameColumn=data.headers.findIndex(h=>/^(?:Player \/ subjects|Player|Name|Subject)$/i.test(h));assert(nameColumn>=0,'A physical checklist must retain its published subject/name header');assert(get('source-results').innerHTML.includes(data.rows[0][nameColumn].replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;')));assert.equal(get('source-team').disabled,!data.headers.some(h=>/^team$/i.test(h)));const flag=data.rookieColumn??data.headers.findIndex(h=>/^(?:Rookie|RC)$/i.test(h));assert.equal(get('source-rookie').disabled,flag<0);if(flag>=0){get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>/^(?:Rookie|RC)$/i.test(r[flag])).length.toLocaleString()} official source rows`);get('source-reset').onclick();}}
+ if(set.slug==='topps-bowman-2026-topps-holiday-football'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,true);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-team').value='Atlanta Falcons';get('source-team').onchange();get('source-search').value='Tua Tagovailoa';get('source-search').oninput();
+  assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('"BASE CARDS","4","Tua Tagovailoa","Atlanta Falcons","","1"'));get('source-reset').onclick();
+  get('source-search').value='DS-BT';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('"DEAR SANTA","DS-BT","Brenen Thompson","Los Angeles Chargers","","15"'));get('source-reset').onclick();
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'188 official source rows');get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2026-nba-topps-now-knicks-champions-team-set'){
   assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);
   assert(data.rows.every(row=>row[1]===''));

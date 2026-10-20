@@ -16650,6 +16650,69 @@
         "hasCards": true,
         "unit": "source rows"
       }
+    },
+    {
+      "title": "2026 Topps Holiday Football",
+      "manufacturer": "Topps / Bowman",
+      "sport": "football",
+      "year": "2026",
+      "slug": "topps-bowman-2026-topps-holiday-football",
+      "page": "sets/topps-bowman-2026-topps-holiday-football.html",
+      "sourcePage": "https://www.topps.com/pages/topps-holiday-football",
+      "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Holiday_FB_Checklist.pdf?v=1790609327",
+      "releaseStatus": "Upcoming",
+      "releaseDate": "2026-10-23",
+      "verified": "2026-10-20",
+      "checklistFirstObserved": "2026-10-20",
+      "status": "Source table",
+      "rowCount": 763,
+      "tableData": "data/imports/topps-bowman-2026-topps-holiday-football.json",
+      "sections": 15,
+      "importKind": "topps-grid-pdf",
+      "dataAudit": "All 763 original subject rows across 15 sections retain separate printed card numbers, names, teams and 188 literal Rookie flags. Paper and Chrome each have 150 veteran and 50 rookie entries. Printed team assignments remain unchanged. The guide calls Dear Santa all rookies, but DS-BT Brenen Thompson has no printed Rookie flag and remains blank. The guide URL/FAQ uses 2025-26 wording separately from the 2026 title. No pack odds or numeric serial ladder is published in the checked product/current global sources; exhaustive parallel eligibility remains incomplete.",
+      "sha256": "667a525e9cf75dc472f46901dafd301f0c1b0482d1968598f49afabc1f78481f",
+      "dedicatedParser": "scripts/import_topps_holiday_football_2026.py",
+      "coverageComplete": true,
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/holiday-football-2026-product-guides-20261020.json",
+        "sha256": "a8e7d30e88da5ae86b0938b335079f691f4324b655a67d26911fd66ca20d9db8",
+        "source": "https://www.topps.com/pages/topps-holiday-football"
+      },
+      "catalogEvidence": "All 763 original subject rows across 15 sections retain separate printed card numbers, names, teams and 188 literal Rookie flags. Paper and Chrome each have 150 veteran and 50 rookie entries. Printed team assignments remain unchanged. The guide calls Dear Santa all rookies, but DS-BT Brenen Thompson has no printed Rookie flag and remains blank. The guide URL/FAQ uses 2025-26 wording separately from the 2026 title. No pack odds or numeric serial ladder is published in the checked product/current global sources; exhaustive parallel eligibility remains incomplete.",
+      "odds": 0,
+      "formats": 0,
+      "additionalSources": [
+        {
+          "label": "Official product guide",
+          "url": "https://ripped.topps.com/topps-holiday-football-history/"
+        },
+        {
+          "label": "Official product guide",
+          "url": "https://ripped.topps.com/2025-26-topps-holiday-football-top-cards-collector-guide/"
+        }
+      ],
+      "description": "Paper and Chrome base programs, Holiday Back and Holiday Spirit variations, Hidden Elf, winter inserts, autographs and Dear Santa relic autographs. Browse original teams and literal rookie marks; pack odds and serial limits remain unavailable.",
+      "verifiedRelease": {
+        "url": "https://www.topps.com/release-calendar",
+        "title": "Topps U.S. release calendar: 2026 Topps Holiday Football",
+        "observed": "2026-10-20",
+        "method": "Fresh official IAB calendar read; product landing page corroborates Available October 23 at 1pm ET",
+        "statement": "Friday, Oct 23 at 10:00 AM PDT 2026 Topps Holiday Football",
+        "scope": "U.S. release calendar; event is not marked Pre-order; October 23, 2026 scheduled release is subject to change.",
+        "sha256": "9fb1725ab3e8fa1ac9a7b82ed1ca060099e8f1a9314f7e34f0e2e829baffa4fd",
+        "snapshotFile": "data/release-dates.json"
+      },
+      "presentation": {
+        "rows": 763,
+        "sections": 15,
+        "formats": 0,
+        "specifications": false,
+        "featured": false,
+        "odds": null,
+        "hasOdds": false,
+        "hasCards": true,
+        "unit": "source rows"
+      }
     }
   ],
   "coverage": {

@@ -3402,5 +3402,47 @@
         "url": "https://ripped.topps.com/uk/dropping-soon-topps-museum-uefa-club-competitions-2025-26/"
       }
     ]
+  },
+  {
+    "title": "2026 Topps Holiday Football",
+    "manufacturer": "Topps / Bowman",
+    "sport": "football",
+    "year": "2026",
+    "slug": "topps-bowman-2026-topps-holiday-football",
+    "page": "sets/topps-bowman-2026-topps-holiday-football.html",
+    "sourcePage": "https://www.topps.com/pages/topps-holiday-football",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Holiday_FB_Checklist.pdf?v=1790609327",
+    "releaseStatus": "Upcoming",
+    "releaseDate": null,
+    "verified": "2026-10-20",
+    "checklistFirstObserved": "2026-10-20",
+    "status": "Source table",
+    "rowCount": 763,
+    "tableData": "data/imports/topps-bowman-2026-topps-holiday-football.json",
+    "sections": 15,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "All 763 original subject rows across 15 sections retain separate printed card numbers, names, teams and 188 literal Rookie flags. Paper and Chrome each have 150 veteran and 50 rookie entries. Printed team assignments remain unchanged. The guide calls Dear Santa all rookies, but DS-BT Brenen Thompson has no printed Rookie flag and remains blank. The guide URL/FAQ uses 2025-26 wording separately from the 2026 title. No pack odds or numeric serial ladder is published in the checked product/current global sources; exhaustive parallel eligibility remains incomplete.",
+    "sha256": "667a525e9cf75dc472f46901dafd301f0c1b0482d1968598f49afabc1f78481f",
+    "dedicatedParser": "scripts/import_topps_holiday_football_2026.py",
+    "coverageComplete": true,
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/holiday-football-2026-product-guides-20261020.json",
+      "sha256": "a8e7d30e88da5ae86b0938b335079f691f4324b655a67d26911fd66ca20d9db8",
+      "source": "https://www.topps.com/pages/topps-holiday-football"
+    },
+    "catalogEvidence": "All 763 original subject rows across 15 sections retain separate printed card numbers, names, teams and 188 literal Rookie flags. Paper and Chrome each have 150 veteran and 50 rookie entries. Printed team assignments remain unchanged. The guide calls Dear Santa all rookies, but DS-BT Brenen Thompson has no printed Rookie flag and remains blank. The guide URL/FAQ uses 2025-26 wording separately from the 2026 title. No pack odds or numeric serial ladder is published in the checked product/current global sources; exhaustive parallel eligibility remains incomplete.",
+    "odds": 0,
+    "formats": 0,
+    "additionalSources": [
+      {
+        "label": "Official product guide",
+        "url": "https://ripped.topps.com/topps-holiday-football-history/"
+      },
+      {
+        "label": "Official product guide",
+        "url": "https://ripped.topps.com/2025-26-topps-holiday-football-top-cards-collector-guide/"
+      }
+    ],
+    "description": "Paper and Chrome base programs, Holiday Back and Holiday Spirit variations, Hidden Elf, winter inserts, autographs and Dear Santa relic autographs. Browse original teams and literal rookie marks; pack odds and serial limits remain unavailable."
   }
 ]

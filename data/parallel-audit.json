@@ -6379,6 +6379,20 @@
           "evidenceSha256": "e46958b2de9946bf327762ea1eaf3c81bc8e8912d43d329a07c4b7462606b565"
         }
       ]
+    },
+    {
+      "slug": "topps-bowman-2026-topps-holiday-football",
+      "title": "2026 Topps Holiday Football",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/topps-holiday-football",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": false,
+      "ongoingSeries": false,
+      "status": "Supplementary parallel and numbering review pending",
+      "conflicts": []
     }
   ]
 }

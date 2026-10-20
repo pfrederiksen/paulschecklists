@@ -345,6 +345,15 @@
       "statement": "Wednesday, Nov 18 2026 Topps Pro Debut Baseball",
       "scope": "U.S. release spotlight; event is not marked Pre-order; November 18, 2026 scheduled release is subject to change. October 19 was the separate preorder.",
       "sha256": "c793f3dbc04f2d52187314aeb2129040036855d1acb32c1d1a09335a42b3362b"
+    },
+    {
+      "url": "https://www.topps.com/release-calendar",
+      "title": "Topps U.S. release calendar: 2026 Topps Holiday Football",
+      "observed": "2026-10-20",
+      "method": "Fresh official IAB calendar read; product landing page corroborates Available October 23 at 1pm ET",
+      "statement": "Friday, Oct 23 at 10:00 AM PDT 2026 Topps Holiday Football",
+      "scope": "U.S. release calendar; event is not marked Pre-order; October 23, 2026 scheduled release is subject to change.",
+      "sha256": "9fb1725ab3e8fa1ac9a7b82ed1ca060099e8f1a9314f7e34f0e2e829baffa4fd"
     }
   ],
   "dates": [
@@ -575,6 +584,12 @@
       "releaseDate": "2026-11-18",
       "releaseStatus": "Upcoming",
       "source": 37
+    },
+    {
+      "slug": "topps-bowman-2026-topps-holiday-football",
+      "releaseDate": "2026-10-23",
+      "releaseStatus": "Upcoming",
+      "source": 38
     }
   ],
   "unresolved": [

@@ -14993,5 +14993,32 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-holiday-football": {
+    "state": {
+      "checklistHash": "667a525e9cf75dc472f46901dafd301f0c1b0482d1968598f49afabc1f78481f",
+      "oddsHash": null,
+      "rows": 763,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "cb427c42dcb3fdad1edc85e829a19f497c6a434f784d13615a339a862f5fb2f9",
+    "events": [
+      {
+        "at": "2026-10-20T05:11:37.108Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Holiday_FB_Checklist.pdf?v=1790609327",
+        "snapshot": {
+          "checklistHash": "667a525e9cf75dc472f46901dafd301f0c1b0482d1968598f49afabc1f78481f",
+          "oddsHash": null,
+          "rows": 763,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }
