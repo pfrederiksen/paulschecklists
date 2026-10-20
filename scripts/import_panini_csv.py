@@ -17,6 +17,7 @@ for filename in sys.argv[1:]:
  assert all(row[:4]==[sport,year,brand,program] for row in original)
  title=f'{year} Panini {program} {sport}'
  slug='panini-'+re.sub('[^a-z0-9]+','-',title.lower()).strip('-')
+ prior=next((r for r in catalog['sets'] if r['slug']==slug),None)
  product_year=year
  season=re.search(r' \((\d{2})-(\d{2})\)$',program)
  if season and year.endswith(season[1]):
@@ -47,9 +48,27 @@ for filename in sys.argv[1:]:
   if program=='EuroLeague Origins (25-26)':
    guide=observations['releaseEvidence'][1]['source']
    payload['publishedSpecifications'].append({'name':'Manufacturer box contents and qualified numbering range','worksheet':'Official June 18, 2026 announcement; averages are not pack odds','headers':['Published field','Published value','Official source'],'rows':[[*r,guide] for r in observations['euroleagueOriginsSpecifications']],'source':guide,'evidenceFile':evidence['file'],'evidenceSha256':evidence['sha256']})
+ if prior and prior.get('productGuideContext'):
+  for key in ['productGuideContext','productGuideObservation','additionalSources']:
+   if key in prior:record[key]=prior[key]
+  if program=='Par Three LIV':
+   guide_note='Retained October 18 official Hobby and FOTL product-guide observations: both configurations state 3 cards per pack, 1 pack per box and 10 boxes per case. Hobby box averages are one slabbed autograph, one slabbed base/base parallel and one slabbed memorabilia card or insert. FOTL separately names Purple Autograph /6 and Purple Base Parallel /11; no other family inherits those limits. Gold /10 is named only for Downtown and Downtown Tournament Champions. Current card-level eligibility and SEQUENCE values come from the complete October 20 CSV, including differing limits within individual programs. Both full exports list four subjects on quad cards, while the official website table shows two; all four original CSV subjects and their aligned teams remain retained. The alternate export changes multi-subject ordering without changing the aligned subject/team/position facts or numbering. Blank SEQUENCE cells remain unpublished. Box averages are not pack odds; historical Coming soon and auction-start wording do not establish a general release date.'
+   audit+=' '+guide_note
+   record.update(catalogEvidence=audit,dataAudit=audit)
+   payload.setdefault('sourceSheets',[]).append({'name':'Retained manufacturer configuration and guide context','notes':[[guide_note]],'source':SOURCE,'evidenceFile':prior['productGuideObservation']['file'],'evidenceSha256':prior['productGuideObservation']['sha256']})
+  if prior.get('importKind')=='panini-source-only':
+   record['priorSourceOnlyEvidence']={k:prior[k] for k in ['sourceExport','sha256','sourceObservation','checklistFirstObserved']}
+   payload['priorSourceOnlyEvidence']=record['priorSourceOnlyEvidence']
+  elif prior.get('priorSourceOnlyEvidence'):
+   record['priorSourceOnlyEvidence']=prior['priorSourceOnlyEvidence']
+   payload['priorSourceOnlyEvidence']=prior['priorSourceOnlyEvidence']
  (ROOT/path).write_text(json.dumps(payload,ensure_ascii=False)+'\n')
  for collection in [catalog['sets'],inventory]:
-  collection[:]=[r for r in collection if r['slug']!=slug and not (r.get('dedicatedParser')=='scripts/import_panini_csv.py' and r.get('sourceSelection')==payload['sourceSelection'])];collection.append(record)
+  matches=[i for i,r in enumerate(collection) if r['slug']==slug or (r.get('dedicatedParser')=='scripts/import_panini_csv.py' and r.get('sourceSelection')==payload['sourceSelection'])]
+  if matches:
+   collection[matches[0]]=record
+   for i in reversed(matches[1:]):del collection[i]
+  else:collection.append(record)
  print(title,len(rows),'rows',sum(s['headers']==['Card number','Athlete','Published SEQUENCE'] for s in specs),'numbered families')
 catalog_path.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
 inventory_path.write_text(json.dumps(inventory,ensure_ascii=False,indent=2)+'\n')

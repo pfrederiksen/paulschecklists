@@ -1,14 +1,14 @@
 {
   "observed": "2026-10-20",
   "sourceKind": "official-browser-active-listing",
-  "checkedUtc": "2026-10-20T21:38:08.196212+00:00",
+  "checkedUtc": "2026-10-20T22:41:36.412217+00:00",
   "freshListingReadsComplete": true,
   "pendingFreshListingReads": [],
   "listings": [
     {
       "url": "https://www.topps.com/collections/topps-now",
       "pagesObserved": 3,
-      "reportedProductCount": 60,
+      "reportedProductCount": 59,
       "products": [
         {
           "title": "Brock Purdy - 2026-27 NFL Topps NOW® - Card 75",
@@ -241,10 +241,6 @@
         {
           "title": "Jérémy Doku - 2026-27 Premier League Topps NOW® - Card 42",
           "url": "https://www.topps.com/products/jeremy-doku-2026-27-premier-league-topps-now-r-card-42"
-        },
-        {
-          "title": "Stephen Mfuni - 2026-27 Premier League Topps NOW® - Card 43",
-          "url": "https://www.topps.com/products/stephen-mfuni-2026-27-premier-league-topps-now-r-card-43"
         },
         {
           "title": "Coventry City - 2026-27 Premier League Topps NOW® - Card 44",

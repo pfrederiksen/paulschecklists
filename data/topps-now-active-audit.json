@@ -1,6 +1,6 @@
 {
   "observed": "2026-10-20",
-  "listingSha256": "3bfd2861bd298a6b7086370fb805ff1fbc4d6d8b8bb5e75e1196e07bf0beb399",
+  "listingSha256": "c6fc61cef7554761bb3592299691c6b1ad7ed1901d84b357769ce6a6132e6983",
   "historicalCoverageComplete": false,
   "products": [
     {
@@ -294,11 +294,6 @@
       "status": "published"
     },
     {
-      "title": "Stephen Mfuni - 2026-27 Premier League Topps NOW® - Card 43",
-      "url": "https://www.topps.com/products/stephen-mfuni-2026-27-premier-league-topps-now-r-card-43",
-      "status": "published"
-    },
-    {
       "title": "Coventry City - 2026-27 Premier League Topps NOW® - Card 44",
       "url": "https://www.topps.com/products/coventry-city-2026-27-premier-league-topps-now-r-card-44",
       "status": "published"
@@ -324,7 +319,7 @@
       "status": "published"
     }
   ],
-  "publishedCount": 64,
-  "uniquePublishedCount": 60,
+  "publishedCount": 63,
+  "uniquePublishedCount": 59,
   "remaining": []
 }

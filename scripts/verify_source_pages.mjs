@@ -89,6 +89,13 @@ for(const set of cases){
   get('source-section').value=numbered[0];get('source-section').onchange();get('source-team').value=numbered[10];get('source-team').onchange();get('source-search').value=numbered[2];get('source-search').oninput();assert(get('source-results').innerHTML.includes('title="/'+numbered[3]+'"'), 'Published SEQUENCE must display as out-of numbering');
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();assert(csv.includes('"SPORT","YEAR","BRAND","PROGRAM","CARD SET","ATHLETE","TEAM","POSITION","CARD NUMBER","SEQUENCE"'));assert(csv.includes('"'+String(numbered[2]).replaceAll('"','""')+'"'));get('source-reset').onclick();
  }
+ if(set.slug==='panini-2026-panini-par-three-liv-golf'){
+  assert.equal(data.rows.length,1935);assert.equal(categoryNumbering(data,'Tee Box Signatures'),'Varies by card; see official card details');assert.equal(categoryNumbering(data,'Downtown'),'Not published');assert.equal(categoryNumbering(data,'Downtown Gold'),'/10');assert.equal(categoryNumbering(data,'Base Purple FOTL'),'/11');
+  get('source-odds-tab').onclick();get('source-section').value='Tee Box Signatures';get('source-section').onchange();get('source-search').value='Bryson DeChambeau';get('source-search').oninput();
+  assert(primarySpecifications().includes('Bryson DeChambeau')&&primarySpecifications().includes('/75')&&!primarySpecifications().includes('Phil Mickelson')&&!primarySpecifications().includes('/99'),'Per-card limits must not spread across the autograph family');
+  get('source-cards-tab').onclick();get('source-reset').onclick();get('source-section').value='Quad Team Swatches';get('source-section').onchange();get('source-search').value='Thomas Detry';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});get('source-export').onclick();for(const subject of ['Thomas Detry','Dustin Johnson','Thomas Pieters','Anthony Kim'])assert(csv.includes(subject),'Quad CSV export must retain every printed subject');get('source-reset').onclick();
+ }
  if(set.slug==='leaf-2026-leaf-metal-st-patrick-s-day'){
   get('source-odds-tab').onclick();
   for(const name of ['Luck of the Irish','Luck of the irish']){

@@ -2100,34 +2100,32 @@
     "checklistUrl": "https://www.paniniamerica.net/checklist.html",
     "releaseStatus": "Unverified",
     "releaseDate": null,
-    "verified": "2026-10-18",
-    "checklistFirstObserved": "2026-10-18",
-    "status": "Official source",
-    "coverageComplete": false,
+    "verified": "2026-10-20",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2026-panini-par-three-liv-golf.json",
+    "rowCount": 1935,
+    "sections": 91,
+    "parallelData": true,
     "publishedOdds": false,
-    "parallelData": false,
-    "importKind": "panini-source-only",
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "80215dce0e53ef4ecfe13de54b3e4fb0ecb028d73c877a28def5ba5c3102bb81",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2026-panini-par-three-liv-golf.csv",
     "sourceSelection": {
       "sport": "Golf",
       "year": "2026",
       "brand": "Panini",
       "program": "Par Three LIV"
     },
-    "sourceExport": "data/official-panini/pending/panini-2026-panini-par-three-liv-golf.csv",
-    "sha256": "686188d1aa115b1eb78922d8c0502b7aceccde3ab17fb63607ad7953ecd01f95",
+    "catalogEvidence": "All 1,935 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-20; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending. Retained October 18 official Hobby and FOTL product-guide observations: both configurations state 3 cards per pack, 1 pack per box and 10 boxes per case. Hobby box averages are one slabbed autograph, one slabbed base/base parallel and one slabbed memorabilia card or insert. FOTL separately names Purple Autograph /6 and Purple Base Parallel /11; no other family inherits those limits. Gold /10 is named only for Downtown and Downtown Tournament Champions. Current card-level eligibility and SEQUENCE values come from the complete October 20 CSV, including differing limits within individual programs. Both full exports list four subjects on quad cards, while the official website table shows two; all four original CSV subjects and their aligned teams remain retained. The alternate export changes multi-subject ordering without changing the aligned subject/team/position facts or numbering. Blank SEQUENCE cells remain unpublished. Box averages are not pack odds; historical Coming soon and auction-start wording do not establish a general release date.",
+    "dataAudit": "All 1,935 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-20; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending. Retained October 18 official Hobby and FOTL product-guide observations: both configurations state 3 cards per pack, 1 pack per box and 10 boxes per case. Hobby box averages are one slabbed autograph, one slabbed base/base parallel and one slabbed memorabilia card or insert. FOTL separately names Purple Autograph /6 and Purple Base Parallel /11; no other family inherits those limits. Gold /10 is named only for Downtown and Downtown Tournament Champions. Current card-level eligibility and SEQUENCE values come from the complete October 20 CSV, including differing limits within individual programs. Both full exports list four subjects on quad cards, while the official website table shows two; all four original CSV subjects and their aligned teams remain retained. The alternate export changes multi-subject ordering without changing the aligned subject/team/position facts or numbering. Blank SEQUENCE cells remain unpublished. Box averages are not pack odds; historical Coming soon and auction-start wording do not establish a general release date.",
+    "checklistFirstObserved": "2026-10-20",
     "sourceObservation": {
-      "file": "data/official-panini/all-sport-2026-observations-20261018-2100.json",
-      "sha256": "4cae037f02a70a24942ed6edd52cacf5330ff443cadb7a9e187cb0edd64881ca",
+      "file": "data/official-panini/golf-2026-observations-20261020-2200.json",
+      "sha256": "0d438dd591522220d70b455992dd4aa0f1859a4cc16406b8aa580415d9afd89b",
       "source": "https://www.paniniamerica.net/checklist.html",
-      "method": "Fresh official checklist UI reads through native Safari accessibility controls. Each sport/year/brand/program was selected and Download Full Checklist was clicked. Original UTF-8 CSV files were read from the filenames displayed in Safari Downloads; bytes are retained unchanged."
-    },
-    "description": "Source-only: the official card checklist is empty. Separately published Hobby and FOTL product specifications appear in the source explanation; no card roster or eligibility is inferred.",
-    "catalogEvidence": "Source-only page. The official Golf / 2026 / Panini / Par Three LIV selection lists no cardsets; its full CSV has ten headers and no card rows. The Hobby product page separately publishes Gold numbered /10 for Downtown and Downtown Tournament Champions only. FOTL product context separately names Purple Autograph /6 and Purple Base Parallel /11; those FOTL terms do not apply to regular Hobby or every autograph program. Both product configurations state 3 cards per pack, 1 pack per box and 10 boxes per case. Hobby box averages are one slabbed autograph, one slabbed base/base parallel and one slabbed memorabilia card or insert; FOTL substitutes its two named Purple terms. Box averages are not pack odds. Named signature programs are Clubhouse Collection Signatures, LIV Tournament Champions Signatures and LIV Moments Signatures. Bubba Watson, Bryson DeChambeau and Phil Mickelson are product examples, not a complete autograph roster. FOTL key-athlete examples also list printed Joaquinn Niemann, Jon Rahm and Anthony Kim; no card numbers or eligibility are inferred. Product pages say Coming soon; their countdowns, last-updated dates and October 15 FOTL auction start do not establish a general release date. A complete card roster, exact source-family joins, pack odds and exhaustive numbering remain unavailable or unverified.",
-    "importIssue": "Official program listed; cardset selector is empty and full CSV is header-only. Awaiting published card rows, not a completed card import.",
-    "productGuideObservation": {
-      "file": "data/parallel-audit-sources/panini-guide-reconciliation-20261018-2200.json",
-      "sha256": "4cd93a10891d723fc7e6793158a8ccb0433418fcde16cdb2f3654a9de32ef696",
-      "hashKind": "retained normalized official web factual excerpts; not raw HTML"
+      "method": "Fresh official browser Golf / 2026 / Panini / Par Three LIV selection; Download Full Checklist generated a data:attachment/csv link in the DOM. Its URL-encoded UTF-8 payload was decoded without editing the CSV cells. All cardset names and visible table columns were separately read from the official UI."
     },
     "productGuideContext": [
       {
@@ -2223,6 +2221,11 @@
         }
       }
     ],
+    "productGuideObservation": {
+      "file": "data/parallel-audit-sources/panini-guide-reconciliation-20261018-2200.json",
+      "sha256": "4cd93a10891d723fc7e6793158a8ccb0433418fcde16cdb2f3654a9de32ef696",
+      "hashKind": "retained normalized official web factual excerpts; not raw HTML"
+    },
     "additionalSources": [
       {
         "label": "Official Hobby product guide",
@@ -2232,6 +2235,17 @@
         "label": "Official FOTL product guide",
         "url": "https://www.paniniamerica.net/1st-off-the-line-2026-panini-par-three-liv-golf-trading-card-box.html"
       }
-    ]
+    ],
+    "priorSourceOnlyEvidence": {
+      "sourceExport": "data/official-panini/pending/panini-2026-panini-par-three-liv-golf.csv",
+      "sha256": "686188d1aa115b1eb78922d8c0502b7aceccde3ab17fb63607ad7953ecd01f95",
+      "sourceObservation": {
+        "file": "data/official-panini/all-sport-2026-observations-20261018-2100.json",
+        "sha256": "4cae037f02a70a24942ed6edd52cacf5330ff443cadb7a9e187cb0edd64881ca",
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "method": "Fresh official checklist UI reads through native Safari accessibility controls. Each sport/year/brand/program was selected and Download Full Checklist was clicked. Original UTF-8 CSV files were read from the filenames displayed in Safari Downloads; bytes are retained unchanged."
+      },
+      "checklistFirstObserved": "2026-10-18"
+    }
   }
 ]

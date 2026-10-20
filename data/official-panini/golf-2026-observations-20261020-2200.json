@@ -1,0 +1,70 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T22:40:33.183105+00:00",
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "method": "Fresh official browser Golf / 2026 / Panini / Par Three LIV selection; Download Full Checklist generated a data:attachment/csv link in the DOM. Its URL-encoded UTF-8 payload was decoded without editing the CSV cells. All cardset names and visible table columns were separately read from the official UI.",
+  "exports": [
+    {
+      "sha256": "80215dce0e53ef4ecfe13de54b3e4fb0ecb028d73c877a28def5ba5c3102bb81",
+      "sourceSelection": {
+        "sport": "Golf",
+        "year": "2026",
+        "brand": "Panini",
+        "program": "Par Three LIV"
+      },
+      "rows": 1935,
+      "families": 91,
+      "retainedCsv": "data/official-panini/panini-2026-panini-par-three-liv-golf.csv"
+    }
+  ],
+  "tableObservation": {
+    "file": "data/official-panini/par-three-liv-2026-table-observations-20261020-2200.json",
+    "sha256": "f8b341536863a18f9be8e14ef004c8daab182181ea3def92e519b6052ef9e27a"
+  },
+  "tableValidation": {
+    "families": 91,
+    "rows": 1935,
+    "numberedRows": 1920,
+    "numberedFamilies": 89,
+    "blankSequenceRows": 15,
+    "uiBlankSequenceHyphenPlaceholders": 15,
+    "uiMultiSubjectOrderDifferences": 41,
+    "quadRowsWithTwoUiSubjectsAndFourExportSubjects": 78,
+    "allCardNumbersAndSequenceValuesMatch": true
+  },
+  "alternateExport": {
+    "file": "data/official-panini/alternates/panini-2026-panini-par-three-liv-golf-product-20261020-2200.csv",
+    "sha256": "ef4890c431a6762bba33b8cbc5c42c8c8a9ac755835d6758640fb0e488a89c97",
+    "source": "https://www.paniniamerica.net/2026-panini-par-three-liv-golf-trading-card-box-hobby.html",
+    "rows": 1935,
+    "families": 91,
+    "differentMultiSubjectOrderRows": 112,
+    "sameAlignedAthleteTeamPositionTuples": true
+  },
+  "currentProductReview": {
+    "url": "https://www.paniniamerica.net/2026-panini-par-three-liv-golf-trading-card-box-hobby.html",
+    "statusText": "Coming soon",
+    "cardsPerPack": 3,
+    "packsPerBox": 1,
+    "boxesPerCase": 10,
+    "boxAverages": [
+      "1 Slabbed Autograph",
+      "1 Slabbed Base/Base Parallel",
+      "1 Slabbed Memorabilia Card/Insert"
+    ],
+    "goldNumbering": "/10",
+    "exactGoldPrograms": [
+      "Downtown",
+      "Downtown Tournament Champions"
+    ],
+    "pdfLinks": [],
+    "generalReleaseDateVerified": false,
+    "qualification": "Actual current product UI read. Countdown and Add to Calendar control do not supply a verified general release date. Box averages are not pack odds."
+  },
+  "priorHeaderOnlyObservation": {
+    "file": "data/official-panini/all-sport-2026-observations-20261018-2100.json",
+    "sha256": "4cae037f02a70a24942ed6edd52cacf5330ff443cadb7a9e187cb0edd64881ca"
+  },
+  "parallelAuditComplete": false,
+  "remainingGaps": "Published CSV coverage is complete for this observed export. General calendar release and pack odds remain unverified. The site displays two subjects on quad cards while both exports retain four; original primary CSV cells and both export hashes remain retained. Exhaustive guide/parallel reconciliation remains incomplete."
+}

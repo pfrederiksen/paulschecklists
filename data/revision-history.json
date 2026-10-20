@@ -15247,14 +15247,37 @@
   },
   "panini-2026-panini-par-three-liv-golf": {
     "state": {
-      "checklistHash": null,
+      "checklistHash": "80215dce0e53ef4ecfe13de54b3e4fb0ecb028d73c877a28def5ba5c3102bb81",
       "oddsHash": null,
-      "rows": 0,
+      "rows": 1935,
       "odds": 0,
-      "specificationRows": 0
+      "specificationRows": 1920
     },
-    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "fingerprint": "01327d9d182c577d8e50adbe6f8e30c456e05690ffd099f8c97db1a1554390dd",
     "events": [
+      {
+        "at": "2026-10-20T22:41:48.077Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 0 → 1935",
+          "Supplementary specification rows: 0 → 1920"
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": "80215dce0e53ef4ecfe13de54b3e4fb0ecb028d73c877a28def5ba5c3102bb81",
+          "oddsHash": null,
+          "rows": 1935,
+          "odds": 0,
+          "specificationRows": 1920
+        },
+        "previousSnapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        }
+      },
       {
         "at": "2026-10-18T21:39:44.541Z",
         "changes": [

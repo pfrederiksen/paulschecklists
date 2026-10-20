@@ -50,4 +50,4 @@ for record in pending:
    facts=json.dumps(snapshot['facts'],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
    assert hashlib.sha256(facts).hexdigest()==snapshot['sha256']
   assert 'FOTL' in record['catalogEvidence'] and 'Box averages are not pack odds' in record['catalogEvidence']
-print(f"Verified {len(pending)} explicit source-only Panini programs with header-only exports; card coverage remains incomplete.")
+print(f"Verified {len(pending)} explicit source-only Panini programs with header-only exports; "+('card coverage remains incomplete.' if pending else 'full manufacturer release inventory and revision coverage remain under review.'))
