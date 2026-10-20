@@ -5468,7 +5468,8 @@
         "qualification": "New base parallel; format not specified. Individual-card eligibility is not inferred.",
         "sourceHeading": "What’s Inside / format descriptions / FAQs",
         "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
-        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba",
+        "oddsName": "BASE CARDS METALLIC GINGERBREAD MAN"
       },
       {
         "family": "BASE CARDS",
@@ -5478,7 +5479,8 @@
         "qualification": "New base parallel; guide also names it in Advent Calendar base slots. Individual-card eligibility is not inferred.",
         "sourceHeading": "What’s Inside / format descriptions / FAQs",
         "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
-        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba",
+        "oddsName": "BASE CARDS SNOW DAYS"
       },
       {
         "family": "BASE CARDS",
@@ -5488,7 +5490,8 @@
         "qualification": "Hobby Mega Box exclusive parallel family. Individual-card eligibility is not inferred.",
         "sourceHeading": "What’s Inside / format descriptions / FAQs",
         "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
-        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba",
+        "oddsName": "BASE CARDS GLITTER HOLIDAY"
       },
       {
         "family": "BASE CARDS",
@@ -5508,7 +5511,8 @@
         "qualification": "Retain the single combined phrase printed in the Hobby Mega Box description; no separate color identities inferred. Individual-card eligibility is not inferred.",
         "sourceHeading": "What’s Inside / format descriptions / FAQs",
         "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
-        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba",
+        "oddsName": "BASE CARDS LIGHT BLUE AND WHITE GLITTER HOLIDAY"
       },
       {
         "family": "BASE CARDS",
@@ -5558,7 +5562,8 @@
         "qualification": "Advent Calendar exclusive. Individual-card eligibility is not inferred.",
         "sourceHeading": "What’s Inside / format descriptions / FAQs",
         "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
-        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba",
+        "oddsName": "BASE CARDS HOLIDAY PLAID"
       },
       {
         "family": "BASE CARDS",
@@ -5578,7 +5583,8 @@
         "qualification": "Chrome counterpart family only. Individual-card eligibility is not inferred.",
         "sourceHeading": "What’s Inside / format descriptions / FAQs",
         "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
-        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba",
+        "oddsName": "BASE CHROME VARIATION REFRACTOR"
       },
       {
         "family": "BASE CARDS CHROME VARIATION",
@@ -5598,7 +5604,8 @@
         "qualification": "Advent Calendar exclusive; guide names colors from Green to Red without an exhaustive individual color list or limits. Individual-card eligibility is not inferred.",
         "sourceHeading": "What’s Inside / format descriptions / FAQs",
         "evidenceFile": "data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json",
-        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba"
+        "evidenceSha256": "c27680955d693d0a2d6eb57babf94dff445c9266f453a5e0ba82deeed490fdba",
+        "oddsName": "BASE CHROME VARIATION REFRACTOR PLAID"
       }
     ],
     "topps-bowman-2026-topps-heritage-football": [

@@ -162,6 +162,11 @@ def build():
                                   sourceHeading='What’s Inside / format descriptions / FAQs',
                                   evidenceFile=str(PROOF.relative_to(ROOT)), evidenceSha256=proof_hash)
                               for family, name, numbering, qualifier in proof['parallelPrograms']]
+    for spec in registry['sets'][SLUG]:
+        name = odds_proof['guideOddsJoins'].get(spec['name'])
+        if name:
+            assert any(o['name'] == name and o['family'] == spec['family'] for o in odds)
+            spec['oddsName'] = name
     registry['conflicts'] = [c for c in registry.get('conflicts', []) if c['slug'] != SLUG] + [
         {'slug': SLUG, 'family': 'HIDDEN ELF', 'issue': proof['remainingGaps'][2], 'source': proof['source'],
          'evidenceFile': str(PROOF.relative_to(ROOT)), 'evidenceSha256': proof_hash},

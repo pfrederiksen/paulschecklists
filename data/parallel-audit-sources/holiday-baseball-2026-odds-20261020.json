@@ -63,6 +63,17 @@
     "The seven autograph odds categories have no separately published roster and never join the base or non-autograph relic families.",
     "The 25TH caption is not a /25 serial claim; Superfractor alone does not establish a 1/1 limit. No new serial-number ladder is supplied.",
     "The Hidden Elf five-player guide description versus 25 named PDF subjects remains unresolved.",
-    "The original combined Light Blue and White name stays one published odds category. No separate colors are inferred."
-  ]
+    "The original combined Light Blue and White name stays one published odds category. No separate colors are inferred.",
+    "Blue Metallic Glitter Holiday, Candy Cane, Stocking, Holly, Exclusive Holiday Lights, Sticker and Sparkle retain the guide wording separately; no unreviewed equivalent odds caption is selected."
+  ],
+  "guideOddsJoins": {
+    "Metallic Gingerbread Man": "BASE CARDS METALLIC GINGERBREAD MAN",
+    "Snow Days": "BASE CARDS SNOW DAYS",
+    "Glitter Holiday": "BASE CARDS GLITTER HOLIDAY",
+    "Light Blue and White Glitter Holiday": "BASE CARDS LIGHT BLUE AND WHITE GLITTER HOLIDAY",
+    "Holiday Plaid": "BASE CARDS HOLIDAY PLAID",
+    "Refractor": "BASE CHROME VARIATION REFRACTOR",
+    "Refractor Plaid": "BASE CHROME VARIATION REFRACTOR PLAID"
+  },
+  "guideJoinQualification": "Seven exact family/name overlaps join existing guide specifications to the literal PDF odds category. No numeric serial limits are added. Other guide labels retain their original wording and qualified scopes without selecting an odds synonym."
 }

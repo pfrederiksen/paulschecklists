@@ -84,6 +84,10 @@ assert hashlib.sha256((ROOT / data['oddsEvidence']['file']).read_bytes()).hexdig
 registry = json.loads((ROOT / 'data/parallel-specifications.json').read_text())
 programs = registry['sets'][SLUG]
 assert len(programs) == 14 and all(s['numbering'] == 'Numbering not stated' for s in programs)
+assert len([s for s in programs if s.get('oddsName')]) == 7
+for spec in programs:
+    if spec.get('oddsName'):
+        assert by_name[spec['oddsName']]['family'] == spec['family']
 assert {p['family'] for p in programs if p['name'] in ['Refractor', 'Sparkle', 'Refractor Plaid']} == {'BASE CARDS CHROME VARIATION'}
 assert not any(p['name'] in ['Green Refractor Plaid', 'Red Refractor Plaid', 'Light Blue Glitter Holiday', 'White Glitter Holiday'] for p in programs)
 for spec in [*programs, *data['publishedSpecifications']]:

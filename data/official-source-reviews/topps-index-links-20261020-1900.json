@@ -4540,9 +4540,10 @@
       "verify_research": "Passed",
       "verify_release_dates": "Passed"
     },
-    "sourceScopeChecks": "Passed original physical card cells, literal format ratios, disabled computed rates, unjoined autograph families, no inferred /25 or 1/1, and filtered CSV exports.",
+    "sourceScopeChecks": "Passed all literal ratios, formats, family-scoped CSV exports and seven exact guide/odds joins without duplicate entries. Seven differing guide captions remain separate. No serial limits or per-pack rates inferred.",
     "domainBuild": "Passed Astro build; only four generated checklist artifacts changed.",
-    "publication": "Validated builds ready for commit, push and exact-head deployment verification."
+    "publication": "Validated builds ready for commit, push and exact-head deployment verification.",
+    "exactGuideOddsJoins": "Seven exact family/name overlaps reuse the original odds category without adding serial limits. Seven other guide terms retain their original wording separately."
   },
   "retainedEarlierGuideReviews": [
     {
@@ -4578,13 +4579,14 @@
       "literalNulls": 121,
       "newSerialLimits": 0,
       "autographOddsWithoutRoster": 7,
-      "parallelAuditComplete": false
+      "parallelAuditComplete": false,
+      "exactGuideOddsJoins": 7
     }
   ],
   "dedicatedImportEvidence": [
     {
       "file": "data/parallel-audit-sources/holiday-baseball-2026-odds-20261020.json",
-      "sha256": "097afc16b31e93a9a2caf2a3272c5715c2ab99e18263abb3a332acb9f7d82b3a"
+      "sha256": "f64e841ae812d685ef2eabe24a28d931e43902be4e95cd7f383b49cd35ad7db2"
     }
   ],
   "retainedPriorParallelGuideReview": {
