@@ -1,0 +1,58 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T15:24:03.867180+00:00",
+  "sourceKind": "official-browser-product-guide",
+  "method": "Fresh complete visible product landing text and document-link reads; normalized factual DOM snapshot, not raw HTML hash. Linked document bytes independently hash-checked. A focused official Ripped search returned no matching guide.",
+  "product": "2025 Topps Chrome Football Sapphire",
+  "uiRead": {
+    "links": [
+      {
+        "title": "Download checklist",
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Sapphire_Checklist_042926.pdf?v=1778615660"
+      },
+      {
+        "title": "Download odds",
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Football_Odds.pdf?v=1776193199"
+      },
+      {
+        "title": "Terms and Conditions",
+        "url": "https://www.eql.com/terms-conditions"
+      },
+      {
+        "title": "Privacy Policy",
+        "url": "https://www.eql.com/privacy-policy"
+      },
+      {
+        "title": "Terms and Conditions",
+        "url": "https://www.topps.com/pages/terms-conditions"
+      },
+      {
+        "title": "Privacy Notice",
+        "url": "https://www.topps.com/pages/privacy-policy"
+      },
+      {
+        "title": "here.",
+        "url": "https://www.topps.com/pages/topps-eql-faq"
+      }
+    ],
+    "text": "Don't miss the next release\n2025 Topps Chrome® Football Sapphire\nCrystal-finish football cards packed with rare parallels and rookie chases.\nGet notified\nDownload checklist\nDownload odds\nAbout the release\n\n2025 Topps Chrome Football Sapphire Edition brings a premium edge to one of the hobby’s most recognizable chromium brands, combining the return of licensed Topps NFL Chrome with Sapphire’s signature crystal-style finish. Building off the excitement around 2025 Topps Chrome Football’s return to the NFL space, Sapphire is expected to feature exclusive parallels, limited production, and a strong lineup of NFL stars, legends, and top rookies.\n\nCollectors can expect a mix of rookie content, low-numbered color, and premium autograph chases featuring the 2025 rookie class alongside established veterans and all-time greats. Popular Chrome inserts and autograph concepts are also expected to return with exclusive Sapphire treatments that have made the brand one of the most sought-after Chrome releases across the hobby.\n\nWith Topps Chrome Football reestablishing itself as one of the hobby’s top NFL releases, Sapphire delivers a more premium collector experience — combining clean designs, limited color, and strong rookie potential for collectors chasing the NFL’s next generation of stars.\n\nWhat are you chasing?\nSapphire Selection Autographs\n\nInfinite Sapphire\n\nRookie Autograph Variation Sapphire Edition\n\nChromographs Sapphire Edition\n\nWho is EQL?\n\nEQL is a third-party commerce platform that helps manage the launch of exclusive products. Topps has now partnered with EQL to help manage new launches of unique and limited-edition Topps products. EQL helps us slow down bots and to deliver a launch that is fair.\n\nPartnering with EQL means that:\n\nEvery entry goes through a multi-step security verification process that confirms you are a human, slowing down bots from submitting orders.\n\nOne entry per person because entries are deduplicated against unique identification tags.\n\nIt should be simple to enter – once you have a verified EQL account, entering becomes a breeze.\n\nPLEASE READ THE FOLLOWING TERMS AND CONDITIONS AND PRIVACY POLICIES BEFORE ATTEMPTING TO PARTICIPATE IN AN EQL RELEASE:\n\n* EQL’s Terms and Conditions and EQL’s Privacy Policy which govern your use of the EQL platform.* Topps.com’s Terms and Conditions and Privacy Notice which govern your use of Topps.com and your entry should your entry be selected by EQL.\nLearn more about the EQL draw here.\nAbout the brand\n\nTopps Chrome® Sapphire Edition represents the most refined expression of the Chrome brand, combining elite talent with a clean, jewel-like aesthetic. Built around premium Sapphire Chrome technology, the brand highlights the brightest stars, rising rookies, and all-time greats with unmatched clarity and shine.",
+    "url": "https://www.topps.com/pages/topps-chrome-football-sapphire"
+  },
+  "documentChecks": [
+    {
+      "kind": "checklist",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Sapphire_Checklist_042926.pdf?v=1778615660",
+      "sha256": "b90ab799ca671a04e302d220f73cc5c0f40de3fab2cce4ae23b29aba9fb8eb18",
+      "unchanged": true
+    },
+    {
+      "kind": "odds",
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Football_Odds.pdf?v=1776193199",
+      "sha256": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
+      "unchanged": true
+    }
+  ],
+  "reconciliation": "Landing page names Sapphire Selection Autographs, Infinite Sapphire, Rookie Autograph Variation Sapphire Edition and Chromographs Sapphire Edition. Low-numbered/exclusive color prose gives no numeric parallel limits, print runs or exact eligibility. Existing source and odds hashes remain unchanged. No regular Chrome limits are propagated to Sapphire.",
+  "parallelAuditComplete": false,
+  "remainingGap": "Exact numeric Sapphire parallel ladders and exhaustive family eligibility remain unpublished in this checked landing page."
+}
