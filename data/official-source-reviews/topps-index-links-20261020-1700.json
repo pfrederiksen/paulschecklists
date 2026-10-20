@@ -4450,7 +4450,8 @@
     "paniniCsvVerifier": "Passed: 61 retained exports and 569588 literal rows plus one explicit source-only header-only program. This is not a complete fresh CSV revision scan.",
     "publicRebuildRequired": true,
     "retainedCardDataChanged": false,
-    "publication": "Pending commit/push and actual deployment verification."
+    "publication": "Pending commit/push and actual deployment verification.",
+    "oddsUnits": "Verified physical headings Cards / Hobby on both PDF pages, with no ratio unit. Literal ratios retained; computed rates and rarest-odds sorting disabled."
   },
   "retainedEarlierGuideReviews": [
     {
@@ -4483,13 +4484,15 @@
       "quantityScopesWithoutSerialClaims": 2,
       "cardSpecificTripleExample": 1,
       "physicalSubjectsAndOddsUnchanged": true,
-      "parallelAuditComplete": false
+      "parallelAuditComplete": false,
+      "oddsUnitsPublished": false,
+      "computedPerPackRatesDisabled": true
     }
   ],
   "dedicatedImportEvidence": [
     {
       "file": "data/parallel-audit-sources/star-wars-galaxy-guides-20261020-1700.json",
-      "sha256": "9cb116681f59cd5e25016a86d90e42f2928b8420456b62b427258d01820cd75e"
+      "sha256": "2f2c9ea05568c9a00cb14ac36a04a768358814406d3641169f618829a849e63a"
     }
   ],
   "retainedPriorParallelGuideReview": {
@@ -4498,6 +4501,6 @@
   },
   "currentParallelGuideReview": {
     "file": "data/parallel-audit-sources/star-wars-galaxy-guides-20261020-1700.json",
-    "sha256": "9cb116681f59cd5e25016a86d90e42f2928b8420456b62b427258d01820cd75e"
+    "sha256": "2f2c9ea05568c9a00cb14ac36a04a768358814406d3641169f618829a849e63a"
   }
 }

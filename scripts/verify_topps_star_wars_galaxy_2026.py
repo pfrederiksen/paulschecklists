@@ -53,10 +53,14 @@ assert sum(r[1] == 'D-FO' for r in d['rows']) == 2
 op = p.with_name(SLUG + '-odds.pdf')
 assert hashlib.sha256(op.read_bytes()).hexdigest() == d['oddsSha256']
 assert len(d['odds']) == 110 and d['formats'] == ['Hobby']
+assert d['oddsUnitsPublished'] is False and d['formatNamesPublished'] is True
 assert next(o for o in d['odds'] if o['name'] == 'Art of Knights of the Old Republic')['family'] == 'ART OF KNIGHTS OF THE REPUBLIC'
 assert next(o for o in d['odds'] if o['name'] == 'Chrome Layers Original Art')['family'] == 'TOPPS CHROME LAYERS ORIGINAL ART'
 with pdfplumber.open(op) as pdf:
     source = collections.Counter(w['text'] for page in pdf.pages for w in page.extract_words() if re.fullmatch(r'[\d,.]+(?::[\d,.]+)+', w['text']))
+    for page in pdf.pages:
+        assert ' '.join(c or '' for c in page.find_tables()[0].extract()[0])=='Cards Hobby'
+        assert not re.search(r'pack rate|per.pack|odds per',page.extract_text(),re.I)
 assert source == collections.Counter(v for o in d['odds'] for v in o['values'].values() if v)
 proof = d['productConfigurationEvidence']
 assert hashlib.sha256((ROOT / proof['file']).read_bytes()).hexdigest() == proof['sha256']

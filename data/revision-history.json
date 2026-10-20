@@ -5215,10 +5215,33 @@
       "rows": 584,
       "odds": 110,
       "specificationRows": 8,
-      "specificationHash": "a5d1c2912d6bea2178f41da6bc16899106b75076ffedc73e06dcc09c146a47bf"
+      "specificationHash": "f4ce3188742b013accff38e6546564da3565adf22825169f1e780ab4b5b58828"
     },
-    "fingerprint": "cb304aa7dd2575dbf3ae0bda208f81862a3c9e463f247abc95917a9a087c0b62",
+    "fingerprint": "087f176f7c33528aed59799dcf98d8d5684db56ec1a76402f60bf35c476a54bb",
     "events": [
+      {
+        "at": "2026-10-20T17:33:23.766Z",
+        "changes": [
+          "Official supplementary specification changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26SWCGCHECKLISTUPDATE.pdf?v=1787977075",
+        "snapshot": {
+          "checklistHash": "5f1188e5b9569d16b86616b8d61771e1cfbeb5b503743dd99df9304db5585e3e",
+          "oddsHash": "81c612e3b2ba9164c990abdf2ee91d7fa21661c3253aba34d6054be6b996b7ea",
+          "rows": 584,
+          "odds": 110,
+          "specificationRows": 8,
+          "specificationHash": "f4ce3188742b013accff38e6546564da3565adf22825169f1e780ab4b5b58828"
+        },
+        "previousSnapshot": {
+          "checklistHash": "5f1188e5b9569d16b86616b8d61771e1cfbeb5b503743dd99df9304db5585e3e",
+          "oddsHash": "81c612e3b2ba9164c990abdf2ee91d7fa21661c3253aba34d6054be6b996b7ea",
+          "rows": 584,
+          "odds": 110,
+          "specificationRows": 8,
+          "specificationHash": "a5d1c2912d6bea2178f41da6bc16899106b75076ffedc73e06dcc09c146a47bf"
+        }
+      },
       {
         "at": "2026-10-20T17:22:19.891Z",
         "changes": [

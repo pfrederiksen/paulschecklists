@@ -15,6 +15,8 @@ def apply_specs():
     dp=ROOT/record['tableData'];data=json.loads(dp.read_text())
     before=data['sha256'],data['oddsSha256'],data['rows'],data['odds']
     assert len(data['rows'])==584 and len(data['odds'])==110
+    assert proof['oddsUnitReview']['url']==data['oddsSource'] and proof['oddsUnitReview']['sha256']==data['oddsSha256']
+    data.update(oddsUnitsPublished=False,formatNamesPublished=True)
     for spec in proof['approvedNumbering']:
         assert any(o['name']==spec['oddsName'] for o in data['odds'])
     collector=proof['guides'][1]['url'];hobby=proof['guides'][0]['url']
@@ -28,11 +30,11 @@ def apply_specs():
     data['parallelGuideEvidence']=dict(file=evidence['evidenceFile'],sha256=digest,sources=[hobby,collector])
     for sheet in data.get('sourceSheets',[]):
         for row in sheet.get('notes',[]):
-            if row and row[0]=='Parallel audit':row[1]='Fresh official Hobby and Collector guides confirm only the base SuperFractor 1/1. Base Red LogoFractor and named Pedro Pascal five-copy claims retain unstated serial marking. The triple-card example and case distributions remain qualified. Exhaustive parallel eligibility and numbering remain incomplete.'
+            if row and row[0]=='Parallel audit':row[1]='Fresh official Hobby and Collector guides confirm only the base SuperFractor 1/1. Base Red LogoFractor and named Pedro Pascal five-copy claims retain unstated serial marking. The triple-card example and case distributions remain qualified. The odds PDF names Hobby but no ratio unit; ratios remain literal without computed per-pack rates. Exhaustive parallel eligibility and numbering remain incomplete.'
     assert before==(data['sha256'],data['oddsSha256'],data['rows'],data['odds'])
     dp.write_text(json.dumps(data,ensure_ascii=False)+'\n')
     note=('All 366 numbered subject rows and 218 unnumbered sketch-artist entries retain original physical cells and all 110 literal Hobby odds. '
-      'Fresh official guides map base SuperFractor 1/1 only. Base Red LogoFractor and GA-PP Pedro Pascal five-copy quantities have unstated serial marking; '
+      'The odds PDF names Hobby without a ratio unit; no per-pack rates are computed. Fresh official guides map base SuperFractor 1/1 only. Base Red LogoFractor and GA-PP Pedro Pascal five-copy quantities have unstated serial marking; '
       'the named T-EP6 triple example is not a family-wide serial limit. Pack/box/case distributions retain their original units. '
       'August 12 store availability and guide publication dates do not establish a general release date. Exhaustive parallel numbering remains incomplete.')
     record.update(dataAudit=note,catalogEvidence=note,parallelGuideEvidence=data['parallelGuideEvidence'])

@@ -3882,7 +3882,7 @@
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26SWCGCHECKLISTUPDATE.pdf?v=1787977075",
       "releaseStatus": "Unverified",
       "releaseDate": null,
-      "catalogEvidence": "All 366 numbered subject rows and 218 unnumbered sketch-artist entries retain original physical cells and all 110 literal Hobby odds. Fresh official guides map base SuperFractor 1/1 only. Base Red LogoFractor and GA-PP Pedro Pascal five-copy quantities have unstated serial marking; the named T-EP6 triple example is not a family-wide serial limit. Pack/box/case distributions retain their original units. August 12 store availability and guide publication dates do not establish a general release date. Exhaustive parallel numbering remains incomplete.",
+      "catalogEvidence": "All 366 numbered subject rows and 218 unnumbered sketch-artist entries retain original physical cells and all 110 literal Hobby odds. The odds PDF names Hobby without a ratio unit; no per-pack rates are computed. Fresh official guides map base SuperFractor 1/1 only. Base Red LogoFractor and GA-PP Pedro Pascal five-copy quantities have unstated serial marking; the named T-EP6 triple example is not a family-wide serial limit. Pack/box/case distributions retain their original units. August 12 store availability and guide publication dates do not establish a general release date. Exhaustive parallel numbering remains incomplete.",
       "slug": "topps-bowman-2026-topps-star-wars-chrome-galaxy",
       "page": "sets/topps-bowman-2026-topps-star-wars-chrome-galaxy.html",
       "status": "Source table",
@@ -3895,7 +3895,7 @@
       "tableData": "data/imports/topps-bowman-2026-topps-star-wars-chrome-galaxy.json",
       "sections": 15,
       "importKind": "topps-grid-pdf",
-      "dataAudit": "All 366 numbered subject rows and 218 unnumbered sketch-artist entries retain original physical cells and all 110 literal Hobby odds. Fresh official guides map base SuperFractor 1/1 only. Base Red LogoFractor and GA-PP Pedro Pascal five-copy quantities have unstated serial marking; the named T-EP6 triple example is not a family-wide serial limit. Pack/box/case distributions retain their original units. August 12 store availability and guide publication dates do not establish a general release date. Exhaustive parallel numbering remains incomplete.",
+      "dataAudit": "All 366 numbered subject rows and 218 unnumbered sketch-artist entries retain original physical cells and all 110 literal Hobby odds. The odds PDF names Hobby without a ratio unit; no per-pack rates are computed. Fresh official guides map base SuperFractor 1/1 only. Base Red LogoFractor and GA-PP Pedro Pascal five-copy quantities have unstated serial marking; the named T-EP6 triple example is not a family-wide serial limit. Pack/box/case distributions retain their original units. August 12 store availability and guide publication dates do not establish a general release date. Exhaustive parallel numbering remains incomplete.",
       "oddsParser": "scripts/official_odds_layout.py",
       "sha256": "5f1188e5b9569d16b86616b8d61771e1cfbeb5b503743dd99df9304db5585e3e",
       "dedicatedParser": "scripts/import_topps_star_wars_galaxy_2026.py",
@@ -3903,7 +3903,7 @@
       "availableFrom": "2026-08-12",
       "parallelGuideEvidence": {
         "file": "data/parallel-audit-sources/star-wars-galaxy-guides-20261020-1700.json",
-        "sha256": "9cb116681f59cd5e25016a86d90e42f2928b8420456b62b427258d01820cd75e",
+        "sha256": "2f2c9ea05568c9a00cb14ac36a04a768358814406d3641169f618829a849e63a",
         "sources": [
           "https://ripped.topps.com/2026-star-wars-chrome-galaxy-hobby-box-guide/",
           "https://ripped.topps.com/what-to-collect-2026-topps-star-wars-chrome-galaxy-cards-guide/"
