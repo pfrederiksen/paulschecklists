@@ -1646,13 +1646,22 @@
       "manufacturer": "Topps / Bowman",
       "source": "https://www.topps.com/products/2026-star-wars-chrome%C2%AE-galaxy-hobby-box",
       "oddsCategories": 110,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "numberedOddsCategories": 1,
+      "supplementalSpecifications": 1,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
-      "conflicts": []
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-star-wars-chrome-galaxy",
+          "family": "Incomplete guide numbering inventory",
+          "gap": "The guides name several other base colors without numeric limits; no intermediate ladder is invented. Insert and Short Print parallels follow a similarly rich path is unjoined context, not family eligibility or numbering. Five-copy quantity statements and the named one-of-a-kind triple example do not establish serial markings. The two guide publication dates and August 12 store availability do not verify a general calendar release date. Exhaustive parallel eligibility and numbering remain incomplete.",
+          "source": "https://ripped.topps.com/2026-star-wars-chrome-galaxy-hobby-box-guide/",
+          "evidenceFile": "data/parallel-audit-sources/star-wars-galaxy-guides-20261020-1700.json",
+          "evidenceSha256": "9cb116681f59cd5e25016a86d90e42f2928b8420456b62b427258d01820cd75e"
+        }
+      ]
     },
     {
       "slug": "topps-bowman-2025-topps-star-wars-smugglers-outpost",

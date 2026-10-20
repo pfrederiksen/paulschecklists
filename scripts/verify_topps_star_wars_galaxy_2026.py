@@ -61,5 +61,17 @@ assert source == collections.Counter(v for o in d['odds'] for v in o['values'].v
 proof = d['productConfigurationEvidence']
 assert hashlib.sha256((ROOT / proof['file']).read_bytes()).hexdigest() == proof['sha256']
 assert proof['source'] == 'https://www.topps.com/products/2026-star-wars-chrome%C2%AE-galaxy-hobby-box'
-assert not d.get('parallelSpecifications'), 'No unverified guide numbering may be imported'
+guide=d['parallelGuideEvidence'];gp=ROOT/guide['file'];g=json.loads(gp.read_text())
+assert hashlib.sha256(gp.read_bytes()).hexdigest()==guide['sha256']
+specs=d['parallelSpecifications'];assert len(specs)==1
+assert specs[0]['family']=='BASE CARDS' and specs[0]['numbering']=='1/1' and specs[0]['oddsName']=='Base Cards Superfractor Parallel'
+for spec in d['publishedSpecifications']:assert spec['evidenceSha256']==guide['sha256'] and spec['evidenceFile']==guide['file']
+base=next(s for s in d['publishedSpecifications'] if s['name']=='BASE CARDS');assert base['rows']==g['baseQuantityRows'] and not any('numbering' in h.lower() for h in base['headers'])
+card=next(s for s in d['publishedSpecifications'] if s['name']=='GALAXY AUTOGRAPHS');assert card['rows']==g['cardQuantityRows']
+assert next(r for r in d['rows'] if r[1]=='GA-PP')[2:5]==['Pedro Pascal','9','The Mandalorian']
+triple=next(s for s in d['publishedSpecifications'] if s['name']=='TRIPLE AUTOGRAPHS');assert triple['rows']==g['tripleExampleRows']
+assert {r[2] for r in d['rows'] if r[0]=='TRIPLE AUTOGRAPHS' and r[1]=='T-EP6'}=={'Peter Mayhew','Harrison Ford','Anthony Daniels'}
+assert next(s for s in d['publishedSpecifications'] if s['name']=='Manufacturer Hobby configuration')['rows']==g['boxConfigurationRows']
+assert all('numbering' not in h.lower() for s in d['publishedSpecifications'] for h in s['headers'])
+assert '1/1 SuperFractor' in g['guides'][0]['text'] and 'Red LogoFractors limited to only five copies' in g['guides'][1]['text']
 print('Verified all 366 printed numbered subject rows, 218 sketch artists, separate physical text cells, 110 literal odds categories and qualified product configuration evidence.')

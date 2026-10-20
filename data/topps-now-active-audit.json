@@ -1,6 +1,6 @@
 {
   "observed": "2026-10-20",
-  "listingSha256": "e38745673194b2a026206fb56382a6af0c28002be5b1a95a7645569e45e7200d",
+  "listingSha256": "5759b3656e1d27ac4e434b37634c0d8b443579bf64e502a9e58843b29561df19",
   "historicalCoverageComplete": false,
   "products": [
     {
@@ -149,16 +149,6 @@
       "status": "published"
     },
     {
-      "title": "Yandy Díaz - 2026 MLB Topps NOW® - Card 803",
-      "url": "https://www.topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-803",
-      "status": "published"
-    },
-    {
-      "title": "Drew Rasmussen - 2026 MLB Topps NOW® - Card 802",
-      "url": "https://www.topps.com/products/drew-rasmussen-2026-mlb-topps-now-r-card-802",
-      "status": "published"
-    },
-    {
       "title": "Jules Ahoka - 2026-27 UEL Topps NOW® - Card 8",
       "url": "https://www.topps.com/products/jules-ahoka-2026-27-uel-topps-now-r-card-8",
       "status": "published"
@@ -304,7 +294,7 @@
       "status": "published"
     }
   ],
-  "publishedCount": 60,
-  "uniquePublishedCount": 56,
+  "publishedCount": 58,
+  "uniquePublishedCount": 54,
   "remaining": []
 }

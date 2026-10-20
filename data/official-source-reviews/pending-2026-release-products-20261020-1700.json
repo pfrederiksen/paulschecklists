@@ -1,0 +1,73 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T17:24:52.281292+00:00",
+  "sourceKind": "official-browser-product-checklist-discovery",
+  "method": "Fresh exact Five Star Baseball and Bowman Football Sapphire landing-page DOM reads. Calendar evidence is retained from the linked prior checkpoint, not represented as freshly read.",
+  "facts": {
+    "productUiReads": [
+      {
+        "links": [
+          {
+            "title": "Terms and Conditions",
+            "url": "https://www.eql.com/terms-conditions"
+          },
+          {
+            "title": "Privacy Policy",
+            "url": "https://www.eql.com/privacy-policy"
+          },
+          {
+            "title": "Terms and Conditions",
+            "url": "https://www.topps.com/pages/terms-conditions"
+          },
+          {
+            "title": "Privacy Notice",
+            "url": "https://www.topps.com/pages/privacy-policy"
+          },
+          {
+            "title": "here.",
+            "url": "https://www.topps.com/topps-eql-faq"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-five-star-baseball#"
+          },
+          {
+            "title": "Topps Five Star Baseball Product History",
+            "url": "https://www.topps.com/pages/topps-five-star-baseball#"
+          },
+          {
+            "title": "Read more",
+            "url": "https://www.topps.com/pages/topps-five-star-baseball#"
+          }
+        ],
+        "text": "Available October 28 on EQL\n2026 Topps Five Star Baseball\nThe names that define the game\nGet notified\nAbout the release\n\n2026 Topps Five Star Baseball returns with six cards in every box: five on-card autographs numbered to 199 or less and one base card numbered to 50 or less. Every case also includes two autograph relics and one color-ink autograph.\n\nLeaderboard Legend and Apex Autographs make their debut in this year’s autograph lineup. One-of-one Rookie Cap cards featuring MLB Logoman and side-logo patches from in-season hats return as a distinctive memorabilia element to this year’s release.\n\nRead more\nWhat to look for\nFive Star Fabric\n\nFive Star Quintuple Relic Autographs\n\nFive Star Autographed Jumbo Prime Cards\n\nBaseball Royalty\n\nWho is EQL?\n\nEQL is a third-party commerce platform that helps manage the launch of exclusive products. Topps has now partnered with EQL to help manage new launches of unique and limited-edition Topps products. EQL helps us slow down bots and to deliver a launch that is fair.\n\nPartnering with EQL means that:\n\nEvery entry goes through a multi-step security verification process that confirms you are a human, slowing down bots from submitting orders.\n\nOne entry per person because entries are deduplicated against unique identification tags.\n\nIt should be simple to enter – once you have a verified EQL account, entering becomes a breeze.\n\nPLEASE READ THE FOLLOWING TERMS AND CONDITIONS AND PRIVACY POLICIES BEFORE ATTEMPTING TO PARTICIPATE IN AN EQL RELEASE:\n\n* EQL’s Terms and Conditions and EQL’s Privacy Policy which govern your use of the EQL platform.* Topps.com’s Terms and Conditions and Privacy Notice which govern your use of Topps.com and your entry should your entry be selected by EQL.\nLearn more about the EQL draw here.\nRead more\nAbout the brand\n\nTopps Five Star delivers a high-end collecting experience defined by elegant design, thick card stock, bold foil finishes, and premium on-card autograph content. Featuring rookies, veterans, and legends, the brand’s carefully curated checklist showcases players across generations of the game. With every card numbered, Five Star delivers an intentionally limited experience built around standout, centerpiece-worthy pulls.\n\nExplore more\nTopps Five Star Baseball Product History\nRead more",
+        "url": "https://www.topps.com/pages/topps-five-star-baseball"
+      },
+      {
+        "links": [],
+        "text": "Available October 29\n2026 Bowman Football Sapphire Edition\nGet notified",
+        "url": "https://www.topps.com/pages/bowman-football-sapphire-edition"
+      }
+    ],
+    "priorCalendarReview": {
+      "file": "data/official-source-reviews/pending-2026-release-products-20261020-1000.json",
+      "sha256": "0ffcd797efa044f84ec5830f5c7a12592623a4a052982d0e3ac8eb63bfab047d"
+    }
+  },
+  "factsSha256": "c5e7d804ac89feab7c04015c981e62b4fdea6296b12b4df36a755a61947789ad",
+  "productUiUnchanged": true,
+  "newChecklistDocuments": [],
+  "calendarCoverageComplete": false,
+  "remainingGap": "Five Star Baseball has no checklist link in its checked landing page. Bowman Football Sapphire now has a fully imported global checklist despite no document link on the product landing. October 28 / 29 landing availability remains store context; no general release date is inferred.",
+  "pendingGuideOnlyDiscoveries": [
+    {
+      "file": "data/parallel-audit-sources/bob-ross-basketball-2026-discovery-20261020-0700.json",
+      "sha256": "ba81dc5cfec1e6e206c91c1b27d8d97973e7be2f3d614bbdd58368a44dcf6275",
+      "product": "2026 Topps x Bob Ross: The Joy of Basketball",
+      "source": "https://ripped.topps.com/topps-bob-ross-joy-of-basketball-2026-product-history/",
+      "checklistVerified": false,
+      "calendarReleaseVerified": false,
+      "nextAction": "Recheck exact official product/checklist sources when published. Preserve guide-only Midnight Black 1/1 scope; no synthetic roster or family eligibility."
+    }
+  ]
+}

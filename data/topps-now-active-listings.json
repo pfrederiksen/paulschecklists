@@ -1,14 +1,14 @@
 {
   "observed": "2026-10-20",
   "sourceKind": "official-browser-active-listing",
-  "checkedUtc": "2026-10-20T16:28:30.400987+00:00",
+  "checkedUtc": "2026-10-20T17:24:52.281292+00:00",
   "freshListingReadsComplete": true,
   "pendingFreshListingReads": [],
   "listings": [
     {
       "url": "https://www.topps.com/collections/topps-now",
       "pagesObserved": 3,
-      "reportedProductCount": 56,
+      "reportedProductCount": 54,
       "products": [
         {
           "title": "Diego Gómez - 2026-27 Premier League Topps NOW® - Card 48",
@@ -125,14 +125,6 @@
         {
           "title": "Martín Ojeda - 2026 MLS Topps NOW® - Card 99",
           "url": "https://www.topps.com/products/martin-ojeda-2026-mls-topps-now-r-card-99"
-        },
-        {
-          "title": "Yandy Díaz - 2026 MLB Topps NOW® - Card 803",
-          "url": "https://www.topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-803"
-        },
-        {
-          "title": "Drew Rasmussen - 2026 MLB Topps NOW® - Card 802",
-          "url": "https://www.topps.com/products/drew-rasmussen-2026-mlb-topps-now-r-card-802"
         },
         {
           "title": "Jules Ahoka - 2026-27 UEL Topps NOW® - Card 8",

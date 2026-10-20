@@ -127,6 +127,8 @@ def build():
     inventory = json.loads(ip.read_text())
     inventory = [record if r['slug'] == SLUG else r for r in inventory]
     ip.write_text(json.dumps(inventory, ensure_ascii=False, indent=2) + '\n')
+    from import_topps_star_wars_galaxy_specs_2026 import apply_specs
+    apply_specs()
     print(record['title'], numbered, 'numbered subject rows;', artists, 'artists;', len(rows), 'entries;', len(odds), 'odds categories')
 
 if __name__ == '__main__':
