@@ -1,0 +1,334 @@
+{
+  "sports": [
+    "Baseball",
+    "Basketball",
+    "Entertainment",
+    "Fight",
+    "Football",
+    "Golf",
+    "Hockey",
+    "Miscellaneous",
+    "Racing",
+    "Soccer",
+    "UFC",
+    "WWE"
+  ],
+  "inventory2026": [
+    {
+      "sport": "Baseball",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss",
+        "Elite"
+      ]
+    },
+    {
+      "sport": "Baseball",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Immaculate Collection",
+        "Prizm",
+        "Stars and Stripes Prizm"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "WNBA Donruss"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "WNBA Prizm"
+      ]
+    },
+    {
+      "sport": "Fight",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "MLW Ring Royalty",
+        "PFL Contenders"
+      ]
+    },
+    {
+      "sport": "Football",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss"
+      ]
+    },
+    {
+      "sport": "Football",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Obsidian"
+      ]
+    },
+    {
+      "sport": "Golf",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Contenders",
+        "Par Three LIV"
+      ]
+    },
+    {
+      "sport": "Miscellaneous",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "90’s Pop Culture Box Set"
+      ]
+    },
+    {
+      "sport": "Miscellaneous",
+      "year": "2026",
+      "brand": "Score",
+      "programs": [
+        "Score-A-Treat"
+      ]
+    },
+    {
+      "sport": "Racing",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss"
+      ]
+    },
+    {
+      "sport": "Racing",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Select",
+        "Track Kings",
+        "Turn Four"
+      ]
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss NWSL"
+      ]
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Luminance England",
+        "Luminance France",
+        "Luminance Germany",
+        "Obsidian K League",
+        "Panini Intl England",
+        "Panini Intl France",
+        "Panini Intl Germany",
+        "Panini Intl Mexico",
+        "Prizm World Cup (25-26)",
+        "Revolution K League"
+      ]
+    }
+  ],
+  "availableYears": [
+    {
+      "sport": "Baseball",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008",
+        "2005",
+        "2004"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009"
+      ]
+    },
+    {
+      "sport": "Entertainment",
+      "years": [
+        "2025",
+        "2024",
+        "2023",
+        "2021",
+        "2020",
+        "2019",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008",
+        "2007"
+      ]
+    },
+    {
+      "sport": "Fight",
+      "years": [
+        "2026",
+        "2025"
+      ]
+    },
+    {
+      "sport": "Football",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008",
+        "2007",
+        "2006",
+        "2005",
+        "2004"
+      ]
+    },
+    {
+      "sport": "Golf",
+      "years": [
+        "2026",
+        "2025",
+        "2024"
+      ]
+    },
+    {
+      "sport": "Hockey",
+      "years": [
+        "2013",
+        "2012",
+        "2011",
+        "2010"
+      ]
+    },
+    {
+      "sport": "Miscellaneous",
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "sport": "Racing",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016"
+      ]
+    },
+    {
+      "sport": "Soccer",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015"
+      ]
+    },
+    {
+      "sport": "UFC",
+      "years": [
+        "2023",
+        "2022",
+        "2021"
+      ]
+    },
+    {
+      "sport": "WWE",
+      "years": [
+        "2024",
+        "2023",
+        "2022"
+      ]
+    }
+  ],
+  "checkedUtc": "2026-10-20T03:23:55.998Z",
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "observed": "2026-10-20",
+  "sourceKind": "official-browser-selectors",
+  "method": "Fresh all 12 visible sport/year selectors and all 14 2026 brands / 30 programs; waiting for loaded visible options before retaining results.",
+  "inventoryUnchanged": true,
+  "csvExportRefreshCompleted": false,
+  "remainingGaps": [
+    "Full CSV revision and older product-year calendar inventory review remain pending."
+  ]
+}

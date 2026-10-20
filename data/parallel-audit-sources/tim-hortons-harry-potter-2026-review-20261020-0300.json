@@ -1,0 +1,1087 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T03:24:36.971267+00:00",
+  "slug": "upper-deck-2026-tim-horton-s-harry-potter",
+  "sourceKind": "official-browser-table-reconciliation-and-guide-discovery",
+  "method": "Fresh official checklist UI table compared cell-for-cell with all original imported headers/rows; focused official-domain guide search and the manufacturer-linked microsite inspected. This is discovery and literal checklist reconciliation, not a completed guide/parallel audit.",
+  "facts": {
+    "checklist": {
+      "tables": [
+        {
+          "headers": [
+            "Set Name",
+            "Card",
+            "Description",
+            "Tech",
+            "#'d",
+            "Odds",
+            "Point"
+          ],
+          "rows": [
+            [
+              "Base Set",
+              "1",
+              "Harry's New Home",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "2",
+              "At the Zoo",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "3",
+              "A Cake for Harry",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "4",
+              "Gringotts Bank",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "5",
+              "Ollivander's",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "6",
+              "Platform 93/4",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "7",
+              "A New Friend",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "8",
+              "Trevor!",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "9",
+              "Sorting Ceremony",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "10",
+              "Not Slytherin",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "11",
+              "Mail Day",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "12",
+              "Midair Mockery",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "13",
+              "Swish and Flick",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "14",
+              "A Jinxed Broom",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "15",
+              "The Golden Snitch",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "16",
+              "Wizard Chess",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "17",
+              "Forbidden Forest",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "18",
+              "Not Scared",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "19",
+              "Ron's Sacrifice",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Base Set",
+              "20",
+              "Last-Minute Points",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "1",
+              "Harry's New Home",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "2",
+              "At the Zoo",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "3",
+              "A Cake for Harry",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "4",
+              "Gringotts Bank",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "5",
+              "Ollivander's",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "6",
+              "Platform 93/4",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "7",
+              "A New Friend",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "8",
+              "Trevor!",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "9",
+              "Sorting Ceremony",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "10",
+              "Not Slytherin",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "11",
+              "Mail Day",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "12",
+              "Midair Mockery",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "13",
+              "Swish and Flick",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "14",
+              "A Jinxed Broom",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "15",
+              "The Golden Snitch",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "16",
+              "Wizard Chess",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "17",
+              "Forbidden Forest",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "18",
+              "Not Scared",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "19",
+              "Ron's Sacrifice",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Rainbow //",
+              "20",
+              "Last-Minute Points",
+              "Foilboard",
+              "",
+              "1:50 Packs",
+              "20"
+            ],
+            [
+              "Quidditch",
+              "QTH-1",
+              "Oliver Wood",
+              "",
+              "",
+              "1:7 Packs",
+              "20"
+            ],
+            [
+              "Quidditch",
+              "QTH-2",
+              "Oliver Wood",
+              "",
+              "",
+              "1:7 Packs",
+              "20"
+            ],
+            [
+              "Quidditch",
+              "QTH-3",
+              "George Weasley",
+              "",
+              "",
+              "1:7 Packs",
+              "20"
+            ],
+            [
+              "Quidditch",
+              "QTH-4",
+              "Harry Potter",
+              "",
+              "",
+              "1:7 Packs",
+              "20"
+            ],
+            [
+              "Quidditch",
+              "QTH-5",
+              "Harry Potter",
+              "",
+              "",
+              "1:7 Packs",
+              "20"
+            ],
+            [
+              "Quidditch Rainbow //",
+              "QTH-1",
+              "Oliver Wood",
+              "Foilboard",
+              "",
+              "1:200 Packs",
+              "20"
+            ],
+            [
+              "Quidditch Rainbow //",
+              "QTH-2",
+              "Oliver Wood",
+              "Foilboard",
+              "",
+              "1:200 Packs",
+              "20"
+            ],
+            [
+              "Quidditch Rainbow //",
+              "QTH-3",
+              "George Weasley",
+              "Foilboard",
+              "",
+              "1:200 Packs",
+              "20"
+            ],
+            [
+              "Quidditch Rainbow //",
+              "QTH-4",
+              "Harry Potter",
+              "Foilboard",
+              "",
+              "1:200 Packs",
+              "20"
+            ],
+            [
+              "Quidditch Rainbow //",
+              "QTH-5",
+              "Harry Potter",
+              "Foilboard",
+              "",
+              "1:200 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-1",
+              "Harry Potter",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-2",
+              "Hermione Granger",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-3",
+              "Ron Weasley",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-4",
+              "Rubeus Hagrid",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-5",
+              "Professor Quirrell",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-6",
+              "Oliver Wood",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-7",
+              "Seamus Finnigan",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-8",
+              "Professor Flitwick",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-9",
+              "Fred Weasley",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-10",
+              "George Weasley",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-11",
+              "Draco Malfoy",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-12",
+              "Neville Longbottom",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-13",
+              "Molly Weasley",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-14",
+              "Hedwig",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits",
+              "PTH-15",
+              "Argus Filch",
+              "",
+              "",
+              "1:1 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-1",
+              "Harry Potter",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-2",
+              "Hermione Granger",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-3",
+              "Ron Weasley",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-4",
+              "Rubeus Hagrid",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-5",
+              "Professor Quirrell",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-6",
+              "Oliver Wood",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-7",
+              "Seamus Finnigan",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-8",
+              "Professor Flitwick",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-9",
+              "Fred Weasley",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-10",
+              "George Weasley",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-11",
+              "Draco Malfoy",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-12",
+              "Neville Longbottom",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-13",
+              "Molly Weasley",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-14",
+              "Hedwig",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Red //",
+              "PTH-15",
+              "Argus Filch",
+              "",
+              "",
+              "1:2 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-1",
+              "Harry Potter",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-2",
+              "Hermione Granger",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-3",
+              "Ron Weasley",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-4",
+              "Rubeus Hagrid",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-5",
+              "Professor Quirrell",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-6",
+              "Oliver Wood",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-7",
+              "Seamus Finnigan",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-8",
+              "Professor Flitwick",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-9",
+              "Fred Weasley",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-10",
+              "George Weasley",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-11",
+              "Draco Malfoy",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-12",
+              "Neville Longbottom",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-13",
+              "Molly Weasley",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-14",
+              "Hedwig",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow //",
+              "PTH-15",
+              "Argus Filch",
+              "Foilboard",
+              "",
+              "1:17 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-1",
+              "Harry Potter",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-2",
+              "Hermione Granger",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-3",
+              "Ron Weasley",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-4",
+              "Rubeus Hagrid",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-5",
+              "Professor Quirrell",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-6",
+              "Oliver Wood",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-7",
+              "Seamus Finnigan",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-8",
+              "Professor Flitwick",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-9",
+              "Fred Weasley",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-10",
+              "George Weasley",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-11",
+              "Draco Malfoy",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-12",
+              "Neville Longbottom",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-13",
+              "Molly Weasley",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-14",
+              "Hedwig",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ],
+            [
+              "UD Portraits Rainbow Red //",
+              "PTH-15",
+              "Argus Filch",
+              "Foilboard",
+              "",
+              "1:67 Packs",
+              "20"
+            ]
+          ]
+        }
+      ],
+      "url": "https://upperdeck.com/checklist/2026-tim-hortons-harry-potter-checklist/"
+    },
+    "families": [
+      {
+        "family": "Base Set",
+        "rows": 20,
+        "literalOdds": [
+          "1:2 Packs"
+        ]
+      },
+      {
+        "family": "Rainbow //",
+        "rows": 20,
+        "literalOdds": [
+          "1:50 Packs"
+        ]
+      },
+      {
+        "family": "Quidditch",
+        "rows": 5,
+        "literalOdds": [
+          "1:7 Packs"
+        ]
+      },
+      {
+        "family": "Quidditch Rainbow //",
+        "rows": 5,
+        "literalOdds": [
+          "1:200 Packs"
+        ]
+      },
+      {
+        "family": "UD Portraits",
+        "rows": 15,
+        "literalOdds": [
+          "1:1 Packs"
+        ]
+      },
+      {
+        "family": "UD Portraits Red //",
+        "rows": 15,
+        "literalOdds": [
+          "1:2 Packs"
+        ]
+      },
+      {
+        "family": "UD Portraits Rainbow //",
+        "rows": 15,
+        "literalOdds": [
+          "1:17 Packs"
+        ]
+      },
+      {
+        "family": "UD Portraits Rainbow Red //",
+        "rows": 15,
+        "literalOdds": [
+          "1:67 Packs"
+        ]
+      }
+    ],
+    "emptyPublishedNumberingCells": 110,
+    "manufacturerMicrosite": {
+      "text": "Do you have an Official Winner Card like this?\nRedeem your Code\nRedeem\nPasser au français\n\nHow to Get Your Code\n\nOfficial Winner Cards are randomly inserted into packs of 2025-26 Tim Hortons® Upper Deck NHL® Hockey Trading Cards, which are available at participating Tim Hortons® while supplies last.",
+      "url": "https://upperdecktimhortons.com/"
+    },
+    "discoveryQuery": "site:upperdeck.com \"Tim Hortons\" \"Harry Potter\" 2026 cards guide",
+    "discoveryResult": "No matching official guide returned by the focused web search."
+  },
+  "factsSha256": "f16a2090a4f14a2de21b2bc526c2af5cfbdda85bd2fcbd80089177374f859e32",
+  "importedChecklistSha256": "25b8e7d7a29b2614fc048af1d44742f6a28fccc7e981e0b70e3824ccbe885c5e",
+  "approvedAdditionalNumericMappings": [],
+  "publicDataChanged": false,
+  "remainingGap": "All 110 original rows across eight families and their literal Packs odds are already imported. All 110 published numbering cells remain empty; this does not establish explicitly unnumbered parallels or print runs. No product-specific official education/guide source was verified. The linked Tim Hortons microsite currently describes 2025-26 NHL redemption cards, so its rules and distributions are not applied to Harry Potter. Exact serial limits, exhaustive guide/parallel eligibility and the general release date remain unverified."
+}
