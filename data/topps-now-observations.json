@@ -65664,6 +65664,211 @@
     "saleFromISO": "2026-10-19"
   },
   {
+    "series": "2026 MLB Topps NOW®",
+    "number": "804",
+    "name": "Richie Palacios",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 21, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/richie-palacios-2026-mlb-topps-now-r-card-804",
+    "evidence": {
+      "url": "https://www.topps.com/products/richie-palacios-2026-mlb-topps-now-r-card-804",
+      "sha256": "8036950f1762981b88d725a574420bdfe1ab8d4653a22eba45c062b5d43d940e",
+      "observed": "2026-10-20",
+      "title": "Richie Palacios - 2026 MLB Topps NOW® - Card 804",
+      "fields": {
+        "SKU": "ARTBB-16C2S-26TN-0804",
+        "Category": "Sports",
+        "Sub Categories": "Baseball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Richie Palacios",
+        "Properties": "Tampa Bay Rays",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 21, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1800-active.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
+    "series": "2026 MLB Topps NOW®",
+    "number": "805",
+    "name": "Junior Caminero",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 21, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; Junior Caminero Image Variation Short Prints; /10 Autograph Redemption Card; /5 Autograph Redemption Card; /1 Autograph Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/junior-caminero-2026-mlb-topps-now-r-card-805",
+    "evidence": {
+      "url": "https://www.topps.com/products/junior-caminero-2026-mlb-topps-now-r-card-805",
+      "sha256": "1b40fd5e8332e1fc8461495959b085927ccd184f39bcd15ab23107a37fcb89af",
+      "observed": "2026-10-20",
+      "title": "Junior Caminero - 2026 MLB Topps NOW® - Card 805",
+      "fields": {
+        "SKU": "ARTBB-16C2S-26TN-0805",
+        "Category": "Sports",
+        "Sub Categories": "Baseball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Junior Caminero",
+        "Properties": "Tampa Bay Rays",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 21, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; Junior Caminero Image Variation Short Prints; /10 Autograph Redemption Card; /5 Autograph Redemption Card; /1 Autograph Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1800-active.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
+    "series": "2026 MLB Topps NOW®",
+    "number": "806",
+    "name": "Yandy Díaz",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 21, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; Yandy Díaz Image Variation Short Prints\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-806",
+    "evidence": {
+      "url": "https://www.topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-806",
+      "sha256": "b74c9abce5431e07a3f51750ccadb45b52375e47ca4d13863f85da8f5a195466",
+      "observed": "2026-10-20",
+      "title": "Yandy Díaz - 2026 MLB Topps NOW® - Card 806",
+      "fields": {
+        "SKU": "ARTBB-16C2S-26TN-0806",
+        "Category": "Sports",
+        "Sub Categories": "Baseball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Yandy Díaz",
+        "Properties": "Tampa Bay Rays",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 21, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; Yandy Díaz Image Variation Short Prints\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1800-active.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
+    "series": "2026 MLB Topps NOW®",
+    "number": "807",
+    "name": "Tampa Bay Rays™",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 21, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/tampa-bay-rays-2026-mlb-topps-now-r-card-807",
+    "evidence": {
+      "url": "https://www.topps.com/products/tampa-bay-rays-2026-mlb-topps-now-r-card-807",
+      "sha256": "a99ac18f71625f3a1521a75a04c99cd23cdd8cdc65b77c1b7ad0528b79ea911d",
+      "observed": "2026-10-20",
+      "title": "Tampa Bay Rays - 2026 MLB Topps NOW® - Card 807",
+      "fields": {
+        "SKU": "ARTBB-16C2S-26TN-0807",
+        "Category": "Sports",
+        "Sub Categories": "Baseball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Tampa Bay Rays™",
+        "Properties": "Tampa Bay Rays",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 21, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1800-active.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
+    "series": "2026 MLB Topps NOW®",
+    "number": "808",
+    "name": "Freddy Peralta",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 21, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/freddy-peralta-2026-mlb-topps-now-r-card-808",
+    "evidence": {
+      "url": "https://www.topps.com/products/freddy-peralta-2026-mlb-topps-now-r-card-808",
+      "sha256": "ab6d6e22ec38c26523542d05601e13e84af05b2840e5cd33d616e592b80454a7",
+      "observed": "2026-10-20",
+      "title": "Freddy Peralta - 2026 MLB Topps NOW® - Card 808",
+      "fields": {
+        "SKU": "ARTBB-16C2S-26TN-0808",
+        "Category": "Sports",
+        "Sub Categories": "Baseball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Freddy Peralta",
+        "Properties": "Tampa Bay Rays",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 21, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1800-active.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
     "series": "2026 MLB Topps NOW® Collector's Edition",
     "number": "428",
     "name": "Shohei Ohtani",
@@ -86947,6 +87152,47 @@
       "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261019-2000-active-revisions.json"
     },
     "saleFromISO": "2026-10-19"
+  },
+  {
+    "series": "2026-27 NFL Topps NOW®",
+    "number": "75",
+    "name": "Brock Purdy",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 23, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/brock-purdy-2026-27-nfl-topps-now-r-card-75",
+    "evidence": {
+      "url": "https://www.topps.com/products/brock-purdy-2026-27-nfl-topps-now-r-card-75",
+      "sha256": "90159b5129513a1d6a87f9cc8eab6bed84f87cc93c24fc8fa48664fb5ae6071e",
+      "observed": "2026-10-20",
+      "title": "Brock Purdy - 2026-27 NFL Topps NOW® - Card 75",
+      "fields": {
+        "SKU": "ARTFB-16C2S-26TN-0075",
+        "Category": "Sports",
+        "Sub Categories": "Football",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Brock Purdy",
+        "Properties": "San Francisco 49ers",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 23, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1800-active.json"
+    },
+    "saleFromISO": "2026-10-20"
   },
   {
     "series": "2026-27 Paris Saint-Germain Topps NOW®",

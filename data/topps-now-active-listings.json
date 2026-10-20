@@ -1,15 +1,39 @@
 {
   "observed": "2026-10-20",
   "sourceKind": "official-browser-active-listing",
-  "checkedUtc": "2026-10-20T17:24:52.281292+00:00",
+  "checkedUtc": "2026-10-20T18:32:41.622125+00:00",
   "freshListingReadsComplete": true,
   "pendingFreshListingReads": [],
   "listings": [
     {
       "url": "https://www.topps.com/collections/topps-now",
       "pagesObserved": 3,
-      "reportedProductCount": 54,
+      "reportedProductCount": 60,
       "products": [
+        {
+          "title": "Brock Purdy - 2026-27 NFL Topps NOW® - Card 75",
+          "url": "https://www.topps.com/products/brock-purdy-2026-27-nfl-topps-now-r-card-75"
+        },
+        {
+          "title": "Freddy Peralta - 2026 MLB Topps NOW® - Card 808",
+          "url": "https://www.topps.com/products/freddy-peralta-2026-mlb-topps-now-r-card-808"
+        },
+        {
+          "title": "Tampa Bay Rays - 2026 MLB Topps NOW® - Card 807",
+          "url": "https://www.topps.com/products/tampa-bay-rays-2026-mlb-topps-now-r-card-807"
+        },
+        {
+          "title": "Yandy Díaz - 2026 MLB Topps NOW® - Card 806",
+          "url": "https://www.topps.com/products/yandy-diaz-2026-mlb-topps-now-r-card-806"
+        },
+        {
+          "title": "Junior Caminero - 2026 MLB Topps NOW® - Card 805",
+          "url": "https://www.topps.com/products/junior-caminero-2026-mlb-topps-now-r-card-805"
+        },
+        {
+          "title": "Richie Palacios - 2026 MLB Topps NOW® - Card 804",
+          "url": "https://www.topps.com/products/richie-palacios-2026-mlb-topps-now-r-card-804"
+        },
         {
           "title": "Diego Gómez - 2026-27 Premier League Topps NOW® - Card 48",
           "url": "https://www.topps.com/products/diego-gomez-2026-27-premier-league-topps-now-r-card-48"
