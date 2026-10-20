@@ -453,14 +453,38 @@
   "topps-bowman-2026-topps-holiday-baseball": {
     "state": {
       "checklistHash": "b1620c82da3e511fec6e000537d12ee0824ef51529f4e30fbc5427bc3c467f20",
-      "oddsHash": null,
+      "oddsHash": "64f07778a144e3671b802a061dba56f7e1fa81540be41928bbb1fe8201d9bb5b",
       "rows": 640,
-      "odds": 0,
+      "odds": 66,
       "specificationRows": 23,
       "specificationHash": "6a322e1bc147ebc00ae40b1df598edce834b42d4ab5d81ad5aa9a8d7918b4935"
     },
-    "fingerprint": "97e0e5673baf4b63f91046b7e997bf5efb30efd85e2cd4d0b06bed80e2a4a4be",
+    "fingerprint": "9232454f92523455cb279b84836e3315f8830a08c551612c5fc6578dd958c560",
     "events": [
+      {
+        "at": "2026-10-20T19:34:28.286Z",
+        "changes": [
+          "Official odds document imported.",
+          "Published odds entries: 0 → 66"
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Holiday_Baseball_26THBW_-_Checklist.pdf?v=1789566977",
+        "snapshot": {
+          "checklistHash": "b1620c82da3e511fec6e000537d12ee0824ef51529f4e30fbc5427bc3c467f20",
+          "oddsHash": "64f07778a144e3671b802a061dba56f7e1fa81540be41928bbb1fe8201d9bb5b",
+          "rows": 640,
+          "odds": 66,
+          "specificationRows": 23,
+          "specificationHash": "6a322e1bc147ebc00ae40b1df598edce834b42d4ab5d81ad5aa9a8d7918b4935"
+        },
+        "previousSnapshot": {
+          "checklistHash": "b1620c82da3e511fec6e000537d12ee0824ef51529f4e30fbc5427bc3c467f20",
+          "oddsHash": null,
+          "rows": 640,
+          "odds": 0,
+          "specificationRows": 23,
+          "specificationHash": "6a322e1bc147ebc00ae40b1df598edce834b42d4ab5d81ad5aa9a8d7918b4935"
+        }
+      },
       {
         "at": "2026-10-15T04:12:39.847Z",
         "changes": [

@@ -7,12 +7,54 @@ import subprocess
 from pathlib import Path
 
 import pdfplumber
+from import_official_catalog import run, fetch
 
 ROOT = Path(__file__).resolve().parents[1]
 SLUG = 'topps-bowman-2026-topps-holiday-baseball'
 PARSER = 'scripts/import_topps_holiday_2026.py'
 PROOF = ROOT / 'data/parallel-audit-sources/holiday-baseball-2026-guides-20261014.json'
+ODDS_PROOF = ROOT / 'data/parallel-audit-sources/holiday-baseball-2026-odds-20261020.json'
 ORIGINS = [136.94, 274.49, 426.31]
+
+
+def read_odds(path):
+    """Preserve all physical cells; column formats do not supply a ratio unit."""
+    proof = json.loads(ODDS_PROOF.read_text())
+    formats = proof['formats']
+    rows, raw = [], []
+    aliases = proof['familyAliases']
+    with pdfplumber.open(path) as pdf:
+        assert len(pdf.pages) == 2
+        for pn, page in enumerate(pdf.pages, 1):
+            tables = page.find_tables()
+            assert len(tables) == 1
+            cells = tables[0].extract()
+            assert cells[0] == ['Card', *formats]
+            assert len(cells) - 1 == [49, 17][pn - 1]
+            raw.append({'page': pn, 'text': page.extract_text()})
+            for cells in cells[1:]:
+                assert len(cells) == 4 and cells[0]
+                name = cells[0]
+                assert all(v == '—' or re.fullmatch(r'\d+:[\d,.]+', v) for v in cells[1:]), cells
+                # Autograph odds are published but the checklist has no autograph
+                # roster. An explicit separate family prevents prefix joins to base/relic cards.
+                if 'AUTOGRAPH' in name:
+                    base = next(s for s in proof['unjoinedPrograms'] if name == s or name.startswith(s + ' '))
+                    family = base + ' (roster not published)'
+                    qualification = 'Odds program has no separately published autograph roster; no subject eligibility is inferred.'
+                else:
+                    base = next((s for s in sorted(aliases, key=len, reverse=True) if name == s or name.startswith(s + ' ')), None)
+                    assert base, name
+                    family = aliases[base]
+                    qualification = None
+                entry = {'name': name, 'values': {f: None if v == '—' else v for f, v in zip(formats, cells[1:])},
+                         'page': pn, 'family': family, 'familyBase': name == base}
+                if qualification:
+                    entry['qualification'] = qualification
+                rows.append(entry)
+    assert len(rows) == len({r['name'] for r in rows}) == 66
+    assert sum(v is None for r in rows for v in r['values'].values()) == 121
+    return rows, formats, raw
 
 
 def read_cards(path):
@@ -56,6 +98,7 @@ def build():
     catalog_path = ROOT / 'data/set-catalog.json'
     catalog = json.loads(catalog_path.read_text())
     record = next(s for s in catalog['sets'] if s['slug'] == SLUG)
+    assert run(dict(record)) == record, 'The generic importer must preserve this dedicated dataset'
     path = ROOT / 'data/catalog-sources/downloads' / (SLUG + '.pdf')
     temporary = path.with_suffix('.part')
     subprocess.run(['curl', '-sLf', '--retry', '2', '--max-time', '45', record['checklistUrl'], '-o', str(temporary)], check=True)
@@ -73,11 +116,17 @@ def build():
             '191 printed Rookie marks, five faux relic subjects with blank teams and the printed H202 variation. '
             'Official guide parallel programs and box/tin/calendar/case units are preserved separately from pack odds. '
             'The five-player Hidden Elf guide description conflicts with the 25 separately named PDF subjects; '
-            'the guides also describe autographs absent from the current PDF roster. No serial limits or pack-odds PDF verified; '
+            'the guides also describe autographs absent from the current PDF roster. All 66 literal odds categories across '
+            'MEGA BOX / COLLECTOR TIN / ADVENT CALENDAR are imported with null cells and no named ratio unit. '
+            'Autograph odds remain separate from non-autograph rosters. No serial limits are inferred; '
             'exhaustive parallel reconciliation remains pending.')
     data_path = ROOT / record['tableData']
     data = json.loads(data_path.read_text())
-    assert not data.get('odds'), 'Review newly published odds before replacing this import'
+    odds_proof = json.loads(ODDS_PROOF.read_text())
+    odds_path = path.with_name(SLUG + '-odds.pdf')
+    odds_blob = fetch(odds_proof['url'], odds_path)
+    assert hashlib.sha256(odds_blob).hexdigest() == odds_proof['sha256']
+    odds, formats, odds_raw = read_odds(odds_path)
     data.update(headers=['Checklist section', 'Card number', 'Name', 'Team', 'Rookie', 'Source page'],
                 rows=rows, rawPages=raw, unclassifiedLines=[], sectionColumn=0,
                 sha256=hashlib.sha256(path.read_bytes()).hexdigest(), importKind='topps-grid-pdf', dedicatedParser=PARSER,
@@ -85,12 +134,16 @@ def build():
                     table('Box, tin and calendar contents (not pack odds)', ['Published format', 'Published configuration'], proof['configuration']),
                     table('Published distribution terms (retain source units)', ['Checklist family', 'Published term', 'Source qualification'], proof['distribution'])
                 ], sourceSheets=[{'name': 'Official source reconciliation', 'notes': [[note]]}],
-                productConfigurationEvidence={'file': str(PROOF.relative_to(ROOT)), 'sha256': proof_hash, 'source': proof['source']})
+                productConfigurationEvidence={'file': str(PROOF.relative_to(ROOT)), 'sha256': proof_hash, 'source': proof['source']},
+                odds=odds, formats=formats, oddsSource=odds_proof['url'], oddsSha256=odds_proof['sha256'],
+                oddsRawPages=odds_raw, oddsIssues=[], oddsUnitsPublished=False, formatNamesPublished=True,
+                oddsEvidence={'file': str(ODDS_PROOF.relative_to(ROOT)), 'sha256': hashlib.sha256(ODDS_PROOF.read_bytes()).hexdigest()})
     data_path.write_text(json.dumps(data, ensure_ascii=False) + '\n')
     record.update(sourcePage=proof['productSource'], releaseStatus='Upcoming', releaseDate=proof['releaseDate'],
                   releaseEvidence=proof['collectorGuide'], importKind=data['importKind'], dedicatedParser=PARSER,
                   sha256=data['sha256'], rowCount=640, sections=12, catalogEvidence=note, dataAudit=note,
-                  description='Two 200-card paper and Chrome base programs, holiday variations, ornaments, Hidden Elf, Making the Nice List and relics. Browse original player, team and rookie fields, plus guide-described parallels and format-specific contents; numbering and pack odds remain unpublished.')
+                  odds=66, formats=3, oddsUrl=odds_proof['url'], oddsImportIssues=0,
+                  description='Two 200-card paper and Chrome base programs, holiday variations, ornaments, Hidden Elf, Making the Nice List and relics. Browse original player, team and rookie fields, 66 literal odds categories across three formats and qualified guide terms; serial limits remain unverified.')
     for name in ['set-catalog.json', 'topps-product-official-catalog.json']:
         p = ROOT / 'data' / name
         obj = json.loads(p.read_text())
@@ -116,7 +169,7 @@ def build():
          'evidenceFile': str(PROOF.relative_to(ROOT)), 'evidenceSha256': proof_hash}
     ]
     rp.write_text(json.dumps(registry, indent=2, ensure_ascii=False) + '\n')
-    print('Reconciled Holiday Baseball: 640 rows, 12 sections, 191 Rookie marks; 14 guide-scoped parallel programs, no inferred serial limits or pack odds.')
+    print('Reconciled Holiday Baseball: 640 rows, 12 sections, 191 Rookie marks; all 66 three-column odds, 121 nulls and 14 qualified guide programs. Ratio unit and serial limits remain unstated.')
 
 
 if __name__ == '__main__':

@@ -601,5 +601,13 @@
     "sourcePage": "https://www.topps.com/pages/topps-museum-ucc",
     "scope": "2025/26 Museum UEFA Club Competitions; Hobby and Hat-Trick only",
     "sha256": "c9fe6f6306c47b472cb7c1daf8d0e56aa9a2950677425e4cca3c0d4229f628b5"
+  },
+  {
+    "id": 87,
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Holiday_Baseball_Odds.pdf?v=1792522843",
+    "title": "2026 Topps Holiday Baseball",
+    "source": "https://www.topps.com/pages/odds",
+    "observed": "2026-10-20",
+    "sha256": "64f07778a144e3671b802a061dba56f7e1fa81540be41928bbb1fe8201d9bb5b"
   }
 ]
