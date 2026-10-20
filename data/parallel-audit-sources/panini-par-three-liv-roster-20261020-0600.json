@@ -1,0 +1,19 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T06:17:12.772297+00:00",
+  "slug": "panini-2026-panini-par-three-liv-golf",
+  "sourceKind": "official-browser-loaded-cardset-selector",
+  "facts": {
+    "text": "Search\nChecklist\nUse our free Checklists to help complete your collections\n\nGolf\n\n2026\n\nPanini\n\nPar Three LIV\n\nSelect Cardset\n\nSuggestions will appear as you start typing.\n0 suggestions found.\nNO DATA FOUND\nDOWNLOAD FULL CHECKLIST",
+    "url": "https://www.paniniamerica.net/checklist.html"
+  },
+  "factsSha256": "b587ea7fb4fb16fb6020a43978400f00e8d5b3608e64f7c889ee6b665f0a6a5b",
+  "availableCardsets": 0,
+  "csvExportRefreshed": false,
+  "publicDataChanged": false,
+  "priorProductGuideReview": {
+    "file": "data/parallel-audit-sources/panini-par-three-liv-2026-review-20261020-0200.json",
+    "sha256": "ae20fa2549bb534e2116d02fdda066e02f9dc5d35cb145151bbd25e6ef59da5f"
+  },
+  "remainingGap": "Fresh Golf / 2026 / Panini / Par Three LIV selection still explicitly reports zero suggestions and NO DATA FOUND. Retained header-only CSV remains historical; no fresh export was downloaded. Keep source-only import and exact guide-only limits; roster, eligibility, release and pack odds remain unverified."
+}
