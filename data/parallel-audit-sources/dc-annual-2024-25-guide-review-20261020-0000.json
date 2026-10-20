@@ -1,0 +1,49 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T00:05:02.505634+00:00",
+  "slug": "upper-deck-2024-25-dc-annual",
+  "sourceKind": "official-full-product-guide-read",
+  "method": "Complete official guide and Hobby overview read through the web tool; normalized factual snapshot, not a raw HTML hash. Reconciled to the existing published checklist cells.",
+  "facts": {
+    "productYear": "2024-25",
+    "guideUrl": "https://upperdeck.com/dc-annual/",
+    "productUrl": "https://upperdeck.com/product/24-25-dc-annual-hobby/",
+    "guideBaseCount": 100,
+    "guideGoldLinearityLimit": 88,
+    "checklistFamily": "Gold Linearity Parallel",
+    "checklistFamilyRows": 100,
+    "literalNumberingField": "#'d",
+    "allExistingNumberingValues": "88",
+    "hobbyBoxAverages": [
+      {
+        "type": "Variant Cover Parallel",
+        "average": 6
+      },
+      {
+        "type": "Silver Sparkle",
+        "average": 4
+      },
+      {
+        "type": "Backscatter",
+        "average": 1
+      },
+      {
+        "type": "Absolute Power",
+        "average": 2
+      },
+      {
+        "type": "Rare Insert",
+        "average": 3
+      }
+    ],
+    "distributionUnit": "Box Hits (On Average); do not convert to per-pack odds",
+    "releaseStatementVerified": false
+  },
+  "factsSha256": "6bcb821a98e34dfa7dfbbd6996756f43d684ff04167435fa21eb127c9d397d47",
+  "importedChecklistSource": "https://upperdeck.com/checklist/2024-25-dc-annual/",
+  "importedChecklistSha256": "7232b7bd80bf1c8625a491e37c8177838a95985814894ff33b4545e5ff0bd265",
+  "existingNumberedRowsSha256": "1faeab9b5a3c874180fe237bb64d6c66f6b4fa6a90a7f174854ef14b99144c82",
+  "approvedAdditionalNumericMappings": [],
+  "publicDataChanged": false,
+  "remainingGap": "The reviewed /88 claim is already present on all 100 imported Gold Linearity rows. Box averages do not establish pack odds, print runs or eligibility for other families. The guide supplies no explicit general release statement; May 13 checklist publication and the separate e-Pack launch are not substituted. Other family ladders and exhaustive eligibility remain unconfirmed."
+}
