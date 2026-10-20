@@ -27,4 +27,24 @@ assert all(teams==list(dict.fromkeys(s['Team'] for s in json.loads(row[6]) if s[
 assert len(d['odds'])==1097 and len(d['formats'])==20
 assert next(o for o in d['odds'] if o['name']=='Base Cards Base')['values']['Hobby Pack Rate']=='1:1'
 assert not any('provided by' in f or '*Chec' in f for f in d['formats'])
+proof_path=root/'data/parallel-audit-sources/flagship-football-london-2026-20261020.json'
+proof=json.loads(proof_path.read_text());digest=hashlib.sha256(proof_path.read_bytes()).hexdigest()
+assert d['londonGuideEvidence']['sha256']==digest
+assert proof['checklist']['sha256']==d['sha256'] and proof['odds']['sha256']==d['oddsSha256']
+specs=json.loads((root/'data/parallel-specifications.json').read_text())['sets'][slug]
+assert len(specs)==30 and {s['family'] for s in specs}==base
+limits={'Big Ben':'/59','Tudor Rose':'/5','Crown Jewels':'1/1','Union Jack Rainbow Foil':'Numbering not stated','Union Jack Blue Rainbow Foil':'Numbering not stated'}
+for family in base:
+ ss=[s for s in specs if s['family']==family]
+ assert len(ss)==5 and {s['name']:s['numbering'] for s in ss}==limits
+ for s in ss:
+  assert s['evidenceSha256']==digest and 'London Store Exclusive Mega Box paper base program only' in s['qualification']
+  assert any(o['name']==s['oddsName'] for o in d['odds'])
+assert not any('AUTOGRAPH' in s['family'] or 'CHROME' in s['family'] or 'VARIATION' in s['family'] for s in specs)
+assert len(d['odds'])==1097 and all(list(o['values'])==d['formats'] for o in d['odds'])
+assert [o['values']['London Games Me Pack Rate'] for o in d['odds'] if o['name']=='Base Cards Big Ben']==['1:22','1:22','1:36']
+record=next(s for s in json.loads((root/'data/set-catalog.json').read_text())['sets'] if s['slug']==slug)
+assert record['releaseDate']=='2026-08-21' and record['releaseStatus']=='Released'
+assert any(s['name']=='Manufacturer London Store Exclusive scope' and s['evidenceSha256']==digest for s in d['publishedSpecifications'])
 print('Verified all 4082 source numbers, 4171 subjects, 89 attached signers, base numbers 1–400 and literal 20-column odds.')
+print('Verified five London-only paper base programs across six exact families; only Big Ben /59, Tudor Rose /5 and Crown Jewels 1/1. All repeated odds captions and the regular release date retained; exhaustive numbering remains incomplete.')

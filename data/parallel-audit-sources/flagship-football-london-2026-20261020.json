@@ -1,0 +1,250 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T20:34:49.649309+00:00",
+  "sourceKind": "official-browser-guide-factual-snapshot",
+  "url": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+  "title": "NFL London Games Exclusive 2026 Topps Flagship Football",
+  "articlePublished": "Sep 23, 2026",
+  "method": "Fresh official browser article read and three expanded FAQ answers: exclusive parallels, regular-checklist equivalence and store on-sale wording. Factual summaries and exact program names, not raw HTML or an article reproduction. Retained candidate entries reconciled against current imported PDF rows and exact original odds captions.",
+  "facts": {
+    "checklistScope": "The guide and expanded checklist FAQ identify the same 400-card base checklist and rookie class as regular 2026 Flagship Football; London-specific content consists of five exclusive base parallels.",
+    "distributionScope": "London Store Exclusive Mega Box, sold only at the Fanatics Collectibles London Flagship Store on Regent Street.",
+    "onSaleStatement": "September 23, London store only, from the expanded release FAQ. The regular August 21 verified release is separate; no general release date is changed.",
+    "serialScope": "The expanded exclusive-parallels FAQ states Big Ben /59, Tudor Rose /5 and 1/1 Crown Jewels as base parallels. Union Jack Rainbow Foil and Union Jack Blue Rainbow Foil have no numbering claim.",
+    "examples": "The guide shows Tudor Rose on Ashton Jeanty Future Stars and AFC Pass Leaders and Crown Jewels on Carnell Tate. These examples do not establish limits for Chrome, inserts, autographs, relics or other parallels."
+  },
+  "checklist": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+    "sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+    "paperBaseNumbers": 400,
+    "paperBasePhysicalRows": 420,
+    "paperBaseFamilies": [
+      "BASE CARDS I",
+      "FUTURE STARS",
+      "TEAM CARDS",
+      "LEAGUE LEADERS",
+      "COMBO CARDS",
+      "ROOKIES"
+    ],
+    "allNumberedRows": 4082,
+    "allPrintedSubjects": 4171
+  },
+  "odds": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Football_Odds.pdf?v=1789491381",
+    "sha256": "0c59cf1159b88e59a12bea8c7a8982d50f3f154156e9312d302addab6e378925",
+    "categories": 1097,
+    "formats": 20,
+    "literalLondonColumn": "London Games Me Pack Rate",
+    "sourceValuesUnchanged": true,
+    "repeatedCaptions": "Original repeated captions and different printed ratios remain separate physical source rows; no single ratio is selected from them."
+  },
+  "approvedSpecifications": [
+    {
+      "family": "BASE CARDS I",
+      "name": "Union Jack Rainbow Foil",
+      "oddsName": "Base Cards Union Jack Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Union Jack Blue Rainbow Foil",
+      "oddsName": "Base Cards Union Jack Blue Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Big Ben",
+      "oddsName": "Base Cards Big Ben",
+      "numbering": "/59"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Tudor Rose",
+      "oddsName": "Base Cards Tudor Rose",
+      "numbering": "/5"
+    },
+    {
+      "family": "BASE CARDS I",
+      "name": "Crown Jewels",
+      "oddsName": "Base Cards Crown Jewels",
+      "numbering": "1/1"
+    },
+    {
+      "family": "FUTURE STARS",
+      "name": "Union Jack Rainbow Foil",
+      "oddsName": "FUTURE STARS Union Jack Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "FUTURE STARS",
+      "name": "Union Jack Blue Rainbow Foil",
+      "oddsName": "FUTURE STARS Union Jack Blue Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "FUTURE STARS",
+      "name": "Big Ben",
+      "oddsName": "FUTURE STARS Big Ben",
+      "numbering": "/59"
+    },
+    {
+      "family": "FUTURE STARS",
+      "name": "Tudor Rose",
+      "oddsName": "FUTURE STARS Tudor Rose",
+      "numbering": "/5"
+    },
+    {
+      "family": "FUTURE STARS",
+      "name": "Crown Jewels",
+      "oddsName": "FUTURE STARS Crown Jewels",
+      "numbering": "1/1"
+    },
+    {
+      "family": "TEAM CARDS",
+      "name": "Union Jack Rainbow Foil",
+      "oddsName": "Team Cards Union Jack Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "TEAM CARDS",
+      "name": "Union Jack Blue Rainbow Foil",
+      "oddsName": "Team Cards Union Jack Blue Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "TEAM CARDS",
+      "name": "Big Ben",
+      "oddsName": "Team Cards Big Ben",
+      "numbering": "/59"
+    },
+    {
+      "family": "TEAM CARDS",
+      "name": "Tudor Rose",
+      "oddsName": "Team Cards Tudor Rose",
+      "numbering": "/5"
+    },
+    {
+      "family": "TEAM CARDS",
+      "name": "Crown Jewels",
+      "oddsName": "Team Cards Crown Jewels",
+      "numbering": "1/1"
+    },
+    {
+      "family": "LEAGUE LEADERS",
+      "name": "Union Jack Rainbow Foil",
+      "oddsName": "League Leaders Union Jack Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "LEAGUE LEADERS",
+      "name": "Union Jack Blue Rainbow Foil",
+      "oddsName": "League Leaders Union Jack Blue Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "LEAGUE LEADERS",
+      "name": "Big Ben",
+      "oddsName": "League Leaders Big Ben",
+      "numbering": "/59"
+    },
+    {
+      "family": "LEAGUE LEADERS",
+      "name": "Tudor Rose",
+      "oddsName": "League Leaders Tudor Rose",
+      "numbering": "/5"
+    },
+    {
+      "family": "LEAGUE LEADERS",
+      "name": "Crown Jewels",
+      "oddsName": "League Leaders Crown Jewels",
+      "numbering": "1/1"
+    },
+    {
+      "family": "COMBO CARDS",
+      "name": "Union Jack Rainbow Foil",
+      "oddsName": "Combo Cards Union Jack Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "COMBO CARDS",
+      "name": "Union Jack Blue Rainbow Foil",
+      "oddsName": "Combo Cards Union Jack Blue Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "COMBO CARDS",
+      "name": "Big Ben",
+      "oddsName": "Combo Cards Big Ben",
+      "numbering": "/59"
+    },
+    {
+      "family": "COMBO CARDS",
+      "name": "Tudor Rose",
+      "oddsName": "Combo Cards Tudor Rose",
+      "numbering": "/5"
+    },
+    {
+      "family": "COMBO CARDS",
+      "name": "Crown Jewels",
+      "oddsName": "Combo Cards Crown Jewels",
+      "numbering": "1/1"
+    },
+    {
+      "family": "ROOKIES",
+      "name": "Union Jack Rainbow Foil",
+      "oddsName": "ROOKIES Union Jack Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "ROOKIES",
+      "name": "Union Jack Blue Rainbow Foil",
+      "oddsName": "ROOKIES Union Jack Blue Rainbow Foil",
+      "numbering": "Numbering not stated"
+    },
+    {
+      "family": "ROOKIES",
+      "name": "Big Ben",
+      "oddsName": "ROOKIES Big Ben",
+      "numbering": "/59"
+    },
+    {
+      "family": "ROOKIES",
+      "name": "Tudor Rose",
+      "oddsName": "ROOKIES Tudor Rose",
+      "numbering": "/5"
+    },
+    {
+      "family": "ROOKIES",
+      "name": "Crown Jewels",
+      "oddsName": "ROOKIES Crown Jewels",
+      "numbering": "1/1"
+    }
+  ],
+  "contextRows": [
+    [
+      "Checklist equivalence",
+      "400 paper base card numbers; same rookie class as regular Flagship",
+      "420 physical rows in six paper base families retain repeated leader/subject numbers. No variant or autograph roster is inferred."
+    ],
+    [
+      "London-only content",
+      "Five exclusive base parallel programs",
+      "Numbered limits belong only to the London Store Exclusive paper base programs."
+    ],
+    [
+      "Store distribution",
+      "Fanatics Collectibles London Flagship Store, Regent Street",
+      "Mega Box store edition; existing PDF odds header remains literal."
+    ],
+    [
+      "Store on-sale wording",
+      "September 23",
+      "London store only. Article publication is separately Sep 23, 2026; the main release date remains August 21."
+    ]
+  ],
+  "remainingGaps": [
+    "General parallel/numbering coverage remains incomplete. No other regular, Chrome, insert, autograph or relic program inherits these limits.",
+    "Union Jack Rainbow Foil and Union Jack Blue Rainbow Foil have no published serial-number limit in this guide.",
+    "Repeated odds captions retain all original page-specific values; no ratio is selected or reconstructed."
+  ]
+}

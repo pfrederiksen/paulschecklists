@@ -69,4 +69,6 @@ def build():
   if not found:items.append(record)
   p.write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n')
  print('Imported 4082 numbered rows, all 4171 published subjects and 89 attached signer continuations.')
+ from import_topps_flagship_london_specs_2026 import apply_specs
+ apply_specs()
 if __name__=='__main__':build()

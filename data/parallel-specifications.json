@@ -9980,6 +9980,338 @@
         "evidenceFile": "data/parallel-audit-sources/star-wars-galaxy-guides-20261020-1700.json",
         "evidenceSha256": "2f2c9ea05568c9a00cb14ac36a04a768358814406d3641169f618829a849e63a"
       }
+    ],
+    "topps-bowman-2026-topps-flagship-football": [
+      {
+        "family": "BASE CARDS I",
+        "name": "Union Jack Rainbow Foil",
+        "oddsName": "Base Cards Union Jack Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Union Jack Blue Rainbow Foil",
+        "oddsName": "Base Cards Union Jack Blue Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Big Ben",
+        "oddsName": "Base Cards Big Ben",
+        "numbering": "/59",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Tudor Rose",
+        "oddsName": "Base Cards Tudor Rose",
+        "numbering": "/5",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "BASE CARDS I",
+        "name": "Crown Jewels",
+        "oddsName": "Base Cards Crown Jewels",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "FUTURE STARS",
+        "name": "Union Jack Rainbow Foil",
+        "oddsName": "FUTURE STARS Union Jack Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "FUTURE STARS",
+        "name": "Union Jack Blue Rainbow Foil",
+        "oddsName": "FUTURE STARS Union Jack Blue Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "FUTURE STARS",
+        "name": "Big Ben",
+        "oddsName": "FUTURE STARS Big Ben",
+        "numbering": "/59",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "FUTURE STARS",
+        "name": "Tudor Rose",
+        "oddsName": "FUTURE STARS Tudor Rose",
+        "numbering": "/5",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "FUTURE STARS",
+        "name": "Crown Jewels",
+        "oddsName": "FUTURE STARS Crown Jewels",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "TEAM CARDS",
+        "name": "Union Jack Rainbow Foil",
+        "oddsName": "Team Cards Union Jack Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "TEAM CARDS",
+        "name": "Union Jack Blue Rainbow Foil",
+        "oddsName": "Team Cards Union Jack Blue Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "TEAM CARDS",
+        "name": "Big Ben",
+        "oddsName": "Team Cards Big Ben",
+        "numbering": "/59",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "TEAM CARDS",
+        "name": "Tudor Rose",
+        "oddsName": "Team Cards Tudor Rose",
+        "numbering": "/5",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "TEAM CARDS",
+        "name": "Crown Jewels",
+        "oddsName": "Team Cards Crown Jewels",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "LEAGUE LEADERS",
+        "name": "Union Jack Rainbow Foil",
+        "oddsName": "League Leaders Union Jack Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "LEAGUE LEADERS",
+        "name": "Union Jack Blue Rainbow Foil",
+        "oddsName": "League Leaders Union Jack Blue Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "LEAGUE LEADERS",
+        "name": "Big Ben",
+        "oddsName": "League Leaders Big Ben",
+        "numbering": "/59",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "LEAGUE LEADERS",
+        "name": "Tudor Rose",
+        "oddsName": "League Leaders Tudor Rose",
+        "numbering": "/5",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "LEAGUE LEADERS",
+        "name": "Crown Jewels",
+        "oddsName": "League Leaders Crown Jewels",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "COMBO CARDS",
+        "name": "Union Jack Rainbow Foil",
+        "oddsName": "Combo Cards Union Jack Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "COMBO CARDS",
+        "name": "Union Jack Blue Rainbow Foil",
+        "oddsName": "Combo Cards Union Jack Blue Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "COMBO CARDS",
+        "name": "Big Ben",
+        "oddsName": "Combo Cards Big Ben",
+        "numbering": "/59",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "COMBO CARDS",
+        "name": "Tudor Rose",
+        "oddsName": "Combo Cards Tudor Rose",
+        "numbering": "/5",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "COMBO CARDS",
+        "name": "Crown Jewels",
+        "oddsName": "Combo Cards Crown Jewels",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "ROOKIES",
+        "name": "Union Jack Rainbow Foil",
+        "oddsName": "ROOKIES Union Jack Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "ROOKIES",
+        "name": "Union Jack Blue Rainbow Foil",
+        "oddsName": "ROOKIES Union Jack Blue Rainbow Foil",
+        "numbering": "Numbering not stated",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "ROOKIES",
+        "name": "Big Ben",
+        "oddsName": "ROOKIES Big Ben",
+        "numbering": "/59",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "ROOKIES",
+        "name": "Tudor Rose",
+        "oddsName": "ROOKIES Tudor Rose",
+        "numbering": "/5",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      },
+      {
+        "family": "ROOKIES",
+        "name": "Crown Jewels",
+        "oddsName": "ROOKIES Crown Jewels",
+        "numbering": "1/1",
+        "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/",
+        "sourceHeading": "London Store Exclusive FAQs: exclusive base parallels and checklist equivalence",
+        "qualification": "London Store Exclusive Mega Box paper base program only; individual-card parallel eligibility is not guaranteed. No other regular, Chrome, insert, autograph or relic program inherits this limit.",
+        "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+        "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
+      }
     ]
   },
   "conflicts": [

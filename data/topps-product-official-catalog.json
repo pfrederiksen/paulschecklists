@@ -592,8 +592,8 @@
     "year": "2026",
     "sourcePage": "https://www.topps.com/pages/checklists",
     "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
-    "releaseStatus": "Unverified",
-    "releaseDate": null,
+    "releaseStatus": "Released",
+    "releaseDate": "2026-08-21",
     "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
     "slug": "topps-bowman-2026-topps-flagship-football",
     "page": "sets/topps-bowman-2026-topps-flagship-football.html",
@@ -603,7 +603,7 @@
     "tableData": "data/imports/topps-bowman-2026-topps-flagship-football.json",
     "sections": 87,
     "importKind": "topps-grid-pdf",
-    "dataAudit": "All 4,171 printed subject rows imported as 4,082 numbered rows across 87 sections; 89 blank-number signer continuations stay attached to their cards. Original names, teams, rookie annotations and Silver Pack Auto notes retained. Repeated printed numbers are preserved; individual parallel eligibility is not inferred.",
+    "dataAudit": "All 4,171 printed subject rows / 4,082 numbered rows, 87 sections and 1,097 original 20-column odds remain unchanged. The London Store Exclusive guide reconciles five paper base parallel programs across the same 400 base numbers: Big Ben /59, Tudor Rose /5 and Crown Jewels 1/1; both Union Jack foils have numbering unstated. The London store on-sale wording is separate from the regular August 21 release. Chrome, variations, inserts, autographs and relics inherit no London base limits; exhaustive numbering remains incomplete.",
     "odds": 1097,
     "formats": 20,
     "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Football_Odds.pdf?v=1789491381",
@@ -611,7 +611,22 @@
     "parallelData": true,
     "oddsParser": "scripts/official_odds_layout.py",
     "dedicatedParser": "scripts/import_topps_flagship_football_2026.py",
-    "sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035"
+    "sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+    "verifiedRelease": {
+      "url": "https://ripped.topps.com/2026-topps-football-boxes-hobby-jumbo-retail-guide/",
+      "title": "2026 Topps Flagship Football Box Guide",
+      "observed": "2026-10-15",
+      "method": "Actual official in-app browser read",
+      "statement": "Scheduled release date: August 21, 2026",
+      "scope": "Manufacturer U.S. guide",
+      "sha256": "21e4cffb48950b815ca91b2a85f6d1fb2b1e5d2f7457d50104487163a785e6b1",
+      "snapshotFile": "data/release-dates.json"
+    },
+    "londonGuideEvidence": {
+      "file": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
+      "sha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971",
+      "source": "https://ripped.topps.com/2026-topps-london-games-flagship-football/"
+    }
   },
   {
     "title": "2026 Topps Midnight UFC",
