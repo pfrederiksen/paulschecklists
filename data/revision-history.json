@@ -5628,14 +5628,37 @@
   },
   "topps-now-2026": {
     "state": {
-      "checklistHash": "58bd97abdd72cafa575d3d86dbb1b411c8df80b712c7dae599fddb63cc371c0b",
+      "checklistHash": "e901f8d6c873ef971794e094d9acbfb82007b29097b7283a519f79c33e27aef7",
       "oddsHash": null,
-      "rows": 2298,
+      "rows": 2303,
       "odds": 0,
-      "specificationRows": 10485
+      "specificationRows": 10505
     },
-    "fingerprint": "3619f28d2caf11fd8e213dd64bd4481edef03cbe7452f01a146d81435d33f1a4",
+    "fingerprint": "96821cc0d15c5e938ae0cb3cf420b2ab2e2d390dfb53d3634cd25c0e33b2665e",
     "events": [
+      {
+        "at": "2026-10-20T11:20:44.242Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 2298 → 2303",
+          "Supplementary specification rows: 10485 → 10505"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "e901f8d6c873ef971794e094d9acbfb82007b29097b7283a519f79c33e27aef7",
+          "oddsHash": null,
+          "rows": 2303,
+          "odds": 0,
+          "specificationRows": 10505
+        },
+        "previousSnapshot": {
+          "checklistHash": "58bd97abdd72cafa575d3d86dbb1b411c8df80b712c7dae599fddb63cc371c0b",
+          "oddsHash": null,
+          "rows": 2298,
+          "odds": 0,
+          "specificationRows": 10485
+        }
+      },
       {
         "at": "2026-10-19T21:05:23.886Z",
         "changes": [
@@ -10845,14 +10868,37 @@
   },
   "topps-now-2026-27-bundesliga-topps-now": {
     "state": {
-      "checklistHash": "c14e42996bba1f21830c69557d05eb20d41feebcf29623e806d81c113608b45d",
+      "checklistHash": "047407bd9e43fb5273309fb1c388ca860faa468ef686c953b99ea2189e9b849a",
       "oddsHash": null,
-      "rows": 25,
+      "rows": 30,
       "odds": 0,
-      "specificationRows": 102
+      "specificationRows": 122
     },
-    "fingerprint": "ac698bdb586b8b9696809e01571e42480a750056872ff0408f707a5c31d762d8",
+    "fingerprint": "74764cff7cf47e5664874c06bd6b568bc4afeb45819801c8e1edf054049758fd",
     "events": [
+      {
+        "at": "2026-10-20T11:20:44.273Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Checklist entries: 25 → 30",
+          "Supplementary specification rows: 102 → 122"
+        ],
+        "source": "https://www.topps.com/collections/topps-now-archive",
+        "snapshot": {
+          "checklistHash": "047407bd9e43fb5273309fb1c388ca860faa468ef686c953b99ea2189e9b849a",
+          "oddsHash": null,
+          "rows": 30,
+          "odds": 0,
+          "specificationRows": 122
+        },
+        "previousSnapshot": {
+          "checklistHash": "c14e42996bba1f21830c69557d05eb20d41feebcf29623e806d81c113608b45d",
+          "oddsHash": null,
+          "rows": 25,
+          "odds": 0,
+          "specificationRows": 102
+        }
+      },
       {
         "at": "2026-10-17T16:09:34.332Z",
         "changes": [

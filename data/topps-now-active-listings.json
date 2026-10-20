@@ -1,15 +1,35 @@
 {
   "observed": "2026-10-20",
   "sourceKind": "official-browser-active-listing",
-  "checkedUtc": "2026-10-20T10:19:00.916669+00:00",
+  "checkedUtc": "2026-10-20T11:20:22.708353+00:00",
   "freshListingReadsComplete": true,
   "pendingFreshListingReads": [],
   "listings": [
     {
       "url": "https://www.topps.com/collections/topps-now",
-      "pagesObserved": 2,
-      "reportedProductCount": 48,
+      "pagesObserved": 3,
+      "reportedProductCount": 54,
       "products": [
+        {
+          "title": "Marvin Wanitzek - 2026-27 Bundesliga Topps NOW® - Card 37",
+          "url": "https://www.topps.com/products/marvin-wanitzek-2026-27-bundesliga-topps-now-r-card-37"
+        },
+        {
+          "title": "Patrik Schick - 2026-27 Bundesliga Topps NOW® - Card 36",
+          "url": "https://www.topps.com/products/patrik-schick-2026-27-bundesliga-topps-now-r-card-36"
+        },
+        {
+          "title": "Iaia Manco Danfa - 2026-27 Bundesliga Topps NOW® - Card 35",
+          "url": "https://www.topps.com/products/iaia-manco-danfa-2026-27-bundesliga-topps-now-r-card-35"
+        },
+        {
+          "title": "Miro Muheim - 2026-27 Bundesliga Topps NOW® - Card 34",
+          "url": "https://www.topps.com/products/miro-muheim-2026-27-bundesliga-topps-now-r-card-34"
+        },
+        {
+          "title": "Luis Díaz - 2026-27 Bundesliga Topps NOW® - Card 33",
+          "url": "https://www.topps.com/products/luis-diaz-2026-27-bundesliga-topps-now-r-card-33"
+        },
         {
           "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
           "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30"
@@ -169,6 +189,10 @@
         {
           "title": "Issa Doumbia - 2026-27 UCL Topps NOW® - Card 19",
           "url": "https://www.topps.com/products/issa-doumbia-2026-27-ucl-topps-now-r-card-19"
+        },
+        {
+          "title": "Jesse Derry - 2026-27 UCL Topps NOW® - Card 18",
+          "url": "https://www.topps.com/products/jesse-derry-2026-27-ucl-topps-now-r-card-18"
         },
         {
           "title": "Dara O'Shea - 2026-27 Premier League Topps NOW® - Card 38",

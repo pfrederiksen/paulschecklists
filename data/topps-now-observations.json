@@ -82647,6 +82647,206 @@
     "saleFromISO": "2026-10-12"
   },
   {
+    "series": "2026-27 Bundesliga Topps NOW®",
+    "number": "33",
+    "name": "Luis Díaz",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 27, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/luis-diaz-2026-27-bundesliga-topps-now-r-card-33",
+    "evidence": {
+      "url": "https://www.topps.com/products/luis-diaz-2026-27-bundesliga-topps-now-r-card-33",
+      "sha256": "01563bee8fa8f2e9f2df900a91eb7662a031260207738bef00c2893240f6407c",
+      "observed": "2026-10-20",
+      "title": "Luis Díaz - 2026-27 Bundesliga Topps NOW® - Card 33",
+      "fields": {
+        "SKU": "ARTBL-16C2S-27TN-0033",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Luis Díaz",
+        "Properties": "FC Bayern München",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 27, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1100-bundesliga.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
+    "series": "2026-27 Bundesliga Topps NOW®",
+    "number": "34",
+    "name": "Miro Muheim",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 27, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/miro-muheim-2026-27-bundesliga-topps-now-r-card-34",
+    "evidence": {
+      "url": "https://www.topps.com/products/miro-muheim-2026-27-bundesliga-topps-now-r-card-34",
+      "sha256": "4146497e9942498d938cf456388ecf74608accfe13e476eb6bb0ca34680c1218",
+      "observed": "2026-10-20",
+      "title": "Miro Muheim - 2026-27 Bundesliga Topps NOW® - Card 34",
+      "fields": {
+        "SKU": "ARTBL-16C2S-27TN-0034",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Miro Muheim",
+        "Properties": "Hamburger SV",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 27, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1100-bundesliga.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
+    "series": "2026-27 Bundesliga Topps NOW®",
+    "number": "35",
+    "name": "Iaia Manco Danfa",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 27, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/iaia-manco-danfa-2026-27-bundesliga-topps-now-r-card-35",
+    "evidence": {
+      "url": "https://www.topps.com/products/iaia-manco-danfa-2026-27-bundesliga-topps-now-r-card-35",
+      "sha256": "908afdc368b78a3b1a1c79cf87dac9e934bacb42a88caa18673d8f5e8fea4878",
+      "observed": "2026-10-20",
+      "title": "Iaia Manco Danfa - 2026-27 Bundesliga Topps NOW® - Card 35",
+      "fields": {
+        "SKU": "ARTBL-16C2S-27TN-0035",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Iaia Manco Danfa",
+        "Properties": "Borussia Mönchengladbach",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 27, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1100-bundesliga.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
+    "series": "2026-27 Bundesliga Topps NOW®",
+    "number": "36",
+    "name": "Patrik Schick",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 27, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/patrik-schick-2026-27-bundesliga-topps-now-r-card-36",
+    "evidence": {
+      "url": "https://www.topps.com/products/patrik-schick-2026-27-bundesliga-topps-now-r-card-36",
+      "sha256": "e93f3d0807769c6b00ee8e7b0f27155065849016d78b8c7bb4e5b4679ee8d082",
+      "observed": "2026-10-20",
+      "title": "Patrik Schick - 2026-27 Bundesliga Topps NOW® - Card 36",
+      "fields": {
+        "SKU": "ARTBL-16C2S-27TN-0036",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Patrik Schick",
+        "Properties": "Bayer 04 Leverkusen",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 27, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1100-bundesliga.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
+    "series": "2026-27 Bundesliga Topps NOW®",
+    "number": "37",
+    "name": "Marvin Wanitzek",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 27, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/marvin-wanitzek-2026-27-bundesliga-topps-now-r-card-37",
+    "evidence": {
+      "url": "https://www.topps.com/products/marvin-wanitzek-2026-27-bundesliga-topps-now-r-card-37",
+      "sha256": "9fe3940c49d7ee908d51297ddb04cc148316527cf6680e2e30ab66ddaea6bb27",
+      "observed": "2026-10-20",
+      "title": "Marvin Wanitzek - 2026-27 Bundesliga Topps NOW® - Card 37",
+      "fields": {
+        "SKU": "ARTBL-16C2S-27TN-0037",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Marvin Wanitzek",
+        "Properties": "Karlsruher SC",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 27, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1100-bundesliga.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
     "series": "2026-27 Chelsea FC Topps NOW®",
     "number": "1",
     "name": "Morgan Rogers",

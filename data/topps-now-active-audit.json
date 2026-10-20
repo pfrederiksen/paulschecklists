@@ -1,8 +1,33 @@
 {
   "observed": "2026-10-20",
-  "listingSha256": "bab1fb8afb72675c6e18086ce57ed872250e77fb489f0c4412ad914629446a3e",
+  "listingSha256": "a7d361329ea1340322b0bc551f8ed21f36bafe7a4faa853103fb6a4dd747edd5",
   "historicalCoverageComplete": false,
   "products": [
+    {
+      "title": "Marvin Wanitzek - 2026-27 Bundesliga Topps NOW® - Card 37",
+      "url": "https://www.topps.com/products/marvin-wanitzek-2026-27-bundesliga-topps-now-r-card-37",
+      "status": "published"
+    },
+    {
+      "title": "Patrik Schick - 2026-27 Bundesliga Topps NOW® - Card 36",
+      "url": "https://www.topps.com/products/patrik-schick-2026-27-bundesliga-topps-now-r-card-36",
+      "status": "published"
+    },
+    {
+      "title": "Iaia Manco Danfa - 2026-27 Bundesliga Topps NOW® - Card 35",
+      "url": "https://www.topps.com/products/iaia-manco-danfa-2026-27-bundesliga-topps-now-r-card-35",
+      "status": "published"
+    },
+    {
+      "title": "Miro Muheim - 2026-27 Bundesliga Topps NOW® - Card 34",
+      "url": "https://www.topps.com/products/miro-muheim-2026-27-bundesliga-topps-now-r-card-34",
+      "status": "published"
+    },
+    {
+      "title": "Luis Díaz - 2026-27 Bundesliga Topps NOW® - Card 33",
+      "url": "https://www.topps.com/products/luis-diaz-2026-27-bundesliga-topps-now-r-card-33",
+      "status": "published"
+    },
     {
       "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
       "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30",
@@ -204,6 +229,11 @@
       "status": "published"
     },
     {
+      "title": "Jesse Derry - 2026-27 UCL Topps NOW® - Card 18",
+      "url": "https://www.topps.com/products/jesse-derry-2026-27-ucl-topps-now-r-card-18",
+      "status": "published"
+    },
+    {
       "title": "Dara O'Shea - 2026-27 Premier League Topps NOW® - Card 38",
       "url": "https://www.topps.com/products/dara-o-shea-2026-27-premier-league-topps-now-r-card-38",
       "status": "published"
@@ -264,7 +294,7 @@
       "status": "published"
     }
   ],
-  "publishedCount": 52,
-  "uniquePublishedCount": 48,
+  "publishedCount": 58,
+  "uniquePublishedCount": 54,
   "remaining": []
 }
