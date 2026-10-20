@@ -1,0 +1,372 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T10:19:00.808064+00:00",
+  "sourceKind": "official-browser-product-checklist-discovery",
+  "method": "Fresh exact Five Star Baseball and Bowman Football Sapphire landing-page DOM reads. Calendar evidence is retained from the linked prior checkpoint, not represented as freshly read.",
+  "facts": {
+    "productUiReads": [
+      {
+        "links": [
+          {
+            "title": "Terms and Conditions",
+            "url": "https://www.eql.com/terms-conditions"
+          },
+          {
+            "title": "Privacy Policy",
+            "url": "https://www.eql.com/privacy-policy"
+          },
+          {
+            "title": "Terms and Conditions",
+            "url": "https://www.topps.com/pages/terms-conditions"
+          },
+          {
+            "title": "Privacy Notice",
+            "url": "https://www.topps.com/pages/privacy-policy"
+          },
+          {
+            "title": "here.",
+            "url": "https://www.topps.com/topps-eql-faq"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-five-star-baseball#"
+          },
+          {
+            "title": "Topps Five Star Baseball Product History",
+            "url": "https://www.topps.com/pages/topps-five-star-baseball#"
+          },
+          {
+            "title": "Read more",
+            "url": "https://www.topps.com/pages/topps-five-star-baseball#"
+          }
+        ],
+        "text": "Available October 28 on EQL\n2026 Topps Five Star Baseball\nThe names that define the game\nGet notified\nAbout the release\n\n2026 Topps Five Star Baseball returns with six cards in every box: five on-card autographs numbered to 199 or less and one base card numbered to 50 or less. Every case also includes two autograph relics and one color-ink autograph.\n\nLeaderboard Legend and Apex Autographs make their debut in this year’s autograph lineup. One-of-one Rookie Cap cards featuring MLB Logoman and side-logo patches from in-season hats return as a distinctive memorabilia element to this year’s release.\n\nWhat to look for\nFive Star Fabric\n\nFive Star Quintuple Relic Autographs\n\nFive Star Autographed Jumbo Prime Cards\n\nBaseball Royalty\n\nWho is EQL?\n\nEQL is a third-party commerce platform that helps manage the launch of exclusive products. Topps has now partnered with EQL to help manage new launches of unique and limited-edition Topps products. EQL helps us slow down bots and to deliver a launch that is fair.\n\nPartnering with EQL means that:\n\nEvery entry goes through a multi-step security verification process that confirms you are a human, slowing down bots from submitting orders.\n\nOne entry per person because entries are deduplicated against unique identification tags.\n\nIt should be simple to enter – once you have a verified EQL account, entering becomes a breeze.\n\nPLEASE READ THE FOLLOWING TERMS AND CONDITIONS AND PRIVACY POLICIES BEFORE ATTEMPTING TO PARTICIPATE IN AN EQL RELEASE:\n\n* EQL’s Terms and Conditions and EQL’s Privacy Policy which govern your use of the EQL platform.* Topps.com’s Terms and Conditions and Privacy Notice which govern your use of Topps.com and your entry should your entry be selected by EQL.\nLearn more about the EQL draw here.\nAbout the brand\n\nTopps Five Star delivers a high-end collecting experience defined by elegant design, thick card stock, bold foil finishes, and premium on-card autograph content. Featuring rookies, veterans, and legends, the brand’s carefully curated checklist showcases players across generations of the game. With every card numbered, Five Star delivers an intentionally limited experience built around standout, centerpiece-worthy pulls.\n\nExplore more\nTopps Five Star Baseball Product History\nRead more",
+        "url": "https://www.topps.com/pages/topps-five-star-baseball"
+      },
+      {
+        "links": [],
+        "text": "Available October 29\n2026 Bowman Football Sapphire Edition\nGet notified",
+        "url": "https://www.topps.com/pages/bowman-football-sapphire-edition"
+      }
+    ],
+    "releaseCalendarUiRead": {
+      "checkedUtc": "2026-10-20T10:18:33.153Z",
+      "url": "https://www.topps.com/release-calendar",
+      "droppingSoon": {
+        "links": [
+          {
+            "title": "Home",
+            "url": "https://www.topps.com/"
+          },
+          {
+            "title": "Home",
+            "url": "https://www.topps.com/"
+          },
+          {
+            "title": "Release calendar",
+            "url": "https://www.topps.com/release-calendar"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-holiday-baseball"
+          },
+          {
+            "title": "Wednesday, Oct 21 at 9:00 AM PDT\n2026 Topps Holiday Baseball",
+            "url": "https://www.topps.com/pages/topps-holiday-baseball"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-heritage-football"
+          },
+          {
+            "title": "Wednesday, Oct 21 at 10:00 AM PDT\n2026 Topps Heritage Football",
+            "url": "https://www.topps.com/pages/topps-heritage-football"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-vault-disney"
+          },
+          {
+            "title": "Wednesday, Oct 21 at 11:00 AM PDT\n2026 Topps Vault Disney",
+            "url": "https://www.topps.com/pages/topps-vault-disney"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/garbage-pail-kids-halloween"
+          },
+          {
+            "title": "Thursday, Oct 22 at 9:00 AM PDT\n2026 Garbage Pail Kids Halloween",
+            "url": "https://www.topps.com/pages/garbage-pail-kids-halloween"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-stadium-club-wwe"
+          },
+          {
+            "title": "Friday, Oct 23\n2026 Topps Stadium Club WWE",
+            "url": "https://www.topps.com/pages/topps-stadium-club-wwe"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-holiday-football"
+          },
+          {
+            "title": "Friday, Oct 23 at 10:00 AM PDT\n2026 Topps Holiday Football",
+            "url": "https://www.topps.com/pages/topps-holiday-football"
+          },
+          {
+            "title": "PRE-ORDER",
+            "url": "https://www.topps.com/pages/topps-gilded-collection-baseball"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-gilded-collection-baseball"
+          },
+          {
+            "title": "Monday, Oct 26\n2026 Topps Gilded Collection Baseball",
+            "url": "https://www.topps.com/pages/topps-gilded-collection-baseball"
+          },
+          {
+            "title": "PRE-ORDER",
+            "url": "https://www.topps.com/pages/topps-stadium-club-basketball"
+          },
+          {
+            "title": "Tuesday, Oct 27\n2025-26 Topps Stadium Club Basketball",
+            "url": "https://www.topps.com/pages/topps-stadium-club-basketball"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-five-star-baseball"
+          },
+          {
+            "title": "Wednesday, Oct 28\n2026 Topps Five Star Baseball",
+            "url": "https://www.topps.com/pages/topps-five-star-baseball"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-collector-kit"
+          },
+          {
+            "title": "Wednesday, Oct 28\n2026 Topps Collector Kit Wave 2",
+            "url": "https://www.topps.com/pages/topps-collector-kit"
+          },
+          {
+            "title": "Thursday, Oct 29\n2026 Bowman Football Sapphire Edition",
+            "url": "https://www.topps.com/pages/bowman-football-sapphire-edition"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/bowman-u-best-football"
+          },
+          {
+            "title": "Friday, Oct 30\n2026 Bowman U Best Football",
+            "url": "https://www.topps.com/pages/bowman-u-best-football"
+          },
+          {
+            "title": "PRE-ORDER",
+            "url": "https://www.topps.com/pages/topps-chrome-baseball-update-series"
+          },
+          {
+            "title": "Monday, Nov 2\n2026 Topps Chrome® Update Series Baseball",
+            "url": "https://www.topps.com/pages/topps-chrome-baseball-update-series"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-cosmic-chrome-baseball"
+          },
+          {
+            "title": "Wednesday, Nov 4\n2026 Topps Cosmic Chrome® Baseball",
+            "url": "https://www.topps.com/pages/topps-cosmic-chrome-baseball"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-flagship-basketball"
+          },
+          {
+            "title": "Thursday, Nov 5\n2026-27 Topps Flagship Basketball",
+            "url": "https://www.topps.com/pages/topps-flagship-basketball"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-inception-football"
+          },
+          {
+            "title": "Friday, Nov 6\n2026 Topps Inception Football",
+            "url": "https://www.topps.com/pages/topps-inception-football"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-museum-collection-baseball"
+          },
+          {
+            "title": "Wednesday, Nov 11\n2026 Topps Museum Collection Baseball",
+            "url": "https://www.topps.com/pages/topps-museum-collection-baseball"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-pro-debut-baseball"
+          },
+          {
+            "title": "Wednesday, Nov 18\n2026 Topps Pro Debut Baseball",
+            "url": "https://www.topps.com/pages/topps-pro-debut-baseball"
+          }
+        ],
+        "text": "Home\n·\nRelease calendar\nRelease calendar\nTrack upcoming Topps releases so you don't miss what's dropping next.\n*Dates subject to change\nDropping soon\nAvailable now\nOct 20 – Nov 3 2026\nWednesday, Oct 21 at 9:00 AM PDT\n2026 Topps Holiday Baseball\nNotify me\nWednesday, Oct 21 at 10:00 AM PDT\n2026 Topps Heritage Football\nNotify me\nWednesday, Oct 21 at 11:00 AM PDT\n2026 Topps Vault Disney\nNotify me\nThursday, Oct 22 at 9:00 AM PDT\n2026 Garbage Pail Kids Halloween\nNotify me\nFriday, Oct 23\n2026 Topps Stadium Club WWE\nNotify me\nFriday, Oct 23 at 10:00 AM PDT\n2026 Topps Holiday Football\nNotify me\nPRE-ORDER\nMonday, Oct 26\n2026 Topps Gilded Collection Baseball\nNotify me\nPRE-ORDER\nTuesday, Oct 27\n2025-26 Topps Stadium Club Basketball\nNotify me\nWednesday, Oct 28\n2026 Topps Five Star Baseball\nNotify me\nWednesday, Oct 28\n2026 Topps Collector Kit Wave 2\nNotify me\nThursday, Oct 29\n2026 Bowman Football Sapphire Edition\nNotify me\nFriday, Oct 30\n2026 Bowman U Best Football\nNotify me\nPRE-ORDER\nMonday, Nov 2\n2026 Topps Chrome® Update Series Baseball\nNotify me\nRelease spotlight\nWednesday, Nov 4\n2026 Topps Cosmic Chrome® Baseball\nThursday, Nov 5\n2026-27 Topps Flagship Basketball\nFriday, Nov 6\n2026 Topps Inception Football\nWednesday, Nov 11\n2026 Topps Museum Collection Baseball\nWednesday, Nov 18\n2026 Topps Pro Debut Baseball"
+      },
+      "availableNow": {
+        "links": [
+          {
+            "title": "Home",
+            "url": "https://www.topps.com/"
+          },
+          {
+            "title": "Home",
+            "url": "https://www.topps.com/"
+          },
+          {
+            "title": "Release calendar",
+            "url": "https://www.topps.com/release-calendar"
+          },
+          {
+            "title": "PRE-ORDER",
+            "url": "https://www.topps.com/pages/topps-chrome-football"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-chrome-football"
+          },
+          {
+            "title": "2026 Topps Chrome® Football",
+            "url": "https://www.topps.com/pages/topps-chrome-football"
+          },
+          {
+            "title": "Shop now",
+            "url": "https://www.topps.com/pages/topps-chrome-football"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-updates-baseball"
+          },
+          {
+            "title": "2026 Topps Update Series Baseball",
+            "url": "https://www.topps.com/pages/topps-updates-baseball"
+          },
+          {
+            "title": "Shop now",
+            "url": "https://www.topps.com/pages/topps-updates-baseball"
+          },
+          {
+            "title": "PRE-ORDER",
+            "url": "https://www.topps.com/pages/topps-flagship-bundesliga"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-flagship-bundesliga"
+          },
+          {
+            "title": "Topps Flagship Bundesliga 2026/27",
+            "url": "https://www.topps.com/pages/topps-flagship-bundesliga"
+          },
+          {
+            "title": "Shop now",
+            "url": "https://www.topps.com/pages/topps-flagship-bundesliga"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/football-club-collections"
+          },
+          {
+            "title": "Topps® Official Club Collector Tins",
+            "url": "https://www.topps.com/pages/football-club-collections"
+          },
+          {
+            "title": "Shop now",
+            "url": "https://www.topps.com/pages/football-club-collections"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-universe-wwe"
+          },
+          {
+            "title": "2026 Topps Universe WWE",
+            "url": "https://www.topps.com/pages/topps-universe-wwe"
+          },
+          {
+            "title": "Shop now",
+            "url": "https://www.topps.com/pages/topps-universe-wwe"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-flagship-football"
+          },
+          {
+            "title": "2026 Topps Flagship Football",
+            "url": "https://www.topps.com/pages/topps-flagship-football"
+          },
+          {
+            "title": "Shop now",
+            "url": "https://www.topps.com/pages/topps-flagship-football"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-cosmic-chrome-baseball"
+          },
+          {
+            "title": "Wednesday, Nov 4\n2026 Topps Cosmic Chrome® Baseball",
+            "url": "https://www.topps.com/pages/topps-cosmic-chrome-baseball"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-flagship-basketball"
+          },
+          {
+            "title": "Thursday, Nov 5\n2026-27 Topps Flagship Basketball",
+            "url": "https://www.topps.com/pages/topps-flagship-basketball"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-inception-football"
+          },
+          {
+            "title": "Friday, Nov 6\n2026 Topps Inception Football",
+            "url": "https://www.topps.com/pages/topps-inception-football"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-museum-collection-baseball"
+          },
+          {
+            "title": "Wednesday, Nov 11\n2026 Topps Museum Collection Baseball",
+            "url": "https://www.topps.com/pages/topps-museum-collection-baseball"
+          },
+          {
+            "title": "",
+            "url": "https://www.topps.com/pages/topps-pro-debut-baseball"
+          },
+          {
+            "title": "Wednesday, Nov 18\n2026 Topps Pro Debut Baseball",
+            "url": "https://www.topps.com/pages/topps-pro-debut-baseball"
+          }
+        ],
+        "text": "Home\n·\nRelease calendar\nRelease calendar\nTrack upcoming Topps releases so you don't miss what's dropping next.\n*Dates subject to change\nDropping soon\nAvailable now\nPRE-ORDER\n2026 Topps Chrome® Football\nShop now\n2026 Topps Update Series Baseball\nShop now\nPRE-ORDER\nTopps Flagship Bundesliga 2026/27\nShop now\nTopps® Official Club Collector Tins\nShop now\n2026 Topps Universe WWE\nShop now\n2026 Topps Flagship Football\nShop now\nRelease spotlight\nWednesday, Nov 4\n2026 Topps Cosmic Chrome® Baseball\nThursday, Nov 5\n2026-27 Topps Flagship Basketball\nFriday, Nov 6\n2026 Topps Inception Football\nWednesday, Nov 11\n2026 Topps Museum Collection Baseball\nWednesday, Nov 18\n2026 Topps Pro Debut Baseball"
+      }
+    }
+  },
+  "factsSha256": "4ffeb155e6e6a45db56b69e5b0e477b268f9128527b80fc3b3e9c636774be14b",
+  "productUiUnchanged": true,
+  "newChecklistDocuments": [],
+  "calendarCoverageComplete": false,
+  "remainingGap": "Five Star Baseball and Bowman Football Sapphire have no checklist link in the checked exact landing pages. Other existing global documents are not substituted without exact product/year scope. Five Star box contents and upper-bound numbering prose remain product context, not a subject roster or exact parallel ladder.",
+  "pendingGuideOnlyDiscoveries": [
+    {
+      "file": "data/parallel-audit-sources/bob-ross-basketball-2026-discovery-20261020-0700.json",
+      "sha256": "ba81dc5cfec1e6e206c91c1b27d8d97973e7be2f3d614bbdd58368a44dcf6275",
+      "product": "2026 Topps x Bob Ross: The Joy of Basketball",
+      "source": "https://ripped.topps.com/topps-bob-ross-joy-of-basketball-2026-product-history/",
+      "checklistVerified": false,
+      "calendarReleaseVerified": false,
+      "nextAction": "Recheck exact official product/checklist sources when published. Preserve guide-only Midnight Black 1/1 scope; no synthetic roster or family eligibility."
+    }
+  ],
+  "calendarReconciliation": "Fresh Dropping soon and Available now controls retain Five Star October 28 and Bowman Football Sapphire October 29. Neon Marvel has no listing in these views; no release date inferred."
+}
