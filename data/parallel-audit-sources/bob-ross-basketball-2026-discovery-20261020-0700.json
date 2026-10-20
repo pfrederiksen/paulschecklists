@@ -1,0 +1,45 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T07:16:28.804378+00:00",
+  "sourceKind": "official-browser-guide-discovery",
+  "method": "Fresh official product-history guide main-content read. Normalized factual snapshot; no article publication date used as a release date.",
+  "facts": {
+    "source": "https://ripped.topps.com/topps-bob-ross-joy-of-basketball-2026-product-history/",
+    "productTitle": "Topps x Bob Ross: The Joy of Basketball",
+    "publishedDebutYear": "2026",
+    "publishedLicensors": [
+      "NBA",
+      "Bob Ross Estate"
+    ],
+    "namedPrograms": [
+      "Bob Ross SSP",
+      "Budding Talent",
+      "Art of the Dribble",
+      "Over the Mountains",
+      "Peapod the Happy Squirrel",
+      "Beauty Is Everywhere"
+    ],
+    "numberingContext": [
+      {
+        "label": "Midnight Black",
+        "numbering": "1/1",
+        "scope": "Guide describes parallels and autographs, but provides no numbered card roster or exact family-to-odds mapping."
+      }
+    ],
+    "namedPlayerExamples": [
+      "LeBron James",
+      "Victor Wembanyama",
+      "Stephen Curry",
+      "Jalen Brunson",
+      "Cooper Flagg",
+      "Kon Knueppel"
+    ],
+    "checklistOrOddsLinksInGuide": []
+  },
+  "factsSha256": "df28428d441114cd7ab9f5717d127cd639cb6bf29360994577a1d2cbfd077fbd",
+  "publicDataChanged": false,
+  "calendarReleaseVerified": false,
+  "exactProductChecklistVerified": false,
+  "approvedAdditionalNumericMappings": [],
+  "remainingGap": "Official guide announces a 2026 debut and names product programs, player examples and Midnight Black 1/1 context. It links no checklist or odds document; fresh current global checklist/odds arrays also contain no Bob Ross Basketball source. A full roster, card numbers, exact parallel eligibility, published odds and calendar release remain unverified. Named examples are not imported as synthetic cards, and 2023/2025 baseball history is not applied to basketball."
+}
