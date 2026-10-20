@@ -1,0 +1,38 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T02:05:18.355761+00:00",
+  "slug": "panini-2026-panini-par-three-liv-golf",
+  "sourceKind": "official-browser-roster-and-product-review",
+  "method": "Fresh visible official Golf / 2026 / Panini / Par Three LIV selector and product detail reads. Normalized factual snapshots, not raw HTML hashes.",
+  "facts": {
+    "selector": {
+      "text": "Search\nChecklist\nUse our free Checklists to help complete your collections\n\nGolf\n\n2026\n\nPanini\n\nPar Three LIV\n\nSelect Cardset\n\nSuggestions will appear as you start typing.\n0 suggestions found.\nNO DATA FOUND\nDOWNLOAD FULL CHECKLIST",
+      "url": "https://www.paniniamerica.net/checklist.html"
+    },
+    "products": [
+      {
+        "text": "TRADING CARDS BROWSE BY SPORT GOLF SHARE COMING SOON 01 DAYS 14 HOURS 55 MINS 31 SEC Coming soon: 1 day, 14 hours, 55 minutes, 31 seconds 2026 Panini Par Three LIV Golf Trading Card Box (Hobby) SKU: 2-19756-10 ADD TO CALENDAR PRODUCT CHECKLIST SEARCH CONFIGURATION LOOK FOR 1 Slabbed Autograph 1 Slabbed Base/Base Parallel 1 Slabbed Memorabilia Card/Insert per box, on average! 3 CARDS PER PACK 1 PACK PER BOX 10 BOXES PER CASE *PRODUCT WILL SHIP IN THE CASE FORM FOR ORDERS CONTAINING 10 BOXES. ORDERS WILL NOT BE COMBINED. SHIPPING & RETURNS PRODUCT DETAILS • New in 2026, Par Three LIV Golf brings collectors incredible Autographs, Memorabilia Cards, and Inserts of the best Golfers in the world! • Look for Memorabilia Autograph cards in the Clubhouse Collection Signatures set featuring Bubba Watson, Bryson DeChambeau, and Phil Mickelson! • Find unique Autograph Sets such as LIV Tournament Champions Signatures & LIV Moments Signatures, calling out past Tournament Champions and top moments in LIV History! • Hunt for the ultra-rare Downtown & Downtown Tournament Champions Insert, featuring a Gold Parallel #’d /10! • Find 1 Autograph, 1 Base/Base Parallel, & 1 Memorabilia Card or Insert per box, on average! All information is accurate at the time of posting - content is subject to change.* PRODUCT CHECKLIST USE OUR FREE CHECKLIST TO HELP COMPLETE YOUR COLLECTIONS Sport GOLF Year 2026 Brand PANINI Program PAR THREE LIV Select Cardset Select Athlete DOWNLOAD FULL CHECKLIST RELATED PRODUCTS 2026 Panini Contenders LIV Golf Trading Card Box (Hobby) 2026 PANINI CONTENDERS LIV GOLF TRADING CARD BOX (HOBBY) PRICE $120.00 Add to cart 2025 Panini Impeccable LIV Golf Trading Card Box (Hobby) 2025 PANINI IMPECCABLE LIV GOLF TRADING CARD BOX (HOBBY) PRICE $500.00 Add to cart",
+        "url": "https://www.paniniamerica.net/2026-panini-par-three-liv-golf-trading-card-box-hobby.html"
+      },
+      {
+        "text": "THE PRODUCT YOU ARE LOOKING FOR IS NO LONGER AVAILABLE. Continue Shopping",
+        "url": "https://www.paniniamerica.net/pageNotFound",
+        "requestedUrl": "https://www.paniniamerica.net/1st-off-the-line-2026-panini-par-three-liv-golf-trading-card-box.html"
+      }
+    ]
+  },
+  "factsSha256": "22e7f12f1d65f0f0d9d3c697beb0cb5bd7251f62d0d5a4a3aa687da33c38adae",
+  "availableCardsets": 0,
+  "csvExportRefreshed": false,
+  "existingPublishedGoldLimit": {
+    "families": [
+      "Downtown",
+      "Downtown Tournament Champions"
+    ],
+    "limit": 10,
+    "scope": "Hobby product statement; exact roster identities still unavailable"
+  },
+  "approvedAdditionalNumericMappings": [],
+  "publicDataChanged": false,
+  "remainingGap": "The official selector still explicitly reports zero cardset suggestions / NO DATA FOUND. No new full CSV export was downloaded on this review; the retained header-only export remains historical. Hobby Gold /10 for the two named Downtown programs is already retained. FOTL now redirects to pageNotFound and reports the product is no longer available; earlier FOTL /6 and /11 evidence remains historical and scoped to FOTL, with no copied Hobby limits. The general release date, complete card roster, exact eligibility and pack odds remain unverified."
+}
