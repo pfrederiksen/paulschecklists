@@ -1,0 +1,21 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T23:39:17.416842+00:00",
+  "sourceKind": "official-browser-csv-export",
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "sourceSelection": {
+    "sport": "Golf",
+    "year": "2026",
+    "brand": "Panini",
+    "program": "Contenders"
+  },
+  "method": "Fresh official selector choices and Download Full Checklist click. Retained the decoded data:attachment/csv DOM payload and compared every byte with the imported primary export. This refresh does not depend on an unchanged program menu.",
+  "retainedCsv": "data/official-panini/panini-2026-panini-contenders-golf.csv",
+  "sha256": "db86ba2a8660aa6d0b893c07f27eefd7fb33926fef06af564ec5e1521f6a63b2",
+  "bytes": 431139,
+  "rows": 4252,
+  "families": 151,
+  "allOriginalCellsUnchanged": true,
+  "publicDataChanged": false,
+  "remainingGap": "This is one fresh program export. It does not establish all-manufacturer or full 2026 CSV revision coverage; exhaustive guide/parallel eligibility remains under review."
+}
