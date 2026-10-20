@@ -1,8 +1,23 @@
 {
   "observed": "2026-10-20",
-  "listingSha256": "07a6bdd509bc625422d19dffe0a7012f05f19d638ba65f5b5716b531d39becad",
+  "listingSha256": "b442621b35dcffc71c90c2d657dac73da684bff409da53722b197871bfca7c38",
   "historicalCoverageComplete": false,
   "products": [
+    {
+      "title": "Diego Gómez - 2026-27 Premier League Topps NOW® - Card 48",
+      "url": "https://www.topps.com/products/diego-gomez-2026-27-premier-league-topps-now-r-card-48",
+      "status": "published"
+    },
+    {
+      "title": "Pedro Neto - 2026-27 Premier League Topps NOW® - Card 47",
+      "url": "https://www.topps.com/products/pedro-neto-2026-27-premier-league-topps-now-r-card-47",
+      "status": "published"
+    },
+    {
+      "title": "Alexander Isak - 2026-27 Premier League Topps NOW® - Card 46",
+      "url": "https://www.topps.com/products/alexander-isak-2026-27-premier-league-topps-now-r-card-46",
+      "status": "published"
+    },
     {
       "title": "Marvin Wanitzek - 2026-27 Bundesliga Topps NOW® - Card 37",
       "url": "https://www.topps.com/products/marvin-wanitzek-2026-27-bundesliga-topps-now-r-card-37",
@@ -294,7 +309,7 @@
       "status": "published"
     }
   ],
-  "publishedCount": 58,
-  "uniquePublishedCount": 54,
+  "publishedCount": 61,
+  "uniquePublishedCount": 57,
   "remaining": []
 }

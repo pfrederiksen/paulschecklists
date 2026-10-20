@@ -1,0 +1,5943 @@
+{
+  "observed": "2026-10-20",
+  "sourceKind": "official-pdf-physical-revision-comparison",
+  "sourceIndex": "https://www.topps.com/pages/checklists",
+  "previousDocument": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Update_Series_Baseball_Checklist_10-12.pdf?v=1791908509",
+    "sha256": "9fb7df274e22d2c1f4180c7eeb65cd02d274ec3f6bc74717058b5456f7892e41",
+    "pages": 100,
+    "subjectRows": 3795,
+    "families": 97,
+    "printedRookieFields": 661
+  },
+  "currentDocument": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Update_Series_Baseball_Checklist_10-19.pdf?v=1792504951",
+    "sha256": "016821d40f16ad880dcaa1fdddba77b34590b5c0119624dcd18ba7494bd9e81d",
+    "pages": 67,
+    "subjectRows": 3870,
+    "families": 99,
+    "printedRookieFields": 1570
+  },
+  "identityColumns": [
+    "Checklist section",
+    "Card number",
+    "Name",
+    "Team / country"
+  ],
+  "removedSubjectIdentities": [],
+  "addedSubjectIdentities": [
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-1",
+      "Shohei Ohtani",
+      "Japan"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-2",
+      "Seiya Suzuki",
+      "Japan"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-3",
+      "Yoshinobu Yamamoto",
+      "Japan"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-4",
+      "Kazuma Okamoto",
+      "Japan"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-5",
+      "Munetaka Murakami",
+      "Japan"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-6",
+      "Masataka Yoshida",
+      "Japan"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-7",
+      "Yusei Kikuchi",
+      "Japan"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-8",
+      "Tomoyuki Sugano",
+      "Japan"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-9",
+      "Junior Caminero",
+      "Dominican Republic"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-10",
+      "Vladimir Guerrero Jr.",
+      "Dominican Republic"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-11",
+      "Fernando Tatis Jr.",
+      "Dominican Republic"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-12",
+      "Juan Soto",
+      "Dominican Republic"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-13",
+      "Oneil Cruz",
+      "Dominican Republic"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-14",
+      "Kyle Schwarber",
+      "USA"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-15",
+      "Bobby Witt Jr.",
+      "USA"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-16",
+      "Aaron Judge",
+      "USA"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-17",
+      "Roman Anthony",
+      "USA"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-18",
+      "Pete Crow-Armstrong",
+      "USA"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-19",
+      "Bryce Harper",
+      "USA"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-20",
+      "Gunnar Henderson",
+      "USA"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-21",
+      "Brice Turang",
+      "USA"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-22",
+      "Jarren Duran",
+      "Mexico"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-23",
+      "Jonathan Aranda",
+      "Mexico"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-24",
+      "Jac Caglianone",
+      "Italy"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-25",
+      "Vinnie Pasquantino",
+      "Italy"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-26",
+      "Travis Bazzana",
+      "Australia"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-27",
+      "Lucas Ramirez",
+      "Brazil"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-28",
+      "Owen Caissie",
+      "Canada"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-29",
+      "Ketel Marte",
+      "Dominican Republic"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-30",
+      "Luis Severino",
+      "Dominican Republic"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-31",
+      "Cristopher Sánchez",
+      "Dominican Republic"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-32",
+      "Eugenio Suárez",
+      "Venezuela"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-33",
+      "Harry Ford",
+      "Great Britain"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-34",
+      "Dante Nori",
+      "Italy"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-35",
+      "Sam Antonacci",
+      "Italy"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-36",
+      "Aaron Nola",
+      "Italy"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-37",
+      "Ozzie Albies",
+      "Netherlands"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-38",
+      "Xander Bogaerts",
+      "Netherlands"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-39",
+      "Elmer Rodríguez",
+      "Puerto Rico"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-40",
+      "Nolan Arenado",
+      "Puerto Rico"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-41",
+      "Eduardo Rivera",
+      "Puerto Rico"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-42",
+      "Logan Webb",
+      "USA"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-43",
+      "Paul Skenes",
+      "USA"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-44",
+      "Nolan McLean",
+      "USA"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-45",
+      "Wilyer Abreu",
+      "Venezuela"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-46",
+      "Ronald Acuña Jr.",
+      "Venezuela"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-47",
+      "Maikel Garcia",
+      "Venezuela"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-48",
+      "Ezequiel Tovar",
+      "Venezuela"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-49",
+      "Daniel Palencia",
+      "Venezuela"
+    ],
+    [
+      "WORLD BASEBALL CLASSIC HIGHLIGHTS",
+      "WBCH-50",
+      "Luis Arraez",
+      "Venezuela"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-1",
+      "Shohei Ohtani",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-2",
+      "Shota Imanaga",
+      "Chicago Cubs®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-3",
+      "Yoshinobu Yamamoto",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-4",
+      "Kodai Senga",
+      "New York Mets®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-5",
+      "Roki Sasaki",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-6",
+      "Yu Darvish",
+      "San Diego Padres™"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-7",
+      "Paul Skenes",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-8",
+      "Tarik Skubal",
+      "Detroit Tigers®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-9",
+      "Hideo Nomo",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-10",
+      "Hiroki Kuroda",
+      "New York Yankees®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-11",
+      "Chan Ho Park",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-12",
+      "Nolan Ryan",
+      "California Angels™"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-13",
+      "Roger Clemens",
+      "Boston Red Sox®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-14",
+      "Randy Johnson",
+      "Seattle Mariners™"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-15",
+      "Clayton Kershaw",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-16",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-17",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-18",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-19",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-20",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-21",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-22",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-23",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-24",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-25",
+      "Mason Miller",
+      "San Diego Padres™"
+    ]
+  ],
+  "removedPrintedRookieFields": [],
+  "addedPrintedRookieFields": [
+    [
+      "STAT STARS",
+      "SS-23",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "STAT STARS",
+      "SS-25",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "AUTUMN ASCENSIONS",
+      "AA-6",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "AUTUMN ASCENSIONS",
+      "AA-9",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "AUTUMN ASCENSIONS",
+      "AA-15",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "AUTUMN ASCENSIONS",
+      "AA-16",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "AUTUMN ASCENSIONS",
+      "AA-21",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "AUTUMN ASCENSIONS",
+      "AA-22",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "AUTUMN ASCENSIONS",
+      "AA-25",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "AUTUMN ASCENSIONS",
+      "AA-34",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "AUTUMN ASCENSIONS",
+      "AA-35",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-1",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-2",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-3",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-4",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-5",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-6",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-7",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-8",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-9",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-10",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-11",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-12",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-13",
+      "Alex Freeland",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-14",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-15",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-16",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-17",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-18",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "TOPPS BLACK GOLD",
+      "BG-25",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "ALL ACES",
+      "AA-21",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "ALL ACES",
+      "AA-22",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "ALL ACES",
+      "AA-23",
+      "Jonah Tong",
+      "New York Mets®"
+    ],
+    [
+      "ALL ACES",
+      "AA-24",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "ALL ACES",
+      "AA-26",
+      "Connelly Early",
+      "Boston Red Sox®"
+    ],
+    [
+      "ALL KINGS",
+      "AK-31",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "ALL KINGS",
+      "AK-32",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "ALL KINGS",
+      "AK-33",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "ALL KINGS",
+      "AK-34",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "ALL KINGS",
+      "AK-35",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "ALL KINGS",
+      "AK-36",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "ALL KINGS",
+      "AK-37",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "ALL KINGS",
+      "AK-38",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "ALL KINGS",
+      "AK-47",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-2",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-3",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-4",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-6",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-7",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-8",
+      "Alex Freeland",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-9",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-10",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-11",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-12",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-13",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-15",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-16",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-18",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-19",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-20",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-21",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-22",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "MYSTICAL",
+      "MYS-25",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-46",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-47",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-48",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-49",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-50",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-51",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-56",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-57",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-59",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-63",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-65",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-66",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "HEAVY LUMBER",
+      "HL-69",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "HOME FIELD",
+      "HA-41",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "HOME FIELD",
+      "HA-42",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "HOME FIELD",
+      "HA-50",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "HOME FIELD",
+      "HA-51",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "HOME FIELD",
+      "HA-52",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "HOME FIELD",
+      "HA-53",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "HOME FIELD",
+      "HA-54",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "HOME FIELD",
+      "HA-55",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "HOME FIELD",
+      "HA-56",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "HOME FIELD",
+      "HA-57",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "HOME FIELD",
+      "HA-59",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-4",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-7",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-8",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-9",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-10",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-11",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-12",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-13",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-15",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-18",
+      "Jake Bennett",
+      "Boston Red Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-19",
+      "JR Ritchie",
+      "Atlanta Braves™"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-20",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-21",
+      "Payton Tolle",
+      "Boston Red Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-22",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-24",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-25",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-26",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-28",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-33",
+      "Trey Gibson",
+      "Baltimore Orioles®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-34",
+      "Ryan Ward",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-35",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-36",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-38",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-42",
+      "Yohendrick Piñango",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-44",
+      "Connor Prielipp",
+      "Minnesota Twins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-46",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-48",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "1991 TOPPS BASEBALL",
+      "U91-49",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "STARS OF MLB",
+      "SMLB-65",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "STARS OF MLB",
+      "SMLB-68",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "STARS OF MLB",
+      "SMLB-69",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "STARS OF MLB",
+      "SMLB-70",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "STARS OF MLB",
+      "SMLB-71",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "STARS OF MLB",
+      "SMLB-73",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "STARS OF MLB",
+      "SMLB-75",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "STARS OF MLB",
+      "SMLB-77",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "STARS OF MLB",
+      "SMLB-81",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "STARS OF MLB",
+      "SMLB-82",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "STARS OF MLB",
+      "SMLB-83",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "6",
+      "Ryan Ward",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "8",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "9",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "10",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "15",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "16",
+      "Connor Prielipp",
+      "Minnesota Twins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "17",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "18",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "19",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "22",
+      "George Klassen",
+      "Angels®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "26",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "28",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "29",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "30",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "31",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "32",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "33",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "36",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "40",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "45",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "47",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "48",
+      "Jacob Melton",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "49",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "50",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "52",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "54",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "55",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "57",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "58",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "59",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "60",
+      "Yohendrick Piñango",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "63",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "66",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "67",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "70",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "72",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "75",
+      "JR Ritchie",
+      "Atlanta Braves™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "79",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "82",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "84",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "89",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION BASE CARDS",
+      "90",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "6",
+      "Ryan Ward",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "8",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "9",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "10",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "15",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "16",
+      "Connor Prielipp",
+      "Minnesota Twins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "17",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "18",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "19",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "22",
+      "George Klassen",
+      "Angels®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "26",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "28",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "29",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "30",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "31",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "32",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "33",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "36",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "40",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "45",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "47",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "48",
+      "Jacob Melton",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "49",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "50",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "52",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "54",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "55",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "57",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "58",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "59",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "60",
+      "Yohendrick Piñango",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "63",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "66",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "67",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "70",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "72",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "75",
+      "JR Ritchie",
+      "Atlanta Braves™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "79",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "82",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "84",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "89",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS",
+      "90",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "MATT SZCZUR ART CARDS",
+      "MSAC-9",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "MATT SZCZUR ART CARDS",
+      "MSAC-13",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "MATT SZCZUR ART CARDS",
+      "MSAC-14",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "MATT SZCZUR ART CARDS",
+      "MSAC-15",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "ROOKIE SENSATIONS",
+      "RS-1",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "ROOKIE SENSATIONS",
+      "RS-2",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "ROOKIE SENSATIONS",
+      "RS-3",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "ROOKIE SENSATIONS",
+      "RS-4",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "ROOKIE SENSATIONS",
+      "RS-5",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "ROOKIE SENSATIONS",
+      "RS-6",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "ROOKIE SENSATIONS",
+      "RS-7",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "ROOKIE SENSATIONS",
+      "RS-8",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "ROOKIE SENSATIONS",
+      "RS-9",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "ROOKIE SENSATIONS",
+      "RS-10",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-1",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-2",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-3",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-4",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-5",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-6",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-7",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-8",
+      "George Klassen",
+      "Angels®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-11",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-20",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-21",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-22",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-23",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-25",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-26",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-27",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-28",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-29",
+      "Trey Gibson",
+      "Baltimore Orioles®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-30",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-31",
+      "Ryan Ward",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-32",
+      "Connor Prielipp",
+      "Minnesota Twins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-33",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-34",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-35",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-36",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-37",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-38",
+      "Jacob Melton",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-39",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-40",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-41",
+      "JR Ritchie",
+      "Atlanta Braves™"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-42",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-43",
+      "Yohendrick Piñango",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-45",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-46",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-48",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-63",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-67",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-93",
+      "Juan Brito",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-94",
+      "Felix Reyes",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-95",
+      "Kendry Rojas",
+      "Minnesota Twins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-99",
+      "Walbert Ureña",
+      "Angels®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS",
+      "U91C-100",
+      "Jake Bennett",
+      "Boston Red Sox®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US1",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US2",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US3",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US7",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US16",
+      "Walbert Ureña",
+      "Angels®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US21",
+      "Connor Prielipp",
+      "Minnesota Twins®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US46",
+      "Brandon Valenzuela",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US50",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US63",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US66",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US75",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US88",
+      "Daniel Susac",
+      "San Francisco Giants®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US105",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US106",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US111",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US136",
+      "JR Ritchie",
+      "Atlanta Braves™"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US157",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US195",
+      "George Klassen",
+      "Angels®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US215",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US265",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US274",
+      "Juan Brito",
+      "Cleveland Guardians®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US301",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US302",
+      "Jake Bennett",
+      "Boston Red Sox®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US317",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 VARIATION",
+      "US340",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US1",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US2",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US3",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US7",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US41",
+      "JR Ritchie",
+      "Atlanta Braves™"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US50",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US63",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US75",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US105",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US106",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US111",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US215",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "OVERSIZED 2026 BASE CARD",
+      "US302",
+      "Jake Bennett",
+      "Boston Red Sox®"
+    ],
+    [
+      "COMPANION CARD",
+      "US1",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "COMPANION CARD",
+      "US2",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "COMPANION CARD",
+      "US3",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "COMPANION CARD",
+      "US7",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "COMPANION CARD",
+      "US41",
+      "JR Ritchie",
+      "Atlanta Braves™"
+    ],
+    [
+      "COMPANION CARD",
+      "US50",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "COMPANION CARD",
+      "US63",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "COMPANION CARD",
+      "US75",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "COMPANION CARD",
+      "US105",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "COMPANION CARD",
+      "US106",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "COMPANION CARD",
+      "US111",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "COMPANION CARD",
+      "US215",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "COMPANION CARD",
+      "US302",
+      "Jake Bennett",
+      "Boston Red Sox®"
+    ],
+    [
+      "OVERSIZED 1991 TOPPS BASEBALL CARD",
+      "U91O-1",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "OVERSIZED 1991 TOPPS BASEBALL CARD",
+      "U91O-2",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "OVERSIZED 1991 TOPPS BASEBALL CARD",
+      "U91O-3",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "OVERSIZED 1991 TOPPS BASEBALL CARD",
+      "U91O-4",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "OVERSIZED 1991 TOPPS BASEBALL CARD",
+      "U91O-5",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "OVERSIZED 1991 TOPPS BASEBALL CARD",
+      "U91O-6",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "OVERSIZED 1991 TOPPS BASEBALL CARD",
+      "U91O-7",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "OVERSIZED 1991 TOPPS BASEBALL CARD",
+      "U91O-8",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "OVERSIZED 1991 TOPPS BASEBALL CARD",
+      "U91O-9",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "OVERSIZED 1991 TOPPS BASEBALL CARD",
+      "U91O-10",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "BULK ORDER",
+      "BO-2",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "BULK ORDER",
+      "BO-4",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "BULK ORDER",
+      "BO-7",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "BULK ORDER",
+      "BO-9",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "BULK ORDER",
+      "BO-10",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "2026 ALL STAR GAME",
+      "ASG-11",
+      "Parker Messick",
+      "Cleveland Guardians®"
+    ],
+    [
+      "2026 ALL STAR GAME",
+      "ASG-15",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "2026 ALL STAR GAME",
+      "ASG-16",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "2026 ALL STAR GAME",
+      "ASG-26",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "2026 ALL STAR GAME",
+      "ASG-32",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "2026 ALL STAR GAME",
+      "ASG-39",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "2026 ALL STAR GAME",
+      "ASG-40",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "2026 ALL STAR GAME",
+      "ASG-49",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-16",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-17",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-18",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-19",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-20",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-21",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-22",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-23",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "STRIKE ZONE HEROES",
+      "SZH-24",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "TOPPS FLAGSHIP AUTOGRAPH PATCH CARDS",
+      "TFAPU-BH",
+      "Brady House",
+      "Washington Nationals®"
+    ],
+    [
+      "TOPPS FLAGSHIP AUTOGRAPH PATCH CARDS",
+      "TFAPU-CK",
+      "C.J. Kayfus",
+      "Cleveland Guardians®"
+    ],
+    [
+      "TOPPS FLAGSHIP AUTOGRAPH PATCH CARDS",
+      "TFAPU-JC",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "TOPPS FLAGSHIP AUTOGRAPH PATCH CARDS",
+      "TFAPU-MIZ",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "TOPPS FLAGSHIP AUTOGRAPH PATCH CARDS",
+      "TFAP2-CM",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "TOPPS FLAGSHIP AUTOGRAPH PATCH CARDS",
+      "TFAP2-DG",
+      "Drew Gilbert",
+      "San Francisco Giants®"
+    ],
+    [
+      "TOPPS FLAGSHIP AUTOGRAPH PATCH CARDS",
+      "TFAP2-JC",
+      "Jimmy Crooks",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "TOPPS FLAGSHIP AUTOGRAPH PATCH CARDS",
+      "TFAP2-WB",
+      "Warming Bernabel",
+      "Colorado Rockies™"
+    ],
+    [
+      "ALL STAR STITCHES CARDS AUTOGRAPH PARALLEL",
+      "AS-CBU",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS AUTOGRAPH PARALLEL",
+      "AS-CSC",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS AUTOGRAPH PARALLEL",
+      "AS-JM",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "ALL STAR STITCHES CARDS AUTOGRAPH PARALLEL",
+      "AS-KM",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS AUTOGRAPH PARALLEL",
+      "AS-MM",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS AUTOGRAPH PARALLEL",
+      "AS-PM",
+      "Parker Messick",
+      "Cleveland Guardians®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS AUTOGRAPH PARALLEL",
+      "AS-TB",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "HEAVY LUMBER AUTOGRAPH RELICS",
+      "HLARU-CAG",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "HEAVY LUMBER AUTOGRAPH RELICS",
+      "HLARU-SS",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "HEAVY LUMBER AUTOGRAPH RELICS",
+      "HL2-CM",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "HEAVY LUMBER AUTOGRAPH RELICS",
+      "HL2-CY",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "HEAVY LUMBER AUTOGRAPH RELICS",
+      "HL2-DG",
+      "Drew Gilbert",
+      "San Francisco Giants®"
+    ],
+    [
+      "HEAVY LUMBER AUTOGRAPH RELICS",
+      "HL2-OC",
+      "Owen Caissie",
+      "Chicago Cubs®"
+    ],
+    [
+      "HEAVY LUMBER AUTOGRAPH RELICS",
+      "HL2-RR",
+      "Ryan Ritter",
+      "Colorado Rockies™"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-AF",
+      "Alex Freeland",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-AP",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-BC",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-BE",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-BH",
+      "Brady House",
+      "Washington Nationals®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-CAG",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-CB",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-CD",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-CJ",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-CK",
+      "CJ Kayfus",
+      "Cleveland Guardians®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-CS",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-CT",
+      "Colby Thomas",
+      "Athletics™"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-CW",
+      "Carson Williams",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-CY",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-DB",
+      "Dylan Beavers",
+      "Baltimore Orioles®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-DD",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-DG",
+      "Drew Gilbert",
+      "San Francisco Giants®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-HF",
+      "Harry Ford",
+      "Washington Nationals®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-JC",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-JF",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-JG",
+      "Jhostynxon Garcia",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-JT",
+      "Jonah Tong",
+      "New York Mets®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-JW",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-KG",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-KM",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-MIZ",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-MM",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-NM",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-NS",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-OC",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-SB",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-TB",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS AUTOGRAPH PARALLEL",
+      "RRR-TY",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-AF",
+      "Alex Freeland",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-AP",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-BC",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-BE",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-BH",
+      "Brady House",
+      "Washington Nationals®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-CAG",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-CD",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-CE",
+      "Connelly Early",
+      "Boston Red Sox®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-CJ",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-CK",
+      "CJ Kayfus",
+      "Cleveland Guardians®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-CMO",
+      "Christian Moore",
+      "Angels®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-CS",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-CT",
+      "Colby Thomas",
+      "Athletics™"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-CW",
+      "Carson Williams",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-CY",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-DB",
+      "Dylan Beavers",
+      "Baltimore Orioles®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-DD",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-DG",
+      "Drew Gilbert",
+      "San Francisco Giants®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-HF",
+      "Harry Ford",
+      "Washington Nationals®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-JC",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-JF",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-JG",
+      "Jhostynxon Garcia",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-JJ",
+      "Jeremiah Jackson",
+      "Baltimore Orioles®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-JM",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-JMA",
+      "Jakob Marsee",
+      "Miami Marlins®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-JT",
+      "Jonah Tong",
+      "New York Mets®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-JW",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-KG",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-KM",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-MM",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-NM",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-NS",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-OC",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-SB",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-TB",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMU-TY",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS AUTOGRAPH PARALLEL",
+      "MLMA-CYO",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-BAZ",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-BV",
+      "Brandon Valenzuela",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-CBE",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-CP",
+      "Connor Prielipp",
+      "Minnesota Twins®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-DD",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-ERZ",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-HYL",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-JB",
+      "Juan Brito",
+      "Cleveland Guardians®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-JBT",
+      "Jake Bennett",
+      "Boston Red Sox®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-JC",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-JF",
+      "Jose Franco",
+      "Cincinnati Reds®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-JFZ",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-JRO",
+      "Jesus Rodriguez",
+      "San Francisco Giants®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-JW",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-KG",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-KM",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-KO",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-KR",
+      "Kendry Rojas",
+      "Minnesota Twins®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-MM",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-NS",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-PP",
+      "Peyton Pallette",
+      "Cleveland Guardians®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-RW",
+      "Ryan Ward",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-SA",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-TR",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-TU",
+      "Tyler Uberstine",
+      "Boston Red Sox®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-WU",
+      "Walbert Ureña",
+      "Angels®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSAU-YO",
+      "Yohendrick Piñango",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSA-CDE",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSA-CJ",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSA-DYS",
+      "Dylan Beavers",
+      "Baltimore Orioles®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSA-NMC",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSA2-BE",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSA2-CE",
+      "Connelly Early",
+      "Boston Red Sox®"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSA2-CY",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "BASEBALL STARS AUTOGRAPHS",
+      "BSA2-TY",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "ROOKIE SENSATIONS AUTOGRAPH PARALLEL",
+      "RSA-CS",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "ROOKIE SENSATIONS AUTOGRAPH PARALLEL",
+      "RSA-JC",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "ROOKIE SENSATIONS AUTOGRAPH PARALLEL",
+      "RSA-JW",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "ROOKIE SENSATIONS AUTOGRAPH PARALLEL",
+      "RSA-KG",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "ROOKIE SENSATIONS AUTOGRAPH PARALLEL",
+      "RSA-KM",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "ROOKIE SENSATIONS AUTOGRAPH PARALLEL",
+      "RSA-MM",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "ROOKIE SENSATIONS AUTOGRAPH PARALLEL",
+      "RSA-NM",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "ROOKIE SENSATIONS AUTOGRAPH PARALLEL",
+      "RSA-SB",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-BC",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-BH",
+      "Brady House",
+      "Washington Nationals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-CAG",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-CBU",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-CK",
+      "C.J. Kayfus",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-CS",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-HF",
+      "Harry Ford",
+      "Washington Nationals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-JCR",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-JG",
+      "Jhostynxon Garcia",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-JJ",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-JM",
+      "Jakob Marsee",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-JME",
+      "Jacob Melton",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-JT",
+      "Jonah Tong",
+      "New York Mets®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-KK",
+      "Kyle Karros",
+      "Colorado Rockies™"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-KM",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-KO",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-MM",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-NM",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-OC",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-RAN",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-SBA",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-SMS",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-SS",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-WB",
+      "Warming Bernabel",
+      "Washington Nationals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91AU-ZC",
+      "Zach Cole",
+      "Houston Astros®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91A-DEL",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91A-JQ",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91A-TB",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-AF",
+      "Alex Freeland",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-CBE",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-CE",
+      "Connelly Early",
+      "Boston Red Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-CJ",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-CM",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-CW",
+      "Carson Whisenhunt",
+      "San Francisco Giants®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-CWI",
+      "Carson Williams",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-DB",
+      "Dylan Beavers",
+      "Baltimore Orioles®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-DG",
+      "Drew Gilbert",
+      "San Francisco Giants®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-GV",
+      "George Valera",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-HA",
+      "Hayden Harris",
+      "Atlanta Braves™"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-HB",
+      "Hunter Barco",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-HH",
+      "Heriberto Hernández",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-JCR",
+      "Jimmy Crooks",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-JD",
+      "Justin Dean",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-KK",
+      "Kyle Karros",
+      "Colorado Rockies™"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-LC",
+      "Luis Curvelo",
+      "Texas Rangers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-LM",
+      "Luis Morales",
+      "Athletics™"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-MA",
+      "Maximo Acosta",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-MBA",
+      "Mason Barnett",
+      "Athletics™"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-PH",
+      "Petey Halpin",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-PM",
+      "Parker Messick",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-PT",
+      "Payton Tolle",
+      "Boston Red Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-RF",
+      "Rafael Flores",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-RM",
+      "Rolddy Muñoz",
+      "Atlanta Braves™"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-TM",
+      "Troy Melton",
+      "Detroit Tigers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-TY",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-WB",
+      "Will Banfield",
+      "Cincinnati Reds®"
+    ],
+    [
+      "1991 TOPPS BASEBALL AUTOGRAPH CARDS",
+      "91B2-ZM",
+      "Zach Maxwell",
+      "Cincinnati Reds®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "4",
+      "Jonah Tong",
+      "New York Mets®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "10",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "15",
+      "Payton Tolle",
+      "Boston Red Sox®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "35",
+      "C.J. Kayfus",
+      "Cleveland Guardians®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "37",
+      "Jakob Marsee",
+      "Miami Marlins®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "74",
+      "Alex Freeland",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "104",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "111",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "138",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "147",
+      "Christian Moore",
+      "Angels®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "155",
+      "Drew Gilbert",
+      "San Francisco Giants®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "157",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "170",
+      "Brady House",
+      "Washington Nationals®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "189",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "214",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "233",
+      "Owen Caissie",
+      "Chicago Cubs®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "277",
+      "Jeremiah Jackson",
+      "Baltimore Orioles®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "283",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "339",
+      "Dylan Beavers",
+      "Baltimore Orioles®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "372",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "398",
+      "Hunter Barco",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "458",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "501",
+      "Connelly Early",
+      "Boston Red Sox®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "530",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "601",
+      "Zach Cole",
+      "Houston Astros®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "620",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS",
+      "659",
+      "Harry Ford",
+      "Washington Nationals®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "18",
+      "Ryan Ritter",
+      "Colorado Rockies™"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "49",
+      "Grant Taylor",
+      "Chicago White Sox®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "184",
+      "Carson Whisenhunt",
+      "San Francisco Giants®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "243",
+      "Didier Fuentes",
+      "Atlanta Braves™"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "443",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "503",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "598",
+      "Jack Winkler",
+      "Houston Astros®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "623",
+      "Rafael Flores",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "668",
+      "Petey Halpin",
+      "Cleveland Guardians®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US1",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US2",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US3",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US7",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US11",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US16",
+      "Walbert Urena",
+      "Angels®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US46",
+      "Brandon Valenzuela",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US50",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US53",
+      "Yanquiel Fernández",
+      "New York Yankees®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US63",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US66",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US75",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US79",
+      "Jose Franco",
+      "Cincinnati Reds®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US88",
+      "Daniel Susac",
+      "San Francisco Giants®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US105",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US114",
+      "Troy Johnston",
+      "Colorado Rockies™"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US128",
+      "Peyton Pallette",
+      "Cleveland Guardians®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US156",
+      "Jacob Melton",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US157",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US195",
+      "George Klassen",
+      "Angels®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US204",
+      "Jhostynxon Garcia",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US265",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US274",
+      "Juan Brito",
+      "Cleveland Guardians®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US301",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US317",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "FLAGSHIP REAL ONE GOLDEN MIRROR AUTOGRAPH CARDS II",
+      "US340",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "398",
+      "Hunter Barco",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "410",
+      "Hayden Harris",
+      "Atlanta Braves™"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "668",
+      "Petey Halpin",
+      "Cleveland Guardians®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US1",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US2",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US3",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US7",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US11",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US16",
+      "Walbert Urena",
+      "Angels®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US36",
+      "Trey Gibson",
+      "Baltimore Orioles®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US46",
+      "Brandon Valenzuela",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US50",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US53",
+      "Yanquiel Fernández",
+      "New York Yankees®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US61",
+      "Yohendrick Piñango",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US62",
+      "Ryan Ward",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US63",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US66",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US75",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US79",
+      "Jose Franco",
+      "Cincinnati Reds®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US88",
+      "Daniel Susac",
+      "San Francisco Giants®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US105",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US106",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US114",
+      "Troy Johnston",
+      "Colorado Rockies™"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US127",
+      "Connor Prielipp",
+      "Minnesota Twins®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US128",
+      "Peyton Pallette",
+      "Cleveland Guardians®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US156",
+      "Jacob Melton",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US157",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US194",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US195",
+      "George Klassen",
+      "Angels®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US204",
+      "Jhostynxon Garcia",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US215",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US265",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US274",
+      "Juan Brito",
+      "Cleveland Guardians®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US301",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US302",
+      "Jake Bennett",
+      "Boston Red Sox®"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US317",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "FLAGSHIP REAL ONE AUTOGRAPH CARDS",
+      "US340",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "2026 ALL STAR GAME AUTOGRAPH PARALLEL",
+      "ASG-11",
+      "Parker Messick",
+      "Cleveland Guardians®"
+    ],
+    [
+      "2026 ALL STAR GAME AUTOGRAPH PARALLEL",
+      "ASG-15",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "2026 ALL STAR GAME AUTOGRAPH PARALLEL",
+      "ASG-26",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "2026 ALL STAR GAME AUTOGRAPH PARALLEL",
+      "ASG-32",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "2026 ALL STAR GAME AUTOGRAPH PARALLEL",
+      "ASG-39",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "2026 ALL STAR GAME AUTOGRAPH PARALLEL",
+      "ASG-40",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US1",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US2",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US3",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US7",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US16",
+      "Walbert Urena",
+      "Angels®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US21",
+      "Connor Prielipp",
+      "Minnesota Twins®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US46",
+      "Brandon Valenzuela",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US50",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US63",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US66",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US75",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US88",
+      "Daniel Susac",
+      "San Francisco Giants®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US105",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US106",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US111",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US157",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US195",
+      "George Klassen",
+      "Angels®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US215",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US265",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US274",
+      "Juan Brito",
+      "Cleveland Guardians®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US301",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US302",
+      "Jake Bennett",
+      "Boston Red Sox®"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US317",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "BASE CARD ROOKIE 1952 AUTOGRAPH VARIATION",
+      "US340",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "6",
+      "Ryan Ward",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "9",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "10",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "16",
+      "Connor Prielipp",
+      "Minnesota Twins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "17",
+      "José Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "18",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "19",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "22",
+      "George Klassen",
+      "Angels®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "26",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "30",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "31",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "32",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "33",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "36",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "40",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "47",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "48",
+      "Jacob Melton",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "50",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "52",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "54",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "55",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "57",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "59",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "60",
+      "Yonendrick Pinango",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "63",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "66",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "70",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "72",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "79",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "82",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "84",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "90",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "92",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "THE FLAGSHIP COLLECTION CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "93",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-1",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-2",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-3",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-4",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-5",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-6",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-7",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-8",
+      "George Klassen",
+      "Angels®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-11",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-20",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-21",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-23",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-26",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-27",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-28",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-30",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-31",
+      "Ryan Ward",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-32",
+      "Connor Prielipp",
+      "Minnesota Twins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-33",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-34",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-35",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-36",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-37",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-38",
+      "Jacob Melton",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-39",
+      "Kazuma Okamoto",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-40",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-42",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-43",
+      "Yohendrick Piñango",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-45",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-46",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-48",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-63",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-67",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-93",
+      "Juan Brito",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-94",
+      "Felix Reyes",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-95",
+      "Kendry Rojas",
+      "Minnesota Twins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-99",
+      "Walbert Ureña",
+      "Angels®"
+    ],
+    [
+      "1991 TOPPS BASEBALL CHROME BASE CARDS AUTOGRAPH PARALLEL",
+      "U91C-100",
+      "Jake Bennett",
+      "Boston Red Sox®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-AP",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-BC",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-BE",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-BH",
+      "Brady House",
+      "Washington Nationals®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-CAG",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-CB",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-CBU",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-CD",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-CE",
+      "Connelly Early",
+      "Boston Red Sox®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-CJ",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-CM",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-CMO",
+      "Christian Moore",
+      "Angels®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-CS",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-CW",
+      "Carson Williams",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-CY",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-DB",
+      "Dylan Beavers",
+      "Baltimore Orioles®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-HF",
+      "Harry Ford",
+      "Washington Nationals®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-JC",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-JF",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-JM",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-JT",
+      "Jonah Tong",
+      "New York Mets®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-JW",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-KG",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-KM",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-KT",
+      "Kyle Teel",
+      "Chicago White Sox®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-MM",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-NM",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-NS",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-OC",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-PT",
+      "Payton Tolle",
+      "Boston Red Sox®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-RA",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-SB",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-SS",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-TB",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "MAJOR LEAGUE MATERIAL CARDS",
+      "MLMU-TY",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-AF",
+      "Alex Freeland",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-AP",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-BC",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-BE",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-CB",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-CBU",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-CD",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-CEY",
+      "Connelly Early",
+      "Boston Red Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-CJ",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-CM",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-CMO",
+      "Christian Moore",
+      "Angels®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-CSR",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-CW",
+      "Carson Williams",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-CYG",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-DBS",
+      "Dylan Beavers",
+      "Baltimore Orioles®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-DD",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-HF",
+      "Harry Ford",
+      "Washington Nationals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-JAC",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-JCR",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-JF",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-JJ",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-JT",
+      "Jonah Tong",
+      "New York Mets®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-KG",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-KM",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-KT",
+      "Kyle Teel",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-MIZ",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-MMI",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-NM",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-NS",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-OC",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-PT",
+      "Payton Tolle",
+      "Boston Red Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-RA",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-SB",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-SS",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-TB",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "1991 TOPPS BASEBALL RELIC CARDS",
+      "91RU-TY",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "REAL ONE RELICS",
+      "US1",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "REAL ONE RELICS",
+      "US2",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "REAL ONE RELICS",
+      "US3",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "REAL ONE RELICS",
+      "US7",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "REAL ONE RELICS",
+      "US11",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "REAL ONE RELICS",
+      "US46",
+      "Brandon Valenzuela",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "REAL ONE RELICS",
+      "US50",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "REAL ONE RELICS",
+      "US75",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "REAL ONE RELICS",
+      "US157",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "REAL ONE RELICS",
+      "US215",
+      "Elmer Rodríguez",
+      "New York Yankees®"
+    ],
+    [
+      "REAL ONE RELICS",
+      "US317",
+      "Jeferson Quero",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-AF",
+      "Alex Freeland",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-AP",
+      "Andrew Painter",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-BC",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-BE",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-BH",
+      "Brady House",
+      "Washington Nationals®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-CAG",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-CB",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-CBU",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-CD",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-CJ",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-CK",
+      "CJ Kayfus",
+      "Cleveland Guardians®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-CM",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-CS",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-CT",
+      "Colby Thomas",
+      "Athletics™"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-CW",
+      "Carson Williams",
+      "Tampa Bay Rays™"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-CY",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-DB",
+      "Dylan Beavers",
+      "Baltimore Orioles®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-DD",
+      "Deyvison De Los Santos",
+      "Miami Marlins®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-DG",
+      "Drew Gilbert",
+      "San Francisco Giants®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-HF",
+      "Harry Ford",
+      "Washington Nationals®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-JC",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-JF",
+      "Jose Fernandez",
+      "Arizona Diamondbacks®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-JG",
+      "Jhostynxon Garcia",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-JT",
+      "Jonah Tong",
+      "New York Mets®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-JW",
+      "JJ Wetherholt",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-KG",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-KM",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-KT",
+      "Kyle Teel",
+      "Chicago White Sox®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-MIZ",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-MM",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-NM",
+      "Nolan McLean",
+      "New York Mets®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-NS",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-OC",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-PT",
+      "Payton Tolle",
+      "Boston Red Sox®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-RA",
+      "Roman Anthony",
+      "Boston Red Sox®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-SB",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-SS",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-TB",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "RISING ROOKIE RELIC CARDS",
+      "RRR-TY",
+      "Trey Yesavage",
+      "Toronto Blue Jays®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS",
+      "AS-CBU",
+      "Chase Burns",
+      "Cincinnati Reds®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS",
+      "AS-CSC",
+      "Cam Schlittler",
+      "New York Yankees®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS",
+      "AS-JM",
+      "Jacob Misiorowski",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "ALL STAR STITCHES CARDS",
+      "AS-KM",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS",
+      "AS-MM",
+      "Munetaka Murakami",
+      "Chicago White Sox®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS",
+      "AS-PM",
+      "Parker Messick",
+      "Cleveland Guardians®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS",
+      "AS-RO",
+      "Riley O'Brien",
+      "St. Louis Cardinals®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS",
+      "AS-SS",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "ALL STAR STITCHES CARDS",
+      "AS-TB",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-AF",
+      "Alex Freeland",
+      "Los Angeles Dodgers®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-AS",
+      "Anthony Seigler",
+      "Boston Red Sox®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-BC",
+      "Bubba Chandler",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-BE",
+      "Bryce Eldridge",
+      "San Francisco Giants®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-BM",
+      "Brice Matthews",
+      "Houston Astros®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-BSP",
+      "Brandon Sproat",
+      "Milwaukee Brewers™"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-CBG",
+      "Carson Benge",
+      "New York Mets®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-CD",
+      "Chase DeLauter",
+      "Cleveland Guardians®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-CJ",
+      "Carter Jensen",
+      "Kansas City Royals®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-CMN",
+      "Colson Montgomery",
+      "Chicago White Sox®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-CYG",
+      "Cole Young",
+      "Seattle Mariners™"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-DBV",
+      "Dylan Beavers",
+      "Baltimore Orioles®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-FG",
+      "Foster Griffin",
+      "Washington Nationals®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-HL",
+      "Hao-Yu Lee",
+      "Detroit Tigers®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-JC",
+      "Jac Caglianone",
+      "Kansas City Royals®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-JCD",
+      "Justin Crawford",
+      "Philadelphia Phillies®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-JDE",
+      "Justin Dean",
+      "Chicago Cubs®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-JJN",
+      "Jeremiah Jackson",
+      "Baltimore Orioles®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-JMA",
+      "Joe Mack",
+      "Miami Marlins®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-KG",
+      "Konnor Griffin",
+      "Pittsburgh Pirates®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-KM",
+      "Kevin McGonigle",
+      "Detroit Tigers®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-KT",
+      "Kyle Teel",
+      "Chicago White Sox®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-NSZ",
+      "Noah Schultz",
+      "Chicago White Sox®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-OC",
+      "Owen Caissie",
+      "Miami Marlins®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-PM",
+      "Parker Messick",
+      "Cleveland Guardians®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-PT",
+      "Payton Tolle",
+      "Boston Red Sox®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-SAI",
+      "Sam Antonacci",
+      "Chicago White Sox®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-SB",
+      "Samuel Basallo",
+      "Baltimore Orioles®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-SMS",
+      "Sung-Mun Song",
+      "San Diego Padres™"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-SSE",
+      "Sal Stewart",
+      "Cincinnati Reds®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-TBZ",
+      "Travis Bazzana",
+      "Cleveland Guardians®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-TI",
+      "Tatsuya Imai",
+      "Houston Astros®"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-TJ",
+      "Troy Johnston",
+      "Colorado Rockies™"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-TJR",
+      "TJ Rumfield",
+      "Colorado Rockies™"
+    ],
+    [
+      "USA 250 PATCH RELIC REDEMPTIONS",
+      "USA250-TP",
+      "Tristan Peters",
+      "Chicago White Sox®"
+    ],
+    [
+      "ICONIC BUYBACK REDEMPTIONS",
+      "",
+      "1982 Topps Cal Ripken Rookie Stars #21 Graded",
+      "Baltimore Orioles®"
+    ],
+    [
+      "ICONIC BUYBACK REDEMPTIONS",
+      "",
+      "2018 Bowman Chrome Rookie Autograph Shohei Ohtani #BCRA-SO Graded",
+      "Angels®"
+    ]
+  ],
+  "reconciliation": "All 3,795 earlier number/name/team identities and all 661 earlier Rookie fields remain. The new PDF adds 75 subjects and prints 909 additional Rookie fields. Its Rookie column is inline on all 67 pages; earlier missing continuation tiles remain historical, not inferred omissions.",
+  "qualifications": [
+    "Both added families are explicitly captioned JAPAN EXCLUSIVE. WBC country cells remain literal source values; no club team is inferred.",
+    "The two buyback Rookie fields are separate original text objects, even where the long Ohtani title overlaps other cells. The word Rookie inside each buyback title is not itself a flag.",
+    "The unchanged odds source retains all 281 categories / nine columns and the malformed 1:-401,280 Fanatics cell. No odds unit, extra numbering or parallel eligibility is inferred."
+  ]
+}

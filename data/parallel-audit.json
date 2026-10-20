@@ -439,12 +439,12 @@
       "manufacturer": "Topps / Bowman",
       "source": "https://www.topps.com/pages/checklists",
       "oddsCategories": 281,
-      "numberedOddsCategories": 0,
-      "supplementalSpecifications": 0,
-      "structuredNumbering": false,
-      "publishedSpecifications": false,
+      "numberedOddsCategories": 6,
+      "supplementalSpecifications": 6,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
       "ongoingSeries": false,
-      "status": "Supplementary parallel and numbering review pending",
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
     },
     {

@@ -9898,6 +9898,68 @@
         "evidenceFile": "data/parallel-audit-sources/marvel-neon-2026-product-guides-20261020.json",
         "evidenceSha256": "71d1acb1a98447e0416aac461d72ed78b44400ebd89c1373fb5a6dfe36d0e6a4"
       }
+    ],
+    "topps-bowman-2026-topps-update-series-baseball": [
+      {
+        "family": "VETERAN I",
+        "name": "Gold",
+        "numbering": "/2026",
+        "oddsName": "BASE CARDS GOLD",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Update_Series_Baseball_Education_Sheet-r2.pdf?v=1791989094",
+        "evidenceFile": "data/parallel-audit-sources/update-baseball-2026-education-20261020.json",
+        "evidenceSha256": "3df25a7ab960d64d53c728936410607ffb28b513c3c8e1cd5566a8ec77bed607",
+        "qualification": "Education-sheet BASE PARALLELS column, scoped to the 350-card BASE SET and its six explicit checklist headings. The original Base odds aliases retain all six headings; no variation, insert, autograph or Japan-exclusive program receives this limit."
+      },
+      {
+        "family": "VETERAN I",
+        "name": "Independence Day",
+        "numbering": "/76",
+        "oddsName": "BASE CARDS INDEPENDENCE DAY",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Update_Series_Baseball_Education_Sheet-r2.pdf?v=1791989094",
+        "evidenceFile": "data/parallel-audit-sources/update-baseball-2026-education-20261020.json",
+        "evidenceSha256": "3df25a7ab960d64d53c728936410607ffb28b513c3c8e1cd5566a8ec77bed607",
+        "qualification": "Education-sheet BASE PARALLELS column, scoped to the 350-card BASE SET and its six explicit checklist headings. The original Base odds aliases retain all six headings; no variation, insert, autograph or Japan-exclusive program receives this limit."
+      },
+      {
+        "family": "VETERAN I",
+        "name": "Black",
+        "numbering": "/75",
+        "oddsName": "BASE CARDS BLACK",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Update_Series_Baseball_Education_Sheet-r2.pdf?v=1791989094",
+        "evidenceFile": "data/parallel-audit-sources/update-baseball-2026-education-20261020.json",
+        "evidenceSha256": "3df25a7ab960d64d53c728936410607ffb28b513c3c8e1cd5566a8ec77bed607",
+        "qualification": "Education-sheet BASE PARALLELS column, scoped to the 350-card BASE SET and its six explicit checklist headings. The original Base odds aliases retain all six headings; no variation, insert, autograph or Japan-exclusive program receives this limit."
+      },
+      {
+        "family": "VETERAN I",
+        "name": "Canvas",
+        "numbering": "/50",
+        "oddsName": "BASE CARDS CANVAS",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Update_Series_Baseball_Education_Sheet-r2.pdf?v=1791989094",
+        "evidenceFile": "data/parallel-audit-sources/update-baseball-2026-education-20261020.json",
+        "evidenceSha256": "3df25a7ab960d64d53c728936410607ffb28b513c3c8e1cd5566a8ec77bed607",
+        "qualification": "Education-sheet BASE PARALLELS column, scoped to the 350-card BASE SET and its six explicit checklist headings. The original Base odds aliases retain all six headings; no variation, insert, autograph or Japan-exclusive program receives this limit."
+      },
+      {
+        "family": "VETERAN I",
+        "name": "Memorial Day Camo",
+        "numbering": "/25",
+        "oddsName": "BASE CARDS MEMORIAL DAY CAMO",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Update_Series_Baseball_Education_Sheet-r2.pdf?v=1791989094",
+        "evidenceFile": "data/parallel-audit-sources/update-baseball-2026-education-20261020.json",
+        "evidenceSha256": "3df25a7ab960d64d53c728936410607ffb28b513c3c8e1cd5566a8ec77bed607",
+        "qualification": "Education-sheet BASE PARALLELS column, scoped to the 350-card BASE SET and its six explicit checklist headings. The original Base odds aliases retain all six headings; no variation, insert, autograph or Japan-exclusive program receives this limit."
+      },
+      {
+        "family": "VETERAN I",
+        "name": "Wood",
+        "numbering": "/25",
+        "oddsName": "BASE CARDS WOOD",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Update_Series_Baseball_Education_Sheet-r2.pdf?v=1791989094",
+        "evidenceFile": "data/parallel-audit-sources/update-baseball-2026-education-20261020.json",
+        "evidenceSha256": "3df25a7ab960d64d53c728936410607ffb28b513c3c8e1cd5566a8ec77bed607",
+        "qualification": "Education-sheet BASE PARALLELS column, scoped to the 350-card BASE SET and its six explicit checklist headings. The original Base odds aliases retain all six headings; no variation, insert, autograph or Japan-exclusive program receives this limit."
+      }
     ]
   },
   "conflicts": [

@@ -88701,6 +88701,126 @@
     "saleFromISO": "2026-10-14"
   },
   {
+    "series": "2026-27 Premier League Topps NOW®",
+    "number": "46",
+    "name": "Alexander Isak",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 27, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/alexander-isak-2026-27-premier-league-topps-now-r-card-46",
+    "evidence": {
+      "url": "https://www.topps.com/products/alexander-isak-2026-27-premier-league-topps-now-r-card-46",
+      "sha256": "6e22b2c8482e69448601d96abf92c7b4bc78a731e3a14bf0daa3bd4cbb8913f1",
+      "observed": "2026-10-20",
+      "title": "Alexander Isak - 2026-27 Premier League Topps NOW® - Card 46",
+      "fields": {
+        "SKU": "ARTPL-16C2S-27TN-0046",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Alexander Isak",
+        "Properties": "Liverpool FC",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 27, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1400-premier-league.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
+    "series": "2026-27 Premier League Topps NOW®",
+    "number": "47",
+    "name": "Pedro Neto",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 27, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/pedro-neto-2026-27-premier-league-topps-now-r-card-47",
+    "evidence": {
+      "url": "https://www.topps.com/products/pedro-neto-2026-27-premier-league-topps-now-r-card-47",
+      "sha256": "bfe9dce62b4483c7a86dc916c0f82eeb108908be1cce4559739b6cf5a0b5a46f",
+      "observed": "2026-10-20",
+      "title": "Pedro Neto - 2026-27 Premier League Topps NOW® - Card 47",
+      "fields": {
+        "SKU": "ARTPL-16C2S-27TN-0047",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Pedro Neto",
+        "Properties": "Chelsea FC",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 27, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1400-premier-league.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
+    "series": "2026-27 Premier League Topps NOW®",
+    "number": "48",
+    "name": "Diego Gómez",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 27, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/diego-gomez-2026-27-premier-league-topps-now-r-card-48",
+    "evidence": {
+      "url": "https://www.topps.com/products/diego-gomez-2026-27-premier-league-topps-now-r-card-48",
+      "sha256": "d10d4653dd3adb18cbc63cc1a1b57aea53be6170e86b0c5a2e9c72eeffe6e7c9",
+      "observed": "2026-10-20",
+      "title": "Diego Gómez - 2026-27 Premier League Topps NOW® - Card 48",
+      "fields": {
+        "SKU": "ARTPL-16C2S-27TN-0048",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Diego Gómez",
+        "Properties": "Brighton & Hove Albion",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 27, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261020-1400-premier-league.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
     "series": "2026-27 UCL Topps NOW®",
     "number": "1",
     "name": "Paris Saint-Germain",

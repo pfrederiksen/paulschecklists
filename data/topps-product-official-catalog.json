@@ -2519,47 +2519,6 @@
     }
   },
   {
-    "title": "2026 Topps Update Series Baseball",
-    "manufacturer": "Topps / Bowman",
-    "sport": "baseball",
-    "year": "2026",
-    "sourcePage": "https://www.topps.com/pages/checklists",
-    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Update_Series_Baseball_Checklist_10-12.pdf?v=1791908509",
-    "releaseStatus": "Unverified",
-    "releaseDate": null,
-    "catalogEvidence": "The revised October 12 checklist is reconciled to all 3,795 physical subject rows across 97 families, including 121 unnumbered redemption subjects. Original Name/Team cells, source spellings and repeated signer codes remain intact. Name pages 1–27 align with Rookie continuation pages 74–100, retaining 661 printed flags. No Rookie continuation is printed for name pages 28–73. All 281 odds categories and nine literal format columns are retained; no ratio unit is stated. Supplementary numbering and unmatched odds-family mappings remain incomplete. The Fanatics 75th Anniversary Gifts cell prints malformed 1:-401,280, retained literally without correction or rate inference.",
-    "slug": "topps-bowman-2026-topps-update-series-baseball",
-    "page": "sets/topps-bowman-2026-topps-update-series-baseball.html",
-    "status": "Source table",
-    "verified": "2026-10-17",
-    "odds": 281,
-    "formats": 9,
-    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Updates_Series_Odds.pdf?v=1790610141",
-    "oddsImportIssues": 0,
-    "rowCount": 3795,
-    "tableData": "data/imports/topps-bowman-2026-topps-update-series-baseball.json",
-    "sections": 97,
-    "importKind": "topps-grid-pdf",
-    "dataAudit": "The revised October 12 checklist is reconciled to all 3,795 physical subject rows across 97 families, including 121 unnumbered redemption subjects. Original Name/Team cells, source spellings and repeated signer codes remain intact. Name pages 1–27 align with Rookie continuation pages 74–100, retaining 661 printed flags. No Rookie continuation is printed for name pages 28–73. All 281 odds categories and nine literal format columns are retained; no ratio unit is stated. Supplementary numbering and unmatched odds-family mappings remain incomplete. The Fanatics 75th Anniversary Gifts cell prints malformed 1:-401,280, retained literally without correction or rate inference.",
-    "parallelData": true,
-    "releaseDateGap": {
-      "gap": "Current product page publishes Available From October 14, 2026, but its explicit release-date preorder statement is no longer visible. Retain as store availability pending stronger release evidence.",
-      "sources": [
-        {
-          "url": "https://www.topps.com/products/2026-topps-update-series-baseball-jumbo-box",
-          "statement": "Available From | Oct 14, 2026",
-          "method": "Actual official web read"
-        }
-      ],
-      "observed": "2026-10-16"
-    },
-    "sha256": "9fb7df274e22d2c1f4180c7eeb65cd02d274ec3f6bc74717058b5456f7892e41",
-    "dedicatedParser": "scripts/import_topps_update_2026.py",
-    "oddsParser": "scripts/official_odds_layout.py",
-    "publishedOdds": true,
-    "coverageComplete": false
-  },
-  {
     "title": "2026 All-Star Game Set - MLS Topps NOW®",
     "manufacturer": "Topps / Bowman",
     "sport": "soccer",
@@ -3493,5 +3452,50 @@
         "url": "https://ripped.topps.com/topps-neon-marvel-history/"
       }
     ]
+  },
+  {
+    "title": "2026 Topps Update Series Baseball",
+    "manufacturer": "Topps / Bowman",
+    "sport": "baseball",
+    "year": "2026",
+    "sourcePage": "https://www.topps.com/pages/checklists",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Update_Series_Baseball_Checklist_10-19.pdf?v=1792504951",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "catalogEvidence": "The revised October 19 checklist is reconciled to all 3,870 physical subject rows across 99 families, including 121 unnumbered redemption subjects. Original Name/Team and country cells, source spellings and repeated signer codes remain intact. All 67 pages print their Rookie column inline, retaining 1,570 literal flags. All earlier subject identities and Rookie fields remain; 50 World Baseball Classic Highlights and 25 Strike Zone Heroes subjects are added under explicit Japan Exclusive captions. All 281 odds categories and nine literal format columns are retained; no ratio unit is stated. The product-linked education sheet supplies six exact base parallel limits plus fourteen unjoined insert/autograph terms. Box configuration units remain separate from odds. Exhaustive numbering and unmatched odds-family mappings remain incomplete. The Fanatics 75th Anniversary Gifts cell prints malformed 1:-401,280, retained literally without correction or rate inference.",
+    "slug": "topps-bowman-2026-topps-update-series-baseball",
+    "page": "sets/topps-bowman-2026-topps-update-series-baseball.html",
+    "status": "Source table",
+    "verified": "2026-10-20",
+    "odds": 281,
+    "formats": 9,
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Updates_Series_Odds.pdf?v=1790610141",
+    "oddsImportIssues": 0,
+    "rowCount": 3870,
+    "tableData": "data/imports/topps-bowman-2026-topps-update-series-baseball.json",
+    "sections": 99,
+    "importKind": "topps-grid-pdf",
+    "dataAudit": "The revised October 19 checklist is reconciled to all 3,870 physical subject rows across 99 families, including 121 unnumbered redemption subjects. Original Name/Team and country cells, source spellings and repeated signer codes remain intact. All 67 pages print their Rookie column inline, retaining 1,570 literal flags. All earlier subject identities and Rookie fields remain; 50 World Baseball Classic Highlights and 25 Strike Zone Heroes subjects are added under explicit Japan Exclusive captions. All 281 odds categories and nine literal format columns are retained; no ratio unit is stated. The product-linked education sheet supplies six exact base parallel limits plus fourteen unjoined insert/autograph terms. Box configuration units remain separate from odds. Exhaustive numbering and unmatched odds-family mappings remain incomplete. The Fanatics 75th Anniversary Gifts cell prints malformed 1:-401,280, retained literally without correction or rate inference.",
+    "parallelData": true,
+    "releaseDateGap": {
+      "gap": "Current product page publishes Available From October 14, 2026, but its explicit release-date preorder statement is no longer visible. Retain as store availability pending stronger release evidence.",
+      "sources": [
+        {
+          "url": "https://www.topps.com/products/2026-topps-update-series-baseball-jumbo-box",
+          "statement": "Available From | Oct 14, 2026",
+          "method": "Actual official web read"
+        }
+      ],
+      "observed": "2026-10-16"
+    },
+    "sha256": "016821d40f16ad880dcaa1fdddba77b34590b5c0119624dcd18ba7494bd9e81d",
+    "dedicatedParser": "scripts/import_topps_update_2026.py",
+    "oddsParser": "scripts/official_odds_layout.py",
+    "publishedOdds": true,
+    "coverageComplete": false,
+    "checklistRevision": {
+      "file": "data/parallel-audit-sources/update-baseball-2026-revision-20261020.json",
+      "sha256": "e29f96b665ef39705547f9a47dd5faa3a394b0336d1a95f5795313072dd2eaed"
+    }
   }
 ]
