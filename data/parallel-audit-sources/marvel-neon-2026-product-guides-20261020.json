@@ -1,0 +1,59 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T09:17:16.471826+00:00",
+  "sourceKind": "official-browser-product-and-guide-review",
+  "method": "Fresh complete product landing, collector guide and product-history reads. Normalized factual snapshot, not raw HTML; exact PDF sources physically parsed separately.",
+  "facts": {
+    "product": "https://www.topps.com/pages/topps-neon-marvel",
+    "guide": "https://ripped.topps.com/2026-topps-neon-marvel-collector-guide-top-cards/",
+    "history": "https://ripped.topps.com/topps-neon-marvel-history/",
+    "guidePublication": "2026-09-30",
+    "productTitle": "2026 Topps Neon Marvel",
+    "productYear": "2026",
+    "baseSize": 200,
+    "guideProgramSizes": [
+      [
+        "NEON TAROTS",
+        "12 subjects"
+      ],
+      [
+        "NEON VILLAINS",
+        "10 cards"
+      ],
+      [
+        "MARVEL MURALS",
+        "6 characters"
+      ]
+    ],
+    "baseFoilFractor": "1/1",
+    "cardSpecificExamples": [
+      [
+        "BASE",
+        "4",
+        "Spider-Man",
+        "Limited to 5 copies",
+        "Parallel not named; serial marking not stated"
+      ],
+      [
+        "CHROME NEON ETCH BASE VARIATION",
+        "34",
+        "Silver Surfer",
+        "Limited to 10 copies",
+        "Chrome parallel not named; serial marking not stated"
+      ]
+    ],
+    "calendarReleaseVerified": false
+  },
+  "factsSha256": "37fa8656cb62281ece4d5fdc2a3b83d5e3d29ed63f61fd182938835e211a71b0",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26MRVN_VERSION3.pdf?v=1789407616",
+  "checklistSha256": "d7418211ebc25656edda21d6a10181d55c5aa6b4dddb8a6a58f67174f6243b42",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-10-14_2026-Marvel-Neon_Odds_2.pdf?v=1791989415",
+  "oddsSha256": "b5cea763b88d543f9e45f5a6af2f70b0b9ec08922f8018f92c5099f64a1742f5",
+  "remainingGaps": [
+    "Calendar release and any exhaustive serial-number ladder remain unverified; guide publication and debut year are separate facts.",
+    "Spider-Man five-copy and Silver Surfer ten-copy examples name no parallel or serial marking; neither becomes a family /5 or /10 limit.",
+    "Sketch artwork uniqueness does not number artist roster entries or establish their individual odds eligibility.",
+    "Three original odds cells print 1:XX. Preserve the placeholders without computing rates; the sheet names formats but no ratio unit.",
+    "The original MARVEL SNAP XL GOLD FOIL / SUPER BOX cell prints a dash above 1:832; both are retained without choosing a value."
+  ]
+}

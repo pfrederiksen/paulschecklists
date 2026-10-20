@@ -45,6 +45,17 @@ for(const set of cases){
   get('source-search').value='DS-BT';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('"DEAR SANTA","DS-BT","Brenen Thompson","Los Angeles Chargers","","15"'));get('source-reset').onclick();
   get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'188 official source rows');get('source-reset').onclick();
  }
+ if(set.slug==='topps-bowman-2026-topps-neon-marvel'){
+  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-section').value='1 UP';get('source-section').onchange();get('source-search').value='1UP-1';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('Venom')&&csv.includes('Carnage'));get('source-reset').onclick();
+  get('source-search').value='SVA-EE';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('Big E')&&csv.includes('Bulldozer'));get('source-reset').onclick();
+  get('source-section').value='SKETCH CARD ARTISTS';get('source-section').onchange();assert.equal(get('source-count').textContent,'136 official source rows');get('source-export').onclick();assert(csv.includes('ジェイソン (Jason)')&&csv.includes('IQ'));get('source-reset').onclick();
+  get('source-odds-tab').onclick();get('source-section').value='BASE';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('1/1')&&csv.includes('Limited to 5 copies')&&!csv.includes('"/5"'));
+  get('source-section').value='CHROME NEON ETCH BASE VARIATION';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('1:XX')&&csv.includes('Limited to 10 copies')&&!csv.includes('"/10"')&&!csv.includes('"1/1"'));
+  get('source-section').value='BASE SUPER BOX DESIGN VARIATION';get('source-section').onchange();get('source-format').value='SUPER BOX BONUS PACK';get('source-format').onchange();assert(primarySpecifications().includes('5:1')&&primarySpecifications().includes('1:XX'));assert(!primarySpecifications().includes('1 in ')&&!primarySpecifications().includes('%'));
+  get('source-section').value='MARVEL SNAP XL';get('source-section').onchange();get('source-format').value='SUPER BOX';get('source-format').onchange();get('source-export').onclick();assert(csv.includes('-\n1:832')&&csv.includes('no single value is selected'));get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.slug==='topps-bowman-2026-nba-topps-now-knicks-champions-team-set'){
   assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);
   assert(data.rows.every(row=>row[1]===''));

@@ -2971,6 +2971,13 @@
       "releaseDate": "2026-10-23",
       "status": "Explicit official release statement verified",
       "source": "https://www.topps.com/release-calendar"
+    },
+    {
+      "slug": "topps-bowman-2026-topps-neon-marvel",
+      "title": "2026 Topps Neon Marvel",
+      "manufacturer": "Topps / Bowman",
+      "releaseDate": null,
+      "status": "Exact release-date research pending"
     }
   ]
 }

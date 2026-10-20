@@ -15020,5 +15020,34 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-topps-neon-marvel": {
+    "state": {
+      "checklistHash": "d7418211ebc25656edda21d6a10181d55c5aa6b4dddb8a6a58f67174f6243b42",
+      "oddsHash": "b5cea763b88d543f9e45f5a6af2f70b0b9ec08922f8018f92c5099f64a1742f5",
+      "rows": 866,
+      "odds": 133,
+      "specificationRows": 3,
+      "specificationHash": "6e8d807e75c2ecc4238518ced29c52cb95ca426c0e352df087bbf06d465920f2"
+    },
+    "fingerprint": "0edbe3ab211df97a8a1597c9a8a7168ca4982ebaa32b06f39756371a380c91e8",
+    "events": [
+      {
+        "at": "2026-10-20T09:19:32.216Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26MRVN_VERSION3.pdf?v=1789407616",
+        "snapshot": {
+          "checklistHash": "d7418211ebc25656edda21d6a10181d55c5aa6b4dddb8a6a58f67174f6243b42",
+          "oddsHash": "b5cea763b88d543f9e45f5a6af2f70b0b9ec08922f8018f92c5099f64a1742f5",
+          "rows": 866,
+          "odds": 133,
+          "specificationRows": 3,
+          "specificationHash": "6e8d807e75c2ecc4238518ced29c52cb95ca426c0e352df087bbf06d465920f2"
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

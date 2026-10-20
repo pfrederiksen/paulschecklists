@@ -6393,6 +6393,29 @@
       "ongoingSeries": false,
       "status": "Supplementary parallel and numbering review pending",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-topps-neon-marvel",
+      "title": "2026 Topps Neon Marvel",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://www.topps.com/pages/topps-neon-marvel",
+      "oddsCategories": 133,
+      "numberedOddsCategories": 1,
+      "supplementalSpecifications": 1,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": [
+        {
+          "slug": "topps-bowman-2026-topps-neon-marvel",
+          "family": "Other numbering, card-specific quantities and placeholder odds",
+          "gap": "Calendar release and any exhaustive serial-number ladder remain unverified; guide publication and debut year are separate facts. Spider-Man five-copy and Silver Surfer ten-copy examples name no parallel or serial marking; neither becomes a family /5 or /10 limit. Sketch artwork uniqueness does not number artist roster entries or establish their individual odds eligibility. Three original odds cells print 1:XX. Preserve the placeholders without computing rates; the sheet names formats but no ratio unit. The original MARVEL SNAP XL GOLD FOIL / SUPER BOX cell prints a dash above 1:832; both are retained without choosing a value.",
+          "source": "https://ripped.topps.com/2026-topps-neon-marvel-collector-guide-top-cards/",
+          "evidenceFile": "data/parallel-audit-sources/marvel-neon-2026-product-guides-20261020.json",
+          "evidenceSha256": "71d1acb1a98447e0416aac461d72ed78b44400ebd89c1373fb5a6dfe36d0e6a4"
+        }
+      ]
     }
   ]
 }

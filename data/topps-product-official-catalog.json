@@ -3450,5 +3450,48 @@
       }
     ],
     "description": "Paper and Chrome base programs, Holiday Back and Holiday Spirit variations, Hidden Elf, winter inserts, autographs and Dear Santa relic autographs. Browse original teams and literal rookie marks; pack odds and serial limits remain unavailable."
+  },
+  {
+    "title": "2026 Topps Neon Marvel",
+    "manufacturer": "Topps / Bowman",
+    "sport": "marvel",
+    "year": "2026",
+    "slug": "topps-bowman-2026-topps-neon-marvel",
+    "page": "sets/topps-bowman-2026-topps-neon-marvel.html",
+    "sourcePage": "https://www.topps.com/pages/topps-neon-marvel",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26MRVN_VERSION3.pdf?v=1789407616",
+    "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-10-14_2026-Marvel-Neon_Odds_2.pdf?v=1791989415",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "tableData": "data/imports/topps-bowman-2026-topps-neon-marvel.json",
+    "status": "Source table",
+    "importKind": "pdf",
+    "dedicatedParser": "scripts/import_topps_marvel_neon_2026.py",
+    "rowCount": 866,
+    "sections": 20,
+    "odds": 133,
+    "formats": 5,
+    "parallelData": true,
+    "publishedOdds": true,
+    "coverageComplete": true,
+    "sha256": "d7418211ebc25656edda21d6a10181d55c5aa6b4dddb8a6a58f67174f6243b42",
+    "verified": "2026-10-20",
+    "dataAudit": "All 730 numbered physical subjects / 710 family-card identities and 136 unnumbered artists are retained across 20 families. Original unlabelled text columns change meaning by family and are not reinterpreted as teams. Repeated 1 UP and Marquee Motion subjects remain separate. All 133 odds categories and five exact headings are preserved, including three 1:XX placeholders, the original dash plus 1:832 cell and Super Box Bonus Pack 5:1. No ratio unit is printed, so no pack rate is calculated. Only the base FoilFractor 1/1 is mapped. Guide five-copy Spider-Man and ten-copy Chrome Silver Surfer examples have no named parallel or serial marking. Calendar release and exhaustive numbering remain unverified.",
+    "catalogEvidence": "All 730 numbered physical subjects / 710 family-card identities and 136 unnumbered artists are retained across 20 families. Original unlabelled text columns change meaning by family and are not reinterpreted as teams. Repeated 1 UP and Marquee Motion subjects remain separate. All 133 odds categories and five exact headings are preserved, including three 1:XX placeholders, the original dash plus 1:832 cell and Super Box Bonus Pack 5:1. No ratio unit is printed, so no pack rate is calculated. Only the base FoilFractor 1/1 is mapped. Guide five-copy Spider-Man and ten-copy Chrome Silver Surfer examples have no named parallel or serial marking. Calendar release and exhaustive numbering remain unverified.",
+    "sourceObservation": {
+      "file": "data/parallel-audit-sources/marvel-neon-2026-product-guides-20261020.json",
+      "sha256": "71d1acb1a98447e0416aac461d72ed78b44400ebd89c1373fb5a6dfe36d0e6a4",
+      "source": "https://ripped.topps.com/2026-topps-neon-marvel-collector-guide-top-cards/"
+    },
+    "additionalSources": [
+      {
+        "label": "Official collector guide",
+        "url": "https://ripped.topps.com/2026-topps-neon-marvel-collector-guide-top-cards/"
+      },
+      {
+        "label": "Official product history",
+        "url": "https://ripped.topps.com/topps-neon-marvel-history/"
+      }
+    ]
   }
 ]
