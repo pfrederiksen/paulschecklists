@@ -1,14 +1,14 @@
 {
   "observed": "2026-10-20",
   "sourceKind": "official-browser-active-listing",
-  "checkedUtc": "2026-10-20T15:24:03.867180+00:00",
+  "checkedUtc": "2026-10-20T16:28:30.400987+00:00",
   "freshListingReadsComplete": true,
   "pendingFreshListingReads": [],
   "listings": [
     {
       "url": "https://www.topps.com/collections/topps-now",
       "pagesObserved": 3,
-      "reportedProductCount": 57,
+      "reportedProductCount": 56,
       "products": [
         {
           "title": "Diego Gómez - 2026-27 Premier League Topps NOW® - Card 48",
@@ -233,10 +233,6 @@
         {
           "title": "Coventry City - 2026-27 Premier League Topps NOW® - Card 44",
           "url": "https://www.topps.com/products/coventry-city-2026-27-premier-league-topps-now-r-card-44"
-        },
-        {
-          "title": "Max Verstappen - 2026 Formula 1® Topps NOW® - Card 67",
-          "url": "https://www.topps.com/products/max-verstappen-2026-formula-1-r-topps-now-r-card-67"
         }
       ]
     },

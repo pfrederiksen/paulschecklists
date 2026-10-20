@@ -1,6 +1,6 @@
 {
   "observed": "2026-10-20",
-  "listingSha256": "d09921502b58f416cc600b5bf00c8932c223c416d889b237e783cd1efe94f26f",
+  "listingSha256": "e38745673194b2a026206fb56382a6af0c28002be5b1a95a7645569e45e7200d",
   "historicalCoverageComplete": false,
   "products": [
     {
@@ -284,11 +284,6 @@
       "status": "published"
     },
     {
-      "title": "Max Verstappen - 2026 Formula 1® Topps NOW® - Card 67",
-      "url": "https://www.topps.com/products/max-verstappen-2026-formula-1-r-topps-now-r-card-67",
-      "status": "published"
-    },
-    {
       "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
       "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30",
       "status": "published"
@@ -309,7 +304,7 @@
       "status": "published"
     }
   ],
-  "publishedCount": 61,
-  "uniquePublishedCount": 57,
+  "publishedCount": 60,
+  "uniquePublishedCount": 56,
   "remaining": []
 }

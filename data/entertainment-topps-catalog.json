@@ -85,12 +85,6 @@
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Smugglers_Outpost_Checklist.pdf?v=1770909931"
   },
   {
-    "title": "2026 Topps Vault Disney",
-    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DSNV_VERSION4.pdf?v=1792171527",
-    "source": "https://www.topps.com/pages/checklists",
-    "observed": "2026-10-15"
-  },
-  {
     "title": "2026 Garbage Pail Kids Halloween",
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26GPK_Halloween_Checklist.pdf?v=1792021294",
     "observed": "2026-10-15"
@@ -100,5 +94,11 @@
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26MRVN_VERSION3.pdf?v=1789407616",
     "sourcePage": "https://www.topps.com/pages/topps-neon-marvel",
     "sourceKind": "official-product-only-document"
+  },
+  {
+    "title": "2026 Topps Vault Disney",
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DSNV_VERSION4_a99ba06a-fb73-4a5b-941a-c11d6d6b1c90.pdf?v=1792511348",
+    "source": "https://www.topps.com/pages/checklists",
+    "observed": "2026-10-20"
   }
 ]

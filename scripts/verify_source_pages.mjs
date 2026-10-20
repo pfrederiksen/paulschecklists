@@ -588,7 +588,7 @@ for(const set of cases){
   get('source-cards-tab').onclick();get('source-reset').onclick();get('source-section').value='SKETCH CARD ARTIST';get('source-section').onchange();assert.equal(get('source-count').textContent,'53 official source rows');get('source-export').onclick();assert(csv.includes('Niel Camera')&&csv.includes('Vincenzo D’ippolito'));get('source-reset').onclick();
  }
  if(set.slug==='topps-bowman-2026-topps-vault-disney'){
-  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,true);
+  assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);
   assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
   get('source-search').value='RB-CDB';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');
@@ -596,10 +596,23 @@ for(const set of cases){
   assert(get('source-results').innerHTML.includes('Christopher Daniel Barnes')&&get('source-results').innerHTML.includes('Prince Eric'));
   get('source-export').onclick();assert(csv.includes('Official text column 1')&&csv.includes('Official text column 2')&&csv.includes('Christopher Daniel Barnes')&&csv.includes('Prince Eric'));
   get('source-reset').onclick();get('source-section').value='DISNEY TRIPLES';get('source-section').onchange();get('source-search').value='DT-HCG';get('source-search').oninput();assert.equal(get('source-count').textContent,'3 official source rows');get('source-export').onclick();for(const name of ['Tom Hanks','Joan Cusack','Kelsey Grammer'])assert(csv.includes(name));
-  get('source-reset').onclick();get('source-section').value='IMMORTAL AUTOGRAPHS';get('source-section').onchange();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('SuperFractor')&&get('source-specifications').innerHTML.includes('1/1'));get('source-export').onclick();assert(csv.includes('SuperFractor')&&csv.includes('1/1'));
+  get('source-reset').onclick();get('source-section').value='IMMORTAL AUTOGRAPHS';get('source-section').onchange();get('source-odds-tab').onclick();get('source-format').value='PACK#2';get('source-format').onchange();assert(get('source-specifications').innerHTML.includes('SuperFractor')&&get('source-specifications').innerHTML.includes('1/1'));get('source-export').onclick();assert(csv.includes('IMMORTAL AUTOGRAPHS SUPERFRACTOR PARALLEL')&&csv.includes('1/1')&&csv.includes('1:1,247'));
   get('source-cards-tab').onclick();get('source-reset').onclick();get('source-section').value='DISNEY DIAMONDS';get('source-section').onchange();const base=data.rows.findIndex(r=>r[0]==='DISNEY DIAMONDS');get('source-results').onclick({target:{closest:()=>({dataset:{row:String(base)}})}});assert(!get('source-results').innerHTML.includes('1/1'),'Immortal numbering must not number Disney Diamonds');
   get('source-reset').onclick();get('source-section').value='PREMIERE SKETCH CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'55 official source rows');get('source-export').onclick();assert(csv.includes('JohnruzelJimenez')&&!csv.includes('SuperFractor'));
   get('source-reset').onclick();get('source-odds-tab').onclick();assert(get('source-specifications').innerHTML.includes('VAR-JL')&&get('source-specifications').innerHTML.includes('VRD-TT')&&get('source-specifications').innerHTML.includes('no parallel name supplied'));get('source-cards-tab').onclick();get('source-reset').onclick();
+  get('source-search').value='IA-TZ';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('Tom Holland')&&csv.includes('Ian Lightfoot'));
+  get('source-reset').onclick();get('source-odds-tab').onclick();get('source-section').value='VAULT AUTOGRAPH RELIC TRIPLES';get('source-section').onchange();get('source-format').value='PACK#2';get('source-format').onchange();get('source-export').onclick();assert(csv.includes('1:XX')&&csv.includes('PACK#2')&&!csv.includes('1 in XX packs'));
+  get('source-reset').onclick();get('source-cards-tab').onclick();
+ }
+ if(set.slug==='topps-bowman-2026-bowman-football-sapphire-edition'){
+  assert.equal(get('source-format').disabled,true);assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);
+  assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-section').value='CHROME PROSPECTS I';get('source-section').onchange();assert.equal(get('source-count').textContent,'201 official source rows');
+  get('source-search').value='BCP-201';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('Arch Manning')&&csv.includes('Texas'));
+  get('source-reset').onclick();get('source-section').value='SAPPHIRE SELECTIONS AUTOGRAPHS NFL';get('source-section').onchange();get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'3 official source rows');get('source-export').onclick();assert(csv.includes('Carnell Tate')&&csv.includes('Fernando Mendoza')&&csv.includes('Jeremiyah Love')&&!csv.includes('Caleb Williams'));
+  get('source-reset').onclick();get('source-search').value='BCP-1';get('source-search').oninput();get('source-export').onclick();assert(csv.includes('Cutter Boley')&&csv.includes('Arizona State'));
+  get('source-reset').onclick();
  }
  if(set.slug==='topps-bowman-2026-topps-chrome-marvel-comics-sapphire-edition'){
   assert.equal(get('source-team').disabled,true);assert.equal(get('source-rookie').disabled,true);assert.equal(get('source-format').disabled,false);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);

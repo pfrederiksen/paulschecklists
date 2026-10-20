@@ -1,0 +1,38 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T16:22:29.497215+00:00",
+  "sourceKind": "official-browser-checklist-discovery",
+  "source": "https://www.topps.com/pages/checklists",
+  "checklist": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26BWFB_SAPPHIRE.pdf?v=1792510528",
+    "sha256": "077084b320f86c7a3af9117ae3ab865125264b1edcbc9e63bc6c8f46554ea4da",
+    "pages": 13
+  },
+  "productUiRead": {
+    "links": [],
+    "text": "Available October 29\n2026 Bowman Football Sapphire Edition\nGet notified",
+    "url": "https://www.topps.com/pages/bowman-football-sapphire-edition"
+  },
+  "subjectRows": 608,
+  "sections": 11,
+  "rookieMarks": 146,
+  "familyCounts": {
+    "CHROME PROSPECTS I": 201,
+    "CHROME NFL BASE": 100,
+    "CHROME ROOKIE BASE": 100,
+    "HIDDEN GEMS": 5,
+    "TREASURED TALENT NFL": 15,
+    "TREASURED TALENT NIL": 10,
+    "BASE CHROME AUTOGRAPHS": 50,
+    "BASE CHROME ROOKIE AUTOGRAPHS": 36,
+    "CHROME PROSPECT AUTOGRAPHS": 73,
+    "SAPPHIRE SELECTIONS AUTOGRAPHS NFL": 9,
+    "SAPPHIRE SELECTIONS AUTOGRAPHS NIL": 9
+  },
+  "statement": "Original Card number, Name, Team and literal Rookie fields retain 201 CHROME PROSPECTS I entries (BCP-1 through BCP-201 Arch Manning), 100 CHROME NFL BASE and 100 CHROME ROOKIE BASE entries. College/team assignments and trademarks are printed source values, including Cutter Boley Arizona State. NFL and NIL autograph families remain separate. Final SSA-WJ Waymond Jordan USC retained. No odds, pack formats or numeric serial ladder are published in the current exact product landing/global odds sources. October 29 landing availability is retained as upcoming store context; exact general release-date verification is pending.",
+  "remainingGaps": [
+    "Official Sapphire pack odds have not been published in the checked current sources.",
+    "Numeric serial ladders and exhaustive family eligibility remain unpublished in these checked sources.",
+    "October 29 store landing availability is not promoted to a verified general release-date mapping."
+  ]
+}

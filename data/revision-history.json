@@ -13484,15 +13484,42 @@
   },
   "topps-bowman-2026-topps-vault-disney": {
     "state": {
-      "checklistHash": "9835a0cde6f0ec32a63aceb419f78d1e182ba63139a5db6b59d526e6ad1c6dcf",
-      "oddsHash": null,
-      "rows": 510,
-      "odds": 0,
+      "checklistHash": "079af2711e9a6150f2bb4dc9ec8cab0210c2c1a8cb0601533bef7050fac6a3c8",
+      "oddsHash": "feced3f01b19b3afceaac26a46afac2df7f6fb5a814f961b2c5474c327116b88",
+      "rows": 511,
+      "odds": 76,
       "specificationRows": 7,
-      "specificationHash": "9bc1ca21938ac5fe3dff8210084da0dc05e26442a5d2d72da6229db0a6acfeca"
+      "specificationHash": "a450aac859c7ac550f94632d73d0b3b02fc74edb59baf8541829e72ceaf92823"
     },
-    "fingerprint": "b31f0c91a3caa252cb3d5fffc7ee5b94b64af498cc8b2decf41cb22dfe9c694a",
+    "fingerprint": "3535827db9a91b720874634c5d0823982b63531dd816a189581e0c8ab42548de",
     "events": [
+      {
+        "at": "2026-10-20T16:26:54.876Z",
+        "changes": [
+          "Official checklist or supplementary specification source changed.",
+          "Official odds document imported.",
+          "Checklist entries: 510 → 511",
+          "Published odds entries: 0 → 76",
+          "Official supplementary specification changed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DSNV_VERSION4_a99ba06a-fb73-4a5b-941a-c11d6d6b1c90.pdf?v=1792511348",
+        "snapshot": {
+          "checklistHash": "079af2711e9a6150f2bb4dc9ec8cab0210c2c1a8cb0601533bef7050fac6a3c8",
+          "oddsHash": "feced3f01b19b3afceaac26a46afac2df7f6fb5a814f961b2c5474c327116b88",
+          "rows": 511,
+          "odds": 76,
+          "specificationRows": 7,
+          "specificationHash": "a450aac859c7ac550f94632d73d0b3b02fc74edb59baf8541829e72ceaf92823"
+        },
+        "previousSnapshot": {
+          "checklistHash": "9835a0cde6f0ec32a63aceb419f78d1e182ba63139a5db6b59d526e6ad1c6dcf",
+          "oddsHash": null,
+          "rows": 510,
+          "odds": 0,
+          "specificationRows": 7,
+          "specificationHash": "9bc1ca21938ac5fe3dff8210084da0dc05e26442a5d2d72da6229db0a6acfeca"
+        }
+      },
       {
         "at": "2026-10-15T19:28:52.797Z",
         "changes": [
@@ -15163,6 +15190,33 @@
           "odds": 133,
           "specificationRows": 3,
           "specificationHash": "6e8d807e75c2ecc4238518ced29c52cb95ca426c0e352df087bbf06d465920f2"
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2026-bowman-football-sapphire-edition": {
+    "state": {
+      "checklistHash": "077084b320f86c7a3af9117ae3ab865125264b1edcbc9e63bc6c8f46554ea4da",
+      "oddsHash": null,
+      "rows": 608,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "2fa66902962fcfaa5c70a6105927283872ea337daba5e1b7627bcaf2afaa875c",
+    "events": [
+      {
+        "at": "2026-10-20T16:26:54.975Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26BWFB_SAPPHIRE.pdf?v=1792510528",
+        "snapshot": {
+          "checklistHash": "077084b320f86c7a3af9117ae3ab865125264b1edcbc9e63bc6c8f46554ea4da",
+          "oddsHash": null,
+          "rows": 608,
+          "odds": 0,
+          "specificationRows": 0
         },
         "previousSnapshot": null
       }

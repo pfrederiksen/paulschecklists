@@ -1,0 +1,49 @@
+{
+  "observed": "2026-10-20",
+  "checkedUtc": "2026-10-20T16:22:29.497215+00:00",
+  "sourceKind": "official-browser-current-global-documents",
+  "method": "Fresh official global checklist and odds UI links, independently downloaded PDFs and original text-object/physical-table validation.",
+  "previous": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DSNV_VERSION4.pdf?v=1792089594",
+    "sha256": "9835a0cde6f0ec32a63aceb419f78d1e182ba63139a5db6b59d526e6ad1c6dcf",
+    "pages": 12,
+    "numberedSubjects": 428,
+    "artistRows": 82
+  },
+  "current": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DSNV_VERSION4_a99ba06a-fb73-4a5b-941a-c11d6d6b1c90.pdf?v=1792511348",
+    "sha256": "079af2711e9a6150f2bb4dc9ec8cab0210c2c1a8cb0601533bef7050fac6a3c8",
+    "pages": 11,
+    "numberedSubjects": 429,
+    "artistRows": 82
+  },
+  "odds": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-10-14_2026-Topps-Disney-Vault_Odds_1_d3b2e2ba-df85-4bac-b402-3af69f927aef.pdf?v=1792510260",
+    "sha256": "feced3f01b19b3afceaac26a46afac2df7f6fb5a814f961b2c5474c327116b88",
+    "categories": 76,
+    "formats": [
+      "PACK#1",
+      "PACK#2",
+      "BOX TOPPER"
+    ],
+    "ratioUnitPublished": false,
+    "unresolvedLiteralValues": [
+      "1:XX",
+      "1:XX"
+    ]
+  },
+  "addedSubjects": [
+    [
+      "IMMORTAL AUTOGRAPHS",
+      "IA-TZ",
+      "Tom Holland",
+      "Ian Lightfoot"
+    ]
+  ],
+  "removedSubjects": [],
+  "statement": "All previous 510 physical subject/artist cells remain unchanged after page reflow. One Tom Holland / Ian Lightfoot Immortal Autographs row is added. All 76 odds categories retain original physical columns, null dashes and two literal 1:XX placeholders. Named packet positions are not an explicit ratio-unit statement. Only the existing exact Immortal Autographs SuperFractor 1/1 guide scope joins that named odds category. No new color limits or sketch serial claims are inferred.",
+  "remainingGaps": [
+    "The two published 1:XX values are unresolved placeholders; no numeric odds are invented.",
+    "Exhaustive numbering and family eligibility remain unverified."
+  ]
+}
