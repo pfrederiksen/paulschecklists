@@ -1,126 +1,11 @@
 {
   "observed": "2026-10-21",
-  "listingSha256": "6f56ebd87590116f81dbe8fddbf6d1edb84cd01395ca1e222c03cbeb42998566",
+  "listingSha256": "4c9284d3c9030d50bfad46af693c2e1102408158b257bc6cc45e7872b3071684",
   "historicalCoverageComplete": false,
   "products": [
     {
-      "title": "Brock Purdy - 2026-27 NFL Topps NOW® - Card 75",
-      "url": "https://www.topps.com/products/brock-purdy-2026-27-nfl-topps-now-r-card-75",
-      "status": "published"
-    },
-    {
-      "title": "Diego Gómez - 2026-27 Premier League Topps NOW® - Card 48",
-      "url": "https://www.topps.com/products/diego-gomez-2026-27-premier-league-topps-now-r-card-48",
-      "status": "published"
-    },
-    {
-      "title": "Pedro Neto - 2026-27 Premier League Topps NOW® - Card 47",
-      "url": "https://www.topps.com/products/pedro-neto-2026-27-premier-league-topps-now-r-card-47",
-      "status": "published"
-    },
-    {
-      "title": "Alexander Isak - 2026-27 Premier League Topps NOW® - Card 46",
-      "url": "https://www.topps.com/products/alexander-isak-2026-27-premier-league-topps-now-r-card-46",
-      "status": "published"
-    },
-    {
-      "title": "Alex Iwobi - 2026-27 Premier League Topps NOW® - Card 45",
-      "url": "https://www.topps.com/products/alex-iwobi-2026-27-premier-league-topps-now-r-card-45",
-      "status": "published"
-    },
-    {
-      "title": "Marvin Wanitzek - 2026-27 Bundesliga Topps NOW® - Card 37",
-      "url": "https://www.topps.com/products/marvin-wanitzek-2026-27-bundesliga-topps-now-r-card-37",
-      "status": "published"
-    },
-    {
-      "title": "Patrik Schick - 2026-27 Bundesliga Topps NOW® - Card 36",
-      "url": "https://www.topps.com/products/patrik-schick-2026-27-bundesliga-topps-now-r-card-36",
-      "status": "published"
-    },
-    {
-      "title": "Iaia Manco Danfa - 2026-27 Bundesliga Topps NOW® - Card 35",
-      "url": "https://www.topps.com/products/iaia-manco-danfa-2026-27-bundesliga-topps-now-r-card-35",
-      "status": "published"
-    },
-    {
-      "title": "Miro Muheim - 2026-27 Bundesliga Topps NOW® - Card 34",
-      "url": "https://www.topps.com/products/miro-muheim-2026-27-bundesliga-topps-now-r-card-34",
-      "status": "published"
-    },
-    {
-      "title": "Luis Díaz - 2026-27 Bundesliga Topps NOW® - Card 33",
-      "url": "https://www.topps.com/products/luis-diaz-2026-27-bundesliga-topps-now-r-card-33",
-      "status": "published"
-    },
-    {
-      "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
-      "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30",
-      "status": "published"
-    },
-    {
-      "title": "Bear Bachmeier - 2026-27 Bowman U NOW® Football - Card 29",
-      "url": "https://www.topps.com/products/bear-bachmeier-2026-27-bowman-u-now-r-football-card-29",
-      "status": "published"
-    },
-    {
-      "title": "Darian Mensah - 2026-27 Bowman U NOW® Football - Card 28",
-      "url": "https://www.topps.com/products/darian-mensah-2026-27-bowman-u-now-r-football-card-28",
-      "status": "published"
-    },
-    {
-      "title": "Bo Jackson - 2026-27 Bowman U NOW® Football - Card 27",
-      "url": "https://www.topps.com/products/bo-jackson-2026-27-bowman-u-now-r-football-card-27",
-      "status": "published"
-    },
-    {
-      "title": "Rueben Bain Jr - 2026-27 NFL Topps NOW® - Card 63",
-      "url": "https://www.topps.com/products/rueben-bain-jr-2026-27-nfl-topps-now-r-card-63",
-      "status": "published"
-    },
-    {
-      "title": "Patrick Mahomes / Tom Brady - 2026-27 NFL Topps NOW® - Card 74",
-      "url": "https://www.topps.com/products/patrick-mahomes-ii-tom-brady-2026-nfl-topps-now-r-card-74",
-      "status": "published"
-    },
-    {
-      "title": "Josh Allen / Jim Kelly - 2026-27 NFL Topps NOW® - Card 73",
-      "url": "https://www.topps.com/products/josh-allen-jim-kelly-2026-27-nfl-topps-now-r-card-73",
-      "status": "published"
-    },
-    {
-      "title": "J.J. McCarthy - 2026-27 NFL Topps NOW® - Card 72",
-      "url": "https://www.topps.com/products/j-j-mccarthy-2026-nfl-topps-now-r-card-72",
-      "status": "published"
-    },
-    {
-      "title": "Arizona Cardinals - 2026-27 NFL Topps NOW® - Card 71",
-      "url": "https://www.topps.com/products/arizona-cardinals-2026-nfl-topps-now-r-card-71",
-      "status": "published"
-    },
-    {
-      "title": "Puka Nacua - 2026-27 NFL Topps NOW® - Card 70",
-      "url": "https://www.topps.com/products/puka-nacua-2026-27-nfl-topps-now-r-card-70",
-      "status": "published"
-    },
-    {
-      "title": "Caleb Williams - 2026-27 NFL Topps NOW® - Card 69",
-      "url": "https://www.topps.com/products/caleb-williams-2026-27-nfl-topps-now-r-card-69",
-      "status": "published"
-    },
-    {
-      "title": "Jonathan Taylor - 2026-27 NFL Topps NOW® - Card 68",
-      "url": "https://www.topps.com/products/jonathan-taylor-2026-27-nfl-topps-now-r-card-68",
-      "status": "published"
-    },
-    {
-      "title": "Alvin Kamara - 2026-27 NFL Topps NOW® - Card 67",
-      "url": "https://www.topps.com/products/alvin-kamara-2026-27-nfl-topps-now-r-card-67",
-      "status": "published"
-    },
-    {
-      "title": "Carnell Tate - 2026-27 NFL Topps NOW® - Card 66",
-      "url": "https://www.topps.com/products/carnell-tate-2026-27-nfl-topps-now-r-card-66",
+      "title": "Jesse Derry - 2026-27 UCL Topps NOW® - Card 18",
+      "url": "https://www.topps.com/products/jesse-derry-2026-27-ucl-topps-now-r-card-18",
       "status": "published"
     },
     {
@@ -244,8 +129,123 @@
       "status": "published"
     },
     {
-      "title": "Jesse Derry - 2026-27 UCL Topps NOW® - Card 18",
-      "url": "https://www.topps.com/products/jesse-derry-2026-27-ucl-topps-now-r-card-18",
+      "title": "Brock Purdy - 2026-27 NFL Topps NOW® - Card 75",
+      "url": "https://www.topps.com/products/brock-purdy-2026-27-nfl-topps-now-r-card-75",
+      "status": "published"
+    },
+    {
+      "title": "Diego Gómez - 2026-27 Premier League Topps NOW® - Card 48",
+      "url": "https://www.topps.com/products/diego-gomez-2026-27-premier-league-topps-now-r-card-48",
+      "status": "published"
+    },
+    {
+      "title": "Pedro Neto - 2026-27 Premier League Topps NOW® - Card 47",
+      "url": "https://www.topps.com/products/pedro-neto-2026-27-premier-league-topps-now-r-card-47",
+      "status": "published"
+    },
+    {
+      "title": "Alexander Isak - 2026-27 Premier League Topps NOW® - Card 46",
+      "url": "https://www.topps.com/products/alexander-isak-2026-27-premier-league-topps-now-r-card-46",
+      "status": "published"
+    },
+    {
+      "title": "Alex Iwobi - 2026-27 Premier League Topps NOW® - Card 45",
+      "url": "https://www.topps.com/products/alex-iwobi-2026-27-premier-league-topps-now-r-card-45",
+      "status": "published"
+    },
+    {
+      "title": "Marvin Wanitzek - 2026-27 Bundesliga Topps NOW® - Card 37",
+      "url": "https://www.topps.com/products/marvin-wanitzek-2026-27-bundesliga-topps-now-r-card-37",
+      "status": "published"
+    },
+    {
+      "title": "Patrik Schick - 2026-27 Bundesliga Topps NOW® - Card 36",
+      "url": "https://www.topps.com/products/patrik-schick-2026-27-bundesliga-topps-now-r-card-36",
+      "status": "published"
+    },
+    {
+      "title": "Iaia Manco Danfa - 2026-27 Bundesliga Topps NOW® - Card 35",
+      "url": "https://www.topps.com/products/iaia-manco-danfa-2026-27-bundesliga-topps-now-r-card-35",
+      "status": "published"
+    },
+    {
+      "title": "Miro Muheim - 2026-27 Bundesliga Topps NOW® - Card 34",
+      "url": "https://www.topps.com/products/miro-muheim-2026-27-bundesliga-topps-now-r-card-34",
+      "status": "published"
+    },
+    {
+      "title": "Luis Díaz - 2026-27 Bundesliga Topps NOW® - Card 33",
+      "url": "https://www.topps.com/products/luis-diaz-2026-27-bundesliga-topps-now-r-card-33",
+      "status": "published"
+    },
+    {
+      "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
+      "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30",
+      "status": "published"
+    },
+    {
+      "title": "Bear Bachmeier - 2026-27 Bowman U NOW® Football - Card 29",
+      "url": "https://www.topps.com/products/bear-bachmeier-2026-27-bowman-u-now-r-football-card-29",
+      "status": "published"
+    },
+    {
+      "title": "Darian Mensah - 2026-27 Bowman U NOW® Football - Card 28",
+      "url": "https://www.topps.com/products/darian-mensah-2026-27-bowman-u-now-r-football-card-28",
+      "status": "published"
+    },
+    {
+      "title": "Bo Jackson - 2026-27 Bowman U NOW® Football - Card 27",
+      "url": "https://www.topps.com/products/bo-jackson-2026-27-bowman-u-now-r-football-card-27",
+      "status": "published"
+    },
+    {
+      "title": "Rueben Bain Jr - 2026-27 NFL Topps NOW® - Card 63",
+      "url": "https://www.topps.com/products/rueben-bain-jr-2026-27-nfl-topps-now-r-card-63",
+      "status": "published"
+    },
+    {
+      "title": "Patrick Mahomes / Tom Brady - 2026-27 NFL Topps NOW® - Card 74",
+      "url": "https://www.topps.com/products/patrick-mahomes-ii-tom-brady-2026-nfl-topps-now-r-card-74",
+      "status": "published"
+    },
+    {
+      "title": "Josh Allen / Jim Kelly - 2026-27 NFL Topps NOW® - Card 73",
+      "url": "https://www.topps.com/products/josh-allen-jim-kelly-2026-27-nfl-topps-now-r-card-73",
+      "status": "published"
+    },
+    {
+      "title": "J.J. McCarthy - 2026-27 NFL Topps NOW® - Card 72",
+      "url": "https://www.topps.com/products/j-j-mccarthy-2026-nfl-topps-now-r-card-72",
+      "status": "published"
+    },
+    {
+      "title": "Arizona Cardinals - 2026-27 NFL Topps NOW® - Card 71",
+      "url": "https://www.topps.com/products/arizona-cardinals-2026-nfl-topps-now-r-card-71",
+      "status": "published"
+    },
+    {
+      "title": "Puka Nacua - 2026-27 NFL Topps NOW® - Card 70",
+      "url": "https://www.topps.com/products/puka-nacua-2026-27-nfl-topps-now-r-card-70",
+      "status": "published"
+    },
+    {
+      "title": "Caleb Williams - 2026-27 NFL Topps NOW® - Card 69",
+      "url": "https://www.topps.com/products/caleb-williams-2026-27-nfl-topps-now-r-card-69",
+      "status": "published"
+    },
+    {
+      "title": "Jonathan Taylor - 2026-27 NFL Topps NOW® - Card 68",
+      "url": "https://www.topps.com/products/jonathan-taylor-2026-27-nfl-topps-now-r-card-68",
+      "status": "published"
+    },
+    {
+      "title": "Alvin Kamara - 2026-27 NFL Topps NOW® - Card 67",
+      "url": "https://www.topps.com/products/alvin-kamara-2026-27-nfl-topps-now-r-card-67",
+      "status": "published"
+    },
+    {
+      "title": "Carnell Tate - 2026-27 NFL Topps NOW® - Card 66",
+      "url": "https://www.topps.com/products/carnell-tate-2026-27-nfl-topps-now-r-card-66",
       "status": "published"
     },
     {
