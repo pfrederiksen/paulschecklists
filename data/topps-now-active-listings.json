@@ -1,14 +1,14 @@
 {
   "observed": "2026-10-21",
   "sourceKind": "official-browser-active-listing",
-  "checkedUtc": "2026-10-21T15:52:55.978703+00:00",
+  "checkedUtc": "2026-10-21T16:04:24.886198+00:00",
   "freshListingReadsComplete": true,
   "pendingFreshListingReads": [],
   "listings": [
     {
       "url": "https://www.topps.com/collections/topps-now",
       "pagesObserved": 3,
-      "reportedProductCount": 59,
+      "reportedProductCount": 54,
       "products": [
         {
           "title": "Brock Purdy - 2026-27 NFL Topps NOW® - Card 75",
@@ -45,6 +45,10 @@
         {
           "title": "Alexander Isak - 2026-27 Premier League Topps NOW® - Card 46",
           "url": "https://www.topps.com/products/alexander-isak-2026-27-premier-league-topps-now-r-card-46"
+        },
+        {
+          "title": "Alex Iwobi - 2026-27 Premier League Topps NOW® - Card 45",
+          "url": "https://www.topps.com/products/alex-iwobi-2026-27-premier-league-topps-now-r-card-45"
         },
         {
           "title": "Marvin Wanitzek - 2026-27 Bundesliga Topps NOW® - Card 37",
@@ -221,30 +225,6 @@
         {
           "title": "Jesse Derry - 2026-27 UCL Topps NOW® - Card 18",
           "url": "https://www.topps.com/products/jesse-derry-2026-27-ucl-topps-now-r-card-18"
-        },
-        {
-          "title": "Dara O'Shea - 2026-27 Premier League Topps NOW® - Card 38",
-          "url": "https://www.topps.com/products/dara-o-shea-2026-27-premier-league-topps-now-r-card-38"
-        },
-        {
-          "title": "Jordan Henderson - 2026-27 Premier League Topps NOW® - Card 39",
-          "url": "https://www.topps.com/products/jordan-henderson-2026-27-premier-league-topps-now-r-card-39"
-        },
-        {
-          "title": "Jaouen Hadjam - 2026-27 Premier League Topps NOW® - Card 40",
-          "url": "https://www.topps.com/products/jaouen-hadjam-2026-27-premier-league-topps-now-r-card-40"
-        },
-        {
-          "title": "Dominic Solanke - 2026-27 Premier League Topps NOW® - Card 41",
-          "url": "https://www.topps.com/products/dominic-solanke-2026-27-premier-league-topps-now-r-card-41"
-        },
-        {
-          "title": "Jérémy Doku - 2026-27 Premier League Topps NOW® - Card 42",
-          "url": "https://www.topps.com/products/jeremy-doku-2026-27-premier-league-topps-now-r-card-42"
-        },
-        {
-          "title": "Coventry City - 2026-27 Premier League Topps NOW® - Card 44",
-          "url": "https://www.topps.com/products/coventry-city-2026-27-premier-league-topps-now-r-card-44"
         }
       ]
     },

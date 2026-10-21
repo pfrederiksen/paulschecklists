@@ -1,0 +1,44 @@
+{
+  "sourceKind": "official-browser-product",
+  "observed": "2026-10-21",
+  "checkedUtc": "2026-10-21T16:00:49.307609+00:00",
+  "method": "Fresh official expanded Overview/Description and loaded Specs, exact printed title and sale sentence. Normalized factual excerpt hash, not a raw HTML hash.",
+  "products": [
+    {
+      "url": "https://www.topps.com/products/alex-iwobi-2026-27-premier-league-topps-now-r-card-45",
+      "lines": [
+        "Alex Iwobi - 2026-27 Premier League Topps NOW® - Card 45",
+        "Product is available from Oct 20, 2026 and expires on Oct 27, 2026",
+        "Overview",
+        "Look for:",
+        "* Open-Edition Base Card",
+        "* Foil Parallels Numbered to /25 and lower",
+        "Parallels:",
+        "/25 Orange Foil",
+        "/10 Black Foil",
+        "/5 Red Foil",
+        "/1 FoilFractor",
+        "*Parallels or other non-base card will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.",
+        "The processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.",
+        "Subject to Terms & Conditions",
+        "50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.",
+        "100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.",
+        "250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.",
+        "500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+        "Specs",
+        "SKU  | ARTPL-16C2S-27TN-0045",
+        "Category  | Sports",
+        "Sub Categories  | Soccer",
+        "Sub Type  | Cards",
+        "Product Year  | 2026",
+        "Brand  | Topps",
+        "Sub Brand  | Topps NOW®",
+        "Subjects  | Alex Iwobi",
+        "Properties  | Fulham",
+        "Product Type  | Print on Demand",
+        "Available From  | Oct 20, 2026",
+        "Available Until  | Oct 27, 2026"
+      ]
+    }
+  ]
+}

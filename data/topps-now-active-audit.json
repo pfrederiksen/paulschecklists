@@ -1,6 +1,6 @@
 {
   "observed": "2026-10-21",
-  "listingSha256": "ec550c885ef29ec8e903325c061ba13cbabf3f0f7870b35436d282cf1573e1cd",
+  "listingSha256": "b00908bdc973bdc9aa4a699ddee8200877df25920449cbc11aa23cd954907779",
   "historicalCoverageComplete": false,
   "products": [
     {
@@ -46,6 +46,11 @@
     {
       "title": "Alexander Isak - 2026-27 Premier League Topps NOW® - Card 46",
       "url": "https://www.topps.com/products/alexander-isak-2026-27-premier-league-topps-now-r-card-46",
+      "status": "published"
+    },
+    {
+      "title": "Alex Iwobi - 2026-27 Premier League Topps NOW® - Card 45",
+      "url": "https://www.topps.com/products/alex-iwobi-2026-27-premier-league-topps-now-r-card-45",
       "status": "published"
     },
     {
@@ -269,36 +274,6 @@
       "status": "published"
     },
     {
-      "title": "Dara O'Shea - 2026-27 Premier League Topps NOW® - Card 38",
-      "url": "https://www.topps.com/products/dara-o-shea-2026-27-premier-league-topps-now-r-card-38",
-      "status": "published"
-    },
-    {
-      "title": "Jordan Henderson - 2026-27 Premier League Topps NOW® - Card 39",
-      "url": "https://www.topps.com/products/jordan-henderson-2026-27-premier-league-topps-now-r-card-39",
-      "status": "published"
-    },
-    {
-      "title": "Jaouen Hadjam - 2026-27 Premier League Topps NOW® - Card 40",
-      "url": "https://www.topps.com/products/jaouen-hadjam-2026-27-premier-league-topps-now-r-card-40",
-      "status": "published"
-    },
-    {
-      "title": "Dominic Solanke - 2026-27 Premier League Topps NOW® - Card 41",
-      "url": "https://www.topps.com/products/dominic-solanke-2026-27-premier-league-topps-now-r-card-41",
-      "status": "published"
-    },
-    {
-      "title": "Jérémy Doku - 2026-27 Premier League Topps NOW® - Card 42",
-      "url": "https://www.topps.com/products/jeremy-doku-2026-27-premier-league-topps-now-r-card-42",
-      "status": "published"
-    },
-    {
-      "title": "Coventry City - 2026-27 Premier League Topps NOW® - Card 44",
-      "url": "https://www.topps.com/products/coventry-city-2026-27-premier-league-topps-now-r-card-44",
-      "status": "published"
-    },
-    {
       "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
       "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30",
       "status": "published"
@@ -319,7 +294,7 @@
       "status": "published"
     }
   ],
-  "publishedCount": 63,
-  "uniquePublishedCount": 59,
+  "publishedCount": 58,
+  "uniquePublishedCount": 54,
   "remaining": []
 }

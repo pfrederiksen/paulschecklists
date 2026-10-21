@@ -88948,6 +88948,46 @@
   },
   {
     "series": "2026-27 Premier League Topps NOW®",
+    "number": "45",
+    "name": "Alex Iwobi",
+    "printRun": "",
+    "saleFrom": "Oct 20, 2026",
+    "saleUntil": "Oct 27, 2026",
+    "parallels": [
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/alex-iwobi-2026-27-premier-league-topps-now-r-card-45",
+    "evidence": {
+      "url": "https://www.topps.com/products/alex-iwobi-2026-27-premier-league-topps-now-r-card-45",
+      "sha256": "82ec51681286ddbee30e2b9adfc00312c567911b026f73450d40955f81bf9bc7",
+      "observed": "2026-10-21",
+      "title": "Alex Iwobi - 2026-27 Premier League Topps NOW® - Card 45",
+      "fields": {
+        "SKU": "ARTPL-16C2S-27TN-0045",
+        "Category": "Sports",
+        "Sub Categories": "Soccer",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Alex Iwobi",
+        "Properties": "Fulham",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 20, 2026",
+        "Available Until": "Oct 27, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /25 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261021-1600-iwobi.json"
+    },
+    "saleFromISO": "2026-10-20"
+  },
+  {
+    "series": "2026-27 Premier League Topps NOW®",
     "number": "46",
     "name": "Alexander Isak",
     "printRun": "",
