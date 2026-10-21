@@ -1,0 +1,21 @@
+{
+  "observed": "2026-10-21",
+  "checkedUtc": "2026-10-21T00:37:08.947812+00:00",
+  "sourceKind": "official-browser-csv-export",
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "sourceSelection": {
+    "sport": "Miscellaneous",
+    "year": "2026",
+    "brand": "Panini",
+    "program": "90’s Pop Culture Box Set"
+  },
+  "method": "Fresh official selector choices and Download Full Checklist click. Retained the decoded data:attachment/csv DOM payload and compared every byte with the imported primary export. This refresh does not depend on an unchanged program menu.",
+  "retainedCsv": "data/official-panini/panini-2026-panini-90-s-pop-culture-box-set-miscellaneous.csv",
+  "sha256": "50787988092e8d35d79aa1f5d05d4ea45790aebc593b0aabaf1c675999690383",
+  "bytes": 531076,
+  "rows": 4296,
+  "families": 111,
+  "allOriginalCellsUnchanged": true,
+  "publicDataChanged": false,
+  "remainingGap": "This is one fresh miscellaneous/entertainment program export. It does not establish all-manufacturer or full 2026 CSV revision coverage; exhaustive guide/parallel eligibility remains under review."
+}
