@@ -25,6 +25,10 @@ for record in records:
   observation=json.loads((ROOT/proof['file']).read_text())
   assert record['releaseDate'] is None and data['checklistFirstObserved']==record['checklistFirstObserved']==observation['observed']
   assert any(o['sha256']==data['sha256'] and o['sourceSelection']==data['sourceSelection'] for o in observation['exports'])
+  matched=next(o for o in observation['exports'] if o['sha256']==data['sha256'] and o['sourceSelection']==data['sourceSelection'])
+  if matched.get('sourceContext'):
+   assert matched['sourceContext'] in record['catalogEvidence']
+   assert any(matched['sourceContext'] in note for sheet in data['sourceSheets'] for row in sheet.get('notes',[]) for note in row)
   if proof['file'].endswith('basketball-2025-26-observations-20261014.json'):
    assert data['checklistFirstObserved']=='2026-10-14'
    assert record['sourceYear']=='2025' and record['year']=='2025-26'

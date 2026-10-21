@@ -52,6 +52,10 @@ for filename in sys.argv[1:]:
   audit+=' This export was observed in the official interface on '+observations['observed']+'; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.'
   payload['sourceSheets']=[{'name':'Official source reconciliation','notes':[[audit]]}]
   record.update(catalogEvidence=audit,dataAudit=audit)
+  if observation.get('sourceContext'):
+   audit+=' '+observation['sourceContext']
+   record.update(catalogEvidence=audit,dataAudit=audit)
+   payload['sourceSheets'][0]['notes']=[[audit]]
   if program=='EuroLeague Origins (25-26)':
    guide=observations['releaseEvidence'][1]['source']
    payload['publishedSpecifications'].append({'name':'Manufacturer box contents and qualified numbering range','worksheet':'Official June 18, 2026 announcement; averages are not pack odds','headers':['Published field','Published value','Official source'],'rows':[[*r,guide] for r in observations['euroleagueOriginsSpecifications']],'source':guide,'evidenceFile':evidence['file'],'evidenceSha256':evidence['sha256']})
