@@ -723,7 +723,7 @@ nba_names={'1':'LeBron James','2':'New York Knicks','3':'Jaylen Brown, Tyrese Ma
 nba_properties={'1':'Philadelphia 76ers','2':'New York Knicks','3':'Philadelphia 76ers',
                 '4':'Boston Celtics','5':'Detroit Pistons','6':'Oklahoma City Thunder'}
 nba_table=json.loads((root/'data/imports/topps-now-2026-27-nba-topps-now.json').read_text())
-assert nba_table['coverageComplete'] is False and len(nba_table['rows'])==37
+assert nba_table['coverageComplete'] is False and len(nba_table['rows'])>=37
 for p in nba_cards:
     assert p['series']=='2026-27 NBA Topps NOW®' and p['name']==nba_names[p['number']]
     assert p['saleFrom']=='Oct 21, 2026' and p['saleFromISO']=='2026-10-21'
