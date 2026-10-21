@@ -1,0 +1,218 @@
+{
+  "observed": "2026-10-21",
+  "sourceKind": "official-browser-complete-tables",
+  "discoverySource": "https://upperdeck.com/checklists/",
+  "method": "Fresh directory UI batches15/30/45/60/75 and13 full official checklist pages. Each table captured in100-row blocks plus exact-length64000-character DOM-markup chunks. Factual snapshot hashes cover normalized official table cells, title, source URL and printed categories; DOM hashes cover rendered table markup, not raw HTTP responses. Direct HTTP fetches returned403; browser reads supplied complete published tables. Product year, current availability and general calendar release remain separate.",
+  "sources": [
+    {
+      "url": "https://upperdeck.com/checklist/engrained-icons-volume-i-checklist/",
+      "title": "Engrained Icons Volume I Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/engrained-icons-volume-i-checklist-facts.json.gz",
+      "factsSha256": "75dd568b9c8100c0e9f4c060140a64b2d994e98ce975dc449df206a92c8f78e4",
+      "archiveSha256": "1a5b656e9a2dc88644645a4f5ec6fee05001db57d9f543e3d832937eb4e496d2",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/engrained-icons-volume-i-checklist-table-0.html.gz",
+          "sha256": "e51d288fa64beccc4711466e7fa1e5491453ffb9f37edbb7a9fde0e81f6845b4",
+          "archiveSha256": "2ca13395151eded1b0e3ca2901b5386cc14d495514ee01c6e4964f60f915e1e2",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 2611
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/2024-2025-the-cup-checklist/",
+      "title": "2024-2025 The Cup Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/2024-2025-the-cup-checklist-facts.json.gz",
+      "factsSha256": "4752ba8944501d921d11d8e6031412a911149d48c255b07590793b9972ee8295",
+      "archiveSha256": "920740f20caf7235a6c64036ba6c04adcf41209deb67647335520eae5dc74c73",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/2024-2025-the-cup-checklist-table-0.html.gz",
+          "sha256": "7a0dfc1887d6f2db5fc490edaa3e2f1830d057f98e4ec18d53fa5948f7ee8c41",
+          "archiveSha256": "8f92601468c10a0a1a08dc660653401eff3936b508f1bcbac04973148340d6dc",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 4729
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/2025-aew-sp-game-used-checklist/",
+      "title": "2025 AEW SP Game Used Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/2025-aew-sp-game-used-checklist-facts.json.gz",
+      "factsSha256": "ffd277532e392c573cf7cabe45e1cb616e8df397a8fa46aea8ba2250abf06064",
+      "archiveSha256": "f84e7980659c62f266bb1d68f1894d6a61e0d018c51c2ad5961e76f2a284c79d",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/2025-aew-sp-game-used-checklist-table-0.html.gz",
+          "sha256": "ee8ee69857fa9468265c9d8aa0898eac6567c6174370ffd1ddd09319bebdb88c",
+          "archiveSha256": "7e7ca551580fd0d8bb117305fa6eb0291ded2ac39ddc22b3cf481613013edf60",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 2232
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/2025-2026-black-diamond-checklist/",
+      "title": "2025-2026 Black Diamond Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/2025-2026-black-diamond-checklist-facts.json.gz",
+      "factsSha256": "978ececdf1573e4d31c5966c08302261ca996ac8f3f29b8bcbcf599bf0abe0e1",
+      "archiveSha256": "3dd9592334fba8d67776a29b8407385c45e5b53ab6bc1b9084a4f90bdb2e0583",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/2025-2026-black-diamond-checklist-table-0.html.gz",
+          "sha256": "9877c62a9c25d0263e0a78862d1fd5afebe68493af2d5e456a41b449e94c5db2",
+          "archiveSha256": "eb0d514c8e7371c4aeaa08b5053dcae9b17da16bcba6ece9a41ffeea8c9c2a1d",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 2912
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/2025-western-canada-sports-collectors-convention-checklist/",
+      "title": "2025 Western Canada Sports Collectors Convention Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/2025-western-canada-sports-collectors-convention-checklist-facts.json.gz",
+      "factsSha256": "e0a43b70d8675ac4fab824aa0cc5f388149f8bd0a03f69953850b5efc87454f2",
+      "archiveSha256": "f02ccb09ab9d91fb51b8910f92aa9dbb1c92e6d755e4a2c518e8733b5299d7d9",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/2025-western-canada-sports-collectors-convention-checklist-table-0.html.gz",
+          "sha256": "54ce1d6a237a85f4abc444cd308ab0809fc5bb7b7f9fa86238f2ee966fcc101d",
+          "archiveSha256": "c1e3680fb9e02db448e351901ffce0561f7feb13b194060542120069a03e09c0",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 83
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/skybox-metal-universe-batman-checklist/",
+      "title": "Skybox Metal Universe Batman Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/skybox-metal-universe-batman-checklist-facts.json.gz",
+      "factsSha256": "202e87ef85f2751d4a911eeed4d502e9c0ce0a5a4e789e43db1feca9db08f4c9",
+      "archiveSha256": "c8c01b8403c01bd7728a20242cdd67b201fed63d13aac55604df1f683c27f617",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/skybox-metal-universe-batman-checklist-table-0.html.gz",
+          "sha256": "a2dca54182f58dee8af080c0425364036b3bc860e671d87dc1e3c48afe3094e2",
+          "archiveSha256": "fdc632a1864d4e4951d75496f07d2e3dee3ad27cd3aee51810a84d89e0b9548c",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 3427
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/2025-fall-expo-checklist/",
+      "title": "2025 Fall Expo Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/2025-fall-expo-checklist-facts.json.gz",
+      "factsSha256": "81e4ff3eb520ab12e1fa2ead69d971ed15474f66f2dc17fb1a726f9ea667c2a6",
+      "archiveSha256": "64803f57e37bad702d6332e3030ea25993b36ab9490b35a50d4d89ebd63c93d9",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/2025-fall-expo-checklist-table-0.html.gz",
+          "sha256": "d22fe8a938a4f4f796fffdebb25a8835f23b5ad560ebdb3cde6e93e058c3bc65",
+          "archiveSha256": "e081dc7cda1e5285d182717a0c1e2cda5bed73d25b6e6a3a80798264dd8209b8",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 101
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/2025-2026-detroit-red-wings-centennial-set-checklist-retail/",
+      "title": "2025-2026 Detroit Red Wings Centennial Set Checklist Retail",
+      "factsFile": "data/official-upperdeck/20261021-2200/2025-2026-detroit-red-wings-centennial-set-checklist-retail-facts.json.gz",
+      "factsSha256": "796cf3cbc4a1953e333a2c6de81c6424432ee11e4fd442c3cbc415c9722b97d2",
+      "archiveSha256": "b8df238f00f8206373dcc5ef9046423b6da289cce703138cdab181edeb136466",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/2025-2026-detroit-red-wings-centennial-set-checklist-retail-table-0.html.gz",
+          "sha256": "cb68828e981c1fdfa0ebf519467a274660fab4f4223182820176b8a5382e7079",
+          "archiveSha256": "77206adcbc48d8ede5107cdfc926a7e5b7ae5ab2254d041ea41caf5deb438d4a",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 379
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/2024-2025-ud-premier-checklist/",
+      "title": "2024-2025 UD Premier Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/2024-2025-ud-premier-checklist-facts.json.gz",
+      "factsSha256": "fb921c14589745ba45c75b885fb8b48d1f6890ed978626351592265f2f9b41a2",
+      "archiveSha256": "2ebd38257ce70c3b0f0c1c079fc0393b325c29a817a9c62a87bf6522e6823d15",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/2024-2025-ud-premier-checklist-table-0.html.gz",
+          "sha256": "42e3bcbcd03c9ca6872419a4f64772504ba34b6c772a610ef244ae82265556a9",
+          "archiveSha256": "c1b48d308c891360287f485371d04de96da3a0622a502a9c78209315eeebb633",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 3341
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/2025-2026-tim-hortons-checklist/",
+      "title": "2025-2026 Tim Horton’s Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/2025-2026-tim-hortons-checklist-facts.json.gz",
+      "factsSha256": "846ca2f2f0dea13c18cd20de9b91fa2b1c4f4cbc7630a3a53b6813ecd9857cad",
+      "archiveSha256": "089b552c7d3002f6d67887daab86fcf8a77dbaf9895d50eec7f3ef9d44788765",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/2025-2026-tim-hortons-checklist-table-0.html.gz",
+          "sha256": "f5fd524cb47926235b28fdd13b0e5c9204bb850242367a832eeaf30ee5b74b77",
+          "archiveSha256": "a077eb45ea0924016d0a4d9990375aac92018f3a2b35c81b8f823a61146d12f8",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 292
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/2025-sp-game-used-cfl-checklist/",
+      "title": "2025 SP Game Used CFL Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/2025-sp-game-used-cfl-checklist-facts.json.gz",
+      "factsSha256": "fcd8035fccafe5b4ccbd39a2665900db639263c375f7bcf77f4be6b70f3a3bd4",
+      "archiveSha256": "6f91adb27c3677e33756ed5089e0fdd8dd013db64280e32b0f98dfc60dd899ff",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/2025-sp-game-used-cfl-checklist-table-0.html.gz",
+          "sha256": "cc49744b729fc5425b05221d484a4654dc62512c5118c7e45d4ccf43855f2eba",
+          "archiveSha256": "7ba243da1e7f34ac18db005588ae59d9888b3c52a45c4914fb5ef78b89dd6dbd",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 269
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/2025-26-ud-series-1-checklist/",
+      "title": "2025-26 Upper Deck Series 1 Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/2025-26-ud-series-1-checklist-facts.json.gz",
+      "factsSha256": "09a38e4a7d8f1cd5f248741d820c4addd5b923098a48610d0883253e7e2efac4",
+      "archiveSha256": "314fdfb46060ca17f125ee70a1c2db54e7519d5874824796ec1773de116ef18d",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/2025-26-ud-series-1-checklist-table-0.html.gz",
+          "sha256": "ed3d3e4e22e0c48e74789565f8efb083c9d8304514600f4bfccc7792baf30166",
+          "archiveSha256": "62a6fc24bd932e2ee30ff0f53457d51a1ae7dc64d74599690d4d300aaef5836b",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 4776
+        }
+      ]
+    },
+    {
+      "url": "https://upperdeck.com/checklist/2024-2025-ultimate-collection-checklist/",
+      "title": "2024-2025 Ultimate Collection Checklist",
+      "factsFile": "data/official-upperdeck/20261021-2200/2024-2025-ultimate-collection-checklist-facts.json.gz",
+      "factsSha256": "c3374a0bb326ccb9ce0bab0c0583a45e92f2238cd099e0a7e7caf01bd2dc329a",
+      "archiveSha256": "f8d0afec43b6145e435de4dc71b0e6b9c307068f10422c434522bf67df7a47dc",
+      "domTables": [
+        {
+          "file": "data/official-upperdeck/20261021-2200/2024-2025-ultimate-collection-checklist-table-0.html.gz",
+          "sha256": "30bd88947fb91580b8fddc4a90ff711b5f703cc00ba2914f042d25947ece3c2e",
+          "archiveSha256": "2cf847620ac4800cc24724d3b4a1d192800aac64edf064781e5957aeffedc5d9",
+          "sourceKind": "Rendered official DOM table markup, not raw HTTP response bytes",
+          "rowsIncludingHeader": 3062
+        }
+      ]
+    }
+  ],
+  "releaseDatesVerified": false,
+  "parallelGuideAuditComplete": false
+}
