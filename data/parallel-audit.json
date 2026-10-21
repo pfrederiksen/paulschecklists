@@ -6607,6 +6607,76 @@
       "ongoingSeries": false,
       "status": "Published specifications imported; parallel numbering review remains incomplete",
       "conflicts": []
+    },
+    {
+      "slug": "panini-2025-panini-minecraft-special-edition-entertainment",
+      "title": "2025 Panini Minecraft Special Edition Entertainment",
+      "manufacturer": "Panini",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": false,
+      "ongoingSeries": false,
+      "status": "Source import pending",
+      "conflicts": []
+    },
+    {
+      "slug": "panini-2025-panini-squishmallows-entertainment",
+      "title": "2025 Panini Squishmallows Entertainment",
+      "manufacturer": "Panini",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": false,
+      "ongoingSeries": false,
+      "status": "Source import pending",
+      "conflicts": []
+    },
+    {
+      "slug": "panini-2025-panini-squishmallows-halloween-entertainment",
+      "title": "2025 Panini Squishmallows Halloween Entertainment",
+      "manufacturer": "Panini",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": false,
+      "ongoingSeries": false,
+      "status": "Source import pending",
+      "conflicts": []
+    },
+    {
+      "slug": "panini-2025-panini-ohio-state-box-set-entertainment",
+      "title": "2025 Panini Ohio State NIL",
+      "manufacturer": "Panini",
+      "source": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 68,
+      "structuredNumbering": true,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
+      "conflicts": []
+    },
+    {
+      "slug": "panini-2025-panini-texas-box-set-entertainment",
+      "title": "2025 Panini University of Texas NIL",
+      "manufacturer": "Panini",
+      "source": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html",
+      "oddsCategories": 0,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": []
     }
   ]
 }

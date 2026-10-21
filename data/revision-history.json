@@ -15801,5 +15801,142 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "panini-2025-panini-minecraft-special-edition-entertainment": {
+    "state": {
+      "checklistHash": null,
+      "oddsHash": null,
+      "rows": 0,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "events": [
+      {
+        "at": "2026-10-21T17:17:30.679Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-squishmallows-entertainment": {
+    "state": {
+      "checklistHash": null,
+      "oddsHash": null,
+      "rows": 0,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "events": [
+      {
+        "at": "2026-10-21T17:17:30.679Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-squishmallows-halloween-entertainment": {
+    "state": {
+      "checklistHash": null,
+      "oddsHash": null,
+      "rows": 0,
+      "odds": 0,
+      "specificationRows": 0
+    },
+    "fingerprint": "bd610e12173091baaaf1436bda4154256a707868f7d664ab590d2dac7d735840",
+    "events": [
+      {
+        "at": "2026-10-21T17:17:30.679Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://www.paniniamerica.net/checklist.html",
+        "snapshot": {
+          "checklistHash": null,
+          "oddsHash": null,
+          "rows": 0,
+          "odds": 0,
+          "specificationRows": 0
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-ohio-state-box-set-entertainment": {
+    "state": {
+      "checklistHash": "67f48053c0142eb44e1458dd033efaf4498058deb1ee043a9807273600c95c9b",
+      "oddsHash": null,
+      "rows": 243,
+      "odds": 0,
+      "specificationRows": 200,
+      "specificationHash": "e6bea893efd19edf1261474cea30a967d08bc03c1a50ee2f2232b3fcab7810a1"
+    },
+    "fingerprint": "e53b2aeb2d431258641f2e0cc88ec1126c21349d0c1f5ffaca7ff272813b2efe",
+    "events": [
+      {
+        "at": "2026-10-21T17:17:30.681Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "snapshot": {
+          "checklistHash": "67f48053c0142eb44e1458dd033efaf4498058deb1ee043a9807273600c95c9b",
+          "oddsHash": null,
+          "rows": 243,
+          "odds": 0,
+          "specificationRows": 200,
+          "specificationHash": "e6bea893efd19edf1261474cea30a967d08bc03c1a50ee2f2232b3fcab7810a1"
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "panini-2025-panini-texas-box-set-entertainment": {
+    "state": {
+      "checklistHash": "16c57483d56387e3806c6394f0cda743a55fb3f680319e663ef3ef8a7a3cc8df",
+      "oddsHash": null,
+      "rows": 219,
+      "odds": 0,
+      "specificationRows": 9
+    },
+    "fingerprint": "304d928fbb442f6fc71be43cbb88a20421239ec39c697a42ca42d4d4501f8a44",
+    "events": [
+      {
+        "at": "2026-10-21T17:17:30.681Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://assets.paniniamerica.net/checklist/2025%20UT%20Checklist.pdf",
+        "snapshot": {
+          "checklistHash": "16c57483d56387e3806c6394f0cda743a55fb3f680319e663ef3ef8a7a3cc8df",
+          "oddsHash": null,
+          "rows": 219,
+          "odds": 0,
+          "specificationRows": 9
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

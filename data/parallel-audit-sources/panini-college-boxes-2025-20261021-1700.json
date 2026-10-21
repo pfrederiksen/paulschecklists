@@ -1,0 +1,685 @@
+{
+  "observed": "2026-10-21",
+  "sourceObservation": {
+    "file": "data/official-panini/college-boxes-pdf-observations-20261021-1700.json",
+    "sha256": "41078e0af4b46688e4548cb34d4d0044207d85f697d3283d64b4d8a3a934bbc1",
+    "source": "Official product-linked PDF"
+  },
+  "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+  "review": "Every literal Ohio guide term reconciled against the physical PDF; only unambiguous printed # to digits become structured limits. Exact printed families retained. Autograph eligibility by individual subject remains unverified; no pack odds inferred. Texas SP/SSP marks and box averages supply no numeric ladder.",
+  "literalGuideRows": [
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Red, White & Blue - Retail Exclusive",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Panini - Hobby Exclusive",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Donuts - Retail Exclusive",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Diamond Plate - Hobby Exclusive",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Swirl (# to 199)",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Lightning Spokes (# to 99)",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Red (# to 50)",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Blue (# to 25)",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Gold (# to 10)",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Green (# to 5)",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Black (# to 1)",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Autograph Swirl (# to 199)",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Autograph Lightning Spokes Pink (# to 99)",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Autograph Purple (# to 50)",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Autograph Cracked Ice (# to 25)",
+      "page": 1
+    },
+    {
+      "family": "College Contenders",
+      "literal": "College Contenders Autograph Black (# to 1)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Red, White & Blue - Retail Exclusive",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Panini - Hobby Exclusive",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Donuts - Retail Exclusive",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Diamond Plate - Hobby Exclusive",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Swirl (# to 199)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Lightning Spokes (# to 99)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Red (# to 50)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Blue (# to 25)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Gold (# to 10)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Green (# to 5)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Black (# to 1)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Autograph Swirl (# to 199)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Autograph Lightning Spokes Pink (# to 99)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Autograph Purple (# to 50)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Autograph Cracked Ice (# to 25)",
+      "page": 1
+    },
+    {
+      "family": "Legendary Contenders",
+      "literal": "Legendary Contenders Autograph Black (# to 1)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Red, White & Blue - Retail Exclusive",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Panini - Hobby Exclusive",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Donuts - Retail Exclusive",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Diamond Plate - Hobby Exclusive",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Swirl (# to 199)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Lightning Spokes (# to 99)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Red (# to 50)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Blue (# to 25)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Gold (# to 10)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Green (# to 5)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Black (# to 1)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Autograph Swirl (# to 199)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Autograph Lightning Spokes Pink (# to 99)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Autograph Purple (# to 50)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Autograph Cracked Ice (# to 25)",
+      "page": 1
+    },
+    {
+      "family": "School Colors",
+      "literal": "School Colors Autograph Black (# to 1)",
+      "page": 1
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Red, White & Blue - Retail Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Panini - Hobby Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Donuts - Retail Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Diamond Plate - Hobby Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Swirl (# to 199)",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Lightning Spokes (# to 99)",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Red (# to 50)",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Blue (# to 25)",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Gold (# to 10)",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Green (# to 5)",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Black (# to 1)",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Autograph Swirl (# to 199)",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Autograph Lightning Spokes Pink (# to 99)",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Autograph Purple (# to 50)",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Autograph Cracked Ice (# to 25)",
+      "page": 2
+    },
+    {
+      "family": "Campus Legends",
+      "literal": "Campus Legends Autograph Black (# to 1)",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Holo",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Camo - Hobby Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Neon Green - Retail Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Silver White Sparkles",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Silver Vinyl (# to 25)",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Gold (# to 10)",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Black Vinyl (# to 1)",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Autograph (# to None/250)",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Camo Autograph (# to None/100) - Hobby Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Neon Green Autograph (# to None/10) - Retail Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Gold Vinyl Autograph (# to 1)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Holo",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Camo - Hobby Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Neon Green - Retail Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Silver White Sparkles",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Silver Vinyl (# to 25)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Gold (# to 10)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Black Vinyl (# to 1)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Autograph (# to None/250)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Camo Autograph (# to None/100) - Hobby Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Neon Green Autograph (# to None/10) - Retail Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Gold Vinyl Autograph (# to 1)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Holo",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Camo - Hobby Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Neon Green - Retail Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Silver White Sparkles",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Silver Vinyl (# to 25)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Gold (# to 10)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Black Vinyl (# to 1)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Autograph (# to None/250)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Camo Autograph (# to None/100) - Hobby Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Neon Green Autograph (# to None/10) - Retail Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Gold Vinyl Autograph (# to 1)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Holo",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Camo - Hobby Exclusive",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Neon Green - Retail Exclusive",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Silver White Sparkles",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Silver Vinyl (# to 25)",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Gold (# to 10)",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Black Vinyl (# to 1)",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Autograph (# to None/250)",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Camo Autograph (# to None/100) - Hobby Exclusive",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Neon Green Autograph (# to None/10) - Retail Exclusive",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Gold Vinyl Autograph (# to 1)",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Holo",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Camo - Hobby Exclusive",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Neon Green - Retail Exclusive",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Silver White Sparkles",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Silver Vinyl (# to 25)",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Gold (# to 10)",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Black Vinyl (# to 1)",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Autograph (# to None/250)",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Camo Autograph (# to None/100) - Hobby Exclusive",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Neon Green Autograph (# to None/10) - Retail Exclusive",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Gold Vinyl Autograph (# to 1)",
+      "page": 3
+    }
+  ],
+  "unresolvedNumbering": [
+    {
+      "family": "Prizm",
+      "literal": "Prizm Autograph (# to None/250)",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Camo Autograph (# to None/100) - Hobby Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm",
+      "literal": "Prizm Neon Green Autograph (# to None/10) - Retail Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Autograph (# to None/250)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Camo Autograph (# to None/100) - Hobby Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Student Orientation",
+      "literal": "Prizm Student Orientation Neon Green Autograph (# to None/10) - Retail Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Autograph (# to None/250)",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Camo Autograph (# to None/100) - Hobby Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fearless",
+      "literal": "Prizm Fearless Neon Green Autograph (# to None/10) - Retail Exclusive",
+      "page": 2
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Autograph (# to None/250)",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Camo Autograph (# to None/100) - Hobby Exclusive",
+      "page": 3
+    },
+    {
+      "family": "Prizm Fireworks",
+      "literal": "Prizm Fireworks Neon Green Autograph (# to None/10) - Retail Exclusive",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Autograph (# to None/250)",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Camo Autograph (# to None/100) - Hobby Exclusive",
+      "page": 3
+    },
+    {
+      "family": "Prizm Trophy Hunting",
+      "literal": "Prizm Trophy Hunting Neon Green Autograph (# to None/10) - Retail Exclusive",
+      "page": 3
+    }
+  ],
+  "exhaustiveParallelEligibilityComplete": false
+}

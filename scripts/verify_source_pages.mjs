@@ -8,6 +8,15 @@ const cases=['pdf','html','wildcard','xlsx','panini-pdf'].map(kind=>catalog.sets
 for(const set of catalog.sets.filter(s=>s.oddsParser))if(!cases.some(c=>c.slug===set.slug))cases.push(set);
 for(const set of cases){
  const kind=set.importKind;
+ if(!set.tableData){
+  assert.equal(kind,'panini-source-only','A dedicated populated parser must configure a readable source table');
+  assert.equal(set.coverageComplete,false);assert.equal(set.rosterPublished,false);
+  const html=await readFile(set.page,'utf8');
+  assert(html.includes('Source-only:')&&html.includes('Card import pending'));
+  assert(!html.includes('data-table='),'A placeholder export must not become a searchable card table');
+  for(const id of ['source-search','source-section','source-team','source-format','source-rookie','source-sort','source-export','source-reset'])assert(new RegExp(`<[^>]+disabled[^>]+id="${id}"`).test(html),`${set.slug}: unavailable ${id} stays disabled in place`);
+  continue;
+ }
  const data=JSON.parse(await readFile(set.tableData,'utf8'));
  if(set.slug==='wild-card-2026-wild-card-slimgem-variety-pack'){
   assert.deepEqual(data.rows,Object.entries(data.officialStructure.rosters).flatMap(([key,names])=>names.map(name=>[key,name,''])));

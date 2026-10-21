@@ -1,0 +1,839 @@
+{
+  "observed": "2026-10-21",
+  "sourceKind": "official-product-linked-pdf",
+  "method": "Fresh official product-page links, original PDF fetches and physical text parsing; rendered first pages checked visually. Four-column Texas text preserves source order and repeated captions; Ohio retains original single-column rows, literal numbering/qualifiers and multi-signer continuations. No OCR-derived facts.",
+  "sources": [
+    {
+      "key": "texas",
+      "url": "https://assets.paniniamerica.net/checklist/2025%20UT%20Checklist.pdf",
+      "file": "data/official-panini/panini-2025-panini-texas-box-set-entertainment.pdf",
+      "sha256": "16c57483d56387e3806c6394f0cda743a55fb3f680319e663ef3ef8a7a3cc8df",
+      "bytes": 621234,
+      "rows": 219,
+      "families": 16,
+      "productPage": {
+        "links": [
+          {
+            "title": "TRADING CARDS",
+            "url": "https://www.paniniamerica.net/cards.html"
+          },
+          {
+            "title": "VIEW ALL",
+            "url": "https://www.paniniamerica.net/cards/view-all.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+          },
+          {
+            "title": "Download checklist here",
+            "url": "https://assets.paniniamerica.net/checklist/2025%20UT%20Checklist.pdf"
+          }
+        ],
+        "text": "TRADING CARDS\nVIEW ALL\nSHARE\n2025 Panini University of Texas NIL Trading Card Box (Hobby)\n\nSKU: 2-19736-20\n\nPRICE\n\n$100.00\n\n1\n\nLIMITED TO 20 QTY PER TRANSACTION\n\nAdd to cart\n\nCONFIGURATION\n\nLOOK FOR\n2 Autographs\n1 Prizm Camo\n1 Diamond Plate\n2 Panini Parallels\nper box, on average!\n6\n\nCARDS\n\nPER PACK\n\n6\n\nPACKS\n\nPER BOX\n\n20\n\nBOXES\n\nPER CASE\n\n*PRODUCT WILL SHIP IN THE CASE FORM FOR ORDERS CONTAINING 20 BOXES. ORDERS WILL NOT BE COMBINED.\n\nKEY ATHLETES\n\nSHIPPING & RETURNS\n\nPRODUCT DETAILS\n\n• Includes current student athletes of Men’s and Women’s sports programs. Also included are key Legends!\n• Pull unique Panini Prizm inserts such as Prizm Fearless, Prizm Fireworks and Prizm Student Orientation.\n• Look for colorful Parallels throughout the product.\n• Look for super-tough and scintillating SSP inserts such as Color Blast and On Campus. The SSP inserts Profiles and the ALL NEW Thunder can be found exclusive to Hobby. Also look for TWO randomly inserted autographs per box.\n• Look for the Super Short Print On Campus and Color Blast inserts!\n\nDownload checklist here\n\nAll information is accurate at the time of posting - content is subject to change.*\n\nRELATED PRODUCTS\n2025 Panini University of Texas NIL Trading Card Box (Blaster)\n\n2025 PANINI UNIVERSITY OF TEXAS NIL TRADING CARD BOX (BLASTER)\n\nPRICE\n\n$30.00\n\nAdd to cart\n2024-25 Panini University of Connecticut Collegiate Basketball Trading Card Box (Blaster)\n\n2024-25 PANINI UNIVERSITY OF CONNECTICUT COLLEGIATE BASKETBALL TRADING CARD BOX (BLASTER)\n\nPRICE\n\n$30.00\n\nAdd to cart\n2024 Panini Herky on Parade - 20th Anniversary Blaster Box\n\n2024 PANINI HERKY ON PARADE - 20TH ANNIVERSARY BLASTER BOX\n\nPRICE\n\n$29.99\n\nAdd to cart",
+        "url": "https://www.paniniamerica.net/2025-panini-university-of-texas-nil-trading-card-box-hobby.html"
+      },
+      "guideRows": [],
+      "notes": []
+    },
+    {
+      "key": "ohio",
+      "url": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+      "file": "data/official-panini/panini-2025-panini-ohio-state-box-set-entertainment.pdf",
+      "sha256": "67f48053c0142eb44e1458dd033efaf4498058deb1ee043a9807273600c95c9b",
+      "bytes": 97816,
+      "rows": 243,
+      "families": 16,
+      "productPage": {
+        "links": [
+          {
+            "title": "NIL",
+            "url": "https://www.paniniamerica.net/nil.html"
+          },
+          {
+            "title": "UNIVERSITY",
+            "url": "https://www.paniniamerica.net/nil/university.html"
+          },
+          {
+            "title": "OHIO STATE BUCKEYES",
+            "url": "https://www.paniniamerica.net/nil/university/ohio-state-buckeyes.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "",
+            "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+          },
+          {
+            "title": "Download Checklist here",
+            "url": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf"
+          }
+        ],
+        "text": "NIL\nUNIVERSITY\nOHIO STATE BUCKEYES\nSHARE\n2024-25 Panini The Ohio State University NIL Trading Card Box (Blaster)\n\nSKU: 2-19705-20\n\nPRICE\n\n$30.00\n\n1\n\nLIMITED TO 20 QTY PER TRANSACTION\n\nAdd to cart\n\nCONFIGURATION\n\nLOOK FOR\n3 Blaster Exclusive Parallels\nper box, on average!\n4\n\nCARDS\n\nPER PACK\n\n6\n\nPACKS\n\nPER BOX\n\n20\n\nBOXES\n\nPER CASE\n\n*PRODUCT WILL SHIP IN THE CASE FORM FOR ORDERS CONTAINING 20 BOXES. ORDERS WILL NOT BE COMBINED.\n\nSHIPPING & RETURNS\n\nPRODUCT DETAILS\n\n• Includes current student athletes of Men’s and Women’s sports programs. Also included are key Legends!\n• Pull unique Panini Prizm inserts such as Prizm Fearless, Prizm Fireworks and Prizm Student Orientation.\n• Look for colorful Parallels throughout the product. Also including Red, White, and Blue, Donuts, and Neon Green parallels exclusive to Retail Blasters!\n• Randomly Inserted Autographs!\n• Look for the Super Short Print On Campus and Color Blast inserts!\n\nDownload Checklist here\n\nAll information is accurate at the time of posting - content is subject to change.*",
+        "url": "https://www.paniniamerica.net/2025-26-panini-ohio-state-university-nil-trading-card-box-blaster.html"
+      },
+      "guideRows": [
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Red, White & Blue - Retail Exclusive",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Panini - Hobby Exclusive",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Donuts - Retail Exclusive",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Diamond Plate - Hobby Exclusive",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Swirl (# to 199)",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Lightning Spokes (# to 99)",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Red (# to 50)",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Blue (# to 25)",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Gold (# to 10)",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Green (# to 5)",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Black (# to 1)",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Autograph Swirl (# to 199)",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Autograph Lightning Spokes Pink (# to 99)",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Autograph Purple (# to 50)",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Autograph Cracked Ice (# to 25)",
+          "page": 1
+        },
+        {
+          "family": "College Contenders",
+          "literal": "College Contenders Autograph Black (# to 1)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Red, White & Blue - Retail Exclusive",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Panini - Hobby Exclusive",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Donuts - Retail Exclusive",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Diamond Plate - Hobby Exclusive",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Swirl (# to 199)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Lightning Spokes (# to 99)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Red (# to 50)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Blue (# to 25)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Gold (# to 10)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Green (# to 5)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Black (# to 1)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Autograph Swirl (# to 199)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Autograph Lightning Spokes Pink (# to 99)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Autograph Purple (# to 50)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Autograph Cracked Ice (# to 25)",
+          "page": 1
+        },
+        {
+          "family": "Legendary Contenders",
+          "literal": "Legendary Contenders Autograph Black (# to 1)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Red, White & Blue - Retail Exclusive",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Panini - Hobby Exclusive",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Donuts - Retail Exclusive",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Diamond Plate - Hobby Exclusive",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Swirl (# to 199)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Lightning Spokes (# to 99)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Red (# to 50)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Blue (# to 25)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Gold (# to 10)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Green (# to 5)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Black (# to 1)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Autograph Swirl (# to 199)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Autograph Lightning Spokes Pink (# to 99)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Autograph Purple (# to 50)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Autograph Cracked Ice (# to 25)",
+          "page": 1
+        },
+        {
+          "family": "School Colors",
+          "literal": "School Colors Autograph Black (# to 1)",
+          "page": 1
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Red, White & Blue - Retail Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Panini - Hobby Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Donuts - Retail Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Diamond Plate - Hobby Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Swirl (# to 199)",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Lightning Spokes (# to 99)",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Red (# to 50)",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Blue (# to 25)",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Gold (# to 10)",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Green (# to 5)",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Black (# to 1)",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Autograph Swirl (# to 199)",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Autograph Lightning Spokes Pink (# to 99)",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Autograph Purple (# to 50)",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Autograph Cracked Ice (# to 25)",
+          "page": 2
+        },
+        {
+          "family": "Campus Legends",
+          "literal": "Campus Legends Autograph Black (# to 1)",
+          "page": 2
+        },
+        {
+          "family": "Prizm",
+          "literal": "Prizm Holo",
+          "page": 2
+        },
+        {
+          "family": "Prizm",
+          "literal": "Prizm Camo - Hobby Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm",
+          "literal": "Prizm Neon Green - Retail Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm",
+          "literal": "Prizm Silver White Sparkles",
+          "page": 2
+        },
+        {
+          "family": "Prizm",
+          "literal": "Prizm Silver Vinyl (# to 25)",
+          "page": 2
+        },
+        {
+          "family": "Prizm",
+          "literal": "Prizm Gold (# to 10)",
+          "page": 2
+        },
+        {
+          "family": "Prizm",
+          "literal": "Prizm Black Vinyl (# to 1)",
+          "page": 2
+        },
+        {
+          "family": "Prizm",
+          "literal": "Prizm Autograph (# to None/250)",
+          "page": 2
+        },
+        {
+          "family": "Prizm",
+          "literal": "Prizm Camo Autograph (# to None/100) - Hobby Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm",
+          "literal": "Prizm Neon Green Autograph (# to None/10) - Retail Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm",
+          "literal": "Prizm Gold Vinyl Autograph (# to 1)",
+          "page": 2
+        },
+        {
+          "family": "Prizm Student Orientation",
+          "literal": "Prizm Student Orientation Holo",
+          "page": 2
+        },
+        {
+          "family": "Prizm Student Orientation",
+          "literal": "Prizm Student Orientation Camo - Hobby Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm Student Orientation",
+          "literal": "Prizm Student Orientation Neon Green - Retail Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm Student Orientation",
+          "literal": "Prizm Student Orientation Silver White Sparkles",
+          "page": 2
+        },
+        {
+          "family": "Prizm Student Orientation",
+          "literal": "Prizm Student Orientation Silver Vinyl (# to 25)",
+          "page": 2
+        },
+        {
+          "family": "Prizm Student Orientation",
+          "literal": "Prizm Student Orientation Gold (# to 10)",
+          "page": 2
+        },
+        {
+          "family": "Prizm Student Orientation",
+          "literal": "Prizm Student Orientation Black Vinyl (# to 1)",
+          "page": 2
+        },
+        {
+          "family": "Prizm Student Orientation",
+          "literal": "Prizm Student Orientation Autograph (# to None/250)",
+          "page": 2
+        },
+        {
+          "family": "Prizm Student Orientation",
+          "literal": "Prizm Student Orientation Camo Autograph (# to None/100) - Hobby Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm Student Orientation",
+          "literal": "Prizm Student Orientation Neon Green Autograph (# to None/10) - Retail Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm Student Orientation",
+          "literal": "Prizm Student Orientation Gold Vinyl Autograph (# to 1)",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fearless",
+          "literal": "Prizm Fearless Holo",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fearless",
+          "literal": "Prizm Fearless Camo - Hobby Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fearless",
+          "literal": "Prizm Fearless Neon Green - Retail Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fearless",
+          "literal": "Prizm Fearless Silver White Sparkles",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fearless",
+          "literal": "Prizm Fearless Silver Vinyl (# to 25)",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fearless",
+          "literal": "Prizm Fearless Gold (# to 10)",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fearless",
+          "literal": "Prizm Fearless Black Vinyl (# to 1)",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fearless",
+          "literal": "Prizm Fearless Autograph (# to None/250)",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fearless",
+          "literal": "Prizm Fearless Camo Autograph (# to None/100) - Hobby Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fearless",
+          "literal": "Prizm Fearless Neon Green Autograph (# to None/10) - Retail Exclusive",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fearless",
+          "literal": "Prizm Fearless Gold Vinyl Autograph (# to 1)",
+          "page": 2
+        },
+        {
+          "family": "Prizm Fireworks",
+          "literal": "Prizm Fireworks Holo",
+          "page": 3
+        },
+        {
+          "family": "Prizm Fireworks",
+          "literal": "Prizm Fireworks Camo - Hobby Exclusive",
+          "page": 3
+        },
+        {
+          "family": "Prizm Fireworks",
+          "literal": "Prizm Fireworks Neon Green - Retail Exclusive",
+          "page": 3
+        },
+        {
+          "family": "Prizm Fireworks",
+          "literal": "Prizm Fireworks Silver White Sparkles",
+          "page": 3
+        },
+        {
+          "family": "Prizm Fireworks",
+          "literal": "Prizm Fireworks Silver Vinyl (# to 25)",
+          "page": 3
+        },
+        {
+          "family": "Prizm Fireworks",
+          "literal": "Prizm Fireworks Gold (# to 10)",
+          "page": 3
+        },
+        {
+          "family": "Prizm Fireworks",
+          "literal": "Prizm Fireworks Black Vinyl (# to 1)",
+          "page": 3
+        },
+        {
+          "family": "Prizm Fireworks",
+          "literal": "Prizm Fireworks Autograph (# to None/250)",
+          "page": 3
+        },
+        {
+          "family": "Prizm Fireworks",
+          "literal": "Prizm Fireworks Camo Autograph (# to None/100) - Hobby Exclusive",
+          "page": 3
+        },
+        {
+          "family": "Prizm Fireworks",
+          "literal": "Prizm Fireworks Neon Green Autograph (# to None/10) - Retail Exclusive",
+          "page": 3
+        },
+        {
+          "family": "Prizm Fireworks",
+          "literal": "Prizm Fireworks Gold Vinyl Autograph (# to 1)",
+          "page": 3
+        },
+        {
+          "family": "Prizm Trophy Hunting",
+          "literal": "Prizm Trophy Hunting Holo",
+          "page": 3
+        },
+        {
+          "family": "Prizm Trophy Hunting",
+          "literal": "Prizm Trophy Hunting Camo - Hobby Exclusive",
+          "page": 3
+        },
+        {
+          "family": "Prizm Trophy Hunting",
+          "literal": "Prizm Trophy Hunting Neon Green - Retail Exclusive",
+          "page": 3
+        },
+        {
+          "family": "Prizm Trophy Hunting",
+          "literal": "Prizm Trophy Hunting Silver White Sparkles",
+          "page": 3
+        },
+        {
+          "family": "Prizm Trophy Hunting",
+          "literal": "Prizm Trophy Hunting Silver Vinyl (# to 25)",
+          "page": 3
+        },
+        {
+          "family": "Prizm Trophy Hunting",
+          "literal": "Prizm Trophy Hunting Gold (# to 10)",
+          "page": 3
+        },
+        {
+          "family": "Prizm Trophy Hunting",
+          "literal": "Prizm Trophy Hunting Black Vinyl (# to 1)",
+          "page": 3
+        },
+        {
+          "family": "Prizm Trophy Hunting",
+          "literal": "Prizm Trophy Hunting Autograph (# to None/250)",
+          "page": 3
+        },
+        {
+          "family": "Prizm Trophy Hunting",
+          "literal": "Prizm Trophy Hunting Camo Autograph (# to None/100) - Hobby Exclusive",
+          "page": 3
+        },
+        {
+          "family": "Prizm Trophy Hunting",
+          "literal": "Prizm Trophy Hunting Neon Green Autograph (# to None/10) - Retail Exclusive",
+          "page": 3
+        },
+        {
+          "family": "Prizm Trophy Hunting",
+          "literal": "Prizm Trophy Hunting Gold Vinyl Autograph (# to 1)",
+          "page": 3
+        }
+      ],
+      "notes": [
+        {
+          "page": 4,
+          "text": "0",
+          "qualification": "Standalone printed source value without card number or subject; no card identity inferred."
+        }
+      ]
+    }
+  ]
+}

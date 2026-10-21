@@ -1,0 +1,39 @@
+{
+  "observed": "2026-10-21",
+  "source": "https://blog.paniniamerica.net/panini-america-launches-the-first-ever-ohio-state-trading-card-box-set/",
+  "sourceKind": "normalized-official-factual-excerpt",
+  "method": "Direct official article read; normalized factual snapshot, not raw HTML hash. No cards or card eligibility reconstructed from named athlete examples.",
+  "facts": [
+    [
+      "Announcement date",
+      "August 26, 2025",
+      "Publication, not a general release date"
+    ],
+    [
+      "Stadium sale availability",
+      "August 30, 2025",
+      "Ohio Stadium only; regional sale evidence, not a general release date"
+    ],
+    [
+      "Hobby cards per pack",
+      "6",
+      "Original unit"
+    ],
+    [
+      "Hobby packs per box",
+      "6",
+      "Original unit"
+    ],
+    [
+      "Hobby autographs per box",
+      "2",
+      "Published box distribution; not numeric pack odds"
+    ],
+    [
+      "Product description",
+      "Nearly 250 trading cards across multiple university sports",
+      "Guide count, not a reconstructed numbered roster"
+    ]
+  ],
+  "factsSha256": "f8289e592c90a461e50985e8c8e2693fdd8bb5b4ef7d7bfb512bf6252b9bf2e2"
+}

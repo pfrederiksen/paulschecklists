@@ -1,6 +1,7 @@
 """Import untouched CSV exports downloaded through Panini's official checklist UI."""
 import csv, hashlib, json, re, shutil, sys
 from pathlib import Path
+from import_panini_pending import export_state
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE='https://www.paniniamerica.net/checklist.html'
 catalog_path=ROOT/'data/set-catalog.json'
@@ -12,6 +13,8 @@ for filename in sys.argv[1:]:
  source=Path(filename);raw=source.read_bytes()
  reader=csv.reader(raw.decode('utf-8-sig').splitlines());headers=next(reader);original=list(reader)
  assert headers==['SPORT','YEAR','BRAND','PROGRAM','CARD SET','ATHLETE','TEAM','POSITION','CARD NUMBER','SEQUENCE']
+ if export_state(headers,original)!='populated':
+  raise ValueError('Unpopulated official export: retain source-only evidence with scripts/import_panini_pending.py')
  assert original and all(len(row)==len(headers) for row in original)
  sport,year,brand,program=original[0][:4]
  assert all(row[:4]==[sport,year,brand,program] for row in original)
@@ -66,6 +69,12 @@ for filename in sys.argv[1:]:
   elif prior.get('priorSourceOnlyEvidence'):
    record['priorSourceOnlyEvidence']=prior['priorSourceOnlyEvidence']
    payload['priorSourceOnlyEvidence']=prior['priorSourceOnlyEvidence']
+ if prior and prior.get('importKind')=='panini-source-only':
+  payload['priorSourceOnlyEvidence']={k:prior[k] for k in ['sourceExport','sha256','sourceObservation','checklistFirstObserved']}
+  record['priorSourceOnlyEvidence']=payload['priorSourceOnlyEvidence']
+ elif prior and prior.get('priorSourceOnlyEvidence'):
+  payload['priorSourceOnlyEvidence']=prior['priorSourceOnlyEvidence']
+  record['priorSourceOnlyEvidence']=prior['priorSourceOnlyEvidence']
  if observation and observation.get('guideReview'):
   from panini_guide_context import apply_context
   apply_context(record,payload,observation['guideReview'])

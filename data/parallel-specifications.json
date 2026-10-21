@@ -10312,6 +10312,688 @@
         "evidenceFile": "data/parallel-audit-sources/flagship-football-london-2026-20261020.json",
         "evidenceSha256": "f5505a56e05306d4fc8deae6407c7c6616b033cebaafa069538c519950a87971"
       }
+    ],
+    "panini-2025-panini-ohio-state-box-set-entertainment": [
+      {
+        "family": "College Contenders",
+        "name": "Swirl",
+        "numbering": "# to 199",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Swirl (# to 199)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "College Contenders",
+        "name": "Lightning Spokes",
+        "numbering": "# to 99",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Lightning Spokes (# to 99)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "College Contenders",
+        "name": "Red",
+        "numbering": "# to 50",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Red (# to 50)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "College Contenders",
+        "name": "Blue",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Blue (# to 25)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "College Contenders",
+        "name": "Gold",
+        "numbering": "# to 10",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Gold (# to 10)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "College Contenders",
+        "name": "Green",
+        "numbering": "# to 5",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Green (# to 5)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "College Contenders",
+        "name": "Black",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Black (# to 1)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "College Contenders",
+        "name": "Autograph Swirl",
+        "numbering": "# to 199",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Autograph Swirl (# to 199)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "College Contenders",
+        "name": "Autograph Lightning Spokes Pink",
+        "numbering": "# to 99",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Autograph Lightning Spokes Pink (# to 99)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "College Contenders",
+        "name": "Autograph Purple",
+        "numbering": "# to 50",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Autograph Purple (# to 50)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "College Contenders",
+        "name": "Autograph Cracked Ice",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Autograph Cracked Ice (# to 25)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "College Contenders",
+        "name": "Autograph Black",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: College Contenders Autograph Black (# to 1)",
+        "sourceHeading": "College Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Swirl",
+        "numbering": "# to 199",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Swirl (# to 199)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Lightning Spokes",
+        "numbering": "# to 99",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Lightning Spokes (# to 99)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Red",
+        "numbering": "# to 50",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Red (# to 50)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Blue",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Blue (# to 25)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Gold",
+        "numbering": "# to 10",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Gold (# to 10)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Green",
+        "numbering": "# to 5",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Green (# to 5)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Black",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Black (# to 1)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Autograph Swirl",
+        "numbering": "# to 199",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Autograph Swirl (# to 199)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Autograph Lightning Spokes Pink",
+        "numbering": "# to 99",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Autograph Lightning Spokes Pink (# to 99)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Autograph Purple",
+        "numbering": "# to 50",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Autograph Purple (# to 50)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Autograph Cracked Ice",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Autograph Cracked Ice (# to 25)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Legendary Contenders",
+        "name": "Autograph Black",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Legendary Contenders Autograph Black (# to 1)",
+        "sourceHeading": "Legendary Contenders",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Swirl",
+        "numbering": "# to 199",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Swirl (# to 199)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Lightning Spokes",
+        "numbering": "# to 99",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Lightning Spokes (# to 99)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Red",
+        "numbering": "# to 50",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Red (# to 50)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Blue",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Blue (# to 25)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Gold",
+        "numbering": "# to 10",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Gold (# to 10)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Green",
+        "numbering": "# to 5",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Green (# to 5)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Black",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Black (# to 1)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Autograph Swirl",
+        "numbering": "# to 199",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Autograph Swirl (# to 199)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Autograph Lightning Spokes Pink",
+        "numbering": "# to 99",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Autograph Lightning Spokes Pink (# to 99)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Autograph Purple",
+        "numbering": "# to 50",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Autograph Purple (# to 50)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Autograph Cracked Ice",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Autograph Cracked Ice (# to 25)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "School Colors",
+        "name": "Autograph Black",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: School Colors Autograph Black (# to 1)",
+        "sourceHeading": "School Colors",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Swirl",
+        "numbering": "# to 199",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Swirl (# to 199)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Lightning Spokes",
+        "numbering": "# to 99",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Lightning Spokes (# to 99)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Red",
+        "numbering": "# to 50",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Red (# to 50)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Blue",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Blue (# to 25)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Gold",
+        "numbering": "# to 10",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Gold (# to 10)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Green",
+        "numbering": "# to 5",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Green (# to 5)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Black",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Black (# to 1)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Autograph Swirl",
+        "numbering": "# to 199",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Autograph Swirl (# to 199)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Autograph Lightning Spokes Pink",
+        "numbering": "# to 99",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Autograph Lightning Spokes Pink (# to 99)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Autograph Purple",
+        "numbering": "# to 50",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Autograph Purple (# to 50)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Autograph Cracked Ice",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Autograph Cracked Ice (# to 25)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Campus Legends",
+        "name": "Autograph Black",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Campus Legends Autograph Black (# to 1)",
+        "sourceHeading": "Campus Legends",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm",
+        "name": "Silver Vinyl",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Silver Vinyl (# to 25)",
+        "sourceHeading": "Prizm",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm",
+        "name": "Gold",
+        "numbering": "# to 10",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Gold (# to 10)",
+        "sourceHeading": "Prizm",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm",
+        "name": "Black Vinyl",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Black Vinyl (# to 1)",
+        "sourceHeading": "Prizm",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm",
+        "name": "Gold Vinyl Autograph",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Gold Vinyl Autograph (# to 1)",
+        "sourceHeading": "Prizm",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Student Orientation",
+        "name": "Silver Vinyl",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Student Orientation Silver Vinyl (# to 25)",
+        "sourceHeading": "Prizm Student Orientation",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Student Orientation",
+        "name": "Gold",
+        "numbering": "# to 10",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Student Orientation Gold (# to 10)",
+        "sourceHeading": "Prizm Student Orientation",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Student Orientation",
+        "name": "Black Vinyl",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Student Orientation Black Vinyl (# to 1)",
+        "sourceHeading": "Prizm Student Orientation",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Student Orientation",
+        "name": "Gold Vinyl Autograph",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Student Orientation Gold Vinyl Autograph (# to 1)",
+        "sourceHeading": "Prizm Student Orientation",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Fearless",
+        "name": "Silver Vinyl",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Fearless Silver Vinyl (# to 25)",
+        "sourceHeading": "Prizm Fearless",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Fearless",
+        "name": "Gold",
+        "numbering": "# to 10",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Fearless Gold (# to 10)",
+        "sourceHeading": "Prizm Fearless",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Fearless",
+        "name": "Black Vinyl",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Fearless Black Vinyl (# to 1)",
+        "sourceHeading": "Prizm Fearless",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Fearless",
+        "name": "Gold Vinyl Autograph",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Fearless Gold Vinyl Autograph (# to 1)",
+        "sourceHeading": "Prizm Fearless",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Fireworks",
+        "name": "Silver Vinyl",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Fireworks Silver Vinyl (# to 25)",
+        "sourceHeading": "Prizm Fireworks",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Fireworks",
+        "name": "Gold",
+        "numbering": "# to 10",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Fireworks Gold (# to 10)",
+        "sourceHeading": "Prizm Fireworks",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Fireworks",
+        "name": "Black Vinyl",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Fireworks Black Vinyl (# to 1)",
+        "sourceHeading": "Prizm Fireworks",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Fireworks",
+        "name": "Gold Vinyl Autograph",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Fireworks Gold Vinyl Autograph (# to 1)",
+        "sourceHeading": "Prizm Fireworks",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Trophy Hunting",
+        "name": "Silver Vinyl",
+        "numbering": "# to 25",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Trophy Hunting Silver Vinyl (# to 25)",
+        "sourceHeading": "Prizm Trophy Hunting",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Trophy Hunting",
+        "name": "Gold",
+        "numbering": "# to 10",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Trophy Hunting Gold (# to 10)",
+        "sourceHeading": "Prizm Trophy Hunting",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Trophy Hunting",
+        "name": "Black Vinyl",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Trophy Hunting Black Vinyl (# to 1)",
+        "sourceHeading": "Prizm Trophy Hunting",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      },
+      {
+        "family": "Prizm Trophy Hunting",
+        "name": "Gold Vinyl Autograph",
+        "numbering": "# to 1",
+        "qualification": "Named family only; individual-card autograph/parallel eligibility not inferred. Format not stated. Original printed term: Prizm Trophy Hunting Gold Vinyl Autograph (# to 1)",
+        "sourceHeading": "Prizm Trophy Hunting",
+        "source": "https://assets.paniniamerica.net/checklist/2/0/2025_ohio_state_media_checklist.pdf",
+        "evidenceFile": "data/parallel-audit-sources/panini-college-boxes-2025-20261021-1700.json",
+        "evidenceSha256": "3de40a38e1e36ada57d4b874618054c75e89f394b0e71e802bcda42750dee122"
+      }
     ]
   },
   "conflicts": [
