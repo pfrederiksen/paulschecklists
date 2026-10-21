@@ -1,0 +1,205 @@
+{
+  "observed": "2026-10-21",
+  "checkedUtc": "2026-10-21T01:41:28.408385+00:00",
+  "sourceKind": "official-browser-csv-export",
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "sourceSelection": {
+    "sport": "Football",
+    "year": "2026",
+    "brand": "Panini",
+    "program": "Obsidian"
+  },
+  "method": "Fresh official selector choices and Download Full Checklist click. Decoded the data:attachment/csv DOM payload without modifying cells. Compared every row against the retained primary CSV; only literal multi-subject order differs, with each athlete/team/position tuple kept aligned. Original primary cells remain imported and the fresh alternate bytes remain retained.",
+  "retainedCsv": "data/official-panini/panini-2026-panini-obsidian-football.csv",
+  "retainedSha256": "b1d42a7e45e641a279b7b63898f6cecdd2705f68b0b64463ad4f96f79c52558b",
+  "alternateExport": {
+    "file": "data/official-panini/alternates/panini-2026-panini-obsidian-football-adfce6917acc.csv",
+    "sha256": "adfce6917acc812d9cf1f7f4936a552529d493f0ccb8f53c24ffcf9a29d190e8",
+    "bytes": 476426
+  },
+  "rows": 4174,
+  "families": 143,
+  "allOriginalCellsUnchanged": false,
+  "allCardIdentitiesAndSequenceValuesUnchanged": true,
+  "allAlignedSubjectTeamPositionTuplesUnchanged": true,
+  "orderingOnlyChanges": [
+    {
+      "csvLine": 1286,
+      "family": "Black Color Blast Dual",
+      "cardNumber": "2",
+      "retainedAthleteTeamPosition": [
+        "Dakorien Moore/Dante Moore",
+        "Oregon Ducks/Oregon Ducks",
+        "WR/QB"
+      ],
+      "freshAthleteTeamPosition": [
+        "Dante Moore/Dakorien Moore",
+        "Oregon Ducks/Oregon Ducks",
+        "QB/WR"
+      ],
+      "unchangedSequence": ""
+    },
+    {
+      "csvLine": 1287,
+      "family": "Black Color Blast Dual",
+      "cardNumber": "3",
+      "retainedAthleteTeamPosition": [
+        "CJ Carr/Joe Montana",
+        "Notre Dame Fighting Irish/Notre Dame Fighting Irish",
+        "QB/QB"
+      ],
+      "freshAthleteTeamPosition": [
+        "Joe Montana/CJ Carr",
+        "Notre Dame Fighting Irish/Notre Dame Fighting Irish",
+        "QB/QB"
+      ],
+      "unchangedSequence": ""
+    },
+    {
+      "csvLine": 1309,
+      "family": "Black Stained Glass Dual",
+      "cardNumber": "1",
+      "retainedAthleteTeamPosition": [
+        "Chris Henry Jr./Julian Sayin",
+        "Ohio State Buckeyes/Ohio State Buckeyes",
+        "WR/QB"
+      ],
+      "freshAthleteTeamPosition": [
+        "Julian Sayin/Chris Henry Jr.",
+        "Ohio State Buckeyes/Ohio State Buckeyes",
+        "QB/WR"
+      ],
+      "unchangedSequence": ""
+    },
+    {
+      "csvLine": 1310,
+      "family": "Black Stained Glass Dual",
+      "cardNumber": "2",
+      "retainedAthleteTeamPosition": [
+        "Bear Bachmeier/Steve Young",
+        "BYU Cougars/BYU Cougars",
+        "QB/QB"
+      ],
+      "freshAthleteTeamPosition": [
+        "Steve Young/Bear Bachmeier",
+        "BYU Cougars/BYU Cougars",
+        "QB/QB"
+      ],
+      "unchangedSequence": ""
+    },
+    {
+      "csvLine": 3397,
+      "family": "Nucleus Red",
+      "cardNumber": "17",
+      "retainedAthleteTeamPosition": [
+        "Wayne Chrebet/Vinny Testaverde/Keyshawn Johnson",
+        "New York Jets/New York Jets/New York Jets",
+        "WR/QB/WR"
+      ],
+      "freshAthleteTeamPosition": [
+        "Wayne Chrebet/Keyshawn Johnson/Vinny Testaverde",
+        "New York Jets/New York Jets/New York Jets",
+        "WR/WR/QB"
+      ],
+      "unchangedSequence": "99"
+    },
+    {
+      "csvLine": 3398,
+      "family": "Nucleus Red",
+      "cardNumber": "18",
+      "retainedAthleteTeamPosition": [
+        "Darian Mensah /Milan Parris/Mark Fletcher Jr.",
+        "Miami Hurricanes/Miami Hurricanes/Miami Hurricanes",
+        "QB/WR/RB"
+      ],
+      "freshAthleteTeamPosition": [
+        "Milan Parris/Mark Fletcher Jr./Darian Mensah ",
+        "Miami Hurricanes/Miami Hurricanes/Miami Hurricanes",
+        "WR/RB/QB"
+      ],
+      "unchangedSequence": "99"
+    },
+    {
+      "csvLine": 3399,
+      "family": "Nucleus Red",
+      "cardNumber": "19",
+      "retainedAthleteTeamPosition": [
+        "Ronde Barber/John Lynch/Warren Sapp",
+        "Tampa Bay Buccaneers/Tampa Bay Buccaneers/Tampa Bay Buccaneers",
+        "CB/S/DT"
+      ],
+      "freshAthleteTeamPosition": [
+        "John Lynch/Warren Sapp/Ronde Barber",
+        "Tampa Bay Buccaneers/Tampa Bay Buccaneers/Tampa Bay Buccaneers",
+        "S/DT/CB"
+      ],
+      "unchangedSequence": "99"
+    },
+    {
+      "csvLine": 3400,
+      "family": "Nucleus Red",
+      "cardNumber": "20",
+      "retainedAthleteTeamPosition": [
+        "Jordan Faison /Dylan Faison/CJ Carr",
+        "Notre Dame Fighting Irish/Notre Dame Fighting Irish/Notre Dame Fighting Irish",
+        "WR/WR/QB"
+      ],
+      "freshAthleteTeamPosition": [
+        "Dylan Faison/CJ Carr/Jordan Faison ",
+        "Notre Dame Fighting Irish/Notre Dame Fighting Irish/Notre Dame Fighting Irish",
+        "WR/QB/WR"
+      ],
+      "unchangedSequence": "99"
+    },
+    {
+      "csvLine": 3401,
+      "family": "Nucleus Red",
+      "cardNumber": "21",
+      "retainedAthleteTeamPosition": [
+        "Chris Henry Jr./Julian Sayin/Lamar \"Bo\" Jackson",
+        "Ohio State Buckeyes/Ohio State Buckeyes/Ohio State Buckeyes",
+        "WR/QB/RB"
+      ],
+      "freshAthleteTeamPosition": [
+        "Julian Sayin/Lamar \"Bo\" Jackson/Chris Henry Jr.",
+        "Ohio State Buckeyes/Ohio State Buckeyes/Ohio State Buckeyes",
+        "QB/RB/WR"
+      ],
+      "unchangedSequence": "99"
+    },
+    {
+      "csvLine": 3403,
+      "family": "Nucleus Red",
+      "cardNumber": "24",
+      "retainedAthleteTeamPosition": [
+        "Nate Frazier/Chauncey Bowens/Gunner Stockton",
+        "Georgia Bulldogs/Georgia Bulldogs/Georgia Bulldogs",
+        "RB/RB/QB"
+      ],
+      "freshAthleteTeamPosition": [
+        "Gunner Stockton/Nate Frazier/Chauncey Bowens",
+        "Georgia Bulldogs/Georgia Bulldogs/Georgia Bulldogs",
+        "QB/RB/RB"
+      ],
+      "unchangedSequence": "99"
+    },
+    {
+      "csvLine": 3404,
+      "family": "Nucleus Red",
+      "cardNumber": "25",
+      "retainedAthleteTeamPosition": [
+        "Josh Hoover/Turbo Richard/Charles Becker",
+        "Indiana Hoosiers/Indiana Hoosiers/Indiana Hoosiers",
+        "QB/RB/WR"
+      ],
+      "freshAthleteTeamPosition": [
+        "Turbo Richard/Charles Becker/Josh Hoover",
+        "Indiana Hoosiers/Indiana Hoosiers/Indiana Hoosiers",
+        "RB/WR/QB"
+      ],
+      "unchangedSequence": "99"
+    }
+  ],
+  "publicDataChanged": false,
+  "remainingGap": "One fresh program export; all-manufacturer/2026 CSV revision coverage and exhaustive guide/parallel eligibility remain incomplete. A fresh raw hash that only reorders aligned multi-subject tuples does not establish changed card facts or justify replacing the primary cells."
+}
