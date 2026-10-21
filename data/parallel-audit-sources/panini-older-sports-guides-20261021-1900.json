@@ -1,0 +1,1428 @@
+{
+  "observed": "2026-10-21",
+  "checkedUtc": "2026-10-21T19:05:54.273872+00:00",
+  "sourceKind": "official-browser-product-guide-facts",
+  "method": "Fresh official product and full article UI reads; normalized factual rows are hash-checked separately from retained visible text and are not raw HTML hashes. Exact units and qualifiers retained. No new odds, serial limits, release dates or additional card rows inferred.",
+  "snapshots": [
+    {
+      "id": "impeccable-golf-hobby",
+      "source": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html",
+      "checkedUtc": "2026-10-21T19:05:54.273872+00:00",
+      "facts": [
+        [
+          "Cards per pack",
+          "8",
+          "Hobby product configuration; not odds"
+        ],
+        [
+          "Packs per box",
+          "1",
+          "Hobby product configuration; not odds"
+        ],
+        [
+          "Boxes per case",
+          "3",
+          "Hobby product configuration; not odds"
+        ],
+        [
+          "Autographs per box",
+          "3",
+          "Hobby; per box, on average"
+        ],
+        [
+          "Base/Base Parallels per box",
+          "4",
+          "Hobby; per box, on average"
+        ],
+        [
+          "Insert per box",
+          "1",
+          "Hobby; per box, on average"
+        ],
+        [
+          "Metal cards",
+          "Stainless Stars and Stainless Stars Autograph",
+          "Named product programs; no serial-number join or odds implied"
+        ],
+        [
+          "Silver Bar cards",
+          "LIV Logo and Team Logo",
+          "Named product programs; no numeric serial limit or odds stated"
+        ],
+        [
+          "Autograph examples",
+          "Bryson DeChambeau, Jon Rahm and Phil Mickelson",
+          "Product-wide examples; exact eligibility remains the CSV roster"
+        ],
+        [
+          "Source product year",
+          "2025",
+          "Title/year are separate from an unverified general release date"
+        ]
+      ],
+      "factsSha256": "772ba7485a51845a160dc64496a9242f5704db7389b56185e4a9140026d07b53",
+      "scope": "Unjoined manufacturer context. Configuration and averages do not supply a ratio unit, pack odds, new card limits or release dates."
+    },
+    {
+      "id": "boys-of-summer-guide",
+      "source": "https://blog.paniniamerica.net/boys-of-summer-baseball-knocks-it-out-of-park/",
+      "checkedUtc": "2026-10-21T19:05:54.273872+00:00",
+      "facts": [
+        [
+          "Article publication",
+          "August 28, 2025",
+          "Publication date; not a verified general release date"
+        ],
+        [
+          "Autographs per box",
+          "3",
+          "Per box, on average; format not named in this article"
+        ],
+        [
+          "Memorabilia card per box",
+          "1",
+          "Per box, on average; format not named in this article"
+        ],
+        [
+          "Jumbo Material Signatures",
+          "On-Card Autographs",
+          "Exact named program; no numeric serial limit or odds stated"
+        ],
+        [
+          "Named on-card examples",
+          "Bobby Witt Jr., Paul Skenes and Travis Bazzana",
+          "Guide examples; no additional roster rows or parallel eligibility inferred"
+        ],
+        [
+          "Returning signature programs",
+          "Baseball Signatures, Lumber Signatures and Leather Signatures",
+          "Literal guide labels retained without inferred checklist-family joins"
+        ],
+        [
+          "New 2025 program",
+          "Jumbo Acetate Signatures",
+          "Named program; no numeric serial limit or odds stated"
+        ]
+      ],
+      "factsSha256": "61a73d761e57643bedf182e3d49a917e44177b9455ce063eb054db4fa7940304",
+      "scope": "Unjoined manufacturer context. Configuration and averages do not supply a ratio unit, pack odds, new card limits or release dates."
+    },
+    {
+      "id": "combat-anthology-hobby",
+      "source": "https://blog.paniniamerica.net/fighters-paradise-2025-panini-combat-anthology-cards/",
+      "checkedUtc": "2026-10-21T19:05:54.273872+00:00",
+      "facts": [
+        [
+          "Article publication",
+          "November 06, 2025",
+          "Publication date; not a verified general release date"
+        ],
+        [
+          "Packs per box",
+          "4",
+          "Hobby product configuration; not odds"
+        ],
+        [
+          "Cards per pack",
+          "10",
+          "Hobby product configuration; not odds"
+        ],
+        [
+          "Inserts or parallels per box",
+          "20",
+          "Hobby; per box, on average; one combined insert/parallel count"
+        ],
+        [
+          "Autographs per box",
+          "2",
+          "Hobby; per box, on average"
+        ],
+        [
+          "Published scope",
+          "Wrestling, MMA, PFL and boxing",
+          "Guide subject context; no inferred teams, rookie flags or extra card identities"
+        ]
+      ],
+      "factsSha256": "9b4214f105f7a5a17560d641decb5dd8cc9a09ee2fa40517415451c190b26b6a",
+      "scope": "Unjoined manufacturer context. Configuration and averages do not supply a ratio unit, pack odds, new card limits or release dates."
+    }
+  ],
+  "mapping": {
+    "panini-2025-panini-impeccable-golf": [
+      "impeccable-golf-hobby"
+    ],
+    "panini-2025-panini-boys-of-summer-baseball": [
+      "boys-of-summer-guide"
+    ],
+    "panini-2025-panini-combat-anthology-fight": [
+      "combat-anthology-hobby"
+    ]
+  },
+  "uiReads": [
+    {
+      "links": [
+        {
+          "title": "TRADING CARDS",
+          "url": "https://www.paniniamerica.net/cards.html"
+        },
+        {
+          "title": "BROWSE BY SPORT",
+          "url": "https://www.paniniamerica.net/cards/trading-cards.html"
+        },
+        {
+          "title": "GOLF",
+          "url": "https://www.paniniamerica.net/cards/trading-cards/golf.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        },
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        }
+      ],
+      "text": "TRADING CARDS\nBROWSE BY SPORT\nGOLF\nSHARE\n2025 Panini Impeccable LIV Golf Trading Card Box (Hobby)\n\nSKU: 2-18921-03\n\nPRICE\n\n$500.00\n\n1\n\nLIMITED TO 3 QTY PER TRANSACTION\n\nAdd to cart\n\nPRODUCT CHECKLIST\n\nSEARCH\n\nCONFIGURATION\n\nLOOK FOR\n3 Autographs\n4 Base/Base Parallels\n1 Insert\nper box, on average!\n8\n\nCARDS\n\nPER PACK\n\n1\n\nPACK\n\nPER BOX\n\n3\n\nBOXES\n\nPER CASE\n\n*PRODUCT WILL SHIP IN THE CASE FORM FOR ORDERS CONTAINING 3 BOXES. ORDERS WILL NOT BE COMBINED.\n\nSHIPPING & RETURNS\n\nPRODUCT DETAILS\n\n• LIV Golf Impeccable returns in 2025 by showcasing an incredible array of on-card Autographs and Jumbo Memorabilia!\n• Find 3 Autographs per box, on average!\n• Search for the unique Stainless Stars and Stainless Stars Autograph cards featured on Metal!\n• Look for Silver Bar LIV Logo and Team Logo cards!\n• Find an incredible roster of Autographs, including Bryson DeChambeau, Jon Rahm, and Phil Mickelson!\n\nAll information is accurate at the time of posting – content is subject to change.*\n\nPRODUCT CHECKLIST\n\nUSE OUR FREE CHECKLIST TO HELP COMPLETE YOUR COLLECTIONS\n\nSport\n\nGOLF\n\nYear\n\n2025\n\nBrand\n\nPANINI\n\nProgram\n\nIMPECCABLE\n\nSelect Cardset\n\nSelect Athlete\n\nDOWNLOAD FULL CHECKLIST",
+      "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+    },
+    {
+      "links": [
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/cards/trading-cards/baseball.html"
+        },
+        {
+          "title": "Panini’s 2025 Boys of Summer Baseball trading cards",
+          "url": "https://www.paniniamerica.net/cards/trading-cards/baseball.html"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/08/Fan-Favorite_Sigs_Ramirez-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/08/Jumbo_Acetate_Signatures_Lowder-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/08/Jumbo_Material_Sigs_Holo_Plat_Crews-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/08/Jumbo_Swatch_Sig_Booklet_Gold_Bazzana-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/08/Pastime_Materials_Rivera-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/08/Prospect_Material_Signatures_Gold_Smith-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/boys-of-summer-baseball-knocks-it-out-of-park/#multiCollapseExample1"
+        },
+        {
+          "title": "",
+          "url": "https://www.facebook.com/PaniniAmerica/"
+        },
+        {
+          "title": "",
+          "url": "https://twitter.com/PaniniAmerica"
+        },
+        {
+          "title": "",
+          "url": "mailto:onlinesales@paniniamerica.net"
+        },
+        {
+          "title": "",
+          "url": "javascript:void(0);"
+        },
+        {
+          "title": "Autographs",
+          "url": "https://blog.paniniamerica.net/category/autographs/"
+        },
+        {
+          "title": "Baseball",
+          "url": "https://blog.paniniamerica.net/category/baseball/"
+        },
+        {
+          "title": "Boys of Summer Baseball",
+          "url": "https://blog.paniniamerica.net/category/boys-of-summer-baseball/"
+        },
+        {
+          "title": "2025 Baseball Cards",
+          "url": "https://blog.paniniamerica.net/tag/2025-baseball-cards/"
+        },
+        {
+          "title": "2025 Boys of Summer Baseball Cards",
+          "url": "https://blog.paniniamerica.net/tag/2025-boys-of-summer-baseball-cards/"
+        },
+        {
+          "title": "autographs",
+          "url": "https://blog.paniniamerica.net/tag/autographs-2/"
+        },
+        {
+          "title": "baseball cards",
+          "url": "https://blog.paniniamerica.net/tag/baseball-cards/"
+        },
+        {
+          "title": "baseball trading cards",
+          "url": "https://blog.paniniamerica.net/tag/baseball-trading-cards/"
+        },
+        {
+          "title": "Panini Baseball Cards",
+          "url": "https://blog.paniniamerica.net/tag/panini-baseball-cards/"
+        },
+        {
+          "title": "sports cards",
+          "url": "https://blog.paniniamerica.net/tag/sports-cards-2/"
+        },
+        {
+          "title": "who do you collect",
+          "url": "https://blog.paniniamerica.net/tag/who-do-you-collect/"
+        },
+        {
+          "title": "Previous Post\nPrevious\nORIGINS FOOTBALL IS PERFECT START FOR COLLECTORS",
+          "url": "https://blog.paniniamerica.net/origins-football-is-perfect-start-for-collectors/"
+        },
+        {
+          "title": "Next Post\nNext\nQBs HIGHLIGHT MUST-SEE COLLEGE MATCHUP",
+          "url": "https://blog.paniniamerica.net/qbs-highlight-must-see-college-matchup/"
+        }
+      ],
+      "text": "BOYS OF SUMMER BASEBALL KNOCKS IT OUT OF PARK\nAugust 28, 2025\n\nWritten by Kara Gates\n\nThere’s something about summer baseball that feels like magic. The smell of the grass, the crack of the bat, the long evenings where the sun just won’t quit — it’s pure nostalgia wrapped in a diamond. Panini’s 2025 Boys of Summer Baseball trading cards capture that exact feeling, delivering a set that celebrates the game’s legends, today’s stars and the prospects destined to be tomorrow’s heroes.\n\nThis year, the lineup steps up to the plate ready to hit it out of the park. For the first time in Boys of Summer history, collectors can chase On-Card Autographs in the highly anticipated Jumbo Material Signatures series, featuring names like Bobby Witt Jr., Paul Skenes and Travis Bazzana. It’s a debut that promises heat hotter than any July afternoon.\n\nOf course, the magic doesn’t stop there. Signature sets return in style with Baseball Signatures, Lumber Signatures and Leather Signatures bringing a variety of textures and designs that feel as unique as the players themselves. And brand new for 2025, the Jumbo Acetate Signatures arrive with a modern twist, offering stunning, clear-cut designs showcasing top prospects in a way you’ve never seen before.\n\nEach box keeps the excitement rolling with an average of 3 Autographs and 1 Memorabilia card, making every rip feel like a ninth-inning walk-off. Whether you’re chasing future stars or honoring the legends who built the game, Boys of Summer delivers a collecting experience drenched in the spirit of baseball’s best.\n\nThis isn’t just another release. It’s peanuts, hot dogs and the thrill of the game packed into every card. The 2025 Boys of Summer set swings for the fences, and it’s about to clear them all.\n\nAutographs\n,\nBaseball\n,\nBoys of Summer Baseball\n2025 Baseball Cards\n,\n2025 Boys of Summer Baseball Cards\n,\nautographs\n,\nbaseball cards\n,\nbaseball trading cards\n,\nPanini Baseball Cards\n,\nsports cards\n,\nwho do you collect\nPost navigation\nPrevious Post\nPrevious\nORIGINS FOOTBALL IS PERFECT START FOR COLLECTORS\nNext Post\nNext\nQBs HIGHLIGHT MUST-SEE COLLEGE MATCHUP",
+      "url": "https://blog.paniniamerica.net/boys-of-summer-baseball-knocks-it-out-of-park/"
+    },
+    {
+      "links": [
+        {
+          "title": "",
+          "url": "https://www.paniniamerica.net/cards/trading-cards/mma.html"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/11/Base_Sigs_Flair-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/11/Classics_Ditcheva-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/11/Combat_Immortals_MayweatherJr.-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/11/Golden_Age_Sigs_Tyson-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/11/Kaboom_Kojima-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/11/MMA_Stars_Sigs_Emelianenko-copy.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://blog.paniniamerica.net/fighters-paradise-2025-panini-combat-anthology-cards/#multiCollapseExample1"
+        },
+        {
+          "title": "",
+          "url": "https://www.facebook.com/PaniniAmerica/"
+        },
+        {
+          "title": "",
+          "url": "https://twitter.com/PaniniAmerica"
+        },
+        {
+          "title": "",
+          "url": "mailto:onlinesales@paniniamerica.net"
+        },
+        {
+          "title": "",
+          "url": "javascript:void(0);"
+        },
+        {
+          "title": "Autographs",
+          "url": "https://blog.paniniamerica.net/category/autographs/"
+        },
+        {
+          "title": "Memorabilia",
+          "url": "https://blog.paniniamerica.net/category/memorabilia/"
+        },
+        {
+          "title": "Mixed Martial Arts",
+          "url": "https://blog.paniniamerica.net/category/mixed-martial-arts/"
+        },
+        {
+          "title": "MMA trading cards",
+          "url": "https://blog.paniniamerica.net/category/mma-trading-cards/"
+        },
+        {
+          "title": "PFL",
+          "url": "https://blog.paniniamerica.net/category/pfl/"
+        },
+        {
+          "title": "Professional Fighters League",
+          "url": "https://blog.paniniamerica.net/category/professional-fighters-league/"
+        },
+        {
+          "title": "Professional Wrestling",
+          "url": "https://blog.paniniamerica.net/category/professional-wrestling/"
+        },
+        {
+          "title": "Previous Post\nPrevious\nPanini NIL Spotlight: Hometown Hero Ian Jackson Storms to St. John’s",
+          "url": "https://blog.paniniamerica.net/panini-nil-spotlight-hometown-hero-ian-jackson-storms-to-st-johns/"
+        },
+        {
+          "title": "Next Post\nNext\nEuroLeague Spotlight: Early-Season Stories, Panini Instant Cards",
+          "url": "https://blog.paniniamerica.net/euroleague-spotlight-early-season-stories-panini-instant-cards/"
+        }
+      ],
+      "text": "Fighter’s Paradise: 2025 Panini Combat Anthology Cards\nNovember 06, 2025\n\nWritten by: Connor Zimmerlee\n\nFighting fans who double as sports card collectors are in luck, as the debut of 2025 Panini Combat Anthology is here. This release features a plethora of thrilling stars ranging across a variety of different disciplines. Each hobby box comes with four packs of 10 cards, and you can look for 20 inserts or parallels plus two autographs per box, on average.\n\nStarting in the squared circle, you can hunt for an assortment of different wrestlers. With a talented crop of current stars headlining the Major League Wrestling portion of the checklist, such as Matt Riddle, Alex Hammerstone, Satoshi Kojima and Mads Krule Krugger, you will find no shortage of must-have talents.\n\nThey aren’t the only superstars to keep an eye out for. Perhaps you prefer to reminisce about some of the all-time greats, including Hulk Hogan and Kurt Angle. Well, this release is also for you, as these stars and other legends of the ring can be yours.\n\nShifting to the octagon, you can look for several notable MMA icons. Each card pulled packs a wallop of a punch, bringing you the same level of excitement you’d get while watching legends like Jon Jones, Chuck Liddell and many others go to work.\n\nJoining their MMA peers in this collection is an outstanding group of PFL talents. While they’re trading blows in the SmartCage, you can add studs such as Francis Ngannou and Usman Nurmagomedov to your growing collection.\n\nRounding out your glimpse into Panini Combat Anthology is a group of phenoms that call the boxing ring home. From legends of the 20th century like Mike Tyson to recent all-time greats in Floyd Mayweather Jr., this release offers a wide range of exciting, hard-hitting names for fans to hunt for.\n\nFrom wrestling and MMA to PFL and boxing, there is something for everyone to anticipate in this release. So be sure to add Panini Combat Anthology cards to your collection and flex some of the sports’ best in collectible form.\n\nAutographs\n,\nMemorabilia\n,\nMixed Martial Arts\n,\nMMA trading cards\n,\nPFL\n,\nProfessional Fighters League\n,\nProfessional Wrestling\nPost navigation\nPrevious Post\nPrevious\nPanini NIL Spotlight: Hometown Hero Ian Jackson Storms to St. John’s\nNext Post\nNext\nEuroLeague Spotlight: Early-Season Stories, Panini Instant Cards",
+      "url": "https://blog.paniniamerica.net/fighters-paradise-2025-panini-combat-anthology-cards/"
+    }
+  ],
+  "numberingGuideReviewComplete": false,
+  "remainingGap": "Reviewed pages give no numeric serial ladder; complete CSV numbering does not establish exhaustive product-guide/parallel eligibility or general release dates.",
+  "csvAlternateReview": {
+    "source": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html",
+    "download": {
+      "download": "Golf_Impeccable.csv",
+      "length": 296150,
+      "checkedUtc": "2026-10-21T19:02:38.772Z",
+      "source": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+    },
+    "primaryFile": "data/official-panini/panini-2025-panini-impeccable-golf.csv",
+    "primarySha256": "66619ec2f6515e7f9065474452b369149331d9eaa4973c302c1b14300eb59974",
+    "alternateFile": "data/official-panini/panini-2025-panini-impeccable-golf-alternate-20261021-1900.csv",
+    "alternateSha256": "d4f539d4bb18905103ec35f40c999c6d2cc2c674f716590c7161af8253f2c741",
+    "rows": 2058,
+    "differingRows": [
+      {
+        "csvLine": 1879,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Harold Varner III/Patrick Reed/Dustin Johnson/Thomas Pieters",
+          "4Aces GC/4Aces GC/4Aces GC/4Aces GC",
+          "PL/PL/PL/PL",
+          "1",
+          "25"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Patrick Reed/Dustin Johnson/Thomas Pieters/Harold Varner III",
+          "4Aces GC/4Aces GC/4Aces GC/4Aces GC",
+          "PL/PL/PL/PL",
+          "1",
+          "25"
+        ]
+      },
+      {
+        "csvLine": 1881,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Charles Howell III/Bryson DeChambeau/Paul Casey/Anirban Lahiri",
+          "Crushers GC/Crushers GC/Crushers GC/Crushers GC",
+          "PL/PL/PL/PL",
+          "3",
+          "25"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Bryson DeChambeau/Paul Casey/Anirban Lahiri/Charles Howell III",
+          "Crushers GC/Crushers GC/Crushers GC/Crushers GC",
+          "PL/PL/PL/PL",
+          "3",
+          "25"
+        ]
+      },
+      {
+        "csvLine": 1883,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Andy Ogletree/Brendan Steele/Phil Mickelson/Cameron Tringale",
+          "HyFlyers GC/HyFlyers GC/HyFlyers GC/HyFlyers GC",
+          "PL/PL/PL/PL",
+          "5",
+          "25"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Brendan Steele/Phil Mickelson/Cameron Tringale/Andy Ogletree",
+          "HyFlyers GC/HyFlyers GC/HyFlyers GC/HyFlyers GC",
+          "PL/PL/PL/PL",
+          "5",
+          "25"
+        ]
+      },
+      {
+        "csvLine": 1886,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Ian Poulter/Sam Horsfield/Henrik Stenson/Lee Westwood",
+          "Majesticks GC/Majesticks GC/Majesticks GC/Majesticks GC",
+          "PL/PL/PL/PL",
+          "8",
+          "25"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Sam Horsfield/Henrik Stenson/Lee Westwood/Ian Poulter",
+          "Majesticks GC/Majesticks GC/Majesticks GC/Majesticks GC",
+          "PL/PL/PL/PL",
+          "8",
+          "25"
+        ]
+      },
+      {
+        "csvLine": 1888,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Lucas Herbert/Marc Leishman/Cameron Smith/Matt Jones",
+          "Ripper GC/Ripper GC/Ripper GC/Ripper GC",
+          "PL/PL/PL/PL",
+          "10",
+          "25"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Marc Leishman/Cameron Smith/Matt Jones/Lucas Herbert",
+          "Ripper GC/Ripper GC/Ripper GC/Ripper GC",
+          "PL/PL/PL/PL",
+          "10",
+          "25"
+        ]
+      },
+      {
+        "csvLine": 1890,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Louis Oosthuizen/Dean Burmester/Branden Grace/Charl Schwartzel",
+          "Southern Guards GC/Southern Guards GC/Southern Guards GC/Southern Guards GC",
+          "PL/PL/PL/PL",
+          "12",
+          "25"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs",
+          "Dean Burmester/Branden Grace/Charl Schwartzel/Louis Oosthuizen",
+          "Southern Guards GC/Southern Guards GC/Southern Guards GC/Southern Guards GC",
+          "PL/PL/PL/PL",
+          "12",
+          "25"
+        ]
+      },
+      {
+        "csvLine": 1893,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Adrian Meronk/Frederik Kjettrup/Martin Kaymer/Richard Bland",
+          "Cleeks GC/Cleeks GC/Cleeks GC/Cleeks GC",
+          "PL/PL/PL/PL",
+          "2",
+          "10"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Frederik Kjettrup/Martin Kaymer/Richard Bland/Adrian Meronk",
+          "Cleeks GC/Cleeks GC/Cleeks GC/Cleeks GC",
+          "PL/PL/PL/PL",
+          "2",
+          "10"
+        ]
+      },
+      {
+        "csvLine": 1895,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "David Puig/Sergio Garcia/Josele Ballester/Abraham Ancer",
+          "Fireballs GC/Fireballs GC/Fireballs GC/Fireballs GC",
+          "PL/PL/PL/PL",
+          "4",
+          "10"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Sergio Garcia/Josele Ballester/Abraham Ancer/David Puig",
+          "Fireballs GC/Fireballs GC/Fireballs GC/Fireballs GC",
+          "PL/PL/PL/PL",
+          "4",
+          "10"
+        ]
+      },
+      {
+        "csvLine": 1897,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Danny Lee/Jinichiro Kozuma/Kevin Na/Yubin Jang",
+          "Korean GC/Korean GC/Korean GC/Korean GC",
+          "PL/PL/PL/PL",
+          "6",
+          "10"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Jinichiro Kozuma/Kevin Na/Yubin Jang/Danny Lee",
+          "Korean GC/Korean GC/Korean GC/Korean GC",
+          "PL/PL/PL/PL",
+          "6",
+          "10"
+        ]
+      },
+      {
+        "csvLine": 1899,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Lee Westwood/Ian Poulter/Sam Horsfield/Henrik Stenson",
+          "Majesticks GC/Majesticks GC/Majesticks GC/Majesticks GC",
+          "PL/PL/PL/PL",
+          "8",
+          "10"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Ian Poulter/Sam Horsfield/Henrik Stenson/Lee Westwood",
+          "Majesticks GC/Majesticks GC/Majesticks GC/Majesticks GC",
+          "PL/PL/PL/PL",
+          "8",
+          "10"
+        ]
+      },
+      {
+        "csvLine": 1901,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Lucas Herbert/Marc Leishman/Cameron Smith/Matt Jones",
+          "Ripper GC/Ripper GC/Ripper GC/Ripper GC",
+          "PL/PL/PL/PL",
+          "10",
+          "10"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Marc Leishman/Cameron Smith/Matt Jones/Lucas Herbert",
+          "Ripper GC/Ripper GC/Ripper GC/Ripper GC",
+          "PL/PL/PL/PL",
+          "10",
+          "10"
+        ]
+      },
+      {
+        "csvLine": 1902,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Talor Gooch/Graeme McDowell/Brooks Koepka/Jason Kokrak",
+          "Smash GC/Smash GC/Smash GC/Smash GC",
+          "PL/PL/PL/PL",
+          "11",
+          "10"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Brooks Koepka/Jason Kokrak/Talor Gooch/Graeme McDowell",
+          "Smash GC/Smash GC/Smash GC/Smash GC",
+          "PL/PL/PL/PL",
+          "11",
+          "10"
+        ]
+      },
+      {
+        "csvLine": 1903,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Branden Grace/Charl Schwartzel/Louis Oosthuizen/Dean Burmester",
+          "Southern Guards GC/Southern Guards GC/Southern Guards GC/Southern Guards GC",
+          "PL/PL/PL/PL",
+          "12",
+          "10"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Charl Schwartzel/Louis Oosthuizen/Dean Burmester/Branden Grace",
+          "Southern Guards GC/Southern Guards GC/Southern Guards GC/Southern Guards GC",
+          "PL/PL/PL/PL",
+          "12",
+          "10"
+        ]
+      },
+      {
+        "csvLine": 1904,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Mito Pereira/Joaquin Niemann/Sebastian Munoz/Carlos Ortiz",
+          "Torque GC/Torque GC/Torque GC/Torque GC",
+          "PL/PL/PL/PL",
+          "13",
+          "10"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Gold",
+          "Sebastian Munoz/Carlos Ortiz/Mito Pereira/Joaquin Niemann",
+          "Torque GC/Torque GC/Torque GC/Torque GC",
+          "PL/PL/PL/PL",
+          "13",
+          "10"
+        ]
+      },
+      {
+        "csvLine": 1905,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Harold Varner III/Patrick Reed/Dustin Johnson/Thomas Pieters",
+          "4Aces GC/4Aces GC/4Aces GC/4Aces GC",
+          "PL/PL/PL/PL",
+          "1",
+          "4"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Patrick Reed/Dustin Johnson/Thomas Pieters/Harold Varner III",
+          "4Aces GC/4Aces GC/4Aces GC/4Aces GC",
+          "PL/PL/PL/PL",
+          "1",
+          "4"
+        ]
+      },
+      {
+        "csvLine": 1907,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Bryson DeChambeau/Paul Casey/Anirban Lahiri/Charles Howell III",
+          "Crushers GC/Crushers GC/Crushers GC/Crushers GC",
+          "PL/PL/PL/PL",
+          "3",
+          "4"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Paul Casey/Anirban Lahiri/Charles Howell III/Bryson DeChambeau",
+          "Crushers GC/Crushers GC/Crushers GC/Crushers GC",
+          "PL/PL/PL/PL",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "csvLine": 1909,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Andy Ogletree/Cameron Tringale/Phil Mickelson/Brendan Steele",
+          "HyFlyers GC/HyFlyers GC/HyFlyers GC/HyFlyers GC",
+          "PL/PL/PL/PL",
+          "5",
+          "4"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Phil Mickelson/Brendan Steele/Andy Ogletree/Cameron Tringale",
+          "HyFlyers GC/HyFlyers GC/HyFlyers GC/HyFlyers GC",
+          "PL/PL/PL/PL",
+          "5",
+          "4"
+        ]
+      },
+      {
+        "csvLine": 1912,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Ian Poulter/Sam Horsfield/Henrik Stenson/Lee Westwood",
+          "Majesticks GC/Majesticks GC/Majesticks GC/Majesticks GC",
+          "PL/PL/PL/PL",
+          "8",
+          "4"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Sam Horsfield/Henrik Stenson/Lee Westwood/Ian Poulter",
+          "Majesticks GC/Majesticks GC/Majesticks GC/Majesticks GC",
+          "PL/PL/PL/PL",
+          "8",
+          "4"
+        ]
+      },
+      {
+        "csvLine": 1913,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Peter Uihlein/Ben Campbell/Matthew Wolff/Bubba Watson",
+          "RangeGoats GC/RangeGoats GC/RangeGoats GC/RangeGoats GC",
+          "PL/PL/PL/PL",
+          "9",
+          "4"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Ben Campbell/Matthew Wolff/Bubba Watson/Peter Uihlein",
+          "RangeGoats GC/RangeGoats GC/RangeGoats GC/RangeGoats GC",
+          "PL/PL/PL/PL",
+          "9",
+          "4"
+        ]
+      },
+      {
+        "csvLine": 1916,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Louis Oosthuizen/Dean Burmester/Branden Grace/Charl Schwartzel",
+          "Southern Guards GC/Southern Guards GC/Southern Guards GC/Southern Guards GC",
+          "PL/PL/PL/PL",
+          "12",
+          "4"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Dean Burmester/Branden Grace/Charl Schwartzel/Louis Oosthuizen",
+          "Southern Guards GC/Southern Guards GC/Southern Guards GC/Southern Guards GC",
+          "PL/PL/PL/PL",
+          "12",
+          "4"
+        ]
+      },
+      {
+        "csvLine": 1917,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Sebastian Munoz/Carlos Ortiz/Mito Pereira/Joaquin Niemann",
+          "Torque GC/Torque GC/Torque GC/Torque GC",
+          "PL/PL/PL/PL",
+          "13",
+          "4"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Green FOTL",
+          "Carlos Ortiz/Mito Pereira/Joaquin Niemann/Sebastian Munoz",
+          "Torque GC/Torque GC/Torque GC/Torque GC",
+          "PL/PL/PL/PL",
+          "13",
+          "4"
+        ]
+      },
+      {
+        "csvLine": 1918,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Patrick Reed/Dustin Johnson/Thomas Pieters/Harold Varner III",
+          "4Aces GC/4Aces GC/4Aces GC/4Aces GC",
+          "PL/PL/PL/PL",
+          "1",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Thomas Pieters/Harold Varner III/Patrick Reed/Dustin Johnson",
+          "4Aces GC/4Aces GC/4Aces GC/4Aces GC",
+          "PL/PL/PL/PL",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1919,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Richard Bland/Adrian Meronk/Frederik Kjettrup/Martin Kaymer",
+          "Cleeks GC/Cleeks GC/Cleeks GC/Cleeks GC",
+          "PL/PL/PL/PL",
+          "2",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Frederik Kjettrup/Martin Kaymer/Richard Bland/Adrian Meronk",
+          "Cleeks GC/Cleeks GC/Cleeks GC/Cleeks GC",
+          "PL/PL/PL/PL",
+          "2",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1920,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Anirban Lahiri/Charles Howell III/Bryson DeChambeau/Paul Casey",
+          "Crushers GC/Crushers GC/Crushers GC/Crushers GC",
+          "PL/PL/PL/PL",
+          "3",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Charles Howell III/Bryson DeChambeau/Paul Casey/Anirban Lahiri",
+          "Crushers GC/Crushers GC/Crushers GC/Crushers GC",
+          "PL/PL/PL/PL",
+          "3",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1921,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "David Puig/Sergio Garcia/Josele Ballester/Abraham Ancer",
+          "Fireballs GC/Fireballs GC/Fireballs GC/Fireballs GC",
+          "PL/PL/PL/PL",
+          "4",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Josele Ballester/Abraham Ancer/David Puig/Sergio Garcia",
+          "Fireballs GC/Fireballs GC/Fireballs GC/Fireballs GC",
+          "PL/PL/PL/PL",
+          "4",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1922,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Brendan Steele/Phil Mickelson/Cameron Tringale/Andy Ogletree",
+          "HyFlyers GC/HyFlyers GC/HyFlyers GC/HyFlyers GC",
+          "PL/PL/PL/PL",
+          "5",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Cameron Tringale/Andy Ogletree/Brendan Steele/Phil Mickelson",
+          "HyFlyers GC/HyFlyers GC/HyFlyers GC/HyFlyers GC",
+          "PL/PL/PL/PL",
+          "5",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1923,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Yubin Jang/Danny Lee/Jinichiro Kozuma/Kevin Na",
+          "Korean GC/Korean GC/Korean GC/Korean GC",
+          "PL/PL/PL/PL",
+          "6",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Jinichiro Kozuma/Kevin Na/Yubin Jang/Danny Lee",
+          "Korean GC/Korean GC/Korean GC/Korean GC",
+          "PL/PL/PL/PL",
+          "6",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1924,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Caleb Surratt/Tom McKibbin/Jon Rahm/Tyrrell Hatton",
+          "Legion XIII/Legion XIII/Legion XIII/Legion XIII",
+          "PL/PL/PL/PL",
+          "7",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Tom McKibbin/Jon Rahm/Tyrrell Hatton/Caleb Surratt",
+          "Legion XIII/Legion XIII/Legion XIII/Legion XIII",
+          "PL/PL/PL/PL",
+          "7",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1925,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Lee Westwood/Ian Poulter/Sam Horsfield/Henrik Stenson",
+          "Majesticks GC/Majesticks GC/Majesticks GC/Majesticks GC",
+          "PL/PL/PL/PL",
+          "8",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Sam Horsfield/Henrik Stenson/Lee Westwood/Ian Poulter",
+          "Majesticks GC/Majesticks GC/Majesticks GC/Majesticks GC",
+          "PL/PL/PL/PL",
+          "8",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1926,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Matthew Wolff/Bubba Watson/Peter Uihlein/Ben Campbell",
+          "RangeGoats GC/RangeGoats GC/RangeGoats GC/RangeGoats GC",
+          "PL/PL/PL/PL",
+          "9",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Peter Uihlein/Ben Campbell/Matthew Wolff/Bubba Watson",
+          "RangeGoats GC/RangeGoats GC/RangeGoats GC/RangeGoats GC",
+          "PL/PL/PL/PL",
+          "9",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1927,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Matt Jones/Lucas Herbert/Cameron Smith/Marc Leishman",
+          "Ripper GC/Ripper GC/Ripper GC/Ripper GC",
+          "PL/PL/PL/PL",
+          "10",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Lucas Herbert/Cameron Smith/Marc Leishman/Matt Jones",
+          "Ripper GC/Ripper GC/Ripper GC/Ripper GC",
+          "PL/PL/PL/PL",
+          "10",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1928,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Talor Gooch/Graeme McDowell/Jason Kokrak/Brooks Koepka",
+          "Smash GC/Smash GC/Smash GC/Smash GC",
+          "PL/PL/PL/PL",
+          "11",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Jason Kokrak/Brooks Koepka/Talor Gooch/Graeme McDowell",
+          "Smash GC/Smash GC/Smash GC/Smash GC",
+          "PL/PL/PL/PL",
+          "11",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1929,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Branden Grace/Charl Schwartzel/Louis Oosthuizen/Dean Burmester",
+          "Southern Guards GC/Southern Guards GC/Southern Guards GC/Southern Guards GC",
+          "PL/PL/PL/PL",
+          "12",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Charl Schwartzel/Louis Oosthuizen/Dean Burmester/Branden Grace",
+          "Southern Guards GC/Southern Guards GC/Southern Guards GC/Southern Guards GC",
+          "PL/PL/PL/PL",
+          "12",
+          "1"
+        ]
+      },
+      {
+        "csvLine": 1930,
+        "primary": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Mito Pereira/Joaquin Niemann/Sebastian Munoz/Carlos Ortiz",
+          "Torque GC/Torque GC/Torque GC/Torque GC",
+          "PL/PL/PL/PL",
+          "13",
+          "1"
+        ],
+        "alternate": [
+          "Golf",
+          "2025",
+          "Panini",
+          "Impeccable",
+          "Team Quad Autographs Platinum",
+          "Sebastian Munoz/Carlos Ortiz/Mito Pereira/Joaquin Niemann",
+          "Torque GC/Torque GC/Torque GC/Torque GC",
+          "PL/PL/PL/PL",
+          "13",
+          "1"
+        ]
+      }
+    ],
+    "allCardMetadataAndSequenceUnchanged": true,
+    "allAlignedSubjectTeamPositionTuplesUnchanged": true,
+    "primaryCellsPreserved": true
+  }
+}

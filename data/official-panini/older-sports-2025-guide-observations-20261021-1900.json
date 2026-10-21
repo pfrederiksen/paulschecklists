@@ -1,0 +1,99 @@
+{
+  "observed": "2026-10-21",
+  "checkedUtc": "2026-10-21T19:05:54.273872+00:00",
+  "sourceKind": "official-browser-csv-exports",
+  "method": "Original complete CSV exports observed October21 at the retained18:00 checkpoint; no fresh CSV observation is claimed for Boys of Summer or Combat Anthology. Fresh19:00 product/guide facts attached without replacing original CSV cells. Impeccable product-linked CSV newly read and its34 ordering-only rows retained separately.",
+  "originalCsvObservation": {
+    "file": "data/official-panini/older-sports-2025-observations-20261021-1800.json",
+    "sha256": "1654cae0c43525ba54f120096cb3d8551efeab49e610512a96f1091d8d843cf2"
+  },
+  "exports": [
+    {
+      "sourceSelection": {
+        "sport": "Golf",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Impeccable"
+      },
+      "download": "2025 Panini Impeccable (Golf).csv",
+      "checkedUtc": "2026-10-21T18:12:09.345Z",
+      "originalDataUriLength": 296150,
+      "percentDecoding": "Original data URI retrieved in complete bounded chunks; valid percent octets decoded as UTF-8; literal unescaped percent signs retained.",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "sourceExport": "data/official-panini/panini-2025-panini-impeccable-golf.csv",
+      "sha256": "66619ec2f6515e7f9065474452b369149331d9eaa4973c302c1b14300eb59974",
+      "bytes": 215190,
+      "rows": 2058,
+      "families": 71,
+      "numberedRows": 2058,
+      "exportState": "populated",
+      "sourceSelectorOccurrence": null,
+      "guideReview": {
+        "file": "data/parallel-audit-sources/panini-older-sports-guides-20261021-1900.json",
+        "sha256": "5e0e3f50df3c82d484f217bb04e3c63ab81ee3ebefa54cd14eece62cab0b8257",
+        "source": "Official Panini product and articles",
+        "method": "Fresh official product and full article UI reads; normalized factual rows are hash-checked separately from retained visible text and are not raw HTML hashes. Exact units and qualifiers retained. No new odds, serial limits, release dates or additional card rows inferred."
+      }
+    },
+    {
+      "sourceSelection": {
+        "sport": "Baseball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Boys of Summer"
+      },
+      "download": "2025 Panini Boys of Summer (Baseball).csv",
+      "checkedUtc": "2026-10-21T18:05:51.408Z",
+      "originalDataUriLength": 1243983,
+      "percentDecoding": "All original data URI octets retrieved in bounded chunks; valid percent octets decoded as UTF-8 and literal unescaped percent signs retained.",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "sourceExport": "data/official-panini/panini-2025-panini-boys-of-summer-baseball.csv",
+      "sha256": "55e8417996807f565736332b7c50fb131f8a0c066f4e5c61fbfe5e5dcec20f85",
+      "bytes": 897363,
+      "rows": 7860,
+      "families": 146,
+      "numberedRows": 6756,
+      "exportState": "populated",
+      "sourceSelectorOccurrence": null,
+      "guideReview": {
+        "file": "data/parallel-audit-sources/panini-older-sports-guides-20261021-1900.json",
+        "sha256": "5e0e3f50df3c82d484f217bb04e3c63ab81ee3ebefa54cd14eece62cab0b8257",
+        "source": "Official Panini product and articles",
+        "method": "Fresh official product and full article UI reads; normalized factual rows are hash-checked separately from retained visible text and are not raw HTML hashes. Exact units and qualifiers retained. No new odds, serial limits, release dates or additional card rows inferred."
+      }
+    },
+    {
+      "sourceSelection": {
+        "sport": "Fight",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Combat Anthology"
+      },
+      "download": "2025 Panini Combat Anthology (Fight).csv",
+      "checkedUtc": "2026-10-21T18:18:21.110Z",
+      "originalDataUriLength": 564948,
+      "percentDecoding": "Original data URI retrieved in complete bounded chunks; valid percent octets decoded as UTF-8; literal unescaped percent signs retained.",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "sourceExport": "data/official-panini/panini-2025-panini-combat-anthology-fight.csv",
+      "sha256": "06b2e49e8abdddbaa7bf7005ce356c536faf01a17249241054c422bfc53291d8",
+      "bytes": 412860,
+      "rows": 3935,
+      "families": 100,
+      "numberedRows": 3131,
+      "exportState": "populated",
+      "sourceSelectorOccurrence": null,
+      "guideReview": {
+        "file": "data/parallel-audit-sources/panini-older-sports-guides-20261021-1900.json",
+        "sha256": "5e0e3f50df3c82d484f217bb04e3c63ab81ee3ebefa54cd14eece62cab0b8257",
+        "source": "Official Panini product and articles",
+        "method": "Fresh official product and full article UI reads; normalized factual rows are hash-checked separately from retained visible text and are not raw HTML hashes. Exact units and qualifiers retained. No new odds, serial limits, release dates or additional card rows inferred."
+      }
+    }
+  ],
+  "guideReview": {
+    "file": "data/parallel-audit-sources/panini-older-sports-guides-20261021-1900.json",
+    "sha256": "5e0e3f50df3c82d484f217bb04e3c63ab81ee3ebefa54cd14eece62cab0b8257",
+    "source": "Official Panini product and articles",
+    "method": "Fresh official product and full article UI reads; normalized factual rows are hash-checked separately from retained visible text and are not raw HTML hashes. Exact units and qualifiers retained. No new odds, serial limits, release dates or additional card rows inferred."
+  }
+}

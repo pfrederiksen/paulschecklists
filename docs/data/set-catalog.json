@@ -17806,10 +17806,22 @@
       "dataAudit": "All 7,860 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
       "checklistFirstObserved": "2026-10-21",
       "sourceObservation": {
-        "file": "data/official-panini/older-sports-2025-observations-20261021-1800.json",
-        "sha256": "1654cae0c43525ba54f120096cb3d8551efeab49e610512a96f1091d8d843cf2",
+        "file": "data/official-panini/older-sports-2025-guide-observations-20261021-1900.json",
+        "sha256": "b74a6dfff40237dbf9e49baefe65f0fbe1be45b3845508ae9c2a94ed3fdc9b14",
         "source": "https://www.paniniamerica.net/checklist.html",
-        "method": "Fresh sport/year/brand/program selector reads and full checklist downloads. Original data URI strings retrieved in complete bounded chunks to avoid transport clipping; validated ten original columns and each row metadata. Both duplicate Fight Contenders options were selected independently: first header-only, second populated. Original source bytes and hashes retained; complete exports imported without combining or inventing rows. Source year and season labels do not establish calendar-year release. Product-guide, exact release-date and exhaustive numbering reconciliation remain incomplete."
+        "method": "Original complete CSV exports observed October21 at the retained18:00 checkpoint; no fresh CSV observation is claimed for Boys of Summer or Combat Anthology. Fresh19:00 product/guide facts attached without replacing original CSV cells. Impeccable product-linked CSV newly read and its34 ordering-only rows retained separately."
+      },
+      "additionalSources": [
+        {
+          "title": "Reviewed official product / guide context",
+          "url": "https://blog.paniniamerica.net/boys-of-summer-baseball-knocks-it-out-of-park/"
+        }
+      ],
+      "guideReview": {
+        "file": "data/parallel-audit-sources/panini-older-sports-guides-20261021-1900.json",
+        "sha256": "5e0e3f50df3c82d484f217bb04e3c63ab81ee3ebefa54cd14eece62cab0b8257",
+        "source": "Official Panini product and articles",
+        "method": "Fresh official product and full article UI reads; normalized factual rows are hash-checked separately from retained visible text and are not raw HTML hashes. Exact units and qualifiers retained. No new odds, serial limits, release dates or additional card rows inferred."
       },
       "presentation": {
         "rows": 7860,
@@ -18306,10 +18318,22 @@
       "dataAudit": "All 3,935 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
       "checklistFirstObserved": "2026-10-21",
       "sourceObservation": {
-        "file": "data/official-panini/older-sports-2025-observations-20261021-1800.json",
-        "sha256": "1654cae0c43525ba54f120096cb3d8551efeab49e610512a96f1091d8d843cf2",
+        "file": "data/official-panini/older-sports-2025-guide-observations-20261021-1900.json",
+        "sha256": "b74a6dfff40237dbf9e49baefe65f0fbe1be45b3845508ae9c2a94ed3fdc9b14",
         "source": "https://www.paniniamerica.net/checklist.html",
-        "method": "Fresh sport/year/brand/program selector reads and full checklist downloads. Original data URI strings retrieved in complete bounded chunks to avoid transport clipping; validated ten original columns and each row metadata. Both duplicate Fight Contenders options were selected independently: first header-only, second populated. Original source bytes and hashes retained; complete exports imported without combining or inventing rows. Source year and season labels do not establish calendar-year release. Product-guide, exact release-date and exhaustive numbering reconciliation remain incomplete."
+        "method": "Original complete CSV exports observed October21 at the retained18:00 checkpoint; no fresh CSV observation is claimed for Boys of Summer or Combat Anthology. Fresh19:00 product/guide facts attached without replacing original CSV cells. Impeccable product-linked CSV newly read and its34 ordering-only rows retained separately."
+      },
+      "additionalSources": [
+        {
+          "title": "Reviewed official product / guide context",
+          "url": "https://blog.paniniamerica.net/fighters-paradise-2025-panini-combat-anthology-cards/"
+        }
+      ],
+      "guideReview": {
+        "file": "data/parallel-audit-sources/panini-older-sports-guides-20261021-1900.json",
+        "sha256": "5e0e3f50df3c82d484f217bb04e3c63ab81ee3ebefa54cd14eece62cab0b8257",
+        "source": "Official Panini product and articles",
+        "method": "Fresh official product and full article UI reads; normalized factual rows are hash-checked separately from retained visible text and are not raw HTML hashes. Exact units and qualifiers retained. No new odds, serial limits, release dates or additional card rows inferred."
       },
       "presentation": {
         "rows": 3935,
@@ -18356,10 +18380,22 @@
       "dataAudit": "All 2,058 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
       "checklistFirstObserved": "2026-10-21",
       "sourceObservation": {
-        "file": "data/official-panini/older-sports-2025-observations-20261021-1800.json",
-        "sha256": "1654cae0c43525ba54f120096cb3d8551efeab49e610512a96f1091d8d843cf2",
+        "file": "data/official-panini/older-sports-2025-guide-observations-20261021-1900.json",
+        "sha256": "b74a6dfff40237dbf9e49baefe65f0fbe1be45b3845508ae9c2a94ed3fdc9b14",
         "source": "https://www.paniniamerica.net/checklist.html",
-        "method": "Fresh sport/year/brand/program selector reads and full checklist downloads. Original data URI strings retrieved in complete bounded chunks to avoid transport clipping; validated ten original columns and each row metadata. Both duplicate Fight Contenders options were selected independently: first header-only, second populated. Original source bytes and hashes retained; complete exports imported without combining or inventing rows. Source year and season labels do not establish calendar-year release. Product-guide, exact release-date and exhaustive numbering reconciliation remain incomplete."
+        "method": "Original complete CSV exports observed October21 at the retained18:00 checkpoint; no fresh CSV observation is claimed for Boys of Summer or Combat Anthology. Fresh19:00 product/guide facts attached without replacing original CSV cells. Impeccable product-linked CSV newly read and its34 ordering-only rows retained separately."
+      },
+      "additionalSources": [
+        {
+          "title": "Reviewed official product / guide context",
+          "url": "https://www.paniniamerica.net/2025-panini-impeccable-liv-golf-trading-card-box-hobby.html"
+        }
+      ],
+      "guideReview": {
+        "file": "data/parallel-audit-sources/panini-older-sports-guides-20261021-1900.json",
+        "sha256": "5e0e3f50df3c82d484f217bb04e3c63ab81ee3ebefa54cd14eece62cab0b8257",
+        "source": "Official Panini product and articles",
+        "method": "Fresh official product and full article UI reads; normalized factual rows are hash-checked separately from retained visible text and are not raw HTML hashes. Exact units and qualifiers retained. No new odds, serial limits, release dates or additional card rows inferred."
       },
       "presentation": {
         "rows": 2058,

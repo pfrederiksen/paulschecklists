@@ -15945,9 +15945,9 @@
       "oddsHash": null,
       "rows": 7860,
       "odds": 0,
-      "specificationRows": 6756
+      "specificationRows": 6763
     },
-    "fingerprint": "93c5243221372e7c7dd6dcbc0d319288ef44c0d3ead27eff7fa76f7cf4646385",
+    "fingerprint": "92dbb4148e4124b02e181b0ed08c2e4cef03b07d3a220d42975ad9f515c6c565",
     "events": [
       {
         "at": "2026-10-21T18:21:22.297Z",
@@ -16215,9 +16215,9 @@
       "oddsHash": null,
       "rows": 3935,
       "odds": 0,
-      "specificationRows": 3131
+      "specificationRows": 3137
     },
-    "fingerprint": "8833c59cbfcd391f44c55a8348a8a35d09ca0fe2195f48313e79f80819efa2f9",
+    "fingerprint": "6e6f33190491276d9deb7a746b3e380afda43d69b82a12f70f5c4bf6b08a5a8d",
     "events": [
       {
         "at": "2026-10-21T18:21:22.433Z",
@@ -16242,9 +16242,9 @@
       "oddsHash": null,
       "rows": 2058,
       "odds": 0,
-      "specificationRows": 2058
+      "specificationRows": 2068
     },
-    "fingerprint": "07e510b4400837b3ba343905fbdadca1a5e8dd2dd12767f9baabe009edbfabfb",
+    "fingerprint": "41b8c2e2e9c748d1dd355cebcdd21e68fc86b8fc162f0c0d5147792336baea24",
     "events": [
       {
         "at": "2026-10-21T18:21:22.436Z",

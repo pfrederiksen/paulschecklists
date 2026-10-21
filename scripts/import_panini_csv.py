@@ -79,9 +79,10 @@ for filename in sys.argv[1:]:
  elif prior and prior.get('priorSourceOnlyEvidence'):
   payload['priorSourceOnlyEvidence']=prior['priorSourceOnlyEvidence']
   record['priorSourceOnlyEvidence']=prior['priorSourceOnlyEvidence']
- if observation and observation.get('guideReview'):
+ guide_review=(observation or {}).get('guideReview') or (prior or {}).get('guideReview')
+ if guide_review:
   from panini_guide_context import apply_context
-  apply_context(record,payload,observation['guideReview'])
+  apply_context(record,payload,guide_review)
  (ROOT/path).write_text(json.dumps(payload,ensure_ascii=False)+'\n')
  for collection in [catalog['sets'],inventory]:
   matches=[i for i,r in enumerate(collection) if r['slug']==slug or (r.get('dedicatedParser')=='scripts/import_panini_csv.py' and r.get('sourceSelection')==payload['sourceSelection'])]
