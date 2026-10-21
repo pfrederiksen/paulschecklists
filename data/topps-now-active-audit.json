@@ -1,8 +1,38 @@
 {
   "observed": "2026-10-21",
-  "listingSha256": "8a04a63e94626fe125a191d04122117d8f2ae46dd731cd7695e7f731321aebc8",
+  "listingSha256": "eaad37c18fcbd2e25fddc1ce8de0376196861a48d567b3589a1f600661bc85d6",
   "historicalCoverageComplete": false,
   "products": [
+    {
+      "title": "Aday Mara - 2026-27 NBA Topps NOW® - Card 6",
+      "url": "https://www.topps.com/products/aday-mara-2026-27-nba-topps-now-r-card-6",
+      "status": "published"
+    },
+    {
+      "title": "LeBron James - 2026-27 NBA Topps NOW® - Card 1",
+      "url": "https://www.topps.com/products/lebron-james-2026-27-nba-topps-now-r-card-1",
+      "status": "published"
+    },
+    {
+      "title": "Detroit Pistons - 2026-27 NBA Topps NOW® - Card 5",
+      "url": "https://www.topps.com/products/detroit-pistons-2026-27-nba-topps-now-r-card-5",
+      "status": "published"
+    },
+    {
+      "title": "Paul George - 2026-27 NBA Topps NOW® - Card 4",
+      "url": "https://www.topps.com/products/paul-george-2026-27-nba-topps-now-r-card-4",
+      "status": "published"
+    },
+    {
+      "title": "Jaylen Brown / Tyrese Maxey - 2026-27 NBA Topps NOW® - Card 3",
+      "url": "https://www.topps.com/products/jaylen-brown-tyrese-maxey-2026-27-nba-topps-now-r-card-3",
+      "status": "published"
+    },
+    {
+      "title": "New York Knicks - 2026-27 NBA Topps NOW® - Card 2",
+      "url": "https://www.topps.com/products/new-york-knicks-2026-27-nba-topps-now-r-card-2",
+      "status": "published"
+    },
     {
       "title": "Brock Purdy - 2026-27 NFL Topps NOW® - Card 75",
       "url": "https://www.topps.com/products/brock-purdy-2026-27-nfl-topps-now-r-card-75",
@@ -269,7 +299,7 @@
       "status": "published"
     }
   ],
-  "publishedCount": 53,
-  "uniquePublishedCount": 49,
+  "publishedCount": 59,
+  "uniquePublishedCount": 55,
   "remaining": []
 }

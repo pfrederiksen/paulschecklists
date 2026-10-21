@@ -83208,6 +83208,252 @@
   },
   {
     "series": "2026-27 NBA Topps NOW®",
+    "number": "1",
+    "name": "LeBron James",
+    "printRun": "",
+    "saleFrom": "Oct 21, 2026",
+    "saleUntil": "Oct 23, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; /1 Autograph-Relic Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/lebron-james-2026-27-nba-topps-now-r-card-1",
+    "evidence": {
+      "url": "https://www.topps.com/products/lebron-james-2026-27-nba-topps-now-r-card-1",
+      "sha256": "9281c5d91bb9a458c375477dac77681c671d60c887f45766ca6007d072cba131",
+      "observed": "2026-10-21",
+      "title": "LeBron James - 2026-27 NBA Topps NOW® - Card 1",
+      "fields": {
+        "SKU": "ARTBK-16C2S-27TN-0001",
+        "Category": "Sports",
+        "Sub Categories": "Basketball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "LeBron James",
+        "Properties": "Philadelphia 76ers",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 21, 2026",
+        "Available Until": "Oct 23, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower; /1 Autograph-Relic Redemption Card\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261021-2300-nba.json"
+    },
+    "saleFromISO": "2026-10-21"
+  },
+  {
+    "series": "2026-27 NBA Topps NOW®",
+    "number": "2",
+    "name": "New York Knicks",
+    "printRun": "",
+    "saleFrom": "Oct 21, 2026",
+    "saleUntil": "Oct 23, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/new-york-knicks-2026-27-nba-topps-now-r-card-2",
+    "evidence": {
+      "url": "https://www.topps.com/products/new-york-knicks-2026-27-nba-topps-now-r-card-2",
+      "sha256": "4c280d7fe77cfa961ee0b600a904fcd68597fb45637267667ba7bc24304365fc",
+      "observed": "2026-10-21",
+      "title": "New York Knicks - 2026-27 NBA Topps NOW® - Card 2",
+      "fields": {
+        "SKU": "ARTBK-16C2S-27TN-0002",
+        "Category": "Sports",
+        "Sub Categories": "Basketball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "New York Knicks",
+        "Properties": "New York Knicks",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 21, 2026",
+        "Available Until": "Oct 23, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261021-2300-nba.json"
+    },
+    "saleFromISO": "2026-10-21"
+  },
+  {
+    "series": "2026-27 NBA Topps NOW®",
+    "number": "3",
+    "name": "Jaylen Brown, Tyrese Maxey",
+    "printRun": "",
+    "saleFrom": "Oct 21, 2026",
+    "saleUntil": "Oct 23, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/jaylen-brown-tyrese-maxey-2026-27-nba-topps-now-r-card-3",
+    "evidence": {
+      "url": "https://www.topps.com/products/jaylen-brown-tyrese-maxey-2026-27-nba-topps-now-r-card-3",
+      "sha256": "ae471aaa0c203a042bca22eaa4eb643dd865d75756665ea324440acd63f2a705",
+      "observed": "2026-10-21",
+      "title": "Jaylen Brown / Tyrese Maxey - 2026-27 NBA Topps NOW® - Card 3",
+      "fields": {
+        "SKU": "ARTBK-16C2S-27TN-0003",
+        "Category": "Sports",
+        "Sub Categories": "Basketball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Jaylen Brown, Tyrese Maxey",
+        "Properties": "Philadelphia 76ers",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 21, 2026",
+        "Available Until": "Oct 23, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261021-2300-nba.json"
+    },
+    "saleFromISO": "2026-10-21"
+  },
+  {
+    "series": "2026-27 NBA Topps NOW®",
+    "number": "4",
+    "name": "Paul George",
+    "printRun": "",
+    "saleFrom": "Oct 21, 2026",
+    "saleUntil": "Oct 23, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/paul-george-2026-27-nba-topps-now-r-card-4",
+    "evidence": {
+      "url": "https://www.topps.com/products/paul-george-2026-27-nba-topps-now-r-card-4",
+      "sha256": "ab32f482122140bb92f7f7f94d9520b94dd164f4cac522458b3d7375b8adbfd3",
+      "observed": "2026-10-21",
+      "title": "Paul George - 2026-27 NBA Topps NOW® - Card 4",
+      "fields": {
+        "SKU": "ARTBK-16C2S-27TN-0004",
+        "Category": "Sports",
+        "Sub Categories": "Basketball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Paul George",
+        "Properties": "Boston Celtics",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 21, 2026",
+        "Available Until": "Oct 23, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261021-2300-nba.json"
+    },
+    "saleFromISO": "2026-10-21"
+  },
+  {
+    "series": "2026-27 NBA Topps NOW®",
+    "number": "5",
+    "name": "Detroit Pistons",
+    "printRun": "",
+    "saleFrom": "Oct 21, 2026",
+    "saleUntil": "Oct 23, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/detroit-pistons-2026-27-nba-topps-now-r-card-5",
+    "evidence": {
+      "url": "https://www.topps.com/products/detroit-pistons-2026-27-nba-topps-now-r-card-5",
+      "sha256": "c91e7aca4e8ad6590a62be8cea49bc58e4734f40fa1549dd2e6dc1def61799d1",
+      "observed": "2026-10-21",
+      "title": "Detroit Pistons - 2026-27 NBA Topps NOW® - Card 5",
+      "fields": {
+        "SKU": "ARTBK-16C2S-27TN-0005",
+        "Category": "Sports",
+        "Sub Categories": "Basketball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Detroit Pistons",
+        "Properties": "Detroit Pistons",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 21, 2026",
+        "Available Until": "Oct 23, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261021-2300-nba.json"
+    },
+    "saleFromISO": "2026-10-21"
+  },
+  {
+    "series": "2026-27 NBA Topps NOW®",
+    "number": "6",
+    "name": "Aday Mara",
+    "printRun": "",
+    "saleFrom": "Oct 21, 2026",
+    "saleUntil": "Oct 23, 2026",
+    "parallels": [
+      "/50 Gold Foil",
+      "/25 Orange Foil",
+      "/10 Black Foil",
+      "/5 Red Foil",
+      "/1 FoilFractor"
+    ],
+    "terms": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+    "source": "https://www.topps.com/products/aday-mara-2026-27-nba-topps-now-r-card-6",
+    "evidence": {
+      "url": "https://www.topps.com/products/aday-mara-2026-27-nba-topps-now-r-card-6",
+      "sha256": "268d231cca494e9620595b13a24de88450ed177ee006f17e1cf18abf5f47f19d",
+      "observed": "2026-10-21",
+      "title": "Aday Mara - 2026-27 NBA Topps NOW® - Card 6",
+      "fields": {
+        "SKU": "ARTBK-16C2S-27TN-0006",
+        "Category": "Sports",
+        "Sub Categories": "Basketball",
+        "Sub Type": "Cards",
+        "Product Year": "2026",
+        "Brand": "Topps",
+        "Sub Brand": "Topps NOW®",
+        "Subjects": "Aday Mara",
+        "Properties": "Oklahoma City Thunder",
+        "Product Type": "Print on Demand",
+        "Available From": "Oct 21, 2026",
+        "Available Until": "Oct 23, 2026"
+      },
+      "overview": "Published card types: Open-Edition Base Card; Foil Parallels Numbered to /50 and lower\nA non-base card replaces the ordered base card; allocation depends on total orders. Numeric pack odds are not published.\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure.\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure.\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure.\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.",
+      "sourceKind": "official-browser-product",
+      "snapshotFile": "data/catalog-sources/topps-now-backfill-browser-20261021-2300-nba.json"
+    },
+    "saleFromISO": "2026-10-21"
+  },
+  {
+    "series": "2026-27 NBA Topps NOW®",
     "number": "ADYB",
     "name": "AJ Dybantsa",
     "printRun": "42590",

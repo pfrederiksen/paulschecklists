@@ -711,3 +711,36 @@ for number,name in [('27','Bo Jackson'),('28','Darian Mensah'),('29','Bear Bachm
     assert ('/5 Auto-Helmet Decal Relic Redemption Card' in card['terms'])==(number=='29')
     assert ('/1 Auto-Helmet Decal Relic Redemption Card' in card['terms'])==(number=='29')
 print('Verified four Bowman additions, isolated autograph/relic terms and five hash-checked same-SKU identity revisions without duplicate public cards.')
+
+nba_snapshot_path='data/catalog-sources/topps-now-backfill-browser-20261021-2300-nba.json'
+nba_snapshot=json.loads((root/nba_snapshot_path).read_text())
+nba_sources={p['url']:p for p in nba_snapshot['products']}
+assert len(nba_sources)==6
+nba_cards=[p for p in observations if p['source'] in nba_sources]
+assert len(nba_cards)==6 and {p['number'] for p in nba_cards}==set('123456')
+nba_names={'1':'LeBron James','2':'New York Knicks','3':'Jaylen Brown, Tyrese Maxey',
+           '4':'Paul George','5':'Detroit Pistons','6':'Aday Mara'}
+nba_properties={'1':'Philadelphia 76ers','2':'New York Knicks','3':'Philadelphia 76ers',
+                '4':'Boston Celtics','5':'Detroit Pistons','6':'Oklahoma City Thunder'}
+nba_table=json.loads((root/'data/imports/topps-now-2026-27-nba-topps-now.json').read_text())
+assert nba_table['coverageComplete'] is False and len(nba_table['rows'])==37
+for p in nba_cards:
+    assert p['series']=='2026-27 NBA Topps NOW®' and p['name']==nba_names[p['number']]
+    assert p['saleFrom']=='Oct 21, 2026' and p['saleFromISO']=='2026-10-21'
+    assert p['saleUntil']=='Oct 23, 2026' and not p['printRun']
+    assert p['parallels']==['/50 Gold Foil','/25 Orange Foil','/10 Black Foil','/5 Red Foil','/1 FoilFractor']
+    assert len(re.findall(r'(?m)^[\d,]+\+ Print Run:',p['terms']))==4
+    assert all(tier in p['terms'] for tier in ['50,000+','100,000+','250,000+','500,000+'])
+    assert ('/1 Autograph-Relic Redemption Card' in p['terms'])==(p['number']=='1')
+    fields=p['evidence']['fields']
+    assert fields['Properties']==nba_properties[p['number']] and fields['Product Year']=='2026'
+    assert fields['Subjects']==p['name'] and fields['Sub Categories']=='Basketball'
+    assert p['evidence']['snapshotFile']==nba_snapshot_path
+    assert p['evidence']['sha256']==hashlib.sha256('\n'.join(nba_sources[p['source']]['lines']).encode()).hexdigest()
+    row=next(row for row in nba_table['rows'] if row[1]==p['number'])
+    assert row[0]==p['series'] and row[2]==p['name'] and row[3]==''
+    assert row[4:6]==['Oct 21, 2026','Oct 23, 2026']
+    assert row[6]=='; '.join(p['parallels']) and row[7]==p['terms'] and row[8]==p['source']
+    assert sum(row[0]==p['series'] and row[1]==p['number'] for row in aggregate['rows'])==1
+assert 'odds' not in nba_table and 'formats' not in nba_table
+print('Verified six October21 NBA active cards: exact subjects, sale windows, five foils, four conditional thresholds, isolated LeBron autograph-relic term and original Properties fields;37-card history remains partial.')
