@@ -29,6 +29,15 @@ for record in records:
    assert '2025-26 Panini' in record['title']
  for spec in data['publishedSpecifications']:
   if spec.get('evidenceFile'):assert hashlib.sha256((ROOT/spec['evidenceFile']).read_bytes()).hexdigest()==spec['evidenceSha256']
+ if data.get('guideReview'):
+  proof=data['guideReview'];assert proof==record['guideReview']
+  assert hashlib.sha256((ROOT/proof['file']).read_bytes()).hexdigest()==proof['sha256']
+  guide=json.loads((ROOT/proof['file']).read_text())
+  for snapshot in guide['snapshots']:
+   if snapshot['id'] not in guide['mapping'][record['slug']]:continue
+   facts=json.dumps(snapshot['facts'],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
+   assert hashlib.sha256(facts).hexdigest()==snapshot['factsSha256']
+   assert any(spec.get('source')==snapshot['source'] and spec.get('rows')==[[*row,snapshot['source']] for row in snapshot['facts']] for spec in data['publishedSpecifications'])
 print(f"Verified {len(records)} official Panini exports and {sum(r['rowCount'] for r in records):,} original rows, hashes and numbering entries.")
 pending=[r for r in json.loads((ROOT/'data/set-catalog.json').read_text())['sets'] if r.get('importKind')=='panini-source-only']
 for record in pending:

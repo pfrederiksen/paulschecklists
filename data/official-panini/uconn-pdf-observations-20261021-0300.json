@@ -1,0 +1,28 @@
+{
+  "observed": "2026-10-21",
+  "source": "https://blog.paniniamerica.net/panini-to-introduce-the-first-ever-uconn-basketball-trading-card-box-set/",
+  "method": "Fresh official article link read; both linked PDFs fetched and parsed in four physical columns. Two-page source visually checked against rendered pages. No OCR-derived facts.",
+  "primary": {
+    "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/03/UConn-checklist1-1.pdf",
+    "file": "data/official-panini/panini-2025-panini-uconn-box-set-basketball.pdf",
+    "sha256": "c98ddf7a3c08e94fbcd2defc46f6f0e195228bb6e2b367d5d642b9f5b5856d4e",
+    "bytes": 605969,
+    "rows": 169,
+    "populatedSections": 14
+  },
+  "alternate": {
+    "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/03/UConn-checklist1.pdf",
+    "file": "data/official-panini/alternates/panini-2025-panini-uconn-box-set-basketball-bc868a989c10.pdf",
+    "sha256": "bc868a989c102c173a7eb8f5fed946f4c20aa33f0efd88ff7b8ec193eddbc47b",
+    "bytes": 299167,
+    "rows": 108,
+    "allOverlappingEntriesAgree": true,
+    "omittedEntries": 61
+  },
+  "emptyHeading": "PINNACLE MASCOT",
+  "printedMarks": {
+    "SP": 34,
+    "SSP": 18
+  },
+  "note": "All 169 printed entries and 52 literal SP/SSP marks from the two-page official PDF are retained. The second currently linked one-page PDF contains 108 matching entries and omits 61; neither link establishes a revision date. Repeated Private Signings codes and separate marked/unmarked versions remain separate source rows. Pinnacle Mascot is an empty printed heading, with no published card roster. The official CSV export is header-only; its evidence is retained separately. No teams, rookie flags, serial limits or pack odds are printed in these checklists. SP/SSP are source designations, not numeric odds or serial numbers. Card-image handwriting is not imported. The March 13, 2025 announcement and preorder wording do not establish a general release date. Exhaustive product-guide/parallel reconciliation and calendar-year release coverage remain incomplete."
+}

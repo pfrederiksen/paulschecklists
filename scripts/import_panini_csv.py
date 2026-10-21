@@ -20,9 +20,13 @@ for filename in sys.argv[1:]:
  prior=next((r for r in catalog['sets'] if r['slug']==slug),None)
  product_year=year
  season=re.search(r' \((\d{2})-(\d{2})\)$',program)
- if season and year.endswith(season[1]):
-  product_year=year+'-'+season[2];title=f'{product_year} Panini {program[:season.start()]} {sport}'
- archive=ROOT/'data/official-panini'/f'{slug}.csv';archive.parent.mkdir(exist_ok=True);shutil.copyfile(source,archive)
+ leading_season=re.match(r'^(20\d{2})-(\d{2}) (.+)$',program)
+ if season:
+  product_year=year[:2]+season[1]+'-'+season[2];title=f'{product_year} Panini {program[:season.start()]} {sport}'
+ elif leading_season:
+  product_year=leading_season[1]+'-'+leading_season[2];title=f'{product_year} Panini {leading_season[3]} {sport}'
+ archive=ROOT/'data/official-panini'/f'{slug}.csv';archive.parent.mkdir(exist_ok=True)
+ if source.resolve()!=archive.resolve():shutil.copyfile(source,archive)
  digest=hashlib.sha256(raw).hexdigest()
  rows=[[r[4],r[8],r[5],r[9],*r] for r in original]
  specs=[]
@@ -62,6 +66,9 @@ for filename in sys.argv[1:]:
   elif prior.get('priorSourceOnlyEvidence'):
    record['priorSourceOnlyEvidence']=prior['priorSourceOnlyEvidence']
    payload['priorSourceOnlyEvidence']=prior['priorSourceOnlyEvidence']
+ if observation and observation.get('guideReview'):
+  from panini_guide_context import apply_context
+  apply_context(record,payload,observation['guideReview'])
  (ROOT/path).write_text(json.dumps(payload,ensure_ascii=False)+'\n')
  for collection in [catalog['sets'],inventory]:
   matches=[i for i,r in enumerate(collection) if r['slug']==slug or (r.get('dedicatedParser')=='scripts/import_panini_csv.py' and r.get('sourceSelection')==payload['sourceSelection'])]

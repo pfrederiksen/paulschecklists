@@ -1,0 +1,456 @@
+{
+  "checkedUtc": "2026-10-21T03:43:06.126Z",
+  "url": "https://www.paniniamerica.net/checklist.html",
+  "sports": [
+    "Baseball",
+    "Basketball",
+    "Entertainment",
+    "Fight",
+    "Football",
+    "Golf",
+    "Hockey",
+    "Miscellaneous",
+    "Racing",
+    "Soccer",
+    "UFC",
+    "WWE"
+  ],
+  "availableYears": [
+    {
+      "sport": "Baseball",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008",
+        "2005",
+        "2004"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009"
+      ]
+    },
+    {
+      "sport": "Entertainment",
+      "years": [
+        "2025",
+        "2024",
+        "2023",
+        "2021",
+        "2020",
+        "2019",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008",
+        "2007"
+      ]
+    },
+    {
+      "sport": "Fight",
+      "years": [
+        "2026",
+        "2025"
+      ]
+    },
+    {
+      "sport": "Football",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008",
+        "2007",
+        "2006",
+        "2005",
+        "2004"
+      ]
+    },
+    {
+      "sport": "Golf",
+      "years": [
+        "2026",
+        "2025",
+        "2024"
+      ]
+    },
+    {
+      "sport": "Hockey",
+      "years": [
+        "2013",
+        "2012",
+        "2011",
+        "2010"
+      ]
+    },
+    {
+      "sport": "Miscellaneous",
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "sport": "Racing",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016"
+      ]
+    },
+    {
+      "sport": "Soccer",
+      "years": [
+        "2026",
+        "2025",
+        "2024",
+        "2023",
+        "2022",
+        "2021",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015"
+      ]
+    },
+    {
+      "sport": "UFC",
+      "years": [
+        "2023",
+        "2022",
+        "2021"
+      ]
+    },
+    {
+      "sport": "WWE",
+      "years": [
+        "2024",
+        "2023",
+        "2022"
+      ]
+    }
+  ],
+  "inventory2026": [
+    {
+      "sport": "Baseball",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss",
+        "Elite"
+      ]
+    },
+    {
+      "sport": "Baseball",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Immaculate Collection",
+        "Prizm",
+        "Stars and Stripes Prizm"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "WNBA Donruss"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "WNBA Prizm"
+      ]
+    },
+    {
+      "sport": "Fight",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "MLW Ring Royalty",
+        "PFL Contenders"
+      ]
+    },
+    {
+      "sport": "Football",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss"
+      ]
+    },
+    {
+      "sport": "Football",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Obsidian"
+      ]
+    },
+    {
+      "sport": "Golf",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Contenders",
+        "Par Three LIV"
+      ]
+    },
+    {
+      "sport": "Miscellaneous",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "90’s Pop Culture Box Set"
+      ]
+    },
+    {
+      "sport": "Miscellaneous",
+      "year": "2026",
+      "brand": "Score",
+      "programs": [
+        "Score-A-Treat"
+      ]
+    },
+    {
+      "sport": "Racing",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss"
+      ]
+    },
+    {
+      "sport": "Racing",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Select",
+        "Track Kings",
+        "Turn Four"
+      ]
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss NWSL"
+      ]
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "programs": [
+        "Luminance England",
+        "Luminance France",
+        "Luminance Germany",
+        "Obsidian K League",
+        "Panini Intl England",
+        "Panini Intl France",
+        "Panini Intl Germany",
+        "Panini Intl Mexico",
+        "Prizm World Cup (25-26)",
+        "Revolution K League"
+      ]
+    }
+  ],
+  "observed": "2026-10-21",
+  "sourceKind": "official-browser-selectors",
+  "method": "Fresh all 12 visible sport/year selectors and all 14 2026 brands / 30 programs.",
+  "inventoryUnchanged": true,
+  "csvExportRefreshCompleted": false,
+  "remainingGaps": [
+    "Twelve missing older-year programs are now imported; the other 32 retained source-year 2025 CSV revisions and broader older-product-year calendar inventory remain pending. Source year and observation date do not establish release date. Exhaustive guide and parallel eligibility review remains incomplete."
+  ],
+  "csvRevisionScope": {
+    "currentSourceYear2026Menus": "All 12 sports / 14 brands / 30 programs freshly read unchanged.",
+    "lastCompleteSourceYear2026CsvReview": {
+      "file": "data/official-source-reviews/panini-current-2026-csv-20261021-0200.json",
+      "sha256": "e6404c2a583ccb685e2a059d003548e7965547be5de1f509430ba557c2482f44"
+    },
+    "newSourceYear2025Exports": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564"
+    },
+    "freshSourceYear2026CsvRefreshThisRun": false,
+    "freshMissingSourceYear2025Exports": 12,
+    "fullCsvRows": 98995,
+    "headerOnlyExports": 1,
+    "headerOnlyResolution": "Separate official UConn PDF supplies 169 validated rows."
+  },
+  "olderSourceYearMenus": {
+    "checkedUtc": "2026-10-21T03:43:19.708Z",
+    "source": "https://www.paniniamerica.net/checklist.html",
+    "inventory": [
+      {
+        "sport": "Football",
+        "year": "2025",
+        "brand": "Donruss",
+        "programs": [
+          "Donruss",
+          "Elite",
+          "Optic"
+        ]
+      },
+      {
+        "sport": "Football",
+        "year": "2025",
+        "brand": "Panini",
+        "programs": [
+          "Absolute",
+          "Authentically Mahomes",
+          "Black",
+          "Certified",
+          "Flawless",
+          "Honors",
+          "Immaculate Collection",
+          "Impeccable",
+          "Luminance",
+          "Mosaic",
+          "National Treasures Collegiate",
+          "Origins",
+          "Phoenix",
+          "PhotoGenic",
+          "Prizm",
+          "Prizm Black",
+          "Prizm Draft Picks",
+          "Revolution",
+          "Rookies and Stars",
+          "Select",
+          "Silhouette"
+        ]
+      },
+      {
+        "sport": "Football",
+        "year": "2025",
+        "brand": "Playoff",
+        "programs": [
+          "National Treasures"
+        ]
+      },
+      {
+        "sport": "Football",
+        "year": "2025",
+        "brand": "Score",
+        "programs": [
+          "Score"
+        ]
+      },
+      {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Donruss",
+        "programs": [
+          "Donruss (25-26)",
+          "WNBA Donruss"
+        ]
+      },
+      {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "programs": [
+          "Caitlin Clark Chronicled",
+          "Court Kings (25-26)",
+          "EuroLeague Origins (25-26)",
+          "EuroLeague Select (25-26)",
+          "Noir (25-26)",
+          "Origins (25-26)",
+          "Prizm (25-26)",
+          "Prizm Black (24-25)",
+          "Select (25-26)",
+          "Signature Series (25-26)",
+          "WNBA Impeccable",
+          "WNBA One and One",
+          "WNBA Prizm",
+          "WNBA Select"
+        ]
+      },
+      {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Playoff",
+        "programs": [
+          "2025-26 EuroLeague Contenders"
+        ]
+      },
+      {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Score",
+        "programs": [
+          "UCONN Box Set"
+        ]
+      }
+    ]
+  }
+}

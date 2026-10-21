@@ -1,0 +1,218 @@
+{
+  "observed": "2026-10-21",
+  "checkedUtc": "2026-10-21T03:53:04.584891+00:00",
+  "sourceKind": "official-browser-normalized-factual-observations",
+  "method": "Fresh official article and product-page UI reads. Facts are normalized factual snapshots with explicit original units and product/format scope; their hashes are not raw HTML hashes. No source document instructions were followed.",
+  "snapshots": [
+    {
+      "id": "national-treasures",
+      "source": "https://blog.paniniamerica.net/extend-football-season-with-2025-panini-national-treasures-nfl/",
+      "publicationDate": "2026-02-18",
+      "facts": [
+        [
+          "Product",
+          "2025 National Treasures NFL",
+          "Product year 2025; article publication does not establish a general release date."
+        ],
+        [
+          "Named programs",
+          "Rookie Jumbo Prime Signature Booklets; Rookie Triple Booklet; Elevated Ink; Super Bowl Immortality; Gridiron Graphs",
+          "No numeric serial ladder or pack-odds table in the checked article."
+        ]
+      ],
+      "factsSha256": "f8278a39c1eaa58e659ea39718d9f86aa386c97b6283009bfd8386131582e0a9"
+    },
+    {
+      "id": "prizm-black",
+      "source": "https://blog.paniniamerica.net/settle-in-for-the-season-of-2024-25-panini-prizm-black-nba/",
+      "publicationDate": "2025-09-23",
+      "facts": [
+        [
+          "Product season",
+          "2024-25 Prizm Black NBA",
+          "The current checklist selector/export YEAR is 2025."
+        ],
+        [
+          "Hobby configuration",
+          "12 packs of 12 cards",
+          "Published pack configuration; not pack odds."
+        ],
+        [
+          "Autographs",
+          "5 per box, on average",
+          "Box average, not a card-level probability."
+        ],
+        [
+          "Base Prizms",
+          "22 per box, on average",
+          "Box average, not pack odds."
+        ],
+        [
+          "Inserts / insert Prizms",
+          "10 per box, on average",
+          "Box average."
+        ],
+        [
+          "Groovy SP",
+          "1 per case",
+          "Published distribution unit remains case."
+        ],
+        [
+          "Manga, Prizmania, Color Blast, or Color Blast Duals SSP",
+          "1 per case",
+          "Alternative-program statement; no individual-program probability inferred."
+        ],
+        [
+          "Release wording",
+          "Coming soon",
+          "Article publication is not a general release date."
+        ]
+      ],
+      "factsSha256": "85582560e48e4a8760b22e385c74a908891181cf4e5b2ef5f6cb908fd36ce4f1"
+    },
+    {
+      "id": "clark-launch",
+      "source": "https://blog.paniniamerica.net/panini-america-presents-a-special-collecting-experience-caitlin-clark-chronicled/",
+      "publicationDate": "2025-12-15",
+      "facts": [
+        [
+          "Caitlin Clark Chronicled set",
+          "100 cards",
+          "Base collection description; the CSV separately enumerates all 77 card-set programs."
+        ],
+        [
+          "Keepsake",
+          "22 pages",
+          "Not a card count or serial limit."
+        ],
+        [
+          "Included packs",
+          "8 packs, 4 cards per pack; 32 randomly inserted cards",
+          "Configuration, not pack odds."
+        ],
+        [
+          "Named parallels",
+          "Red Holo; Red Cracked Ice",
+          "No numeric limit or exact card eligibility supplied by this statement."
+        ],
+        [
+          "Retail availability",
+          "Already available at Target stores and Target.com in the December 15, 2025 announcement",
+          "This is availability-by evidence, not an exact general release date or a new 2026 release."
+        ]
+      ],
+      "factsSha256": "c8129f9868493c4d013eb43610fda74e69a522fa12711c899418ed73d3e4aa10"
+    },
+    {
+      "id": "clark-store",
+      "source": "https://www.paniniamerica.net/2025-panini-caitlin-clark-chronicled-keepsake",
+      "facts": [
+        [
+          "Store SKU",
+          "2-19734-08",
+          "Product identity, not a card number."
+        ],
+        [
+          "Configuration",
+          "4 cards per pack; 8 packs per box; 8 boxes per case",
+          "No pack-odds table is linked on the checked product page."
+        ],
+        [
+          "Panini online-store exclusives",
+          "Yellow Holo; Yellow Cubic",
+          "Store-specific qualifier; no numerical ladder or extrapolated family eligibility."
+        ]
+      ],
+      "factsSha256": "53055dac616fe5d1e567a92dd2a52d893d73715537e229259c6470faee997c74"
+    },
+    {
+      "id": "wnba-select-mega",
+      "source": "https://www.paniniamerica.net/2025-panini-select-wnba-trading-card-box-hobby-mega-box",
+      "facts": [
+        [
+          "Configuration",
+          "4 cards per pack; 10 packs per box; 20 boxes per case",
+          "Hobby Mega Box SKU 2-19332-20."
+        ],
+        [
+          "Inserts or parallels",
+          "12 per box, on average",
+          "Original distribution unit; not pack odds."
+        ],
+        [
+          "Exclusive parallels",
+          "6 per box, on average",
+          "No individual parallel probability inferred."
+        ],
+        [
+          "Named parallels",
+          "Green and Blue Prizms; Orange and Purple Prizms; Tiger Prizms",
+          "No numeric serial ladder supplied by these labels."
+        ],
+        [
+          "Black Finite",
+          "Numbered to 1",
+          "Family unnamed in this product-level sentence; exact per-card numbering remains from the CSV."
+        ],
+        [
+          "Gold Ice",
+          "Numbered to 10",
+          "Family unnamed; no broad eligibility inferred."
+        ],
+        [
+          "Green Ice",
+          "Hobby Mega exclusive",
+          "Format qualifier only, not a numeric serial claim."
+        ]
+      ],
+      "factsSha256": "24f03e31fd49fcbd3510a2f4ab358800c9bbbdd5ff0534646cfe440653235564"
+    },
+    {
+      "id": "uconn-launch",
+      "source": "https://blog.paniniamerica.net/panini-to-introduce-the-first-ever-uconn-basketball-trading-card-box-set/",
+      "publicationDate": "2025-03-13",
+      "facts": [
+        [
+          "Retail configuration",
+          "4 cards per pack; 6 packs per box; 20 boxes per case",
+          "Product configuration, not pack odds."
+        ],
+        [
+          "Hobby configuration",
+          "6 cards per pack; 2 autographed cards per box",
+          "No Hobby packs-per-box number is stated."
+        ],
+        [
+          "Release wording",
+          "Preorder soon",
+          "March 13 is the announcement date, not a general release date."
+        ],
+        [
+          "Official linked checklists",
+          "Two-page UConn-checklist1-1.pdf and one-page UConn-checklist1.pdf",
+          "169 and 108 printed entries respectively; all overlapping card facts agree."
+        ]
+      ],
+      "factsSha256": "9d25bb51ed29a98fcfe5defad7d414ff3264c9d46e5450d8a539c48100280dfb"
+    }
+  ],
+  "mapping": {
+    "panini-2025-panini-national-treasures-football": [
+      "national-treasures"
+    ],
+    "panini-2025-panini-prizm-black-24-25-basketball": [
+      "prizm-black"
+    ],
+    "panini-2025-panini-caitlin-clark-chronicled-basketball": [
+      "clark-launch",
+      "clark-store"
+    ],
+    "panini-2025-panini-wnba-select-basketball": [
+      "wnba-select-mega"
+    ],
+    "panini-2025-panini-uconn-box-set-basketball": [
+      "uconn-launch"
+    ]
+  },
+  "remainingGaps": "These specific guide reads do not establish exhaustive guide/parallel coverage. No numerical pack odds or unsupported family joins are imported. Other newly imported CSV programs still need full guide and calendar-release review."
+}

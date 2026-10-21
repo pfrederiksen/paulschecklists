@@ -1,0 +1,336 @@
+{
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "observed": "2026-10-21",
+  "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate.",
+  "exports": [
+    {
+      "sourceSelection": {
+        "sport": "Football",
+        "year": "2025",
+        "brand": "Playoff",
+        "program": "National Treasures"
+      },
+      "slug": "panini-2025-panini-national-treasures-football",
+      "sourceExport": "data/official-panini/panini-2025-panini-national-treasures-football.csv",
+      "downloadName": "2025 Playoff National Treasures (Football).csv",
+      "rows": 13918,
+      "families": 1114,
+      "numberedRows": 11484,
+      "sha256": "6ef2085d2f7b6ee06ed2cef673c3c80db8e31fb82134127c996f77b8dda89314",
+      "bytes": 1983746,
+      "checkedUtc": "2026-10-21T03:44:16.699Z",
+      "guideReview": {
+        "file": "data/parallel-audit-sources/panini-older-guides-20261021-0300.json",
+        "sha256": "b75ceb5bcaae3fd48a0e7f189f321cabd8e2e3fbf48b3de1d96f00fc8c88776b"
+      }
+    },
+    {
+      "sourceSelection": {
+        "sport": "Football",
+        "year": "2025",
+        "brand": "Score",
+        "program": "Score"
+      },
+      "slug": "panini-2025-panini-score-football",
+      "sourceExport": "data/official-panini/panini-2025-panini-score-football.csv",
+      "downloadName": "2025 Score Score (Football).csv",
+      "rows": 17625,
+      "families": 218,
+      "numberedRows": 12601,
+      "sha256": "eec3a2fb1c98afbf55ce86d04b3a4010c9e15399d54b636eb6a67a3e63fd446d",
+      "bytes": 1722270,
+      "checkedUtc": "2026-10-21T03:44:25.526Z"
+    },
+    {
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Donruss",
+        "program": "Donruss (25-26)"
+      },
+      "slug": "panini-2025-panini-donruss-25-26-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-donruss-25-26-basketball.csv",
+      "downloadName": "2025 Donruss Donruss (25-26) (Basketball).csv",
+      "rows": 19741,
+      "families": 276,
+      "numberedRows": 16400,
+      "sha256": "3dfb7a5dbb2e9d928ad06654f7874c27723562b6135a4440228c84e0d489b4f9",
+      "bytes": 2220803,
+      "checkedUtc": "2026-10-21T03:44:34.283Z"
+    },
+    {
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Donruss",
+        "program": "WNBA Donruss"
+      },
+      "slug": "panini-2025-panini-wnba-donruss-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-wnba-donruss-basketball.csv",
+      "downloadName": "2025 Donruss WNBA Donruss (Basketball).csv",
+      "rows": 5928,
+      "families": 193,
+      "numberedRows": 4232,
+      "sha256": "ceb3eee164a3ed56d39d8fca98d709ad4f94e104707671175f78dda6774b2ae1",
+      "bytes": 657179,
+      "checkedUtc": "2026-10-21T03:44:41.557Z"
+    },
+    {
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Caitlin Clark Chronicled"
+      },
+      "slug": "panini-2025-panini-caitlin-clark-chronicled-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-caitlin-clark-chronicled-basketball.csv",
+      "downloadName": "2025 Panini Caitlin Clark Chronicled (Basketball).csv",
+      "rows": 1205,
+      "families": 77,
+      "numberedRows": 400,
+      "sha256": "5d07ce9434ef8c255b3f55d545834899e5c6ee1aaefc4f400b3a42ce47773b72",
+      "bytes": 151712,
+      "checkedUtc": "2026-10-21T03:45:06.396Z",
+      "guideReview": {
+        "file": "data/parallel-audit-sources/panini-older-guides-20261021-0300.json",
+        "sha256": "b75ceb5bcaae3fd48a0e7f189f321cabd8e2e3fbf48b3de1d96f00fc8c88776b"
+      }
+    },
+    {
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Prizm Black (24-25)"
+      },
+      "slug": "panini-2025-panini-prizm-black-24-25-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-prizm-black-24-25-basketball.csv",
+      "downloadName": "2025 Panini Prizm Black (24-25) (Basketball).csv",
+      "rows": 12092,
+      "families": 235,
+      "numberedRows": 9293,
+      "sha256": "0d236a6f863f5f303c324d555fc67097211eab712e6fdf60035f313e5876176c",
+      "bytes": 1479962,
+      "checkedUtc": "2026-10-21T03:45:15.014Z",
+      "guideReview": {
+        "file": "data/parallel-audit-sources/panini-older-guides-20261021-0300.json",
+        "sha256": "b75ceb5bcaae3fd48a0e7f189f321cabd8e2e3fbf48b3de1d96f00fc8c88776b"
+      }
+    },
+    {
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "WNBA Impeccable"
+      },
+      "slug": "panini-2025-panini-wnba-impeccable-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-wnba-impeccable-basketball.csv",
+      "downloadName": "2025 Panini WNBA Impeccable (Basketball).csv",
+      "rows": 1991,
+      "families": 79,
+      "numberedRows": 1991,
+      "sha256": "67dbab581857a13fd84f9242d733ad18c13b5a7731c8dcae400a2ca9af39c72a",
+      "bytes": 228059,
+      "checkedUtc": "2026-10-21T03:45:22.436Z"
+    },
+    {
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "WNBA One and One"
+      },
+      "slug": "panini-2025-panini-wnba-one-and-one-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-wnba-one-and-one-basketball.csv",
+      "downloadName": "2025 Panini WNBA One and One (Basketball).csv",
+      "rows": 1624,
+      "families": 71,
+      "numberedRows": 1604,
+      "sha256": "6235847782dd48ad9d0d7c37c3a73ec85b713bc3d9186fd89e93c697d99e1bd5",
+      "bytes": 187677,
+      "checkedUtc": "2026-10-21T03:45:29.843Z"
+    },
+    {
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "WNBA Prizm"
+      },
+      "slug": "panini-2025-panini-wnba-prizm-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-wnba-prizm-basketball.csv",
+      "downloadName": "2025 Panini WNBA Prizm (Basketball).csv",
+      "rows": 8879,
+      "families": 160,
+      "numberedRows": 6437,
+      "sha256": "e942c99c003a2c96279774fc90aa51e3e834d3122d469e9f978bed9af1b8a128",
+      "bytes": 970863,
+      "checkedUtc": "2026-10-21T03:46:00.389Z"
+    },
+    {
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "WNBA Select"
+      },
+      "slug": "panini-2025-panini-wnba-select-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-wnba-select-basketball.csv",
+      "downloadName": "2025 Panini WNBA Select (Basketball).csv",
+      "rows": 11754,
+      "families": 255,
+      "numberedRows": 8088,
+      "sha256": "526ae6f6f687dabf842e9f03cade30353ab1ebf1eda43f52f4591bc02834c143",
+      "bytes": 1483994,
+      "checkedUtc": "2026-10-21T03:46:08.277Z",
+      "guideReview": {
+        "file": "data/parallel-audit-sources/panini-older-guides-20261021-0300.json",
+        "sha256": "b75ceb5bcaae3fd48a0e7f189f321cabd8e2e3fbf48b3de1d96f00fc8c88776b"
+      }
+    },
+    {
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Playoff",
+        "program": "2025-26 EuroLeague Contenders"
+      },
+      "slug": "panini-2025-panini-2025-26-euroleague-contenders-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-2025-26-euroleague-contenders-basketball.csv",
+      "downloadName": "2025 Playoff 2025-26 EuroLeague Contenders (Basketball).csv",
+      "rows": 4238,
+      "families": 123,
+      "numberedRows": 3379,
+      "sha256": "b782dead3625e4873c8b512974ae072dc43154337dcaaa1e1c6f43d371c855ac",
+      "bytes": 594843,
+      "checkedUtc": "2026-10-21T03:46:15.546Z"
+    },
+    {
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2025",
+        "brand": "Score",
+        "program": "UCONN Box Set"
+      },
+      "slug": "panini-2025-panini-uconn-box-set-basketball",
+      "sourceExport": "data/official-panini/panini-2025-panini-uconn-box-set-basketball.csv",
+      "downloadName": "2025 Score UCONN Box Set (Basketball).csv",
+      "rows": 0,
+      "families": 0,
+      "numberedRows": 0,
+      "sha256": "686188d1aa115b1eb78922d8c0502b7aceccde3ab17fb63607ad7953ecd01f95",
+      "bytes": 96,
+      "checkedUtc": "2026-10-21T03:46:22.684Z",
+      "guideReview": {
+        "file": "data/parallel-audit-sources/panini-older-guides-20261021-0300.json",
+        "sha256": "b75ceb5bcaae3fd48a0e7f189f321cabd8e2e3fbf48b3de1d96f00fc8c88776b"
+      }
+    }
+  ],
+  "inventory": [
+    {
+      "sport": "Football",
+      "year": "2025",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss",
+        "Elite",
+        "Optic"
+      ]
+    },
+    {
+      "sport": "Football",
+      "year": "2025",
+      "brand": "Panini",
+      "programs": [
+        "Absolute",
+        "Authentically Mahomes",
+        "Black",
+        "Certified",
+        "Flawless",
+        "Honors",
+        "Immaculate Collection",
+        "Impeccable",
+        "Luminance",
+        "Mosaic",
+        "National Treasures Collegiate",
+        "Origins",
+        "Phoenix",
+        "PhotoGenic",
+        "Prizm",
+        "Prizm Black",
+        "Prizm Draft Picks",
+        "Revolution",
+        "Rookies and Stars",
+        "Select",
+        "Silhouette"
+      ]
+    },
+    {
+      "sport": "Football",
+      "year": "2025",
+      "brand": "Playoff",
+      "programs": [
+        "National Treasures"
+      ]
+    },
+    {
+      "sport": "Football",
+      "year": "2025",
+      "brand": "Score",
+      "programs": [
+        "Score"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Donruss",
+      "programs": [
+        "Donruss (25-26)",
+        "WNBA Donruss"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Panini",
+      "programs": [
+        "Caitlin Clark Chronicled",
+        "Court Kings (25-26)",
+        "EuroLeague Origins (25-26)",
+        "EuroLeague Select (25-26)",
+        "Noir (25-26)",
+        "Origins (25-26)",
+        "Prizm (25-26)",
+        "Prizm Black (24-25)",
+        "Select (25-26)",
+        "Signature Series (25-26)",
+        "WNBA Impeccable",
+        "WNBA One and One",
+        "WNBA Prizm",
+        "WNBA Select"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Playoff",
+      "programs": [
+        "2025-26 EuroLeague Contenders"
+      ]
+    },
+    {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Score",
+      "programs": [
+        "UCONN Box Set"
+      ]
+    }
+  ],
+  "scope": "Eleven full card exports and one header-only UCONN Box Set export. UConn has a separately published official PDF. These first observations do not prove that a checklist or product was newly released today or in calendar 2026.",
+  "calendarReleaseCoverageComplete": false,
+  "parallelGuideReviewComplete": false
+}

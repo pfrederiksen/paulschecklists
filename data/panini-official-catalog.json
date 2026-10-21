@@ -2247,5 +2247,531 @@
       },
       "checklistFirstObserved": "2026-10-18"
     }
+  },
+  {
+    "title": "2025 Panini National Treasures Football",
+    "slug": "panini-2025-panini-national-treasures-football",
+    "page": "sets/panini-2025-panini-national-treasures-football.html",
+    "manufacturer": "Panini",
+    "sport": "football",
+    "year": "2025",
+    "sourcePage": "https://www.paniniamerica.net/checklist.html",
+    "checklistUrl": "https://www.paniniamerica.net/checklist.html",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-national-treasures-football.json",
+    "rowCount": 13918,
+    "sections": 1114,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "6ef2085d2f7b6ee06ed2cef673c3c80db8e31fb82134127c996f77b8dda89314",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2025-panini-national-treasures-football.csv",
+    "sourceSelection": {
+      "sport": "Football",
+      "year": "2025",
+      "brand": "Playoff",
+      "program": "National Treasures"
+    },
+    "catalogEvidence": "All 13,918 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "dataAudit": "All 13,918 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "checklistFirstObserved": "2026-10-21",
+    "sourceObservation": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate."
+    },
+    "additionalSources": [
+      {
+        "title": "Reviewed official product / guide context",
+        "url": "https://blog.paniniamerica.net/extend-football-season-with-2025-panini-national-treasures-nfl/"
+      }
+    ],
+    "guideReview": {
+      "file": "data/parallel-audit-sources/panini-older-guides-20261021-0300.json",
+      "sha256": "b75ceb5bcaae3fd48a0e7f189f321cabd8e2e3fbf48b3de1d96f00fc8c88776b"
+    }
+  },
+  {
+    "title": "2025 Panini Score Football",
+    "slug": "panini-2025-panini-score-football",
+    "page": "sets/panini-2025-panini-score-football.html",
+    "manufacturer": "Panini",
+    "sport": "football",
+    "year": "2025",
+    "sourcePage": "https://www.paniniamerica.net/checklist.html",
+    "checklistUrl": "https://www.paniniamerica.net/checklist.html",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-score-football.json",
+    "rowCount": 17625,
+    "sections": 218,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "eec3a2fb1c98afbf55ce86d04b3a4010c9e15399d54b636eb6a67a3e63fd446d",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2025-panini-score-football.csv",
+    "sourceSelection": {
+      "sport": "Football",
+      "year": "2025",
+      "brand": "Score",
+      "program": "Score"
+    },
+    "catalogEvidence": "All 17,625 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "dataAudit": "All 17,625 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "checklistFirstObserved": "2026-10-21",
+    "sourceObservation": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate."
+    }
+  },
+  {
+    "title": "2025-26 Panini Donruss Basketball",
+    "slug": "panini-2025-panini-donruss-25-26-basketball",
+    "page": "sets/panini-2025-panini-donruss-25-26-basketball.html",
+    "manufacturer": "Panini",
+    "sport": "basketball",
+    "year": "2025-26",
+    "sourcePage": "https://www.paniniamerica.net/checklist.html",
+    "checklistUrl": "https://www.paniniamerica.net/checklist.html",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-donruss-25-26-basketball.json",
+    "rowCount": 19741,
+    "sections": 276,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "3dfb7a5dbb2e9d928ad06654f7874c27723562b6135a4440228c84e0d489b4f9",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2025-panini-donruss-25-26-basketball.csv",
+    "sourceSelection": {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Donruss",
+      "program": "Donruss (25-26)"
+    },
+    "catalogEvidence": "All 19,741 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "dataAudit": "All 19,741 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "sourceYear": "2025",
+    "checklistFirstObserved": "2026-10-21",
+    "sourceObservation": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate."
+    }
+  },
+  {
+    "title": "2025 Panini WNBA Donruss Basketball",
+    "slug": "panini-2025-panini-wnba-donruss-basketball",
+    "page": "sets/panini-2025-panini-wnba-donruss-basketball.html",
+    "manufacturer": "Panini",
+    "sport": "basketball",
+    "year": "2025",
+    "sourcePage": "https://www.paniniamerica.net/checklist.html",
+    "checklistUrl": "https://www.paniniamerica.net/checklist.html",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-wnba-donruss-basketball.json",
+    "rowCount": 5928,
+    "sections": 193,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "ceb3eee164a3ed56d39d8fca98d709ad4f94e104707671175f78dda6774b2ae1",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2025-panini-wnba-donruss-basketball.csv",
+    "sourceSelection": {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Donruss",
+      "program": "WNBA Donruss"
+    },
+    "catalogEvidence": "All 5,928 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "dataAudit": "All 5,928 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "checklistFirstObserved": "2026-10-21",
+    "sourceObservation": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate."
+    }
+  },
+  {
+    "title": "2025 Panini Caitlin Clark Chronicled Basketball",
+    "slug": "panini-2025-panini-caitlin-clark-chronicled-basketball",
+    "page": "sets/panini-2025-panini-caitlin-clark-chronicled-basketball.html",
+    "manufacturer": "Panini",
+    "sport": "basketball",
+    "year": "2025",
+    "sourcePage": "https://www.paniniamerica.net/checklist.html",
+    "checklistUrl": "https://www.paniniamerica.net/checklist.html",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-caitlin-clark-chronicled-basketball.json",
+    "rowCount": 1205,
+    "sections": 77,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "5d07ce9434ef8c255b3f55d545834899e5c6ee1aaefc4f400b3a42ce47773b72",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2025-panini-caitlin-clark-chronicled-basketball.csv",
+    "sourceSelection": {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Panini",
+      "program": "Caitlin Clark Chronicled"
+    },
+    "catalogEvidence": "All 1,205 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending. The original official December 15, 2025 announcement already describes Target availability; this is not a newly verified calendar-2026 release. General release day remains unverified.",
+    "dataAudit": "All 1,205 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending. The original official December 15, 2025 announcement already describes Target availability; this is not a newly verified calendar-2026 release. General release day remains unverified.",
+    "checklistFirstObserved": "2026-10-21",
+    "sourceObservation": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate."
+    },
+    "additionalSources": [
+      {
+        "title": "Reviewed official product / guide context",
+        "url": "https://blog.paniniamerica.net/panini-america-presents-a-special-collecting-experience-caitlin-clark-chronicled/"
+      },
+      {
+        "title": "Reviewed official product / guide context",
+        "url": "https://www.paniniamerica.net/2025-panini-caitlin-clark-chronicled-keepsake"
+      }
+    ],
+    "guideReview": {
+      "file": "data/parallel-audit-sources/panini-older-guides-20261021-0300.json",
+      "sha256": "b75ceb5bcaae3fd48a0e7f189f321cabd8e2e3fbf48b3de1d96f00fc8c88776b"
+    }
+  },
+  {
+    "title": "2024-25 Panini Prizm Black Basketball",
+    "slug": "panini-2025-panini-prizm-black-24-25-basketball",
+    "page": "sets/panini-2025-panini-prizm-black-24-25-basketball.html",
+    "manufacturer": "Panini",
+    "sport": "basketball",
+    "year": "2024-25",
+    "sourcePage": "https://www.paniniamerica.net/checklist.html",
+    "checklistUrl": "https://www.paniniamerica.net/checklist.html",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-prizm-black-24-25-basketball.json",
+    "rowCount": 12092,
+    "sections": 235,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "0d236a6f863f5f303c324d555fc67097211eab712e6fdf60035f313e5876176c",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2025-panini-prizm-black-24-25-basketball.csv",
+    "sourceSelection": {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Panini",
+      "program": "Prizm Black (24-25)"
+    },
+    "catalogEvidence": "All 12,092 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "dataAudit": "All 12,092 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "sourceYear": "2025",
+    "checklistFirstObserved": "2026-10-21",
+    "sourceObservation": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate."
+    },
+    "additionalSources": [
+      {
+        "title": "Reviewed official product / guide context",
+        "url": "https://blog.paniniamerica.net/settle-in-for-the-season-of-2024-25-panini-prizm-black-nba/"
+      }
+    ],
+    "guideReview": {
+      "file": "data/parallel-audit-sources/panini-older-guides-20261021-0300.json",
+      "sha256": "b75ceb5bcaae3fd48a0e7f189f321cabd8e2e3fbf48b3de1d96f00fc8c88776b"
+    }
+  },
+  {
+    "title": "2025 Panini WNBA Impeccable Basketball",
+    "slug": "panini-2025-panini-wnba-impeccable-basketball",
+    "page": "sets/panini-2025-panini-wnba-impeccable-basketball.html",
+    "manufacturer": "Panini",
+    "sport": "basketball",
+    "year": "2025",
+    "sourcePage": "https://www.paniniamerica.net/checklist.html",
+    "checklistUrl": "https://www.paniniamerica.net/checklist.html",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-wnba-impeccable-basketball.json",
+    "rowCount": 1991,
+    "sections": 79,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "67dbab581857a13fd84f9242d733ad18c13b5a7731c8dcae400a2ca9af39c72a",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2025-panini-wnba-impeccable-basketball.csv",
+    "sourceSelection": {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Panini",
+      "program": "WNBA Impeccable"
+    },
+    "catalogEvidence": "All 1,991 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "dataAudit": "All 1,991 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "checklistFirstObserved": "2026-10-21",
+    "sourceObservation": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate."
+    }
+  },
+  {
+    "title": "2025 Panini WNBA One and One Basketball",
+    "slug": "panini-2025-panini-wnba-one-and-one-basketball",
+    "page": "sets/panini-2025-panini-wnba-one-and-one-basketball.html",
+    "manufacturer": "Panini",
+    "sport": "basketball",
+    "year": "2025",
+    "sourcePage": "https://www.paniniamerica.net/checklist.html",
+    "checklistUrl": "https://www.paniniamerica.net/checklist.html",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-wnba-one-and-one-basketball.json",
+    "rowCount": 1624,
+    "sections": 71,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "6235847782dd48ad9d0d7c37c3a73ec85b713bc3d9186fd89e93c697d99e1bd5",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2025-panini-wnba-one-and-one-basketball.csv",
+    "sourceSelection": {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Panini",
+      "program": "WNBA One and One"
+    },
+    "catalogEvidence": "All 1,624 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "dataAudit": "All 1,624 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "checklistFirstObserved": "2026-10-21",
+    "sourceObservation": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate."
+    }
+  },
+  {
+    "title": "2025 Panini WNBA Prizm Basketball",
+    "slug": "panini-2025-panini-wnba-prizm-basketball",
+    "page": "sets/panini-2025-panini-wnba-prizm-basketball.html",
+    "manufacturer": "Panini",
+    "sport": "basketball",
+    "year": "2025",
+    "sourcePage": "https://www.paniniamerica.net/checklist.html",
+    "checklistUrl": "https://www.paniniamerica.net/checklist.html",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-wnba-prizm-basketball.json",
+    "rowCount": 8879,
+    "sections": 160,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "e942c99c003a2c96279774fc90aa51e3e834d3122d469e9f978bed9af1b8a128",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2025-panini-wnba-prizm-basketball.csv",
+    "sourceSelection": {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Panini",
+      "program": "WNBA Prizm"
+    },
+    "catalogEvidence": "All 8,879 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "dataAudit": "All 8,879 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "checklistFirstObserved": "2026-10-21",
+    "sourceObservation": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate."
+    }
+  },
+  {
+    "title": "2025 Panini WNBA Select Basketball",
+    "slug": "panini-2025-panini-wnba-select-basketball",
+    "page": "sets/panini-2025-panini-wnba-select-basketball.html",
+    "manufacturer": "Panini",
+    "sport": "basketball",
+    "year": "2025",
+    "sourcePage": "https://www.paniniamerica.net/checklist.html",
+    "checklistUrl": "https://www.paniniamerica.net/checklist.html",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-wnba-select-basketball.json",
+    "rowCount": 11754,
+    "sections": 255,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "526ae6f6f687dabf842e9f03cade30353ab1ebf1eda43f52f4591bc02834c143",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2025-panini-wnba-select-basketball.csv",
+    "sourceSelection": {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Panini",
+      "program": "WNBA Select"
+    },
+    "catalogEvidence": "All 11,754 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "dataAudit": "All 11,754 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "checklistFirstObserved": "2026-10-21",
+    "sourceObservation": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate."
+    },
+    "additionalSources": [
+      {
+        "title": "Reviewed official product / guide context",
+        "url": "https://www.paniniamerica.net/2025-panini-select-wnba-trading-card-box-hobby-mega-box"
+      }
+    ],
+    "guideReview": {
+      "file": "data/parallel-audit-sources/panini-older-guides-20261021-0300.json",
+      "sha256": "b75ceb5bcaae3fd48a0e7f189f321cabd8e2e3fbf48b3de1d96f00fc8c88776b"
+    }
+  },
+  {
+    "title": "2025-26 Panini EuroLeague Contenders Basketball",
+    "slug": "panini-2025-panini-2025-26-euroleague-contenders-basketball",
+    "page": "sets/panini-2025-panini-2025-26-euroleague-contenders-basketball.html",
+    "manufacturer": "Panini",
+    "sport": "basketball",
+    "year": "2025-26",
+    "sourcePage": "https://www.paniniamerica.net/checklist.html",
+    "checklistUrl": "https://www.paniniamerica.net/checklist.html",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-2025-26-euroleague-contenders-basketball.json",
+    "rowCount": 4238,
+    "sections": 123,
+    "parallelData": true,
+    "publishedOdds": false,
+    "importKind": "panini-csv",
+    "dedicatedParser": "scripts/import_panini_csv.py",
+    "sha256": "b782dead3625e4873c8b512974ae072dc43154337dcaaa1e1c6f43d371c855ac",
+    "coverageComplete": true,
+    "sourceExport": "data/official-panini/panini-2025-panini-2025-26-euroleague-contenders-basketball.csv",
+    "sourceSelection": {
+      "sport": "Basketball",
+      "year": "2025",
+      "brand": "Playoff",
+      "program": "2025-26 EuroLeague Contenders"
+    },
+    "catalogEvidence": "All 4,238 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "dataAudit": "All 4,238 rows from the official Panini CSV export are retained, including all original columns, literal card-set parallel names and SEQUENCE values. Empty numbering is not an estimate. Pack odds are absent from this export. Product year does not establish a release date. This export was observed in the official interface on 2026-10-21; that observation is not a release date. Printed card-set identities naming other products are retained. Full product-guide and calendar-release reconciliation remain pending.",
+    "sourceYear": "2025",
+    "checklistFirstObserved": "2026-10-21",
+    "sourceObservation": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "source": "https://www.paniniamerica.net/checklist.html",
+      "method": "Fresh official UI selector choices under source-year 2025 football and basketball, including all brands/programs; Download Full Checklist clicked for each of 12 missing programs. Exact UTF-8 data:attachment/csv DOM payloads retained without changing any original field or whitespace. Each program used a reloaded checklist page to avoid stale export reuse. Product/source year, checklist first observation and release date remain separate."
+    }
+  },
+  {
+    "title": "2025 Panini UConn Box Set Basketball",
+    "slug": "panini-2025-panini-uconn-box-set-basketball",
+    "page": "sets/panini-2025-panini-uconn-box-set-basketball.html",
+    "manufacturer": "Panini",
+    "sport": "basketball",
+    "year": "2025",
+    "sourcePage": "https://blog.paniniamerica.net/panini-to-introduce-the-first-ever-uconn-basketball-trading-card-box-set/",
+    "checklistUrl": "https://blog.paniniamerica.net/wp-content/uploads/2025/03/UConn-checklist1-1.pdf",
+    "releaseStatus": "Unverified",
+    "releaseDate": null,
+    "verified": "2026-10-21",
+    "checklistFirstObserved": "2026-10-21",
+    "status": "Source table",
+    "tableData": "data/imports/panini-2025-panini-uconn-box-set-basketball.json",
+    "rowCount": 169,
+    "sections": 14,
+    "parallelData": false,
+    "publishedOdds": false,
+    "importKind": "panini-pdf",
+    "dedicatedParser": "scripts/import_panini_uconn_2025.py",
+    "sha256": "c98ddf7a3c08e94fbcd2defc46f6f0e195228bb6e2b367d5d642b9f5b5856d4e",
+    "coverageComplete": true,
+    "sourceObservation": {
+      "file": "data/official-panini/uconn-pdf-observations-20261021-0300.json",
+      "sha256": "be9babf6a771f3e5e67d2bfa6833def08fd22d1baa08c8e05957b0bf6fa69700",
+      "source": "https://blog.paniniamerica.net/panini-to-introduce-the-first-ever-uconn-basketball-trading-card-box-set/"
+    },
+    "headerOnlyCsvEvidence": {
+      "file": "data/official-panini/older-year-observations-20261021-0300.json",
+      "sha256": "0e584aabe5d64744a58fc2402e339ff0fbecdadb6fe51184161b30f5cccde564",
+      "sourceExport": "data/official-panini/panini-2025-panini-uconn-box-set-basketball.csv"
+    },
+    "catalogEvidence": "All 169 printed entries and 52 literal SP/SSP marks from the two-page official PDF are retained. The second currently linked one-page PDF contains 108 matching entries and omits 61; neither link establishes a revision date. Repeated Private Signings codes and separate marked/unmarked versions remain separate source rows. Pinnacle Mascot is an empty printed heading, with no published card roster. The official CSV export is header-only; its evidence is retained separately. No teams, rookie flags, serial limits or pack odds are printed in these checklists. SP/SSP are source designations, not numeric odds or serial numbers. Card-image handwriting is not imported. The March 13, 2025 announcement and preorder wording do not establish a general release date. Exhaustive product-guide/parallel reconciliation and calendar-year release coverage remain incomplete.",
+    "dataAudit": "All 169 printed entries and 52 literal SP/SSP marks from the two-page official PDF are retained. The second currently linked one-page PDF contains 108 matching entries and omits 61; neither link establishes a revision date. Repeated Private Signings codes and separate marked/unmarked versions remain separate source rows. Pinnacle Mascot is an empty printed heading, with no published card roster. The official CSV export is header-only; its evidence is retained separately. No teams, rookie flags, serial limits or pack odds are printed in these checklists. SP/SSP are source designations, not numeric odds or serial numbers. Card-image handwriting is not imported. The March 13, 2025 announcement and preorder wording do not establish a general release date. Exhaustive product-guide/parallel reconciliation and calendar-year release coverage remain incomplete.",
+    "additionalSources": [
+      {
+        "title": "Shorter currently linked official checklist",
+        "url": "https://blog.paniniamerica.net/wp-content/uploads/2025/03/UConn-checklist1.pdf"
+      },
+      {
+        "title": "Reviewed official product / guide context",
+        "url": "https://blog.paniniamerica.net/panini-to-introduce-the-first-ever-uconn-basketball-trading-card-box-set/"
+      }
+    ],
+    "guideReview": {
+      "file": "data/parallel-audit-sources/panini-older-guides-20261021-0300.json",
+      "sha256": "b75ceb5bcaae3fd48a0e7f189f321cabd8e2e3fbf48b3de1d96f00fc8c88776b"
+    }
   }
 ]
