@@ -1,0 +1,28 @@
+{
+  "checkedUtc": "2026-10-22T06:16:57.863723+00:00",
+  "sourceKind": "official-browser-access-failure",
+  "completedBeforeFailure": [
+    "All three active NOW pages and Bowman single page",
+    "All55 full active product facts",
+    "Both current Topps global indexes",
+    "Eleven product-specific official checklist/odds pages",
+    "Upper Deck initial15 directory entries",
+    "Panini sport list and first four sport/year inventories"
+  ],
+  "interruptedWork": [
+    "Upper Deck Load More remained loading at15 entries; no fresh75-link directory checkpoint recorded",
+    "Panini remaining menu inventory and Upper Deck complete-table revision reads interrupted by browser tool timeout/reset"
+  ],
+  "observedRecoveryFailure": "Surface inventory returned no browsers and reported that the Mac is locked and automatic unlock failed; rebinding known official Panini tab in the selected browser returned Browser is not available.",
+  "freshCurrentPaniniCsvExports": 0,
+  "freshCompleteUpperDeckTableComparisons": 0,
+  "retainedPaniniReview": {
+    "file": "data/official-source-reviews/panini-current-2026-csv-20261022-0500.json",
+    "sha256": "501c2c3c595d548c1e5918139e4ee19f989fab18c571c5a94d6ce49d63b7b9ae"
+  },
+  "retainedUpperDeckReview": {
+    "file": "data/official-source-reviews/upperdeck-table-revisions-20261022-0500.json",
+    "sha256": "e55ebfa17d43079d15183711305bffeaa0334275368b5630593430b310f6aa9a"
+  },
+  "gap": "Browser must be available again to finish the interrupted manufacturer UI pass. Prior imports and complete05:00 evidence remain preserved; no unchanged-coverage claim is made for unrefreshed CSV or table payloads."
+}

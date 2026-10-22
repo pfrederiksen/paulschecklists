@@ -1,0 +1,119 @@
+{
+  "artifactResponses": 20,
+  "results": [
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/data/imports/topps-bowman-2025-26-topps-uefa-club-competitions.json",
+      "sha256": "0538337bcd48ce753738caab72bd8c672acd09487c0932a4e236349acb103a55",
+      "bytes": 319727
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/data/imports/topps-bowman-2026-bowman-baseball-sapphire-edition.json",
+      "sha256": "c7906e19f36ab861bfb21547cb9717e9dd46513f8b3585ca49349dc8fbf1819f",
+      "bytes": 37707
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/data/player-index.json",
+      "sha256": "d7da1a5820efdd8f6caa39b32d6c6edc067e84987fb84578671b1979c414533e",
+      "bytes": 2179079
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/data/research/topps-bowman-2025-26-topps-uefa-club-competitions.json",
+      "sha256": "4f5dbef35e2e174bab0575f7e54cf0e466efb0ef930a3820d4944995a6cd6c0c",
+      "bytes": 102548
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/data/research/topps-bowman-2026-bowman-baseball-sapphire-edition.json",
+      "sha256": "7be4e79762f5d9b1a6ff9db71dafde4f028b734a671e28b5fe1e675b1a1e2de0",
+      "bytes": 5744
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/data/set-catalog.json",
+      "sha256": "57f9f33180a83522fc634a2defbcce86f536b73fee200b9f67c19c5f4f2a3a16",
+      "bytes": 1179207
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/index.html",
+      "sha256": "d772bdcb798e92321efd2de545e2ec2e80a1ff39d2b31afe7bf8831d036d95dc",
+      "bytes": 193458
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/sets/topps-bowman-2025-26-topps-uefa-club-competitions.html",
+      "sha256": "aa758cd2bdf5e0fcb8487b8f95ccf76db7a0c70bcf7d8beb72dc4d0f43ee11a7",
+      "bytes": 58318
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/sets/topps-bowman-2026-bowman-baseball-sapphire-edition.html",
+      "sha256": "218bc54b95a70dea3cbb2c3ed2903ad11be202e669cfabc99f3db10432ef29ce",
+      "bytes": 23285
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/sitemap.xml",
+      "sha256": "5233c1b7ad95ececab512d34f4963b2ffedece08fdabfd642608bae136542792",
+      "bytes": 54662
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/data/imports/topps-bowman-2025-26-topps-uefa-club-competitions.json",
+      "sha256": "0538337bcd48ce753738caab72bd8c672acd09487c0932a4e236349acb103a55",
+      "bytes": 319727
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/data/imports/topps-bowman-2026-bowman-baseball-sapphire-edition.json",
+      "sha256": "c7906e19f36ab861bfb21547cb9717e9dd46513f8b3585ca49349dc8fbf1819f",
+      "bytes": 37707
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/data/player-index.json",
+      "sha256": "d7da1a5820efdd8f6caa39b32d6c6edc067e84987fb84578671b1979c414533e",
+      "bytes": 2179079
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/data/research/topps-bowman-2025-26-topps-uefa-club-competitions.json",
+      "sha256": "4f5dbef35e2e174bab0575f7e54cf0e466efb0ef930a3820d4944995a6cd6c0c",
+      "bytes": 102548
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/data/research/topps-bowman-2026-bowman-baseball-sapphire-edition.json",
+      "sha256": "7be4e79762f5d9b1a6ff9db71dafde4f028b734a671e28b5fe1e675b1a1e2de0",
+      "bytes": 5744
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/data/set-catalog.json",
+      "sha256": "57f9f33180a83522fc634a2defbcce86f536b73fee200b9f67c19c5f4f2a3a16",
+      "bytes": 1179207
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/index.html",
+      "sha256": "d772bdcb798e92321efd2de545e2ec2e80a1ff39d2b31afe7bf8831d036d95dc",
+      "bytes": 193458
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/sets/topps-bowman-2025-26-topps-uefa-club-competitions.html",
+      "sha256": "aa758cd2bdf5e0fcb8487b8f95ccf76db7a0c70bcf7d8beb72dc4d0f43ee11a7",
+      "bytes": 58318
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/sets/topps-bowman-2026-bowman-baseball-sapphire-edition.html",
+      "sha256": "218bc54b95a70dea3cbb2c3ed2903ad11be202e669cfabc99f3db10432ef29ce",
+      "bytes": 23285
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/sitemap.xml",
+      "sha256": "5233c1b7ad95ececab512d34f4963b2ffedece08fdabfd642608bae136542792",
+      "bytes": 54662
+    },
+    {
+      "url": "https://paulfrederiksen.com/robots.txt",
+      "sha256": "0b6fb87e44057ad9e52a87b9ef85e68e387569058a0d5b967811c8665894a101",
+      "contentType": "text/plain"
+    },
+    {
+      "url": "https://paulfrederiksen.com/ads.txt",
+      "sha256": "789b102b3c617fdfaff82d155add79179ecf1cad375c0e0b87aa30def8a4a7d9",
+      "contentType": "text/plain"
+    }
+  ],
+  "checkedUtc": "2026-10-22T06:17:45.777711+00:00",
+  "sourcePublicDataCommit": "e410abb5a220c6f9d265259d99daa1a77d9338a2",
+  "domainHead": "086da97895ca31a8fe28530f1784f4e401e12ac9",
+  "scope": "Unchanged published artifacts freshly fetched and compared byte-for-byte across both hosts; root robots/ads preserved. Current checkpoint changes evidence metadata only."
+}

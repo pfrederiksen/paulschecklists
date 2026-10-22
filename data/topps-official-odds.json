@@ -588,15 +588,15 @@
     "source": "https://www.topps.com/products/2026-topps-universe-wwe-mega-box",
     "globalCatalogSource": "https://www.topps.com/pages/odds",
     "globalCatalogUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_Odds.pdf?v=1789484084",
-    "globalCatalogStatus": 404,
+    "globalCatalogStatus": 200,
     "sourceReview": {
       "file": "data/official-source-reviews/universe-wwe-2026-odds-link-20261019-0100.json",
       "sha256": "3402f5cf4bdada49a43ac7a8f46f6a69e30265bf42ea0df263ac92196a6d7ff5"
     },
-    "globalCatalogStatusObserved": "2026-10-22T05:25:57.449187+00:00",
+    "globalCatalogStatusObserved": "2026-10-22T06:16:57.863723+00:00",
     "globalCatalogStatusReview": {
-      "file": "data/official-source-reviews/universe-wwe-odds-recheck-20261022-0500.json",
-      "sha256": "cd433b3eb1f1c591c07742b8fe9a55b450cbead4bbef4f9004b2594e4ae1a501"
+      "file": "data/official-source-reviews/universe-wwe-odds-recheck-20261022-0600.json",
+      "sha256": "3b69fc24c2404d6327034c6b412480c236574e1a4ff3449fcb2020dfe51f225e"
     }
   },
   {
