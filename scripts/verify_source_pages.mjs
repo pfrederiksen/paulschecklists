@@ -46,6 +46,19 @@ for(const set of cases){
   get('source-reset').onclick();
  }
  if(kind==='topps-grid-pdf'||(set.dedicatedParser&&data.headers.includes('Name')&&data.headers.includes('Rookie'))){const nameColumn=data.headers.findIndex(h=>/^(?:Player \/ subjects|Player|Name|Subject)$/i.test(h));assert(nameColumn>=0,'A physical checklist must retain its published subject/name header');assert(get('source-results').innerHTML.includes(data.rows[0][nameColumn].replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;')));assert.equal(get('source-team').disabled,!data.headers.some(h=>/^team$/i.test(h)));const flag=data.rookieColumn??data.headers.findIndex(h=>/^(?:Rookie|RC)$/i.test(h));assert.equal(get('source-rookie').disabled,flag<0);if(flag>=0){get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>/^(?:Rookie|RC)$/i.test(r[flag])).length.toLocaleString()} official source rows`);get('source-reset').onclick();}}
+ if(set.dedicatedParser==='scripts/import_topps_inception_football_2026.py'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);
+  assert.equal(get('source-format').disabled,true);assert(get('source-sort').options.find(o=>o.value==='rare').disabled);
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  get('source-export').onclick();assert.equal(csv.split('\r\n').length,539);assert(csv.includes('"Name","Team","Rookie"'));
+  get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,'340 official source rows');
+  get('source-section').value='BASE CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'0 official source rows');get('source-reset').onclick();
+  get('source-section').value='BASE CARDS';get('source-section').onchange();get('source-team').value='Denver Broncos';get('source-team').onchange();assert.equal(get('source-count').textContent,'6 official source rows');get('source-export').onclick();assert(csv.includes('Jaylen Waddle'));get('source-reset').onclick();
+  for(const [family,number,subjects] of [['DUAL ROOKIE AUTOGRAPHS','DRA-KS',['Kenyon Sadiq','Cade Klubnik']],['DUAL ROOKIE RELIC AUTOGRAPHED BOOK','DRRA-PL',['Makai Lemon','Cole Payton']]]){
+   get('source-section').value=family;get('source-section').onchange();get('source-search').value=number;get('source-search').oninput();assert.equal(get('source-count').textContent,'2 official source rows');get('source-export').onclick();assert(subjects.every(name=>csv.includes(name)));get('source-reset').onclick();
+  }
+  get('source-odds-tab').onclick();assert.equal(get('source-format').disabled,true);assert(!get('source-specifications').innerHTML.includes('/35'));get('source-cards-tab').onclick();get('source-reset').onclick();
+ }
  if(set.dedicatedParser==='scripts/import_topps_product_backfills_2026.py'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);
   assert(get('source-sort').options.find(o=>o.value==='rare').disabled,'Unstated ratio units cannot support rarity sorting');

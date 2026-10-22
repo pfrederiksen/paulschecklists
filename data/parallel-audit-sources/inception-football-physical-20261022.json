@@ -1,0 +1,30 @@
+{
+  "observed": "2026-10-22",
+  "checkedUtc": "2026-10-22T08:15:51.654130+00:00",
+  "sourceKind": "official-checklist-physical-column-reconciliation",
+  "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Inception_Football_CheckList_26TIFB_VERSION.pdf?v=1790715925",
+  "checklistSha256": "e913ed2cc504976f4ec1b3e58165f74cc15547d60e90544c95f79e0f4c8746fa",
+  "baselineGenericImport": {
+    "commit": "fb3ca176e34a5d45a446b8c3ce274daee1901514",
+    "path": "data/imports/topps-bowman-2026-topps-inception-football.json",
+    "sha256": "97e1b7ce0f305f746792cf6349e92833bafba3991957de500fcaa21ec44405ed",
+    "rows": 538
+  },
+  "physicalPages": 12,
+  "physicalSubjectRows": 538,
+  "familyCardIdentities": 523,
+  "families": 17,
+  "literalRookieMarks": 340,
+  "physicalColumnOrigins": {
+    "name": 132.62,
+    "team": 269.45,
+    "rookie": 421.27
+  },
+  "method": "Original pdfplumber glyph draw order and exact text-object starts, reconciled with every retained generic row. Independent pypdf cell-object draw-order comparison verifies all fields. No OCR or roster/team/rookie inference.",
+  "reviewedPageImage": "Page7 rendered from the official PDF to inspect the Name/Team/Rookie alignment; no image-derived facts imported.",
+  "retainedGuideCandidateReview": {
+    "file": "data/parallel-audit-sources/inception-football-candidate-review-20261022-0700.json",
+    "sha256": "286f1c68b5f648387cf69df3b31d40dd0e43b4d1b02dab1074adae0717473c07"
+  },
+  "remainingGap": "Complete official guide access and exact-family parallel reconciliation remain pending. The prior checked catalog has no matching Inception Football odds source; current browser listing/index access is blocked. No candidate serial limit, ratio unit, pack format or additional release claim is imported."
+}

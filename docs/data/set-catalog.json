@@ -2352,17 +2352,17 @@
       "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Inception_Football_CheckList_26TIFB_VERSION.pdf?v=1790715925",
       "releaseStatus": "Upcoming",
       "releaseDate": "2026-11-06",
-      "catalogEvidence": "Listed in Topps’ 2026 checklist catalog; this is not a verified release date.",
+      "catalogEvidence": "All 538 physical subject rows / 523 family-card identities across 17 sections retain separate Name, Team and Rookie cells. All 340 Rookie marks are literal PDF values; no flags or teams are inferred or propagated. BASE CARDS prints 1–150 and ROOKIE 151–200. Both subjects remain attached to every repeated dual code, including DRA-KS and DRRA-PL across page breaks. Original historical teams and the printed COMMISIONER heading are preserved. Published pack odds and formats are unavailable in the retained checked sources. Full guide verification and exact-family parallel numbering remain pending; search candidates are not imported as serial limits. The verified November 6 calendar schedule remains separate from checklist availability.",
       "slug": "topps-bowman-2026-topps-inception-football",
       "page": "sets/topps-bowman-2026-topps-inception-football.html",
       "status": "Source table",
-      "verified": "2026-10-11",
+      "verified": "2026-10-22",
       "rowCount": 538,
       "tableData": "data/imports/topps-bowman-2026-topps-inception-football.json",
       "sections": 17,
-      "importKind": "pdf",
-      "dataAudit": "Official fields imported; missing manufacturer odds or serial numbering are not estimated.",
-      "parallelData": true,
+      "importKind": "topps-grid-pdf",
+      "dataAudit": "All 538 physical subject rows / 523 family-card identities across 17 sections retain separate Name, Team and Rookie cells. All 340 Rookie marks are literal PDF values; no flags or teams are inferred or propagated. BASE CARDS prints 1–150 and ROOKIE 151–200. Both subjects remain attached to every repeated dual code, including DRA-KS and DRRA-PL across page breaks. Original historical teams and the printed COMMISIONER heading are preserved. Published pack odds and formats are unavailable in the retained checked sources. Full guide verification and exact-family parallel numbering remain pending; search candidates are not imported as serial limits. The verified November 6 calendar schedule remains separate from checklist availability.",
+      "parallelData": false,
       "verifiedRelease": {
         "url": "https://www.topps.com/release-calendar",
         "title": "2026 Topps Inception Football",
@@ -2372,6 +2372,15 @@
         "scope": "United States release calendar; dates subject to change",
         "sha256": "ea999a97a43240b3347dd7905201ac5afc48f197c8da466abdab6ba6ef8ba6aa",
         "snapshotFile": "data/release-dates.json"
+      },
+      "sha256": "e913ed2cc504976f4ec1b3e58165f74cc15547d60e90544c95f79e0f4c8746fa",
+      "dedicatedParser": "scripts/import_topps_inception_football_2026.py",
+      "coverageComplete": true,
+      "publishedOdds": false,
+      "sourceObservation": {
+        "file": "data/parallel-audit-sources/inception-football-physical-20261022.json",
+        "sha256": "408374ba28d0a5e0d285a897d59ac3688aba87dea2a3ff9e674857eb095e0b82",
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Inception_Football_CheckList_26TIFB_VERSION.pdf?v=1790715925"
       },
       "presentation": {
         "rows": 538,
