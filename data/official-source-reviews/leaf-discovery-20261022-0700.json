@@ -1,0 +1,883 @@
+{
+  "checkedUtc": "2026-10-22T07:14:48.125069+00:00",
+  "pages": 617,
+  "sources": [
+    {
+      "title": "2025-26 Leaf Boozer Twins",
+      "manufacturer": "Leaf",
+      "sport": "basketball",
+      "year": "2025-26",
+      "sourcePage": "https://www.leaftradingcards.com/products/2025-26-leaf-boozer-twins",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69989d19a6f67ee8b7f8396c_2025-26_Leaf_Boozer_Twins_CL_Working.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69989d19a6f67ee8b7f8396c_2025-26_Leaf_Boozer_Twins_CL_Working.xlsx",
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vRtvyVI8BI7oyE6WRae0pCUaaEYCdJLMFGXgzZaBqZyoiB9l8w6hAmygiAqYIjIJQ/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified. The official linked workbook filename is marked Working; published contents may be revised.",
+      "sourcePageSha256": "dc73a6a8048abbdde9b9ec2aea36448aeba0cbe973ce8fbe44fa5e6cea610e02",
+      "slug": "leaf-2025-26-leaf-boozer-twins",
+      "page": "sets/leaf-2025-26-leaf-boozer-twins.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2025 Leaf Eclectic Signature Series Joe Montana Celebration",
+      "manufacturer": "Leaf",
+      "sport": "football",
+      "year": "2025",
+      "sourcePage": "https://www.leaftradingcards.com/products/2025-leaf-eclectic-signature-series-joe-montana-celebration",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTaSchNPJPtveCR5gAGfV683mdG8do38cdWc5Ycddq0P-QafeS9yMtQEBjYfDgO-w/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTaSchNPJPtveCR5gAGfV683mdG8do38cdWc5Ycddq0P-QafeS9yMtQEBjYfDgO-w/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "99cf7808c5c4598148d06cc735c59295e988e91cb1316921a59133891b071e68",
+      "slug": "leaf-2025-leaf-eclectic-signature-series-joe-montana-celebration",
+      "page": "sets/leaf-2025-leaf-eclectic-signature-series-joe-montana-celebration.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2025 Leaf Electrum Multi-Sport",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2025",
+      "sourcePage": "https://www.leaftradingcards.com/products/2025-leaf-electrum-multi-sport",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6961269cc03f1bfbeb77f6e2_2025_Leaf_Electrum_Multi-Sport_CL_F.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6961269cc03f1bfbeb77f6e2_2025_Leaf_Electrum_Multi-Sport_CL_F.xlsx"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "f058d4ec2e2d8dd465b03ffd9565560f23f1f7bbc79ebd319e4a201c320015ea",
+      "slug": "leaf-2025-leaf-electrum-multi-sport",
+      "page": "sets/leaf-2025-leaf-electrum-multi-sport.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2025 Leaf Glory of the Game Basketball",
+      "manufacturer": "Leaf",
+      "sport": "basketball",
+      "year": "2025",
+      "sourcePage": "https://www.leaftradingcards.com/products/2025-leaf-glory-of-the-game-basketball",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRRCxJ3abLkopf5cXiJ8ZbG0R4EATGmkegBfJGqCS36gAOBpCqKPu4t4IzILwL0qQ/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vRRCxJ3abLkopf5cXiJ8ZbG0R4EATGmkegBfJGqCS36gAOBpCqKPu4t4IzILwL0qQ/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "5e6e98b74b9c8314adbb4bc3f27715af811760af43a2ea4302546e77b44bc1ce",
+      "slug": "leaf-2025-leaf-glory-of-the-game-basketball",
+      "page": "sets/leaf-2025-leaf-glory-of-the-game-basketball.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2025 Leaf In The Game Used Sports",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2025",
+      "sourcePage": "https://www.leaftradingcards.com/products/2025-leaf-in-the-game-used-sports",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/698ce978ba4ec33c73ec8882_2025_Leaf_In_The_Game_Used_Sports_CL_Final.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/698ce978ba4ec33c73ec8882_2025_Leaf_In_The_Game_Used_Sports_CL_Final.xlsx"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "85c5a937236afeed4ccec561cead19977eb81517fe62f04edd2f7ef29ebfedd8",
+      "slug": "leaf-2025-leaf-in-the-game-used-sports",
+      "page": "sets/leaf-2025-leaf-in-the-game-used-sports.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2025 Leaf Optichrome Baseball",
+      "manufacturer": "Leaf",
+      "sport": "baseball",
+      "year": "2025",
+      "sourcePage": "https://www.leaftradingcards.com/products/2025-leaf-optichrome-baseball",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69a20059d32ea88b8fd5c956_2025_Leaf_Optichrome_Baseball_CL_Final.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69a20059d32ea88b8fd5c956_2025_Leaf_Optichrome_Baseball_CL_Final.xlsx"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "395efbd57f1f8403540c671077422ecdcef32ec8f27488c1e343753b0a72d522",
+      "slug": "leaf-2025-leaf-optichrome-baseball",
+      "page": "sets/leaf-2025-leaf-optichrome-baseball.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2025 Leaf Red Carpet Collection",
+      "manufacturer": "Leaf",
+      "sport": "celebrity",
+      "year": "2025",
+      "sourcePage": "https://www.leaftradingcards.com/products/2025-leaf-red-carpet-collection",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/695c1fc9ba8e567de0f30d69_2025_Leaf_Red_Carpet_Collection_CL_F.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/695c1fc9ba8e567de0f30d69_2025_Leaf_Red_Carpet_Collection_CL_F.xlsx"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "637699c79ef3e813a9fc1e19ab95cb163c3bc70eaa166b9e32c7ab53b164aeed",
+      "slug": "leaf-2025-leaf-red-carpet-collection",
+      "page": "sets/leaf-2025-leaf-red-carpet-collection.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Anime Nation OVA",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-anime-nation-ova",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJVhFq_4dY97Uh1Ru2YQ1bLhyGRj5Gixh9KGJqLb6jAM6lKHrBLvDOfkqsvEbqJw/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJVhFq_4dY97Uh1Ru2YQ1bLhyGRj5Gixh9KGJqLb6jAM6lKHrBLvDOfkqsvEbqJw/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "110a1322dcd2267b46537a8d6e20bea6b51edcbf1c78dc70d9b13e111a380f6f",
+      "slug": "leaf-2026-leaf-anime-nation-ova",
+      "page": "sets/leaf-2026-leaf-anime-nation-ova.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Art of Sport",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-art-of-sport",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTTkbp8meeuSot2JDY2scCHj1WKIzapnSPMI1znO2dZvNbmRufR-K_aSqJ5p4EmvQ/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTTkbp8meeuSot2JDY2scCHj1WKIzapnSPMI1znO2dZvNbmRufR-K_aSqJ5p4EmvQ/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "f9e37bc8a4c50dc0c0e97222a3ed9ea06329ff42249aee66d5b75a20cb04dbc8",
+      "slug": "leaf-2026-leaf-art-of-sport",
+      "page": "sets/leaf-2026-leaf-art-of-sport.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Autograph Collection Football",
+      "manufacturer": "Leaf",
+      "sport": "football",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-autograph-collection-football",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-woytWziDCo7bXitvV4BwBlCPREIZPvWjpFfDR9ls0FdcPi465mjMeb-duSLWqw/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-woytWziDCo7bXitvV4BwBlCPREIZPvWjpFfDR9ls0FdcPi465mjMeb-duSLWqw/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "d7739a2df7772d3989993e6528eb203076e1320a32d8c9e9770e496ce4964255",
+      "slug": "leaf-2026-leaf-autograph-collection-football",
+      "page": "sets/leaf-2026-leaf-autograph-collection-football.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Baseball Nation",
+      "manufacturer": "Leaf",
+      "sport": "baseball",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-baseball-nation",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSPk3Mea2Qxs-DA1zmEBG0B97VyWIBOyFJRbIBkkAZeUOAOFTVAJ2OFgBFfj_izw/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSPk3Mea2Qxs-DA1zmEBG0B97VyWIBOyFJRbIBkkAZeUOAOFTVAJ2OFgBFfj_izw/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "730390d632fe6849e76e1506e5efb48530de2a3f44b57feeec0ff3cffd04e24c",
+      "slug": "leaf-2026-leaf-baseball-nation",
+      "page": "sets/leaf-2026-leaf-baseball-nation.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Bonus Pack",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-bonus-pack",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9AsMbzjcH2SOEYMaOOy0IHz6tclQ5KltUYu1hvsjQOMwS3evglFnQQlkqSBsD9g/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9AsMbzjcH2SOEYMaOOy0IHz6tclQ5KltUYu1hvsjQOMwS3evglFnQQlkqSBsD9g/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "d6c3cd19ed671fd6fca97e8604e8c975d555f5119298a34b6343e66fdfc8b5bd",
+      "slug": "leaf-2026-leaf-bonus-pack",
+      "page": "sets/leaf-2026-leaf-bonus-pack.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf City of Champions",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-city-of-champions",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2B7hqmxD-OsDjvg8qtgE1zG01sLtyvmtUsaILa4xNkFnqZSSbDi-LQBEE5LlnSg/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2B7hqmxD-OsDjvg8qtgE1zG01sLtyvmtUsaILa4xNkFnqZSSbDi-LQBEE5LlnSg/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "36fe8db580730136e8fb4e8af4733e6284f5a6c8318284591b5c56df757a467b",
+      "slug": "leaf-2026-leaf-city-of-champions",
+      "page": "sets/leaf-2026-leaf-city-of-champions.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Decadence Multi-Sport",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-decadence-multi-sport",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0B4o0z_hTQGh3UEgPIrCWSjC7HN8rOSq1XiHIIyDQ65ZNNHA0SHLUA0VopSZ4Xw/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0B4o0z_hTQGh3UEgPIrCWSjC7HN8rOSq1XiHIIyDQ65ZNNHA0SHLUA0VopSZ4Xw/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "be6f56aea9582ab5545729b5f85c0680b63b7aefa7cd20869c88a5be993c36cc",
+      "slug": "leaf-2026-leaf-decadence-multi-sport",
+      "page": "sets/leaf-2026-leaf-decadence-multi-sport.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Electrum Baseball",
+      "manufacturer": "Leaf",
+      "sport": "baseball",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-electrum-baseball",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFRKuyzpftuTY9gFV02g47hsBlvewnn1KmFgjl0Z2xIG1CP6vcMIXTt6OxGjlCtw/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFRKuyzpftuTY9gFV02g47hsBlvewnn1KmFgjl0Z2xIG1CP6vcMIXTt6OxGjlCtw/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "0c173af58a43527e079bd91d6fefe4b45a24119db72a7f48df47d7cd009ae110",
+      "slug": "leaf-2026-leaf-electrum-baseball",
+      "page": "sets/leaf-2026-leaf-electrum-baseball.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Football",
+      "manufacturer": "Leaf",
+      "sport": "football",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-football",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQqM5EvHr-A8ouZwQer17W2_SveCfVB51gvWtzjCHRA-Hdl0hUaImCd8QqqaIZm9A/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQqM5EvHr-A8ouZwQer17W2_SveCfVB51gvWtzjCHRA-Hdl0hUaImCd8QqqaIZm9A/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "9082e4382d15654328da4a2989c6c505a06bc687e028830e3ab840c3e4222e1b",
+      "slug": "leaf-2026-leaf-football",
+      "page": "sets/leaf-2026-leaf-football.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Glory of the Game Soccer",
+      "manufacturer": "Leaf",
+      "sport": "soccer",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-glory-of-the-game-soccer",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFtTI1rwMDbwmCXmdxMIJ3POkagvzEkowkTfDcdNYTXPVOjejaZSxO1pRROLcCAg/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFtTI1rwMDbwmCXmdxMIJ3POkagvzEkowkTfDcdNYTXPVOjejaZSxO1pRROLcCAg/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "fe2b7a40edeb4ab3ad63d287163be18790b73a3bd012bdcfadf98c7199ef0c18",
+      "slug": "leaf-2026-leaf-glory-of-the-game-soccer",
+      "page": "sets/leaf-2026-leaf-glory-of-the-game-soccer.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Magnificence Multi-Sport",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-magnificence-multi-sport",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTKZk6qr4d2cgAL0GK0Apn7kA1IMosSrEVr0UHljB_wb-6VehBjoJ018Jd-IAZUdg/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTKZk6qr4d2cgAL0GK0Apn7kA1IMosSrEVr0UHljB_wb-6VehBjoJ018Jd-IAZUdg/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "89a0fe9c4c72a83ebdcfbd785262c68888535de0ad9aa1a76ff0f1b85af358fd",
+      "slug": "leaf-2026-leaf-magnificence-multi-sport",
+      "page": "sets/leaf-2026-leaf-magnificence-multi-sport.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Mélange",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-melange",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8d0yWlmJt4GS8MfjYzZBg8daNGaRydeQskO9DSDXjKQ1RFje1C-DJtGPoZQl-Zg/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8d0yWlmJt4GS8MfjYzZBg8daNGaRydeQskO9DSDXjKQ1RFje1C-DJtGPoZQl-Zg/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "ad035d3dc954a30ced097c74c85fb0329b0cfd154e094d3243d5531d4426c4c3",
+      "slug": "leaf-2026-leaf-m-lange",
+      "page": "sets/leaf-2026-leaf-m-lange.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal Baseball",
+      "manufacturer": "Leaf",
+      "sport": "baseball",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-baseball",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQtUQSY-jIHFA0dOg6fk9dlaA-K5D-nit8_ZIfH02xltz3mS5y3NWtEgJ4swUzlJw/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQtUQSY-jIHFA0dOg6fk9dlaA-K5D-nit8_ZIfH02xltz3mS5y3NWtEgJ4swUzlJw/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "63a7ff87df3e2f10a5e3c172a888e312fbf1e849c9bb49706763a84e4c404d6a",
+      "slug": "leaf-2026-leaf-metal-baseball",
+      "page": "sets/leaf-2026-leaf-metal-baseball.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal Draft Edition Baseball",
+      "manufacturer": "Leaf",
+      "sport": "baseball",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-draft-edition-baseball",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8e_tya-pT85xuzZ41qCbTUNpFV0wjZ69uWy15DbGNs8r_QsyHqeWFznicOmYFEg/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8e_tya-pT85xuzZ41qCbTUNpFV0wjZ69uWy15DbGNs8r_QsyHqeWFznicOmYFEg/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "7e9432a10073ed0296e2d1fd09f11c1bc480fcc9f27a0629c202c7177f259b47",
+      "slug": "leaf-2026-leaf-metal-draft-edition-baseball",
+      "page": "sets/leaf-2026-leaf-metal-draft-edition-baseball.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal Football",
+      "manufacturer": "Leaf",
+      "sport": "football",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-football",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69c3ef26953b763f1879a6ae_2026_Leaf_Metal_Football_CL_F.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69c3ef26953b763f1879a6ae_2026_Leaf_Metal_Football_CL_F.xlsx"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "28694f74fda52e586ada4d80325fd52a4d35d37c0b66f005bd23321097338c63",
+      "slug": "leaf-2026-leaf-metal-football",
+      "page": "sets/leaf-2026-leaf-metal-football.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal Golden Set Tennis",
+      "manufacturer": "Leaf",
+      "sport": "tennis",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-golden-set-tennis",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQZlDE-w0G2ApDJHIG2K2u9_WfCNi6qwsdAQ66yefGwPN84lPO5TbNJUFjVmVWn0w/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQZlDE-w0G2ApDJHIG2K2u9_WfCNi6qwsdAQ66yefGwPN84lPO5TbNJUFjVmVWn0w/pub?output=csv"
+      ],
+      "releaseStatus": "Upcoming",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product COMING SOON. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "4fa90e7a46f03a03a6304c6fc00164c187b7258254ddbeca2d7f34f027a6284d",
+      "slug": "leaf-2026-leaf-metal-golden-set-tennis",
+      "page": "sets/leaf-2026-leaf-metal-golden-set-tennis.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal Halloween",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-halloween",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSQ4Rj_bY2ldLWL3RholrZBl62FX_5Kn4xRcM1I6ceIf4nkDgBhgNyBETWAhSFytw/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSQ4Rj_bY2ldLWL3RholrZBl62FX_5Kn4xRcM1I6ceIf4nkDgBhgNyBETWAhSFytw/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "78e499205d6093f1ddfd443b4e76f67f6eb71d321f014726041fee80a2383ed1",
+      "slug": "leaf-2026-leaf-metal-halloween",
+      "page": "sets/leaf-2026-leaf-metal-halloween.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal Hockey",
+      "manufacturer": "Leaf",
+      "sport": "hockey",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-hockey",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6VjuhDWueHyJFOLMK_hkUr6GDPn4ldiyeuAM9arPPhDaxIiy4u5kFMXQ9fQVkAQ/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6VjuhDWueHyJFOLMK_hkUr6GDPn4ldiyeuAM9arPPhDaxIiy4u5kFMXQ9fQVkAQ/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "711c00a5c2b7beee9fb764e4194863d5ddc075c6bb29981232011a2a6d9da656",
+      "slug": "leaf-2026-leaf-metal-hockey",
+      "page": "sets/leaf-2026-leaf-metal-hockey.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal Independence Day",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-independence-day",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKbmeF0NOpw2uI62uPselbXJzjdcYF54VACjKSi0Q-xzVaOlpx4ixh3XLEgXLc3Q/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKbmeF0NOpw2uI62uPselbXJzjdcYF54VACjKSi0Q-xzVaOlpx4ixh3XLEgXLc3Q/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "1a2acf6ce88208839fc86a5341d86f188de1be33b5ab3ebd53e9f1634708aac7",
+      "slug": "leaf-2026-leaf-metal-independence-day",
+      "page": "sets/leaf-2026-leaf-metal-independence-day.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal Presidents' Day",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-presidents-day",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6984fedfe685edaaade3ae25_2026_Leaf_Presidents%27_Day_CL_Final.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6984fedfe685edaaade3ae25_2026_Leaf_Presidents%27_Day_CL_Final.xlsx"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "57f6966017db8f1bc849ede57baa1515239a5fbf5f3ee496540b7f66ab9d4524",
+      "slug": "leaf-2026-leaf-metal-presidents-day",
+      "page": "sets/leaf-2026-leaf-metal-presidents-day.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal Ring Kings",
+      "manufacturer": "Leaf",
+      "sport": "other-sports",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-ring-kings",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQomcv5GDYApZI5HCWu99vpYevAFxOnjblfETbhR50I5Wv7JgKAAROuiGeT5VTUZQ/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQomcv5GDYApZI5HCWu99vpYevAFxOnjblfETbhR50I5Wv7JgKAAROuiGeT5VTUZQ/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "ce18be06a67b4c62177f4ef3f1d3f68e39d5333aa41aaa5f2d39be9d537445d6",
+      "slug": "leaf-2026-leaf-metal-ring-kings",
+      "page": "sets/leaf-2026-leaf-metal-ring-kings.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal St. Patrick's Day",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-st-patricks-day",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6994eee350006bd4e98d39f5_2026_Leaf_Metal_St._Patrick%27s_Day_CL_F.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/6994eee350006bd4e98d39f5_2026_Leaf_Metal_St._Patrick%27s_Day_CL_F.xlsx"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "703af5569d38d6e37e68fe7fc302daf33ecd959ca8843eefb91e2b9c5f9934b3",
+      "slug": "leaf-2026-leaf-metal-st-patrick-s-day",
+      "page": "sets/leaf-2026-leaf-metal-st-patrick-s-day.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal Women of Sport",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-metal-women-of-sport",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTm_eEpP8THuhfcnblo4a9RK1M-L4yyJEUWr1NHqD9gXHFtsiqmqolxOD2S3IoeNw/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTm_eEpP8THuhfcnblo4a9RK1M-L4yyJEUWr1NHqD9gXHFtsiqmqolxOD2S3IoeNw/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "ab420dd550a3c8dd15a76b7823c397cd8e72fcd0de73475511f4cec0942fbed8",
+      "slug": "leaf-2026-leaf-metal-women-of-sport",
+      "page": "sets/leaf-2026-leaf-metal-women-of-sport.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf National Redemption",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-national-redemption",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT26FUhJN1kZ7lFs9Yg475NQlDNsUV1p8Di55II3g6AkRvSJXsULMjFri812vU77A/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vT26FUhJN1kZ7lFs9Yg475NQlDNsUV1p8Di55II3g6AkRvSJXsULMjFri812vU77A/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "295b70cb500eaa6ac836b00c229f3fad75b36d553dba22a97b793b4aeadee113",
+      "slug": "leaf-2026-leaf-national-redemption",
+      "page": "sets/leaf-2026-leaf-national-redemption.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Optichrome Football",
+      "manufacturer": "Leaf",
+      "sport": "football",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-optichrome-football",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9Nb7AgXUpV6nExmcgL5cQYV-V9_MraxeGmB3T-lHA0mP1PSq4099GGc7cJurdbg/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9Nb7AgXUpV6nExmcgL5cQYV-V9_MraxeGmB3T-lHA0mP1PSq4099GGc7cJurdbg/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "6273b21e5fb5a38f1a16e05121b7425d5bfba61b93ff51da3647a7ae7517a980",
+      "slug": "leaf-2026-leaf-optichrome-football",
+      "page": "sets/leaf-2026-leaf-optichrome-football.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf PayDirt Football",
+      "manufacturer": "Leaf",
+      "sport": "football",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-paydirt-football",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/698cc15bb6764277bdb56f56_2026_Leaf_PayDirt_Football_CL_Final.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/698cc15bb6764277bdb56f56_2026_Leaf_PayDirt_Football_CL_Final.xlsx"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "d105c254f770ef40baa021bc0c8840f770eb1a2aed67e07ed67ba9586c715b7e",
+      "slug": "leaf-2026-leaf-paydirt-football",
+      "page": "sets/leaf-2026-leaf-paydirt-football.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metal Pop Century",
+      "manufacturer": "Leaf",
+      "sport": "celebrity",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-pop-century",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69f500d7b489df389e824062_2026_Leaf_Metal_Pop_Century_CL_F.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69f500d7b489df389e824062_2026_Leaf_Metal_Pop_Century_CL_F.xlsx"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "5089dc2d4f4f98b18dd8612770df0f00b32776c956637eb840bd7d4a642bd921",
+      "slug": "leaf-2026-leaf-metal-pop-century",
+      "page": "sets/leaf-2026-leaf-metal-pop-century.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Seasons in the Sun Baseball",
+      "manufacturer": "Leaf",
+      "sport": "baseball",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-seasons-in-the-sun-baseball",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJp-TZXpAWT85GKYPE_KRDPkz7JIpLlU_xRpq1BJXPjqrWj_V5DpG7PaUakuFvCQ/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJp-TZXpAWT85GKYPE_KRDPkz7JIpLlU_xRpq1BJXPjqrWj_V5DpG7PaUakuFvCQ/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "7f5af87d0d943945543beb6e705f975f2be5a8ada3b0f793f52d297cde0be285",
+      "slug": "leaf-2026-leaf-seasons-in-the-sun-baseball",
+      "page": "sets/leaf-2026-leaf-seasons-in-the-sun-baseball.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Signature Series Sports",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-signature-series-sports",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQX3uaKCTUMGIcrQU_3u8ajWh9s8lmmvOsnIryQbxkLswUmZMu8b-cUCTdSk7Armw/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQX3uaKCTUMGIcrQU_3u8ajWh9s8lmmvOsnIryQbxkLswUmZMu8b-cUCTdSk7Armw/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "eabfcdbb997b2db5168392593797cdcb9ba77671cd6d225ca8387df990945517",
+      "slug": "leaf-2026-leaf-signature-series-sports",
+      "page": "sets/leaf-2026-leaf-signature-series-sports.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Slideshow",
+      "manufacturer": "Leaf",
+      "sport": "celebrity",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-slideshow",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSeG6Jhwo2or9uMP60ZibeoJXp2Iq1datwI2U_7r_pvBRtbrP1SYwoQNJdcW0LTXg/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSeG6Jhwo2or9uMP60ZibeoJXp2Iq1datwI2U_7r_pvBRtbrP1SYwoQNJdcW0LTXg/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "3a1829065c547a7a34b66febedef03e7c508b77fb517fe151bfdb4d91534c56d",
+      "slug": "leaf-2026-leaf-slideshow",
+      "page": "sets/leaf-2026-leaf-slideshow.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Sold on the Web",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-sold-on-the-web",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/699898fbc90d04104d74709a_2026_Leaf_Sold_on_the_Web_CL_Working.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/699898fbc90d04104d74709a_2026_Leaf_Sold_on_the_Web_CL_Working.xlsx",
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSOIQkOclx4wAHCv05VVcj-_7gS9UkLM5cR3cnIa4EN7fsZ2w8TmEIxLYc6Sd2pNg/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified. The official linked workbook filename is marked Working; published contents may be revised.",
+      "sourcePageSha256": "07354a94ff5b3d9f9fe8b189aa1f250ce08eec4e9a87750e6166e5936313264e",
+      "slug": "leaf-2026-leaf-sold-on-the-web",
+      "page": "sets/leaf-2026-leaf-sold-on-the-web.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Spectacular Football",
+      "manufacturer": "Leaf",
+      "sport": "football",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-spectacular-football",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQb6t3Ttwyq26TguG_X0yjKPELD_tZbzUV8niFFk_luWwBolpuz7ZPeSGZBiLKo-Q/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQb6t3Ttwyq26TguG_X0yjKPELD_tZbzUV8niFFk_luWwBolpuz7ZPeSGZBiLKo-Q/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "13e19e1c0ceb4bf46044b64241b028b3e791fee1fbb725ab1a54af7aab5cc818",
+      "slug": "leaf-2026-leaf-spectacular-football",
+      "page": "sets/leaf-2026-leaf-spectacular-football.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Sports Heroes",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-sports-heroes",
+      "checklistUrl": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69710719f2eda73284051440_2026_Leaf_Sport_Heroes_CL_Final.xlsx",
+      "documentUrls": [
+        "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69710719f2eda73284051440_2026_Leaf_Sport_Heroes_CL_Final.xlsx"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "5d3fbd71441d89f12e397f28c6ceb7e81081bf99380104154290cba7707ce310",
+      "slug": "leaf-2026-leaf-sports-heroes",
+      "page": "sets/leaf-2026-leaf-sports-heroes.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Trinity Football",
+      "manufacturer": "Leaf",
+      "sport": "football",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-trinity-football",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2ZIkbw1x1lvAnIhBb5u155h0pei_3A2vVQPbBEzhdbukh63N977-yddiEHhOpTA/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2ZIkbw1x1lvAnIhBb5u155h0pei_3A2vVQPbBEzhdbukh63N977-yddiEHhOpTA/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "c363d928a41607ecd1eee246408210692ff19486164826cd8e90970e0b911228",
+      "slug": "leaf-2026-leaf-trinity-football",
+      "page": "sets/leaf-2026-leaf-trinity-football.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Ultimate Sports",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-ultimate-sports",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTnin4li3T3Y7RGdPVka9OY9VxD4XJy_Yx7bdo9gqK3V9FKng567CwGOGDT90uM-A/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTnin4li3T3Y7RGdPVka9OY9VxD4XJy_Yx7bdo9gqK3V9FKng567CwGOGDT90uM-A/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "573070ffb605910a6e8def28fcfc0b60765493dfafdac38bc7fa2de244c77c5e",
+      "slug": "leaf-2026-leaf-ultimate-sports",
+      "page": "sets/leaf-2026-leaf-ultimate-sports.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Vivid Baseball",
+      "manufacturer": "Leaf",
+      "sport": "baseball",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-leaf-vivid-baseball",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6jUWYUq_aVYVuABpsGxWdyMkIARx6Ki9m4Bj4aXjvuIals9N8YtOXvm6SrxEhfA/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6jUWYUq_aVYVuABpsGxWdyMkIARx6Ki9m4Bj4aXjvuIals9N8YtOXvm6SrxEhfA/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "e8f62654b16f899b44c9f9486c70ee693a5f539606bef8ab10e44c620ab281ef",
+      "slug": "leaf-2026-leaf-vivid-baseball",
+      "page": "sets/leaf-2026-leaf-vivid-baseball.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Leaf Metallic Imaginations Series 3",
+      "manufacturer": "Leaf",
+      "sport": "multi-sport",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-metallic-imaginations-series-3",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSuPkUT2uAJbNuJaeNiQPq9EC-Eq0LVQsJq10T9ZU0RwX3fom19uo3xmaVyG921FQ/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSuPkUT2uAJbNuJaeNiQPq9EC-Eq0LVQsJq10T9ZU0RwX3fom19uo3xmaVyG921FQ/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "a3d88200ed01d3558b772d0eed03e99b7163d898e2b0ef8b963849c3bc6a3754",
+      "slug": "leaf-2026-leaf-metallic-imaginations-series-3",
+      "page": "sets/leaf-2026-leaf-metallic-imaginations-series-3.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Pro Set Metal Baseball",
+      "manufacturer": "Leaf",
+      "sport": "baseball",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-pro-set-metal-baseball",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQXrbvyzpcPegcCJxBa2B8vEjAFmEH6jNNkZmnqP_y60JaVwTxVkv6ytuRppMW-uA/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQXrbvyzpcPegcCJxBa2B8vEjAFmEH6jNNkZmnqP_y60JaVwTxVkv6ytuRppMW-uA/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "1513eb80697f9b6b0bc7b895a26bab65a7fa38a58bd58cac01bf07ab969454d1",
+      "slug": "leaf-2026-pro-set-metal-baseball",
+      "page": "sets/leaf-2026-pro-set-metal-baseball.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    },
+    {
+      "title": "2026 Pro Set Metal Football",
+      "manufacturer": "Leaf",
+      "sport": "football",
+      "year": "2026",
+      "sourcePage": "https://www.leaftradingcards.com/products/2026-pro-set-metal-football",
+      "checklistUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQCCg8HCnUwYWXjRMqNU5LyJbImR60rvJgXReTvAm6_8KiCRf737VOSvEvZEdhpMw/pub?output=csv",
+      "documentUrls": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQCCg8HCnUwYWXjRMqNU5LyJbImR60rvJgXReTvAm6_8KiCRf737VOSvEvZEdhpMw/pub?output=csv"
+      ],
+      "releaseStatus": "Released",
+      "releaseDate": null,
+      "catalogEvidence": "Official product page labels the product RELEASED. Listed under the manufacturer’s 2026 product-page category; product year and exact calendar release date are separate. Exact release date is not verified.",
+      "sourcePageSha256": "123ab1cc0e826ee48db923e85594ad05fd9ec03b129e10f23c8c4f125f11463f",
+      "slug": "leaf-2026-pro-set-metal-football",
+      "page": "sets/leaf-2026-pro-set-metal-football.html",
+      "verified": "2026-10-22",
+      "status": "Official source"
+    }
+  ],
+  "changes": []
+}

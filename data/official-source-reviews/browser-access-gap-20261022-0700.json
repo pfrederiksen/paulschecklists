@@ -1,0 +1,60 @@
+{
+  "checkedUtc": "2026-10-22T07:20:58.294753+00:00",
+  "heartbeatStartedUtc": "2026-10-22T07:13:37.187Z",
+  "sourceKind": "browser-surface-access-unavailable",
+  "observedState": "No browser or native app surfaces available; tool reports Mac locked and automatic unlock unsuccessful.",
+  "sameBlockingConditionAs": {
+    "file": "data/official-source-reviews/browser-continuation-gap-20261022-0600.json",
+    "sha256": "c2ab36a07444d12b6c31125c5512f4cb39ff06722aa8f2ea4a3b10a38cbfa9f5"
+  },
+  "lastUserNotification": "Previous06:00 heartbeat reported the locked Mac and requested unlock; repeated condition is quiet.",
+  "pendingFreshUiReads": [
+    "Every active NOW listing page and full active product facts",
+    "Bowman NOW active listing",
+    "Topps global checklist and odds exact current URLs",
+    "Panini all-sport/program menus and full CSV payload revisions",
+    "Upper Deck directory continuation and complete table revisions"
+  ],
+  "lastActualActiveUiReview": {
+    "file": "data/official-source-reviews/topps-now-iab-20261022-0600.json",
+    "sha256": "8ab9fd0aa61089eba688b6aca3017e50cf24596a239dec2fd65a88aad9969640"
+  },
+  "lastActualToppsIndexUiReview": {
+    "file": "data/official-source-reviews/topps-index-links-20261022-0600.json",
+    "sha256": "563edeab0878bf3f05c52488f1d0ef1e296f43f822eb03bc63a8770fe6e26c9a"
+  },
+  "lastCompletePaniniCsvReview": {
+    "file": "data/official-source-reviews/panini-current-2026-csv-20261022-0500.json",
+    "sha256": "501c2c3c595d548c1e5918139e4ee19f989fab18c571c5a94d6ce49d63b7b9ae"
+  },
+  "lastCompleteUpperDeckTableReview": {
+    "file": "data/official-source-reviews/upperdeck-table-revisions-20261022-0500.json",
+    "sha256": "e55ebfa17d43079d15183711305bffeaa0334275368b5630593430b310f6aa9a"
+  },
+  "freshActiveCheckpointWritten": false,
+  "freshIndexUiComparisonCompleted": false,
+  "supplementalWebReads": [
+    {
+      "url": "https://www.topps.com/collections/topps-now",
+      "method": "Web text reader, first24 products only; not browser UI or complete pagination",
+      "scope": "No newly identified title among the first-page results; all-page current coverage remains unverified."
+    },
+    {
+      "url": "https://www.topps.com/collections/bowman-u-now",
+      "method": "Web text reader, four product titles only; not browser UI or full product facts",
+      "scope": "No new title identified; this does not refresh the actual active UI checkpoint."
+    },
+    {
+      "url": "https://www.topps.com/pages/checklists",
+      "method": "Web text reader; direct HTTP403; exact complete current href comparison not available",
+      "scope": "Retained06:00 exact URLs are not relabeled freshly observed."
+    },
+    {
+      "url": "https://www.topps.com/pages/odds",
+      "method": "Web text reader; direct HTTP403; exact complete current href comparison not available",
+      "scope": "Retained06:00 exact URLs are not relabeled freshly observed."
+    }
+  ],
+  "retainedCheckpointHandling": "The active audit command revalidated the unchanged06:00 checkpoint. Its original bytes/scope were restored only after every core report field matched; no07:00 listing read or current coverage is claimed.",
+  "remainingGap": "Actual browser access must return before current all-page NOW reconciliation and exact current global-link UI comparison can finish. Known-document rehashes do not close these gaps."
+}

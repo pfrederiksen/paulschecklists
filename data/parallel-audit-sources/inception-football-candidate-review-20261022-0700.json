@@ -1,0 +1,51 @@
+{
+  "checkedUtc": "2026-10-22T07:20:58.294753+00:00",
+  "slug": "topps-bowman-2026-topps-inception-football",
+  "officialGuide": "https://ripped.topps.com/2026-topps-inception-football-collector-cards-guide/",
+  "candidateRegistry": {
+    "file": "data/parallel-audit-sources/candidates.json",
+    "sha256": "2347f6d0b19c84fdd1cec7544e3f9cf7ab756631e703e22f17de5ecb72745693"
+  },
+  "retainedSearchSnapshot": {
+    "file": "data/parallel-audit-sources/topps-search-13.txt",
+    "sha256": "a625433ddcfd6060c4a5011110e3c429ec2ee3f92a09e2ca0658e0d3113f675f"
+  },
+  "candidateHeadings": [
+    "Base Set",
+    "Dual Rookie Autographs"
+  ],
+  "candidateRowsReviewed": 2,
+  "officialFullArticleFetchStatus": 403,
+  "freshBrowserReadCompleted": false,
+  "searchDiscoveryRechecked": true,
+  "searchDiscoveryQualification": "Official-domain search returned indexed guide text; neither this nor the retained search snapshot is a completed full-source import. No search-derived facts imported.",
+  "checklistSourceRecheck": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Inception_Football_CheckList_26TIFB_VERSION.pdf?v=1790715925",
+    "sha256": "e913ed2cc504976f4ec1b3e58165f74cc15547d60e90544c95f79e0f4c8746fa",
+    "previousSha256": "e913ed2cc504976f4ec1b3e58165f74cc15547d60e90544c95f79e0f4c8746fa",
+    "unchanged": true
+  },
+  "existingChecklistRowsPreserved": 538,
+  "candidateReconciliation": [
+    {
+      "candidate": "Base Gold Electricity",
+      "status": "Pending authoritative full-source and exact-family validation",
+      "gap": "The candidate body describes a50-copy cap while its Key Facts uses slash50 shorthand. Preserve both candidate forms; do not convert the cap into a serial-number claim or choose a value/marking interpretation."
+    },
+    {
+      "candidate": "Base Hot Pink",
+      "status": "Pending authoritative full-source and physical-family validation",
+      "gap": "Candidate mentions numbered35. Full guide read is blocked; verify exact BASE CARDS versus ROOKIE scope before any mapped limit. No autograph program inherits a base candidate."
+    },
+    {
+      "candidate": "Dual Rookie Gold example",
+      "status": "Card-specific candidate only",
+      "gap": "Candidate names Carson Beck/Jeremiyah Love. Do not number the entire dual family or other subjects from this illustration; full source and exact printed card identity remain pending."
+    }
+  ],
+  "parallelSpecificationMappingsImported": 0,
+  "printLimitsImported": 0,
+  "serialClaimsImported": 0,
+  "exhaustiveParallelAuditComplete": false,
+  "remainingGap": "Reopen the full official guide after source access returns, verify body/Key Facts wording and exact physical family/card scope, then import only reconciled specifications through the shared registry/generator. Existing rows, unavailable odds and verified calendar evidence remain preserved."
+}
