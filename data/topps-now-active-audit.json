@@ -1,6 +1,6 @@
 {
   "observed": "2026-10-22",
-  "listingSha256": "4fded7d1daadfa25b4e8c77651fab107bcd48c47f2a146b483a0fefef20ea9d9",
+  "listingSha256": "750d59de9a6081625186d1683ca72a7268933463738039e94e940d163ba2624c",
   "historicalCoverageComplete": false,
   "products": [
     {
@@ -302,16 +302,6 @@
   "publishedCount": 59,
   "uniquePublishedCount": 55,
   "remaining": [],
-  "freshListingReadsComplete": false,
-  "coverageStatement": "Retained last01:00 listing observations reconcile with published rows. Current browser/UI refresh is blocked; no current unchanged-coverage claim.",
-  "pendingFreshListingReads": [
-    {
-      "url": "https://www.topps.com/collections/topps-now",
-      "reason": "Browser integration unavailable. Native Safari fallback rendered a blank storefront; a reload produced a form-resend prompt, which was cancelled. Direct HTTP returned403. No new storefront observations are asserted."
-    },
-    {
-      "url": "https://www.topps.com/collections/bowman-u-now",
-      "reason": "Browser integration unavailable. Native Safari fallback rendered a blank storefront; a reload produced a form-resend prompt, which was cancelled. Direct HTTP returned403. No new storefront observations are asserted."
-    }
-  ]
+  "freshListingReadsComplete": true,
+  "coverageStatement": "Current official all-page listing and all55 complete product UI reads refreshed this run;59/59 active occurrences reconcile to retained observations and published rows. Historical archive remains partial."
 }

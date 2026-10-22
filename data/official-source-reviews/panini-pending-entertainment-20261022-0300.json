@@ -1,0 +1,152 @@
+{
+  "observed": "2026-10-22",
+  "sourceKind": "official-browser-csv-exports",
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "method": "Fresh five official Entertainment/2025 full CSV downloads. Every original source cell remains unchanged; three literal Default placeholders and two header-only exports supply no new validated roster. Ohio State/Texas physical PDF imports preserved.",
+  "exports": [
+    {
+      "sourceSelection": {
+        "sport": "Entertainment",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Minecraft Special Edition"
+      },
+      "checkedUtc": "2026-10-22T03:33:13.448260+00:00",
+      "downloadName": "2025 Panini Minecraft Special Edition (Entertainment).csv",
+      "sourceExport": "data/official-panini/panini-2025-panini-minecraft-special-edition-entertainment.csv",
+      "sha256": "8ed7e3eb4366a6307c5a62e891d155679a470566d881e426b87e9bda024861a4",
+      "bytes": 200,
+      "unchanged": true,
+      "exportState": "placeholder-only",
+      "verifiedRosterRows": 0,
+      "originalPlaceholderRows": [
+        [
+          "Entertainment",
+          "2025",
+          "Panini",
+          "Minecraft Special Edition",
+          "Base",
+          "Default",
+          "No Team",
+          "Miscellaneous",
+          "1",
+          ""
+        ]
+      ],
+      "freshSha256": "8ed7e3eb4366a6307c5a62e891d155679a470566d881e426b87e9bda024861a4",
+      "freshBytes": 200,
+      "originalCellsUnchanged": true
+    },
+    {
+      "sourceSelection": {
+        "sport": "Entertainment",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Squishmallows"
+      },
+      "checkedUtc": "2026-10-22T03:33:13.448786+00:00",
+      "downloadName": "2025 Panini Squishmallows (Entertainment).csv",
+      "sourceExport": "data/official-panini/panini-2025-panini-squishmallows-entertainment.csv",
+      "sha256": "fcf7fb9f3432d8af3a834b82091a11fdba1d4a7a3c6c03f0c8b9979c2c729a02",
+      "bytes": 188,
+      "unchanged": true,
+      "exportState": "placeholder-only",
+      "verifiedRosterRows": 0,
+      "originalPlaceholderRows": [
+        [
+          "Entertainment",
+          "2025",
+          "Panini",
+          "Squishmallows",
+          "Base",
+          "Default",
+          "No Team",
+          "Miscellaneous",
+          "1",
+          ""
+        ]
+      ],
+      "freshSha256": "fcf7fb9f3432d8af3a834b82091a11fdba1d4a7a3c6c03f0c8b9979c2c729a02",
+      "freshBytes": 188,
+      "originalCellsUnchanged": true
+    },
+    {
+      "sourceSelection": {
+        "sport": "Entertainment",
+        "year": "2025",
+        "brand": "Panini",
+        "program": "Squishmallows Halloween"
+      },
+      "checkedUtc": "2026-10-22T03:33:13.449069+00:00",
+      "downloadName": "2025 Panini Squishmallows Halloween (Entertainment).csv",
+      "sourceExport": "data/official-panini/panini-2025-panini-squishmallows-halloween-entertainment.csv",
+      "sha256": "a5e6438223d7d80b4988fda7ddc07926e2b75a22fd8f722e07e81ca0b24ecab2",
+      "bytes": 203,
+      "unchanged": true,
+      "exportState": "placeholder-only",
+      "verifiedRosterRows": 0,
+      "originalPlaceholderRows": [
+        [
+          "Entertainment",
+          "2025",
+          "Panini",
+          "Squishmallows Halloween",
+          "Halloween",
+          "Default",
+          "No Team",
+          "Miscellaneous",
+          "1",
+          ""
+        ]
+      ],
+      "freshSha256": "a5e6438223d7d80b4988fda7ddc07926e2b75a22fd8f722e07e81ca0b24ecab2",
+      "freshBytes": 203,
+      "originalCellsUnchanged": true
+    },
+    {
+      "sourceSelection": {
+        "sport": "Entertainment",
+        "year": "2025",
+        "brand": "Score",
+        "program": "Ohio State Box Set"
+      },
+      "checkedUtc": "2026-10-22T03:33:13.449357+00:00",
+      "downloadName": "2025 Score Ohio State Box Set (Entertainment).csv",
+      "sourceExport": "data/official-panini/panini-2025-panini-ohio-state-box-set-entertainment.csv",
+      "sha256": "686188d1aa115b1eb78922d8c0502b7aceccde3ab17fb63607ad7953ecd01f95",
+      "bytes": 96,
+      "unchanged": true,
+      "exportState": "header-only",
+      "verifiedRosterRows": 0,
+      "originalPlaceholderRows": [],
+      "freshSha256": "686188d1aa115b1eb78922d8c0502b7aceccde3ab17fb63607ad7953ecd01f95",
+      "freshBytes": 96,
+      "originalCellsUnchanged": true
+    },
+    {
+      "sourceSelection": {
+        "sport": "Entertainment",
+        "year": "2025",
+        "brand": "Score",
+        "program": "Texas Box Set"
+      },
+      "checkedUtc": "2026-10-22T03:33:13.449661+00:00",
+      "downloadName": "2025 Score Texas Box Set (Entertainment).csv",
+      "sourceExport": "data/official-panini/panini-2025-panini-texas-box-set-entertainment.csv",
+      "sha256": "686188d1aa115b1eb78922d8c0502b7aceccde3ab17fb63607ad7953ecd01f95",
+      "bytes": 96,
+      "unchanged": true,
+      "exportState": "header-only",
+      "verifiedRosterRows": 0,
+      "originalPlaceholderRows": [],
+      "freshSha256": "686188d1aa115b1eb78922d8c0502b7aceccde3ab17fb63607ad7953ecd01f95",
+      "freshBytes": 96,
+      "originalCellsUnchanged": true
+    }
+  ],
+  "remainingSourceOnlyRosters": 3,
+  "priorReview": {
+    "file": "data/official-source-reviews/panini-pending-entertainment-20261022-0000.json",
+    "sha256": "a64a7216dabb98a10b0e5713eeef39f853aa77e3b1b1a58bc5a565a1ae6c4d6a"
+  }
+}
