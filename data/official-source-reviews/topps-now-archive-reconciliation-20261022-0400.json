@@ -1,0 +1,467 @@
+{
+  "checkedUtc": "2026-10-22T04:18:50.085168+00:00",
+  "method": "Cross-check partial URL extraction against retained single-card observations AND dedicated bundle catalog. Missing single-card-store URLs are not automatically import gaps. No full archive re-scan or exhaustive history claim.",
+  "priorArchiveIndex": {
+    "file": "data/topps-now-archive-index.json",
+    "sha256": "d3494018e774127288a5165d5c0f85a0f399d3abacdc4de437d43d2605e28a44"
+  },
+  "partialParsedUniqueUrls": 2054,
+  "unmatchedSingleCardStoreUrls": 30,
+  "alreadyPublishedBundles": [
+    {
+      "title": "2026 All-Star Game Set - MLS Topps NOW® - 11 Card Set - PR: 2677",
+      "url": "https://www.topps.com/products/2026-all-star-game-set-mls-topps-now%C2%AE-11-card-set-1",
+      "publishedSlug": "topps-bowman-2026-mls-topps-now-all-star-game-set",
+      "publishedSourceRows": 26,
+      "dedicatedParser": "scripts/import_topps_now_mls_allstar_2026.py"
+    },
+    {
+      "title": "2026 All-Star Game Set - MLB Topps NOW® - 19 Card Set - PR: 16306",
+      "url": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set",
+      "publishedSlug": "topps-bowman-2026-mlb-topps-now-all-star-game-set",
+      "publishedSourceRows": 35,
+      "dedicatedParser": "scripts/import_topps_now_mlb_allstar_2026.py"
+    },
+    {
+      "title": "2026 NBA Champions - New York Knicks - NBA Topps NOW® 16-Card Team Set - PR: 65941",
+      "url": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set",
+      "publishedSlug": "topps-bowman-2026-nba-topps-now-knicks-champions-team-set",
+      "publishedSourceRows": 35,
+      "dedicatedParser": "scripts/import_topps_now_knicks_champions_2026.py"
+    },
+    {
+      "title": "Premier League Team of the Season - Premier League Topps NOW® 12-Card Set",
+      "url": "https://www.topps.com/products/premier-league-team-of-the-season-premier-league-topps-now%C2%AE-12-card-set",
+      "publishedSlug": "topps-bowman-2026-premier-league-topps-now-team-of-the-season-set",
+      "publishedSourceRows": 11,
+      "dedicatedParser": "scripts/import_topps_now_premier_tots_2026.py"
+    },
+    {
+      "title": "2025-26 NHL Topps NOW® Rookie Collection 10-Sticker Set - PR: 600",
+      "url": "https://www.topps.com/products/2025-26-nhl-topps-now%C2%AE-rookie-collection-10-sticker-set",
+      "publishedSlug": "topps-bowman-2026-nhl-topps-now-rookie-collection",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_nhl_rookies_2026.py"
+    },
+    {
+      "title": "2026 WrestleMania Vegas Set – WWE Topps NOW® - 15-Card Set - PR: 5847",
+      "url": "https://www.topps.com/products/2026-wrestlemania-vegas-set-wwe-topps-now%C2%AE-15-card-set",
+      "publishedSlug": "topps-bowman-2026-wwe-topps-now-wrestlemania-vegas-set",
+      "publishedSourceRows": 40,
+      "dedicatedParser": "scripts/import_topps_now_wrestlemania_2026.py"
+    },
+    {
+      "title": "2026 Los Angeles Dodgers MLB Topps NOW® Road To Opening Day 10-Card Team Set - Japan Edition - PR: 4693",
+      "url": "https://www.topps.com/products/2026-los-angeles-dodgers-mlb-topps-now%C2%AE-road-to-opening-day-10-card-team-set-japan-edition",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-dodgers-japan-edition",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_special_2026.py"
+    },
+    {
+      "title": "2026 MLB Topps NOW® Road To Opening Day – Autograph Collector’s Box",
+      "url": "https://www.topps.com/products/2026-mlb-topps-now%C2%AE-road-to-opening-day-autograph-collector-s-box",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-autograph-collectors-box",
+      "publishedSourceRows": 259,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Washington Nationals MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 649",
+      "url": "https://www.topps.com/products/2026-washington-nationals-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-washington-nationals",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Miami Marlins MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 541",
+      "url": "https://www.topps.com/products/2026-miami-marlins-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-miami-marlins",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Baltimore Orioles MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1141",
+      "url": "https://www.topps.com/products/2026-baltimore-orioles-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-baltimore-orioles",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Los Angeles Dodgers MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 5721",
+      "url": "https://www.topps.com/products/2026-los-angeles-dodgers-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-los-angeles-dodgers",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 San Diego Padres MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 796",
+      "url": "https://www.topps.com/products/2026-san-diego-padres-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-san-diego-padres",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Arizona Diamondbacks MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 643",
+      "url": "https://www.topps.com/products/2026-arizona-diamondbacks-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-arizona-diamondbacks",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Texas Rangers MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 705",
+      "url": "https://www.topps.com/products/2026-texas-rangers-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-texas-rangers",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Toronto Blue Jays MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 731",
+      "url": "https://www.topps.com/products/2026-toronto-blue-jays-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-toronto-blue-jays",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Atlanta Braves MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1095",
+      "url": "https://www.topps.com/products/2026-atlanta-braves-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-atlanta-braves",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Houston Astros MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 759",
+      "url": "https://www.topps.com/products/2026-houston-astros-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-houston-astros",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Athletics MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 921",
+      "url": "https://www.topps.com/products/2026-athletics-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-athletics",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 New York Mets MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 1301",
+      "url": "https://www.topps.com/products/2026-new-york-mets-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-new-york-mets",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Angels MLB Topps NOW® Road To Opening Day 11-Card Team Set - PR: 720",
+      "url": "https://www.topps.com/products/2026-angels-mlb-topps-now%C2%AE-road-to-opening-day-11-card-team-set",
+      "publishedSlug": "topps-bowman-2026-rtod-topps-now-angels",
+      "publishedSourceRows": 10,
+      "dedicatedParser": "scripts/import_topps_now_rtod_pdf_2026.py"
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team Venezuela – World Baseball Classic Championship Set - PR:1084 Look for autos, short prints",
+      "url": "https://www.topps.com/products/2026-topps-now%C2%AE-baseball-team-venezuela-world-baseball-classic-championship-set",
+      "publishedSlug": "topps-bowman-2026-venezuela-wbc-championship-topps-now",
+      "publishedSourceRows": 27,
+      "dedicatedParser": "scripts/import_topps_now_venezuela_champions_2026.py"
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team United States – World Baseball Classic Team Sets - PR: 20322",
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-united-states-world-baseball-classic-team-sets",
+      "publishedSlug": "topps-bowman-2026-wbc-topps-now-team-united-states",
+      "publishedSourceRows": 28,
+      "dedicatedParser": "scripts/import_topps_now_wbc_teams_2026.py"
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team Venezuela – World Baseball Classic Team Sets - PR: 1424",
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-venezuela-world-baseball-classic-team-sets",
+      "publishedSlug": "topps-bowman-2026-wbc-topps-now-team-venezuela",
+      "publishedSourceRows": 18,
+      "dedicatedParser": "scripts/import_topps_now_wbc_teams_2026.py"
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team Dominican Republic – World Baseball Classic Team Sets - PR: 4207",
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-dominican-republic-world-baseball-classic-team-sets",
+      "publishedSlug": "topps-bowman-2026-wbc-topps-now-team-dominican-republic",
+      "publishedSourceRows": 19,
+      "dedicatedParser": "scripts/import_topps_now_wbc_teams_2026.py"
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team Japan – World Baseball Classic Team Sets - PR: 34993",
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-japan-world-baseball-classic-team-sets",
+      "publishedSlug": "topps-bowman-2026-wbc-topps-now-team-japan",
+      "publishedSourceRows": 28,
+      "dedicatedParser": "scripts/import_topps_now_wbc_teams_2026.py"
+    },
+    {
+      "title": "2026 Topps NOW® Baseball – Team Korea – World Baseball Classic Team Sets - PR: 1086",
+      "url": "https://www.topps.com/products/2026-topps-now-baseball-team-korea-world-baseball-classic-team-sets",
+      "publishedSlug": "topps-bowman-2026-wbc-topps-now-team-korea",
+      "publishedSourceRows": 13,
+      "dedicatedParser": "scripts/import_topps_now_wbc_teams_2026.py"
+    },
+    {
+      "title": "2026 Rising Stars Set - NBA Topps NOW® - 22 Card Set - PR: 7287",
+      "url": "https://www.topps.com/products/2026-rising-stars-set-nba-topps-now%C2%AE-22-card-set",
+      "publishedSlug": "topps-bowman-2026-nba-topps-now-rising-stars-set",
+      "publishedSourceRows": 37,
+      "dedicatedParser": "scripts/import_topps_now_nba_rising_stars_2026.py"
+    },
+    {
+      "title": "2026 All-Star Game Set - NBA Topps NOW® - 26 Card Set - PR: 4967",
+      "url": "https://www.topps.com/products/2026-all-star-game-set-nba-topps-now%C2%AE-26-card-set",
+      "publishedSlug": "topps-bowman-2026-nba-topps-now-all-star-game-set",
+      "publishedSourceRows": 37,
+      "dedicatedParser": "scripts/import_topps_now_nba_allstar_2026.py"
+    }
+  ],
+  "existingSingleCardAlias": {
+    "printedSeries": "2026 WWE Topps NOW®",
+    "printedNumber": "106",
+    "retainedSource": "https://www.topps.com/products/wren-sinclair-2026-wwe-topps-now-r-card-106-pr-776",
+    "freshProduct": {
+      "description": "Chrome Parallel Cards \n\nUltra-rare Chrome and Opal Chrome pattern Topps NOW® parallels will unlock for cards with large print runs at specific tiers as additional lucky parallels:\n\n50,000+ Print Run: Look for Chrome parallels /99 and /50 + lower parallel structure. \n\n100,000+ Print Run: Look for Chrome parallels /25, /10, /5 and 1/1 SuperFractor + lower parallel structure. \n\n250,000+ Print Run: Look for Opal Chrome parallels /50, /25, /10 and /5 + lower parallel structure. \n\n500,000+ Print Run: Look for 1/1 White OpalFractor Chrome + lower parallel structure.\n\nCapturing all the excitement of World Wrestling Entertainment – Topps NOW brings the biggest moments directly to your collection!\n\nYour Hero. Your Team. Your Moment. ™\n\nTopps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the WWE Topps NOW Archive. \nLearn About the Topps NOW® Brand \n\nAll sales are final. Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.",
+      "overview": "Look for:\n\nOpen-Edition Base Card\nFoil Parallels Numbered to /50 and lower\n\nParallels:\n\n/50 Gold Foil\n\n/25 Orange Foil\n\n/10 Black Foil\n\n/5 Red Foil\n\n/1 FoilFractor\n\n*Parallels or other non-base cards will replace the base card in your order. Odds of receiving a non-base card are based on total cards ordered.\n\nThe processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.\n\nSubject to Terms & Conditions ",
+      "overviewItems": [
+        "Open-Edition Base Card",
+        "Foil Parallels Numbered to /50 and lower"
+      ],
+      "sale": "Product is available from Oct 7, 2026",
+      "specs": [
+        [
+          "SKU",
+          "ARTWWE-16C2S-26TN-0106"
+        ],
+        [
+          "Category",
+          "Sports"
+        ],
+        [
+          "Sub Categories",
+          "Combat"
+        ],
+        [
+          "Sub Type",
+          "Cards"
+        ],
+        [
+          "Product Year",
+          "2026"
+        ],
+        [
+          "Brand",
+          "Topps"
+        ],
+        [
+          "Sub Brand",
+          "Topps NOW®"
+        ],
+        [
+          "Subjects",
+          "Wren Sinclair"
+        ],
+        [
+          "Properties",
+          "NXT"
+        ],
+        [
+          "Product Type",
+          "Print on Demand"
+        ],
+        [
+          "Available From",
+          "Oct 7, 2026"
+        ],
+        [
+          "Available Until",
+          "Oct 10, 2026"
+        ]
+      ],
+      "title": "Wren Sinclair - 2026 WWE Topps NOW® - Card 106",
+      "url": "https://www.topps.com/products/wren-sinclair-2026-wwe-topps-now%C2%AE-card-106"
+    },
+    "retainedSku": "ARTWWE-16C2S-26TN-0106-QTY1",
+    "freshSku": "ARTWWE-16C2S-26TN-0106",
+    "qualification": "Alternate official URL publishes the same printed series/card106, Subjects and sale dates as the retained card. The original SKU differs by the literal QTY1 suffix and is not overwritten. No duplicate card or replacement of the retained published PR776 by a blank run created."
+  },
+  "freshBundleProducts": [
+    {
+      "description": "The MLS All-Star Game is back with plenty of fire power representing the league for the first time! Topps Now celebrates the league’s biggest stars from the first half with a print on demand set.\n\nYour Hero. Your Team. Your Moment. ™\n\nTopps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the MLS Topps NOW Archive. \nLearn About the Topps NOW® Brand\n\nAll sales are final. Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.",
+      "overview": "Look for Relic, Autograph or Autograph-Relic Card\n\nThe biggest and brightest stars have been selected to the 2026 MLS All-Star Game! Each 11-card set contains the complete ten base card set plus a base parallel, autograph parallel, or Match-used net jewel 1/1 relic or autograph-relic redemption.\n\nThe 2026 MLS All-Star Game takes place on Wednesday, July 29, 2026, at 8:00 p.m. ET. It will be hosted at Bank of America Stadium in Charlotte, North Carolina.\n\nThe processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.",
+      "overviewItems": [],
+      "sale": "Product is available from Jul 27, 2026",
+      "specs": [
+        [
+          "SKU",
+          "ARTMLS-16C2S-26TN-ASGSET"
+        ],
+        [
+          "Category",
+          "Sports"
+        ],
+        [
+          "Sub Categories",
+          "Soccer"
+        ],
+        [
+          "Sub Type",
+          "Set"
+        ],
+        [
+          "Product Year",
+          "2026"
+        ],
+        [
+          "Brand",
+          "Topps"
+        ],
+        [
+          "Sub Brand",
+          "Topps NOW®"
+        ],
+        [
+          "Product Type",
+          "Print on Demand"
+        ],
+        [
+          "Available From",
+          "Jul 27, 2026"
+        ],
+        [
+          "Available Until",
+          "Aug 3, 2026"
+        ]
+      ],
+      "title": "2026 All-Star Game Set - MLS Topps NOW® - 11 Card Set - PR: 2677",
+      "url": "https://www.topps.com/products/2026-all-star-game-set-mls-topps-now%C2%AE-11-card-set-1"
+    },
+    {
+      "description": "Voted in by the fans and here now for your collection, it’s the official 2026 Topps NOW MLB All-Star Game set! Included in this 19-card set are the 2026 MLB All-Star Game selections, featuring 18 of the top overall selections to both the American and National League teams, PLUS one of the following cards guaranteed: Sequentially numbered base card parallel to /99 or lower, unnumbered All-Star Game LogoFractor, or redemption for an autographed base card parallel to /10 or less!\n\nThe Midsummer Classic will take place at Philadelphia's Citizens Bank Park on July 14 (8 p.m. ET)\n\nTopps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the MLB Topps NOW Archive. View Now.\n\nAll sales are final. Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.\n\nPLAYERS CHOICE DIAMOND CLUB®",
+      "overview": "(1) Numbered Parallel, Unnumbered Parallel, or Autograph per set\n\n19-card complete set - featuring 18 of the top All-Star Game selections from both the American and National League teams, PLUS (1) of the following cards guaranteed:\n\nSequentially numbered base card parallel to /99 or lower\nUnnumbered All-Star Game LogoFractor\nRedemption for autographed base card parallel /10 or lower\n\nFoil-Numbered Parallel Card numbered to /99 or lower:\n\n/99 Green Foil\n\n/50 Gold Foil\n\n/25 Orange Foil\n\n/10 Black Foil\n\n/5 Red Foil\n\n/1 FoilFractor\n\nThe processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.\n\nSubject to Terms & Conditions",
+      "overviewItems": [
+        "Sequentially numbered base card parallel to /99 or lower",
+        "Unnumbered All-Star Game LogoFractor",
+        "Redemption for autographed base card parallel /10 or lower"
+      ],
+      "sale": "Product is available from Jul 9, 2026",
+      "specs": [
+        [
+          "SKU",
+          "ARTBB-16C2S-26TN-ASGSET"
+        ],
+        [
+          "Category",
+          "Sports"
+        ],
+        [
+          "Sub Categories",
+          "Baseball"
+        ],
+        [
+          "Sub Type",
+          "Set"
+        ],
+        [
+          "Product Year",
+          "2026"
+        ],
+        [
+          "Brand",
+          "Topps"
+        ],
+        [
+          "Sub Brand",
+          "Topps NOW®"
+        ],
+        [
+          "Product Type",
+          "Print on Demand"
+        ],
+        [
+          "Available From",
+          "Jul 9, 2026"
+        ],
+        [
+          "Available Until",
+          "Jul 16, 2026"
+        ]
+      ],
+      "title": "2026 All-Star Game Set - MLB Topps NOW® - 19 Card Set - PR: 16306",
+      "url": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set"
+    },
+    {
+      "description": "For the first time in 53 years, the New York Knicks are NBA Champions! Celebrate NY’s unforgettable playoff run with the Topps Now 2026 NBA Championship Team Set. Each set includes (15) Base Cards PLUS (1) Parallel, SP, Auto, or Auto-Relic per Championship Set.\n\nSubject List:\n\nJalen Brunson\n\nJosh Hart\n\nOG Anunoby\n\nMikal Bridges\n\nKarl-Anthony Towns\n\nLandry Shamet\n\nMiles McBride\n\nMitchell Robinson\n\nJose Alvarado\n\nJordan Clarkson\n\nPacôme Dadiet\n\nTyler Kolek\n\nAriel Hukporti\n\nMohamed Diawara\n\nJeremy Sochan\n\nImage Variation Subjects:\n\nJalen Brunson\n\nKarl-Anthony Towns\n\nOG Anunoby\n\nMikal Bridges\n\nJosh Hart\n\nLandry Shamet\n\nMitchell Robinson\n\nJose Alvarado\n\nAutograph Subjects:\n\nJalen Brunson\n\nKarl-Anthony Towns\n\nOG Anunoby\n\nMikal Bridges\n\nJosh Hart\n\nLandry Shamet\n\nMiles McBride\n\nJose Alvarado\n\nJordan Clarkson\n\nYour Hero. Your Team. Your Moment. ™\n\nTopps NOW celebrates the greatest moments... as they happen! Only available at Topps.com. Print runs for every card are released in the NBA Topps NOW® Archive . \nLearn About the Topps NOW® Brand\n\nAll sales are final. Print runs revealed after sales window expires. Art subject to change. Not responsible for typographical/printer errors. In an effort to mitigate our carbon footprint, shipments may be grouped together within the same order. Large orders may be consolidated into bulk packaging at Topps’ discretion.  ",
+      "overview": "Look for Autographs, Dual Autograph Relic & Quintuple Autograph\n\n(15) Base Cards PLUS (1) Parallel, SP, Auto, or Auto-Relic per Championship Set.\n\nLook For:\n\nSerial-Numbered Parallel /99 or less\n\nImage Variation Short Prints\n\nOn-Card Autograph Redemptions /10 or less\n\nJalen Brunson/Karl-Anthony Towns 1/1 Dual Autograph Redemption\n\nJalen Brunson/Walt Frazier 1/1 Dual Autograph-Relic Redemption\n\nKnicks Starting 5 1/1 Quintuple Autograph Redemption\n\nParallels/Variations:\n\nImage Variation Short Prints\n\n/99 Green Foil\n\n/73 Blue & Orange Foil\n\n/50 Gold Foil\n\n/25 Orange Foil\n\n/10 Black Foil\n\n/5 Red Foil\n\n/1 FoilFractor\n\nThe processing time for this item begins after the sale clock expires. If you choose an upgraded shipping method, it will only expedite the shipping time, not the processing time.\n\nSubject to Terms & Conditions",
+      "overviewItems": [],
+      "sale": "Product is available from Jun 13, 2026",
+      "specs": [
+        [
+          "SKU",
+          "ARTBK-16C2S-26TN-CNYK"
+        ],
+        [
+          "Category",
+          "Sports"
+        ],
+        [
+          "Sub Categories",
+          "Basketball"
+        ],
+        [
+          "Sub Type",
+          "Set"
+        ],
+        [
+          "Product Year",
+          "2026"
+        ],
+        [
+          "Brand",
+          "Topps"
+        ],
+        [
+          "Sub Brand",
+          "Topps NOW®"
+        ],
+        [
+          "Product Type",
+          "Print on Demand"
+        ],
+        [
+          "Available From",
+          "Jun 13, 2026"
+        ],
+        [
+          "Available Until",
+          "Jun 20, 2026"
+        ]
+      ],
+      "title": "2026 NBA Champions - New York Knicks - NBA Topps NOW® 16-Card Team Set - PR: 65941",
+      "url": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set"
+    }
+  ],
+  "freshBundleChecklistLinks": [
+    {
+      "links": [
+        {
+          "title": "Download checklist",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/ASG_MLS_26_Checklist_1.pdf?v=1787975005"
+        }
+      ],
+      "url": "https://www.topps.com/products/2026-all-star-game-set-mls-topps-now%C2%AE-11-card-set-1"
+    },
+    {
+      "links": [
+        {
+          "title": "Download checklist",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Now_MLB_ASG_Set_Checklist.pdf?v=1787973837"
+        }
+      ],
+      "url": "https://www.topps.com/products/2026-all-star-game-set-mlb-topps-now%C2%AE-19-card-set"
+    },
+    {
+      "links": [],
+      "url": "https://www.topps.com/products/2026-nba-champions-new-york-knicks-nba-topps-now-r-16-card-team-set"
+    }
+  ],
+  "knicksCompleteRetainedFactualFieldsUnchanged": true,
+  "newImportedRows": 0,
+  "historicalCoverageComplete": false
+}

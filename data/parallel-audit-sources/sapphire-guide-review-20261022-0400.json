@@ -1,0 +1,68 @@
+{
+  "observed": "2026-10-22",
+  "checkedUtc": "2026-10-22T04:18:50.085168+00:00",
+  "sourceKind": "normalized-official-product-page-facts",
+  "hashQualification": "Hash covers these retained normalized facts from fresh official UI reads, not raw HTML.",
+  "reviews": [
+    {
+      "slug": "topps-bowman-2025-topps-chrome-football-sapphire",
+      "facts": {
+        "title": "Topps Chrome® Football Sapphire | Official Topps Store",
+        "url": "https://www.topps.com/pages/topps-chrome-football-sapphire",
+        "reviewedText": "Don't miss the next release\n2025 Topps Chrome® Football Sapphire\nCrystal-finish football cards packed with rare parallels and rookie chases.\nGet notified\nDownload checklist\nDownload odds\nAbout the release\n\n2025 Topps Chrome Football Sapphire Edition brings a premium edge to one of the hobby’s most recognizable chromium brands, combining the return of licensed Topps NFL Chrome with Sapphire’s signature crystal-style finish. Building off the excitement around 2025 Topps Chrome Football’s return to the NFL space, Sapphire is expected to feature exclusive parallels, limited production, and a strong lineup of NFL stars, legends, and top rookies.\n\nCollectors can expect a mix of rookie content, low-numbered color, and premium autograph chases featuring the 2025 rookie class alongside established veterans and all-time greats. Popular Chrome inserts and autograph concepts are also expected to return with exclusive Sapphire treatments that have made the brand one of the most sought-after Chrome releases across the hobby.\n\nWith Topps Chrome Football reestablishing itself as one of the hobby’s top NFL releases, Sapphire delivers a more premium collector experience — combining clean designs, limited color, and strong rookie potential for collectors chasing the NFL’s next generation of stars.\n\nWhat are you chasing?\nSapphire Selection Autographs\n\nInfinite Sapphire\n\nRookie Autograph Variation Sapphire Edition\n\nChromographs Sapphire Edition\n\n",
+        "documentChecks": [
+          {
+            "page": "https://www.topps.com/pages/topps-chrome-football-sapphire",
+            "title": "Download checklist",
+            "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Sapphire_Checklist_042926.pdf?v=1778615660",
+            "sha256": "b90ab799ca671a04e302d220f73cc5c0f40de3fab2cce4ae23b29aba9fb8eb18",
+            "unchanged": true,
+            "checkedVia": "Fresh primary/current index hash scan"
+          },
+          {
+            "page": "https://www.topps.com/pages/topps-chrome-football-sapphire",
+            "title": "Download odds",
+            "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Football_Odds.pdf?v=1776193199",
+            "sha256": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
+            "unchanged": true,
+            "checkedVia": "Fresh primary/current index hash scan"
+          }
+        ],
+        "numericParallelLimitsImported": 0,
+        "remainingGap": "Reviewed official landing-page text names Sapphire programs and qualitative low-numbered/exclusive color, but supplies no exact numeric family-scoped parallel ladder. Do not copy limits from regular Chrome or older products. Search results did not establish a current scoped guide."
+      },
+      "factualSha256": "f6c2e6c8877142cfade43d2be2f74067da217378d9e400bd97425e35584a54de",
+      "exhaustiveNumberingComplete": false
+    },
+    {
+      "slug": "topps-bowman-2025-topps-chrome-formula-1-sapphire-edition",
+      "facts": {
+        "title": "2025 Topps Chrome Formula 1® Sapphire",
+        "url": "https://www.topps.com/pages/formula-1-chrome-sapphire",
+        "reviewedText": "Don’t miss the next release\n2025 Topps Chrome® Formula 1® Sapphire Edition\nExceptional speed. Elite Sapphire.\nGet notified\nDownload Checklist\nDownload Odds\nAbout the release\n\nThe 2025 Topps Chrome® Formula 1® Sapphire Edition collection has arrived, featuring the largest Rookie lineup ever seen in a Topps F1® release.\nCollect the full 200-card Base Sapphire Set showcasing F1®, F2™ and F3™ drivers, F1® cars, F1® duos, team logo cards, and including more legends than any other collection! \nThis edition shines with Sapphire-only parallels and features two exclusive insert sets, Infinite Sapphire and Sapphire Selections, delivering refined design, depth, and brilliance that set Sapphire apart as the peak of Chrome collecting.\nThis year’s release also brings Sapphire Edition inserts such as Helmet Collection, Speed Demons, Floor It, 1975 Speed Wheels and Ace of Trades.\nKeep an eye out for Sapphire Autograph Cards from your favourite drivers.\nPush to the finish line and complete the set!\n\nWhat are you chasing?\nSapphire Autographs\n\nSapphire Selections\n\nInfinite Sapphire\n\nBase Sapphire\n\nSapphire Inserts\n\nSapphire Parallels\n\nPadparadscha Sapphire\n\nAbout the brand\n\nSince its debut in 2020, F1® Topps Chrome® Sapphire Edition has become a modern classic in the Hobby, bringing its trademark shine and innovation to the pinnacle of motorsport. \nCombining cutting-edge design with the adrenaline of racing, F1® Topps Chrome® Sapphire Edition captures the speed, style, and stars of the grid combined with the iconic Sapphire finish. \nWith its striking parallels, beautiful Autographs and rare chases it continues to set the standard for F1® trading cards.",
+        "documentChecks": [
+          {
+            "page": "https://www.topps.com/pages/formula-1-chrome-sapphire",
+            "title": "Download Checklist",
+            "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025_Topps_Chrome_F1_Sapphire_Edition_Checklist.pdf?v=1770631422",
+            "sha256": "ab4a63032c53738e9ccd9bb7e16168694c26a6ebc19e9427dc0afcdc723eb068",
+            "unchanged": true,
+            "checkedVia": "Fresh primary/current index hash scan"
+          },
+          {
+            "page": "https://www.topps.com/pages/formula-1-chrome-sapphire",
+            "title": "Download Odds",
+            "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Topps_Chrome_F1_2025_Odds_8bbac9c4-bcdd-418b-9001-bfe3218c8827.pdf?v=1770631422",
+            "sha256": "decac0f134a90d3f86a2705ed9b6402a64e70450ba3fd4d078651b1576e00a7e",
+            "unchanged": true,
+            "checkedVia": "Fresh primary/current index hash scan"
+          }
+        ],
+        "numericParallelLimitsImported": 0,
+        "remainingGap": "Reviewed official landing-page text names Sapphire programs and qualitative low-numbered/exclusive color, but supplies no exact numeric family-scoped parallel ladder. Do not copy limits from regular Chrome or older products. Search results did not establish a current scoped guide."
+      },
+      "factualSha256": "06976ccd9a0d61fcadef5943faec817f55e6b0589a519a3691d12ea371d9a482",
+      "exhaustiveNumberingComplete": false
+    }
+  ]
+}

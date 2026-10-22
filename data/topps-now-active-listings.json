@@ -1,7 +1,7 @@
 {
   "observed": "2026-10-22",
   "sourceKind": "official-browser-active-listing",
-  "checkedUtc": "2026-10-22T03:22:16.477873+00:00",
+  "checkedUtc": "2026-10-22T04:10:55.173464+00:00",
   "freshListingReadsComplete": true,
   "pendingFreshListingReads": [],
   "listings": [
@@ -238,20 +238,20 @@
       "reportedProductCount": 4,
       "products": [
         {
-          "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
-          "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30"
-        },
-        {
-          "title": "Bear Bachmeier - 2026-27 Bowman U NOW® Football - Card 29",
-          "url": "https://www.topps.com/products/bear-bachmeier-2026-27-bowman-u-now-r-football-card-29"
+          "title": "Bo Jackson - 2026-27 Bowman U NOW® Football - Card 27",
+          "url": "https://www.topps.com/products/bo-jackson-2026-27-bowman-u-now-r-football-card-27"
         },
         {
           "title": "Darian Mensah - 2026-27 Bowman U NOW® Football - Card 28",
           "url": "https://www.topps.com/products/darian-mensah-2026-27-bowman-u-now-r-football-card-28"
         },
         {
-          "title": "Bo Jackson - 2026-27 Bowman U NOW® Football - Card 27",
-          "url": "https://www.topps.com/products/bo-jackson-2026-27-bowman-u-now-r-football-card-27"
+          "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
+          "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30"
+        },
+        {
+          "title": "Bear Bachmeier - 2026-27 Bowman U NOW® Football - Card 29",
+          "url": "https://www.topps.com/products/bear-bachmeier-2026-27-bowman-u-now-r-football-card-29"
         }
       ]
     }

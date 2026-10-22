@@ -1,6 +1,6 @@
 {
   "observed": "2026-10-22",
-  "listingSha256": "750d59de9a6081625186d1683ca72a7268933463738039e94e940d163ba2624c",
+  "listingSha256": "9944f3dd07a32dcfd0153f6e4814cb412e5fb286da466f34e14c5d1cf5819a4c",
   "historicalCoverageComplete": false,
   "products": [
     {
@@ -279,13 +279,8 @@
       "status": "published"
     },
     {
-      "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
-      "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30",
-      "status": "published"
-    },
-    {
-      "title": "Bear Bachmeier - 2026-27 Bowman U NOW® Football - Card 29",
-      "url": "https://www.topps.com/products/bear-bachmeier-2026-27-bowman-u-now-r-football-card-29",
+      "title": "Bo Jackson - 2026-27 Bowman U NOW® Football - Card 27",
+      "url": "https://www.topps.com/products/bo-jackson-2026-27-bowman-u-now-r-football-card-27",
       "status": "published"
     },
     {
@@ -294,8 +289,13 @@
       "status": "published"
     },
     {
-      "title": "Bo Jackson - 2026-27 Bowman U NOW® Football - Card 27",
-      "url": "https://www.topps.com/products/bo-jackson-2026-27-bowman-u-now-r-football-card-27",
+      "title": "KJ Duff - 2026-27 Bowman U NOW® Football - Card 30",
+      "url": "https://www.topps.com/products/kj-duff-2026-27-bowman-u-now-r-football-card-30",
+      "status": "published"
+    },
+    {
+      "title": "Bear Bachmeier - 2026-27 Bowman U NOW® Football - Card 29",
+      "url": "https://www.topps.com/products/bear-bachmeier-2026-27-bowman-u-now-r-football-card-29",
       "status": "published"
     }
   ],
@@ -303,5 +303,5 @@
   "uniquePublishedCount": 55,
   "remaining": [],
   "freshListingReadsComplete": true,
-  "coverageStatement": "Current official all-page listing and all55 complete product UI reads refreshed this run;59/59 active occurrences reconcile to retained observations and published rows. Historical archive remains partial."
+  "coverageStatement": "Fresh all-page NOW/Bowman listings and55 full product reads reconcile to59 published occurrences. Historical archive and separately imported bundles retain their own evidence and partial labels."
 }
