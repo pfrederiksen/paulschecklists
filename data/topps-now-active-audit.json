@@ -1,6 +1,6 @@
 {
   "observed": "2026-10-22",
-  "listingSha256": "9944f3dd07a32dcfd0153f6e4814cb412e5fb286da466f34e14c5d1cf5819a4c",
+  "listingSha256": "3f039bcd09881424c3be3085b9a96c9381688d3c7e544b5141c694f95b3c3646",
   "historicalCoverageComplete": false,
   "products": [
     {
@@ -303,5 +303,5 @@
   "uniquePublishedCount": 55,
   "remaining": [],
   "freshListingReadsComplete": true,
-  "coverageStatement": "Fresh all-page NOW/Bowman listings and55 full product reads reconcile to59 published occurrences. Historical archive and separately imported bundles retain their own evidence and partial labels."
+  "coverageStatement": "Current fresh all-page NOW/Bowman listings and55 full product reads reconcile to59 published occurrences. Historical archive remains partial; separate bundle catalog retained."
 }

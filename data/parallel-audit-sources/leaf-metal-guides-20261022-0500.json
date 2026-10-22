@@ -1,0 +1,75 @@
+{
+  "observed": "2026-10-22",
+  "checkedUtc": "2026-10-22T05:25:57.449187+00:00",
+  "sourceKind": "normalized-official-product-ui-facts",
+  "hashQualification": "Normalized factual UI observations, not raw HTML hashes.",
+  "reviews": [
+    {
+      "slug": "leaf-2026-leaf-metal-football",
+      "facts": {
+        "url": "https://www.leaftradingcards.com/products/2026-leaf-metal-football",
+        "title": "2026 Leaf Metal Football - Leaf Trading Cards",
+        "printedProductStage": "RELEASED",
+        "productYear": "2026",
+        "publishedConfiguration": {
+          "Hobby box": {
+            "AUTOS PER BOX": "4",
+            "BASE CARDS PER BOX": "4",
+            "ON-CARD AUTOS": "1",
+            "BOXES PER CASE": "10"
+          },
+          "Jumbo": {
+            "AUTOS PER BOX": "8",
+            "BASE CARDS PER BOX": "8",
+            "ON-CARD AUTOS": "1",
+            "BOXES PER CASE": "8"
+          }
+        },
+        "documentChecks": [
+          {
+            "page": "https://www.leaftradingcards.com/products/2026-leaf-metal-football",
+            "title": "Download Full Checklist",
+            "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69c3ef26953b763f1879a6ae_2026_Leaf_Metal_Football_CL_F.xlsx",
+            "sha256": "37d70039b1cd282d5d56dc635d5ad9f2252f007e66d6b660110850d6363ff86e",
+            "unchanged": true,
+            "checkedVia": "Fresh primary or current global document hash scan"
+          }
+        ]
+      },
+      "factualSha256": "e2bda8674886140e0639f337713db815ec64ab690143fc35f3b4fcd6a7cdf69a",
+      "configurationOnly": true,
+      "numericParallelLimitsImported": 0,
+      "remainingGap": "Reviewed product-page text publishes box/case configuration and selected signers, not an additional numeric family/parallel ladder. Existing complete workbook specifications remain preserved separately. Configuration and a Released label do not establish pack odds, new serial limits, a general calendar release date or exhaustive eligibility."
+    },
+    {
+      "slug": "leaf-2026-leaf-metal-pop-century",
+      "facts": {
+        "url": "https://www.leaftradingcards.com/products/2026-leaf-pop-century",
+        "title": "2026 Leaf Metal Pop Century - Leaf Trading Cards",
+        "printedProductStage": "RELEASED",
+        "productYear": "2026",
+        "publishedConfiguration": {
+          "Format not named": {
+            "AUTOS PER BOX": "4",
+            "PROOFS PER BOX": "2",
+            "BOXES PER CASE": "10"
+          }
+        },
+        "documentChecks": [
+          {
+            "page": "https://www.leaftradingcards.com/products/2026-leaf-pop-century",
+            "title": "Download Full Checklist",
+            "url": "https://cdn.prod.website-files.com/6185749e80385c9daf8ddaf3/69f500d7b489df389e824062_2026_Leaf_Metal_Pop_Century_CL_F.xlsx",
+            "sha256": "b967903b947aa856f62b3b0e2b0b88af0fb5e7260a7db19305bc5856be222a32",
+            "unchanged": true,
+            "checkedVia": "Fresh primary or current global document hash scan"
+          }
+        ]
+      },
+      "factualSha256": "08e41a2f22e6544cc6861668046909fb0704edcb6f070b1ea432245508c53953",
+      "configurationOnly": true,
+      "numericParallelLimitsImported": 0,
+      "remainingGap": "Reviewed product-page text publishes box/case configuration and selected signers, not an additional numeric family/parallel ladder. Existing complete workbook specifications remain preserved separately. Configuration and a Released label do not establish pack odds, new serial limits, a general calendar release date or exhaustive eligibility."
+    }
+  ]
+}

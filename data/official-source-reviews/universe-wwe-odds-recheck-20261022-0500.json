@@ -1,0 +1,30 @@
+{
+  "checkedUtc": "2026-10-22T05:25:57.449187+00:00",
+  "sourceKind": "fresh-official-product-ui-and-document-recheck",
+  "productPage": {
+    "links": [
+      {
+        "title": "Download odds",
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_odds.pdf?v=1790191410"
+      },
+      {
+        "title": "Download checklist",
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26UWWE_-_2026_Topps_Universe_WWE_Checklist_8700b54a-0ec9-4ab7-87b2-47b4e40862a0.xls?v=1789144046"
+      }
+    ],
+    "text": "Home\n·\nTopps\n·\nAll Products\n·\nTopps Cards & Collectibles\n+2 more\nShow all photos\n2026 Topps Universe WWE - Mega Box\n\nSign in to earn 2% in FanCash\n\nFind Exclusive Parallels\n\nShips in 1-2 business days\n\nLimit per cart: 10\n\nBoxes:Mega Box\n\nHobby Box - Sold out\nMega Box - Sold out\nValue Box\n\nSealed case:\n\nHobby Case - Sold out\nMega Case - Sold out\nSold out\nDownload odds\nDownload checklist\nOverview\n\n6 Cards per Pack. 12 Packs per Box. \n\nFind Exclusive Parallels. \n\n*Required to be logged into your account to purchase\n\nAll sales are final. Art subject to change. Not responsible for typographical/printer errors.\n\nDescription\nSpecs",
+    "url": "https://www.topps.com/products/2026-topps-universe-wwe-mega-box"
+  },
+  "globalIndex": "https://www.topps.com/pages/odds",
+  "observedGlobalUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_Odds.pdf?v=1789484084",
+  "globalHttpStatus": 404,
+  "workingProductOdds": {
+    "page": "https://www.topps.com/products/2026-topps-universe-wwe-mega-box",
+    "title": "Download odds",
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Universe_WWE_odds.pdf?v=1790191410",
+    "sha256": "524082d8e008aef3ad1589a8fbeec1fbd6fe3d51d841a8cb871a4582b8ac2658",
+    "unchanged": true,
+    "checkedVia": "Fresh primary or current global document hash scan"
+  },
+  "scope": "2026 Universe WWE only; not2025. Exact current product-specific source remains available and hash-identical. Known global404 is separate; no imported data downgrade."
+}

@@ -593,10 +593,10 @@
       "file": "data/official-source-reviews/universe-wwe-2026-odds-link-20261019-0100.json",
       "sha256": "3402f5cf4bdada49a43ac7a8f46f6a69e30265bf42ea0df263ac92196a6d7ff5"
     },
-    "globalCatalogStatusObserved": "2026-10-22T04:18:17.565312+00:00",
+    "globalCatalogStatusObserved": "2026-10-22T05:25:57.449187+00:00",
     "globalCatalogStatusReview": {
-      "file": "data/official-source-reviews/universe-wwe-odds-recheck-20261022-0400.json",
-      "sha256": "53a800afe31ea4662d8487a79f5fb12121d80f9462b81f896a0bbb1bf35dc8b5"
+      "file": "data/official-source-reviews/universe-wwe-odds-recheck-20261022-0500.json",
+      "sha256": "cd433b3eb1f1c591c07742b8fe9a55b450cbead4bbef4f9004b2594e4ae1a501"
     }
   },
   {
