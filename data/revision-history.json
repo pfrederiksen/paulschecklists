@@ -17226,5 +17226,59 @@
         "previousSnapshot": null
       }
     ]
+  },
+  "topps-bowman-2026-bowman-baseball-sapphire-edition": {
+    "state": {
+      "checklistHash": "052e3538fae9e62d792e8a509d6c81a6fab2d4ff4860a078c5079212644ae220",
+      "oddsHash": "a3e0e4ca75c04843ee14c204f431ba3c2b4c29dbdf66ea8f03e8977bb49c349a",
+      "rows": 195,
+      "odds": 19,
+      "specificationRows": 2
+    },
+    "fingerprint": "693d24451e7286841e0d5e663aac0b96f56a3be8b210ba2cbf8b62b48b161e3e",
+    "events": [
+      {
+        "at": "2026-10-22T02:23:53.341Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Sapphire_Edition_Checklist.pdf?v=1780499869",
+        "snapshot": {
+          "checklistHash": "052e3538fae9e62d792e8a509d6c81a6fab2d4ff4860a078c5079212644ae220",
+          "oddsHash": "a3e0e4ca75c04843ee14c204f431ba3c2b4c29dbdf66ea8f03e8977bb49c349a",
+          "rows": 195,
+          "odds": 19,
+          "specificationRows": 2
+        },
+        "previousSnapshot": null
+      }
+    ]
+  },
+  "topps-bowman-2025-26-topps-uefa-club-competitions": {
+    "state": {
+      "checklistHash": "4465460b01f867b190e41e2adb5cf98bbe6b7c85dadb6755b542719a5588fa55",
+      "oddsHash": "6eebedef2ca56c4b5b2b93af86ffaede106105b94891f45b06219905b6489151",
+      "rows": 950,
+      "odds": 270,
+      "specificationRows": 2
+    },
+    "fingerprint": "5950c923aa966c93ba2a989278ac12e9adcfa003cb9deafa11dec31121cb4199",
+    "events": [
+      {
+        "at": "2026-10-22T02:23:53.357Z",
+        "changes": [
+          "Initial recorded snapshot; earlier revisions are not reconstructed."
+        ],
+        "source": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025-26_UCC_Flagship_Checklist.pdf?v=1768301058",
+        "snapshot": {
+          "checklistHash": "4465460b01f867b190e41e2adb5cf98bbe6b7c85dadb6755b542719a5588fa55",
+          "oddsHash": "6eebedef2ca56c4b5b2b93af86ffaede106105b94891f45b06219905b6489151",
+          "rows": 950,
+          "odds": 270,
+          "specificationRows": 2
+        },
+        "previousSnapshot": null
+      }
+    ]
   }
 }

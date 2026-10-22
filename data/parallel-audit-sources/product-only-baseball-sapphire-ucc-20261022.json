@@ -1,0 +1,77 @@
+{
+  "bowman-sapphire-checklist": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Sapphire_Edition_Checklist.pdf?v=1780499869",
+    "sha256": "052e3538fae9e62d792e8a509d6c81a6fab2d4ff4860a078c5079212644ae220",
+    "file": "data/catalog-sources/downloads/bowman-sapphire-checklist.pdf",
+    "bytes": 63224
+  },
+  "bowman-sapphire-odds": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Sapphire_Odds.pdf?v=1781646322",
+    "sha256": "a3e0e4ca75c04843ee14c204f431ba3c2b4c29dbdf66ea8f03e8977bb49c349a",
+    "file": "data/catalog-sources/downloads/bowman-sapphire-odds.pdf",
+    "bytes": 499303
+  },
+  "ucc-flagship-checklist": {
+    "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025-26_UCC_Flagship_Checklist.pdf?v=1768301058",
+    "sha256": "4465460b01f867b190e41e2adb5cf98bbe6b7c85dadb6755b542719a5588fa55",
+    "file": "data/catalog-sources/downloads/ucc-flagship-checklist.pdf",
+    "bytes": 399686
+  },
+  "ucc-flagship-odds": {
+    "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_UCC_Club_Competitions_Odds_v2.pdf?v=1769110018",
+    "sha256": "6eebedef2ca56c4b5b2b93af86ffaede106105b94891f45b06219905b6489151",
+    "file": "data/catalog-sources/downloads/ucc-flagship-odds.pdf",
+    "bytes": 204703
+  },
+  "observed": "2026-10-22",
+  "checkedUtc": "2026-10-22T02:21:28.809284+00:00",
+  "sourceKind": "normalized-official-product-facts",
+  "method": "Official regional product-page web reads and activated Download checklist / Download odds links. Hashes cover original downloaded PDF bytes and normalized factual evidence; no browser UI completeness or raw HTML hash is claimed.",
+  "products": [
+    {
+      "key": "bowman-sapphire",
+      "title": "2026 Bowman Baseball Sapphire Edition",
+      "slug": "topps-bowman-2026-bowman-baseball-sapphire-edition",
+      "year": "2026",
+      "sport": "baseball",
+      "source": "https://uk.topps.com/pages/bowman-baseball-sapphire-edition",
+      "facts": [
+        [
+          "Chrome Prospect Set",
+          "150 cards"
+        ],
+        [
+          "Box distribution",
+          "At least one autograph and three exclusive colored parallels; these are box contents, not numerical pack odds."
+        ]
+      ],
+      "remainingGaps": [
+        "No verified general release date or numerical serial ladder in the checked product page.",
+        "Do not inherit regular Bowman or Bowman Chrome Sapphire numbering."
+      ]
+    },
+    {
+      "key": "ucc-flagship",
+      "title": "2025-26 Topps UEFA Club Competitions",
+      "slug": "topps-bowman-2025-26-topps-uefa-club-competitions",
+      "year": "2025-26",
+      "sport": "soccer",
+      "source": "https://uk.topps.com/pages/uefa-club-competitions",
+      "facts": [
+        [
+          "Base set",
+          "200 cards"
+        ],
+        [
+          "Spring Tin distribution",
+          "Three themed exclusive base parallels per box; this is not a pack-odds denominator."
+        ]
+      ],
+      "remainingGaps": [
+        "Numerical serial ladders and exhaustive regional family eligibility remain unverified.",
+        "A January15 UK guide release candidate was found, but direct complete article access was blocked; no general release date imported.",
+        "Carnaval, Brazilian Artists, Pitch Heroes and Legends of Nippon odds-only programs must not invent missing rosters or borrow a different family."
+      ]
+    }
+  ]
+}

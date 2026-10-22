@@ -1,0 +1,23 @@
+{
+  "checkedUtc": "2026-10-22T02:09:45.952951+00:00",
+  "sourceKind": "supplemental-official-http-read-not-ui",
+  "method": "Direct HTTP HTML parser; cannot refresh the required browser/UI checkpoint or establish dynamic storefront pagination coverage.",
+  "results": [
+    {
+      "url": "https://www.topps.com/collections/topps-now",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.topps.com/collections/bowman-u-now",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.topps.com/pages/checklists",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.topps.com/pages/odds",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

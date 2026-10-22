@@ -7321,6 +7321,34 @@
       "ongoingSeries": false,
       "status": "Numbering evidence imported; exhaustive parallel reconciliation not confirmed",
       "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2026-bowman-baseball-sapphire-edition",
+      "title": "2026 Bowman Baseball Sapphire Edition",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://uk.topps.com/pages/bowman-baseball-sapphire-edition",
+      "oddsCategories": 19,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": []
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-uefa-club-competitions",
+      "title": "2025-26 Topps UEFA Club Competitions",
+      "manufacturer": "Topps / Bowman",
+      "source": "https://uk.topps.com/pages/uefa-club-competitions",
+      "oddsCategories": 270,
+      "numberedOddsCategories": 0,
+      "supplementalSpecifications": 0,
+      "structuredNumbering": false,
+      "publishedSpecifications": true,
+      "ongoingSeries": false,
+      "status": "Published specifications imported; parallel numbering review remains incomplete",
+      "conflicts": []
     }
   ]
 }

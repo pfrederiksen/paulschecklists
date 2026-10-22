@@ -1,0 +1,2376 @@
+{
+  "checkedUtc": "2026-10-22T02:13:05.124Z",
+  "sourceKind": "supplemental-official-web-link-resolution-not-ui",
+  "method": "Fresh official web index text and individual link activations resolve actual target URLs. This is a supplemental read; it does not replace the required native/browser UI checkpoint.",
+  "indexes": [
+    {
+      "ref": "turn1514view0",
+      "rows": [
+        {
+          "id": 1,
+          "title": "2026 Bowman Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Checklist.pdf?v=1775743176"
+        },
+        {
+          "id": 2,
+          "title": "2025-26 Bowman Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767"
+        },
+        {
+          "id": 3,
+          "title": "2026 Bowman Chrome® Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Checklist_1.pdf?v=1786458901"
+        },
+        {
+          "id": 4,
+          "title": "2026 Bowman Chrome® Baseball Mega Box",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Mega_Box_Checklist_1.pdf?v=1786458909"
+        },
+        {
+          "id": 5,
+          "title": "2026 Bowman Chrome® Baseball Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Sapphire_Edition_Checklist.pdf?v=1790956155"
+        },
+        {
+          "id": 6,
+          "title": "2025 Bowman Draft Baseball Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_Draft_Baseball_Checklist_-_Sapphire_Edition_1.pdf?v=1770914875"
+        },
+        {
+          "id": 7,
+          "title": "2026 Bowman Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Football_Checklist.pdf?v=1790867994"
+        },
+        {
+          "id": 8,
+          "title": "2026 Bowman Football Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26BWFB_SAPPHIRE.pdf?v=1792510528"
+        },
+        {
+          "id": 9,
+          "title": "2025 Bowman's Best Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Checklist.pdf?v=1772217092"
+        },
+        {
+          "id": 10,
+          "title": "2026 Bowman U Best Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_U_Best_FB_Checklist.pdf?v=1791206274"
+        },
+        {
+          "id": 11,
+          "title": "2025-26 Bowman University Best Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26BUBB_VERSION2.pdf?v=1776781082"
+        },
+        {
+          "id": 12,
+          "title": "2026 Garbage Pail Kids Halloween",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26GPK_Halloween_Checklist.pdf?v=1792021294"
+        },
+        {
+          "id": 13,
+          "title": "2026 National Sports Collectors Convention",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_National_Sports_Collectors_Convention_26NSCC_-_Checklist_1.pdf?v=1785264843"
+        },
+        {
+          "id": 14,
+          "title": "2025 Star Wars Masterwork",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Masterwork_Checklist.pdf?v=1777400855"
+        },
+        {
+          "id": 15,
+          "title": "2025 Topps 30 Years of Toy Story",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_30_Years_of_Toy_Story_Checklist.pdf?v=1775137646"
+        },
+        {
+          "id": 16,
+          "title": "2026 Topps Allen & Ginter Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Allen_and_Ginter.pdf?v=1788875550"
+        },
+        {
+          "id": 17,
+          "title": "2026 Topps Brooklyn Collection",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Brooklyn_Collection_Checklist.pdf?v=1772572812"
+        },
+        {
+          "id": 18,
+          "title": "2026 Topps Chrome® Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Baseball_Checklist_Final_7.22.pdf?v=1785169183"
+        },
+        {
+          "id": 19,
+          "title": "2026 Topps Chrome® Baseball Logofractor Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Logofractor_Checklist.pdf?v=1786996133"
+        },
+        {
+          "id": 20,
+          "title": "2026 Topps Chrome® Baseball Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Sapphire_Checklist.pdf?v=1786996122"
+        },
+        {
+          "id": 21,
+          "title": "2026 Topps Chrome® Baseball – Team Samurai Japan Collection",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Samurai_Japan_Checklist_update_8.26_1.pdf?v=1787762012"
+        },
+        {
+          "id": 22,
+          "title": "2025-26 Topps Chrome® Basketball Sapphire",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Basketball_Sapphire_Checklist.pdf?v=1768338554"
+        },
+        {
+          "id": 23,
+          "title": "2026 Topps Chrome® Black Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Cheklist_chrome_black.pdf?v=1785244468"
+        },
+        {
+          "id": 24,
+          "title": "2025 Topps Chrome® Black Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Checklist.pdf?v=1780925886"
+        },
+        {
+          "id": 25,
+          "title": "2025-26 Topps Chrome® Cactus Jack Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Cactus_Jack_Basketball_Checklist.pdf?v=1777925174"
+        },
+        {
+          "id": 26,
+          "title": "2025 Topps Chrome® Deadpool",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Deadpool_Checklist.pdf?v=1772559492"
+        },
+        {
+          "id": 27,
+          "title": "2026 Topps Chrome® Disney",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DNYC_Checklist.pdf?v=1779205893"
+        },
+        {
+          "id": 28,
+          "title": "2026 Topps Chrome® Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792444820"
+        },
+        {
+          "id": 29,
+          "title": "2025 Topps Chrome® Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Checklist_040826.pdf?v=1775678965"
+        },
+        {
+          "id": 30,
+          "title": "2025 Topps Chrome® Football Sapphire",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Sapphire_Checklist_042926.pdf?v=1778615660"
+        },
+        {
+          "id": 31,
+          "title": "2025 Topps Chrome® Formula 1 - Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Formula_1_Sapphire_Edition_Checklist.pdf?v=1770648860"
+        },
+        {
+          "id": 32,
+          "title": "Topps Chrome® Major League Soccer 2026",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_Subject_to_Change_3ac890e7-2e2f-4550-89d8-59689322cd5c.pdf?v=1789050559"
+        },
+        {
+          "id": 33,
+          "title": "2026 Topps Chrome® Marvel Comics",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_HobbyValueMega_Checklist.pdf?v=1780349890"
+        },
+        {
+          "id": 34,
+          "title": "2026 Topps Chrome® Marvel Comics Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_Sapphire_Checklist.pdf?v=1785177723"
+        },
+        {
+          "id": 35,
+          "title": "2025 Topps Chrome® McDonald's All-American Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Checklist.pdf?v=1770740329"
+        },
+        {
+          "id": 36,
+          "title": "2025 Topps Chrome® Platinum Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Platinum_Baseball_Checklist.pdf?v=1777494180"
+        },
+        {
+          "id": 37,
+          "title": "Topps Chrome® UEFA Club Competitions 2025-26",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TUCC_ChromeChecklist_FINAL.pdf?v=1775059905"
+        },
+        {
+          "id": 38,
+          "title": "2026 Topps Chrome® UFC",
+          "section": "2026",
+          "gap": "Official web link activation returned an internal error; current target not verified."
+        },
+        {
+          "id": 39,
+          "title": "2026 Topps Chrome® UFC - Sapphire Edition",
+          "section": "2026",
+          "gap": "Official web link activation returned an internal error; current target not verified."
+        },
+        {
+          "id": 40,
+          "title": "2025-26 Topps Chrome® Updates Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Final_CheckList_26CUBK.pdf?v=1783360479"
+        },
+        {
+          "id": 41,
+          "title": "2025-26 Topps Chrome® Updates Basketball Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26CUBK_SAPPHIRE_FINAL.pdf?v=1787941231"
+        },
+        {
+          "id": 42,
+          "title": "2026 Topps Chrome® U.S. Winter Olympics & Paralympic Team Hopefuls",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_U.S._Winter_Olympics_Paralympic_Team_Hopefuls_-_Checklist.pdf?v=1767731038"
+        },
+        {
+          "id": 43,
+          "title": "2026 Topps Chrome® VeeFriends",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_VeeFriends_Checklist.pdf?v=1778506125"
+        },
+        {
+          "id": 44,
+          "title": "2026 Topps Chrome® WWE",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_26CWWE_ChromeWWE.pdf?v=1775658305"
+        },
+        {
+          "id": 45,
+          "title": "2026 Topps Chrome® x Jennie",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_x_Jennie_Checklist.pdf?v=1787173303"
+        },
+        {
+          "id": 46,
+          "title": "2026 Topps Collector Kit",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Collector_Kit_1.pdf?v=1774449045"
+        },
+        {
+          "id": 47,
+          "title": "2026 Topps Collector Kit Wave 2",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Collector_Kit_Wave_2_Checklist.pdf?v=1790604076"
+        },
+        {
+          "id": 48,
+          "title": "2026 Topps Cosmic Chrome® Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Cosmic_Chrome_Baseball_-_Checklist.pdf?v=1790609925"
+        },
+        {
+          "id": 49,
+          "title": "2025-26 Topps Cosmic Chrome® Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Checklist.pdf?v=1774549583"
+        },
+        {
+          "id": 50,
+          "title": "2025 Topps Cosmic Chrome® Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Cosmic_Chrome_Checklist_051826.pdf?v=1779115984"
+        },
+        {
+          "id": 51,
+          "title": "2025 Topps Definitive Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBB_VERSION1.pdf?v=1775567097"
+        },
+        {
+          "id": 52,
+          "title": "2025-26 Topps Definitive Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBK_VERSION4_1.pdf?v=1786549562"
+        },
+        {
+          "id": 53,
+          "title": "2025 Topps Disneyland 70th Anniversary",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Disneyland_70th_Anniversary_Checklist.pdf?v=1771355640"
+        },
+        {
+          "id": 54,
+          "title": "2026 Topps Disney Neon",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Disney_Neon_Checklist.pdf?v=1773149064"
+        },
+        {
+          "id": 55,
+          "title": "2026 Topps Dynamic Duals Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Dynamic_Duals_Baseball_Checklist.pdf?v=1781536739"
+        },
+        {
+          "id": 56,
+          "title": "2025 Topps Dynasty Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25TDBB.pdf?v=1779119079"
+        },
+        {
+          "id": 57,
+          "title": "2025 Topps Exalted WWE",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CHECKLIST_2025EXALTEDWWE.pdf?v=1774986961"
+        },
+        {
+          "id": 58,
+          "title": "2026 Topps Finest Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Finest_Baseball_FDI_Checklist.pdf?v=1780433969"
+        },
+        {
+          "id": 59,
+          "title": "2025-26 Topps Finest Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733"
+        },
+        {
+          "id": 60,
+          "title": "2026 Topps Finest Fantastic Four",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Fantastic_Four_Checklist.pdf?v=1773431109"
+        },
+        {
+          "id": 61,
+          "title": "2025 Topps Finest Football",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Finest_Checklist_042326.pdf?v=1776986521"
+        },
+        {
+          "id": 62,
+          "title": "Topps® Finest Premier League 2026",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Finest_Premier_League_Checklist.pdf?v=1774359572"
+        },
+        {
+          "id": 63,
+          "title": "2026-27 Topps Flagship Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Copy_of_2026-27_Topps_Flagship_Basketball_Checklist_10-9-26.xls_-_Compatibility_Mode.pdf?v=1791570579"
+        },
+        {
+          "id": 64,
+          "title": "2026 Topps Flagship Football",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315"
+        },
+        {
+          "id": 65,
+          "title": "2026 Topps Heritage Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Checklist_26THBB_3.20.pdf?v=1774362662"
+        },
+        {
+          "id": 66,
+          "title": "2026 Topps Heritage Football",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Football_Checklist.pdf?v=1790800436"
+        },
+        {
+          "id": 67,
+          "title": "2026 Topps Holiday Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Holiday_Baseball_26THBW_-_Checklist.pdf?v=1789566977"
+        },
+        {
+          "id": 68,
+          "title": "2025-26 Topps Hopps Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447"
+        },
+        {
+          "id": 69,
+          "title": "2025 Topps Inception Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Inception_Baseball_25TIBB_-_Checklist_5.18.pdf?v=1779116690"
+        },
+        {
+          "id": 70,
+          "title": "2025-26 Topps Inception Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Checklist.pdf?v=1781789274"
+        },
+        {
+          "id": 71,
+          "title": "2026 Topps Inception Football",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Inception_Football_CheckList_26TIFB_VERSION.pdf?v=1790715925"
+        },
+        {
+          "id": 72,
+          "title": "Topps® Manchester United 2025/26 Team Set",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Manchester_United_Team_Set_2025-26_Checklist.pdf?v=1770828538"
+        },
+        {
+          "id": 73,
+          "title": "2025/26 Topps Manchester United Collector Tin",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025-26_Manchester_United_Collector_Tin_Checklist.pdf?v=1758044356"
+        },
+        {
+          "id": 74,
+          "title": "2026 Topps Mars Attacks Christmas",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Mars_Attacks_Xmas_24MARS_CHECKLIST_FINAL.pdf?v=1788874979"
+        },
+        {
+          "id": 75,
+          "title": "2025 Topps Marvel Studios Chrome® Sapphire",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Marvel_Studios_Chrome_Sapphire_Checklist.pdf?v=1767909774"
+        },
+        {
+          "id": 76,
+          "title": "2025 Topps Marvel The Collector",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Marvel_The_Collector_Checklist.pdf?v=1770215891"
+        },
+        {
+          "id": 77,
+          "title": "2026 Topps Midnight UFC",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MidnightUFC_Checklist_Final.pdf?v=1776702978"
+        },
+        {
+          "id": 78,
+          "title": "2026 Topps Mint Disney",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL.pdf?v=1791896818"
+        },
+        {
+          "id": 79,
+          "title": "2026 Topps MLB x KAWS",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWs_Checklist.pdf?v=1784208798"
+        },
+        {
+          "id": 80,
+          "title": "2025 Topps Museum Collection Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Museum_Collection_Baseball_Checklist.pdf?v=1770050312"
+        },
+        {
+          "id": 81,
+          "title": "2026 Topps Museum Collection Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Museum_Baseball_Checklist.pdf?v=1788204579"
+        },
+        {
+          "id": 82,
+          "title": "Topps® Museum UEFA Club Competitions 2025/26",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Museum_Checklist_Subject_to_Change.pdf?v=1789660179"
+        },
+        {
+          "id": 83,
+          "title": "2025-26 Topps NBL Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26NBLC_Checklist_Final.pdf?v=1780091079"
+        },
+        {
+          "id": 84,
+          "title": "2025 Topps Pristine Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Pristine_Checklist.pdf?v=1767627098"
+        },
+        {
+          "id": 85,
+          "title": "2026 Topps Pro Debut Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pro_Debut_Checklist.pdf?v=1792417707"
+        },
+        {
+          "id": 86,
+          "title": "2025 Topps Resurgence Football",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Resurgence_Football_Checklist.pdf?v=1782407891"
+        },
+        {
+          "id": 87,
+          "title": "2025 Topps Royalty UFC",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25RUFC_2025_Topps_Royalty_UFC.pdf?v=1770129272"
+        },
+        {
+          "id": 88,
+          "title": "2025 Topps Royalty WWE",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25RWWE_f1866dc1-a96b-4573-9ba9-780a73093535.pdf?v=1777641349"
+        },
+        {
+          "id": 89,
+          "title": "2026 Topps Series 1 Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_1_Baseball_Checklist_2-23.pdf?v=1772557808"
+        },
+        {
+          "id": 90,
+          "title": "2026 Topps Series 2 Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_2_Baseball_Checklist_5-11.pdf?v=1778521905"
+        },
+        {
+          "id": 91,
+          "title": "2025-26 Topps Signature Class Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247"
+        },
+        {
+          "id": 92,
+          "title": "2025 Topps Signature Class Football",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Checklist_25CSFB_VERSION2.pdf?v=1777921828"
+        },
+        {
+          "id": 93,
+          "title": "2025 Topps Stadium Club Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Stadium_Club_Baseball_Checklist.pdf?v=1769109095"
+        },
+        {
+          "id": 94,
+          "title": "2026 Topps Star Wars Chrome®",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26SWCM3.pdf?v=1790701893"
+        },
+        {
+          "id": 95,
+          "title": "2026 Topps Star Wars Chrome® Galaxy",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26SWCGCHECKLISTUPDATE.pdf?v=1786632392"
+        },
+        {
+          "id": 96,
+          "title": "2025 Topps Star Wars Smugglers Outpost",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Smugglers_Outpost_Checklist.pdf?v=1770909931"
+        },
+        {
+          "id": 97,
+          "title": "2025-26 Topps Three Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443"
+        },
+        {
+          "id": 98,
+          "title": "2026 Topps Tier One Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26T1BB.pdf?v=1779804529"
+        },
+        {
+          "id": 99,
+          "title": "2025 Topps Transcendent Collection Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Transcendent_Collection_Checklist_-_9_15_26.pdf?v=1789485749"
+        },
+        {
+          "id": 100,
+          "title": "2026 Topps Tribute Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tribute_Baseball_Checklist_1.pdf?v=1782740369"
+        },
+        {
+          "id": 101,
+          "title": "2025 Topps Universe WWE",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Universe_WWE_-_CheckList_25UWWE.pdf?v=1771878230"
+        },
+        {
+          "id": 102,
+          "title": "2026 Topps Universe WWE",
+          "section": "2026 continued",
+          "gap": "Official web link activation returned an internal error; current target not verified."
+        },
+        {
+          "id": 103,
+          "title": "2026 Topps Update Series Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Update_Series_Baseball_Checklist_10-19.pdf?v=1792504951"
+        },
+        {
+          "id": 104,
+          "title": "2026 Topps Vault Disney",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DSNV_VERSION4_a99ba06a-fb73-4a5b-941a-c11d6d6b1c90.pdf?v=1792511348"
+        }
+      ]
+    },
+    {
+      "ref": "turn1514view1",
+      "rows": [
+        {
+          "id": 1,
+          "title": "2026 Bowman Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Odds.pdf?v=1776345050"
+        },
+        {
+          "id": 2,
+          "title": "2026 Bowman Baseball Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Sapphire_Odds.pdf?v=1781646322"
+        },
+        {
+          "id": 3,
+          "title": "2025-26 Bowman Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Odds.pdf?v=1776281698"
+        },
+        {
+          "id": 4,
+          "title": "2026 Bowman Chrome® Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Odds.pdf?v=1791472292"
+        },
+        {
+          "id": 5,
+          "title": "2025 Bowman Draft Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_Draft_Baseball_Odds.pdf?v=1770925127"
+        },
+        {
+          "id": 5,
+          "title": "2025 Bowman Draft Baseball Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_Draft_Baseball_Odds.pdf?v=1770925127"
+        },
+        {
+          "id": 6,
+          "title": "2025 Bowman's Best Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Baseball_Odds.pdf?v=1773183175"
+        },
+        {
+          "id": 7,
+          "title": "2026 Bowman Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Bowman_Football_Odds.pdf?v=1790713108"
+        },
+        {
+          "id": 8,
+          "title": "2025-26 Bowman University Best Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25_26_Bowman_U_Best_Basketball_Odds.pdf?v=1778857649"
+        },
+        {
+          "id": 9,
+          "title": "2026 Star Wars Chrome® Galaxy",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Stars_Wars_Chrome_Galaxy.pdf?v=1786638023"
+        },
+        {
+          "id": 10,
+          "title": "2025 Star Wars Masterwork",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Masterwork_Odds.pdf?v=1777320886"
+        },
+        {
+          "id": 11,
+          "title": "2026 Topps Allen & Ginter Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-29_MLB-ALLEN-_-GINTER-2026_Odds.pdf?v=1790697457"
+        },
+        {
+          "id": 12,
+          "title": "2026 Topps Brooklyn Collection",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Brooklyn_Collection_Odds.pdf?v=1772572812"
+        },
+        {
+          "id": 13,
+          "title": "2026 Topps Chrome® Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Baseball_Odds.pdf?v=1784729528"
+        },
+        {
+          "id": 14,
+          "title": "2026 Topps Chrome® Baseball Logofractor Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Logofractor_Odds.pdf?v=1787676101"
+        },
+        {
+          "id": 15,
+          "title": "2026 Topps Chrome® Baseball Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Sapphire_Odds.pdf?v=1787676129"
+        },
+        {
+          "id": 16,
+          "title": "2026 Topps Chrome® Baseball – Team Samurai Japan Collection",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-10-14_MLB-JAPAN-SAMURAI-2026_Odds_2_1.pdf?v=1792078823"
+        },
+        {
+          "id": 17,
+          "title": "2025-26 Topps Chrome® Basketball Sapphire",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Basketball_Sapphire_Odds.pdf?v=1768338554"
+        },
+        {
+          "id": 18,
+          "title": "2026 Topps Chrome® Black Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Odds.pdf?v=1777474592"
+        },
+        {
+          "id": 19,
+          "title": "2025-26 Topps Chrome® Black Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Odds.pdf?v=1788295188"
+        },
+        {
+          "id": 20,
+          "title": "2025 Topps Chrome® Black Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Odds.pdf?v=1783543006"
+        },
+        {
+          "id": 21,
+          "title": "2025-26 Topps Chrome® Cactus Jack Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Cactus_Jack_Basketball_Odds.pdf?v=1777925174"
+        },
+        {
+          "id": 22,
+          "title": "2025 Topps Chrome® Deadpool",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Deadpool_Odds.pdf?v=1773762703"
+        },
+        {
+          "id": 23,
+          "title": "2026 Topps Chrome® Disney",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Disney_Chrome_Odds_1.pdf?v=1781705214"
+        },
+        {
+          "id": 24,
+          "title": "2026 Topps Chrome® Disney Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Disney_Sapphire_Odds.pdf?v=1784729760"
+        },
+        {
+          "id": 25,
+          "title": "2025 Topps Chrome® Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Football_Odds.pdf?v=1776193199"
+        },
+        {
+          "id": 26,
+          "title": "2025 Topps Chrome® Formula 1 - Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Formula_1_Sapphire_Edition_Odds.pdf?v=1770648860"
+        },
+        {
+          "id": 27,
+          "title": "Topps Chrome® Major League Soccer 2026",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_MLS_Chrome_Odds_bfbe76ad-f5f8-448d-8d8a-7a61ca01a257.pdf?v=1789050564"
+        },
+        {
+          "id": 28,
+          "title": "2026 Topps Chrome® Marvel Comics",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Marvel_Comics_Chrome_Odds.pdf?v=1780349073"
+        },
+        {
+          "id": 29,
+          "title": "2026 Topps Chrome® Marvel Comics Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Marvel_Comics_Chrome_Odds_517c8f23-9e04-4c43-aeaf-f9bd9c4ee70b.pdf?v=1785939128"
+        },
+        {
+          "id": 30,
+          "title": "2025 Topps Chrome® Marvel Studios Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Marvel_Studios_Chrome_Sapphire_Odds.pdf?v=1767909773"
+        },
+        {
+          "id": 31,
+          "title": "2025 Topps Chrome® McDonald’s All-American Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Odds.pdf?v=1775071299"
+        },
+        {
+          "id": 32,
+          "title": "Topps Chrome® MLS 2025",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_MLS_Chrome_Odds.pdf?v=1777050150"
+        },
+        {
+          "id": 33,
+          "title": "2025 Topps Chrome® Platinum Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Platinum55_Baseball_Odds.pdf?v=1781723903"
+        },
+        {
+          "id": 34,
+          "title": "2026 Topps Chrome® Star Wars",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-29_2026-Topps-Chrome-Star-Wars_Odds-2.pdf?v=1790777195"
+        },
+        {
+          "id": 35,
+          "title": "2025-26 Topps Chrome® Updates Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Updates_Basketball_odds.pdf?v=1786020446"
+        },
+        {
+          "id": 36,
+          "title": "2025-26 Topps Chrome® Updates Basketball Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25_26_Topps_Chrome_Updates_Basketball_Sapphire_Odds.pdf?v=1788294895"
+        },
+        {
+          "id": 37,
+          "title": "2026 Topps Chrome® UFC",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_UFC_Chrome_Odds.pdf?v=1779134050"
+        },
+        {
+          "id": 38,
+          "title": "2026 Topps Chrome® UFC - Sapphire Edition",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_UFC_Sapphire.pdf?v=1781705060"
+        },
+        {
+          "id": 39,
+          "title": "2026 Topps Chrome® U.S. Winter Olympics & Paralympic Team Hopefuls",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_US_Olympics_Odds.pdf?v=1787595621"
+        },
+        {
+          "id": 40,
+          "title": "2026 Topps Chrome® VeeFriends",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_VeeFriends_Odds.pdf?v=1778160123"
+        },
+        {
+          "id": 41,
+          "title": "2026 Topps Chrome® x Jennie",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_x_Jennie.pdf?v=1787173282"
+        },
+        {
+          "id": 42,
+          "title": "2026 Topps Cosmic Chrome® Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-28_2026-Topps-Cosmic-Chrome-Baseball_Odds.pdf?v=1790610132"
+        },
+        {
+          "id": 43,
+          "title": "2025-26 Topps Cosmic Chrome® Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Odds.pdf?v=1774987789"
+        },
+        {
+          "id": 44,
+          "title": "2025 Topps Cosmic Chrome® Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Cosmic_Chrome_Football_Odds.pdf?v=1781722934"
+        },
+        {
+          "id": 45,
+          "title": "2025 Topps Definitive Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Definitive_Baseball_Odds.pdf?v=1777493204"
+        },
+        {
+          "id": 46,
+          "title": "2025-26 Topps Definitive Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-16_2025-26-Topps-Definitive-Basketball_Odds_1.pdf?v=1789650301"
+        },
+        {
+          "id": 47,
+          "title": "2026 Topps Disney Neon",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Disney_Neon_Odds.pdf?v=1773149064"
+        },
+        {
+          "id": 48,
+          "title": "2025 Topps Disneyland 70th Anniversary",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Disneyland_70th_Anniversary_Odds.pdf?v=1770391017"
+        },
+        {
+          "id": 49,
+          "title": "2026 Topps Dynamic Duals Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Dynamic_Duals_Odds.pdf?v=1781536733"
+        },
+        {
+          "id": 50,
+          "title": "2025 Topps Dynasty Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Dynasty_Baseball_Odds.pdf?v=1783625122"
+        },
+        {
+          "id": 51,
+          "title": "2025 Topps Exalted WWE",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_WWE_Exalted_Odds.pdf?v=1775050238"
+        },
+        {
+          "id": 52,
+          "title": "2026 Topps Finest Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Baseball_Odds.pdf?v=1783437319"
+        },
+        {
+          "id": 53,
+          "title": "2025-26 Topps Finest Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Odds.pdf?v=1771360733"
+        },
+        {
+          "id": 54,
+          "title": "2026 Topps Finest Fantastic Four",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Fantastic_Four_Odds.pdf?v=1773762703"
+        },
+        {
+          "id": 55,
+          "title": "2025 Topps Finest Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0871/8916/0120/files/2025_Topps_Finest_Football_Odds.pdf?v=1782311781"
+        },
+        {
+          "id": 56,
+          "title": "Topps Finest Premier League 2026",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/PL_FINEST_ODDS_Official.pdf?v=1774262754"
+        },
+        {
+          "id": 57,
+          "title": "2026 Topps Flagship Football",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Football_Odds.pdf?v=1789491381"
+        },
+        {
+          "id": 58,
+          "title": "2026 Topps Graphite Tennis",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Graphite_Tennis_Odds.pdf?v=1777049989"
+        },
+        {
+          "id": 59,
+          "title": "2026 Topps Heritage Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Baseball_Odds.pdf?v=1773779345"
+        },
+        {
+          "id": 60,
+          "title": "2026 Topps Holiday Baseball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Holiday_Baseball_Odds.pdf?v=1792522843"
+        },
+        {
+          "id": 61,
+          "title": "2025-26 Topps Hoops Basketball",
+          "section": "2026",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Odds.pdf?v=1777298833"
+        },
+        {
+          "id": 62,
+          "title": "2025 Topps Inception Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Inception_Baseball_Odds.pdf?v=1783625098"
+        },
+        {
+          "id": 63,
+          "title": "2025-26 Topps Inception Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Odds.pdf?v=1783522877"
+        },
+        {
+          "id": 64,
+          "title": "2025 Topps Marvel The Collector",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Marvel_The_Collector_Odds.pdf?v=1770229437"
+        },
+        {
+          "id": 65,
+          "title": "2025-26 Topps Midnight Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Midnight_Basketball_Odds.pdf?v=1769113140"
+        },
+        {
+          "id": 66,
+          "title": "2026 Topps Midnight UFC",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_UFC_Midnight_Odds.pdf?v=1776194785"
+        },
+        {
+          "id": 67,
+          "title": "2026 Topps Mint Marvel",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Mint_Marvel_Odds.pdf?v=1787676114"
+        },
+        {
+          "id": 68,
+          "title": "2026 Topps MLB x KAWS",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWS_Odds.pdf?v=1784559267"
+        },
+        {
+          "id": 69,
+          "title": "2025 Topps Museum Collection Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Museum_Collection_Baseball_Odds.pdf?v=1770050312"
+        },
+        {
+          "id": 70,
+          "title": "2026 Topps Museum Collection Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Museum_Baseball_Odds.pdf?v=1789484095"
+        },
+        {
+          "id": 71,
+          "title": "2025-26 Topps NBL Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/NBL_ODDS.pdf?v=1782336693"
+        },
+        {
+          "id": 72,
+          "title": "2025 Topps Pristine Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025ToppsPristineBaseballOdds.pdf?v=1770915274"
+        },
+        {
+          "id": 73,
+          "title": "2026 Topps Pristine Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pristine_Baseball_Odds.pdf?v=1786546346"
+        },
+        {
+          "id": 74,
+          "title": "2025 Topps Resurgence Football",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Resurgence_Football_Odds_1.pdf?v=1785355384"
+        },
+        {
+          "id": 75,
+          "title": "2025 Topps Royalty WWE",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_WWE_Royalty_Odds.pdf?v=1777649182"
+        },
+        {
+          "id": 76,
+          "title": "2026 Topps Series 1 Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Series_1_Odds.pdf?v=1771951813"
+        },
+        {
+          "id": 77,
+          "title": "2026 Topps Series 2 Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Series_2_Odds.pdf?v=1781724617"
+        },
+        {
+          "id": 78,
+          "title": "2025-26 Topps Signature Class Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Odds.pdf?v=1777313248"
+        },
+        {
+          "id": 79,
+          "title": "2025 Topps Signature Class Football",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Signature_Class_Football_Odds.pdf?v=1781876271"
+        },
+        {
+          "id": 80,
+          "title": "2025 Topps Stadium Club Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Stadium_Club_Baseball_Odds.pdf?v=1769442573"
+        },
+        {
+          "id": 81,
+          "title": "2025 Topps Star Wars Smugglers Outpost",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Smugglers_Outpost_Odds.pdf?v=1770757598"
+        },
+        {
+          "id": 82,
+          "title": "2025-26 Topps Three Basketball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Odds.pdf?v=1771339442"
+        },
+        {
+          "id": 83,
+          "title": "2026 Topps Tier One Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Tier_One_Baseball_Odds.pdf?v=1783625109"
+        },
+        {
+          "id": 84,
+          "title": "2026 Topps Tribute Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tirbute_Baseball_Odds.pdf?v=1785343913"
+        },
+        {
+          "id": 85,
+          "title": "2025-26 Topps UEFA Club Competitions",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_UCC_Club_Competitions_Odds_v2.pdf?v=1769110018"
+        },
+        {
+          "id": 86,
+          "title": "2026 Topps Universe WWE",
+          "section": "2026 continued",
+          "gap": "Official web link activation returned an internal error; current target not verified."
+        },
+        {
+          "id": 87,
+          "title": "2026 Topps Update Series Baseball",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Updates_Series_Odds.pdf?v=1790610141"
+        },
+        {
+          "id": 88,
+          "title": "2026 Topps Vault Disney",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-10-14_2026-Topps-Disney-Vault_Odds_1_d3b2e2ba-df85-4bac-b402-3af69f927aef.pdf?v=1792510260"
+        },
+        {
+          "id": 89,
+          "title": "2026 Topps Vault Marvel",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Marvel_Vault_Odds.pdf?v=1786546333"
+        },
+        {
+          "id": 90,
+          "title": "2025 Topps 30 Years of Toy Story",
+          "section": "2026 continued",
+          "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_30_Years_of_Toy_Story_Odds.pdf?v=1775137644"
+        }
+      ]
+    }
+  ],
+  "documentChecks": [
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Checklist.pdf?v=1775743176",
+      "sha256": "07b758501b766aa6bc55c14f9fc024097c0bb4cff5d754c2f9c6984455e8a06d",
+      "previousSha256": "07b758501b766aa6bc55c14f9fc024097c0bb4cff5d754c2f9c6984455e8a06d",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767",
+      "sha256": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+      "previousSha256": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Checklist_1.pdf?v=1786458901",
+      "sha256": "3197399f57e3cb63d9d76aaa5a284d72725ca5ea16d0f8fc40acb7e75e19291b",
+      "previousSha256": "3197399f57e3cb63d9d76aaa5a284d72725ca5ea16d0f8fc40acb7e75e19291b",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Mega_Box_Checklist_1.pdf?v=1786458909",
+      "sha256": "bf23ee12196c0190c0868da37e300757e7fd3aac098b7f62e01b0fcdabd285c6",
+      "previousSha256": "bf23ee12196c0190c0868da37e300757e7fd3aac098b7f62e01b0fcdabd285c6",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Sapphire_Edition_Checklist.pdf?v=1790956155",
+      "sha256": "45be2acc2da76c2a64a4768e44b5a045830f35c614a86f2cb97c4a006cef630a",
+      "previousSha256": "45be2acc2da76c2a64a4768e44b5a045830f35c614a86f2cb97c4a006cef630a",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_Draft_Baseball_Checklist_-_Sapphire_Edition_1.pdf?v=1770914875",
+      "sha256": "9697eb5e720454a4927d5cf911e12aeda79bf1a40e73f80146ffc0cf59544eb5",
+      "previousSha256": "9697eb5e720454a4927d5cf911e12aeda79bf1a40e73f80146ffc0cf59544eb5",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Football_Checklist.pdf?v=1790867994",
+      "sha256": "acc2dadf884b603f889445367671b6817eebb1f51a0101d7c014a946cd1a1b6b",
+      "previousSha256": "acc2dadf884b603f889445367671b6817eebb1f51a0101d7c014a946cd1a1b6b",
+      "unchanged": true,
+      "bytes": 434069
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26BWFB_SAPPHIRE.pdf?v=1792510528",
+      "sha256": "077084b320f86c7a3af9117ae3ab865125264b1edcbc9e63bc6c8f46554ea4da",
+      "previousSha256": "077084b320f86c7a3af9117ae3ab865125264b1edcbc9e63bc6c8f46554ea4da",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Checklist.pdf?v=1772217092",
+      "sha256": "6415c21127d8d80e2d400c3d9e526698056f24306e6e498a42361670ecb05de6",
+      "previousSha256": "6415c21127d8d80e2d400c3d9e526698056f24306e6e498a42361670ecb05de6",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_U_Best_FB_Checklist.pdf?v=1791206274",
+      "sha256": "d3f571605df35fcdf175765ded7e0e2c988324f1df58e73c23e0f5ec745db10d",
+      "previousSha256": "d3f571605df35fcdf175765ded7e0e2c988324f1df58e73c23e0f5ec745db10d",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26BUBB_VERSION2.pdf?v=1776781082",
+      "sha256": "b50a72d4e164388cf0da7decbf535607cdc90bfb6487f668c94bf058665db266",
+      "previousSha256": "b50a72d4e164388cf0da7decbf535607cdc90bfb6487f668c94bf058665db266",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26GPK_Halloween_Checklist.pdf?v=1792021294",
+      "sha256": "4502f08f35c9acc68103620917f75e7c55227c12bb94a11af08947c095232831",
+      "previousSha256": "4502f08f35c9acc68103620917f75e7c55227c12bb94a11af08947c095232831",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_National_Sports_Collectors_Convention_26NSCC_-_Checklist_1.pdf?v=1785264843",
+      "sha256": "550a590840eb9bcfb0775970a9043148ff12845030c832109c5f6ceadeabb7ef",
+      "previousSha256": "550a590840eb9bcfb0775970a9043148ff12845030c832109c5f6ceadeabb7ef",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Masterwork_Checklist.pdf?v=1777400855",
+      "sha256": "5369458990a683f342c3983cf517f7820d1b8339c3a76cde03c99456f2904ace",
+      "previousSha256": "5369458990a683f342c3983cf517f7820d1b8339c3a76cde03c99456f2904ace",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_30_Years_of_Toy_Story_Checklist.pdf?v=1775137646",
+      "sha256": "98ffb70e072e0efe8e9266430c3b85717496cf8d0a68719e50d05aa2f9f91e9e",
+      "previousSha256": "98ffb70e072e0efe8e9266430c3b85717496cf8d0a68719e50d05aa2f9f91e9e",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Allen_and_Ginter.pdf?v=1788875550",
+      "sha256": "a856119076f1b5093acd73117159a5d6c6ee7cdc57e4865cf2c4508d357a61ad",
+      "previousSha256": "a856119076f1b5093acd73117159a5d6c6ee7cdc57e4865cf2c4508d357a61ad",
+      "unchanged": true,
+      "bytes": 363825
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Brooklyn_Collection_Checklist.pdf?v=1772572812",
+      "sha256": "7fd3b7361592cdd8db083067a0c824eafec2f8c67b599e417f8686c078273721",
+      "previousSha256": "7fd3b7361592cdd8db083067a0c824eafec2f8c67b599e417f8686c078273721",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Baseball_Checklist_Final_7.22.pdf?v=1785169183",
+      "sha256": "55bf1f46983c20bf23e8331c6da87e627020ddf02296ecf989f07afe98d17f10",
+      "previousSha256": "55bf1f46983c20bf23e8331c6da87e627020ddf02296ecf989f07afe98d17f10",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Logofractor_Checklist.pdf?v=1786996133",
+      "sha256": "01746306c96f50ae6473d9fd7f8f719e0780ac33c213a0265bfb36755c304d68",
+      "previousSha256": "01746306c96f50ae6473d9fd7f8f719e0780ac33c213a0265bfb36755c304d68",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Sapphire_Checklist.pdf?v=1786996122",
+      "sha256": "1e2dbcb26be3a07b9d5eab384828fec4eab14c3cad41cc54c12b0714ad78391e",
+      "previousSha256": "1e2dbcb26be3a07b9d5eab384828fec4eab14c3cad41cc54c12b0714ad78391e",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Samurai_Japan_Checklist_update_8.26_1.pdf?v=1787762012",
+      "sha256": "dc380e38333069ad72e3bb4f5a103f8cf01d33e87d98df457d6a5f0788aa4546",
+      "previousSha256": "dc380e38333069ad72e3bb4f5a103f8cf01d33e87d98df457d6a5f0788aa4546",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Basketball_Sapphire_Checklist.pdf?v=1768338554",
+      "sha256": "6f3377c09b44c43734953cc111d8f9b9452a807e135f53bda551f383e05e8d2c",
+      "previousSha256": "6f3377c09b44c43734953cc111d8f9b9452a807e135f53bda551f383e05e8d2c",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Cheklist_chrome_black.pdf?v=1785244468",
+      "sha256": "50e690e09a0f022fb09479bb0020f4683283e1e852fd0f28f3a4d7e23e922730",
+      "previousSha256": "50e690e09a0f022fb09479bb0020f4683283e1e852fd0f28f3a4d7e23e922730",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Checklist.pdf?v=1780925886",
+      "sha256": "12f1b80a28d8870af48d683ca17ecd2cae441bb4d30407fc1f9a1e9d44ac50fd",
+      "previousSha256": "12f1b80a28d8870af48d683ca17ecd2cae441bb4d30407fc1f9a1e9d44ac50fd",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Cactus_Jack_Basketball_Checklist.pdf?v=1777925174",
+      "sha256": "85441058b917bf023b733d8234a8aa4542cad12971f1ec75b1df643a5002887d",
+      "previousSha256": "85441058b917bf023b733d8234a8aa4542cad12971f1ec75b1df643a5002887d",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Deadpool_Checklist.pdf?v=1772559492",
+      "sha256": "5c26ecb9ead43e47c41b9f56db10e832806892403debad1ef26026c37f91ea28",
+      "previousSha256": "5c26ecb9ead43e47c41b9f56db10e832806892403debad1ef26026c37f91ea28",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DNYC_Checklist.pdf?v=1779205893",
+      "sha256": "35b2f171d98e7f2829f91860cb1df9132833c3215a8850fae1ca20ea6748f57e",
+      "previousSha256": "35b2f171d98e7f2829f91860cb1df9132833c3215a8850fae1ca20ea6748f57e",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TCFB.pdf?v=1792444820",
+      "sha256": "8a0d71bc77404525a0c94d1dcbdf2a200276810072ed41cfc9c7272a1ee25a43",
+      "previousSha256": "8a0d71bc77404525a0c94d1dcbdf2a200276810072ed41cfc9c7272a1ee25a43",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Checklist_040826.pdf?v=1775678965",
+      "sha256": "590ad763a6695b43db60dd1395a271c47b262f8084a40b2ef3511cd8001b9ae5",
+      "previousSha256": "590ad763a6695b43db60dd1395a271c47b262f8084a40b2ef3511cd8001b9ae5",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Chrome_Football_Sapphire_Checklist_042926.pdf?v=1778615660",
+      "sha256": "b90ab799ca671a04e302d220f73cc5c0f40de3fab2cce4ae23b29aba9fb8eb18",
+      "previousSha256": "b90ab799ca671a04e302d220f73cc5c0f40de3fab2cce4ae23b29aba9fb8eb18",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Formula_1_Sapphire_Edition_Checklist.pdf?v=1770648860",
+      "sha256": "ab4a63032c53738e9ccd9bb7e16168694c26a6ebc19e9427dc0afcdc723eb068",
+      "previousSha256": "ab4a63032c53738e9ccd9bb7e16168694c26a6ebc19e9427dc0afcdc723eb068",
+      "unchanged": true,
+      "bytes": 244173
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_Subject_to_Change_3ac890e7-2e2f-4550-89d8-59689322cd5c.pdf?v=1789050559",
+      "sha256": "e6f980058de10adee1ced6279e1d44c9ef0a2b59b07e0d6a75fc5caad3fb0754",
+      "previousSha256": "e6f980058de10adee1ced6279e1d44c9ef0a2b59b07e0d6a75fc5caad3fb0754",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_HobbyValueMega_Checklist.pdf?v=1780349890",
+      "sha256": "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81",
+      "previousSha256": "5ae8fa650063366f257fe16f07d5819ddf91a8daaf3ee2e9b000cb3256bbbc81",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MACC_Sapphire_Checklist.pdf?v=1785177723",
+      "sha256": "8565d125fc26b766d7517874a3a41caf7fb187a0163b557f89d98fa2fb90d25a",
+      "previousSha256": "8565d125fc26b766d7517874a3a41caf7fb187a0163b557f89d98fa2fb90d25a",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Checklist.pdf?v=1770740329",
+      "sha256": "2175670434849c8a8d58c7068130ec9d035ebfc51edca70610b78051643ee8a4",
+      "previousSha256": "2175670434849c8a8d58c7068130ec9d035ebfc51edca70610b78051643ee8a4",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Platinum_Baseball_Checklist.pdf?v=1777494180",
+      "sha256": "ee15344bdbfe64744ffc6a60ba06c7400a02a7379051ad6fe26e85a7308b5b13",
+      "previousSha256": "ee15344bdbfe64744ffc6a60ba06c7400a02a7379051ad6fe26e85a7308b5b13",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26TUCC_ChromeChecklist_FINAL.pdf?v=1775059905",
+      "sha256": "e799f58f7d5ce5e5bb5ca68f713da04cbc3436059dbb1df20100e99ac47ce734",
+      "previousSha256": "e799f58f7d5ce5e5bb5ca68f713da04cbc3436059dbb1df20100e99ac47ce734",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Final_CheckList_26CUBK.pdf?v=1783360479",
+      "sha256": "7010b390246c9297ab213abf22fdef2408ce76d7d54b21966d0c63ba8e9e4fc2",
+      "previousSha256": "7010b390246c9297ab213abf22fdef2408ce76d7d54b21966d0c63ba8e9e4fc2",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26CUBK_SAPPHIRE_FINAL.pdf?v=1787941231",
+      "sha256": "c420c4185435d5d7b223c4801bc2875105348608ab5a0e472dda2ea12f1daf7f",
+      "previousSha256": "c420c4185435d5d7b223c4801bc2875105348608ab5a0e472dda2ea12f1daf7f",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_U.S._Winter_Olympics_Paralympic_Team_Hopefuls_-_Checklist.pdf?v=1767731038",
+      "sha256": "7c856af7f10f4ea6d0aaf6012abcd63596a36a5c70c9c26bab768d01ea5f3cd4",
+      "previousSha256": "7c856af7f10f4ea6d0aaf6012abcd63596a36a5c70c9c26bab768d01ea5f3cd4",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_VeeFriends_Checklist.pdf?v=1778506125",
+      "sha256": "f7c2308d337b009da1f540943b59c2e000662aaaff79a9d378bba4a99f11a876",
+      "previousSha256": "f7c2308d337b009da1f540943b59c2e000662aaaff79a9d378bba4a99f11a876",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CheckList_26CWWE_ChromeWWE.pdf?v=1775658305",
+      "sha256": "324210889dbe0dae22582720a58dccd4eda9a62d7dfcab9de95d21ca38661dd9",
+      "previousSha256": "324210889dbe0dae22582720a58dccd4eda9a62d7dfcab9de95d21ca38661dd9",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_x_Jennie_Checklist.pdf?v=1787173303",
+      "sha256": "2c05e7b1f58fcd362b8aa6bed5e3ba9f0da113fb14616db940281d1f4a0a4d5a",
+      "previousSha256": "2c05e7b1f58fcd362b8aa6bed5e3ba9f0da113fb14616db940281d1f4a0a4d5a",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Collector_Kit_1.pdf?v=1774449045",
+      "sha256": "684817271227eb518b31da8e45ec9cfb9e04a6b1486be26680d618fc935175c5",
+      "previousSha256": "684817271227eb518b31da8e45ec9cfb9e04a6b1486be26680d618fc935175c5",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Collector_Kit_Wave_2_Checklist.pdf?v=1790604076",
+      "sha256": "f2bbac0a48cfdcc62e70e0df293413ca3b3061616853fbc8c0536ffcf6b0b184",
+      "previousSha256": "f2bbac0a48cfdcc62e70e0df293413ca3b3061616853fbc8c0536ffcf6b0b184",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Cosmic_Chrome_Baseball_-_Checklist.pdf?v=1790609925",
+      "sha256": "16c0ecb860ab0fc413e3a727b73c55dcc87dc27ef769b08a50a7f62963c3e93e",
+      "previousSha256": "16c0ecb860ab0fc413e3a727b73c55dcc87dc27ef769b08a50a7f62963c3e93e",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Checklist.pdf?v=1774549583",
+      "sha256": "62528803b6b0c4f4f29adbba407c32adc4c8e7764e1198e917cea96b1b021734",
+      "previousSha256": "62528803b6b0c4f4f29adbba407c32adc4c8e7764e1198e917cea96b1b021734",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Cosmic_Chrome_Checklist_051826.pdf?v=1779115984",
+      "sha256": "2536b9096c2bfca0a8f57ed46cda951d94d1536e5d31e47ebace4dba71beea84",
+      "previousSha256": "2536b9096c2bfca0a8f57ed46cda951d94d1536e5d31e47ebace4dba71beea84",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBB_VERSION1.pdf?v=1775567097",
+      "sha256": "2d1a4889a10b192852d7f3aa3024ecbe35eb91f208e2e8e8b6311e7e9a39a012",
+      "previousSha256": "2d1a4889a10b192852d7f3aa3024ecbe35eb91f208e2e8e8b6311e7e9a39a012",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBK_VERSION4_1.pdf?v=1786549562",
+      "sha256": "0c7897c4f773221bc7f0a0537e4b4d394760a288c6f0cd3f65f32d9bca0a1ff2",
+      "previousSha256": "0c7897c4f773221bc7f0a0537e4b4d394760a288c6f0cd3f65f32d9bca0a1ff2",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Disneyland_70th_Anniversary_Checklist.pdf?v=1771355640",
+      "sha256": "3e6f30cdfcdffb2c0e60986ec8583d5f39d9a42e59997ed33da02e6d70162453",
+      "previousSha256": "3e6f30cdfcdffb2c0e60986ec8583d5f39d9a42e59997ed33da02e6d70162453",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Disney_Neon_Checklist.pdf?v=1773149064",
+      "sha256": "89810bb1e3450d1f09a6f7d4771593c925d9ac7b8e0be2d57d0cc8d5600f9bc5",
+      "previousSha256": "89810bb1e3450d1f09a6f7d4771593c925d9ac7b8e0be2d57d0cc8d5600f9bc5",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Dynamic_Duals_Baseball_Checklist.pdf?v=1781536739",
+      "sha256": "888f5143354f080e73c69f4fa30303de8924b7e10382a4d573b1805c1758ce3f",
+      "previousSha256": "888f5143354f080e73c69f4fa30303de8924b7e10382a4d573b1805c1758ce3f",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25TDBB.pdf?v=1779119079",
+      "sha256": "879fe52a1e68f74db26bf8086845e4b4fc281ee25f8b9d0e6b7d6a5ba3ea00a8",
+      "previousSha256": "879fe52a1e68f74db26bf8086845e4b4fc281ee25f8b9d0e6b7d6a5ba3ea00a8",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/FINAL_CHECKLIST_2025EXALTEDWWE.pdf?v=1774986961",
+      "sha256": "310c2090d0cc60153364431ea53103e54118b1768e410217a247f5da994f184b",
+      "previousSha256": "310c2090d0cc60153364431ea53103e54118b1768e410217a247f5da994f184b",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Finest_Baseball_FDI_Checklist.pdf?v=1780433969",
+      "sha256": "963b9f79bc7ed57ae97b0151cad2a1cddc07551cc2588b657d72c0996f5c1092",
+      "previousSha256": "963b9f79bc7ed57ae97b0151cad2a1cddc07551cc2588b657d72c0996f5c1092",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "previousSha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Fantastic_Four_Checklist.pdf?v=1773431109",
+      "sha256": "9bc71345b83ab0ec72bca8221d66c93f4c2b368556f778575a2a072dceb4ba07",
+      "previousSha256": "9bc71345b83ab0ec72bca8221d66c93f4c2b368556f778575a2a072dceb4ba07",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Finest_Checklist_042326.pdf?v=1776986521",
+      "sha256": "d5273ca214cfc2b4e864041fa20f0a67200d5f05b31489e30c9d7df31c9ff82e",
+      "previousSha256": "d5273ca214cfc2b4e864041fa20f0a67200d5f05b31489e30c9d7df31c9ff82e",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Finest_Premier_League_Checklist.pdf?v=1774359572",
+      "sha256": "c1f073945ae930fbed41f3c740f526908c52d586d79c54139c10aaeaf60b9592",
+      "previousSha256": "c1f073945ae930fbed41f3c740f526908c52d586d79c54139c10aaeaf60b9592",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Copy_of_2026-27_Topps_Flagship_Basketball_Checklist_10-9-26.xls_-_Compatibility_Mode.pdf?v=1791570579",
+      "sha256": "12ebf08ff5bb7abdbe1aedbd8cc93778881fd7fe7714e8d1cb88d232263a0e29",
+      "previousSha256": "12ebf08ff5bb7abdbe1aedbd8cc93778881fd7fe7714e8d1cb88d232263a0e29",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "previousSha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Checklist_26THBB_3.20.pdf?v=1774362662",
+      "sha256": "4ad60fa68d1429519f9ceeee11188663d9b3c64b2a5e387112f1bb857d967c8a",
+      "previousSha256": "4ad60fa68d1429519f9ceeee11188663d9b3c64b2a5e387112f1bb857d967c8a",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Football_Checklist.pdf?v=1790800436",
+      "sha256": "2dc486d62a6623c189b60b47a5317f71a5e936d3f572ec19b359ade37b79a5f5",
+      "previousSha256": "2dc486d62a6623c189b60b47a5317f71a5e936d3f572ec19b359ade37b79a5f5",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Holiday_Baseball_26THBW_-_Checklist.pdf?v=1789566977",
+      "sha256": "b1620c82da3e511fec6e000537d12ee0824ef51529f4e30fbc5427bc3c467f20",
+      "previousSha256": "b1620c82da3e511fec6e000537d12ee0824ef51529f4e30fbc5427bc3c467f20",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "previousSha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Inception_Baseball_25TIBB_-_Checklist_5.18.pdf?v=1779116690",
+      "sha256": "668584ba47bdc772b82c3593bcd93d10c4059e245ce8c5ee6da94e81051c2465",
+      "previousSha256": "668584ba47bdc772b82c3593bcd93d10c4059e245ce8c5ee6da94e81051c2465",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Checklist.pdf?v=1781789274",
+      "sha256": "1bbac417f95546b5cef88eba0694daca7cea5272f829878582061b8a8a83a6af",
+      "previousSha256": "1bbac417f95546b5cef88eba0694daca7cea5272f829878582061b8a8a83a6af",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Inception_Football_CheckList_26TIFB_VERSION.pdf?v=1790715925",
+      "sha256": "e913ed2cc504976f4ec1b3e58165f74cc15547d60e90544c95f79e0f4c8746fa",
+      "previousSha256": "e913ed2cc504976f4ec1b3e58165f74cc15547d60e90544c95f79e0f4c8746fa",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Manchester_United_Team_Set_2025-26_Checklist.pdf?v=1770828538",
+      "sha256": "8ee87ca83e94f99816ba95fddf88895319832485ac13c38182a09493ab0e0b10",
+      "previousSha256": "8ee87ca83e94f99816ba95fddf88895319832485ac13c38182a09493ab0e0b10",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025-26_Manchester_United_Collector_Tin_Checklist.pdf?v=1758044356",
+      "sha256": "148605e28436b5f664e81a2a5a3c247f52c3d2d1708d0e57ab5cdc8e891b046d",
+      "previousSha256": "148605e28436b5f664e81a2a5a3c247f52c3d2d1708d0e57ab5cdc8e891b046d",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Mars_Attacks_Xmas_24MARS_CHECKLIST_FINAL.pdf?v=1788874979",
+      "sha256": "4943af9e6048a54cf6cf3cd88a6477b8b6010c8b070e4cf8e67a61ba4a6e5e6a",
+      "previousSha256": "4943af9e6048a54cf6cf3cd88a6477b8b6010c8b070e4cf8e67a61ba4a6e5e6a",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Marvel_Studios_Chrome_Sapphire_Checklist.pdf?v=1767909774",
+      "sha256": "0257428beba5d266c58988ecd8988c41e016adb0407d9b28001161ac2868ed40",
+      "previousSha256": "0257428beba5d266c58988ecd8988c41e016adb0407d9b28001161ac2868ed40",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Marvel_The_Collector_Checklist.pdf?v=1770215891",
+      "sha256": "a9584a66039131becc3a1824d8a6a5c9968ffe997ecaf6ef9e5d6d701d537cfc",
+      "previousSha256": "a9584a66039131becc3a1824d8a6a5c9968ffe997ecaf6ef9e5d6d701d537cfc",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26MidnightUFC_Checklist_Final.pdf?v=1776702978",
+      "sha256": "e1d60232c671a9cd8288d493541f19a32799a2319d4202d7df8162095677d002",
+      "previousSha256": "e1d60232c671a9cd8288d493541f19a32799a2319d4202d7df8162095677d002",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26DSNM_Mint_Disney_CHECKLIST_FINAL.pdf?v=1791896818",
+      "sha256": "073d2a49589813460b69bc57e1eca1f41f13f5dc774415e8a3585dab7a1d0304",
+      "previousSha256": "073d2a49589813460b69bc57e1eca1f41f13f5dc774415e8a3585dab7a1d0304",
+      "unchanged": true,
+      "bytes": 135423
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWs_Checklist.pdf?v=1784208798",
+      "sha256": "067c54587e3d2c21631dcb3d2178106b62acd0ae9f93c5de5da94c722468a35b",
+      "previousSha256": "067c54587e3d2c21631dcb3d2178106b62acd0ae9f93c5de5da94c722468a35b",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Museum_Collection_Baseball_Checklist.pdf?v=1770050312",
+      "sha256": "8f3db4ac0660d7a58d5036374afefd53233976a3b15c7d159dabf7bdf8fd67f1",
+      "previousSha256": "8f3db4ac0660d7a58d5036374afefd53233976a3b15c7d159dabf7bdf8fd67f1",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Museum_Baseball_Checklist.pdf?v=1788204579",
+      "sha256": "0f2cdb7496ae528747f572e576400e9d9364f61549fc7677cfc74b2d8acbe196",
+      "previousSha256": "0f2cdb7496ae528747f572e576400e9d9364f61549fc7677cfc74b2d8acbe196",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Museum_Checklist_Subject_to_Change.pdf?v=1789660179",
+      "sha256": "9501c7d842a2afbbc87483071a4bfe4350a7c38ece1857d364a93406356a7b2b",
+      "previousSha256": "9501c7d842a2afbbc87483071a4bfe4350a7c38ece1857d364a93406356a7b2b",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26NBLC_Checklist_Final.pdf?v=1780091079",
+      "sha256": "42f587cfbdfcf24ec467d69c6108b299ea7f0fbb2a2fb10bf59459b020476695",
+      "previousSha256": "42f587cfbdfcf24ec467d69c6108b299ea7f0fbb2a2fb10bf59459b020476695",
+      "unchanged": true,
+      "bytes": 157987
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Pristine_Checklist.pdf?v=1767627098",
+      "sha256": "01e0efe5d1a50828a02f365c9e768b26d6b7d2c5f09ccb730511ec0eea50515c",
+      "previousSha256": "01e0efe5d1a50828a02f365c9e768b26d6b7d2c5f09ccb730511ec0eea50515c",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pro_Debut_Checklist.pdf?v=1792417707",
+      "sha256": "3f98609d8e9ac0eaecbc5edaf4a3bf0de370c865d08622b5dec4954a60ffc597",
+      "previousSha256": "3f98609d8e9ac0eaecbc5edaf4a3bf0de370c865d08622b5dec4954a60ffc597",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Resurgence_Football_Checklist.pdf?v=1782407891",
+      "sha256": "1a3cd494e4f678a1c19c297281f14e04cc8d557c6de1bbf176f0f8dff8b6448e",
+      "previousSha256": "1a3cd494e4f678a1c19c297281f14e04cc8d557c6de1bbf176f0f8dff8b6448e",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25RUFC_2025_Topps_Royalty_UFC.pdf?v=1770129272",
+      "sha256": "c0dea275922e8d932d5a5de7010a3ad68ad0859e191c060e0bac328baadd2d84",
+      "previousSha256": "c0dea275922e8d932d5a5de7010a3ad68ad0859e191c060e0bac328baadd2d84",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25RWWE_f1866dc1-a96b-4573-9ba9-780a73093535.pdf?v=1777641349",
+      "sha256": "41e0b69b736673d7b0e692a6ba09ae7b7a1505136d0042b777432d49d44fc5e5",
+      "previousSha256": "41e0b69b736673d7b0e692a6ba09ae7b7a1505136d0042b777432d49d44fc5e5",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_1_Baseball_Checklist_2-23.pdf?v=1772557808",
+      "sha256": "03e93e14977de6ca253f27e1d94f36c754033b2c6c03beaa15871890513f07a1",
+      "previousSha256": "03e93e14977de6ca253f27e1d94f36c754033b2c6c03beaa15871890513f07a1",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Series_2_Baseball_Checklist_5-11.pdf?v=1778521905",
+      "sha256": "051d3f6885bd85feccdb9a451983d4a2467101426d8851c6bbca177ab9cc5560",
+      "previousSha256": "051d3f6885bd85feccdb9a451983d4a2467101426d8851c6bbca177ab9cc5560",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "previousSha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Checklist_25CSFB_VERSION2.pdf?v=1777921828",
+      "sha256": "123e84d39eb87c3e6a3a3f2e78cc45faf3bfdc2ec3e6543a14487f7b62586787",
+      "previousSha256": "123e84d39eb87c3e6a3a3f2e78cc45faf3bfdc2ec3e6543a14487f7b62586787",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Stadium_Club_Baseball_Checklist.pdf?v=1769109095",
+      "sha256": "10719b2f1638e91dbf3489044ef5b500871fc9460381e680cf34ac467b6eae95",
+      "previousSha256": "10719b2f1638e91dbf3489044ef5b500871fc9460381e680cf34ac467b6eae95",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26SWCM3.pdf?v=1790701893",
+      "sha256": "294447a54d3b541b73682dfb6044692e4cd8f50fda290969e23b7f9ceb248edc",
+      "previousSha256": "294447a54d3b541b73682dfb6044692e4cd8f50fda290969e23b7f9ceb248edc",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26SWCGCHECKLISTUPDATE.pdf?v=1786632392",
+      "sha256": "5f1188e5b9569d16b86616b8d61771e1cfbeb5b503743dd99df9304db5585e3e",
+      "previousSha256": "5f1188e5b9569d16b86616b8d61771e1cfbeb5b503743dd99df9304db5585e3e",
+      "unchanged": true,
+      "bytes": 218262
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Smugglers_Outpost_Checklist.pdf?v=1770909931",
+      "sha256": "6b73423d85bd1735f08b2a10db13833ec5646e48b2e1834a5cb7ca739f5724d6",
+      "previousSha256": "6b73423d85bd1735f08b2a10db13833ec5646e48b2e1834a5cb7ca739f5724d6",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "previousSha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26T1BB.pdf?v=1779804529",
+      "sha256": "e8faa4fb604cffa20858f1ef206cd0d93a36a6e5ff2c4e4d5ff38744c9aee6e6",
+      "previousSha256": "e8faa4fb604cffa20858f1ef206cd0d93a36a6e5ff2c4e4d5ff38744c9aee6e6",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Transcendent_Collection_Checklist_-_9_15_26.pdf?v=1789485749",
+      "sha256": "b2e5866c943e54d89dbff38b25285af3cd5c45395ae77f5502f9847d53e18bcc",
+      "previousSha256": "b2e5866c943e54d89dbff38b25285af3cd5c45395ae77f5502f9847d53e18bcc",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tribute_Baseball_Checklist_1.pdf?v=1782740369",
+      "sha256": "9b2d215dd334f868e7b0ae7f4bb0c70e511ac4674a652346f8f9ef216a1a735b",
+      "previousSha256": "9b2d215dd334f868e7b0ae7f4bb0c70e511ac4674a652346f8f9ef216a1a735b",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Universe_WWE_-_CheckList_25UWWE.pdf?v=1771878230",
+      "sha256": "ea4d0c9c0060fefd3ba351abe92e7006d3c2bcc7cd4dc138bebb04575a319d12",
+      "previousSha256": "ea4d0c9c0060fefd3ba351abe92e7006d3c2bcc7cd4dc138bebb04575a319d12",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Update_Series_Baseball_Checklist_10-19.pdf?v=1792504951",
+      "sha256": "016821d40f16ad880dcaa1fdddba77b34590b5c0119624dcd18ba7494bd9e81d",
+      "previousSha256": "016821d40f16ad880dcaa1fdddba77b34590b5c0119624dcd18ba7494bd9e81d",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DSNV_VERSION4_a99ba06a-fb73-4a5b-941a-c11d6d6b1c90.pdf?v=1792511348",
+      "sha256": "079af2711e9a6150f2bb4dc9ec8cab0210c2c1a8cb0601533bef7050fac6a3c8",
+      "previousSha256": "079af2711e9a6150f2bb4dc9ec8cab0210c2c1a8cb0601533bef7050fac6a3c8",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Odds.pdf?v=1776345050",
+      "sha256": "5bd1cf7d59aba1856b3af7390726d4f5086b6c7d72d4f81b4f07412886997056",
+      "previousSha256": "5bd1cf7d59aba1856b3af7390726d4f5086b6c7d72d4f81b4f07412886997056",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Sapphire_Odds.pdf?v=1781646322",
+      "sha256": "a3e0e4ca75c04843ee14c204f431ba3c2b4c29dbdf66ea8f03e8977bb49c349a",
+      "previousSha256": "a3e0e4ca75c04843ee14c204f431ba3c2b4c29dbdf66ea8f03e8977bb49c349a",
+      "unchanged": true,
+      "bytes": 499303
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Odds.pdf?v=1776281698",
+      "sha256": "3b67cfcaa2f44afba3b287abbd2b6ce77cb24dd6a13e1806e20caf4dec9a1758",
+      "previousSha256": "3b67cfcaa2f44afba3b287abbd2b6ce77cb24dd6a13e1806e20caf4dec9a1758",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Chrome_Baseball_Odds.pdf?v=1791472292",
+      "sha256": "1b6a354462ed7f42c84a6f3ec06dea294667a09115d89fbb5b547d5c8cbd1eb4",
+      "previousSha256": "1b6a354462ed7f42c84a6f3ec06dea294667a09115d89fbb5b547d5c8cbd1eb4",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_Draft_Baseball_Odds.pdf?v=1770925127",
+      "sha256": "7edc272048de72dc8e6b3f3a09e0b812dd74e1a4958cb9f24ca2e8841e4c36b3",
+      "previousSha256": "7edc272048de72dc8e6b3f3a09e0b812dd74e1a4958cb9f24ca2e8841e4c36b3",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Bowman_s_Best_Baseball_Odds.pdf?v=1773183175",
+      "sha256": "092d74e474f05d67da1be0924b8ae727280c67e05a922b55174faad98a074c03",
+      "previousSha256": "092d74e474f05d67da1be0924b8ae727280c67e05a922b55174faad98a074c03",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Bowman_Football_Odds.pdf?v=1790713108",
+      "sha256": "be655670066b1c9533721288929bb22949bcd2383aa973cb919db0f638c9c775",
+      "previousSha256": "be655670066b1c9533721288929bb22949bcd2383aa973cb919db0f638c9c775",
+      "unchanged": true,
+      "bytes": 242298
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25_26_Bowman_U_Best_Basketball_Odds.pdf?v=1778857649",
+      "sha256": "85c6cc5964056973f000dab43d996dd5dfd93e62c0a9dd3cc7fc1f1bd28522d2",
+      "previousSha256": "85c6cc5964056973f000dab43d996dd5dfd93e62c0a9dd3cc7fc1f1bd28522d2",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Stars_Wars_Chrome_Galaxy.pdf?v=1786638023",
+      "sha256": "81c612e3b2ba9164c990abdf2ee91d7fa21661c3253aba34d6054be6b996b7ea",
+      "previousSha256": "81c612e3b2ba9164c990abdf2ee91d7fa21661c3253aba34d6054be6b996b7ea",
+      "unchanged": true,
+      "bytes": 198668
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Masterwork_Odds.pdf?v=1777320886",
+      "sha256": "01f6753be19d9c786158a857563de829eb67d41eabf5e819140f08c8cb9fce2e",
+      "previousSha256": "01f6753be19d9c786158a857563de829eb67d41eabf5e819140f08c8cb9fce2e",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-29_MLB-ALLEN-_-GINTER-2026_Odds.pdf?v=1790697457",
+      "sha256": "65a721d07e8530e5cf40fd0d483c1b4aec289e5a86afe6858e6b925f201b7dd4",
+      "previousSha256": "65a721d07e8530e5cf40fd0d483c1b4aec289e5a86afe6858e6b925f201b7dd4",
+      "unchanged": true,
+      "bytes": 42327
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Brooklyn_Collection_Odds.pdf?v=1772572812",
+      "sha256": "53a0271edf2d2975add61422c41cf74f6ceb4c7168d03ceeb0f3cc770c916d42",
+      "previousSha256": "53a0271edf2d2975add61422c41cf74f6ceb4c7168d03ceeb0f3cc770c916d42",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Baseball_Odds.pdf?v=1784729528",
+      "sha256": "5d8ef198e8c34179b2641ea2a49718f07e17198bd40bd33f06e4af67f51bcf49",
+      "previousSha256": "5d8ef198e8c34179b2641ea2a49718f07e17198bd40bd33f06e4af67f51bcf49",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Logofractor_Odds.pdf?v=1787676101",
+      "sha256": "2994a508286bb2e6a0523d1d819eb65039f0044e07966cd05d6a7332f6207fc4",
+      "previousSha256": "2994a508286bb2e6a0523d1d819eb65039f0044e07966cd05d6a7332f6207fc4",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Sapphire_Odds.pdf?v=1787676129",
+      "sha256": "b5ae5ea9afbe482977dc6eda0a316722fbab438c3424c1daa5eb78befa581171",
+      "previousSha256": "b5ae5ea9afbe482977dc6eda0a316722fbab438c3424c1daa5eb78befa581171",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-10-14_MLB-JAPAN-SAMURAI-2026_Odds_2_1.pdf?v=1792078823",
+      "sha256": "4acfa230435e2b8612f6e5ac58f0328586aba17dd126642c5ff8a03377b8551e",
+      "previousSha256": "4acfa230435e2b8612f6e5ac58f0328586aba17dd126642c5ff8a03377b8551e",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Basketball_Sapphire_Odds.pdf?v=1768338554",
+      "sha256": "7f52ed7968ed6845955ce3747ff1c395ba780a8a6175d577e2222442ce9b7009",
+      "previousSha256": "7f52ed7968ed6845955ce3747ff1c395ba780a8a6175d577e2222442ce9b7009",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Baseball_Odds.pdf?v=1777474592",
+      "sha256": "8481bf0d89a1163334ae4fffe99eb5a05fd3f16cabadd7475e08d18f6e25004b",
+      "previousSha256": "8481bf0d89a1163334ae4fffe99eb5a05fd3f16cabadd7475e08d18f6e25004b",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Black_Odds.pdf?v=1788295188",
+      "sha256": "c13233a6be8ce3b2f1000295306e235a4d5326b1f35a2fb14784082e3695008b",
+      "previousSha256": "c13233a6be8ce3b2f1000295306e235a4d5326b1f35a2fb14784082e3695008b",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Black_Football_Odds.pdf?v=1783543006",
+      "sha256": "5cef4154ced54a9c5da22cf4605ac4f702ffbe1435b147f44403d87233522e37",
+      "previousSha256": "5cef4154ced54a9c5da22cf4605ac4f702ffbe1435b147f44403d87233522e37",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Cactus_Jack_Basketball_Odds.pdf?v=1777925174",
+      "sha256": "32d873f739be55dbab954fdf1ee26720ad21e9e98f76dde0978ddea9008dc9fa",
+      "previousSha256": "32d873f739be55dbab954fdf1ee26720ad21e9e98f76dde0978ddea9008dc9fa",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Deadpool_Odds.pdf?v=1773762703",
+      "sha256": "34f3a54e3511e741869307e9c9914b1b7ad0c4d72689595d64309855e491936c",
+      "previousSha256": "34f3a54e3511e741869307e9c9914b1b7ad0c4d72689595d64309855e491936c",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Disney_Chrome_Odds_1.pdf?v=1781705214",
+      "sha256": "0b69662772fae339048241ee180400d828b8a0d514043cb370e5bf633ed0abfe",
+      "previousSha256": "0b69662772fae339048241ee180400d828b8a0d514043cb370e5bf633ed0abfe",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Disney_Sapphire_Odds.pdf?v=1784729760",
+      "sha256": "cd402ed845ef90b80de5d2ba0907b04d2bc2d0d22529e33e6b6a67d550e13773",
+      "previousSha256": "cd402ed845ef90b80de5d2ba0907b04d2bc2d0d22529e33e6b6a67d550e13773",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Football_Odds.pdf?v=1776193199",
+      "sha256": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
+      "previousSha256": "437ba2c6e242b6352cd77641dc6e27408bf4052f9d1e5463ce0f19e11d1b15d3",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Formula_1_Sapphire_Edition_Odds.pdf?v=1770648860",
+      "sha256": "decac0f134a90d3f86a2705ed9b6402a64e70450ba3fd4d078651b1576e00a7e",
+      "previousSha256": "decac0f134a90d3f86a2705ed9b6402a64e70450ba3fd4d078651b1576e00a7e",
+      "unchanged": true,
+      "bytes": 108671
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_MLS_Chrome_Odds_bfbe76ad-f5f8-448d-8d8a-7a61ca01a257.pdf?v=1789050564",
+      "sha256": "b91685bb9b1ff4382c2d182414b80dd7ea0c1449a293382cebf03752fe179d62",
+      "previousSha256": "b91685bb9b1ff4382c2d182414b80dd7ea0c1449a293382cebf03752fe179d62",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Marvel_Comics_Chrome_Odds.pdf?v=1780349073",
+      "sha256": "57cafc210c579f3c5c57cf33f75464afee3d503f379637714fc3989ddcd17a85",
+      "previousSha256": "57cafc210c579f3c5c57cf33f75464afee3d503f379637714fc3989ddcd17a85",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Marvel_Comics_Chrome_Odds_517c8f23-9e04-4c43-aeaf-f9bd9c4ee70b.pdf?v=1785939128",
+      "sha256": "c8d2ca31f7367f5fe377e60f2eb9270a99388b63e3e9c3552cd646fc88f44956",
+      "previousSha256": "c8d2ca31f7367f5fe377e60f2eb9270a99388b63e3e9c3552cd646fc88f44956",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Marvel_Studios_Chrome_Sapphire_Odds.pdf?v=1767909773",
+      "sha256": "ae83a094cdfffa661aa750e5c8757b78a69fdf5627cf05e067b53983754c1764",
+      "previousSha256": "ae83a094cdfffa661aa750e5c8757b78a69fdf5627cf05e067b53983754c1764",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Odds.pdf?v=1775071299",
+      "sha256": "bd1cc7ba86e1dc19bbb029da3cd2efbb5c6fb2d590496cd3cdad6afc77bfe9ff",
+      "previousSha256": "bd1cc7ba86e1dc19bbb029da3cd2efbb5c6fb2d590496cd3cdad6afc77bfe9ff",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_MLS_Chrome_Odds.pdf?v=1777050150",
+      "sha256": "31a967fe90427c3c35e2eca4b392330a4f01bcad61d430fabf730889c6cd5d01",
+      "previousSha256": "31a967fe90427c3c35e2eca4b392330a4f01bcad61d430fabf730889c6cd5d01",
+      "unchanged": true,
+      "bytes": 197665
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Platinum55_Baseball_Odds.pdf?v=1781723903",
+      "sha256": "b71707e1d4450b141d1cec57194c1292625af060444970bab41183e76167fbab",
+      "previousSha256": "b71707e1d4450b141d1cec57194c1292625af060444970bab41183e76167fbab",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-29_2026-Topps-Chrome-Star-Wars_Odds-2.pdf?v=1790777195",
+      "sha256": "3304c072fa00eb23ba6e034d7f047c0be62ca894a99f879e0888741cb7ca9e25",
+      "previousSha256": "3304c072fa00eb23ba6e034d7f047c0be62ca894a99f879e0888741cb7ca9e25",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Updates_Basketball_odds.pdf?v=1786020446",
+      "sha256": "b4f08a7b42a432d762d2bf9c8f34d252a47b61477c84e66549649d70158fb817",
+      "previousSha256": "b4f08a7b42a432d762d2bf9c8f34d252a47b61477c84e66549649d70158fb817",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/25_26_Topps_Chrome_Updates_Basketball_Sapphire_Odds.pdf?v=1788294895",
+      "sha256": "7dd858f348c2f0579222e4f9c9b2447e915ae54f6dc589bc228e519e971afd6a",
+      "previousSha256": "7dd858f348c2f0579222e4f9c9b2447e915ae54f6dc589bc228e519e971afd6a",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_UFC_Chrome_Odds.pdf?v=1779134050",
+      "sha256": "31f41eda8fa7c110e4ff2b5a0e9c668187fe5911a4c186ccba9121a409de8994",
+      "previousSha256": "31f41eda8fa7c110e4ff2b5a0e9c668187fe5911a4c186ccba9121a409de8994",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_UFC_Sapphire.pdf?v=1781705060",
+      "sha256": "c7675652c9a5edf831a2bd6711de426c171db46fd696714e350cc23dbd33cdaf",
+      "previousSha256": "c7675652c9a5edf831a2bd6711de426c171db46fd696714e350cc23dbd33cdaf",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_US_Olympics_Odds.pdf?v=1787595621",
+      "sha256": "36b1f88969ecb1ae0caddb69db2f6db72c2e557af055c41e3b6cc253bde0de77",
+      "previousSha256": "36b1f88969ecb1ae0caddb69db2f6db72c2e557af055c41e3b6cc253bde0de77",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_VeeFriends_Odds.pdf?v=1778160123",
+      "sha256": "76def45edfeeb297574e9296a4e5921cd041b3fecc46a6e32277972b6c471523",
+      "previousSha256": "76def45edfeeb297574e9296a4e5921cd041b3fecc46a6e32277972b6c471523",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_x_Jennie.pdf?v=1787173282",
+      "sha256": "768dbe3f041fc8a40a0acaf1a8e18b19662a6948d729b2f0bef3003a5c9709b0",
+      "previousSha256": "768dbe3f041fc8a40a0acaf1a8e18b19662a6948d729b2f0bef3003a5c9709b0",
+      "unchanged": true,
+      "bytes": 188303
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-28_2026-Topps-Cosmic-Chrome-Baseball_Odds.pdf?v=1790610132",
+      "sha256": "e891b61a1075f175b14fb82211de359ebadafb93619d9cfe379e87ee70b12e68",
+      "previousSha256": "e891b61a1075f175b14fb82211de359ebadafb93619d9cfe379e87ee70b12e68",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Cosmic_Chrome_Basketball_Odds.pdf?v=1774987789",
+      "sha256": "27deb6b2a8ce4896f5b2cbbfa39671429b6559c360fca05261562f5078940d9a",
+      "previousSha256": "27deb6b2a8ce4896f5b2cbbfa39671429b6559c360fca05261562f5078940d9a",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Cosmic_Chrome_Football_Odds.pdf?v=1781722934",
+      "sha256": "c21866224c88d0ade01c0e6ae04b48e82b1a3145f46813e10c4315e3d36caa8b",
+      "previousSha256": "c21866224c88d0ade01c0e6ae04b48e82b1a3145f46813e10c4315e3d36caa8b",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Definitive_Baseball_Odds.pdf?v=1777493204",
+      "sha256": "1a5388e2907d1b23adb9cfbe06d91ab39ec9f1e65956b90a27473404a1f74300",
+      "previousSha256": "1a5388e2907d1b23adb9cfbe06d91ab39ec9f1e65956b90a27473404a1f74300",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-16_2025-26-Topps-Definitive-Basketball_Odds_1.pdf?v=1789650301",
+      "sha256": "8d19b092aa1f9c9ef742e284ac2679f088e6c65ee0047231d80a7edd5c06d319",
+      "previousSha256": "8d19b092aa1f9c9ef742e284ac2679f088e6c65ee0047231d80a7edd5c06d319",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Disney_Neon_Odds.pdf?v=1773149064",
+      "sha256": "6bc692b68d34cf639fac05c43afa22e7f576620af819aa79e94bc35c3e19e902",
+      "previousSha256": "6bc692b68d34cf639fac05c43afa22e7f576620af819aa79e94bc35c3e19e902",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Disneyland_70th_Anniversary_Odds.pdf?v=1770391017",
+      "sha256": "47321ff45c524e85d392777ab956cb78f404c3adcc74d8c8ccd887b4fd4a6184",
+      "previousSha256": "47321ff45c524e85d392777ab956cb78f404c3adcc74d8c8ccd887b4fd4a6184",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Dynamic_Duals_Odds.pdf?v=1781536733",
+      "sha256": "3df67d572561b79f9104d4bd79c9f34f651186028889df601c6a439065765d01",
+      "previousSha256": "3df67d572561b79f9104d4bd79c9f34f651186028889df601c6a439065765d01",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Dynasty_Baseball_Odds.pdf?v=1783625122",
+      "sha256": "78853052b6e2e3251c8bc4443d6e189b54f73ec165b909731ab8c7ab3cd01c3f",
+      "previousSha256": "78853052b6e2e3251c8bc4443d6e189b54f73ec165b909731ab8c7ab3cd01c3f",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_WWE_Exalted_Odds.pdf?v=1775050238",
+      "sha256": "f719cd18cf613cbda82a03738cedf60988fb493d12ebe4261548c7cd99d849ca",
+      "previousSha256": "f719cd18cf613cbda82a03738cedf60988fb493d12ebe4261548c7cd99d849ca",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Baseball_Odds.pdf?v=1783437319",
+      "sha256": "5773f0acb8dadc45b379f1a860739053c516003ab162739f99536a61881c1541",
+      "previousSha256": "5773f0acb8dadc45b379f1a860739053c516003ab162739f99536a61881c1541",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Odds.pdf?v=1771360733",
+      "sha256": "4724d47e53cb58ed800057b4be345b121f923b1e39edeab804f03b1043bbb8f6",
+      "previousSha256": "4724d47e53cb58ed800057b4be345b121f923b1e39edeab804f03b1043bbb8f6",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Finest_Fantastic_Four_Odds.pdf?v=1773762703",
+      "sha256": "4608301212840ff6e07ca011390a79b46fb7142a26d1e30afc5335caaa42fef1",
+      "previousSha256": "4608301212840ff6e07ca011390a79b46fb7142a26d1e30afc5335caaa42fef1",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0871/8916/0120/files/2025_Topps_Finest_Football_Odds.pdf?v=1782311781",
+      "sha256": "15e0b719e4c67c5d2b7b0844ad8492afe6cf7f59c300214d986ccb0fe118507d",
+      "previousSha256": "15e0b719e4c67c5d2b7b0844ad8492afe6cf7f59c300214d986ccb0fe118507d",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/PL_FINEST_ODDS_Official.pdf?v=1774262754",
+      "sha256": "348c236cd217734635e1c7a85356ecc925e9ec770dbfeffa0dea664283b89d5c",
+      "previousSha256": "348c236cd217734635e1c7a85356ecc925e9ec770dbfeffa0dea664283b89d5c",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Football_Odds.pdf?v=1789491381",
+      "sha256": "0c59cf1159b88e59a12bea8c7a8982d50f3f154156e9312d302addab6e378925",
+      "previousSha256": "0c59cf1159b88e59a12bea8c7a8982d50f3f154156e9312d302addab6e378925",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Graphite_Tennis_Odds.pdf?v=1777049989",
+      "sha256": "6d14845139af572e47d4d30e44df7d9598721a0a676760bf37288459f08f153f",
+      "previousSha256": "6d14845139af572e47d4d30e44df7d9598721a0a676760bf37288459f08f153f",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Heritage_Baseball_Odds.pdf?v=1773779345",
+      "sha256": "9cb3f9053d3f335dc74e26c1378b5a9dcbe61e1cfde11d561c27760b3f906b96",
+      "previousSha256": "9cb3f9053d3f335dc74e26c1378b5a9dcbe61e1cfde11d561c27760b3f906b96",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Holiday_Baseball_Odds.pdf?v=1792522843",
+      "sha256": "64f07778a144e3671b802a061dba56f7e1fa81540be41928bbb1fe8201d9bb5b",
+      "previousSha256": "64f07778a144e3671b802a061dba56f7e1fa81540be41928bbb1fe8201d9bb5b",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Odds.pdf?v=1777298833",
+      "sha256": "453416fa10c8c1b2e17076e5d890c35bb5ccf88191024f84f88c5439d03eed1a",
+      "previousSha256": "453416fa10c8c1b2e17076e5d890c35bb5ccf88191024f84f88c5439d03eed1a",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Inception_Baseball_Odds.pdf?v=1783625098",
+      "sha256": "5fc4b2037b1ef435d10c513ac71e86c75e673063139e36c367238fb837632fbf",
+      "previousSha256": "5fc4b2037b1ef435d10c513ac71e86c75e673063139e36c367238fb837632fbf",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Inception_Basketball_Odds.pdf?v=1783522877",
+      "sha256": "83fee7e2f00b750cac8c22a47c1da28a158cbc70150da921f59fcf60ada99d0c",
+      "previousSha256": "83fee7e2f00b750cac8c22a47c1da28a158cbc70150da921f59fcf60ada99d0c",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Marvel_The_Collector_Odds.pdf?v=1770229437",
+      "sha256": "893ab7f1e1dd6f867887d27579a7855fa2d0a8a0b82d93a45cc49df64e09a1a2",
+      "previousSha256": "893ab7f1e1dd6f867887d27579a7855fa2d0a8a0b82d93a45cc49df64e09a1a2",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Midnight_Basketball_Odds.pdf?v=1769113140",
+      "sha256": "497fa541b8f40a55fc11ec27c272e2e7237155951ef76f354c4e0ef9f19a5106",
+      "previousSha256": "497fa541b8f40a55fc11ec27c272e2e7237155951ef76f354c4e0ef9f19a5106",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_UFC_Midnight_Odds.pdf?v=1776194785",
+      "sha256": "eb6ddc70419fc2e3d5ff067880e0ffbf69366181249ef31f34d3612a93a73e08",
+      "previousSha256": "eb6ddc70419fc2e3d5ff067880e0ffbf69366181249ef31f34d3612a93a73e08",
+      "unchanged": true,
+      "bytes": 187096
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Mint_Marvel_Odds.pdf?v=1787676114",
+      "sha256": "a5b8beba22465ab2cbf802ef236a21df7ee97ccac0b8811f4375e59757bf552e",
+      "previousSha256": "a5b8beba22465ab2cbf802ef236a21df7ee97ccac0b8811f4375e59757bf552e",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWS_Odds.pdf?v=1784559267",
+      "sha256": "7d53f1fa1535a812520a3a4611e57da0661e3d2e26536c703d0cf3802ded2ef1",
+      "previousSha256": "7d53f1fa1535a812520a3a4611e57da0661e3d2e26536c703d0cf3802ded2ef1",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Museum_Collection_Baseball_Odds.pdf?v=1770050312",
+      "sha256": "b80561158762b88b2d45de29bef65b6d5db0ed7d42d0c21621e33805e246619f",
+      "previousSha256": "b80561158762b88b2d45de29bef65b6d5db0ed7d42d0c21621e33805e246619f",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Museum_Baseball_Odds.pdf?v=1789484095",
+      "sha256": "b3112527140a36a8da58f84e73e370432dd9e3430353cd318fb1195a9d86d177",
+      "previousSha256": "b3112527140a36a8da58f84e73e370432dd9e3430353cd318fb1195a9d86d177",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/NBL_ODDS.pdf?v=1782336693",
+      "sha256": "3787336a9e0e4f44eab4b2704448f2d15583d7abd984ee964c3be47a71968b8c",
+      "previousSha256": "3787336a9e0e4f44eab4b2704448f2d15583d7abd984ee964c3be47a71968b8c",
+      "unchanged": true,
+      "bytes": 408473
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025ToppsPristineBaseballOdds.pdf?v=1770915274",
+      "sha256": "48dc1db53097029aa38e907eb5c248438d54ea8234c1fec8e357e5e5ecc05893",
+      "previousSha256": "48dc1db53097029aa38e907eb5c248438d54ea8234c1fec8e357e5e5ecc05893",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pristine_Baseball_Odds.pdf?v=1786546346",
+      "sha256": "99014884e91f1b579561e8b74384f79f3e366886ed31f1a921ace0f7ad35604d",
+      "previousSha256": "99014884e91f1b579561e8b74384f79f3e366886ed31f1a921ace0f7ad35604d",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Resurgence_Football_Odds_1.pdf?v=1785355384",
+      "sha256": "93bbbe1d3338e78bde0aaecd4f4b261ff7d5f1a0df78ead38d49050ce7063707",
+      "previousSha256": "93bbbe1d3338e78bde0aaecd4f4b261ff7d5f1a0df78ead38d49050ce7063707",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_WWE_Royalty_Odds.pdf?v=1777649182",
+      "sha256": "cd5c1390520bae547a59e136999a086d6d32df5699f5cdb1cad88515129466ae",
+      "previousSha256": "cd5c1390520bae547a59e136999a086d6d32df5699f5cdb1cad88515129466ae",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Series_1_Odds.pdf?v=1771951813",
+      "sha256": "e2be54403aed5a5404b6434986278f798d1ee178fca3b1e4da5c3821d1e933f8",
+      "previousSha256": "e2be54403aed5a5404b6434986278f798d1ee178fca3b1e4da5c3821d1e933f8",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Series_2_Odds.pdf?v=1781724617",
+      "sha256": "d3f924a9eb9835488ff68e28645a7c1baf7814114f2b14b7823fdaf880e18f6e",
+      "previousSha256": "d3f924a9eb9835488ff68e28645a7c1baf7814114f2b14b7823fdaf880e18f6e",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Odds.pdf?v=1777313248",
+      "sha256": "bcaf92c47bae5fa7a1f0b14a9711946e106eb6a27a8a7aecec5af807a9b61b82",
+      "previousSha256": "bcaf92c47bae5fa7a1f0b14a9711946e106eb6a27a8a7aecec5af807a9b61b82",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Signature_Class_Football_Odds.pdf?v=1781876271",
+      "sha256": "3b3321e28520dc7104a9a5f80a95513cf73c21ceca6d6770ade37e20564dac65",
+      "previousSha256": "3b3321e28520dc7104a9a5f80a95513cf73c21ceca6d6770ade37e20564dac65",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Stadium_Club_Baseball_Odds.pdf?v=1769442573",
+      "sha256": "a5101be6c79a7276c918d88e44b6930041503f3dd777741534b1e63b196c4034",
+      "previousSha256": "a5101be6c79a7276c918d88e44b6930041503f3dd777741534b1e63b196c4034",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Smugglers_Outpost_Odds.pdf?v=1770757598",
+      "sha256": "96a09d1649f79dff235af447ff10b0545d1a6cd33e823c355ddaa9b7f9da8f79",
+      "previousSha256": "96a09d1649f79dff235af447ff10b0545d1a6cd33e823c355ddaa9b7f9da8f79",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Odds.pdf?v=1771339442",
+      "sha256": "1e27450fe3bb36c0434255c6e0607292f078a5a6d4e309ff50d4ef5a52cf38ba",
+      "previousSha256": "1e27450fe3bb36c0434255c6e0607292f078a5a6d4e309ff50d4ef5a52cf38ba",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Tier_One_Baseball_Odds.pdf?v=1783625109",
+      "sha256": "b8db55e7a37e174f57b8ec0a014c87d43287b3dae17e8cf4a096aa36575200ab",
+      "previousSha256": "b8db55e7a37e174f57b8ec0a014c87d43287b3dae17e8cf4a096aa36575200ab",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Tirbute_Baseball_Odds.pdf?v=1785343913",
+      "sha256": "e7e9db3e81f8abab52d23beba1a343da56532f87d57325fcef1f47efda620055",
+      "previousSha256": "e7e9db3e81f8abab52d23beba1a343da56532f87d57325fcef1f47efda620055",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_UCC_Club_Competitions_Odds_v2.pdf?v=1769110018",
+      "sha256": "6eebedef2ca56c4b5b2b93af86ffaede106105b94891f45b06219905b6489151",
+      "previousSha256": "6eebedef2ca56c4b5b2b93af86ffaede106105b94891f45b06219905b6489151",
+      "unchanged": true,
+      "bytes": 204703
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Baseball_Updates_Series_Odds.pdf?v=1790610141",
+      "sha256": "7b360b3df10d29698488d3e8aea5713e0e91aefe2e0491a2b039ad7183ab61b2",
+      "previousSha256": "7b360b3df10d29698488d3e8aea5713e0e91aefe2e0491a2b039ad7183ab61b2",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-10-14_2026-Topps-Disney-Vault_Odds_1_d3b2e2ba-df85-4bac-b402-3af69f927aef.pdf?v=1792510260",
+      "sha256": "feced3f01b19b3afceaac26a46afac2df7f6fb5a814f961b2c5474c327116b88",
+      "previousSha256": "feced3f01b19b3afceaac26a46afac2df7f6fb5a814f961b2c5474c327116b88",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Marvel_Vault_Odds.pdf?v=1786546333",
+      "sha256": "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1",
+      "previousSha256": "6cb87c1075b39f0351fe321894c0fceadfb2c28408ec8313f308dcd64673b1b1",
+      "unchanged": true
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_30_Years_of_Toy_Story_Odds.pdf?v=1775137644",
+      "sha256": "a22367f7a78de805e942e87f946d4a357eafec2a272d7ae768676e8d4c069b8c",
+      "previousSha256": "a22367f7a78de805e942e87f946d4a357eafec2a272d7ae768676e8d4c069b8c",
+      "unchanged": true
+    }
+  ],
+  "urlChanges": [],
+  "unresolvedRows": [
+    {
+      "index": "turn1514view0",
+      "id": 38,
+      "title": "2026 Topps Chrome® UFC",
+      "section": "2026",
+      "gap": "Official web link activation returned an internal error; current target not verified."
+    },
+    {
+      "index": "turn1514view0",
+      "id": 39,
+      "title": "2026 Topps Chrome® UFC - Sapphire Edition",
+      "section": "2026",
+      "gap": "Official web link activation returned an internal error; current target not verified."
+    },
+    {
+      "index": "turn1514view0",
+      "id": 102,
+      "title": "2026 Topps Universe WWE",
+      "section": "2026 continued",
+      "gap": "Official web link activation returned an internal error; current target not verified."
+    },
+    {
+      "index": "turn1514view1",
+      "id": 86,
+      "title": "2026 Topps Universe WWE",
+      "section": "2026 continued",
+      "gap": "Official web link activation returned an internal error; current target not verified."
+    }
+  ]
+}

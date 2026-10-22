@@ -2,8 +2,17 @@
   "observed": "2026-10-22",
   "sourceKind": "official-browser-active-listing",
   "checkedUtc": "2026-10-22T01:17:46.406474+00:00",
-  "freshListingReadsComplete": true,
-  "pendingFreshListingReads": [],
+  "freshListingReadsComplete": false,
+  "pendingFreshListingReads": [
+    {
+      "url": "https://www.topps.com/collections/topps-now",
+      "reason": "Browser integration unavailable. Native Safari fallback rendered a blank storefront; a reload produced a form-resend prompt, which was cancelled. Direct HTTP returned403. No new storefront observations are asserted."
+    },
+    {
+      "url": "https://www.topps.com/collections/bowman-u-now",
+      "reason": "Browser integration unavailable. Native Safari fallback rendered a blank storefront; a reload produced a form-resend prompt, which was cancelled. Direct HTTP returned403. No new storefront observations are asserted."
+    }
+  ],
   "listings": [
     {
       "url": "https://www.topps.com/collections/topps-now",
@@ -255,5 +264,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastRefreshAttemptUtc": "2026-10-22T02:27:28.224170+00:00"
 }

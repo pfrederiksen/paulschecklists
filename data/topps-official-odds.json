@@ -411,7 +411,14 @@
   {
     "title": "2026 Bowman Baseball Sapphire Edition",
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Sapphire_Odds.pdf?v=1781646322",
-    "source": "https://www.topps.com/pages/odds"
+    "source": "https://www.topps.com/pages/odds",
+    "productPage": "https://uk.topps.com/pages/bowman-baseball-sapphire-edition",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Sapphire_Edition_Checklist.pdf?v=1780499869",
+    "scopeReview": {
+      "file": "data/parallel-audit-sources/product-only-baseball-sapphire-ucc-20261022.json",
+      "sha256": "52742aba446c28dc4334f6e8d42e67ade238da5256eccdad78397276ea061e0c"
+    },
+    "scopeQualification": "Exact product page links both documents. Product year, regional availability and a general release date remain separate; no missing roster eligibility or serial limit is inferred."
   },
   {
     "title": "2025 Bowman Draft Baseball Sapphire Edition",
@@ -566,7 +573,14 @@
   {
     "title": "2025-26 Topps UEFA Club Competitions",
     "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_UCC_Club_Competitions_Odds_v2.pdf?v=1769110018",
-    "source": "https://www.topps.com/pages/odds"
+    "source": "https://www.topps.com/pages/odds",
+    "productPage": "https://uk.topps.com/pages/uefa-club-competitions",
+    "checklistUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2025-26_UCC_Flagship_Checklist.pdf?v=1768301058",
+    "scopeReview": {
+      "file": "data/parallel-audit-sources/product-only-baseball-sapphire-ucc-20261022.json",
+      "sha256": "52742aba446c28dc4334f6e8d42e67ade238da5256eccdad78397276ea061e0c"
+    },
+    "scopeQualification": "Exact product page links both documents. Product year, regional availability and a general release date remain separate; no missing roster eligibility or serial limit is inferred."
   },
   {
     "title": "2026 Topps Universe WWE",

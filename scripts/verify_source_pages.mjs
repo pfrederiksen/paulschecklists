@@ -46,6 +46,19 @@ for(const set of cases){
   get('source-reset').onclick();
  }
  if(kind==='topps-grid-pdf'||(set.dedicatedParser&&data.headers.includes('Name')&&data.headers.includes('Rookie'))){const nameColumn=data.headers.findIndex(h=>/^(?:Player \/ subjects|Player|Name|Subject)$/i.test(h));assert(nameColumn>=0,'A physical checklist must retain its published subject/name header');assert(get('source-results').innerHTML.includes(data.rows[0][nameColumn].replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;')));assert.equal(get('source-team').disabled,!data.headers.some(h=>/^team$/i.test(h)));const flag=data.rookieColumn??data.headers.findIndex(h=>/^(?:Rookie|RC)$/i.test(h));assert.equal(get('source-rookie').disabled,flag<0);if(flag>=0){get('source-rookie').checked=true;get('source-rookie').onchange();assert.equal(get('source-count').textContent,`${data.rows.filter(r=>/^(?:Rookie|RC)$/i.test(r[flag])).length.toLocaleString()} official source rows`);get('source-reset').onclick();}}
+ if(set.dedicatedParser==='scripts/import_topps_product_backfills_2026.py'){
+  assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);
+  assert(get('source-sort').options.find(o=>o.value==='rare').disabled,'Unstated ratio units cannot support rarity sorting');
+  let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});
+  if(set.slug==='topps-bowman-2026-bowman-baseball-sapphire-edition'){
+   assert.equal(get('source-format').disabled,true);get('source-section').value='HIDDEN GEMS';get('source-section').onchange();get('source-search').value='HG-1';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('Roman Anthony')&&csv.includes('Boston Red Sox®')&&csv.includes('Rookie'));get('source-reset').onclick();
+   get('source-odds-tab').onclick();get('source-section').value='CHROME PROSPECTS';get('source-section').onchange();get('source-export').onclick();assert(csv.includes('1:551')&&csv.includes('PADPRADASCHA')&&!csv.includes('"1/1"')&&!csv.includes('PAPRADASCHA SAPPHIRE'));get('source-reset').onclick();get('source-cards-tab').onclick();
+  }else{
+   assert.equal(get('source-format').disabled,false);get('source-section').value='GOLD FRAMED MESSI ANNIVERSARY SKETCH CARDS';get('source-section').onchange();assert.equal(get('source-count').textContent,'19 official source rows');get('source-export').onclick();assert(csv.includes('Lionel Messi')&&csv.includes('Paris Saint-Germain')&&csv.includes('FC Barcelona'));get('source-reset').onclick();
+   get('source-search').value='GM-GM';get('source-search').oninput();assert.equal(get('source-count').textContent,'1 official source rows');get('source-export').onclick();assert(csv.includes('Antoine Griezmann')&&csv.includes('Atlético de Madrid'));get('source-reset').onclick();
+   get('source-odds-tab').onclick();get('source-section').value='ROOTS';get('source-section').onchange();get('source-format').value='Spring Tin';get('source-format').onchange();assert(primarySpecifications().includes('1:3')&&!primarySpecifications().includes('1 in 3 packs'));get('source-export').onclick();assert(csv.includes('1:3')&&!csv.includes('"1/1"'));get('source-reset').onclick();get('source-cards-tab').onclick();
+  }
+ }
  if(set.slug==='topps-bowman-2026-topps-holiday-football'){
   assert.equal(get('source-team').disabled,false);assert.equal(get('source-rookie').disabled,false);assert.equal(get('source-format').disabled,true);
   let csv='';context.Blob=class{constructor(parts){csv=parts.join('');}};context.URL={createObjectURL:()=> 'blob:test',revokeObjectURL(){}};context.setTimeout=()=>{};context.document.createElement=()=>({click(){}});

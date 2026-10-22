@@ -3426,6 +3426,20 @@
       "manufacturer": "Upper Deck",
       "releaseDate": null,
       "status": "Exact release-date research pending"
+    },
+    {
+      "slug": "topps-bowman-2026-bowman-baseball-sapphire-edition",
+      "title": "2026 Bowman Baseball Sapphire Edition",
+      "manufacturer": "Topps / Bowman",
+      "releaseDate": null,
+      "status": "Exact release-date research pending"
+    },
+    {
+      "slug": "topps-bowman-2025-26-topps-uefa-club-competitions",
+      "title": "2025-26 Topps UEFA Club Competitions",
+      "manufacturer": "Topps / Bowman",
+      "releaseDate": null,
+      "status": "Exact release-date research pending"
     }
   ]
 }
