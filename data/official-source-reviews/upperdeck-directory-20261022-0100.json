@@ -1,0 +1,32 @@
+{
+  "checkedUtc": "2026-10-22T01:17:46.406474+00:00",
+  "source": "https://upperdeck.com/checklists/",
+  "sourceKind": "official-web-directory-read",
+  "method": "Fresh official web-page text read shows the same15 current checklist titles. Exact current href arrays, Load More continuation and full table revisions were not refreshed after browser access became unavailable; retain preceding00:00 browser checkpoint separately.",
+  "headings": [
+    "2025-26 Stature Checklist",
+    "2026-27 Tim Horton’s Checklist",
+    "2026 Metal Universe SE",
+    "2026-27 Upper Deck Series 1 Checklist",
+    "2025-26 Splendor Checklist",
+    "2026 USA Hockey Jrs Checklist",
+    "2026 Transformers 30th Anniversary Special Edition Checklist",
+    "2025-2026 Upper Deck Ice Hockey Checklist",
+    "2026-27 Artifacts Checklist",
+    "Platinum DC Checklist",
+    "2026 Tim Horton’s Harry Potter Checklist",
+    "2025-26 Premier Checklist",
+    "2026 Team Canada Juniors Checklist",
+    "2025-26 Fleer Ultra PWHL Checklist",
+    "2025-26 Clear Cut Checklist"
+  ],
+  "paginationRefreshed": false,
+  "retainedLastBrowserReview": {
+    "file": "data/official-source-reviews/upperdeck-directory-20261022-0000.json",
+    "sha256": "027ffb16fe0a9560b6933c209348b78dca115f4cd42bad617f9a5f8a9c3c42c8"
+  },
+  "retainedLastCompleteTableRevisionReview": {
+    "file": "data/official-source-reviews/upperdeck-table-revisions-20261022-0000.json",
+    "sha256": "776a1dd6c7d0e9fa28337446df2f45f146d5857fa07c51ce99c4aa226b964b88"
+  }
+}

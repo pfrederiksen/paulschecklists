@@ -1,0 +1,4948 @@
+{
+  "observed": "2026-10-22",
+  "checkedUtc": "2026-10-22T01:17:46.406474+00:00",
+  "sourceKind": "official-browser-csv-exports",
+  "source": "https://www.paniniamerica.net/checklist.html",
+  "method": "Actual full CSV downloads for6 exact selections. Data URIs read in64000-character chunks with exact-length checks. Every original cell reconciled; differences only reorder the same aligned athlete/team/position tuples. Primary import bytes remain unchanged. Further browser access became unavailable after the interrupted next read;24 current CSV revision reads remain pending, retaining the prior complete30-program checkpoint.",
+  "scope": {
+    "sourceYear": "2026",
+    "allVisibleProgramsRefreshed": false,
+    "programs": 6,
+    "expectedPrograms": 30,
+    "rows": 73724,
+    "orderingOnlyRows": 289,
+    "allCardIdentitiesAndSequenceValuesUnchanged": true,
+    "allAlignedSubjectTeamPositionTuplesUnchanged": true
+  },
+  "exports": [
+    {
+      "sourceSelection": {
+        "sport": "Baseball",
+        "year": "2026",
+        "brand": "Donruss",
+        "program": "Donruss"
+      },
+      "retainedCsv": "data/official-panini/panini-2026-panini-donruss-baseball.csv",
+      "retainedSha256": "78faedd1cfb487d45706df04173252aa5438e843b12b6301e6045025be3a8eef",
+      "freshSha256": "559c9a71ef8549673bc916006bfd22d442f521bdb592dbaf56a4c8cc23119e4b",
+      "bytes": 2000011,
+      "rows": 18068,
+      "families": 273,
+      "allOriginalCellsUnchanged": false,
+      "allCardIdentitiesAndSequenceValuesUnchanged": true,
+      "allAlignedSubjectTeamPositionTuplesUnchanged": true,
+      "orderingOnlyChanges": [
+        {
+          "csvLine": 15142,
+          "family": "Downtown Duos",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Paul Skenes/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Paul Skenes",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 15143,
+          "family": "Downtown Duos",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Bo Jackson",
+            "Kansas City Royals/Kansas City Royals",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bo Jackson/Bobby Witt Jr.",
+            "Kansas City Royals/Kansas City Royals",
+            "OF/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 15145,
+          "family": "Downtown Duos",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Jacob Wilson/Nick Kurtz",
+            "Oakland A's/Oakland A's",
+            "SS/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nick Kurtz/Jacob Wilson",
+            "Oakland A's/Oakland A's",
+            "1B/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 15146,
+          "family": "Downtown Duos",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Alex Rodriguez/Ken Griffey Jr.",
+            "Seattle Mariners/Seattle Mariners",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ken Griffey Jr./Alex Rodriguez",
+            "Seattle Mariners/Seattle Mariners",
+            "OF/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 15147,
+          "family": "Downtown Duos",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Dylan Crews/James Wood",
+            "Washington Nationals/Washington Nationals",
+            "OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Wood/Dylan Crews",
+            "Washington Nationals/Washington Nationals",
+            "OF/OF"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 15149,
+          "family": "Downtown Duos",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Pedro Martinez/David Ortiz",
+            "Boston Red Sox/Boston Red Sox",
+            "P/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "David Ortiz/Pedro Martinez",
+            "Boston Red Sox/Boston Red Sox",
+            "1B/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 15150,
+          "family": "Downtown Duos",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Deion Sanders/Barry Larkin",
+            "Cincinnati Reds/Cincinnati Reds",
+            "OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Barry Larkin/Deion Sanders",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/OF"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 15151,
+          "family": "Downtown Duos",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Tom Seaver/Nolan Ryan",
+            "New York Mets/New York Mets",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nolan Ryan/Tom Seaver",
+            "New York Mets/New York Mets",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 15152,
+          "family": "Downtown Duos Gold",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Paul Skenes/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Paul Skenes",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 15153,
+          "family": "Downtown Duos Gold",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Bo Jackson",
+            "Kansas City Royals/Kansas City Royals",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bo Jackson/Bobby Witt Jr.",
+            "Kansas City Royals/Kansas City Royals",
+            "OF/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 15155,
+          "family": "Downtown Duos Gold",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Jacob Wilson/Nick Kurtz",
+            "Oakland A's/Oakland A's",
+            "SS/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nick Kurtz/Jacob Wilson",
+            "Oakland A's/Oakland A's",
+            "1B/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 15157,
+          "family": "Downtown Duos Gold",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "James Wood/Dylan Crews",
+            "Washington Nationals/Washington Nationals",
+            "OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Dylan Crews/James Wood",
+            "Washington Nationals/Washington Nationals",
+            "OF/OF"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 15158,
+          "family": "Downtown Duos Gold",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Joe DiMaggio/Aaron Judge",
+            "New York Yankees/New York Yankees",
+            "OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Aaron Judge/Joe DiMaggio",
+            "New York Yankees/New York Yankees",
+            "OF/OF"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 15159,
+          "family": "Downtown Duos Gold",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Pedro Martinez/David Ortiz",
+            "Boston Red Sox/Boston Red Sox",
+            "P/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "David Ortiz/Pedro Martinez",
+            "Boston Red Sox/Boston Red Sox",
+            "1B/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 15160,
+          "family": "Downtown Duos Gold",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Barry Larkin/Deion Sanders",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Deion Sanders/Barry Larkin",
+            "Cincinnati Reds/Cincinnati Reds",
+            "OF/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 15161,
+          "family": "Downtown Duos Gold",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Tom Seaver/Nolan Ryan",
+            "New York Mets/New York Mets",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nolan Ryan/Tom Seaver",
+            "New York Mets/New York Mets",
+            "P/P"
+          ],
+          "unchangedSequence": "10"
+        }
+      ],
+      "publicDataChanged": false,
+      "checkedUtc": "2026-10-22T01:12:35.560Z",
+      "freshExport": {
+        "file": "data/official-panini/alternates/559c9a71ef8549673bc916006bfd22d442f521bdb592dbaf56a4c8cc23119e4b.csv.gz",
+        "sha256": "559c9a71ef8549673bc916006bfd22d442f521bdb592dbaf56a4c8cc23119e4b",
+        "archiveSha256": "59dd8efe7e415e43385043b1c225dc9965b1668c4c8b0c68bce5bd4685454447"
+      }
+    },
+    {
+      "sourceSelection": {
+        "sport": "Baseball",
+        "year": "2026",
+        "brand": "Donruss",
+        "program": "Elite"
+      },
+      "retainedCsv": "data/official-panini/panini-2026-panini-elite-baseball.csv",
+      "retainedSha256": "d63f2a2fde7da2d39403272ac72b9a12550bbd2f322a0d550a1339e09cba7c60",
+      "freshSha256": "57cc2f022429f18a3cc4ff9977ce774e94dff657a4d329e183352b594af0d6ae",
+      "bytes": 866329,
+      "rows": 8016,
+      "families": 161,
+      "allOriginalCellsUnchanged": false,
+      "allCardIdentitiesAndSequenceValuesUnchanged": true,
+      "allAlignedSubjectTeamPositionTuplesUnchanged": true,
+      "orderingOnlyChanges": [
+        {
+          "csvLine": 3,
+          "family": "Back to the Future",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/Ryan Zimmerman",
+            "Washington Nationals/Washington Nationals",
+            "SS/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ryan Zimmerman/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "1B/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 7,
+          "family": "Back to the Future",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Steele Hall/Barry Larkin",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Barry Larkin/Steele Hall",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 11,
+          "family": "Back to the Future",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Cade Horton/Jake Arrieta",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jake Arrieta/Cade Horton",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 15,
+          "family": "Back to the Future Black",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Cameron Schlittler/Andy Pettitte",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Andy Pettitte/Cameron Schlittler",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 19,
+          "family": "Back to the Future Black",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Steve Carlton/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Andrew Painter/Steve Carlton",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 23,
+          "family": "Back to the Future Blue",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/Ryan Zimmerman",
+            "Washington Nationals/Washington Nationals",
+            "SS/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ryan Zimmerman/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "1B/SS"
+          ],
+          "unchangedSequence": "199"
+        },
+        {
+          "csvLine": 26,
+          "family": "Back to the Future Blue",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Tom Glavine/Cam Caminiti",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cam Caminiti/Tom Glavine",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "unchangedSequence": "199"
+        },
+        {
+          "csvLine": 27,
+          "family": "Back to the Future Blue",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Barry Larkin/Steele Hall",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Steele Hall/Barry Larkin",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "unchangedSequence": "199"
+        },
+        {
+          "csvLine": 29,
+          "family": "Back to the Future Blue",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Andrew Painter/Steve Carlton",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Steve Carlton/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "unchangedSequence": "199"
+        },
+        {
+          "csvLine": 30,
+          "family": "Back to the Future Blue",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Trey Yesavage /Roger Clemens",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roger Clemens/Trey Yesavage ",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "unchangedSequence": "199"
+        },
+        {
+          "csvLine": 31,
+          "family": "Back to the Future Blue",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Cade Horton/Jake Arrieta",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jake Arrieta/Cade Horton",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "unchangedSequence": "199"
+        },
+        {
+          "csvLine": 32,
+          "family": "Back to the Future Gold",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Randy Johnson/Kade Anderson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kade Anderson/Randy Johnson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 33,
+          "family": "Back to the Future Gold",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Ryan Zimmerman/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "1B/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/Ryan Zimmerman",
+            "Washington Nationals/Washington Nationals",
+            "SS/1B"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 34,
+          "family": "Back to the Future Gold",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Bill Mazeroski/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "2B/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Bill Mazeroski",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/2B"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 35,
+          "family": "Back to the Future Gold",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Andy Pettitte/Cameron Schlittler",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cameron Schlittler/Andy Pettitte",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 37,
+          "family": "Back to the Future Gold",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Steele Hall/Barry Larkin",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Barry Larkin/Steele Hall",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 38,
+          "family": "Back to the Future Gold",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./George Brett",
+            "Kansas City Royals/Kansas City Royals",
+            "SS/3B"
+          ],
+          "freshAthleteTeamPosition": [
+            "George Brett/Bobby Witt Jr.",
+            "Kansas City Royals/Kansas City Royals",
+            "3B/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 39,
+          "family": "Back to the Future Gold",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Andrew Painter/Steve Carlton",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Steve Carlton/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 40,
+          "family": "Back to the Future Gold",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Roger Clemens/Trey Yesavage ",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Trey Yesavage /Roger Clemens",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 41,
+          "family": "Back to the Future Gold",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Jake Arrieta/Cade Horton",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cade Horton/Jake Arrieta",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 42,
+          "family": "Back to the Future Green Disco",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Kade Anderson/Randy Johnson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Randy Johnson/Kade Anderson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 43,
+          "family": "Back to the Future Green Disco",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/Ryan Zimmerman",
+            "Washington Nationals/Washington Nationals",
+            "SS/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ryan Zimmerman/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "1B/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 45,
+          "family": "Back to the Future Green Disco",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Cameron Schlittler/Andy Pettitte",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Andy Pettitte/Cameron Schlittler",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 46,
+          "family": "Back to the Future Green Disco",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Tom Glavine/Cam Caminiti",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cam Caminiti/Tom Glavine",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 47,
+          "family": "Back to the Future Green Disco",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Steele Hall/Barry Larkin",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Barry Larkin/Steele Hall",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 48,
+          "family": "Back to the Future Green Disco",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./George Brett",
+            "Kansas City Royals/Kansas City Royals",
+            "SS/3B"
+          ],
+          "freshAthleteTeamPosition": [
+            "George Brett/Bobby Witt Jr.",
+            "Kansas City Royals/Kansas City Royals",
+            "3B/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 49,
+          "family": "Back to the Future Green Disco",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Andrew Painter/Steve Carlton",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Steve Carlton/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 50,
+          "family": "Back to the Future Green Disco",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Roger Clemens/Trey Yesavage ",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Trey Yesavage /Roger Clemens",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 52,
+          "family": "Back to the Future Neon Green",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Kade Anderson/Randy Johnson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Randy Johnson/Kade Anderson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 53,
+          "family": "Back to the Future Neon Green",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/Ryan Zimmerman",
+            "Washington Nationals/Washington Nationals",
+            "SS/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ryan Zimmerman/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "1B/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 54,
+          "family": "Back to the Future Neon Green",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Konnor Griffin/Bill Mazeroski",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/2B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bill Mazeroski/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "2B/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 56,
+          "family": "Back to the Future Neon Green",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Tom Glavine/Cam Caminiti",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cam Caminiti/Tom Glavine",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 57,
+          "family": "Back to the Future Neon Green",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Barry Larkin/Steele Hall",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Steele Hall/Barry Larkin",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 58,
+          "family": "Back to the Future Neon Green",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "George Brett/Bobby Witt Jr.",
+            "Kansas City Royals/Kansas City Royals",
+            "3B/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bobby Witt Jr./George Brett",
+            "Kansas City Royals/Kansas City Royals",
+            "SS/3B"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 60,
+          "family": "Back to the Future Neon Green",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Trey Yesavage /Roger Clemens",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roger Clemens/Trey Yesavage ",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 61,
+          "family": "Back to the Future Neon Green",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Cade Horton/Jake Arrieta",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jake Arrieta/Cade Horton",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 62,
+          "family": "Back to the Future Orange",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Kade Anderson/Randy Johnson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Randy Johnson/Kade Anderson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "unchangedSequence": "275"
+        },
+        {
+          "csvLine": 64,
+          "family": "Back to the Future Orange",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Bill Mazeroski/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "2B/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Bill Mazeroski",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/2B"
+          ],
+          "unchangedSequence": "275"
+        },
+        {
+          "csvLine": 65,
+          "family": "Back to the Future Orange",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Andy Pettitte/Cameron Schlittler",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cameron Schlittler/Andy Pettitte",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "unchangedSequence": "275"
+        },
+        {
+          "csvLine": 66,
+          "family": "Back to the Future Orange",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Tom Glavine/Cam Caminiti",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cam Caminiti/Tom Glavine",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "unchangedSequence": "275"
+        },
+        {
+          "csvLine": 68,
+          "family": "Back to the Future Orange",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./George Brett",
+            "Kansas City Royals/Kansas City Royals",
+            "SS/3B"
+          ],
+          "freshAthleteTeamPosition": [
+            "George Brett/Bobby Witt Jr.",
+            "Kansas City Royals/Kansas City Royals",
+            "3B/SS"
+          ],
+          "unchangedSequence": "275"
+        },
+        {
+          "csvLine": 69,
+          "family": "Back to the Future Orange",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Andrew Painter/Steve Carlton",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Steve Carlton/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "unchangedSequence": "275"
+        },
+        {
+          "csvLine": 70,
+          "family": "Back to the Future Orange",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Trey Yesavage /Roger Clemens",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roger Clemens/Trey Yesavage ",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "unchangedSequence": "275"
+        },
+        {
+          "csvLine": 72,
+          "family": "Back to the Future Purple",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Randy Johnson/Kade Anderson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kade Anderson/Randy Johnson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 73,
+          "family": "Back to the Future Purple",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Ryan Zimmerman/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "1B/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/Ryan Zimmerman",
+            "Washington Nationals/Washington Nationals",
+            "SS/1B"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 74,
+          "family": "Back to the Future Purple",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Konnor Griffin/Bill Mazeroski",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/2B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bill Mazeroski/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "2B/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 77,
+          "family": "Back to the Future Purple",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Barry Larkin/Steele Hall",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Steele Hall/Barry Larkin",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 81,
+          "family": "Back to the Future Purple",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Cade Horton/Jake Arrieta",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jake Arrieta/Cade Horton",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 82,
+          "family": "Back to the Future Purple Sparkle",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Kade Anderson/Randy Johnson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Randy Johnson/Kade Anderson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 85,
+          "family": "Back to the Future Purple Sparkle",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Andy Pettitte/Cameron Schlittler",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cameron Schlittler/Andy Pettitte",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 89,
+          "family": "Back to the Future Purple Sparkle",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Andrew Painter/Steve Carlton",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Steve Carlton/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 90,
+          "family": "Back to the Future Purple Sparkle",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Trey Yesavage /Roger Clemens",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roger Clemens/Trey Yesavage ",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 93,
+          "family": "Back to the Future Purple Stars",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Ryan Zimmerman/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "1B/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/Ryan Zimmerman",
+            "Washington Nationals/Washington Nationals",
+            "SS/1B"
+          ],
+          "unchangedSequence": "29"
+        },
+        {
+          "csvLine": 97,
+          "family": "Back to the Future Purple Stars",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Steele Hall/Barry Larkin",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Barry Larkin/Steele Hall",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "unchangedSequence": "29"
+        },
+        {
+          "csvLine": 98,
+          "family": "Back to the Future Purple Stars",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "George Brett/Bobby Witt Jr.",
+            "Kansas City Royals/Kansas City Royals",
+            "3B/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bobby Witt Jr./George Brett",
+            "Kansas City Royals/Kansas City Royals",
+            "SS/3B"
+          ],
+          "unchangedSequence": "29"
+        },
+        {
+          "csvLine": 99,
+          "family": "Back to the Future Purple Stars",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Steve Carlton/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Andrew Painter/Steve Carlton",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "unchangedSequence": "29"
+        },
+        {
+          "csvLine": 102,
+          "family": "Back to the Future Red Explosion",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Kade Anderson/Randy Johnson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Randy Johnson/Kade Anderson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "unchangedSequence": "79"
+        },
+        {
+          "csvLine": 103,
+          "family": "Back to the Future Red Explosion",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/Ryan Zimmerman",
+            "Washington Nationals/Washington Nationals",
+            "SS/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ryan Zimmerman/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "1B/SS"
+          ],
+          "unchangedSequence": "79"
+        },
+        {
+          "csvLine": 105,
+          "family": "Back to the Future Red Explosion",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Andy Pettitte/Cameron Schlittler",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cameron Schlittler/Andy Pettitte",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "unchangedSequence": "79"
+        },
+        {
+          "csvLine": 106,
+          "family": "Back to the Future Red Explosion",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Tom Glavine/Cam Caminiti",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cam Caminiti/Tom Glavine",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "unchangedSequence": "79"
+        },
+        {
+          "csvLine": 107,
+          "family": "Back to the Future Red Explosion",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Barry Larkin/Steele Hall",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Steele Hall/Barry Larkin",
+            "Cincinnati Reds/Cincinnati Reds",
+            "SS/SS"
+          ],
+          "unchangedSequence": "79"
+        },
+        {
+          "csvLine": 110,
+          "family": "Back to the Future Red Explosion",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Trey Yesavage /Roger Clemens",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roger Clemens/Trey Yesavage ",
+            "Toronto Blue Jays/Toronto Blue Jays",
+            "P/P"
+          ],
+          "unchangedSequence": "79"
+        },
+        {
+          "csvLine": 111,
+          "family": "Back to the Future Red Explosion",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Cade Horton/Jake Arrieta",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jake Arrieta/Cade Horton",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "unchangedSequence": "79"
+        },
+        {
+          "csvLine": 113,
+          "family": "Back to the Future Red Shimmer",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Ryan Zimmerman/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "1B/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/Ryan Zimmerman",
+            "Washington Nationals/Washington Nationals",
+            "SS/1B"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 114,
+          "family": "Back to the Future Red Shimmer",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Bill Mazeroski/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "2B/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Bill Mazeroski",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/2B"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 115,
+          "family": "Back to the Future Red Shimmer",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Andy Pettitte/Cameron Schlittler",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cameron Schlittler/Andy Pettitte",
+            "New York Yankees/New York Yankees",
+            "P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 118,
+          "family": "Back to the Future Red Shimmer",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./George Brett",
+            "Kansas City Royals/Kansas City Royals",
+            "SS/3B"
+          ],
+          "freshAthleteTeamPosition": [
+            "George Brett/Bobby Witt Jr.",
+            "Kansas City Royals/Kansas City Royals",
+            "3B/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 119,
+          "family": "Back to the Future Red Shimmer",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Andrew Painter/Steve Carlton",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Steve Carlton/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 121,
+          "family": "Back to the Future Red Shimmer",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Jake Arrieta/Cade Horton",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cade Horton/Jake Arrieta",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 5596,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "David Ortiz/Roman Anthony",
+            "Boston Red Sox/Boston Red Sox",
+            "1B/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roman Anthony/David Ortiz",
+            "Boston Red Sox/Boston Red Sox",
+            "OF/1B"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5597,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Cade Horton/Greg Maddux",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Greg Maddux/Cade Horton",
+            "Chicago Cubs/Chicago Cubs",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5598,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Cam Smith/Carlos Beltran",
+            "Houston Astros/Houston Astros",
+            "OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Carlos Beltran/Cam Smith",
+            "Houston Astros/Houston Astros",
+            "OF/OF"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5600,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Michael Young/Gavin Fien",
+            "Texas Rangers/Texas Rangers",
+            "3B/3B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Gavin Fien/Michael Young",
+            "Texas Rangers/Texas Rangers",
+            "3B/3B"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5601,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "John Smoltz/Cam Caminiti",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cam Caminiti/John Smoltz",
+            "Atlanta Braves/Atlanta Braves",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5602,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Ryan Zimmerman/Dylan Crews",
+            "Washington Nationals/Washington Nationals",
+            "1B/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Dylan Crews/Ryan Zimmerman",
+            "Washington Nationals/Washington Nationals",
+            "OF/1B"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5604,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Jose Canseco/Nick Kurtz",
+            "Oakland A's/Oakland A's",
+            "OF/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nick Kurtz/Jose Canseco",
+            "Oakland A's/Oakland A's",
+            "1B/OF"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5605,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "11",
+          "retainedAthleteTeamPosition": [
+            "Marcelo Mayer/Nomar Garciaparra",
+            "Boston Red Sox/Boston Red Sox",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nomar Garciaparra/Marcelo Mayer",
+            "Boston Red Sox/Boston Red Sox",
+            "SS/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5606,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "12",
+          "retainedAthleteTeamPosition": [
+            "Alan Trammell/Bryce Rainer",
+            "Detroit Tigers/Detroit Tigers",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bryce Rainer/Alan Trammell",
+            "Detroit Tigers/Detroit Tigers",
+            "SS/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5608,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "14",
+          "retainedAthleteTeamPosition": [
+            "Torii Hunter/Christian Moore",
+            "Los Angeles Angels/Los Angeles Angels",
+            "OF/2B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Christian Moore/Torii Hunter",
+            "Los Angeles Angels/Los Angeles Angels",
+            "2B/OF"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5609,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "15",
+          "retainedAthleteTeamPosition": [
+            "Randy Johnson/Kade Anderson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kade Anderson/Randy Johnson",
+            "Seattle Mariners/Seattle Mariners",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5610,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "16",
+          "retainedAthleteTeamPosition": [
+            "Konnor Griffin/Bill Mazeroski",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/2B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bill Mazeroski/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "2B/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5612,
+          "family": "Donruss Elite Passing The Torch Dual Autographs",
+          "cardNumber": "18",
+          "retainedAthleteTeamPosition": [
+            "Cal Ripken/Ethan Holliday",
+            "Baltimore Orioles/Colorado Rockies",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ethan Holliday/Cal Ripken",
+            "Colorado Rockies/Baltimore Orioles",
+            "SS/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5631,
+          "family": "Donruss Elite Pen Pals Duals",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Bubba Chandler/Paul Skenes",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Paul Skenes/Bubba Chandler",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5632,
+          "family": "Donruss Elite Pen Pals Duals",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/Ethan Holliday",
+            "Washington Nationals/Colorado Rockies",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ethan Holliday/Eli Willits",
+            "Colorado Rockies/Washington Nationals",
+            "SS/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5633,
+          "family": "Donruss Elite Pen Pals Duals",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Kade Anderson/Paul Skenes",
+            "Seattle Mariners/Pittsburgh Pirates",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Paul Skenes/Kade Anderson",
+            "Pittsburgh Pirates/Seattle Mariners",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5636,
+          "family": "Donruss Elite Pen Pals Duals",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Jamie Arnold/Jacob Wilson",
+            "Oakland A's/Oakland A's",
+            "P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jacob Wilson/Jamie Arnold",
+            "Oakland A's/Oakland A's",
+            "SS/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5637,
+          "family": "Donruss Elite Pen Pals Duals",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Marek Houston/Ethan Conrad",
+            "Minnesota Twins/Chicago Cubs",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ethan Conrad/Marek Houston",
+            "Chicago Cubs/Minnesota Twins",
+            "OF/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5638,
+          "family": "Donruss Elite Pen Pals Duals",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Jamie Arnold/Gage Jump",
+            "Oakland A's/Oakland A's",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Gage Jump/Jamie Arnold",
+            "Oakland A's/Oakland A's",
+            "P/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5639,
+          "family": "Donruss Elite Pen Pals Duals",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Dylan Crews/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/Dylan Crews",
+            "Washington Nationals/Washington Nationals",
+            "SS/OF"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5640,
+          "family": "Donruss Elite Pen Pals Duals",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Gage Wood/Wehiwa Aloy",
+            "Philadelphia Phillies/Baltimore Orioles",
+            "P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Wehiwa Aloy/Gage Wood",
+            "Baltimore Orioles/Philadelphia Phillies",
+            "SS/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5659,
+          "family": "Donruss Elite Pen Pals Quads",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Kade Anderson/Eli Willits/Tyler Bremner/Ethan Holliday",
+            "Seattle Mariners/Washington Nationals/Los Angeles Angels/Colorado Rockies",
+            "P/SS/P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ethan Holliday/Kade Anderson/Eli Willits/Tyler Bremner",
+            "Colorado Rockies/Seattle Mariners/Washington Nationals/Los Angeles Angels",
+            "SS/P/SS/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5660,
+          "family": "Donruss Elite Pen Pals Quads",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Billy Carlson/Noah Schultz/Braden Montgomery/Hagen Smith",
+            "Chicago White Sox/Chicago White Sox/Chicago White Sox/Chicago White Sox",
+            "SS/P/OF/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Hagen Smith/Billy Carlson/Noah Schultz/Braden Montgomery",
+            "Chicago White Sox/Chicago White Sox/Chicago White Sox/Chicago White Sox",
+            "P/SS/P/OF"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5661,
+          "family": "Donruss Elite Pen Pals Quads",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Jamie Arnold/Cam Smith/James Tibbs III/Alex Lodise",
+            "Oakland A's/Houston Astros/Los Angeles Dodgers/Atlanta Braves",
+            "P/OF/OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Tibbs III/Alex Lodise/Jamie Arnold/Cam Smith",
+            "Los Angeles Dodgers/Atlanta Braves/Oakland A's/Houston Astros",
+            "OF/SS/P/OF"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5680,
+          "family": "Donruss Elite Pen Pals Triples",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Seth Hernandez/Billy Carlson/Brady Ebel",
+            "Pittsburgh Pirates/Chicago White Sox/Milwaukee Brewers",
+            "P/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Brady Ebel/Seth Hernandez/Billy Carlson",
+            "Milwaukee Brewers/Pittsburgh Pirates/Chicago White Sox",
+            "SS/P/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5681,
+          "family": "Donruss Elite Pen Pals Triples",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Paul Skenes/Seth Hernandez/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Seth Hernandez/Konnor Griffin/Paul Skenes",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/SS/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5683,
+          "family": "Donruss Elite Pen Pals Triples",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Ethan Holliday/Aiva Arquette/Eli Willits",
+            "Colorado Rockies/Miami Marlins/Washington Nationals",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/Ethan Holliday/Aiva Arquette",
+            "Washington Nationals/Colorado Rockies/Miami Marlins",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 5684,
+          "family": "Donruss Elite Pen Pals Triples",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Gavin Kilen/Liam Doyle/Andrew Fischer",
+            "San Francisco Giants/St. Louis Cardinals/Milwaukee Brewers",
+            "2B/P/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Liam Doyle/Andrew Fischer/Gavin Kilen",
+            "St. Louis Cardinals/Milwaukee Brewers/San Francisco Giants",
+            "P/1B/2B"
+          ],
+          "unchangedSequence": ""
+        }
+      ],
+      "publicDataChanged": false,
+      "checkedUtc": "2026-10-22T01:13:35.864Z",
+      "freshExport": {
+        "file": "data/official-panini/alternates/57cc2f022429f18a3cc4ff9977ce774e94dff657a4d329e183352b594af0d6ae.csv.gz",
+        "sha256": "57cc2f022429f18a3cc4ff9977ce774e94dff657a4d329e183352b594af0d6ae",
+        "archiveSha256": "32c6ee9e08665b7f469dcddbc32e7745410c9cd3d6be98b43f8649875fddb0fa"
+      }
+    },
+    {
+      "sourceSelection": {
+        "sport": "Baseball",
+        "year": "2026",
+        "brand": "Panini",
+        "program": "Immaculate Collection"
+      },
+      "retainedCsv": "data/official-panini/panini-2026-panini-immaculate-collection-baseball.csv",
+      "retainedSha256": "a2b76b9fee015b6b67eedafec38f0b17c64ecf81781a58aba5a7314e10a74c58",
+      "freshSha256": "fe67da76dfec643fab8613d70047fc46d227393228725e76ac1948c57f545d8e",
+      "bytes": 451463,
+      "rows": 3516,
+      "families": 162,
+      "allOriginalCellsUnchanged": false,
+      "allCardIdentitiesAndSequenceValuesUnchanged": true,
+      "allAlignedSubjectTeamPositionTuplesUnchanged": true,
+      "orderingOnlyChanges": [
+        {
+          "csvLine": 1764,
+          "family": "Immaculate Dual Patches",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Marcelo Mayer/Roman Anthony",
+            "Boston Red Sox/Boston Red Sox",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roman Anthony/Marcelo Mayer",
+            "Boston Red Sox/Boston Red Sox",
+            "OF/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 1767,
+          "family": "Immaculate Dual Patches",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Ethan Holliday/Charlie Condon",
+            "Colorado Rockies/Colorado Rockies",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Charlie Condon/Ethan Holliday",
+            "Colorado Rockies/Colorado Rockies",
+            "OF/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 1768,
+          "family": "Immaculate Dual Patches",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Noah Schultz/Hagen Smith",
+            "Chicago White Sox/Chicago White Sox",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Hagen Smith/Noah Schultz",
+            "Chicago White Sox/Chicago White Sox",
+            "P/P"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 1769,
+          "family": "Immaculate Dual Patches",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/Ethan Holliday",
+            "Washington Nationals/Colorado Rockies",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ethan Holliday/Eli Willits",
+            "Colorado Rockies/Washington Nationals",
+            "SS/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 1770,
+          "family": "Immaculate Dual Patches",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Bryce Rainer/Kevin McGonigle",
+            "Detroit Tigers/Detroit Tigers",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kevin McGonigle/Bryce Rainer",
+            "Detroit Tigers/Detroit Tigers",
+            "SS/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 1771,
+          "family": "Immaculate Dual Patches",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Payton Tolle/Roman Anthony",
+            "Boston Red Sox/Boston Red Sox",
+            "P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roman Anthony/Payton Tolle",
+            "Boston Red Sox/Boston Red Sox",
+            "OF/P"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 1772,
+          "family": "Immaculate Dual Patches",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Konnor Griffin/Bobby Witt Jr.",
+            "Pittsburgh Pirates/Kansas City Royals",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bobby Witt Jr./Konnor Griffin",
+            "Kansas City Royals/Pittsburgh Pirates",
+            "SS/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 1775,
+          "family": "Immaculate Dual Patches",
+          "cardNumber": "12",
+          "retainedAthleteTeamPosition": [
+            "Paul Skenes/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Paul Skenes",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/P"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 1776,
+          "family": "Immaculate Dual Patches",
+          "cardNumber": "13",
+          "retainedAthleteTeamPosition": [
+            "Aaron Judge/Bobby Witt Jr.",
+            "New York Yankees/Kansas City Royals",
+            "OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bobby Witt Jr./Aaron Judge",
+            "Kansas City Royals/New York Yankees",
+            "SS/OF"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 1777,
+          "family": "Immaculate Dual Patches",
+          "cardNumber": "14",
+          "retainedAthleteTeamPosition": [
+            "Jacob Wilson/Nick Kurtz",
+            "Oakland A's/Oakland A's",
+            "SS/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nick Kurtz/Jacob Wilson",
+            "Oakland A's/Oakland A's",
+            "1B/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 1779,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Roman Anthony/Marcelo Mayer",
+            "Boston Red Sox/Boston Red Sox",
+            "OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Marcelo Mayer/Roman Anthony",
+            "Boston Red Sox/Boston Red Sox",
+            "SS/OF"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1780,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Paul Skenes/Bobby Witt Jr.",
+            "Pittsburgh Pirates/Kansas City Royals",
+            "P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bobby Witt Jr./Paul Skenes",
+            "Kansas City Royals/Pittsburgh Pirates",
+            "SS/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1781,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Jonah Tong/Carson Benge",
+            "New York Mets/New York Mets",
+            "P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Carson Benge/Jonah Tong",
+            "New York Mets/New York Mets",
+            "OF/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1783,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Hagen Smith/Noah Schultz",
+            "Chicago White Sox/Chicago White Sox",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Noah Schultz/Hagen Smith",
+            "Chicago White Sox/Chicago White Sox",
+            "P/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1784,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Ethan Holliday/Eli Willits",
+            "Colorado Rockies/Washington Nationals",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/Ethan Holliday",
+            "Washington Nationals/Colorado Rockies",
+            "SS/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1785,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Bryce Rainer/Kevin McGonigle",
+            "Detroit Tigers/Detroit Tigers",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kevin McGonigle/Bryce Rainer",
+            "Detroit Tigers/Detroit Tigers",
+            "SS/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1786,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Payton Tolle/Roman Anthony",
+            "Boston Red Sox/Boston Red Sox",
+            "P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roman Anthony/Payton Tolle",
+            "Boston Red Sox/Boston Red Sox",
+            "OF/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1787,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Konnor Griffin",
+            "Kansas City Royals/Pittsburgh Pirates",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Bobby Witt Jr.",
+            "Pittsburgh Pirates/Kansas City Royals",
+            "SS/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1788,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Leo De Vries/Jesus Made",
+            "Oakland A's/Milwaukee Brewers",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jesus Made/Leo De Vries",
+            "Milwaukee Brewers/Oakland A's",
+            "SS/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1789,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "11",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/James Wood",
+            "Washington Nationals/Washington Nationals",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Wood/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "OF/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1791,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "13",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Aaron Judge",
+            "Kansas City Royals/New York Yankees",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Aaron Judge/Bobby Witt Jr.",
+            "New York Yankees/Kansas City Royals",
+            "OF/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1793,
+          "family": "Immaculate Dual Patches Gold",
+          "cardNumber": "15",
+          "retainedAthleteTeamPosition": [
+            "Aaron Judge/Paul Skenes",
+            "New York Yankees/Pittsburgh Pirates",
+            "OF/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Paul Skenes/Aaron Judge",
+            "Pittsburgh Pirates/New York Yankees",
+            "P/OF"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 1795,
+          "family": "Immaculate Dual Patches Holo Silver",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Paul Skenes",
+            "Kansas City Royals/Pittsburgh Pirates",
+            "SS/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Paul Skenes/Bobby Witt Jr.",
+            "Pittsburgh Pirates/Kansas City Royals",
+            "P/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 1799,
+          "family": "Immaculate Dual Patches Holo Silver",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/Ethan Holliday",
+            "Washington Nationals/Colorado Rockies",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ethan Holliday/Eli Willits",
+            "Colorado Rockies/Washington Nationals",
+            "SS/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 1800,
+          "family": "Immaculate Dual Patches Holo Silver",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Kevin McGonigle/Bryce Rainer",
+            "Detroit Tigers/Detroit Tigers",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bryce Rainer/Kevin McGonigle",
+            "Detroit Tigers/Detroit Tigers",
+            "SS/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 1803,
+          "family": "Immaculate Dual Patches Holo Silver",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Jesus Made/Leo De Vries",
+            "Milwaukee Brewers/Oakland A's",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Leo De Vries/Jesus Made",
+            "Oakland A's/Milwaukee Brewers",
+            "SS/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 1807,
+          "family": "Immaculate Dual Patches Holo Silver",
+          "cardNumber": "14",
+          "retainedAthleteTeamPosition": [
+            "Jacob Wilson/Nick Kurtz",
+            "Oakland A's/Oakland A's",
+            "SS/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nick Kurtz/Jacob Wilson",
+            "Oakland A's/Oakland A's",
+            "1B/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 1808,
+          "family": "Immaculate Dual Patches Holo Silver",
+          "cardNumber": "15",
+          "retainedAthleteTeamPosition": [
+            "Paul Skenes/Aaron Judge",
+            "Pittsburgh Pirates/New York Yankees",
+            "P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Aaron Judge/Paul Skenes",
+            "New York Yankees/Pittsburgh Pirates",
+            "OF/P"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 1809,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Marcelo Mayer/Roman Anthony",
+            "Boston Red Sox/Boston Red Sox",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roman Anthony/Marcelo Mayer",
+            "Boston Red Sox/Boston Red Sox",
+            "OF/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1810,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Paul Skenes",
+            "Kansas City Royals/Pittsburgh Pirates",
+            "SS/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Paul Skenes/Bobby Witt Jr.",
+            "Pittsburgh Pirates/Kansas City Royals",
+            "P/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1811,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Jonah Tong/Carson Benge",
+            "New York Mets/New York Mets",
+            "P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Carson Benge/Jonah Tong",
+            "New York Mets/New York Mets",
+            "OF/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1812,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Ethan Holliday/Charlie Condon",
+            "Colorado Rockies/Colorado Rockies",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Charlie Condon/Ethan Holliday",
+            "Colorado Rockies/Colorado Rockies",
+            "OF/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1813,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Noah Schultz/Hagen Smith",
+            "Chicago White Sox/Chicago White Sox",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Hagen Smith/Noah Schultz",
+            "Chicago White Sox/Chicago White Sox",
+            "P/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1814,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/Ethan Holliday",
+            "Washington Nationals/Colorado Rockies",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ethan Holliday/Eli Willits",
+            "Colorado Rockies/Washington Nationals",
+            "SS/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1816,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Payton Tolle/Roman Anthony",
+            "Boston Red Sox/Boston Red Sox",
+            "P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roman Anthony/Payton Tolle",
+            "Boston Red Sox/Boston Red Sox",
+            "OF/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1817,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Konnor Griffin/Bobby Witt Jr.",
+            "Pittsburgh Pirates/Kansas City Royals",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bobby Witt Jr./Konnor Griffin",
+            "Kansas City Royals/Pittsburgh Pirates",
+            "SS/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1818,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Jesus Made/Leo De Vries",
+            "Milwaukee Brewers/Oakland A's",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Leo De Vries/Jesus Made",
+            "Oakland A's/Milwaukee Brewers",
+            "SS/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1819,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "11",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/James Wood",
+            "Washington Nationals/Washington Nationals",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Wood/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "OF/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1820,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "12",
+          "retainedAthleteTeamPosition": [
+            "Paul Skenes/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Paul Skenes",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1821,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "13",
+          "retainedAthleteTeamPosition": [
+            "Aaron Judge/Bobby Witt Jr.",
+            "New York Yankees/Kansas City Royals",
+            "OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bobby Witt Jr./Aaron Judge",
+            "Kansas City Royals/New York Yankees",
+            "SS/OF"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1822,
+          "family": "Immaculate Dual Patches Platinum",
+          "cardNumber": "14",
+          "retainedAthleteTeamPosition": [
+            "Jacob Wilson/Nick Kurtz",
+            "Oakland A's/Oakland A's",
+            "SS/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nick Kurtz/Jacob Wilson",
+            "Oakland A's/Oakland A's",
+            "1B/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 1826,
+          "family": "Immaculate Dual Patches Red",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Carson Benge/Jonah Tong",
+            "New York Mets/New York Mets",
+            "OF/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jonah Tong/Carson Benge",
+            "New York Mets/New York Mets",
+            "P/OF"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 1830,
+          "family": "Immaculate Dual Patches Red",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Kevin McGonigle/Bryce Rainer",
+            "Detroit Tigers/Detroit Tigers",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bryce Rainer/Kevin McGonigle",
+            "Detroit Tigers/Detroit Tigers",
+            "SS/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 1832,
+          "family": "Immaculate Dual Patches Red",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Konnor Griffin",
+            "Kansas City Royals/Pittsburgh Pirates",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Bobby Witt Jr.",
+            "Pittsburgh Pirates/Kansas City Royals",
+            "SS/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 1835,
+          "family": "Immaculate Dual Patches Red",
+          "cardNumber": "12",
+          "retainedAthleteTeamPosition": [
+            "Konnor Griffin/Paul Skenes",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Paul Skenes/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 1836,
+          "family": "Immaculate Dual Patches Red",
+          "cardNumber": "13",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Aaron Judge",
+            "Kansas City Royals/New York Yankees",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Aaron Judge/Bobby Witt Jr.",
+            "New York Yankees/Kansas City Royals",
+            "OF/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3229,
+          "family": "Immaculate Triple Autographs",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./George Brett/Bo Jackson",
+            "Kansas City Royals/Kansas City Royals/Kansas City Royals",
+            "SS/3B/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bo Jackson/Bobby Witt Jr./George Brett",
+            "Kansas City Royals/Kansas City Royals/Kansas City Royals",
+            "OF/SS/3B"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3231,
+          "family": "Immaculate Triple Autographs",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Ken Griffey Jr./Cal Ripken",
+            "Kansas City Royals/Seattle Mariners/Baltimore Orioles",
+            "SS/OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ken Griffey Jr./Cal Ripken/Bobby Witt Jr.",
+            "Seattle Mariners/Baltimore Orioles/Kansas City Royals",
+            "OF/SS/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3232,
+          "family": "Immaculate Triple Autographs",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Randy Johnson/Ken Griffey Jr./Alex Rodriguez",
+            "Seattle Mariners/Seattle Mariners/Seattle Mariners",
+            "P/OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Alex Rodriguez/Randy Johnson/Ken Griffey Jr.",
+            "Seattle Mariners/Seattle Mariners/Seattle Mariners",
+            "SS/P/OF"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3233,
+          "family": "Immaculate Triple Autographs",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Roger Clemens/Randy Johnson/Pedro Martinez",
+            "New York Yankees/Arizona Diamondbacks/Boston Red Sox",
+            "P/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Randy Johnson/Pedro Martinez/Roger Clemens",
+            "Arizona Diamondbacks/Boston Red Sox/New York Yankees",
+            "P/P/P"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3235,
+          "family": "Immaculate Triple Autographs Holo Gold",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "James Wood/Dylan Crews/Eli Willits",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "OF/OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/James Wood/Dylan Crews",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "SS/OF/OF"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 3236,
+          "family": "Immaculate Triple Autographs Holo Gold",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Ken Griffey Jr./Cal Ripken",
+            "Kansas City Royals/Seattle Mariners/Baltimore Orioles",
+            "SS/OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cal Ripken/Bobby Witt Jr./Ken Griffey Jr.",
+            "Baltimore Orioles/Kansas City Royals/Seattle Mariners",
+            "SS/SS/OF"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 3238,
+          "family": "Immaculate Triple Autographs Holo Gold",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Roger Clemens/Randy Johnson/Pedro Martinez",
+            "New York Yankees/Arizona Diamondbacks/Boston Red Sox",
+            "P/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Pedro Martinez/Roger Clemens/Randy Johnson",
+            "Boston Red Sox/New York Yankees/Arizona Diamondbacks",
+            "P/P/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 3239,
+          "family": "Immaculate Triple Autographs Platinum",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Bo Jackson/Bobby Witt Jr./George Brett",
+            "Kansas City Royals/Kansas City Royals/Kansas City Royals",
+            "OF/SS/3B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bobby Witt Jr./George Brett/Bo Jackson",
+            "Kansas City Royals/Kansas City Royals/Kansas City Royals",
+            "SS/3B/OF"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3240,
+          "family": "Immaculate Triple Autographs Platinum",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Dylan Crews/Eli Willits/James Wood",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "OF/SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/James Wood/Dylan Crews",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "SS/OF/OF"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3241,
+          "family": "Immaculate Triple Autographs Platinum",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Ken Griffey Jr./Cal Ripken/Bobby Witt Jr.",
+            "Seattle Mariners/Baltimore Orioles/Kansas City Royals",
+            "OF/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cal Ripken/Bobby Witt Jr./Ken Griffey Jr.",
+            "Baltimore Orioles/Kansas City Royals/Seattle Mariners",
+            "SS/SS/OF"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3242,
+          "family": "Immaculate Triple Autographs Platinum",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Alex Rodriguez/Randy Johnson/Ken Griffey Jr.",
+            "Seattle Mariners/Seattle Mariners/Seattle Mariners",
+            "SS/P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Randy Johnson/Ken Griffey Jr./Alex Rodriguez",
+            "Seattle Mariners/Seattle Mariners/Seattle Mariners",
+            "P/OF/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3243,
+          "family": "Immaculate Triple Autographs Platinum",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Randy Johnson/Pedro Martinez/Roger Clemens",
+            "Arizona Diamondbacks/Boston Red Sox/New York Yankees",
+            "P/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Pedro Martinez/Roger Clemens/Randy Johnson",
+            "Boston Red Sox/New York Yankees/Arizona Diamondbacks",
+            "P/P/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3244,
+          "family": "Immaculate Triple Autographs Purple FOTL",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Bo Jackson/Bobby Witt Jr./George Brett",
+            "Kansas City Royals/Kansas City Royals/Kansas City Royals",
+            "OF/SS/3B"
+          ],
+          "freshAthleteTeamPosition": [
+            "George Brett/Bo Jackson/Bobby Witt Jr.",
+            "Kansas City Royals/Kansas City Royals/Kansas City Royals",
+            "3B/OF/SS"
+          ],
+          "unchangedSequence": "7"
+        },
+        {
+          "csvLine": 3245,
+          "family": "Immaculate Triple Autographs Purple FOTL",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Dylan Crews/Eli Willits/James Wood",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "OF/SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Wood/Dylan Crews/Eli Willits",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "OF/OF/SS"
+          ],
+          "unchangedSequence": "7"
+        },
+        {
+          "csvLine": 3246,
+          "family": "Immaculate Triple Autographs Purple FOTL",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Ken Griffey Jr./Cal Ripken/Bobby Witt Jr.",
+            "Seattle Mariners/Baltimore Orioles/Kansas City Royals",
+            "OF/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bobby Witt Jr./Ken Griffey Jr./Cal Ripken",
+            "Kansas City Royals/Seattle Mariners/Baltimore Orioles",
+            "SS/OF/SS"
+          ],
+          "unchangedSequence": "7"
+        },
+        {
+          "csvLine": 3248,
+          "family": "Immaculate Triple Autographs Purple FOTL",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Randy Johnson/Pedro Martinez/Roger Clemens",
+            "Arizona Diamondbacks/Boston Red Sox/New York Yankees",
+            "P/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roger Clemens/Randy Johnson/Pedro Martinez",
+            "New York Yankees/Arizona Diamondbacks/Boston Red Sox",
+            "P/P/P"
+          ],
+          "unchangedSequence": "7"
+        },
+        {
+          "csvLine": 3249,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Josuar Gonzalez/Leo De Vries/Jesus Made",
+            "San Francisco Giants/Oakland A's/Milwaukee Brewers",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jesus Made/Josuar Gonzalez/Leo De Vries",
+            "Milwaukee Brewers/San Francisco Giants/Oakland A's",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3250,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Aaron Judge/Roman Anthony/Bobby Witt Jr.",
+            "New York Yankees/Boston Red Sox/Kansas City Royals",
+            "OF/OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roman Anthony/Bobby Witt Jr./Aaron Judge",
+            "Boston Red Sox/Kansas City Royals/New York Yankees",
+            "OF/SS/OF"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3251,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Nick Kurtz/Roman Anthony/James Wood",
+            "Oakland A's/Boston Red Sox/Washington Nationals",
+            "1B/OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Wood/Nick Kurtz/Roman Anthony",
+            "Washington Nationals/Oakland A's/Boston Red Sox",
+            "OF/1B/OF"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3252,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Payton Tolle/Roman Anthony/Marcelo Mayer",
+            "Boston Red Sox/Boston Red Sox/Boston Red Sox",
+            "P/OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roman Anthony/Marcelo Mayer/Payton Tolle",
+            "Boston Red Sox/Boston Red Sox/Boston Red Sox",
+            "OF/SS/P"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3253,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Aaron Judge/Paul Skenes/Bobby Witt Jr.",
+            "New York Yankees/Pittsburgh Pirates/Kansas City Royals",
+            "OF/P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Paul Skenes/Bobby Witt Jr./Aaron Judge",
+            "Pittsburgh Pirates/Kansas City Royals/New York Yankees",
+            "P/SS/OF"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3254,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/Kade Anderson/Tyler Bremner",
+            "Washington Nationals/Seattle Mariners/Los Angeles Angels",
+            "SS/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kade Anderson/Tyler Bremner/Eli Willits",
+            "Seattle Mariners/Los Angeles Angels/Washington Nationals",
+            "P/P/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3255,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Nick Kurtz/Jacob Wilson/Jamie Arnold",
+            "Oakland A's/Oakland A's/Oakland A's",
+            "1B/SS/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jacob Wilson/Jamie Arnold/Nick Kurtz",
+            "Oakland A's/Oakland A's/Oakland A's",
+            "SS/P/1B"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3256,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Nick Kurtz/Roman Anthony",
+            "Kansas City Royals/Oakland A's/Boston Red Sox",
+            "SS/1B/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nick Kurtz/Roman Anthony/Bobby Witt Jr.",
+            "Oakland A's/Boston Red Sox/Kansas City Royals",
+            "1B/OF/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3257,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Paul Skenes/Bubba Chandler/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bubba Chandler/Konnor Griffin/Paul Skenes",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/SS/P"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3258,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Max Anderson/Kevin McGonigle/Bryce Rainer",
+            "Detroit Tigers/Detroit Tigers/Detroit Tigers",
+            "2B/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bryce Rainer/Max Anderson/Kevin McGonigle",
+            "Detroit Tigers/Detroit Tigers/Detroit Tigers",
+            "SS/2B/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3259,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "11",
+          "retainedAthleteTeamPosition": [
+            "Cade Horton/Trey Yesavage /Paul Skenes",
+            "Chicago Cubs/Toronto Blue Jays/Pittsburgh Pirates",
+            "P/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Trey Yesavage /Paul Skenes/Cade Horton",
+            "Toronto Blue Jays/Pittsburgh Pirates/Chicago Cubs",
+            "P/P/P"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3261,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "13",
+          "retainedAthleteTeamPosition": [
+            "JoJo Parker/Aiva Arquette/Billy Carlson",
+            "Toronto Blue Jays/Miami Marlins/Chicago White Sox",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Billy Carlson/JoJo Parker/Aiva Arquette",
+            "Chicago White Sox/Toronto Blue Jays/Miami Marlins",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3262,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "14",
+          "retainedAthleteTeamPosition": [
+            "Payton Tolle/Trey Yesavage /Jonah Tong",
+            "Boston Red Sox/Toronto Blue Jays/New York Mets",
+            "P/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Trey Yesavage /Jonah Tong/Payton Tolle",
+            "Toronto Blue Jays/New York Mets/Boston Red Sox",
+            "P/P/P"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3263,
+          "family": "Immaculate Triple Memorabilia",
+          "cardNumber": "15",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/James Wood/Dylan Crews",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "SS/OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Wood/Dylan Crews/Eli Willits",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "OF/OF/SS"
+          ],
+          "unchangedSequence": "99"
+        },
+        {
+          "csvLine": 3264,
+          "family": "Immaculate Triple Memorabilia Gold",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Josuar Gonzalez/Leo De Vries/Jesus Made",
+            "San Francisco Giants/Oakland A's/Milwaukee Brewers",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jesus Made/Josuar Gonzalez/Leo De Vries",
+            "Milwaukee Brewers/San Francisco Giants/Oakland A's",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 3266,
+          "family": "Immaculate Triple Memorabilia Gold",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "James Wood/Nick Kurtz/Roman Anthony",
+            "Washington Nationals/Oakland A's/Boston Red Sox",
+            "OF/1B/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nick Kurtz/Roman Anthony/James Wood",
+            "Oakland A's/Boston Red Sox/Washington Nationals",
+            "1B/OF/OF"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 3269,
+          "family": "Immaculate Triple Memorabilia Gold",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Kade Anderson/Tyler Bremner/Eli Willits",
+            "Seattle Mariners/Los Angeles Angels/Washington Nationals",
+            "P/P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Tyler Bremner/Eli Willits/Kade Anderson",
+            "Los Angeles Angels/Washington Nationals/Seattle Mariners",
+            "P/SS/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 3270,
+          "family": "Immaculate Triple Memorabilia Gold",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Nick Kurtz/Jacob Wilson/Jamie Arnold",
+            "Oakland A's/Oakland A's/Oakland A's",
+            "1B/SS/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jamie Arnold/Nick Kurtz/Jacob Wilson",
+            "Oakland A's/Oakland A's/Oakland A's",
+            "P/1B/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 3272,
+          "family": "Immaculate Triple Memorabilia Gold",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Paul Skenes/Bubba Chandler/Konnor Griffin",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Paul Skenes/Bubba Chandler",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/P/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 3273,
+          "family": "Immaculate Triple Memorabilia Gold",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Max Anderson/Kevin McGonigle/Bryce Rainer",
+            "Detroit Tigers/Detroit Tigers/Detroit Tigers",
+            "2B/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bryce Rainer/Max Anderson/Kevin McGonigle",
+            "Detroit Tigers/Detroit Tigers/Detroit Tigers",
+            "SS/2B/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 3275,
+          "family": "Immaculate Triple Memorabilia Gold",
+          "cardNumber": "12",
+          "retainedAthleteTeamPosition": [
+            "Kevin McGonigle/Leo De Vries/Konnor Griffin",
+            "Detroit Tigers/Oakland A's/Pittsburgh Pirates",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Leo De Vries/Konnor Griffin/Kevin McGonigle",
+            "Oakland A's/Pittsburgh Pirates/Detroit Tigers",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 3278,
+          "family": "Immaculate Triple Memorabilia Gold",
+          "cardNumber": "15",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/James Wood/Dylan Crews",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "SS/OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Wood/Dylan Crews/Eli Willits",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "OF/OF/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 3279,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Josuar Gonzalez/Leo De Vries/Jesus Made",
+            "San Francisco Giants/Oakland A's/Milwaukee Brewers",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jesus Made/Josuar Gonzalez/Leo De Vries",
+            "Milwaukee Brewers/San Francisco Giants/Oakland A's",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3281,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Roman Anthony/James Wood/Nick Kurtz",
+            "Boston Red Sox/Washington Nationals/Oakland A's",
+            "OF/OF/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Wood/Nick Kurtz/Roman Anthony",
+            "Washington Nationals/Oakland A's/Boston Red Sox",
+            "OF/1B/OF"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3282,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Payton Tolle/Roman Anthony/Marcelo Mayer",
+            "Boston Red Sox/Boston Red Sox/Boston Red Sox",
+            "P/OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Marcelo Mayer/Payton Tolle/Roman Anthony",
+            "Boston Red Sox/Boston Red Sox/Boston Red Sox",
+            "SS/P/OF"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3283,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Aaron Judge/Paul Skenes/Bobby Witt Jr.",
+            "New York Yankees/Pittsburgh Pirates/Kansas City Royals",
+            "OF/P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Paul Skenes/Bobby Witt Jr./Aaron Judge",
+            "Pittsburgh Pirates/Kansas City Royals/New York Yankees",
+            "P/SS/OF"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3285,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Nick Kurtz/Jacob Wilson/Jamie Arnold",
+            "Oakland A's/Oakland A's/Oakland A's",
+            "1B/SS/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jamie Arnold/Nick Kurtz/Jacob Wilson",
+            "Oakland A's/Oakland A's/Oakland A's",
+            "P/1B/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3286,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Nick Kurtz/Roman Anthony",
+            "Kansas City Royals/Oakland A's/Boston Red Sox",
+            "SS/1B/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nick Kurtz/Roman Anthony/Bobby Witt Jr.",
+            "Oakland A's/Boston Red Sox/Kansas City Royals",
+            "1B/OF/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3287,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Bubba Chandler/Konnor Griffin/Paul Skenes",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/SS/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Paul Skenes/Bubba Chandler",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/P/P"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3288,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Max Anderson/Kevin McGonigle/Bryce Rainer",
+            "Detroit Tigers/Detroit Tigers/Detroit Tigers",
+            "2B/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bryce Rainer/Max Anderson/Kevin McGonigle",
+            "Detroit Tigers/Detroit Tigers/Detroit Tigers",
+            "SS/2B/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3290,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "12",
+          "retainedAthleteTeamPosition": [
+            "Kevin McGonigle/Leo De Vries/Konnor Griffin",
+            "Detroit Tigers/Oakland A's/Pittsburgh Pirates",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Leo De Vries/Konnor Griffin/Kevin McGonigle",
+            "Oakland A's/Pittsburgh Pirates/Detroit Tigers",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3291,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "13",
+          "retainedAthleteTeamPosition": [
+            "JoJo Parker/Aiva Arquette/Billy Carlson",
+            "Toronto Blue Jays/Miami Marlins/Chicago White Sox",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Billy Carlson/JoJo Parker/Aiva Arquette",
+            "Chicago White Sox/Toronto Blue Jays/Miami Marlins",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3292,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "14",
+          "retainedAthleteTeamPosition": [
+            "Trey Yesavage /Jonah Tong/Payton Tolle",
+            "Toronto Blue Jays/New York Mets/Boston Red Sox",
+            "P/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jonah Tong/Payton Tolle/Trey Yesavage ",
+            "New York Mets/Boston Red Sox/Toronto Blue Jays",
+            "P/P/P"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3293,
+          "family": "Immaculate Triple Memorabilia Holo Silver",
+          "cardNumber": "15",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/James Wood/Dylan Crews",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "SS/OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Wood/Dylan Crews/Eli Willits",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "OF/OF/SS"
+          ],
+          "unchangedSequence": "25"
+        },
+        {
+          "csvLine": 3295,
+          "family": "Immaculate Triple Memorabilia Platinum",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Roman Anthony/Bobby Witt Jr./Aaron Judge",
+            "Boston Red Sox/Kansas City Royals/New York Yankees",
+            "OF/SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Aaron Judge/Roman Anthony/Bobby Witt Jr.",
+            "New York Yankees/Boston Red Sox/Kansas City Royals",
+            "OF/OF/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3296,
+          "family": "Immaculate Triple Memorabilia Platinum",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "James Wood/Nick Kurtz/Roman Anthony",
+            "Washington Nationals/Oakland A's/Boston Red Sox",
+            "OF/1B/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roman Anthony/James Wood/Nick Kurtz",
+            "Boston Red Sox/Washington Nationals/Oakland A's",
+            "OF/OF/1B"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3298,
+          "family": "Immaculate Triple Memorabilia Platinum",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Paul Skenes/Bobby Witt Jr./Aaron Judge",
+            "Pittsburgh Pirates/Kansas City Royals/New York Yankees",
+            "P/SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Aaron Judge/Paul Skenes/Bobby Witt Jr.",
+            "New York Yankees/Pittsburgh Pirates/Kansas City Royals",
+            "OF/P/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3299,
+          "family": "Immaculate Triple Memorabilia Platinum",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Kade Anderson/Tyler Bremner/Eli Willits",
+            "Seattle Mariners/Los Angeles Angels/Washington Nationals",
+            "P/P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/Kade Anderson/Tyler Bremner",
+            "Washington Nationals/Seattle Mariners/Los Angeles Angels",
+            "SS/P/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3300,
+          "family": "Immaculate Triple Memorabilia Platinum",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Jacob Wilson/Jamie Arnold/Nick Kurtz",
+            "Oakland A's/Oakland A's/Oakland A's",
+            "SS/P/1B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nick Kurtz/Jacob Wilson/Jamie Arnold",
+            "Oakland A's/Oakland A's/Oakland A's",
+            "1B/SS/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3302,
+          "family": "Immaculate Triple Memorabilia Platinum",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Bubba Chandler/Konnor Griffin/Paul Skenes",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/SS/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Paul Skenes/Bubba Chandler",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/P/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3304,
+          "family": "Immaculate Triple Memorabilia Platinum",
+          "cardNumber": "11",
+          "retainedAthleteTeamPosition": [
+            "Trey Yesavage /Paul Skenes/Cade Horton",
+            "Toronto Blue Jays/Pittsburgh Pirates/Chicago Cubs",
+            "P/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Cade Horton/Trey Yesavage /Paul Skenes",
+            "Chicago Cubs/Toronto Blue Jays/Pittsburgh Pirates",
+            "P/P/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3305,
+          "family": "Immaculate Triple Memorabilia Platinum",
+          "cardNumber": "12",
+          "retainedAthleteTeamPosition": [
+            "Kevin McGonigle/Leo De Vries/Konnor Griffin",
+            "Detroit Tigers/Oakland A's/Pittsburgh Pirates",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Kevin McGonigle/Leo De Vries",
+            "Pittsburgh Pirates/Detroit Tigers/Oakland A's",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3307,
+          "family": "Immaculate Triple Memorabilia Platinum",
+          "cardNumber": "14",
+          "retainedAthleteTeamPosition": [
+            "Trey Yesavage /Jonah Tong/Payton Tolle",
+            "Toronto Blue Jays/New York Mets/Boston Red Sox",
+            "P/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Payton Tolle/Trey Yesavage /Jonah Tong",
+            "Boston Red Sox/Toronto Blue Jays/New York Mets",
+            "P/P/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3308,
+          "family": "Immaculate Triple Memorabilia Platinum",
+          "cardNumber": "15",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/James Wood/Dylan Crews",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "SS/OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Dylan Crews/Eli Willits/James Wood",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "OF/SS/OF"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 3309,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Leo De Vries/Jesus Made/Josuar Gonzalez",
+            "Oakland A's/Milwaukee Brewers/San Francisco Giants",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jesus Made/Josuar Gonzalez/Leo De Vries",
+            "Milwaukee Brewers/San Francisco Giants/Oakland A's",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3310,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Roman Anthony/Bobby Witt Jr./Aaron Judge",
+            "Boston Red Sox/Kansas City Royals/New York Yankees",
+            "OF/SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bobby Witt Jr./Aaron Judge/Roman Anthony",
+            "Kansas City Royals/New York Yankees/Boston Red Sox",
+            "SS/OF/OF"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3311,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "James Wood/Nick Kurtz/Roman Anthony",
+            "Washington Nationals/Oakland A's/Boston Red Sox",
+            "OF/1B/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Nick Kurtz/Roman Anthony/James Wood",
+            "Oakland A's/Boston Red Sox/Washington Nationals",
+            "1B/OF/OF"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3312,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Payton Tolle/Roman Anthony/Marcelo Mayer",
+            "Boston Red Sox/Boston Red Sox/Boston Red Sox",
+            "P/OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Marcelo Mayer/Payton Tolle/Roman Anthony",
+            "Boston Red Sox/Boston Red Sox/Boston Red Sox",
+            "SS/P/OF"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3314,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Kade Anderson/Tyler Bremner/Eli Willits",
+            "Seattle Mariners/Los Angeles Angels/Washington Nationals",
+            "P/P/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Tyler Bremner/Eli Willits/Kade Anderson",
+            "Los Angeles Angels/Washington Nationals/Seattle Mariners",
+            "P/SS/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3315,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Nick Kurtz/Jacob Wilson/Jamie Arnold",
+            "Oakland A's/Oakland A's/Oakland A's",
+            "1B/SS/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jamie Arnold/Nick Kurtz/Jacob Wilson",
+            "Oakland A's/Oakland A's/Oakland A's",
+            "P/1B/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3316,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Nick Kurtz/Roman Anthony/Bobby Witt Jr.",
+            "Oakland A's/Boston Red Sox/Kansas City Royals",
+            "1B/OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roman Anthony/Bobby Witt Jr./Nick Kurtz",
+            "Boston Red Sox/Kansas City Royals/Oakland A's",
+            "OF/SS/1B"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3317,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Bubba Chandler/Konnor Griffin/Paul Skenes",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "P/SS/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Paul Skenes/Bubba Chandler",
+            "Pittsburgh Pirates/Pittsburgh Pirates/Pittsburgh Pirates",
+            "SS/P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3318,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Kevin McGonigle/Bryce Rainer/Max Anderson",
+            "Detroit Tigers/Detroit Tigers/Detroit Tigers",
+            "SS/SS/2B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bryce Rainer/Max Anderson/Kevin McGonigle",
+            "Detroit Tigers/Detroit Tigers/Detroit Tigers",
+            "SS/2B/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3319,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "11",
+          "retainedAthleteTeamPosition": [
+            "Trey Yesavage /Paul Skenes/Cade Horton",
+            "Toronto Blue Jays/Pittsburgh Pirates/Chicago Cubs",
+            "P/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Paul Skenes/Cade Horton/Trey Yesavage ",
+            "Pittsburgh Pirates/Chicago Cubs/Toronto Blue Jays",
+            "P/P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3320,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "12",
+          "retainedAthleteTeamPosition": [
+            "Kevin McGonigle/Leo De Vries/Konnor Griffin",
+            "Detroit Tigers/Oakland A's/Pittsburgh Pirates",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Leo De Vries/Konnor Griffin/Kevin McGonigle",
+            "Oakland A's/Pittsburgh Pirates/Detroit Tigers",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3321,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "13",
+          "retainedAthleteTeamPosition": [
+            "Aiva Arquette/Billy Carlson/JoJo Parker",
+            "Miami Marlins/Chicago White Sox/Toronto Blue Jays",
+            "SS/SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Billy Carlson/JoJo Parker/Aiva Arquette",
+            "Chicago White Sox/Toronto Blue Jays/Miami Marlins",
+            "SS/SS/SS"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3322,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "14",
+          "retainedAthleteTeamPosition": [
+            "Trey Yesavage /Jonah Tong/Payton Tolle",
+            "Toronto Blue Jays/New York Mets/Boston Red Sox",
+            "P/P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Payton Tolle/Trey Yesavage /Jonah Tong",
+            "Boston Red Sox/Toronto Blue Jays/New York Mets",
+            "P/P/P"
+          ],
+          "unchangedSequence": "49"
+        },
+        {
+          "csvLine": 3323,
+          "family": "Immaculate Triple Memorabilia Red",
+          "cardNumber": "15",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/James Wood/Dylan Crews",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "SS/OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Wood/Dylan Crews/Eli Willits",
+            "Washington Nationals/Washington Nationals/Washington Nationals",
+            "OF/OF/SS"
+          ],
+          "unchangedSequence": "49"
+        }
+      ],
+      "publicDataChanged": false,
+      "checkedUtc": "2026-10-22T01:13:46.749Z",
+      "freshExport": {
+        "file": "data/official-panini/alternates/fe67da76dfec643fab8613d70047fc46d227393228725e76ac1948c57f545d8e.csv.gz",
+        "sha256": "fe67da76dfec643fab8613d70047fc46d227393228725e76ac1948c57f545d8e",
+        "archiveSha256": "923904300e97132b8ebb5664a167c732ad5df7e2b2153780078b3bf72221fb44"
+      }
+    },
+    {
+      "sourceSelection": {
+        "sport": "Baseball",
+        "year": "2026",
+        "brand": "Panini",
+        "program": "Prizm"
+      },
+      "retainedCsv": "data/official-panini/panini-2026-panini-prizm-baseball.csv",
+      "retainedSha256": "c9d94bee4b92f2fb9a70c29da2a55a1fd7e2a8ca2b73f850ac7b2ecac19cc64c",
+      "freshSha256": "1c7dd95f55c608baada52d44a64e4da67a51d449563e650681b5f6ac53769782",
+      "bytes": 2381099,
+      "rows": 22421,
+      "families": 252,
+      "allOriginalCellsUnchanged": false,
+      "allCardIdentitiesAndSequenceValuesUnchanged": true,
+      "allAlignedSubjectTeamPositionTuplesUnchanged": true,
+      "orderingOnlyChanges": [
+        {
+          "csvLine": 16786,
+          "family": "Dual Autographs",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Ben Zobrist/Jon Lester",
+            "Chicago Cubs/Chicago Cubs",
+            "2B/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jon Lester/Ben Zobrist",
+            "Chicago Cubs/Chicago Cubs",
+            "P/2B"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16787,
+          "family": "Dual Autographs",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Jackson Chourio/Ryan Braun",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ryan Braun/Jackson Chourio",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16788,
+          "family": "Dual Autographs",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Mo'ne Davis/Kelsie Whitmore",
+            "Los Angeles/San Francisco",
+            "P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kelsie Whitmore/Mo'ne Davis",
+            "San Francisco/Los Angeles",
+            "OF/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16789,
+          "family": "Dual Autographs",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Justin Crawford/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "OF/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Andrew Painter/Justin Crawford",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/OF"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16790,
+          "family": "Dual Autographs",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Mariano Rivera/Trevor Hoffman",
+            "New York Yankees/San Diego Padres",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Trevor Hoffman/Mariano Rivera",
+            "San Diego Padres/New York Yankees",
+            "P/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16791,
+          "family": "Dual Autographs",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Johnny Bench/Ivan Rodriguez",
+            "Cincinnati Reds/Texas Rangers",
+            "C/C"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ivan Rodriguez/Johnny Bench",
+            "Texas Rangers/Cincinnati Reds",
+            "C/C"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16793,
+          "family": "Dual Autographs",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Jesus Made/Leo De Vries",
+            "Milwaukee Brewers/Oakland A's",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Leo De Vries/Jesus Made",
+            "Oakland A's/Milwaukee Brewers",
+            "SS/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16795,
+          "family": "Dual Autographs Prizms Blue Shimmer FOTL",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Kevin McGonigle/Konnor Griffin",
+            "Detroit Tigers/Pittsburgh Pirates",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Kevin McGonigle",
+            "Pittsburgh Pirates/Detroit Tigers",
+            "SS/SS"
+          ],
+          "unchangedSequence": "4"
+        },
+        {
+          "csvLine": 16796,
+          "family": "Dual Autographs Prizms Blue Shimmer FOTL",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Ben Zobrist/Jon Lester",
+            "Chicago Cubs/Chicago Cubs",
+            "2B/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jon Lester/Ben Zobrist",
+            "Chicago Cubs/Chicago Cubs",
+            "P/2B"
+          ],
+          "unchangedSequence": "4"
+        },
+        {
+          "csvLine": 16797,
+          "family": "Dual Autographs Prizms Blue Shimmer FOTL",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Jackson Chourio/Ryan Braun",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ryan Braun/Jackson Chourio",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "unchangedSequence": "4"
+        },
+        {
+          "csvLine": 16799,
+          "family": "Dual Autographs Prizms Blue Shimmer FOTL",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Justin Crawford/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "OF/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Andrew Painter/Justin Crawford",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/OF"
+          ],
+          "unchangedSequence": "4"
+        },
+        {
+          "csvLine": 16800,
+          "family": "Dual Autographs Prizms Blue Shimmer FOTL",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Mariano Rivera/Trevor Hoffman",
+            "New York Yankees/San Diego Padres",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Trevor Hoffman/Mariano Rivera",
+            "San Diego Padres/New York Yankees",
+            "P/P"
+          ],
+          "unchangedSequence": "4"
+        },
+        {
+          "csvLine": 16801,
+          "family": "Dual Autographs Prizms Blue Shimmer FOTL",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Johnny Bench/Ivan Rodriguez",
+            "Cincinnati Reds/Texas Rangers",
+            "C/C"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ivan Rodriguez/Johnny Bench",
+            "Texas Rangers/Cincinnati Reds",
+            "C/C"
+          ],
+          "unchangedSequence": "4"
+        },
+        {
+          "csvLine": 16803,
+          "family": "Dual Autographs Prizms Blue Shimmer FOTL",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Leo De Vries/Jesus Made",
+            "Oakland A's/Milwaukee Brewers",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jesus Made/Leo De Vries",
+            "Milwaukee Brewers/Oakland A's",
+            "SS/SS"
+          ],
+          "unchangedSequence": "4"
+        },
+        {
+          "csvLine": 16804,
+          "family": "Dual Autographs Prizms Circles Black",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Eli Willits/James Wood",
+            "Washington Nationals/Washington Nationals",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "James Wood/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "OF/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16805,
+          "family": "Dual Autographs Prizms Circles Black",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Kevin McGonigle/Konnor Griffin",
+            "Detroit Tigers/Pittsburgh Pirates",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Konnor Griffin/Kevin McGonigle",
+            "Pittsburgh Pirates/Detroit Tigers",
+            "SS/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16807,
+          "family": "Dual Autographs Prizms Circles Black",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Ryan Braun/Jackson Chourio",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jackson Chourio/Ryan Braun",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16808,
+          "family": "Dual Autographs Prizms Circles Black",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Kelsie Whitmore/Mo'ne Davis",
+            "San Francisco/Los Angeles",
+            "OF/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Mo'ne Davis/Kelsie Whitmore",
+            "Los Angeles/San Francisco",
+            "P/OF"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16809,
+          "family": "Dual Autographs Prizms Circles Black",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Justin Crawford/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "OF/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Andrew Painter/Justin Crawford",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/OF"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16811,
+          "family": "Dual Autographs Prizms Circles Black",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Ivan Rodriguez/Johnny Bench",
+            "Texas Rangers/Cincinnati Reds",
+            "C/C"
+          ],
+          "freshAthleteTeamPosition": [
+            "Johnny Bench/Ivan Rodriguez",
+            "Cincinnati Reds/Texas Rangers",
+            "C/C"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16812,
+          "family": "Dual Autographs Prizms Circles Black",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Ben Zobrist/Jason Heyward",
+            "Chicago Cubs/Chicago Cubs",
+            "2B/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jason Heyward/Ben Zobrist",
+            "Chicago Cubs/Chicago Cubs",
+            "OF/2B"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16813,
+          "family": "Dual Autographs Prizms Circles Black",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Leo De Vries/Jesus Made",
+            "Oakland A's/Milwaukee Brewers",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jesus Made/Leo De Vries",
+            "Milwaukee Brewers/Oakland A's",
+            "SS/SS"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16815,
+          "family": "Dual Autographs Prizms Circles Gold",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Konnor Griffin/Kevin McGonigle",
+            "Pittsburgh Pirates/Detroit Tigers",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kevin McGonigle/Konnor Griffin",
+            "Detroit Tigers/Pittsburgh Pirates",
+            "SS/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16816,
+          "family": "Dual Autographs Prizms Circles Gold",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Jon Lester/Ben Zobrist",
+            "Chicago Cubs/Chicago Cubs",
+            "P/2B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ben Zobrist/Jon Lester",
+            "Chicago Cubs/Chicago Cubs",
+            "2B/P"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16817,
+          "family": "Dual Autographs Prizms Circles Gold",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Ryan Braun/Jackson Chourio",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jackson Chourio/Ryan Braun",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16818,
+          "family": "Dual Autographs Prizms Circles Gold",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Kelsie Whitmore/Mo'ne Davis",
+            "San Francisco/Los Angeles",
+            "OF/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Mo'ne Davis/Kelsie Whitmore",
+            "Los Angeles/San Francisco",
+            "P/OF"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16821,
+          "family": "Dual Autographs Prizms Circles Gold",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Ivan Rodriguez/Johnny Bench",
+            "Texas Rangers/Cincinnati Reds",
+            "C/C"
+          ],
+          "freshAthleteTeamPosition": [
+            "Johnny Bench/Ivan Rodriguez",
+            "Cincinnati Reds/Texas Rangers",
+            "C/C"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16822,
+          "family": "Dual Autographs Prizms Circles Gold",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Ben Zobrist/Jason Heyward",
+            "Chicago Cubs/Chicago Cubs",
+            "2B/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jason Heyward/Ben Zobrist",
+            "Chicago Cubs/Chicago Cubs",
+            "OF/2B"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16823,
+          "family": "Dual Autographs Prizms Circles Gold",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Leo De Vries/Jesus Made",
+            "Oakland A's/Milwaukee Brewers",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jesus Made/Leo De Vries",
+            "Milwaukee Brewers/Oakland A's",
+            "SS/SS"
+          ],
+          "unchangedSequence": "10"
+        },
+        {
+          "csvLine": 16824,
+          "family": "Dual Autographs Prizms Gold",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "James Wood/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/James Wood",
+            "Washington Nationals/Washington Nationals",
+            "SS/OF"
+          ],
+          "unchangedSequence": "5"
+        },
+        {
+          "csvLine": 16825,
+          "family": "Dual Autographs Prizms Gold",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Konnor Griffin/Kevin McGonigle",
+            "Pittsburgh Pirates/Detroit Tigers",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kevin McGonigle/Konnor Griffin",
+            "Detroit Tigers/Pittsburgh Pirates",
+            "SS/SS"
+          ],
+          "unchangedSequence": "5"
+        },
+        {
+          "csvLine": 16826,
+          "family": "Dual Autographs Prizms Gold",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Jon Lester/Ben Zobrist",
+            "Chicago Cubs/Chicago Cubs",
+            "P/2B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ben Zobrist/Jon Lester",
+            "Chicago Cubs/Chicago Cubs",
+            "2B/P"
+          ],
+          "unchangedSequence": "5"
+        },
+        {
+          "csvLine": 16829,
+          "family": "Dual Autographs Prizms Gold",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Andrew Painter/Justin Crawford",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Justin Crawford/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "OF/P"
+          ],
+          "unchangedSequence": "5"
+        },
+        {
+          "csvLine": 16830,
+          "family": "Dual Autographs Prizms Gold",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Trevor Hoffman/Mariano Rivera",
+            "San Diego Padres/New York Yankees",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Mariano Rivera/Trevor Hoffman",
+            "New York Yankees/San Diego Padres",
+            "P/P"
+          ],
+          "unchangedSequence": "5"
+        },
+        {
+          "csvLine": 16831,
+          "family": "Dual Autographs Prizms Gold",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Ivan Rodriguez/Johnny Bench",
+            "Texas Rangers/Cincinnati Reds",
+            "C/C"
+          ],
+          "freshAthleteTeamPosition": [
+            "Johnny Bench/Ivan Rodriguez",
+            "Cincinnati Reds/Texas Rangers",
+            "C/C"
+          ],
+          "unchangedSequence": "5"
+        },
+        {
+          "csvLine": 16832,
+          "family": "Dual Autographs Prizms Gold",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Jason Heyward/Ben Zobrist",
+            "Chicago Cubs/Chicago Cubs",
+            "OF/2B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ben Zobrist/Jason Heyward",
+            "Chicago Cubs/Chicago Cubs",
+            "2B/OF"
+          ],
+          "unchangedSequence": "5"
+        },
+        {
+          "csvLine": 16833,
+          "family": "Dual Autographs Prizms Gold",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Jesus Made/Leo De Vries",
+            "Milwaukee Brewers/Oakland A's",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Leo De Vries/Jesus Made",
+            "Oakland A's/Milwaukee Brewers",
+            "SS/SS"
+          ],
+          "unchangedSequence": "5"
+        },
+        {
+          "csvLine": 16834,
+          "family": "Dual Autographs Prizms Gold Shimmer FOTL",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "James Wood/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/James Wood",
+            "Washington Nationals/Washington Nationals",
+            "SS/OF"
+          ],
+          "unchangedSequence": "2"
+        },
+        {
+          "csvLine": 16837,
+          "family": "Dual Autographs Prizms Gold Shimmer FOTL",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Jackson Chourio/Ryan Braun",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ryan Braun/Jackson Chourio",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "unchangedSequence": "2"
+        },
+        {
+          "csvLine": 16838,
+          "family": "Dual Autographs Prizms Gold Shimmer FOTL",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Mo'ne Davis/Kelsie Whitmore",
+            "Los Angeles/San Francisco",
+            "P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kelsie Whitmore/Mo'ne Davis",
+            "San Francisco/Los Angeles",
+            "OF/P"
+          ],
+          "unchangedSequence": "2"
+        },
+        {
+          "csvLine": 16839,
+          "family": "Dual Autographs Prizms Gold Shimmer FOTL",
+          "cardNumber": "6",
+          "retainedAthleteTeamPosition": [
+            "Andrew Painter/Justin Crawford",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Justin Crawford/Andrew Painter",
+            "Philadelphia Phillies/Philadelphia Phillies",
+            "OF/P"
+          ],
+          "unchangedSequence": "2"
+        },
+        {
+          "csvLine": 16840,
+          "family": "Dual Autographs Prizms Gold Shimmer FOTL",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Mariano Rivera/Trevor Hoffman",
+            "New York Yankees/San Diego Padres",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Trevor Hoffman/Mariano Rivera",
+            "San Diego Padres/New York Yankees",
+            "P/P"
+          ],
+          "unchangedSequence": "2"
+        },
+        {
+          "csvLine": 16842,
+          "family": "Dual Autographs Prizms Gold Shimmer FOTL",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Jason Heyward/Ben Zobrist",
+            "Chicago Cubs/Chicago Cubs",
+            "OF/2B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ben Zobrist/Jason Heyward",
+            "Chicago Cubs/Chicago Cubs",
+            "2B/OF"
+          ],
+          "unchangedSequence": "2"
+        },
+        {
+          "csvLine": 16843,
+          "family": "Dual Autographs Prizms Gold Shimmer FOTL",
+          "cardNumber": "10",
+          "retainedAthleteTeamPosition": [
+            "Jesus Made/Leo De Vries",
+            "Milwaukee Brewers/Oakland A's",
+            "SS/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Leo De Vries/Jesus Made",
+            "Oakland A's/Milwaukee Brewers",
+            "SS/SS"
+          ],
+          "unchangedSequence": "2"
+        },
+        {
+          "csvLine": 16844,
+          "family": "Dual Autographs Prizms Gold Vinyl",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "James Wood/Eli Willits",
+            "Washington Nationals/Washington Nationals",
+            "OF/SS"
+          ],
+          "freshAthleteTeamPosition": [
+            "Eli Willits/James Wood",
+            "Washington Nationals/Washington Nationals",
+            "SS/OF"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16846,
+          "family": "Dual Autographs Prizms Gold Vinyl",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Ben Zobrist/Jon Lester",
+            "Chicago Cubs/Chicago Cubs",
+            "2B/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Jon Lester/Ben Zobrist",
+            "Chicago Cubs/Chicago Cubs",
+            "P/2B"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16847,
+          "family": "Dual Autographs Prizms Gold Vinyl",
+          "cardNumber": "4",
+          "retainedAthleteTeamPosition": [
+            "Jackson Chourio/Ryan Braun",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ryan Braun/Jackson Chourio",
+            "Milwaukee Brewers/Milwaukee Brewers",
+            "OF/OF"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16848,
+          "family": "Dual Autographs Prizms Gold Vinyl",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Mo'ne Davis/Kelsie Whitmore",
+            "Los Angeles/San Francisco",
+            "P/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kelsie Whitmore/Mo'ne Davis",
+            "San Francisco/Los Angeles",
+            "OF/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16850,
+          "family": "Dual Autographs Prizms Gold Vinyl",
+          "cardNumber": "7",
+          "retainedAthleteTeamPosition": [
+            "Mariano Rivera/Trevor Hoffman",
+            "New York Yankees/San Diego Padres",
+            "P/P"
+          ],
+          "freshAthleteTeamPosition": [
+            "Trevor Hoffman/Mariano Rivera",
+            "San Diego Padres/New York Yankees",
+            "P/P"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16851,
+          "family": "Dual Autographs Prizms Gold Vinyl",
+          "cardNumber": "8",
+          "retainedAthleteTeamPosition": [
+            "Johnny Bench/Ivan Rodriguez",
+            "Cincinnati Reds/Texas Rangers",
+            "C/C"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ivan Rodriguez/Johnny Bench",
+            "Texas Rangers/Cincinnati Reds",
+            "C/C"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16852,
+          "family": "Dual Autographs Prizms Gold Vinyl",
+          "cardNumber": "9",
+          "retainedAthleteTeamPosition": [
+            "Jason Heyward/Ben Zobrist",
+            "Chicago Cubs/Chicago Cubs",
+            "OF/2B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Ben Zobrist/Jason Heyward",
+            "Chicago Cubs/Chicago Cubs",
+            "2B/OF"
+          ],
+          "unchangedSequence": "1"
+        },
+        {
+          "csvLine": 16854,
+          "family": "Dual Color Blast",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Bobby Witt Jr./Aaron Judge",
+            "Kansas City Royals/New York Yankees",
+            "SS/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Aaron Judge/Bobby Witt Jr.",
+            "New York Yankees/Kansas City Royals",
+            "OF/SS"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 16855,
+          "family": "Dual Color Blast",
+          "cardNumber": "2",
+          "retainedAthleteTeamPosition": [
+            "Tatsuya Imai/Kazuma Okamoto",
+            "Houston Astros/Toronto Blue Jays",
+            "P/3B"
+          ],
+          "freshAthleteTeamPosition": [
+            "Kazuma Okamoto/Tatsuya Imai",
+            "Toronto Blue Jays/Houston Astros",
+            "3B/P"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 16856,
+          "family": "Dual Color Blast",
+          "cardNumber": "3",
+          "retainedAthleteTeamPosition": [
+            "Deion Sanders/Bo Jackson",
+            "Cincinnati Reds/Kansas City Royals",
+            "OF/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Bo Jackson/Deion Sanders",
+            "Kansas City Royals/Cincinnati Reds",
+            "OF/OF"
+          ],
+          "unchangedSequence": ""
+        },
+        {
+          "csvLine": 16858,
+          "family": "Dual Color Blast",
+          "cardNumber": "5",
+          "retainedAthleteTeamPosition": [
+            "Nick Kurtz/Roman Anthony",
+            "Oakland A's/Boston Red Sox",
+            "1B/OF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Roman Anthony/Nick Kurtz",
+            "Boston Red Sox/Oakland A's",
+            "OF/1B"
+          ],
+          "unchangedSequence": ""
+        }
+      ],
+      "publicDataChanged": false,
+      "checkedUtc": "2026-10-22T01:13:58.886Z",
+      "freshExport": {
+        "file": "data/official-panini/alternates/1c7dd95f55c608baada52d44a64e4da67a51d449563e650681b5f6ac53769782.csv.gz",
+        "sha256": "1c7dd95f55c608baada52d44a64e4da67a51d449563e650681b5f6ac53769782",
+        "archiveSha256": "72dd442b26f96260bc259e478e05254f66a5db377b4db6e10c6638aca769ec43"
+      }
+    },
+    {
+      "sourceSelection": {
+        "sport": "Baseball",
+        "year": "2026",
+        "brand": "Panini",
+        "program": "Stars and Stripes Prizm"
+      },
+      "retainedCsv": "data/official-panini/panini-2026-panini-stars-and-stripes-prizm-baseball.csv",
+      "retainedSha256": "5e7e24e15d0ce838a57563e8b065b999e91568a2f19ec7066cacfb542a933048",
+      "freshSha256": "1ca27438383d384bc6973e18fd989452d8aba4bdebf82f3731b5ebd961bcdbf5",
+      "bytes": 2315499,
+      "rows": 14872,
+      "families": 199,
+      "allOriginalCellsUnchanged": false,
+      "allCardIdentitiesAndSequenceValuesUnchanged": true,
+      "allAlignedSubjectTeamPositionTuplesUnchanged": true,
+      "orderingOnlyChanges": [
+        {
+          "csvLine": 13838,
+          "family": "The Future Is Now",
+          "cardNumber": "1",
+          "retainedAthleteTeamPosition": [
+            "Jacob Lombard/AJ Gracia/Grady Emerson/Roch Cholowsky",
+            "USA Baseball 18U National Team/USA Baseball Collegiate National Team/USA Baseball 18U National Team/USA Baseball Collegiate National Team",
+            "INF/LHP/OF/INF/INF"
+          ],
+          "freshAthleteTeamPosition": [
+            "Grady Emerson/Roch Cholowsky/Jacob Lombard/AJ Gracia",
+            "USA Baseball 18U National Team/USA Baseball Collegiate National Team/USA Baseball 18U National Team/USA Baseball Collegiate National Team",
+            "INF/INF/INF/LHP/OF"
+          ],
+          "unchangedSequence": "25"
+        }
+      ],
+      "publicDataChanged": false,
+      "checkedUtc": "2026-10-22T01:14:13.079Z",
+      "freshExport": {
+        "file": "data/official-panini/alternates/1ca27438383d384bc6973e18fd989452d8aba4bdebf82f3731b5ebd961bcdbf5.csv.gz",
+        "sha256": "1ca27438383d384bc6973e18fd989452d8aba4bdebf82f3731b5ebd961bcdbf5",
+        "archiveSha256": "00f165748d0d3b830c0ef2ec47d111c7074e87de6755c4a00c025a928d5a674c"
+      }
+    },
+    {
+      "sourceSelection": {
+        "sport": "Basketball",
+        "year": "2026",
+        "brand": "Donruss",
+        "program": "WNBA Donruss"
+      },
+      "retainedCsv": "data/official-panini/panini-2026-panini-wnba-donruss-basketball.csv",
+      "retainedSha256": "fe1f95197924b7396747fa53bed34e26444e41f789ebc0f5013cfd04309f08e1",
+      "freshSha256": "fe1f95197924b7396747fa53bed34e26444e41f789ebc0f5013cfd04309f08e1",
+      "bytes": 754366,
+      "rows": 6831,
+      "families": 213,
+      "allOriginalCellsUnchanged": true,
+      "allCardIdentitiesAndSequenceValuesUnchanged": true,
+      "allAlignedSubjectTeamPositionTuplesUnchanged": true,
+      "orderingOnlyChanges": [],
+      "publicDataChanged": false,
+      "checkedUtc": "2026-10-22T01:14:27.593Z",
+      "freshExport": {
+        "file": "data/official-panini/alternates/fe1f95197924b7396747fa53bed34e26444e41f789ebc0f5013cfd04309f08e1.csv.gz",
+        "sha256": "fe1f95197924b7396747fa53bed34e26444e41f789ebc0f5013cfd04309f08e1",
+        "archiveSha256": "cd4db165fa3c5f38126a6c0c3e4fe928805b33d76ed4127354f62373f50665df"
+      }
+    }
+  ],
+  "pending": [
+    {
+      "sport": "Basketball",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "WNBA Prizm"
+    },
+    {
+      "sport": "Fight",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "MLW Ring Royalty"
+    },
+    {
+      "sport": "Fight",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "PFL Contenders"
+    },
+    {
+      "sport": "Football",
+      "year": "2026",
+      "brand": "Donruss",
+      "program": "Donruss"
+    },
+    {
+      "sport": "Football",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Obsidian"
+    },
+    {
+      "sport": "Golf",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Contenders"
+    },
+    {
+      "sport": "Golf",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Par Three LIV"
+    },
+    {
+      "sport": "Miscellaneous",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "90’s Pop Culture Box Set"
+    },
+    {
+      "sport": "Miscellaneous",
+      "year": "2026",
+      "brand": "Score",
+      "program": "Score-A-Treat"
+    },
+    {
+      "sport": "Racing",
+      "year": "2026",
+      "brand": "Donruss",
+      "program": "Donruss"
+    },
+    {
+      "sport": "Racing",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Select"
+    },
+    {
+      "sport": "Racing",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Track Kings"
+    },
+    {
+      "sport": "Racing",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Turn Four"
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Donruss",
+      "program": "Donruss NWSL"
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Luminance England"
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Luminance France"
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Luminance Germany"
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Obsidian K League"
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Panini Intl England"
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Panini Intl France"
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Panini Intl Germany"
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Panini Intl Mexico"
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Prizm World Cup (25-26)"
+    },
+    {
+      "sport": "Soccer",
+      "year": "2026",
+      "brand": "Panini",
+      "program": "Revolution K League"
+    }
+  ],
+  "retainedLastCompleteReview": {
+    "file": "data/official-source-reviews/panini-current-2026-csv-20261021-2100.json",
+    "sha256": "e1e1c13eb2ee67a08d62f5fafa868dbc44be55989a40fbd5eb4dbfd4029ff384"
+  }
+}
