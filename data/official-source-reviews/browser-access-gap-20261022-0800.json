@@ -1,0 +1,28 @@
+{
+  "checkedUtc": "2026-10-22T08:27:57.768979+00:00",
+  "heartbeatStartedUtc": "2026-10-22T08:09:39.875Z",
+  "sourceKind": "browser-surface-access-unavailable",
+  "observedState": "Both initial and later tool surface inventories return no browsers or native apps and report the Mac locked with automatic unlock unsuccessful.",
+  "sameBlockingConditionAs": {
+    "file": "data/official-source-reviews/browser-access-gap-20261022-0700.json",
+    "sha256": "cd923e725f473a4b192a88a7a3bf40a114cfa711d187c22de90552a65693ba70"
+  },
+  "pendingFreshUiReads": [
+    "All active NOW/Bowman listing pages and product facts",
+    "Exact current global Topps checklist and odds hrefs",
+    "Panini menus/full CSV exports and Upper Deck directory/table revisions"
+  ],
+  "lastActualActiveUiReview": {
+    "file": "data/official-source-reviews/topps-now-iab-20261022-0600.json",
+    "sha256": "8ab9fd0aa61089eba688b6aca3017e50cf24596a239dec2fd65a88aad9969640"
+  },
+  "lastActualToppsIndexUiReview": {
+    "file": "data/official-source-reviews/topps-index-links-20261022-0600.json",
+    "sha256": "563edeab0878bf3f05c52488f1d0ef1e296f43f822eb03bc63a8770fe6e26c9a"
+  },
+  "freshActiveCheckpointWritten": false,
+  "freshIndexUiComparisonCompleted": false,
+  "retainedCheckpointHandling": "The audit revalidated only the unchanged06:00 listing. Original audit bytes/scope restored after core fields matched. No08:00 actual listing observation or current coverage claim.",
+  "independentWorkCompleted": "Published physical-column reconciliation of the unchanged official2026 Inception Football PDF;538 subjects /523 identities,340 literal Rookie marks. Full new source-cell and shared UI/CSV checks pass.",
+  "remainingGap": "Current browser monitoring must resume when actual surface access returns. Known-source hashes and this separately verified PDF import do not close the active/index UI gaps."
+}

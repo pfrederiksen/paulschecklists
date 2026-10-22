@@ -1,0 +1,71 @@
+{
+  "artifactResponses": 8,
+  "results": [
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/data/imports/topps-bowman-2026-topps-inception-football.json",
+      "sha256": "668a236bb0494135f1450589836f3b06217c54772c928265b6fd8a59872d9763",
+      "bytes": 114323
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/data/player-index.json",
+      "sha256": "a9dc325a178f5ac6bff6a2e667e49b177cfb82ad025f0074baf8c7cf2bf9aa07",
+      "bytes": 2174795
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/data/set-catalog.json",
+      "sha256": "c485f36da8beba0c2289be6fc24d821553c9fca0dd71958162ca63c8c88018d5",
+      "bytes": 1181120
+    },
+    {
+      "url": "https://pfrederiksen.github.io/paulschecklists/sets/topps-bowman-2026-topps-inception-football.html",
+      "sha256": "c71c4df750817b75fe6652b0d9c9f777517ced937aa3c4dd96232632db585271",
+      "bytes": 34479
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/data/imports/topps-bowman-2026-topps-inception-football.json",
+      "sha256": "668a236bb0494135f1450589836f3b06217c54772c928265b6fd8a59872d9763",
+      "bytes": 114323
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/data/player-index.json",
+      "sha256": "a9dc325a178f5ac6bff6a2e667e49b177cfb82ad025f0074baf8c7cf2bf9aa07",
+      "bytes": 2174795
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/data/set-catalog.json",
+      "sha256": "c485f36da8beba0c2289be6fc24d821553c9fca0dd71958162ca63c8c88018d5",
+      "bytes": 1181120
+    },
+    {
+      "url": "https://paulfrederiksen.com/checklists/sets/topps-bowman-2026-topps-inception-football.html",
+      "sha256": "c71c4df750817b75fe6652b0d9c9f777517ced937aa3c4dd96232632db585271",
+      "bytes": 34479
+    },
+    {
+      "url": "https://paulfrederiksen.com/robots.txt",
+      "sha256": "0b6fb87e44057ad9e52a87b9ef85e68e387569058a0d5b967811c8665894a101",
+      "contentType": "text/plain"
+    },
+    {
+      "url": "https://paulfrederiksen.com/ads.txt",
+      "sha256": "789b102b3c617fdfaff82d155add79179ecf1cad375c0e0b87aa30def8a4a7d9",
+      "contentType": "text/plain"
+    }
+  ],
+  "checkedUtc": "2026-10-22T08:27:57.768979+00:00",
+  "sourcePublicDataCommit": "9192202bd1f19c1c83b8e722007e2237539a005d",
+  "domainHead": "a57c2bd4d202945efce17d0741ca7ea1b6955066",
+  "sourceDeployment": {
+    "conclusion": "success",
+    "headSha": "9192202bd1f19c1c83b8e722007e2237539a005d",
+    "status": "completed",
+    "url": "https://github.com/pfrederiksen/paulschecklists/actions/runs/39747470086"
+  },
+  "domainDeployment": {
+    "conclusion": "success",
+    "headSha": "a57c2bd4d202945efce17d0741ca7ea1b6955066",
+    "status": "completed",
+    "url": "https://github.com/pfrederiksen/paulfrederiksen.com/actions/runs/39747493360"
+  },
+  "scope": "All four changed public artifacts freshly fetched and matched byte-for-byte on both hosts. Domain-root ads.txt/robots bytes and advertised sitemaps verified."
+}
